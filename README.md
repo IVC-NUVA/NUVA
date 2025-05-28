@@ -61,7 +61,7 @@ The structure of a release is as follows:
 │   ├── nuva_lang_de.ttl
 │   :
 │   └── nuva_lang_pl.ttl
-└── Alignments/
+└── Alignments/
     ├── nuva_refcode_ATC.csv
     :
     └── nuva_refcode_PZN.csv
