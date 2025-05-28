@@ -4,7 +4,7 @@ This document exposes the structure of the RDF resources composing the NUVA.
 ## Vaccine resource ##
 ### Structure ###
 | Predicate | Card. | Object | Object type |  Meaning |
-|--- |
+| ---       | ---   | ---    | ---         | ---      |
 |rdf:type | 1 | owl:Class | Resource | Structural |
 |rdfs:subClassOf | 1 |nuva:Vaccine | Resource | Structural |
 | dcterms:created | 1 | literal | xsd:date | Date of creation |
@@ -37,7 +37,7 @@ nuva:VAC0007 a owl:Class ;
 ## Valence resource ##
 ### Structure ###
 | Predicate | Card. | Object | Object type |  Meaning |
-|--- |
+| ---       | ---   | ---    | ---         | ---      |
 |rdf:type | 1 | owl:Class | Resource | Structural |
 | dcterms:created | 1 | literal | xsd:date | Date of creation |
 |dcterms:modified | 1 | literal | xsd:date | Date of last publication |
@@ -67,7 +67,7 @@ nuva:VAL017 a owl:Class ;
 ## CodeSystem resource ##
 ### Structure ###
 | Predicate | Card. | Object | Object type |  Meaning |
-|--- |
+| ---       | ---   | ---    | ---         | ---      |
 |rdf:type | 1 | owl:Class | Resource | Structural |
 |rdfs:subClassOf | 1 |nuva:CodeSystem | Resource | Structural |
 | dcterms:created | 1 | literal | xsd:date | Date of creation |
