@@ -75,11 +75,11 @@ A semantic incident can cause codification mistakes in vaccination histories, an
 The table below gives then the incident level among: neglectable, minor, or major.
 
 
-| Risk of induced mistake > | Unlikely	| Possible	| Probable | 
-|---
-| **>= 10% of population**	| Minor	| Major	 | Major | 
-|**>= 1% of population**	| Neglectable | Minor | Major |
-|**< 1% of population**	    | Neglectable | Neglectable |Minor |
+| Risk of induced mistake > | Unlikely  	| Possible	  | Probable | 
+| ---                       | ---         | ---         | ---      |
+| **>= 10% of population**	| Minor	      | Major       | Major    | 
+| **>= 1% of population**   | Neglectable | Minor       | Major    |
+| **< 1% of population**    | Neglectable | Neglectable | Minor    |
 
 The evaluations and their justifications are recorded in the ticket, as well as the exposure duration (the elapsed time since the faulty resource was published).
 
