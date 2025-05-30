@@ -1,0 +1,11 @@
+abstract: true
+label: HPV Vaccine
+comment: Human Papillomavirus vaccine, unspecified
+created: '2021-07-19'
+codes:
+  CVX: '137'
+  NUVACode: '0156'
+  CVC: '424519000'
+  SNOMED-CT: '911000221103'
+valences:
+- VAL082

@@ -1,0 +1,13 @@
+abstract: true
+label: Quadrivalent DTPeP vaccine - Diphtheria-Tetanus-Pertussis-Hib PRP, unspecified
+comment: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis
+  (whole inactivated) and Haemophilus influenzae type b (tetanus toxoid conjugated)
+  vaccine
+created: '2024-06-05'
+codes:
+  NUVACode: '1161'
+valences:
+- VAL067
+- VAL097
+- VAL156
+- VAL010

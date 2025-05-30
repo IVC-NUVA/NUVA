@@ -1,0 +1,14 @@
+abstract: true
+label: BCG vaccine, unspecified
+comment: Tuberculosis vaccine
+created: '2021-07-19'
+codes:
+  ATC: J07AN01
+  CPT: '90728'
+  ICD11: XM8142
+  CVX: '19'
+  NUVACode: '0134'
+  CVC: '418268006'
+  SNOMED-CT: '836402002'
+valences:
+- VAL096

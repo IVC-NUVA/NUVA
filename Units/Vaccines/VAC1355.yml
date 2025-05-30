@@ -1,0 +1,14 @@
+abstract: false
+label: EUPENTA
+comment: Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine),
+  coquelucheux (entier, dose standard), hépatite B et anti-Haemophilus influenzae
+  type b (conjugué à l'anatoxine tétanique)
+created: '2025-04-03'
+codes:
+  NUVACode: '1355'
+valences:
+- VAL067
+- VAL097
+- VAL114
+- VAL156
+- VAL010

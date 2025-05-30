@@ -1,0 +1,11 @@
+abstract: true
+label: Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified
+comment: Recombinant hepatitis B vaccine, monovalent, dialysis patient dosage
+created: '2022-05-02'
+codes:
+  CPT: '90747'
+  CVX: '44'
+  NUVACode: 0916
+  CVC: '8781000087106'
+valences:
+- VAL012

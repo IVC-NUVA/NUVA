@@ -1,0 +1,18 @@
+abstract: true
+label: HPV vaccine quadrivalent, unspecified
+comment: Human Papillomavirus vaccine, quadrivalent (types 6, 11, 16, and 18), recombinant
+created: '2022-03-09'
+codes:
+  ATC: J07BM01
+  CPT: '90649'
+  ICD11: XM1821
+  CVX: '62'
+  NUVACode: 0859
+  CVC: '7801000087108'
+  SNOMED-CT: '2001000221108'
+valences:
+- VAL241
+- VAL240
+- VAL052
+- VAL238
+- VAL239

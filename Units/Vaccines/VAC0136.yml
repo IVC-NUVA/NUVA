@@ -1,0 +1,13 @@
+abstract: true
+label: DTwP - Diphtheria-Tetanus-Pertussis, unspecified
+comment: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (whole-cell
+  inactivated) pediatric vaccine
+created: '2021-07-19'
+codes:
+  ATC: J07AJ51
+  NUVACode: '0136'
+  SNOMED-CT: '774618008'
+valences:
+- VAL067
+- VAL097
+- VAL010

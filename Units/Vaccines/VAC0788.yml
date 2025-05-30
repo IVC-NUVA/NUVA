@@ -1,0 +1,11 @@
+abstract: true
+label: Hib-IPV, unspecified
+comment: Haemophilus influenzae type b (conjugated, unspecified) and inactivated polio
+  (trivalent) vaccine
+created: '2021-10-26'
+codes:
+  ICD11: XM01H1
+  NUVACode: 0788
+valences:
+- VAL056
+- VAL103

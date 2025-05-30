@@ -1,0 +1,18 @@
+abstract: false
+label: PNEUMOSIL
+comment: Pneumococcal polysaccharide conjugate vaccine, 10-valent, serotypes 1, 5,
+  6A, 6B, 7F, 9V, 14, 19A, 19F and 23F
+created: '2025-03-13'
+codes:
+  NUVACode: '1322'
+valences:
+- VAL202
+- VAL190
+- VAL194
+- VAL192
+- VAL186
+- VAL198
+- VAL189
+- VAL191
+- VAL201
+- VAL204

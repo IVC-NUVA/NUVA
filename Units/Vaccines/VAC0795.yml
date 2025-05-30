@@ -1,0 +1,12 @@
+abstract: true
+label: Acellular pertussis vaccine, unspecified
+comment: Pertussis (acellular, unspecified dose) vaccine
+created: '2021-10-26'
+codes:
+  ATC: J07AJ02
+  ICD11: XM62J1
+  NUVACode: 0795
+  CVC: '7781000087107'
+  SNOMED-CT: '601000221108'
+valences:
+- VAL117

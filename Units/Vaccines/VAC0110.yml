@@ -1,0 +1,11 @@
+abstract: true
+label: Influenza vaccine, unspecified
+comment: Seasonal influenza vaccine
+created: '2021-07-19'
+codes:
+  CPT: '90724'
+  CVX: '88'
+  NUVACode: '0110'
+  SNOMED-CT: '836377006'
+valences:
+- VAL128

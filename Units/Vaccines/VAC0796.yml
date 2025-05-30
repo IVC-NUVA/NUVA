@@ -1,0 +1,11 @@
+abstract: true
+label: Pertussis vaccine, unspecified
+comment: Pertussis vaccine (acellular or whole-cell inactivated)
+created: '2021-10-26'
+codes:
+  CVX: '11'
+  NUVACode: 0796
+  CVC: '61602008'
+  SNOMED-CT: '871759008'
+valences:
+- VAL003

@@ -1,0 +1,24 @@
+abstract: true
+label: HPV vaccine nonavalent, unspecified
+comment: Human Papillomavirus vaccine, nonavalent (types 6, 11, 16, 18, 31, 33, 45,
+  52, and 58), recombinant
+created: '2022-03-09'
+codes:
+  ATC: J07BM03
+  CPT: '90651'
+  ICD11: XM5CE9
+  CVX: '165'
+  NUVACode: 0860
+  CVC: '20861000087100'
+  SNOMED-CT: '871767000'
+valences:
+- VAL036
+- VAL241
+- VAL240
+- VAL238
+- VAL244
+- VAL246
+- VAL242
+- VAL245
+- VAL239
+- VAL243

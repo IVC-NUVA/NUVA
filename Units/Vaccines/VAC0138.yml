@@ -1,0 +1,16 @@
+abstract: true
+label: Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified
+comment: Diphtheria toxoid (unspecified dose), tetanus toxoid, pertussis (whole-cell
+  inactivated or acellular, unspecified dose) and inactivated polio (trivalent) vaccine
+created: '2021-07-19'
+codes:
+  ATC: J07CA02
+  ICD11: XM09Q7
+  NUVACode: 0138
+  CVC: '7871000087103'
+  SNOMED-CT: '871878002'
+valences:
+- VAL067
+- VAL056
+- VAL083
+- VAL003

@@ -1,0 +1,15 @@
+abstract: true
+label: Measles-Rubella vaccine, unspecified
+comment: Live attenuated measles and rubella vaccine
+created: '2021-07-19'
+codes:
+  ATC: J07BD53
+  CPT: '90708'
+  ICD11: XM21H2
+  CVX: '04'
+  NUVACode: '0550'
+  CVC: '7281000087100'
+  SNOMED-CT: '871817003'
+valences:
+- VAL079
+- VAL005

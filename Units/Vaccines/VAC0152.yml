@@ -1,0 +1,17 @@
+abstract: true
+label: Unconjugated meningococcal vaccine ACWY, unspecified
+comment: Unconjugated meningococcal polysaccharide vaccine, serogroups A, C, W and
+  Y
+created: '2021-07-19'
+codes:
+  ATC: J07AH04
+  CPT: '90733'
+  ICD11: XM2EH7
+  CVX: '32'
+  NUVACode: '0152'
+  CVC: '7101000087101'
+valences:
+- VAL037
+- VAL138
+- VAL139
+- VAL137

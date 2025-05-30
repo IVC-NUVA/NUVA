@@ -1,0 +1,11 @@
+abstract: false
+label: VAX-SPIRAL
+comment: Trivalent vaccine against leptospirosis caused by Canicola serovar canicola,
+  Icterohaemorrhagiae serovar copenhageni and Pomona serovar mozdok
+created: '2024-04-26'
+codes:
+  NUVACode: '1079'
+valences:
+- VAL347
+- VAL075
+- VAL348

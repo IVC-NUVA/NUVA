@@ -1,0 +1,9 @@
+abstract: false
+label: SII TD-VAC
+comment: Diphtheria vaccine (toxoid, reduced dose) and tetanus vaccine (toxoid)
+created: '2025-03-12'
+codes:
+  NUVACode: '1310'
+valences:
+- VAL067
+- VAL034

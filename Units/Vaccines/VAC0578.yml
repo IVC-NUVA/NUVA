@@ -1,0 +1,15 @@
+abstract: false
+label: INFANRIX-HIB
+comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
+  acellular, standard dose) and Haemophilus influenzae type b (conjugated to tetanus
+  toxoid) pediatric vaccine
+created: '2021-07-19'
+codes:
+  INFARMED: '3093085'
+  CODE_NATIONAL_SPAIN: '600536'
+  NUVACode: 0578
+valences:
+- VAL067
+- VAL097
+- VAL008
+- VAL156

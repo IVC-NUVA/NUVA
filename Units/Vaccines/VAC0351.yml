@@ -1,0 +1,14 @@
+abstract: false
+label: QUINTUPLE
+comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
+  acellular, standard dose), Haemophilus influenzae type b (conjugated to tetanus
+  toxoid) and hepatitis B (recombinant) pediatric vaccine
+created: '2021-07-19'
+codes:
+  NUVACode: '0351'
+valences:
+- VAL067
+- VAL097
+- VAL114
+- VAL008
+- VAL156

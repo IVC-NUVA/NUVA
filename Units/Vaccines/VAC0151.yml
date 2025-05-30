@@ -1,0 +1,14 @@
+abstract: true
+label: Meningococcal A + C vaccine, unspecified
+comment: Unconjugated meningococcal polysaccharide vaccine, serogroups A and C
+created: '2021-07-19'
+codes:
+  ATC: J07AH03
+  ICD11: XM3T39
+  CVX: '192'
+  NUVACode: '0151'
+  CVC: '7091000087106'
+  SNOMED-CT: '871871008'
+valences:
+- VAL037
+- VAL137

@@ -1,0 +1,13 @@
+abstract: true
+label: Typhoid-hepatitis A vaccine, unspecified
+comment: Combined typhoid and hepatitis A vaccine
+created: '2021-07-19'
+codes:
+  ATC: J07CA10
+  ICD11: XM3JA6
+  NUVACode: '0712'
+  CVC: '333707007'
+  SNOMED-CT: '871804001'
+valences:
+- VAL125
+- VAL014

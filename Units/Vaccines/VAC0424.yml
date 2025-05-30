@@ -1,0 +1,13 @@
+abstract: true
+label: Live attenuated oral typhoid vaccine, unspecified
+comment: Live attenuated typhoid vaccine, strain Ty21a, oral
+created: '2021-07-19'
+codes:
+  ATC: J07AP01
+  CPT: '90690'
+  ICD11: XM33K4
+  CVX: '25'
+  NUVACode: '0424'
+  SNOMED-CT: '971000221109'
+valences:
+- VAL091

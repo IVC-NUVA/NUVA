@@ -1,0 +1,16 @@
+abstract: true
+label: MMR vaccine, live attenuated, unspecified
+comment: Live attenuated measles, mumps and rubella vaccine
+created: '2021-07-19'
+codes:
+  ATC: J07BD52
+  CPT: '90707'
+  ICD11: XM8TF3
+  CVX: '03'
+  NUVACode: '0130'
+  CVC: '61153008'
+  SNOMED-CT: '871831003'
+valences:
+- VAL079
+- VAL077
+- VAL005

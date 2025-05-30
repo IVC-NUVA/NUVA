@@ -1,0 +1,18 @@
+abstract: true
+label: Pentavalent DTaPHibIPV vaccine, unspecified
+comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
+  acellular, standard dose), Haemophilus influenzae type b (conjugated, unspecified)
+  and inactivated polio (trivalent) pediatric vaccine
+created: '2021-07-19'
+codes:
+  CPT: '90698'
+  ICD11: XM21E6
+  CVX: '170'
+  NUVACode: '0506'
+  CVC: '8221000087100'
+valences:
+- VAL067
+- VAL097
+- VAL056
+- VAL103
+- VAL008

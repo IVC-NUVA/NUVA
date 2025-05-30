@@ -1,0 +1,17 @@
+abstract: false
+label: INFANRIX-IPV/HIB
+comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
+  acellular, standard dose), inactivated polio (trivalent) and Haemophilus influenzae
+  type b pediatric vaccine
+created: '2023-06-29'
+codes:
+  INFARMED: '2858082'
+  NUVACode: '1045'
+  CTI-EXTEND: 193961-01
+  CTI: '193961'
+valences:
+- VAL067
+- VAL097
+- VAL056
+- VAL008
+- VAL156

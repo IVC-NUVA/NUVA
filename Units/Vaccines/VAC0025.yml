@@ -1,0 +1,20 @@
+abstract: false
+label: PREVENAR
+comment: Pneumococcal conjugate vaccine, 7-valent, adsorbed, serotypes 4, 6B, 9V,
+  14, 18C, 19F and 23F
+created: '2021-07-19'
+codes:
+  CIP: '3400935948106'
+  CNK: '1658384'
+  CIS: '65598079'
+  EU-NUMBER: EU-1-00-167-005
+  AIC: '035053077'
+  NUVACode: '0025'
+valences:
+- VAL202
+- VAL200
+- VAL188
+- VAL194
+- VAL198
+- VAL191
+- VAL204

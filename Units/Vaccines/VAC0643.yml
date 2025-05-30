@@ -1,0 +1,18 @@
+abstract: true
+label: Meningococcal ACWY conjugate vaccine, unspecified
+comment: Quadrivalent meningococcal polysaccharide conjugate vaccine, serogroups A,
+  C, W and Y
+created: '2021-07-19'
+codes:
+  ATC: J07AH08
+  CPT: '90734'
+  ICD11: XM2AR0
+  CVX: '147'
+  NUVACode: '0643'
+  CVC: '7121000087107'
+  SNOMED-CT: '871873006'
+valences:
+- VAL057
+- VAL136
+- VAL078
+- VAL041

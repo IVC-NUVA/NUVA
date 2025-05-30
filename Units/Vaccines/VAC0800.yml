@@ -1,0 +1,16 @@
+abstract: true
+label: Diphtheria-tetanus-pertussis-Hib vaccine, unspecified
+comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (acellular standard
+  dose or whole-inactivated) and Haemophilus influenzae type b (conjugated, unspecified)
+  pediatric vaccine
+created: '2021-10-26'
+codes:
+  ATC: J07AG52
+  CPT: '90720'
+  CVX: '22'
+  NUVACode: 0800
+valences:
+- VAL067
+- VAL097
+- VAL103
+- VAL003

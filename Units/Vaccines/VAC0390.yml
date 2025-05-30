@@ -1,0 +1,16 @@
+abstract: false
+label: TETRACT-HIB
+comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell
+  inactivated) et Haemophilus influenzae type b (conjugated to tetanus toxoid) pediatric
+  vaccine
+created: '2021-07-19'
+codes:
+  CIP: '3400934761409'
+  CIS: '69742160'
+  AIC: '032133011'
+  NUVACode: 0390
+valences:
+- VAL067
+- VAL097
+- VAL156
+- VAL010

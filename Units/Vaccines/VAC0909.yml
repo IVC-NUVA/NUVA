@@ -1,0 +1,11 @@
+abstract: true
+label: Botulinum antitoxin
+comment: Antitoxin against botulism
+created: '2022-05-02'
+codes:
+  CPT: '90287'
+  CVX: '27'
+  NUVACode: 0909
+  CVC: '86080005'
+valences:
+- VAL063

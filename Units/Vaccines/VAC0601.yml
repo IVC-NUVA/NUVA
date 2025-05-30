@@ -1,0 +1,16 @@
+abstract: true
+label: DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified
+comment: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (whole-cell
+  inactivated or acellular, unspecified dose) pediatric vaccine
+created: '2021-07-19'
+codes:
+  CPT: '90701'
+  ICD11: XM1PB8
+  CVX: '01'
+  NUVACode: '0601'
+  CVC: '7831000087100'
+  SNOMED-CT: '871875004'
+valences:
+- VAL067
+- VAL097
+- VAL003

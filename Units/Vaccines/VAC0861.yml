@@ -1,0 +1,12 @@
+abstract: true
+label: Multicomponent meningococcal B vaccine, unspecified
+comment: Meningococcal vaccine, serogroup B (multicomponent - multiple proteins)
+created: '2022-03-11'
+codes:
+  ATC: J07AH09
+  CPT: '90621'
+  ICD11: XM1X81
+  CVX: '162'
+  NUVACode: 0861
+valences:
+- VAL161

@@ -1,0 +1,12 @@
+abstract: true
+label: Pneumococcal vaccine, unspecified
+comment: Pneumococcal conjugate or non conjugate polysaccharide vaccine, number of
+  serotypes unspecified
+created: '2021-07-19'
+codes:
+  CVX: '109'
+  NUVACode: '0157'
+  CVC: '333598008'
+  SNOMED-CT: '981000221107'
+valences:
+- VAL105

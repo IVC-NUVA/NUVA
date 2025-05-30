@@ -1,0 +1,13 @@
+abstract: true
+label: Mumps vaccine, unspecified
+comment: Live attenuated mumps vaccine
+created: '2021-07-19'
+codes:
+  ATC: J07BE01
+  CPT: '90704'
+  CVX: '07'
+  NUVACode: '0153'
+  CVC: '90043005'
+  SNOMED-CT: '871738001'
+valences:
+- VAL077

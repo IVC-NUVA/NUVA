@@ -1,0 +1,29 @@
+abstract: false
+label: SYNFLORIX
+comment: Pneumococcal polysaccharide conjugate vaccine, 10-valent, seroptypes 1, 4,
+  5, 6B, 7F, 9V, 14, 18C, 19F and 23F
+created: '2021-07-19'
+codes:
+  CIP: '3400930074725'
+  CNK: '2620888'
+  PZN: 07022950
+  CIS: '68957822'
+  EU-NUMBER: EU-1-09-508-013
+  AIC: 039104120
+  CODE_NATIONAL_SPAIN: '662990'
+  DIN: '02320541'
+  NUVACode: 0083
+  CVC: '7671000087104'
+  CTI-EXTEND: 520560-01
+  CTI: '520560'
+valences:
+- VAL202
+- VAL200
+- VAL188
+- VAL194
+- VAL192
+- VAL186
+- VAL198
+- VAL189
+- VAL191
+- VAL204
