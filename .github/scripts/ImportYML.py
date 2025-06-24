@@ -52,7 +52,7 @@ for vaccine in g.subjects(RDFS.subClassOf,VaccinesParent):
 
 for valence in g.subjects(RDFS.subClassOf,ValencesParent):
     id = str(g.value(valence,SKOS.notation))
-    created = str(g.value(vaccine,DCTERMS.created))
+    created = str(g.value(valence,DCTERMS.created))
     label = en_txt(valence,RDFS.label)
     shorthand = en_txt(valence,SKOS.altLabel)
 
