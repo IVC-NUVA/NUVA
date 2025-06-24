@@ -4,12 +4,14 @@ import yaml
 import sys, os
 from time import gmtime,strftime
 
+lang='en'
+
 def ref(URIRef):
     return URIRef.split('/')[-1]
 
-def en_txt(s,p):
+def lang_txt(s,p):
     for l in g.objects(s,p):
-        if l.language in (None,'en'):
+        if l.language in (None,lang):
             return str(l)
     return(None)
 
@@ -26,13 +28,13 @@ nuva_file = urlopen("https://ivci.org/nuva/nuva_core.ttl")
 g = Graph()
 g.parse(nuva_file.read())
 
-labels = {'en' : {'disease':{}, 'vaccine':{}, 'valence':{}}}
+labels = {lang : {'disease':{}, 'vaccine':{}, 'valence':{}}}
 
 for disease in g.subjects(RDFS.subClassOf,DiseasesParent):
     # Update labels
-    label = en_txt(disease,RDFS.label)
+    label = lang_txt(disease,RDFS.label)
     notation = g.value(disease,SKOS.notation)
-    labels['en']['disease'][f'{notation}L'] = label
+    labels[lang]['disease'][f'{notation}L'] = label
 
 for vaccine in g.subjects(RDFS.subClassOf,VaccinesParent):
     # Notation and external codes
@@ -46,8 +48,8 @@ for vaccine in g.subjects(RDFS.subClassOf,VaccinesParent):
     
     created = str(g.value(vaccine,DCTERMS.created))
     abstract = bool(g.value(vaccine,isAbstract))
-    label = en_txt(vaccine,RDFS.label)
-    comment = en_txt(vaccine,RDFS.comment)
+    label = lang_txt(vaccine,RDFS.label)
+    comment = lang_txt(vaccine,RDFS.comment)
     # Valences
     valences = []
     for val in g.objects(vaccine,containsValence):
@@ -57,17 +59,18 @@ for vaccine in g.subjects(RDFS.subClassOf,VaccinesParent):
     record = {'abstract': abstract, 'label': label, 'comment': comment, 'created': created, 'codes': codes, 'valences': valences}
     with open (f'Units/Vaccines/{id}.yml','w',encoding='utf-8') as ymlfile:
         yaml.dump(record,ymlfile,allow_unicode = True, sort_keys = False)
-    # Update labels
-    labels['en']['vaccine'][f'{id}L'] = label
-    if comment and abstract:
-        labels['en']['vaccine'][f'{id}C'] = comment
+    # Update labels for translations
+    if abstract:
+        labels[lang]['vaccine'][f'{id}L'] = label
+        if comment:
+            labels[lang]['vaccine'][f'{id}C'] = comment
 
 
 for valence in g.subjects(RDFS.subClassOf,ValencesParent):
     id = str(g.value(valence,SKOS.notation))
     created = str(g.value(valence,DCTERMS.created))
-    label = en_txt(valence,RDFS.label)
-    shorthand = en_txt(valence,SKOS.altLabel)
+    label = lang_txt(valence,RDFS.label)
+    shorthand = lang_txt(valence,SKOS.altLabel)
 
     parent = "None"
     for vsup in g.objects(valence,RDFS.subClassOf):
@@ -78,13 +81,13 @@ for valence in g.subjects(RDFS.subClassOf,ValencesParent):
     with open (f'Units/Valences/{id}.yml','w',encoding='utf-8') as ymlfile:
         yaml.dump(record,ymlfile,allow_unicode = True, sort_keys = False)
     # Update labels
-    labels['en']['valence'][f'{id}L'] = label
-    labels['en']['valence'][f'{id}S'] = shorthand
+    labels[lang]['valence'][f'{id}L'] = label
+    labels[lang]['valence'][f'{id}S'] = shorthand
 
 with open ('Units/import.txt','w',encoding='utf-8') as importfile:
     version = g.value(URIRef(BaseURI),OWL.versionInfo)
     now = strftime("%Y-%m-%d %H:%M", gmtime())
     print(f'Imported version {version} at {now} GMT',file=importfile)
 
-with open ('Translations/nuva_en.yml','w',encoding = 'utf-8') as labels_file:
+with open (f'Translations/nuva_{lang}.yml','w',encoding = 'utf-8') as labels_file:
     yaml.dump(labels,labels_file, allow_unicode = True)
