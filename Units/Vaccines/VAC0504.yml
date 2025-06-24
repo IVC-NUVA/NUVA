@@ -5,12 +5,12 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomp
   toxoid) and inactivated polio (trivalent) pediatric vaccine, adsorbed
 created: '2021-07-19'
 codes:
-  PZN: 08627721
   CODE_NATIONAL_SPAIN: '841320'
   NUVACode: '0504'
+  PZN: 08627721
 valences:
+- VAL008
+- VAL056
 - VAL067
 - VAL097
-- VAL056
-- VAL008
 - VAL156

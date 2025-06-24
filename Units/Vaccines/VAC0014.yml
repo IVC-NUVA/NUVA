@@ -6,23 +6,23 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomp
   pediatric vaccine, adsorbed
 created: '2021-07-19'
 codes:
-  CIP: '3400956211326'
-  INFARMED: '3236684'
-  CNK: '1665363'
-  PZN: '10538539'
-  CIS: '62966063'
-  EU-NUMBER: EU-1-00-152-021
   AIC: 034960219
+  CIP: '3400956211326'
+  CIS: '62966063'
+  CNK: '1665363'
   CODE_NATIONAL_SPAIN: '820068'
-  DIN: 02253852
-  NUVACode: '0014'
-  CVC: '7451000087107'
-  CTI-EXTEND: 490186-01
   CTI: '490186'
+  CTI-EXTEND: 490186-01
+  CVC: '7451000087107'
+  DIN: 02253852
+  EU-NUMBER: EU-1-00-152-021
+  INFARMED: '3236684'
+  NUVACode: '0014'
+  PZN: '10538539'
 valences:
+- VAL008
+- VAL056
 - VAL067
 - VAL097
-- VAL056
 - VAL114
-- VAL008
 - VAL156

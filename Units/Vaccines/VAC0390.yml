@@ -5,12 +5,13 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cel
   vaccine
 created: '2021-07-19'
 codes:
+  AIC: '032133011'
   CIP: '3400934761409'
   CIS: '69742160'
-  AIC: '032133011'
+  INFARMED: '3092780'
   NUVACode: 0390
 valences:
+- VAL010
 - VAL067
 - VAL097
 - VAL156
-- VAL010

@@ -5,9 +5,10 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomp
 created: '2022-03-26'
 codes:
   AIC: '033342142'
+  INFARMED: '3910189'
   NUVACode: 0877
 valences:
+- VAL008
 - VAL067
 - VAL097
 - VAL114
-- VAL008

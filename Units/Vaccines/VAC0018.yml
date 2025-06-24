@@ -4,13 +4,13 @@ comment: Unconjugated meningococcal polysaccharide vaccine, serogroups A, C, W a
   Y
 created: '2021-07-19'
 codes:
-  CIP: '3400938588873'
-  CNK: '2473809'
-  CIS: '64234891'
   AIC: 038504066
+  CIP: '3400938588873'
+  CIS: '64234891'
+  CNK: '2473809'
   NUVACode: 0018
 valences:
 - VAL037
+- VAL137
 - VAL138
 - VAL139
-- VAL137

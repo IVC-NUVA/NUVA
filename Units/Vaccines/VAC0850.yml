@@ -3,12 +3,12 @@ label: NEISVAC-C
 comment: Meningococcal conjugate vaccine, serogroup C (conjugated to tetanus toxoid)
 created: '2022-03-03'
 codes:
-  INFARMED: '3611183'
   CODE_NATIONAL_SPAIN: '933788'
-  DIN: '02245057'
-  NUVACode: 0850
-  CVC: '7081000087109'
-  CTI-EXTEND: 226274-03
   CTI: '226274'
+  CTI-EXTEND: 226274-03
+  CVC: '7081000087109'
+  DIN: '02245057'
+  INFARMED: '4862280'
+  NUVACode: 0850
 valences:
 - VAL266

@@ -3,9 +3,9 @@ label: SPIKEVAX JN.1 50 µg
 comment: COVID-19 mRNA vaccine, subvariant Omicron JN.1, 50 microgram dose
 created: '2025-02-19'
 codes:
-  NUVACode: '1268'
-  CTI-EXTEND: 663266-01
   CTI: '663266'
-  EU-NUMBER: EU-1-20-1507-024
+  CTI-EXTEND: 663266-01
+  EU-NUMBER: EU-1-20-1507-026
+  NUVACode: '1268'
 valences:
 - VAL388

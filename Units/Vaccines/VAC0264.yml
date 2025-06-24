@@ -4,15 +4,16 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (multic
   acellular, standard dose) pediatric vaccine
 created: '2021-07-19'
 codes:
-  NDC: 58160-0810-52
-  CNK: '1177682'
-  PZN: 08706113
   AIC: 029244086
+  CNK: '1177682'
   CODE_NATIONAL_SPAIN: '664052'
-  NUVACode: '0264'
-  CTI-EXTEND: 169303-02
   CTI: '169303'
+  CTI-EXTEND: 169303-02
+  INFARMED: '2392587'
+  NDC: 58160-0810-52
+  NUVACode: '0264'
+  PZN: 08706113
 valences:
+- VAL008
 - VAL067
 - VAL097
-- VAL008

@@ -4,15 +4,15 @@ comment: Pneumococcal polysaccharide conjugate vaccine, 7-valent, adsorbed, sero
   4, 6B, 9V, 14, 18C, 19F and 23F
 created: '2021-07-19'
 codes:
-  NDC: 00005-1971-05
-  DIN: 02244081
-  NUVACode: '0341'
   CVC: '7651000087105'
+  DIN: 02244081
+  NDC: 00005-1971-05
+  NUVACode: '0341'
 valences:
-- VAL202
-- VAL200
 - VAL188
+- VAL191
 - VAL194
 - VAL198
-- VAL191
+- VAL200
+- VAL202
 - VAL204

@@ -5,11 +5,12 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cel
 created: '2021-07-19'
 codes:
   CIP: '3400933725419'
-  CNK: '1303387'
   CIS: '69960198'
+  CNK: '1303387'
+  INFARMED: '3475886'
   NUVACode: '0063'
 valences:
+- VAL010
+- VAL056
 - VAL067
 - VAL097
-- VAL056
-- VAL010

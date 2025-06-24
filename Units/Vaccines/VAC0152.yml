@@ -6,12 +6,12 @@ created: '2021-07-19'
 codes:
   ATC: J07AH04
   CPT: '90733'
-  ICD11: XM2EH7
-  CVX: '32'
-  NUVACode: '0152'
   CVC: '7101000087101'
+  CVX: '32'
+  ICD11: XM2EH7
+  NUVACode: '0152'
 valences:
 - VAL037
+- VAL137
 - VAL138
 - VAL139
-- VAL137

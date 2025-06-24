@@ -4,20 +4,20 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomp
   acellular, standard dose) and inactivated polio (trivalent) pediatric vaccine
 created: '2021-07-19'
 codes:
-  CIP: '3400936875005'
-  INFARMED: '5458682'
-  CP-NRONATIDENT: 0253876
-  CNK: '2231868'
-  PZN: 02699659
-  CIS: '66543281'
   AIC: '034127100'
-  NUVACode: '0037'
-  CVC: '23721000087109'
-  NTIN: '7680006120013'
-  CTI-EXTEND: 196122-06
+  CIP: '3400936875005'
+  CIS: '66543281'
+  CNK: '2231868'
+  CP-NRONATIDENT: 0253876
   CTI: '196122'
+  CTI-EXTEND: 196122-06
+  CVC: '23721000087109'
+  INFARMED: '5458781'
+  NTIN: '7680006120013'
+  NUVACode: '0037'
+  PZN: 02699659
 valences:
+- VAL008
+- VAL056
 - VAL067
 - VAL097
-- VAL056
-- VAL008

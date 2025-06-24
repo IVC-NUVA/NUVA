@@ -3,8 +3,9 @@ label: T.Polio, unspecified
 comment: Tetanus toxoid and inactivated polio (trivalent) vaccine
 created: '2021-07-19'
 codes:
-  NUVACode: 0380
   CVC: '7751000087104'
+  NUVACode: 0380
+  SNOMED-CT: '871816007'
 valences:
-- VAL067
 - VAL056
+- VAL067

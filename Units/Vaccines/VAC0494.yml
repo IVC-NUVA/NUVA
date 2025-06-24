@@ -4,12 +4,13 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cel
   inactivated) and hepatitis B (recombinant) pediatric vaccine
 created: '2021-07-19'
 codes:
-  EU-NUMBER: EU-1-96-014-003
   AIC: 030694020
   CODE_NATIONAL_SPAIN: '676122'
+  EU-NUMBER: EU-1-96-014-003
+  INFARMED: '3750585'
   NUVACode: 0494
 valences:
+- VAL010
 - VAL067
 - VAL097
 - VAL114
-- VAL010

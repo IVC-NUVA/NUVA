@@ -1,12 +1,12 @@
 abstract: true
-label: Diphtheria, tetanus, typhoid and paratypoid A and B vaccines, unspecified
+label: DT-TAB Diphtheria, tetanus, typhoid and paratypoid A and B vaccines, unspecified
 comment: Diphtheria, tetanus (toxoid), typhoid (whole inactivated) and paratyphoid
   A and B (whole inactivated) vaccines
 created: '2024-06-05'
 codes:
   NUVACode: '1225'
 valences:
-- VAL067
-- VAL097
 - VAL045
+- VAL067
 - VAL071
+- VAL097

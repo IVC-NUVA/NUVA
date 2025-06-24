@@ -4,11 +4,11 @@ comment: Meningococcal polysaccharide (groups A, C, Y, W) tetanus toxoid conjuga
   meningococcal B recombinant vaccine
 created: '2024-03-17'
 codes:
+  EU-NUMBER: EU-1-24-1871-006
   NUVACode: '1061'
-  EU-NUMBER: EU-1-24-1871-002
 valences:
-- VAL272
 - VAL072
-- VAL276
-- VAL271
 - VAL266
+- VAL271
+- VAL272
+- VAL276

@@ -3,12 +3,12 @@ label: Combined hepatitis A and hepatitis B vaccine, unspecified
 comment: Combined hepatitis A and B vaccine
 created: '2021-10-26'
 codes:
+  AIC: '033014'
   ATC: J07BC20
   CPT: '90636'
-  AIC: '033014'
   CVX: '104'
   NUVACode: 0825
   SNOMED-CT: '871803007'
 valences:
-- VAL125
 - VAL068
+- VAL125

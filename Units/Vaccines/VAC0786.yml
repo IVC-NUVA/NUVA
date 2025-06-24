@@ -5,28 +5,28 @@ comment: Pneumococcal polysaccharide conjugate vaccine, 20-valent, adsorbed, ser
   33F
 created: '2021-10-26'
 codes:
-  NDC: 00005-2000-10
   CPT: '90677'
-  NUVACode: 0786
   CVC: '37881000087105'
+  NDC: 00005-2000-10
+  NUVACode: 0786
 valences:
-- VAL197
-- VAL202
-- VAL200
+- VAL186
 - VAL187
-- VAL190
 - VAL188
-- VAL194
+- VAL189
+- VAL190
+- VAL191
 - VAL192
 - VAL193
-- VAL199
+- VAL194
 - VAL195
-- VAL205
-- VAL186
-- VAL198
-- VAL189
-- VAL191
 - VAL196
+- VAL197
+- VAL198
+- VAL199
+- VAL200
 - VAL201
+- VAL202
 - VAL203
 - VAL204
+- VAL205

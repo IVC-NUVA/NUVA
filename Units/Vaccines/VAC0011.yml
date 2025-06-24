@@ -3,14 +3,15 @@ label: HBVAXPRO 5 µg
 comment: Recombinant hepatitis B vaccine, pediatric dose
 created: '2021-07-19'
 codes:
-  CIP: '3400957259372'
-  CNK: '1657931'
-  CIS: '69352630'
-  EU-NUMBER: EU-1-01-183-031
   AIC: '035262310'
+  CIP: '3400957259372'
+  CIS: '69352630'
+  CNK: '1657931'
   CODE_NATIONAL_SPAIN: '904813'
-  NUVACode: '0011'
-  CTI-EXTEND: 328343-01
   CTI: '328343'
+  CTI-EXTEND: 328343-01
+  EU-NUMBER: EU-1-01-183-031
+  INFARMED: '5177738'
+  NUVACode: '0011'
 valences:
 - VAL170
