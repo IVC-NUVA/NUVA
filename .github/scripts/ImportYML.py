@@ -14,16 +14,25 @@ def en_txt(s,p):
     return(None)
 
 BaseURI="http://ivci.org/NUVA"
+DiseasesParent=URIRef(BaseURI+"/Disease")
 VaccinesParent=URIRef(BaseURI+"/Vaccine")
 ValencesParent=URIRef(BaseURI+"/Valence")
 
 isAbstract=URIRef(BaseURI+"/nuvs#isAbstract")
 containsValence=URIRef(BaseURI+"/nuvs#containsValence")
 
-print (os.getcwd())
-nuva_file = urlopen("https://ivci.org/nuva/nuva_full.ttl")
+
+nuva_file = urlopen("https://ivci.org/nuva/nuva_core.ttl")
 g = Graph()
 g.parse(nuva_file.read())
+
+labels = {'en' : {'disease':{}, 'vaccine':{}, 'valence':{}}}
+
+for disease in g.subjects(RDFS.subClassOf,DiseasesParent):
+    # Update labels
+    label = en_txt(disease,RDFS.label)
+    notation = g.value(disease,SKOS.notation)
+    labels['en']['disease'][f'{notation}L'] = label
 
 for vaccine in g.subjects(RDFS.subClassOf,VaccinesParent):
     # Notation and external codes
@@ -48,6 +57,10 @@ for vaccine in g.subjects(RDFS.subClassOf,VaccinesParent):
     record = {'abstract': abstract, 'label': label, 'comment': comment, 'created': created, 'codes': codes, 'valences': valences}
     with open (f'Units/Vaccines/{id}.yml','w',encoding='utf-8') as ymlfile:
         yaml.dump(record,ymlfile,allow_unicode = True, sort_keys = False)
+    # Update labels
+    labels['en']['vaccine'][f'{id}L'] = label
+    if comment and abstract:
+        labels['en']['vaccine'][f'{id}C'] = comment
 
 
 for valence in g.subjects(RDFS.subClassOf,ValencesParent):
@@ -64,8 +77,14 @@ for valence in g.subjects(RDFS.subClassOf,ValencesParent):
     record = {'label': label, 'created': created, 'shorthand': shorthand, 'parent': parent}
     with open (f'Units/Valences/{id}.yml','w',encoding='utf-8') as ymlfile:
         yaml.dump(record,ymlfile,allow_unicode = True, sort_keys = False)
+    # Update labels
+    labels['en']['valence'][f'{id}L'] = label
+    labels['en']['valence'][f'{id}S'] = shorthand
 
-with open (f'Units/import.txt','w',encoding='utf-8') as importfile:
+with open ('Units/import.txt','w',encoding='utf-8') as importfile:
     version = g.value(URIRef(BaseURI),OWL.versionInfo)
     now = strftime("%Y-%m-%d %H:%M", gmtime())
     print(f'Imported version {version} at {now} GMT',file=importfile)
+
+with open ('Translations/nuva_en.yml','w',encoding = 'utf-8') as labels_file:
+    yaml.dump(labels,labels_file, allow_unicode = True)
