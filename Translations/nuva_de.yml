@@ -1,1 +1,1354 @@
-{}
+vaccine:
+  VAC0787L: Diphtheria-Tetanus-Rubella, unspecified
+  VAC0794L: T-igT, unspecified
+  VAC0088L: DTIPV vaccine, unspecified
+  VAC0102C: Inaktivierter Hepatitis-A-Impfstoff, pädiatrische Dosis oder 
+    Erwachsenendosis
+  VAC0102L: Inaktivierter Hepatitis-A-Impfstoff, nicht näher bezeichnet
+  VAC0110C: Impfstoff gegen saisonale Grippe
+  VAC0130L: MMR vaccine, unspecified
+  VAC0138C: Diphtherietoxoid (Dosis nicht spezifiziert), Tetanustoxoid, 
+    azellulärer oder ganzzelliger inaktivierter Pertussis-Impfstoff (Dosis nicht
+    spezifiziert) und inaktivierter Polio-Impfstoff (trivalent)
+  VAC0138L: Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified
+  VAC0143C: Konjugatimpfstoff gegen Haemophilus influenzae Typ b
+  VAC0143L: Haemophilus influenzae B (or Hib) vaccine, unspecified
+  VAC0144C: Impfstoff gegen Cholera
+  VAC0144L: Cholera vaccine, unspecified
+  VAC0145C: Impfstoff gegen durch Zecken übertragene Enzephalitis
+  VAC0145L: Tick-borne encephalitis vaccine, unspecified
+  VAC0146C: Attenuierter Lebendimpfstoff gegen Japanische Enzephalitis, Stamm 
+    14-14-2
+  VAC0148L: Leptospirosis vaccine, unspecified
+  VAC0149L: Meningococcal B:14:P1.7,16 vaccine, unspecified
+  VAC0150C: Meningokokken-C-Konjugatimpfstoff
+  VAC0152L: Unconjugated meningococcal vaccine ACWY, unspecified
+  VAC0155C: Dengue-Impfstoff, nicht näher bezeichnet
+  VAC0155L: Dengue vaccine, unspecified
+  VAC0156C: Humaner Papillomavirus-Impfstoff, nicht spezifiziert
+  VAC0156L: HPV Vaccine
+  VAC0158C: Rotavirus-Impfstoff
+  VAC0829L: Rubella-Mumps vaccine, unspecified
+  VAC0830C: Subunit-Impfstoff gegen Gürtelrose (entspricht derzeit dem 
+    Glykoprotein E)
+  VAC0830L: Subunit shingles vaccine, unspecified
+  VAC0831C: Ebola-Virus-Impfstoff
+  VAC0831L: Ebola vaccine, unspecified
+  VAC0832C: Inaktivierter Herpes-simplex-Impfstoff
+  VAC0832L: Herpes Simplex vaccine, unspecified
+  VAC0839C: Inaktivierter Brucellose-Vollzellimpfstoff
+  VAC0839L: Inactivated whole-cell brucella vaccine, unspecified
+  VAC0849C: Impfstoff gegen Tularämie
+  VAC0324C: Pneumokokken-Polysaccharid-Konjugatimpfstoff, 7-valent, Serotypen 4,
+    6B, 9V, 14, 18C, 19F und 23F
+  VAC0324L: Pneumococcal conjugate vaccine, 7 valent, unspecified
+  VAC0339C: Pneumokokken-Polysaccharid-Nichtkonjugatimpfstoff, 23-valent
+  VAC0339L: Pneumococcal polysaccharide vaccine 23-valent, unspecified
+  VAC0503L: Rabies immunoglobulin equine origin, unspecified
+  VAC0506C: Diphtherietoxoid (Standarddosis), Tetanustoxoid, azellulärer 
+    Mehrkomponenten-Pertussisimpfstoff (Standarddosis), Haemophilus influenzae 
+    Typ b (konjugiert unspezifisch) und inaktivierter Polioimpfstoff (trivalent)
+    für Kinder
+  VAC0506L: Pentavalent DTaPHibIPV vaccine, unspecified
+  VAC0512C: Impfstoff gegen epidemischen Typhus (epidemischer Läusetyphus)
+  VAC0512L: Typhus vaccine, unspecified
+  VAC0549C: Diphtherie-Toxoid (niedrige Dosis), Tetanus-Toxoid und inaktivierter
+    Polio-Impfstoff (trivalent)
+  VAC0549L: dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified
+  VAC0550C: Attenuierter Lebendimpfstoff gegen Masern und Röteln
+  VAC0550L: Measles-Rubella vaccine, unspecified
+  VAC0551C: Diphtherietoxoid (Standarddosis), Tetanustoxoid, azellulärer 
+    Mehrkomponenten-Pertussisimpfstoff (Standarddosis) und inaktivierter 
+    Polioimpfstoff (dreiwertig) für Kinder
+  VAC0854C: Polio-Impfstoff (abgeschwächter, monovalenter Lebendimpfstoff) gegen
+    Polioviren Typ 3, zum Schlucken
+  VAC0854L: mOPV3 Sabin monovalenter oraler Polioimpfstoff Typ 3, nicht 
+    spezifiziert
+  VAC0857L: Diphtherie-Tetanus-Pertussis-Hepatitis-B-Impfstoff, nicht näher 
+    bezeichnet
+  VAC0859C: Vierwertiger rekombinanter humaner Papillomavirus-Impfstoff, Typen 
+    6, 11, 16 und 18
+  VAC0937C: Impfstoff gegen Botulismus
+  VAC0084C: Impfstoff gegen Influenza A(H5N1)
+  VAC0084L: H5N1 pre-pandemic influenza vaccine, unspecified
+  VAC0088C: Diphtherie-Toxoid (Standarddosis), Tetanus-Toxoid und inaktivierter 
+    Polio-Impfstoff (trivalent) für Kinder
+  VAC0101C: Rekombinanter Hepatitis-B-Impfstoff, Dosis nicht spezifiziert
+  VAC0101L: Hepatitis-B-Impfstoff, rekombinant, ohne nähere Angaben
+  VAC0110L: Influenza vaccine, unspecified
+  VAC0111C: Attenuierter Lebendimpfstoff gegen Gelbfieber
+  VAC0111L: Yellow fever vaccine, unspecified
+  VAC0112C: Impfstoff gegen Typhus
+  VAC0112L: Typhoid vaccine, unspecified
+  VAC0113C: Attenuierter Röteln-Lebendimpfstoff
+  VAC0113L: Rubella vaccine, unspecified
+  VAC0114C: Attenuierter Lebendimpfstoff gegen Masern
+  VAC0114L: Live attenuated measles vaccine, unspecified
+  VAC0130C: Attenuierter Lebendimpfstoff gegen Masern, Mumps und Röteln
+  VAC0131C: Inaktivierter Tollwut-Vollvirusimpfstoff
+  VAC0131L: Rabies vaccine, unspecified
+  VAC0132C: Tetanus-Toxoid-Impfstoff
+  VAC0132L: Tetanus vaccine, unspecified
+  VAC0133C: Attenuierter Lebendimpfstoff gegen Pocken
+  VAC0133L: Smallpox vaccine, unspecified
+  VAC0134C: Tuberkulose-Impfstoff
+  VAC0134L: BCG vaccine, unspecified
+  VAC0135C: Polio-Impfstoff (abgeschwächter Lebendimpfstoff, trivalent)
+  VAC0135L: Polio vaccine, unspecified
+  VAC0136C: Diphtherietoxoid (Standarddosis), Tetanustoxoid und inaktivierter 
+    Pertussis-Vollzellimpfstoff für Kinder
+  VAC0136L: DTwP - Diphtheria-Tetanus-Pertussis, unspecified
+  VAC0137C: Diphtherietoxoid (Standarddosis) und Tetanustoxoid-Impfstoff für 
+    Kinder
+  VAC0137L: DT vaccine, unspecified
+  VAC0146L: Live attenuated Japanese Encephalitis vaccine 14-14-2 strain, 
+    unspecified
+  VAC0147C: Impfstoff gegen pandemische Influenza A(H1N1)pdm09, inaktiviert
+  VAC0147L: Influenza A(H1N1)2009 vaccine, unspecified
+  VAC0148C: Inaktivierter Ganzzellimpfstoff gegen Leptospirose
+  VAC0149C: Meningokokken-B-Impfstoff (Vesikelprotein der äußeren Membran 
+    B:14:P1.7,16)
+  VAC0151C: Nicht konjugierter Meningokokken-Polysaccharid-Impfstoff, 
+    Serogruppen A und C
+  VAC0151L: Meningococcal A + C vaccine, unspecified
+  VAC0152C: Nicht-konjugierter Meningokokken-Polysaccharid-Impfstoff, 
+    Serogruppen A, C, W und Y
+  VAC0153C: Attenuierter Lebendimpfstoff gegen Mumps
+  VAC0150L: Meningococcal conjugate vaccine C, unspecified
+  VAC0153L: Mumps vaccine, unspecified
+  VAC0154C: Malaria-Impfstoff (in klinischen Studien verwendet)
+  VAC0154L: Malaria vaccine, unspecified
+  VAC0157C: Pneumokokken-Konjugat- oder Nicht-Konjugat-Polysaccharid-Impfstoff, 
+    Anzahl der Serotypen nicht spezifiziert
+  VAC0157L: Pneumococcal vaccine, unspecified
+  VAC0158L: Rotavirus vaccine, unspecified
+  VAC0159C: Windpocken-Impfstoff
+  VAC0159L: Chickenpox vaccine, unspecified
+  VAC0320C: Polio-Impfstoff (abgeschwächter Lebendimpfstoff, trivalent) gegen 
+    die Polioviren 1, 2 und 3, oral
+  VAC0320L: OPV 1-2-3, unspecified
+  VAC0160C: Abgeschwächter Lebendimpfstoff gegen Gürtelrose
+  VAC0160L: Live attenuated shingles vaccine, unspecified
+  VAC0162C: Impfstoff gegen Brucellose
+  VAC0162L: Brucellosis vaccine, unspecified
+  VAC0163C: Inaktivierter Keuchhusten-Vollzellimpfstoff
+  VAC0163L: Whole-cell inactivated pertussis vaccine, unspecified
+  VAC0270C: Inaktivierter Polio-Impfstoff (trivalent)
+  VAC0270L: Inactivated Polio vaccine, unspecified
+  VAC0344C: Konjugatimpfstoff gegen Haemophilus influenzae Typ b, bestehend aus 
+    PRP (Polyribosylribitolphosphat), konjugiert mit OMP (Außenmembranprotein 
+    von Neisseria meningitidis)
+  VAC0344L: PRP-OMP Hib vaccine, unspecified
+  VAC0345C: Konjugatimpfstoff gegen Haemophilus influenzae Typ b, bestehend aus 
+    PRP (Polyribosylribitolphosphat), konjugiert mit Tetanustoxoid
+  VAC0345L: Hib PRP-T conjugated vaccine, unspecified
+  VAC0358C: Tollwut-Immunglobulin, menschlichen Ursprungs
+  VAC0380C: Tetanustoxoid und inaktivierter Polioimpfstoff (trivalent)
+  VAC0358L: Rabies immunoglobulin human origin, unspecified
+  VAC0380L: T.Polio, unspecified
+  VAC0382C: Impfstoff gegen Diphtherie-Toxoid (Dosis nicht spezifiziert) und 
+    Tetanus-Toxoid
+  VAC0382L: Tetanus diphtheria vaccine, unspecified
+  VAC0424C: Attenuierter Typhus-Lebendimpfstoff, Stamm Ty21a, zum Einnehmen
+  VAC0424L: Live attenuated oral typhoid vaccine, unspecified
+  VAC0497C: Anti-Tetanus-Immunglobulin
+  VAC0497L: Tetanus immunoglobulin, unspecified
+  VAC0502C: Tollwut-Immunglobulin, humanen oder equinen Ursprungs
+  VAC0502L: Rabies immunoglobulin, unspecified
+  VAC0503C: Anti-Tollwut-Immunglobulin, von Pferden
+  VAC0551L: DTaPIPV vaccine, standard dose, unspecified
+  VAC0552C: Diphtherietoxoid (Standarddosis), Tetanustoxoid, azellulärer 
+    Mehrkomponentenimpfstoff gegen Keuchhusten (Standarddosis), Haemophilus 
+    influenzae Typ b (konjugiert, nicht spezifiziert), inaktivierter 
+    Polioimpfstoff (dreiwertig) und Hepatitis-B-Impfstoff (rekombinant) für 
+    Kinder
+  VAC0552L: DTPCaHibHepB hexavalenter Impfstoff - 
+    Diphtherie-Tetanus-Polio-zelluläre Keuchhusten-Hib-HepB, nicht spezifiziert
+  VAC0553C: Diphtherietoxoid (Standarddosis), Tetanustoxoid, azellulärer 
+    Keuchhusten, konjugierter Haemophilus influenzae Typ b (konjugiert 
+    unspezifisch) und inaktivierter Polioimpfstoff (dreiwertig) für Kinder
+  VAC0553L: Pentavalent DTwPHibIPV vaccine, unspecified
+  VAC0585C: Diphtherie-Toxoid (niedrige Dosis), Tetanus-Toxoid, azellulärer 
+    Mehrkomponenten-Pertussis-Impfstoff (5 Komponenten, niedrige Dosis) und 
+    inaktivierter Polio-Impfstoff (trivalent), adsorbiert
+  VAC0585L: TdapIPV - Diphtheria-Tetanus-Pertussis-Polio vaccine, low dose, 
+    unspecified
+  VAC0596C: Diphtherietoxoid (Standarddosis), Tetanustoxoid und azellulärer 
+    Multikomponenten-Pertussisimpfstoff (Standarddosis), Haemophilus influenzae 
+    Typ b (konjugiert, nicht spezifiziert) und Hepatitis B (rekombinant), 
+    Impfstoff für Kinder
+  VAC0598C: Diphtherietoxoid (Standarddosis), Tetanustoxoid, inaktivierter 
+    Keuchhusten-Vollzellimpfstoff, Haemophilus influenzae Typ b (konjugiert, 
+    nicht spezifiziert) und Hepatitis B (rekombinant), Impfstoff für Kinder
+  VAC0598L: DTwPHibHepB pentavalent vaccine, unspecified
+  VAC0596L: DTaPHibHepB pentavalent vaccine, unspecified
+  VAC0599C: Diphtherietoxoid (Standarddosis), Tetanustoxoid und azellulärer 
+    Mehrkomponenten-Pertussisimpfstoff (nicht spezifiziert), Haemophilus 
+    influenzae Typ b (konjugiert, nicht spezifiziert) und Hepatitis-B-Impfstoff 
+    (rekombinant) für Kinder
+  VAC0599L: DTPerHibHepB pentavalent vaccine, unspecified
+  VAC0600C: Polio-Impfstoff (abgeschwächter Lebendimpfstoff, bivalent) gegen 
+    Poliovirus Typ 1 und 3, zum Schlucken
+  VAC0600L: OPV bivalent 1-3, unspecified
+  VAC0601C: Diphtherie-Toxoid (Standarddosis), Tetanus-Toxoid und inaktivierter 
+    Ganzzellimpfstoff oder azellulärer Pertussisimpfstoff (Dosis nicht 
+    spezifiziert) für Kinder
+  VAC0601L: DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified
+  VAC0602L: DTaP - Diphtheria-Tetanus-Pertussis vaccine, standard dose, 
+    unspecified
+  VAC0610C: Impfstoff gegen Diphtherie-Toxoid (niedrige Dosis), Tetanus-Toxoid 
+    und azelluläre Mehrkomponenten-Pertussis (niedrige Dosis)
+  VAC0602C: Diphtherietoxoid (Standarddosis), Tetanustoxoid und azellulärer 
+    Mehrkomponenten-Pertussisimpfstoff (Standarddosis) für Kinder
+  VAC0610L: Tdap - Diphtheria-Tetanus-Pertussis vaccine, low dose, unspecified
+  VAC0623C: Attenuierter Lebendimpfstoff gegen Masern und Mumps
+  VAC0623L: Measles-mumps vaccine, unspecified
+  VAC0643C: Quadrivalenter Meningokokken-Konjugatimpfstoff gegen die Serogruppen
+    A, C, W und Y
+  VAC0643L: Meningococcal ACWY conjugate vaccine, unspecified
+  VAC0648C: COVID-19-Impfstoff
+  VAC0648L: COVID-19 vaccine, unspecified
+  VAC0653C: Kombinierter Hepatitis-A- und -B-Impfstoff, pädiatrische Dosis
+  VAC0653L: Hepatitis A + Hepatitis B vaccine Child, unspecified
+  VAC0654C: Kombinierter Impfstoff gegen Hepatitis A und B, Erwachsenendosis
+  VAC0654L: Hepatitis A + Hepatitis B vaccine Adult, unspecified
+  VAC0655C: Diphtherietoxoid (nicht spezifizierte Dosis)
+  VAC0655L: Diphtheria vaccine, unspecified
+  VAC0711C: Polysaccharid-Typhus-Konjugatimpfstoff
+  VAC0711L: Typhoid conjugate vaccine, unspecified
+  VAC0712C: Kombinierter Impfstoff gegen Typhus und Hepatitis A
+  VAC0712L: Typhoid-hepatitis A vaccine, unspecified
+  VAC0713C: Polysaccharid-Typhus-Impfstoff (Vi-Kapselantigen)
+  VAC0713L: Typhoid polysaccharide vaccine, unspecified
+  VAC0775C: Diphtherietoxoid (Standarddosis), Tetanustoxoid, inaktivierter 
+    Keuchhusten-Vollzellimpfstoff und Hämophilus influenzae Typ b (konjugiert, 
+    nicht spezifiziert), Impfstoff für Kinder
+  VAC0775L: DTwPHib, unspecified
+  VAC0787C: Impfstoff gegen Diphtherietoxoid (nicht spezifizierte Dosis), 
+    Tetanus-Toxoid und Röteln (abgeschwächter Lebendimpfstoff)
+  VAC0788C: Haemophilus influenzae Typ b (konjugiert, nicht spezifiziert) und 
+    inaktivierter Polio-Impfstoff (trivalent)
+  VAC0788L: Hib-IPV, unspecified
+  VAC0790L: Diphtheria-Tetanus-Hepatitis B vaccine, unspecified
+  VAC0791C: Kinderimpfstoff gegen Diphtherie (Toxoid, Standarddosis), Tetanus 
+    (Toxoid), Pertussis (ganz oder azellulär, Dosis nicht spezifiziert), 
+    Poliomyelitis (ganz, inaktiviert, trivalent), Anti-Haemophilus influenzae 
+    Typ b (konjugiert, nicht spezifiziert) und Hepatitis B (rekombinant).
+  VAC0790C: Diphtherietoxoid (nicht spezifizierte Dosis), Tetanus-Toxoid und 
+    Hepatitis-B-Impfstoff (rekombinant)
+  VAC0791L: Hexavalenter Diphtherie-Tetanus-Pertussis-Polio-Hib-Hepatitis 
+    B-Impfstoff, nicht spezifiziert
+  VAC0792C: Diphtherietoxoid (nicht spezifizierte Dosis), Tetanustoxoid, 
+    azellulärer oder ganzzelliger inaktivierter Keuchhustenimpfstoff (nicht 
+    spezifizierte Dosis), inaktivierter Polioimpfstoff (trivalent) und 
+    Hepatitis-B-Impfstoff (rekombinant)
+  VAC0792L: Diphtheria-Tetanus-Pertussis-Polio-Hepatitis B pentavalent vaccine, 
+    unspecified
+  VAC0794C: Tetanus-Toxoid-Impfstoff in Kombination mit Tetanus-Immunglobulin
+  VAC0795C: Acellulärer Pertussis-Impfstoff, Dosis nicht spezifiziert
+  VAC0795L: Acellular pertussis vaccine, unspecified
+  VAC0796C: Pertussis-Impfstoff (azellulär oder ganzzellig inaktiviert)
+  VAC0796L: Pertussis vaccine, unspecified
+  VAC0797C: Impfstoff gegen Diphtherie-Toxoid (nicht spezifizierte Dosis), 
+    Tetanus-Toxoid und azelluläre Pertussis (nicht spezifizierte Dosis)
+  VAC0797L: Diph-T-aP/ap, unspecified
+  VAC0798C: Hämophilus influenzae Typ b und Meningokokken-C-Konjugatimpfstoff
+  VAC0798L: Hib-MeningoC vaccine, unspecified
+  VAC0799C: Diphtherietoxoid (Standarddosis), Tetanustoxoid und Haemophilus 
+    influenzae Typ b (konjugiert, nicht spezifiziert) Kinderimpfstoff
+  VAC0799L: DT-Hib vaccine, unspecified
+  VAC0800C: Diphtherie (Standarddosis), Tetanustoxoid, Keuchhusten (azelluläre 
+    Standarddosis oder vollständig inaktiviert) und Haemophilus influenzae Typ b
+    (konjugiert, nicht spezifiziert) Impfstoff für Kinder
+  VAC0800L: Diphtheria-tetanus-pertussis-Hib vaccine, unspecified
+  VAC0801C: Impfstoff gegen Haemophilus influenzae Typ b und Hepatitis B
+  VAC0801L: HepB-Hib, unspecified
+  VAC0802C: Polio-Impfstoff (abgeschwächter Lebendimpfstoff, monovalent), oral
+  VAC0802L: Monovalent oral polio vaccine - type unknown, unspecified
+  VAC0804C: Anthrax-Impfstoff
+  VAC0804L: Anthrax vaccine, unspecified
+  VAC0805C: Inaktivierter Cholera-Vollzellimpfstoff zur Injektion
+  VAC0805L: Whole-cell inactivated cholera vaccine, unspecified
+  VAC0806C: Attenuierter Lebendimpfstoff gegen Cholera
+  VAC0806L: Live attenuated cholera vaccine, unspecified
+  VAC0807C: Inaktivierter Cholera-Vollzellimpfstoff kombiniert mit inaktiviertem
+    Typhus-Vollzellimpfstoff, injizierbar
+  VAC0807L: Cholera-Typhoid inactivated vaccine, unspecified
+  VAC0808C: Haemophilus influenzae Typ b und Meningokokken C und Y 
+    Konjugatimpfstoff
+  VAC0808L: Hib-MenCY, unspecified
+  VAC0809C: Monovalenter Meningokokken-Impfstoff, Konjugat oder nicht 
+    konjugiertes Polysaccharid
+  VAC0809L: Meningococcal monovalent polysaccharide vaccine, unspecified
+  VAC0810C: Polyvalenter nicht konjugierter Polysaccharidimpfstoff gegen 
+    Meningokokken
+  VAC0810L: Meningococcal polyvalent polysaccharide vaccine, unspecified
+  VAC0811C: Meningokokken-B-Impfstoff, Art des Impfstoffs nicht spezifiziert
+  VAC0811L: Meningococcal B vaccine, unspecified
+  VAC0812C: Pestimpfstoff - vollständig inaktiviert
+  VAC0814C: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Anzahl der Serotypen 
+    nicht spezifiziert
+  VAC0814L: Pneumococcal conjugate vaccine, serotypes unspecified
+  VAC0812L: Inactivated whole plague vaccine, unspecified
+  VAC0813C: Unkonjugierter Pneumokokken-Polysaccharid-Impfstoff, Serotypen nicht
+    spezifiziert
+  VAC0813L: Pneumococcal unconjugated polysaccharide vaccine, unspecified
+  VAC0815C: Haemophilus influenzae Typ b und Pneumokokken-Impfstoff - Konjugat, 
+    nicht spezifiziert
+  VAC0815L: Pneumo-Hib, unspecified
+  VAC0817C: Inaktivierter Ganzzell-Typhusimpfstoff
+  VAC0817L: Inactivated Typhoid vaccine, unspecified
+  VAC0818C: Typhus- und Paratyphusimpfstoff, vollständig inaktiviert
+  VAC0818L: Typhoid-Paratyphoid vaccine, unspecified
+  VAC0819C: Inaktivierter Vollvirus-Impfstoff gegen Japanische Enzephalitis
+  VAC0819L: Inactivated Japanese Encephalitis vaccine, unspecified
+  VAC0820C: Inaktivierter saisonaler Grippeimpfstoff mit ganzen Virionen
+  VAC0820L: Inactivated whole influenza vaccine, unspecified
+  VAC0821C: Inaktivierter saisonaler Grippeimpfstoff
+  VAC0821L: Inactivated influenza vaccine, split or subunit, unspecified
+  VAC0822C: Impfstoff gegen saisonale Grippe, attenuiert, lebend
+  VAC0822L: Influenza vaccine, live attenuated, unspecified
+  VAC0823C: VLP-Impfstoff (Virus-Like Particle) gegen saisonale Grippe
+  VAC0823L: VLP influenza vaccine, unspecified
+  VAC0824C: Inaktivierter Hepatitis-A-Impfstoff, Virosom, für Kinder oder 
+    Erwachsene
+  VAC0824L: Hepatitis A virosome vaccine, unspecified
+  VAC0825C: Kombinierter Impfstoff gegen Hepatitis A und B
+  VAC0825L: Combined hepatitis A and hepatitis B vaccine, unspecified
+  VAC0827C: Attenuierter Lebendimpfstoff gegen Masern, Mumps, Röteln und 
+    Windpocken
+  VAC0827L: MMRV - Measles-Mumps-Rubella-Varicella vaccine, unspecified
+  VAC0828C: Attenuierter pentavalenter Rotavirus-Lebendimpfstoff, oral
+  VAC0828L: Rotavirus pentavalent vaccine, unspecified
+  VAC0829C: Attenuierter Lebendimpfstoff gegen Röteln und Mumps
+  VAC0849L: Tularämie-Impfstoff, nicht näher bezeichnet
+  VAC0852C: Polio-Impfstoff (abgeschwächter Lebendimpfstoff, monovalent) gegen 
+    Polioviren Typ 2, oral
+  VAC0852L: mOPV2 Sabin monovalenter oraler Polioimpfstoff Typ 2, nicht 
+    spezifiziert
+  VAC0853C: Polio-Impfstoff (abgeschwächter Lebendimpfstoff, monovalent) gegen 
+    Poliovirus Typ 1, oral
+  VAC0853L: mOPV1 Sabin monovalenter oraler Polioimpfstoff Typ 1, nicht 
+    spezifiziert
+  VAC0855C: Diphtherietoxoid (nicht spezifizierte Dosis), Tetanustoxoid und 
+    inaktivierter Polioimpfstoff (trivalent), adsorbiert
+  VAC0855L: Diphtherie-Tetanus-Polio-Impfstoff, nicht näher bezeichnet
+  VAC0856C: Diphtherietoxoid (Standarddosis), Tetanustoxoid und azellulärer 
+    Mehrkomponenten-Pertussisimpfstoff (Standarddosis) und Haemophilus 
+    influenzae Typ b (konjugiert, nicht spezifiziert) für Kinder
+  VAC0856L: DTaPHib-Impfstoff, nicht spezifiziert
+  VAC0857C: Diphtherietoxoid (Standarddosis), Tetanustoxoid, Keuchhusten 
+    (azelluläre Standarddosis oder vollständig inaktiviert) und Hepatitis B 
+    (rekombinanter) Impfstoff für Kinder
+  VAC0858C: Bivalenter rekombinanter humaner Papillomavirus-Impfstoff, Typen 16 
+    und 18
+  VAC0860C: Nicht-avalenter rekombinanter humaner Papillomavirus-Impfstoff, 
+    Typen 6, 11, 16, 18, 31, 33, 45, 52 und 58
+  VAC0858L: Bivalenter HPV-Impfstoff, nicht spezifiziert
+  VAC0859L: Vierwertiger HPV-Impfstoff, nicht näher bezeichnet
+  VAC0860L: Nonavalenter HPV-Impfstoff, nicht spezifiziert
+  VAC0861C: Impfstoff gegen Meningokokken der Serogruppe B 
+    (Mehrkomponentenimpfstoff - mehrere Proteine)
+  VAC0861L: Mehrkomponenten-Meningokokken-B-Impfstoff, nicht näher bezeichnet
+  VAC0862C: Masern-Immunglobulin
+  VAC0862L: Masern-Immunglobulin, nicht näher bezeichnet
+  VAC0863C: Hepatitis-B-Immunglobulin
+  VAC0863L: Hepatitis-B-Immunglobulin, nicht näher bezeichnet
+  VAC0864C: Varizella-Zoster-Immunglobulin
+  VAC0864L: Varizella-Zoster-Immunglobulin, nicht näher bezeichnet
+  VAC0865C: Nicht-konjugierter Meningokokken-Polysaccharid-Impfstoff, Serogruppe
+    A
+  VAC0866C: Meningokokken-A-Polysaccharid-Konjugatimpfstoff
+  VAC0865L: Polysaccharid-Meningokokken-A-Impfstoff, nicht spezifiziert
+  VAC0866L: Meningokokken-Konjugatimpfstoff A, nicht näher bezeichnet
+  VAC0867C: Diphtherie-Antitoxin
+  VAC0867L: Diphtherie-Antitoxin, nicht näher bezeichnet
+  VAC0880C: Diphtherie-Toxoid (Standarddosis), Tetanus-Toxoid, Keuchhusten 
+    (nicht spezifiziert), konjugierter Haemophilus influenzae Typ b (konjugiert,
+    nicht spezifiziert) und inaktivierter Polio-Impfstoff (trivalent) für 
+    Kinder, adsorbiert
+  VAC0880L: Pentavalenter Diphtherie-Tetanus-Pertussis-Hib-Polio-Impfstoff 
+    (DTPerHibIPV), nicht spezifiziert
+  VAC0881C: Attenuierter Lebendimpfstoff gegen Japanische Enzephalitis, Stamm 
+    und Produktionsplattform nicht angegeben
+  VAC0881L: Abgeschwächter Lebendimpfstoff gegen Japanische Enzephalitis, nicht 
+    näher bezeichnet
+  VAC0894C: Adenovirus-Impfstoff, nicht spezifizierter Typ
+  VAC0894L: Adenovirus vaccine, unspecified
+  VAC0895C: Impfstoff gegen venezolanische Pferdeenzephalitis
+  VAC0895L: Impfstoff gegen Venezolanische Pferdeenzephalitis, nicht 
+    spezifiziert
+  VAC0896C: Q-Fieber-Impfstoff
+  VAC0896L: Q-Fieber-Impfstoff, nicht näher bezeichnet
+  VAC0897C: Impfstoff gegen das Hantavirus
+  VAC0897L: Hantavirus-Impfstoff, nicht näher bezeichnet
+  VAC0898C: Impfstoff gegen Leishmaniose
+  VAC0898L: Leishmaniose-Impfstoff, nicht näher bezeichnet
+  VAC0899C: Humaner Parainfluenza-Virus-Impfstoff
+  VAC0899L: Impfstoff gegen humanes Parainfluenzavirus, nicht spezifiziert
+  VAC0902C: Inaktivierter Tollwutimpfstoff mit ganzen Virionen, hergestellt aus 
+    mit dem Tollwutvirus infiziertem Ziegen- oder Schafshirngewebe, enthält 
+    Myelin
+  VAC0902L: Tollwutimpfstoff Semple-Typ, nicht spezifiziert
+  VAC0903C: Inaktivierter Tollwut-Vollvirusimpfstoff, hergestellt aus mit dem 
+    Tollwutvirus infiziertem Gehirngewebe von Säuglingsmäusen, verminderter 
+    Myelinanteil
+  VAC0903L: Tollwutimpfstoff vom Typ Fuenzalida, nicht näher bezeichnet
+  VAC0904C: Inaktivierter Tollwut-Vollvirusimpfstoff, gereinigter 
+    Entenembryo-Impfstoff (PDEV), Inaktivierung durch ß-Propiolacton
+  VAC0904L: Impfstoff gegen Tollwut-Entenembryonen, nicht näher bezeichnet
+  VAC0905C: Inaktivierter Tollwut-Vollvirusimpfstoff auf Zellkulturbasis, 
+    primärer Hamster-Nierenzellimpfstoff (PHKCV), Stamm Beijing, Inaktivierung 
+    mit Formalin
+  VAC0905L: Tollwutimpfstoff PHKCV, nicht spezifiziert
+  VAC0906C: Impfung gegen Gürtelrose
+  VAC0906L: Gürtelrose-Impfstoff, nicht näher bezeichnet
+  VAC0907C: Impfstoff gegen Adenovirus Typ 4
+  VAC0907L: Impfstoff gegen Adenovirus Typ 4, nicht spezifiziert
+  VAC0908C: Impfstoff gegen Adenovirus Typ 7
+  VAC0908L: Impfstoff gegen Adenovirus Typ 7, nicht spezifiziert
+  VAC0909C: Antitoxin gegen Botulismus
+  VAC0909L: Botulinum-Antitoxin
+  VAC0910C: Inaktivierter Hepatitis-A-Impfstoff, Erwachsenendosis
+  VAC0910L: Inaktivierter Hepatitis-A-Impfstoff, Erwachsenendosis, nicht 
+    spezifiziert
+  VAC0911C: Inaktivierter Ganzvirusimpfstoff, monovalent, pädiatrische Dosis
+  VAC0911L: Hepatitis-A-Totimpfstoff, monovalent, pädiatrische Dosis, nicht 
+    spezifiziert
+  VAC0912C: Ganzes Virion Inaktivierter Hepatitis-A-Impfstoff, pädiatrische 
+    Dosis, Formulierung nicht angegeben (monovalent oder bivalent mit Hepatitis 
+    B)
+  VAC0912L: Hepatitis-A-Impfstoff, pädiatrische Dosis, nicht spezifiziert
+  VAC0914C: Rekombinanter Hepatitis-B-Impfstoff, monovalent, pädiatrische Dosis
+  VAC0914L: Hepatitis-B-Impfstoff, monovalent, pädiatrische Dosis, nicht 
+    spezifiziert
+  VAC0915C: Rekombinanter Hepatitis-B-Impfstoff, monovalent, Erwachsenendosis
+  VAC0915L: Hepatitis-B-Impfstoff, monovalent, Dosierung für Erwachsene, nicht 
+    spezifiziert
+  VAC0916C: Rekombinanter Hepatitis-B-Impfstoff, monovalent, dosiert für 
+    Dialysepatienten
+  VAC0916L: Hepatitis-B-Impfstoff, monovalent, Dosierung für Dialysepatienten, 
+    nicht spezifiziert
+  VAC0917C: Rekombinanter Peptidimpfstoff gegen Hepatitis E
+  VAC0919L: Hib-hbOC-Impfstoff, nicht spezifiziert
+  VAC0917L: Hepatitis-E-Impfstoff, nicht näher bezeichnet
+  VAC0918C: Konjugatimpfstoff gegen Hämophilus influenzae Typ b, bestehend aus 
+    PRP (Polyribosylribitolphosphat), konjugiert mit Diphtherietoxoid
+  VAC0918L: PRP-D-Hib-Impfstoff, nicht spezifiziert
+  VAC0920C: Impfstoff gegen Diphtherie (Toxoid, reduzierte Dosis) und Tetanus 
+    (Toxoid)
+  VAC0920L: Diphtherie-Tetanus-Td-Impfstoff, nicht näher bezeichnet
+  VAC0921C: Impfstoff gegen Japanische Enzephalitis
+  VAC0919C: Impfstoff gegen Haemophilus influenzae Typ b, Kapsel-Oligoside 
+    (Polyribosylribitolphosphat, PRP), konjugiert mit mutiertem Diphtherietoxin 
+    CRM197
+  VAC0921L: Impfstoff gegen Japanische Enzephalitis, nicht näher bezeichnet
+  VAC0922C: Impfstoff gegen Adenovirus Typ 7 und 4
+  VAC0922L: Abgeschwächter Adenovirus-Lebendimpfstoff, Typ 4 und Typ 7, oral
+  VAC0923C: Monoklonaler Antikörper gegen RSV
+  VAC0923L: Monoklonaler Antikörper gegen das Respiratory Syncytial Virus, nicht
+    spezifiziert
+  VAC0925C: Trivalenter inaktivierter saisonaler Grippeimpfstoff, Split oder 
+    Subunit, Standarddosis
+  VAC0925L: Trivalenter inaktivierter Grippeimpfstoff, nicht näher bezeichnet
+  VAC0927C: COVID-19 mRNA-Impfstoff, pädiatrische Dosis
+  VAC0927L: COVID-19-mRNA-Impfstoff, pädiatrische Dosis, nicht spezifiziert
+  VAC0928C: Attenuierter Lebendimpfstoff gegen Hepatitis A
+  VAC0928L: Lebendimpfstoff gegen Hepatitis A, nicht näher bezeichnet
+  VAC0929C: Impfstoff gegen saisonale Grippe, inaktiviert, vierwertig, 
+    pädiatrische Dosis
+  VAC0929L: Quadrivalenter inaktivierter Influenza-Impfstoff, pädiatrische 
+    Dosis, nicht spezifiziert
+  VAC0932C: Vierwertiger rekombinanter saisonaler Grippeimpfstoff
+  VAC0937L: Botulismus-Impfstoff, nicht näher bezeichnet
+  VAC0938C: Vierwertiger inaktivierter Impfstoff gegen die saisonale Grippe, 
+    Spaltvirion oder Oberflächenantigenimpfstoff
+  VAC0938L: Quadrivalenter Grippeimpfstoff, nicht näher bezeichnet
+  VAC0941C: Antrax-Immunglobuline
+  VAC0941L: Immunglobulin gegen Milzbrand, nicht näher bezeichnet
+  VAC0942C: Inaktivierter Vollimpfstoff gegen Tollwut, gezüchtet in 
+    Hühnerembryozellen (CEEC), inaktiviert mit ß-Propiolacton
+  VAC0942L: Tollwutimpfstoff gegen Hühnerembryonen, nicht näher bezeichnet
+  VAC0932L: Quadrivalenter rekombinanter Influenza-Impfstoff, nicht spezifiziert
+  VAC0943C: Inaktivierter Vollimpfstoff gegen Tollwut, hergestellt in der 
+    humanen diploiden Zellkultur (HDCV) MRC-5, inaktiviert mit ß-Propiolacton
+  VAC0943L: Diploide Zellen des Tollwutimpfstoffs, nicht näher bezeichnet
+  VAC0944C: Inaktivierter oraler Vollimpfstoff gegen Cholera
+  VAC0944L: Inaktivierter oraler Cholera-Virionimpfstoff, nicht spezifiziert
+  VAC0945C: Meningokokken-Impfstoff mit nicht spezifizierter Serogruppe
+  VAC0945L: Serogruppe des Meningokokken-Impfstoffs unbekannt, nicht 
+    spezifiziert
+  VAC0997C: 13-valenter Pneumokokken-Konjugatimpfstoff, adsorbiert, Serotypen 1,
+    3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F und 23F
+  VAC0997L: 13-valenter Konjugatimpfstoff gegen Pneumokokken, nicht näher 
+    bezeichnet
+  VAC1037C: Impfstoff gegen Frühsommer-Meningoenzephalitis, Ganzvirus 
+    inaktiviert, Stamm Neudörfl, pädiatrische Dosis
+  VAC1037L: Impfstoff gegen Zeckenenzephalitis, Stamm Neudörfl, pädiatrische 
+    Dosis, nicht spezifiziert
+  VAC1038C: Impfstoff gegen Frühsommer-Meningoenzephalitis, 
+    Ganzvirus-inaktiviert, Stamm Neudörfl, Erwachsenendosis
+  VAC1038L: Impfstoff gegen Zeckenenzephalitis, Stamm Neudörfl, 
+    Erwachsenendosis, nicht spezifiziert
+  VAC1039C: COVID-19-mRNA-Impfstoff, Originalvirus, 50 Mikrogramm pro Dosis
+  VAC1039L: COVID-19-mRNA-Impfstoff, Originalvirus, 50 µg, nicht spezifiziert
+  VAC1041C: COVID-19-RNA-Impfstoff
+  VAC1041L: COVID-19-RNA-Impfstoff, nicht spezifiziert
+  VAC1042C: COVID-19-Impfstoff, nicht replizierender viraler Vektor
+  VAC1042L: COVID-19-Impfstoff, nicht replizierender viraler Vektor, nicht 
+    spezifiziert
+  VAC1043C: COVID-19-Impfstoff, Proteinuntereinheit
+  VAC1043L: COVID-19-Impfstoff, Proteinuntereinheit, nicht spezifiziert
+  VAC1044C: COVID-19-Impfstoff, ganzes Virion inaktiviert
+  VAC1044L: COVID-19-Impfstoff, ganzes Virion inaktiviert, nicht spezifiziert
+  VAC1062C: Zytomegalievirus-Immunglobulin, intravenös
+  VAC1062L: CMV-Immunglobulin
+  VAC1067L: Impfstoff gegen Streptococcus pyogenes, nicht näher bezeichnet
+  VAC1068C: Impfstoff gegen Rift-Valley-Fieber, nicht näher bezeichnet
+  VAC1068L: Impfstoff gegen Rift-Valley-Fieber, nicht näher bezeichnet
+  VAC1063C: Hepatitis-C-Impfstoff, nicht näher bezeichnet
+  VAC1063L: Hepatitis-C-Impfstoff, nicht näher bezeichnet
+  VAC1064C: HIV-Impfstoff, nicht näher bezeichnet
+  VAC1064L: HIV-Impfstoff, nicht näher bezeichnet
+  VAC1065C: Lepraimpfstoff, nicht spezifiziert
+  VAC1065L: Leprosy vaccine
+  VAC1066C: Melanom-Impfstoff, nicht näher bezeichnet
+  VAC1066L: Melanom-Impfstoff, nicht näher bezeichnet
+  VAC1067C: Impfstoff gegen Streptococcus pyogenes, nicht näher bezeichnet
+  VAC1069C: Vaccinia-Immunglobulin
+  VAC1069L: Vaccinia immune globulin
+  VAC1071C: RSV-antistof eller -vaccine, uspecificeret
+  VAC1071L: RSV-antistof eller -vaccine, uspecificeret
+  VAC1072C: COVID-19-mRNA-Impfstoff, Originalvirus, 25 Mikrogramm
+  VAC1072L: COVID-19-mRNA-Impfstoff, Originalvirus, 25 µg, nicht spezifiziert
+  VAC1073C: Impfstoff gegen Lyme-Borreliose, nicht näher bezeichnet
+  VAC1073L: Impfstoff gegen Lyme-Borreliose, nicht näher bezeichnet
+  VAC1075C: Azellulärer Anthrax-Impfstoff, nicht näher bezeichnet
+  VAC1136L: 23-valenter konjugierter Pneumokokken-Impfstoff, nicht näher 
+    bezeichnet
+  VAC1163C: Konjugierter, 20-valenter, adsorbierter 
+    Polyosid-Pneumokokken-Impfstoff, Serotypen 1, 3, 4, 5, 6A, 6B, 7F, 8, 9V, 
+    10A, 11A, 12F, 14, 15B, 18C, 19A, 19F, 22F, 23F und 33F
+  VAC1163L: 20-valenter konjugierter Pneumokokken-Impfstoff, nicht näher 
+    bezeichnet
+  VAC1075L: Azellulärer Anthrax-Impfstoff, nicht näher bezeichnet
+  VAC1136C: Konjugierter Polyosid-Pneumokokken-Impfstoff, 23-valent, Serotypen 
+    1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 
+    19F, 20, 22F, 23F und 33F
+  VAC1233C: Konjugierter Polyosid-Pneumokokken-Impfstoff, 10-valent, Serotypen 
+    1, 4, 5, 6B, 7F, 9V, 14, 18C, 19F und 23F
+  VAC1233L: 10-valenter konjugierter Pneumokokken-Impfstoff, nicht näher 
+    bezeichnet
+  VAC1239C: Konjugierter, 15-valenter, adsorbierter 
+    Polyosid-Pneumokokken-Impfstoff, Serotypen 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 
+    18C, 19A, 19F, 22F, 23F und 33F
+  VAC1239L: Konjugierter Pneumokokken-Impfstoff, 15-valent, nicht näher 
+    bezeichnet
+  VAC1247C: Hepatitis-A-Impfstoff, nicht näher bezeichnet
+  VAC1247L: Hepatitis-A-Impfstoff, nicht näher bezeichnet
+  VAC1263C: mRNA-Covid-Impfstoff, der das SARS-COV-2-Spike-Protein kodiert, 
+    zugelassen
+  VAC1263L: mRNA-Covid-Impfstoff, der das SARS-COV-2-Spike-Protein kodiert, 
+    zugelassen
+  VAC1264L: A(H5) avian influenza vaccine, unspecified
+  VAC1277C: Impfstoff gegen Chikungunya, ohne nähere Angaben
+  VAC1277L: Impfstoff gegen Chikungunya, ohne nähere Angaben
+  VAC1311L: Meningococcal ACWXY conjugate vaccine, unspecified
+  VAC1341L: SPIKEVAX BA.4-5 0,1 mg/mL dose 50 µg
+disease:
+  DIS005L: Haemophilus influenzae b-Infektion
+  DIS006L: Hepatitis B
+  DIS008L: Masern
+  DIS009L: Mumps
+  DIS010L: Röteln
+  DIS011L: Windpocken
+  DIS014L: Tuberkulose
+  DIS015L: Influenza
+  DIS017L: Gelbfieber
+  DIS025L: Pneumokokken
+  DIS029L: Pocken-Monkeypox
+  DIS030L: Tollwut
+  DIS031L: Denguefieber
+  DIS032L: Rotavirus
+  DIS033L: Herpes Zoster
+  DIS034L: Leptospirose
+  DIS036L: Cholera
+  DIS038L: Humane Papillomviren
+  DIS040L: Malaria
+  DIS041L: Brucellose
+  DIS042L: Exanthematischer Typhus
+  DIS043L: Meningococcus C
+  DIS044L: Meningokokken A
+  DIS045L: Meningokokken B
+  DIS046L: Meningokokken W
+  DIS047L: Meningokokken Y
+  DIS050L: Geflügelpest
+  DIS051L: Milzbrand
+  DIS048L: Meningokokken
+  DIS052L: Botulismus
+  DIS053L: Lyme-borreliose
+  DIS054L: Hepatitis E
+  DIS055L: Ebolafieber
+  DIS057L: COVID-19
+  DIS058L: Respiratorisches Syncytial-Virus
+  DIS059L: Pest
+  DIS056L: Chikungunyafieber
+  DIS060L: Herpes
+  DIS061L: Tularämie
+  DIS001L: Diphtherie
+  DIS002L: Tetanus
+  DIS003L: Keuchhusten
+  DIS016L: Hepatitis A
+  DIS018L: Typhus
+  DIS027L: Frühsommer-Meningoenzephalitis
+  DIS028L: Japanische enzephalitis
+  DIS063L: Adenovirus
+  DIS062L: Argentinisches hämorrhagisches Fieber
+  DIS064L: Venezolanische Pferdeenzephalitis
+  DIS065L: Q-Fieber
+  DIS066L: Hantavirus
+  DIS067L: Leishmaniose
+  DIS068L: Menschliche Parainfluenza-Viren
+  DIS070L: Cytomegalovirus
+  DIS071L: Hepatitis C
+  DIS072L: HIV infektion
+  DIS073L: Melanom
+  DIS074L: Streptococcus pyogenes
+  DIS075L: Rift-Valley-Fieber
+  DIS076L: Harnwegsinfektion
+  DIS078L: Lepra
+  DIS079L: Pseudomonas aeruginosa
+  DIS080L: Meningokokken X
+  DIS004L: Poliomyelitis
+valence:
+  VAL001S: Inf-L3
+  VAL008S: aP
+  VAL011S: COVID-PS-rRBD
+  VAL012L: Hepatitis-B-Impfstoff, rekombinantes 
+    Hepatitis-B-Virus-Oberflächenantigen (HBsAg), 40 Mikrogramm (Dosierung für 
+    Dialysepatienten)
+  VAL012S: rHBsAg-40
+  VAL013S: Shingles-gE
+  VAL016L: Tollwut-Immunglobulin, nicht spezifiziert
+  VAL016S: RIG
+  VAL017L: Azelluläre Pertussis-Valenz, reduzierte Dosis
+  VAL017S: ap
+  VAL026L: Meningokokken-Impfstoff B:14:P1.7,16 mit Vesikelproteinen der äußeren
+    Membran
+  VAL026S: MenB-OMP
+  VAL027L: COVID-19-Impfstoff, nicht-replizierender Adenovirus-26-Vektor, der 
+    für das SARS-CoV-2-Spike-Protein kodiert
+  VAL027S: COVID-VVnr-S-Ad26
+  VAL028S: POX-3G
+  VAL029L: VLP-Impfstoff gegen saisonale Grippe, nicht spezifiziert
+  VAL029S: Inf-VLP
+  VAL030L: Rekombinanter Impfstoff gegen Borrelia burgdorferi - Protein der 
+    äußeren Oberfläche A (OspA)
+  VAL030S: Lyme-OspA
+  VAL031L: Zeckenenzephalitis
+  VAL031S: TBE
+  VAL032L: Typhus-Polysaccharid-Impfstoff, nicht konjugiertes 
+    Vi-Polysaccharid-Antigen
+  VAL033L: Monovalenter oraler attenuierter Lebendimpfstoff gegen Poliomyelitis 
+    Typ 2
+  VAL033S: mOPV2
+  VAL034L: Diphtherie-Toxoid, niedrige Dosis
+  VAL035S: COVID-DNA-S
+  VAL036L: Humaner Papillomavirus-VLP-Impfstoff, nicht-avalent, Typen 6, 11, 16,
+    18, 31, 33, 45, 52, 58
+  VAL036S: HPV-09-valent
+  VAL037L: Meningokokken-Impfstoff A, nicht konjugiertes Polyosid
+  VAL037S: MPV-A
+  VAL038L: COVID-19-Impfstoff, replizierender Masernvirus-Vektor, der für das 
+    SARS-CoV-2-Spike-Protein kodiert
+  VAL038S: COVID-VVr-S-Meas
+  VAL039S: COVID-VLP-rS
+  VAL043S: COVID-mRNA-S
+  VAL044L: Varizellen
+  VAL044S: VZV-LAV
+  VAL045L: Inaktivierter Paratyphus-Vollimpfstoff
+  VAL045S: pTy-I
+  VAL046L: Typhus
+  VAL046S: Typhus
+  VAL047L: Immunoglobulin gegen Hepatitis B
+  VAL047S: IgHepB
+  VAL048L: Inaktivierter ganzer Impfstoff gegen Mumps
+  VAL048S: Or-I
+  VAL049L: Polysaccharid-Haemophilus-influenzae-Typ-b-Valenz, nicht konjugiert
+  VAL049S: Hib-PS
+  VAL070S: COVID-VVnr-S-Ad
+  VAL071L: Inaktivierter Typhus-Ganzkeimimpfstoff
+  VAL071S: Ty-I
+  VAL072L: Meningokokken-B-Impfstoff, der fHbp der Unterfamilien A und B enthält
+  VAL072S: MenB-fHbpAB
+  VAL073L: COVID-19-Impfstoff, replizierender viraler Vektor, mit 
+    antigenpräsentierenden Zellen
+  VAL073S: COVID-VVr+APC
+  VAL074L: Vierwertiger inaktivierter Influenza-Impfstoff, Split oder Subunit, 
+    hochdosiert
+  VAL075L: Inaktivierter Ganzkörperimpfstoff gegen Leptospira 
+    icterohaemorrhagiae
+  VAL075S: Lepto-wI
+  VAL077S: Mumps-LAV
+  VAL078L: Meningokokken-Impfstoff Y, konjugiertes Polyosid
+  VAL078S: MCV-Y
+  VAL079S: Rub-LAV
+  VAL080L: Inaktivierter Vollvirus-Tollwutimpfstoff, nicht spezifiziert
+  VAL081S: Chol
+  VAL082L: Humaner Papillomavirus-Impfstoff, nicht spezifizierte Typen
+  VAL082S: HPV
+  VAL083L: Diphtherietoxoid, Dosis nicht spezifiziert
+  VAL083S: D-d
+  VAL084L: COVID-19-Impfstoff, replizierender Vesikuläre 
+    Stomatitis-Virus-Vektor, der für das SARS-CoV-2-Spike-Protein kodiert
+  VAL092L: Gelbfieber
+  VAL092S: YF
+  VAL096S: BCG
+  VAL097L: Diphtherie-Toxoid, Standarddosis
+  VAL097S: D
+  VAL098L: Meningokokken-B-Impfstoff mit 4 Komponenten
+  VAL098S: 4CMenB
+  VAL099S: Inf-pdm09
+  VAL106L: Rotavirus-Impfstoff, nicht spezifiziert
+  VAL106S: Rota
+  VAL110L: Tetanus-Immunglobuline
+  VAL110S: T-Ig
+  VAL111L: azelluläre Valenz gegen Milzbrand
+  VAL111S: Bant
+  VAL112L: Quadrivalente inaktivierte Influenza-Valenz aus Zellkultur, spalt- 
+    oder untereinheitlich, normale Dosis
+  VAL113L: Bivalenter humaner Papillomavirus-VLP-Impfstoff, Typen 16 und 18
+  VAL113S: HPV-02-valent
+  VAL114L: Hepatitis-B-Impfstoff, rekombinantes Oberflächenantigen des 
+    Hepatitis-B-Virus (HBsAg), 10 Mikrogramm
+  VAL114S: rHBsAg-10
+  VAL123S: Rota5-L
+  VAL124L: Lebend-attenuierte Cholera-Valenz, ohne Spezifikation
+  VAL124S: Chol-L
+  VAL125L: Ganze inaktivierte Hepatitis-A-Valenz, ohne Spezifikation
+  VAL143S: HepA-bv-PED
+  VAL144S: HepA-mv-ADU
+  VAL148S: RSV-IG
+  VAL150L: Dengue-Valenz, ohne Spezifikation
+  VAL150S: Den
+  VAL151L: Tularämie-Impfstoff, nicht spezifiziert
+  VAL154L: Haemophilus influenzae Typ b-Valenz, PRP-Oligoside konjugiert mit 
+    mutiertem Diphtherietoxin CRM197
+  VAL154S: HbOC
+  VAL155L: Impfstoff gegen Haemophilus influenzae Typ b, Polysaccharid, 
+    konjugiert mit dem äußeren Membranprotein von Neisseria meningitidis 
+    Serogruppe B
+  VAL155S: PRP-OMP
+  VAL156L: PRP-T Haemophilus influenzae Typ b-Impfstoff, Polysaccharid PRP 
+    konjugiert mit Tetanustoxoid
+  VAL156S: PRP-T
+  VAL158S: pHBsAg
+  VAL159L: Subunit-Impfstoff gegen Gürtelrose, nicht spezifiziert
+  VAL159S: Shingles-SU
+  VAL160L: Gürtelrose-Impfstoff, nicht spezifiziert
+  VAL160S: Shingles
+  VAL161L: Multikomponenten-Impfstoff gegen Meningokokken B, ohne nähere Angaben
+  VAL161S: MenB-mc
+  VAL235S: MCV-poly
+  VAL236L: Humaner Papillomavirus-VLP-Impfstoff, monovalent
+  VAL236S: HPV-mono
+  VAL237L: Humaner Papillomavirus-VLP-Impfstoff, polyvalent
+  VAL237S: HPV-poly
+  VAL238L: Humaner Papillomavirus-VLP-Impfstoff, Typ 6
+  VAL238S: HPV-06
+  VAL239L: Humaner Papillomavirus-VLP-Impfstoff, Typ 11
+  VAL239S: HVP-11
+  VAL240L: Humaner Papillomavirus-VLP-Impfstoff, Typ 16
+  VAL240S: HVP-16
+  VAL241L: Humaner Papillomavirus-VLP-Impfstoff, Typ 18
+  VAL241S: HVP-18
+  VAL242L: Humaner Papillomavirus-VLP-Impfstoff, Typ 31
+  VAL242S: HVP-31
+  VAL243L: Humaner Papillomavirus-VLP-Impfstoff, Typ 33
+  VAL243S: HPV-33
+  VAL244L: Humaner Papillomavirus-VLP-Impfstoff, Typ 58
+  VAL244S: HVP-58
+  VAL269S: MCV-A-CRM
+  VAL270L: Vaccin méningococcique A, polyoside conjugué à l'anatoxine 
+    diphtérique
+  VAL270S: MCV-A-D
+  VAL271L: Meningokokken-Impfstoff A, Polyosid konjugiert mit Tetanustoxoid
+  VAL271S: MCV-A-T
+  VAL272L: Meningokokken-Impfstoff W, Polyosid konjugiert mit Tetanustoxoid
+  VAL272S: MCV-W-T
+  VAL273L: Meningokokken-Impfstoff W, Polyosid konjugiert mit Diphtherietoxoid
+  VAL273S: MCV-W-D
+  VAL274L: Meningokokken-Impfstoff W, Polyosid konjugiert mit dem Protein CRM197
+  VAL274S: MCV-W-CRM
+  VAL275L: Meningokokken-Impfstoff Y, Polyosid konjugiert mit dem Protein CRM197
+  VAL302L: COVID-19-Impfstoff, mRNA, die für das SARS-CoV-2-Spike-Protein 
+    kodiert, 50 Mikrogramm
+  VAL302S: Covid-mRNA-S-50
+  VAL304S: Covid-ARNm-S-ORI-15
+  VAL305L: Anti-Covid-19-mRNA-Impfstoff, der für das SARS-CoV-2-Spitzenprotein 
+    kodiert, Variante Omicron BA.1, 15 Mikrogramm
+  VAL305S: Covid-ARNm-S-OMI-BA.1-15
+  VAL306L: Anti-Covid-19-mRNA-Impfstoff, der das Spitzenprotein von SARS-CoV-2 
+    kodiert, Originalvirus, 3 Mikrogramm
+  VAL307L: Anti-Kovid-19-mRNA-Impfstoff, der für das SARS-CoV-2-Spitzenprotein 
+    kodiert, Variante Omicron BA.4/BA.5, 15 Mikrogramm
+  VAL307S: Covid-ARNm-S-OMI-BA.4/5-15
+  VAL308L: Anti-Kovid-19-mRNA-Impfstoff, der für das SARS-CoV-2-Spitzenprotein 
+    kodiert, Variante Omicron BA.4/BA.5, 25 Mikrogramm
+  VAL315S: TBE-Neudorfl-PED
+  VAL316S: RSV-PreF3
+  VAL317L: Antikörper gegen RSV, nicht näher bezeichnet
+  VAL317S: RSV-Ab
+  VAL318L: RSV-Impfstoff, nicht spezifiziert
+  VAL318S: RSV-V
+  VAL319L: COVID-19-Impfstoff, nicht-replizierender adenoviraler Vektor, der für
+    das SARS-CoV-2-Spike-Protein kodiert, Inhalationsimpfstoff, nicht 
+    spezifiziert
+  VAL321S: VRS-mAb-nir
+  VAL322S: RSV-PreFAB
+  VAL326L: mRNA-kodierender SARS-CoV-2-Spitzenprotein-Anti-Covid-19-Impfstoff, 
+    Omicron-Variante BA.4/BA.5, 1,5 Mikrogramm
+  VAL326S: COVID-mRNA-S-OMI-BA.4/5-1.5
+  VAL327L: Anti-Covid-19-mRNA-Impfstoff, der das Spitzenprotein des 
+    ursprünglichen SARS-CoV-2-Virus kodiert, 1,5 Mikrogramm
+  VAL327S: COVID-mRNA-S-ORI-1.5
+  VAL331L: CMV immune globulin
+  VAL331S: CMV-Ig
+  VAL332L: Hepatitis-C-Valenz, ohne Spezifikation
+  VAL336L: Rift-Valley-Fieber-Valenz, ohne Spezifikation
+  VAL336S: RVF
+  VAL337S: Pocken-Ig
+  VAL338L: RSV-Antikörper oder Impfstoff, nicht näher bezeichnet
+  VAL338S: RSV
+  VAL383L: Single-stranded 5' capped mRNA encoding the Respiratory syncytial 
+    virus glycoprotein F stabilized in the prefusion conformation
+  VAL383S: mRSV
+  VAL384S: LEP
+  VAL389L: Wirksamkeit gegen Pseudomonas aeruginosa, 7 Immuntypen
+  VAL389S: PAER7
+  VAL391L: Chikungunya VLP-Wertigkeit
+  VAL391S: Chik-VLP
+  VAL392S: AH5N1-RNA
+  VAL411S: COVID-mRNA-S-OMI-BA.4/5-50
+  VAL412S: Covid-ARNm-S-OMI-BA.1-50
+  VAL413S: Covid-SP-rRBD-XBB.1.16
+  VAL001L: Trivalente lebend-attenuierte Influenza-Valenz, normale Dosis
+  VAL002L: Konjugierter Typhus-Impfstoff, Vi-Polysaccharid-Antigen, gebunden an 
+    ein Trägerprotein
+  VAL002S: Ty-ViC
+  VAL003L: Pertussis-Valenz, ohne Spezifikation
+  VAL003S: Per
+  VAL004L: Ganze inaktivierte Cholera-Valenz, injizierbar
+  VAL004S: I-Chol-I
+  VAL005S: Meas-LAV
+  VAL006L: Anti-Brucella-Valenz, ohne Spezifikation
+  VAL006S: Bruc
+  VAL007S: rVSVdG-ZEBOV-GP
+  VAL008L: Azelluläre Pertussis-Valenz, Standarddosis
+  VAL007L: Replikativer Vektor-Ebola-Impfstoff rekombinantes vesikuläres 
+    Stomatitisvirus (rVSV) - Glykoprotein GP von EBOV
+  VAL009L: Impfstoffe mit Sporozoiten-Oberflächenprotein
+  VAL009S: Mala-SPO
+  VAL010L: Valenz gegen ganze inaktivierte Pertussis
+  VAL010S: wP
+  VAL014L: Typhusimpfstoff, nicht spezifiziert
+  VAL014S: Ty
+  VAL018L: Pockenimpfstoff der dritten Generation, minimal replizierendes 
+    Lebendvacciniavirus
+  VAL018S: Pox-3G-LC16
+  VAL019L: Diphtherie-Antitoxin
+  VAL019S: DATx
+  VAL020S: Shingles-L
+  VAL021L: Inaktivierter ganzer oraler Cholera-Impfstoff
+  VAL021S: O-Chol-I
+  VAL022S: Smallpox-L
+  VAL011L: COVID-19-Impfstoff, Proteinuntereinheit, rekombinantes Spike-Protein 
+    (RBD)
+  VAL013L: Glykoprotein E (gE) auf der Oberfläche des Varizella-Zoster-Virus 
+    (VZV)
+  VAL024L: Trivalente inaktivierte Influenza-Valenz, Spalt- oder Untereinheit, 
+    ohne Spezifikation
+  VAL025L: Malaria-Impfstoff, nicht spezifiziert
+  VAL025S: Mala
+  VAL032S: Ty-ViPS
+  VAL034S: d
+  VAL035L: COVID-19-Impfstoff, Plasmid-DNA, die für das SARS-CoV-2-Spike-Protein
+    kodiert
+  VAL039L: COVID-19-Impfstoff, VLP, rekombinantes Spike-Protein
+  VAL041L: Meningokokken-Impfstoff A, Polyosid-Konjugat
+  VAL041S: MCV-A
+  VAL042L: Polio-Impfstoff, nicht spezifiziert
+  VAL042S: POLIO
+  VAL043L: Anti-Covid-19-Impfstoff mit mRNA, die das Spitzenprotein von 
+    SARS-CoV-2 kodiert
+  VAL050L: COVID-19-Impfstoff, nicht-replizierender Adenovirus-5-Vektor, der für
+    das SARS-CoV-2-Spike-Protein kodiert, nicht spezifiziert
+  VAL050S: COVID-VVnr-S-Ad5
+  VAL051L: Präpandemischer Impfstoff gegen Influenza A(H5N1)
+  VAL051S: AH5N1
+  VAL052L: Vierfach-Impfstoff gegen humane Papillomaviren VLP, Typen 6, 11, 16 
+    und 18
+  VAL052S: HPV-04-valent
+  VAL053L: COVID-19-Impfstoff, Proteinuntereinheit, rekombinantes Spike-Protein,
+    nicht spezifiziert
+  VAL053S: COVID-PS
+  VAL054L: COVID-19-Impfstoff, nicht-replizierender modifizierter 
+    Vaccinia-Virus-Ankara-Vektor, der für das SARS-CoV-2-Spike-Protein kodiert
+  VAL054S: COVID-VVnr-S-MVA
+  VAL055L: Immunoglobulin gegen Masern
+  VAL055S: Ig-Measles
+  VAL056L: Inaktivierter dreiwertiger Polio-Ganzkörperimpfstoff zur Injektion
+  VAL056S: POLIO-I
+  VAL057L: Meningokokken-Impfstoff C, Polyosid-Konjugat
+  VAL057S: MCV-C
+  VAL058L: Inaktivierte Influenza-Valenz, Spalt- oder Untereinheit, ohne 
+    Spezifikation
+  VAL059L: Quadrivalente lebend-attenuierte Influenza-Valenz, normale Dosis
+  VAL060S: CHIK-LA
+  VAL061L: COVID-19-Impfstoff, Proteinuntereinheit, rekombinantes Spike-Protein,
+    S-2P und CpG1018
+  VAL061S: COVID-PS-CpG1018
+  VAL065L: 'Abgeschwächter, rekombinanter, chimärer, tetravalenter Dengue-Lebendimpfstoff '
+  VAL065S: RC-TDV
+  VAL066L: Anti-Kovid-19-Impfstoff mit replikativem viralem Vektor, 
+    Influenzavirus, das für das SARS-CoV-2-Spitzenprotein kodiert.
+  VAL066S: COVID-VVr-S-Influ
+  VAL062S: O-Chol-rCTB-I
+  VAL063L: Botulinum-Antitoxin
+  VAL063S: BAT
+  VAL067L: Tetanus-Toxoid
+  VAL067S: T
+  VAL068L: Hepatitis-B-Valenz, ohne Spezifikation
+  VAL070L: COVID-19-Impfstoff, nicht-replizierender adenoviraler Vektor, der für
+    das SARS-CoV-2-Spike-Protein kodiert, nicht spezifiziert
+  VAL076L: COVID-19-Impfstoff, inaktiviertes Vollvirus, nicht spezifiziert
+  VAL080S: Rab-I
+  VAL068S: HepB
+  VAL069L: COVID-19-Impfstoff, nicht replizierender Schimpansen-Adenovirusvektor
+    ChAdOx1, der für das SARS-CoV-2-Spike-Protein kodiert
+  VAL069S: COVID-VVnr-S-ChAdOx1
+  VAL081L: Cholera-Valenz, ohne Spezifikation
+  VAL084S: COVID-VVr-S-VSV
+  VAL085L: Monovalenter oraler attenuierter Lebendimpfstoff gegen Poliomyelitis 
+    Typ 3
+  VAL085S: mOPV3
+  VAL086L: COVID-19-Impfstoff, abgeschwächter Lebendimpfstoff, nicht 
+    spezifiziert
+  VAL086S: COVID-LA
+  VAL087S: CYD-TDV
+  VAL088L: Immunoglobuline gegen das Varizellenvirus
+  VAL088S: VZV-Ig
+  VAL089L: Inaktivierte Japanische-Enzephalitis-Valenz, ohne Spezifikation
+  VAL089S: JE-I
+  VAL090L: Hepatitis-B-Impfstoff, rekombinantes 
+    Hepatitis-B-Virus-Oberflächenantigen (HBsAg), Dosis nicht spezifiziert
+  VAL090S: rHBsAg
+  VAL091L: Attenuierter Typhus-Lebendimpfstoff, Stamm Ty21a, zum Einnehmen
+  VAL091S: Ty-LA
+  VAL093L: Inaktivierter Masern-Ganzkeimimpfstoff
+  VAL093S: Meas-I
+  VAL095L: COVID-19-Impfstoff, replizierender Newcastle-Disease-Virus-Vektor, 
+    der für das SARS-CoV-2-Spike-Protein kodiert
+  VAL095S: COVID-VVr-S-Nv
+  VAL096L: BCG-Valenz
+  VAL099L: 'Inaktivierte pandemische Influenza-H1N1-2009-Valenz '
+  VAL087L: Dengue-Valenz, lebend-attenuierte tetravalente chimäre rekombinante, 
+    basierend auf dem Gelbfieber-17D-Impfstoff
+  VAL100S: JE-LAV-14-14-2
+  VAL101L: COVID-19-Impfstoff, nicht replizierender 
+    Newcastle-Disease-Virus-Vektor, der für das SARS-CoV-2-Spike-Protein kodiert
+  VAL101S: COVID-VVnr-S-Nv
+  VAL102L: Rekombinante peptidische Hepatitis-E-Valenz
+  VAL102S: HepE
+  VAL103L: Konjugierte Haemophilus-influenzae-Typ-b-Valenz, ohne Spezifikation
+  VAL103S: Hib-C
+  VAL104L: COVID-19-Impfstoff, Proteinuntereinheit, rekombinantes Spike-Protein
+  VAL104S: COVID-PS-rS
+  VAL105L: Pneumokokken-Impfstoff, nicht spezifiziert
+  VAL105S: Pneumo
+  VAL107L: COVID-19-Impfstoff, Protein-Untereinheit, rekombinante 
+    Spike-Protein-Nanopartikel
+  VAL108L: Rekombinanter, nicht replizierender, lebender, viraler 
+    Vektorimpfstoff Ad26.ZEBOV
+  VAL108S: ZebovVRnrAd26
+  VAL109L: 'Ebola-Valenz mit nicht-replikativem viralen Vektor, modifizierter Ankara-Impfstoff '
+  VAL109S: Ebola-MVA-BN-Filo
+  VAL115L: Hepatitis-B-Impfstoff, rekombinantes 
+    Hepatitis-B-Virus-Oberflächenantigen (HBsAg), 20 Mikrogramm
+  VAL116L: Monoklonaler Antikörper gegen RSV, palivizumab
+  VAL116S: RSV-mAb-pal
+  VAL118S: MenB
+  VAL119L: Monovalenter, polyosider, nicht konjugierter Meningokokken-Impfstoff
+  VAL119S: MPV-mono
+  VAL120L: Meningokokken, nicht konjugiertes Polysaccharid, polyvalent
+  VAL117L: Impfstoff gegen azelluläre Pertussis, Dosis nicht spezifiziert
+  VAL117S: Acel
+  VAL118L: Meningokokken-B-Impfstoff, nicht spezifiziert
+  VAL120S: MPV-poly
+  VAL121L: Inaktivierter dreiwertiger oraler Polio-Ganzkörperimpfstoff
+  VAL121S: POLIO-I-O
+  VAL125S: HepA-I
+  VAL126L: Ebola-Valenz, ohne Spezifikation
+  VAL126S: Ebola
+  VAL128L: Influenza-Valenz, ohne Spezifikation
+  VAL128S: Inf
+  VAL129L: Herpes-Simplex-Valenz, ohne Spezifikation
+  VAL130L: Hepatitis-A-Virosom-Valenz
+  VAL130S: HepA-VLP
+  VAL131L: Inaktivierter ganzer Impfstoff gegen die Pest
+  VAL131S: Yp-I
+  VAL132L: Poliomyelitische Lebendvalenz abgeschwächt oral einwertig Typ 1
+  VAL132S: mOPV1
+  VAL129S: HSV
+  VAL133L: Attenuierter monovalenter oraler Polio-Lebendimpfstoff, Typ nicht 
+    spezifiziert
+  VAL133S: mOPV
+  VAL135S: Covid-ARNm-S-CT
+  VAL136L: Meningokokken-Impfstoff W, Polyosid-Konjugat
+  VAL136S: MCV-W
+  VAL137L: Meningokokken-Impfstoff C, nicht konjugiertes Polyosid
+  VAL137S: MPV-C
+  VAL138L: Inaktivierter Ganzvirus-Impfstoff gegen Covid 19
+  VAL138S: MPV-W
+  VAL139L: Meningokokken-Impfstoff Y, nicht konjugiertes Polyosid
+  VAL139S: MPV-Y
+  VAL140S: Inf-L
+  VAL141L: Monovalenter Impfstoff RIX4414 gegen Rotavirus
+  VAL141S: Rota-mv-RIX4414
+  VAL142L: Ganze inaktivierte Hepatitis-A-Valenz, monovalent, pädiatrische Dosis
+  VAL142S: HepA-mv-PED
+  VAL143L: Ganze inaktivierte Hepatitis-A-Valenz, bivalent (Hepatitis A und B), 
+    pädiatrische Dosis
+  VAL144L: Ganze inaktivierte Hepatitis-A-Valenz, monovalent, Erwachsenendosis
+  VAL145L: Ganze inaktivierte Hepatitis-A-Valenz, bivalent (Hepatitis A und B), 
+    Erwachsenendosis
+  VAL145S: HepA-bv-ADU
+  VAL146L: Valenz gegen ganze inaktivierte Brucella
+  VAL146S: Bruc-I
+  VAL149L: COVID-19-Impfstoff, mRNA kodierend für SARS-CoV-2-Spike-Protein, 25 
+    Mikrogramm
+  VAL149S: Covid-mRNA-S-25
+  VAL147L: Valenz mit Proteinantigen P.I. (phenolunlöslich) gegen Brucellose
+  VAL147S: Bruc-IP
+  VAL148L: Monoklonaler Antikörper gegen das Respiratorische Synzytialvirus
+  VAL151S: Tular
+  VAL152L: Ganze inaktivierte Influenza-Valenz, ohne Spezifikation
+  VAL152S: Inf-I
+  VAL153L: Impfstoff gegen Haemophilus influenzae Typ b, Polysaccharid PRP, 
+    konjugiert mit Diphtherietoxoid
+  VAL153S: PRP-D
+  VAL157L: COVID-19-Impfstoff, nicht spezifiziert
+  VAL157S: COVID
+  VAL158L: Plasma-Impfstoff gegen Hepatitis B
+  VAL162L: COVID-19-Impfstoff, replizierender Virusvektor, nicht spezifiziert
+  VAL162S: COVID-VVr
+  VAL163L: COVID-19-Impfstoff, nicht-replizierender viraler Vektor, nicht 
+    spezifiziert
+  VAL163S: COVID-VVnr
+  VAL164L: COVID-19-Impfstoff, nicht lebend, nicht spezifiziert
+  VAL164S: COVID-non-live
+  VAL165L: Levend vaccin tegen covidae 19, niet gespecificeerd
+  VAL165S: COVID-live
+  VAL167L: COVID-19-Impfstoff, nicht replizierender viraler Vektor, mit 
+    antigenpräsentierenden Zellen
+  VAL167S: COVID-VVnr+APC
+  VAL168L: COVID-19-Impfstoff, RNA, nicht spezifiziert
+  VAL168S: COVID-RNA
+  VAL169L: Zelfversterkend mRNA-vaccin (AAA) voor vaccin 19
+  VAL169S: COVID-mRNA-SAM
+  VAL170L: Hepatitis-B-Impfstoff, rekombinantes 
+    Hepatitis-B-Virus-Oberflächenantigen (HBsAg), 5 Mikrogramm
+  VAL170S: rHepB-05
+  VAL171L: Impfstoff gegen venezolanische Pferdeenzephalitis, nicht spezifiziert
+  VAL171S: VEE
+  VAL172L: Valenz gegen Q-Fieber (Coxiella burnetii), ohne Spezifikation
+  VAL172S: Cbur
+  VAL173S: Junin-LAV
+  VAL174L: Hantavirus-Valenz, ohne Spezifikation
+  VAL174S: HAN
+  VAL175L: Leishmaniose-Impfstoff, nicht spezifiziert
+  VAL175S: Leish
+  VAL176L: Impfstoff gegen humane Parainfluenzaviren, nicht spezifiziert
+  VAL176S: HPIVs
+  VAL177L: Haemophilus-influenzae-Typ-b-Valenz, ohne Spezifikation
+  VAL178S: Covid-mRNA-S-OMI-25
+  VAL179L: Meningokokken-Konjugatimpfstoff, monovalent
+  VAL177S: Hib
+  VAL178L: COVID-19-Impfstoff, mRNA, die für das SARS-CoV-2-Spike-Protein 
+    kodiert, Omicron-Variante, 25 Mikrogramm
+  VAL179S: MCV-mono
+  VAL180L: COVID-19-Impfstoff, mRNA, die für das SARS-CoV-2-Spike-Protein 
+    kodiert, 100 Mikrogramm
+  VAL183S: Mumps
+  VAL184L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, monovalent
+  VAL184S: PCV
+  VAL185L: Pneumokokken-Polysaccharid-Impfstoff, nicht konjugiert, nicht 
+    spezifiziert
+  VAL185S: PPSV
+  VAL186L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 1
+  VAL180S: Covid-mRNA-S-100
+  VAL181L: COVID-19-Impfstoff, mRNA, die für das Spike-Protein von SARS-CoV-2 
+    kodiert, Original-SARS-CoV-2-Virus, 25 Mikrogramm
+  VAL181S: Covid-mRNA-S-ORI-25
+  VAL182L: Masern-Impfstoff, nicht näher bezeichnet
+  VAL182S: Meas
+  VAL186S: PCV-01
+  VAL183L: Mumps-Impfstoff, nicht spezifiziert
+  VAL187L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 3
+  VAL187S: PCV-03
+  VAL188L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 4
+  VAL188S: PCV-04
+  VAL189L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 5
+  VAL189S: PCV-05
+  VAL190L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 6A
+  VAL199L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 15B
+  VAL190S: PCV-06A
+  VAL191L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 6B
+  VAL191S: PCV-06B
+  VAL192L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 7F
+  VAL192S: PCV-07F
+  VAL193L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 8
+  VAL193S: PCV-08
+  VAL194L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 9V
+  VAL194S: PCV-09V
+  VAL195L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 10A
+  VAL195S: PCV-10A
+  VAL196L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 11A
+  VAL196S: PCV-11A
+  VAL197L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 12F
+  VAL197S: PCV-12F
+  VAL198L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 14
+  VAL198S: PCV-14
+  VAL199S: PCV-15B
+  VAL200L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 18C
+  VAL200S: PCV-18C
+  VAL201L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 19A
+  VAL201S: PCV-19A
+  VAL202L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 19F
+  VAL202S: PCV-19F
+  VAL203L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 22F
+  VAL203S: PCV-22F
+  VAL204L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 23F
+  VAL204S: PCV-23F
+  VAL205L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 33F
+  VAL205S: PCV-33F
+  VAL206L: Pneumokokken-Polysaccharid-Impfstoff, nicht konjugiert, Serotyp 1
+  VAL206S: PPSV-01
+  VAL207L: Pneumokokken-Polysaccharid-Impfstoff, nicht konjugiert, Serotyp 2
+  VAL207S: PPSV-02
+  VAL208L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 3
+  VAL208S: PPSV-03
+  VAL209L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 4
+  VAL209S: PPSV-04
+  VAL210L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 5
+  VAL210S: PPSV-05
+  VAL211L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 6B
+  VAL211S: PPSV-06B
+  VAL212L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 7F
+  VAL212S: PPSV-07F
+  VAL213L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 8
+  VAL213S: PPSV-08
+  VAL214L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 9N
+  VAL214S: PPSV-09N
+  VAL215L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 9V
+  VAL215S: PPSV-09V
+  VAL216L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 10A
+  VAL216S: PPSV-10A
+  VAL217L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 11A
+  VAL217S: PPSV-11A
+  VAL219S: PPSV-14
+  VAL218L: Pneumokokken-Polysaccharid-Impfstoff, nicht konjugiert, Serotyp 12F
+  VAL218S: PPSV-12F
+  VAL219L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 14
+  VAL220L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 15B
+  VAL220S: PPSV-15B
+  VAL221L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 15F
+  VAL221S: PPSV-15F
+  VAL223S: PPSV-18C
+  VAL224L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 19A
+  VAL222L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 17F
+  VAL222S: PPSV-17F
+  VAL223L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 18C
+  VAL224S: PPSV-19A
+  VAL225L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 19F
+  VAL225S: PPSV-19F
+  VAL226L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 20
+  VAL226S: PPSV-20
+  VAL228S: PPSV-23F
+  VAL229L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 33F
+  VAL229S: PPSV-33F
+  VAL227L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 22F
+  VAL227S: PPSV-22F
+  VAL228L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 23F
+  VAL230L: Quadrivalente inaktivierte Influenza-Valenz, Spalt- oder 
+    Untereinheit, ohne Spezifikation
+  VAL232L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 6A
+  VAL232S: PPSV-06A
+  VAL233L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 25
+  VAL233S: PPSV-25
+  VAL245S: HVP-52
+  VAL246L: Humaner Papillomavirus-VLP-Impfstoff, Typ 45
+  VAL246S: HVP-45
+  VAL247S: JE-LAR
+  VAL234L: Meningokokken-Impfstoff, nicht spezifiziert
+  VAL234S: Men
+  VAL235L: Meningokokken-Konjugat-Polysaccharid-Impfstoff, polyvalent
+  VAL245L: Humaner Papillomavirus-VLP-Impfstoff, Typ 52
+  VAL248L: Lebend-attenuierte Japanische-Enzephalitis-Valenz, ohne Spezifikation
+  VAL248S: JE-LAV
+  VAL249L: Japanische-Enzephalitis-Valenz, ohne Spezifikation
+  VAL252L: Tollwut-Immunglobulin, menschlichen Ursprungs
+  VAL252S: RIG-hu
+  VAL253L: Tollwut-Immunglobulin, equinen Ursprungs
+  VAL253S: eRIG
+  VAL254L: Inaktivierter Tollwut-Vollvirusimpfstoff, Typ Semple, hergestellt aus
+    mit Tollwutvirus infiziertem Ziegen- oder Schafshirngewebe, enthält Myelin
+  VAL254S: Rab-I-Semple
+  VAL249S: JE
+  VAL250L: Japanische-Enzephalitis-Valenz, ganze inaktivierte, hergestellt auf 
+    murinem Gehirngewebe
+  VAL250S: JE-I-mb
+  VAL251L: Japanische-Enzephalitis-Valenz, inaktiviert, aus Vero-Zellen gewonnen
+  VAL251S: JE-I-Vero
+  VAL255L: Inaktivierter Tollwut-Vollvirusimpfstoff, Typ Fuenzalida, hergestellt
+    aus mit dem Tollwutvirus infiziertem Gehirngewebe von Saugmäusen, mit 
+    vermindertem Myelingehalt
+  VAL255S: Rab-I-Fuenzalida
+  VAL256L: Inaktivierter Vollvirus-Tollwutimpfstoff, hergestellt aus mit 
+    Tollwutvirus infiziertem tierischem Hirngewebe, nicht spezifiziert
+  VAL256S: Rab-I-NervousTissue
+  VAL257L: Inaktivierter Vollvirus-Tollwutimpfstoff, auf Zellkulturbasis, nicht 
+    spezifiziert
+  VAL257S: Rab-I-CC
+  VAL258L: Inaktivierter Tollwut-Vollvirusimpfstoff auf Zellkulturbasis, humaner
+    diploider Zellimpfstoff (HDCV) MRC-5, Inaktivierung mit ß-Propiolacton
+  VAL258S: Rab-I-HDCV
+  VAL259L: Inaktivierter Ganzvirus-Tollwutimpfstoff, gereinigter Impfstoff aus 
+    Hühnerembryozellen (PCECV), gewonnen durch Züchtung des fixierten 
+    Tollwutvirusstammes Flury LEP-25 in Primärkulturen von Hühnerfibroblasten, 
+    Virusinaktivierung mit ß-Propiolacton
+  VAL259S: Rab-I-PCEC
+  VAL260L: Inaktivierter Tollwut-Vollvirusimpfstoff auf Zellkulturbasis, 
+    gereinigter Tollwutimpfstoff aus Vero-Zellen (PVRV), Wistar-Stamm, 
+    Inaktivierung mit ß-Propiolacton
+  VAL260S: Rab-I-PVRV
+  VAL261L: Inaktivierter Tollwut-Vollvirusimpfstoff auf Zellkulturbasis, 
+    primärer Hamsternierenzellimpfstoff (PHKCV), Stamm Beijing, Inaktivierung 
+    mit Formalin
+  VAL261S: Rab-I-PHKCV
+  VAL262L: Inaktivierter Vollvirus-Tollwutimpfstoff, Impfstoff auf Basis von 
+    embryonierten Eiern (EEV), nicht spezifiziert
+  VAL262S: Rab-I-EEV
+  VAL263L: Inaktivierter Tollwut-Vollvirusimpfstoff, gereinigter 
+    Entenembryo-Impfstoff (PDEV), Inaktivierung durch ß-Propiolacton
+  VAL263S: Rab-I-PDEV
+  VAL264L: COVID-19-Impfstoff, ganzes Virion, inaktiviert
+  VAL264S: COVID-IV
+  VAL265L: COVID-19-Impfstoff, ganzes Virion inaktiviert, in klinischen 
+    Versuchen
+  VAL265S: COVID-IV-CT
+  VAL266L: Meningokokken-Impfstoff C, Polyosid konjugiert mit Tetanustoxoid
+  VAL266S: MCV-C-T
+  VAL267L: Meningokokken-Impfstoff C, Polyosid konjugiert mit Diphtherie-Toxoid
+  VAL267S: MCV-C-D
+  VAL268L: Meningokokken-C-Impfstoff, Polyosid, konjugiert mit dem 
+    CRM197-Protein
+  VAL268S: MCV-C-CRM
+  VAL269L: Meningokokken-A-Impfstoff, Polyosid, konjugiert mit dem 
+    CRM197-Protein
+  VAL275S: MCV-Y-CRM
+  VAL282S: Adeno-4
+  VAL283L: Ganze inaktivierte Hepatitis-A-Valenz, pädiatrische Dosis, ohne 
+    Spezifikation
+  VAL283S: HepA-PED
+  VAL276L: Meningokokken-Impfstoff Y, Polyosid konjugiert mit Tetanustoxoid
+  VAL276S: MCV-Y-T
+  VAL277L: Meningokokken-Impfstoff Y, Polyosid konjugiert mit Diphtherietoxoid
+  VAL277S: MCV-Y-D
+  VAL278S: Adeno-LAV
+  VAL280L: Botulinumtoxin
+  VAL280S: BT
+  VAL281S: Adeno-7
+  VAL284L: Ganze inaktivierte Hepatitis-A-Valenz, Erwachsenendosis, ohne 
+    Spezifikation
+  VAL284S: HepA-ADU
+  VAL286S: HepA-LAV
+  VAL287L: Quadrivalente rekombinante Influenza-Valenz
+  VAL288L: Hepatitis-A-Valenz, ohne Spezifikation
+  VAL285L: Trivalente inaktivierte Influenza-Valenz aus Zellkultur, spalt- oder 
+    untereinheitlich, normale Dosis
+  VAL288S: HepA
+  VAL289L: COVID-19-Impfstoff, mRNA kodierend für SARS-CoV-2-Spike-Protein, 10 
+    Mikrogramm
+  VAL289S: ' COVID-mRNA-S-10'
+  VAL290L: COVID-19-Impfstoff, mRNA kodierend für SARS-CoV-2-Spike-Protein, 30 
+    Mikrogramm
+  VAL290S: COVID-mRNA-S-30
+  VAL291L: Rekombinante Hepatitis-B-Valenz, drei Antigene (HbS, Prä-S1 und 
+    Prä-S2)
+  VAL291S: HepB-r-3Ag
+  VAL292L: COVID-19-Impfstoff, nicht-replizierender Adenovirus-26-Vektor, der 
+    für das SARS-CoV-2-Spike-Protein kodiert, in klinischen Studien
+  VAL292S: Covid-VVnr-S-Ad26-CT
+  VAL293L: Immunoglobulin gegen Anthrax
+  VAL293S: Anthrax-Ig
+  VAL294L: Lebendimpfstoff aus Vacciniaviren, Impfstoff der ersten Generation
+  VAL294S: Pox-1G
+  VAL295S: Pox-2G
+  VAL296L: Modifizierter Vacciniavakzine Ankara, nicht replizierender Impfstoff 
+    der dritten Generation
+  VAL296S: Pox-3G-MVA
+  VAL297L: Meningokokken-A-Impfstoff, nicht spezifiziert
+  VAL297S: MenA
+  VAL298L: Meningokokken-C-Impfstoff, nicht spezifiziert
+  VAL298S: MenC
+  VAL299L: Meningokokken-Y-Impfstoff, nicht spezifiziert
+  VAL299S: MenY
+  VAL300L: Meningokokken-W-Impfstoff, nicht spezifiziert
+  VAL300S: MenW
+  VAL301L: Rekombinanter trivalenter Impfstoff gegen Influenza
+  VAL303L: Anti-Covid-19-Impfstoff mit mRNA, die für das Spitzenprotein des 
+    ursprünglichen SARS-CoV-2-Virus kodiert.
+  VAL303S: Covid-ARNm-S-ORI
+  VAL304L: Anti-Covid-19-mRNA-Impfstoff, der das Spitzenprotein des 
+    ursprünglichen SARS-CoV-2-Virus kodiert, 15 Mikrogramm
+  VAL306S: Covid-ARNm-S-ORI-3
+  VAL308S: Covid-ARNm-S-OMI-BA.4/5-25
+  VAL309L: Anti-Kovid-19-mRNA-Impfstoff, der für das SARS-CoV-2-Spitzenprotein 
+    kodiert, Variante Omicron BA.4/BA.5, 5 Mikrogramm
+  VAL309S: Covid-ARNm-S-OMI-BA.4/5-5
+  VAL310L: COVID-19-Impfstoff, mRNA, die das SARS-CoV-2-Spike-Protein codiert, 
+    Originalvirus, 5 Mikrogramm
+  VAL310S: Covid-mRNA-S-ORI-5
+  VAL311S: R21/Matrix-M
+  VAL312S: TBE-K23
+  VAL313S: TBE-Neudorfl
+  VAL314S: TBE-Neudorfl-ADU
+  VAL328L: COVID-19-Impfstoff, Proteinuntereinheit, rekombinante 
+    Spike-Protein-Nanopartikel, Omicron XBB.1.5
+  VAL328S: COVID-SP-rSnp-XBB
+  VAL329L: SARS-CoV-2 Spike-Protein mRNA 19-Impfstoff, Omicron XBB.1.5-50 
+    Mikrogramm Variante
+  VAL329S: Covid-ARNm-S-OMI-XBB.1.5-50
+  VAL340L: Valenz gegen Milzbrand, ohne Spezifikation
+  VAL340S: Milzbrand
+  VAL341L: Escherichia coli-Valenz, ohne Spezifikation
+  VAL341S: Eco
+  VAL342S: Kpn
+  VAL343L: Enterococcus faecalis-Valenz, ohne Spezifikation
+  VAL343S: Efa
+  VAL344S: Pvu
+  VAL345S: UTI
+  VAL359L: Inaktivierte Ganzzell-Cholera-Valenz, ohne Spezifikation
+  VAL360L: Inaktivierte Influenza-Valenz aus Zellkultur, spalt- oder 
+    untereinheitlich, normale Dosis, ohne Spezifikation
+  VAL361L: Rekombinante Influenza-Valenz, ohne Spezifikation
+  VAL365L: Nicht-lebende Influenza-Valenz aus Eikultur, ohne Spezifikation
+  VAL364L: Nicht-lebende Influenza-Valenz, ohne Spezifikation
+  VAL366L: RNA-basierte Influenza-Valenz, ohne Spezifikation
+  VAL386S: AH5
+  VAL390L: Chikungunya Valenz, nicht spezifiziert
+  VAL390S: CHIK
+  VAL414L: Diphtherie-Valenz
+  VAL414S: DIPH
+  VAL415S: BantAdj
