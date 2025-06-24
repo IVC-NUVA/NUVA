@@ -4,13 +4,13 @@ comment: Diphtheria toxoid (low dose), tetanus toxoid, pertussis (multicomponent
   5 components, low dose) and inactivated polio (trivalent) vaccine, adsorbed
 created: '2021-07-19'
 codes:
-  UPC: '697177005169'
-  DIN: '02352044'
-  NUVACode: 0639
   CVC: '7481000087104'
+  DIN: '02352044'
   NTIN: '8699625960428'
+  NUVACode: 0639
+  UPC: '697177005169'
 valences:
-- VAL067
-- VAL056
 - VAL017
 - VAL034
+- VAL056
+- VAL067

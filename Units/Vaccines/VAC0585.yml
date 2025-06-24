@@ -5,10 +5,11 @@ comment: Diphtheria toxoid (low dose), tetanus toxoid, pertussis (multicomponent
 created: '2021-07-19'
 codes:
   ATC: J07CA02
-  NUVACode: 0585
   CVC: '7891000087104'
+  NUVACode: 0585
+  SNOMED-CT: '871894009'
 valences:
-- VAL067
-- VAL056
 - VAL017
 - VAL034
+- VAL056
+- VAL067

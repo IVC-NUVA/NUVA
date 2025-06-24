@@ -3,10 +3,11 @@ label: SPIKEVAX 0,1 mg/mL MODERNA
 comment: COVID-19 mRNA vaccine, original virus, 50 micrograms
 created: '2022-08-27'
 codes:
-  NUVACode: '1019'
-  CVC: '35651000087105'
-  CTI-EXTEND: 660540-01
   CTI: '660540'
+  CTI-EXTEND: 660540-01
+  CVC: '35651000087105'
   EU-NUMBER: EU-1-20-1507-003
+  INFARMED: '5805965'
+  NUVACode: '1019'
 valences:
 - VAL302

@@ -4,17 +4,18 @@ comment: Pneumococcal conjugate vaccine, 7-valent, adsorbed, serotypes 4, 6B, 9V
   14, 18C, 19F and 23F
 created: '2021-07-19'
 codes:
-  CIP: '3400935948106'
-  CNK: '1658384'
-  CIS: '65598079'
-  EU-NUMBER: EU-1-00-167-005
   AIC: '035053077'
+  CIP: '3400935948106'
+  CIS: '65598079'
+  CNK: '1658384'
+  EU-NUMBER: EU-1-00-167-005
+  INFARMED: '5122924'
   NUVACode: '0025'
 valences:
-- VAL202
-- VAL200
 - VAL188
+- VAL191
 - VAL194
 - VAL198
-- VAL191
+- VAL200
+- VAL202
 - VAL204

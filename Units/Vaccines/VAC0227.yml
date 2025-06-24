@@ -3,13 +3,14 @@ label: EPAXAL
 comment: Inactivated hepatitis A vaccine, virosome, pediatric or adult
 created: '2021-07-19'
 codes:
-  CIP: '3400936121751'
-  CNK: '1572452'
-  CIS: '64036265'
   AIC: 036438048
+  CIP: '3400936121751'
+  CIS: '64036265'
+  CNK: '1572452'
   CODE_NATIONAL_SPAIN: '866335'
-  DIN: 02239910
-  NUVACode: '0227'
   CVC: '9851000087104'
+  DIN: 02239910
+  INFARMED: '3125580'
+  NUVACode: '0227'
 valences:
 - VAL130

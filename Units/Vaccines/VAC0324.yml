@@ -5,15 +5,15 @@ comment: Pneumococcal polysaccharide conjugate vaccine, 7-valent, serotypes 4, 6
 created: '2021-07-19'
 codes:
   CPT: '90669'
+  CVC: '125714002'
   CVX: '100'
   NUVACode: '0324'
-  CVC: '125714002'
   SNOMED-CT: '1052328007'
 valences:
-- VAL202
-- VAL200
 - VAL188
+- VAL191
 - VAL194
 - VAL198
-- VAL191
+- VAL200
+- VAL202
 - VAL204

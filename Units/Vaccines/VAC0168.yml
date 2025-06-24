@@ -3,12 +3,12 @@ label: AMBIRIX
 comment: Combined hepatitis A and B vaccine, pediatric dose
 created: '2021-07-19'
 codes:
-  INFARMED: '4011284'
-  EU-NUMBER: EU-1-02-224-005
   AIC: 035686056
-  NUVACode: 0168
-  CTI-EXTEND: 247536-01
   CTI: '247536'
+  CTI-EXTEND: 247536-01
+  EU-NUMBER: EU-1-02-224-005
+  INFARMED: '4015285'
+  NUVACode: 0168
 valences:
 - VAL115
 - VAL143

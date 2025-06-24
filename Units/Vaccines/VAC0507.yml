@@ -6,16 +6,17 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomp
   adsorbed
 created: '2021-07-19'
 codes:
-  EU-NUMBER: EU-1-13-828-007
   AIC: 042816076
-  NUVACode: '0507'
-  NTIN: '7501895110056'
-  CTI-EXTEND: 662551-01
   CTI: '662551'
+  CTI-EXTEND: 662551-01
+  EU-NUMBER: EU-1-13-828-007
+  INFARMED: '5558523'
+  NTIN: '7501895110056'
+  NUVACode: '0507'
 valences:
+- VAL008
+- VAL056
 - VAL067
 - VAL097
-- VAL056
 - VAL114
-- VAL008
 - VAL156

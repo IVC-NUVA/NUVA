@@ -7,8 +7,9 @@ created: '2021-07-19'
 codes:
   ATC: J07AG51
   NUVACode: '0775'
+  SNOMED-CT: '2071000221100'
 valences:
+- VAL010
 - VAL067
 - VAL097
 - VAL103
-- VAL010

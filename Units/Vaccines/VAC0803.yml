@@ -4,9 +4,9 @@ comment: Polio vaccine (live attenuated, bivalent) against poliovirus types 1 an
   3, oral
 created: '2021-10-26'
 codes:
-  NUVACode: 0803
-  CTI-EXTEND: 349334-02
   CTI: '349334'
+  CTI-EXTEND: 349334-02
+  NUVACode: 0803
 valences:
-- VAL132
 - VAL085
+- VAL132

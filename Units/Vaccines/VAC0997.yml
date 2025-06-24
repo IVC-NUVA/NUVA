@@ -5,22 +5,22 @@ comment: Pneumococcal polysaccharide conjugate vaccine, 13-valent, adsorbed, ser
 created: '2022-07-26'
 codes:
   CPT: '90670'
-  ICD11: XM9G97
-  CVX: '133'
-  NUVACode: 0997
   CVC: '448964007'
-  SNOMED-CT: '1119254000'
+  CVX: '133'
+  ICD11: XM9G97
+  NUVACode: 0997
+  SNOMED-CT: '51451000087105'
 valences:
-- VAL202
-- VAL200
-- VAL187
-- VAL190
-- VAL188
-- VAL194
-- VAL192
 - VAL186
-- VAL198
+- VAL187
+- VAL188
 - VAL189
+- VAL190
 - VAL191
+- VAL192
+- VAL194
+- VAL198
+- VAL200
 - VAL201
+- VAL202
 - VAL204

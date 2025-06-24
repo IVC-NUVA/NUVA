@@ -5,11 +5,11 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomp
   toxoid) pediatric vaccine
 created: '2021-07-19'
 codes:
-  INFARMED: '3093085'
   CODE_NATIONAL_SPAIN: '600536'
+  INFARMED: '3093184'
   NUVACode: 0578
 valences:
+- VAL008
 - VAL067
 - VAL097
-- VAL008
 - VAL156

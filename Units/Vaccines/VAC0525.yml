@@ -5,12 +5,13 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomp
   pediatric vaccine, adsorbed
 created: '2021-07-19'
 codes:
-  EU-NUMBER: EU-1-00-153-010
   AIC: 034961108
+  EU-NUMBER: EU-1-00-153-010
+  INFARMED: '3890985'
   NUVACode: '0525'
 valences:
+- VAL008
+- VAL056
 - VAL067
 - VAL097
-- VAL056
 - VAL114
-- VAL008

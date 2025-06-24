@@ -5,11 +5,11 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomp
   to tetanus toxoid) and inactivated polio (trivalent) pediatric vaccine, adsorbed
 created: '2021-07-19'
 codes:
-  UPC: '349281564154'
   NUVACode: 0348
+  UPC: '349281564154'
 valences:
+- VAL008
+- VAL056
 - VAL067
 - VAL097
-- VAL056
-- VAL008
 - VAL156

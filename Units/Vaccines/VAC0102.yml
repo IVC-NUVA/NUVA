@@ -3,11 +3,11 @@ label: Inactivated hepatitis A vaccine, unspecified
 comment: Inactivated hepatitis A vaccine, pediatric or adult dose
 created: '2021-07-19'
 codes:
+  AIC: '033317'
   ATC: J07BC02
   CPT: '90730'
-  AIC: '033317'
   CVX: '85'
   NUVACode: '0102'
-  SNOMED-CT: '836375003'
+  SNOMED-CT: '91000221102'
 valences:
 - VAL125

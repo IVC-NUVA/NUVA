@@ -5,12 +5,12 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (whole-
 created: '2021-07-19'
 codes:
   CPT: '90701'
-  ICD11: XM1PB8
-  CVX: '01'
-  NUVACode: '0601'
   CVC: '7831000087100'
+  CVX: '01'
+  ICD11: XM1PB8
+  NUVACode: '0601'
   SNOMED-CT: '871875004'
 valences:
+- VAL003
 - VAL067
 - VAL097
-- VAL003
