@@ -1,1 +1,1280 @@
-{}
+valence:
+  VAL114L: Hepatīta B vakcīna, rekombinantais hepatīta B virsmas antigēns 
+    (HBsAg), 10 mikrogrami
+  VAL114S: rHBsAg-10
+  VAL115L: Hepatīta B vakcīna, rekombinants hepatīta B vīrusa virsmas antigēns 
+    (HBsAg), 20 mikrogrami
+  VAL121S: POLIO-I-O
+  VAL116L: Monoklonālā antiviela pret RSV, palivizumab
+  VAL116S: RSV-mAb-pal
+  VAL117L: Acelulārā garo klepus klepus vakcīna, deva nav norādīta
+  VAL117S: Acel
+  VAL118L: Meningokoka B tipa vakcīna, neprecizēta
+  VAL118S: MenB
+  VAL119L: Meningokoku monovalentā nekonjugētā polisaharīdu vakcīna
+  VAL119S: MPV-mono
+  VAL120L: Meningokoka nekonjugēts polisaharīds, polivalents
+  VAL120S: MPV-poly
+  VAL121L: Perorāla trivalenta inaktivēta poliomielīta vakcīna
+  VAL136L: Meningokoka W vakcīna, polisaharīda konjugāts
+  VAL136S: MCV-W
+  VAL137L: Meningokoka C nekonjugēta polisaharīda vakcīna
+  VAL137S: MPV-C
+  VAL225L: Pneimokoku polikonjugētā nekonjugētā vakcīna, 19F serotips
+  VAL225S: PPSV-19F
+  VAL226L: Pneimokoku polisaharīdu nekonjugētā vakcīna, 20. serotips
+  VAL226S: PPSV-20
+  VAL227L: Pneimokoku polisaharīdu nekonjugētā vakcīna, 22F serotips
+  VAL227S: PPSV-22F
+  VAL228L: Pneimokoku polisaharīdu nekonjugēta vakcīna, serotips 23F
+  VAL228S: PPSV-23F
+  VAL229L: Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 33F
+  VAL229S: PPSV-33F
+  VAL230L: Četrvalenta inaktivēta gripas valence, frakcionēta vai apakšvienība, 
+    bez precizējuma
+  VAL016L: Trakumsērgas imūnglobulīns, neprecizēts
+  VAL016S: RIG
+  VAL017L: Bezšūnu garā klepus valence, samazināta deva
+  VAL017S: ap
+  VAL020S: Shingles-L
+  VAL021L: Perorāla inaktivēta vesela holēras vakcīna
+  VAL021S: O-Chol-I
+  VAL022S: Smallpox-L
+  VAL024L: Trivalenta inaktivēta gripas valence, frakcionēta vai apakšvienība, 
+    bez precizējuma
+  VAL041L: Meningokoka A polisaharīdu konjugētā vakcīna
+  VAL041S: MCV-A
+  VAL065S: RC-TDV
+  VAL066L: Pretcovid 19 replicatīvā vīrusa vektora vakcīna, gripas vīruss, kas 
+    kodē SARS-CoV-2 maksimālo proteīnu
+  VAL066S: COVID-VVr-S-Influ
+  VAL067L: Stingumkrampju toksoīds
+  VAL067S: T
+  VAL068L: B hepatīta valence, bez precizējuma
+  VAL068S: HepB
+  VAL069L: COVID-19 vakcīna, neatjaunojošs šimpanzes adenovīrusu vektors 
+    ChAdOx1, kas kodē SARS-CoV-2 smailes proteīnu
+  VAL069S: COVID-VVnr-S-ChAdOx1
+  VAL070L: COVID-19 vakcīna, neatjaunojošs adenovīrusu vektors, kas kodē 
+    SARS-CoV-2 smailes proteīnu, neprecizēts
+  VAL070S: COVID-VVnr-S-Ad
+  VAL071L: Inaktivēta visa vakcīna pret vēdertīfu
+  VAL071S: Ty-I
+  VAL072L: Meningokoka B vakcīna, kas satur A un B apakšģimenes fHbp
+  VAL072S: MenB-fHbpAB
+  VAL073L: COVID-19 vakcīna, replicējošs vīrusa vektors, ar antigēnu 
+    prezentējošām šūnām
+  VAL081L: Holēras valence, bez precizējuma
+  VAL081S: Chol
+  VAL082L: Vakcīna pret cilvēka papilomas vīrusu, veidi nav norādīti
+  VAL082S: HPV
+  VAL083L: Difterijas toksoīds, deva nav precizēta
+  VAL083S: D-d
+  VAL123S: Rota5-L
+  VAL124L: Dzīva novājināta holēras valence, bez precizējuma
+  VAL124S: Chol-L
+  VAL125L: Visa inaktivēta A hepatīta valence, bez precizējuma
+  VAL129L: Herpes simplex valence, bez precizējuma
+  VAL125S: HepA-I
+  VAL126L: Valence pret ebolu, bez precizējuma
+  VAL126S: Ebola
+  VAL128L: Gripas valence, bez precizējuma
+  VAL128S: Inf
+  VAL129S: HSV
+  VAL130L: A hepatīta virosomu valence
+  VAL130S: HepA-VLP
+  VAL131L: Visa inaktivētā mēra vakcīna
+  VAL131S: Yp-I
+  VAL132L: Monovalentā dzīvā novājinātā 1. tipa perorālā poliomielīta vakcīna
+  VAL132S: mOPV1
+  VAL133L: Dzīva novājināta monovalentā perorālā poliomielīta vakcīna, 
+    neprecizēts tips
+  VAL133S: mOPV
+  VAL135S: Covid-ARNm-S-CT
+  VAL149S: Covid-mRNA-S-25
+  VAL150L: Valence pret denges drudzi, bez precizējuma
+  VAL150S: Den
+  VAL151L: Tularēmijas vakcīna, neprecizēta
+  VAL151S: Tular
+  VAL154L: Haemophilus influenzae b tipa valence, PRP oligosaharīdi konjugēti ar
+    mutantu difterijas toksīnu CRM197
+  VAL154S: HbOC
+  VAL155L: Haemophilus influenzae b tipa vakcīna, polisaharīda konjugēta ar 
+    Neisseria meningitidis B serogrupas ārējās membrānas proteīnu.
+  VAL155S: PRP-OMP
+  VAL156L: PRP-T Haemophilus influenzae b tipa vakcīna, polisaharīda PRP, 
+    konjugēta ar stingumkrampju toksoīdu
+  VAL156S: PRP-T
+  VAL158S: pHBsAg
+  VAL159L: Vakcīna pret šinšļiem, apakšvienība, neprecizēta
+  VAL159S: Shingles-SU
+  VAL160L: Vakcīna pret šinšļiem, neprecizēta
+  VAL160S: Shingles
+  VAL161L: Meningokoka B daudzkomponentu vakcīna, neprecizēta
+  VAL163S: COVID-VVnr
+  VAL164L: COVID-19 vakcīna, nedzīva, neprecizēta
+  VAL164S: COVID-non-live
+  VAL168S: COVID-RNA
+  VAL169L: Pašpastiprinoša mRNA (AAA) vakcīna vakcīnai 19
+  VAL169S: COVID-mRNA-SAM
+  VAL185S: PPSV
+  VAL186L: Pneimokoku polisaharīdu konjugētā vakcīna, 1. serotips
+  VAL186S: PCV-01
+  VAL187L: Pneimokoku polisaharīdu konjugētā vakcīna, 3. serotips
+  VAL187S: PCV-03
+  VAL188L: Pneimokoku polisaharīdu konjugētā vakcīna, 4. serotips
+  VAL188S: PCV-04
+  VAL189S: PCV-05
+  VAL201L: Pneimokoku polisaharīdu konjugētā vakcīna, 19A serotips
+  VAL201S: PCV-19A
+  VAL202L: Pneimokoku polisaharīdu konjugētā vakcīna, 19F serotips
+  VAL202S: PCV-19F
+  VAL207L: Pneimokoku polisaharīdu nekonjugētā vakcīna, 2. serotips
+  VAL207S: PPSV-02
+  VAL214L: Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 9N
+  VAL214S: PPSV-09N
+  VAL215L: Pneimokoku polisaharīdu nekonjugētā vakcīna, 9V serotips
+  VAL216L: Pneimokoku polisaharīdu nekonjugēta vakcīna, 10A serotips
+  VAL216S: PPSV-10A
+  VAL217L: Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 11A
+  VAL217S: PPSV-11A
+  VAL218S: PPSV-12F
+  VAL235L: Meningokoku konjugētā polisaharīdu polisaharīdu vakcīna, polivalenta
+  VAL235S: MCV-poly
+  VAL236L: Cilvēka papilomas vīrusa VLP vakcīna, monovalenta
+  VAL236S: HPV-mono
+  VAL237L: Cilvēka papilomas vīrusa VLP vakcīna, polivalenta
+  VAL237S: HPV-poly
+  VAL238L: Cilvēka papilomas vīrusa VLP vakcīna, 6. tips
+  VAL238S: HPV-06
+  VAL239L: Cilvēka papilomas vīrusa VLP vakcīna, 11. tips
+  VAL239S: HVP-11
+  VAL240L: 16. tipa cilvēka papilomas vīrusa VLP vakcīna
+  VAL240S: HVP-16
+  VAL241S: HVP-18
+  VAL244L: Cilvēka papilomas vīrusa VLP vakcīna, 58. tips
+  VAL244S: HVP-58
+  VAL245L: 52. tipa cilvēka papilomas vīrusa VLP vakcīna
+  VAL245S: HVP-52
+  VAL246L: 45. tipa cilvēka papilomas vīrusa VLP vakcīna
+  VAL246S: HVP-45
+  VAL247S: JE-LAR
+  VAL248S: JE-LAV
+  VAL271S: MCV-A-T
+  VAL272L: Meningokoka W vakcīna, tetanusa toksoīda konjugāts
+  VAL272S: MCV-W-T
+  VAL273L: Meningokoka W vakcīna, polisaharīda, konjugēta ar difterijas toksoīdu
+  VAL273S: MCV-W-D
+  VAL274L: Meningokoka W vakcīna, polisaharīda konjugēta ar CRM197
+  VAL274S: MCV-W-CRM
+  VAL275L: Meningokoka valence Y, poliosīds, konjugēts ar proteīnu CRM197
+  VAL275S: MCV-Y-CRM
+  VAL276L: Vaccin méningococcique W, polysaccharide conjugué au CRM197
+  VAL276S: MCV-Y-T
+  VAL277L: Meningokoka Y vakcīna, polisaharīda, konjugēta ar difterijas toksoīdu
+  VAL277S: MCV-Y-D
+  VAL278S: Adeno-LAV
+  VAL280L: Botulīna toksoīds
+  VAL281S: Adeno-7
+  VAL282S: Adeno-4
+  VAL283L: Visa inaktivēta A hepatīta valence, pediatriskā deva, bez precizējuma
+  VAL283S: HepA-PED
+  VAL284L: Visa inaktivēta A hepatīta valence, pieaugušo deva, bez precizējuma
+  VAL284S: HepA-ADU
+  VAL285L: Trivalenta inaktivēta gripas valence, iegūta no šūnu kultūras, 
+    frakcionēta vai apakšvienība, normāla deva
+  VAL286S: HepA-LAV
+  VAL287L: Četrvalenta rekombinanta gripas valence
+  VAL288L: A hepatīta valence, bez precizējuma
+  VAL288S: HepA
+  VAL289L: COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, 10 
+    mikrogrami
+  VAL289S: ' COVID-mRNA-S-ORI-10'
+  VAL290S: COVID-mRNA-S-ORI-30
+  VAL291S: HepB-r-3Ag
+  VAL312S: TBE-K23
+  VAL313S: TBE-Neudorfl
+  VAL314S: TBE-Neudorfl-ADU
+  VAL315S: TBE-Neudorfl-PED
+  VAL316S: RSV-PreF3
+  VAL317S: RSV-Ab
+  VAL318S: RSV-V
+  VAL321S: VRS-mAb-nir
+  VAL326S: COVID-mRNA-S-OMI-BA.4/5-1.5
+  VAL327S: COVID-mRNA-S-ORI-1.5
+  VAL329S: Covid-ARNm-S-OMI-XBB.1.5-50
+  VAL331L: CMV immune globulin
+  VAL331S: CMV-Ig
+  VAL332L: C hepatīta valence, bez precizējuma
+  VAL336L: Rifta ielejas drudža valence, bez precizējuma
+  VAL336S: RVF
+  VAL337S: Bakas-Ig
+  VAL338L: RSV antiviela vai vakcīna, neprecizēta
+  VAL338S: RSV
+  VAL340L: Valence pret Sibīrijas mēri, bez precizējuma
+  VAL340S: Sibīrijas mēris
+  VAL341L: Valence pret Escherichia coli, bez precizējuma
+  VAL365L: Nedzīva gripas valence, iegūta no olu kultūras, bez precizējuma
+  VAL366L: RNS bāzes gripas valence, bez precizējuma
+  VAL383L: Single-stranded 5' capped mRNA encoding the Respiratory syncytial 
+    virus glycoprotein F stabilized in the prefusion conformation
+  VAL383S: mRSV
+  VAL411S: COVID-mRNA-S-OMI-BA.4/5-50
+  VAL232L: Pneimokoku polisaharīdu nekonjugētā vakcīna, 6A serotips
+  VAL232S: PPSV-06A
+  VAL233L: Pneimokoku polisaharīdu nekonjugētā vakcīna, 25. serotips
+  VAL233S: PPSV-25
+  VAL234L: Meningokoka vakcīna, neprecizēta
+  VAL234S: Men
+  VAL241L: Cilvēka papilomas vīrusa VLP vakcīna, 18. tips
+  VAL242L: 31. tipa cilvēka papilomas vīrusa VLP vakcīna
+  VAL242S: HVP-31
+  VAL243L: 33. tipa cilvēka papilomas vīrusa VLP vakcīna
+  VAL243S: HPV-33
+  VAL249L: Valence pret Japānas encefalītu, bez precizējuma
+  VAL249S: JE
+  VAL250L: Valence pret Japānas encefalītu, visa inaktivēta, sagatavota uz peļu 
+    smadzeņu audiem
+  VAL250S: JE-I-mb
+  VAL251L: Japānas encefalīta valence, inaktivēta, iegūta no Vero šūnām
+  VAL251S: JE-I-Vero
+  VAL252L: cilvēka izcelsmes imūnglobulīns pret trakumsērgu
+  VAL252S: RIG-hu
+  VAL253L: Trakumsērgas imūnglobulīns, zirgu izcelsmes
+  VAL253S: eRIG
+  VAL254L: Visa vīriona inaktivēta trakumsērgas vakcīna, Semple tipa, sagatavota
+    no kazas vai aitas smadzeņu audiem, kas inficēti ar trakumsērgas vīrusu, 
+    satur mielīnu
+  VAL254S: Rab-I-Semple
+  VAL255L: Fuenzalida tipa vakcīna pret trakumsērgu, sagatavota no zīdītājpeļu 
+    smadzeņu audiem, kas inficēti ar trakumsērgas vīrusu, ar samazinātu mielīna 
+    saturu.
+  VAL255S: Rab-I-Fuenzalida
+  VAL256L: Visa vīriona inaktivēta trakumsērgas vakcīna, sagatavota no dzīvnieku
+    smadzeņu audiem, kas inficēti ar trakumsērgas vīrusu, neprecizēta
+  VAL256S: Rab-I-NervousTissue
+  VAL257L: Visa viriona inaktivēta trakumsērgas vakcīna, uz šūnu kultūru bāzes, 
+    nespecificēta
+  VAL257S: Rab-I-CC
+  VAL258L: Visa viriona inaktivēta trakumsērgas vakcīna, šūnu kultūras, cilvēka 
+    diploīdo šūnu vakcīna (HDCV) MRC-5, inaktivācija ar ß-propiolaktonu
+  VAL258S: Rab-I-HDCV
+  VAL259L: Visa vīriona inaktivēta trakumsērgas vakcīna, attīrīta cāļu embriju 
+    šūnu vakcīna (PCECV), iegūta, audzējot fiksētu trakumsērgas vīrusa celmu 
+    Flury LEP-25 primārajās cāļu fibroblastu kultūrās, vīruss inaktivēts ar 
+    ß-propiolaktonu
+  VAL259S: Rab-I-PCEC
+  VAL260L: Visa viriona trakumsērgas inaktivēta vakcīna, šūnu kultūras, attīrīta
+    Vero šūnu trakumsērgas vakcīna (PVRV), Wistar celms, inaktivācija ar 
+    ß-propiolaktonu
+  VAL260S: Rab-I-PVRV
+  VAL261L: Visa viriona inaktivēta trakumsērgas vakcīna, uz šūnu kultūru bāzes, 
+    primārā kāmja nieru šūnu vakcīna (PHKCV), Pekinas celms, inaktivācija ar 
+    formalīnu
+  VAL261S: Rab-I-PHKCV
+  VAL262L: Visa viriona inaktivēta trakumsērgas vakcīna, embrionētu olu bāzes 
+    vakcīna (EEV), neprecizēta
+  VAL262S: Rab-I-EEV
+  VAL263L: Visa viriona inaktivēta trakumsērgas vakcīna, attīrīta pīļu embriju 
+    vakcīna (PDEV), inaktivācija ar ß-propiolaktonu
+  VAL263S: Rab-I-PDEV
+  VAL264L: COVID-19 vakcīna, inaktivēta ar veselu virionu
+  VAL264S: COVID-IV-Auth
+  VAL265L: COVID-19 vakcīna, inaktivēta ar veselu virionu, klīniskajos pētījumos
+  VAL265S: COVID-IV-CT
+  VAL266L: Meningokoka C vakcīna, tetanusa toksoīda konjugāta vakcīna
+  VAL266S: MCV-C-T
+  VAL267L: Meningokoka C polisaharīda vakcīna, konjugēta ar difterijas toksoīdu
+  VAL267S: MCV-C-D
+  VAL268L: Meningokoka C polisaharīda vakcīna, konjugēta ar CRM197
+  VAL268S: MCV-C-CRM
+  VAL269L: Meningokoka A polisaharīda vakcīna, konjugēta ar CRM197
+  VAL269S: MCV-A-CRM
+  VAL270L: Meningokoka A vakcīna, polisaharīda, konjugēta ar difterijas toksoīdu
+  VAL270S: MCV-A-D
+  VAL271L: Meningokoka A polisaharīda vakcīna, konjugēta ar stingumkrampju 
+    toksoīdu
+  VAL280S: BT
+  VAL290L: COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, 30 
+    mikrogrami
+  VAL291L: Rekombinanta B hepatīta valence, trīs antigēni (HbS, pre-S1 un 
+    pre-S2)
+  VAL292L: COVID-19 vakcīna, neatjaunojošs adenovīrusa 26 vektors, kas kodē 
+    SARS-CoV-2 smailes proteīnu, klīniskos izmēģinājumos
+  VAL292S: Covid-VVnr-S-Ad26-CT
+  VAL293L: Sibīrijas mēra imūnglobulīns
+  VAL293S: Anthrax-Ig
+  VAL294L: Dzīvs vakcinācijas vīruss, pirmās paaudzes vakcīna
+  VAL294S: Pox-1G
+  VAL295S: Pox-2G
+  VAL296L: Modificēta vakcīna Ankara, neatkārtojama, trešās paaudzes vakcīna
+  VAL296S: Pox-3G-MVA
+  VAL297L: Meningokoka A vakcīna, neprecizēta
+  VAL297S: MenA
+  VAL298L: Meningokoka C vakcīna, neprecizēta
+  VAL298S: MenC
+  VAL299L: Meningokoka Y vakcīna, neprecizēta
+  VAL299S: MenY
+  VAL300L: Meningokoka W vakcīna, neprecizēta
+  VAL300S: MenW
+  VAL301L: Rekombinantā trivalentā gripas vakcīna
+  VAL302L: COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, 50 
+    mikrogrami, 50 mikrogrami.
+  VAL302S: Covid-mRNA-S-50
+  VAL303L: Anti-covid 19 mRNS vakcīna, kas kodē sākotnējā vīrusa SARS-CoV-2 
+    smailes proteīnu
+  VAL303S: COVID-mRNA-S-ORI
+  VAL304L: SARS-CoV-2 smaila proteīna mRNS 19 vakcīna, oriģinālais vīruss, 15 
+    mikrogrami
+  VAL304S: Covid-ARNm-S-ORI-15
+  VAL305L: SARS-CoV-2 maksimālā proteīna mRNS 19 vakcīna, Omicron BA.1 variants,
+    15 mikrogrami
+  VAL305S: COVID-mRNA-S-OMI-BA.1-15
+  VAL306L: SARS-CoV-2 maksimālā proteīna mRNS 19 vakcīna, oriģinālais vīruss, 3 
+    mikrogrami
+  VAL306S: COVID-mRNA-S-ORI-3
+  VAL307L: SARS-CoV-2 maksimālā proteīna mRNS 19 vakcīna, Omicron BA.4/BA.5 
+    variants, 15 mikrogrami
+  VAL307S: COVID-mRNA-S-OMI-BA.4/5-15
+  VAL308L: SARS-CoV-2 smaiļveida proteīna mRNS 19 vakcīna, Omicron BA.4/BA.5 
+    variants, 25 mikrogrami
+  VAL308S: COVID-mRNA-S-OMI-BA.4/5-25
+  VAL309L: SARS-CoV-2 maksimālā proteīna mRNS 19 vakcīna, Omicron BA.4/BA.5 
+    variants, 5 mikrogrami
+  VAL309S: Covid-ARNm-S-OMI-BA.4/5-5
+  VAL310L: Covid-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smaile proteīnu, 
+    oriģināls vīruss, 5 mikrogrami
+  VAL310S: Covid-mRNA-S-ORI-5
+  VAL311S: R21/Matrix-M
+  VAL322S: RSV-PreFAB
+  VAL341S: Eco
+  VAL342S: Kpn
+  VAL343L: Valence pret Enterococcus faecalis, bez precizējuma
+  VAL343S: Efa
+  VAL344S: Pvu
+  VAL345S: UTI
+  VAL359L: Inaktivēta visa holēras valence, bez precizējuma
+  VAL360L: Inaktivēta gripas valence, iegūta no šūnu kultūras, frakcionēta vai 
+    apakšvienība, normāla deva, bez precizējuma
+  VAL361L: Rekombinanta gripas valence, bez precizējuma
+  VAL364L: Nedzīva gripas valence, bez precizējuma
+  VAL384S: LEP
+  VAL386S: AH5
+  VAL389L: Valence pret Pseudomonas aeruginosa, 7 imunotipi
+  VAL389S: PAER7
+  VAL390L: Čikungunja valence, neprecizēta
+  VAL390S: CHIK
+  VAL391L: Chikungunya VLP valence
+  VAL391S: Chik-VLP
+  VAL392S: AH5N1-RNA
+  VAL412S: Covid-ARNm-S-OMI-BA.1-50
+  VAL413S: Covid-SP-rRBD-XBB.1.16
+  VAL414S: DIPH
+  VAL415S: BantAdj
+  VAL138L: Meningokoka W nekonjugēta polisaharīda vakcīna
+  VAL138S: MPV-W
+  VAL139L: Meningokoka Y nekonjugēta polisaharīda vakcīna
+  VAL139S: MPV-Y
+  VAL140S: Inf-L
+  VAL141L: RIX4414 monovalentā rotavīrusa vakcīna
+  VAL141S: Rota-mv-RIX4414
+  VAL142L: Visa inaktivēta A hepatīta valence, monovalenta, pediatriskā deva
+  VAL142S: HepA-mv-PED
+  VAL143L: Visa inaktivēta A hepatīta valence, bivalenta (A un B hepatīts), 
+    pediatriskā deva
+  VAL143S: HepA-bv-PED
+  VAL144L: Visa inaktivēta A hepatīta valence, monovalenta, pieaugušo deva
+  VAL144S: HepA-mv-ADU
+  VAL145L: Visa inaktivēta A hepatīta valence, bivalenta (A un B hepatīts), 
+    pieaugušo deva
+  VAL145S: HepA-bv-ADU
+  VAL146L: Valence pret visu inaktivēto Brucella
+  VAL146S: Bruc-I
+  VAL147L: Valence ar proteīna antigēnu P.I. (fenolā nešķīstošs) pret brucelozi
+  VAL147S: Bruc-IP
+  VAL148L: Elpošanas ceļu sincitiālā vīrusa monoklonālā antiviela
+  VAL148S: RSV-IG
+  VAL149L: COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, 25 
+    mikrogrami
+  VAL152L: Visa inaktivēta gripas valence, bez precizējuma
+  VAL152S: Inf-I
+  VAL153L: Haemophilus influenzae b tipa polisaharīda PRP vakcīna, konjugēta ar 
+    difterijas toksoīdu
+  VAL153S: PRP-D
+  VAL157L: COVID-19 vakcīna, neprecizēta
+  VAL157S: COVID
+  VAL158L: Hepatīta B plazmas vakcīna
+  VAL161S: MenB-mc
+  VAL162L: COVID-19 vakcīna, replicējošs vīrusa vektors, neprecizēts
+  VAL162S: COVID-VVr
+  VAL163L: COVID-19 vakcīna, neatjaunojošs vīrusu vektors, neprecizēts
+  VAL165L: COVID-19 vakcīna, dzīva, neprecizēta
+  VAL165S: COVID-live
+  VAL167L: COVID-19 vakcīna, neatjaunojošs vīrusa vektors, ar antigēnu 
+    prezentējošām šūnām
+  VAL167S: COVID-VVnr+APC
+  VAL168L: RNS vakcīna pret kovīdiem 19, neprecizēta
+  VAL170L: Hepatīta B vakcīna, rekombinantais hepatīta B vīrusa virsmas antigēns
+    (HBsAg), 5 mikrogrami.
+  VAL170S: rHepB-05
+  VAL171L: Venecuēlas zirgu encefalīta vakcīna, neprecizēta
+  VAL171S: VEE
+  VAL172L: Valence pret Q drudzi (Coxiella burnetii), bez precizējuma
+  VAL172S: Cbur
+  VAL173S: Junin-LAV
+  VAL174L: Hantavīrusu valence, bez precizējuma
+  VAL174S: HAN
+  VAL175L: Vakcīna pret leišmaniozi, neprecizēta
+  VAL175S: Leish
+  VAL176L: Vakcīna pret cilvēka paragripas vīrusiem, neprecizēta
+  VAL176S: HPIVs
+  VAL177L: Haemophilus influenzae b tipa valence, bez precizējuma
+  VAL177S: Hib
+  VAL178L: COVID-19 vaccine, mRNA coding for SARS-CoV-2 spike protein, Omicron 
+    variant BA.1, 25 micrograms
+  VAL178S: COVID-mRNA-S-OMI-BA.1-25
+  VAL179L: Meningokoka konjugētā vakcīna, monovalenta
+  VAL179S: MCV-mono
+  VAL180L: COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, 100 
+    mikrogrami
+  VAL180S: COVID-mRNA-S-ORI-100
+  VAL181L: COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, 
+    oriģinālais SARS-CoV-2 vīruss, 25 mikrogrami.
+  VAL181S: Covid-mRNA-S-ORI-25
+  VAL182L: Vakcīna pret masalām, neprecizēta
+  VAL182S: Meas
+  VAL183L: Vakcīna pret cūciņām, neprecizēta
+  VAL183S: Mumps
+  VAL184L: Pneimokoku polisaharīdu konjugētā vakcīna, monovalentā vakcīna
+  VAL184S: PCV
+  VAL185L: Pneimokoku polisaharīdu nekonjugēta vakcīna, neprecizēta
+  VAL001L: Trivalenta dzīva novājināta gripas valence, normāla deva
+  VAL001S: Inf-L3
+  VAL002L: Konjugētā vakcīna pret vēdertīfu, Vi polisaharīda antigēns, kas 
+    saistīts ar nesējbaltumu
+  VAL002S: Ty-ViC
+  VAL003L: Garā klepus valence, bez precizējuma
+  VAL003S: Per
+  VAL004L: Visa inaktivēta holēras valence, injicējama
+  VAL004S: I-Chol-I
+  VAL005S: Meas-LAV
+  VAL006L: Anti-Brucella valence, bez precizējuma
+  VAL010L: Inaktivētas visas garā klepus baktērijas valence
+  VAL010S: wP
+  VAL011L: COVID-19 vakcīna, proteīna apakšvienība, rekombinantais smailes 
+    proteīns (RBD)
+  VAL006S: Bruc
+  VAL007L: Rekombinants vezikulārā stomatīta vīrusa (rVSV) replikatīvais vektors
+    Ebolas vakcīna - EBOV GP glikoproteīns
+  VAL007S: rVSVdG-ZEBOV-GP
+  VAL008L: Bezšūnu garā klepus valence, standarta deva
+  VAL008S: aP
+  VAL009L: Vakcīnas pret sporozoītu virsmas olbaltumvielām
+  VAL009S: Mala-SPO
+  VAL011S: COVID-PS-rRBD
+  VAL012L: Hepatīta B vakcīna, rekombinantā Hepatīta B vīrusa virsmas antigēns 
+    (HBsAg), 40 mikrogrami (dializējamo pacientu devas)
+  VAL190L: Pneimokoku polisaharīdu konjugētā vakcīna, 6A serotips
+  VAL189L: Pneimokoku polisaharīdu konjugētā vakcīna, 5. serotips
+  VAL190S: PCV-06A
+  VAL191L: Pneimokoku polisaharīdu konjugētā vakcīna, 6B serotips
+  VAL191S: PCV-06B
+  VAL192L: Pneimokoku polisaharīdu konjugētā vakcīna, 7F serotips
+  VAL192S: PCV-07F
+  VAL193L: Pneimokoku polisaharīdu konjugētā vakcīna, 8. serotips
+  VAL193S: PCV-08
+  VAL194L: Pneimokoku polisaharīdu konjugētā vakcīna, 9V serotips
+  VAL194S: PCV-09V
+  VAL195L: Pneimokoku polisaharīdu konjugētā vakcīna, 10A serotips
+  VAL195S: PCV-10A
+  VAL196L: Pneimokoku polisaharīdu konjugētā vakcīna, 11A serotips
+  VAL196S: PCV-11A
+  VAL197L: Pneimokoku polisaharīdu konjugētā vakcīna, serotips 12F
+  VAL197S: PCV-12F
+  VAL198L: Pneimokoku polisaharīdu konjugētā vakcīna, 14. serotips
+  VAL012S: rHBsAg-40
+  VAL013L: Varicella zoster vīrusa (VZV) virsmas glikoproteīns E (gE)
+  VAL013S: Shingles-gE
+  VAL014L: Vakcīna pret vēdertīfu, neprecizēta
+  VAL014S: Ty
+  VAL018L: Trešās paaudzes vakcīna pret bakām, minimāli replicējošs dzīvs 
+    vakcinācijas vīruss
+  VAL018S: Pox-3G-LC16
+  VAL019L: Difterijas antitoksīns
+  VAL198S: PCV-14
+  VAL199L: Pneimokoku polisaharīdu konjugētā vakcīna, serotips 15B
+  VAL200L: Pneimokoku polisaharīdu konjugētā vakcīna, 18C serotips
+  VAL200S: PCV-18C
+  VAL203L: Pneimokoku polisaharīdu konjugētā vakcīna, 22F serotips
+  VAL203S: PCV-22F
+  VAL204L: Pneimokoku polisaharīdu konjugētā vakcīna, serotips 23F
+  VAL204S: PCV-23F
+  VAL205L: Pneimokoku polisaharīdu konjugētā vakcīna, serotips 33F
+  VAL199S: PCV-15B
+  VAL019S: DATx
+  VAL025L: Vakcīna pret malāriju, neprecizēta
+  VAL032L: Tifusa polisaharīdu vakcīna, nekonjugēta Vi polisaharīdu antigēns
+  VAL032S: Ty-ViPS
+  VAL033L: Monovalentā dzīvā novājinātā 2. tipa perorālā poliomielīta vakcīna
+  VAL033S: mOPV2
+  VAL025S: Mala
+  VAL026L: Meningokoku vakcīna B:14:P1.7,16 ar ārējās membrānas vezikulu 
+    olbaltumvielām
+  VAL026S: MenB-OMP
+  VAL027L: COVID-19 vakcīna, neatjaunojošs adenovīrusa 26 vektors, kas kodē 
+    SARS-CoV-2 smailes proteīnu.
+  VAL027S: COVID-VVnr-S-Ad26
+  VAL028S: POX-3G
+  VAL029L: Sezonas gripas VLP vakcīna, neprecizēta
+  VAL029S: Inf-VLP
+  VAL030L: Vakcīna pret Borrelia burgdorferi - ārējās virsmas proteīns A (OspA)
+  VAL030S: Lyme-OspA
+  VAL031L: Ērču encefalīts
+  VAL031S: TBE
+  VAL034L: Difterijas toksoīds, neliela deva
+  VAL034S: d
+  VAL035L: COVID-19 vakcīna, plazmīdu DNS, kas kodē SARS-CoV-2 smailes proteīnu
+  VAL035S: COVID-DNA-S
+  VAL205S: PCV-33F
+  VAL206S: PPSV-01
+  VAL206L: Pneimokoku polisaharīdu nekonjugētā vakcīna, 1. serotips
+  VAL208L: Pneimokoku polisaharīdu nekonjugētā vakcīna, 3. serotips
+  VAL208S: PPSV-03
+  VAL209L: Pneimokoku polisaharīdu nekonjugētā vakcīna, 4. serotips
+  VAL209S: PPSV-04
+  VAL036L: Cilvēka papilomas vīrusa VLP neavalentā vakcīna, 6., 11., 16., 18., 
+    31., 33., 45., 52., 58. tips
+  VAL036S: HPV-09-valent
+  VAL037L: Meningokoka A nekonjugēta polisaharīda vakcīna
+  VAL037S: MPV-A
+  VAL038L: COVID-19 vakcīna, replicējošs masalu vīrusa vektors, kas kodē 
+    SARS-CoV-2 smailes proteīnu
+  VAL038S: COVID-VVr-S-Meas
+  VAL039L: COVID-19 vakcīna, VLP, rekombinants smailes proteīns
+  VAL039S: COVID-VLP-rS
+  VAL042L: Poliomielīta vakcīna, neprecizēta
+  VAL042S: POLIO
+  VAL043L: SARS-CoV-2 smaila proteīna mRNS 19 vakcīna
+  VAL043S: COVID-mRNA-S
+  VAL210L: Pneimokoku polisaharīdu nekonjugētā vakcīna, 5. serotips
+  VAL210S: PPSV-05
+  VAL211L: Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 6B
+  VAL211S: PPSV-06B
+  VAL044L: Varicella
+  VAL044S: VZV-LAV
+  VAL045L: Inaktivēta visa paratifa vakcīna
+  VAL045S: pTy-I
+  VAL057L: Meningokoka C polisaharīdu konjugāta vakcīna
+  VAL057S: MCV-C
+  VAL058L: Inaktivēta gripas valence, frakcionēta vai apakšvienība, bez 
+    precizējuma
+  VAL046L: Tifuss
+  VAL046S: Typhus
+  VAL047L: Hepatīta B imūnglobulīns
+  VAL047S: IgHepB
+  VAL048L: Inaktivēta vesela vakcīna pret parotītu
+  VAL048S: Or-I
+  VAL049L: Polisaharīdu Haemophilus influenzae b tipa valence, nekonjugēta
+  VAL049S: Hib-PS
+  VAL050L: COVID-19 vakcīna, neatjaunojošs adenovīrusa 5 vektors, kas kodē 
+    SARS-CoV-2 smailes proteīnu, neprecizēts
+  VAL050S: COVID-VVnr-S-Ad5
+  VAL051L: Pirmspandēmiskā vakcīna pret A(H5N1) gripu
+  VAL051S: AH5N1
+  VAL052L: Cilvēka papilomas vīrusa VLP četrvalenta vakcīna, 6., 11., 16. un 18.
+    tips
+  VAL052S: HPV-04-valent
+  VAL053L: COVID-19 vakcīna, proteīna apakšvienība, rekombinantais smailes 
+    proteīns, neprecizēts
+  VAL053S: COVID-PS
+  VAL054L: COVID-19 vakcīna, neatjaunojošs modificēts Vaccinia Virus Ankara 
+    vektors, kas kodē SARS-CoV-2 smailes proteīnu.
+  VAL054S: COVID-VVnr-S-MVA
+  VAL055L: Masalu imūnglobulīns
+  VAL055S: Ig-Measles
+  VAL056L: Visa inaktivēta trivalenta poliomielīta vakcīna injekcijām
+  VAL056S: POLIO-I
+  VAL059L: Četrvalenta dzīva novājināta gripas valence, normāla deva
+  VAL060S: CHIK-LA
+  VAL061L: COVID-19 vakcīna, proteīna apakšvienība, rekombinants smailes 
+    proteīns, S-2P un CpG1018
+  VAL212S: PPSV-07F
+  VAL213L: Pneimokoku polisaharīdu nekonjugētā vakcīna, 8. serotips
+  VAL212L: Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 7F
+  VAL213S: PPSV-08
+  VAL215S: PPSV-09V
+  VAL088S: VZV-Ig
+  VAL061S: COVID-PS-CpG1018
+  VAL062S: O-Chol-rCTB-I
+  VAL063L: Botulīna antitoksīns
+  VAL063S: BAT
+  VAL065L: 'Dzīva novājināta rekombinētā himēriskā tetravalentā denges vakcīna '
+  VAL073S: COVID-VVr+APC
+  VAL074L: Četrivalenta inaktivēta gripas vakcīna, sadalīta vai subvienota, 
+    lielas devas
+  VAL075L: Inaktivēta visa vakcīna pret Leptospira icterohaemorrhagiae
+  VAL075S: Lepto-wI
+  VAL076L: COVID-19 vakcīna, inaktivēta ar veselu vīrionu, neprecizēta
+  VAL077S: Mumps-LAV
+  VAL078L: Meningokoka Y polisaharīdu konjugāta vakcīna
+  VAL078S: MCV-Y
+  VAL079S: Rub-LAV
+  VAL080L: Visa viriona inaktivēta trakumsērgas vakcīna, neprecizēta
+  VAL080S: Rab-I
+  VAL084L: COVID-19 vakcīna, replicējošs vezikulārā stomatīta vīrusa vektors, 
+    kas kodē SARS-CoV-2 smailes proteīnu
+  VAL084S: COVID-VVr-S-VSV
+  VAL085L: Monovalentā dzīvā novājinātā 3. tipa perorālā poliomielīta vakcīna
+  VAL085S: mOPV3
+  VAL086L: COVID-19 vakcīna, dzīvā novājinātā, neprecizēta
+  VAL086S: COVID-LA
+  VAL087L: Denges valence, dzīva novājināta tetravalenta himēriskā rekombinantā,
+    balstīta uz dzeltenā drudža 17D vakcīnu
+  VAL087S: CYD-TDV
+  VAL088L: Varicella imūnglobulīns
+  VAL089L: Inaktivēta valence pret Japānas encefalītu, bez precizējuma
+  VAL089S: JE-I
+  VAL090L: Hepatīta B vakcīna, rekombinantais hepatīta B vīrusa virsmas antigēns
+    (HBsAg), deva nav precizēta.
+  VAL090S: rHBsAg
+  VAL218L: Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 12F
+  VAL219L: Pneimokoku polisaharīdu nekonjugētā vakcīna, 14. serotips
+  VAL219S: PPSV-14
+  VAL220L: Pneimokoku polisaharīdu nekonjugētā vakcīna, 15B serotips
+  VAL220S: PPSV-15B
+  VAL221L: Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 15F
+  VAL221S: PPSV-15F
+  VAL222S: PPSV-17F
+  VAL223L: Pneimokoku polisaharīdu nekonjugēta vakcīna, 18C serotips
+  VAL223S: PPSV-18C
+  VAL222L: Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 17F
+  VAL093L: Inaktivēta vesela masalu vakcīna
+  VAL093S: Meas-I
+  VAL095L: COVID-19 vakcīna, replicējošs Ņūkāslas slimības vīrusa vektors, kas 
+    kodē SARS-CoV-2 smailes proteīnu
+  VAL091L: Dzīva novājināta tīfa vakcīna, Ty21a celms, perorāla
+  VAL091S: Ty-LA
+  VAL092L: Dzeltenais drudzis
+  VAL092S: YF
+  VAL095S: COVID-VVr-S-Nv
+  VAL096L: BCG valence
+  VAL096S: BCG
+  VAL097L: Difterijas toksoīds, standarta deva
+  VAL097S: D
+  VAL098L: 4 komponentu meningokoka B vakcīna
+  VAL098S: 4CMenB
+  VAL099L: 'Inaktivēta pandēmiskās gripas H1N1 2009 valence '
+  VAL099S: Inf-pdm09
+  VAL100S: JE-LAV-14-14-2
+  VAL224L: Pneimokoku polisaharīdu nekonjugētā vakcīna, 19A serotips
+  VAL101L: COVID-19 vakcīna, nereplikācijas Ņūkāslas slimības vīrusa vektors, 
+    kas kodē SARS-CoV-2 smailes proteīnu
+  VAL101S: COVID-VVnr-S-Nv
+  VAL102L: Rekombinanta peptīdu E hepatīta valence
+  VAL102S: HepE
+  VAL104L: COVID-19 vakcīna, proteīna apakšvienība, rekombinants smailes 
+    proteīns
+  VAL103L: Konjugēta Haemophilus influenzae b tipa valence, bez precizējuma
+  VAL103S: Hib-C
+  VAL104S: COVID-PS-rS
+  VAL105L: Pneimokoku vakcīna, neprecizēta
+  VAL105S: Pneumo
+  VAL106L: Rotavīrusa vakcīna, neprecizēta
+  VAL106S: Rota
+  VAL107L: COVID-19 vakcīna, proteīna apakšvienība, rekombinantās smaiļveida 
+    proteīna nanodaļiņas
+  VAL108L: Dzīva nereplicējoša rekombinantā vīrusu vektora vakcīna Ad26.ZEBOV
+  VAL108S: ZebovVRnrAd26
+  VAL109L: 'Valence pret ebolu ar nereplicējošu vīrusa vektoru, modificētā Ankaras
+    vakcīna '
+  VAL224S: PPSV-19A
+  VAL109S: Ebola-MVA-BN-Filo
+  VAL110L: Stingumkrampju imūnglobulīns
+  VAL110S: T-Ig
+  VAL111L: Acelulārā Sibīrijas mēra vakcīna
+  VAL111S: Bant
+  VAL112L: Četrvalenta inaktivēta gripas valence, iegūta no šūnu kultūras, 
+    frakcionēta vai apakšvienība, normāla deva
+  VAL113L: Cilvēka papilomas vīrusa VLP divvērtīgā vakcīna, 16. un 18. tips
+  VAL113S: HPV-02-valent
+disease:
+  DIS001L: Difterija
+  DIS002L: Stingumkrampji
+  DIS003L: Gara klepus
+  DIS004L: Poliomielīts
+  DIS005L: Pfeifera nūjiņa
+  DIS006L: B hepatīts
+  DIS008L: Masalas
+  DIS009L: Epidēmiskais parotīts
+  DIS010L: Masaliņas
+  DIS011L: Vējbakas
+  DIS016L: A hepatīts
+  DIS014L: Tuberkuloze
+  DIS017L: Dzeltenais drudzis
+  DIS015L: Gripa
+  DIS018L: Vēdertīfs
+  DIS025L: Pneimokoku
+  DIS027L: Ērču encefalīts
+  DIS028L: Japāņu encefalīts
+  DIS029L: Bakas-Monkeypox
+  DIS033L: Jostas roze
+  DIS034L: Leptospiroze
+  DIS030L: Trakumsērga
+  DIS031L: Tropu drudzis
+  DIS036L: Holera
+  DIS038L: Cilvēka papilomas vīrusa infekcija
+  DIS032L: Rotavīruss
+  DIS040L: Malārija
+  DIS041L: Bruceloze
+  DIS042L: Eksantēmisks tīfs
+  DIS043L: Meningokoks C
+  DIS044L: Meningokoks A
+  DIS051L: Sibīrijas mēris
+  DIS052L: Botulisms
+  DIS053L: Laima slimība
+  DIS054L: E hepatīts
+  DIS055L: Ebolas vīrusslimība
+  DIS045L: Meningokoks B
+  DIS046L: Meningokoku W
+  DIS047L: Meningokoks Y
+  DIS048L: Meningokoku
+  DIS050L: Putnu gripa
+  DIS056L: Čikungunja
+  DIS057L: COVID-19
+  DIS058L: Respiratori sinicitāls vīruss
+  DIS059L: Mēris
+  DIS060L: Herpes
+  DIS061L: Tularēmija
+  DIS062L: Argentīnas hemorāģiskais drudzis
+  DIS063L: Adenovīruss
+  DIS064L: Venecuēlas zirgu encefalīts
+  DIS065L: Q drudzis
+  DIS066L: Hantavīruss
+  DIS067L: Leišmanioze
+  DIS068L: Cilvēka paragripas vīrusi
+  DIS075L: Rifta ielejas drudzis
+  DIS076L: Urīnceļu infekcija
+  DIS070L: Citomegalovīruss
+  DIS071L: C hepatīts
+  DIS072L: HIV infekcija
+  DIS073L: Melanoma
+  DIS074L: Streptococcus pyogenes
+  DIS078L: Lēproze
+  DIS079L: Pseudomonas aeruginosa
+  DIS080L: Meningokoks X
+vaccine:
+  VAC0084L: H5N1 pre-pandemic influenza vaccine, unspecified
+  VAC0088C: Difterijas toksoīda (standarta deva), stingumkrampju toksoīda un 
+    inaktivētas poliomielīta (trivalentas) bērnu vakcīnas.
+  VAC0088L: DTIPV vaccine, unspecified
+  VAC0101C: rekombinantā B hepatīta vakcīna, deva nav precizēta
+  VAC0101L: Rekombinantā B hepatīta vakcīna, neprecizēta
+  VAC0134C: Tuberkulozes vakcīna
+  VAC0138C: Difterijas toksoīda (deva nav norādīta), stingumkrampju toksoīda, 
+    acelulārās vai pilnšūnu inaktivētās garo klepusas (deva nav norādīta) un 
+    inaktivētās poliomielīta (trivalentās) vakcīnas
+  VAC0138L: Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified
+  VAC0143C: Haemophilus influenzae b tipa konjugētā vakcīna
+  VAC0143L: Haemophilus influenzae B (or Hib) vaccine, unspecified
+  VAC0155L: Dengue vaccine, unspecified
+  VAC0156C: cilvēka papilomas vīrusa vakcīna, neprecizēta
+  VAC0156L: HPV Vaccine
+  VAC0157L: Pneumococcal vaccine, unspecified
+  VAC0157C: Pneimokoku konjugētā vai nekonjugētā polisaharīdu vakcīna, serotipu 
+    skaits neprecizēts
+  VAC0158C: Rotavīrusa vakcīna
+  VAC0158L: Rotavirus vaccine, unspecified
+  VAC0270L: Inactivated Polio vaccine, unspecified
+  VAC0320C: Poliomielīta vakcīna (dzīvā novājināta, trivalenta) pret poliovīrusu
+    1, 2 un 3, perorāla
+  VAC0320L: OPV 1-2-3, unspecified
+  VAC0324C: Pneimokoku polisaharīdu konjugētā vakcīna, 7-valenta, 4., 6B, 9V, 
+    14., 18C, 19F un 23F serotips.
+  VAC0339L: Pneumococcal polysaccharide vaccine 23-valent, unspecified
+  VAC0324L: Pneumococcal conjugate vaccine, 7 valent, unspecified
+  VAC0339C: Pneimokoku polisaharīdu nekonjugētā vakcīna, 23-valenta
+  VAC0344C: Haemophilus influenzae b tipa konjugētā vakcīna, kas sastāv no PRP 
+    (poliribozilribitolfosfāta), konjugēta ar OMP (Neisseria meningitidis ārējās
+    membrānas proteīnu).
+  VAC0344L: PRP-OMP Hib vaccine, unspecified
+  VAC0345C: Haemophilus influenzae b tipa konjugētā vakcīna, kas sastāv no PRP 
+    (poliribozilribitolfosfāta), konjugēta ar stingumkrampju toksoīdu
+  VAC0345L: Hib PRP-T conjugated vaccine, unspecified
+  VAC0502C: Cilvēka vai zirgu izcelsmes imūnglobulīns pret trakumsērgu
+  VAC0502L: Rabies immunoglobulin, unspecified
+  VAC0503C: Zirgu izcelsmes imūnglobulīns pret trakumsērgu
+  VAC0503L: Rabies immunoglobulin equine origin, unspecified
+  VAC0512C: Vakcīna pret epidēmisko tīfu (epidēmisko utīšu tīfu)
+  VAC0512L: Typhus vaccine, unspecified
+  VAC0549C: Difterijas toksoīda (zema deva), stingumkrampju toksoīda un 
+    inaktivētas poliomielīta (trivalentas) vakcīnas
+  VAC0549L: dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified
+  VAC0623C: Dzīva novājināta masalu un epidēmiskā parotīta vakcīna
+  VAC0623L: Measles-mumps vaccine, unspecified
+  VAC0643C: Četrivalentā meningokoku konjugētā vakcīna pret A, C, W un Y 
+    serogrupām.
+  VAC0643L: Meningococcal ACWY conjugate vaccine, unspecified
+  VAC0648C: COVID-19 vakcīna
+  VAC0653C: Kombinētā A un B hepatīta vakcīna, pediatriskā deva
+  VAC0653L: Hepatitis A + Hepatitis B vaccine Child, unspecified
+  VAC0654C: Kombinētā A un B hepatīta vakcīna, pieaugušo deva
+  VAC0712C: Kombinētā vakcīna pret vēdertīfu un A hepatītu
+  VAC0787C: Difterijas toksoīda (nespecificēta deva), stingumkrampju toksoīda un
+    masaliņu (dzīvu novājinātu) vakcīna
+  VAC0787L: Diphtheria-Tetanus-Rubella, unspecified
+  VAC0788C: Haemophilus influenzae b tipa (konjugētā, neprecizēta) un inaktivēta
+    poliomielīta (trivalenta) vakcīna
+  VAC0788L: Hib-IPV, unspecified
+  VAC0792C: Difterijas toksoīda (deva nav precizēta), stingumkrampju toksoīda, 
+    acelulārās vai pilnšūnu inaktivētās garo klepus hepatīta (deva nav 
+    precizēta), inaktivētās poliomielīta (trivalentās) un B hepatīta 
+    (rekombinantās) vakcīnas.
+  VAC0792L: Diphtheria-Tetanus-Pertussis-Polio-Hepatitis B pentavalent vaccine, 
+    unspecified
+  VAC0794C: Stingumkrampju toksoīda vakcīna kopā ar stingumkrampju imūnglobulīnu
+  VAC0796C: Pertussis vakcīna (acelulārā vai pilnšūnu inaktivētā)
+  VAC0796L: Pertussis vaccine, unspecified
+  VAC0800C: difterijas (standarta deva), stingumkrampju toksoīda, stingumkrampju
+    (acelulārā standarta deva vai pilnībā inaktivēta) un Haemophilus influenzae 
+    b tipa (konjugēta, neprecizēta) bērnu vakcīna.
+  VAC0800L: Diphtheria-tetanus-pertussis-Hib vaccine, unspecified
+  VAC0801C: Haemophilus influenzae b tipa un B hepatīta vakcīna
+  VAC0801L: HepB-Hib, unspecified
+  VAC0805L: Whole-cell inactivated cholera vaccine, unspecified
+  VAC0806C: Dzīva novājināta holēras vakcīna
+  VAC0806L: Live attenuated cholera vaccine, unspecified
+  VAC0807C: Inaktivēta pilnšūnu holēras vakcīna, kombinēta ar inaktivētu 
+    pilnšūnu vakcīnu pret vēdertīfu, injicējama
+  VAC0812L: Inactivated whole plague vaccine, unspecified
+  VAC0813C: Pneimokoku nekonjugēta polisaharīdu vakcīna, neprecizēti serotipi
+  VAC0813L: Pneumococcal unconjugated polysaccharide vaccine, unspecified
+  VAC0814C: Pneimokoku polisaharīdu konjugētā vakcīna, serotipu skaits 
+    neprecizēts
+  VAC0814L: Pneumococcal conjugate vaccine, serotypes unspecified
+  VAC0815C: Haemophilus influenzae b tipa un pneimokoku vakcīna - konjugētā, 
+    nespecificēta
+  VAC0815L: Pneumo-Hib, unspecified
+  VAC0864L: Varicella-Zoster imūnglobulīns, neprecizēts
+  VAC0865C: Nekonjugēta meningokoka polisaharīdu vakcīna, A serogrupa
+  VAC0865L: Polisaharīdu meningokoku A vakcīna, neprecizēta
+  VAC0866C: Meningokoka A polisaharīdu konjugētā vakcīna
+  VAC0866L: Meningokoku konjugētā vakcīna A, neprecizēta
+  VAC0867C: Difterijas antitoksīns
+  VAC0903L: Vakcīna pret trakumsērgu Fuenzalida tipa, neprecizēta
+  VAC0904C: Inaktivēta trakumsērgas vakcīna, attīrīta pīļu embriju vakcīna 
+    (PDEV), inaktivācija ar ß-propiolaktonu
+  VAC0904L: Trakumsērgas pīļu embrija vakcīna, neprecizēta
+  VAC1043L: Covid-19 vakcīna, proteīna apakšvienība, neprecizēta
+  VAC1044C: Covid-19 vakcīna, viss virions inaktivēts
+  VAC1044L: Covid-19 vakcīna, viss virions inaktivēts, neprecizēts
+  VAC1062C: Citomegalovīrusa imūnglobulīns, intravenozi
+  VAC1062L: CMV imūnglobulīns
+  VAC1063C: C hepatīta vakcīna, neprecizēta
+  VAC1063L: C hepatīta vakcīna, neprecizēta
+  VAC1075C: Acelulārā Sibīrijas mēra vakcīna, neprecizēta
+  VAC1075L: Acelulārā Sibīrijas mēra vakcīna, neprecizēta
+  VAC1233L: Pneimokoku 10-valentā konjugētā vakcīna, neprecizēta
+  VAC1263C: Autorizēta mRNS Covid vakcīna, kas kodē SARS-COV-2 smaile proteīnu
+  VAC1263L: Autorizēta mRNS Covid vakcīna, kas kodē SARS-COV-2 smaile proteīnu
+  VAC1264L: A(H5) avian influenza vaccine, unspecified
+  VAC1277C: Vakcīna pret čikungunju, neprecizēta
+  VAC1277L: Vakcīna pret čikungunju, neprecizēta
+  VAC1341L: SPIKEVAX BA.4-5 0,1 mg/mL dose 50 µg
+  VAC0084C: A(H5N1) gripas vakcīna
+  VAC0102C: Inaktivēta A hepatīta vakcīna, bērnu vai pieaugušo deva
+  VAC0102L: Nespecificēta inaktivēta A hepatīta vakcīna
+  VAC0112C: Vakcīna pret vēdertīfu
+  VAC0112L: Typhoid vaccine, unspecified
+  VAC0110C: Sezonas gripas vakcīna
+  VAC0113C: Dzīva novājināta masaliņu vakcīna
+  VAC0110L: Influenza vaccine, unspecified
+  VAC0111C: Dzīva novājināta dzeltenā drudža vakcīna
+  VAC0111L: Yellow fever vaccine, unspecified
+  VAC0113L: Rubella vaccine, unspecified
+  VAC0114C: Dzīva novājināta masalu vakcīna
+  VAC0114L: Live attenuated measles vaccine, unspecified
+  VAC0130C: Dzīva novājināta masalu, parotīta un masaliņu vakcīna
+  VAC0130L: MMR vaccine, unspecified
+  VAC0131C: Inaktivēta trakumsērgas vakcīna ar veselām vīriolām
+  VAC0131L: Rabies vaccine, unspecified
+  VAC0132C: Tetanusa toksoīda vakcīna
+  VAC0132L: Tetanus vaccine, unspecified
+  VAC0133C: Dzīva novājināta vakcīna pret bakām
+  VAC0133L: Smallpox vaccine, unspecified
+  VAC0134L: BCG vaccine, unspecified
+  VAC0135C: Poliomielīta vakcīna (dzīvā novājinātā, trīsvērtīgā)
+  VAC0135L: Polio vaccine, unspecified
+  VAC0136C: Difterijas toksoīda (standarta deva), stingumkrampju toksoīda un 
+    veselas šūnas inaktivēta garo klepus hepatīta vakcīna bērniem
+  VAC0136L: DTwP - Diphtheria-Tetanus-Pertussis, unspecified
+  VAC0137C: Difterijas toksoīda (standarta deva) un stingumkrampju toksoīda 
+    pediatriskā vakcīna
+  VAC0137L: DT vaccine, unspecified
+  VAC0144C: Holeras vakcīna
+  VAC0144L: Cholera vaccine, unspecified
+  VAC0145C: Ērču encefalīta vakcīna
+  VAC0145L: Tick-borne encephalitis vaccine, unspecified
+  VAC0146C: Dzīva novājināta Japānas encefalīta vakcīna, 14-14-2 celms
+  VAC0146L: Live attenuated Japanese Encephalitis vaccine 14-14-2 strain, 
+    unspecified
+  VAC0147C: Inaktivēta pandēmiskās gripas A(H1N1)pdm09 vakcīna.
+  VAC0147L: Influenza A(H1N1)2009 vaccine, unspecified
+  VAC0148C: Inaktivēta pilnšūnu leptospirozes vakcīna
+  VAC0148L: Leptospirosis vaccine, unspecified
+  VAC0149C: B meningokoka vakcīna (ārējās membrānas vezikulas proteīns 
+    B:14:P1.7,16)
+  VAC0149L: Meningococcal B:14:P1.7,16 vaccine, unspecified
+  VAC0150C: Meningokoka C konjugētā vakcīna
+  VAC0150L: Meningococcal conjugate vaccine C, unspecified
+  VAC0151C: Nekonjugēta meningokoku polisaharīdu vakcīna, A un C serogrupas
+  VAC0151L: Meningococcal A + C vaccine, unspecified
+  VAC0152C: Nekonjugēta meningokoku polisaharīdu vakcīna, A, C, W un Y 
+    serogrupas
+  VAC0152L: Unconjugated meningococcal vaccine ACWY, unspecified
+  VAC0153C: Dzīva novājināta cūciņas vakcīna
+  VAC0153L: Mumps vaccine, unspecified
+  VAC0154C: Vakcīna pret malāriju (izmantota klīniskajos pētījumos)
+  VAC0154L: Malaria vaccine, unspecified
+  VAC0155C: Denges drudža vakcīna, neprecizēta
+  VAC0159C: Vējbaku vakcīna
+  VAC0159L: Chickenpox vaccine, unspecified
+  VAC0160C: Dzīva novājināta vakcīna pret šinšļiem
+  VAC0160L: Live attenuated shingles vaccine, unspecified
+  VAC0162C: Brucelozes vakcīna
+  VAC0162L: Brucellosis vaccine, unspecified
+  VAC0163C: Pilno šūnu inaktivētā garo klepus klepus vakcīna
+  VAC0163L: Whole-cell inactivated pertussis vaccine, unspecified
+  VAC0270C: Inaktivēta poliomielīta (trivalenta) vakcīna
+  VAC0358C: Cilvēka izcelsmes imūnglobulīns pret trakumsērgu
+  VAC0358L: Rabies immunoglobulin human origin, unspecified
+  VAC0380C: Tetanusa toksoīda un inaktivēta poliomielīta (trivalenta) vakcīna
+  VAC0380L: T.Polio, unspecified
+  VAC0382C: Difterijas toksoīda (deva nav precizēta) un stingumkrampju toksoīda 
+    vakcīna
+  VAC0382L: Tetanus diphtheria vaccine, unspecified
+  VAC0424C: Dzīva novājināta tīfa vakcīna, Ty21a celms, perorāla
+  VAC0424L: Live attenuated oral typhoid vaccine, unspecified
+  VAC0497C: imūnglobulīns pret stingumkrampjiem
+  VAC0497L: Tetanus immunoglobulin, unspecified
+  VAC0506C: Difterijas toksoīda (standarta deva), stingumkrampju toksoīda, 
+    daudzkomponentu acelulārās garo klepusas (standarta deva), Haemophilus 
+    influenzae b tipa (konjugēta, neprecizēta) un inaktivēta poliomielīta 
+    (trivalenta) bērnu vakcīna.
+  VAC0506L: Pentavalent DTaPHibIPV vaccine, unspecified
+  VAC0550C: Dzīva novājināta masalu un masaliņu vakcīna
+  VAC0550L: Measles-Rubella vaccine, unspecified
+  VAC0552L: DTaPHibHepBIPV hexavalent vaccine, unspecified
+  VAC0553C: difterijas toksoīda (standarta deva), stingumkrampju toksoīda, 
+    pilnšūnu garo klepus, konjugētās Haemophilus influenzae b tipa (konjugētās 
+    neprecizētās) un inaktivētās poliomielīta (trivalentās) bērnu vakcīnas.
+  VAC0551C: Difterijas toksoīda (standarta deva), stingumkrampju toksoīda, 
+    daudzkomponentu acelulārās garo klepusas (standarta deva) un inaktivētas 
+    poliomielīta (trīsvērtīgas) bērnu vakcīnas
+  VAC0551L: DTaPIPV vaccine, standard dose, unspecified
+  VAC0552C: Difterijas toksoīda (standarta deva), stingumkrampju toksoīda, 
+    daudzkomponentu acelulārās garo klepusas (standarta deva), Haemophilus 
+    influenzae b tipa (konjugētas, neprecizētas), inaktivētas poliomielīta 
+    (trīsvērtīgas) un B hepatīta (rekombinantās) bērnu vakcīnas.
+  VAC0553L: Pentavalent DTwPHibIPV vaccine, unspecified
+  VAC0585C: Difterijas toksoīda (neliela deva), stingumkrampju toksoīda, 
+    daudzkomponentu akcelulārās garo klepusas (5 komponenti, neliela deva) un 
+    inaktivētas poliomielīta (trīsvērtīgas) vakcīnas, adsorbēta
+  VAC0585L: TdapIPV - Diphtheria-Tetanus-Pertussis-Polio vaccine, low dose, 
+    unspecified
+  VAC0596C: Difterijas toksoīda (standarta deva), stingumkrampju toksoīda un 
+    daudzkomponentu akcelulārās garo klepusas (standarta deva), Haemophilus 
+    influenzae b tipa (konjugētā, neprecizētā) un B hepatīta (rekombinētā) bērnu
+    vakcīna
+  VAC0596L: DTaPHibHepB pentavalent vaccine, unspecified
+  VAC0598C: Difterijas toksoīda (standarta deva), stingumkrampju toksoīda, 
+    veselas šūnas inaktivētas garo klepus, Haemophilus influenzae b tipa 
+    (konjugētas, neprecizētas) un B hepatīta (rekombinantās) bērnu vakcīnas.
+  VAC0598L: DTwPHibHepB pentavalent vaccine, unspecified
+  VAC0599C: difterijas toksoīda (standarta deva), stingumkrampju toksoīda un 
+    daudzkomponentu akcelulārās garo klepusas (neprecizētas), Haemophilus 
+    influenzae b tipa (konjugētas, neprecizētas) un B hepatīta (rekombinantās) 
+    bērnu vakcīnas.
+  VAC0599L: DTPerHibHepB pentavalent vaccine, unspecified
+  VAC0601C: Difterijas toksoīda (standarta deva), stingumkrampju toksoīda un 
+    pilnšūnu inaktivētas vai acelulārās garo klepusas (deva nav norādīta) 
+    pediatriskā vakcīna
+  VAC0601L: DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified
+  VAC0602C: Difterijas toksoīda (standarta deva), stingumkrampju toksoīda un 
+    daudzkomponentu akcelulārās garo klepusas (standarta deva) pediatriskā 
+    vakcīna.
+  VAC0602L: DTaP - Diphtheria-Tetanus-Pertussis vaccine, standard dose, 
+    unspecified
+  VAC0610C: Difterijas toksoīda (neliela deva), stingumkrampju toksoīda un 
+    daudzkomponentu akcelulārās garo klepusas (neliela deva) vakcīna
+  VAC0610L: Tdap - Diphtheria-Tetanus-Pertussis vaccine, low dose, unspecified
+  VAC0600C: Poliomielīta vakcīna (dzīvā novājināta, divvērtīga) pret 1. un 3. 
+    tipa poliovīrusu, perorāla
+  VAC0600L: OPV bivalent 1-3, unspecified
+  VAC0648L: COVID-19 vaccine, unspecified
+  VAC0654L: Hepatitis A + Hepatitis B vaccine Adult, unspecified
+  VAC0655C: Difterijas toksoīds (nespecificēta deva)
+  VAC0655L: Diphtheria vaccine, unspecified
+  VAC0711C: polisaharīdu konjugētā vēdertīfa vakcīna
+  VAC0713C: Polisaharīdu vakcīna pret vēdertīfu (Vi kapsulārais antigēns)
+  VAC0713L: Typhoid polysaccharide vaccine, unspecified
+  VAC0775C: Difterijas toksoīda (standarta deva), stingumkrampju toksoīda, 
+    veselas šūnas inaktivētas garo klepus hepatīta un hemophilus influenzae b 
+    tipa (konjugētas, neprecizētas) bērnu vakcīna.
+  VAC0775L: DTwPHib, unspecified
+  VAC0790C: Difterijas toksoīda (nespecificēta deva), stingumkrampju toksoīda un
+    B hepatīta (rekombinētā) vakcīna
+  VAC0790L: Diphtheria-Tetanus-Hepatitis B vaccine, unspecified
+  VAC0711L: Typhoid conjugate vaccine, unspecified
+  VAC0712L: Typhoid-hepatitis A vaccine, unspecified
+  VAC0791C: Heksavalentā difterijas-Tetanus-Pertuss-Polio-Hib-Hepatīta B 
+    vakcīna, neprecizēta
+  VAC0791L: Heksavalentā difterijas-Tetanus-Pertuss-Polio-Hib-Hepatīta B 
+    vakcīna, neprecizēta
+  VAC0794L: T-igT, unspecified
+  VAC0795C: Acelulārā garo klepus klepus vakcīna, deva nav precizēta
+  VAC0795L: Acellular pertussis vaccine, unspecified
+  VAC0797C: Difterijas toksoīda (nenoteikta deva), stingumkrampju toksoīda un 
+    acelulārās garo klepusas (nenoteikta deva) vakcīna
+  VAC0797L: Diph-T-aP/ap, unspecified
+  VAC0798C: Hemophilus influenzae b tipa un meningokoka C konjugētā vakcīna
+  VAC0798L: Hib-MeningoC vaccine, unspecified
+  VAC0799C: Difterijas toksoīda (standarta deva), stingumkrampju toksoīda un 
+    hemophilus influenzae b tipa (konjugēta, neprecizēta) bērnu vakcīna
+  VAC0799L: DT-Hib vaccine, unspecified
+  VAC0802C: Poliomielīta vakcīna (dzīva novājināta, monovalenta), perorāla
+  VAC0802L: Monovalent oral polio vaccine - type unknown, unspecified
+  VAC0804C: Sibīrijas mēra vakcīna
+  VAC0804L: Anthrax vaccine, unspecified
+  VAC0805C: Inaktivēta pilnšūnu holēras vakcīna injekcijām
+  VAC0807L: Cholera-Typhoid inactivated vaccine, unspecified
+  VAC0808C: Haemophilus influenzae b tipa un meningokoka C un Y konjugētā 
+    vakcīna
+  VAC0808L: Hib-MenCY, unspecified
+  VAC0809C: Meningokoka monovalentā konjugētā vai nekonjugētā polisaharīda 
+    vakcīna
+  VAC0809L: Meningococcal monovalent polysaccharide vaccine, unspecified
+  VAC0810C: Meningokoku polivalenta nekonjugēta polisaharīdu nekonjugēta vakcīna
+  VAC0810L: Meningococcal polyvalent polysaccharide vaccine, unspecified
+  VAC0811C: Meningokoka B vakcīna, vakcīnas veids nav precizēts
+  VAC0811L: Meningococcal B vaccine, unspecified
+  VAC0812C: Mora vakcīna - pilnībā inaktivēta
+  VAC0817C: Pilnšūnu inaktivēta vakcīna pret vēdertīfu
+  VAC0817L: Inactivated Typhoid vaccine, unspecified
+  VAC0818C: Inaktivēta vakcīna pret vēdertīfu un paratifu, pilnībā inaktivēta
+  VAC0818L: Typhoid-Paratyphoid vaccine, unspecified
+  VAC0819C: Visa viriona inaktivēta japāņu encefalīta vakcīna
+  VAC0819L: Inactivated Japanese Encephalitis vaccine, unspecified
+  VAC0820C: Visa viriona inaktivēta sezonālās gripas vakcīna
+  VAC0820L: Inactivated whole influenza vaccine, unspecified
+  VAC0821C: Inaktivēta sezonālās gripas vakcīna
+  VAC0824C: Inaktivēta A hepatīta vakcīna, virosoma, bērnu vai pieaugušo vakcīna
+  VAC0824L: Hepatitis A virosome vaccine, unspecified
+  VAC0825C: Kombinētā A un B hepatīta vakcīna
+  VAC0821L: Inactivated influenza vaccine, split or subunit, unspecified
+  VAC0822C: Sezonas gripas vakcīna, dzīvā novājināta vakcīna
+  VAC0822L: Influenza vaccine, live attenuated, unspecified
+  VAC0825L: Combined hepatitis A and hepatitis B vaccine, unspecified
+  VAC0823C: Virusiem līdzīgo daļiņu (VLP) sezonālās gripas vakcīna
+  VAC0823L: VLP influenza vaccine, unspecified
+  VAC0827C: Dzīva novājināta vakcīna pret masalām, parotītu, masaliņām un 
+    vējbakām
+  VAC0827L: MMRV - Measles-Mumps-Rubella-Varicella vaccine, unspecified
+  VAC0828C: Dzīva novājināta pentavalenta rotavīrusa vakcīna, perorāla
+  VAC0828L: Rotavirus pentavalent vaccine, unspecified
+  VAC0829C: Dzīva novājināta masaliņu un masaliņu vakcīna
+  VAC0829L: Rubella-Mumps vaccine, unspecified
+  VAC0830C: Subvienības vakcīna pret šinšļiem (pašlaik atbilst E glikoproteīnam)
+  VAC0830L: Subunit shingles vaccine, unspecified
+  VAC0831C: Ebolas vīrusa vakcīna
+  VAC0831L: Ebola vaccine, unspecified
+  VAC0849L: Vakcīna pret tularēmiju, neprecizēta
+  VAC0852C: Poliomielīta vakcīna (dzīvā novājināta, monovalenta) pret 2. tipa 
+    poliovīrusu, perorāla
+  VAC0852L: mOPV2 Sabin monovalentā perorālā poliomielīta vakcīna, 2. tips, 
+    neprecizēta
+  VAC0832C: Inaktivēta herpes simplex vakcīna
+  VAC0832L: Herpes Simplex vaccine, unspecified
+  VAC0839C: Pilnšūnu inaktivēta brucelozes vakcīna
+  VAC0839L: Inactivated whole-cell brucella vaccine, unspecified
+  VAC0849C: Tularēmijas vakcīna
+  VAC0853C: Poliomielīta vakcīna (dzīvā novājināta, monovalenta) pret 1. tipa 
+    poliovīrusu, perorāla
+  VAC0853L: mOPV1 Sabin monovalentā perorālā poliomielīta vakcīna, 1. tips, 
+    neprecizēta
+  VAC0854C: Poliomielīta vakcīna (dzīvā novājināta, monovalenta) pret 3. tipa 
+    poliovīrusu, perorāla
+  VAC0854L: mOPV3 Sabin monovalentā perorālā poliomielīta vakcīna, 3. tips, 
+    neprecizēta
+  VAC0855C: Difterijas toksoīda (nespecificēta deva), stingumkrampju toksoīda un
+    inaktivēta poliomielīta (trivalenta) vakcīna, adsorbēta
+  VAC0855L: Difterijas-stingumkrampju-poliomielīta vakcīna, neprecizēta
+  VAC0856C: Difterijas toksoīda (standarta deva), stingumkrampju toksoīda un 
+    daudzkomponentu acelulārās garo klepusas (standarta deva) un Haemophilus 
+    influenzae b tipa (konjugētā, nespecificēta) bērnu vakcīna
+  VAC0856L: DTaPHib vakcīna, neprecizēta
+  VAC0857C: difterijas toksoīda (standarta deva), stingumkrampju toksoīda, 
+    stingumkrampju (acelulārā standarta deva vai pilnībā inaktivēta) un B 
+    hepatīta (rekombinantā) pediatriskā vakcīna.
+  VAC0857L: Difterijas-stingumkrampju-garā klepus-B hepatīta vakcīna, 
+    neprecizēta
+  VAC0858C: Bivalentā rekombinētā 16. un 18. tipa cilvēka papilomas vīrusa 
+    vakcīna
+  VAC0858L: HPV vakcīna divvērtīgā, neprecizēta
+  VAC0859C: Četrīskāršā rekombinētā 6., 11., 16. un 18. tipa cilvēka papilomas 
+    vīrusa vakcīna
+  VAC0859L: HPV vakcīnas četrvērtīgā, neprecizēta
+  VAC0860C: Neavalentā rekombinētā 6., 11., 16., 18., 31., 33., 45., 52. un 58. 
+    tipa cilvēka papilomas vīrusa vakcīna.
+  VAC0860L: HPV vakcīna nevalenta, neprecizēta
+  VAC0861C: B serogrupas meningokoka vakcīna (daudzkomponentu - vairāki 
+    proteīni)
+  VAC0861L: Daudzkomponentu meningokoku B vakcīna, neprecizēta
+  VAC0862C: Masalu imūnglobulīns
+  VAC0862L: Masalu imūnglobulīns, neprecizēts
+  VAC0863C: B hepatīta imūnglobulīns
+  VAC0863L: B hepatīta imūnglobulīns, neprecizēts
+  VAC0864C: Varicella-Zoster imūnglobulīns
+  VAC0867L: Difterijas antitoksīns, neprecizēts
+  VAC0881C: Dzīva novājināta Japānas encefalīta vakcīna, celms un ražošanas 
+    platforma nav norādīta
+  VAC0881L: Dzīva novājināta Japānas encefalīta vakcīna, neprecizēta
+  VAC0894C: Adenovīrusa vakcīna, neprecizēta tipa
+  VAC0880C: Difterijas toksoīda (standarta deva), stingumkrampju toksoīda, garo 
+    klepus (neprecizēta), konjugētas Haemophilus influenzae b tipa (konjugētas, 
+    neprecizētas) un inaktivētas poliomielīta (trivalentas) bērnu vakcīnas, 
+    adsorbēta
+  VAC0880L: Pentavalentā difterijas-stingumkrampju-garā klepus-Hib-polio 
+    (DTPerHibIPV) vakcīna, neprecizēta
+  VAC0894L: Adenovirus vaccine, unspecified
+  VAC0895C: Venecuēlas zirgu encefalīta vakcīna
+  VAC0895L: Venecuēlas zirgu encefalīta vakcīna, neprecizēta
+  VAC0897C: Hantavīrusa vakcīna
+  VAC0897L: Hantavīrusa vakcīna, neprecizēta
+  VAC0896C: Q drudža vakcīna
+  VAC0896L: Q drudža vakcīna, neprecizēta
+  VAC0898C: Leišmanijas vakcīna
+  VAC0898L: Leishmaniozes vakcīna, neprecizēta
+  VAC0899C: Cilvēka paragripas vīrusa vakcīna
+  VAC0899L: Cilvēka paragripas vīrusa vakcīna, neprecizēta
+  VAC0902C: Visa viriona inaktivēta trakumsērgas vakcīna, sagatavota no kazas 
+    vai aitas smadzeņu audiem, kas inficēti ar trakumsērgas vīrusu, satur 
+    mielīnu
+  VAC0902L: Vakcīna pret trakumsērgu Semple tips, neprecizēts
+  VAC0903C: Visa viriona inaktivēta trakumsērgas vakcīna, kas pagatavota no 
+    zīdītājpeļu smadzeņu audiem, kas inficēti ar trakumsērgas vīrusu, ar 
+    samazinātu mielīna saturu
+  VAC0905C: Visa vīriona inaktivēta trakumsērgas vakcīna, uz šūnu kultūru bāzes,
+    primārā kāmja nieru šūnu vakcīna (PHKCV), Pekinas celms, inaktivācija ar 
+    formalīnu
+  VAC0905L: Vakcīna pret trakumsērgu PHKCV, neprecizēta
+  VAC0906C: Vakcīna pret šindeli
+  VAC0906L: Vakcīna pret jostas rozi, neprecizēta
+  VAC0907C: 4. tipa adenovīrusa vakcīna
+  VAC0907L: Vakcīna pret 4. tipa adenovīrusu, neprecizēts
+  VAC0908C: Adenovīrusa 7. tipa vakcīna
+  VAC0910C: Inaktivēta A hepatīta vakcīna, pieaugušo deva
+  VAC0910L: Inaktivēta A hepatīta vakcīna, pieaugušo deva, neprecizēta
+  VAC0911C: Visa vīriona inaktivēta vakcīna, monovalenta, pediatriskā deva
+  VAC0911L: A hepatīta vesela inaktivēta vakcīna, monovalenta, pediatriskā deva,
+    neprecizēta
+  VAC0908L: Vakcīna pret 7. tipa adenovīrusu, neprecizēts
+  VAC0909C: Pretbotulisma antitoksīns
+  VAC0909L: Botulīna antitoksīns
+  VAC0912C: Pilnvērtīga inaktivēta A hepatīta vakcīna, pediatriskā deva, sastāvs
+    nav norādīts (monovalenta vai divvērtīga ar B hepatīta vakcīnu)
+  VAC0912L: Vakcīna pret A hepatītu, pediatriskā deva, neprecizēta
+  VAC0914C: Hepatīta B rekombinantā vakcīna, monovalenta, pediatriskā deva
+  VAC0914L: B hepatīta vakcīna, monovalenta, pediatriskā deva, neprecizēta
+  VAC0915C: Hepatīta B rekombinantā vakcīna, monovalenta, pieaugušo deva
+  VAC0915L: B hepatīta vakcīna, monovalenta, pieaugušo deva, nav precizēta
+  VAC0916C: rekombinantā B hepatīta vakcīna, monovalenta, dozēta dialīzes 
+    pacientiem
+  VAC0916L: B hepatīta vakcīna, monovalenta, dialīzes pacienta deva, neprecizēta
+  VAC0917C: rekombinantā peptīdu vakcīna pret E hepatītu
+  VAC0917L: Vakcīna pret E hepatītu, neprecizēta
+  VAC0918C: Hemophilus influenzae b tipa konjugētā vakcīna, kas sastāv no PRP 
+    (poliribozilribitolfosfāta), konjugēta ar difterijas toksoīdu
+  VAC0918L: PRP-D Hib vakcīna, neprecizēta
+  VAC0919C: Haemophilus influenzae b tipa vakcīna, kapsulārie oligosīdi 
+    (poliribozilribitolfosfāts, PRP), konjugēti ar mutantu difterijas toksīnu 
+    CRM197
+  VAC0919L: Hib hbOC vakcīna, neprecizēta
+  VAC0920C: Difterijas (toksoīda (samazinātā deva) un stingumkrampju (toksoīda) 
+    vakcīna
+  VAC0923C: Monoklonālā antiviela pret RSV
+  VAC0923L: Elpceļu sincitiālā vīrusa monoklonāla antiviela, neprecizēta
+  VAC0925C: Trivalenta inaktivēta sezonālās gripas vakcīna, sadalīta vai 
+    apakšvienība, standarta deva
+  VAC0925L: Trīsvērtīgā inaktivēta gripas vakcīna, neprecizēta
+  VAC0920L: Difterijas-stingumkrampju Td vakcīna, neprecizēta
+  VAC0921C: Japānas encefalīta vakcīna
+  VAC0921L: Japānas encefalīta vakcīna, neprecizēta
+  VAC0922C: Adenovīrusa 7. un 4. tipa vakcīna
+  VAC0922L: Dzīva novājināta adenovīrusa vakcīna, 4. un 7. tipa, perorāla
+  VAC0927C: COVID-19 mRNS vakcīna, pediatriskā deva
+  VAC0927L: Covid-19 mRNS vakcīna, pediatriskā deva, nav precizēta
+  VAC0928C: Dzīva novājināta A hepatīta vakcīna
+  VAC0928L: Dzīva novājināta A hepatīta vakcīna, neprecizēta
+  VAC0929C: Sezonas gripas vakcīna, inaktivēta, četrvērtīga, pediatriskā deva
+  VAC0929L: Gripas četrvērtīgā inaktivētā vakcīna, pediatriskā deva, neprecizēta
+  VAC0932C: Četrivalentā rekombinētā sezonālās gripas vakcīna
+  VAC0932L: Kvadrivalentā rekombinantā gripas vakcīna, neprecizēta
+  VAC0937C: Botulisma vakcīna
+  VAC0937L: Botulisma vakcīna, neprecizēta
+  VAC0938C: Četrivalenta inaktivēta sezonālās gripas vakcīna, sadalīta virionu 
+    vai virsmas antigēna vakcīna
+  VAC0938L: Neprecizēta četrvērtīgā gripas vakcīna
+  VAC0941C: Antrax imūnglobulīns
+  VAC0941L: Imūnglobulīns pret Sibīrijas mēri, neprecizēts
+  VAC0942C: Inaktivēta visa trakumsērgas vakcīna, kultivēta vistas embrija šūnās
+    (CEEC), inaktivēta ar ß-propiolaktonu.
+  VAC0942L: Vistas embrija trakumsērgas vakcīna, neprecizēta
+  VAC0943L: Trakumsērgas vakcīnas diploīdās šūnas, neprecizētas
+  VAC0943C: Inaktivēta visa trakumsērgas vakcīna, sagatavota cilvēka diploīdu 
+    šūnu kultūrā (HDCV) MRC-5, inaktivēta ar ß-propiolaktonu
+  VAC0944C: Inaktivēta perorālā holēras vakcīna, nesadalīta
+  VAC0944L: Inaktivēta visa viriona perorālā holēras vakcīna, neprecizēta
+  VAC0945C: Meningokoka vakcīna ar neprecizētu serogrupu
+  VAC0945L: Meningokoku vakcīnas serogrupa nav zināma, nav precizēta
+  VAC0997L: 13-valentā konjugāta pneimokoku vakcīna, neprecizēta
+  VAC0997C: 13-valenta pneimokoku konjugētā vakcīna, adsorbēta, 1., 3., 4., 5., 
+    6.A, 6.A, 6.B, 7.F, 9.V, 14., 18.C, 19.A, 19.F un 23.F serotips
+  VAC1037C: Vakcīna pret ērču encefalītu, inaktivēts viss vīruss, Neudörfl 
+    celms, pediatriskā deva
+  VAC1037L: Vakcīna pret ērču encefalītu, Neudörfl celms, pediatriskā deva, 
+    neprecizēta
+  VAC1039C: Covid-19 mRNS vakcīna, oriģināls vīruss, 50 mikrogrami devā
+  VAC1039L: Covid-19 mRNS vakcīna, oriģināls vīruss, 50 µg, neprecizēts
+  VAC1041C: Covid-19 RNS vakcīna
+  VAC1041L: Covid-19 RNS vakcīna, neprecizēta
+  VAC1042C: Covid-19 vakcīna, nereplicējošs vīrusu vektors
+  VAC1042L: Covid-19 vakcīna, nereplicējošs vīrusu vektors, nav precizēts
+  VAC1043C: Covid-19 vakcīna, proteīna apakšvienība
+  VAC1064C: HIV vakcīna, neprecizēta
+  VAC1064L: HIV vakcīna, neprecizēta
+  VAC1065C: Vakcīna pret lepru, neprecizēta
+  VAC1038C: Vakcīna pret ērču encefalītu, inaktivēts viss vīruss, Neudörfl 
+    celms, pieaugušo deva
+  VAC1038L: Vakcīna pret ērču encefalītu, Neudörfl celms, pieaugušo deva, 
+    neprecizēta
+  VAC1065L: Leprosy vaccine
+  VAC1066C: Melanomas vakcīna, neprecizēta
+  VAC1066L: Melanomas vakcīna, neprecizēta
+  VAC1067C: Streptococcus pyogenes vakcīna, neprecizēta
+  VAC1067L: Streptococcus pyogenes vakcīna, neprecizēta
+  VAC1068C: Rifta ielejas drudža vakcīna, neprecizēta
+  VAC1068L: Rifta ielejas drudža vakcīna, neprecizēta
+  VAC1069C: Vaccinia imūnglobulīns
+  VAC1069L: Vaccinia immune globulin
+  VAC1071C: RSV antiviela vai vakcīna, neprecizēta
+  VAC1071L: RSV antiviela vai vakcīna, neprecizēta
+  VAC1072C: Covid-19 mRNS vakcīna, oriģināls vīruss, 25 mikrogrami
+  VAC1072L: Covid-19 mRNS vakcīna, oriģināls vīruss, 25 µg, neprecizēts
+  VAC1073C: Vakcīna pret Laima slimību, neprecizēta
+  VAC1073L: Vakcīna pret Laima slimību, neprecizēta
+  VAC1136L: Pneimokoku 23-valenta konjugētā vakcīna, neprecizēta
+  VAC1163C: 20-valenta pneimokoku konjugētā vakcīna, adsorbēta, 1., 3., 4., 5., 
+    6.A, 6.A, 6.B, 7.F, 8., 9.V, 10.A, 11.A, 12.F, 14., 15.B, 18.C, 19.A, 19.F, 
+    22.F, 23.F un 33.F serotipi
+  VAC1163L: 20-valenta pneimokoku konjugētā vakcīna, neprecizēta
+  VAC1239L: Pneimokoku 15-valenta konjugētā vakcīna, neprecizēta
