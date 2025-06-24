@@ -1,0 +1,3107 @@
+en:
+  disease:
+    DIS001L: Diphtheria
+    DIS002L: Tetanus
+    DIS003L: Pertussis
+    DIS004L: Poliomyelitis
+    DIS005L: Haemophilus influenzae b
+    DIS006L: Hepatitis B
+    DIS008L: Measles
+    DIS009L: Mumps
+    DIS010L: Rubella
+    DIS011L: Chickenpox
+    DIS014L: Tuberculosis
+    DIS015L: Influenza
+    DIS016L: Hepatitis A
+    DIS017L: Yellow fever
+    DIS018L: Typhoid
+    DIS025L: Pneumococcus
+    DIS027L: Tick-borne encephalitis
+    DIS028L: Japanese encephalitis
+    DIS029L: Smallpox-Monkeypox
+    DIS030L: Rabies
+    DIS031L: Dengue fever
+    DIS032L: Rotavirus
+    DIS033L: Shingles
+    DIS034L: Leptospirosis
+    DIS036L: Cholera
+    DIS038L: Papillomavirus
+    DIS040L: Malaria
+    DIS041L: Brucellosis
+    DIS042L: Exanthematous typhus
+    DIS043L: Meningococcal C
+    DIS044L: Meningococcal A
+    DIS045L: Meningococcal B
+    DIS046L: Meningococcal W
+    DIS047L: Meningococcal Y
+    DIS048L: Méningocoque
+    DIS050L: Avian influenza
+    DIS051L: Anthrax
+    DIS052L: Botulism
+    DIS053L: Lyme disease
+    DIS054L: Hepatitis E
+    DIS055L: Ebola
+    DIS056L: Chikungunya
+    DIS057L: COVID-19
+    DIS058L: Human Respiratory Syncytial Virus
+    DIS059L: Plague
+    DIS060L: Herpes
+    DIS061L: Tularemia
+    DIS062L: Argentine hemorrhagic fever
+    DIS063L: Adenovirus
+    DIS064L: Venezuelan equine encephalitis
+    DIS065L: Q fever
+    DIS066L: Hantavirus
+    DIS067L: Leishmaniasis
+    DIS068L: Human parainfluenza viruses
+    DIS070L: Cytomegalovirus
+    DIS071L: Hepatitis C
+    DIS072L: HIV infection
+    DIS073L: Melanoma
+    DIS074L: Streptococcus pyogenes
+    DIS075L: Rift Valley fever
+    DIS076L: Urinary infection
+    DIS077L: Enterovirus
+    DIS078L: Leprosy
+    DIS079L: Pseudomonas aeruginosa
+    DIS080L: Meningococcal X
+  vaccine:
+    VAC0001L: ACT-HIB
+    VAC0002L: AGRIPPAL
+    VAC0003L: AVAXIM 160 U
+    VAC0004L: D.T. POLIO MERIEUX
+    VAC0005L: DUKORAL
+    VAC0006L: FLUVIRINE
+    VAC0007L: GARDASIL
+    VAC0008L: GRIPGUARD
+    VAC0009L: HBVAXPRO 10 µg
+    VAC0010L: HBVAXPRO 40 µg
+    VAC0011L: HBVAXPRO 5 µg
+    VAC0012L: IMMUGRIP
+    VAC0013L: IMOVAX POLIO
+    VAC0014L: INFANRIX HEXA
+    VAC0015L: INFANRIXQUINTA
+    VAC0016L: INFLUVAC
+    VAC0017L: M-M-RVAXPRO
+    VAC0018L: MENCEVAX ACWY
+    VAC0019L: MENINGITEC
+    VAC0020L: MENJUGATEKIT 10 µg
+    VAC0021L: MUTAGRIP
+    VAC0022L: NEISVAC
+    VAC0023L: PENTAVAC
+    VAC0024L: PNEUMO 23
+    VAC0025L: PREVENAR
+    VAC0026L: PREVIGRIP
+    VAC0027L: R.O.R. VAX
+    VAC0028L: RABIPUR
+    VAC0029L: REPEVAX
+    VAC0030L: REVAXIS
+    VAC0031L: ROTATEQ
+    VAC0032L: ROUVAX
+    VAC0033L: RUDIVAX
+    VAC0034L: SPIROLEPT
+    VAC0035L: STAMARIL
+    VAC0036L: TETAGRIP
+    VAC0037L: TETRAVAC-ACELLULAIRE
+    VAC0038L: TICOVAC 0,5 mL
+    VAC0039L: TICOVAC 0,25 mL
+    VAC0040L: TYAVAX
+    VAC0041L: TYPHIM VI
+    VAC0042L: VACCIN BCG SSI
+    VAC0043L: BOOSTRIXTETRA
+    VAC0044L: CERVARIX
+    VAC0045L: ENGERIX B 10 µg
+    VAC0046L: ENGERIX B 20 µg
+    VAC0047L: FLUARIX
+    VAC0048L: GENHEVAC B PASTEUR
+    VAC0049L: HAVRIX 1440 U/1mL
+    VAC0050L: HAVRIX 720 U/0,5 mL
+    VAC0051L: INFANRIXTETRA
+    VAC0052L: VACCIN MENINGOCOCCIQUE A+C
+    VAC0053L: PRIORIX
+    VAC0054L: VACCIN RABIQUE PASTEUR
+    VAC0056L: VACCIN TETANIQUE PASTEUR
+    VAC0057L: TWINRIX 20 µg
+    VAC0058L: TWINRIX 10 µg
+    VAC0059L: TYPHERIX
+    VAC0060L: VARILRIX
+    VAC0061L: VARIVAX
+    VAC0062L: VAXIGRIP
+    VAC0063L: TETRACOQ
+    VAC0064L: PENTACOQ
+    VAC0066L: DTCP PASTEUR
+    VAC0067L: HAVRIX 360 U
+    VAC0068L: MONOVAX
+    VAC0069L: MENOMUNE
+    VAC0070L: DT BIS
+    VAC0071L: D.T. BIS - RUDIVAX
+    VAC0072L: JE-VAX
+    VAC0073L: IXIARO
+    VAC0074L: D.T. COQ MERIEUX
+    VAC0076L: DTVax
+    VAC0077L: IMOVAX OREILLONS
+    VAC0078L: RUDI-ROUVAX
+    VAC0079L: ENCEPUR
+    VAC0080L: BCG PASTEUR
+    VAC0082L: MENBVAC
+    VAC0083L: SYNFLORIX
+    VAC0084C: Influenza A(H5N1) vaccine
+    VAC0084L: H5N1 pre-pandemic influenza vaccine, unspecified
+    VAC0085L: T POLIO MERIEUX
+    VAC0086L: TETAVAX
+    VAC0087L: VAXICOQ
+    VAC0088C: Diphtheria toxoid (standard dose), tetanus toxoid and inactivated polio
+      (trivalent) pediatric vaccine
+    VAC0088L: DTIPV vaccine, unspecified
+    VAC0090L: VACCIN BRUCELLIQUE P.I. à usage humain
+    VAC0091L: VACCIN CCB PASTEUR
+    VAC0092L: VACCIN CHOLERIQUE PASTEUR
+    VAC0093L: VACCIN DT TAB PASTEUR
+    VAC0094L: VACCIN SABIN POLIOVAC MERIEUX
+    VAC0095L: VACCIN TAB PASTEUR
+    VAC0096L: VACCIN GRIPPAL RONCHESE (VGR)
+    VAC0097L: VACCIN LEPTOSPIRES ICTEROHEMORRAGIAE PASTEUR
+    VAC0098L: HEXAVAC
+    VAC0099L: MENINVACT
+    VAC0101C: Recombinant Hepatitis B vaccine, unspecified dose
+    VAC0101L: Hepatitis B vaccine, recombinant, unspecified
+    VAC0102C: Inactivated hepatitis A vaccine, pediatric or adult dose
+    VAC0102L: Inactivated hepatitis A vaccine, unspecified
+    VAC0103L: MENACTRA
+    VAC0104L: HUMENZA
+    VAC0105L: PANENZA
+    VAC0106L: Q-Pan H1N1
+    VAC0107L: CELVAPAN
+    VAC0108L: PANDEMRIX
+    VAC0109L: FOCETRIA (unidose)
+    VAC0110C: Seasonal influenza vaccine
+    VAC0110L: Influenza vaccine, unspecified
+    VAC0111C: Live attenuated yellow fever vaccine
+    VAC0111L: Yellow fever vaccine, unspecified
+    VAC0112C: Typhoid vaccine, unspecified
+    VAC0112L: Typhoid vaccine, unspecified
+    VAC0113C: Vaccine rubella, live attenuated
+    VAC0113L: Rubella vaccine, live attenuated, unspecified
+    VAC0114C: Live attenuated measles vaccine
+    VAC0114L: Live attenuated measles vaccine, unspecified
+    VAC0115L: AVAXIM 80 U PEDIATRIQUE
+    VAC0116L: R.O.R SANOFI PASTEUR
+    VAC0120L: VACCIN VARICELLE MERIEUX
+    VAC0121L: PRIORIX-TETRA
+    VAC0123L: PREVENAR 13
+    VAC0124L: FOCETRIA (multidose)
+    VAC0125L: AREPANRIX
+    VAC0126L: HEVAC B
+    VAC0127L: HB VAX DNA 5 µg
+    VAC0128L: HB VAX DNA 10 µg
+    VAC0129L: HB VAX DNA 40 µg
+    VAC0130C: Live attenuated measles, mumps and rubella vaccine
+    VAC0130L: MMR vaccine, live attenuated, unspecified
+    VAC0131C: Whole virion inactivated rabies vaccine
+    VAC0131L: Rabies vaccine, unspecified
+    VAC0132C: Tetanus toxoid vaccine
+    VAC0132L: Tetanus vaccine, unspecified
+    VAC0133C: Live attenuated smallpox vaccine
+    VAC0133L: Smallpox vaccine, unspecified
+    VAC0134C: Tuberculosis vaccine
+    VAC0134L: BCG vaccine, unspecified
+    VAC0135C: Polio vaccine (live attenuated, trivalent)
+    VAC0135L: Polio vaccine, unspecified
+    VAC0136C: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (whole-cell
+      inactivated) pediatric vaccine
+    VAC0136L: DTwP - Diphtheria-Tetanus-Pertussis, unspecified
+    VAC0137C: Diphtheria toxoid (standard dose) and tetanus toxoid pediatric vaccine
+    VAC0137L: DT vaccine, unspecified
+    VAC0138C: Diphtheria toxoid (unspecified dose), tetanus toxoid, pertussis (whole-cell
+      inactivated or acellular, unspecified dose) and inactivated polio (trivalent)
+      vaccine
+    VAC0138L: Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified
+    VAC0139L: PENT-HIBEST
+    VAC0140L: INTANZA
+    VAC0141L: MENVEO
+    VAC0143C: Haemophilus influenzae type b conjugate vaccine
+    VAC0143L: Haemophilus influenzae B (or Hib) vaccine, unspecified
+    VAC0144C: Cholera vaccine, unspecified
+    VAC0144L: Cholera vaccine, unspecified
+    VAC0145C: Tick-borne encephalitis vaccine, whole-virus inactivated, strain unspecified
+    VAC0145L: Tick-borne encephalitis vaccine, unspecified
+    VAC0146C: Live attenuated Japanese encephalitis vaccine, 14-14-2 strain
+    VAC0146L: Live attenuated Japanese Encephalitis vaccine 14-14-2 strain, unspecified
+    VAC0147C: Pandemic influenza A(H1N1)pdm09 vaccine, inactivated
+    VAC0147L: Influenza A(H1N1)2009 vaccine, unspecified
+    VAC0148C: Inactivated whole-cell leptospirosis vaccine
+    VAC0148L: Leptospirosis vaccine, unspecified
+    VAC0149C: Meningococcal vaccine, serogroup B (outer membrane vesicle protein B:14:P1.7,16)
+    VAC0149L: Meningococcal B:14:P1.7,16 vaccine, unspecified
+    VAC0150C: Meningococcal polysaccharide conjugate vaccine, serogroup C
+    VAC0150L: Meningococcal conjugate vaccine C, unspecified
+    VAC0151C: Unconjugated meningococcal polysaccharide vaccine, serogroups A and
+      C
+    VAC0151L: Meningococcal A + C vaccine, unspecified
+    VAC0152C: Unconjugated meningococcal polysaccharide vaccine, serogroups A, C,
+      W and Y
+    VAC0152L: Unconjugated meningococcal vaccine ACWY, unspecified
+    VAC0153C: Live attenuated mumps vaccine
+    VAC0153L: Mumps vaccine, unspecified
+    VAC0154C: Malaria vaccine (used in clinical trials)
+    VAC0154L: Malaria vaccine, unspecified
+    VAC0155C: Dengue vaccine, unspecified
+    VAC0155L: Dengue vaccine, unspecified
+    VAC0156C: Human Papillomavirus vaccine, unspecified
+    VAC0156L: HPV Vaccine
+    VAC0157C: Pneumococcal conjugate or non conjugate polysaccharide vaccine, number
+      of serotypes unspecified
+    VAC0157L: Pneumococcal vaccine, unspecified
+    VAC0158C: Rotavirus vaccine
+    VAC0158L: Rotavirus vaccine, unspecified
+    VAC0159C: Live attenuated chickenpox vaccine
+    VAC0159L: Chickenpox vaccine, unspecified
+    VAC0160C: Live attenuated shingles vaccine
+    VAC0160L: Live attenuated shingles vaccine, unspecified
+    VAC0161L: ZOSTAVAX
+    VAC0162C: Brucellosis vaccine
+    VAC0162L: Brucellosis vaccine, unspecified
+    VAC0163C: Pertussis (whole-cell inactivated) vaccine
+    VAC0163L: Whole-cell inactivated pertussis vaccine, unspecified
+    VAC0164L: INTANZA 9 µg
+    VAC0165L: VAQTA 25 U/0,5 mL
+    VAC0166L: VAQTA 50 U
+    VAC0168L: AMBIRIX
+    VAC0169L: OPTAFLU
+    VAC0170L: AFLUNOV
+    VAC0171L: PREPANDEMIC INFLUENZA VACCINE (H5N1) NOVARTIS
+    VAC0172L: DIFTAVAX
+    VAC0173L: FLUENZ
+    VAC0174L: PROQUAD
+    VAC0175L: A.D.T. BOOSTER
+    VAC0176L: A.K.D.S.
+    VAC0177L: AC VAX
+    VAC0178L: ACEL-IMUNE
+    VAC0179L: ACELLULAR D.P.T. KOVAX
+    VAC0180L: ACTACEL
+    VAC0182L: ADACEL
+    VAC0183L: AIMMUGEN
+    VAC0184L: ALDIANA
+    VAC0185L: ALDITEANA
+    VAC0186L: ALDITERPERA
+    VAC0187L: AMARIL
+    VAC0188L: QUIMI-HIB
+    VAC0189L: ANADIFTERALL
+    VAC0190L: ANATETALL
+    VAC0191L: ARILVAX
+    VAC0192L: ATTENUVAX
+    VAC0193L: AVAC-1, AVA
+    VAC0194L: B-CAPSA
+    VAC0195L: BEGRIVAC
+    VAC0196L: BIAVAX
+    VAC0197L: BIAVAX II
+    VAC0198L: BIKEN-HB
+    VAC0199L: BIMMUGEN
+    VAC0200L: BIOTHRAX
+    VAC0201L: BIVIRATEN BERNA
+    VAC0202L: BVAC
+    VAC0203L: C.D.T.
+    VAC0204L: CAM-KOVAX
+    VAC0205L: CD.JEVAX
+    VAC0206L: CELLUVAX
+    VAC0207L: CENDEVAX
+    VAC0208L: CERTIVA
+    VAC0209L: COMVAX
+    VAC0210L: D.S.D.P.T.
+    VAC0211L: DAPTACEL
+    VAC0212L: DI TE PER POL IMPFSTOFF
+    VAC0213L: DI-TE-POL
+    VAC0214L: DIF-TET-ALL
+    VAC0216L: ANATOXAL DI TE
+    VAC0217L: DITOXIM
+    VAC0218L: DOUBLE ANIGEN B.
+    VAC0219L: DRYVAX
+    VAC0220L: DT MERIEUX
+    VAC0222L: TRIPVAC
+    VAC0223L: DUAL ANTIGEN SII
+    VAC0224L: ECOLARIX
+    VAC0225L: EIPV
+    VAC0226L: Diptheria, Tetanus and Acellular Pertussis Combined Walvax vaccine
+    VAC0227L: EPAXAL
+    VAC0228L: ERVEVAX RA 27/3
+    VAC0229L: FLU SHIELD
+    VAC0230L: FLUAD
+    VAC0231L: FLUKOVAX
+    VAC0232L: FLULAVAL
+    VAC0233L: FLUMIST
+    VAC0234L: FLUOGEN
+    VAC0235L: FLUVIRIN
+    VAC0236L: FLUZONE HIGH-DOSE
+    VAC0238L: FUNED-CEME
+    VAC0240L: GUNEVAX
+    VAC0241L: HAEMOPHILUS INFLUENZAE B CONJUGATE VACCINE - SERUM INSTITUTE OF INDIA
+    VAC0242L: HBY
+    VAC0243L: HEPA-B INJECTION
+    VAC0244L: HEPRECOMB
+    VAC0245L: HEPTAVAX B
+    VAC0246L: HIBERNA PRODUCTSIX
+    VAC0247L: HIBTITER
+    VAC0248L: HINKUYS KAROKOE
+    VAC0249L: RUBELLA VACCINE HPV-77
+    VAC0251L: HUMOTET-ANTI TETANUS
+    VAC0252L: VAXIGRIP ENFANTS
+    VAC0253L: VAXIRAB N
+    VAC0254L: IMOVAX D.T.
+    VAC0255L: IMOVAX GRIPPE
+    VAC0256L: IMOVAX MUMPS
+    VAC0257L: IMOVAX PAROTIDITIS
+    VAC0258L: IMOVAX R.O.R.
+    VAC0259L: IMOVAX Rabies
+    VAC0260L: IMOVAX Rabies I.D.
+    VAC0261L: IMOVAX RAGE
+    VAC0262L: IMOVAX RUBEOLA
+    VAC0263L: IMOVAX SARAMPION
+    VAC0264L: INFANRIX
+    VAC0265L: INFLU-KOVAX
+    VAC0266L: INFLUENZA HA VACCINE KOVAX
+    VAC0267L: IPAD TP
+    VAC0268L: IPOL
+    VAC0270C: Inactivated polio (trivalent) vaccine
+    VAC0270L: Inactivated Polio vaccine, unspecified
+    VAC0271L: ISTIVAC
+    VAC0272L: KAKSOISROKOTE DUBBELVACCIN
+    VAC0273L: KIKHOSTE-VAKSINE
+    VAC0274L: LANCY VAXINA
+    VAC0275L: LAVANTUU TIROKOTE
+    VAC0276L: LIOVAX
+    VAC0277L: LIRUBEL
+    VAC0278L: LIRUGEN
+    VAC0280L: MUMPS-MEASLES VACCINE MICROGEN
+    VAC0281L: LM - 3 RIT
+    VAC0282L: LTEANAS IMUNA
+    VAC0283L: LYMERIX
+    VAC0284L: LYOVAC ATTENUVAX
+    VAC0285L: LYOVAC MERUVAX
+    VAC0286L: M-M-R II
+    VAC0287L: M-R VAX
+    VAC0288L: M-R VAX II
+    VAC0289L: M-VAX PFIZER
+    VAC0290L: MASERN-IMPFSTOFF SSW
+    VAC0291L: MEASLES VACCINE AIK-C STRAIN POLYVAC
+    VAC0292L: MEASLES VACCINE DK3
+    VAC0293L: MENAFRIVAC
+    VAC0294L: MENCEVAX A
+    VAC0295L: MENOMUNE-A/C/Y/W-135
+    VAC0296L: MENPOVAX 4 A+C+Y+W135
+    VAC0297L: MENPOVAX A+C
+    VAC0298L: MERUVAX
+    VAC0299L: MERUVAX II
+    VAC0300L: MEVILIN-L
+    VAC0301L: MMR
+    VAC0303L: MONIARIX
+    VAC0304L: MOPAVAC SEVAC
+    VAC0305L: MOPV
+    VAC0306L: MORBILVAX
+    VAC0307L: MORUBEL
+    VAC0308L: MORUMAN BERNA PRODUCTS
+    VAC0309L: MORUPAR
+    VAC0310L: MOVIVAC
+    VAC0311L: MUMATEN BERNA PRODUCTSNA
+    VAC0312L: MUMPS LIVE
+    VAC0313L: MUMPS inactivated
+    VAC0315L: MUMPSVAX
+    VAC0317L: NABI-HB
+    VAC0318L: NOTHAV
+    VAC0319L: OMNIHIB
+    VAC0320C: Polio vaccine (live attenuated, trivalent) against polioviruses 1, 2
+      and 3, oral
+    VAC0320L: OPV 1-2-3, unspecified
+    VAC0321L: ORIMUNE
+    VAC0322L: PARIORIX
+    VAC0323L: PAVIVAC-SEVAC
+    VAC0324C: Pneumococcal polysaccharide conjugate vaccine, 7-valent, serotypes 4,
+      6B, 9V, 14, 18C, 19F and 23F
+    VAC0324L: Pneumococcal conjugate vaccine, 7 valent, unspecified
+    VAC0325L: PEDIARIX
+    VAC0326L: PEDVAXHIB
+    VAC0327L: PENTA
+    VAC0328L: PENTACEL
+    VAC0330L: PENTACT-HIB
+    VAC0332L: PENTAVALENTE
+    VAC0333L: PFIZER VAX-MEASLES K INACTIVATED
+    VAC0334L: PFIZER VAX-MEASLES L
+    VAC0335L: PLUSERIX
+    VAC0336L: PNEUMOVAX
+    VAC0337L: PNU-IMUNE 23
+    VAC0338L: POLIACEL
+    VAC0339C: Unconjugated pneumococcal polysaccharide vaccine, 23-valent, serotypes
+      1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F,
+      20, 22F, 23F and 33F
+    VAC0339L: Pneumococcal polysaccharide vaccine 23-valent, unspecified
+    VAC0341L: PREVNAR
+    VAC0343L: ProHIBiT
+    VAC0344C: Haemophilus influenzae type b conjugate vaccine composed of PRP (polyribosylribitol
+      phosphate) conjugated with OMP (Neisseria meningitidis outer-membrane protein)
+    VAC0344L: PRP-OMP Hib vaccine, unspecified
+    VAC0345C: Haemophilus influenzae type b conjugate vaccine composed of PRP (polyribosylribitol
+      phosphate) conjugated to tetanus toxoid
+    VAC0345L: Hib PRP-T conjugated vaccine, unspecified
+    VAC0346L: PURIVAX
+    VAC0347L: QUADRACEL
+    VAC0348L: QUADRACEL/HIBEST
+    VAC0349L: QUADRIGEN
+    VAC0350L: QUATRO-VIRELON
+    VAC0351L: QUINTUPLE
+    VAC0352L: R-HB VACCINE
+    VAC0353L: R-VAC
+    VAC0354L: RA27/3
+    VAC0355L: RABAVERT
+    VAC0356L: RECOMBIVAX HB PÉDIATRIQUE
+    VAC0357L: RESPIGAM, RSV-IVIG
+    VAC0358C: Rabies immunoglobulin, human origin
+    VAC0358L: Rabies immunoglobulin human origin, unspecified
+    VAC0359L: RIMEVAX
+    VAC0360L: RIMPARIX
+    VAC0361L: RIT - LM-2
+    VAC0362L: RIT - LM-3
+    VAC0363L: ROTASHIELD
+    VAC0364L: RUBEATEN BERNA PRODUCTS
+    VAC0365L: RUBELLA VACCINE MICROGEN
+    VAC0366L: RUBELLA-KOVAX
+    VAC0367L: RUBELLOVAC
+    VAC0368L: RUBELOGEN
+    VAC0369L: RUBEOVAX
+    VAC0370L: RVA RABIES VACCINE ABSORBED BIOPORT
+    VAC0371L: POLIO SABIN GSK
+    VAC0372L: SAHIA
+    VAC0373L: SALK
+    VAC0374L: SANDOVAC
+    VAC0375L: SEROBACTERIN
+    VAC0376L: SHANCHOL
+    VAC0377L: TRIPLE ANTIGEN SII
+    VAC0378L: SYNAGIS (PALIZIVUMAB)
+    VAC0379L: T-IMMUN
+    VAC0380C: Tetanus toxoid and inactivated polio (trivalent) vaccine
+    VAC0380L: T.Polio, unspecified
+    VAC0382C: Diphtheria toxoid (unspecified dose) and tetanus toxoid vaccine
+    VAC0382L: Tetanus diphtheria vaccine, unspecified
+    VAC0383L: ANATOXAL TE
+    VAC0384L: TE/VAC/PTAP
+    VAC0385L: TELVACLPTAP
+    VAC0386L: TETAMYN
+    VAC0387L: TETANOL
+    VAC0388L: TETASORBAT SSW
+    VAC0389L: TETAMUN SSW
+    VAC0390L: TETRACT-HIB
+    VAC0391L: TETRAMUNE
+    VAC0392L: TETRAVAX
+    VAC0393L: TICE BCG
+    VAC0394L: TIG
+    VAC0395L: TITIFICA
+    VAC0396L: BIOPOLIO
+    VAC0397L: TRESIVAC LYOPHILIZED
+    VAC0398L: TRI-IMMUNOL
+    VAC0399L: TRIACEL
+    VAC0400L: TRIACELLUVAX
+    VAC0401L: TRIHIBIT
+    VAC0403L: TRINIVAC
+    VAC0404L: TRIPACEL
+    VAC0405L: TRIPEDIA
+    VAC0407L: TRIPLE
+    VAC0408L: TRIPLE ANTIGEN
+    VAC0409L: TRIPLE SABIN
+    VAC0410L: TRIPLE VIRAL
+    VAC0411L: TRIVACUNA LETI
+    VAC0412L: TRIVAX
+    VAC0413L: TRIVAX-AD
+    VAC0414L: TRIVAX-HIB
+    VAC0415L: TRIVB
+    VAC0416L: TRIVIRATEN
+    VAC0417L: TRIVIVAC SEVAC
+    VAC0418L: TRIVIVAC Y
+    VAC0419L: SHANTT
+    VAC0420L: BIO-TT
+    VAC0421L: TUSSITRUPIN FORTE
+    VAC0423L: TWINRIX JUNIOR
+    VAC0424C: Live attenuated typhoid vaccine, strain Ty21a, oral
+    VAC0424L: Live attenuated oral typhoid vaccine, unspecified
+    VAC0425L: TYNE
+    VAC0426L: TYPHOID VACCINE WYETH
+    VAC0427L: TYPHOID-KOVAX
+    VAC0428L: VA-MENGOC-BC
+    VAC0429L: VACCIN COMBINAT DIFTERO-TETANIC
+    VAC0430L: VACCIN DIFTERIC ADSORBIT
+    VAC0431L: VACCINUM MORBILLORUM VIVUM
+    VAC0432L: VACINA DUPLA
+    VAC0433L: VACINA TRIPLICE
+    VAC0434L: VACINA TRIPLICE VIRAL
+    VAC0435L: VAKSIN CACAR
+    VAC0436L: VAKSIN CAMPAK KERING
+    VAC0437L: VAKSIN KOTIPA
+    VAC0438L: VAKSIN SERAP
+    VAC0439L: VAMOAVAX
+    VAC0441L: SKYVARICELLA INJ
+    VAC0442L: VARICELLON
+    VAC0443L: SEVAC VARIE
+    VAC0444L: VAXEM-HIB
+    VAC0445L: VAXIPAR
+    VAC0446L: VCDT
+    VAC0447L: VDA VACCIN DIFTERIC ADSORBIT
+    VAC0448L: VICPS (TYPHIM VI)
+    VAC0449L: VIRELON T 20
+    VAC0450L: VIROVAC MASSLING, PEROTID, RUBELLA
+    VAC0451L: VIVOTIF
+    VAC0452L: VT (VACINA TRIPLICE)
+    VAC0453L: VTV (VACINA TRIPLICE VIRAL)
+    VAC0454L: VVR CANTACUZINO
+    VAC0456L: WELLTRIVAX TRIVALENTE
+    VAC0457L: YF-VAX
+    VAC0458L: ZAANTIDE antitoxin
+    VAC0459L: ZAANTITE
+    VAC0460L: ZADITEADVAX
+    VAC0461L: ZADITEVAX
+    VAC0462L: ZAMEVAX A+C
+    VAC0463L: ZAMOVAX
+    VAC0464L: ZAMRUVAX
+    VAC0465L: ZARUVAX
+    VAC0466L: ZATETRAVAX
+    VAC0467L: ZATEVAX
+    VAC0468L: ZATRIBAVAX
+    VAC0469L: ZATRIVAX
+    VAC0470L: QUINVAXEM
+    VAC0471L: HEPAVAX-GENE B 20 µg
+    VAC0472L: PREPANDRIX
+    VAC0473L: PRE-PANDEMIC INFLUENZA VACCINE H5N1
+    VAC0474L: DARONRIX
+    VAC0475L: FOCLIVIA
+    VAC0476L: PANDEMIC INFLUENZA VACCINE H5N1 BAXTER
+    VAC0477L: PUMARIX
+    VAC0478L: COVAXIS
+    VAC0479L: TRIAXIS
+    VAC0480L: FENDRIX
+    VAC0481L: TRIVIVAX
+    VAC0482L: VEPACEL
+    VAC0483L: FLUAD PAEDIATRICS
+    VAC0484L: RABIVAX-S
+    VAC0485L: TETAGAM P (immunoglobuline)
+    VAC0486L: NIMENRIX
+    VAC0487L: MENHIBRIX
+    VAC0488L: PENTAXIM
+    VAC0489L: TRIMOVAX
+    VAC0490L: KINRIX
+    VAC0491L: TENIVAC
+    VAC0492L: AFLURIA
+    VAC0494L: TRITANRIX HepB
+    VAC0495L: BEXSERO
+    VAC0496L: GAMMATETANOS (immunoglobuline)
+    VAC0497C: Anti-tetanus immunoglobulin
+    VAC0497L: Tetanus immunoglobulin, unspecified
+    VAC0498L: IMOGAM RAGE
+    VAC0499L: BENIRAB (immunoglobuline)
+    VAC0500L: FAVIRAB
+    VAC0501L: EQUIRAB (immunoglobuline)
+    VAC0502C: Rabies immunoglobulin, human or equine origin
+    VAC0502L: Rabies immunoglobulin, unspecified
+    VAC0503C: Rabies immunoglobulin, equine origin
+    VAC0503L: Rabies immunoglobulin equine origin, unspecified
+    VAC0504L: INFANRIX POLIO HIB NOURRISSONS
+    VAC0505L: HIBEST
+    VAC0506C: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
+      acellular, standard dose), Haemophilus influenzae type b (conjugated, unspecified)
+      and inactivated polio (trivalent) pediatric vaccine
+    VAC0506L: Pentavalent DTaPHibIPV vaccine, unspecified
+    VAC0507L: HEXACIMA
+    VAC0508L: JEEV 3 µg
+    VAC0509L: BIKEN
+    VAC0510L: HEXYON
+    VAC0511L: SILGARD
+    VAC0512C: Vaccine against epidemic typhus (epidemic lice typhus)
+    VAC0512L: Typhus vaccine, unspecified
+    VAC0513L: HEPATYRIX
+    VAC0514L: ROTARIX
+    VAC0515L: INFANRIX-POLIO
+    VAC0516L: ABHAYRAB
+    VAC0517L: FLUARIXTETRA
+    VAC0518L: STAMARIL (multidose)
+    VAC0520L: IMVANEX
+    VAC0521L: FLUENZ TETRA
+    VAC0523L: GARDASIL 9
+    VAC0524L: TEVAX
+    VAC0525L: INFANRIX PENTA
+    VAC0526L: HECOLIN
+    VAC0527L: VACCIN DIPHTERIQUE ET TETANIQUE ADSORBE
+    VAC0528L: MOSQUIRIX
+    VAC0529L: IMOVAX TETANO
+    VAC0530L: TETANOL PUR
+    VAC0531L: TETANOS ADSORBE MERIEUX
+    VAC0532L: TETANUS VACCIN
+    VAC0534L: MENJUGATE 10 µg
+    VAC0535L: VAXELIS
+    VAC0538L: VACCIN BCG SYNTHAVERSE
+    VAC0539L: DENGVAXIA
+    VAC0540L: IPAD T
+    VAC0541L: BOOSTRIX
+    VAC0542L: Vaccin D.T.P. Pasteur
+    VAC0543L: HEXAXIM
+    VAC0544L: TETRAXIM
+    VAC0545L: EUVAX B 20 µg
+    VAC0546L: DULTAVAX
+    VAC0549C: Diphtheria toxoid (low dose), tetanus toxoid and inactivated polio (trivalent)
+      vaccine
+    VAC0549L: dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified
+    VAC0550C: Live attenuated measles and rubella vaccine
+    VAC0550L: Measles-Rubella vaccine, unspecified
+    VAC0551C: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
+      acellular, standard dose) and inactivated polio (trivalent) pediatric vaccine
+    VAC0551L: DTaPIPV vaccine, standard dose, unspecified
+    VAC0552C: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
+      acellular, standard dose), Haemophilus influenzae type b (conjugated, unspecified),
+      inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine
+    VAC0552L: Hexavalent vaccine DTPCaHibHepB - Diphtheria-Tetanus-Polio-Acellular
+      Pertussis-Hib-HepB, unspecified
+    VAC0553C: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell
+      inactivated), Haemophilus influenzae type b (conjugated, unspecified) and inactivated
+      polio (trivalent) pediatric vaccine
+    VAC0553L: Pentavalent DTwPHibIPV vaccine, unspecified
+    VAC0554L: PEDIACEL
+    VAC0555L: COMBACT-HIB
+    VAC0556L: MENITORIX
+    VAC0560L: VAXIGRIPTETRA
+    VAC0561L: IMOJEV
+    VAC0562L: INFLUVAC TETRA
+    VAC0563L: ALPHA-RIX-TETRA
+    VAC0566L: PNEUMOCOCCAL POLYSACCHARIDE VACCINE MSD
+    VAC0567L: SHINGRIX
+    VAC0568L: BOOSTRIX-POLIO
+    VAC0569L: INFANRIX-IPV
+    VAC0570L: HIBERIX
+    VAC0573L: AGRIFLU
+    VAC0574L: Td POLIO ADSORBED
+    VAC0575L: FSME-IMMUN
+    VAC0576L: FLUVIRAL
+    VAC0577L: TRIPACEL HYBRID
+    VAC0578L: INFANRIX-HIB
+    VAC0579L: CLAIRYG 50 mg/mL
+    VAC0580L: CLAIRYG
+    VAC0582L: TRUMENBA
+    VAC0585C: Diphtheria toxoid (low dose), tetanus toxoid, pertussis (multicomponent
+      acellular, 5 components, low dose) and inactivated polio (trivalent) vaccine,
+      adsorbed
+    VAC0585L: TdapIPV - Diphtheria-Tetanus-Pertussis-Polio vaccine, low dose, unspecified
+    VAC0586L: ERVEBO
+    VAC0590L: VACCIN BCG AJVACCINES
+    VAC0591L: VIVAXIM
+    VAC0592L: SPEEDA
+    VAC0593L: VERORAB
+    VAC0594L: MENQUADFI
+    VAC0595L: FLUCELVAX TETRA
+    VAC0596C: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (multicomponent
+      acellular, standard dose), Haemophilus influenzae type b (conjugated, unspecified)
+      and hepatitis B (recombinant) pediatric vaccine
+    VAC0596L: DTaPHibHepB pentavalent vaccine, unspecified
+    VAC0598C: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell
+      inactivated), Haemophilus influenzae type b (conjugated, unspecified) and hepatitis
+      B (recombinant) pediatric vaccine
+    VAC0598L: DTwPHibHepB pentavalent vaccine, unspecified
+    VAC0599C: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (multicomponent
+      acellular, unspecified dose), Haemophilus influenzae type b (conjugated, unspecified)
+      and hepatitis B (recombinant) pediatric vaccine
+    VAC0599L: DTPerHibHepB pentavalent vaccine, unspecified
+    VAC0600C: Polio vaccine (live attenuated, bivalent) against poliovirus types 1
+      and 3, oral
+    VAC0600L: OPV bivalent 1-3, unspecified
+    VAC0601C: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (whole-cell
+      inactivated or acellular, unspecified dose) pediatric vaccine
+    VAC0601L: DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified
+    VAC0602C: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (multicomponent
+      acellular, standard dose) pediatric vaccine
+    VAC0602L: DTaP - Diphtheria-Tetanus-Pertussis vaccine, standard dose, unspecified
+    VAC0603L: COMVAC3
+    VAC0610C: Diphtheria toxoid (low dose), tetanus toxoid and pertussis (multicomponent
+      acellular, low dose) vaccine
+    VAC0610L: Tdap - Diphtheria-Tetanus-Pertussis vaccine, low dose, unspecified
+    VAC0611L: SHAN-5
+    VAC0612L: DTP-vax FINLAY
+    VAC0613L: BORYUNG DTap VACCINE
+    VAC0614L: TDAPBOOSTER AJ VACCINES
+    VAC0615L: VACCIN T.P. PASTEUR
+    VAC0620L: IXCHIQ
+    VAC0621L: MENC VACCINE FUNED
+    VAC0622L: EOLARIX
+    VAC0623C: Live attenuated measles and mumps vaccine
+    VAC0623L: Measles-mumps vaccine, unspecified
+    VAC0624L: M-M-Vax
+    VAC0625L: MORATEN
+    VAC0626L: MoRu Viraten
+    VAC0627L: MORUMAN
+    VAC0628L: Immravax
+    VAC0631L: MENINVACTKIT
+    VAC0632L: OPVERO
+    VAC0633L: ZABDENO
+    VAC0634L: MVABEA
+    VAC0635L: PREFLUCEL
+    VAC0636L: FLUMIST QUADRIVALENT
+    VAC0637L: IPAD DT
+    VAC0638L: IPAD POLIO
+    VAC0639L: ADACEL POLIO
+    VAC0640L: TRITANRIX HepB+Hib
+    VAC0641L: GLOBORIX
+    VAC0642L: FLUZONE HIGH-DOSE QUADRIVALENT
+    VAC0643C: Quadrivalent meningococcal polysaccharide conjugate vaccine, serogroups
+      A, C, W and Y
+    VAC0643L: Meningococcal ACWY conjugate vaccine, unspecified
+    VAC0644L: QDENGA
+    VAC0645L: IMMU ORR
+    VAC0646L: CECOLIN
+    VAC0647L: ROTASIIL
+    VAC0648C: COVID-19 vaccine
+    VAC0648L: COVID-19 vaccine, unspecified
+    VAC0649L: EFLUELDA QIV-HD
+    VAC0650L: VAXZEVRIA ASTRAZENECA
+    VAC0651L: CORONAVAC COVID-19 VACCINE
+    VAC0652L: CONVIDECIA
+    VAC0653C: Combined hepatitis A and B vaccine, pediatric dose
+    VAC0653L: Hepatitis A + Hepatitis B vaccine Child, unspecified
+    VAC0654C: Combined hepatitis A and B vaccine, adult dose
+    VAC0654L: Hepatitis A + Hepatitis B vaccine Adult, unspecified
+    VAC0655C: Diphtheria toxoid (unspecified dose)
+    VAC0655L: Diphtheria vaccine, unspecified
+    VAC0656L: SPIKEVAX 0,2 mg/mL MODERNA
+    VAC0657L: SINOPHARM WUHAN COVID-19 VACCINE
+    VAC0658L: COMIRNATY 30 µg BIONTECH-PFIZER
+    VAC0659L: ZIFIVAX ANHUI COVID-19 VACCINE
+    VAC0660L: CHINESE-IMB-INACTIVATED-COVID
+    VAC0661L: INOVIO-DNA-COVID
+    VAC0662L: OSAKA-DNA-COVID / AG0301-COVID19
+    VAC0663L: CADILA-DNA-COVID
+    VAC0664L: GX-19-DNA-Covid
+    VAC0665L: COVAXIN BHARAT BIOTECH COVID-19 VACCINE
+    VAC0666L: JCOVDEN
+    VAC0667L: NUVAXOVID
+    VAC0668L: KENTUCKY-RBD-COVID
+    VAC0669L: ARCTURUS-RNA-COVID
+    VAC0670L: SPOUTNIK V
+    VAC0671L: CLOVER-SPIKE-SCB-2019-COVID
+    VAC0672L: VAXINE-SPIKE-COVID
+    VAC0673L: QUEENSLAND-SPIKE-MF59-COVID
+    VAC0674L: PASTEUR-MSD MEASLES VECTOR COVID
+    VAC0675L: IMPERIAL-COLLEGE-RNA-COVID
+    VAC0676L: CUREVAC-RNA-COVID
+    VAC0677L: CHINESE-PLA-ARN-Covid
+    VAC0678L: Medicago-VLP-Covid
+    VAC0679L: MEDIGEN-S-2P-CpH1018-COVID
+    VAC0680L: COVILO SINOPHARM COVID-19 VACCINE
+    VAC0681L: GRAD-COV2 COVID-19 VACCINE REITHERA
+    VAC0682L: FLUQUADRI
+    VAC0683L: EpiVacCorona
+    VAC0684L: QAZVAC
+    VAC0685L: VIDPREVTYN BETA
+    VAC0686L: MULTI-PEPTIDE-pVAC-COVID
+    VAC0687L: UB-612 COVID-19 Vaccine
+    VAC0688L: INTRANASAL FLU-BASED RBD DelNS1-2019-nCoV-RBD-OPT1 COVID-19 Vaccine
+    VAC0689L: CHINESE-RECOMBINANT-Sf9-COVID
+    VAC0690L: CHINESE-AD5-NCOV-COVID
+    VAC0691L: FINLAY-FR-1
+    VAC0692L: COVAXX
+    VAC0693L: VXA-COV2-1-COVID
+    VAC0694L: LMU-MVA-SARS-2-S-COVID
+    VAC0695L: RBD-HBsAg-VLPs-Covid
+    VAC0696L: KCONVAC MINHAI COVID-19 VACCINE
+    VAC0697L: V590 (COVID-19)
+    VAC0698L: hAd5-COVID-19
+    VAC0699L: IIBR's RECOMBINANT VSV-DeltaG-spike VACCINE
+    VAC0701L: BACTRL-SPIKE
+    VAC0702L: RRBD PRODUCED IN CHO-CELL CHEMICALLY CONJUGATE TO TETANUS TOXOID
+    VAC0703L: ADJUVANTED PROTEIN SUBUNIT (RBD)
+    VAC0705L: INFLUSPLIT TETRA
+    VAC0706L: FLUZONE QUADRIVALENT
+    VAC0707L: CORONAVIRUS SARS-CoV-2 INACTIVÉ
+    VAC0708L: CORVAX12
+    VAC0709L: COVI-VAC
+    VAC0710L: COVID-19 mRNA VACCINE BNT162b2
+    VAC0711C: Polysaccharide typhoid conjugate vaccine
+    VAC0711L: Typhoid conjugate vaccine, unspecified
+    VAC0712C: Combined typhoid and hepatitis A vaccine
+    VAC0712L: Typhoid-hepatitis A vaccine, unspecified
+    VAC0713C: Polysaccharide typhoid vaccine (Vi capsular antigen)
+    VAC0713L: Typhoid polysaccharide vaccine, unspecified
+    VAC0714L: VACCIN CONTRE LA COVID-19 (INACTIVE, AVEC ADJUVANT) VALNEVA
+    VAC0715L: ERUCOV-VAC
+    VAC0716L: SARS-COV-2-RBD-FC FUSION PROTEIN
+    VAC0717L: CIGB-669
+    VAC0718L: CIGB-66
+    VAC0719L: NANOCOVAX
+    VAC0720L: S-268019
+    VAC0721L: ADIMRSC-2F
+    VAC0722L: COVIGENIX VAX-001
+    VAC0723L: GLS-5310
+    VAC0724L: CHULACOV19
+    VAC0725L: COH04S1
+    VAC0726L: ADCOVID
+    VAC0727L: ADCLD-COV19
+    VAC0728L: aAPC COVID-19 VACCINE
+    VAC0729L: LV-SMENP-DC vaccine
+    VAC0730L: DENDRITIC CELL AV-COVID-19 VACCINE
+    VAC0731L: DITANRIX
+    VAC0732L: COVAC-1 - COVAC-2
+    VAC0733L: HEPLISAV-B
+    VAC0734L: POLIO BOOSTRIX
+    VAC0735L: POLIOINFANRIX
+    VAC0736L: TRIAXIS POLIO
+    VAC0737L: GBP510
+    VAC0739L: RAZI COV PARS
+    VAC0740L: PTX-COVID19-B
+    VAC0741L: COVID-EVAX
+    VAC0742L: COVIGEN
+    VAC0743L: BBV154
+    VAC0744L: COVID-19 INACTIVATED VACCINE
+    VAC0745L: MF59 ADJUVANTED SARS-CoV-2 SCLAMP VACCINE
+    VAC0752L: COVISHIELD
+    VAC0753L: INACTIVATED SARS-COV-2 VACCINE FAKHRAVAC (MIVAC)
+    VAC0754L: INACTIVATED KOCAK-19 INAKTIF ADJUVANT COVID-19 VACCINE
+    VAC0755L: ADJUVANTED INACTIVATED VACCINE AGAINST SARS-CoV-2
+    VAC0756L: MV-014-212
+    VAC0757L: NBP 2001
+    VAC0758L: SPFN COVID 19 VACCINE + AFLQ
+    VAC0759L: EUCORVAC-19
+    VAC0760L: RECOV
+    VAC0761L: V-01
+    VAC0762L: COV2 SAM (LNP) VACCINE
+    VAC0763L: mRNA-1273.351
+    VAC0764L: MRT5500
+    VAC0765L: DS-5670a
+    VAC0766L: HDT-301
+    VAC0767L: ChAdV68 SAM-LNP rS-TCE GRITSTONE ONCOLOGY COVID-19 VACCINE
+    VAC0768L: COVIVAC
+    VAC0769L: SC-Ad6-1
+    VAC0770L: NDV-HXP-S
+    VAC0771L: VBI-2902a
+    VAC0772L: SARS-CoV-2 VLP Vaccine
+    VAC0773L: ABNCoV2
+    VAC0774L: FSME-IMMUN 0,25 mL
+    VAC0775C: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell
+      inactivated) and Haemophilus influenzae type b (conjugated, unspecified) pediatric
+      vaccine
+    VAC0775L: DTwPHib, unspecified
+    VAC0776L: TETRABIK
+    VAC0777L: ADJUPANRIX
+    VAC0778L: VAXCHORA
+    VAC0779L: BATREVAC
+    VAC0780L: VAXNEUVANCE
+    VAC0781L: RABIVAC
+    VAC0782L: RASILVAX
+    VAC0783L: R-COVI
+    VAC0784L: PERTAGEN
+    VAC0785L: BOOSTAGEN
+    VAC0786L: PREVNAR 20
+    VAC0787C: Diphtheria toxoid (unspecified dose), tetanus toxoid and rubella (live
+      attenuated) vaccine
+    VAC0787L: Diphtheria-Tetanus-Rubella, unspecified
+    VAC0788C: Haemophilus influenzae type b (conjugated, unspecified) and inactivated
+      polio (trivalent) vaccine
+    VAC0788L: Hib-IPV, unspecified
+    VAC0789L: COMVAC4
+    VAC0790C: Diphtheria toxoid (unspecified dose), tetanus toxoid and hepatitis B
+      (recombinant) vaccine
+    VAC0790L: Diphtheria-Tetanus-Hepatitis B vaccine, unspecified
+    VAC0791C: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole
+      or acellular, unspecified dose), inactivated polio (whole, trivalent), Haemophilus
+      influenzae type b (conjugate, unspecified) and hepatitis B (recombinant) pediatric
+      vaccine
+    VAC0791L: Hexavalent vaccine DTPerHibPHepB - Diphtheria-Tetanus-Pertussis-Polio-Hib-Hepatitis
+      B vaccine, unspecified
+    VAC0792C: Diphtheria toxoid (unspecified dose), tetanus toxoid, pertussis (whole-cell
+      inactivated or acellular, unspecified dose), inactivated polio (trivalent) and
+      hepatitis B (recombinant) vaccine
+    VAC0792L: Diphtheria-Tetanus-Pertussis-Polio-Hepatitis B pentavalent vaccine,
+      unspecified
+    VAC0793L: TETADIF
+    VAC0794C: Tetanus toxoid vaccine combined with anti-tetanus immunoglobulin
+    VAC0794L: T-igT, unspecified
+    VAC0795C: Pertussis (acellular, unspecified dose) vaccine
+    VAC0795L: Acellular pertussis vaccine, unspecified
+    VAC0796C: Pertussis vaccine (acellular or whole-cell inactivated)
+    VAC0796L: Pertussis vaccine, unspecified
+    VAC0797C: Diphtheria toxoid (unspecified dose), tetanus toxoid and pertussis (acellular,
+      unspecified dose) vaccine
+    VAC0797L: Diph-T-aP/ap, unspecified
+    VAC0798C: Haemophilus influenzae type b and meningococcal conjugate vaccine, serogroup
+      C
+    VAC0798L: Hib-MeningoC vaccine, unspecified
+    VAC0799C: Diphtheria toxoid (standard dose), tetanus toxoid and Haemophilus influenzae
+      type b (conjugated unspecified) pediatric vaccine
+    VAC0799L: DT-Hib vaccine, unspecified
+    VAC0800C: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (acellular
+      standard dose or whole-inactivated) and Haemophilus influenzae type b (conjugated,
+      unspecified) pediatric vaccine
+    VAC0800L: Diphtheria-tetanus-pertussis-Hib vaccine, unspecified
+    VAC0801C: Haemophilus influenzae type b and hepatitis B vaccine
+    VAC0801L: HepB-Hib, unspecified
+    VAC0802C: Polio vaccine (live attenuated, monovalent), oral
+    VAC0802L: Monovalent oral polio vaccine - type unknown, unspecified
+    VAC0803L: Polio Sabin One and Three GSK
+    VAC0804C: Anthrax vaccine
+    VAC0804L: Anthrax vaccine, unspecified
+    VAC0805C: Inactivated whole-cell cholera vaccine for injection
+    VAC0805L: Whole-cell inactivated cholera vaccine, unspecified
+    VAC0806C: Live attenuated cholera vaccine
+    VAC0806L: Live attenuated cholera vaccine, unspecified
+    VAC0807C: Inactivated whole-cell cholera vaccine for injection combined with inactivated
+      whole-cell typhoid vaccine
+    VAC0807L: Cholera-Typhoid inactivated vaccine, unspecified
+    VAC0808C: Haemophilus influenzae type b and meningococcal conjugate vaccine, serogroups
+      C and Y
+    VAC0808L: Hib-MenCY, unspecified
+    VAC0809C: Meningococcal monovalent vaccine, conjugate or unconjugated polysaccharide
+    VAC0809L: Meningococcal monovalent polysaccharide vaccine, unspecified
+    VAC0810C: Meningococcal polyvalent unconjugated polysaccharide vaccine
+    VAC0810L: Meningococcal polyvalent polysaccharide vaccine, unspecified
+    VAC0811C: Meningococcal vaccine, serogroup B, type of vaccine unspecified
+    VAC0811L: Meningococcal B vaccine, unspecified
+    VAC0812C: Plague (whole-cell inactivated) vaccine
+    VAC0812L: Inactivated whole plague vaccine, unspecified
+    VAC0813C: Unconjugated pneumococcal polysaccharide vaccine, serotypes unspecified
+    VAC0813L: Pneumococcal unconjugated polysaccharide vaccine, unspecified
+    VAC0814C: Pneumococcal polysaccharide conjugate vaccine, number of serotypes unspecified
+    VAC0814L: Pneumococcal conjugate vaccine, serotypes unspecified
+    VAC0815C: Haemophilus influenzae type b and pneumococcal conjugate vaccine , unspecified
+    VAC0815L: Pneumo-Hib, unspecified
+    VAC0816L: PEDATYPH
+    VAC0817C: Whole-cell inactivated typhoid vaccine
+    VAC0817L: Inactivated Typhoid vaccine, unspecified
+    VAC0818C: Typhoid and paratyphoid A and B vaccine, whole-cell inactivated
+    VAC0818L: Typhoid-Paratyphoid vaccine, unspecified
+    VAC0819C: Whole virion inactivated japanese encephalitis vaccine
+    VAC0819L: Inactivated Japanese Encephalitis vaccine, unspecified
+    VAC0820C: Whole virion inactivated seasonal influenza vaccine
+    VAC0820L: Inactivated whole influenza vaccine, unspecified
+    VAC0821C: Inactivated seasonal influenza vaccine
+    VAC0821L: Inactivated influenza vaccine, split or subunit, unspecified
+    VAC0822C: Seasonal influenza vaccine, live attenuated
+    VAC0822L: Influenza vaccine, live attenuated, unspecified
+    VAC0823C: Virus-Like Particle (VLP) seasonal influenza vaccine
+    VAC0823L: VLP influenza vaccine, unspecified
+    VAC0824C: Inactivated hepatitis A vaccine, virosome, pediatric or adult
+    VAC0824L: Hepatitis A virosome vaccine, unspecified
+    VAC0825C: Combined hepatitis A and B vaccine
+    VAC0825L: Combined hepatitis A and hepatitis B vaccine, unspecified
+    VAC0826L: MEASLES AND RUBELLA VACCINE SII
+    VAC0827C: Live attenuated measles, mumps, rubella and chickenpox vaccine
+    VAC0827L: MMRV - Measles-Mumps-Rubella-Varicella vaccine, unspecified
+    VAC0828C: Live attenuated pentavalent rotavirus vaccine, oral
+    VAC0828L: Rotavirus pentavalent vaccine, unspecified
+    VAC0829C: Live attenuated rubella and mumps vaccine
+    VAC0829L: Rubella-Mumps vaccine, unspecified
+    VAC0830C: Subunit shingles vaccine (currently corresponds to glycoprotein E)
+    VAC0830L: Subunit shingles vaccine, unspecified
+    VAC0831C: Ebola virus vaccine
+    VAC0831L: Ebola vaccine, unspecified
+    VAC0832C: Inactivated herpes simplex vaccine
+    VAC0832L: Herpes Simplex vaccine, unspecified
+    VAC0833L: COMIRNATY 10 µg BIONTECH-PFIZER
+    VAC0835L: FIOCRUZ COVID-19 VACCINE
+    VAC0836L: FLUAD TETRA
+    VAC0837L: COVOVAX SII
+    VAC0838L: COVOVAX NOVAVAX
+    VAC0839C: Whole-cell inactivated brucellosis vaccine
+    VAC0839L: Inactivated whole-cell brucella vaccine, unspecified
+    VAC0840L: ADDIGRIP
+    VAC0841L: INFLUVAC 0,25 mL
+    VAC0842L: NEORABIS
+    VAC0843L: NOVIRAB
+    VAC0844L: VERORABVAX
+    VAC0845L: VACCIN POLIOMYELITIQUE ORAL PRODUIT SUR CELLULES VERO MERIEUX
+    VAC0846L: VACCIN POLIOMYELITIQUE ORAL BIVALENT TYPES 1 et 3
+    VAC0847L: VACCIN PNEUMOCOCCIQUE SARBACH
+    VAC0848L: VACCIN BCG INSTITUT MERIEUX
+    VAC0849C: Tularemia vaccine
+    VAC0849L: Tularemia vaccine, unspecified
+    VAC0850L: NEISVAC-C
+    VAC0851L: POLIO SABIN MONO TWO (ORAL) GSK
+    VAC0852C: Polio vaccine (live attenuated, monovalent) against polioviruses type
+      2, oral
+    VAC0852L: mOPV2 Sabin monovalent oral polio vaccine type 2, unspecified
+    VAC0853C: Polio vaccine (live attenuated, monovalent) against poliovirus type
+      1, oral
+    VAC0853L: mOPV1 Sabin monovalent oral polio vaccine type 1, unspecified
+    VAC0854C: Polio vaccine (live attenuated, monovalent) against poliovirus types
+      3, oral
+    VAC0854L: mOPV3 Sabin monovalent oral polio vaccine type 3, unspecified
+    VAC0855C: Diphtheria toxoid (unspecified dose), tetanus toxoid and inactivated
+      polio (trivalent) vaccine, adsorbed
+    VAC0855L: Diphtheria-Tetanus-Polio vaccine, unspecified
+    VAC0856C: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (multicomponent
+      acellular, standard dose) and Haemophilus influenzae type b (conjugated, unspecified)
+      pediatric vaccine
+    VAC0856L: DTaPHib vaccine, unspecified
+    VAC0857C: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (acellular
+      standard dose or whole-inactivated) and hepatitis B (recombinant) pediatric
+      vaccine
+    VAC0857L: Diphtheria-Tetanus-Pertussis-Hepatitis B vaccine, unspecified
+    VAC0858C: Human Papillomavirus vaccine, bivalent (types 16 and 18), recombinant
+    VAC0858L: HPV vaccine bivalent, unspecified
+    VAC0859C: Human Papillomavirus vaccine, quadrivalent (types 6, 11, 16, and 18),
+      recombinant
+    VAC0859L: HPV vaccine quadrivalent, unspecified
+    VAC0860C: Human Papillomavirus vaccine, nonavalent (types 6, 11, 16, 18, 31, 33,
+      45, 52, and 58), recombinant
+    VAC0860L: HPV vaccine nonavalent, unspecified
+    VAC0861C: Meningococcal vaccine, serogroup B (multicomponent - multiple proteins)
+    VAC0861L: Multicomponent meningococcal B vaccine, unspecified
+    VAC0862C: Measles immunoglobulin
+    VAC0862L: Measles immunoglobulin, unspecified
+    VAC0863C: Hepatitis B immunoglobulin
+    VAC0863L: Hepatitis B immunoglobulin, unspecified
+    VAC0864C: Varicella-Zoster immunoglobulin
+    VAC0864L: Varicella-Zoster immunoglobulin, unspecified
+    VAC0865C: Unconjugated meningococcal polysaccharide vaccine, serogroup A
+    VAC0865L: Polysaccharide meningococcal A vaccine, unspecified
+    VAC0866C: Meningococcal polysaccharide conjugate vaccine, serogroup A
+    VAC0866L: Meningococcal conjugate vaccine A, unspecified
+    VAC0867C: Diphtheria antitoxin
+    VAC0867L: Diphtheria antitoxin, unspecified
+    VAC0868L: MENPOVAX A
+    VAC0869L: MENPOVAX C
+    VAC0870L: TYPBAR
+    VAC0871L: SUPEMTEK
+    VAC0872L: INFLUPOZZI SUBUNITA
+    VAC0873L: INFLUPOZZI ADIUVATO
+    VAC0874L: INNOFLU
+    VAC0875L: PANDEMIC INFLUENZA VACCINE H5N1 ASTRAZENECA
+    VAC0876L: CINQUERIX
+    VAC0877L: INFANRIX HEPB
+    VAC0878L: TRITANRIX
+    VAC0879L: ACELLUVAX
+    VAC0880C: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (unspecified),
+      conjugate Haemophilus influenzae type b (conjugated, unspecified) and inactivated
+      polio (trivalent) pediatric vaccine, adsorbed
+    VAC0880L: Pentavalent Diphtheria-Tetanus-Pertussis-Hib-Polio (DTPerHibIPV) vaccine,
+      unspecified
+    VAC0881C: Live attenuated Japanese encephalitis vaccine, strain and production
+      platform not specified
+    VAC0881L: Live attenuated Japanese Encephalitis vaccine, unspecified
+    VAC0882L: CANDID 1
+    VAC0883L: ENTEROVACCINO TIFICO SCLAVO
+    VAC0884L: DIF PER TET ALL
+    VAC0885L: INFLUPOZZI ZONALE
+    VAC0886L: MONO OPV1
+    VAC0887L: POLIORAL
+    VAC0888L: QUATTVAXEM
+    VAC0889L: MONO OPV3
+    VAC0890L: NEOTYF
+    VAC0891L: PNEUMOPUR
+    VAC0892L: POLIOVAX-IN
+    VAC0893L: VACCINO ANTICOLERICO SCLAVO
+    VAC0894C: Adenovirus vaccine, unspecified type
+    VAC0894L: Adenovirus vaccine, unspecified
+    VAC0895C: Venezuelan equine encephalitis vaccine
+    VAC0895L: Venezuelan Equine Encephalitis Vaccine, Unspecified
+    VAC0896C: Q fever vaccine
+    VAC0896L: Q fever vaccine, unspecified
+    VAC0897C: Hantavirus vaccine
+    VAC0897L: Hantavirus vaccine, unspecified
+    VAC0898C: Leishmaniasis vaccine
+    VAC0898L: Leishmaniasis vaccine, unspecified
+    VAC0899C: Human Parainfluenza Virus Vaccine
+    VAC0899L: Human Parainfluenza Virus Vaccine, unspecified
+    VAC0900L: PREVENAR 20
+    VAC0901L: MENCEVAX ACW
+    VAC0902C: Whole virion inactivated rabies vaccine, prepared from goat or sheep
+      brain tissue infected with rabies virus, contains myelin
+    VAC0902L: Rabies vaccine Semple type, unspecified
+    VAC0903C: Whole virion inactivated rabies vaccine, prepared from suckling mouse
+      brain tissue infected with rabies virus, decreased myelin content
+    VAC0903L: Rabies vaccine Fuenzalida type, unspecified
+    VAC0904C: Whole virion inactivated rabies vaccine, purified duck embryo vaccine
+      (PDEV), inactivated with ß-propiolactone
+    VAC0904L: Rabies duck embryo vaccine, unspecified
+    VAC0905C: Whole virion rabies inactivated vaccine, cell culture-based, primary
+      hamster kidney cell vaccine (PHKCV), Beijing strain, inactivated with formalin
+    VAC0905L: Rabies vaccine PHKCV, unspecified
+    VAC0906C: Shingles vaccine
+    VAC0906L: Shingles vaccine, unspecified
+    VAC0907C: Adenovirus type 4 vaccine
+    VAC0907L: Vaccine against adenovirus type 4, unspecified
+    VAC0908C: Adenovirus type 7 vaccine
+    VAC0908L: Vaccine against adenovirus type 7, unspecified
+    VAC0909C: Antitoxin against botulism
+    VAC0909L: Botulinum antitoxin
+    VAC0910C: Inactivated hepatitis A vaccine, adult dose
+    VAC0910L: Inactivated hepatitis A vaccine, adult dose, unspecified
+    VAC0911C: Whole virion inactivated hepatitis A vaccine, monovalent, pediatric
+      dose
+    VAC0911L: Hepatitis A whole inactivated vaccine, monovalent, pediatric dose, unspecified
+    VAC0912C: Whole virion Inactivated hepatitis A vaccine, pediatric dose, formulation
+      not specified (monovalent or bivalent with hepatitis B)
+    VAC0912L: Hepatitis A vaccine, pediatric dose, unspecified
+    VAC0913L: BIMERVAX
+    VAC0914C: Hepatitis B recombinant vaccine, monovalent, pediatric dose
+    VAC0914L: Hepatitis B vaccine, monovalent, pediatric dose, unspecified
+    VAC0915C: Recombinant hepatitis B vaccine, monovalent, adult dose
+    VAC0915L: Hepatitis B vaccine, monovalent, adult dose, unspecified
+    VAC0916C: Recombinant hepatitis B vaccine, monovalent, dialysis patient dosage
+    VAC0916L: Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified
+    VAC0917C: Recombinant Hepatitis E Peptide vaccine
+    VAC0917L: Hepatitis E vaccine, unspecified
+    VAC0918C: Hemophilus influenzae type b conjugate vaccine composed of PRP (polyribosylribitol
+      phosphate) conjugated to diphtheria toxoid
+    VAC0918L: PRP-D Hib vaccine, unspecified
+    VAC0919C: Haemophilus influenzae type b vaccine, capsular oligosides (polyribosylribitol
+      phosphate, PRP) conjugated to mutant diphtheria toxin CRM197
+    VAC0919L: Hib hbOC vaccine, unspecified
+    VAC0920C: Diphtheria toxoid (reduced dose) and tetanus toxoid vaccine
+    VAC0920L: Diphtheria-tetanus Td vaccine, unspecified
+    VAC0921C: Japanese encephalitis vaccine
+    VAC0921L: Japanese encephalitis vaccine, unspecified
+    VAC0922C: Adenovirus type 7 and 4 vaccine
+    VAC0922L: Live attenuated adenovirus vaccine, type 4 and type 7, oral
+    VAC0923C: Monoclonal antibody against RSV
+    VAC0923L: Respiratory Syncytial Virus monoclonal antibody, unspecified
+    VAC0924L: FLUZONE INTRADERMAL
+    VAC0925C: Trivalent inactivated seasonal influenza vaccine, split or subunit,
+      standard dose
+    VAC0925L: Trivalent inactivated influenza vaccine, unspecified
+    VAC0926L: FLUCELVAX TRIVALENT
+    VAC0927C: COVID-19 mRNA vaccine, pediatric dose
+    VAC0927L: COVID-19 mRNA vaccine, paediatric dose, unspecified
+    VAC0928C: Live attenuated hepatitis A vaccine
+    VAC0928L: Live attenuated Hepatitis A vaccine, unspecified
+    VAC0929C: Quadrivalent inactivated seasonal influenza vaccine, pediatric dose
+    VAC0929L: Influenza quadrivalent inactivated vaccine, pediatric dose, unspecified
+    VAC0930L: AD5-NCOV COVID-19 INHALATION VACCINE
+    VAC0931L: FLUBLOK QUADRIVALENT
+    VAC0932C: Quadrivalent recombinant seasonal influenza vaccine
+    VAC0932L: Quadrivalent recombinant influenza vaccine, unspecified
+    VAC0933L: TICOVAC 2,7µg
+    VAC0934L: VACCIN OREILLONS AVENTIS PASTEUR MSD
+    VAC0935L: VACCIN RABIQUE INACTIVE MERIEUX
+    VAC0936L: VACCIN PNEUMOCOCCIQUE POLYOSIDIQUE AVENTIS PASTEUR MSD
+    VAC0937C: Botulism vaccine
+    VAC0937L: Botulism vaccine, unspecified
+    VAC0938C: Quadrivalent inactivated seasonal influenza vaccine, split virion or
+      surface antigen vaccine
+    VAC0938L: Quadrivalent influenza vaccine, unspecified
+    VAC0939L: PREHEVBRIO
+    VAC0940L: SPUTNIK-LIGHT
+    VAC0941C: Anthrax immunoglobuline
+    VAC0941L: Immunoglobulin against anthrax, unspecified
+    VAC0942C: Whole virion inactivated rabies vaccine, cultured in chicken embryo
+      cells (CEEC), inactivated with ß-propiolactone
+    VAC0942L: Chicken embryo rabies vaccine, unspecified
+    VAC0943C: Whole virion inactivated rabies vaccine, prepared in human diploid cell
+      culture (HDCV) MRC-5, inactivated with ß-propiolactone
+    VAC0943L: Rabies vaccine diploid cells, unspecified
+    VAC0944C: Oral Inactivated whole-cell cholera vaccine
+    VAC0944L: Inactivated whole virion oral cholera vaccine, unspecified
+    VAC0945C: Meningococcal vaccine, unspecified serogroup
+    VAC0945L: Meningococcal vaccine serogroup unknown, unspecified
+    VAC0946L: TYPHIDRALL
+    VAC0947L: IMMU-PHILUS
+    VAC0948L: BACITHRAX
+    VAC0949L: IMOVAX BCG
+    VAC0950L: IMOVAX DTP
+    VAC0951L: IMOVAX POLIO ORALE
+    VAC0952L: IMOVAX COLERA
+    VAC0953L: PROCOMVAX
+    VAC0954L: JAPANESE ENCEPHALITIS VACCINE
+    VAC0955L: PULMOVAX
+    VAC0956L: VACCINO COLERICO BERNA
+    VAC0957L: VACCINO BCG BERNA
+    VAC0958L: ADIUGRIP
+    VAC0959L: STREPTOPUR
+    VAC0960L: VIATIM
+    VAC0961L: ANATOXAL TE N
+    VAC0962L: ANATOXAL DI TE N ADULT
+    VAC0963L: ANATOXAL DI TE PER
+    VAC0964L: ANATOXAL DI
+    VAC0965L: ANATOXAL TE TAB
+    VAC0966L: JYNNEOS
+    VAC0967L: HEPASOMA
+    VAC0968L: INFLEXAL V
+    VAC0969L: LYSSAVAC N BERNA
+    VAC0970L: TETATOX
+    VAC0971L: VACCINO ANTIVAIOLOSO LANCY
+    VAC0972L: VIROFLUSOMA
+    VAC0973L: VIROFLU
+    VAC0974L: MENCEVAX AC
+    VAC0975L: PERTURIX
+    VAC0976L: VACCINO ANTICOLERICO ISI
+    VAC0977L: ENTEROVACCINO ISI
+    VAC0978L: VAC.DIFTO TETANO ISI
+    VAC0979L: VACCINO ANTITETANICO ISI
+    VAC0980L: VAC.DPT ISI
+    VAC0981L: VACCINO PERTOSSE ISI
+    VAC0982L: VACCINO TIFICO ISI
+    VAC0983L: VACCINO ANTIPOL ISI
+    VAC0984L: VACCINO ANTIVAIOLOSO ISI
+    VAC0985L: VACCINO TAB TE ISI
+    VAC0986L: H ATETAL ISI
+    VAC0987L: TANRIX
+    VAC0988L: VACCINO MENINGOCOCCICO POLISACCARIDICO TETRAVALENTE GSK
+    VAC0989L: HANTAVAX
+    VAC0990L: ALPHARIX
+    VAC0991L: FLULAVAL QUADRIVALENT
+    VAC0992L: AFLURIA QUADRIVALENT
+    VAC0993L: TD ADSORBED
+    VAC0994L: VARIVAX II
+    VAC0995L: IMVAMUNE
+    VAC0996L: ACAM2000
+    VAC0997C: Pneumococcal polysaccharide conjugate vaccine, 13-valent, adsorbed,
+      serotypes 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F and 23F
+    VAC0997L: Pneumococcal 13-valent conjugate vaccine, unspecified
+    VAC0998L: LC16
+    VAC0999L: WETVAX APSV
+    VAC1000L: VACV VACCINIA VIRUS LISTER ELSTREE
+    VAC1001L: V4020 VEEV VACCINE
+    VAC1002L: Q-VAX
+    VAC1003L: TEDIVAX PRO ADULTO
+    VAC1004L: TEDIVAX
+    VAC1005L: REVAC-B PLUS ADULT VACCINE
+    VAC1006L: SHANVAC B
+    VAC1007L: ISTIVAC4
+    VAC1008L: DITEMER
+    VAC1009L: TETAMER
+    VAC1010L: TRIAMER
+    VAC1011L: DITEKIBOOSTER
+    VAC1012L: PICOVAX
+    VAC1013L: FLUBLOK TRIVALENT
+    VAC1014L: PROVARIVAX
+    VAC1015L: COMBIVAX
+    VAC1016L: IDFLU
+    VAC1017L: SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.1 (50 µg/50 µg)/mL MULTIDOSE MODERNA
+    VAC1018L: NOORA VACCINE
+    VAC1019L: SPIKEVAX 0,1 mg/mL MODERNA
+    VAC1020L: VACCIN HEPATITE A AVENTIS PASTEUR MSD
+    VAC1021L: COMIRNATY ORIGINAL/OMICRON BA.1 (15/15 µg) BIONTECH-PFIZER
+    VAC1022L: COMIRNATY 3 µg 6 MOIS-4 ANS BIONTECH-PFIZER
+    VAC1023L: COMIRNATY ORIGINAL/OMICRON BA.4-5 (15/15 µg) BIONTECH-PFIZER
+    VAC1024L: SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.4-5 (50 µg/50 µg)/mL MODERNA
+    VAC1025L: CORBEVAX
+    VAC1026L: SOBERANA 02 FINLAY-FR-2 COVID-19 VACCINE
+    VAC1027L: KOVIVAC CHUMAKOV COVID-19 VACCINE
+    VAC1028L: RECOMBIVAX HB DIALYSÉ
+    VAC1029L: QUINTANRIX
+    VAC1030L: GEMCOVAC-19
+    VAC1031L: SPIKEVAX 50 µg MONODOSE MODERNA
+    VAC1032L: SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.1 (25 µg/25 µg) MODERNA
+    VAC1033L: COMIRNATY ORIGINAL/OMICRON BA.4-5 (5/5 µg) BIONTECH-PFIZER
+    VAC1034L: HEBERBIOVAC B 10 µg
+    VAC1035L: HEBERBIOVAC HB 20 µg
+    VAC1036L: SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.4-5 25 µg/25 µg MODERNA
+    VAC1037C: Tick-borne encephalitis vaccine, whole-virus inactivated, Neudörfl strain,
+      pediatric dose
+    VAC1037L: Tick-borne encephalitis vaccine, Neudörfl strain, paediatric dose, unspecified
+    VAC1038C: Tick-borne encephalitis vaccine, whole-virus inactivated, Neudörfl strain,
+      adult dose
+    VAC1038L: Tick-borne encephalitis vaccine, Neudörfl strain, adult dose, unspecified
+    VAC1039C: COVID-19 mRNA vaccine, original virus, 50 micrograms per dose
+    VAC1039L: COVID-19 mRNA vaccine, original virus, 50 µg, unspecified
+    VAC1040L: AREXVY
+    VAC1041C: COVID-19 mRNA vaccine
+    VAC1041L: COVID-19 mRNA vaccine, unspecified
+    VAC1042C: COVID-19 vaccine, non-replicating viral vector
+    VAC1042L: COVID-19 vaccine, non-replicating viral vector, unspecified
+    VAC1043C: COVID-19 vaccine, protein subunit
+    VAC1043L: COVID-19 vaccine, protein subunit, unspecified
+    VAC1044C: COVID-19 vaccine, whole virion inactivated
+    VAC1044L: COVID-19 vaccine, whole virion inactivated, unspecified
+    VAC1045L: INFANRIX-IPV/HIB
+    VAC1046L: BEYFORTUS 50 mg (nirsevimab)
+    VAC1047L: ABRYSVO
+    VAC1048L: DECAVAC
+    VAC1049L: TDVAX
+    VAC1050L: BEYFORTUS 100 mg (nirsevimab)
+    VAC1051L: PFIZER COMIRNATY-30 XBB.1.5
+    VAC1052L: PFIZER COMIRNATY-10 XBB.1.5
+    VAC1053L: PFIZER COMIRNATY-3 XBB.1.5
+    VAC1054L: COMIRNATY ORIGINAL/OMICRON BA.4-5 (1,5/1,5 µg)
+    VAC1055L: NUVAXOVID XBB.1.5
+    VAC1056L: R21/MATRIX-M
+    VAC1057L: ENGERIX B JUNIOR
+    VAC1058L: SPIKEVAX XBB.1.5 0,1 mg/mL dose 50 µg MODERNA
+    VAC1059L: SPIKEVAX XBB.1.5 0,1 mg/mL dose 25 µg MODERNA
+    VAC1060L: SPIKEVAX XBB.1.5 50 µg MODERNA
+    VAC1061L: PENBRAYA
+    VAC1062C: Cytomegalovirus immune globulin, intravenous
+    VAC1062L: CMV immune globulin
+    VAC1063C: Hepatitis C vaccine, unspecified
+    VAC1063L: Hepatitis C vaccine, unspecified
+    VAC1064C: HIV vaccine, unspecified
+    VAC1064L: HIV vaccine, unspecified
+    VAC1065C: Leprosy vaccine, unspecified
+    VAC1065L: Leprosy vaccine
+    VAC1066C: Melanoma vaccine, unspecified
+    VAC1066L: Melanoma vaccine, unspecified
+    VAC1067C: Streptococcus pyogenes vaccine, unspecified
+    VAC1067L: Streptococcus pyogenes vaccine, unspecified
+    VAC1068C: Rift Valley fever vaccine, unspecified
+    VAC1068L: Rift Valley fever vaccine, unspecified
+    VAC1069C: Vaccinia immune globulin
+    VAC1069L: Vaccinia immune globulin
+    VAC1070L: FLUZONE HIGH-DOSE QUADRIVALENT SOUTHERN HEMISPHERE
+    VAC1071C: RSV antibody or vaccine, unspecified
+    VAC1071L: RSV antibody or vaccine, unspecified
+    VAC1072C: COVID-19 mRNA vaccine, original virus, 25 micrograms
+    VAC1072L: COVID-19 mRNA vaccine, original virus, 25 µg, unspecified
+    VAC1073C: Lyme disease vaccine, unspecified
+    VAC1073L: Lyme disease vaccine, unspecified
+    VAC1074L: CYFENDUS
+    VAC1075C: Acellular anthrax vaccine, unspecified
+    VAC1075L: Acellular anthrax vaccine, unspecified
+    VAC1076L: UROMUNE (MV 140)
+    VAC1077L: ENVAX-A71
+    VAC1078L: ENVACGEN
+    VAC1079L: VAX-SPIRAL
+    VAC1080L: COVAXIN
+    VAC1081L: BAYGAM
+    VAC1082L: BAYHEP B
+    VAC1083L: BAYRAB
+    VAC1084L: BAYTET
+    VAC1085L: MYCOBAX
+    VAC1086L: PNEUMUNE
+    VAC1087L: HYPERTET
+    VAC1088L: HYPERRAB
+    VAC1089L: HYPERHEP B
+    VAC1090L: MENZB
+    VAC1091L: VARIZIG
+    VAC1092L: KAMRAB
+    VAC1093L: HEPAGAM
+    VAC1094L: OROCHOL
+    VAC1095L: MVA85A
+    VAC1096L: MORCVAX
+    VAC1097L: CYTOGAM
+    VAC1098L: XANAFLU
+    VAC1099L: BABYBIG
+    VAC1100L: BOTULISM ANTITOXIN BEHRING
+    VAC1101L: DOTARICIN
+    VAC1102L: HIB-IMMUNE
+    VAC1103L: HIB-VAX
+    VAC1104L: DIPHTHERIA ANTITOXIN B.P.
+    VAC1105L: BAT EMERGENT BIOSOLUTIONS
+    VAC1106C: Covid 19 VLP vaccine, unspecified
+    VAC1106L: COVID-19 VLP vaccine, unspecified
+    VAC1107C: Whole inactivated Cholera vaccine, unspecified
+    VAC1107L: Whole inactivated Cholera vaccine, unspecified
+    VAC1108C: Bivalent anti-covid 19 mRNA vaccine against the original virus and the
+      Omicron BA.1 variant, unspecified
+    VAC1108L: COVID-19 bivalent mRNA vaccine, original virus + Omicron BA.1 variant,
+      unspecified
+    VAC1109C: Non-conjugated polysaccharide vaccine against meningococci serogroups
+      A, C and W
+    VAC1109L: ACW unconjugated meningococcal vaccine, unspecified
+    VAC1110C: Meningococcal C vaccine unconjugated, unspecified
+    VAC1110L: Meningococcal C vaccine unconjugated, unspecified
+    VAC1111C: Whole inactivated Japanese encephalitis vaccine, prepared in Vero cells
+    VAC1111L: Japanese Encephalitis Vaccine, whole inactivated, prepared on Vero cells,
+      unspecified
+    VAC1112C: Live attenuated quadrivalent seasonal influenza vaccine, nasal
+    VAC1112L: Live attenuated quadrivalent influenza vaccine, unspecified
+    VAC1113C: Anti-covid 19 protein subunit vaccine, recombinant spike protein, unspecified
+    VAC1113L: COVID-19 protein subunit vaccine, recombinant spike protein, unspecified
+    VAC1114C: Typhoid vaccine combined with hepatitis A vaccine
+    VAC1114L: Vaccine against typhoid fever and hepatitis A, unspecified
+    VAC1115C: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis
+      (multicomponent acellular, standard dose), Haemophilus influenzae type b (tetanus
+      toxoid conjugated) and polio (whole inactivated, trivalent) vaccine, adsorbed
+    VAC1115L: Pentavalent vaccine DTPaHibP - Diphtheria-Tetanus-Pertussis-Hib PRP-Polio,
+      unspecified
+    VAC1116C: Whole inactivated rabies vaccine, prepared in Vero cell culture (PVRV),
+      Wistar strain, inactivation by ß-propiolactone
+    VAC1116L: Rabies vaccine, whole inactivated, prepared in Vero cell culture, unspecified
+    VAC1117C: Bivalent anti-covid 19 mRNA vaccine against the original virus and the
+      Omicron BA.4/5 variant, 5 micrograms, unspecified
+    VAC1117L: COVID-19 bivalent mRNA vaccine against the original virus and the Omicron
+      BA.4/5 variant, 5 micrograms, unspecified
+    VAC1118C: Enterovirus A71 vaccine, unspecified
+    VAC1118L: Enterovirus A71 vaccine, unspecified
+    VAC1119C: COVID-19 inactivated vaccine, whole virus, authorized, unspecified
+    VAC1119L: COVID-19 inactivated vaccine, whole virus, authorized, unspecified
+    VAC1120C: Trivalent vaccine against leptospirosis caused by Canicola serovar canicola,
+      Icterohaemorrhagiae serovar copenhageni and Pomona serovar mozdok
+    VAC1120L: Trivalent leptospirosis vaccine, unspecified
+    VAC1121C: Pediatric vaccine diphtheria (toxoid, standard dose), tetanus (toxoid),
+      pertussis (acellular multicomponent, standard dose, 3 components), anti-Haemophilus
+      influenzae type b (conjugated with tetanus toxoid), poliomyelitis (whole inactivated,
+      trivalent) and hepatitis B (recombinant), unspecified
+    VAC1121L: Hexavalent vaccine DTPaHibPHepB - Diphtheria-Tetanus-Pertussis-Hib-Polio-Hepatitis
+      B 10µg, unspecified
+    VAC1122C: First generation smallpox vaccine, live vaccinia virus
+    VAC1122L: 1st generation live smallpox vaccine, unspecified
+    VAC1123C: Live attenuated trivalent seasonal influenza vaccine, nasal
+    VAC1123L: Live attenuated trivalent influenza vaccine, unspecified
+    VAC1124C: COVID-19 inactivated vaccine, whole virus, in clinical trial, unspecified
+    VAC1124L: Inactivated whole virus COVID-19 vaccine, in clinical trial, unspecified
+    VAC1125C: Hepatitis B vaccine, unspecified
+    VAC1125L: Hepatitis B vaccine, unspecified
+    VAC1126C: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis
+      (whole inactivated), anti-Haemophilus influenzae type b (conjugated with tetanus
+      toxoid) and polio (whole inactivated, trivalent) vaccine, unspecified
+    VAC1126L: Pentavalent DTP Hib vaccine - Diphtheria-Tetanus-Pertussis-Hib PRP-Polio,
+      unspecified
+    VAC1127C: Immunoglobulin against hepatitis A, measles, chickenpox and rubella,
+      unspecified
+    VAC1127L: Immunoglobulin against hepatitis A, measles, chickenpox and rubella,
+      unspecified
+    VAC1128C: Plasmid DNA anti-covid 19 vaccine, unspecified
+    VAC1128L: COVID-19 plasmid DNA vaccine, unspecified
+    VAC1129C: Anti-covid 19 protein subunit vaccine, recombinant spike protein in
+      nanoparticles, unspecified
+    VAC1129L: COVID-19 protein subunit vaccine, recombinant spike protein in nanoparticles,
+      unspecified
+    VAC1130C: Trivalent inactivated seasonal influenza vaccine, split virion and tetanus
+      (toxoid)
+    VAC1130L: Trivalent inactivated seasonal influenza vaccine and tetanus toxoid,
+      unspecified
+    VAC1131C: Unconjugated pneumococcal polysaccharide vaccine, 17-valent, serotypes
+      1, 2, 3, 4, 6A, 7F, 8, 9N, 11A, 12F, 14, 15F, 17F, 18C, 19F, 23F and 25
+    VAC1131L: 17-valent unconjugated pneumococcal vaccine, unspecified
+    VAC1132C: Bivalent anti-covid 19 mRNA vaccine against the original virus and the
+      Omicron BA.4/5 variant, 1.5 micrograms, unspecified
+    VAC1132L: COVID-19 bivalent mRNA vaccine, original virus + Omicron BA.4/5 variant,
+      1.5 micrograms, unspecified
+    VAC1133C: Quadrivalent meningococcal polysaccharide conjugate vaccine against
+      serogroups A, C, W and Y (conjugated to CRM 197 protein)
+    VAC1133L: Meningococcal ACWY polysaccharide conjugate vaccine, unspecified
+    VAC1134C: Live attenuated vaccine against Argentine hemorrhagic fever, Junin virus,
+      unspecified
+    VAC1134L: Live attenuated vaccine against Argentine hemorrhagic fever, Junin virus,
+      unspecified
+    VAC1135C: Anti-covid 19 vaccine with non-replicating viral vector, adenovirus
+      encoding the spike protein of SARS-CoV-2, by inhalation, unspecified
+    VAC1135L: COVID-19 Plasmid DNA vaccine with non-replicating viral vector, adenovirus
+      encoding the spike protein of SARS-CoV-2, by inhalation, unspecified
+    VAC1136C: Pneumococcal polysaccharide conjugate vaccine, 23-valent, serotypes
+      1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F,
+      20, 22F, 23F and 33F
+    VAC1136L: 23-valent Pneumococcus conjugate vaccine, unspecified
+    VAC1137C: Whole inactivated tick-borne encephalitis vaccine, strain K23, unspecified
+    VAC1137L: Whole inactivated tick-borne encephalitis vaccine, strain K23, unspecified
+    VAC1138C: Recombinant protein subunit anti-covid 19 vaccine
+    VAC1138L: COVID-19 recombinant protein subunit vaccine
+    VAC1139C: COVID-19 vaccine, non-replicating vector, Newcastle disease virus encoding
+      the SARS-CoV-2 spike protein, unspecified
+    VAC1139L: COVID-19 vaccine, non-replicating vector, Newcastle disease virus encoding
+      the SARS-CoV-2 spike protein, unspecified
+    VAC1140C: Covid 19 bivalent mRNA vaccine against the original virus and the Omicron
+      BA.4/5 variant, 25 micrograms, unspecified
+    VAC1140L: COVID-19 bivalent mRNA vaccine against the original virus and the Omicron
+      BA.4/5 variant, 25 micrograms, unspecified
+    VAC1141C: Bird Flu H5N8 Vaccine, unspecified
+    VAC1141L: Bird Flu H5N8 Vaccine, unspecified
+    VAC1142C: COVID-19 vaccine, non-replicating vector, antigen-presenting cells,
+      unspecified
+    VAC1142L: COVID-19 vaccine, non-replicating vector, antigen-presenting cells,
+      unspecified
+    VAC1143C: Anti-covid 19 vaccine with non-replicating viral vector, adenovirus
+      encoding the spike protein of SARS-CoV-2, unspecified
+    VAC1143L: COVID-19 vaccine with non-replicating viral vector, adenovirus encoding
+      the spike protein of SARS-CoV-2, unspecified
+    VAC1144C: Anti-covid 19 protein subunit vaccine, recombinant SARS-CoV-2 spike
+      protein, S-2P and CpG1018, unspecified
+    VAC1144L: COVID-19 protein subunit vaccine, recombinant SARS-CoV-2 spike protein,
+      S-2P and CpG1018, unspecified
+    VAC1145C: Recombinant hepatitis B vaccine, three antigens (HbS, pre-S1 and pre-S2)
+    VAC1145L: Recombinant hepatitis B vaccine, three antigens, unspecified
+    VAC1146C: Inactivated quadrivalent influenza vaccine, split or subunit, high dose
+    VAC1146L: Inactivated quadrivalent influenza vaccine, high dose, unspecified
+    VAC1147C: Human monoclonal antibody against respiratory syncytial virus (RSV),
+      nirsevimab, unspecified
+    VAC1147L: Human monoclonal antibody against respiratory syncytial virus (RSV),
+      nirsevimab, unspecified
+    VAC1148C: Haemophilus influenzae type b vaccine, unconjugated polysaccharide,
+      unspecified
+    VAC1148L: Haemophilus influenzae type b vaccine, unconjugated polysaccharide,
+      unspecified
+    VAC1149C: Oral live attenuated cholera vaccine, unspecified
+    VAC1149L: Oral live attenuated cholera vaccine, unspecified
+    VAC1150C: Anti-covid 19 mRNA vaccine encoding the spike protein of SARS-CoV-2,
+      original virus, 30 micrograms, unspecified
+    VAC1150L: COVID-19 mRNA vaccine encoding the spike protein of SARS-CoV-2, original
+      virus, 30 micrograms, unspecified
+    VAC1151C: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis
+      (whole inactivated), and polio (whole inactivated, trivalent) vaccine
+    VAC1151L: Quadrivalent DTPeP vaccine - Diphtheria-Tetanus-Pertussis-Polio, unspecified
+    VAC1152C: Meningococcal B vaccine containing fHbp of subfamilies A and B, unspecified
+    VAC1152L: Meningococcal B vaccine containing fHbp of subfamilies A and B, unspecified
+    VAC1153C: Quadrivalent meningococcal polysaccharide conjugate vaccine against
+      serogroups A, C, W and Y (diphtheria toxoid conjugate)
+    VAC1153L: Quadrivalent meningococcal ACWY vaccine, diphtheria toxoid conjugate,
+      unspecified
+    VAC1154C: Whole inactivated mumps vaccine, unspecified
+    VAC1154L: Whole inactivated mumps vaccine, unspecified
+    VAC1155C: Plasma hepatitis B vaccine, unspecified
+    VAC1155L: Plasma hepatitis B vaccine, unspecified
+    VAC1156C: Intravenous human immunoglobulin against infant botulism types A and
+      B
+    VAC1156L: Immunoglobulin against botulism, unspecified
+    VAC1157C: Third generation smallpox vaccine, modified vaccinia Ankara virus, non-replicating
+    VAC1157L: 3rd generation smallpox vaccine, modified Ankara vaccinia virus, unspecified
+    VAC1158C: COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron
+      XBB.1.5 variant, 3 micrograms
+    VAC1158L: COVID-19 mRNA vaccine against the Omicron XBB.1.5 variant, 3 micrograms,
+      unspecified
+    VAC1159C: Trivalent Recombinant Seasonal Influenza Vaccine
+    VAC1159L: Recombinant trivalent influenza vaccine, unspecified
+    VAC1160C: Second generation smallpox vaccine, vaccinia virus obtained by cell
+      culture
+    VAC1160L: 2nd generation live smallpox vaccine, unspecified
+    VAC1161C: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis
+      (whole inactivated) and Haemophilus influenzae type b (tetanus toxoid conjugated)
+      vaccine
+    VAC1161L: Quadrivalent DTPeP vaccine - Diphtheria-Tetanus-Pertussis-Hib PRP, unspecified
+    VAC1162C: COVID-19 mRNA vaccine, bivalent, original virus and Omicron BA.1 variant,
+      15 micrograms, unspecified
+    VAC1162L: COVID-19 mRNA vaccine, bivalent, original virus and Omicron BA.1 variant,
+      15 micrograms, unspecified
+    VAC1163C: Pneumococcal polysaccharide conjugate vaccine, 20-valent, adsorbed,
+      serotypes 1, 3, 4, 5, 6A, 6B, 7F, 8, 9V, 10A, 11A, 12F, 14, 15B, 18C, 19A, 19F,
+      22F, 23F and 33F
+    VAC1163L: 20-valent Pneumococcus conjugate vaccine, unspecified
+    VAC1164C: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis
+      (acellular multicomponent, standard dose) and Haemophilus influenzae type b
+      (tetanus toxoid conjugate) vaccine
+    VAC1164L: Quadrivalent DTPaHib- Diphtheria-Tetanus-Pertussis-Hib PRP vaccine,
+      unspecified
+    VAC1165C: Pediatric diphtheria vaccine (toxoid, standard dose)
+    VAC1165L: Diphtheria toxoid, standard dose, unspecified
+    VAC1166C: Anti-covid 19 mRNA vaccine encoding the SARS-CoV-2 spike protein, currently
+      in clinical trial, unspecified
+    VAC1166L: COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, currently
+      in clinical trial, unspecified
+    VAC1167C: Acellular pertussis vaccine, standard dose
+    VAC1167L: Acellular Pertussis Vaccine, unspecified
+    VAC1168C: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis
+      (whole inactivated) and Haemophilus influenzae type b (diphtheria toxoid conjugate)
+      vaccine
+    VAC1168L: Quadrivalent DTPeHib- Diphtheria-Tetanus-Pertussis-Hib OC vaccine, unspecified
+    VAC1169C: Bivalent anti-covid 19 mRNA vaccine against the original virus and the
+      Omicron BA.4/5 variant, 15 micrograms, unspecified
+    VAC1169L: COVID-19 Bivalent mRNA vaccine, original virus + Omicron BA.4/5 variant,
+      15 micrograms, unspecified
+    VAC1170C: Non-replicating viral vector anti-covid 19 vaccine, chimpanzee adenovirus
+      ChadOx1 encoding the SARS-CoV-2 spike protein
+    VAC1170L: Non-replicating viral vector COVID-19 vaccine, chimpanzee adenovirus
+      ChadOx1 encoding the SARS-CoV-2 spike protein
+    VAC1171C: Trivalent inactivated influenza vaccine, split or subunit, high dose
+    VAC1171L: Inactivated trivalent influenza vaccine, high dose, unspecified
+    VAC1172C: Diphtheria vaccine (anatoxin, reduced dose)
+    VAC1172L: Diphtheria toxoid, reduced dose, unspecified
+    VAC1173C: Anti-covid 19 vaccine with replicative viral vector, influenza virus
+      encoding the spike protein of SARS-CoV-2, unspecified
+    VAC1173L: COVID-19 vaccine with replicative viral vector, influenza virus encoding
+      the spike protein of SARS-CoV-2, unspecified
+    VAC1174C: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis
+      (multicomponent acellular, standard dose), polio (whole inactivated, trivalent)
+      and hepatitis B (recombinant) vaccine
+    VAC1174L: Pentavalent DTPaPHepB vaccine - Diphtheria-Tetanus-Pertussis-Polio-Hepatitis
+      B 10µg, unspecified
+    VAC1175C: Trivalent inactivated cell culture influenza vaccine, split or subunit,
+      normal dose
+    VAC1175L: Inactivated trivalent influenza vaccine cell culture, normal dose, unspecified
+    VAC1176C: Anti-covid 19 vaccine with non-replicating viral vector, adenovirus
+      5 encoding the S and N proteins of SARS-CoV-2, unspecified
+    VAC1176L: COVID-19 vaccine with non-replicating viral vector, adenovirus 5 encoding
+      the S and N proteins of SARS-CoV-2, unspecified
+    VAC1177C: Third generation smallpox vaccine, obtained in cell culture, minimally
+      replicating live vaccinia virus
+    VAC1177L: 3rd generation smallpox vaccine, live vaccinia virus with minimal replication,
+      unspecified
+    VAC1178C: Live attenuated, chimeric, recombinant, quadrivalent vaccine against
+      the four serotypes (1, 2, 3 and 4) of dengue virus
+    VAC1178L: Tetravalent Dengue vaccine, live attenuated chimeric recombinant, unspecified
+    VAC1179C: Cholera (whole inactivated) and typhoid vaccine (unconjugated, purified
+      Vi polysaccharide antigen), injectable
+    VAC1179L: Cholera and typhoid vaccine, injectable, unspecified
+    VAC1180C: Recombinant anti-Borrelia burgdorferi vaccine - outer surface protein
+      A (OspA)
+    VAC1180L: Recombinant Lyme disease vaccine, unspecified
+    VAC1181C: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis
+      (whole intact), Haemophilus influenzae type b (tetanus toxoid conjugated) and
+      hepatitis B (recombinant) vaccine
+    VAC1181L: Pentavalent vaccine DTPeHibHepB - Diphtheria-Tetanus-Pertussis-Hib PRP-HepatitisB
+      10µg, unspecified
+    VAC1182C: Quadrivalent polysaccharide conjugate vaccine against meningococci serogroups
+      A, C, W and Y (conjugated with tetanus toxoid)
+    VAC1182L: Meningococcal ACWY polysaccharide vaccine conjugated to tetanus toxoid,
+      unspecified
+    VAC1183C: Non-replicating viral vector Ebola vaccine, modified Vaccine Ankara
+    VAC1183L: Non-replicating viral vector Ebola vaccine, unspecified
+    VAC1184C: Meningococcal C polysaccharide vaccine conjugated to tetanus toxoid,
+      unspecified
+    VAC1184L: Meningococcal C polysaccharide vaccine conjugated to tetanus toxoid,
+      unspecified
+    VAC1185C: Anti-covid 19 vaccine with non-replicating viral vector, adenovirus
+      26 encoding the spike protein of SARS-CoV-2, unspecified
+    VAC1185L: COVID-19 vaccine with non-replicating viral vector, adenovirus 26 encoding
+      the spike protein of SARS-CoV-2, unspecified
+    VAC1186C: Anti-covid 19 vaccine with replicative viral vector with antigen-presenting
+      cells, unspecified
+    VAC1186L: COVID-19 vaccine with replicative viral vector with antigen-presenting
+      cells, unspecified
+    VAC1187C: Anti-covid 19 vaccine with replicative viral vector, measles virus encoding
+      the SARS-CoV-2 spike protein, unspecified
+    VAC1187L: COVID-19 vaccine with replicative viral vector, measles virus encoding
+      the SARS-CoV-2 spike protein, unspecified
+    VAC1188C: Anti-covid 19 mRNA vaccine encoding the spike protein of SARS-CoV-2,
+      original virus, 3 micrograms, unspecified
+    VAC1188L: COVID-19 mRNA vaccine encoding the spike protein of SARS-CoV-2, original
+      virus, 3 micrograms, unspecified
+    VAC1189C: Non-replicating vector anti-covid 19 vaccine, modified Ankara vaccine
+      encoding the SARS-CoV-2 spike protein, unspecified
+    VAC1189L: Non-replicating vector COVID-19 vaccine, modified Ankara vaccine encoding
+      the SARS-CoV-2 spike protein, unspecified
+    VAC1190C: Anti-covid 19 vaccine with replicative viral vector, vesicular stomatitis
+      virus encoding the SARS-CoV-2 spike protein, unspecified
+    VAC1190L: COVID-19 vaccine with replicative viral vector, vesicular stomatitis
+      virus encoding the SARS-CoV-2 spike protein, unspecified
+    VAC1191C: Vaccine against Escherichia coli, Klebsiella pneumoniae, Enterococcus
+      faecalis, Proteus vulgaris
+    VAC1191L: Vaccine for the prevention of urinary infections in women, unspecified
+    VAC1192C: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis
+      (whole inactivated), Haemophilus influenzae type b (diphtheria toxoid conjugated)
+      and hepatitis B (recombinant) vaccine
+    VAC1192L: Pentavalent vaccine DTPePHibHepB - Diphtheria-Tetanus-Pertussis-Hib
+      OC-HepatitisB 10µg, unspecified
+    VAC1193C: Live attenuated Japanese encephalitis vaccine, chimeric recombinant
+    VAC1193L: Japanese encephalitis vaccine, live recombinant attenuated, unspecified
+    VAC1194C: Tetanus (toxoid), typhoid (whole inactivated) and paratyphoid A and
+      B (whole inactivated) vaccines
+    VAC1194L: Tetanus, typhoid and paratypoid A and B vaccines, unspecified
+    VAC1195C: Anti-covid 19 vaccine with non-replicating viral vector, adenovirus
+      26 encoding the spike protein of SARS-CoV-2, in clinical trial, unspecified
+    VAC1195L: COVID-19 vaccine with non-replicating viral vector, adenovirus 26 encoding
+      the spike protein of SARS-CoV-2, in clinical trial, unspecified
+    VAC1196C: Whole inactivated vaccine against Japanese encephalitis, prepared from
+      murine brain tissue, Nakayama strain, injectable route
+    VAC1196L: Japanese encephalitis vaccine, whole inactivated prepared from murine
+      brain tissue, unspecified
+    VAC1197C: 'COVID-19 vaccine with chimpanzee adenovirus and self-amplifying mRNA:
+      1. A non-replicating viral vector, chimpanzee adenovirus, serotype 68 (ChAdV68),
+      encoding the spike protein of SARS-CoV-2 (ChAdV68-S) and/or spike protein plus
+      additional SARS-CoV-2 epitopes recognized by T cells (ChAdV68-S-TCE) and 2.
+      A self-amplifying mRNA (SAM) in lipid nanoparticles (SAM-LNP) encoding SARS-CoV-2
+      spike protein (SAM-S) and/or spike protein plus additional SARS-CoV-2 epitopes
+      recognized by T cells (SAM-S-TCE), SAM vector based on Venezuelan equine encephalitis
+      virus (VEEV)'
+    VAC1197L: COVID-19 vaccine with chimpanzee adenovirus and self-amplifying mRNA,
+      unspecified
+    VAC1198C: Live attenuated chikungunya vaccine
+    VAC1198L: Chinkungunya vaccine, live attenuated, unspecified
+    VAC1199C: Recombinant vesicular stomatitis replicative viral vector Ebola vaccine
+      (rVSV) - EBOV GP glycoprotein, unspecified
+    VAC1199L: Recombinant vesicular stomatitis replicative viral vector Ebola vaccine
+      (rVSV) - EBOV GP glycoprotein, unspecified
+    VAC1200C: Quadrivalent inactivated cell culture influenza vaccine, split or subunit,
+      normal dose
+    VAC1200L: Quadrivalent influenza vaccine, on cell culture, unspecified
+    VAC1201C: Tetravalent Dengue vaccine, live attenuated chimeric recombinant based
+      on 17D yellow fever vaccine, unspecified
+    VAC1201L: Tetravalent Dengue vaccine, live attenuated chimeric recombinant based
+      on 17D yellow fever vaccine, unspecified
+    VAC1202C: Anti-covid 19 vaccine with live attenuated virus, unspecified
+    VAC1202L: COVID-19 vaccine with live attenuated virus, unspecified
+    VAC1203C: P.I. (phenol-insoluble) protein antigen vaccine against brucellosis
+    VAC1203L: Brucellosis vaccine, protein (P.I. antigen)
+    VAC1204C: Anti-covid 19 protein subunit vaccine, recombinant spike protein, with
+      adjuvant, unspecified
+    VAC1204L: COVID-19 protein subunit vaccine, recombinant spike protein, with adjuvant,
+      unspecified
+    VAC1205C: Ebola virus vaccine, recombinant live non-replicating viral vector Ad26.ZEBOV,
+      unspecified
+    VAC1205L: Ebola virus vaccine, recombinant live non-replicating viral vector Ad26.ZEBOV,
+      unspecified
+    VAC1206C: Anti-covid 19 vaccine with self-amplifying mRNA, unspecified
+    VAC1206L: COVID-19 vaccine with self-amplifying mRNA, unspecified
+    VAC1207C: COVID-19 vaccine with replicative viral vector, Newcastle disease virus
+      encoding the SARS-CoV-2 spike protein, unspecified
+    VAC1207L: COVID-19 vaccine with replicative viral vector, Newcastle disease virus
+      encoding the SARS-CoV-2 spike protein, unspecified
+    VAC1208C: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis
+      (whole inactivated) and hepatitis B (recombinant) vaccine, adsorbed
+    VAC1208L: Quadrivalent DTPeHepB vaccine - Diphtheria-Tetanus-Pertussis-HepatitisB
+      10µg, unspecified
+    VAC1209C: Whole inactivated measles vaccine (historical)
+    VAC1209L: Measles vaccine, whole inactivated, unspecified
+    VAC1210C: COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, original
+      virus, 100 micrograms, unspecified
+    VAC1210L: COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, original
+      virus, 100 micrograms, unspecified
+    VAC1211C: Meningococcal C vaccine, polysaccharide conjugated to CRM197 protein
+    VAC1211L: Meningococcal C polysaccharide vaccine conjugated to CRM197 protein,
+      unspecified
+    VAC1212C: Polio vaccine (whole inactivated, trivalent), oral
+    VAC1212L: Trivalent Poliomyelitis vaccine, whole inactivated oral, unspecified
+    VAC1213C: Cholera vaccine containing recombinant cholera toxin B subunit and inactivated
+      whole V. cholerae O1 bacteria, unspecified
+    VAC1213L: Cholera vaccine containing recombinant cholera toxin B subunit and inactivated
+      whole V. cholerae O1 bacteria, unspecified
+    VAC1214C: COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, against
+      the Omicron XBB.1.5 variant, 10µg
+    VAC1214L: COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, against
+      the Omicron XBB.1.5 variant, 10µg, unspecified
+    VAC1215C: Pediatric vaccine diphtheria (toxoid, standard dose), tetanus (toxoid),
+      pertussis (multicomponent acellular, standard dose), anti-Haemophilus influenzae
+      type b (conjugated to the outer membrane protein of Neisseria meningitidis serogroup
+      B), poliomyelitis (whole inactivated, trivalent) and hepatitis B (recombinant),
+      adsorbed
+    VAC1215L: Hexavalent vaccine DTPaHibPHepB - Diphtheria-Tetanus-Pertussis-Hib OMP-Polio-Hepatitis
+      B 10µg, unspecified
+    VAC1216C: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis
+      (multicomponent acellular, standard dose) and hepatitis B (recombinant) vaccine
+    VAC1216L: Quadrivalent DTPaHepB vaccine - Diphtheria-Tetanus-Pertussis-Hepatitis
+      B 10µg, unspecified
+    VAC1217C: Hepatitis B and Haemophilus influenzae type b vaccine, capsular polysaccharide
+      (polyribosylribitol phosphate, PRP) conjugated to the outer membrane protein
+      of Neisseria meningitidis serogroup B
+    VAC1217L: Vaccine against hepatitis B and Haemophilus influenzae type b, unspecified
+    VAC1218C: Meningococcal polysaccharide conjugate vaccine with tetanus toxoid against
+      serogroup A
+    VAC1218L: Meningococcal A polysaccharide vaccine conjugated to tetanus toxoid,
+      unspecified
+    VAC1219C: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis
+      (whole inactivated), Haemophilus influenzae type b (tetanus toxoid conjugated)
+      and meningococcal serogroups A and C (toxoid conjugate) vaccine tetanus)
+    VAC1219L: Hexavalent vaccine DTPeHibMCV-A-C-T - Diphtheria-Tetanus-Pertussis-Hib
+      PRP-Meningococcus A and C, conjugated with tetanus toxoid, unspecified
+    VAC1220C: Conjugate vaccine against Haemophilus influenzae type b (conjugated
+      with tetanus toxoid) and against meningococci serogroups C and Y (conjugated
+      with tetanus toxoid)
+    VAC1220L: Meningococcal CY and anti-Haemophilus influenzae type b vaccine, conjugated
+      with tetanus toxoid, unspecified
+    VAC1221C: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid) and rubella
+      vaccine (live attenuated)
+    VAC1221L: Trivalent vaccine against diphtheria, tetanus and rubella, unspecified
+    VAC1222C: Human monoclonal antibody against respiratory syncytial virus (RSV),
+      palivizumab, unspecified
+    VAC1222L: Human monoclonal antibody against respiratory syncytial virus (RSV),
+      palivizumab, unspecified
+    VAC1223C: Immunoglobulin against respiratory syncytial virus (RSV), unspecified
+    VAC1223L: Immunoglobulin against respiratory syncytial virus (RSV), unspecified
+    VAC1224C: Respiratory syncytial virus (RSV) vaccine, recombinant, F-glycoprotein
+      (prefusion), bivalent (RSV subtypes A and B), unspecified
+    VAC1224L: Respiratory syncytial virus (RSV) vaccine, recombinant, F-glycoprotein
+      (prefusion) RSV subtypes A and B, unspecified
+    VAC1225C: Diphtheria, tetanus (toxoid), typhoid (whole inactivated) and paratyphoid
+      A and B (whole inactivated) vaccines
+    VAC1225L: DT-TAB Diphtheria, tetanus, typhoid and paratypoid A and B vaccines,
+      unspecified
+    VAC1226C: Combined hepatitis A and B vaccine, pediatric dose, unspecified
+    VAC1226L: Combined hepatitis A and B vaccine, pediatric dose, unspecified
+    VAC1227C: Hepatitis B vaccine, recombinant hepatitis B virus surface antigen (HBsAg),
+      5 micrograms
+    VAC1227L: Recombinant hepatitis B vaccine, pediatric dose, unspecified
+    VAC1228C: Respiratory syncytial virus (RSV) vaccine, recombinant, F protein-derived
+      RSVPreF3 antigen, unspecified
+    VAC1228L: Respiratory syncytial virus (RSV) vaccine, recombinant, F protein-derived
+      RSVPreF3 antigen, unspecified
+    VAC1229C: Vaccine against meningococcal serogroups B (outer membrane vesicle proteins
+      B:14:P1.7,16) and C
+    VAC1229L: Vaccine against meningococcal serogroups B (outer membrane vesicle proteins)
+      and C
+    VAC1230C: Conjugate vaccine against Haemophilus influenzae type b (conjugated
+      with tetanus toxoid) and against meningococci serogroup C (conjugated with tetanus
+      toxoid)
+    VAC1230L: Meningococcal C and anti-Haemophilus influenzae type b vaccine, conjugated
+      with tetanus toxoid, unspecified
+    VAC1231C: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis
+      (multicomponent acellular, standard dose), hepatitis B and Haemophilus influenzae
+      type b (tetanus toxoid conjugate) vaccine
+    VAC1231L: Pentavalent vaccine DTPaHibHepB- Diphtheria-Tetanus-Pertussis-Hib PRP-Hepatitis
+      B 10μg, unspecified
+    VAC1232C: Acellular pertussis vaccine, reduced dose
+    VAC1232L: Acellular pertussis vaccine, reduced dose, unspecified
+    VAC1233C: Pneumococcal polysaccharide conjugate vaccine, 10-valent, serotypes
+      1, 4, 5, 6B, 7F, 9V, 14, 18C, 19F and 23F
+    VAC1233L: 10-valent Pneumococcus conjugate vaccine, unspecified
+    VAC1234C: Unconjugated pneumococcal polysaccharide vaccine, 15-valent, serotypes
+      1, 2, 3, 4, 6B, 7F, 8, 9N, 11A, 12F, 14, 15F, 18C, 19F and 23F
+    VAC1234L: 15-valent unconjugated pneumococcal vaccine, unspecified
+    VAC1235C: RIX4414 monovalent rotavirus vaccine, unspecified
+    VAC1235L: RIX4414 monovalent rotavirus vaccine, unspecified
+    VAC1236C: COVID-19 spike protein subunit vaccine, recombinant spike protein in
+      nanoparticles, Omicron subvariant XBB.1.5
+    VAC1236L: COVID-19 protein subunit vaccine, recombinant spike protein in nanoparticles,
+      Omicron subvariant XBB.1.5, unspecified
+    VAC1237C: Pre-erythrocytic malaria vaccine R21/Matrix-M
+    VAC1237L: Pre-erythrocytic malaria vaccine, unspecified
+    VAC1238C: Vaccine against hepatitis B and malaria, unspecified
+    VAC1238L: Vaccine against hepatitis B and malaria, unspecified
+    VAC1239C: Pneumococcal polysaccharide conjugate vaccine, 15-valent, adsorbed,
+      serotypes 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F and 33F
+    VAC1239L: 15-valent Pneumococcus conjugate vaccine, unspecified
+    VAC1240C: 4-component serogroup B meningococcal vaccine
+    VAC1240L: 4-component meningococcal B vaccine, unspecified
+    VAC1241C: Shingles vaccine, varicella-zoster virus (VZV) surface glycoprotein
+      E (gE), unspecified
+    VAC1241L: Shingles vaccine, varicella-zoster virus (VZV) surface glycoprotein
+      E (gE), unspecified
+    VAC1242C: COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron
+      XBB.1.5 variant, 25 micrograms
+    VAC1242L: COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron
+      XBB.1.5 variant, 25 micrograms
+    VAC1243C: COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron
+      XBB.1.5 variant, 50 micrograms
+    VAC1243L: COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron
+      XBB.1.5 variant, 50 micrograms
+    VAC1244C: COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron
+      XBB.1.5 variant, 30 micrograms
+    VAC1244L: COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron
+      XBB.1.5 variant, 30 micrograms
+    VAC1245C: Meningococcal vaccine against serogroups A, C, W and Y (polysaccharide
+      conjugated to tetanus toxoid), and against serogroup B (recombinant)
+    VAC1245L: ABCWY meningococcal vaccine, unspecified
+    VAC1246L: VACCIN COVID-GRIPPE ARN MRNA-1083
+    VAC1247C: Hepatitis A vaccine, unspecified
+    VAC1247L: Hepatitis A vaccine, unspecified
+    VAC1248C: Combined influenza and Covid 19 mRNA vaccine, unspecified
+    VAC1248L: Influenza/Covid 19 mRNA vaccine, unspecified
+    VAC1249C: Trivalent inactivated influenza vaccine, split or subunit, intradermal
+      route, unspecified
+    VAC1249L: Flu vaccine, trivalent inactivated, high dose, intradermal use, unspecified
+    VAC1250L: EUVICHOL-S
+    VAC1251L: EUVICHOL-PLUS
+    VAC1252L: JE-CV
+    VAC1253L: CHIMERIVAX-JE
+    VAC1254L: CAPVAXIVE
+    VAC1255L: HEXASIIL
+    VAC1256C: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole
+      cell), Haemophilus influenzae type b (conjugated to tetanus toxoid), inactivated
+      polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed
+    VAC1256L: Hexavalent vaccine DTwPHibPHepB - Diphtheria-Tetanus-Pertussis-Hib-Polio-Hepatitis
+      B 15µg, unspecified
+    VAC1257C: Cholera vaccine, oral, bivalent consisting of killed whole cells of
+      Vibrio cholerae O1 (classical and El Tor) and O139
+    VAC1257L: Cholera vaccine, whole inactivated oral, bivalent containing the whole
+      inactivated V. cholerae O1 and O139 bacteria, unspecified
+    VAC1258L: COMIRNATY JN.1 30 µg
+    VAC1259L: COMIRNATY JN.1 10 µg
+    VAC1260L: COMIRNATY JN.1 3 µg
+    VAC1261L: NUVAXOVID JN.1
+    VAC1262L: MRESVIA
+    VAC1263C: COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized
+    VAC1263L: COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized
+    VAC1264C: A(H5) avian influenza vaccine, neuraminidase type not specified
+    VAC1264L: A(H5) avian influenza vaccine, unspecified
+    VAC1265L: CLODIVAC
+    VAC1266L: PENMENVY
+    VAC1267L: VIMKUNYA
+    VAC1268L: SPIKEVAX JN.1 50 µg
+    VAC1269L: SPIKEVAX JN.1 0,1 mg/mL dose 25 µg
+    VAC1270L: SPIKEVAX JN.1 0,1 mg/mL dose 50 µg
+    VAC1271L: TYT BIOMED
+    VAC1272L: PSEUDOVAC
+    VAC1273L: DT BIOMED
+    VAC1274L: d BIOMED
+    VAC1275L: D BIOMED
+    VAC1276L: DTP BIOMED
+    VAC1277C: Vaccine against chikungunya, unspecified
+    VAC1277L: Vaccine against chikungunya, unspecified
+    VAC1278L: WALRINVAX
+    VAC1279C: Adjuvanted adsorbed anthrax cell vaccine
+    VAC1279L: Adjuvanted adsorbed anthrax vaccine
+    VAC1280C: 21-valent pneumococcal conjugate vaccine, adsorbed, serotypes 3, 6A,
+      7F, 8, 9N, 10A, 11A, 12F, 15A, 15B, 15C, 16F, 17F, 19A, 20A, 22F, 23A, 23B,
+      24F, 31, 33F, 35B
+    VAC1280L: 21-valent pneumococcal conjugate vaccine, unspecified
+    VAC1281L: PENTABIO
+    VAC1282L: FLUBIO INFLUENZA HA
+    VAC1283L: INDOVAC
+    VAC1284L: NUSAGARD
+    VAC1285L: NOPV2 BIO FARMA
+    VAC1286L: VAKSIN COVID-19 BIO FARMA
+    VAC1287L: VAKSIN HEPATITIS B BIO FARMA
+    VAC1288L: VAKSIN POLIOMYELITIS BIO FARMA
+    VAC1289L: VAKSIN POLIOMYELITIS BIVALEN BIO FARMA
+    VAC1290L: MOPV1 BIO FARMA
+    VAC1291L: MOPV2 BIO FARMA
+    VAC1292L: BIO-TCV
+    VAC1293L: VAKSIN BCG KERING
+    VAC1294L: BIO-TD
+    VAC1295L: DT BIO FARMA
+    VAC1296L: DTP BIO FARMA
+    VAC1297L: TT BIO FARMA
+    VAC1298L: BETT
+    VAC1299L: BEVAC 10 µg
+    VAC1300L: BEVAC 20 µg
+    VAC1301L: BE Td
+    VAC1302L: COMBE FIVE
+    VAC1303L: VLA15
+    VAC1304L: BERAB
+    VAC1305L: MRBEV
+    VAC1306L: TYPHIBEV
+    VAC1307L: JEEV 6 µg
+    VAC1308L: DT BIOLOGICAL E LTD
+    VAC1309L: NOVEL ORAL (nOPV) TYPE 2 BIOLOGICAL E. LTD
+    VAC1310L: SII TD-VAC
+    VAC1311C: Quadrivalent meningococcal polysaccharide conjugate vaccine, serogroups
+      A, C, W, X and Y
+    VAC1311L: Meningococcal ACWXY conjugate vaccine, unspecified
+    VAC1312L: TT SII
+    VAC1313L: BCG SII
+    VAC1314L: MEASLES SII
+    VAC1315L: MUMPS SII
+    VAC1316L: RUBELLA SII
+    VAC1317L: CERVAVAC
+    VAC1318L: DIPHTHERIA, TETANUS, PERTUSSIS AND HEPATITIS B SII
+    VAC1319L: DIPHTHERIA, TETANUS, PERTUSSIS AND HAEMOPHILUS INFLUENZAE B SII
+    VAC1320L: DIPHTHERIA, TETANUS, PERTUSSIS, HEPATITIS B AND HAEMOPHILUS INFLUENZAE
+      B SII
+    VAC1321L: HAEMOPHILUS INFLUENZAE B SII
+    VAC1322L: PNEUMOSIL
+    VAC1323L: MENFIVE
+    VAC1324L: NASOVAC-S
+    VAC1325L: GENEVAC-B 10 µg
+    VAC1326L: GENEVAC-B 20 µg
+    VAC1327L: HEPATITIS B SII
+    VAC1328L: TUBERVAC
+    VAC1329L: FLU-M
+    VAC1330L: FLU-M TETRA
+    VAC1331L: CELLDEMIC
+    VAC1332L: COMIRNATY KP.2 3 µg
+    VAC1333L: COMIRNATY KP.2 10 µg
+    VAC1334L: COMIRNATY KP.2 30 µg
+    VAC1335L: INCELLIPAN
+    VAC1336L: KOSTAIVE
+    VAC1337L: CONVACELL
+    VAC1338L: ZOONOTIC
+    VAC1339L: BIMERVAX XBB.1.16
+    VAC1340L: SPIKEVAX BA.1 0,1 mg/mL dose 50 µg
+    VAC1341C: COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron
+      XBB.1.5 variant, unspecified dose
+    VAC1341L: COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron
+      XBB.1.5 variant, unspecified dose
+    VAC1342L: IPVAX
+    VAC1343L: BORYUNG CELL CULTURE-DERIVED JAPANESE ENCEPHALITIS VACCINE
+    VAC1344L: BORYUNG JAPANESE ENCEPHALITIS VACCINE
+    VAC1345L: ZEROTYPH
+    VAC1346L: FLU QUADRIVALENT MCV
+    VAC1347L: EFLUELDA TIV-HD
+    VAC1348L: TETANA
+    VAC1349L: TY BIOMED
+    VAC1350L: T SIS BIOMED
+    VAC1351L: TETANA PRO
+    VAC1352L: TERATECT
+    VAC1353L: IL-YANG FLU VACCINE
+    VAC1354L: EUFORVAC
+    VAC1355L: EUPENTA
+    VAC1356L: EUVAX B 10 µg
+    VAC1357L: EUPOLIO
+    VAC1358L: SKYCELLFLU QUADRIVALENT
+    VAC1359L: SKYCELLFLU TRIVALENT
+    VAC1360L: HEPAMUNE B 10 µg
+    VAC1361L: HEPAMUNE B 20 µg
+    VAC1362L: SK TD
+    VAC1363L: HEPAVAX-GENE B 10 µg
+    VAC1364L: BIOHIB
+    VAC1365L: COMVAC5
+    VAC1366L: HILLCHOL
+    VAC1367L: HNVAC
+    VAC1368L: INCOVACC
+    VAC1369L: INDIRAB
+    VAC1370L: JENVAC
+    VAC1371L: REVAC-B MCF
+    VAC1372L: ROTAVAC
+    VAC1373L: ROTAVAC 5D
+    VAC1374L: TYPBAR-TCV
+    VAC1375L: TWINRAB
+    VAC1376L: ZYCOV-D
+    VAC1377L: VAXIFLU-4
+    VAC1378L: VACTYPH
+    VAC1379L: ZYVAC MMR
+    VAC1380L: ZYVAC TCV
+    VAC1381L: MEASLES AND RUBELLA VACCINE ZYDUS
+    VAC1382L: SKYTYPHOID
+    VAC1383L: CYVAC
+    VAC1384L: BARYCELA
+    VAC1385L: GC FLU QUADRIVALENT
+    VAC1386L: GCFLU
+    VAC1387L: SINSAVAC
+    VAC1388L: BIVAC POLIO
+    VAC1389L: INLIVE
+    VAC1390L: HEALIVE
+    VAC1391L: BILIVE
+    VAC1392L: 23-VALENT SINOVAC
+    VAC1393L: PROVARIX
+    VAC1394L: POLIO SINOVAC VACCINE
+    VAC1395L: MUMPS SINOVAC VACCINE
+    VAC1396L: ANFLU
+    VAC1397L: PANFLU
+    VAC1398L: PANFLU.1
+    VAC1399L: TERTRANFLU
+    VAC1400L: SHANIPV
+    VAC1401L: 9-VALENT HPV VACCINE INNOVAX
+    VAC1402L: EASYSIX
+    VAC1403L: EASYFIVE-TT
+    VAC1404L: EASYFOUR-TT
+    VAC1405L: EASYFOURPOL
+    VAC1406L: SPUTNIK V
+    VAC1407L: NOVOHIB
+    VAC1408L: ENIVACHB
+    VAC1409C: COVID-19 mRNA vaccine, Omicron JN.1 subvariant, 50 micrograms per dose,
+      multidose vial
+    VAC1409L: COVID-19 mRNA vaccine, Omicron JN.1 subvariant, 50 micrograms per dose,
+      multidose vial
+    VAC1410C: COVID-19 mRNA vaccine, Omicron JN.1 subvariant, 25 micrograms per dose,
+      multidose vial
+    VAC1410L: COVID-19 mRNA vaccine, Omicron JN.1 subvariant, 25 micrograms per dose,
+      multidose vial
+    VAC1411C: COVID-19 mRNA vaccine, subvariant Omicron JN.1, 30 micrograms, adult
+      dose (+ 12 years)
+    VAC1411L: COVID-19 mRNA vaccine, subvariant Omicron JN.1, 30 micrograms, adult
+      dose (+ 12 years)
+    VAC1412C: COVID-19 mRNA vaccine, subvariant Omicron JN.1, 10 micrograms, paediatric
+      dose (5-11 years)
+    VAC1412L: COVID-19 mRNA vaccine, subvariant Omicron JN.1, 10 micrograms, paediatric
+      dose (5-11 years)
+    VAC1413C: COVID-19 mRNA vaccine, subvariant Omicron JN.1, 3 micrograms, dose (6
+      months-4 years)
+    VAC1413L: COVID-19 mRNA vaccine, subvariant Omicron JN.1, 3 micrograms, dose (6
+      months-4 years)
+    VAC1414C: COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles,
+      with adjuvant (Matrix M), Omicron JN.1 subvariant
+    VAC1414L: COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles,
+      with adjuvant (Matrix M), Omicron JN.1 subvariant
+    VAC1415C: Polyvalent vaccine against  pus bacterium Pseudomonas aeruginosa
+    VAC1415L: Polyvalent vaccine against  pus bacterium Pseudomonas aeruginosa
+    VAC1416C: COVID-19 mRNA vaccine, subvariant Omicron KP.2, 3 micrograms, paediatric
+      dose (6 months-4 years)
+    VAC1416L: COVID-19 mRNA vaccine, subvariant Omicron KP.2, 3 micrograms, paediatric
+      dose (6 months-4 years)
+    VAC1417C: COVID-19 mRNA vaccine, subvariant Omicron KP.2, 10 micrograms, paediatric
+      dose (5-11 years)
+    VAC1417L: COVID-19 mRNA vaccine, subvariant Omicron KP.2, 10 micrograms, paediatric
+      dose (5-11 years)
+    VAC1418C: COVID-19 mRNA vaccine, subvariant Omicron KP.2, 30 micrograms, adult
+      (+ 12 years)
+    VAC1418L: COVID-19 mRNA vaccine, subvariant Omicron KP.2, 30 micrograms, adult
+      (+ 12 years)
+    VAC1419C: Chikungunya VLP vaccine (recombinant, adsorbed)
+    VAC1419L: Chikungunya VLP vaccine (recombinant, adsorbed)
+    VAC1420C: Single-stranded 5' capped mRNA encoding the Respiratory syncytial virus
+      glycoprotein F stabilized in the prefusion conformation
+    VAC1420L: Single-stranded 5' capped mRNA encoding the Respiratory syncytial virus
+      glycoprotein F stabilized in the prefusion conformation
+    VAC1421C: COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, original
+      virus
+    VAC1421L: COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, original
+      virus
+    VAC1422C: COVID-19 protein subunit vaccine, recombinant N protein
+    VAC1422L: COVID-19 protein subunit vaccine, recombinant N protein
+    VAC1423C: Live attenuated influenza A(H1N1)pdm09 pandemic vaccine
+    VAC1423L: Live attenuated influenza A(H1N1)pdm09 pandemic vaccine
+    VAC1424C: 10-valent pneumococcal polysaccharide conjugate vaccine, serotypes 1,
+      5, 6A, 6B, 7F, 9V, 14, 19A, 19F and 23F
+    VAC1424L: 10-valent pneumococcal polysaccharide conjugate vaccine, serotypes 1,
+      5, 6A, 6B, 7F, 9V, 14, 19A, 19F and 23F
+    VAC1425C: Typhoid vaccine, Vi antigen conjugated to CRM197 protein
+    VAC1425L: Typhoid vaccine, Vi antigen conjugated to CRM197 protein
+    VAC1426C: Bivalent recombinant vaccine against human papillomavirus (types 16
+      and 18) (Pichia pastoris)
+    VAC1426L: Bivalent recombinant vaccine against human papillomavirus (types 16
+      and 18) (Pichia pastoris)
+    VAC1427C: Whole inactivated Japanese encephalitis vaccine, prepared in Vero cells,
+      6 micrograms
+    VAC1427L: Whole inactivated Japanese encephalitis vaccine, prepared in Vero cells,
+      6 micrograms
+    VAC1428C: COVID-19 vaccine, protein subunit, recombinant homodimeric RBD protein,
+      Omicron variant XBB.1.16, with adjuvant (SQBA)
+    VAC1428L: COVID-19 vaccine, protein subunit, recombinant homodimeric RBD protein,
+      Omicron variant XBB.1.16, with adjuvant (SQBA)
+    VAC1429L: TETANEA
+    VAC1430C: COVID-19 bivalent mRNA vaccine against the original virus and the Omicron
+      BA.4/5 variant, 50 micrograms, unspecified
+    VAC1430L: COVID-19 bivalent mRNA vaccine against the original virus and the Omicron
+      BA.4/5 variant, 50 micrograms, unspecified
+    VAC1431C: RSV vaccine, unspecified
+    VAC1431L: RSV vaccine, unspecified
+    VAC1432C: Argentine hemorrhagic fever vaccine, Junin virus, unspecified
+    VAC1432L: Argentine hemorrhagic fever vaccine, Junin virus, unspecified
+    VAC1433C: Plague vaccine, unspecified
+    VAC1433L: Plague vaccine, unspecified
+    VAC1434C: Meningococcal A vaccine, unspecified
+    VAC1434L: Meningococcal A vaccine, unspecified
+    VAC1435C: Rabies valence, inactivated, whole virion, cell culture-based, unspecified
+    VAC1435L: Rabies vaccine, inactivated, whole virion, cell culture-based, unspecified
+    VAC1436L: Vaccin rage, inactivé, entier, préparé sur tissu cérébral animal infecté
+      par le virus de la rage, sans précision
+    VAC1437C: Meningococcal vaccine, monovalent, conjugate
+    VAC1437L: Meningococcal vaccine, monovalent, conjugate
+    VAC1438C: Influenza vaccine, trivalent, inactivated, fractionated or subunit,
+      adjuvanted
+    VAC1438L: Influenza vaccine, trivalent, inactivated, fractionated or subunit,
+      adjuvanted
+    VAC1439C: Meningococcal vaccine, polyvalent, conjugate polysaccharide
+    VAC1439L: Meningococcal vaccine, polyvalent, conjugate polysaccharide
+    VAC1440C: Influenza valence, quadrivalent, inactivated, fractionated or subunit,
+      adjuvanted, normal dose
+    VAC1440L: Influenza vaccine, quadrivalent, inactivated, fractionated or subunit,
+      adjuvanted, normal dose
+    VAC1441C: Influenza vaccine, quadrivalent, inactivated, split or subunit, intradermal
+      route, unspecified
+    VAC1441L: Influenza vaccine, quadrivalent, inactivated, split or subunit, intradermal
+      route, unspecified
+    VAC1442C: Influenza vaccine, quadrivalent, virosomal, unspecified
+    VAC1442L: Influenza vaccine, quadrivalent, virosomal, unspecified
+    VAC1443C: Influenza vaccine, trivalent, virosomal, unspecified
+    VAC1443L: Influenza vaccine, trivalent, virosomal, unspecified
+    VAC1444C: Influenza vaccine, trivalent, VLP, unspecified
+    VAC1444L: Influenza vaccine, trivalent, VLP, unspecified
+    VAC1445C: Avian influenza vaccine, mRNA
+    VAC1445L: Avian influenza vaccine, mRNA
+    VAC1446C: Japanese encephalitis vaccine, inactivated, whole-virus, derived from
+      Vero cells, 3 micrograms
+    VAC1446L: Japanese encephalitis vaccine, inactivated, whole-virus, derived from
+      Vero cells, 3 micrograms
+  valence:
+    VAL001L: Influenza valence, trivalent, live attenuated, standard dose
+    VAL001S: INF-L3
+    VAL002L: Typhoid valence, conjugated, Vi polysaccharide antigen linked to a carrier
+      protein
+    VAL002S: Ty-ViC
+    VAL003L: Pertussis valence, unspecified
+    VAL003S: Per
+    VAL004L: Cholera valence, inactivated, whole-cell, injectable
+    VAL004S: CHOL-I-I
+    VAL005L: Measles valence, live attenuated
+    VAL005S: MEAS-LA
+    VAL006L: Brucella valence, unspecified
+    VAL006S: Bruc
+    VAL007L: Ebola valence, replicating vector, recombinant vesicular stomatitis virus
+      (rVSV) - EBOV GP glycoprotein
+    VAL007S: rVSVdG-ZEBOV-GP
+    VAL008L: Pertussis  valence, acellular, standard dose
+    VAL008S: aP
+    VAL009L: Malaria valence, sporozoite surface protein
+    VAL009S: Mala-SPO
+    VAL010L: Pertussis valence, inactivated, whole-cell
+    VAL010S: wP
+    VAL011L: COVID-19 valence, protein subunit, recombinant spike protein (RBD)
+    VAL011S: COVID-PS-rRBD
+    VAL012L: Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg),
+      40 micrograms (dialysis patient dosage)
+    VAL012S: rHBsAg-40
+    VAL013L: Shingles valence, varicella zoster virus (VZV) surface glycoprotein E
+      (gE)
+    VAL013S: Shingles-gE
+    VAL014L: Typhoid valence, unspecified
+    VAL014S: Ty
+    VAL015L: Influenza valence, trivalent, inactivated, split or subunit, intramuscular
+      or subcutaneous route, non-adjuvanted, normal dose
+    VAL015S: INF-SUnd3
+    VAL016L: Rabies valence, immunoglobulin, unspecified
+    VAL016S: RIG
+    VAL017L: Pertussis valence, acellular, reduced dose
+    VAL017S: ap
+    VAL018L: Smallpox valence, third generation, minimally replicating live vaccinia
+      virus
+    VAL018S: POX-3G-LC16
+    VAL019L: Diphtheria valence, antitoxin
+    VAL019S: DATx
+    VAL020L: Herpes zoster valence, live attenuated
+    VAL020S: Shingles-LA
+    VAL021L: Cholera valence, inactivated, whole-cell, oral
+    VAL021S: CHOL-I-O
+    VAL022L: Smallpox valence, live attenuated, unspecified
+    VAL022S: POX-LA
+    VAL023L: Influenza valence, trivalent, inactivated, split or subunit, intradermal
+      route, unspecified
+    VAL023S: INF-SUid3
+    VAL024L: Influenza valence, trivalent, inactivated, split or subunit, unspecified
+    VAL024S: INF-SU3
+    VAL025L: Malaria valence, unspecified
+    VAL025S: Mala
+    VAL026L: Meningococcal valence B:14:P1.7,16 outer membrane vesicle proteins
+    VAL026S: MenB-OMP
+    VAL027L: COVID-19 valence, non-replicating adenovirus 26 vector encoding the SARS-CoV-2
+      spike protein
+    VAL027S: COVID-VVnr-S-Ad26
+    VAL028L: Smallpox valence, third-generation, live attenuated
+    VAL028S: POX-3G
+    VAL029L: Influenza valence, VLP, unspecified
+    VAL029S: INF-VLP
+    VAL030L: Borrelia burgdorferi valence, recombinant, outer surface protein A (OspA)
+    VAL030S: Lyme-OspA
+    VAL031L: Tick-borne encephalitis valence, unspecified
+    VAL031S: TBE
+    VAL032L: Typhoid valence, unconjugated Vi polysaccharide antigen
+    VAL032S: Ty-ViPS
+    VAL033L: Polio type 2 valence, monovalent, live attenuated, oral
+    VAL033S: mOPV2
+    VAL034L: Diphtheria valence, toxoid, reduced dose
+    VAL034S: d
+    VAL035L: COVID-19 valence, plasmid DNA encoding the SARS-CoV-2 spike protein
+    VAL035S: COVID-DNA-S
+    VAL036L: Human Papillomavirus valence, VLP nonavalent, types 6, 11, 16, 18, 31,
+      33, 45, 52, 58
+    VAL036S: HPV-09-valent
+    VAL037L: Meningococcal A valence, unconjugated polysaccharide
+    VAL037S: MPV-A
+    VAL038L: COVID-19 valence, replicating measles virus vector encoding the SARS-CoV-2
+      spike protein
+    VAL038S: COVID-VVr-S-Meas
+    VAL039L: COVID-19 valence, VLP, recombinant spike protein
+    VAL039S: COVID-VLP-rS
+    VAL040L: Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular
+      or subcutaneous route, non-adjuvanted, normal dose
+    VAL040S: INF-SUnd4
+    VAL041L: Meningococcal A valence, polysaccharide conjugate
+    VAL041S: MCV-A
+    VAL042L: Polio valence, unspecified
+    VAL042S: POLIO
+    VAL043L: COVID-19 valence, mRNA encoding the SARS-CoV-2 spike protein, authorized
+    VAL043S: COVID-mRNA-S
+    VAL044L: Varicella valence, live attenuated, unspecified
+    VAL044S: VZV-LA
+    VAL045L: Paratyphoid fever valence, inactivated, whole-cell
+    VAL045S: pTy-I
+    VAL046L: Typhus valence
+    VAL046S: Typhus
+    VAL047L: Hepatitis B valence, immunoglobulin
+    VAL047S: IgHepB
+    VAL048L: Mumps valence, inactivated, whole-virus
+    VAL048S: MUMPS-I
+    VAL049L: Haemophilus influenzae type b valence, unconjugated PRP
+    VAL049S: Hib-PS
+    VAL050L: COVID-19 valence, non-replicating adenovirus 5 vector encoding the SARS-CoV-2
+      spike protein, unspecified
+    VAL050S: COVID-VVnr-S-Ad5
+    VAL051L: Avian influenza A(H5N1) valence
+    VAL051S: AH5N1
+    VAL052L: Human Papillomavirus valence, VLP quadrivalent, types 6, 11, 16 and 18
+    VAL052S: HPV-04-valent
+    VAL053L: COVID-19 valence, protein subunit, unspecified
+    VAL053S: COVID-PS
+    VAL054L: COVID-19 valence, non-replicating modified Ankara vaccine vector encoding
+      the SARS-CoV-2 spike protein
+    VAL054S: COVID-VVnr-S-MVA
+    VAL055L: Measles valence, immunoglobulin
+    VAL055S: MEAS-Ig
+    VAL056L: Polio valence, trivalent, inactivated, whole-virus, injectable
+    VAL056S: IPV
+    VAL057L: Meningococcal C valence, polysaccharide conjugate
+    VAL057S: MCV-C
+    VAL058L: Influenza valence, Inactivated, split or subunit, unspecified
+    VAL058S: INF-SU
+    VAL059L: Influenza valence, quadrivalent, live attenuated, standard dose
+    VAL059S: INF-L4
+    VAL060L: Chikungunya virus valence, live attenuated
+    VAL060S: CHIK-LA
+    VAL061L: COVID-19 valence, protein subunit, recombinant spike protein, S-2P and
+      CpG1018
+    VAL061S: COVID-PS-CpG1018
+    VAL062L: Cholera valence, protein subunit, recombinant cholera toxin subunit B
+      (rCTB)
+    VAL062S: CHOL-SU-rCTB-O
+    VAL063L: Botulism valence, antitoxin
+    VAL063S: BAT
+    VAL064L: Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular
+      or subcutaneous route, non-adjuvanted
+    VAL064S: INF-SUNA4
+    VAL065L: 'Dengue valence, live attenuated, tetravalent recombinant chimeric '
+    VAL065S: RC-TDV
+    VAL066L: COVID-19 valence, replicating influenza virus vector encoding the SARS-CoV-2
+      spike protein
+    VAL066S: COVID-VVr-S-Influ
+    VAL067L: Tetanus valence, toxoid
+    VAL067S: T
+    VAL068L: Hepatitis B valence, unspecified
+    VAL068S: HepB
+    VAL069L: COVID-19 valence, non-replicating chimpanzee adenoviral vector ChAdOx1
+      encoding the SARS-CoV-2 spike protein
+    VAL069S: COVID-VVnr-S-ChAdOx1
+    VAL070L: COVID-19 valence, non-replicating adenoviral vector encoding the SARS-CoV-2
+      spike protein, unspecified
+    VAL070S: COVID-VVnr-S-Ad
+    VAL071L: Typhoid valence, inactivated, whole-cell
+    VAL071S: Ty-I
+    VAL072L: Meningococcal B valence, containing fHbp of subfamilies A and B
+    VAL072S: MenB-fHbpAB
+    VAL073L: COVID-19 valence, replicating viral vector, antigen presenting cells
+    VAL073S: COVID-VVr+APC
+    VAL074L: Influenza valence, quadrivalent, inactivated, split or subunit, high-dose
+    VAL074S: INF-SUhd4
+    VAL075L: Leptospira icterohaemorrhagiae valence, inactivated, whole-cell
+    VAL075S: Lepto-wI
+    VAL076L: COVID-19 valence, inactivated, whole-virion, unspecified
+    VAL076S: COVID-IV
+    VAL077L: Mumps valence, live attenuated
+    VAL077S: MUMPS-LA
+    VAL078L: Meningococcal Y valence, polysaccharide conjugate
+    VAL078S: MCV-Y
+    VAL079L: Rubella valence, live attenuated
+    VAL079S: Rub-LA
+    VAL080L: Rabies valence, inactivated, whole virion, unspecified
+    VAL080S: Rab-I
+    VAL081L: Cholera valence, unspecified
+    VAL081S: CHOL
+    VAL082L: Human Papillomavirus valence, types unspecified
+    VAL082S: HPV
+    VAL083L: Diphtheria valence, toxoid, dose unspecified
+    VAL083S: D-d
+    VAL084L: COVID-19 valence, replicating vesicular stomatitis virus vector encoding
+      the SARS-CoV-2 spike protein
+    VAL084S: COVID-VVr-S-VSV
+    VAL085L: Polio type 3 valence, monovalent, live attenuated, oral
+    VAL085S: mOPV3
+    VAL086L: COVID-19 valence, live attenuated, unspecified
+    VAL086S: COVID-LA
+    VAL087L: Dengue valence, live attenuated, tetravalent chimeric recombinant based
+      on the yellow fever 17D vaccine
+    VAL087S: CYD-TDV
+    VAL088L: Varicella valence, immunoglobulin
+    VAL088S: VZV-Ig
+    VAL089L: Japanese encephalitis valence, inactivated, whole-virus, unspecified
+    VAL089S: JE-I
+    VAL090L: Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg),
+      dose unspecified
+    VAL090S: rHBsAg
+    VAL091L: Typhoid valence, live attenuated, strain Ty21a, oral
+    VAL091S: Ty-LA-O
+    VAL092L: Yellow fever valence, live attenuated
+    VAL092S: YF
+    VAL093L: Measles valence, inactivated, whole-virus
+    VAL093S: MEAS-I
+    VAL094L: Influenza valence, trivalent, inactivated, fractionated or subunit, intramuscular
+      or subcutaneous, non-adjuvanted, high dose
+    VAL094S: INF-SUhd3
+    VAL095L: COVID-19 valence, replicating Newcastle disease virus vector encoding
+      the SARS-CoV-2 spike protein
+    VAL095S: COVID-VVr-S-Nv
+    VAL096L: BCG valence
+    VAL096S: BCG
+    VAL097L: Diphtheria valence, toxoid, standard dose
+    VAL097S: D
+    VAL098L: Meningococcal B valence, four-component
+    VAL098S: 4CMenB
+    VAL099L: 'Influenza valence, inactivated, pandemic influenza H1N1 2009 '
+    VAL099S: INF-pdm09
+    VAL100L: Japanese encephalitis valence, live attenuated virus, strain 14-14-2
+    VAL100S: JE-LA-14-14-2
+    VAL101L: COVID-19 valence, non-replicating Newcastle disease virus vector encoding
+      the SARS-CoV-2 spike protein
+    VAL101S: COVID-VVnr-S-Nv
+    VAL102L: Hepatitis E valence, recombinant peptide
+    VAL102S: HepE
+    VAL103L: Haemophilus influenzae type b valence, PRP-conjugated, unspecified
+    VAL103S: Hib-C
+    VAL104L: COVID-19 valence, protein subunit, recombinant spike protein
+    VAL104S: COVID-PS-rS
+    VAL105L: Pneumococcal valence, unspecified
+    VAL105S: Pneumo
+    VAL106L: Rotavirus valence, live attenuated, unspecified
+    VAL106S: ROTA-LA
+    VAL107L: COVID-19 valence, protein subunit, recombinant spike protein nanoparticles
+    VAL107S: COVID-PS-rSnp
+    VAL108L: Ebola valence, non-replicating viral vector, Ad26.ZEBOV
+    VAL108S: ZebovVRnrAd26
+    VAL109L: 'Ebola valence, non-replicating viral vector, Modified Ankara vaccine '
+    VAL109S: Ebola-MVA-BN-Filo
+    VAL110L: Tetanus valence, immunoglobulin
+    VAL110S: T-Ig
+    VAL111L: Anthrax valence, acellular
+    VAL111S: Bant
+    VAL112L: Influenza valence, quadrivalent, inactivated, obtained from cell culture,
+      split or subunit, standard dose
+    VAL112S: INF-CC4
+    VAL113L: Human Papillomavirus valence, VLP bivalent, types 16 and 18
+    VAL113S: HPV-02-valent
+    VAL114L: Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg),
+      10 micrograms
+    VAL114S: rHBsAg-10
+    VAL115L: Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg),
+      20 micrograms
+    VAL115S: rHBsAg-20
+    VAL116L: RSV valence, monoclonal antibody, palivizumab
+    VAL116S: RSV-mAb-pal
+    VAL117L: Pertussis valence, acellular, dose unspecified
+    VAL117S: Acel
+    VAL118L: Meningococcal B valence, unspecified
+    VAL118S: MenB
+    VAL119L: Meningococcal valence, monovalent, unconjugated polysaccharide
+    VAL119S: MPV-mono
+    VAL120L: Meningococcal valence, polyvalent, unconjugated polysaccharide
+    VAL120S: MPV-poly
+    VAL121L: Polio valence, trivalent, inactivated, whole-virus, oral
+    VAL121S: IPV-O
+    VAL122L: Influenza valence, trivalent, inactivated, split or subunit, intramuscular
+      or subcutaneous route, non-adjuvanted
+    VAL122S: INF-SUNA3
+    VAL123L: Rotavirus valence, pentavalent, live attenuated virus
+    VAL123S: Rota5-L
+    VAL124L: Cholera valence, live attenuated, unspecified
+    VAL124S: CHOL-LA
+    VAL125L: Hepatitis A valence, inactivated, whole-virus, unspecified
+    VAL125S: HepA-I
+    VAL126L: Ebola valence, unspecified
+    VAL126S: Ebola
+    VAL127L: Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular
+      or subcutaneous route
+    VAL127S: INF-SUimsc4
+    VAL128L: Influenza valence, unspecified
+    VAL128S: INF
+    VAL129L: Herpes simplex valence, unspecified
+    VAL129S: HSV
+    VAL130L: Hepatitis A valence, virosome
+    VAL130S: HepA-VLP
+    VAL131L: Plague valence, inactivated, whole-cell
+    VAL131S: Yp-I
+    VAL132L: Polio type 1 valence, monovalent, live attenuated, oral
+    VAL132S: mOPV1
+    VAL133L: Polio valence, monovalent, live attenuated, oral, unspecified
+    VAL133S: mOPV
+    VAL134L: Influenza valence, quadrivalent, inactivated, split or subunit, intradermal
+      route, unspecified
+    VAL134S: INF-SUid4
+    VAL135L: 'COVID-19 valence, mRNA encoding the SARS-CoV-2 spike protein, in clinical
+      trials '
+    VAL135S: COVID-mRNA-S-CT
+    VAL136L: Meningococcal W valence, polysaccharide conjugate
+    VAL136S: MCV-W
+    VAL137L: Meningococcal C valence, unconjugated
+    VAL137S: MPV-C
+    VAL138L: Meningococcal W valence, unconjugated
+    VAL138S: MPV-W
+    VAL139L: Meningococcal Y valence, unconjugated polysaccharide
+    VAL139S: MPV-Y
+    VAL140L: Influenza valence, live attenuated, unspecified
+    VAL140S: INF-L
+    VAL141L: Rotavirus valence, live attenuated, RIX4414 monovalent
+    VAL141S: ROTA-LA-mv-RIX4414
+    VAL142L: Hepatitis A valence, monovalent, inactivated, whole-virus, paediatric
+      dose
+    VAL142S: HepA-mv-PED
+    VAL143L: Hepatitis A valence, bivalent (hepatitis A and B), inactivated, whole-virus,
+      paediatric dose
+    VAL143S: HepA-bv-PED
+    VAL144L: Hepatitis A valence, monovalent, inactivated, whole-virus, adult dose
+    VAL144S: HepA-mv-ADU
+    VAL145L: Hepatitis A valence, bivalent (hepatitis A and B), inactivated, whole-virus,
+      adult dose
+    VAL145S: HepA-bv-ADU
+    VAL146L: Brucella valence, inactivated, whole-cell
+    VAL146S: Bruc-I
+    VAL147L: Brucella valence, protein subunit, antigen P.I. (phenol-insoluble)
+    VAL147S: Bruc-IP
+    VAL148L: RSV valence, immunoglobulin
+    VAL148S: RSV-IG
+    VAL149L: COVID-19 valence, Omicron variant, mRNA encoding the SARS-CoV-2 spike
+      protein
+    VAL149S: COVID-mRNA-S-OMI
+    VAL150L: Dengue valence, unspecified
+    VAL150S: Den
+    VAL151L: Tularemia valence, unspecified
+    VAL151S: Tular
+    VAL152L: Influenza valence, inactivated, whole-virus, unspecified
+    VAL152S: INF-I
+    VAL153L: Haemophilus influenzae type b valence, PRP conjugated to diphtheria toxoid
+    VAL153S: PRP-D
+    VAL154L: Haemophilus influenzae type b valence, PRP conjugated to mutant diphtheria
+      toxin CRM197
+    VAL154S: HbOC
+    VAL155L: Haemophilus influenzae type b valence, PRP conjugated to outer membrane
+      protein of Neisseria meningitidis serogroup B
+    VAL155S: PRP-OMP
+    VAL156L: Haemophilus influenzae type b valence, PRP conjugated to tetanus toxoid
+    VAL156S: PRP-T
+    VAL157L: COVID-19 valence, unspecified
+    VAL157S: COVID
+    VAL158L: Hepatitis B valence, plasma derived
+    VAL158S: pHBsAg
+    VAL159L: Shingles valence, subunit
+    VAL159S: Shingles-SU
+    VAL160L: Shingles valence, unspecified
+    VAL160S: Shingles
+    VAL161L: Meningococcus B valence, multicomponent, unspecified
+    VAL161S: MenB-mc
+    VAL162L: COVID-19 valence, replicating virus vector, unspecified
+    VAL162S: COVID-VVr
+    VAL163L: COVID-19 valence, non-replicating viral vector, unspecified
+    VAL163S: COVID-VVnr
+    VAL164L: COVID-19 valence, non live, unspecified
+    VAL164S: COVID-non-live
+    VAL165L: COVID-19 valence, live, unspecified
+    VAL165S: COVID-live
+    VAL166L: Influenza valence, trivalent, inactivated, split or subunit, intramuscular
+      or subcutaneous route, pediatric dose
+    VAL166S: INF-SUped3
+    VAL167L: COVID-19 valence, non-replicating viral vector, antigen presenting cells
+    VAL167S: COVID-VVnr+APC
+    VAL168L: COVID-19 valence, mRNA, unspecified
+    VAL168S: COVID-mRNA
+    VAL169L: COVID-19 valence, self-amplifying mRNA (SAM)
+    VAL169S: COVID-mRNA-SAM
+    VAL170L: Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg),
+      5 micrograms
+    VAL170S: rHepB-05
+    VAL171L: Venezuelan equine encephalitis valence, unspecified
+    VAL171S: VEE
+    VAL172L: Q fever (Coxiella burnetii) valence, unspecified
+    VAL172S: Cbur
+    VAL173L: Argentine hemorrhagic fever valence, Junin virus, live attenuated
+    VAL173S: Junin-LA
+    VAL174L: Hantavirus valence, unspecified
+    VAL174S: HAN
+    VAL175L: Leishmaniasis valence, unspecified
+    VAL175S: Leish
+    VAL176L: Human parainfluenza viruses valence, unspecified
+    VAL176S: HPIVs
+    VAL177L: Haemophilus influenzae type b valence, unspecified
+    VAL177S: Hib
+    VAL178L: COVID-19 valence, Omicron variant BA.1, mRNA encoding the SARS-CoV-2
+      spike protein, 25 micrograms
+    VAL178S: COVID-mRNA-S-OMI-BA.1-25
+    VAL179L: Meningococcal  valence, monovalent, conjugate
+    VAL179S: MCV-mono
+    VAL180L: COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike
+      protein, 100 micrograms
+    VAL180S: COVID-mRNA-S-ORI-100
+    VAL181L: COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike
+      protein, 25 micrograms
+    VAL181S: COVID-mRNA-S-ORI-25
+    VAL182L: Measles valence, unspecified
+    VAL182S: MEAS
+    VAL183L: Mumps valence, unspecified
+    VAL183S: MUMPS
+    VAL184L: Pneumococcus valence, conjugated polysaccharide, monovalent
+    VAL184S: PCV
+    VAL185L: Pneumococcal valence, polysaccharide unconjugated, unspecified
+    VAL185S: PPSV
+    VAL186L: Pneumococcal valence, polysaccharide conjugate, serotype 1
+    VAL186S: PCV-01
+    VAL187L: Pneumococcal valence, polysaccharide conjugate, serotype 3
+    VAL187S: PCV-03
+    VAL188L: Pneumococcal valence, polysaccharide conjugate, serotype 4
+    VAL188S: PCV-04
+    VAL189L: Pneumococcal valence, polysaccharide conjugate, serotype 5
+    VAL189S: PCV-05
+    VAL190L: Pneumococcal valence, polysaccharide conjugate, serotype 6A
+    VAL190S: PCV-06A
+    VAL191L: Pneumococcal valence, polysaccharide conjugate, serotype 6B
+    VAL191S: PCV-06B
+    VAL192L: Pneumococcal valence, polysaccharide conjugate, serotype 7F
+    VAL192S: PCV-07F
+    VAL193L: Pneumococcal valence, polysaccharide conjugate, serotype 8
+    VAL193S: PCV-08
+    VAL194L: Pneumococcal valence, polysaccharide conjugate, serotype 9V
+    VAL194S: PCV-09V
+    VAL195L: Pneumococcal valence, polysaccharide conjugate, serotype 10A
+    VAL195S: PCV-10A
+    VAL196L: Pneumococcal valence, polysaccharide conjugate, serotype 11A
+    VAL196S: PCV-11A
+    VAL197L: Pneumococcal valence, polysaccharide conjugate, serotype 12F
+    VAL197S: PCV-12F
+    VAL198L: Pneumococcal valence, polysaccharide conjugate, serotype 14
+    VAL198S: PCV-14
+    VAL199L: Pneumococcal valence, polysaccharide conjugate, serotype 15B
+    VAL199S: PCV-15B
+    VAL200L: Pneumococcal valence, polysaccharide conjugate, serotype 18C
+    VAL200S: PCV-18C
+    VAL201L: Pneumococcal valence, polysaccharide conjugate, serotype 19A
+    VAL201S: PCV-19A
+    VAL202L: Pneumococcal valence, polysaccharide conjugate, serotype 19F
+    VAL202S: PCV-19F
+    VAL203L: Pneumococcal valence, polysaccharide conjugate, serotype 22F
+    VAL203S: PCV-22F
+    VAL204L: Pneumococcal valence, polysaccharide conjugate, serotype 23F
+    VAL204S: PCV-23F
+    VAL205L: Pneumococcal valence, polysaccharide conjugate, serotype 33F
+    VAL205S: PCV-33F
+    VAL206L: Pneumococcal valence, polysaccharide unconjugated, serotype 1
+    VAL206S: PPSV-01
+    VAL207L: Pneumococcal valence, polysaccharide unconjugated, serotype 2
+    VAL207S: PPSV-02
+    VAL208L: Pneumococcal valence, polysaccharide unconjugated, serotype 3
+    VAL208S: PPSV-03
+    VAL209L: Pneumococcal valence, polysaccharide unconjugated, serotype 4
+    VAL209S: PPSV-04
+    VAL210L: Pneumococcal valence, polysaccharide unconjugated, serotype 5
+    VAL210S: PPSV-05
+    VAL211L: Pneumococcal valence, polysaccharide unconjugated, serotype 6B
+    VAL211S: PPSV-06B
+    VAL212L: Pneumococcal valence, polysaccharide unconjugated, serotype 7F
+    VAL212S: PPSV-07F
+    VAL213L: Pneumococcal valence, polysaccharide unconjugated, serotype 8
+    VAL213S: PPSV-08
+    VAL214L: Pneumococcal valence, polysaccharide unconjugated, serotype 9N
+    VAL214S: PPSV-09N
+    VAL215L: Pneumococcal valence, polysaccharide unconjugated, serotype 9V
+    VAL215S: PPSV-09V
+    VAL216L: Pneumococcal valence, polysaccharide unconjugated, serotype 10A
+    VAL216S: PPSV-10A
+    VAL217L: Pneumococcal valence, polysaccharide unconjugated, serotype 11A
+    VAL217S: PPSV-11A
+    VAL218L: Pneumococcal valence, polysaccharide unconjugated, serotype 12F
+    VAL218S: PPSV-12F
+    VAL219L: Pneumococcal valence, polysaccharide unconjugated, serotype 14
+    VAL219S: PPSV-14
+    VAL220L: Pneumococcal valence, polysaccharide unconjugated, serotype 15B
+    VAL220S: PPSV-15B
+    VAL221L: Pneumococcal valence, polysaccharide unconjugated, serotype 15F
+    VAL221S: PPSV-15F
+    VAL222L: Pneumococcal valence, polysaccharide unconjugated, serotype 17F
+    VAL222S: PPSV-17F
+    VAL223L: Pneumococcal valence, polysaccharide unconjugated, serotype 18C
+    VAL223S: PPSV-18C
+    VAL224L: Pneumococcal valence, polysaccharide unconjugated, serotype 19A
+    VAL224S: PPSV-19A
+    VAL225L: Pneumococcal valence, polysaccharide unconjugated, serotype 19F
+    VAL225S: PPSV-19F
+    VAL226L: Pneumococcal valence, polysaccharide unconjugated, serotype 20
+    VAL226S: PPSV-20
+    VAL227L: Pneumococcal valence, polysaccharide unconjugated, serotype 22F
+    VAL227S: PPSV-22F
+    VAL228L: Pneumococcal valence, polysaccharide unconjugated, serotype 23F
+    VAL228S: PPSV-23F
+    VAL229L: Pneumococcal valence, polysaccharide unconjugated, serotype 33F
+    VAL229S: PPSV-33F
+    VAL230L: Influenza valence, quadrivalent, inactivated, split or subunit, unspecified
+    VAL230S: INF-SU4
+    VAL231L: Influenza valence, trivalent, inactivated, split or subunit, intramuscular
+      or subcutaneous route
+    VAL231S: INF-SUimsc3
+    VAL232L: Pneumococcal valence, polysaccharide unconjugated, serotype 6A
+    VAL232S: PPSV-06A
+    VAL233L: Pneumococcal valence, polysaccharide unconjugated, serotype 25
+    VAL233S: PPSV-25
+    VAL234L: Meningococcal valence, unspecified
+    VAL234S: Men
+    VAL235L: Meningococcal valence, polyvalent, conjugate polysaccharide
+    VAL235S: MCV-poly
+    VAL236L: Human Papillomavirus valence, VLP monovalent
+    VAL236S: HPV-mono
+    VAL237L: Human Papillomavirus valence, VLP polyvalent
+    VAL237S: HPV-poly
+    VAL238L: Human Papillomavirus valence, VLP, type 6
+    VAL238S: HPV-06
+    VAL239L: Human Papillomavirus valence, VLP , type 11
+    VAL239S: HPV-11
+    VAL240L: Human Papillomavirus valence, VLP, type 16
+    VAL240S: HPV-16
+    VAL241L: Human Papillomavirus valence, VLP, type 18
+    VAL241S: HPV-18
+    VAL242L: Human Papillomavirus valence, VLP, type 31
+    VAL242S: HPV-31
+    VAL243L: Human Papillomavirus valence, VLP, type 33
+    VAL243S: HPV-33
+    VAL244L: Human Papillomavirus valence, VLP, type 58
+    VAL244S: HPV-58
+    VAL245L: Human Papillomavirus valence, VLP, type 52
+    VAL245S: HPV-52
+    VAL246L: Human Papillomavirus valence, VLP, type 45
+    VAL246S: HPV-45
+    VAL247L: Japanese encephalitis valence, live attenuated chimeric virus
+    VAL247S: JE-LAR
+    VAL248L: Japanese encephalitis valence, live attenuated virus, unspecified
+    VAL248S: JE-LA
+    VAL249L: Japanese encephalitis valence, unspecified
+    VAL249S: JE
+    VAL250L: Japanese encephalitis valence, inactivated, whole-virus, prepared on
+      murine brain tissue
+    VAL250S: JE-I-mb
+    VAL251L: Japanese encephalitis valence, inactivated, whole-virus, derived from
+      Vero cells
+    VAL251S: JE-I-Vero
+    VAL252L: Rabies immunoglobulin, human origin
+    VAL252S: RIG-hu
+    VAL253L: Rabies immunoglobulin valence, equine origin
+    VAL253S: eRIG
+    VAL254L: Rabies valence, inactivated, whole virion, semple type, prepared from
+      goat or sheep brain tissue infected with rabies virus, contains myelin
+    VAL254S: Rab-I-Semple
+    VAL255L: Rabies valence, inactivated, whole virion, Fuenzalida type, prepared
+      from suckling mouse brain tissue infected with rabies virus, decreased myelin
+      content
+    VAL255S: Rab-I-Fuenzalida
+    VAL256L: Rabies valence, inactivated, whole virion, prepared from animal brain
+      tissue infected with rabies virus, unspecified
+    VAL256S: Rab-I-NervousTissue
+    VAL257L: Rabies valence, inactivated, whole virion, cell culture-based, unspecified
+    VAL257S: Rab-I-CC
+    VAL258L: Rabies valence, inactivated, whole virion, cell culture-based, human
+      diploid cell vaccine (HDCV) MRC-5, inactivation with ß-propiolactone
+    VAL258S: Rab-I-HDCV
+    VAL259L: Rabies valence, inactivated, whole virion, purified chick embryo cell
+      vaccine (PCECV), obtained by growing the fixed rabies virus strain Flury LEP-25
+      in primary cultures of chick fibroblasts, virus inactivated with ß-propiolactone
+    VAL259S: Rab-I-PCEC
+    VAL260L: Rabies valence, inactivated, whole virion, cell culture-based, purified
+      Vero cell rabies vaccine (PVRV), Wistar strain, inactivation with ß-propiolactone
+    VAL260S: Rab-I-PVRV
+    VAL261L: Rabies valence, inactivated, whole virion, cell culture-based, primary
+      hamster kidney cell vaccine (PHKCV), Beijing strain, inactivation with formalin
+    VAL261S: Rab-I-PHKCV
+    VAL262L: Rabies valence, inactivated, whole virion, embryonated egg-based vaccine
+      (EEV), unspecified
+    VAL262S: Rab-I-EEV
+    VAL263L: Rabies valence, inactivated, whole virion, purified duck embryo vaccine
+      (PDEV), inactivation by ß-propiolactone
+    VAL263S: Rab-I-PDEV
+    VAL264L: COVID-19 valence, inactivated, whole-virion, authorized
+    VAL264S: COVID-IV-Auth
+    VAL265L: COVID-19 valence, inactivated, whole-virion, clinical trial
+    VAL265S: COVID-IV-CT
+    VAL266L: Meningococcal C valence, polysaccharide tetanus toxoid conjugated
+    VAL266S: MCV-C-T
+    VAL267L: Meningococcal C valence, polysaccharide diphtheria toxoid conjugated
+    VAL267S: MCV-C-D
+    VAL268L: Meningococcal C valence, polysaccharide conjugated to CRM197 protein
+    VAL268S: MCV-C-CRM
+    VAL269L: Meningococcal A valence, polysaccharide conjugated to CRM197 Protein
+    VAL269S: MCV-A-CRM
+    VAL270L: Meningococcal A valence, polysaccharide diphtheria toxoid conjugated
+    VAL270S: MCV-A-D
+    VAL271L: Meningococcal A valence, polysaccharide conjugate valence to tetanus
+      toxoid
+    VAL271S: MCV-A-T
+    VAL272L: Meningococcal W valence, polysaccharide tetanus toxoid conjugated
+    VAL272S: MCV-W-T
+    VAL273L: Meningococcal W valence, polysaccharide diphtheria toxoid conjugated
+    VAL273S: MCV-W-D
+    VAL274L: Meningococcal W valence, polysaccharide conjugated to CRM197 protein
+    VAL274S: MCV-W-CRM
+    VAL275L: Meningococcal Y valence, polysaccharide conjugated to CRM197 protein
+    VAL275S: MCV-Y-CRM
+    VAL276L: Meningococcal Y valence, polysaccharide tetanus toxoid conjugated
+    VAL276S: MCV-Y-T
+    VAL277L: Meningococcal Y valence, polysaccharide diphtheria toxoid conjugated
+    VAL277S: MCV-Y-D
+    VAL278L: Adenovirus valence, live attenuated, oral route, unspecified
+    VAL278S: AD-LA
+    VAL279L: Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular
+      or subcutaneous route, pediatric dose
+    VAL279S: INF-SUped4
+    VAL280L: Botulism valence, toxoid
+    VAL280S: BT
+    VAL281L: Adenovirus type 7 valence, live attenuated, oral route
+    VAL281S: AD7-LA
+    VAL282L: Adenovirus type 4 valence, live attenuated, oral route
+    VAL282S: AD4-LA
+    VAL283L: Hepatitis A valence, inactivated, whole-virus, paediatric dose, unspecified
+    VAL283S: HepA-PED
+    VAL284L: Hepatitis A valence, inactivated, whole-virus, adult dose, unspecified
+    VAL284S: HepA-ADU
+    VAL285L: Influenza valence, trivalent, inactivated, obtained from cell culture,
+      split or subunit, standard dose
+    VAL285S: INF-CC3
+    VAL286L: Hepatitis A valence, live attenuated, unspecified
+    VAL286S: HepA-LA
+    VAL287L: Influenza valence, quadrivalent, recombinant
+    VAL287S: INF-R4
+    VAL288L: Hepatitis A valence, unspecified
+    VAL288S: HepA
+    VAL289L: COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike
+      protein, 10 micrograms
+    VAL289S: ' COVID-mRNA-S-ORI-10'
+    VAL290L: COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike
+      protein, 30 micrograms
+    VAL290S: COVID-mRNA-S-ORI-30
+    VAL291L: Hepatitis B valence, Recombinant, three antigens (HbS, pre-S1, and pre-S2)
+    VAL291S: HBs-r-3Ag
+    VAL292L: COVID-19 valence, non-replicating adenovirus 26 vector encoding the SARS-CoV-2
+      spike protein, in clinical trials
+    VAL292S: COVID-VVnr-S-Ad26-CT
+    VAL293L: Anthrax immunoglobulin valence
+    VAL293S: Anthrax-Ig
+    VAL294L: Smallpox valence, first-generation, live attenuated
+    VAL294S: POX-1G
+    VAL295L: Smallpox valence, second-generation, live attenuated
+    VAL295S: POX-2G
+    VAL296L: Smallpox valence, non-replicating, third-generation, Modified Ankara
+      vaccine
+    VAL296S: POX-3G-MVA
+    VAL297L: Meningococcal A valence, unspecified
+    VAL297S: MenA
+    VAL298L: Meningococcal C valence, unspecified
+    VAL298S: MenC
+    VAL299L: Meningococcal Y valence, unspecified
+    VAL299S: MenY
+    VAL300L: Meningococcal W valence, unspecified
+    VAL300S: MenW
+    VAL301L: Influenza valence, trivalent, recombinant
+    VAL301S: INF-R3
+    VAL302L: COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike
+      protein, 50 micrograms
+    VAL302S: COVID-mRNA-S-ORI-50
+    VAL303L: COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike
+      protein
+    VAL303S: COVID-mRNA-S-ORI
+    VAL304L: COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike
+      protein, 15 micrograms
+    VAL304S: COVID-mRNA-S-ORI-15
+    VAL305L: COVID-19 valence, Omicron variant BA.1, mRNA encoding the SARS-CoV-2
+      spike protein, 15 micrograms
+    VAL305S: COVID-mRNA-S-OMI-BA.1-15
+    VAL306L: COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike
+      protein, 3 micrograms
+    VAL306S: COVID-mRNA-S-ORI-3
+    VAL307L: COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2
+      spike protein,15 micrograms
+    VAL307S: COVID-mRNA-S-OMI-BA.4/5-15
+    VAL308L: COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2
+      spike protein, 25 micrograms
+    VAL308S: COVID-mRNA-S-OMI-BA.4/5-25
+    VAL309L: COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2
+      spike protein, 5 micrograms
+    VAL309S: COVID-mRNA-S-OMI-BA.4/5-5
+    VAL310L: COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike
+      protein, 5 micrograms
+    VAL310S: COVID-mRNA-S-ORI-5
+    VAL311L: Malaria valence, R21/Matrix-M pre-erythrocytic
+    VAL311S: R21/Matrix-M
+    VAL312L: Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain
+    VAL312S: TBE-K23
+    VAL313L: Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl strain,
+      dose not specified
+    VAL313S: TBE-Neudorfl
+    VAL314L: Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl strain,
+      adult dose
+    VAL314S: TBE-Neudorfl-ADU
+    VAL315L: Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl strain,
+      paediatric dose
+    VAL315S: TBE-Neudorfl-PED
+    VAL316L: RSV valence, protein subunit, recombinant, RSVPreF3 antigen derived from
+      F protein
+    VAL316S: RSV-PreF3
+    VAL317L: RSV valence, antibody, unspecified
+    VAL317S: RSV-Ab
+    VAL318L: RSV valence, vaccine, unspecified
+    VAL318S: RSV-V
+    VAL319L: COVID-19 valence, non-replicating adenoviral vector encoding the SARS-CoV-2
+      spike protein, inhalation vaccine, unspecified
+    VAL319S: COVID-VVnr-S-INH
+    VAL320L: RSV valence, monoclonal antibody, unspecified
+    VAL320S: RSV-mAb
+    VAL321L: RSV valence, monoclonal antibody, nirsevimab
+    VAL321S: VRS-mAb-nir
+    VAL322L: RSV valence, protein subunit, recombinant, glycoprotein F subtypes A
+      and B
+    VAL322S: RSV-PreFAB
+    VAL323L: COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2
+      spike protein, 30 micrograms
+    VAL323S: COVID-mRNA-S-OMI-XBB.1.5-30
+    VAL324L: COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2
+      spike protein, 10 micrograms
+    VAL324S: COVID-mRNA-S-OMI-XBB.1.5-10
+    VAL325L: COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2
+      spike protein, 3 micrograms
+    VAL325S: COVID-mRNA-S-OMI-XBB.1.5-3
+    VAL326L: COVID-19 valence, Omicron BA.4/BA.5 variant, SARS-CoV-2 spike protein
+      mRNA 19, 1.5 micrograms
+    VAL326S: COVID-mRNA-S-OMI-BA.4/5-1.5
+    VAL327L: COVID-19 valence, original virus, SARS-CoV-2 peak protein-encoding mRNA,
+      1.5 micrograms
+    VAL327S: COVID-mRNA-S-ORI-1.5
+    VAL328L: COVID-19 valence, protein subunit, recombinant spike protein nanoparticles,
+      Omicron XBB.1.5 subvariant
+    VAL328S: COVID-PS-rSnp-XBB
+    VAL329L: COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2
+      spike protein, 50 micrograms
+    VAL329S: COVID-mRNA-S-OMI-XBB.1.5-50
+    VAL330L: COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2
+      spike protein, 25 micrograms
+    VAL330S: COVID-mRNA-S-OMI-XBB.1.5-25
+    VAL331L: CMV valence, immunoglobulin
+    VAL331S: CMV-Ig
+    VAL332L: Hepatitis C valence, unspecified
+    VAL332S: HepC
+    VAL333L: HIV valence, unspecified
+    VAL333S: HIV
+    VAL334L: Melanoma valence, unspecified
+    VAL334S: MEL
+    VAL335L: Streptococcus pyogenes valence, unspecified
+    VAL335S: SPYO
+    VAL336L: Rift Valley Fever valence, unspecified
+    VAL336S: RVF
+    VAL337L: Smallpox valence, immunoglobulin
+    VAL337S: POX-Ig
+    VAL338L: RSV valence, antibody or vaccine, unspecified
+    VAL338S: RSV
+    VAL339L: Borrelia burgdorferi valence, unspecified
+    VAL339S: Lyme
+    VAL340L: Anthrax valence, unspecified
+    VAL340S: Anthrax
+    VAL341L: Escherichia coli valence, unspecified
+    VAL341S: Eco
+    VAL342L: Klebsiella pneumoniæ valence, unspecified
+    VAL342S: Kpn
+    VAL343L: Enterococcus faecalis valence, unspecified
+    VAL343S: Efa
+    VAL344L: Proteus vulgaris valence, unspecified
+    VAL344S: Pvu
+    VAL345L: Urinary tract infections valence, unspecified
+    VAL345S: UTI
+    VAL346L: Enterovirus A71 valence
+    VAL346S: EV71
+    VAL347L: Leptospira canicola valence, inactivated, whole-cell
+    VAL347S: Lepto-ca
+    VAL348L: Leptospira pomona valence, inactivated whole-cell
+    VAL348S: Lepto-po
+    VAL349L: Influenza valence, trivalent, inactivated, fractionated or subunit, adjuvanted
+    VAL349S: INF-SUAnd3
+    VAL350L: Influenza valence, quadrivalent, inactivated, fractionated or subunit,
+      adjuvanted, normal dose
+    VAL350S: INF-SUAnd4
+    VAL351L: Influenza valence, trivalent, virosomal, unspecified
+    VAL351S: INF-V3
+    VAL352L: Influenza valence, quadrivalent, virosomal, unspecified
+    VAL352S: INF-V4
+    VAL353L: Pneumococcal valence, polysaccharide conjugate, serotype 2
+    VAL353S: PCV-02
+    VAL354L: Pneumococcal valence, polysaccharide conjugate, serotype 9N
+    VAL354S: PCV-9N
+    VAL355L: Pneumococcal valence, polysaccharide conjugate, serotype 17F
+    VAL355S: PCV-17F
+    VAL356L: Pneumococcal valence, polysaccharide conjugate, serotype 20
+    VAL356S: PCV-20
+    VAL357L: Cholera valence, live attenuated, oral
+    VAL357S: CHOL-LA-O
+    VAL358L: Botulism valence, immunoglobulin
+    VAL358S: BIG
+    VAL359L: Cholera valence, inactivated, whole-cell, unspecified
+    VAL359S: CHOL-I
+    VAL360L: Influenza valence, inactivated, obtained from cell culture, split or
+      subunit, standard dose, unspecified
+    VAL360S: INF-CC
+    VAL361L: Influenza valence, recombinant, unspecified
+    VAL361S: INF-R
+    VAL362L: Influenza valence, virosomal, unspecified
+    VAL362S: INF-V
+    VAL363L: Influenza valence, trivalent, VLP, unspecified
+    VAL363S: INF-VLP3
+    VAL364L: Influenza valence, non-live, unspecified
+    VAL364S: INF-NL
+    VAL365L: Influenza valence, non-live, obtained from egg culture, unspecified
+    VAL365S: INF-E
+    VAL366L: Influenza valence, RNA-based, unspecified
+    VAL366S: INF-RNA
+    VAL367L: Cholera valence, V. cholerae O1, inactivated, whole-cell, oral
+    VAL367S: CHOL-I-O1-O
+    VAL368L: Cholera valence, V. cholerae O139, inactivated, whole-cell, oral
+    VAL368S: CHOL-I-O139-O
+    VAL369L: Pneumococcal valence, polysaccharide conjugate, serotype 15A
+    VAL369S: PCV-15A
+    VAL370L: Pneumococcal valence, polysaccharide conjugate, serotype 15C
+    VAL370S: PCV-15C
+    VAL371L: Pneumococcal valence, polysaccharide conjugate, serotype 16C
+    VAL371S: PCV-16F
+    VAL372L: Pneumococcal valence, polysaccharide conjugate, serotype 20A
+    VAL372S: PCV-20A
+    VAL373L: Pneumococcal valence, polysaccharide conjugate, serotype 23A
+    VAL373S: PCV-23A
+    VAL374L: Pneumococcal valence, polysaccharide conjugate, serotype 23B
+    VAL374S: PCV-23B
+    VAL375L: Pneumococcal valence, polysaccharide conjugate, serotype 24F
+    VAL375S: PCV-24F
+    VAL376L: Pneumococcal valence, polysaccharide conjugate, serotype 31
+    VAL376S: PCV-31
+    VAL377L: Pneumococcal valence, polysaccharide conjugate, serotype 35B
+    VAL377S: PCV-35B
+    VAL378L: Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg),
+      15 micrograms
+    VAL378S: rHBsAg-15
+    VAL379L: COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2
+      spike protein, 30 micrograms
+    VAL379S: COVID-mRNA-S-OMI-JN.1-30
+    VAL380L: COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2
+      spike protein, 10 micrograms
+    VAL380S: COVID-mRNA-S-OMI-JN.1-10
+    VAL381L: COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2
+      spike protein, 3 micrograms
+    VAL381S: COVID-mRNA-S-OMI-JN.1-3
+    VAL382L: COVID-19 valence, protein subunit, recombinant spike protein in nanoparticles,
+      sub-variant Omicron JN.1
+    VAL382S: COVID-PS-rSnp-JN.1
+    VAL383L: RSV valence, Single-stranded 5' capped mRNA encoding the RSV glycoprotein
+      F stabilized in the prefusion conformation
+    VAL383S: mRSV
+    VAL384L: Leprosy valence, unspecified
+    VAL384S: LEP
+    VAL385L: Avian influenza A(H5N8) valence
+    VAL385S: AH5N8
+    VAL386L: Avian influenza A(H5) valence, unspecified
+    VAL386S: AH5
+    VAL387L: COVID-19 valence,  Omicron variant JN.1, mRNA encoding the SARS-CoV-2
+      spike protein, 25 micrograms
+    VAL387S: COVID-mRNA-S-OMI-JN.1-25
+    VAL388L: COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2
+      spike protein, 50 micrograms
+    VAL388S: COVID-mRNA-S-OMI-JN.1-50
+    VAL389L: Pseudomonas aeruginosa valence, 7 immunotypes
+    VAL389S: PAER7
+    VAL390L: Chikungunya virus valence, unspecified
+    VAL390S: CHIK
+    VAL391L: Chikungunya virus valence, VLP
+    VAL391S: Chik-VLP
+    VAL392L: Avian influenza valence, mRNA
+    VAL392S: AH5N1-RNA
+    VAL393L: COVID-19 valence, Omicron BA.1 variant, mRNA encoding the SARS-CoV-2
+      spike protein
+    VAL393S: COVID-mRNA-S-OMI-BA.1
+    VAL394L: COVID-19 valence, Omicron variant BA.4/BA.5, mRNA encoding the SARS-CoV-2
+      spike protein
+    VAL394S: COVID-mRNA-S-OMI-BA.4/5
+    VAL395L: COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2
+      spike protein
+    VAL395S: COVID-mRNA-S-OMI-JN.1
+    VAL396L: COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2
+      spike protein
+    VAL396S: COVID-mRNA-S-OMI-XBB.1.5
+    VAL397L: COVID-19 valence, non-replicating viral vector encoding the peak protein
+      of SARS-CoV-2, unspecified
+    VAL397S: COVID-VVnr-S
+    VAL398L: COVID-19 valence, replicating viral vector, virus encoding the spike
+      protein of SARS-CoV-2
+    VAL398S: COVID-VVr-S
+    VAL399L: Typhoid valence, Vi antigen conjugated to tetanus toxoid
+    VAL399S: Ty-ViC-T
+    VAL400L: Typhoid valence, Vi antigen conjugated to CRM197 protein
+    VAL400S: Ty-ViC-CRM
+    VAL401L: Japanese encephalitis valence, inactivated, whole-virus, derived from
+      Vero cells, 3 micrograms
+    VAL401S: EJ-I-Vero-3
+    VAL402L: Japanese encephalitis valence, inactivated, whole-virus, derived from
+      Vero cells, 6 micrograms
+    VAL402S: EJ-I-Vero-6
+    VAL403L: Meningococcal X valence, unspecified
+    VAL403S: MenX
+    VAL404L: Meningococcal X valence, polysaccharide conjugate
+    VAL404S: MCV-X
+    VAL405L: Influenza valence, live attenuated, pandemic influenza H1N1 2009
+    VAL405S: INF-pdm09-V
+    VAL406L: COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2
+      spike protein
+    VAL406S: COVID-mRNA-S-OMI-KP.2
+    VAL407L: COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2
+      spike protein, 3 micrograms
+    VAL407S: COVID-mRNA-S-OMI-KP.2-3
+    VAL408L: COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2
+      spike protein, 10 micrograms
+    VAL408S: COVID-mRNA-S-OMI-KP.2-10
+    VAL409L: COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2
+      spike protein, 30 micrograms
+    VAL409S: COVID-mRNA-S-OMI-KP.2-30
+    VAL410L: COVID-19 valence, protein subunit, recombinant N protein
+    VAL410S: COVID-PS-rN
+    VAL411L: COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2
+      spike protein, 50 micrograms
+    VAL411S: COVID-mRNA-S-OMI-BA.4/5-50
+    VAL412L: COVID-19 valence, Omicron variant BA.1, mRNA encoding the SARS-CoV-2
+      spike protein, 50 micrograms
+    VAL412S: COVID-mRNA-S-OMI-BA.1-50
+    VAL413L: COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron
+      XBB.1.16 subvariant
+    VAL413S: COVID-PS-rRBD-XBB.1.16
+    VAL414L: Diphtheria valence, unspecified
+    VAL414S: DIPH
+    VAL415L: Anthrax valence, acellular, adjuvanted
+    VAL415S: BantAdj
+    VAL416L: COVID-19 valence, protein subunit, recombinant spike protein, adjuvanted
+    VAL416S: COVID-PS-rS-A
+    VAL417L: COVID-19 valence, Omicron BA.2 variant, mRNA encoding the SARS-CoV-2
+      spike protein
+    VAL417S: COVID-mRNA-S-OMI-BA.2
+    VAL418L: Smallpox valence, active or passive immunization products
+    VAL418S: POX
+    VAL419L: Botulism valence, active or passive immunization products
+    VAL419S: BOT
+    VAL420L: Botulism valence, passive immunization products
+    VAL420S: BOT-passive
+    VAL421L: Argentine hemorrhagic fever valence, Junin virus, unspecified
+    VAL421S: Junin
+    VAL422L: Plague valence, unspecified
+    VAL422S: Yp
