@@ -6,7 +6,13 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomp
   inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine
 created: '2021-07-19'
 codes:
+  ATC: J07CA09
+  CPT: '90697'
+  CVC: '7731000087108'
+  CVX: '146'
+  ICD11: XM84S1
   NUVACode: '0552'
+  SNOMED-CT: '2101000221107'
 valences:
 - VAL008
 - VAL056

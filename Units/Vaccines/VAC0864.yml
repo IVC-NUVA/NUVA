@@ -3,6 +3,10 @@ label: Varicella-Zoster immunoglobulin, unspecified
 comment: Varicella-Zoster immunoglobulin
 created: '2022-03-15'
 codes:
+  ATC: J06BB03
+  CPT: '90396'
+  CVC: '62294009'
+  CVX: '36'
   NUVACode: 0864
 valences:
 - VAL088

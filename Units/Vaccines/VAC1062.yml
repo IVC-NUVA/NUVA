@@ -3,6 +3,8 @@ label: CMV immune globulin
 comment: Cytomegalovirus immune globulin, intravenous
 created: '2024-03-18'
 codes:
+  CVC: '9778000'
+  CVX: '29'
   NUVACode: '1062'
 valences:
 - VAL331

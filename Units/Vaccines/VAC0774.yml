@@ -3,6 +3,10 @@ label: FSME-IMMUN 0,25 mL
 comment: Tick-borne encephalitis vaccine, whole-virus inactivated, pediatric dose
 created: '2021-07-19'
 codes:
+  CNK: '3308285'
+  CTI: '276841'
+  CTI-EXTEND: 276841-02
+  INFARMED: '5368485'
   NUVACode: '0774'
 valences:
 - VAL315

@@ -3,6 +3,10 @@ label: Cholera vaccine, unspecified
 comment: Cholera vaccine, unspecified
 created: '2021-07-19'
 codes:
+  CPT: '90725'
+  CVC: '35736007'
+  CVX: '26'
   NUVACode: '0144'
+  SNOMED-CT: '991000221105'
 valences:
 - VAL081

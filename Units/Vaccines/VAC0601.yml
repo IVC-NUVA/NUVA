@@ -4,7 +4,12 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (whole-
   inactivated or acellular, unspecified dose) pediatric vaccine
 created: '2021-07-19'
 codes:
+  CPT: '90701'
+  CVC: '7831000087100'
+  CVX: '01'
+  ICD11: XM1PB8
   NUVACode: '0601'
+  SNOMED-CT: '871875004'
 valences:
 - VAL003
 - VAL067

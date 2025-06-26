@@ -3,7 +3,13 @@ label: HepB-Hib, unspecified
 comment: Haemophilus influenzae type b and hepatitis B vaccine
 created: '2021-10-26'
 codes:
+  ATC: J07CA08
+  CPT: '90748'
+  CVC: '426971004'
+  CVX: '51'
+  ICD11: XM32L7
   NUVACode: 0801
+  SNOMED-CT: '871806004'
 valences:
 - VAL103
 - VAL114

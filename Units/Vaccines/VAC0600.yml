@@ -4,7 +4,12 @@ comment: Polio vaccine (live attenuated, bivalent) against poliovirus types 1 an
   3, oral
 created: '2021-07-19'
 codes:
+  AIC: '041165010'
+  ATC: J07BF04
+  CVX: '178'
+  ICD11: XM79H3
   NUVACode: '0600'
+  SNOMED-CT: '1051000221104'
 valences:
 - VAL085
 - VAL132

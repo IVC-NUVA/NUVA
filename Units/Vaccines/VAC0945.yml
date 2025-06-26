@@ -3,6 +3,9 @@ label: Meningococcal vaccine serogroup unknown, unspecified
 comment: Meningococcal vaccine, unspecified serogroup
 created: '2022-05-18'
 codes:
+  CVC: '423531006'
+  CVX: '167'
   NUVACode: 0945
+  SNOMED-CT: '921000221108'
 valences:
 - VAL234

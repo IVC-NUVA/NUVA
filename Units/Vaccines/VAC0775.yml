@@ -5,7 +5,9 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cel
   vaccine
 created: '2021-07-19'
 codes:
+  ATC: J07AG51
   NUVACode: '0775'
+  SNOMED-CT: '2071000221100'
 valences:
 - VAL010
 - VAL067

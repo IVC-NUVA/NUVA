@@ -3,6 +3,11 @@ label: Pneumococcal conjugate vaccine, serotypes unspecified
 comment: Pneumococcal polysaccharide conjugate vaccine, number of serotypes unspecified
 created: '2021-10-26'
 codes:
+  ATC: J07AL02
+  CVC: '7261000087106'
+  CVX: '152'
+  ICD11: XM96S7
   NUVACode: 0814
+  SNOMED-CT: '1801000221105'
 valences:
 - VAL184

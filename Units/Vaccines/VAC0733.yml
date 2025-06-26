@@ -3,6 +3,11 @@ label: HEPLISAV-B
 comment: Recombinant hepatitis B vaccine, adult dose
 created: '2021-07-19'
 codes:
+  CPT: '90739'
+  CTI: '661896'
+  CTI-EXTEND: 661896-01
+  EU-NUMBER: EU-1-20-1503-001
+  NDC: 50090-3469-00
   NUVACode: '0733'
 valences:
 - VAL115

@@ -4,7 +4,9 @@ comment: Inactivated whole-cell cholera vaccine for injection combined with inac
   whole-cell typhoid vaccine
 created: '2021-10-26'
 codes:
+  ATC: J07AE51
   NUVACode: 0807
+  SNOMED-CT: XM1FT6
 valences:
 - VAL004
 - VAL071

@@ -5,6 +5,9 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomp
   type b pediatric vaccine
 created: '2023-06-29'
 codes:
+  CTI: '193961'
+  CTI-EXTEND: 193961-01
+  INFARMED: '2858082'
   NUVACode: '1045'
 valences:
 - VAL008

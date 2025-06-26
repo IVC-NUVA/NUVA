@@ -3,6 +3,11 @@ label: Inactivated Polio vaccine, unspecified
 comment: Inactivated polio (trivalent) vaccine
 created: '2021-07-19'
 codes:
+  ATC: J07BF03
+  CPT: '90713'
+  CVC: '125688000'
+  CVX: '324'
   NUVACode: '0270'
+  SNOMED-CT: '871740006'
 valences:
 - VAL056

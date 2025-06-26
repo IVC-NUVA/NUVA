@@ -3,6 +3,9 @@ label: Inactivated whole influenza vaccine, unspecified
 comment: Whole virion inactivated seasonal influenza vaccine
 created: '2021-10-26'
 codes:
+  ATC: J07BB01
+  CPT: '90659'
+  CVX: '16'
   NUVACode: 0820
 valences:
 - VAL152

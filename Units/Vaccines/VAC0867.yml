@@ -3,6 +3,10 @@ label: Diphtheria antitoxin, unspecified
 comment: Diphtheria antitoxin
 created: '2022-03-17'
 codes:
+  ATC: J06AA01
+  CPT: '90296'
+  CVC: '77048008'
+  CVX: '12'
   NUVACode: 0867
 valences:
 - VAL019

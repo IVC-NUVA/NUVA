@@ -3,7 +3,13 @@ label: MMRV - Measles-Mumps-Rubella-Varicella vaccine, unspecified
 comment: Live attenuated measles, mumps, rubella and chickenpox vaccine
 created: '2021-10-26'
 codes:
+  ATC: J07BD54
+  CPT: '90710'
+  CVC: '419550004'
+  CVX: '94'
+  ICD11: XM4AJ8
   NUVACode: 0827
+  SNOMED-CT: '871908002'
 valences:
 - VAL005
 - VAL044

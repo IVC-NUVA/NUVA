@@ -3,6 +3,11 @@ label: Meningococcal conjugate vaccine C, unspecified
 comment: Meningococcal polysaccharide conjugate vaccine, serogroup C
 created: '2021-07-19'
 codes:
+  ATC: J07AH07
+  CVC: '359068008'
+  CVX: '103'
+  ICD11: XM18Y8
   NUVACode: '0150'
+  SNOMED-CT: '951000221102'
 valences:
 - VAL057

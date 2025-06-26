@@ -3,6 +3,12 @@ label: Yellow fever vaccine, unspecified
 comment: Live attenuated yellow fever vaccine
 created: '2021-07-19'
 codes:
+  ATC: J07BL01
+  CPT: '90717'
+  CVC: '56844000'
+  CVX: '37'
+  ICD11: XM3418
   NUVACode: '0111'
+  SNOMED-CT: '871717007'
 valences:
 - VAL092
