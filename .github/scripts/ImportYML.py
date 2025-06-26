@@ -19,12 +19,14 @@ BaseURI="http://ivci.org/NUVA"
 DiseasesParent=URIRef(BaseURI+"/Disease")
 VaccinesParent=URIRef(BaseURI+"/Vaccine")
 ValencesParent=URIRef(BaseURI+"/Valence")
+CodesParent=URIRef(BaseURI+"/Code")
 
 isAbstract=URIRef(BaseURI+"/nuvs#isAbstract")
 containsValence=URIRef(BaseURI+"/nuvs#containsValence")
+prevents = URIRef(BaseURI+"/nuvs#prevents")
 
 
-nuva_file = urlopen("https://ivci.org/nuva/nuva_core.ttl")
+nuva_file = urlopen("https://ivci.org/nuva/nuva_full.ttl")
 g = Graph()
 g.parse(nuva_file.read())
 
@@ -33,8 +35,14 @@ labels = {lang : {'disease':{}, 'vaccine':{}, 'valence':{}}}
 for disease in g.subjects(RDFS.subClassOf,DiseasesParent):
     # Update labels
     label = lang_txt(disease,RDFS.label)
-    notation = g.value(disease,SKOS.notation)
-    labels[lang]['disease'][f'{notation}L'] = label
+    id = str(g.value(disease,SKOS.notation))
+    created = str(g.value(disease,DCTERMS.created))
+    labels[lang]['disease'][f'{id}L'] = label
+    # Build and save
+    record = {'label': label, 'created': created}
+    with open (f'Units/Targets/{id}.yml','w',encoding='utf-8') as ymlfile:
+        yaml.dump(record,ymlfile,allow_unicode = True, sort_keys = False)
+    
 
 for vaccine in g.subjects(RDFS.subClassOf,VaccinesParent):
     # Notation and external codes
@@ -55,7 +63,6 @@ for vaccine in g.subjects(RDFS.subClassOf,VaccinesParent):
     for val in g.objects(vaccine,containsValence):
         valences.append(ref(val))
 
-    # Build and save
     record = {'abstract': abstract, 'label': label, 'comment': comment, 'created': created, 'codes': codes, 'valences': valences}
     with open (f'Units/Vaccines/{id}.yml','w',encoding='utf-8') as ymlfile:
         yaml.dump(record,ymlfile,allow_unicode = True, sort_keys = False)
@@ -71,18 +78,22 @@ for valence in g.subjects(RDFS.subClassOf,ValencesParent):
     created = str(g.value(valence,DCTERMS.created))
     label = lang_txt(valence,RDFS.label)
     shorthand = lang_txt(valence,SKOS.altLabel)
+    target = str(g.value(g.value(valence,prevents),SKOS.notation))
 
-    parent = "None"
-    for vsup in g.objects(valence,RDFS.subClassOf):
-        if vsup != ValencesParent:
-            parent = ref(vsup)
+    parent = ref(g.value(valence,RDFS.subClassOf))
 
-    record = {'label': label, 'created': created, 'shorthand': shorthand, 'parent': parent}
+    record = {'label': label, 'created': created, 'shorthand': shorthand, 'parent': parent, 'target': target}
     with open (f'Units/Valences/{id}.yml','w',encoding='utf-8') as ymlfile:
         yaml.dump(record,ymlfile,allow_unicode = True, sort_keys = False)
     # Update labels
     labels[lang]['valence'][f'{id}L'] = label
     labels[lang]['valence'][f'{id}S'] = shorthand
+
+for codeSystem in g.subjects(RDFS.subClassOf, CodesParent):
+    label = g.value(codeSystem,RDFS.label)
+    record = {'description': f'To be completed for code system {label}'}
+    with open (f'Units/CodeSystems/{label}.yml','w',encoding='utf-8') as ymlfile:
+        yaml.dump(record,ymlfile,allow_unicode = True, sort_keys = False)
 
 with open ('Units/import.txt','w',encoding='utf-8') as importfile:
     version = g.value(URIRef(BaseURI),OWL.versionInfo)
