@@ -1,7 +1,7 @@
 from rdflib import *
 import yaml,csv
 import sys, os, pathlib
-from time import gmtime,strftime
+from datetime import datetime
 
 nuva_void="""
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -48,6 +48,8 @@ nuva:NUVACode a owl:Class ;
 	rdfs:comment "The numeric value for a NUVA vaccine concept"@en ;
     rdfs:subClassOf nuva:Code .
 """
+BaseURI="http://ivci.org/NUVA"
+
 core = Graph()
 core.parse(data = nuva_void)
 full = Graph()
@@ -58,24 +60,39 @@ full.bind("nuvs",NUVS)
 full.bind("nuva",NUVA)
 
 def loadUnits(type,directory):
+    print (f'Loading {type} units')
     files = pathlib.Path(f'Units/{type}').rglob('*.yml')
 
     for file in files:
-        print(file.stem)
         with open(file,encoding='utf-8') as data:
             directory[file.stem] = yaml.safe_load(data)
     
-def addClass(ref,parent,label,comment,notation,created, localized):
+def addClass(ref,parent,label,comment,notation,created, modified, localized):
     core.add((ref,RDF.type, OWL.Class))
     core.add((ref,RDFS.subClassOf,parent))
     core.add((ref,DCTERMS.created,Literal(created,datatype = XSD.date)))
+    core.add((ref,DCTERMS.modified,Literal(modified,datatype = XSD.date)))
     if localized: litLabel = Literal(label,lang='en')
     else:         litLabel = Literal(label)
     core.add((ref,RDFS.label,litLabel))
     if comment: core.add((ref,RDFS.comment,Literal(comment,lang = 'en')))
     if notation: core.add((ref,SKOS.notation,Literal(notation)))
 
-BaseURI="http://ivci.org/NUVA"
+def setVersion(level):
+    if (level == 'dry-run'): return
+
+    with open('Release/Version.yml') as data:
+        versioning = yaml.safe_load(data)
+
+    if (level == 'minor'): versioning['Iteration'] += 1
+    if (level == 'major'): versioning['Edition'] += 1
+    versioning['Date'] = datetime.now().replace(second=0,microsecond=0)
+
+    with open ('Release/Version.yml','w',encoding='utf-8') as ymlfile:
+        yaml.dump(versioning,ymlfile,allow_unicode = True, sort_keys = False)
+
+    core.add((URIRef(BaseURI),OWL.versionInfo,Literal(f'{versioning["Version"]}.{versioning["Edition"]}.{versioning["Iteration"]}')))
+
 DiseasesParent=URIRef(BaseURI+"/Disease")
 VaccinesParent=URIRef(BaseURI+"/Vaccine")
 ValencesParent=URIRef(BaseURI+"/Valence")
@@ -96,13 +113,15 @@ loadUnits("Valences",Valences)
 loadUnits("Targets",Targets)
 loadUnits("CodeSystems",CodeSystems)
 
+setVersion(sys.argv[1])
+
 for code,data in Targets.items():
     Target = URIRef(f'{BaseURI}/{code}')
-    addClass(Target,DiseasesParent,data['label'],None, None,data['created'],True)
+    addClass(Target,DiseasesParent,data['label'],None, None,data['created'],data['modified'], True)
 
 for codeSystem in CodeSystems.keys():
     Codes[codeSystem] = {}
-    uri = URIRef(f'BaseURI/{codeSystem}')
+    uri = URIRef(f'{BaseURI}/{codeSystem}')
     full.add((uri,RDF.type, OWL.Class))
     full.add((uri,RDFS.subClassOf,CodeSystemsParent))
     full.add((uri,RDFS.label,Literal(codeSystem)))
@@ -110,10 +129,12 @@ for codeSystem in CodeSystems.keys():
 
 for code,data in Vaccines.items():
     Vaccine=URIRef(f'{BaseURI}/{code}')
-    addClass(Vaccine,VaccinesParent,data['label'],data.get('comment',None),code,data['created'], data['abstract'])
+    addClass(Vaccine,VaccinesParent,data['label'],data.get('comment',None),code,data['created'], data['modified'], data['abstract'])
     core.add((Vaccine,isAbstract,Literal(data['abstract'],datatype=XSD.boolean)))
     for valence in data['valences']:
         core.add((Vaccine,containsValence,URIRef(f'{BaseURI}/{valence}')))
+    NUVACode=data['codes']['NUVACode']
+    core.add((Vaccine,SKOS.notation,Literal(NUVACode,datatype=URIRef(f'{BaseURI}/NUVACode'))))
     for system,value in data['codes'].items():
         if system in CodeSystems.keys():
             full.add((Vaccine,SKOS.notation,Literal(value,datatype=URIRef(f'{BaseURI}/{system}'))))
@@ -122,14 +143,16 @@ for code,data in Vaccines.items():
 for code,data in Valences.items():
     Valence = URIRef(f'{BaseURI}/{code}')
     VParent = URIRef(f'{BaseURI}/{data["parent"]}')
-    addClass(Valence,VParent,data['label'],data.get('comment',None),code,data['created'],True)
+    addClass(Valence,VParent,data['label'],data.get('comment',None),code,data['created'],data['modified'],True)
     core.add((Valence,prevents,URIRef(f'{BaseURI}/{data["target"]}')))
 
 full += core
 
+print("Creating the RDF files")
 core.serialize(destination="Release/NUVA/nuva_core.ttl")
 full.serialize(destination="Release/NUVA/nuva_full.ttl")
 
+print("Creating the alignment files")
 for codeSystem in CodeSystems.keys():
     with open(f'Release/Alignments/{codeSystem}.csv','w',encoding='utf-8-sig',newline='') as csvfile:
         writer = csv.DictWriter(csvfile,fieldnames=[codeSystem, "NUVA", "Label"],delimiter=';')

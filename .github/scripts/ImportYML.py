@@ -37,9 +37,10 @@ for disease in g.subjects(RDFS.subClassOf,DiseasesParent):
     label = lang_txt(disease,RDFS.label)
     id = str(g.value(disease,SKOS.notation))
     created = str(g.value(disease,DCTERMS.created))
+    modified = str(g.value(disease,DCTERMS.modified))
     labels[lang]['disease'][f'{id}L'] = label
     # Build and save
-    record = {'label': label, 'created': created}
+    record = {'label': label, 'created': created, 'modified': modified}
     with open (f'Units/Targets/{id}.yml','w',encoding='utf-8') as ymlfile:
         yaml.dump(record,ymlfile,allow_unicode = True, sort_keys = False)
     
@@ -55,6 +56,7 @@ for vaccine in g.subjects(RDFS.subClassOf,VaccinesParent):
             codes[codesystem] = str(n)
     
     created = str(g.value(vaccine,DCTERMS.created))
+    modified = str(g.value(vaccine,DCTERMS.modified))
     abstract = bool(g.value(vaccine,isAbstract))
     label = lang_txt(vaccine,RDFS.label)
     comment = lang_txt(vaccine,RDFS.comment)
@@ -63,7 +65,7 @@ for vaccine in g.subjects(RDFS.subClassOf,VaccinesParent):
     for val in g.objects(vaccine,containsValence):
         valences.append(ref(val))
 
-    record = {'abstract': abstract, 'label': label, 'comment': comment, 'created': created, 'codes': codes, 'valences': valences}
+    record = {'abstract': abstract, 'label': label, 'comment': comment, 'created': created, 'modified': modified,'codes': codes, 'valences': valences}
     with open (f'Units/Vaccines/{id}.yml','w',encoding='utf-8') as ymlfile:
         yaml.dump(record,ymlfile,allow_unicode = True, sort_keys = False)
     # Update labels for translations
@@ -76,13 +78,14 @@ for vaccine in g.subjects(RDFS.subClassOf,VaccinesParent):
 for valence in g.subjects(RDFS.subClassOf,ValencesParent):
     id = str(g.value(valence,SKOS.notation))
     created = str(g.value(valence,DCTERMS.created))
+    modified = str(g.value(valence,DCTERMS.modified))
     label = lang_txt(valence,RDFS.label)
     shorthand = lang_txt(valence,SKOS.altLabel)
     target = str(g.value(g.value(valence,prevents),SKOS.notation))
 
     parent = ref(g.value(valence,RDFS.subClassOf))
 
-    record = {'label': label, 'created': created, 'shorthand': shorthand, 'parent': parent, 'target': target}
+    record = {'label': label, 'created': created, 'modified': modified, 'shorthand': shorthand, 'parent': parent, 'target': target}
     with open (f'Units/Valences/{id}.yml','w',encoding='utf-8') as ymlfile:
         yaml.dump(record,ymlfile,allow_unicode = True, sort_keys = False)
     # Update labels
@@ -91,8 +94,9 @@ for valence in g.subjects(RDFS.subClassOf,ValencesParent):
 
 for codeSystem in g.subjects(RDFS.subClassOf, CodesParent):
     label = g.value(codeSystem,RDFS.label)
-    record = {'description': f'To be completed for code system {label}'}
-    with open (f'Units/CodeSystems/{label}.yml','w',encoding='utf-8') as ymlfile:
+    if label:
+      record = {'description': f'To be completed for code system {label}'}
+      with open (f'Units/CodeSystems/{label}.yml','w',encoding='utf-8') as ymlfile:
         yaml.dump(record,ymlfile,allow_unicode = True, sort_keys = False)
 
 with open ('Units/import.txt','w',encoding='utf-8') as importfile:
