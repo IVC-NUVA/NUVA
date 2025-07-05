@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "1.1.0" .
+    owl:versionInfo "1.0.0" .
 
 nuva:AIC a owl:Class ;
     rdfs:label "AIC" ;
@@ -7514,11 +7514,11 @@ nuva:VAC0535 a owl:Class ;
         "VAC0535" .
 
 nuva:VAC0538 a owl:Class ;
-    rdfs:label "VACCIN BCG SYNTHAVERSE" ;
+    rdfs:label "VACCIN BCG BIOMED-LUBLIN" ;
     nuvs:containsValence nuva:VAL096 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-02"^^xsd:date ;
+    dcterms:modified "2025-06-27"^^xsd:date ;
     rdfs:comment "Tuberculosis vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "0538"^^nuva:NUVACode,
@@ -7651,7 +7651,7 @@ nuva:VAC0546 a owl:Class ;
         nuva:VAL067 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-24"^^xsd:date ;
+    dcterms:modified "2025-06-20"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (low dose), tetanus toxoid and inactivated polio (trivalent) vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400936875753"^^nuva:CIP,
