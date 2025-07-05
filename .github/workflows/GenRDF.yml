@@ -1,5 +1,5 @@
 name: Generate RDF files
-run-name: Creating files
+run-name: Creating RDF files
 on: 
   workflow_dispatch:
     inputs:
@@ -8,36 +8,48 @@ on:
         description: 'The reason for running the action'
         options:
           - 'dry-run'
-          - 'minor'
-          - major
+          - 'release'       
         required: true
       message:
         description: 'The commit message'
-        required: true
+      version:
+        description: "The version to release"
 jobs:
   Create_Files:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:     
+      - name: Check if complete      
+        run: |
+          if [ ${{github.event.inputs.reason}} != 'dry-run' ]; then
+            if [ "${{ github.event.inputs.message}}" == "" ]; then
+              echo "Missing commit message for a release"
+              exit 1
+            fi
+            if [ "${{github.event.inputs.version}}" == "" ]; then
+              echo "Missing version for a release"
+              exit 1
+            fi
+          fi
       - name: Check out repository code
         uses: actions/checkout@v4
-      - run: echo " The selected reason is ${{ github.event.inputs.reason}}"
-      - run: echo " The entered message is ${{ github.event.inputs.message}}"
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
       - run: pip install rdflib PyYAML
       - run: pwd
-      - run: python3 ${{github.workspace}}/.github/scripts/GenRDF.py ${{ github.event.inputs.reason}}
-      - run: echo "🍏 This job's status is ${{ job.status }}."
-      - name: Commit report
+      - run: python3 ${{github.workspace}}/.github/scripts/GenRDF.py ${{ github.event.inputs.version}}
+      - name: Commit
+        if: github.event.inputs.reason != 'dry-run'
+        env:
+          GH_TOKEN: ${{github.token}}
         run: |
-          if [ ${{github.event.inputs.reason}} != 'dry-run' ]; then
             git config --global user.name 'fkaag71'
             git config --global user.email 'francois.kaag@cardynal.fr'
             git add -A
-            git commit -am "${{ github.event.inputs.message}}"
+            git commit -am "${{ github.event.inputs.message}}"       
             git push
-          fi
+            gh release create "${{github.event.inputs.version}}" \
+              --generate-notes

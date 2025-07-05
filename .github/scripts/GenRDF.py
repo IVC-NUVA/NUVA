@@ -78,21 +78,6 @@ def addClass(ref,parent,label,comment,notation,created, modified, localized):
     if comment: core.add((ref,RDFS.comment,Literal(comment,lang = 'en')))
     if notation: core.add((ref,SKOS.notation,Literal(notation)))
 
-def setVersion(level):
-    if (level == 'dry-run'): return
-
-    with open('Release/Version.yml') as data:
-        versioning = yaml.safe_load(data)
-
-    if (level == 'minor'): versioning['Iteration'] += 1
-    if (level == 'major'): versioning['Edition'] += 1
-    versioning['Date'] = datetime.now().replace(second=0,microsecond=0)
-
-    with open ('Release/Version.yml','w',encoding='utf-8') as ymlfile:
-        yaml.dump(versioning,ymlfile,allow_unicode = True, sort_keys = False)
-
-    core.add((URIRef(BaseURI),OWL.versionInfo,Literal(f'{versioning["Version"]}.{versioning["Edition"]}.{versioning["Iteration"]}')))
-
 DiseasesParent=URIRef(BaseURI+"/Disease")
 VaccinesParent=URIRef(BaseURI+"/Vaccine")
 ValencesParent=URIRef(BaseURI+"/Valence")
@@ -112,8 +97,6 @@ loadUnits("Vaccines",Vaccines)
 loadUnits("Valences",Valences)
 loadUnits("Targets",Targets)
 loadUnits("CodeSystems",CodeSystems)
-
-setVersion(sys.argv[1])
 
 for code,data in Targets.items():
     Target = URIRef(f'{BaseURI}/{code}')
@@ -146,6 +129,12 @@ for code,data in Valences.items():
     addClass(Valence,VParent,data['label'],data.get('comment',None),code,data['created'],data['modified'],True)
     core.add((Valence,prevents,URIRef(f'{BaseURI}/{data["target"]}')))
 
+if (len(sys.argv)>1):
+    version = sys.argv[1]
+else:
+    version = "Unknown"
+
+core.add((URIRef(BaseURI),OWL.versionInfo,Literal(version)))
 full += core
 
 print("Creating the RDF files")
