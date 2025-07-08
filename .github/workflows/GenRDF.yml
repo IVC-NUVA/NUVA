@@ -8,12 +8,11 @@ on:
         description: 'The reason for running the action'
         options:
           - 'dry-run'
+          - 'build'
           - 'release'       
         required: true
       message:
         description: 'The commit message'
-      version:
-        description: "The version to release"
 jobs:
   Create_Files:
     runs-on: ubuntu-latest
@@ -24,32 +23,52 @@ jobs:
         run: |
           if [ ${{github.event.inputs.reason}} != 'dry-run' ]; then
             if [ "${{ github.event.inputs.message}}" == "" ]; then
-              echo "Missing commit message for a release"
-              exit 1
-            fi
-            if [ "${{github.event.inputs.version}}" == "" ]; then
-              echo "Missing version for a release"
+              echo "Missing commit message for a build or release"
               exit 1
             fi
           fi
       - name: Check out repository code
         uses: actions/checkout@v4
+      - name: Determine next version
+        shell: bash
+        run: |
+          version=$(cat "${{github.workspace}}/Release/version")
+          major=0
+          minor=0
+          build=0          
+          regex="([0-9]+).([0-9]+).([0-9]+)"
+          if [[ $version =~ $regex ]]; then
+            major="${BASH_REMATCH[1]}"
+            minor="${BASH_REMATCH[2]}"
+            build="${BASH_REMATCH[3]}"
+          fi
+          if [[ "${{github.event.inputs.reason}}" == "release" ]]; then
+            minor=$(echo $minor + 1 | bc)
+            build=0
+          elif [[ "${{github.event.inputs.reason}}" == "build" ]]; then
+            build=$(echo $build + 1 | bc)
+          fi          
+          echo "version=${major}.${minor}.${build}">>$GITHUB_ENV      
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
       - run: pip install rdflib PyYAML
-      - run: pwd
-      - run: python3 ${{github.workspace}}/.github/scripts/GenRDF.py ${{ github.event.inputs.version}}
+      - run: python3 ${{github.workspace}}/.github/scripts/GenRDF.py ${{env.version}}
+      - name: Write to version file
+        run: echo ${{env.version}} >  "${{github.workspace}}/Release/version"      
       - name: Commit
         if: github.event.inputs.reason != 'dry-run'
-        env:
-          GH_TOKEN: ${{github.token}}
         run: |
-            git config --global user.name 'fkaag71'
-            git config --global user.email 'francois.kaag@cardynal.fr'
+            git config --global user.name ${{ github.actor }}
+            git config --global user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"            
             git add -A
             git commit -am "${{ github.event.inputs.message}}"       
-            git push
-            gh release create "${{github.event.inputs.version}}" \
-              --generate-notes
+            git push      
+      - name: Release
+        if: github.event.inputs.reason == 'release'
+        env:
+          GH_TOKEN: ${{github.token}}
+        run: |     
+            gh release create "${{env.version}}" \
+              --generate-notes              
