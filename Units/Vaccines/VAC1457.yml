@@ -1,0 +1,13 @@
+abstract: false
+label: TETRA-SOLGEN
+comment: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis
+  (whole inactivated), and polio (whole inactivated, trivalent) vaccine
+created: '2025-07-29'
+modified: '2025-07-29'
+codes:
+  NUVACode: '1457'
+valences:
+- VAL010
+- VAL056
+- VAL067
+- VAL097
