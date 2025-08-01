@@ -1,0 +1,12 @@
+abstract: false
+label: SOLGEN
+comment: Paediatric diphtheria vaccine (toxoid, standard dose), tetanus vaccine (toxoid)
+  and pertussis vaccine (whole inactivated)
+created: '2025-07-30'
+modified: '2025-07-30'
+codes:
+  NUVACode: '1460'
+valences:
+- VAL010
+- VAL067
+- VAL097

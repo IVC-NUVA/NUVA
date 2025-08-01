@@ -1,0 +1,12 @@
+abstract: false
+label: TRINFAGEN N0.1
+comment: Diphtheria toxoid (standard dose), tetanus toxoid and inactivated polio (trivalent)
+  pediatric vaccine
+created: '2025-07-30'
+modified: '2025-07-30'
+codes:
+  NUVACode: '1459'
+valences:
+- VAL056
+- VAL067
+- VAL097
