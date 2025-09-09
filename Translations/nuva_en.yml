@@ -95,7 +95,7 @@ en:
     VAC0133L: Smallpox vaccine, unspecified
     VAC0134C: Tuberculosis vaccine
     VAC0134L: BCG vaccine, unspecified
-    VAC0135C: Polio vaccine (live attenuated, trivalent)
+    VAC0135C: Polio vaccine, live or inactivated (unspecified)
     VAC0135L: Polio vaccine, unspecified
     VAC0136C: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (whole-cell
       inactivated) pediatric vaccine
@@ -2119,3 +2119,15 @@ en:
     VAL421S: Junin
     VAL422L: Plague valence, unspecified
     VAL422S: Yp
+    VAL423L: COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2
+      spike protein
+    VAL423S: Covid-ARNm-S-OMI-LP.8.1
+    VAL424L: COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2
+      spike protein, 30 micrograms
+    VAL424S: Covid-ARNm-S-OMI-LP.8.1-30
+    VAL425L: COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2
+      spike protein, 10 micrograms
+    VAL425S: Covid-ARNm-S-OMI-LP.8.1-10
+    VAL426L: COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2
+      spike protein, 3 micrograms
+    VAL426S: Covid-ARNm-S-OMI-LP.8.1-3
