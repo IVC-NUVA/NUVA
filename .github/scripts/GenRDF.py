@@ -141,6 +141,13 @@ print("Creating the RDF files")
 core.serialize(destination="Release/NUVA/nuva_core.ttl")
 full.serialize(destination="Release/NUVA/nuva_full.ttl")
 
+print ("Creating the CSV core file")
+with open('Release/NUVA/nuva_core.csv','w',encoding='utf-8-sig',newline ='') as csvfile:
+    writer = csv.DictWriter(csvfile,fieldnames=['NUVA','label','comment','abstract'],delimiter=';')
+    writer.writeheader()
+    for code,data in Vaccines.items():
+        writer.writerow({'NUVA':f"VAC{data['codes']['NUVACode']}",'label':data['label'],'comment':data['comment'],'abstract':data['abstract']})
+
 print("Creating the alignment files")
 for codeSystem in CodeSystems.keys():
     with open(f'Release/Alignments/{codeSystem}.csv','w',encoding='utf-8-sig',newline='') as csvfile:
