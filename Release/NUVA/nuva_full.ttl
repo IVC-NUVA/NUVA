@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "1.1.0" .
+    owl:versionInfo "1.2.0" .
 
 nuva:AIC a owl:Class ;
     rdfs:label "AIC" ;
@@ -149,7 +149,7 @@ nuva:VAC0002 a owl:Class ;
     nuvs:containsValence nuva:VAL015 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-11-24"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, egg-based, surface antigen"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026405377"^^nuva:AIC,
@@ -164,7 +164,7 @@ nuva:VAC0003 a owl:Class ;
     nuvs:containsValence nuva:VAL144 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-03"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Inactivated hepatitis A vaccine, adult dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "033247077"^^nuva:AIC,
@@ -191,7 +191,7 @@ nuva:VAC0004 a owl:Class ;
         nuva:VAL097 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid and inactivated polio (trivalent) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400955372073"^^nuva:CIP,
@@ -204,7 +204,7 @@ nuva:VAC0005 a owl:Class ;
     nuvs:containsValence nuva:VAL062 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-03"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Oral cholera vaccine containing recombinant cholera toxin subunit B (rTCB) and inactivated bacteria with an adjuvant role"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "036561037"^^nuva:AIC,
@@ -228,7 +228,7 @@ nuva:VAC0006 a owl:Class ;
     nuvs:containsValence nuva:VAL015 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-12-01"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, egg-based, surface antigen"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400955897767"^^nuva:CIP,
@@ -245,7 +245,7 @@ nuva:VAC0007 a owl:Class ;
         nuva:VAL241 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2024-09-09"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Human papillomavirus vaccine based on VLP (Virus Like Particles), quadrivalent (types 6, 11, 16 and 18), recombinant, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "037311216"^^nuva:AIC,
@@ -268,7 +268,7 @@ nuva:VAC0008 a owl:Class ;
     nuvs:containsValence nuva:VAL015 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-11-25"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, egg-based, surface antigen, adjuvanted"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400937085090"^^nuva:CIP,
@@ -281,7 +281,7 @@ nuva:VAC0009 a owl:Class ;
     nuvs:containsValence nuva:VAL114 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-04"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Recombinant hepatitis B vaccine, adult dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "035262322"^^nuva:AIC,
@@ -302,7 +302,7 @@ nuva:VAC0010 a owl:Class ;
     nuvs:containsValence nuva:VAL012 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-04"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Recombinant hepatitis B vaccine, dialysis patient dosage"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "035262171"^^nuva:AIC,
@@ -323,7 +323,7 @@ nuva:VAC0011 a owl:Class ;
     nuvs:containsValence nuva:VAL170 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-04"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Recombinant hepatitis B vaccine, pediatric dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "035262310"^^nuva:AIC,
@@ -343,7 +343,7 @@ nuva:VAC0012 a owl:Class ;
     nuvs:containsValence nuva:VAL015 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-11-25"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, split virion"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400933385507"^^nuva:CIP,
@@ -356,7 +356,7 @@ nuva:VAC0013 a owl:Class ;
     nuvs:containsValence nuva:VAL056 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-02-24"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Inactivated polio (trivalent) vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "029310012"^^nuva:AIC,
@@ -385,7 +385,7 @@ nuva:VAC0014 a owl:Class ;
         nuva:VAL156 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-01"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, 3 components, standard dose), Haemophilus influenzae type b (conjugated to tetanus toxoid), inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "034960219"^^nuva:AIC,
@@ -412,7 +412,7 @@ nuva:VAC0015 a owl:Class ;
         nuva:VAL156 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-11-02"^^xsd:date ;
+    dcterms:modified "2025-09-23"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, 3 components, standard dose), Haemophilus influenzae type b (conjugated to tetanus toxoid) and inactivated polio (trivalent) pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400935524737"^^nuva:CIP,
@@ -433,11 +433,11 @@ nuva:VAC0016 a owl:Class ;
     skos:notation "028851160"^^nuva:AIC,
         "3400957541989"^^nuva:CIP,
         "69976327"^^nuva:CIS,
-        "3561735"^^nuva:CNK,
+        "4877874"^^nuva:CNK,
         "725077"^^nuva:CODE_NATIONAL_SPAIN,
         "0057146"^^nuva:CP-NRONATIDENT,
         "662891"^^nuva:CTI,
-        "662891-08"^^nuva:CTI-EXTEND,
+        "662891-09"^^nuva:CTI-EXTEND,
         "7621000087103"^^nuva:CVC,
         "02269562"^^nuva:DIN,
         "8567404"^^nuva:INFARMED,
@@ -476,7 +476,7 @@ nuva:VAC0018 a owl:Class ;
         nuva:VAL139 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Unconjugated meningococcal polysaccharide vaccine, serogroups A, C, W and Y"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "038504066"^^nuva:AIC,
@@ -491,7 +491,7 @@ nuva:VAC0019 a owl:Class ;
     nuvs:containsValence nuva:VAL268 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-03"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Meningococcal conjugate vaccine, serogroup C (conjugated to CRM197 Protein)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "035438074"^^nuva:AIC,
@@ -511,7 +511,7 @@ nuva:VAC0020 a owl:Class ;
     nuvs:containsValence nuva:VAL268 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-03"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Meningococcal conjugate vaccine, serogroup C (conjugated to CRM197 Protein)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400937082488"^^nuva:CIP,
@@ -528,7 +528,7 @@ nuva:VAC0021 a owl:Class ;
     nuvs:containsValence nuva:VAL015 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, split virion"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "027278225"^^nuva:AIC,
@@ -544,7 +544,7 @@ nuva:VAC0022 a owl:Class ;
     nuvs:containsValence nuva:VAL266 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-02-24"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Meningococcal conjugate vaccine, serogroup C (conjugated to tetanus toxoid)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "035602059"^^nuva:AIC,
@@ -609,7 +609,7 @@ nuva:VAC0024 a owl:Class ;
         nuva:VAL229 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-11-02"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Unconjgated pneumococcal polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "027644018"^^nuva:AIC,
@@ -635,7 +635,7 @@ nuva:VAC0025 a owl:Class ;
         nuva:VAL204 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-09-04"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Pneumococcal conjugate vaccine, 7-valent, adsorbed, serotypes 4, 6B, 9V, 14, 18C, 19F and 23F"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "035053077"^^nuva:AIC,
@@ -680,7 +680,7 @@ nuva:VAC0028 a owl:Class ;
     nuvs:containsValence nuva:VAL259 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-03"^^xsd:date ;
+    dcterms:modified "2025-09-11"^^xsd:date ;
     rdfs:comment "Whole virion inactivated rabies vaccine, Flury LEP strain, purified chick embryo cell vaccine (PCECV), inactivated with ß-propiolactone"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "035947035"^^nuva:AIC,
@@ -704,7 +704,7 @@ nuva:VAC0029 a owl:Class ;
         nuva:VAL067 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-11-02"^^xsd:date ;
+    dcterms:modified "2025-09-23"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (low dose), tetanus toxoid, pertussis (multicomponent acellular, 5 components, low dose) and inactivated polio (trivalent) vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400936874053"^^nuva:CIP,
@@ -722,7 +722,7 @@ nuva:VAC0030 a owl:Class ;
         nuva:VAL067 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-04"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (low dose), tetanus toxoid and inactivated polio (trivalent) vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "034457135"^^nuva:AIC,
@@ -743,13 +743,13 @@ nuva:VAC0031 a owl:Class ;
     nuvs:containsValence nuva:VAL123 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-06"^^xsd:date ;
+    dcterms:modified "2025-09-23"^^xsd:date ;
     rdfs:comment "Live attenuated pentavalent rotavirus vaccine, oral"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "037455021"^^nuva:AIC,
         "3400956970988"^^nuva:CIP,
         "66396810"^^nuva:CIS,
-        "4280848"^^nuva:CNK,
+        "4490991"^^nuva:CNK,
         "731044"^^nuva:CODE_NATIONAL_SPAIN,
         "0906292"^^nuva:CP-NRONATIDENT,
         "288897"^^nuva:CTI,
@@ -768,7 +768,7 @@ nuva:VAC0032 a owl:Class ;
     nuvs:containsValence nuva:VAL005 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Live attenuated measles vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026526018"^^nuva:AIC,
@@ -783,7 +783,7 @@ nuva:VAC0033 a owl:Class ;
     nuvs:containsValence nuva:VAL079 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Live attenuated rubella vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "023281025"^^nuva:AIC,
@@ -798,7 +798,7 @@ nuva:VAC0034 a owl:Class ;
     nuvs:containsValence nuva:VAL075 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-03-24"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Inactivated whole-cell leptospirosis vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400935147165"^^nuva:CIP,
@@ -811,7 +811,7 @@ nuva:VAC0035 a owl:Class ;
     nuvs:containsValence nuva:VAL092 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-03"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Live attenuated yellow fever vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026970032"^^nuva:AIC,
@@ -835,7 +835,7 @@ nuva:VAC0036 a owl:Class ;
         nuva:VAL067 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Trivalent inactivated seasonal influenza, split virion and tetanus toxoid vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400932936236"^^nuva:CIP,
@@ -851,7 +851,7 @@ nuva:VAC0037 a owl:Class ;
         nuva:VAL097 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-04"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, standard dose) and inactivated polio (trivalent) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "034127100"^^nuva:AIC,
@@ -908,7 +908,7 @@ nuva:VAC0040 a owl:Class ;
         nuva:VAL125 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2024-03-11"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Hepatitis A (inactivated, adsorbed) and typhoid vaccine (polysaccharide)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400936078208"^^nuva:CIP,
@@ -922,7 +922,7 @@ nuva:VAC0041 a owl:Class ;
     nuvs:containsValence nuva:VAL032 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-03"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Polysaccharide typhoid vaccine (Vi capsular antigen)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "029153020"^^nuva:AIC,
@@ -948,7 +948,7 @@ nuva:VAC0042 a owl:Class ;
     nuvs:containsValence nuva:VAL096 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-05-14"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Tuberculosis vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "0042"^^nuva:NUVACode,
@@ -962,7 +962,7 @@ nuva:VAC0043 a owl:Class ;
         nuva:VAL067 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-11-02"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (low dose), tetanus toxoid, pertussis (multicomponent acellular, 5 components, low dose) and inactivated polio (trivalent) vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400936774186"^^nuva:CIP,
@@ -977,7 +977,7 @@ nuva:VAC0044 a owl:Class ;
         nuva:VAL241 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-02-24"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Human Papillomavirus vaccine, based on VLP (Virus Like Particles), bivalent (types 16 and 18), recombinant, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "038120097"^^nuva:AIC,
@@ -1024,7 +1024,7 @@ nuva:VAC0046 a owl:Class ;
     nuvs:containsValence nuva:VAL115 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-04"^^xsd:date ;
+    dcterms:modified "2025-09-23"^^xsd:date ;
     rdfs:comment "Recombinant hepatitis B vaccine, adult dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026653081"^^nuva:AIC,
@@ -1048,7 +1048,7 @@ nuva:VAC0047 a owl:Class ;
     nuvs:containsValence nuva:VAL015 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-03"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, split virion"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "029245267"^^nuva:AIC,
@@ -1065,7 +1065,7 @@ nuva:VAC0048 a owl:Class ;
     nuvs:containsValence nuva:VAL115 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-07-29"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Recombinant hepatitis B vaccine, HBsAg 20 µg, children and adult dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400955626718"^^nuva:CIP,
@@ -1129,7 +1129,7 @@ nuva:VAC0051 a owl:Class ;
         nuva:VAL097 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-04"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, standard dose) and inactivated polio (trivalent) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400935524676"^^nuva:CIP,
@@ -1144,7 +1144,7 @@ nuva:VAC0052 a owl:Class ;
         nuva:VAL137 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Unconjugated meningococcal polysaccharide vaccine, serogroups A and C"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400955794240"^^nuva:CIP,
@@ -1182,7 +1182,7 @@ nuva:VAC0054 a owl:Class ;
     nuvs:containsValence nuva:VAL260 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-03-24"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Whole virion inactivated rabies vaccine, Wistar virus strain PM1503-3M, cultured on Vero cells"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400955604365"^^nuva:CIP,
@@ -1196,7 +1196,7 @@ nuva:VAC0056 a owl:Class ;
     nuvs:containsValence nuva:VAL067 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Tetanus toxoid vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400955590026"^^nuva:CIP,
@@ -1257,7 +1257,7 @@ nuva:VAC0059 a owl:Class ;
     nuvs:containsValence nuva:VAL032 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-03"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Polysaccharide typhoid vaccine (Vi capsular antigen)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "034461107"^^nuva:AIC,
@@ -1276,7 +1276,7 @@ nuva:VAC0060 a owl:Class ;
     nuvs:containsValence nuva:VAL044 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-03"^^xsd:date ;
+    dcterms:modified "2025-09-23"^^xsd:date ;
     rdfs:comment "Live attenuated chickenpox vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "028427021"^^nuva:AIC,
@@ -1323,16 +1323,16 @@ nuva:VAC0062 a owl:Class ;
     nuvs:containsValence nuva:VAL015 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-03"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, split virion"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026032401"^^nuva:AIC,
         "3400959111432"^^nuva:CIP,
         "69675854"^^nuva:CIS,
-        "3431970"^^nuva:CNK,
+        "4889275"^^nuva:CNK,
         "830885"^^nuva:CODE_NATIONAL_SPAIN,
         "663512"^^nuva:CTI,
-        "663512-04"^^nuva:CTI-EXTEND,
+        "663512-07"^^nuva:CTI-EXTEND,
         "7561000087109"^^nuva:CVC,
         "02367718"^^nuva:DIN,
         "5894555"^^nuva:INFARMED,
@@ -1348,7 +1348,7 @@ nuva:VAC0063 a owl:Class ;
         nuva:VAL097 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-11-02"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell inactivated) and inactivated polio (trivalent) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400933725419"^^nuva:CIP,
@@ -1367,7 +1367,7 @@ nuva:VAC0064 a owl:Class ;
         nuva:VAL156 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-11-02"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell inactivated), Haemophilus influenzae type b (conjugated to tetanus toxoid) and inactivated polio (trivalent) pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400955902362"^^nuva:CIP,
@@ -1383,7 +1383,7 @@ nuva:VAC0066 a owl:Class ;
         nuva:VAL097 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-11-02"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, standard dose) and inactivated polio (trivalent) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400955589365"^^nuva:CIP,
@@ -1396,7 +1396,7 @@ nuva:VAC0067 a owl:Class ;
     nuvs:containsValence nuva:VAL142 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-01"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Inactivated hepatitis A vaccine, pediatric dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400955824619"^^nuva:CIP,
@@ -1409,7 +1409,7 @@ nuva:VAC0068 a owl:Class ;
     nuvs:containsValence nuva:VAL096 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Tuberculosis vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400932035311"^^nuva:CIP,
@@ -1425,7 +1425,7 @@ nuva:VAC0069 a owl:Class ;
         nuva:VAL139 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-12-02"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Unconjugated meningococcal polysaccharide vaccine, serogroups A, C, W and Y"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "029196019"^^nuva:AIC,
@@ -1440,7 +1440,7 @@ nuva:VAC0070 a owl:Class ;
         nuva:VAL097 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose) and tetanus toxoid pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930664421"^^nuva:CIP,
@@ -1454,7 +1454,7 @@ nuva:VAC0071 a owl:Class ;
         nuva:VAL097 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-10-31"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid and Rubella (live attenuated) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400931698401"^^nuva:CIP,
@@ -1466,7 +1466,7 @@ nuva:VAC0072 a owl:Class ;
     nuvs:containsValence nuva:VAL250 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-10-30"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Whole virion inactivated Japanese encephalitis vaccine, mouse brain-derived, Nakayama strain - Other names: JEVAX, BIKEN"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "9821000087106"^^nuva:CVC,
@@ -1479,7 +1479,7 @@ nuva:VAC0073 a owl:Class ;
     nuvs:containsValence nuva:VAL251 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-03"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Whole virion inactivated Japanese encephalitis vaccine, Vero cell-derived, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "039220025"^^nuva:AIC,
@@ -1506,7 +1506,7 @@ nuva:VAC0074 a owl:Class ;
         nuva:VAL097 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-11-02"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (whole-cell inactivated) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400955371991"^^nuva:CIP,
@@ -1520,7 +1520,7 @@ nuva:VAC0076 a owl:Class ;
         nuva:VAL097 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-08-17"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose) and tetanus toxoid pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400935230980"^^nuva:CIP,
@@ -1534,7 +1534,7 @@ nuva:VAC0077 a owl:Class ;
     nuvs:containsValence nuva:VAL077 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-10"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Live attenuated mumps vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026757017"^^nuva:AIC,
@@ -1549,7 +1549,7 @@ nuva:VAC0078 a owl:Class ;
         nuva:VAL079 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Live attenuated measles and rubella vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026771016"^^nuva:AIC,
@@ -1563,7 +1563,7 @@ nuva:VAC0079 a owl:Class ;
     nuvs:containsValence nuva:VAL312 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-17"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400936775886"^^nuva:CIP,
@@ -1575,7 +1575,7 @@ nuva:VAC0080 a owl:Class ;
     nuvs:containsValence nuva:VAL096 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Tuberculosis vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400955525660"^^nuva:CIP,
@@ -1590,7 +1590,7 @@ nuva:VAC0082 a owl:Class ;
     nuvs:containsValence nuva:VAL026 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-10-31"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Meningococcal vaccine, serogroup B (outer membrane vesicle protein B:14:P1.7,16)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "0082"^^nuva:NUVACode,
@@ -1648,7 +1648,7 @@ nuva:VAC0085 a owl:Class ;
         nuva:VAL067 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-11-02"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Tetanus toxoid and inactivated polio (trivalent) vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400955372653"^^nuva:CIP,
@@ -1661,7 +1661,7 @@ nuva:VAC0086 a owl:Class ;
     nuvs:containsValence nuva:VAL067 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Tetanus toxoid vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400932076413"^^nuva:CIP,
@@ -1676,7 +1676,7 @@ nuva:VAC0087 a owl:Class ;
     nuvs:containsValence nuva:VAL010 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-11-02"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Pertussis (whole-cell inactivated) vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400931116745"^^nuva:CIP,
@@ -1703,7 +1703,7 @@ nuva:VAC0090 a owl:Class ;
     nuvs:containsValence nuva:VAL147 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-05-15"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Protein (P.I. antigen) brucellosis vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400932481958"^^nuva:CIP,
@@ -1715,7 +1715,7 @@ nuva:VAC0091 a owl:Class ;
     nuvs:containsValence nuva:VAL105 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "A combination of inactivated bacteria to stimulate the immune system. CCB = against bronchial complications. Not really a vaccine..."@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930798584"^^nuva:CIP,
@@ -1727,7 +1727,7 @@ nuva:VAC0092 a owl:Class ;
     nuvs:containsValence nuva:VAL004 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Inactivated whole-cell cholera vaccine for injection"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400932176397"^^nuva:CIP,
@@ -1742,7 +1742,7 @@ nuva:VAC0093 a owl:Class ;
         nuva:VAL097 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-11-02"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, typhoid (whole-cell inactivated) and paratyphoid A and B (whole-cell inactivated) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400955275169"^^nuva:CIP,
@@ -1756,7 +1756,7 @@ nuva:VAC0094 a owl:Class ;
         nuva:VAL132 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-23"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Polio vaccine (live attenuated, trivalent) against polioviruses 1, 2 and 3, oral"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400955372714"^^nuva:CIP,
@@ -1770,7 +1770,7 @@ nuva:VAC0095 a owl:Class ;
         nuva:VAL071 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Typhoid and paratyphoid A and B vaccine, whole-cell inactivated"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400955276579"^^nuva:CIP,
@@ -1793,7 +1793,7 @@ nuva:VAC0097 a owl:Class ;
     nuvs:containsValence nuva:VAL075 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Inactivated whole-cell leptospirosis vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400932272181"^^nuva:CIP,
@@ -1810,7 +1810,7 @@ nuva:VAC0098 a owl:Class ;
         nuva:VAL156 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-11-02"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, standard dose), Haemophilus influenzae type b (conjugated to tetanus toxoid), inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "034948087"^^nuva:AIC,
@@ -1827,7 +1827,7 @@ nuva:VAC0099 a owl:Class ;
     nuvs:containsValence nuva:VAL268 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-03"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Meningococcal conjugate vaccine, serogroup C (conjugated to CRM197 Protein)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "035437060"^^nuva:AIC,
@@ -1907,7 +1907,7 @@ nuva:VAC0105 a owl:Class ;
     nuvs:containsValence nuva:VAL099 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-09-04"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Pandemic influenza A(H1N1)pdm09 vaccine, inactivated"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "039464033"^^nuva:AIC,
@@ -1932,7 +1932,7 @@ nuva:VAC0107 a owl:Class ;
     nuvs:containsValence nuva:VAL099 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-08-15"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Whole-virion inactivated influenza A(H1N1)pdm09 pandemic vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400939468648"^^nuva:CIP,
@@ -1946,7 +1946,7 @@ nuva:VAC0108 a owl:Class ;
     nuvs:containsValence nuva:VAL099 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-12-02"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Pandemic influenza A(H1N1)pdm09 vaccine, inactivated"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "039228010"^^nuva:AIC,
@@ -1962,7 +1962,7 @@ nuva:VAC0109 a owl:Class ;
     nuvs:containsValence nuva:VAL099 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-11-25"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Pandemic influenza A(H1N1)pdm09 vaccine, inactivated, egg-based, surface antigen, with adjuvant"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "039396039"^^nuva:AIC,
@@ -2056,7 +2056,7 @@ nuva:VAC0115 a owl:Class ;
     nuvs:containsValence nuva:VAL142 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-03-10"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Inactivated hepatitis A vaccine, pediatric dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "033247139"^^nuva:AIC,
@@ -2088,7 +2088,7 @@ nuva:VAC0120 a owl:Class ;
     nuvs:containsValence nuva:VAL044 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-10-31"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Live attenuated chickenpox vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400955785316"^^nuva:CIP,
@@ -2137,7 +2137,7 @@ nuva:VAC0123 a owl:Class ;
         nuva:VAL204 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-03-28"^^xsd:date ;
+    dcterms:modified "2025-09-23"^^xsd:date ;
     rdfs:comment "Pneumococcal polysaccharide conjugate vaccine, 13-valent, adsorbed, serotypes 1, 3, 4 , 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F and 23F"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "039550165"^^nuva:AIC,
@@ -2162,7 +2162,7 @@ nuva:VAC0124 a owl:Class ;
     nuvs:containsValence nuva:VAL099 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-12-01"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Pandemic influenza A(H1N1)pdm09 vaccine, inactivated, egg-based, surface antigen, with adjuvant"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400939886213"^^nuva:CIP,
@@ -2190,7 +2190,7 @@ nuva:VAC0126 a owl:Class ;
     nuvs:containsValence nuva:VAL068 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Plasma vaccine against hepatitis B (first French vaccine)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "024987012"^^nuva:AIC,
@@ -2205,7 +2205,7 @@ nuva:VAC0127 a owl:Class ;
     nuvs:containsValence nuva:VAL170 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-10-31"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Recombinant hepatitis B vaccine, pediatric dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400955901242"^^nuva:CIP,
@@ -2219,7 +2219,7 @@ nuva:VAC0128 a owl:Class ;
     nuvs:containsValence nuva:VAL114 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-11-25"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Recombinant hepatitis B vaccine with 10 micrograms of HBs antigen (although 10 µg, this vaccine is indicated from the age of 16)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400955901303"^^nuva:CIP,
@@ -2233,7 +2233,7 @@ nuva:VAC0129 a owl:Class ;
     nuvs:containsValence nuva:VAL012 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-11-25"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Recombinant hepatitis B vaccine, dialysis patient dosage"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400933692438"^^nuva:CIP,
@@ -2398,7 +2398,7 @@ nuva:VAC0139 a owl:Class ;
         nuva:VAL156 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-11-02"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell inactivated), Haemophilus influenzae type b (conjugated to tetanus toxoid) and inactivated polio (trivalent) pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400955902423"^^nuva:CIP,
@@ -2411,7 +2411,7 @@ nuva:VAC0140 a owl:Class ;
     nuvs:containsValence nuva:VAL015 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-03"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, split virion, intradermal"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "039425069"^^nuva:AIC,
@@ -2434,7 +2434,7 @@ nuva:VAC0141 a owl:Class ;
         nuva:VAL275 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-06"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Quadrivalent meningococcal polysaccharide conjugate vaccine, serogroups A, C, W and Y (conjugated to CRM197 Protein)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "039766035"^^nuva:AIC,
@@ -2733,7 +2733,7 @@ nuva:VAC0161 a owl:Class ;
     nuvs:containsValence nuva:VAL020 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2024-03-05"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Live attenuated shingles vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "037313133"^^nuva:AIC,
@@ -2784,7 +2784,7 @@ nuva:VAC0164 a owl:Class ;
     nuvs:containsValence nuva:VAL015 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, split virion"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400957541170"^^nuva:CIP,
@@ -2865,7 +2865,7 @@ nuva:VAC0169 a owl:Class ;
     nuvs:containsValence nuva:VAL015 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, surface antigen, cell-cultured"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "038136115"^^nuva:AIC,
@@ -2882,7 +2882,7 @@ nuva:VAC0170 a owl:Class ;
     nuvs:containsValence nuva:VAL051 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Influenza A(H5N1) vaccine (surface antigen, inactivated, adjuvanted)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "385655"^^nuva:CTI,
@@ -2908,7 +2908,7 @@ nuva:VAC0172 a owl:Class ;
         nuva:VAL097 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-11-25"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose) and tetanus toxoid pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026947059"^^nuva:AIC,
@@ -2924,7 +2924,7 @@ nuva:VAC0173 a owl:Class ;
     nuvs:containsValence nuva:VAL001 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-06"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Seasonal influenza vaccine, trivalent, live attenuated, nasal"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930293454"^^nuva:CIP,
@@ -3199,7 +3199,7 @@ nuva:VAC0194 a owl:Class ;
     nuvs:containsValence nuva:VAL049 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Haemophilus influenzae type b non-conjugated polysaccharide vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "0194"^^nuva:NUVACode,
@@ -3581,7 +3581,7 @@ nuva:VAC0227 a owl:Class ;
     nuvs:containsValence nuva:VAL130 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-11-10"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Inactivated hepatitis A vaccine, virosome, pediatric or adult"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "036438048"^^nuva:AIC,
@@ -3624,13 +3624,13 @@ nuva:VAC0230 a owl:Class ;
     nuvs:containsValence nuva:VAL015 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-08-06"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, surface antigen, adjuvanted"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "031840085"^^nuva:AIC,
         "3400930304754"^^nuva:CIP,
         "64090291"^^nuva:CIS,
-        "2729358"^^nuva:CNK,
+        "4889218"^^nuva:CNK,
         "663613"^^nuva:CTI,
         "663613-01"^^nuva:CTI-EXTEND,
         "7591000087101"^^nuva:CVC,
@@ -3796,7 +3796,7 @@ nuva:VAC0245 a owl:Class ;
     nuvs:containsValence nuva:VAL158 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Plasma hepatitis B vaccine, used in the USA from 1981 to 1990"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "0245"^^nuva:NUVACode,
@@ -3951,7 +3951,7 @@ nuva:VAC0259 a owl:Class ;
     nuvs:containsValence nuva:VAL258 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-11-02"^^xsd:date ;
+    dcterms:modified "2025-09-16"^^xsd:date ;
     rdfs:comment "Whole virion inactivated rabies vaccine, prepared in MRC5 cells"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "7381000087106"^^nuva:CVC,
@@ -4055,7 +4055,7 @@ nuva:VAC0267 a owl:Class ;
         nuva:VAL067 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-11-02"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Tetanus toxoid and inactivated polio (trivalent) vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "0267"^^nuva:NUVACode,
@@ -4166,7 +4166,7 @@ nuva:VAC0277 a owl:Class ;
         nuva:VAL079 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Live attenuated measles and rubella vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "0277"^^nuva:NUVACode,
@@ -4885,7 +4885,7 @@ nuva:VAC0336 a owl:Class ;
         nuva:VAL229 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-03-26"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Unconjugated pneumococcal polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "034933123"^^nuva:AIC,
@@ -5598,7 +5598,7 @@ nuva:VAC0390 a owl:Class ;
         nuva:VAL156 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-11-02"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell inactivated) et Haemophilus influenzae type b (conjugated to tetanus toxoid) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "032133011"^^nuva:AIC,
@@ -5630,7 +5630,7 @@ nuva:VAC0392 a owl:Class ;
         nuva:VAL097 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-11-02"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell inactivated) and inactivated polio (trivalent) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "0392"^^nuva:NUVACode,
@@ -6312,7 +6312,7 @@ nuva:VAC0451 a owl:Class ;
     nuvs:containsValence nuva:VAL091 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2024-08-19"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Live attenuated typhoid vaccine, strain Ty21a, oral"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "045650013"^^nuva:AIC,
@@ -6688,7 +6688,7 @@ nuva:VAC0480 a owl:Class ;
     nuvs:containsValence nuva:VAL012 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-04"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Recombinant hepatitis B vaccine, dialysis patient dosage"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "036776033"^^nuva:AIC,
@@ -6773,7 +6773,7 @@ nuva:VAC0486 a owl:Class ;
         nuva:VAL276 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-01"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Quadrivalent meningococcal polysaccharide conjugate vaccine, serogroups A, C, W and Y (conjugated to tetanus toxoid)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "042040081"^^nuva:AIC,
@@ -6817,7 +6817,7 @@ nuva:VAC0488 a owl:Class ;
         nuva:VAL156 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-24"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, 5 components, standard dose), Haemophilus influenzae type b (conjugated to tetanus toxoid) and inactivated polio (trivalent) pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400939190341"^^nuva:CIP,
@@ -6913,7 +6913,7 @@ nuva:VAC0495 a owl:Class ;
     nuvs:containsValence nuva:VAL098 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-06"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "4-component meningococcal vaccine, serogroup B"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "042687044"^^nuva:AIC,
@@ -6939,7 +6939,7 @@ nuva:VAC0496 a owl:Class ;
     nuvs:containsValence nuva:VAL110 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-10"^^xsd:date ;
     rdfs:comment "Anti-tetanus immunoglobulin"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400932892198"^^nuva:CIP,
@@ -7056,7 +7056,7 @@ nuva:VAC0505 a owl:Class ;
     nuvs:containsValence nuva:VAL156 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-08-15"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Haemophilus influenzae type b vaccine, capsular polysaccharide (polyribosylribitol phosphate, PRP) conjugated to tetanus toxoid"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400933471934"^^nuva:CIP,
@@ -7122,7 +7122,7 @@ nuva:VAC0509 a owl:Class ;
     nuvs:containsValence nuva:VAL250 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-10-31"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Whole virion inactivated Japanese encephalitis vaccine, mouse brain-derived, Nakayama strain - Other name: JEVAX"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "0509"^^nuva:NUVACode,
@@ -7138,13 +7138,13 @@ nuva:VAC0510 a owl:Class ;
         nuva:VAL156 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-04"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, 2 components, standard dose), Haemophilus influenzae type b (conjugated to tetanus toxoid), inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "042817092"^^nuva:AIC,
         "3400927350429"^^nuva:CIP,
         "63483103"^^nuva:CIS,
-        "3050176"^^nuva:CNK,
+        "4615423"^^nuva:CNK,
         "731499"^^nuva:CODE_NATIONAL_SPAIN,
         "0756164"^^nuva:CP-NRONATIDENT,
         "662541"^^nuva:CTI,
@@ -7257,7 +7257,7 @@ nuva:VAC0517 a owl:Class ;
     nuvs:containsValence nuva:VAL040 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-03"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Quadrivalent inactivated seasonal influenza vaccine, split virion"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "043132075"^^nuva:AIC,
@@ -7274,7 +7274,7 @@ nuva:VAC0518 a owl:Class ;
     nuvs:containsValence nuva:VAL092 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-05-22"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Live attenuated yellow fever vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "0518"^^nuva:NUVACode,
@@ -7285,7 +7285,7 @@ nuva:VAC0520 a owl:Class ;
     nuvs:containsValence nuva:VAL296 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-24"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Smallpox vaccine, third generation, modified vaccinia virus Ankara, non-replicative"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "042944013"^^nuva:AIC,
@@ -7303,7 +7303,7 @@ nuva:VAC0521 a owl:Class ;
     nuvs:containsValence nuva:VAL059 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-08-06"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Live attenuated quadrivalent seasonal influenza vaccine, nasal"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "043173044"^^nuva:AIC,
@@ -7374,7 +7374,7 @@ nuva:VAC0525 a owl:Class ;
         nuva:VAL114 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-01"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, standard dose), inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "034961108"^^nuva:AIC,
@@ -7400,7 +7400,7 @@ nuva:VAC0527 a owl:Class ;
         nuva:VAL097 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-08-15"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose) and tetanus toxoid pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400959001061"^^nuva:CIP,
@@ -7471,7 +7471,7 @@ nuva:VAC0534 a owl:Class ;
     nuvs:containsValence nuva:VAL268 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-03"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Meningococcal conjugate vaccine, serogroup C (conjugated to CRM197 Protein)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "035436120"^^nuva:AIC,
@@ -7496,7 +7496,7 @@ nuva:VAC0535 a owl:Class ;
         nuva:VAL155 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-04"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, standard dose), Haemophilus influenzae type b (conjugated to outer membrane protein of Neisseria meningitidis serogroup B), inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "044721088"^^nuva:AIC,
@@ -7529,7 +7529,7 @@ nuva:VAC0539 a owl:Class ;
     nuvs:containsValence nuva:VAL087 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-07-17"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Live attenuated, chimeric recombinant, quadrivalent vaccine against the four serotypes (1, 2, 3 and 4) of dengue virus (based on yellow fever vaccine 17D)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "047528056"^^nuva:AIC,
@@ -7589,7 +7589,7 @@ nuva:VAC0542 a owl:Class ;
         nuva:VAL097 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid and inactivated polio (trivalent) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400955589655"^^nuva:CIP,
@@ -7759,7 +7759,7 @@ nuva:VAC0554 a owl:Class ;
         nuva:VAL156 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-11-02"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, 5 components, standard dose), Haemophilus influenzae type b (conjugated to tetanus toxoid) and inactivated polio (trivalent) pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "040475055"^^nuva:AIC,
@@ -7807,7 +7807,7 @@ nuva:VAC0560 a owl:Class ;
     nuvs:containsValence nuva:VAL112 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-08-06"^^xsd:date ;
+    dcterms:modified "2025-09-24"^^xsd:date ;
     rdfs:comment "Quadrivalent inactivated seasonal influenza vaccine, surface antigens"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "044898068"^^nuva:AIC,
@@ -7842,7 +7842,7 @@ nuva:VAC0562 a owl:Class ;
     nuvs:containsValence nuva:VAL040 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-08-06"^^xsd:date ;
+    dcterms:modified "2025-09-24"^^xsd:date ;
     rdfs:comment "Quadrivalent inactivated seasonal influenza vaccine with surface antigens"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "045452048"^^nuva:AIC,
@@ -7865,7 +7865,7 @@ nuva:VAC0563 a owl:Class ;
     nuvs:containsValence nuva:VAL040 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2024-10-11"^^xsd:date ;
+    dcterms:modified "2025-09-12"^^xsd:date ;
     rdfs:comment "Quadrivalent inactivated seasonal influenza vaccine, split virion"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "4176053"^^nuva:CNK,
@@ -7914,7 +7914,7 @@ nuva:VAC0567 a owl:Class ;
     nuvs:containsValence nuva:VAL013 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-01"^^xsd:date ;
+    dcterms:modified "2025-09-24"^^xsd:date ;
     rdfs:comment "Shingles vaccine (recombinant, with adjuvant)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "046337022"^^nuva:AIC,
@@ -8031,7 +8031,7 @@ nuva:VAC0575 a owl:Class ;
     nuvs:containsValence nuva:VAL314 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-01"^^xsd:date ;
+    dcterms:modified "2025-09-24"^^xsd:date ;
     rdfs:comment "Tick-borne encephalitis vaccine, whole-virus inactivated, Neudörfl strain, adult dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3308277"^^nuva:CNK,
@@ -8115,7 +8115,7 @@ nuva:VAC0582 a owl:Class ;
     nuvs:containsValence nuva:VAL072 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-08-05"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Meningococcal vaccine, serogroup B (recombinant, adsorbed)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "045429065"^^nuva:AIC,
@@ -8157,7 +8157,7 @@ nuva:VAC0586 a owl:Class ;
     nuvs:containsValence nuva:VAL007 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-03-24"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Ebola Zaire vaccine (rVSVΔG-ZEBOV-GP, live)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "048364018"^^nuva:AIC,
@@ -8177,7 +8177,7 @@ nuva:VAC0590 a owl:Class ;
     nuvs:containsValence nuva:VAL096 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-07-30"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Tuberculosis vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400936466425"^^nuva:CIP,
@@ -8225,6 +8225,7 @@ nuva:VAC0593 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400935881236"^^nuva:CIP,
         "65724720"^^nuva:CIS,
+        "4867487"^^nuva:CNK,
         "661685"^^nuva:CTI,
         "661685-02"^^nuva:CTI-EXTEND,
         "8964001484073"^^nuva:NTIN,
@@ -8239,7 +8240,7 @@ nuva:VAC0594 a owl:Class ;
         nuva:VAL276 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-06"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Quadrivalent meningococcal polysaccharide conjugate vaccine, serogroups A, C, W and Y (conjugated to tetanus toxoid)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "049225028"^^nuva:AIC,
@@ -8477,7 +8478,7 @@ nuva:VAC0615 a owl:Class ;
         nuva:VAL067 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-11-02"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Tetanus toxoid and inactivated polio (trivalent) vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400955589594"^^nuva:CIP,
@@ -8606,7 +8607,7 @@ nuva:VAC0631 a owl:Class ;
     nuvs:containsValence nuva:VAL268 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-03"^^xsd:date ;
+    dcterms:modified "2025-09-26"^^xsd:date ;
     rdfs:comment "Meningococcal conjugate vaccine, serogroup C (conjugated to CRM197 Protein)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400937082778"^^nuva:CIP,
@@ -8622,7 +8623,7 @@ nuva:VAC0632 a owl:Class ;
         nuva:VAL132 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-11-10"^^xsd:date ;
+    dcterms:modified "2025-09-26"^^xsd:date ;
     rdfs:comment "Polio vaccine (live attenuated, trivalent) against polioviruses 1, 2 and 3, oral"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400936368798"^^nuva:CIP,
@@ -8635,7 +8636,7 @@ nuva:VAC0633 a owl:Class ;
     nuvs:containsValence nuva:VAL108 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-04"^^xsd:date ;
+    dcterms:modified "2025-09-26"^^xsd:date ;
     rdfs:comment "Ebola virus vaccine with live non-replicating recombinant virus vector"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "048911010"^^nuva:AIC,
@@ -8653,7 +8654,7 @@ nuva:VAC0634 a owl:Class ;
     nuvs:containsValence nuva:VAL109 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-04"^^xsd:date ;
+    dcterms:modified "2025-09-26"^^xsd:date ;
     rdfs:comment "Ebola virus vaccine with non-replicating viral vector"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "048914016"^^nuva:AIC,
@@ -8698,7 +8699,7 @@ nuva:VAC0637 a owl:Class ;
         nuva:VAL097 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-26"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose) and tetanus toxoid pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "0637"^^nuva:NUVACode,
@@ -8709,7 +8710,7 @@ nuva:VAC0638 a owl:Class ;
     nuvs:containsValence nuva:VAL056 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-26"^^xsd:date ;
     rdfs:comment "Inactivated polio (trivalent) vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "0638"^^nuva:NUVACode,
@@ -8810,6 +8811,7 @@ nuva:VAC0644 a owl:Class ;
 Other names: TAK-003; DENVAX"""@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930266458"^^nuva:CIP,
+        "4642039"^^nuva:CNK,
         "660963"^^nuva:CTI,
         "660963-01"^^nuva:CTI-EXTEND,
         "EU-1-22-1699-006"^^nuva:EU-NUMBER,
@@ -9026,7 +9028,7 @@ nuva:VAC0658 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930243428"^^nuva:CIP,
         "65456578"^^nuva:CIS,
-        "4293254"^^nuva:CNK,
+        "4470696"^^nuva:CNK,
         "732271"^^nuva:CODE_NATIONAL_SPAIN,
         "91308"^^nuva:CPT,
         "660950"^^nuva:CTI,
@@ -9155,6 +9157,7 @@ nuva:VAC0667 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930275054"^^nuva:CIP,
         "69544189"^^nuva:CIS,
+        "4492567"^^nuva:CNK,
         "732750"^^nuva:CODE_NATIONAL_SPAIN,
         "661583"^^nuva:CTI,
         "661583-01"^^nuva:CTI-EXTEND,
@@ -10392,7 +10395,7 @@ nuva:VAC0779 a owl:Class ;
     nuvs:containsValence nuva:VAL015 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-10-26"^^xsd:date ;
-    dcterms:modified "2023-08-15"^^xsd:date ;
+    dcterms:modified "2025-09-11"^^xsd:date ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, surface antigen"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "035619042"^^nuva:AIC,
@@ -10420,7 +10423,7 @@ nuva:VAC0780 a owl:Class ;
         nuva:VAL205 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-10-26"^^xsd:date ;
-    dcterms:modified "2025-03-26"^^xsd:date ;
+    dcterms:modified "2025-09-26"^^xsd:date ;
     rdfs:comment "Pneumococcal polysaccharide conjugate vaccine, 15-valent, adsorbed, serotypes 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F and 33F"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "049825060"^^nuva:AIC,
@@ -11211,6 +11214,7 @@ nuva:VAC0833 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930243404"^^nuva:CIP,
         "69174918"^^nuva:CIS,
+        "4476669"^^nuva:CNK,
         "732338"^^nuva:CODE_NATIONAL_SPAIN,
         "91307"^^nuva:CPT,
         "592506"^^nuva:CTI,
@@ -11239,7 +11243,7 @@ nuva:VAC0836 a owl:Class ;
     nuvs:containsValence nuva:VAL040 ;
     nuvs:isAbstract false ;
     dcterms:created "2022-01-21"^^xsd:date ;
-    dcterms:modified "2025-04-23"^^xsd:date ;
+    dcterms:modified "2025-09-26"^^xsd:date ;
     rdfs:comment "Quadrivalent inactivated seasonal influenza vaccine with surface antigens"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "048797043"^^nuva:AIC,
@@ -11295,7 +11299,7 @@ nuva:VAC0840 a owl:Class ;
     nuvs:containsValence nuva:VAL015 ;
     nuvs:isAbstract false ;
     dcterms:created "2022-02-26"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-26"^^xsd:date ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, surface antigen"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400937085212"^^nuva:CIP,
@@ -11336,7 +11340,7 @@ nuva:VAC0843 a owl:Class ;
     nuvs:containsValence nuva:VAL260 ;
     nuvs:isAbstract false ;
     dcterms:created "2022-02-26"^^xsd:date ;
-    dcterms:modified "2023-11-02"^^xsd:date ;
+    dcterms:modified "2025-09-26"^^xsd:date ;
     rdfs:comment "Whole virion inactivated rabies vaccine, WISTAR PM/WI 38-1503-3M strain, cultured on Vero cells, inactivated with ß-propiolactone"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400935778000"^^nuva:CIP,
@@ -11349,7 +11353,7 @@ nuva:VAC0844 a owl:Class ;
     nuvs:containsValence nuva:VAL260 ;
     nuvs:isAbstract false ;
     dcterms:created "2022-02-26"^^xsd:date ;
-    dcterms:modified "2023-11-02"^^xsd:date ;
+    dcterms:modified "2025-09-26"^^xsd:date ;
     rdfs:comment "Whole virion inactivated rabies vaccine, WISTAR PM/WI 38-1503-3M strain, cultured on Vero cells, inactivated with ß-propiolactone"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400941577673"^^nuva:CIP,
@@ -12358,7 +12362,8 @@ nuva:VAC0913 a owl:Class ;
     dcterms:modified "2024-04-19"^^xsd:date ;
     rdfs:comment "COVID-19 vaccine, protein subunit, recombinant spike protein, RBD fusion heterodimer, adjuvanted"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "663852"^^nuva:CTI,
+    skos:notation "4676235"^^nuva:CNK,
+        "663852"^^nuva:CTI,
         "663852-01"^^nuva:CTI-EXTEND,
         "EU-1-22-1709-004"^^nuva:EU-NUMBER,
         "5882311"^^nuva:INFARMED,
@@ -12531,11 +12536,11 @@ nuva:VAC0925 a owl:Class ;
         "VAC0925" .
 
 nuva:VAC0926 a owl:Class ;
-    rdfs:label "FLUCELVAX TRIVALENT" ;
+    rdfs:label "FLUCELVAX" ;
     nuvs:containsValence nuva:VAL285 ;
     nuvs:isAbstract false ;
     dcterms:created "2022-05-06"^^xsd:date ;
-    dcterms:modified "2025-05-04"^^xsd:date ;
+    dcterms:modified "2025-09-11"^^xsd:date ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, produced in cell culture"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930304709"^^nuva:CIP,
@@ -13385,9 +13390,9 @@ nuva:VAC0990 a owl:Class ;
     dcterms:modified "2024-04-15"^^xsd:date ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine with purified antigens"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "3148525"^^nuva:CNK,
+    skos:notation "4916409"^^nuva:CNK,
         "663934"^^nuva:CTI,
-        "663934-04"^^nuva:CTI-EXTEND,
+        "663934-05"^^nuva:CTI-EXTEND,
         "0990"^^nuva:NUVACode,
         "VAC0990" .
 
@@ -13792,6 +13797,7 @@ nuva:VAC1021 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930261729"^^nuva:CIP,
         "69401508"^^nuva:CIS,
+        "4623641"^^nuva:CNK,
         "660575"^^nuva:CTI,
         "660575-01"^^nuva:CTI-EXTEND,
         "37871000087108"^^nuva:CVC,
@@ -13811,6 +13817,7 @@ nuva:VAC1022 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930264058"^^nuva:CIP,
         "63786926"^^nuva:CIS,
+        "4636536"^^nuva:CNK,
         "660784"^^nuva:CTI,
         "660784-01"^^nuva:CTI-EXTEND,
         "EU-1-20-1528-010"^^nuva:EU-NUMBER,
@@ -13829,6 +13836,7 @@ nuva:VAC1023 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930262009"^^nuva:CIP,
         "65590890"^^nuva:CIS,
+        "4623567"^^nuva:CNK,
         "660953"^^nuva:CTI,
         "660953-01"^^nuva:CTI-EXTEND,
         "37691000087106"^^nuva:CVC,
@@ -14062,6 +14070,7 @@ nuva:VAC1040 a owl:Class ;
     rdfs:comment "Respiratory syncytial virus (RSV) vaccine, recombinant, RSVPreF3 antigen derived from F protein, adjuvanted"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930274187"^^nuva:CIP,
+        "4860383"^^nuva:CNK,
         "661566"^^nuva:CTI,
         "661566-01"^^nuva:CTI-EXTEND,
         "51301000087102"^^nuva:CVC,
@@ -14146,7 +14155,9 @@ nuva:VAC1046 a owl:Class ;
     dcterms:modified "2024-04-10"^^xsd:date ;
     rdfs:comment "Human RSV monoclonal antibody"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "306"^^nuva:CVX,
+    skos:notation "4802427"^^nuva:CNK,
+        "66081801"^^nuva:CTI,
+        "306"^^nuva:CVX,
         "1046"^^nuva:NUVACode,
         "VAC1046" .
 
@@ -14159,6 +14170,7 @@ nuva:VAC1047 a owl:Class ;
     rdfs:comment "Respiratory Syncytial Virus (RSV) vaccine, recombinant prefusion F glycoproteins of RSV, bivalent (subtypes A and B), non-adjuvanted"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930281529"^^nuva:CIP,
+        "4736807"^^nuva:CNK,
         "663041"^^nuva:CTI,
         "663041-01"^^nuva:CTI-EXTEND,
         "55351000087104"^^nuva:CVC,
@@ -14200,7 +14212,9 @@ nuva:VAC1050 a owl:Class ;
     dcterms:modified "2024-04-10"^^xsd:date ;
     rdfs:comment "Human RSV monoclonal antibody"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "307"^^nuva:CVX,
+    skos:notation "4803292"^^nuva:CNK,
+        "66082301"^^nuva:CTI,
+        "307"^^nuva:CVX,
         "1050"^^nuva:NUVACode,
         "VAC1050" .
 
@@ -14214,6 +14228,7 @@ nuva:VAC1051 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930298213"^^nuva:CIP,
         "64548397"^^nuva:CIS,
+        "4740098"^^nuva:CNK,
         "662864"^^nuva:CTI,
         "662864-01"^^nuva:CTI-EXTEND,
         "EU-1-20-1258-027"^^nuva:EU-NUMBER,
@@ -14231,6 +14246,7 @@ nuva:VAC1052 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930294444"^^nuva:CIP,
         "65248463"^^nuva:CIS,
+        "4749438"^^nuva:CNK,
         "661739"^^nuva:CTI,
         "661739-01"^^nuva:CTI-EXTEND,
         "EU-1-20-1258-023"^^nuva:EU-NUMBER,
@@ -14248,6 +14264,7 @@ nuva:VAC1053 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930295953"^^nuva:CIP,
         "64995124"^^nuva:CIS,
+        "4741435"^^nuva:CNK,
         "662701"^^nuva:CTI,
         "662701-01"^^nuva:CTI-EXTEND,
         "EU-1-20-1258-026"^^nuva:EU-NUMBER,
@@ -16894,6 +16911,7 @@ nuva:VAC1258 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930299760"^^nuva:CIP,
         "64281916"^^nuva:CIS,
+        "4855128"^^nuva:CNK,
         "662869"^^nuva:CTI,
         "662869-01"^^nuva:CTI-EXTEND,
         "EU-1-20-1528-031"^^nuva:EU-NUMBER,
@@ -17024,10 +17042,11 @@ nuva:VAC1267 a owl:Class ;
     nuvs:containsValence nuva:VAL391 ;
     nuvs:isAbstract false ;
     dcterms:created "2025-02-18"^^xsd:date ;
-    dcterms:modified "2025-04-14"^^xsd:date ;
+    dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Chikungunya VLP vaccine (recombinant, adsorbed)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "1267"^^nuva:NUVACode,
+    skos:notation "3400930313398"^^nuva:CIP,
+        "1267"^^nuva:NUVACode,
         "VAC1267" .
 
 nuva:VAC1268 a owl:Class ;
@@ -18026,8 +18045,9 @@ nuva:VAC1347 a owl:Class ;
     rdfs:comment "High-dose, trivalent inactivated seasonal influenza vaccine, split-virion"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930305065"^^nuva:CIP,
+        "4891487"^^nuva:CNK,
         "663606"^^nuva:CTI,
-        "663606-06"^^nuva:CTI-EXTEND,
+        "663606-10"^^nuva:CTI-EXTEND,
         "5892716"^^nuva:INFARMED,
         "1347"^^nuva:NUVACode,
         "VAC1347" .
@@ -19447,10 +19467,12 @@ nuva:VAC1466 a owl:Class ;
     nuvs:containsValence nuva:VAL424 ;
     nuvs:isAbstract false ;
     dcterms:created "2025-08-28"^^xsd:date ;
-    dcterms:modified "2025-08-28"^^xsd:date ;
+    dcterms:modified "2025-08-29"^^xsd:date ;
     rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 30 micrograms, adult (+ 12 years)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "1466"^^nuva:NUVACode,
+    skos:notation "4969630"^^nuva:CNK,
+        "664819-01"^^nuva:CTI-EXTEND,
+        "1466"^^nuva:NUVACode,
         "VAC1466" .
 
 nuva:VAC1467 a owl:Class ;
@@ -19461,7 +19483,10 @@ nuva:VAC1467 a owl:Class ;
     dcterms:modified "2025-08-28"^^xsd:date ;
     rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 3 micrograms, paediatric dose (6 months-4 years)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "1467"^^nuva:NUVACode,
+    skos:notation "3400930325568"^^nuva:CIP,
+        "4969648"^^nuva:CNK,
+        "664824-01"^^nuva:CTI-EXTEND,
+        "1467"^^nuva:NUVACode,
         "VAC1467" .
 
 nuva:VAC1468 a owl:Class ;
@@ -19469,11 +19494,69 @@ nuva:VAC1468 a owl:Class ;
     nuvs:containsValence nuva:VAL425 ;
     nuvs:isAbstract false ;
     dcterms:created "2025-08-28"^^xsd:date ;
-    dcterms:modified "2025-08-28"^^xsd:date ;
-    rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron KP.2, 10 micrograms, paediatric dose (5-11 years)"@en ;
+    dcterms:modified "2025-08-29"^^xsd:date ;
+    rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 10 micrograms, paediatric dose (5-11 years)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "1468"^^nuva:NUVACode,
+    skos:notation "3400930325544"^^nuva:CIP,
+        "4969622"^^nuva:CNK,
+        "664823-01"^^nuva:CTI-EXTEND,
+        "1468"^^nuva:NUVACode,
         "VAC1468" .
+
+nuva:VAC1469 a owl:Class ;
+    rdfs:label "mNEXSPIKE" ;
+    nuvs:containsValence nuva:VAL428 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2025-09-10"^^xsd:date ;
+    dcterms:modified "2025-09-12"^^xsd:date ;
+    rdfs:comment "COVID-19 mRNA vaccine, encoding fragments (NTD and RBD) of the SARS-CoV-2 spike protein, Omicron LP.8.1 subvariant"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "1469"^^nuva:NUVACode,
+        "VAC1469" .
+
+nuva:VAC1470 a owl:Class ;
+    rdfs:label "COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 3 micrograms, paediatric dose (6 months-4 years)"@en ;
+    nuvs:containsValence nuva:VAL426 ;
+    nuvs:isAbstract true ;
+    dcterms:created "2025-09-11"^^xsd:date ;
+    dcterms:modified "2025-09-11"^^xsd:date ;
+    rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 3 micrograms, paediatric dose (6 months-4 years)"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "1470"^^nuva:NUVACode,
+        "VAC1470" .
+
+nuva:VAC1471 a owl:Class ;
+    rdfs:label "COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 30 micrograms, adult (+ 12 years)"@en ;
+    nuvs:containsValence nuva:VAL424 ;
+    nuvs:isAbstract true ;
+    dcterms:created "2025-09-11"^^xsd:date ;
+    dcterms:modified "2025-09-11"^^xsd:date ;
+    rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 30 micrograms, adult (+ 12 years)"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "1471"^^nuva:NUVACode,
+        "VAC1471" .
+
+nuva:VAC1472 a owl:Class ;
+    rdfs:label "COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 10 micrograms, paediatric dose (5-11 years)"@en ;
+    nuvs:containsValence nuva:VAL425 ;
+    nuvs:isAbstract true ;
+    dcterms:created "2025-09-11"^^xsd:date ;
+    dcterms:modified "2025-09-11"^^xsd:date ;
+    rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 10 micrograms, paediatric dose (5-11 years)"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "1472"^^nuva:NUVACode,
+        "VAC1472" .
+
+nuva:VAC1473 a owl:Class ;
+    rdfs:label "COVID-19 mRNA vaccine, encoding a fragment of the SARS-CoV-2 spike protein, Omicron LP.8.1 subvariant"@en ;
+    nuvs:containsValence nuva:VAL428 ;
+    nuvs:isAbstract true ;
+    dcterms:created "2025-09-11"^^xsd:date ;
+    dcterms:modified "2025-09-15"^^xsd:date ;
+    rdfs:comment "COVID-19 mRNA vaccine, encoding a fragment of the SARS-CoV-2 spike protein, Omicron LP.8.1 subvariant"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "1473"^^nuva:NUVACode,
+        "VAC1473" .
 
 nuva:VAL179 a owl:Class ;
     rdfs:label "Meningococcal  valence, monovalent, conjugate"@en ;
@@ -19929,29 +20012,13 @@ nuva:VAL416 a owl:Class ;
     rdfs:subClassOf nuva:VAL104 ;
     skos:notation "VAL416" .
 
-nuva:VAL424 a owl:Class ;
-    rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms"@en ;
+nuva:VAL427 a owl:Class ;
+    rdfs:label "COVID-19 valence, mRNA encoding a fragment of the SARS-CoV-2 spike protein"@en ;
     nuvs:prevents nuva:DIS057 ;
-    dcterms:created "2025-08-28"^^xsd:date ;
-    dcterms:modified "2025-08-28"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL423 ;
-    skos:notation "VAL424" .
-
-nuva:VAL425 a owl:Class ;
-    rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms"@en ;
-    nuvs:prevents nuva:DIS057 ;
-    dcterms:created "2025-08-28"^^xsd:date ;
-    dcterms:modified "2025-08-28"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL423 ;
-    skos:notation "VAL425" .
-
-nuva:VAL426 a owl:Class ;
-    rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms"@en ;
-    nuvs:prevents nuva:DIS057 ;
-    dcterms:created "2025-08-28"^^xsd:date ;
-    dcterms:modified "2025-08-28"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL423 ;
-    skos:notation "VAL426" .
+    dcterms:created "2025-09-10"^^xsd:date ;
+    dcterms:modified "2025-09-11"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL043 ;
+    skos:notation "VAL427" .
 
 nuvs:containsValence a owl:ObjectProperty ;
     rdfs:domain nuva:Vaccine ;
@@ -21073,6 +21140,38 @@ nuva:VAL422 a owl:Class ;
     rdfs:subClassOf nuva:Valence ;
     skos:notation "VAL422" .
 
+nuva:VAL424 a owl:Class ;
+    rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms"@en ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2025-08-28"^^xsd:date ;
+    dcterms:modified "2025-08-28"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL423 ;
+    skos:notation "VAL424" .
+
+nuva:VAL425 a owl:Class ;
+    rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms"@en ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2025-08-28"^^xsd:date ;
+    dcterms:modified "2025-08-28"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL423 ;
+    skos:notation "VAL425" .
+
+nuva:VAL426 a owl:Class ;
+    rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms"@en ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2025-08-28"^^xsd:date ;
+    dcterms:modified "2025-09-11"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL423 ;
+    skos:notation "VAL426" .
+
+nuva:VAL428 a owl:Class ;
+    rdfs:label "Valence COVID-19, mRNA encoding the NTD and RBD fragments of the spike protein, Omicron LP.8.1 variant"@en ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2025-09-12"^^xsd:date ;
+    dcterms:modified "2025-09-12"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL427 ;
+    skos:notation "VAL428" .
+
 nuva:DIS009 a owl:Class ;
     rdfs:label "Mumps"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
@@ -21192,14 +21291,6 @@ nuva:VAL036 a owl:Class ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL237 ;
     skos:notation "VAL036" .
-
-nuva:VAL043 a owl:Class ;
-    rdfs:label "COVID-19 valence, mRNA encoding the SARS-CoV-2 spike protein, authorized"@en ;
-    nuvs:prevents nuva:DIS057 ;
-    dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL168 ;
-    skos:notation "VAL043" .
 
 nuva:VAL054 a owl:Class ;
     rdfs:label "COVID-19 valence, non-replicating modified Ankara vaccine vector encoding the SARS-CoV-2 spike protein"@en ;
@@ -21742,6 +21833,14 @@ nuva:VAL042 a owl:Class ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
     skos:notation "VAL042" .
+
+nuva:VAL043 a owl:Class ;
+    rdfs:label "COVID-19 valence, mRNA encoding the SARS-CoV-2 spike protein, authorized"@en ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2021-07-19"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL168 ;
+    skos:notation "VAL043" .
 
 nuva:VAL049 a owl:Class ;
     rdfs:label "Haemophilus influenzae type b valence, unconjugated PRP"@en ;
