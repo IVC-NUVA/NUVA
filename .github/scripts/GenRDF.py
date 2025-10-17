@@ -62,10 +62,12 @@ full.bind("nuva",NUVA)
 def loadUnits(type,directory):
     print (f'Loading {type} units')
     files = pathlib.Path(f'Units/{type}').rglob('*.yml')
+    tempdir = {}
 
     for file in files:
         with open(file,encoding='utf-8') as data:
-            directory[file.stem] = yaml.safe_load(data)
+            tempdir[file.stem] = yaml.safe_load(data)
+    directory = dict(sorted(tempdir.items()))
     
 def addClass(ref,parent,label,comment,notation,created, modified, localized):
     core.add((ref,RDF.type, OWL.Class))
