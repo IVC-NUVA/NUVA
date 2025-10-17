@@ -59,7 +59,7 @@ NUVA = Namespace("http://ivci.org/NUVA/")
 full.bind("nuvs",NUVS)
 full.bind("nuva",NUVA)
 
-def loadUnits(type,directory):
+def loadUnits(type):
     print (f'Loading {type} units')
     files = pathlib.Path(f'Units/{type}').rglob('*.yml')
     tempdir = {}
@@ -67,7 +67,7 @@ def loadUnits(type,directory):
     for file in files:
         with open(file,encoding='utf-8') as data:
             tempdir[file.stem] = yaml.safe_load(data)
-    directory = dict(sorted(tempdir.items()))
+    return dict(sorted(tempdir.items()))
     
 def addClass(ref,parent,label,comment,notation,created, modified, localized):
     core.add((ref,RDF.type, OWL.Class))
@@ -95,10 +95,10 @@ Targets={}
 CodeSystems={}
 Codes = {}
 
-loadUnits("Vaccines",Vaccines)
-loadUnits("Valences",Valences)
-loadUnits("Targets",Targets)
-loadUnits("CodeSystems",CodeSystems)
+Vaccines = loadUnits("Vaccines")
+Valences = loadUnits("Valences")
+Targets = loadUnits("Targets")
+CodeSystems = loadUnits("CodeSystems")
 
 for code,data in Targets.items():
     Target = URIRef(f'{BaseURI}/{code}')
