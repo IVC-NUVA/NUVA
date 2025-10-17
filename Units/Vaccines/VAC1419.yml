@@ -2,8 +2,10 @@ abstract: true
 label: Chikungunya VLP vaccine (recombinant, adsorbed)
 comment: Chikungunya VLP vaccine (recombinant, adsorbed)
 created: '2025-04-14'
-modified: '2025-04-22'
+modified: '2025-10-08'
 codes:
+  CVX: '329'
   NUVACode: '1419'
+  SCT_NUVA: '17141002000108'
 valences:
 - VAL391

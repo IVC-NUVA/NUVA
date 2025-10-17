@@ -2,9 +2,10 @@ abstract: true
 label: Live attenuated trivalent influenza vaccine, unspecified
 comment: Live attenuated trivalent seasonal influenza vaccine, nasal
 created: '2024-06-05'
-modified: '2024-07-16'
+modified: '2025-10-08'
 codes:
-  CVX: '111'
+  CVX: '333'
   NUVACode: '1123'
+  SCT_NUVA: '13811002000105'
 valences:
 - VAL001

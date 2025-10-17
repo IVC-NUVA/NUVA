@@ -1176,6 +1176,14 @@ en:
       Omicron LP.8.1 subvariant
     VAC1473L: COVID-19 mRNA vaccine, encoding a fragment of the SARS-CoV-2 spike protein,
       Omicron LP.8.1 subvariant
+    VAC1475C: Human monoclonal antibody against respiratory syncytial virus (RSV),
+      clesrovimab, unspecified
+    VAC1475L: Human monoclonal antibody against respiratory syncytial virus (RSV),
+      clesrovimab, unspecified
+    VAC1476C: Meningococcal vaccine against A, C, W, Y (conjugated polysaccharide)
+      and B
+    VAC1476L: Meningococcal vaccine against A, C, W, Y (conjugated polysaccharide)
+      and B
   valence:
     VAL001L: Influenza valence, trivalent, live attenuated, standard dose
     VAL001S: INF-L3
@@ -2152,3 +2160,5 @@ en:
     VAL428L: Valence COVID-19, mRNA encoding the NTD and RBD fragments of the spike
       protein, Omicron LP.8.1 variant
     VAL428S: Covid-ARNm-S-frag-OMI-LP.8.1
+    VAL429L: RSV valence, monoclonal antibody, clesrovimab
+    VAL429S: VRS-mAb-cle

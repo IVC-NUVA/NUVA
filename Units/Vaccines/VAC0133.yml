@@ -2,13 +2,14 @@ abstract: true
 label: Smallpox vaccine, unspecified
 comment: Live attenuated smallpox vaccine
 created: '2021-07-19'
-modified: '2025-05-22'
+modified: '2025-10-08'
 codes:
   ATC: J07BX01
   CVC: '33234009'
   CVX: '75'
   ICD11: XM95R0
   NUVACode: '0133'
+  SCT_NUVA: '2311002000106'
   SNOMED-CT: '871727001'
 valences:
 - VAL022

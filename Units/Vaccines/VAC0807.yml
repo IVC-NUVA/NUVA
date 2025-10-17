@@ -3,11 +3,12 @@ label: Cholera-Typhoid inactivated vaccine, unspecified
 comment: Inactivated whole-cell cholera vaccine for injection combined with inactivated
   whole-cell typhoid vaccine
 created: '2021-10-26'
-modified: '2025-04-14'
+modified: '2025-10-09'
 codes:
   ATC: J07AE51
+  ICD11: XM1FT6
   NUVACode: 0807
-  SNOMED-CT: XM1FT6
+  SCT_NUVA: '9591002000100'
 valences:
 - VAL004
 - VAL071
