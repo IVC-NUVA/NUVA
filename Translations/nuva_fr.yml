@@ -196,7 +196,7 @@ vaccine:
   VAC0133L: Vaccin Variole, sans précision
   VAC0134C: Vaccin contre la tuberculose (vivant atténué)
   VAC0134L: Vaccin BCG, sans précision
-  VAC0135C: Vaccin poliomyélitique (vivant atténué, trivalent)
+  VAC0135C: Vaccin poliomyélitique, vivant ou inactivé (sans précision)
   VAC0135L: Vaccin Poliomyélite, sans précision
   VAC0136C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique
     (anatoxine) et coquelucheux (entier inactivé)
@@ -1274,7 +1274,7 @@ vaccine:
     voie intradermique, sans précision
   VAC1441L: Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, 
     voie intradermique, sans précision
-  VAC1442C: Vaccin grippe, quadrivalent, virosomale, sans précision
+  VAC1442C: Vaccin grippe, quadrivalent, virosomal, sans précision
   VAC1442L: Vaccin grippe, quadrivalent, virosomale, sans précision
   VAC1443C: Vaccin grippe, trivalent, virosomal, sans précision
   VAC1443L: Vaccin grippe, trivalent, virosomal, sans précision
@@ -1286,6 +1286,29 @@ vaccine:
     microgrammes
   VAC1446L: Vaccin encéphalite japonaise, inactivé, dérivé de cellules Vero, 3 
     microgrammes
+  VAC1470C: Vaccin à ARNm contre la covid 19, subvariant Omicron LP.8.1, 3 
+    microgrammes, dose pédiatrique (6 mois-4 ans)
+  VAC1470L: Vaccin à ARNm contre la covid 19, subvariant Omicron LP.8.1, 3 
+    microgrammes, dose pédiatrique (6 mois-4 ans)
+  VAC1471C: Vaccin à ARNm contre la covid 19, subvariant Omicron LP.8.1, 30 
+    microgrammes,  adulte (+ 12 ans)
+  VAC1471L: Vaccin à ARNm contre la covid 19, subvariant Omicron LP.8.1, 30 
+    microgrammes,  adulte (+ 12 ans)
+  VAC1472C: Vaccin à ARNm contre la covid 19, subvariant Omicron LP.8.1, 10 
+    microgrammes, dose pédiatrique (5-11 ans)
+  VAC1472L: Vaccin à ARNm contre la covid 19, subvariant Omicron LP.8.1, 10 
+    microgrammes, dose pédiatrique (5-11 ans)
+  VAC1473C: Vaccin à ARNm contre la covid 19, codant un fragment de la protéine 
+    Spike du SARS-CoV-2, sous-variant Omicron LP.8.1
+  VAC1473L: Vaccin à ARNm contre la covid 19, codant un fragment de la protéine 
+    Spike du SARS-CoV-2, sous-variant Omicron LP.8.1
+  VAC1475C: Anticorps monoclonal humain contre le virus respiratoire syncytial 
+    (VRS), clesrovimab, sans précision
+  VAC1475L: Anticorps monoclonal humain VRS, clesrovimab, sans précision
+  VAC1476C: Vaccin méningococcique contre les A, C, W, Y (polyosidique conjugué)
+    et B
+  VAC1476L: Vaccin méningococcique contre les A, C, W, Y (polyosidique conjugué)
+    et B
 valence:
   VAL063S: BAT
   VAL064L: Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, 
@@ -1375,7 +1398,7 @@ valence:
   VAL011L: Valence covid 19, sous-unité protéique, protéine de pointe 
     recombinante (domaine RBD)
   VAL011S: Covid-SP-rRBD
-  VAL012L: Valence hépatite B, antigène de surface recombinante du virus de 
+  VAL012L: Valence hépatite B, antigène de surface recombinant du virus de 
     l'hépatite B (Ag HBs), 40 microgrammes (dose pour patient dialysé)
   VAL012S: rAgHBs-40
   VAL013L: Valence zona, glycoprotéine E (gE) de surface du virus varicelle-zona
@@ -1540,7 +1563,7 @@ valence:
   VAL088S: VZV-Ig
   VAL089L: Valence encéphalite japonaise, inactivée, sans précision
   VAL089S: EJ-I
-  VAL090L: Valence hépatite B, antigène de surface recombinante du virus de 
+  VAL090L: Valence hépatite B, antigène de surface recombinant du virus de 
     l'hépatite B (Ag HBs), sans précision
   VAL090S: rAgHBs
   VAL091L: Valence typhoïde, vivante atténuée, souche Ty21a, orale
@@ -1596,10 +1619,10 @@ valence:
   VAL112S: Inf-CC4
   VAL113L: Valence papillomavirus, VLP, bivalent, types 16 et 18
   VAL113S: VPH-02-valent
-  VAL114L: Valence hépatite B, antigène de surface recombinante du virus de 
+  VAL114L: Valence hépatite B, antigène de surface recombinant du virus de 
     l'hépatite B (Ag HBs), 10 microgrammes
   VAL114S: rAgHBs-10
-  VAL115L: Valence hépatite B, antigène de surface recombinante du virus de 
+  VAL115L: Valence hépatite B, antigène de surface recombinant du virus de 
     l'hépatite B (Ag HBs), 20 microgrammes
   VAL115S: rAgHBs-20
   VAL116L: Valence VRS, anticorps monoclonal, palivizumab
@@ -1723,7 +1746,7 @@ valence:
   VAL168S: Covid-ARN
   VAL169L: Valence covid 19, ARNm auto-amplifiant (AAA)
   VAL169S: Covid-ARNm-AAA
-  VAL170L: Valence hépatite B, antigène de surface recombinante du virus de 
+  VAL170L: Valence hépatite B, antigène de surface recombinant du virus de 
     l'hépatite B (Ag HBs), 5 microgrammes
   VAL170S: rAgHBs-05
   VAL171L: Valence encéphalite équine vénézuélienne, sans précision
@@ -1978,8 +2001,8 @@ valence:
   VAL290L: Valence covid 19, virus originel,  ARNm codant la protéine de pointe 
     du SARS-CoV-2, 30 microgrammes
   VAL290S: Covid-ARNm-S-ORI-30
-  VAL291L: Valence hépatite B, recombinante, trois antigènes (HbS, pré-S1 et 
-    pré-S2)
+  VAL291L: Valence hépatite B, ant!gène de surface recombinant, trois antigènes 
+    (Ag HbS, pré-S1 et pré-S2)
   VAL291S: HBs-r-3Ag
   VAL292L: Valence covid 19, vecteur viral non réplicatif, adénovirus 26 codant 
     la protéine de pointe du SARS-CoV-2, en essai clinique
@@ -2154,7 +2177,7 @@ valence:
   VAL376S: VPC-31
   VAL377L: Valence pneumocoque, polyosidique conjuguée, sérotype 35B
   VAL377S: VPC-35B
-  VAL378L: Valence hépatite B, antigène de surface recombinante du virus de 
+  VAL378L: Valence hépatite B, antigène de surface recombinant du virus de 
     l'hépatite B (Ag HBs), 15 microgrammes
   VAL378S: rAgHBs-15
   VAL379L: Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de 
@@ -2265,3 +2288,23 @@ valence:
   VAL420S: BOT-passive
   VAL421L: Valence fièvre hémorragique d'Argentine, virus Junin, sans précision
   VAL422S: Yp
+  VAL423L: Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de 
+    pointe du SARS-CoV-2
+  VAL423S: Covid-ARNm-S-OMI-LP.8.1
+  VAL424L: Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de 
+    pointe du SARS-CoV-2, 30 microgrammes
+  VAL424S: Covid-ARNm-S-OMI-LP.8.1-30
+  VAL425L: Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de 
+    pointe du SARS-CoV-2, 10 microgrammes
+  VAL425S: Covid-ARNm-S-OMI-LP.8.1-10
+  VAL426L: Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de 
+    pointe du SARS-CoV-2, 3 microgrammes
+  VAL426S: Covid-ARNm-S-OMI-LP.8.1-3
+  VAL427L: Valence covid 19, ARNm codant un fragment de la protéine Spike du 
+    SARS-CoV-2
+  VAL427S: Covid-ARNm-S-frag
+  VAL428L: Valence covid 19, ARNm codant les fragments NTD et RBD de la protéine
+    Spike, variant Omicron LP.8.1
+  VAL428S: Covid-ARNm-S-frag-OMI-LP.8.1
+  VAL429L: Valence VRS, anticorps monoclonal, clesrovimab
+  VAL429S: VRS-mAb-cle
