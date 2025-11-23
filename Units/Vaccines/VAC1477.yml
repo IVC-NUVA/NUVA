@@ -1,11 +1,9 @@
 abstract: false
-label: ENCEPUR
+label: ENCEPUR 0,25 mL
 comment: Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain
-created: '2021-07-19'
+created: '2025-11-14'
 modified: '2025-11-14'
 codes:
-  CIP: '3400936775886'
-  NUVACode: 0079
-  SCT_NUVA: '1571002000102'
+  NUVACode: '1477'
 valences:
-- VAL431
+- VAL430
