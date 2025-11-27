@@ -5,11 +5,22 @@ comment: COVID-19 vaccine, protein subunit, recombinant spike protein nanopartic
 created: '2024-10-13'
 modified: '2025-11-16'
 codes:
-  CIP: '3400930297872'
-  CIS: '67954296'
-  CTI: '663773'
-  CTI-EXTEND: 663773-01
-  NUVACode: '1261'
-  SCT_NUVA: '15361002000102'
+  CIP:
+  - '3400930297841'
+  - '3400930297858'
+  - '3400930297865'
+  - '3400930297872'
+  CIS:
+  - '67954296'
+  CTI:
+  - '663772'
+  - '663773'
+  CTI-EXTEND:
+  - 663772-01
+  - 663773-01
+  NUVACode:
+  - '1261'
+  SCT_NUVA:
+  - '15361002000102'
 valences:
 - VAL382

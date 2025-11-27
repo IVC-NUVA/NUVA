@@ -5,9 +5,13 @@ comment: Haemophilus influenzae type b conjugate vaccine composed of PRP (polyri
 created: '2021-07-19'
 modified: '2024-07-04'
 codes:
-  CPT: '90647'
-  CVX: '49'
-  NUVACode: '0344'
-  SCT_NUVA: '4651002000109'
+  CPT:
+  - '90647'
+  CVX:
+  - '49'
+  NUVACode:
+  - '0344'
+  SCT_NUVA:
+  - '4651002000109'
 valences:
 - VAL155

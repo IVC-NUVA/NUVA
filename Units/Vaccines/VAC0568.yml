@@ -5,16 +5,36 @@ comment: Diphtheria toxoid (low dose), tetanus toxoid, pertussis (multicomponent
 created: '2021-07-19'
 modified: '2025-06-04'
 codes:
-  CNK: '2374429'
-  CODE_NATIONAL_SPAIN: '650433'
-  CTI: '270435'
-  CTI-EXTEND: 270435-02
-  CVC: '7491000087102'
-  DIN: '02312557'
-  INFARMED: '5271184'
-  NUVACode: 0568
-  PZN: 04150007620810
-  SCT_NUVA: '7011002000107'
+  CNK:
+  - '2374429'
+  CODE_NATIONAL_SPAIN:
+  - '650433'
+  CTI:
+  - '270435'
+  CTI-EXTEND:
+  - 270435-01
+  - 270435-02
+  CVC:
+  - '7491000087102'
+  DIN:
+  - '02312557'
+  INFARMED:
+  - '5212683'
+  - '5212782'
+  - '5212881'
+  - '5212980'
+  - '5270889'
+  - '5270988'
+  - '5271085'
+  - '5271184'
+  NUVACode:
+  - 0568
+  PZN:
+  - 00762081
+  - 00762098
+  - 04150007620810
+  SCT_NUVA:
+  - '7011002000107'
 valences:
 - VAL017
 - VAL034

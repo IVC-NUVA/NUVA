@@ -5,14 +5,34 @@ comment: COVID-19 mRNA vaccine, subvariant Omicron XBB.1.5, 30 micrograms, adult
 created: '2023-09-16'
 modified: '2025-04-25'
 codes:
-  CIP: '3400930294444'
-  CIS: '65248463'
-  CNK: '4749438'
-  CTI: '661739'
-  CTI-EXTEND: 661739-01
-  EU-NUMBER: EU-1-20-1258-023
-  INFARMED: '5862818'
-  NUVACode: '1052'
-  SCT_NUVA: '12741002000109'
+  CIP:
+  - '3400928099532'
+  - '3400930279052'
+  - '3400930279069'
+  - '3400930294444'
+  CIS:
+  - '60327063'
+  - '65248463'
+  CNK:
+  - '4740106'
+  - '4749438'
+  CTI:
+  - '661737'
+  - '661738'
+  - '661739'
+  CTI-EXTEND:
+  - 661737-01
+  - 661738-01
+  - 661739-01
+  EU-NUMBER:
+  - EU-1-20-1258-021
+  - EU-1-20-1258-022
+  - EU-1-20-1258-023
+  INFARMED:
+  - '5862818'
+  NUVACode:
+  - '1052'
+  SCT_NUVA:
+  - '12741002000109'
 valences:
 - VAL324

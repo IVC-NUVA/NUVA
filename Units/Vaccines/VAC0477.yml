@@ -4,11 +4,17 @@ comment: Influenza A(H5N1) vaccine
 created: '2021-07-19'
 modified: '2023-08-15'
 codes:
-  CIP: '3400941846236'
-  CIS: '62339477'
-  EU-NUMBER: EU-1-10-664-001
-  INFARMED: '5376215'
-  NUVACode: '0477'
-  SCT_NUVA: '6011002000105'
+  CIP:
+  - '3400941846236'
+  CIS:
+  - '62339477'
+  EU-NUMBER:
+  - EU-1-10-664-001
+  INFARMED:
+  - '5376215'
+  NUVACode:
+  - '0477'
+  SCT_NUVA:
+  - '6011002000105'
 valences:
 - VAL051

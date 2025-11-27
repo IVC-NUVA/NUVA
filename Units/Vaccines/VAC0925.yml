@@ -5,10 +5,17 @@ comment: Trivalent inactivated seasonal influenza vaccine, split or subunit, sta
 created: '2022-05-06'
 modified: '2024-04-18'
 codes:
-  CPT: '90673'
-  CVC: '7691000087100'
-  CVX: '331'
-  NUVACode: 0925
-  SCT_NUVA: '11131002000105'
+  CPT:
+  - '90653'
+  - '90673'
+  CVC:
+  - '7691000087100'
+  CVX:
+  - '168'
+  - '331'
+  NUVACode:
+  - 0925
+  SCT_NUVA:
+  - '11131002000105'
 valences:
 - VAL015

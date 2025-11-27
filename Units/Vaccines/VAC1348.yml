@@ -4,7 +4,9 @@ comment: Tetanus toxoid vaccine
 created: '2025-04-02'
 modified: '2025-04-02'
 codes:
-  NUVACode: '1348'
-  SCT_NUVA: '16411002000102'
+  NUVACode:
+  - '1348'
+  SCT_NUVA:
+  - '16411002000102'
 valences:
 - VAL067

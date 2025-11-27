@@ -5,9 +5,13 @@ comment: 'COVID-19 vaccine, whole virion inactivated, adjuvanted (adjuvant: alum
 created: '2021-07-19'
 modified: '2025-04-08'
 codes:
-  CVC: '31311000087104'
-  CVX: '511'
-  NUVACode: '0651'
-  SCT_NUVA: '7761002000108'
+  CVC:
+  - '31311000087104'
+  CVX:
+  - '511'
+  NUVACode:
+  - '0651'
+  SCT_NUVA:
+  - '7761002000108'
 valences:
 - VAL264

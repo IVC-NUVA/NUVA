@@ -4,14 +4,35 @@ comment: Trivalent inactivated seasonal influenza vaccine, produced in cell cult
 created: '2022-05-06'
 modified: '2025-09-11'
 codes:
-  CIP: '3400930304709'
-  CIS: '62752472'
-  CPT: '90661'
-  CTI: '663570'
-  CTI-EXTEND: 663570-01
-  EU-NUMBER: EU-1-24-1879-004
-  NDC: 63851-0612-01
-  NUVACode: 0926
-  SCT_NUVA: '11151002000100'
+  CIP:
+  - '3400930304662'
+  - '3400930304686'
+  - '3400930304693'
+  - '3400930304709'
+  CIS:
+  - '62752472'
+  CPT:
+  - '90661'
+  CTI:
+  - '663552'
+  - '663568'
+  - '663569'
+  - '663570'
+  CTI-EXTEND:
+  - 663552-01
+  - 663568-01
+  - 663569-01
+  - 663570-01
+  EU-NUMBER:
+  - EU-1-24-1879-001
+  - EU-1-24-1879-002
+  - EU-1-24-1879-003
+  - EU-1-24-1879-004
+  NDC:
+  - 63851-0612-01
+  NUVACode:
+  - 0926
+  SCT_NUVA:
+  - '11151002000100'
 valences:
 - VAL285

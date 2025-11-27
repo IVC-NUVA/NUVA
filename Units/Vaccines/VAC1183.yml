@@ -4,7 +4,9 @@ comment: Non-replicating viral vector Ebola vaccine, modified Vaccine Ankara
 created: '2024-06-05'
 modified: '2024-07-04'
 codes:
-  NUVACode: '1183'
-  SCT_NUVA: '14421002000103'
+  NUVACode:
+  - '1183'
+  SCT_NUVA:
+  - '14421002000103'
 valences:
 - VAL109

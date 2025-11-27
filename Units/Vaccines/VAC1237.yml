@@ -4,7 +4,9 @@ comment: Pre-erythrocytic malaria vaccine R21/Matrix-M
 created: '2024-06-05'
 modified: '2024-07-04'
 codes:
-  NUVACode: '1237'
-  SCT_NUVA: '14971002000109'
+  NUVACode:
+  - '1237'
+  SCT_NUVA:
+  - '14971002000109'
 valences:
 - VAL311

@@ -4,9 +4,16 @@ comment: Inactivated polio (trivalent) vaccine, oral
 created: '2022-02-26'
 modified: '2025-03-31'
 codes:
-  CIP: '3400933973865'
-  CIS: '60111635'
-  NUVACode: 0845
-  SCT_NUVA: '10121002000104'
+  CIP:
+  - '3400933125271'
+  - '3400933125332'
+  - '3400933973636'
+  - '3400933973865'
+  CIS:
+  - '60111635'
+  NUVACode:
+  - 0845
+  SCT_NUVA:
+  - '10121002000104'
 valences:
 - VAL121

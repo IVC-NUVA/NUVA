@@ -5,8 +5,11 @@ comment: COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, ongoing c
 created: '2021-07-19'
 modified: '2024-06-04'
 codes:
-  CVC: '33221000087102'
-  NUVACode: '0676'
-  SCT_NUVA: '8131002000101'
+  CVC:
+  - '33221000087102'
+  NUVACode:
+  - '0676'
+  SCT_NUVA:
+  - '8131002000101'
 valences:
 - VAL135

@@ -6,7 +6,9 @@ comment: Anti-covid 19 vaccine with non-replicating viral vector, adenovirus 5 e
 created: '2024-06-05'
 modified: '2025-03-27'
 codes:
-  NUVACode: '1176'
-  SCT_NUVA: '14351002000100'
+  NUVACode:
+  - '1176'
+  SCT_NUVA:
+  - '14351002000100'
 valences:
 - VAL050

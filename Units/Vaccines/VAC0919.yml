@@ -5,9 +5,13 @@ comment: Haemophilus influenzae type b vaccine, capsular oligosides (polyribosyl
 created: '2022-05-03'
 modified: '2024-07-04'
 codes:
-  CPT: '90645'
-  CVX: '47'
-  NUVACode: 0919
-  SCT_NUVA: '11041002000101'
+  CPT:
+  - '90645'
+  CVX:
+  - '47'
+  NUVACode:
+  - 0919
+  SCT_NUVA:
+  - '11041002000101'
 valences:
 - VAL154

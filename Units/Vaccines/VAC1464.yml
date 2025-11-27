@@ -4,6 +4,7 @@ comment: Seasonal influenza vaccine, whole inactivated
 created: '2025-07-30'
 modified: '2025-07-31'
 codes:
-  NUVACode: '1464'
+  NUVACode:
+  - '1464'
 valences:
 - VAL152

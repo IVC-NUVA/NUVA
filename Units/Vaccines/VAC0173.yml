@@ -4,14 +4,33 @@ comment: Seasonal influenza vaccine, trivalent, live attenuated, nasal
 created: '2021-07-19'
 modified: '2025-11-14'
 codes:
-  CIP: '3400930293454'
-  CIS: '66557142'
-  CODE_NATIONAL_SPAIN: '677686'
-  CTI: '662794'
-  CTI-EXTEND: 662794-01
-  EU-NUMBER: EU-1-24-1816-002
-  INFARMED: '5878129'
-  NUVACode: '0173'
-  SCT_NUVA: '2871002000107'
+  CIP:
+  - '3400922388175'
+  - '3400922388465'
+  - '3400930293447'
+  - '3400930293454'
+  CIS:
+  - '65525113'
+  - '66557142'
+  CODE_NATIONAL_SPAIN:
+  - '677686'
+  CTI:
+  - '662793'
+  - '662794'
+  CTI-EXTEND:
+  - 662793-01
+  - 662794-01
+  EU-NUMBER:
+  - EU-1-10-661-002
+  - EU-1-24-1816-001
+  - EU-1-24-1816-002
+  INFARMED:
+  - '5366059'
+  - '5366067'
+  - '5878129'
+  NUVACode:
+  - '0173'
+  SCT_NUVA:
+  - '2871002000107'
 valences:
 - VAL001

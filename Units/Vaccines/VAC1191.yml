@@ -5,8 +5,10 @@ comment: Vaccine against Escherichia coli, Klebsiella pneumoniae, Enterococcus f
 created: '2024-06-05'
 modified: '2024-07-04'
 codes:
-  NUVACode: '1191'
-  SCT_NUVA: '14501002000107'
+  NUVACode:
+  - '1191'
+  SCT_NUVA:
+  - '14501002000107'
 valences:
 - VAL341
 - VAL342

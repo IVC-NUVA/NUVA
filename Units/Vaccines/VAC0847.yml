@@ -5,10 +5,14 @@ comment: Unconjugated pneumococcal polysaccharide vaccine, 15-valent, serotypes 
 created: '2022-02-26'
 modified: '2024-04-24'
 codes:
-  CIP: '3400932806904'
-  CIS: '69311587'
-  NUVACode: 0847
-  SCT_NUVA: '10141002000109'
+  CIP:
+  - '3400932806904'
+  CIS:
+  - '69311587'
+  NUVACode:
+  - 0847
+  SCT_NUVA:
+  - '10141002000109'
 valences:
 - VAL206
 - VAL207

@@ -6,8 +6,11 @@ comment: Respiratory syncytial virus (RSV) vaccine, recombinant, F-glycoprotein 
 created: '2024-06-05'
 modified: '2024-11-29'
 codes:
-  CVX: '305'
-  NUVACode: '1224'
-  SCT_NUVA: '14841002000106'
+  CVX:
+  - '305'
+  NUVACode:
+  - '1224'
+  SCT_NUVA:
+  - '14841002000106'
 valences:
 - VAL322

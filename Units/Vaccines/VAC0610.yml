@@ -5,12 +5,19 @@ comment: Diphtheria toxoid (low dose), tetanus toxoid and pertussis (multicompon
 created: '2021-07-19'
 modified: '2025-05-20'
 codes:
-  CPT: '90715'
-  CVC: '7851000087109'
-  CVX: '115'
-  NUVACode: '0610'
-  SCT_NUVA: '7301002000106'
-  SNOMED-CT: '462321000124107'
+  CPT:
+  - '90715'
+  CVC:
+  - '7851000087109'
+  CVX:
+  - '115'
+  NUVACode:
+  - '0610'
+  SCT_NUVA:
+  - '7301002000106'
+  SNOMED-CT:
+  - '2051000221107'
+  - '462321000124107'
 valences:
 - VAL017
 - VAL034

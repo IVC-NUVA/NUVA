@@ -4,7 +4,9 @@ comment: Trivalent inactivated seasonal influenza vaccine, egg-based, surface an
 created: '2022-05-30'
 modified: '2024-04-16'
 codes:
-  NUVACode: 0958
-  SCT_NUVA: '11571002000100'
+  NUVACode:
+  - 0958
+  SCT_NUVA:
+  - '11571002000100'
 valences:
 - VAL015

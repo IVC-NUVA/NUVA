@@ -4,10 +4,18 @@ comment: Tuberculosis vaccine
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  CIP: '3400936466425'
-  CIS: '61077869'
-  INFARMED: '4472189'
-  NUVACode: 0590
-  SCT_NUVA: '7171002000104'
+  CIP:
+  - '3400936466074'
+  - '3400936466135'
+  - '3400936466364'
+  - '3400936466425'
+  CIS:
+  - '61077869'
+  INFARMED:
+  - '4472189'
+  NUVACode:
+  - 0590
+  SCT_NUVA:
+  - '7171002000104'
 valences:
 - VAL096

@@ -4,11 +4,19 @@ comment: Diphtheria toxoid (unspecified dose) and tetanus toxoid vaccine
 created: '2021-07-19'
 modified: '2025-04-15'
 codes:
-  ATC: J07AM51
-  ICD11: XM8XH5
-  NUVACode: 0382
-  SCT_NUVA: '5071002000106'
-  SNOMED-CT: '871826000'
+  ATC:
+  - J07AM51
+  ICD11:
+  - XM1G96
+  - XM4039
+  - XM8XH5
+  NUVACode:
+  - 0382
+  SCT_NUVA:
+  - '5071002000106'
+  SNOMED-CT:
+  - '775641005'
+  - '871826000'
 valences:
 - VAL067
 - VAL083

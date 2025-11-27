@@ -5,7 +5,9 @@ comment: COVID-19 vaccine, VLP, recombinant spike protein. The RBD antigen of SA
 created: '2021-07-19'
 modified: '2025-03-13'
 codes:
-  NUVACode: 0695
-  SCT_NUVA: '8371002000101'
+  NUVACode:
+  - 0695
+  SCT_NUVA:
+  - '8371002000101'
 valences:
 - VAL039

@@ -6,7 +6,9 @@ comment: COVID-19 mRNA vaccine, subvariant Omicron KP.2, 30 micrograms, adult (+
 created: '2025-04-14'
 modified: '2025-04-25'
 codes:
-  NUVACode: '1418'
-  SCT_NUVA: '17131002000100'
+  NUVACode:
+  - '1418'
+  SCT_NUVA:
+  - '17131002000100'
 valences:
 - VAL409

@@ -6,7 +6,8 @@ comment: Unconjugated pneumococcal polysaccharide vaccine, 23-valent, serotypes 
 created: '2025-07-30'
 modified: '2025-07-31'
 codes:
-  NUVACode: '1462'
+  NUVACode:
+  - '1462'
 valences:
 - VAL206
 - VAL207

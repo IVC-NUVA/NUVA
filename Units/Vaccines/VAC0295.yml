@@ -5,11 +5,18 @@ comment: Unconjugated meningococcal polysaccharide vaccine, serogroups A, C, W a
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  CVC: '7111000087104'
-  DIN: 02161184
-  NDC: 49281-0489-91
-  NUVACode: 0295
-  SCT_NUVA: '4151002000100'
+  CVC:
+  - '7111000087104'
+  DIN:
+  - 01959018
+  - 02161184
+  NDC:
+  - 49281-0489-01
+  - 49281-0489-91
+  NUVACode:
+  - 0295
+  SCT_NUVA:
+  - '4151002000100'
 valences:
 - VAL037
 - VAL137

@@ -4,7 +4,9 @@ comment: COVID-19 inactivated vaccine, whole virus, in clinical trial, unspecifi
 created: '2024-06-05'
 modified: '2025-04-25'
 codes:
-  NUVACode: '1124'
-  SCT_NUVA: '13821002000104'
+  NUVACode:
+  - '1124'
+  SCT_NUVA:
+  - '13821002000104'
 valences:
 - VAL265

@@ -4,8 +4,11 @@ comment: Immunoglobulin against respiratory syncytial virus (RSV), unspecified
 created: '2024-06-05'
 modified: '2025-02-25'
 codes:
-  CVX: '71'
-  NUVACode: '1223'
-  SCT_NUVA: '14831002000103'
+  CVX:
+  - '71'
+  NUVACode:
+  - '1223'
+  SCT_NUVA:
+  - '14831002000103'
 valences:
 - VAL148

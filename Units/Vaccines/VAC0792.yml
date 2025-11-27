@@ -6,14 +6,22 @@ comment: Diphtheria toxoid (unspecified dose), tetanus toxoid, pertussis (whole-
 created: '2021-10-26'
 modified: '2025-04-16'
 codes:
-  ATC: J07CA12
-  CPT: '90723'
-  CVC: '20641000087100'
-  CVX: '110'
-  ICD11: XM0LT9
-  NUVACode: 0792
-  SCT_NUVA: '9411002000107'
-  SNOMED-CT: '871891001'
+  ATC:
+  - J07CA12
+  CPT:
+  - '90723'
+  CVC:
+  - '20641000087100'
+  CVX:
+  - '110'
+  ICD11:
+  - XM0LT9
+  NUVACode:
+  - 0792
+  SCT_NUVA:
+  - '9411002000107'
+  SNOMED-CT:
+  - '871891001'
 valences:
 - VAL003
 - VAL056

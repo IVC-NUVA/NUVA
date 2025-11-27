@@ -5,9 +5,20 @@ comment: Diphtheria toxoid (low dose), tetanus toxoid, pertussis (multicomponent
 created: '2021-07-19'
 modified: '2023-11-02'
 codes:
-  AIC: 036752083
-  NUVACode: '0734'
-  SCT_NUVA: '8791002000101'
+  AIC:
+  - '036752'
+  - 036752018
+  - '036752020'
+  - '036752032'
+  - '036752044'
+  - '036752057'
+  - 036752069
+  - '036752071'
+  - 036752083
+  NUVACode:
+  - '0734'
+  SCT_NUVA:
+  - '8791002000101'
 valences:
 - VAL017
 - VAL034

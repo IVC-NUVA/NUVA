@@ -4,11 +4,28 @@ comment: Pandemic influenza A(H1N1)pdm09 vaccine, inactivated
 created: '2021-07-19'
 modified: '2025-05-21'
 codes:
-  CPT: '90668'
-  CVC: '7001000087102'
-  CVX: '128'
-  NUVACode: '0147'
-  SCT_NUVA: '2541002000103'
-  SNOMED-CT: '871772009'
+  CPT:
+  - '90470'
+  - '90663'
+  - '90664'
+  - '90666'
+  - '90668'
+  CVC:
+  - '443651005'
+  - '6981000087108'
+  - '6991000087105'
+  - '7001000087102'
+  CVX:
+  - '125'
+  - '126'
+  - '127'
+  - '128'
+  NUVACode:
+  - '0147'
+  SCT_NUVA:
+  - '2541002000103'
+  SNOMED-CT:
+  - '1157356006'
+  - '871772009'
 valences:
 - VAL099

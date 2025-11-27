@@ -5,7 +5,9 @@ comment: Whole virion inactivated rabies vaccine, Flury LEP strain, purified chi
 created: '2021-10-26'
 modified: '2023-11-02'
 codes:
-  NUVACode: 0781
-  SCT_NUVA: '9251002000107'
+  NUVACode:
+  - 0781
+  SCT_NUVA:
+  - '9251002000107'
 valences:
 - VAL259

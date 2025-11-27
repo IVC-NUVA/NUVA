@@ -4,9 +4,13 @@ comment: Meningococcal vaccine, serogroup B (outer membrane vesicle protein B:14
 created: '2021-07-19'
 modified: '2025-04-15'
 codes:
-  ATC: J07AH06
-  ICD11: XM9GJ1
-  NUVACode: 0149
-  SCT_NUVA: '2561002000104'
+  ATC:
+  - J07AH06
+  ICD11:
+  - XM9GJ1
+  NUVACode:
+  - 0149
+  SCT_NUVA:
+  - '2561002000104'
 valences:
 - VAL026

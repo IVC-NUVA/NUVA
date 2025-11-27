@@ -4,8 +4,10 @@ comment: Diphtheria toxoid (standard dose) and tetanus toxoid pediatric vaccine
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  NUVACode: 0185
-  SCT_NUVA: '2981002000100'
+  NUVACode:
+  - 0185
+  SCT_NUVA:
+  - '2981002000100'
 valences:
 - VAL067
 - VAL097

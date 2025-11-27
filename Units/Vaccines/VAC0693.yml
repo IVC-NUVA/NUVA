@@ -5,7 +5,9 @@ comment: COVID-19 vaccine, non-replicating adenovirus 5 vector encoding the SARS
 created: '2021-07-19'
 modified: '2024-06-04'
 codes:
-  NUVACode: 0693
-  SCT_NUVA: '8341002000107'
+  NUVACode:
+  - 0693
+  SCT_NUVA:
+  - '8341002000107'
 valences:
 - VAL050

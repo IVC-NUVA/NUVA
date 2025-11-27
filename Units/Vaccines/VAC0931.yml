@@ -4,8 +4,15 @@ comment: Quadrivalent recombinant seasonal influenza vaccine
 created: '2022-05-06'
 modified: '2024-04-18'
 codes:
-  NDC: 49281-0721-10
-  NUVACode: 0931
-  SCT_NUVA: '11241002000109'
+  NDC:
+  - 42874-0117-10
+  - 49281-0718-10
+  - 49281-0719-10
+  - 49281-0720-10
+  - 49281-0721-10
+  NUVACode:
+  - 0931
+  SCT_NUVA:
+  - '11241002000109'
 valences:
 - VAL287

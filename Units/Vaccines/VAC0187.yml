@@ -4,8 +4,12 @@ comment: Live attenuated yellow fever vaccine
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  CIP: '3400932856060'
-  NUVACode: 0187
-  SCT_NUVA: '3001002000101'
+  CIP:
+  - '3400932301430'
+  - '3400932856060'
+  NUVACode:
+  - 0187
+  SCT_NUVA:
+  - '3001002000101'
 valences:
 - VAL092

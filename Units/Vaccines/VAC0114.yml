@@ -4,12 +4,21 @@ comment: Live attenuated measles vaccine
 created: '2021-07-19'
 modified: '2025-05-20'
 codes:
-  ATC: J07BD01
-  CPT: '90705'
-  CVC: '386012008'
-  CVX: '05'
-  NUVACode: '0114'
-  SCT_NUVA: '2101002000105'
-  SNOMED-CT: '871766009'
+  ATC:
+  - J07BD01
+  CPT:
+  - '90705'
+  CVC:
+  - '386012008'
+  CVX:
+  - '05'
+  NUVACode:
+  - '0114'
+  SCT_NUVA:
+  - '2101002000105'
+  SNOMED-CT:
+  - '836382004'
+  - '871765008'
+  - '871766009'
 valences:
 - VAL005

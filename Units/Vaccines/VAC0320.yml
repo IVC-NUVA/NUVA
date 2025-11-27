@@ -5,11 +5,16 @@ comment: Polio vaccine (live attenuated, trivalent) against polioviruses 1, 2 an
 created: '2021-07-19'
 modified: '2025-04-16'
 codes:
-  ATC: J07BF02
-  CVX: '02'
-  ICD11: XM0KZ1
-  NUVACode: '0320'
-  SCT_NUVA: '4431002000102'
+  ATC:
+  - J07BF02
+  CVX:
+  - '02'
+  ICD11:
+  - XM0KZ1
+  NUVACode:
+  - '0320'
+  SCT_NUVA:
+  - '4431002000102'
 valences:
 - VAL033
 - VAL085

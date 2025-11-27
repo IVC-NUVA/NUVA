@@ -5,12 +5,18 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (acellular
 created: '2022-03-08'
 modified: '2024-04-24'
 codes:
-  ATC: J07CA05
-  CVC: '20601000087103'
-  ICD11: XM41N3
-  NUVACode: 0857
-  SCT_NUVA: '10251002000100'
-  SNOMED-CT: '1156879008'
+  ATC:
+  - J07CA05
+  CVC:
+  - '20601000087103'
+  ICD11:
+  - XM41N3
+  NUVACode:
+  - 0857
+  SCT_NUVA:
+  - '10251002000100'
+  SNOMED-CT:
+  - '1156879008'
 valences:
 - VAL003
 - VAL067

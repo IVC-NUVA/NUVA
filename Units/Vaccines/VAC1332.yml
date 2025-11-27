@@ -5,11 +5,17 @@ comment: COVID-19 mRNA vaccine, subvariant Omicron KP.2, 3 micrograms, paediatri
 created: '2025-03-25'
 modified: '2025-06-03'
 codes:
-  CTI: '663376'
-  CTI-EXTEND: 663376-01
-  EU-NUMBER: EU-1-20-1528-042
-  INFARMED: '5890546'
-  NUVACode: '1332'
-  SCT_NUVA: '16201002000101'
+  CTI:
+  - '663376'
+  CTI-EXTEND:
+  - 663376-01
+  EU-NUMBER:
+  - EU-1-20-1528-042
+  INFARMED:
+  - '5890546'
+  NUVACode:
+  - '1332'
+  SCT_NUVA:
+  - '16201002000101'
 valences:
 - VAL407

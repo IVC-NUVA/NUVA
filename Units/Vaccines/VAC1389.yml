@@ -4,7 +4,9 @@ comment: Whole inactivated enterovirus A71 vaccine
 created: '2025-04-08'
 modified: '2025-04-08'
 codes:
-  NUVACode: '1389'
-  SCT_NUVA: '16841002000100'
+  NUVACode:
+  - '1389'
+  SCT_NUVA:
+  - '16841002000100'
 valences:
 - VAL346

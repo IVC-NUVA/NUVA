@@ -5,9 +5,13 @@ comment: COVID-19 vaccine, non-replicating Newcastle disease virus vector encodi
 created: '2021-07-19'
 modified: '2023-07-20'
 codes:
-  CVC: '33411000087109'
-  CVX: '503'
-  NUVACode: 0768
-  SCT_NUVA: '9081002000106'
+  CVC:
+  - '33411000087109'
+  CVX:
+  - '503'
+  NUVACode:
+  - 0768
+  SCT_NUVA:
+  - '9081002000106'
 valences:
 - VAL101

@@ -4,11 +4,18 @@ comment: Cholera vaccine, unspecified
 created: '2021-07-19'
 modified: '2025-02-11'
 codes:
-  CPT: '90725'
-  CVC: '35736007'
-  CVX: '26'
-  NUVACode: '0144'
-  SCT_NUVA: '2491002000106'
-  SNOMED-CT: '991000221105'
+  CPT:
+  - '90725'
+  CVC:
+  - '35736007'
+  CVX:
+  - '26'
+  NUVACode:
+  - '0144'
+  SCT_NUVA:
+  - '2491002000106'
+  SNOMED-CT:
+  - '836383009'
+  - '991000221105'
 valences:
 - VAL081

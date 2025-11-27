@@ -5,11 +5,24 @@ comment: Diphtheria toxoid (low dose), tetanus toxoid and inactivated polio (tri
 created: '2021-07-19'
 modified: '2025-06-20'
 codes:
-  CIP: '3400936875753'
-  CIS: '67968260'
-  NTIN: '9088882469987'
-  NUVACode: '0546'
-  SCT_NUVA: '6831002000105'
+  CIP:
+  - '3400930280249'
+  - '3400930280256'
+  - '3400935259509'
+  - '3400935259677'
+  - '3400935259738'
+  - '3400936875463'
+  - '3400936875524'
+  - '3400936875692'
+  - '3400936875753'
+  CIS:
+  - '67968260'
+  NTIN:
+  - '9088882469987'
+  NUVACode:
+  - '0546'
+  SCT_NUVA:
+  - '6831002000105'
 valences:
 - VAL034
 - VAL056

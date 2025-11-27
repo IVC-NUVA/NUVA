@@ -4,9 +4,13 @@ comment: COVID-19 vaccine, whole virion inactivated
 created: '2023-05-16'
 modified: '2024-04-11'
 codes:
-  ATC: J07BN03
-  CVC: '1157024006'
-  NUVACode: '1044'
-  SCT_NUVA: '12621002000105'
+  ATC:
+  - J07BN03
+  CVC:
+  - '1157024006'
+  NUVACode:
+  - '1044'
+  SCT_NUVA:
+  - '12621002000105'
 valences:
 - VAL076

@@ -5,7 +5,9 @@ comment: Typhoid conjugate vaccine, Vi polysaccharide capsular antigen linked to
 created: '2025-04-07'
 modified: '2025-04-17'
 codes:
-  NUVACode: '1382'
-  SCT_NUVA: '16771002000104'
+  NUVACode:
+  - '1382'
+  SCT_NUVA:
+  - '16771002000104'
 valences:
 - VAL002

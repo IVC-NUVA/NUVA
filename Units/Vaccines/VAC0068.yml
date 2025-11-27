@@ -4,9 +4,14 @@ comment: Tuberculosis vaccine
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  CIP: '3400932035311'
-  CIS: '68007738'
-  NUVACode: 0068
-  SCT_NUVA: '1441002000107'
+  CIP:
+  - '3400931500599'
+  - '3400932035311'
+  CIS:
+  - '68007738'
+  NUVACode:
+  - 0068
+  SCT_NUVA:
+  - '1441002000107'
 valences:
 - VAL096

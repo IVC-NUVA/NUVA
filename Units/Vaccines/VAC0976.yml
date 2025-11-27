@@ -4,7 +4,9 @@ comment: Cholera vaccine, unspecified
 created: '2022-06-17'
 modified: '2024-04-16'
 codes:
-  NUVACode: 0976
-  SCT_NUVA: '11751002000101'
+  NUVACode:
+  - 0976
+  SCT_NUVA:
+  - '11751002000101'
 valences:
 - VAL081

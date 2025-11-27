@@ -5,8 +5,10 @@ comment: Paediatric diphtheria vaccine (toxoid, standard dose) and tetanus vacci
 created: '2025-03-05'
 modified: '2025-03-05'
 codes:
-  NUVACode: '1295'
-  SCT_NUVA: '15781002000109'
+  NUVACode:
+  - '1295'
+  SCT_NUVA:
+  - '15781002000109'
 valences:
 - VAL067
 - VAL097

@@ -5,10 +5,21 @@ comment: Polio vaccine (live attenuated, trivalent) against polioviruses 1, 2 an
 created: '2021-07-19'
 modified: '2025-09-26'
 codes:
-  CIP: '3400936368798'
-  CIS: '62266716'
-  NUVACode: '0632'
-  SCT_NUVA: '7471002000108'
+  CIP:
+  - '3400936367968'
+  - '3400936368040'
+  - '3400936368101'
+  - '3400936368279'
+  - '3400936368330'
+  - '3400936368569'
+  - '3400936368620'
+  - '3400936368798'
+  CIS:
+  - '62266716'
+  NUVACode:
+  - '0632'
+  SCT_NUVA:
+  - '7471002000108'
 valences:
 - VAL033
 - VAL085

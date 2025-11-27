@@ -4,7 +4,9 @@ comment: Inactivated whole-cell cholera vaccine for injection
 created: '2021-10-26'
 modified: '2024-07-05'
 codes:
-  NUVACode: 0805
-  SCT_NUVA: '9571002000101'
+  NUVACode:
+  - 0805
+  SCT_NUVA:
+  - '9571002000101'
 valences:
 - VAL004

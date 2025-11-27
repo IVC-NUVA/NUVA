@@ -5,7 +5,9 @@ comment: Polio vaccine (live attenuated, monovalent) against polioviruses type 2
 created: '2025-03-04'
 modified: '2025-03-04'
 codes:
-  NUVACode: '1285'
-  SCT_NUVA: '15681002000100'
+  NUVACode:
+  - '1285'
+  SCT_NUVA:
+  - '15681002000100'
 valences:
 - VAL033

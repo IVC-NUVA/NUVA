@@ -4,8 +4,12 @@ comment: Tetanus toxoid vaccine
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  AIC: '026171013'
-  NUVACode: 0529
-  SCT_NUVA: '6681002000107'
+  AIC:
+  - '026171'
+  - '026171013'
+  NUVACode:
+  - 0529
+  SCT_NUVA:
+  - '6681002000107'
 valences:
 - VAL067

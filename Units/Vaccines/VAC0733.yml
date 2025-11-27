@@ -4,12 +4,23 @@ comment: Recombinant hepatitis B vaccine, adult dose
 created: '2021-07-19'
 modified: '2025-03-31'
 codes:
-  CPT: '90739'
-  CTI: '661896'
-  CTI-EXTEND: 661896-01
-  EU-NUMBER: EU-1-20-1503-001
-  NDC: 50090-3469-00
-  NUVACode: '0733'
-  SCT_NUVA: '8781002000104'
+  CPT:
+  - '90739'
+  CTI:
+  - '580880'
+  - '661896'
+  CTI-EXTEND:
+  - 580880-01
+  - 661896-01
+  EU-NUMBER:
+  - EU-1-20-1503-001
+  NDC:
+  - 43528-0002-05
+  - 43528-0003-05
+  - 50090-3469-00
+  NUVACode:
+  - '0733'
+  SCT_NUVA:
+  - '8781002000104'
 valences:
 - VAL115

@@ -5,10 +5,26 @@ comment: Human Papillomavirus vaccine, based on VLP (Virus Like Particles), nona
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  EU-NUMBER: EU-1-06-358-021
-  INFARMED: '5113626'
-  NUVACode: '0511'
-  SCT_NUVA: '6391002000104'
+  EU-NUMBER:
+  - EU-1-06-358-001
+  - EU-1-06-358-002
+  - EU-1-06-358-003
+  - EU-1-06-358-004
+  - EU-1-06-358-005
+  - EU-1-06-358-006
+  - EU-1-06-358-007
+  - EU-1-06-358-008
+  - EU-1-06-358-018
+  - EU-1-06-358-019
+  - EU-1-06-358-020
+  - EU-1-06-358-021
+  INFARMED:
+  - '5113618'
+  - '5113626'
+  NUVACode:
+  - '0511'
+  SCT_NUVA:
+  - '6391002000104'
 valences:
 - VAL052
 - VAL238

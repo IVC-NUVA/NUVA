@@ -4,11 +4,17 @@ comment: Meningococcal vaccine, serogroup B (multicomponent - multiple proteins)
 created: '2022-03-11'
 modified: '2024-07-04'
 codes:
-  ATC: J07AH09
-  CPT: '90621'
-  CVX: '162'
-  ICD11: XM1X81
-  NUVACode: 0861
-  SCT_NUVA: '10301002000105'
+  ATC:
+  - J07AH09
+  CPT:
+  - '90621'
+  CVX:
+  - '162'
+  ICD11:
+  - XM1X81
+  NUVACode:
+  - 0861
+  SCT_NUVA:
+  - '10301002000105'
 valences:
 - VAL161

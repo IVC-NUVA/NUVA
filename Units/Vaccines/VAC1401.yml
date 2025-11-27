@@ -5,8 +5,10 @@ comment: Human Papillomavirus vaccine, nonavalent (types 6, 11, 16, 18, 31, 33, 
 created: '2025-04-08'
 modified: '2025-04-08'
 codes:
-  NUVACode: '1401'
-  SCT_NUVA: '16961002000107'
+  NUVACode:
+  - '1401'
+  SCT_NUVA:
+  - '16961002000107'
 valences:
 - VAL036
 - VAL238

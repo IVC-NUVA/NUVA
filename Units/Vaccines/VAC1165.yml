@@ -4,7 +4,9 @@ comment: Pediatric diphtheria vaccine (toxoid, standard dose)
 created: '2024-06-05'
 modified: '2024-07-04'
 codes:
-  NUVACode: '1165'
-  SCT_NUVA: '14241002000107'
+  NUVACode:
+  - '1165'
+  SCT_NUVA:
+  - '14241002000107'
 valences:
 - VAL097

@@ -5,9 +5,12 @@ comment: Haemophilus influenzae type b (conjugated, unspecified) and inactivated
 created: '2021-10-26'
 modified: '2025-04-16'
 codes:
-  ICD11: XM01H1
-  NUVACode: 0788
-  SCT_NUVA: '9371002000106'
+  ICD11:
+  - XM01H1
+  NUVACode:
+  - 0788
+  SCT_NUVA:
+  - '9371002000106'
 valences:
 - VAL056
 - VAL103

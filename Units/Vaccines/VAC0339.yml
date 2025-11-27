@@ -6,12 +6,18 @@ comment: Unconjugated pneumococcal polysaccharide vaccine, 23-valent, serotypes 
 created: '2021-07-19'
 modified: '2025-04-15'
 codes:
-  CPT: '90732'
-  CVC: '7251000087108'
-  CVX: '33'
-  ICD11: XM2249
-  NUVACode: 0339
-  SCT_NUVA: '4611002000108'
+  CPT:
+  - '90732'
+  CVC:
+  - '7251000087108'
+  CVX:
+  - '33'
+  ICD11:
+  - XM2249
+  NUVACode:
+  - 0339
+  SCT_NUVA:
+  - '4611002000108'
 valences:
 - VAL206
 - VAL207

@@ -5,10 +5,15 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid and inactivated polio
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  CIP: '3400955372073'
-  CIS: '60737692'
-  NUVACode: '0004'
-  SCT_NUVA: '141002000103'
+  CIP:
+  - '3400931354338'
+  - '3400955372073'
+  CIS:
+  - '60737692'
+  NUVACode:
+  - '0004'
+  SCT_NUVA:
+  - '141002000103'
 valences:
 - VAL056
 - VAL067

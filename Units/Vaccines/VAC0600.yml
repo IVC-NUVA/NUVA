@@ -5,13 +5,21 @@ comment: Polio vaccine (live attenuated, bivalent) against poliovirus types 1 an
 created: '2021-07-19'
 modified: '2025-04-16'
 codes:
-  AIC: '041165010'
-  ATC: J07BF04
-  CVX: '178'
-  ICD11: XM79H3
-  NUVACode: '0600'
-  SCT_NUVA: '7261002000104'
-  SNOMED-CT: '1051000221104'
+  AIC:
+  - '041165'
+  - '041165010'
+  ATC:
+  - J07BF04
+  CVX:
+  - '178'
+  ICD11:
+  - XM79H3
+  NUVACode:
+  - '0600'
+  SCT_NUVA:
+  - '7261002000104'
+  SNOMED-CT:
+  - '1051000221104'
 valences:
 - VAL085
 - VAL132

@@ -4,10 +4,17 @@ comment: Japanese encephalitis vaccine
 created: '2022-05-03'
 modified: '2024-04-18'
 codes:
-  CVC: '333697005'
-  CVX: '134'
-  NUVACode: 0921
-  SCT_NUVA: '11071002000107'
-  SNOMED-CT: '871724008'
+  CVC:
+  - '333697005'
+  CVX:
+  - '129'
+  - '134'
+  NUVACode:
+  - 0921
+  SCT_NUVA:
+  - '11071002000107'
+  SNOMED-CT:
+  - '836378001'
+  - '871724008'
 valences:
 - VAL249

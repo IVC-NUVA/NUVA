@@ -4,7 +4,9 @@ comment: Meningococcal conjugate vaccine, serogroup A (conjugated to tetanus tox
 created: '2021-07-19'
 modified: '2025-03-13'
 codes:
-  NUVACode: 0293
-  SCT_NUVA: '4131002000105'
+  NUVACode:
+  - 0293
+  SCT_NUVA:
+  - '4131002000105'
 valences:
 - VAL271

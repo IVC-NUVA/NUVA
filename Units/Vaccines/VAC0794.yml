@@ -4,9 +4,12 @@ comment: Tetanus toxoid vaccine combined with anti-tetanus immunoglobulin
 created: '2021-10-26'
 modified: '2025-04-15'
 codes:
-  ICD11: XM9AK2
-  NUVACode: 0794
-  SCT_NUVA: '9431002000103'
+  ICD11:
+  - XM9AK2
+  NUVACode:
+  - 0794
+  SCT_NUVA:
+  - '9431002000103'
 valences:
 - VAL067
 - VAL110

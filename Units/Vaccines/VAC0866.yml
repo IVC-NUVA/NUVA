@@ -4,10 +4,15 @@ comment: Meningococcal polysaccharide conjugate vaccine, serogroup A
 created: '2022-03-15'
 modified: '2024-04-23'
 codes:
-  ATC: J07AH10
-  ICD11: XM2280
-  NUVACode: 0866
-  SCT_NUVA: '10351002000109'
-  SNOMED-CT: '52821000087108'
+  ATC:
+  - J07AH10
+  ICD11:
+  - XM2280
+  NUVACode:
+  - 0866
+  SCT_NUVA:
+  - '10351002000109'
+  SNOMED-CT:
+  - '52821000087108'
 valences:
 - VAL041

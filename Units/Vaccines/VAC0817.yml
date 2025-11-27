@@ -4,10 +4,16 @@ comment: Whole-cell inactivated typhoid vaccine
 created: '2021-10-26'
 modified: '2025-02-28'
 codes:
-  ATC: J07AP02
-  CPT: '90693'
-  CVX: '53'
-  NUVACode: 0817
-  SCT_NUVA: '9751002000102'
+  ATC:
+  - J07AP02
+  CPT:
+  - '90692'
+  - '90693'
+  CVX:
+  - '53'
+  NUVACode:
+  - 0817
+  SCT_NUVA:
+  - '9751002000102'
 valences:
 - VAL071

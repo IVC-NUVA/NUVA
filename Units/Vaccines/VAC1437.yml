@@ -4,6 +4,7 @@ comment: Meningococcal vaccine, monovalent, conjugate
 created: '2025-05-22'
 modified: '2025-05-22'
 codes:
-  NUVACode: '1437'
+  NUVACode:
+  - '1437'
 valences:
 - VAL234

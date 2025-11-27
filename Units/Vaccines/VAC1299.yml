@@ -4,7 +4,9 @@ comment: Recombinant hepatitis B vaccine, pediatric dose
 created: '2025-03-11'
 modified: '2025-03-11'
 codes:
-  NUVACode: '1299'
-  SCT_NUVA: '15821002000100'
+  NUVACode:
+  - '1299'
+  SCT_NUVA:
+  - '15821002000100'
 valences:
 - VAL114

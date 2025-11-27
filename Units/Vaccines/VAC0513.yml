@@ -4,9 +4,12 @@ comment: Hepatitis A (inactivated, adsorbed) and typhoid vaccine (polysaccharide
 created: '2021-07-19'
 modified: '2023-11-02'
 codes:
-  CNK: '3217783'
-  NUVACode: '0513'
-  SCT_NUVA: '6421002000105'
+  CNK:
+  - '3217783'
+  NUVACode:
+  - '0513'
+  SCT_NUVA:
+  - '6421002000105'
 valences:
 - VAL032
 - VAL125

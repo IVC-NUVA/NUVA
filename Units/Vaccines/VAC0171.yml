@@ -4,7 +4,9 @@ comment: Influenza A(H5N1) vaccine
 created: '2021-07-19'
 modified: '2025-04-11'
 codes:
-  NUVACode: '0171'
-  SCT_NUVA: '2841002000101'
+  NUVACode:
+  - '0171'
+  SCT_NUVA:
+  - '2841002000101'
 valences:
 - VAL051

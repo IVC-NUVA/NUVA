@@ -4,8 +4,16 @@ comment: Trivalent inactivated seasonal influenza vaccine, virosome
 created: '2022-06-13'
 modified: '2025-03-28'
 codes:
-  CNK: '3040474'
-  NUVACode: 0968
-  SCT_NUVA: '11671002000101'
+  CNK:
+  - '2228104'
+  - '2493260'
+  - '2585727'
+  - '2798379'
+  - '2852788'
+  - '3040474'
+  NUVACode:
+  - 0968
+  SCT_NUVA:
+  - '11671002000101'
 valences:
 - VAL015

@@ -4,13 +4,30 @@ comment: Meningococcal conjugate vaccine, serogroup C (conjugated to tetanus tox
 created: '2021-07-19'
 modified: '2025-10-22'
 codes:
-  AIC: 035602059
-  CIP: '3400936277397'
-  CIS: '69261547'
-  CNK: '1696392'
-  CP-NRONATIDENT: '0312526'
-  NUVACode: '0022'
-  PZN: 01985481
-  SCT_NUVA: '511002000108'
+  AIC:
+  - '035602'
+  - '035602010'
+  - '035602022'
+  - '035602034'
+  - '035602046'
+  - 035602059
+  CIP:
+  - '3400936276857'
+  - '3400936276918'
+  - '3400936277168'
+  - '3400936277397'
+  CIS:
+  - '69261547'
+  CNK:
+  - '1696392'
+  CP-NRONATIDENT:
+  - '0312526'
+  NUVACode:
+  - '0022'
+  PZN:
+  - 01985469
+  - 01985481
+  SCT_NUVA:
+  - '511002000108'
 valences:
 - VAL266

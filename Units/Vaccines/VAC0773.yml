@@ -5,7 +5,9 @@ comment: COVID-19 vaccine, VLP, recombinant spike protein, with or without adjuv
 created: '2021-07-19'
 modified: '2023-07-20'
 codes:
-  NUVACode: '0773'
-  SCT_NUVA: '9141002000103'
+  NUVACode:
+  - '0773'
+  SCT_NUVA:
+  - '9141002000103'
 valences:
 - VAL039

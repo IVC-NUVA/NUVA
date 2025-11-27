@@ -4,7 +4,9 @@ comment: Live attenuated influenza A(H1N1)pdm09 pandemic vaccine
 created: '2025-03-13'
 modified: '2025-04-14'
 codes:
-  NUVACode: '1324'
-  SCT_NUVA: '16111002000107'
+  NUVACode:
+  - '1324'
+  SCT_NUVA:
+  - '16111002000107'
 valences:
 - VAL405

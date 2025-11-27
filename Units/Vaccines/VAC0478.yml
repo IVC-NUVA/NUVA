@@ -5,10 +5,15 @@ comment: Diphtheria toxoid (low dose), tetanus toxoid and pertussis (multicompon
 created: '2021-07-19'
 modified: '2023-11-02'
 codes:
-  NTIN: '4150125901075'
-  NUVACode: 0478
-  PZN: '12590107'
-  SCT_NUVA: '6021002000104'
+  NTIN:
+  - '4150125900993'
+  - '4150125901075'
+  NUVACode:
+  - 0478
+  PZN:
+  - '12590107'
+  SCT_NUVA:
+  - '6021002000104'
 valences:
 - VAL017
 - VAL034

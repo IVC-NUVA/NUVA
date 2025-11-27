@@ -4,9 +4,13 @@ comment: Unconjugated pneumococcal polysaccharide vaccine, serotypes unspecified
 created: '2021-10-26'
 modified: '2025-04-15'
 codes:
-  ATC: J07AL01
-  ICD11: XM91D7
-  NUVACode: 0813
-  SCT_NUVA: '9701002000101'
+  ATC:
+  - J07AL01
+  ICD11:
+  - XM91D7
+  NUVACode:
+  - 0813
+  SCT_NUVA:
+  - '9701002000101'
 valences:
 - VAL185

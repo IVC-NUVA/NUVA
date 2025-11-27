@@ -4,8 +4,11 @@ comment: Acellular anthrax vaccine, 50 micrograms per 0.5 mL dose, adjuvanted
 created: '2022-05-25'
 modified: '2024-04-17'
 codes:
-  CIP: '3400930158982'
-  NUVACode: 0948
-  SCT_NUVA: '11471002000104'
+  CIP:
+  - '3400930158982'
+  NUVACode:
+  - 0948
+  SCT_NUVA:
+  - '11471002000104'
 valences:
 - VAL415

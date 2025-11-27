@@ -4,7 +4,9 @@ comment: Whole inactivated mumps vaccine, unspecified
 created: '2024-06-05'
 modified: '2024-07-04'
 codes:
-  NUVACode: '1154'
-  SCT_NUVA: '14131002000108'
+  NUVACode:
+  - '1154'
+  SCT_NUVA:
+  - '14131002000108'
 valences:
 - VAL048

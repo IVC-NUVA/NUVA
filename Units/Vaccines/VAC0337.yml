@@ -6,12 +6,20 @@ comment: Unconjugated pneumococcal polysaccharide vaccine, 23-valent, serotypes 
 created: '2021-07-19'
 modified: '2023-11-02'
 codes:
-  AIC: 029547027
-  CIP: '3400934612626'
-  CIS: '69491701'
-  INFARMED: '2481182'
-  NUVACode: '0337'
-  SCT_NUVA: '4591002000104'
+  AIC:
+  - 029547
+  - 029547015
+  - 029547027
+  CIP:
+  - '3400934612626'
+  CIS:
+  - '69491701'
+  INFARMED:
+  - '2481182'
+  NUVACode:
+  - '0337'
+  SCT_NUVA:
+  - '4591002000104'
 valences:
 - VAL206
 - VAL207

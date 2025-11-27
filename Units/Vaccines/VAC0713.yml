@@ -4,12 +4,22 @@ comment: Polysaccharide typhoid vaccine (Vi capsular antigen)
 created: '2021-07-19'
 modified: '2025-02-11'
 codes:
-  ATC: J07AP03
-  CPT: '90691'
-  CVC: '346639000'
-  CVX: '41'
-  NUVACode: '0713'
-  SCT_NUVA: '8561002000101'
-  SNOMED-CT: '961000221100'
+  ATC:
+  - J07AP03
+  CPT:
+  - '90691'
+  CVC:
+  - '346639000'
+  CVX:
+  - '101'
+  - '41'
+  NUVACode:
+  - '0713'
+  SCT_NUVA:
+  - '8561002000101'
+  SNOMED-CT:
+  - '2171000221104'
+  - '871755002'
+  - '961000221100'
 valences:
 - VAL032

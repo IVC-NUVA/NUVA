@@ -4,8 +4,10 @@ comment: Combined hepatitis A and B vaccine, adult dose
 created: '2025-04-08'
 modified: '2025-04-08'
 codes:
-  NUVACode: '1391'
-  SCT_NUVA: '16861002000101'
+  NUVACode:
+  - '1391'
+  SCT_NUVA:
+  - '16861002000101'
 valences:
 - VAL115
 - VAL145

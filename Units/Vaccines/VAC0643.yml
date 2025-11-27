@@ -5,14 +5,25 @@ comment: Quadrivalent meningococcal polysaccharide conjugate vaccine, serogroups
 created: '2021-07-19'
 modified: '2025-05-20'
 codes:
-  ATC: J07AH08
-  CPT: '90734'
-  CVC: '7121000087107'
-  CVX: '147'
-  ICD11: XM2AR0
-  NUVACode: '0643'
-  SCT_NUVA: '7641002000100'
-  SNOMED-CT: '871916006'
+  ATC:
+  - J07AH08
+  CPT:
+  - '90734'
+  CVC:
+  - '7121000087107'
+  CVX:
+  - '114'
+  - '147'
+  ICD11:
+  - XM2AR0
+  NUVACode:
+  - '0643'
+  SCT_NUVA:
+  - '7641002000100'
+  SNOMED-CT:
+  - '1971000221105'
+  - '871873006'
+  - '871916006'
 valences:
 - VAL041
 - VAL057

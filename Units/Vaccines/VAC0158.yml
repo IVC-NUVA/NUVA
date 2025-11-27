@@ -4,12 +4,22 @@ comment: Rotavirus vaccine
 created: '2021-07-19'
 modified: '2025-04-16'
 codes:
-  ATC: J07BH01
-  CVC: '7811000087105'
-  CVX: '122'
-  ICD11: XM4GV0
-  NUVACode: 0158
-  SCT_NUVA: '2701002000109'
-  SNOMED-CT: '871761004'
+  ATC:
+  - J07BH01
+  CVC:
+  - '116077000'
+  - '7811000087105'
+  CVX:
+  - '122'
+  ICD11:
+  - XM4GV0
+  NUVACode:
+  - 0158
+  SCT_NUVA:
+  - '2701002000109'
+  SNOMED-CT:
+  - '1081000221109'
+  - '836387005'
+  - '871761004'
 valences:
 - VAL106

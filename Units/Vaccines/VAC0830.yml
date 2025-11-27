@@ -4,8 +4,11 @@ comment: Subunit shingles vaccine (currently corresponds to glycoprotein E)
 created: '2021-10-26'
 modified: '2022-11-03'
 codes:
-  ATC: J07BK03
-  NUVACode: 0830
-  SCT_NUVA: '9931002000109'
+  ATC:
+  - J07BK03
+  NUVACode:
+  - 0830
+  SCT_NUVA:
+  - '9931002000109'
 valences:
 - VAL159

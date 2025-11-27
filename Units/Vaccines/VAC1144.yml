@@ -6,7 +6,9 @@ comment: Anti-covid 19 protein subunit vaccine, recombinant SARS-CoV-2 spike pro
 created: '2024-06-05'
 modified: '2025-03-27'
 codes:
-  NUVACode: '1144'
-  SCT_NUVA: '14031002000107'
+  NUVACode:
+  - '1144'
+  SCT_NUVA:
+  - '14031002000107'
 valences:
 - VAL061

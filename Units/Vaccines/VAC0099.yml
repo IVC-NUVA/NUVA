@@ -4,11 +4,27 @@ comment: Meningococcal conjugate vaccine, serogroup C (conjugated to CRM197 Prot
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  AIC: '035437060'
-  CIP: '3400935947963'
-  CIS: '61895802'
-  INFARMED: '3981388'
-  NUVACode: 0099
-  SCT_NUVA: '1881002000101'
+  AIC:
+  - '035437'
+  - 035437019
+  - '035437021'
+  - '035437033'
+  - '035437045'
+  - 035437058
+  - '035437060'
+  CIP:
+  - '3400935778819'
+  - '3400935947734'
+  - '3400935947963'
+  CIS:
+  - '61895802'
+  INFARMED:
+  - '3773983'
+  - '3981289'
+  - '3981388'
+  NUVACode:
+  - 0099
+  SCT_NUVA:
+  - '1881002000101'
 valences:
 - VAL268

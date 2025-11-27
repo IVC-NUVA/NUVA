@@ -4,10 +4,15 @@ comment: Meningococcal vaccine, serogroup B, type of vaccine unspecified
 created: '2021-10-26'
 modified: '2025-02-11'
 codes:
-  CVC: '785864002'
-  CVX: '164'
-  NUVACode: 0811
-  SCT_NUVA: '9661002000107'
-  SNOMED-CT: '1981000221108'
+  CVC:
+  - '785864002'
+  CVX:
+  - '164'
+  NUVACode:
+  - 0811
+  SCT_NUVA:
+  - '9661002000107'
+  SNOMED-CT:
+  - '1981000221108'
 valences:
 - VAL118

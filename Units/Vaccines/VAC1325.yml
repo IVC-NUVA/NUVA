@@ -4,7 +4,9 @@ comment: Recombinant hepatitis B vaccine with thiomersal, pediatric dose
 created: '2025-03-14'
 modified: '2025-03-14'
 codes:
-  NUVACode: '1325'
-  SCT_NUVA: '16121002000101'
+  NUVACode:
+  - '1325'
+  SCT_NUVA:
+  - '16121002000101'
 valences:
 - VAL114

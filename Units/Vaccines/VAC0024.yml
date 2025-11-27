@@ -6,17 +6,33 @@ comment: Unconjgated pneumococcal polysaccharide vaccine, 23-valent, serotypes 1
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  AIC: 027644018
-  CIP: '3400936873452'
-  CIS: '68819650'
-  CNK: '1185685'
-  CODE_NATIONAL_SPAIN: '650617'
-  CVC: '7631000087101'
-  DIN: 02231259
-  INFARMED: '2828283'
-  NTIN: '7591044000222'
-  NUVACode: '0024'
-  SCT_NUVA: '761002000100'
+  AIC:
+  - '027644'
+  - 027644018
+  CIP:
+  - '3400932434824'
+  - '3400934233272'
+  - '3400936873452'
+  CIS:
+  - '65861879'
+  - '68819650'
+  CNK:
+  - '1185685'
+  CODE_NATIONAL_SPAIN:
+  - '650617'
+  CVC:
+  - '7631000087101'
+  DIN:
+  - 02231259
+  INFARMED:
+  - '2828184'
+  - '2828283'
+  NTIN:
+  - '7591044000222'
+  NUVACode:
+  - '0024'
+  SCT_NUVA:
+  - '761002000100'
 valences:
 - VAL206
 - VAL207

@@ -5,10 +5,15 @@ comment: Trivalent inactivated seasonal influenza, split virion and tetanus toxo
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  CIP: '3400932936236'
-  CIS: '68015521'
-  NUVACode: '0036'
-  SCT_NUVA: '1011002000102'
+  CIP:
+  - '3400932936175'
+  - '3400932936236'
+  CIS:
+  - '68015521'
+  NUVACode:
+  - '0036'
+  SCT_NUVA:
+  - '1011002000102'
 valences:
 - VAL015
 - VAL067

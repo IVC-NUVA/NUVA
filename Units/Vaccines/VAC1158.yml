@@ -5,7 +5,9 @@ comment: COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron XB
 created: '2024-06-05'
 modified: '2025-03-27'
 codes:
-  NUVACode: '1158'
-  SCT_NUVA: '14171002000106'
+  NUVACode:
+  - '1158'
+  SCT_NUVA:
+  - '14171002000106'
 valences:
 - VAL325

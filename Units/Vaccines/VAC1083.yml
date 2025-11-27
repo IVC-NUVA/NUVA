@@ -4,7 +4,9 @@ comment: Anti-rabies immune globulin (human)
 created: '2024-05-14'
 modified: '2024-05-14'
 codes:
-  NUVACode: '1083'
-  SCT_NUVA: '13321002000105'
+  NUVACode:
+  - '1083'
+  SCT_NUVA:
+  - '13321002000105'
 valences:
 - VAL252

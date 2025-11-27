@@ -4,8 +4,11 @@ comment: Recombinant hepatitis B vaccine, dialysis patient dosage
 created: '2022-10-11'
 modified: '2024-04-12'
 codes:
-  INFARMED: '8559534'
-  NUVACode: '1028'
-  SCT_NUVA: '12381002000104'
+  INFARMED:
+  - '8559534'
+  NUVACode:
+  - '1028'
+  SCT_NUVA:
+  - '12381002000104'
 valences:
 - VAL012

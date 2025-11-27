@@ -5,7 +5,9 @@ comment: COVID-19 vaccine, protein subunit, recombinant spike protein, with adju
 created: '2021-07-19'
 modified: '2025-02-27'
 codes:
-  NUVACode: '0737'
-  SCT_NUVA: '8821002000108'
+  NUVACode:
+  - '0737'
+  SCT_NUVA:
+  - '8821002000108'
 valences:
 - VAL104

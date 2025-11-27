@@ -5,9 +5,13 @@ comment: COVID-19 vaccine, non-replicating adenovirus 5 vector encoding the SARS
 created: '2021-07-19'
 modified: '2023-08-15'
 codes:
-  CVC: '31431000087100'
-  CVX: '506'
-  NUVACode: '0652'
-  SCT_NUVA: '7781002000100'
+  CVC:
+  - '31431000087100'
+  CVX:
+  - '506'
+  NUVACode:
+  - '0652'
+  SCT_NUVA:
+  - '7781002000100'
 valences:
 - VAL050

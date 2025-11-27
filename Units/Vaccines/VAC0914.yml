@@ -4,11 +4,18 @@ comment: Hepatitis B recombinant vaccine, monovalent, pediatric dose
 created: '2022-05-02'
 modified: '2024-04-19'
 codes:
-  CPT: '90744'
-  CVC: '9831000087108'
-  CVX: '42'
-  NUVACode: 0914
-  SCT_NUVA: '10991002000104'
-  SNOMED-CT: '1296864005'
+  CPT:
+  - '90744'
+  CVC:
+  - '9831000087108'
+  CVX:
+  - 08
+  - '42'
+  NUVACode:
+  - 0914
+  SCT_NUVA:
+  - '10991002000104'
+  SNOMED-CT:
+  - '1296864005'
 valences:
 - VAL114

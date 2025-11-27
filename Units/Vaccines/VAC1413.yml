@@ -6,7 +6,9 @@ comment: COVID-19 mRNA vaccine, subvariant Omicron JN.1, 3 micrograms, dose (6 m
 created: '2025-04-14'
 modified: '2025-04-25'
 codes:
-  NUVACode: '1413'
-  SCT_NUVA: '17081002000100'
+  NUVACode:
+  - '1413'
+  SCT_NUVA:
+  - '17081002000100'
 valences:
 - VAL381

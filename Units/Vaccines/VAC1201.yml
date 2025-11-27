@@ -6,7 +6,9 @@ comment: Tetravalent Dengue vaccine, live attenuated chimeric recombinant based 
 created: '2024-06-05'
 modified: '2024-07-05'
 codes:
-  NUVACode: '1201'
-  SCT_NUVA: '14601002000108'
+  NUVACode:
+  - '1201'
+  SCT_NUVA:
+  - '14601002000108'
 valences:
 - VAL087

@@ -5,7 +5,8 @@ comment: Paediatric diphtheria vaccine (toxoid, standard dose) and pertussis (wh
 created: '2025-07-30'
 modified: '2025-07-30'
 codes:
-  NUVACode: '1465'
+  NUVACode:
+  - '1465'
 valences:
 - VAL010
 - VAL067

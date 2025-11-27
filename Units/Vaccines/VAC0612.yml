@@ -5,9 +5,12 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid and whole-cell inacti
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  NUVACode: '0612'
-  SCT_NUVA: '7321002000103'
-  UPC: '349281225109'
+  NUVACode:
+  - '0612'
+  SCT_NUVA:
+  - '7321002000103'
+  UPC:
+  - '349281225109'
 valences:
 - VAL010
 - VAL067

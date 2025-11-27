@@ -4,8 +4,10 @@ comment: Typhoid and paratyphoid A and B vaccine, whole-cell inactivated
 created: '2022-05-25'
 modified: '2024-04-17'
 codes:
-  NUVACode: 0946
-  SCT_NUVA: '11451002000107'
+  NUVACode:
+  - 0946
+  SCT_NUVA:
+  - '11451002000107'
 valences:
 - VAL045
 - VAL071

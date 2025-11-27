@@ -5,14 +5,24 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomp
 created: '2021-07-19'
 modified: '2025-04-03'
 codes:
-  CNK: '1552215'
-  CODE_NATIONAL_SPAIN: '730055'
-  CTI: '212152'
-  CTI-EXTEND: 212152-02
-  CVC: '7461000087105'
-  DIN: 02241284
-  NUVACode: 0569
-  SCT_NUVA: '7021002000101'
+  CNK:
+  - '1552215'
+  CODE_NATIONAL_SPAIN:
+  - '607407'
+  - '730055'
+  CTI:
+  - '212152'
+  CTI-EXTEND:
+  - 212152-01
+  - 212152-02
+  CVC:
+  - '7461000087105'
+  DIN:
+  - 02241284
+  NUVACode:
+  - 0569
+  SCT_NUVA:
+  - '7021002000101'
 valences:
 - VAL008
 - VAL056

@@ -4,11 +4,17 @@ comment: Diphtheria antitoxin
 created: '2022-03-17'
 modified: '2024-07-04'
 codes:
-  ATC: J06AA01
-  CPT: '90296'
-  CVC: '77048008'
-  CVX: '12'
-  NUVACode: 0867
-  SCT_NUVA: '10361002000106'
+  ATC:
+  - J06AA01
+  CPT:
+  - '90296'
+  CVC:
+  - '77048008'
+  CVX:
+  - '12'
+  NUVACode:
+  - 0867
+  SCT_NUVA:
+  - '10361002000106'
 valences:
 - VAL019

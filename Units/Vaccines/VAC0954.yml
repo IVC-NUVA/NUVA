@@ -5,8 +5,11 @@ comment: Whole inactivated Japanese encephalitis vaccine, prepared in murine bra
 created: '2022-05-27'
 modified: '2025-04-01'
 codes:
-  CIP: '3400959066855'
-  NUVACode: 0954
-  SCT_NUVA: '11531002000103'
+  CIP:
+  - '3400959066855'
+  NUVACode:
+  - 0954
+  SCT_NUVA:
+  - '11531002000103'
 valences:
 - VAL250

@@ -4,8 +4,10 @@ comment: Immunoglobulin against hepatitis A, measles, chickenpox and rubella, un
 created: '2024-06-05'
 modified: '2024-07-04'
 codes:
-  NUVACode: '1127'
-  SCT_NUVA: '13851002000106'
+  NUVACode:
+  - '1127'
+  SCT_NUVA:
+  - '13851002000106'
 valences:
 - VAL044
 - VAL079

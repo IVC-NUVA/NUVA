@@ -5,8 +5,11 @@ comment: COVID-19 vaccine, protein subunit, recombinant spike protein (RBD domai
 created: '2022-10-11'
 modified: '2025-04-25'
 codes:
-  CVC: '34591000087100'
-  NUVACode: '1026'
-  SCT_NUVA: '12351002000105'
+  CVC:
+  - '34591000087100'
+  NUVACode:
+  - '1026'
+  SCT_NUVA:
+  - '12351002000105'
 valences:
 - VAL011

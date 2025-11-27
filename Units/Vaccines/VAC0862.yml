@@ -4,9 +4,15 @@ comment: Measles immunoglobulin
 created: '2022-03-15'
 modified: '2024-07-04'
 codes:
-  ATC: J06BB14
-  CPT: '90741'
-  NUVACode: 0862
-  SCT_NUVA: '10311002000108'
+  ATC:
+  - J06BB14
+  CPT:
+  - '90281'
+  - '90283'
+  - '90741'
+  NUVACode:
+  - 0862
+  SCT_NUVA:
+  - '10311002000108'
 valences:
 - VAL055

@@ -4,10 +4,15 @@ comment: Influenza A(H5N1) vaccine (split virion)
 created: '2025-03-25'
 modified: '2025-03-25'
 codes:
-  CTI: '662557'
-  CTI-EXTEND: 662557-01
-  EU-NUMBER: EU-1-24-1807-001
-  NUVACode: '1335'
-  SCT_NUVA: '16251002000102'
+  CTI:
+  - '662557'
+  CTI-EXTEND:
+  - 662557-01
+  EU-NUMBER:
+  - EU-1-24-1807-001
+  NUVACode:
+  - '1335'
+  SCT_NUVA:
+  - '16251002000102'
 valences:
 - VAL051

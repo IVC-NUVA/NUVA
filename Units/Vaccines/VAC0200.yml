@@ -4,11 +4,18 @@ comment: Adsorbed acellular anthrax vaccine with adjuvant
 created: '2021-07-19'
 modified: '2025-04-11'
 codes:
-  AIC: 045823010
-  CVC: '34631000087100'
-  DIN: 02483386
-  NDC: 64678-0211-01
-  NUVACode: '0200'
-  SCT_NUVA: '3151002000103'
+  AIC:
+  - 045823
+  - 045823010
+  CVC:
+  - '34631000087100'
+  DIN:
+  - 02483386
+  NDC:
+  - 64678-0211-01
+  NUVACode:
+  - '0200'
+  SCT_NUVA:
+  - '3151002000103'
 valences:
 - VAL415

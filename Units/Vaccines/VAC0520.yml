@@ -4,14 +4,28 @@ comment: Smallpox vaccine, third generation, modified vaccinia virus Ankara, non
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  AIC: 042944013
-  CIP: '3400930254271'
-  CNK: '4604070'
-  CTI: '663217'
-  CTI-EXTEND: 663217-01
-  EU-NUMBER: EU-1-13-855-001
-  INFARMED: '5839568'
-  NUVACode: '0520'
-  SCT_NUVA: '6511002000103'
+  AIC:
+  - 042944
+  - 042944013
+  CIP:
+  - '3400930254271'
+  CNK:
+  - '4604070'
+  CTI:
+  - '444516'
+  - '661237'
+  - '663217'
+  CTI-EXTEND:
+  - 444516-01
+  - 661237-01
+  - 663217-01
+  EU-NUMBER:
+  - EU-1-13-855-001
+  INFARMED:
+  - '5839568'
+  NUVACode:
+  - '0520'
+  SCT_NUVA:
+  - '6511002000103'
 valences:
 - VAL296

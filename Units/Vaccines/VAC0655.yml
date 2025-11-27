@@ -4,10 +4,17 @@ comment: Diphtheria toxoid (unspecified dose)
 created: '2021-07-19'
 modified: '2025-05-20'
 codes:
-  ATC: J07AF01
-  CVC: '428214002'
-  NUVACode: '0655'
-  SCT_NUVA: '7811002000103'
-  SNOMED-CT: '871830002'
+  ATC:
+  - J07AF01
+  CVC:
+  - '428214002'
+  NUVACode:
+  - '0655'
+  SCT_NUVA:
+  - '7811002000103'
+  SNOMED-CT:
+  - '836381006'
+  - '871729003'
+  - '871830002'
 valences:
 - VAL083

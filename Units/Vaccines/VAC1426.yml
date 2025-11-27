@@ -6,8 +6,10 @@ comment: Bivalent recombinant vaccine against human papillomavirus (types 16 and
 created: '2025-04-14'
 modified: '2025-04-14'
 codes:
-  NUVACode: '1426'
-  SCT_NUVA: '17211002000100'
+  NUVACode:
+  - '1426'
+  SCT_NUVA:
+  - '17211002000100'
 valences:
 - VAL240
 - VAL241

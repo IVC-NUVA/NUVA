@@ -5,9 +5,13 @@ comment: Live attenuated Japanese encephalitis vaccine, strain and production pl
 created: '2022-03-29'
 modified: '2024-04-22'
 codes:
-  ATC: J07BA03
-  ICD11: XM47S0
-  NUVACode: 0881
-  SCT_NUVA: '10511002000104'
+  ATC:
+  - J07BA03
+  ICD11:
+  - XM47S0
+  NUVACode:
+  - 0881
+  SCT_NUVA:
+  - '10511002000104'
 valences:
 - VAL248

@@ -4,13 +4,21 @@ comment: Plague (whole-cell inactivated) vaccine
 created: '2021-10-26'
 modified: '2025-10-09'
 codes:
-  ATC: J07AK01
-  CPT: '90727'
-  CVC: '11866009'
-  CVX: '23'
-  ICD11: XM3796
-  NUVACode: 0812
-  SCT_NUVA: '9681002000104'
-  SNOMED-CT: '840549009'
+  ATC:
+  - J07AK01
+  CPT:
+  - '90727'
+  CVC:
+  - '11866009'
+  CVX:
+  - '23'
+  ICD11:
+  - XM3796
+  NUVACode:
+  - 0812
+  SCT_NUVA:
+  - '9681002000104'
+  SNOMED-CT:
+  - '840549009'
 valences:
 - VAL131

@@ -4,14 +4,23 @@ comment: Live attenuated measles and rubella vaccine
 created: '2021-07-19'
 modified: '2025-05-20'
 codes:
-  ATC: J07BD53
-  CPT: '90708'
-  CVC: '7281000087100'
-  CVX: '04'
-  ICD11: XM21H2
-  NUVACode: '0550'
-  SCT_NUVA: '6851002000100'
-  SNOMED-CT: '871817003'
+  ATC:
+  - J07BD53
+  CPT:
+  - '90708'
+  CVC:
+  - '7281000087100'
+  CVX:
+  - '04'
+  ICD11:
+  - XM21H2
+  NUVACode:
+  - '0550'
+  SCT_NUVA:
+  - '6851002000100'
+  SNOMED-CT:
+  - '2231000221105'
+  - '871817003'
 valences:
 - VAL005
 - VAL079

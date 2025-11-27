@@ -4,11 +4,20 @@ comment: Tick-borne encephalitis vaccine, whole-virus inactivated, pediatric dos
 created: '2021-07-19'
 modified: '2025-04-09'
 codes:
-  CNK: '3308285'
-  CTI: '276841'
-  CTI-EXTEND: 276841-02
-  INFARMED: '5368485'
-  NUVACode: '0774'
-  SCT_NUVA: '9151002000101'
+  CNK:
+  - '2223618'
+  - '3308285'
+  CTI:
+  - '276841'
+  CTI-EXTEND:
+  - 276841-01
+  - 276841-02
+  INFARMED:
+  - '5368386'
+  - '5368485'
+  NUVACode:
+  - '0774'
+  SCT_NUVA:
+  - '9151002000101'
 valences:
 - VAL315

@@ -6,6 +6,7 @@ comment: Influenza valence, quadrivalent, inactivated, fractionated or subunit, 
 created: '2025-05-22'
 modified: '2025-05-22'
 codes:
-  NUVACode: '1440'
+  NUVACode:
+  - '1440'
 valences:
 - VAL350

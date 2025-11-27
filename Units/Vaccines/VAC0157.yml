@@ -5,10 +5,17 @@ comment: Pneumococcal conjugate or non conjugate polysaccharide vaccine, number 
 created: '2021-07-19'
 modified: '2025-02-11'
 codes:
-  CVC: '333598008'
-  CVX: '109'
-  NUVACode: '0157'
-  SCT_NUVA: '2681002000106'
-  SNOMED-CT: '981000221107'
+  CVC:
+  - '135642004'
+  - '333598008'
+  CVX:
+  - '109'
+  NUVACode:
+  - '0157'
+  SCT_NUVA:
+  - '2681002000106'
+  SNOMED-CT:
+  - '836398006'
+  - '981000221107'
 valences:
 - VAL105

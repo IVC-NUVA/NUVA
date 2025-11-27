@@ -4,7 +4,9 @@ comment: COVID-19 vaccine, whole virion inactivated
 created: '2021-07-19'
 modified: '2024-06-05'
 codes:
-  NUVACode: '0744'
-  SCT_NUVA: '8881002000107'
+  NUVACode:
+  - '0744'
+  SCT_NUVA:
+  - '8881002000107'
 valences:
 - VAL265

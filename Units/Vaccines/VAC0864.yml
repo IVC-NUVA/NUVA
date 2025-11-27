@@ -4,11 +4,18 @@ comment: Varicella-Zoster immunoglobulin
 created: '2022-03-15'
 modified: '2024-07-04'
 codes:
-  ATC: J06BB03
-  CPT: '90396'
-  CVC: '62294009'
-  CVX: '36'
-  NUVACode: 0864
-  SCT_NUVA: '10331002000104'
+  ATC:
+  - J06BB03
+  CPT:
+  - '90396'
+  CVC:
+  - '62294009'
+  CVX:
+  - '117'
+  - '36'
+  NUVACode:
+  - 0864
+  SCT_NUVA:
+  - '10331002000104'
 valences:
 - VAL088

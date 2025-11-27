@@ -4,9 +4,14 @@ comment: Shingles vaccine
 created: '2022-04-29'
 modified: '2025-04-11'
 codes:
-  CVC: '407737004'
-  CVX: '188'
-  NUVACode: 0906
-  SCT_NUVA: '10881002000107'
+  CVC:
+  - '23001000087100'
+  - '407737004'
+  CVX:
+  - '188'
+  NUVACode:
+  - 0906
+  SCT_NUVA:
+  - '10881002000107'
 valences:
 - VAL160

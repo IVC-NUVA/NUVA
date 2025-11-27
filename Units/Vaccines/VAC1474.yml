@@ -4,7 +4,9 @@ comment: Human RSV monoclonal antibody
 created: '2025-10-08'
 modified: '2025-11-17'
 codes:
-  CVX: '332'
-  NUVACode: '1474'
+  CVX:
+  - '332'
+  NUVACode:
+  - '1474'
 valences:
 - VAL429

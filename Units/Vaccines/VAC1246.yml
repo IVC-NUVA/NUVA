@@ -4,8 +4,10 @@ comment: Combined influenza/Covid 19 mRNA vaccine in clinical trial
 created: '2024-07-08'
 modified: '2025-02-28'
 codes:
-  NUVACode: '1246'
-  SCT_NUVA: '15071002000109'
+  NUVACode:
+  - '1246'
+  SCT_NUVA:
+  - '15071002000109'
 valences:
 - VAL168
 - VAL366

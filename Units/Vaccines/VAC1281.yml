@@ -6,8 +6,10 @@ comment: Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique
 created: '2025-03-03'
 modified: '2025-03-04'
 codes:
-  NUVACode: '1281'
-  SCT_NUVA: '15641002000109'
+  NUVACode:
+  - '1281'
+  SCT_NUVA:
+  - '15641002000109'
 valences:
 - VAL010
 - VAL067

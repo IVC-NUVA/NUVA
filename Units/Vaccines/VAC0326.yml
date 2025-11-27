@@ -6,11 +6,17 @@ comment: Haemophilus influenzae type b vaccine, capsular polysaccharide (polyrib
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  CVC: '7051000087101'
-  DIN: '02235721'
-  INFARMED: '2419687'
-  NDC: 00006-4897-00
-  NUVACode: '0326'
-  SCT_NUVA: '4491002000103'
+  CVC:
+  - '7051000087101'
+  DIN:
+  - '02235721'
+  INFARMED:
+  - '2419687'
+  NDC:
+  - 00006-4897-00
+  NUVACode:
+  - '0326'
+  SCT_NUVA:
+  - '4491002000103'
 valences:
 - VAL155

@@ -5,7 +5,9 @@ comment: Recombinant hepatitis B vaccine with 10 micrograms of HBs antigen for u
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  NUVACode: '0244'
-  SCT_NUVA: '3611002000106'
+  NUVACode:
+  - '0244'
+  SCT_NUVA:
+  - '3611002000106'
 valences:
 - VAL114

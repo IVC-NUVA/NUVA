@@ -4,7 +4,9 @@ comment: Polio vaccine (live attenuated, monovalent) against poliovirus 1, orall
 created: '2025-03-04'
 modified: '2025-03-04'
 codes:
-  NUVACode: '1290'
-  SCT_NUVA: '15731002000108'
+  NUVACode:
+  - '1290'
+  SCT_NUVA:
+  - '15731002000108'
 valences:
 - VAL132

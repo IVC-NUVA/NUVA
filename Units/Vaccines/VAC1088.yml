@@ -4,9 +4,13 @@ comment: Human rabies immunoglobulin, post-exposure treatment
 created: '2024-05-15'
 modified: '2024-05-15'
 codes:
-  CVC: '31551000087108'
-  DIN: 02486571
-  NUVACode: '1088'
-  SCT_NUVA: '13411002000107'
+  CVC:
+  - '31551000087108'
+  DIN:
+  - 02486571
+  NUVACode:
+  - '1088'
+  SCT_NUVA:
+  - '13411002000107'
 valences:
 - VAL252

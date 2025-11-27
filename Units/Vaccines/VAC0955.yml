@@ -6,8 +6,10 @@ comment: Unconjugated pneumococcal polysaccharide vaccine, 23-valent, serotypes 
 created: '2022-05-27'
 modified: '2024-04-16'
 codes:
-  NUVACode: 0955
-  SCT_NUVA: '11541002000106'
+  NUVACode:
+  - 0955
+  SCT_NUVA:
+  - '11541002000106'
 valences:
 - VAL206
 - VAL207

@@ -4,11 +4,17 @@ comment: Meningococcal polyvalent unconjugated polysaccharide vaccine
 created: '2021-10-26'
 modified: '2025-05-20'
 codes:
-  AIC: 024489
-  ATC: J07AH05
-  CVC: '8241000087109'
-  NUVACode: 0810
-  SCT_NUVA: '9641002000108'
-  SNOMED-CT: '1061000221102'
+  AIC:
+  - 024489
+  ATC:
+  - J07AH05
+  CVC:
+  - '8241000087109'
+  NUVACode:
+  - 0810
+  SCT_NUVA:
+  - '9641002000108'
+  SNOMED-CT:
+  - '1061000221102'
 valences:
 - VAL120

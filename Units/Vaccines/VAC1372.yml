@@ -4,7 +4,9 @@ comment: Rotavirus vaccine
 created: '2025-04-07'
 modified: '2025-04-07'
 codes:
-  NUVACode: '1372'
-  SCT_NUVA: '16651002000104'
+  NUVACode:
+  - '1372'
+  SCT_NUVA:
+  - '16651002000104'
 valences:
 - VAL106

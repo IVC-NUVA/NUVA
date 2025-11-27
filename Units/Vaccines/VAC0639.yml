@@ -5,12 +5,20 @@ comment: Diphtheria toxoid (low dose), tetanus toxoid, pertussis (multicomponent
 created: '2021-07-19'
 modified: '2025-10-17'
 codes:
-  CVC: '7481000087104'
-  DIN: '02352044'
-  NTIN: '8699625960428'
-  NUVACode: 0639
-  SCT_NUVA: '7561002000102'
-  UPC: '697177005169'
+  CVC:
+  - '7481000087104'
+  DIN:
+  - '02352044'
+  NTIN:
+  - '5909991428020'
+  - '7891058022877'
+  - '8699625960428'
+  NUVACode:
+  - 0639
+  SCT_NUVA:
+  - '7561002000102'
+  UPC:
+  - '697177005169'
 valences:
 - VAL017
 - VAL034

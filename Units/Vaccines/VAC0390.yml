@@ -6,12 +6,27 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cel
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  AIC: '032133011'
-  CIP: '3400934761409'
-  CIS: '69742160'
-  INFARMED: '3092780'
-  NUVACode: 0390
-  SCT_NUVA: '5151002000104'
+  AIC:
+  - '032133'
+  - '032133011'
+  CIP:
+  - '3400933731151'
+  - '3400934338571'
+  - '3400934338632'
+  - '3400934761409'
+  CIS:
+  - '64037506'
+  - '64678177'
+  - '69742160'
+  INFARMED:
+  - '3092483'
+  - '3092582'
+  - '3092681'
+  - '3092780'
+  NUVACode:
+  - 0390
+  SCT_NUVA:
+  - '5151002000104'
 valences:
 - VAL010
 - VAL067

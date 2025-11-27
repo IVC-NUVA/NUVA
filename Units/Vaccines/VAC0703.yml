@@ -4,7 +4,9 @@ comment: COVID-19 vaccine, protein subunit, adjuvanted
 created: '2021-07-19'
 modified: '2025-02-27'
 codes:
-  NUVACode: '0703'
-  SCT_NUVA: '8451002000104'
+  NUVACode:
+  - '0703'
+  SCT_NUVA:
+  - '8451002000104'
 valences:
 - VAL011

@@ -7,9 +7,12 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole or 
 created: '2021-10-26'
 modified: '2025-02-11'
 codes:
-  NUVACode: 0791
-  SCT_NUVA: '9401002000109'
-  SNOMED-CT: '871895005'
+  NUVACode:
+  - 0791
+  SCT_NUVA:
+  - '9401002000109'
+  SNOMED-CT:
+  - '871895005'
 valences:
 - VAL003
 - VAL056

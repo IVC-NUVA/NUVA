@@ -6,8 +6,10 @@ comment: Vaccine against meningococcal serogroups B (outer membrane vesicle prot
 created: '2024-06-05'
 modified: '2024-07-04'
 codes:
-  NUVACode: '1229'
-  SCT_NUVA: '14891002000104'
+  NUVACode:
+  - '1229'
+  SCT_NUVA:
+  - '14891002000104'
 valences:
 - VAL026
 - VAL137

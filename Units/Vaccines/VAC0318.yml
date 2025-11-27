@@ -4,8 +4,16 @@ comment: Inactivated hepatitis A vaccine
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  AIC: 032794051
-  NUVACode: 0318
-  SCT_NUVA: '4411002000106'
+  AIC:
+  - 032794
+  - 032794012
+  - 032794024
+  - 032794036
+  - 032794048
+  - 032794051
+  NUVACode:
+  - 0318
+  SCT_NUVA:
+  - '4411002000106'
 valences:
 - VAL125

@@ -5,17 +5,38 @@ comment: Whole virion inactivated rabies vaccine, Flury LEP strain, purified chi
 created: '2021-07-19'
 modified: '2025-10-22'
 codes:
-  AIC: 035947035
-  CIP: '3400936466593'
-  CIS: '66800338'
-  CNK: '2765444'
-  CODE_NATIONAL_SPAIN: '834101'
-  CP-NRONATIDENT: 0837309
-  CTI: '500231'
-  CTI-EXTEND: 500231-01
-  INFARMED: '5682240'
-  NUVACode: 0028
-  PZN: '11285879'
-  SCT_NUVA: '881002000100'
+  AIC:
+  - 035947
+  - 035947011
+  - 035947023
+  - 035947035
+  CIP:
+  - '3400930071595'
+  - '3400936276796'
+  - '3400936466593'
+  CIS:
+  - '60163226'
+  - '66800338'
+  CNK:
+  - '2765444'
+  CODE_NATIONAL_SPAIN:
+  - '711054'
+  - '834101'
+  CP-NRONATIDENT:
+  - 0837309
+  CTI:
+  - '500231'
+  CTI-EXTEND:
+  - 500231-01
+  INFARMED:
+  - '4826186'
+  - '4826285'
+  - '5682240'
+  NUVACode:
+  - 0028
+  PZN:
+  - '11285879'
+  SCT_NUVA:
+  - '881002000100'
 valences:
 - VAL259

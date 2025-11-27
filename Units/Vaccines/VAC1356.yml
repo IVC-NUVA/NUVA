@@ -4,7 +4,9 @@ comment: Recombinant hepatitis B vaccine, paediatric dose
 created: '2025-04-03'
 modified: '2025-04-03'
 codes:
-  NUVACode: '1356'
-  SCT_NUVA: '16491002000105'
+  NUVACode:
+  - '1356'
+  SCT_NUVA:
+  - '16491002000105'
 valences:
 - VAL114

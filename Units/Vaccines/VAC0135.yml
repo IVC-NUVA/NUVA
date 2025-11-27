@@ -4,10 +4,15 @@ comment: Polio vaccine, live or inactivated (unspecified)
 created: '2021-07-19'
 modified: '2025-08-05'
 codes:
-  CVC: '111164008'
-  CVX: '89'
-  NUVACode: '0135'
-  SCT_NUVA: '2341002000105'
-  SNOMED-CT: '1031000221108'
+  CVC:
+  - '111164008'
+  CVX:
+  - '89'
+  NUVACode:
+  - '0135'
+  SCT_NUVA:
+  - '2341002000105'
+  SNOMED-CT:
+  - '1031000221108'
 valences:
 - VAL042

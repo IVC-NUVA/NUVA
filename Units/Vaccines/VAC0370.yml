@@ -5,7 +5,9 @@ comment: Whole virion inactivated rabies vaccine, adsorbed on aluminium phosphat
 created: '2021-07-19'
 modified: '2025-03-31'
 codes:
-  NUVACode: '0370'
-  SCT_NUVA: '4931002000108'
+  NUVACode:
+  - '0370'
+  SCT_NUVA:
+  - '4931002000108'
 valences:
 - VAL080

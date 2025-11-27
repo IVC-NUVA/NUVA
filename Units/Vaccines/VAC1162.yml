@@ -6,8 +6,10 @@ comment: COVID-19 mRNA vaccine, bivalent, original virus and Omicron BA.1 varian
 created: '2024-06-05'
 modified: '2025-04-25'
 codes:
-  NUVACode: '1162'
-  SCT_NUVA: '14211002000108'
+  NUVACode:
+  - '1162'
+  SCT_NUVA:
+  - '14211002000108'
 valences:
 - VAL304
 - VAL305

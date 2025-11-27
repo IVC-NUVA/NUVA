@@ -4,7 +4,9 @@ comment: Rabies immunoglobulin, equine origin
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  NUVACode: '0500'
-  SCT_NUVA: '6271002000107'
+  NUVACode:
+  - '0500'
+  SCT_NUVA:
+  - '6271002000107'
 valences:
 - VAL253

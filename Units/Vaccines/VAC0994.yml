@@ -4,7 +4,9 @@ comment: Live attenuated chickenpox vaccine
 created: '2022-06-21'
 modified: '2024-04-15'
 codes:
-  NUVACode: 0994
-  SCT_NUVA: '11931002000108'
+  NUVACode:
+  - 0994
+  SCT_NUVA:
+  - '11931002000108'
 valences:
 - VAL044

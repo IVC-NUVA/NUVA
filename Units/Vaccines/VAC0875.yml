@@ -4,8 +4,12 @@ comment: Pre-pandemic influenza A(H5N1) vaccine, live attenuated, nasal
 created: '2022-03-26'
 modified: '2024-04-23'
 codes:
-  AIC: 044890010
-  NUVACode: 0875
-  SCT_NUVA: '10441002000101'
+  AIC:
+  - 044890
+  - 044890010
+  NUVACode:
+  - 0875
+  SCT_NUVA:
+  - '10441002000101'
 valences:
 - VAL051

@@ -4,10 +4,16 @@ comment: COVID-19 mRNA vaccine, pediatric dose
 created: '2022-05-06'
 modified: '2024-04-18'
 codes:
-  CPT: '91309'
-  CVC: '33581000087104'
-  CVX: '310'
-  NUVACode: 0927
-  SCT_NUVA: '11161002000103'
+  CPT:
+  - '91309'
+  CVC:
+  - '33581000087104'
+  CVX:
+  - '218'
+  - '310'
+  NUVACode:
+  - 0927
+  SCT_NUVA:
+  - '11161002000103'
 valences:
 - VAL289

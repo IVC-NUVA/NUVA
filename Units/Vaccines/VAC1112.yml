@@ -4,8 +4,11 @@ comment: Live attenuated quadrivalent seasonal influenza vaccine, nasal
 created: '2024-06-05'
 modified: '2025-02-25'
 codes:
-  CVX: '149'
-  NUVACode: '1112'
-  SCT_NUVA: '13701002000101'
+  CVX:
+  - '149'
+  NUVACode:
+  - '1112'
+  SCT_NUVA:
+  - '13701002000101'
 valences:
 - VAL059

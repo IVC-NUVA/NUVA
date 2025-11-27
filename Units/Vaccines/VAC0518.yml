@@ -4,7 +4,9 @@ comment: Live attenuated yellow fever vaccine
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  NUVACode: 0518
-  SCT_NUVA: '6491002000107'
+  NUVACode:
+  - 0518
+  SCT_NUVA:
+  - '6491002000107'
 valences:
 - VAL092

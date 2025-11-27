@@ -5,13 +5,26 @@ comment: Respiratory syncytial virus (RSV) vaccine, recombinant, RSVPreF3 antige
 created: '2023-05-14'
 modified: '2024-04-11'
 codes:
-  CIP: '3400930274187'
-  CNK: '4860383'
-  CTI: '661566'
-  CTI-EXTEND: 661566-01
-  CVC: '51301000087102'
-  INFARMED: '5859053'
-  NUVACode: '1040'
-  SCT_NUVA: '12561002000102'
+  CIP:
+  - '3400930274170'
+  - '3400930274187'
+  CNK:
+  - '4710224'
+  - '4860383'
+  CTI:
+  - '661565'
+  - '661566'
+  CTI-EXTEND:
+  - 661565-01
+  - 661565-02
+  - 661566-01
+  CVC:
+  - '51301000087102'
+  INFARMED:
+  - '5859053'
+  NUVACode:
+  - '1040'
+  SCT_NUVA:
+  - '12561002000102'
 valences:
 - VAL316

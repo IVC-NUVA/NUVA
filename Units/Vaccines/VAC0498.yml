@@ -4,11 +4,18 @@ comment: Rabies immunoglobulin, human origin
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  CVC: '7971000087108'
-  DIN: 02237328
-  NTIN: '3400934823183'
-  NUVACode: 0498
-  SCT_NUVA: '6241002000101'
-  UPC: '697177000683'
+  CVC:
+  - '7971000087108'
+  DIN:
+  - 02237328
+  NTIN:
+  - '3400934823183'
+  NUVACode:
+  - 0498
+  SCT_NUVA:
+  - '6241002000101'
+  UPC:
+  - '349281190209'
+  - '697177000683'
 valences:
 - VAL252

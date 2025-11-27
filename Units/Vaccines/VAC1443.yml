@@ -4,6 +4,7 @@ comment: Influenza vaccine, trivalent, virosomal, unspecified
 created: '2025-05-22'
 modified: '2025-05-22'
 codes:
-  NUVACode: '1443'
+  NUVACode:
+  - '1443'
 valences:
 - VAL351

@@ -4,7 +4,9 @@ comment: Whole-cell inactivated brucellosis vaccine
 created: '2022-02-21'
 modified: '2025-05-15'
 codes:
-  NUVACode: 0839
-  SCT_NUVA: '10051002000107'
+  NUVACode:
+  - 0839
+  SCT_NUVA:
+  - '10051002000107'
 valences:
 - VAL146

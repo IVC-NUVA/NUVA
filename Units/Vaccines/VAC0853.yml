@@ -4,8 +4,11 @@ comment: Polio vaccine (live attenuated, monovalent) against poliovirus type 1, 
 created: '2022-03-03'
 modified: '2024-07-04'
 codes:
-  ICD11: XM0VX8
-  NUVACode: 0853
-  SCT_NUVA: '10211002000101'
+  ICD11:
+  - XM0VX8
+  NUVACode:
+  - 0853
+  SCT_NUVA:
+  - '10211002000101'
 valences:
 - VAL132

@@ -4,6 +4,7 @@ comment: Influenza vaccine, trivalent, VLP, unspecified
 created: '2025-05-22'
 modified: '2025-05-22'
 codes:
-  NUVACode: '1444'
+  NUVACode:
+  - '1444'
 valences:
 - VAL363

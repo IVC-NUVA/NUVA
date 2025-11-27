@@ -4,9 +4,12 @@ comment: Typhoid and paratyphoid A and B vaccine, whole-cell inactivated
 created: '2021-10-26'
 modified: '2024-07-04'
 codes:
-  ATC: J07AP10
-  NUVACode: 0818
-  SCT_NUVA: '9761002000100'
+  ATC:
+  - J07AP10
+  NUVACode:
+  - 0818
+  SCT_NUVA:
+  - '9761002000100'
 valences:
 - VAL045
 - VAL071

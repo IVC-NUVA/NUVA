@@ -4,7 +4,9 @@ comment: Recombinant Lyme disease vaccine, OspA antigen
 created: '2021-07-19'
 modified: '2025-03-15'
 codes:
-  NUVACode: 0283
-  SCT_NUVA: '4021002000106'
+  NUVACode:
+  - 0283
+  SCT_NUVA:
+  - '4021002000106'
 valences:
 - VAL030

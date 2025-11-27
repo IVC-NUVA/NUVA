@@ -4,10 +4,14 @@ comment: Combined hepatitis A and B vaccine, pediatric dose
 created: '2021-07-19'
 modified: '2023-10-31'
 codes:
-  CVC: '6961000087102'
-  DIN: 02237548
-  NUVACode: '0423'
-  SCT_NUVA: '5461002000108'
+  CVC:
+  - '6961000087102'
+  DIN:
+  - 02237548
+  NUVACode:
+  - '0423'
+  SCT_NUVA:
+  - '5461002000108'
 valences:
 - VAL114
 - VAL143

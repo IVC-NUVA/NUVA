@@ -4,14 +4,22 @@ comment: Human Papillomavirus vaccine, quadrivalent (types 6, 11, 16, and 18), r
 created: '2022-03-09'
 modified: '2024-07-05'
 codes:
-  ATC: J07BM01
-  CPT: '90649'
-  CVC: '7801000087108'
-  CVX: '62'
-  ICD11: XM1821
-  NUVACode: 0859
-  SCT_NUVA: '10271002000108'
-  SNOMED-CT: '2001000221108'
+  ATC:
+  - J07BM01
+  CPT:
+  - '90649'
+  CVC:
+  - '7801000087108'
+  CVX:
+  - '62'
+  ICD11:
+  - XM1821
+  NUVACode:
+  - 0859
+  SCT_NUVA:
+  - '10271002000108'
+  SNOMED-CT:
+  - '2001000221108'
 valences:
 - VAL052
 - VAL238

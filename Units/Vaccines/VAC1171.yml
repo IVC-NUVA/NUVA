@@ -4,8 +4,11 @@ comment: Trivalent inactivated influenza vaccine, split or subunit, high dose
 created: '2024-06-05'
 modified: '2025-02-25'
 codes:
-  CVX: '135'
-  NUVACode: '1171'
-  SCT_NUVA: '14301002000104'
+  CVX:
+  - '135'
+  NUVACode:
+  - '1171'
+  SCT_NUVA:
+  - '14301002000104'
 valences:
 - VAL094

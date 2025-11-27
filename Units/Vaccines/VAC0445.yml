@@ -4,8 +4,15 @@ comment: Live mumps vaccine
 created: '2021-07-19'
 modified: '2025-04-10'
 codes:
-  AIC: 027504048
-  NUVACode: '0445'
-  SCT_NUVA: '5691002000104'
+  AIC:
+  - '027504'
+  - '027504012'
+  - '027504024'
+  - '027504036'
+  - 027504048
+  NUVACode:
+  - '0445'
+  SCT_NUVA:
+  - '5691002000104'
 valences:
 - VAL077

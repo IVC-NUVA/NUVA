@@ -4,8 +4,12 @@ comment: Vaccine against chikungunya, unspecified
 created: '2025-02-20'
 modified: '2025-05-20'
 codes:
-  NUVACode: '1277'
-  SCT_NUVA: '15601002000107'
-  SNOMED-CT: '1345202008'
+  NUVACode:
+  - '1277'
+  SCT_NUVA:
+  - '15601002000107'
+  SNOMED-CT:
+  - '1345042009'
+  - '1345202008'
 valences:
 - VAL390

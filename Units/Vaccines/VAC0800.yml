@@ -6,11 +6,16 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (acellular
 created: '2021-10-26'
 modified: '2023-10-31'
 codes:
-  ATC: J07AG52
-  CPT: '90720'
-  CVX: '22'
-  NUVACode: 0800
-  SCT_NUVA: '9501002000105'
+  ATC:
+  - J07AG52
+  CPT:
+  - '90720'
+  CVX:
+  - '22'
+  NUVACode:
+  - 0800
+  SCT_NUVA:
+  - '9501002000105'
 valences:
 - VAL003
 - VAL067

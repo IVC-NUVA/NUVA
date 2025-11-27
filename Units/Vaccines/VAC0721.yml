@@ -4,7 +4,9 @@ comment: COVID-19 vaccine, protein subunit, aluminium-adjuvanted and non-alumini
 created: '2021-07-19'
 modified: '2024-06-04'
 codes:
-  NUVACode: '0721'
-  SCT_NUVA: '8641002000104'
+  NUVACode:
+  - '0721'
+  SCT_NUVA:
+  - '8641002000104'
 valences:
 - VAL011

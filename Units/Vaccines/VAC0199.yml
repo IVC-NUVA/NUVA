@@ -5,7 +5,9 @@ comment: Recombinant hepatitis B vaccine with 10 micrograms of HBsAg per 0.5 mL 
 created: '2021-07-19'
 modified: '2023-08-15'
 codes:
-  NUVACode: 0199
-  SCT_NUVA: '3141002000100'
+  NUVACode:
+  - 0199
+  SCT_NUVA:
+  - '3141002000100'
 valences:
 - VAL114

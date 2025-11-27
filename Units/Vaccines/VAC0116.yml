@@ -4,10 +4,18 @@ comment: Live attenuated measles, mumps and rubella vaccine
 created: '2021-07-19'
 modified: '2025-03-31'
 codes:
-  CIP: '3400939211206'
-  CIS: '65513082'
-  NUVACode: '0116'
-  SCT_NUVA: '2121002000102'
+  CIP:
+  - '3400932777655'
+  - '3400932777716'
+  - '3400932777884'
+  - '3400937084840'
+  - '3400939211206'
+  CIS:
+  - '65513082'
+  NUVACode:
+  - '0116'
+  SCT_NUVA:
+  - '2121002000102'
 valences:
 - VAL005
 - VAL077

@@ -4,11 +4,17 @@ comment: Human RSV monoclonal antibody
 created: '2023-09-04'
 modified: '2025-11-17'
 codes:
-  CIP: '3400930268636'
-  CNK: '4803292'
-  CTI: '66082301'
-  CVX: '307'
-  NUVACode: '1050'
-  SCT_NUVA: '12701002000107'
+  CIP:
+  - '3400930268636'
+  CNK:
+  - '4803292'
+  CTI:
+  - '66082301'
+  CVX:
+  - '307'
+  NUVACode:
+  - '1050'
+  SCT_NUVA:
+  - '12701002000107'
 valences:
 - VAL321

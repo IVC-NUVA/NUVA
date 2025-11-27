@@ -5,8 +5,10 @@ comment: Cholera (whole inactivated) and typhoid vaccine (unconjugated, purified
 created: '2024-06-05'
 modified: '2024-07-04'
 codes:
-  NUVACode: '1179'
-  SCT_NUVA: '14381002000106'
+  NUVACode:
+  - '1179'
+  SCT_NUVA:
+  - '14381002000106'
 valences:
 - VAL004
 - VAL032

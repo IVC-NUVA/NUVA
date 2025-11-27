@@ -4,11 +4,18 @@ comment: Anti-tetanus immunoglobulin
 created: '2021-07-19'
 modified: '2025-02-28'
 codes:
-  ATC: J06BB02
-  CPT: '90389'
-  CVC: '86337009'
-  CVX: '180'
-  NUVACode: 0497
-  SCT_NUVA: '6231002000109'
+  ATC:
+  - J06BB02
+  CPT:
+  - '90389'
+  CVC:
+  - '86337009'
+  CVX:
+  - '13'
+  - '180'
+  NUVACode:
+  - 0497
+  SCT_NUVA:
+  - '6231002000109'
 valences:
 - VAL110

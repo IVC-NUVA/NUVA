@@ -4,10 +4,20 @@ comment: Recombinant hepatitis B vaccine, pediatric dose
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  CIP: '3400955901242'
-  CIS: '68554928'
-  CNK: '1317817'
-  NUVACode: '0127'
-  SCT_NUVA: '2231002000108'
+  CIP:
+  - '3400933692209'
+  - '3400933931933'
+  - '3400955901242'
+  CIS:
+  - '62150850'
+  - '68554928'
+  CNK:
+  - '1210764'
+  - '1273317'
+  - '1317817'
+  NUVACode:
+  - '0127'
+  SCT_NUVA:
+  - '2231002000108'
 valences:
 - VAL170

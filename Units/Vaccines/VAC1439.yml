@@ -4,6 +4,7 @@ comment: Meningococcal vaccine, polyvalent, conjugate polysaccharide
 created: '2025-05-22'
 modified: '2025-05-22'
 codes:
-  NUVACode: '1439'
+  NUVACode:
+  - '1439'
 valences:
 - VAL235

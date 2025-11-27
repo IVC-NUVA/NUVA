@@ -4,7 +4,9 @@ comment: Meningococcal A vaccine, unspecified
 created: '2025-05-22'
 modified: '2025-05-22'
 codes:
-  NUVACode: '1434'
-  SNOMED-CT: '1252690003'
+  NUVACode:
+  - '1434'
+  SNOMED-CT:
+  - '1252690003'
 valences:
 - VAL297

@@ -4,9 +4,13 @@ comment: COVID-19 mRNA vaccine, original virus, 50 micrograms, pre-filled syring
 created: '2022-10-28'
 modified: '2024-04-12'
 codes:
-  CTI: '660541'
-  CTI-EXTEND: 660541-01
-  NUVACode: '1031'
-  SCT_NUVA: '12411002000101'
+  CTI:
+  - '660541'
+  CTI-EXTEND:
+  - 660541-01
+  NUVACode:
+  - '1031'
+  SCT_NUVA:
+  - '12411002000101'
 valences:
 - VAL302

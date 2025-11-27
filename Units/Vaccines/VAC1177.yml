@@ -6,7 +6,9 @@ comment: Third generation smallpox vaccine, obtained in cell culture, minimally 
 created: '2024-06-05'
 modified: '2024-06-06'
 codes:
-  NUVACode: '1177'
-  SCT_NUVA: '14361002000103'
+  NUVACode:
+  - '1177'
+  SCT_NUVA:
+  - '14361002000103'
 valences:
 - VAL018

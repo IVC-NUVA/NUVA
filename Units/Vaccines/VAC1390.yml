@@ -4,7 +4,9 @@ comment: Inactivated hepatitis A vaccine
 created: '2025-04-08'
 modified: '2025-04-08'
 codes:
-  NUVACode: '1390'
-  SCT_NUVA: '16851002000103'
+  NUVACode:
+  - '1390'
+  SCT_NUVA:
+  - '16851002000103'
 valences:
 - VAL125

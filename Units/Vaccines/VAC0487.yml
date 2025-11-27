@@ -5,11 +5,17 @@ comment: Haemophilus influenzae type b and meningococcal conjugate vaccine, sero
 created: '2021-07-19'
 modified: '2025-02-25'
 codes:
-  CPT: '90644'
-  CVC: '20851000087103'
-  NDC: 58160-0809-05
-  NUVACode: 0487
-  SCT_NUVA: '6131002000100'
+  CPT:
+  - '90644'
+  CVC:
+  - '20851000087103'
+  NDC:
+  - 58160-0801-11
+  - 58160-0809-05
+  NUVACode:
+  - 0487
+  SCT_NUVA:
+  - '6131002000100'
 valences:
 - VAL156
 - VAL266

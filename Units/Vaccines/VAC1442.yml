@@ -4,6 +4,7 @@ comment: Influenza vaccine, quadrivalent, virosomal, unspecified
 created: '2025-05-22'
 modified: '2025-07-29'
 codes:
-  NUVACode: '1442'
+  NUVACode:
+  - '1442'
 valences:
 - VAL352

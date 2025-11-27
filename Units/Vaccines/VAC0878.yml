@@ -5,10 +5,17 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (whole-
 created: '2022-03-26'
 modified: '2024-04-22'
 codes:
-  AIC: 021328036
-  CVC: '23691000087103'
-  NUVACode: 0878
-  SCT_NUVA: '10471002000107'
+  AIC:
+  - 021328
+  - 021328012
+  - 021328024
+  - 021328036
+  CVC:
+  - '23691000087103'
+  NUVACode:
+  - 0878
+  SCT_NUVA:
+  - '10471002000107'
 valences:
 - VAL010
 - VAL067

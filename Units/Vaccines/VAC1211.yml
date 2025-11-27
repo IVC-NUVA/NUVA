@@ -4,7 +4,9 @@ comment: Meningococcal C vaccine, polysaccharide conjugated to CRM197 protein
 created: '2024-06-05'
 modified: '2024-06-06'
 codes:
-  NUVACode: '1211'
-  SCT_NUVA: '14711002000100'
+  NUVACode:
+  - '1211'
+  SCT_NUVA:
+  - '14711002000100'
 valences:
 - VAL268

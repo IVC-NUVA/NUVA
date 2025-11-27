@@ -4,12 +4,21 @@ comment: Live attenuated mumps vaccine
 created: '2021-07-19'
 modified: '2025-02-11'
 codes:
-  ATC: J07BE01
-  CPT: '90704'
-  CVC: '90043005'
-  CVX: '07'
-  NUVACode: '0153'
-  SCT_NUVA: '2611002000101'
-  SNOMED-CT: '871738001'
+  ATC:
+  - J07BE01
+  CPT:
+  - '90704'
+  CVC:
+  - '90043005'
+  CVX:
+  - '07'
+  NUVACode:
+  - '0153'
+  SCT_NUVA:
+  - '2611002000101'
+  SNOMED-CT:
+  - '836498007'
+  - '871737006'
+  - '871738001'
 valences:
 - VAL077

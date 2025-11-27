@@ -6,7 +6,9 @@ comment: Single-stranded 5' capped mRNA encoding the Respiratory syncytial virus
 created: '2025-04-14'
 modified: '2025-04-14'
 codes:
-  NUVACode: '1420'
-  SCT_NUVA: '17151002000105'
+  NUVACode:
+  - '1420'
+  SCT_NUVA:
+  - '17151002000105'
 valences:
 - VAL383

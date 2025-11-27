@@ -4,8 +4,11 @@ comment: Live attenuated chickenpox vaccine
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  CIP: '3400955785316'
-  NUVACode: '0120'
-  SCT_NUVA: '2131002000104'
+  CIP:
+  - '3400955785316'
+  NUVACode:
+  - '0120'
+  SCT_NUVA:
+  - '2131002000104'
 valences:
 - VAL044

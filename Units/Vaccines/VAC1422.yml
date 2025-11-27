@@ -4,7 +4,9 @@ comment: COVID-19 protein subunit vaccine, recombinant N protein
 created: '2025-04-14'
 modified: '2025-04-14'
 codes:
-  NUVACode: '1422'
-  SCT_NUVA: '17171002000102'
+  NUVACode:
+  - '1422'
+  SCT_NUVA:
+  - '17171002000102'
 valences:
 - VAL410

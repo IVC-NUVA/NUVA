@@ -5,10 +5,14 @@ comment: Pneumococcal polysaccharide conjugate vaccine, 10-valent, serotypes 1, 
 created: '2024-06-05'
 modified: '2025-02-10'
 codes:
-  CVX: '177'
-  NUVACode: '1233'
-  SCT_NUVA: '14931002000106'
-  SNOMED-CT: '1052330009'
+  CVX:
+  - '177'
+  NUVACode:
+  - '1233'
+  SCT_NUVA:
+  - '14931002000106'
+  SNOMED-CT:
+  - '1052330009'
 valences:
 - VAL186
 - VAL188

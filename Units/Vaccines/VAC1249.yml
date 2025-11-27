@@ -5,8 +5,11 @@ comment: Trivalent inactivated influenza vaccine, split or subunit, intradermal 
 created: '2024-07-15'
 modified: '2025-02-28'
 codes:
-  CVX: '144'
-  NUVACode: '1249'
-  SCT_NUVA: '15101002000101'
+  CVX:
+  - '144'
+  NUVACode:
+  - '1249'
+  SCT_NUVA:
+  - '15101002000101'
 valences:
 - VAL023

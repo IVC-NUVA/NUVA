@@ -4,10 +4,16 @@ comment: Rabies immunoglobulin, human or equine origin
 created: '2021-07-19'
 modified: '2024-07-04'
 codes:
-  ATC: J06BB05
-  CPT: '90376'
-  CVX: '34'
-  NUVACode: '0502'
-  SCT_NUVA: '6301002000109'
+  ATC:
+  - J06BB05
+  CPT:
+  - '90375'
+  - '90376'
+  CVX:
+  - '34'
+  NUVACode:
+  - '0502'
+  SCT_NUVA:
+  - '6301002000109'
 valences:
 - VAL016

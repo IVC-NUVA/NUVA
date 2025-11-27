@@ -4,7 +4,9 @@ comment: Meningococcal B vaccine containing fHbp of subfamilies A and B, unspeci
 created: '2024-06-05'
 modified: '2024-07-04'
 codes:
-  NUVACode: '1152'
-  SCT_NUVA: '14111002000104'
+  NUVACode:
+  - '1152'
+  SCT_NUVA:
+  - '14111002000104'
 valences:
 - VAL072

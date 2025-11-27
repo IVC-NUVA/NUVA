@@ -5,9 +5,14 @@ comment: Tick-borne encephalitis vaccine, whole-virus inactivated, Neudörfl str
 created: '2022-05-16'
 modified: '2024-04-17'
 codes:
-  CIP: '3400935230690'
-  CIS: '69122679'
-  NUVACode: 0933
-  SCT_NUVA: '11261002000108'
+  CIP:
+  - '3400935230522'
+  - '3400935230690'
+  CIS:
+  - '69122679'
+  NUVACode:
+  - 0933
+  SCT_NUVA:
+  - '11261002000108'
 valences:
 - VAL314

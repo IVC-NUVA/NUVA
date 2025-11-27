@@ -4,9 +4,13 @@ comment: Inactivated seasonal influenza vaccine
 created: '2021-10-26'
 modified: '2022-10-28'
 codes:
-  ATC: J07BB02
-  CVX: '15'
-  NUVACode: 0821
-  SCT_NUVA: '9811002000105'
+  ATC:
+  - J07BB02
+  CVX:
+  - '15'
+  NUVACode:
+  - 0821
+  SCT_NUVA:
+  - '9811002000105'
 valences:
 - VAL058

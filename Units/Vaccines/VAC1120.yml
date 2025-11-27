@@ -5,8 +5,10 @@ comment: Trivalent vaccine against leptospirosis caused by Canicola serovar cani
 created: '2024-06-05'
 modified: '2024-07-05'
 codes:
-  NUVACode: '1120'
-  SCT_NUVA: '13781002000108'
+  NUVACode:
+  - '1120'
+  SCT_NUVA:
+  - '13781002000108'
 valences:
 - VAL075
 - VAL347

@@ -4,8 +4,12 @@ comment: Anti-tetanus immunoglobulin
 created: '2025-04-24'
 modified: '2025-04-24'
 codes:
-  CIP: '3400931707776'
-  NUVACode: '1429'
-  SCT_NUVA: '17241002000101'
+  CIP:
+  - '3400930663998'
+  - '3400931707776'
+  NUVACode:
+  - '1429'
+  SCT_NUVA:
+  - '17241002000101'
 valences:
 - VAL110

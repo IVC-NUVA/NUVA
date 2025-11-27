@@ -5,12 +5,21 @@ comment: COVID-19 bivalent mRNA vaccine, original virus + Omicron BA.1 variant, 
 created: '2022-10-31'
 modified: '2025-04-25'
 codes:
-  CTI: '660783'
-  CTI-EXTEND: 660783-01
-  CVX: '519'
-  INFARMED: '5844949'
-  NUVACode: '1032'
-  SCT_NUVA: '12441002000102'
+  CTI:
+  - '660782'
+  - '660783'
+  CTI-EXTEND:
+  - 660782-01
+  - 660783-01
+  CVX:
+  - '519'
+  INFARMED:
+  - '5844931'
+  - '5844949'
+  NUVACode:
+  - '1032'
+  SCT_NUVA:
+  - '12441002000102'
 valences:
 - VAL178
 - VAL181

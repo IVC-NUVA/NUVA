@@ -4,7 +4,9 @@ comment: Pandemic influenza A(H1N1)pdm09 vaccine, inactivated
 created: '2025-04-08'
 modified: '2025-04-08'
 codes:
-  NUVACode: '1398'
-  SCT_NUVA: '16931002000100'
+  NUVACode:
+  - '1398'
+  SCT_NUVA:
+  - '16931002000100'
 valences:
 - VAL099

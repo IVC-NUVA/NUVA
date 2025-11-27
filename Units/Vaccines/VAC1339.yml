@@ -5,9 +5,15 @@ comment: COVID-19 vaccine, protein subunit, recombinant homodimeric RBD protein,
 created: '2025-03-27'
 modified: '2025-04-04'
 codes:
-  EU-NUMBER: EU-1-22-1709-007
-  INFARMED: '5892344'
-  NUVACode: '1339'
-  SCT_NUVA: '16311002000105'
+  EU-NUMBER:
+  - EU-1-22-1709-005
+  - EU-1-22-1709-006
+  - EU-1-22-1709-007
+  INFARMED:
+  - '5892344'
+  NUVACode:
+  - '1339'
+  SCT_NUVA:
+  - '16311002000105'
 valences:
 - VAL413

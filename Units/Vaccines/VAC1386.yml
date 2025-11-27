@@ -4,7 +4,9 @@ comment: Quadrivalent inactivated seasonal influenza vaccine, pediatric dose
 created: '2025-04-07'
 modified: '2025-04-07'
 codes:
-  NUVACode: '1386'
-  SCT_NUVA: '16811002000104'
+  NUVACode:
+  - '1386'
+  SCT_NUVA:
+  - '16811002000104'
 valences:
 - VAL279

@@ -4,9 +4,13 @@ comment: Trivalent inactivated seasonal influenza vaccine
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  CVC: '7541000087108'
-  DIN: 02420686
-  NUVACode: '0576'
-  SCT_NUVA: '7071002000100'
+  CVC:
+  - '7541000087108'
+  DIN:
+  - 02420686
+  NUVACode:
+  - '0576'
+  SCT_NUVA:
+  - '7071002000100'
 valences:
 - VAL015

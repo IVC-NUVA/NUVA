@@ -4,8 +4,12 @@ comment: Live attenuated mumps vaccine
 created: '2021-07-19'
 modified: '2025-04-10'
 codes:
-  AIC: 028446019
-  NUVACode: '0311'
-  SCT_NUVA: '4341002000104'
+  AIC:
+  - 028446
+  - 028446019
+  NUVACode:
+  - '0311'
+  SCT_NUVA:
+  - '4341002000104'
 valences:
 - VAL077

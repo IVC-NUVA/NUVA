@@ -4,7 +4,9 @@ comment: COVID-19 vaccine, whole virion inactivated
 created: '2024-05-14'
 modified: '2025-04-25'
 codes:
-  NUVACode: '1080'
-  SCT_NUVA: '13271002000104'
+  NUVACode:
+  - '1080'
+  SCT_NUVA:
+  - '13271002000104'
 valences:
 - VAL265

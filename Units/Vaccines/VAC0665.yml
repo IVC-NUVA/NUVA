@@ -6,9 +6,13 @@ comment: 'COVID-19 vaccine, whole virion inactivated, adjuvated (adjuvant : TLR 
 created: '2021-07-19'
 modified: '2023-05-15'
 codes:
-  CVC: '33211000087105'
-  CVX: '502'
-  NUVACode: '0665'
-  SCT_NUVA: '7961002000106'
+  CVC:
+  - '33211000087105'
+  CVX:
+  - '502'
+  NUVACode:
+  - '0665'
+  SCT_NUVA:
+  - '7961002000106'
 valences:
 - VAL264

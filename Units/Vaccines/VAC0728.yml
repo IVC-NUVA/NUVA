@@ -6,7 +6,9 @@ comment: COVID-19 vaccine prepared by applying lentivirus modification with immu
 created: '2021-07-19'
 modified: '2024-06-05'
 codes:
-  NUVACode: 0728
-  SCT_NUVA: '8721002000103'
+  NUVACode:
+  - 0728
+  SCT_NUVA:
+  - '8721002000103'
 valences:
 - VAL073

@@ -4,10 +4,15 @@ comment: Recombinant hepatitis B vaccine, dialysis patient dosage
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  CIP: '3400933692438'
-  CIS: '63011985'
-  CNK: '1265412'
-  NUVACode: 0129
-  SCT_NUVA: '2251002000103'
+  CIP:
+  - '3400933692438'
+  CIS:
+  - '63011985'
+  CNK:
+  - '1265412'
+  NUVACode:
+  - 0129
+  SCT_NUVA:
+  - '2251002000103'
 valences:
 - VAL012

@@ -5,16 +5,34 @@ comment: COVID-19 vaccine bivalent RNAm, original virus + Omicron variant BA.4/5
 created: '2022-09-12'
 modified: '2025-04-25'
 codes:
-  CIP: '3400930262009'
-  CIS: '65590890'
-  CNK: '4623567'
-  CTI: '660953'
-  CTI-EXTEND: 660953-01
-  CVC: '37691000087106'
-  EU-NUMBER: EU-1-20-1528-014
-  INFARMED: '5845078'
-  NUVACode: '1023'
-  SCT_NUVA: '12311002000109'
+  CIP:
+  - '3400928099600'
+  - '3400930262009'
+  CIS:
+  - '65590890'
+  CNK:
+  - '4623567'
+  CTI:
+  - '660609'
+  - '660610'
+  - '660953'
+  CTI-EXTEND:
+  - 660609-01
+  - 660610-01
+  - 660953-01
+  CVC:
+  - '37691000087106'
+  EU-NUMBER:
+  - EU-1-20-1528-008
+  - EU-1-20-1528-009
+  - EU-1-20-1528-014
+  INFARMED:
+  - '5845060'
+  - '5845078'
+  NUVACode:
+  - '1023'
+  SCT_NUVA:
+  - '12311002000109'
 valences:
 - VAL304
 - VAL307

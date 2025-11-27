@@ -6,10 +6,16 @@ comment: Unconjugated polysaccharide pneumococcal vaccine, 23-valent, serotypes 
 created: '2022-05-16'
 modified: '2024-04-17'
 codes:
-  CIP: '3400935651396'
-  CIS: '67638273'
-  NUVACode: 0936
-  SCT_NUVA: '11291002000102'
+  CIP:
+  - '3400935651167'
+  - '3400935651228'
+  - '3400935651396'
+  CIS:
+  - '67638273'
+  NUVACode:
+  - 0936
+  SCT_NUVA:
+  - '11291002000102'
 valences:
 - VAL206
 - VAL207

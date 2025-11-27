@@ -4,8 +4,12 @@ comment: Adjuvanted adsorbed anthrax cell vaccine
 created: '2025-02-27'
 modified: '2025-04-11'
 codes:
-  CVX: '318'
-  NUVACode: '1279'
-  SCT_NUVA: '15621002000104'
+  CVX:
+  - '24'
+  - '318'
+  NUVACode:
+  - '1279'
+  SCT_NUVA:
+  - '15621002000104'
 valences:
 - VAL415

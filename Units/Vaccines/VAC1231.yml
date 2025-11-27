@@ -7,8 +7,10 @@ comment: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertuss
 created: '2024-06-05'
 modified: '2024-06-06'
 codes:
-  NUVACode: '1231'
-  SCT_NUVA: '14911002000102'
+  NUVACode:
+  - '1231'
+  SCT_NUVA:
+  - '14911002000102'
 valences:
 - VAL008
 - VAL067

@@ -5,9 +5,12 @@ comment: Quadrivalent polysaccharide conjugate vaccine against meningococci sero
 created: '2024-06-05'
 modified: '2025-02-28'
 codes:
-  CVX: '203'
-  NUVACode: '1182'
-  SCT_NUVA: '14411002000109'
+  CVX:
+  - '203'
+  NUVACode:
+  - '1182'
+  SCT_NUVA:
+  - '14411002000109'
 valences:
 - VAL266
 - VAL271

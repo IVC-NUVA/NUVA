@@ -5,7 +5,9 @@ comment: COVID-19 vaccine, autologous dendritic cells loaded with antigens from 
 created: '2021-07-19'
 modified: '2025-04-25'
 codes:
-  NUVACode: '0730'
-  SCT_NUVA: '8751002000105'
+  NUVACode:
+  - '0730'
+  SCT_NUVA:
+  - '8751002000105'
 valences:
 - VAL073

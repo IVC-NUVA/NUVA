@@ -5,7 +5,9 @@ comment: Whole virion inactivated rabies vaccine, prepared from goat or sheep br
 created: '2022-04-18'
 modified: '2024-04-22'
 codes:
-  NUVACode: 0902
-  SCT_NUVA: '10801002000100'
+  NUVACode:
+  - 0902
+  SCT_NUVA:
+  - '10801002000100'
 valences:
 - VAL254

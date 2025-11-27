@@ -4,8 +4,10 @@ comment: Live attenuated measles and mumps vaccine
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  NUVACode: '0624'
-  SCT_NUVA: '7411002000101'
+  NUVACode:
+  - '0624'
+  SCT_NUVA:
+  - '7411002000101'
 valences:
 - VAL005
 - VAL077

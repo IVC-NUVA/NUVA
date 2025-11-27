@@ -4,8 +4,11 @@ comment: Influenza A(H5N1) vaccine
 created: '2021-07-19'
 modified: '2023-08-15'
 codes:
-  INFARMED: '5039466'
-  NUVACode: '0474'
-  SCT_NUVA: '5981002000108'
+  INFARMED:
+  - '5039466'
+  NUVACode:
+  - '0474'
+  SCT_NUVA:
+  - '5981002000108'
 valences:
 - VAL051

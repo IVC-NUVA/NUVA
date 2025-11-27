@@ -4,13 +4,24 @@ comment: Tuberculosis vaccine
 created: '2021-07-19'
 modified: '2025-02-11'
 codes:
-  ATC: J07AN01
-  CPT: '90728'
-  CVC: '418268006'
-  CVX: '19'
-  ICD11: XM8142
-  NUVACode: '0134'
-  SCT_NUVA: '2321002000100'
-  SNOMED-CT: '836402002'
+  ATC:
+  - J07AN01
+  CPT:
+  - '90585'
+  - '90728'
+  CVC:
+  - '418268006'
+  CVX:
+  - '19'
+  ICD11:
+  - XM8142
+  NUVACode:
+  - '0134'
+  SCT_NUVA:
+  - '2321002000100'
+  SNOMED-CT:
+  - '1861000221106'
+  - '319941000221104'
+  - '836402002'
 valences:
 - VAL096

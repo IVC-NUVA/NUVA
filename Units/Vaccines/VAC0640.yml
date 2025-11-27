@@ -6,8 +6,10 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cel
 created: '2021-07-19'
 modified: '2023-11-02'
 codes:
-  NUVACode: '0640'
-  SCT_NUVA: '7571002000107'
+  NUVACode:
+  - '0640'
+  SCT_NUVA:
+  - '7571002000107'
 valences:
 - VAL010
 - VAL067

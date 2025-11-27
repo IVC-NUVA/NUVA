@@ -5,7 +5,9 @@ comment: COVID-19 vaccine, replicating Newcastle disease virus vector encoding t
 created: '2021-07-19'
 modified: '2023-07-20'
 codes:
-  NUVACode: '0770'
-  SCT_NUVA: '9111002000102'
+  NUVACode:
+  - '0770'
+  SCT_NUVA:
+  - '9111002000102'
 valences:
 - VAL095

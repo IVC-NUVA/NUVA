@@ -4,9 +4,13 @@ comment: Live attenuated measles and rubella vaccine
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  INFARMED: '8674713'
-  NUVACode: '0622'
-  SCT_NUVA: '7391002000101'
+  INFARMED:
+  - '8674705'
+  - '8674713'
+  NUVACode:
+  - '0622'
+  SCT_NUVA:
+  - '7391002000101'
 valences:
 - VAL005
 - VAL079

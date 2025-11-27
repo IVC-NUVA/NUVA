@@ -4,8 +4,11 @@ comment: COVID-19 vaccine, protein subunit (RBD protein + hepatitis B virus core
 created: '2021-07-19'
 modified: '2023-05-15'
 codes:
-  CVC: '33391000087109'
-  NUVACode: 0718
-  SCT_NUVA: '8611002000103'
+  CVC:
+  - '33391000087109'
+  NUVACode:
+  - 0718
+  SCT_NUVA:
+  - '8611002000103'
 valences:
 - VAL011

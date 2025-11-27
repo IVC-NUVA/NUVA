@@ -4,18 +4,40 @@ comment: Haemophilus influenzae type b conjugate vaccine (tetanus protein conjug
 created: '2021-07-19'
 modified: '2025-06-04'
 codes:
-  AIC: 031902024
-  CIP: '3400934377143'
-  CIS: '62216574'
-  CNK: '1340884'
-  CODE_NATIONAL_SPAIN: '664730'
-  CTI: '230151'
-  CTI-EXTEND: 230151-06
-  CVC: '7041000087104'
-  DIN: 02239200
-  INFARMED: '5571914'
-  NDC: 58160-0818-11
-  NUVACode: '0570'
-  SCT_NUVA: '7031002000103'
+  AIC:
+  - 031902
+  - 031902012
+  - 031902024
+  CIP:
+  - '3400934377082'
+  - '3400934377143'
+  CIS:
+  - '62216574'
+  CNK:
+  - '1340884'
+  CODE_NATIONAL_SPAIN:
+  - '664730'
+  CTI:
+  - '230151'
+  CTI-EXTEND:
+  - 230151-03
+  - 230151-04
+  - 230151-05
+  - 230151-06
+  CVC:
+  - '7041000087104'
+  DIN:
+  - 02239200
+  INFARMED:
+  - '2751881'
+  - '5571914'
+  NDC:
+  - 58160-0806-05
+  - 58160-0816-05
+  - 58160-0818-11
+  NUVACode:
+  - '0570'
+  SCT_NUVA:
+  - '7031002000103'
 valences:
 - VAL156

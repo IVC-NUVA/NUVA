@@ -5,9 +5,17 @@ comment: Meningococcal polysaccharide (groups A, C, Y, W) tetanus toxoid conjuga
 created: '2024-03-17'
 modified: '2025-02-17'
 codes:
-  EU-NUMBER: EU-1-24-1871-006
-  NUVACode: '1061'
-  SCT_NUVA: '12901002000105'
+  EU-NUMBER:
+  - EU-1-24-1871-001
+  - EU-1-24-1871-002
+  - EU-1-24-1871-003
+  - EU-1-24-1871-004
+  - EU-1-24-1871-005
+  - EU-1-24-1871-006
+  NUVACode:
+  - '1061'
+  SCT_NUVA:
+  - '12901002000105'
 valences:
 - VAL072
 - VAL266

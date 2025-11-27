@@ -4,13 +4,27 @@ comment: Tetanus toxoid vaccine
 created: '2021-07-19'
 modified: '2025-05-20'
 codes:
-  ATC: J07AM01
-  CPT: '90703'
-  CVC: '333621002'
-  CVX: '35'
-  ICD11: XM29H5
-  NUVACode: '0132'
-  SCT_NUVA: '2291002000107'
-  SNOMED-CT: '871742003'
+  ATC:
+  - J07AM01
+  CPT:
+  - '90703'
+  CVC:
+  - '333621002'
+  CVX:
+  - '112'
+  - '142'
+  - '35'
+  ICD11:
+  - XM29H5
+  NUVACode:
+  - '0132'
+  SCT_NUVA:
+  - '2291002000107'
+  SNOMED-CT:
+  - '1101000221104'
+  - '2021000221101'
+  - '777725002'
+  - '863911006'
+  - '871742003'
 valences:
 - VAL067

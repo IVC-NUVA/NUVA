@@ -4,8 +4,11 @@ comment: Trivalent inactivated influenza vaccine
 created: '2024-05-16'
 modified: '2024-05-16'
 codes:
-  CVC: '19291000087108'
-  NUVACode: '1098'
-  SCT_NUVA: '13521002000102'
+  CVC:
+  - '19291000087108'
+  NUVACode:
+  - '1098'
+  SCT_NUVA:
+  - '13521002000102'
 valences:
 - VAL015

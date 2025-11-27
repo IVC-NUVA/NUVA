@@ -4,8 +4,11 @@ comment: Live attenuated yellow fever vaccine
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  CNK: '1035591'
-  NUVACode: 0191
-  SCT_NUVA: '3041002000104'
+  CNK:
+  - '1035591'
+  NUVACode:
+  - 0191
+  SCT_NUVA:
+  - '3041002000104'
 valences:
 - VAL092

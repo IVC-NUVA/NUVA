@@ -4,9 +4,22 @@ comment: Diphtheria toxoid (standard dose) and tetanus toxoid pediatric vaccine
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  AIC: '003671106'
-  NUVACode: '0214'
-  SCT_NUVA: '3311002000101'
+  AIC:
+  - '003671'
+  - '003671017'
+  - 003671029
+  - '003671031'
+  - '003671043'
+  - '003671056'
+  - 003671068
+  - '003671070'
+  - 003671082
+  - 003671094
+  - '003671106'
+  NUVACode:
+  - '0214'
+  SCT_NUVA:
+  - '3311002000101'
 valences:
 - VAL067
 - VAL097

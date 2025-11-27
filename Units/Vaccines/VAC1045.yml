@@ -6,11 +6,16 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomp
 created: '2023-06-29'
 modified: '2024-04-10'
 codes:
-  CTI: '193961'
-  CTI-EXTEND: 193961-01
-  INFARMED: '2858082'
-  NUVACode: '1045'
-  SCT_NUVA: '12631002000108'
+  CTI:
+  - '193961'
+  CTI-EXTEND:
+  - 193961-01
+  INFARMED:
+  - '2858082'
+  NUVACode:
+  - '1045'
+  SCT_NUVA:
+  - '12631002000108'
 valences:
 - VAL008
 - VAL056

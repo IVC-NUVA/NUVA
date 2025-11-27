@@ -5,13 +5,22 @@ comment: Unconjugated meningococcal polysaccharide vaccine, serogroups A, C, W a
 created: '2021-07-19'
 modified: '2025-04-15'
 codes:
-  ATC: J07AH04
-  CPT: '90733'
-  CVC: '7101000087101'
-  CVX: '32'
-  ICD11: XM2EH7
-  NUVACode: '0152'
-  SCT_NUVA: '2601002000104'
+  ATC:
+  - J07AH04
+  CPT:
+  - '90733'
+  CVC:
+  - '420261000'
+  - '7101000087101'
+  CVX:
+  - '108'
+  - '32'
+  ICD11:
+  - XM2EH7
+  NUVACode:
+  - '0152'
+  SCT_NUVA:
+  - '2601002000104'
 valences:
 - VAL037
 - VAL137

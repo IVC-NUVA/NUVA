@@ -4,8 +4,11 @@ comment: COVID-19 vaccine, protein subunit
 created: '2023-05-16'
 modified: '2024-04-11'
 codes:
-  ATC: J07BN04
-  NUVACode: '1043'
-  SCT_NUVA: '12611002000104'
+  ATC:
+  - J07BN04
+  NUVACode:
+  - '1043'
+  SCT_NUVA:
+  - '12611002000104'
 valences:
 - VAL053

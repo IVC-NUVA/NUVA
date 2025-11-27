@@ -5,9 +5,21 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomp
 created: '2021-07-19'
 modified: '2023-11-02'
 codes:
-  AIC: 037157094
-  NUVACode: '0735'
-  SCT_NUVA: '8801002000100'
+  AIC:
+  - '037157'
+  - '037157017'
+  - 037157029
+  - '037157031'
+  - '037157043'
+  - '037157056'
+  - 037157068
+  - '037157070'
+  - 037157082
+  - 037157094
+  NUVACode:
+  - '0735'
+  SCT_NUVA:
+  - '8801002000100'
 valences:
 - VAL008
 - VAL056

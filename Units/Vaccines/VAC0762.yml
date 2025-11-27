@@ -5,7 +5,9 @@ comment: COVID-19 vaccine, self-amplifying mRNA (SAM) lipid nanoparticle (LNP) e
 created: '2021-07-19'
 modified: '2024-06-05'
 codes:
-  NUVACode: '0762'
-  SCT_NUVA: '9011002000101'
+  NUVACode:
+  - '0762'
+  SCT_NUVA:
+  - '9011002000101'
 valences:
 - VAL169

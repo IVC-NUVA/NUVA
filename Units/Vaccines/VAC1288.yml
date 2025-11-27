@@ -4,7 +4,9 @@ comment: Polio vaccine (whole inactivated, trivalent)
 created: '2025-03-04'
 modified: '2025-03-04'
 codes:
-  NUVACode: '1288'
-  SCT_NUVA: '15711002000104'
+  NUVACode:
+  - '1288'
+  SCT_NUVA:
+  - '15711002000104'
 valences:
 - VAL056

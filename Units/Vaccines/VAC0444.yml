@@ -4,8 +4,18 @@ comment: Haemophilus influenzae type b (conjugated to diphtheria toxoid) vaccine
 created: '2021-07-19'
 modified: '2023-10-30'
 codes:
-  AIC: 028780070
-  NUVACode: '0444'
-  SCT_NUVA: '5681002000102'
+  AIC:
+  - 028780
+  - 028780017
+  - 028780029
+  - 028780031
+  - 028780043
+  - 028780056
+  - 028780068
+  - 028780070
+  NUVACode:
+  - '0444'
+  SCT_NUVA:
+  - '5681002000102'
 valences:
 - VAL154

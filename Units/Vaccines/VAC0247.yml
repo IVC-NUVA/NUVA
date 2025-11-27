@@ -5,12 +5,23 @@ comment: Haemophilus influenzae type b vaccine, capsular oligosaccharides (polyr
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  AIC: 028929026
-  CIP: '3400935493248'
-  CIS: '62565946'
-  CNK: '1093202'
-  INFARMED: '3209285'
-  NUVACode: '0247'
-  SCT_NUVA: '3661002000109'
+  AIC:
+  - 028929
+  - 028929014
+  - 028929026
+  CIP:
+  - '3400934042065'
+  - '3400935493248'
+  CIS:
+  - '62565946'
+  CNK:
+  - '1093202'
+  INFARMED:
+  - '2214880'
+  - '3209285'
+  NUVACode:
+  - '0247'
+  SCT_NUVA:
+  - '3661002000109'
 valences:
 - VAL154

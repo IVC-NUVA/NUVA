@@ -4,7 +4,9 @@ comment: Trivalent inactivated seasonal influenza vaccine
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  NUVACode: 0229
-  SCT_NUVA: '3461002000107'
+  NUVACode:
+  - 0229
+  SCT_NUVA:
+  - '3461002000107'
 valences:
 - VAL015

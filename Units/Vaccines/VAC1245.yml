@@ -5,9 +5,12 @@ comment: Meningococcal vaccine against serogroups A, C, W and Y (polysaccharide 
 created: '2024-06-05'
 modified: '2025-02-27'
 codes:
-  CVX: '316'
-  NUVACode: '1245'
-  SCT_NUVA: '15051002000101'
+  CVX:
+  - '316'
+  NUVACode:
+  - '1245'
+  SCT_NUVA:
+  - '15051002000101'
 valences:
 - VAL072
 - VAL266

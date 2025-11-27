@@ -5,10 +5,19 @@ comment: Recombinant hepatitis B vaccine with 10 micrograms of HBs antigen (alth
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  CIP: '3400955901303'
-  CIS: '68716383'
-  CNK: '1273309'
-  NUVACode: 0128
-  SCT_NUVA: '2241002000100'
+  CIP:
+  - '3400933692377'
+  - '3400933932015'
+  - '3400955901303'
+  CIS:
+  - '61781987'
+  - '68716383'
+  CNK:
+  - 0453738
+  - '1273309'
+  NUVACode:
+  - 0128
+  SCT_NUVA:
+  - '2241002000100'
 valences:
 - VAL114

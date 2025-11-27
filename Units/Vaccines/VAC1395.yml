@@ -4,7 +4,9 @@ comment: Live attenuated mumps vaccine
 created: '2025-04-08'
 modified: '2025-04-08'
 codes:
-  NUVACode: '1395'
-  SCT_NUVA: '16901002000106'
+  NUVACode:
+  - '1395'
+  SCT_NUVA:
+  - '16901002000106'
 valences:
 - VAL077

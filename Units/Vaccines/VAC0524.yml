@@ -4,8 +4,12 @@ comment: Tetanus toxoid vaccine
 created: '2021-07-19'
 modified: '2023-08-15'
 codes:
-  CNK: '1075704'
-  NUVACode: '0524'
-  SCT_NUVA: '6611002000102'
+  CNK:
+  - 0135418
+  - '1075704'
+  NUVACode:
+  - '0524'
+  SCT_NUVA:
+  - '6611002000102'
 valences:
 - VAL067

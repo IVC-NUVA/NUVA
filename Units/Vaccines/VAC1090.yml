@@ -4,7 +4,9 @@ comment: Meningococcal vaccine with outer membrane vesicle proteins
 created: '2024-05-15'
 modified: '2024-06-06'
 codes:
-  NUVACode: '1090'
-  SCT_NUVA: '13431002000103'
+  NUVACode:
+  - '1090'
+  SCT_NUVA:
+  - '13431002000103'
 valences:
 - VAL026

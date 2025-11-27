@@ -4,7 +4,9 @@ comment: P.I. (phenol-insoluble) protein antigen vaccine against brucellosis
 created: '2024-06-05'
 modified: '2024-07-04'
 codes:
-  NUVACode: '1203'
-  SCT_NUVA: '14621002000100'
+  NUVACode:
+  - '1203'
+  SCT_NUVA:
+  - '14621002000100'
 valences:
 - VAL147

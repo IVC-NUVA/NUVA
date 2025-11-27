@@ -5,9 +5,15 @@ comment: Diphtheria toxoid (low dose) and tetanus toxoid vaccine (used for boost
 created: '2021-07-19'
 modified: '2025-06-11'
 codes:
-  INFARMED: '5002605'
-  NUVACode: '0175'
-  SCT_NUVA: '2891002000108'
+  INFARMED:
+  - '5002555'
+  - '5002563'
+  - '5002571'
+  - '5002605'
+  NUVACode:
+  - '0175'
+  SCT_NUVA:
+  - '2891002000108'
 valences:
 - VAL034
 - VAL067

@@ -4,12 +4,23 @@ comment: Diphtheria toxoid (reduced dose) and tetanus toxoid vaccine
 created: '2022-05-03'
 modified: '2024-04-18'
 codes:
-  CPT: '90714'
-  CVC: '68208009'
-  CVX: '196'
-  NUVACode: 0920
-  SCT_NUVA: '11051002000104'
-  SNOMED-CT: '871827009'
+  CPT:
+  - '90714'
+  CVC:
+  - '68208009'
+  CVX:
+  - 09
+  - '113'
+  - '138'
+  - '139'
+  - '196'
+  NUVACode:
+  - 0920
+  SCT_NUVA:
+  - '11051002000104'
+  SNOMED-CT:
+  - '2031000221103'
+  - '871827009'
 valences:
 - VAL034
 - VAL067

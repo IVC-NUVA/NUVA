@@ -4,7 +4,9 @@ comment: COVID-19 vaccine, whole virion inactivated (Vero cell culture)
 created: '2021-07-19'
 modified: '2024-06-04'
 codes:
-  NUVACode: '0707'
-  SCT_NUVA: '8481002000105'
+  NUVACode:
+  - '0707'
+  SCT_NUVA:
+  - '8481002000105'
 valences:
 - VAL265

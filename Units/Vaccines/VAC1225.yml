@@ -5,8 +5,10 @@ comment: Diphtheria, tetanus (toxoid), typhoid (whole inactivated) and paratypho
 created: '2024-06-05'
 modified: '2025-06-18'
 codes:
-  NUVACode: '1225'
-  SCT_NUVA: '14851002000108'
+  NUVACode:
+  - '1225'
+  SCT_NUVA:
+  - '14851002000108'
 valences:
 - VAL045
 - VAL067

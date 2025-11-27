@@ -4,7 +4,9 @@ comment: COVID-19 vaccine, protein subunit
 created: '2021-07-19'
 modified: '2024-06-04'
 codes:
-  NUVACode: '0716'
-  SCT_NUVA: '8591002000107'
+  NUVACode:
+  - '0716'
+  SCT_NUVA:
+  - '8591002000107'
 valences:
 - VAL011

@@ -5,9 +5,13 @@ comment: COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 10 micrograms, paedia
 created: '2025-08-28'
 modified: '2025-10-22'
 codes:
-  CIP: '3400930325544'
-  CNK: '4969622'
-  CTI-EXTEND: 664823-01
-  NUVACode: '1468'
+  CIP:
+  - '3400930325544'
+  CNK:
+  - '4969622'
+  CTI-EXTEND:
+  - 664823-01
+  NUVACode:
+  - '1468'
 valences:
 - VAL425

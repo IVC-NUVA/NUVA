@@ -4,10 +4,15 @@ comment: Tetanus toxoid and inactivated polio (trivalent) vaccine
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  CIP: '3400955372653'
-  CIS: '69220326'
-  NUVACode: 0085
-  SCT_NUVA: '1671002000103'
+  CIP:
+  - '3400931352556'
+  - '3400955372653'
+  CIS:
+  - '69220326'
+  NUVACode:
+  - 0085
+  SCT_NUVA:
+  - '1671002000103'
 valences:
 - VAL056
 - VAL067

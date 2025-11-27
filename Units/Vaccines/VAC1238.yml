@@ -4,8 +4,10 @@ comment: Vaccine against hepatitis B and malaria, unspecified
 created: '2024-06-05'
 modified: '2024-07-04'
 codes:
-  NUVACode: '1238'
-  SCT_NUVA: '14981002000107'
+  NUVACode:
+  - '1238'
+  SCT_NUVA:
+  - '14981002000107'
 valences:
 - VAL009
 - VAL114

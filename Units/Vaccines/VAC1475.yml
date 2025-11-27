@@ -6,6 +6,7 @@ comment: Human monoclonal antibody against respiratory syncytial virus (RSV), cl
 created: '2025-10-08'
 modified: '2025-10-08'
 codes:
-  NUVACode: '1475'
+  NUVACode:
+  - '1475'
 valences:
 - VAL429

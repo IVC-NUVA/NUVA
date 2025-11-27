@@ -4,7 +4,9 @@ comment: Typhoid vaccine, unspecified
 created: '2022-06-17'
 modified: '2024-04-15'
 codes:
-  NUVACode: 0982
-  SCT_NUVA: '11811002000109'
+  NUVACode:
+  - 0982
+  SCT_NUVA:
+  - '11811002000109'
 valences:
 - VAL014

@@ -5,10 +5,17 @@ comment: Diphtheria toxoid (low dose), tetanus toxoid and pertussis (multicompon
 created: '2021-07-19'
 modified: '2025-04-02'
 codes:
-  CTI: '441707'
-  CTI-EXTEND: 441707-04
-  NUVACode: '0614'
-  SCT_NUVA: '7341002000108'
+  CTI:
+  - '441707'
+  CTI-EXTEND:
+  - 441707-01
+  - 441707-02
+  - 441707-03
+  - 441707-04
+  NUVACode:
+  - '0614'
+  SCT_NUVA:
+  - '7341002000108'
 valences:
 - VAL017
 - VAL034

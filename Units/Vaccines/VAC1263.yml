@@ -4,7 +4,9 @@ comment: COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized
 created: '2024-11-29'
 modified: '2025-04-25'
 codes:
-  NUVACode: '1263'
-  SCT_NUVA: '15401002000105'
+  NUVACode:
+  - '1263'
+  SCT_NUVA:
+  - '15401002000105'
 valences:
 - VAL043

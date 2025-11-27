@@ -4,9 +4,13 @@ comment: Equine botulinum antitoxin types A, B and E
 created: '2024-05-17'
 modified: '2024-05-17'
 codes:
-  CIP: '3400959060013'
-  CVC: '19361000087106'
-  NUVACode: '1100'
-  SCT_NUVA: '13551002000109'
+  CIP:
+  - '3400959060013'
+  CVC:
+  - '19361000087106'
+  NUVACode:
+  - '1100'
+  SCT_NUVA:
+  - '13551002000109'
 valences:
 - VAL063

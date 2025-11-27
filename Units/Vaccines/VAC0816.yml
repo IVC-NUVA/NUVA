@@ -4,7 +4,9 @@ comment: Typhoid conjugate vaccine, Vi polysaccharide linked to tetanus toxoid
 created: '2021-10-26'
 modified: '2025-03-12'
 codes:
-  NUVACode: 0816
-  SCT_NUVA: '9741002000104'
+  NUVACode:
+  - 0816
+  SCT_NUVA:
+  - '9741002000104'
 valences:
 - VAL399

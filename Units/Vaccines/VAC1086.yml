@@ -6,8 +6,10 @@ comment: Pneumococcal polysaccharide conjugate vaccine, 23-valent, serotypes 1, 
 created: '2024-05-15'
 modified: '2024-05-15'
 codes:
-  NUVACode: '1086'
-  SCT_NUVA: '13391002000107'
+  NUVACode:
+  - '1086'
+  SCT_NUVA:
+  - '13391002000107'
 valences:
 - VAL186
 - VAL187

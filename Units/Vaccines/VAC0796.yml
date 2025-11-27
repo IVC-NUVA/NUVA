@@ -4,10 +4,17 @@ comment: Pertussis vaccine (acellular or whole-cell inactivated)
 created: '2021-10-26'
 modified: '2025-05-21'
 codes:
-  CVC: '61602008'
-  CVX: '11'
-  NUVACode: 0796
-  SCT_NUVA: '9461002000105'
-  SNOMED-CT: '871759008'
+  CVC:
+  - '61602008'
+  CVX:
+  - '11'
+  NUVACode:
+  - 0796
+  SCT_NUVA:
+  - '9461002000105'
+  SNOMED-CT:
+  - '601000221108'
+  - '871758000'
+  - '871759008'
 valences:
 - VAL003

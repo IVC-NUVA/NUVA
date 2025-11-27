@@ -4,7 +4,9 @@ comment: Enterovirus A71 vaccine, purified and inactivated virus particles
 created: '2024-04-26'
 modified: '2024-06-06'
 codes:
-  NUVACode: '1077'
-  SCT_NUVA: '13221002000100'
+  NUVACode:
+  - '1077'
+  SCT_NUVA:
+  - '13221002000100'
 valences:
 - VAL346

@@ -6,6 +6,7 @@ comment: Japanese encephalitis vaccine, inactivated, whole-virus, derived from V
 created: '2025-05-22'
 modified: '2025-05-22'
 codes:
-  NUVACode: '1446'
+  NUVACode:
+  - '1446'
 valences:
 - VAL401

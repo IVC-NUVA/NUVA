@@ -4,10 +4,14 @@ comment: Haemophilus influenzae type b and pneumococcal conjugate vaccine , unsp
 created: '2021-10-26'
 modified: '2025-04-15'
 codes:
-  ATC: J07AL52
-  ICD11: XM4R39
-  NUVACode: 0815
-  SCT_NUVA: '9731002000107'
+  ATC:
+  - J07AL52
+  ICD11:
+  - XM4R39
+  NUVACode:
+  - 0815
+  SCT_NUVA:
+  - '9731002000107'
 valences:
 - VAL103
 - VAL105

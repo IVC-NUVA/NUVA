@@ -5,7 +5,9 @@ comment: Meningococcal polysaccharide conjugate vaccine with tetanus toxoid agai
 created: '2024-06-05'
 modified: '2024-07-04'
 codes:
-  NUVACode: '1218'
-  SCT_NUVA: '14781002000105'
+  NUVACode:
+  - '1218'
+  SCT_NUVA:
+  - '14781002000105'
 valences:
 - VAL271

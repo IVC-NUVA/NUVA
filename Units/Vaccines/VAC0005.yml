@@ -3,22 +3,51 @@ label: DUKORAL
 comment: Oral cholera vaccine containing recombinant cholera toxin subunit B (rTCB)
   and inactivated bacteria with an adjuvant role
 created: '2021-07-19'
-modified: '2025-09-25'
+modified: '2025-11-24'
 codes:
-  AIC: '036561037'
-  CIP: '3400936512641'
-  CIS: '66974680'
-  CNK: '2285575'
-  CODE_NATIONAL_SPAIN: '700697'
-  CP-NRONATIDENT: 0375283
-  CTI: '264047'
-  CTI-EXTEND: 264047-01
-  CVC: '7401000087106'
-  DIN: 02247208
-  EU-NUMBER: EU-1-03-263-003
-  INFARMED: '5034889'
-  NUVACode: '0005'
-  PZN: 00762187
-  SCT_NUVA: '161002000104'
+  AIC:
+  - '036561'
+  - '036561013'
+  - '036561025'
+  - '036561037'
+  CIP:
+  - '3400936512412'
+  - '3400936512580'
+  - '3400936512641'
+  CIS:
+  - '66974680'
+  CNK:
+  - '2285575'
+  CODE_NATIONAL_SPAIN:
+  - '700697'
+  CP-NRONATIDENT:
+  - 0375283
+  CTI:
+  - '264022'
+  - '264031'
+  - '264047'
+  CTI-EXTEND:
+  - 264022-01
+  - 264031-01
+  - 264047-01
+  CVC:
+  - '24201000087108'
+  - '7401000087106'
+  DIN:
+  - 02247208
+  EU-NUMBER:
+  - EU-1-03-263-001
+  - EU-1-03-263-002
+  - EU-1-03-263-003
+  INFARMED:
+  - '5034681'
+  - '5034780'
+  - '5034889'
+  NUVACode:
+  - '0005'
+  PZN:
+  - 00762187
+  SCT_NUVA:
+  - '161002000104'
 valences:
 - VAL062

@@ -5,12 +5,35 @@ comment: COVID-19 vaccine, protein subunit, recombinant spike protein, RBD fusio
 created: '2022-05-02'
 modified: '2024-04-19'
 codes:
-  CNK: '4676235'
-  CTI: '663852'
-  CTI-EXTEND: 663852-01
-  EU-NUMBER: EU-1-22-1709-004
-  INFARMED: '5882311'
-  NUVACode: 0913
-  SCT_NUVA: '10981002000102'
+  CNK:
+  - '4676235'
+  CTI:
+  - '661366'
+  - '662475'
+  - '662476'
+  - '662477'
+  - '663850'
+  - '663851'
+  - '663852'
+  CTI-EXTEND:
+  - 661366-01
+  - 662475-01
+  - 662476-01
+  - 662477-01
+  - 663850-01
+  - 663851-01
+  - 663852-01
+  EU-NUMBER:
+  - EU-1-22-1709-001
+  - EU-1-22-1709-002
+  - EU-1-22-1709-003
+  - EU-1-22-1709-004
+  INFARMED:
+  - '5855473'
+  - '5882311'
+  NUVACode:
+  - 0913
+  SCT_NUVA:
+  - '10981002000102'
 valences:
 - VAL011

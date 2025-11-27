@@ -6,6 +6,7 @@ comment: Influenza vaccine, quadrivalent, inactivated, split or subunit, intrade
 created: '2025-05-22'
 modified: '2025-05-22'
 codes:
-  NUVACode: '1441'
+  NUVACode:
+  - '1441'
 valences:
 - VAL134

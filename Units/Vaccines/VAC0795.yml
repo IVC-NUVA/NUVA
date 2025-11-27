@@ -4,11 +4,19 @@ comment: Pertussis (acellular, unspecified dose) vaccine
 created: '2021-10-26'
 modified: '2025-04-15'
 codes:
-  ATC: J07AJ02
-  CVC: '7781000087107'
-  ICD11: XM62J1
-  NUVACode: 0795
-  SCT_NUVA: '9451002000108'
-  SNOMED-CT: '601000221108'
+  ATC:
+  - J07AJ02
+  CVC:
+  - '449019003'
+  - '7781000087107'
+  ICD11:
+  - XM4082
+  - XM62J1
+  NUVACode:
+  - 0795
+  SCT_NUVA:
+  - '9451002000108'
+  SNOMED-CT:
+  - '601000221108'
 valences:
 - VAL117

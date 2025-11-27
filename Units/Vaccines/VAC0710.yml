@@ -4,7 +4,9 @@ comment: COVID-19 mRNA vaccine, initial trade name, adult dosage 30 micrograms
 created: '2021-07-19'
 modified: '2024-06-04'
 codes:
-  NUVACode: '0710'
-  SCT_NUVA: '8521002000105'
+  NUVACode:
+  - '0710'
+  SCT_NUVA:
+  - '8521002000105'
 valences:
 - VAL290

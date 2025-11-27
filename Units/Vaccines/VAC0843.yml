@@ -5,9 +5,14 @@ comment: Whole virion inactivated rabies vaccine, WISTAR PM/WI 38-1503-3M strain
 created: '2022-02-26'
 modified: '2025-09-26'
 codes:
-  CIP: '3400935778000'
-  CIS: '63980169'
-  NUVACode: 0843
-  SCT_NUVA: '10091002000103'
+  CIP:
+  - '3400935777928'
+  - '3400935778000'
+  CIS:
+  - '63980169'
+  NUVACode:
+  - 0843
+  SCT_NUVA:
+  - '10091002000103'
 valences:
 - VAL260

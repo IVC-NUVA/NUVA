@@ -4,6 +4,7 @@ comment: Recombinant hepatitis B vaccine, adult dose
 created: '2025-07-28'
 modified: '2025-07-28'
 codes:
-  NUVACode: '1450'
+  NUVACode:
+  - '1450'
 valences:
 - VAL115

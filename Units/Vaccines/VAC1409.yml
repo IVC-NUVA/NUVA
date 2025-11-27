@@ -6,7 +6,9 @@ comment: COVID-19 mRNA vaccine, Omicron JN.1 subvariant, 50 micrograms per dose,
 created: '2025-04-14'
 modified: '2025-04-25'
 codes:
-  NUVACode: '1409'
-  SCT_NUVA: '17041002000109'
+  NUVACode:
+  - '1409'
+  SCT_NUVA:
+  - '17041002000109'
 valences:
 - VAL388

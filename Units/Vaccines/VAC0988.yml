@@ -5,8 +5,10 @@ comment: Unconjugated meningococcal polysaccharide vaccine, serogroups A, C, W a
 created: '2022-06-20'
 modified: '2024-04-15'
 codes:
-  NUVACode: 0988
-  SCT_NUVA: '11871002000102'
+  NUVACode:
+  - 0988
+  SCT_NUVA:
+  - '11871002000102'
 valences:
 - VAL037
 - VAL137

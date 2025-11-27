@@ -4,8 +4,11 @@ comment: Hepatitis C vaccine, unspecified
 created: '2024-03-18'
 modified: '2024-07-04'
 codes:
-  CVX: '58'
-  NUVACode: '1063'
-  SCT_NUVA: '12941002000107'
+  CVX:
+  - '58'
+  NUVACode:
+  - '1063'
+  SCT_NUVA:
+  - '12941002000107'
 valences:
 - VAL332

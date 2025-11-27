@@ -4,7 +4,9 @@ comment: Live attenuated Japanese encephalitis vaccine, recombinant chimeric
 created: '2024-07-29'
 modified: '2024-07-29'
 codes:
-  NUVACode: '1253'
-  SCT_NUVA: '15141002000104'
+  NUVACode:
+  - '1253'
+  SCT_NUVA:
+  - '15141002000104'
 valences:
 - VAL247

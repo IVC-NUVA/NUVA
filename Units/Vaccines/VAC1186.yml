@@ -6,7 +6,9 @@ comment: Anti-covid 19 vaccine with replicative viral vector with antigen-presen
 created: '2024-06-05'
 modified: '2025-03-27'
 codes:
-  NUVACode: '1186'
-  SCT_NUVA: '14451002000105'
+  NUVACode:
+  - '1186'
+  SCT_NUVA:
+  - '14451002000105'
 valences:
 - VAL073

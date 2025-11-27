@@ -4,11 +4,18 @@ comment: Dengue vaccine, unspecified
 created: '2021-07-19'
 modified: '2022-11-10'
 codes:
-  ATC: J07BX04
-  CVX: '56'
-  ICD11: XM38G7
-  NUVACode: '0155'
-  SCT_NUVA: '2651002000100'
-  SNOMED-CT: '871720004'
+  ATC:
+  - J07BX04
+  CVX:
+  - '56'
+  ICD11:
+  - XM38G7
+  NUVACode:
+  - '0155'
+  SCT_NUVA:
+  - '2651002000100'
+  SNOMED-CT:
+  - '840563003'
+  - '871720004'
 valences:
 - VAL150

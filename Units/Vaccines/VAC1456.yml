@@ -4,6 +4,7 @@ comment: Whole virion inactivated rabies vaccine, prepared in MRC5 cells
 created: '2025-07-29'
 modified: '2025-07-29'
 codes:
-  NUVACode: '1456'
+  NUVACode:
+  - '1456'
 valences:
 - VAL258

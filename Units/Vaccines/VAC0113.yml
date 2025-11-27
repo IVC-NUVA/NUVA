@@ -4,13 +4,23 @@ comment: Vaccine rubella, live attenuated
 created: '2021-07-19'
 modified: '2025-05-20'
 codes:
-  ATC: J07BJ01
-  CPT: '90706'
-  CVC: '386013003'
-  CVX: '06'
-  ICD11: XM9PS9
-  NUVACode: '0113'
-  SCT_NUVA: '2091002000101'
-  SNOMED-CT: '871732000'
+  ATC:
+  - J07BJ01
+  CPT:
+  - '90706'
+  CVC:
+  - '386013003'
+  CVX:
+  - '06'
+  ICD11:
+  - XM9PS9
+  NUVACode:
+  - '0113'
+  SCT_NUVA:
+  - '2091002000101'
+  SNOMED-CT:
+  - '1297215000'
+  - '836388000'
+  - '871732000'
 valences:
 - VAL079

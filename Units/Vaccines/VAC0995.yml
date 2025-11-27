@@ -4,8 +4,11 @@ comment: Smallpox vaccine, third generation, modified vaccinia virus Ankara, non
 created: '2022-07-21'
 modified: '2024-04-15'
 codes:
-  CVC: '26571000087105'
-  NUVACode: 0995
-  SCT_NUVA: '11941002000100'
+  CVC:
+  - '26571000087105'
+  NUVACode:
+  - 0995
+  SCT_NUVA:
+  - '11941002000100'
 valences:
 - VAL296

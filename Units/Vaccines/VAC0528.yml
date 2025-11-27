@@ -4,8 +4,10 @@ comment: Hepatitis B and malaria vaccine
 created: '2021-07-19'
 modified: '2023-12-18'
 codes:
-  NUVACode: 0528
-  SCT_NUVA: '6671002000109'
+  NUVACode:
+  - 0528
+  SCT_NUVA:
+  - '6671002000109'
 valences:
 - VAL009
 - VAL114

@@ -6,8 +6,11 @@ comment: Ebola virus vaccine, recombinant live non-replicating viral vector Ad26
 created: '2024-06-05'
 modified: '2025-04-15'
 codes:
-  ICD11: XM4TZ2
-  NUVACode: '1205'
-  SCT_NUVA: '14651002000107'
+  ICD11:
+  - XM4TZ2
+  NUVACode:
+  - '1205'
+  SCT_NUVA:
+  - '14651002000107'
 valences:
 - VAL108

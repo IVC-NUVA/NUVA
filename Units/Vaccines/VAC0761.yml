@@ -4,7 +4,9 @@ comment: COVID-19 vaccine, protein subunit, recombinant spike protein, fusion pr
 created: '2021-07-19'
 modified: '2023-05-15'
 codes:
-  NUVACode: '0761'
-  SCT_NUVA: '8991002000104'
+  NUVACode:
+  - '0761'
+  SCT_NUVA:
+  - '8991002000104'
 valences:
 - VAL104

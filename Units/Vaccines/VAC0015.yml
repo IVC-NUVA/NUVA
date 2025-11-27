@@ -6,12 +6,21 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomp
 created: '2021-07-19'
 modified: '2025-09-23'
 codes:
-  CIP: '3400935524737'
-  CIS: '69543678'
-  CVC: '7501000087105'
-  DIN: '02257122'
-  NUVACode: '0015'
-  SCT_NUVA: '351002000103'
+  CIP:
+  - '3400930095720'
+  - '3400934376771'
+  - '3400934376832'
+  - '3400935524737'
+  CIS:
+  - '69543678'
+  CVC:
+  - '7501000087105'
+  DIN:
+  - '02257122'
+  NUVACode:
+  - '0015'
+  SCT_NUVA:
+  - '351002000103'
 valences:
 - VAL008
 - VAL056

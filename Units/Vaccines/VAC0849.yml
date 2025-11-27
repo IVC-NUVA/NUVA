@@ -4,9 +4,14 @@ comment: Tularemia vaccine
 created: '2022-03-03'
 modified: '2024-04-24'
 codes:
-  CVX: '78'
-  NUVACode: 0849
-  SCT_NUVA: '10171002000103'
-  SNOMED-CT: '871716003'
+  CVX:
+  - '78'
+  NUVACode:
+  - 0849
+  SCT_NUVA:
+  - '10171002000103'
+  SNOMED-CT:
+  - '840551008'
+  - '871716003'
 valences:
 - VAL151

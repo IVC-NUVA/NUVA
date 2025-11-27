@@ -5,7 +5,9 @@ comment: Whole virion inactivated rabies vaccine, prepared in human diploid cell
 created: '2021-07-19'
 modified: '2023-11-02'
 codes:
-  NUVACode: '0260'
-  SCT_NUVA: '3801002000109'
+  NUVACode:
+  - '0260'
+  SCT_NUVA:
+  - '3801002000109'
 valences:
 - VAL258

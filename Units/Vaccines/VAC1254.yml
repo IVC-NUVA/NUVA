@@ -6,9 +6,12 @@ comment: Pneumococcal polysaccharide conjugate vaccine, 21-valent, adsorbed, ser
 created: '2024-08-01'
 modified: '2025-02-09'
 codes:
-  INFARMED: '5903471'
-  NUVACode: '1254'
-  SCT_NUVA: '15241002000106'
+  INFARMED:
+  - '5903471'
+  NUVACode:
+  - '1254'
+  SCT_NUVA:
+  - '15241002000106'
 valences:
 - VAL187
 - VAL190

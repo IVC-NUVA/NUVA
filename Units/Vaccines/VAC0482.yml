@@ -4,8 +4,11 @@ comment: Influenza A(H5N1) vaccine (whole virion, Vero cell cultured, inactivate
 created: '2021-07-19'
 modified: '2023-08-15'
 codes:
-  EU-NUMBER: EU-1-12-752-001
-  NUVACode: 0482
-  SCT_NUVA: '6061002000108'
+  EU-NUMBER:
+  - EU-1-12-752-001
+  NUVACode:
+  - 0482
+  SCT_NUVA:
+  - '6061002000108'
 valences:
 - VAL051

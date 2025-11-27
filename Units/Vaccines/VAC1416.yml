@@ -6,7 +6,9 @@ comment: COVID-19 mRNA vaccine, subvariant Omicron KP.2, 3 micrograms, paediatri
 created: '2025-04-14'
 modified: '2025-04-25'
 codes:
-  NUVACode: '1416'
-  SCT_NUVA: '17111002000109'
+  NUVACode:
+  - '1416'
+  SCT_NUVA:
+  - '17111002000109'
 valences:
 - VAL407

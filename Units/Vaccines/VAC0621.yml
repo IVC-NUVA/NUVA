@@ -5,7 +5,9 @@ comment: Meningococcal conjugate Vaccine, serogroup C (conjugated to tetanus tox
 created: '2021-07-19'
 modified: '2024-06-04'
 codes:
-  NUVACode: '0621'
-  SCT_NUVA: '7381002000104'
+  NUVACode:
+  - '0621'
+  SCT_NUVA:
+  - '7381002000104'
 valences:
 - VAL266

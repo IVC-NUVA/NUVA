@@ -4,11 +4,20 @@ comment: Influenza A(H5N1) vaccine (fragmented virion, inactivated, adjuvanted)
 created: '2025-03-26'
 modified: '2025-03-26'
 codes:
-  CTI: '662051'
-  CTI-EXTEND: 662051-01
-  EU-NUMBER: EU-1-23-1761-002
-  INFARMED: '5908520'
-  NUVACode: '1338'
-  SCT_NUVA: '16291002000106'
+  CTI:
+  - '662050'
+  - '662051'
+  CTI-EXTEND:
+  - 662050-01
+  - 662051-01
+  EU-NUMBER:
+  - EU-1-23-1761-001
+  - EU-1-23-1761-002
+  INFARMED:
+  - '5908520'
+  NUVACode:
+  - '1338'
+  SCT_NUVA:
+  - '16291002000106'
 valences:
 - VAL051

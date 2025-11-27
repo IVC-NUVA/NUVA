@@ -4,9 +4,14 @@ comment: Inactivated hepatitis A vaccine, pediatric dose
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  CIP: '3400955824619'
-  CNK: '1097369'
-  NUVACode: '0067'
-  SCT_NUVA: '1431002000104'
+  CIP:
+  - '3400933689308'
+  - '3400955824619'
+  CNK:
+  - '1097369'
+  NUVACode:
+  - '0067'
+  SCT_NUVA:
+  - '1431002000104'
 valences:
 - VAL142

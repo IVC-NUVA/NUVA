@@ -5,16 +5,37 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (multic
 created: '2021-07-19'
 modified: '2023-11-02'
 codes:
-  AIC: 029244086
-  CNK: '1177682'
-  CODE_NATIONAL_SPAIN: '664052'
-  CTI: '169303'
-  CTI-EXTEND: 169303-02
-  INFARMED: '2392587'
-  NDC: 58160-0810-52
-  NUVACode: '0264'
-  PZN: 08706113
-  SCT_NUVA: '3841002000106'
+  AIC:
+  - 029244
+  - 029244011
+  - 029244023
+  - 029244035
+  - 029244047
+  - 029244050
+  - 029244062
+  - 029244074
+  - 029244086
+  CNK:
+  - '1177682'
+  CODE_NATIONAL_SPAIN:
+  - '664052'
+  CTI:
+  - '169303'
+  CTI-EXTEND:
+  - 169303-01
+  - 169303-02
+  INFARMED:
+  - '2392587'
+  NDC:
+  - 50090-2883-00
+  - 58160-0810-11
+  - 58160-0810-52
+  NUVACode:
+  - '0264'
+  PZN:
+  - 08706113
+  SCT_NUVA:
+  - '3841002000106'
 valences:
 - VAL008
 - VAL067

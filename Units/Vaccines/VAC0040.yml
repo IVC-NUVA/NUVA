@@ -4,11 +4,19 @@ comment: Hepatitis A (inactivated, adsorbed) and typhoid vaccine (polysaccharide
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  CIP: '3400936078208'
-  CIS: '69725264'
-  NTIN: '3400936077836'
-  NUVACode: '0040'
-  SCT_NUVA: '1091002000105'
+  CIP:
+  - '3400936077836'
+  - '3400936078086'
+  - '3400936078147'
+  - '3400936078208'
+  CIS:
+  - '69725264'
+  NTIN:
+  - '3400936077836'
+  NUVACode:
+  - '0040'
+  SCT_NUVA:
+  - '1091002000105'
 valences:
 - VAL032
 - VAL125

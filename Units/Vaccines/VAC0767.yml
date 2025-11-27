@@ -10,8 +10,10 @@ comment: 'COVID-19 vaccine with chimpanzee adenovirus and self-amplifying mRNA: 
 created: '2021-07-19'
 modified: '2025-04-25'
 codes:
-  NUVACode: '0767'
-  SCT_NUVA: '9061002000103'
+  NUVACode:
+  - '0767'
+  SCT_NUVA:
+  - '9061002000103'
 valences:
 - VAL070
 - VAL169

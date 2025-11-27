@@ -5,7 +5,9 @@ comment: Cholera vaccine, oral, containing formalin-inactivated whole V. cholera
 created: '2025-04-04'
 modified: '2025-04-04'
 codes:
-  NUVACode: '1366'
-  SCT_NUVA: '16591002000109'
+  NUVACode:
+  - '1366'
+  SCT_NUVA:
+  - '16591002000109'
 valences:
 - VAL367

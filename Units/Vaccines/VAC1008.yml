@@ -4,9 +4,12 @@ comment: Diphtheria toxoid (standard dose) and tetanus toxoid vaccine
 created: '2022-08-09'
 modified: '2024-04-15'
 codes:
-  CNK: '305912'
-  NUVACode: '1008'
-  SCT_NUVA: '12091002000104'
+  CNK:
+  - '305912'
+  NUVACode:
+  - '1008'
+  SCT_NUVA:
+  - '12091002000104'
 valences:
 - VAL067
 - VAL097

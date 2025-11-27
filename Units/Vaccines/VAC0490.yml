@@ -5,10 +5,15 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomp
 created: '2021-07-19'
 modified: '2023-11-02'
 codes:
-  CVC: '22691000087106'
-  NDC: 58160-0812-52
-  NUVACode: 0490
-  SCT_NUVA: '6161002000107'
+  CVC:
+  - '22691000087106'
+  NDC:
+  - 58160-0812-11
+  - 58160-0812-52
+  NUVACode:
+  - 0490
+  SCT_NUVA:
+  - '6161002000107'
 valences:
 - VAL008
 - VAL056

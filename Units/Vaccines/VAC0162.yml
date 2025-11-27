@@ -4,9 +4,13 @@ comment: Brucellosis vaccine
 created: '2021-07-19'
 modified: '2025-04-15'
 codes:
-  ATC: J07AD01
-  ICD11: XM7RX8
-  NUVACode: '0162'
-  SCT_NUVA: '2761002000105'
+  ATC:
+  - J07AD01
+  ICD11:
+  - XM7RX8
+  NUVACode:
+  - '0162'
+  SCT_NUVA:
+  - '2761002000105'
 valences:
 - VAL006

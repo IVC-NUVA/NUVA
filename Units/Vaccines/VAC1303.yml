@@ -5,7 +5,9 @@ comment: Lyme disease vaccine using a recombinant protein derived from OspA (Out
 created: '2025-03-12'
 modified: '2025-03-15'
 codes:
-  NUVACode: '1303'
-  SCT_NUVA: '15861002000109'
+  NUVACode:
+  - '1303'
+  SCT_NUVA:
+  - '15861002000109'
 valences:
 - VAL030

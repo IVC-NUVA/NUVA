@@ -4,7 +4,9 @@ comment: Tuberculosis vaccine
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  NUVACode: '0425'
-  SCT_NUVA: '5491002000102'
+  NUVACode:
+  - '0425'
+  SCT_NUVA:
+  - '5491002000102'
 valences:
 - VAL096

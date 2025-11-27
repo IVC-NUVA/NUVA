@@ -5,9 +5,12 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (whole-
 created: '2022-08-09'
 modified: '2024-04-15'
 codes:
-  CNK: '305961'
-  NUVACode: '1010'
-  SCT_NUVA: '12111002000106'
+  CNK:
+  - '305961'
+  NUVACode:
+  - '1010'
+  SCT_NUVA:
+  - '12111002000106'
 valences:
 - VAL010
 - VAL067

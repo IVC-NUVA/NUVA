@@ -5,10 +5,22 @@ comment: Quadrivalent inactivated seasonal influenza vaccine, split virion or su
 created: '2022-05-17'
 modified: '2024-07-05'
 codes:
-  CPT: '90694'
-  CVC: '19401000087100'
-  CVX: '205'
-  NUVACode: 0938
-  SCT_NUVA: '11321002000109'
+  CPT:
+  - '90630'
+  - '90686'
+  - '90687'
+  - '90688'
+  - '90694'
+  CVC:
+  - '19401000087100'
+  CVX:
+  - '150'
+  - '158'
+  - '166'
+  - '205'
+  NUVACode:
+  - 0938
+  SCT_NUVA:
+  - '11321002000109'
 valences:
 - VAL040

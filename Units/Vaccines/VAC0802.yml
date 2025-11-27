@@ -4,11 +4,18 @@ comment: Polio vaccine (live attenuated, monovalent), oral
 created: '2021-10-26'
 modified: '2024-07-05'
 codes:
-  ATC: J07BF01
-  CPT: '90712'
-  CVC: '125690004'
-  CVX: '182'
-  NUVACode: 0802
-  SCT_NUVA: '9531002000104'
+  ATC:
+  - J07BF01
+  CPT:
+  - '90712'
+  CVC:
+  - '125690004'
+  CVX:
+  - '179'
+  - '182'
+  NUVACode:
+  - 0802
+  SCT_NUVA:
+  - '9531002000104'
 valences:
 - VAL133

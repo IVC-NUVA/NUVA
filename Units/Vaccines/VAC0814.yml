@@ -4,12 +4,19 @@ comment: Pneumococcal polysaccharide conjugate vaccine, number of serotypes unsp
 created: '2021-10-26'
 modified: '2025-04-15'
 codes:
-  ATC: J07AL02
-  CVC: '7261000087106'
-  CVX: '152'
-  ICD11: XM96S7
-  NUVACode: 0814
-  SCT_NUVA: '9721002000109'
-  SNOMED-CT: '1801000221105'
+  ATC:
+  - J07AL02
+  CVC:
+  - '7261000087106'
+  CVX:
+  - '152'
+  ICD11:
+  - XM96S7
+  NUVACode:
+  - 0814
+  SCT_NUVA:
+  - '9721002000109'
+  SNOMED-CT:
+  - '1801000221105'
 valences:
 - VAL184

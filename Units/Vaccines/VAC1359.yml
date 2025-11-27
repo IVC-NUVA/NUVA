@@ -4,7 +4,9 @@ comment: Trivalent inactivated seasonal influenza vaccine, produced in cell cult
 created: '2025-04-03'
 modified: '2025-04-03'
 codes:
-  NUVACode: '1359'
-  SCT_NUVA: '16521002000107'
+  NUVACode:
+  - '1359'
+  SCT_NUVA:
+  - '16521002000107'
 valences:
 - VAL285

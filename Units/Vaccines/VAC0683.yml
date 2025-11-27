@@ -4,9 +4,13 @@ comment: COVID-19 vaccine, protein subunit, recombinant spike protein
 created: '2021-07-19'
 modified: '2023-08-15'
 codes:
-  CVC: '33421000087101'
-  CVX: '509'
-  NUVACode: 0683
-  SCT_NUVA: '8231002000105'
+  CVC:
+  - '33421000087101'
+  CVX:
+  - '509'
+  NUVACode:
+  - 0683
+  SCT_NUVA:
+  - '8231002000105'
 valences:
 - VAL053

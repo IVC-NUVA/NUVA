@@ -4,7 +4,9 @@ comment: Live attenuated rubella vaccine, grown on duck embryonic cells (HPV-77 
 created: '2021-07-19'
 modified: '2025-03-15'
 codes:
-  NUVACode: 0249
-  SCT_NUVA: '3681002000101'
+  NUVACode:
+  - 0249
+  SCT_NUVA:
+  - '3681002000101'
 valences:
 - VAL079

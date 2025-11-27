@@ -5,10 +5,20 @@ comment: Whole virion inactivated rabies vaccine, Flury LEP strain, purified chi
 created: '2021-07-19'
 modified: '2023-11-02'
 codes:
-  CVC: '7391000087108'
-  DIN: '02267667'
-  NDC: 63851-0501-02
-  NUVACode: '0355'
-  SCT_NUVA: '4761002000104'
+  CVC:
+  - '33231000087100'
+  - '7391000087108'
+  DIN:
+  - '02267667'
+  NDC:
+  - 50090-3096-00
+  - 50632-0010-01
+  - 58160-0964-12
+  - 63851-0501-01
+  - 63851-0501-02
+  NUVACode:
+  - '0355'
+  SCT_NUVA:
+  - '4761002000104'
 valences:
 - VAL259

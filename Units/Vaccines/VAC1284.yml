@@ -4,8 +4,10 @@ comment: Human Papillomavirus vaccine, quadrivalent (types 6, 11, 16, and 18), r
 created: '2025-03-04'
 modified: '2025-03-04'
 codes:
-  NUVACode: '1284'
-  SCT_NUVA: '15671002000103'
+  NUVACode:
+  - '1284'
+  SCT_NUVA:
+  - '15671002000103'
 valences:
 - VAL052
 - VAL238

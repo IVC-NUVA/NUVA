@@ -4,9 +4,19 @@ comment: Recombinant hepatitis B vaccine, HBsAg 20 µg, children and adult dose
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  CIP: '3400955626718'
-  CIS: '62493849'
-  NUVACode: 0048
-  SCT_NUVA: '1201002000109'
+  CIP:
+  - '3400933050368'
+  - '3400933050429'
+  - '3400955626428'
+  - '3400955626596'
+  - '3400955626657'
+  - '3400955626718'
+  CIS:
+  - '60738424'
+  - '62493849'
+  NUVACode:
+  - 0048
+  SCT_NUVA:
+  - '1201002000109'
 valences:
 - VAL115

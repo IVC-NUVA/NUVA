@@ -4,7 +4,9 @@ comment: Adsorbed acellular anthrax vaccine with adjuvant
 created: '2021-07-19'
 modified: '2025-04-11'
 codes:
-  NUVACode: 0193
-  SCT_NUVA: '3071002000105'
+  NUVACode:
+  - 0193
+  SCT_NUVA:
+  - '3071002000105'
 valences:
 - VAL415

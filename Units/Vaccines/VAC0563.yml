@@ -4,11 +4,25 @@ comment: Quadrivalent inactivated seasonal influenza vaccine, split virion
 created: '2021-07-19'
 modified: '2025-10-27'
 codes:
-  CNK: '4176053'
-  CP-NRONATIDENT: 0756679
-  CTI: '456924'
-  CTI-EXTEND: 456924-23
-  NUVACode: '0563'
-  SCT_NUVA: '6971002000104'
+  CNK:
+  - '3258282'
+  - '3431988'
+  - '3562394'
+  - '3745577'
+  - '3926664'
+  - '4176053'
+  CP-NRONATIDENT:
+  - 0756679
+  CTI:
+  - '456924'
+  CTI-EXTEND:
+  - 456924-20
+  - 456924-21
+  - 456924-22
+  - 456924-23
+  NUVACode:
+  - '0563'
+  SCT_NUVA:
+  - '6971002000104'
 valences:
 - VAL040

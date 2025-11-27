@@ -4,9 +4,14 @@ comment: Adenovirus vaccine, unspecified type
 created: '2022-04-06'
 modified: '2024-04-22'
 codes:
-  CVX: '82'
-  NUVACode: 0894
-  SCT_NUVA: '10661002000100'
-  SNOMED-CT: '871722007'
+  CVX:
+  - '82'
+  NUVACode:
+  - 0894
+  SCT_NUVA:
+  - '10661002000100'
+  SNOMED-CT:
+  - '836400005'
+  - '871722007'
 valences:
 - VAL278

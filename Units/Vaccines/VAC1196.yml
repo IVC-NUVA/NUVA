@@ -6,7 +6,9 @@ comment: Whole inactivated vaccine against Japanese encephalitis, prepared from 
 created: '2024-06-05'
 modified: '2024-07-04'
 codes:
-  NUVACode: '1196'
-  SCT_NUVA: '14551002000106'
+  NUVACode:
+  - '1196'
+  SCT_NUVA:
+  - '14551002000106'
 valences:
 - VAL250

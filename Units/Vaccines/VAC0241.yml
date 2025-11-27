@@ -5,7 +5,9 @@ comment: Haemophilus influenzae type b vaccine, capsular polysaccharide (polyrib
 created: '2021-07-19'
 modified: '2025-03-15'
 codes:
-  NUVACode: '0241'
-  SCT_NUVA: '3581002000100'
+  NUVACode:
+  - '0241'
+  SCT_NUVA:
+  - '3581002000100'
 valences:
 - VAL156

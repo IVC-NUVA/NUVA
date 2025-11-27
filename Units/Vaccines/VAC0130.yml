@@ -4,14 +4,23 @@ comment: Live attenuated measles, mumps and rubella vaccine
 created: '2021-07-19'
 modified: '2025-05-20'
 codes:
-  ATC: J07BD52
-  CPT: '90707'
-  CVC: '61153008'
-  CVX: '03'
-  ICD11: XM8TF3
-  NUVACode: '0130'
-  SCT_NUVA: '2261002000101'
-  SNOMED-CT: '871831003'
+  ATC:
+  - J07BD52
+  CPT:
+  - '90707'
+  CVC:
+  - '61153008'
+  CVX:
+  - '03'
+  ICD11:
+  - XM8TF3
+  NUVACode:
+  - '0130'
+  SCT_NUVA:
+  - '2261002000101'
+  SNOMED-CT:
+  - '2241000221103'
+  - '871831003'
 valences:
 - VAL005
 - VAL077

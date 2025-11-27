@@ -6,9 +6,13 @@ comment: Cholera vaccine containing recombinant cholera toxin B subunit and inac
 created: '2024-06-05'
 modified: '2025-05-21'
 codes:
-  CVX: '172'
-  NUVACode: '1213'
-  SCT_NUVA: '14731002000109'
-  SNOMED-CT: '1362134008'
+  CVX:
+  - '172'
+  NUVACode:
+  - '1213'
+  SCT_NUVA:
+  - '14731002000109'
+  SNOMED-CT:
+  - '1362134008'
 valences:
 - VAL062

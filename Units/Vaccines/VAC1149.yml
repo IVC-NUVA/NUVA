@@ -4,8 +4,11 @@ comment: Oral live attenuated cholera vaccine, unspecified
 created: '2024-06-05'
 modified: '2025-05-20'
 codes:
-  NUVACode: '1149'
-  SCT_NUVA: '14081002000108'
-  SNOMED-CT: '1011000221100'
+  NUVACode:
+  - '1149'
+  SCT_NUVA:
+  - '14081002000108'
+  SNOMED-CT:
+  - '1011000221100'
 valences:
 - VAL357

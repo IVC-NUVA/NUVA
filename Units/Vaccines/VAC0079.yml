@@ -4,8 +4,16 @@ comment: Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain
 created: '2021-07-19'
 modified: '2025-11-14'
 codes:
-  CIP: '3400936775886'
-  NUVACode: 0079
-  SCT_NUVA: '1571002000102'
+  CIP:
+  - '3400930198391'
+  - '3400930198407'
+  - '3400930198414'
+  - '3400936774537'
+  - '3400936775718'
+  - '3400936775886'
+  NUVACode:
+  - 0079
+  SCT_NUVA:
+  - '1571002000102'
 valences:
 - VAL431

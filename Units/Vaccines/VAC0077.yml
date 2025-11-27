@@ -4,10 +4,18 @@ comment: Live attenuated mumps vaccine
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  AIC: '026757017'
-  CIP: '3400932645961'
-  CIS: '63661513'
-  NUVACode: '0077'
-  SCT_NUVA: '1541002000108'
+  AIC:
+  - '026757'
+  - '026757017'
+  CIP:
+  - '3400932645671'
+  - '3400932645732'
+  - '3400932645961'
+  CIS:
+  - '63661513'
+  NUVACode:
+  - '0077'
+  SCT_NUVA:
+  - '1541002000108'
 valences:
 - VAL077

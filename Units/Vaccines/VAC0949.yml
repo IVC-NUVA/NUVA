@@ -4,7 +4,9 @@ comment: Tuberculosis vaccine
 created: '2022-05-25'
 modified: '2024-04-17'
 codes:
-  NUVACode: 0949
-  SCT_NUVA: '11481002000101'
+  NUVACode:
+  - 0949
+  SCT_NUVA:
+  - '11481002000101'
 valences:
 - VAL096

@@ -4,7 +4,9 @@ comment: Smallpox vaccine, first-generation, live vaccinia virus
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  NUVACode: 0219
-  SCT_NUVA: '3361002000103'
+  NUVACode:
+  - 0219
+  SCT_NUVA:
+  - '3361002000103'
 valences:
 - VAL294

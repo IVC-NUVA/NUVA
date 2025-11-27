@@ -4,9 +4,14 @@ comment: Live attenuated mumps vaccine
 created: '2021-07-19'
 modified: '2025-04-10'
 codes:
-  AIC: 023279019
-  CNK: 0058032
-  NUVACode: '0315'
-  SCT_NUVA: '4381002000108'
+  AIC:
+  - 023279
+  - 023279019
+  CNK:
+  - 0058032
+  NUVACode:
+  - '0315'
+  SCT_NUVA:
+  - '4381002000108'
 valences:
 - VAL077

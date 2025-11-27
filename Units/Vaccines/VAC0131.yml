@@ -4,12 +4,25 @@ comment: Whole virion inactivated rabies vaccine
 created: '2021-07-19'
 modified: '2025-04-16'
 codes:
-  ATC: J07BG01
-  CPT: '90726'
-  CVX: '90'
-  ICD11: XM7BE8
-  NUVACode: '0131'
-  SCT_NUVA: '2281002000109'
-  SNOMED-CT: '871726005'
+  ATC:
+  - J07BG01
+  CPT:
+  - '90675'
+  - '90676'
+  - '90726'
+  CVX:
+  - '18'
+  - '40'
+  - '90'
+  ICD11:
+  - XM7BE8
+  NUVACode:
+  - '0131'
+  SCT_NUVA:
+  - '2281002000109'
+  SNOMED-CT:
+  - '1131000221109'
+  - '836393002'
+  - '871726005'
 valences:
 - VAL080

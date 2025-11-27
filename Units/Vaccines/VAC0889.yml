@@ -4,10 +4,17 @@ comment: Polio vaccine (live attenuated, monovalent) against poliovirus type 3, 
 created: '2022-04-04'
 modified: '2024-04-22'
 codes:
-  AIC: 037893017
-  CTI: '289152'
-  CTI-EXTEND: 289152-02
-  NUVACode: 0889
-  SCT_NUVA: '10601002000101'
+  AIC:
+  - 037893
+  - 037893017
+  CTI:
+  - '289152'
+  CTI-EXTEND:
+  - 289152-01
+  - 289152-02
+  NUVACode:
+  - 0889
+  SCT_NUVA:
+  - '10601002000101'
 valences:
 - VAL085

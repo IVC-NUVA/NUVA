@@ -4,7 +4,9 @@ comment: Trivalent inactivated seasonal influenza vaccine, split virion
 created: '2025-04-03'
 modified: '2025-04-03'
 codes:
-  NUVACode: '1353'
-  SCT_NUVA: '16461002000104'
+  NUVACode:
+  - '1353'
+  SCT_NUVA:
+  - '16461002000104'
 valences:
 - VAL015

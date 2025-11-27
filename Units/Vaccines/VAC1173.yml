@@ -6,7 +6,9 @@ comment: Anti-covid 19 vaccine with replicative viral vector, influenza virus en
 created: '2024-06-05'
 modified: '2025-03-27'
 codes:
-  NUVACode: '1173'
-  SCT_NUVA: '14321002000107'
+  NUVACode:
+  - '1173'
+  SCT_NUVA:
+  - '14321002000107'
 valences:
 - VAL066

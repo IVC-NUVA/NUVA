@@ -4,10 +4,19 @@ comment: Live attenuated measles vaccine
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  AIC: 025821012
-  CNK: 0128603
-  INFARMED: '8591438'
-  NUVACode: 0359
-  SCT_NUVA: '4821002000103'
+  AIC:
+  - 025821
+  - 025821012
+  CNK:
+  - 0128603
+  INFARMED:
+  - '8591404'
+  - '8591412'
+  - '8591420'
+  - '8591438'
+  NUVACode:
+  - 0359
+  SCT_NUVA:
+  - '4821002000103'
 valences:
 - VAL005

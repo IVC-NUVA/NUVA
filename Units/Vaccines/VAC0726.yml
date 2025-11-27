@@ -5,7 +5,9 @@ comment: COVID-19 vaccine, non-replicating adenoviral vector encoding the SARS-C
 created: '2021-07-19'
 modified: '2024-06-04'
 codes:
-  NUVACode: '0726'
-  SCT_NUVA: '8691002000106'
+  NUVACode:
+  - '0726'
+  SCT_NUVA:
+  - '8691002000106'
 valences:
 - VAL070

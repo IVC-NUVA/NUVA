@@ -4,12 +4,19 @@ comment: hRSV monoclonal antibody
 created: '2021-07-19'
 modified: '2025-11-17'
 codes:
-  CIP: '3400930072325'
-  CPT: '90378'
-  CVC: '19411000087103'
-  DIN: 02438364
-  ICD11: XM69P6
-  NUVACode: 0378
-  SCT_NUVA: '5041002000100'
+  CIP:
+  - '3400930072325'
+  CPT:
+  - '90378'
+  CVC:
+  - '19411000087103'
+  DIN:
+  - 02438364
+  ICD11:
+  - XM69P6
+  NUVACode:
+  - 0378
+  SCT_NUVA:
+  - '5041002000100'
 valences:
 - VAL116

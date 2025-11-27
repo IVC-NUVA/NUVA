@@ -4,7 +4,9 @@ comment: COVID-19 inactivated vaccine, whole virus, authorized, unspecified
 created: '2024-06-05'
 modified: '2025-04-25'
 codes:
-  NUVACode: '1119'
-  SCT_NUVA: '13771002000105'
+  NUVACode:
+  - '1119'
+  SCT_NUVA:
+  - '13771002000105'
 valences:
 - VAL264

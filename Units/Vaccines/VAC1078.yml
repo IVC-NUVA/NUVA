@@ -4,7 +4,9 @@ comment: Whole inactivated enterovirus A71 vaccine
 created: '2024-04-26'
 modified: '2024-06-06'
 codes:
-  NUVACode: '1078'
-  SCT_NUVA: '13231002000102'
+  NUVACode:
+  - '1078'
+  SCT_NUVA:
+  - '13231002000102'
 valences:
 - VAL346

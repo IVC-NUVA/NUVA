@@ -4,10 +4,19 @@ comment: Hepatitis A (inactivated, adsorbed) and typhoid vaccine (polysaccharide
 created: '2022-05-30'
 modified: '2024-04-16'
 codes:
-  INFARMED: '4143681'
-  NTIN: '9088882434022'
-  NUVACode: 0960
-  SCT_NUVA: '11591002000104'
+  INFARMED:
+  - '4143384'
+  - '4143483'
+  - '4143582'
+  - '4143681'
+  NTIN:
+  - '4150025289693'
+  - '5000283658580'
+  - '9088882434022'
+  NUVACode:
+  - 0960
+  SCT_NUVA:
+  - '11591002000104'
 valences:
 - VAL032
 - VAL125

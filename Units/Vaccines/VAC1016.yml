@@ -4,7 +4,9 @@ comment: Trivalent inactivated seasonal influenza vaccine, surface antigen
 created: '2022-08-10'
 modified: '2024-04-12'
 codes:
-  NUVACode: '1016'
-  SCT_NUVA: '12181002000101'
+  NUVACode:
+  - '1016'
+  SCT_NUVA:
+  - '12181002000101'
 valences:
 - VAL015

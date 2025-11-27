@@ -4,8 +4,12 @@ comment: Live attenuated chickenpox vaccine
 created: '2022-08-10'
 modified: '2024-04-12'
 codes:
-  CNK: '2232221'
-  NUVACode: '1014'
-  SCT_NUVA: '12161002000109'
+  CNK:
+  - '2081495'
+  - '2232221'
+  NUVACode:
+  - '1014'
+  SCT_NUVA:
+  - '12161002000109'
 valences:
 - VAL044

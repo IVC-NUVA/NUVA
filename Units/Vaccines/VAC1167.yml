@@ -4,7 +4,9 @@ comment: Acellular pertussis vaccine, standard dose
 created: '2024-06-05'
 modified: '2024-07-05'
 codes:
-  NUVACode: '1167'
-  SCT_NUVA: '14261002000106'
+  NUVACode:
+  - '1167'
+  SCT_NUVA:
+  - '14261002000106'
 valences:
 - VAL008

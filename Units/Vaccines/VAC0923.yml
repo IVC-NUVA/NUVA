@@ -4,9 +4,13 @@ comment: Monoclonal antibody against RSV
 created: '2022-05-03'
 modified: '2024-07-04'
 codes:
-  CVC: '108725001'
-  CVX: '315'
-  NUVACode: 0923
-  SCT_NUVA: '11101002000104'
+  CVC:
+  - '108725001'
+  CVX:
+  - '315'
+  NUVACode:
+  - 0923
+  SCT_NUVA:
+  - '11101002000104'
 valences:
 - VAL320

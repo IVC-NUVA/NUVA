@@ -4,10 +4,15 @@ comment: Live attenuated chikungunya vaccine
 created: '2021-07-19'
 modified: '2024-08-16'
 codes:
-  CIP: '3400930296448'
-  EU-NUMBER: EU-1-24-1828
-  INFARMED: '5900766'
-  NUVACode: '0620'
-  SCT_NUVA: '7371002000102'
+  CIP:
+  - '3400930296448'
+  EU-NUMBER:
+  - EU-1-24-1828
+  INFARMED:
+  - '5900766'
+  NUVACode:
+  - '0620'
+  SCT_NUVA:
+  - '7371002000102'
 valences:
 - VAL060

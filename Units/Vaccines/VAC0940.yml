@@ -5,9 +5,13 @@ comment: COVID-19 vaccine with non-replicating viral vector, adenovirus encoding
 created: '2022-05-18'
 modified: '2025-04-25'
 codes:
-  CVC: '33461000087106'
-  CVX: '504'
-  NUVACode: 0940
-  SCT_NUVA: '11361002000100'
+  CVC:
+  - '33461000087106'
+  CVX:
+  - '504'
+  NUVACode:
+  - 0940
+  SCT_NUVA:
+  - '11361002000100'
 valences:
 - VAL292

@@ -4,7 +4,9 @@ comment: Live attenuated measles vaccine
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  NUVACode: '0431'
-  SCT_NUVA: '5551002000107'
+  NUVACode:
+  - '0431'
+  SCT_NUVA:
+  - '5551002000107'
 valences:
 - VAL005

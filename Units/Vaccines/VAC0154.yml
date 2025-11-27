@@ -4,9 +4,13 @@ comment: Malaria vaccine (used in clinical trials)
 created: '2021-07-19'
 modified: '2025-05-21'
 codes:
-  CVX: '67'
-  NUVACode: '0154'
-  SCT_NUVA: '2631002000105'
-  SNOMED-CT: '45861000087106'
+  CVX:
+  - '67'
+  NUVACode:
+  - '0154'
+  SCT_NUVA:
+  - '2631002000105'
+  SNOMED-CT:
+  - '45861000087106'
 valences:
 - VAL025

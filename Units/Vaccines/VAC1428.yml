@@ -6,7 +6,9 @@ comment: COVID-19 vaccine, protein subunit, recombinant homodimeric RBD protein,
 created: '2025-04-14'
 modified: '2025-04-14'
 codes:
-  NUVACode: '1428'
-  SCT_NUVA: '17231002000109'
+  NUVACode:
+  - '1428'
+  SCT_NUVA:
+  - '17231002000109'
 valences:
 - VAL413

@@ -4,9 +4,15 @@ comment: Live attenuated rubella vaccine
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  AIC: 021895026
-  CNK: 0135392
-  NUVACode: 0228
-  SCT_NUVA: '3451002000105'
+  AIC:
+  - 021895
+  - 021895014
+  - 021895026
+  CNK:
+  - 0135392
+  NUVACode:
+  - 0228
+  SCT_NUVA:
+  - '3451002000105'
 valences:
 - VAL079

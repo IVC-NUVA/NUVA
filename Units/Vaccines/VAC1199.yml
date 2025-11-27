@@ -6,8 +6,11 @@ comment: Recombinant vesicular stomatitis replicative viral vector Ebola vaccine
 created: '2024-06-05'
 modified: '2025-05-20'
 codes:
-  ICD11: XM4P37
-  NUVACode: '1199'
-  SCT_NUVA: '14581002000100'
+  ICD11:
+  - XM4P37
+  NUVACode:
+  - '1199'
+  SCT_NUVA:
+  - '14581002000100'
 valences:
 - VAL007

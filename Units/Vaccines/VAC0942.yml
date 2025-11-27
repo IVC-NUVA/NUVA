@@ -5,8 +5,11 @@ comment: Whole virion inactivated rabies vaccine, cultured in chicken embryo cel
 created: '2022-05-18'
 modified: '2024-04-17'
 codes:
-  CVX: '176'
-  NUVACode: 0942
-  SCT_NUVA: '11391002000106'
+  CVX:
+  - '176'
+  NUVACode:
+  - 0942
+  SCT_NUVA:
+  - '11391002000106'
 valences:
 - VAL259

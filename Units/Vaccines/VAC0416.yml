@@ -4,9 +4,14 @@ comment: Live attenuated measles, mumps and rubella vaccine
 created: '2021-07-19'
 modified: '2023-08-15'
 codes:
-  INFARMED: '8715524'
-  NUVACode: '0416'
-  SCT_NUVA: '5401002000107'
+  INFARMED:
+  - '8715508'
+  - '8715516'
+  - '8715524'
+  NUVACode:
+  - '0416'
+  SCT_NUVA:
+  - '5401002000107'
 valences:
 - VAL005
 - VAL077

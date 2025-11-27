@@ -4,7 +4,9 @@ comment: Hepatitis b immune globulin (human)
 created: '2024-05-14'
 modified: '2024-05-14'
 codes:
-  NUVACode: '1082'
-  SCT_NUVA: '13311002000104'
+  NUVACode:
+  - '1082'
+  SCT_NUVA:
+  - '13311002000104'
 valences:
 - VAL047

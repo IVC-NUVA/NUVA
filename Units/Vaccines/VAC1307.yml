@@ -5,7 +5,9 @@ comment: Whole inactivated Japanese encephalitis vaccine, prepared in Vero cells
 created: '2025-03-12'
 modified: '2025-03-12'
 codes:
-  NUVACode: '1307'
-  SCT_NUVA: '15921002000107'
+  NUVACode:
+  - '1307'
+  SCT_NUVA:
+  - '15921002000107'
 valences:
 - VAL402

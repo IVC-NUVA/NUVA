@@ -4,9 +4,14 @@ comment: Oral Inactivated whole-cell cholera vaccine
 created: '2022-05-18'
 modified: '2024-07-04'
 codes:
-  CVX: '173'
-  NUVACode: 0944
-  SCT_NUVA: '11421002000100'
-  SNOMED-CT: '2181000221101'
+  CVX:
+  - '173'
+  NUVACode:
+  - 0944
+  SCT_NUVA:
+  - '11421002000100'
+  SNOMED-CT:
+  - '1001000221103'
+  - '2181000221101'
 valences:
 - VAL021

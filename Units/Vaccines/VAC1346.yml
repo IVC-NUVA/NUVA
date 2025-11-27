@@ -4,7 +4,9 @@ comment: Quadrivalent inactivated seasonal influenza vaccine, split virion
 created: '2025-04-02'
 modified: '2025-04-02'
 codes:
-  NUVACode: '1346'
-  SCT_NUVA: '16391002000102'
+  NUVACode:
+  - '1346'
+  SCT_NUVA:
+  - '16391002000102'
 valences:
 - VAL040

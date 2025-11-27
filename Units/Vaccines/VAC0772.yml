@@ -5,7 +5,9 @@ comment: COVID-19 vaccine, VLP, recombinant spike protein, expressed protein of 
 created: '2021-07-19'
 modified: '2023-07-20'
 codes:
-  NUVACode: '0772'
-  SCT_NUVA: '9131002000106'
+  NUVACode:
+  - '0772'
+  SCT_NUVA:
+  - '9131002000106'
 valences:
 - VAL039

@@ -4,7 +4,9 @@ comment: Second generation smallpox vaccine, vaccinia virus obtained by cell cul
 created: '2024-06-05'
 modified: '2024-06-06'
 codes:
-  NUVACode: '1160'
-  SCT_NUVA: '14191002000107'
+  NUVACode:
+  - '1160'
+  SCT_NUVA:
+  - '14191002000107'
 valences:
 - VAL295

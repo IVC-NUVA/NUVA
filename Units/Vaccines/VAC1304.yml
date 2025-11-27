@@ -4,7 +4,9 @@ comment: Whole virion inactivated rabies vaccine, cultured on Vero cells
 created: '2025-03-12'
 modified: '2025-03-12'
 codes:
-  NUVACode: '1304'
-  SCT_NUVA: '15871002000104'
+  NUVACode:
+  - '1304'
+  SCT_NUVA:
+  - '15871002000104'
 valences:
 - VAL260

@@ -4,10 +4,20 @@ comment: Seasonal influenza vaccine, trivalent, live attenuated, nasal
 created: '2021-07-19'
 modified: '2023-10-31'
 codes:
-  CVC: '7571000087100'
-  DIN: '02426544'
-  NDC: 66019-0110-10
-  NUVACode: '0233'
-  SCT_NUVA: '3501002000107'
+  CVC:
+  - '20741000087105'
+  - '7571000087100'
+  DIN:
+  - '02352621'
+  - '02426544'
+  NDC:
+  - 66019-0107-01
+  - 66019-0108-10
+  - 66019-0109-10
+  - 66019-0110-10
+  NUVACode:
+  - '0233'
+  SCT_NUVA:
+  - '3501002000107'
 valences:
 - VAL001

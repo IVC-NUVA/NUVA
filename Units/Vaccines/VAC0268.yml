@@ -4,10 +4,17 @@ comment: Inactivated polio (trivalent) vaccine
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  NDC: 50090-1693-09
-  NTIN: '9329670300502'
-  NUVACode: 0268
-  SCT_NUVA: '3881002000102'
-  UPC: '349281860102'
+  NDC:
+  - 49281-0860-10
+  - 49281-0860-55
+  - 50090-1693-09
+  NTIN:
+  - '9329670300502'
+  NUVACode:
+  - 0268
+  SCT_NUVA:
+  - '3881002000102'
+  UPC:
+  - '349281860102'
 valences:
 - VAL056

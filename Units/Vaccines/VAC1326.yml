@@ -4,7 +4,9 @@ comment: Recombinant hepatitis B vaccine with thiomersal, adult dose
 created: '2025-03-14'
 modified: '2025-03-14'
 codes:
-  NUVACode: '1326'
-  SCT_NUVA: '16131002000103'
+  NUVACode:
+  - '1326'
+  SCT_NUVA:
+  - '16131002000103'
 valences:
 - VAL115

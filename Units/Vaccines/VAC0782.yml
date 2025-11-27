@@ -5,8 +5,12 @@ comment: Whole virion inactivated rabies vaccine, Flury LEP strain, purified chi
 created: '2021-10-26'
 modified: '2023-11-02'
 codes:
-  AIC: 024398012
-  NUVACode: 0782
-  SCT_NUVA: '9261002000109'
+  AIC:
+  - 024398
+  - 024398012
+  NUVACode:
+  - 0782
+  SCT_NUVA:
+  - '9261002000109'
 valences:
 - VAL259

@@ -4,12 +4,18 @@ comment: Live attenuated measles and mumps vaccine
 created: '2021-07-19'
 modified: '2025-07-16'
 codes:
-  AIC: 026901013
-  ATC: J07BD51
-  ICD11: XM9439
-  NUVACode: '0623'
-  SCT_NUVA: '7401002000104'
-  SNOMED-CT: '1252703004'
+  AIC:
+  - 026901013
+  ATC:
+  - J07BD51
+  ICD11:
+  - XM9439
+  NUVACode:
+  - '0623'
+  SCT_NUVA:
+  - '7401002000104'
+  SNOMED-CT:
+  - '1252703004'
 valences:
 - VAL005
 - VAL077

@@ -5,10 +5,14 @@ comment: Polio vaccine (live attenuated, bivalent) against poliovirus types 1 an
 created: '2022-02-26'
 modified: '2024-04-25'
 codes:
-  CIP: '3400921666502'
-  CIS: '64968141'
-  NUVACode: 0846
-  SCT_NUVA: '10131002000101'
+  CIP:
+  - '3400921666502'
+  CIS:
+  - '64968141'
+  NUVACode:
+  - 0846
+  SCT_NUVA:
+  - '10131002000101'
 valences:
 - VAL085
 - VAL132

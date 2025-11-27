@@ -4,10 +4,15 @@ comment: Smallpox vaccine, third generation, modified vaccinia virus Ankara, non
 created: '2022-06-08'
 modified: '2024-04-16'
 codes:
-  CIP: '3400930255469'
-  CNK: '4604088'
-  CPT: '90611'
-  NUVACode: 0966
-  SCT_NUVA: '11651002000109'
+  CIP:
+  - '3400930255469'
+  CNK:
+  - '4604088'
+  CPT:
+  - '90611'
+  NUVACode:
+  - 0966
+  SCT_NUVA:
+  - '11651002000109'
 valences:
 - VAL296

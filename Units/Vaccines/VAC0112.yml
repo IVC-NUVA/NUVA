@@ -4,10 +4,16 @@ comment: Typhoid vaccine, unspecified
 created: '2021-07-19'
 modified: '2024-04-02'
 codes:
-  CVC: '89428009'
-  CVX: '91'
-  NUVACode: '0112'
-  SCT_NUVA: '2081002000104'
-  SNOMED-CT: '836390004'
+  CVC:
+  - '89428009'
+  CVX:
+  - '91'
+  NUVACode:
+  - '0112'
+  SCT_NUVA:
+  - '2081002000104'
+  SNOMED-CT:
+  - '428601009'
+  - '836390004'
 valences:
 - VAL014

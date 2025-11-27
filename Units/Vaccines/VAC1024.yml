@@ -5,12 +5,18 @@ comment: COVID-19 vaccine bivalent RNAm, original virus + Omicron variant BA.4/5
 created: '2022-09-12'
 modified: '2025-04-25'
 codes:
-  CTI: '660781'
-  CTI-EXTEND: 660781-01
-  CVC: '37651000087101'
-  EU-NUMBER: EU-1-20-1507-006
-  NUVACode: '1024'
-  SCT_NUVA: '12331002000100'
+  CTI:
+  - '660781'
+  CTI-EXTEND:
+  - 660781-01
+  CVC:
+  - '37651000087101'
+  EU-NUMBER:
+  - EU-1-20-1507-006
+  NUVACode:
+  - '1024'
+  SCT_NUVA:
+  - '12331002000100'
 valences:
 - VAL302
 - VAL411

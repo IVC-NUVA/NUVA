@@ -4,7 +4,9 @@ comment: Acellular pertussis vaccine, reduced dose
 created: '2024-06-05'
 modified: '2024-06-06'
 codes:
-  NUVACode: '1232'
-  SCT_NUVA: '14921002000108'
+  NUVACode:
+  - '1232'
+  SCT_NUVA:
+  - '14921002000108'
 valences:
 - VAL017

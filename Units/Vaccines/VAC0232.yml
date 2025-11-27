@@ -4,8 +4,15 @@ comment: Trivalent inactivated seasonal influenza vaccine
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  NDC: 19515-0893-07
-  NUVACode: '0232'
-  SCT_NUVA: '3491002000101'
+  NDC:
+  - 19515-0845-11
+  - 19515-0850-52
+  - 19515-0889-07
+  - 19515-0890-07
+  - 19515-0893-07
+  NUVACode:
+  - '0232'
+  SCT_NUVA:
+  - '3491002000101'
 valences:
 - VAL015

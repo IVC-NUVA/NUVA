@@ -6,8 +6,12 @@ comment: Anti-covid 19 mRNA vaccine encoding the spike protein of SARS-CoV-2, or
 created: '2024-06-05'
 modified: '2025-03-27'
 codes:
-  CVX: '308'
-  NUVACode: '1188'
-  SCT_NUVA: '14471002000102'
+  CVX:
+  - '219'
+  - '308'
+  NUVACode:
+  - '1188'
+  SCT_NUVA:
+  - '14471002000102'
 valences:
 - VAL306

@@ -4,7 +4,9 @@ comment: Hepatitis B vaccine, recombinant hepatitis B surface antigen (HBsAg), u
 created: '2025-03-04'
 modified: '2025-03-04'
 codes:
-  NUVACode: '1287'
-  SCT_NUVA: '15701002000102'
+  NUVACode:
+  - '1287'
+  SCT_NUVA:
+  - '15701002000102'
 valences:
 - VAL090

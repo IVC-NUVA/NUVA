@@ -5,7 +5,9 @@ comment: COVID-19 vaccine, non-replicating chimpanzee adenoviral vector ChAdOx1 
 created: '2022-01-03'
 modified: '2022-11-23'
 codes:
-  NUVACode: 0835
-  SCT_NUVA: '10001002000108'
+  NUVACode:
+  - 0835
+  SCT_NUVA:
+  - '10001002000108'
 valences:
 - VAL069

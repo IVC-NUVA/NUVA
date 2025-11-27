@@ -4,12 +4,18 @@ comment: Combined typhoid and hepatitis A vaccine
 created: '2021-07-19'
 modified: '2025-04-16'
 codes:
-  ATC: J07CA10
-  CVC: '333707007'
-  ICD11: XM3JA6
-  NUVACode: '0712'
-  SCT_NUVA: '8551002000103'
-  SNOMED-CT: '871804001'
+  ATC:
+  - J07CA10
+  CVC:
+  - '333707007'
+  ICD11:
+  - XM3JA6
+  NUVACode:
+  - '0712'
+  SCT_NUVA:
+  - '8551002000103'
+  SNOMED-CT:
+  - '871804001'
 valences:
 - VAL014
 - VAL125

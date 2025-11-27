@@ -4,11 +4,19 @@ comment: Human anti-hepatitis B immunoglobulin, post-exposure treatment
 created: '2024-05-15'
 modified: '2025-04-16'
 codes:
-  CPT: '90371'
-  CVC: '7951000087102'
-  DIN: 02379473
-  NDC: 13533-0636-05
-  NUVACode: '1089'
-  SCT_NUVA: '13421002000101'
+  CPT:
+  - '90371'
+  CVC:
+  - '7951000087102'
+  DIN:
+  - 02379473
+  NDC:
+  - 13533-0636-01
+  - 13533-0636-03
+  - 13533-0636-05
+  NUVACode:
+  - '1089'
+  SCT_NUVA:
+  - '13421002000101'
 valences:
 - VAL047

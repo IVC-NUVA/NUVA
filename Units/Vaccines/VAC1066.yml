@@ -4,8 +4,11 @@ comment: Melanoma vaccine, unspecified
 created: '2024-03-18'
 modified: '2024-07-04'
 codes:
-  CVX: '68'
-  NUVACode: '1066'
-  SCT_NUVA: '13001002000104'
+  CVX:
+  - '68'
+  NUVACode:
+  - '1066'
+  SCT_NUVA:
+  - '13001002000104'
 valences:
 - VAL334

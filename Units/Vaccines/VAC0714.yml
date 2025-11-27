@@ -6,10 +6,15 @@ comment: 'COVID-19 vaccine, whole virion inactivated, adjuvanted with CpG 10183 
 created: '2021-07-19'
 modified: '2022-11-09'
 codes:
-  CVX: '518'
-  EU-NUMBER: EU-1-21-1624-001
-  INFARMED: '5839840'
-  NUVACode: '0714'
-  SCT_NUVA: '8571002000106'
+  CVX:
+  - '518'
+  EU-NUMBER:
+  - EU-1-21-1624-001
+  INFARMED:
+  - '5839840'
+  NUVACode:
+  - '0714'
+  SCT_NUVA:
+  - '8571002000106'
 valences:
 - VAL264

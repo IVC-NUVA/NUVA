@@ -5,8 +5,10 @@ comment: Polio vaccine (live attenuated, trivalent) against polioviruses 1, 2 an
 created: '2021-07-19'
 modified: '2023-08-15'
 codes:
-  NUVACode: 0449
-  SCT_NUVA: '5731002000105'
+  NUVACode:
+  - 0449
+  SCT_NUVA:
+  - '5731002000105'
 valences:
 - VAL033
 - VAL085

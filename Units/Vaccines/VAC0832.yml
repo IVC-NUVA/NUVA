@@ -4,9 +4,13 @@ comment: Inactivated herpes simplex vaccine
 created: '2021-10-26'
 modified: '2022-10-28'
 codes:
-  CVX: '60'
-  NUVACode: 0832
-  SCT_NUVA: '9971002000107'
-  SNOMED-CT: '836495005'
+  CVX:
+  - '60'
+  NUVACode:
+  - 0832
+  SCT_NUVA:
+  - '9971002000107'
+  SNOMED-CT:
+  - '836495005'
 valences:
 - VAL129

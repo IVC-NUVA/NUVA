@@ -4,11 +4,17 @@ comment: Live attenuated cholera vaccine
 created: '2021-10-26'
 modified: '2025-04-14'
 codes:
-  ATC: J07AE02
-  CPT: '90625'
-  CVX: '174'
-  ICD11: XM72A0
-  NUVACode: 0806
-  SCT_NUVA: '9581002000103'
+  ATC:
+  - J07AE02
+  CPT:
+  - '90625'
+  CVX:
+  - '174'
+  ICD11:
+  - XM72A0
+  NUVACode:
+  - 0806
+  SCT_NUVA:
+  - '9581002000103'
 valences:
 - VAL124

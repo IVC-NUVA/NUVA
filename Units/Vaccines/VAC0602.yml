@@ -5,12 +5,19 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (multic
 created: '2021-07-19'
 modified: '2025-05-21'
 codes:
-  CPT: '90700'
-  CVC: '7841000087106'
-  CVX: '20'
-  NUVACode: '0602'
-  SCT_NUVA: '7281002000107'
-  SNOMED-CT: '1297217008'
+  CPT:
+  - '90700'
+  CVC:
+  - '7841000087106'
+  CVX:
+  - '106'
+  - '20'
+  NUVACode:
+  - '0602'
+  SCT_NUVA:
+  - '7281002000107'
+  SNOMED-CT:
+  - '1297217008'
 valences:
 - VAL008
 - VAL067

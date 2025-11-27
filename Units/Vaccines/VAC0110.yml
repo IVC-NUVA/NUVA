@@ -4,10 +4,18 @@ comment: Seasonal influenza vaccine
 created: '2021-07-19'
 modified: '2025-02-11'
 codes:
-  CPT: '90724'
-  CVX: '88'
-  NUVACode: '0110'
-  SCT_NUVA: '2051002000105'
-  SNOMED-CT: '836377006'
+  CPT:
+  - '90655'
+  - '90656'
+  - '90724'
+  CVX:
+  - '88'
+  NUVACode:
+  - '0110'
+  SCT_NUVA:
+  - '2051002000105'
+  SNOMED-CT:
+  - '1181000221105'
+  - '836377006'
 valences:
 - VAL128

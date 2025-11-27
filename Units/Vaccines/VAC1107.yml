@@ -4,9 +4,13 @@ comment: Whole inactivated Cholera vaccine, unspecified
 created: '2024-05-28'
 modified: '2025-10-09'
 codes:
-  ATC: J07AE01
-  ICD11: XM3Z26
-  NUVACode: '1107'
-  SCT_NUVA: '13631002000100'
+  ATC:
+  - J07AE01
+  ICD11:
+  - XM3Z26
+  NUVACode:
+  - '1107'
+  SCT_NUVA:
+  - '13631002000100'
 valences:
 - VAL359

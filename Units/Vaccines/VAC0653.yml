@@ -4,12 +4,19 @@ comment: Combined hepatitis A and B vaccine, pediatric dose
 created: '2021-07-19'
 modified: '2025-05-21'
 codes:
-  CPT: '90634'
-  CVC: '9801000087100'
-  CVX: '193'
-  NUVACode: '0653'
-  SCT_NUVA: '7791002000102'
-  SNOMED-CT: '1296753004'
+  CPT:
+  - '90619'
+  - '90634'
+  CVC:
+  - '9801000087100'
+  CVX:
+  - '193'
+  NUVACode:
+  - '0653'
+  SCT_NUVA:
+  - '7791002000102'
+  SNOMED-CT:
+  - '1296753004'
 valences:
 - VAL114
 - VAL143

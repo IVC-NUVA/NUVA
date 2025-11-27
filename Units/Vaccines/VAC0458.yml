@@ -4,7 +4,9 @@ comment: Diphtheria antitoxin immunoglobulin
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  NUVACode: 0458
-  SCT_NUVA: '5821002000102'
+  NUVACode:
+  - 0458
+  SCT_NUVA:
+  - '5821002000102'
 valences:
 - VAL019

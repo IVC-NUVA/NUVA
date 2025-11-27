@@ -5,7 +5,9 @@ comment: COVID-19 mRNA vaccine, encoding fragments (NTD and RBD) of the SARS-CoV
 created: '2025-09-10'
 modified: '2025-09-12'
 codes:
-  CVX: '334'
-  NUVACode: '1469'
+  CVX:
+  - '334'
+  NUVACode:
+  - '1469'
 valences:
 - VAL428

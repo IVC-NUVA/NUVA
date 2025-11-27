@@ -4,8 +4,11 @@ comment: Quadrivalent recombinant seasonal influenza vaccine
 created: '2022-05-16'
 modified: '2024-07-05'
 codes:
-  CVX: '185'
-  NUVACode: 0932
-  SCT_NUVA: '11251002000106'
+  CVX:
+  - '185'
+  NUVACode:
+  - 0932
+  SCT_NUVA:
+  - '11251002000106'
 valences:
 - VAL287

@@ -4,9 +4,21 @@ comment: Live attenuated quadrivalent seasonal influenza vaccine
 created: '2021-07-19'
 modified: '2025-02-25'
 codes:
-  CPT: '90672'
-  NDC: 66019-0308-10
-  NUVACode: '0636'
-  SCT_NUVA: '7531002000109'
+  CPT:
+  - '90672'
+  NDC:
+  - 66019-0300-10
+  - 66019-0301-10
+  - 66019-0302-10
+  - 66019-0303-10
+  - 66019-0304-10
+  - 66019-0305-10
+  - 66019-0306-10
+  - 66019-0307-10
+  - 66019-0308-10
+  NUVACode:
+  - '0636'
+  SCT_NUVA:
+  - '7531002000109'
 valences:
 - VAL059

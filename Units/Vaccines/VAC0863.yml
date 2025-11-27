@@ -4,11 +4,17 @@ comment: Hepatitis B immunoglobulin
 created: '2022-03-15'
 modified: '2024-07-04'
 codes:
-  ATC: J06BB04
-  CPT: '90371'
-  CVC: '9542007'
-  CVX: '30'
-  NUVACode: 0863
-  SCT_NUVA: '10321002000102'
+  ATC:
+  - J06BB04
+  CPT:
+  - '90371'
+  CVC:
+  - '9542007'
+  CVX:
+  - '30'
+  NUVACode:
+  - 0863
+  SCT_NUVA:
+  - '10321002000102'
 valences:
 - VAL047

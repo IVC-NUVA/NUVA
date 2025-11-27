@@ -4,7 +4,9 @@ comment: Plasma hepatitis B vaccine, unspecified
 created: '2024-06-05'
 modified: '2024-07-04'
 codes:
-  NUVACode: '1155'
-  SCT_NUVA: '14141002000100'
+  NUVACode:
+  - '1155'
+  SCT_NUVA:
+  - '14141002000100'
 valences:
 - VAL158

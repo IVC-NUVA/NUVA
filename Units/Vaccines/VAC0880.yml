@@ -6,11 +6,16 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (unspecifi
 created: '2022-03-28'
 modified: '2024-04-22'
 codes:
-  ATC: J07CA06
-  ICD11: XM1LX9
-  NUVACode: 0880
-  SCT_NUVA: '10491002000108'
-  SNOMED-CT: '871887006'
+  ATC:
+  - J07CA06
+  ICD11:
+  - XM1LX9
+  NUVACode:
+  - 0880
+  SCT_NUVA:
+  - '10491002000108'
+  SNOMED-CT:
+  - '871887006'
 valences:
 - VAL003
 - VAL056

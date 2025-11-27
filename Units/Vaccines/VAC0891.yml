@@ -6,9 +6,15 @@ comment: Unconjugated pneumococcal polysaccharide vaccine, 23-valent, serotypes 
 created: '2022-04-04'
 modified: '2024-04-22'
 codes:
-  AIC: 035180037
-  NUVACode: 0891
-  SCT_NUVA: '10621002000109'
+  AIC:
+  - 035180
+  - 035180013
+  - 035180025
+  - 035180037
+  NUVACode:
+  - 0891
+  SCT_NUVA:
+  - '10621002000109'
 valences:
 - VAL206
 - VAL207

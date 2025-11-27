@@ -4,7 +4,9 @@ comment: Pertussis (whole-cell inactivated) vaccine
 created: '2021-07-19'
 modified: '2023-11-02'
 codes:
-  NUVACode: 0248
-  SCT_NUVA: '3671002000104'
+  NUVACode:
+  - 0248
+  SCT_NUVA:
+  - '3671002000104'
 valences:
 - VAL010

@@ -5,11 +5,25 @@ comment: Diphtheria vaccine (toxoid, reduced dose) and tetanus vaccine (toxoid),
 created: '2021-07-19'
 modified: '2025-04-09'
 codes:
-  AIC: 020967093
-  CODE_NATIONAL_SPAIN: '656829'
-  INFARMED: '2374189'
-  NUVACode: '0731'
-  SCT_NUVA: '8761002000107'
+  AIC:
+  - 020967
+  - 020967016
+  - 020967028
+  - 020967030
+  - 020967042
+  - 020967055
+  - 020967067
+  - 020967079
+  - 020967081
+  - 020967093
+  CODE_NATIONAL_SPAIN:
+  - '656829'
+  INFARMED:
+  - '2374189'
+  NUVACode:
+  - '0731'
+  SCT_NUVA:
+  - '8761002000107'
 valences:
 - VAL034
 - VAL067

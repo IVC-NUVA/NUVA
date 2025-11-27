@@ -5,10 +5,15 @@ comment: Haemophilus influenzae type b and meningococcal conjugate vaccine, sero
 created: '2021-07-19'
 modified: '2023-10-31'
 codes:
-  CTI: '321447'
-  CTI-EXTEND: 321447-02
-  NUVACode: '0556'
-  SCT_NUVA: '6911002000106'
+  CTI:
+  - '321447'
+  CTI-EXTEND:
+  - 321447-01
+  - 321447-02
+  NUVACode:
+  - '0556'
+  SCT_NUVA:
+  - '6911002000106'
 valences:
 - VAL156
 - VAL266

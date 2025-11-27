@@ -4,12 +4,20 @@ comment: Meningococcal polysaccharide conjugate vaccine, serogroup C
 created: '2021-07-19'
 modified: '2025-10-22'
 codes:
-  ATC: J07AH07
-  CVC: '359068008'
-  CVX: '103'
-  ICD11: XM18Y8
-  NUVACode: '0150'
-  SCT_NUVA: '2581002000107'
-  SNOMED-CT: '951000221102'
+  ATC:
+  - J07AH07
+  CVC:
+  - '359068008'
+  CVX:
+  - '103'
+  ICD11:
+  - XM18Y8
+  NUVACode:
+  - '0150'
+  SCT_NUVA:
+  - '2581002000107'
+  SNOMED-CT:
+  - '871866001'
+  - '951000221102'
 valences:
 - VAL057

@@ -5,7 +5,9 @@ comment: COVID-19 vaccine, replicating influenza virus vector, recombinant RBD p
 created: '2021-07-19'
 modified: '2024-06-04'
 codes:
-  NUVACode: 0688
-  SCT_NUVA: '8291002000109'
+  NUVACode:
+  - 0688
+  SCT_NUVA:
+  - '8291002000109'
 valences:
 - VAL066

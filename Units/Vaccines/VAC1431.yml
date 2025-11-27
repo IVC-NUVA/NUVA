@@ -4,7 +4,9 @@ comment: RSV vaccine, unspecified
 created: '2025-05-20'
 modified: '2025-05-20'
 codes:
-  NUVACode: '1431'
-  SNOMED-CT: '51311000087100'
+  NUVACode:
+  - '1431'
+  SNOMED-CT:
+  - '51311000087100'
 valences:
 - VAL318

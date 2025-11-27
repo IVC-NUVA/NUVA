@@ -4,7 +4,9 @@ comment: Live attenuated Argentine hemorrhagic fever vaccine, Junin virus
 created: '2022-04-01'
 modified: '2024-04-22'
 codes:
-  NUVACode: 0882
-  SCT_NUVA: '10531002000108'
+  NUVACode:
+  - 0882
+  SCT_NUVA:
+  - '10531002000108'
 valences:
 - VAL173

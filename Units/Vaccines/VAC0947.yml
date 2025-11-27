@@ -5,8 +5,12 @@ comment: Haemophilus influenzae type b vaccine, PRP polysaccharide conjugated to
 created: '2022-05-25'
 modified: '2024-04-17'
 codes:
-  CIP: '3400933551230'
-  NUVACode: 0947
-  SCT_NUVA: '11461002000109'
+  CIP:
+  - '3400933480639'
+  - '3400933551230'
+  NUVACode:
+  - 0947
+  SCT_NUVA:
+  - '11461002000109'
 valences:
 - VAL155

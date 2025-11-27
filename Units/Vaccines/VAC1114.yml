@@ -4,8 +4,10 @@ comment: Typhoid vaccine combined with hepatitis A vaccine
 created: '2024-06-05'
 modified: '2025-04-16'
 codes:
-  NUVACode: '1114'
-  SCT_NUVA: '13721002000109'
+  NUVACode:
+  - '1114'
+  SCT_NUVA:
+  - '13721002000109'
 valences:
 - VAL032
 - VAL125

@@ -4,9 +4,13 @@ comment: Vaccinia immune globulin
 created: '2024-03-18'
 modified: '2024-07-04'
 codes:
-  CVC: '79873000'
-  CVX: '79'
-  NUVACode: '1069'
-  SCT_NUVA: '13061002000103'
+  CVC:
+  - '79873000'
+  CVX:
+  - '79'
+  NUVACode:
+  - '1069'
+  SCT_NUVA:
+  - '13061002000103'
 valences:
 - VAL337

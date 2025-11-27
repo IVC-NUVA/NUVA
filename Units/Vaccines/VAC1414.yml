@@ -6,7 +6,9 @@ comment: COVID-19 vaccine, protein subunit, recombinant spike protein nanopartic
 created: '2025-04-14'
 modified: '2025-04-14'
 codes:
-  NUVACode: '1414'
-  SCT_NUVA: '17091002000102'
+  NUVACode:
+  - '1414'
+  SCT_NUVA:
+  - '17091002000102'
 valences:
 - VAL382

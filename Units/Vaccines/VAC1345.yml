@@ -4,7 +4,9 @@ comment: Polysaccharide typhoid vaccine (Vi capsular antigen)
 created: '2025-04-01'
 modified: '2025-04-01'
 codes:
-  NUVACode: '1345'
-  SCT_NUVA: '16381002000100'
+  NUVACode:
+  - '1345'
+  SCT_NUVA:
+  - '16381002000100'
 valences:
 - VAL032

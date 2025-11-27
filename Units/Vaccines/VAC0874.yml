@@ -5,8 +5,17 @@ comment: Trivalent inactivated seasonal influenza vaccine, egg-based, surface an
 created: '2022-03-26'
 modified: '2024-04-23'
 codes:
-  AIC: 045390061
-  NUVACode: 0874
-  SCT_NUVA: '10431002000109'
+  AIC:
+  - 045390
+  - 045390010
+  - 045390022
+  - 045390034
+  - 045390046
+  - 045390059
+  - 045390061
+  NUVACode:
+  - 0874
+  SCT_NUVA:
+  - '10431002000109'
 valences:
 - VAL015

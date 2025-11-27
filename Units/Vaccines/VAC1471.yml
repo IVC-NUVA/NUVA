@@ -6,6 +6,7 @@ comment: COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 30 micrograms, adult 
 created: '2025-09-11'
 modified: '2025-09-11'
 codes:
-  NUVACode: '1471'
+  NUVACode:
+  - '1471'
 valences:
 - VAL424

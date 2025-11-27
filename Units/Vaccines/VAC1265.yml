@@ -4,8 +4,10 @@ comment: Diphtheria toxoid (low dose) and tetanus toxoid vaccine
 created: '2025-02-17'
 modified: '2025-02-17'
 codes:
-  NUVACode: '1265'
-  SCT_NUVA: '15431002000104'
+  NUVACode:
+  - '1265'
+  SCT_NUVA:
+  - '15431002000104'
 valences:
 - VAL034
 - VAL067

@@ -4,8 +4,12 @@ comment: Smallpox vaccine, first-generation, live vaccinia virus
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  AIC: 008026015
-  NUVACode: '0276'
-  SCT_NUVA: '3951002000101'
+  AIC:
+  - 008026
+  - 008026015
+  NUVACode:
+  - '0276'
+  SCT_NUVA:
+  - '3951002000101'
 valences:
 - VAL294

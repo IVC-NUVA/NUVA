@@ -5,7 +5,9 @@ comment: COVID-19 vaccine, mRNA encoding the SARS-CoV-2 variant B.1.351 spike pr
 created: '2021-07-19'
 modified: '2023-07-20'
 codes:
-  NUVACode: '0763'
-  SCT_NUVA: '9021002000107'
+  NUVACode:
+  - '0763'
+  SCT_NUVA:
+  - '9021002000107'
 valences:
 - VAL135

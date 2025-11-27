@@ -4,7 +4,9 @@ comment: Plasma hepatitis B vaccine, used in the USA from 1981 to 1990
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  NUVACode: '0245'
-  SCT_NUVA: '3631002000102'
+  NUVACode:
+  - '0245'
+  SCT_NUVA:
+  - '3631002000102'
 valences:
 - VAL158

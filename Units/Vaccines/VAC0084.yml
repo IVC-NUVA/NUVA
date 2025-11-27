@@ -4,11 +4,21 @@ comment: Influenza A(H5N1) vaccine
 created: '2021-07-19'
 modified: '2025-05-21'
 codes:
-  AIC: 039230014
-  CVC: '1003499009'
-  CVX: '160'
-  NUVACode: 0084
-  SCT_NUVA: '1661002000108'
-  SNOMED-CT: '1162629006'
+  AIC:
+  - 039230
+  - 039230014
+  CVC:
+  - '1003499009'
+  CVX:
+  - '123'
+  - '160'
+  NUVACode:
+  - 0084
+  SCT_NUVA:
+  - '1661002000108'
+  SNOMED-CT:
+  - '1003499009'
+  - '1119279002'
+  - '1162629006'
 valences:
 - VAL051

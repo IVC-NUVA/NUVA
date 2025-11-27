@@ -5,7 +5,9 @@ comment: COVID-19 protein subunit vaccine, recombinant spike protein, intramuscu
 created: '2025-03-04'
 modified: '2025-04-04'
 codes:
-  NUVACode: '1283'
-  SCT_NUVA: '15661002000108'
+  NUVACode:
+  - '1283'
+  SCT_NUVA:
+  - '15661002000108'
 valences:
 - VAL011

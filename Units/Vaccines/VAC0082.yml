@@ -4,7 +4,9 @@ comment: Meningococcal vaccine, serogroup B (outer membrane vesicle protein B:14
 created: '2021-07-19'
 modified: '2025-10-22'
 codes:
-  NUVACode: 0082
-  SCT_NUVA: '1601002000107'
+  NUVACode:
+  - 0082
+  SCT_NUVA:
+  - '1601002000107'
 valences:
 - VAL026

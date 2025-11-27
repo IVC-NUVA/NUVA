@@ -4,9 +4,13 @@ comment: Influenza A(H5N1) vaccine (split, adjuvanted)
 created: '2021-07-19'
 modified: '2023-08-15'
 codes:
-  INFARMED: '5151816'
-  NDC: 58160-0808-15
-  NUVACode: '0473'
-  SCT_NUVA: '5971002000105'
+  INFARMED:
+  - '5151816'
+  NDC:
+  - 58160-0808-15
+  NUVACode:
+  - '0473'
+  SCT_NUVA:
+  - '5971002000105'
 valences:
 - VAL051

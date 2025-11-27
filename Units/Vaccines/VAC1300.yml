@@ -4,7 +4,9 @@ comment: Recombinant hepatitis B vaccine, adult dose
 created: '2025-03-11'
 modified: '2025-03-11'
 codes:
-  NUVACode: '1300'
-  SCT_NUVA: '15831002000102'
+  NUVACode:
+  - '1300'
+  SCT_NUVA:
+  - '15831002000102'
 valences:
 - VAL115

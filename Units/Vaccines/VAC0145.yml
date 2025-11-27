@@ -4,13 +4,23 @@ comment: Tick-borne encephalitis vaccine, whole-virus inactivated, strain unspec
 created: '2021-07-19'
 modified: '2025-04-15'
 codes:
-  AIC: '036515'
-  ATC: J07BA01
-  CVC: '333699008'
-  CVX: '77'
-  ICD11: XM8MP6
-  NUVACode: '0145'
-  SCT_NUVA: '2511002000102'
-  SNOMED-CT: '871719005'
+  AIC:
+  - '036515'
+  ATC:
+  - J07BA01
+  CVC:
+  - '333699008'
+  CVX:
+  - '222'
+  - '77'
+  ICD11:
+  - XM8MP6
+  NUVACode:
+  - '0145'
+  SCT_NUVA:
+  - '2511002000102'
+  SNOMED-CT:
+  - '836403007'
+  - '871719005'
 valences:
 - VAL031

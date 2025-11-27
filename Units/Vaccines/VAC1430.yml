@@ -6,7 +6,8 @@ comment: COVID-19 bivalent mRNA vaccine against the original virus and the Omicr
 created: '2025-05-15'
 modified: '2025-06-17'
 codes:
-  NUVACode: '1430'
+  NUVACode:
+  - '1430'
 valences:
 - VAL302
 - VAL411

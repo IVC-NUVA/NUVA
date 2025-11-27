@@ -4,13 +4,23 @@ comment: Trivalent inactivated seasonal influenza vaccine, split virion
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  CIP: '3400957541170'
-  CIS: '62023917'
-  CNK: '2807048'
-  CODE_NATIONAL_SPAIN: '662768'
-  CVC: '7601000087109'
-  INFARMED: '5187463'
-  NUVACode: '0164'
-  SCT_NUVA: '2781002000102'
+  CIP:
+  - '3400939522159'
+  - '3400957541002'
+  - '3400957541170'
+  CIS:
+  - '62023917'
+  CNK:
+  - '2807048'
+  CODE_NATIONAL_SPAIN:
+  - '662768'
+  CVC:
+  - '7601000087109'
+  INFARMED:
+  - '5187463'
+  NUVACode:
+  - '0164'
+  SCT_NUVA:
+  - '2781002000102'
 valences:
 - VAL015

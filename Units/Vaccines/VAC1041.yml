@@ -4,9 +4,13 @@ comment: COVID-19 mRNA vaccine
 created: '2023-05-16'
 modified: '2025-03-27'
 codes:
-  ATC: J07BN01
-  CVC: '1119349007'
-  NUVACode: '1041'
-  SCT_NUVA: '12581002000105'
+  ATC:
+  - J07BN01
+  CVC:
+  - '1119349007'
+  NUVACode:
+  - '1041'
+  SCT_NUVA:
+  - '12581002000105'
 valences:
 - VAL168

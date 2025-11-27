@@ -4,8 +4,10 @@ comment: Live attenuated measles and rubella vaccine
 created: '2021-10-26'
 modified: '2025-03-14'
 codes:
-  NUVACode: 0826
-  SCT_NUVA: '9881002000100'
+  NUVACode:
+  - 0826
+  SCT_NUVA:
+  - '9881002000100'
 valences:
 - VAL005
 - VAL079

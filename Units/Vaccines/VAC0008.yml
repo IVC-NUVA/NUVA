@@ -5,9 +5,16 @@ comment: Trivalent inactivated seasonal influenza vaccine, egg-based, surface an
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  CIP: '3400937085090'
-  CIS: '67230624'
-  NUVACode: 0008
-  SCT_NUVA: '241002000105'
+  CIP:
+  - '3400935493828'
+  - '3400935524447'
+  - '3400937084901'
+  - '3400937085090'
+  CIS:
+  - '67230624'
+  NUVACode:
+  - 0008
+  SCT_NUVA:
+  - '241002000105'
 valences:
 - VAL015

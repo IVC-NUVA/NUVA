@@ -4,7 +4,9 @@ comment: Pertussis (multicomponent acellular, standard dose) vaccine
 created: '2021-07-19'
 modified: '2023-11-02'
 codes:
-  NUVACode: '0206'
-  SCT_NUVA: '3221002000102'
+  NUVACode:
+  - '0206'
+  SCT_NUVA:
+  - '3221002000102'
 valences:
 - VAL008

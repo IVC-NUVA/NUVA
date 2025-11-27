@@ -5,7 +5,9 @@ comment: COVID-19 vaccine, replicating vesicular stomatitis virus vector encodin
 created: '2021-07-19'
 modified: '2023-05-15'
 codes:
-  NUVACode: 0697
-  SCT_NUVA: '8401002000103'
+  NUVACode:
+  - 0697
+  SCT_NUVA:
+  - '8401002000103'
 valences:
 - VAL084

@@ -4,7 +4,9 @@ comment: Whole inactivated measles vaccine, old
 created: '2021-07-19'
 modified: '2024-06-05'
 codes:
-  NUVACode: '0333'
-  SCT_NUVA: '4551002000108'
+  NUVACode:
+  - '0333'
+  SCT_NUVA:
+  - '4551002000108'
 valences:
 - VAL093

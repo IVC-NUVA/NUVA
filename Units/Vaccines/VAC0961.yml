@@ -4,7 +4,9 @@ comment: Tetanus vaccine vaccine
 created: '2022-05-30'
 modified: '2024-04-16'
 codes:
-  NUVACode: 0961
-  SCT_NUVA: '11601002000105'
+  NUVACode:
+  - 0961
+  SCT_NUVA:
+  - '11601002000105'
 valences:
 - VAL067

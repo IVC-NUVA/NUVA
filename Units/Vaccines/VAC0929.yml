@@ -4,9 +4,13 @@ comment: Quadrivalent inactivated seasonal influenza vaccine, pediatric dose
 created: '2022-05-06'
 modified: '2024-07-05'
 codes:
-  CPT: '90685'
-  CVX: '161'
-  NUVACode: 0929
-  SCT_NUVA: '11201002000107'
+  CPT:
+  - '90685'
+  CVX:
+  - '161'
+  NUVACode:
+  - 0929
+  SCT_NUVA:
+  - '11201002000107'
 valences:
 - VAL279

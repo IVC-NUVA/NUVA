@@ -4,8 +4,11 @@ comment: Chikungunya VLP vaccine (recombinant, adsorbed)
 created: '2025-02-18'
 modified: '2025-09-25'
 codes:
-  CIP: '3400930313398'
-  NUVACode: '1267'
-  SCT_NUVA: '15461002000106'
+  CIP:
+  - '3400930313398'
+  NUVACode:
+  - '1267'
+  SCT_NUVA:
+  - '15461002000106'
 valences:
 - VAL391

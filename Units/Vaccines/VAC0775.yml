@@ -6,10 +6,14 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cel
 created: '2021-07-19'
 modified: '2025-05-20'
 codes:
-  ATC: J07AG51
-  NUVACode: '0775'
-  SCT_NUVA: '9161002000104'
-  SNOMED-CT: '2071000221100'
+  ATC:
+  - J07AG51
+  NUVACode:
+  - '0775'
+  SCT_NUVA:
+  - '9161002000104'
+  SNOMED-CT:
+  - '2071000221100'
 valences:
 - VAL010
 - VAL067

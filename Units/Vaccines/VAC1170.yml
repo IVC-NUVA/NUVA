@@ -6,8 +6,11 @@ comment: Non-replicating viral vector anti-covid 19 vaccine, chimpanzee adenovir
 created: '2024-06-05'
 modified: '2025-03-27'
 codes:
-  CVX: '210'
-  NUVACode: '1170'
-  SCT_NUVA: '14291002000100'
+  CVX:
+  - '210'
+  NUVACode:
+  - '1170'
+  SCT_NUVA:
+  - '14291002000100'
 valences:
 - VAL069

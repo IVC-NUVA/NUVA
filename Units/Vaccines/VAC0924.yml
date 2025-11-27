@@ -4,9 +4,16 @@ comment: Trivalent inactivated seasonal influenza vaccine, high dose, intraderma
 created: '2022-05-03'
 modified: '2024-04-18'
 codes:
-  CPT: '90654'
-  NDC: 49281-0710-40
-  NUVACode: 0924
-  SCT_NUVA: '11121002000107'
+  CPT:
+  - '90654'
+  NDC:
+  - 49281-0703-55
+  - 49281-0705-55
+  - 49281-0709-55
+  - 49281-0710-40
+  NUVACode:
+  - 0924
+  SCT_NUVA:
+  - '11121002000107'
 valences:
 - VAL023

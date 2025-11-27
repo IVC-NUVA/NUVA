@@ -4,8 +4,11 @@ comment: Anthrax immunoglobuline
 created: '2022-05-18'
 modified: '2024-07-04'
 codes:
-  CVX: '181'
-  NUVACode: 0941
-  SCT_NUVA: '11381002000108'
+  CVX:
+  - '181'
+  NUVACode:
+  - 0941
+  SCT_NUVA:
+  - '11381002000108'
 valences:
 - VAL293

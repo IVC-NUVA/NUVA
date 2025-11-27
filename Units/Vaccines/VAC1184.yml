@@ -4,7 +4,9 @@ comment: Meningococcal C polysaccharide vaccine conjugated to tetanus toxoid, un
 created: '2024-06-05'
 modified: '2024-07-04'
 codes:
-  NUVACode: '1184'
-  SCT_NUVA: '14431002000100'
+  NUVACode:
+  - '1184'
+  SCT_NUVA:
+  - '14431002000100'
 valences:
 - VAL266

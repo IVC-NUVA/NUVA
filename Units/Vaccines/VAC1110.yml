@@ -4,7 +4,9 @@ comment: Meningococcal C vaccine unconjugated, unspecified
 created: '2024-06-05'
 modified: '2025-10-22'
 codes:
-  NUVACode: '1110'
-  SCT_NUVA: '13681002000104'
+  NUVACode:
+  - '1110'
+  SCT_NUVA:
+  - '13681002000104'
 valences:
 - VAL137

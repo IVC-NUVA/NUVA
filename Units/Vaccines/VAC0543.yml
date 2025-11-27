@@ -7,9 +7,20 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomp
 created: '2021-07-19'
 modified: '2025-04-01'
 codes:
-  NTIN: '8806659002318'
-  NUVACode: '0543'
-  SCT_NUVA: '6801002000104'
+  NTIN:
+  - '6285080000261'
+  - '7501895110063'
+  - '7798015781122'
+  - '7891058022662'
+  - '7891058999575'
+  - '7891058999827'
+  - '8470006061404'
+  - '8699625960527'
+  - '8806659002318'
+  NUVACode:
+  - '0543'
+  SCT_NUVA:
+  - '6801002000104'
 valences:
 - VAL008
 - VAL056

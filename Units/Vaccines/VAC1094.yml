@@ -4,7 +4,9 @@ comment: live oral cholera vaccine
 created: '2024-05-16'
 modified: '2024-05-16'
 codes:
-  NUVACode: '1094'
-  SCT_NUVA: '13481002000102'
+  NUVACode:
+  - '1094'
+  SCT_NUVA:
+  - '13481002000102'
 valences:
 - VAL357

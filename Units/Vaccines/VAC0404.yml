@@ -5,10 +5,14 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (multic
 created: '2021-07-19'
 modified: '2023-11-02'
 codes:
-  CVC: '28721000087103'
-  DIN: '02230273'
-  NUVACode: '0404'
-  SCT_NUVA: '5291002000101'
+  CVC:
+  - '28721000087103'
+  DIN:
+  - '02230273'
+  NUVACode:
+  - '0404'
+  SCT_NUVA:
+  - '5291002000101'
 valences:
 - VAL008
 - VAL067

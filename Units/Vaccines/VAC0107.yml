@@ -4,10 +4,15 @@ comment: Whole-virion inactivated influenza A(H1N1)pdm09 pandemic vaccine
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  CIP: '3400939468648'
-  CIS: '66384167'
-  EU-NUMBER: EU-1-08-506-001
-  NUVACode: '0107'
-  SCT_NUVA: '2011002000109'
+  CIP:
+  - '3400939468648'
+  CIS:
+  - '66384167'
+  EU-NUMBER:
+  - EU-1-08-506-001
+  NUVACode:
+  - '0107'
+  SCT_NUVA:
+  - '2011002000109'
 valences:
 - VAL099

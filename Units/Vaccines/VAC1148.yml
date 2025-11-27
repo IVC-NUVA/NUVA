@@ -4,7 +4,9 @@ comment: Haemophilus influenzae type b vaccine, unconjugated polysaccharide, uns
 created: '2024-06-05'
 modified: '2024-07-04'
 codes:
-  NUVACode: '1148'
-  SCT_NUVA: '14071002000105'
+  NUVACode:
+  - '1148'
+  SCT_NUVA:
+  - '14071002000105'
 valences:
 - VAL049

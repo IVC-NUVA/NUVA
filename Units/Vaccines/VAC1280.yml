@@ -6,10 +6,14 @@ comment: 21-valent pneumococcal conjugate vaccine, adsorbed, serotypes 3, 6A, 7F
 created: '2025-02-28'
 modified: '2025-05-21'
 codes:
-  CVX: '327'
-  NUVACode: '1280'
-  SCT_NUVA: '15631002000101'
-  SNOMED-CT: '1360050007'
+  CVX:
+  - '327'
+  NUVACode:
+  - '1280'
+  SCT_NUVA:
+  - '15631002000101'
+  SNOMED-CT:
+  - '1360050007'
 valences:
 - VAL187
 - VAL190

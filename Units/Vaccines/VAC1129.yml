@@ -6,8 +6,11 @@ comment: Anti-covid 19 protein subunit vaccine, recombinant spike protein in nan
 created: '2024-06-05'
 modified: '2025-03-27'
 codes:
-  CVX: '211'
-  NUVACode: '1129'
-  SCT_NUVA: '13871002000103'
+  CVX:
+  - '211'
+  NUVACode:
+  - '1129'
+  SCT_NUVA:
+  - '13871002000103'
 valences:
 - VAL107

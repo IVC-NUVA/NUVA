@@ -4,12 +4,32 @@ comment: Inactivated hepatitis A vaccine, pediatric or adult dose
 created: '2021-07-19'
 modified: '2025-03-03'
 codes:
-  AIC: '033317'
-  ATC: J07BC02
-  CPT: '90730'
-  CVX: '85'
-  NUVACode: '0102'
-  SCT_NUVA: '1911002000101'
-  SNOMED-CT: '91000221102'
+  AIC:
+  - 028725
+  - 028725012
+  - 028725024
+  - 028725036
+  - 028725048
+  - 028725051
+  - 028725063
+  - 028725075
+  - 028725087
+  - '033247'
+  - '033317'
+  ATC:
+  - J07BC02
+  CPT:
+  - '90730'
+  CVX:
+  - '85'
+  NUVACode:
+  - '0102'
+  SCT_NUVA:
+  - '1911002000101'
+  SNOMED-CT:
+  - '1010308001'
+  - '1010318006'
+  - '836375003'
+  - '91000221102'
 valences:
 - VAL125

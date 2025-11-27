@@ -5,7 +5,9 @@ comment: Recombinant hepatitis B vaccine without thiomersal, adult and paediatri
 created: '2025-03-14'
 modified: '2025-03-14'
 codes:
-  NUVACode: '1327'
-  SCT_NUVA: '16141002000106'
+  NUVACode:
+  - '1327'
+  SCT_NUVA:
+  - '16141002000106'
 valences:
 - VAL090

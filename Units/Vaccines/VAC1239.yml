@@ -5,10 +5,14 @@ comment: Pneumococcal polysaccharide conjugate vaccine, 15-valent, adsorbed, ser
 created: '2024-06-05'
 modified: '2025-02-10'
 codes:
-  CVX: '215'
-  NUVACode: '1239'
-  SCT_NUVA: '14991002000105'
-  SNOMED-CT: '1252708008'
+  CVX:
+  - '215'
+  NUVACode:
+  - '1239'
+  SCT_NUVA:
+  - '14991002000105'
+  SNOMED-CT:
+  - '1252708008'
 valences:
 - VAL186
 - VAL187

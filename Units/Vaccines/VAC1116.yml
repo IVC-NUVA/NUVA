@@ -5,7 +5,9 @@ comment: Whole inactivated rabies vaccine, prepared in Vero cell culture (PVRV),
 created: '2024-06-05'
 modified: '2024-06-06'
 codes:
-  NUVACode: '1116'
-  SCT_NUVA: '13741002000104'
+  NUVACode:
+  - '1116'
+  SCT_NUVA:
+  - '13741002000104'
 valences:
 - VAL260

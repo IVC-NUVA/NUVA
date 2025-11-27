@@ -4,7 +4,9 @@ comment: Tuberculosis vaccine
 created: '2021-07-19'
 modified: '2025-06-27'
 codes:
-  NUVACode: 0538
-  SCT_NUVA: '6741002000107'
+  NUVACode:
+  - 0538
+  SCT_NUVA:
+  - '6741002000107'
 valences:
 - VAL096

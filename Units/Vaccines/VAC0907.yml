@@ -4,9 +4,13 @@ comment: Adenovirus type 4 vaccine
 created: '2022-04-29'
 modified: '2024-07-04'
 codes:
-  CPT: '90476'
-  CVX: '54'
-  NUVACode: 0907
-  SCT_NUVA: '10901002000109'
+  CPT:
+  - '90476'
+  CVX:
+  - '54'
+  NUVACode:
+  - 0907
+  SCT_NUVA:
+  - '10901002000109'
 valences:
 - VAL282

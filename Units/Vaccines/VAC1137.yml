@@ -4,7 +4,9 @@ comment: Whole inactivated tick-borne encephalitis vaccine, strain K23, unspecif
 created: '2024-06-05'
 modified: '2024-07-04'
 codes:
-  NUVACode: '1137'
-  SCT_NUVA: '13951002000104'
+  NUVACode:
+  - '1137'
+  SCT_NUVA:
+  - '13951002000104'
 valences:
 - VAL312

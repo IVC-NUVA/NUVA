@@ -4,8 +4,11 @@ comment: Protein (P.I. antigen) brucellosis vaccine
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  CIP: '3400932481958'
-  NUVACode: 0090
-  SCT_NUVA: '1721002000105'
+  CIP:
+  - '3400932481958'
+  NUVACode:
+  - 0090
+  SCT_NUVA:
+  - '1721002000105'
 valences:
 - VAL147

@@ -4,6 +4,7 @@ comment: Live attenuated tuberculosis vaccine
 created: '2025-07-16'
 modified: '2025-07-16'
 codes:
-  NUVACode: '1448'
+  NUVACode:
+  - '1448'
 valences:
 - VAL096

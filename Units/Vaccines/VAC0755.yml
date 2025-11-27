@@ -5,7 +5,9 @@ comment: 'COVID-19 vaccine, whole virion inactivated, adjuvanted (adjuvant : alu
 created: '2021-07-19'
 modified: '2024-06-04'
 codes:
-  NUVACode: '0755'
-  SCT_NUVA: '8931002000103'
+  NUVACode:
+  - '0755'
+  SCT_NUVA:
+  - '8931002000103'
 valences:
 - VAL265

@@ -4,8 +4,11 @@ comment: Unconjugated meningococcal polysaccharide vaccine, serogroup C
 created: '2022-03-19'
 modified: '2024-04-23'
 codes:
-  AIC: 024489027
-  NUVACode: 0869
-  SCT_NUVA: '10381002000103'
+  AIC:
+  - 024489027
+  NUVACode:
+  - 0869
+  SCT_NUVA:
+  - '10381002000103'
 valences:
 - VAL137

@@ -5,7 +5,9 @@ comment: 'Whole virion inactivated Japanese encephalitis vaccine, mouse brain-de
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  NUVACode: 0509
-  SCT_NUVA: '6371002000100'
+  NUVACode:
+  - 0509
+  SCT_NUVA:
+  - '6371002000100'
 valences:
 - VAL250

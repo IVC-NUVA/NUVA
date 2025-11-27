@@ -4,8 +4,14 @@ comment: Measles immunoglobulin
 created: '2021-07-19'
 modified: '2025-04-29'
 codes:
-  AIC: 022811032
-  NUVACode: 0308
-  SCT_NUVA: '4311002000103'
+  AIC:
+  - 022811
+  - 022811018
+  - 022811020
+  - 022811032
+  NUVACode:
+  - 0308
+  SCT_NUVA:
+  - '4311002000103'
 valences:
 - VAL055

@@ -6,7 +6,9 @@ comment: COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, against th
 created: '2024-06-05'
 modified: '2025-03-27'
 codes:
-  NUVACode: '1214'
-  SCT_NUVA: '14741002000101'
+  NUVACode:
+  - '1214'
+  SCT_NUVA:
+  - '14741002000101'
 valences:
 - VAL324

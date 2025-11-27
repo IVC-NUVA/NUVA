@@ -4,7 +4,9 @@ comment: Hepatitis B vaccine (Paediatric dose 10 µg/mL and adult dose 20 µg/mL
 created: '2021-07-19'
 modified: '2022-10-28'
 codes:
-  NUVACode: '0243'
-  SCT_NUVA: '3601002000108'
+  NUVACode:
+  - '0243'
+  SCT_NUVA:
+  - '3601002000108'
 valences:
 - VAL068

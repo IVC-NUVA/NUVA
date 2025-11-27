@@ -6,10 +6,17 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomp
 created: '2021-07-19'
 modified: '2025-06-03'
 codes:
-  CODE_NATIONAL_SPAIN: '600536'
-  INFARMED: '3093184'
-  NUVACode: 0578
-  SCT_NUVA: '7091002000104'
+  CODE_NATIONAL_SPAIN:
+  - '600536'
+  INFARMED:
+  - '3092889'
+  - '3092988'
+  - '3093085'
+  - '3093184'
+  NUVACode:
+  - 0578
+  SCT_NUVA:
+  - '7091002000104'
 valences:
 - VAL008
 - VAL067

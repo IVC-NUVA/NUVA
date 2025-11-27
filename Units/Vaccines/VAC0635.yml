@@ -4,9 +4,18 @@ comment: Trivalent inactivated seasonal influenza vaccine, purified antigens
 created: '2021-07-19'
 modified: '2023-08-15'
 codes:
-  AIC: 040490043
-  INFARMED: '5380415'
-  NUVACode: '0635'
-  SCT_NUVA: '7521002000106'
+  AIC:
+  - 040490
+  - 040490017
+  - 040490029
+  - 040490031
+  - 040490043
+  INFARMED:
+  - '5380407'
+  - '5380415'
+  NUVACode:
+  - '0635'
+  SCT_NUVA:
+  - '7521002000106'
 valences:
 - VAL015

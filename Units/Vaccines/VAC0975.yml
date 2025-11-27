@@ -4,7 +4,9 @@ comment: Pertussis  (acellular multicomponent, 3 components) vaccine
 created: '2022-06-17'
 modified: '2024-04-16'
 codes:
-  NUVACode: 0975
-  SCT_NUVA: '11741002000103'
+  NUVACode:
+  - 0975
+  SCT_NUVA:
+  - '11741002000103'
 valences:
 - VAL008

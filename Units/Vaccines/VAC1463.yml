@@ -4,6 +4,7 @@ comment: Tuberculosis vaccine
 created: '2025-07-30'
 modified: '2025-07-30'
 codes:
-  NUVACode: '1463'
+  NUVACode:
+  - '1463'
 valences:
 - VAL096

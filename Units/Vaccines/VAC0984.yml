@@ -4,7 +4,9 @@ comment: Smallpox vaccine, first-generation, live vaccinia virus
 created: '2022-06-17'
 modified: '2024-04-15'
 codes:
-  NUVACode: 0984
-  SCT_NUVA: '11831002000100'
+  NUVACode:
+  - 0984
+  SCT_NUVA:
+  - '11831002000100'
 valences:
 - VAL294

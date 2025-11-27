@@ -4,7 +4,9 @@ comment: Trivalent Recombinant Seasonal Influenza Vaccine
 created: '2024-06-05'
 modified: '2024-07-05'
 codes:
-  NUVACode: '1159'
-  SCT_NUVA: '14181002000109'
+  NUVACode:
+  - '1159'
+  SCT_NUVA:
+  - '14181002000109'
 valences:
 - VAL301

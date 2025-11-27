@@ -4,7 +4,9 @@ comment: COVID-19 vaccine, non-replicating vector, antigen-presenting cells, uns
 created: '2024-06-05'
 modified: '2025-04-25'
 codes:
-  NUVACode: '1142'
-  SCT_NUVA: '14011002000103'
+  NUVACode:
+  - '1142'
+  SCT_NUVA:
+  - '14011002000103'
 valences:
 - VAL167

@@ -4,10 +4,15 @@ comment: COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, original 
 created: '2025-03-25'
 modified: '2025-04-04'
 codes:
-  CTI: '663960'
-  CTI-EXTEND: 663960-01
-  EU-NUMBER: EU-1-24-1873-001
-  NUVACode: '1336'
-  SCT_NUVA: '16261002000100'
+  CTI:
+  - '663960'
+  CTI-EXTEND:
+  - 663960-01
+  EU-NUMBER:
+  - EU-1-24-1873-001
+  NUVACode:
+  - '1336'
+  SCT_NUVA:
+  - '16261002000100'
 valences:
 - VAL303

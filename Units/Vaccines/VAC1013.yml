@@ -4,8 +4,16 @@ comment: Trivalent recombinant seasonal influenza vaccine
 created: '2022-08-10'
 modified: '2024-04-12'
 codes:
-  NDC: 42874-0017-10
-  NUVACode: '1013'
-  SCT_NUVA: '12151002000107'
+  NDC:
+  - 42874-0012-10
+  - 42874-0013-10
+  - 42874-0014-10
+  - 42874-0015-10
+  - 42874-0016-10
+  - 42874-0017-10
+  NUVACode:
+  - '1013'
+  SCT_NUVA:
+  - '12151002000107'
 valences:
 - VAL301

@@ -4,7 +4,9 @@ comment: Typhoid vaccine, Vi antigen conjugated to CRM197 protein
 created: '2025-03-12'
 modified: '2025-04-14'
 codes:
-  NUVACode: '1306'
-  SCT_NUVA: '15901002000104'
+  NUVACode:
+  - '1306'
+  SCT_NUVA:
+  - '15901002000104'
 valences:
 - VAL400

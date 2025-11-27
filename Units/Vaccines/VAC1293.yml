@@ -4,7 +4,9 @@ comment: Live attenuated tuberculosis vaccine
 created: '2025-03-05'
 modified: '2025-03-05'
 codes:
-  NUVACode: '1293'
-  SCT_NUVA: '15761002000101'
+  NUVACode:
+  - '1293'
+  SCT_NUVA:
+  - '15761002000101'
 valences:
 - VAL096

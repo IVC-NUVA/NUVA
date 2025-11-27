@@ -5,8 +5,12 @@ comment: Trivalent inactivated cell culture influenza vaccine, split or subunit,
 created: '2024-06-05'
 modified: '2025-02-28'
 codes:
-  CVX: '141'
-  NUVACode: '1175'
-  SCT_NUVA: '14341002000102'
+  CVX:
+  - '140'
+  - '141'
+  NUVACode:
+  - '1175'
+  SCT_NUVA:
+  - '14341002000102'
 valences:
 - VAL285

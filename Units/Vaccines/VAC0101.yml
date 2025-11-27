@@ -4,13 +4,28 @@ comment: Recombinant Hepatitis B vaccine, unspecified dose
 created: '2021-07-19'
 modified: '2025-05-20'
 codes:
-  AIC: '035262'
-  ATC: J07BC01
-  CPT: '90731'
-  CVC: '34689006'
-  CVX: '45'
-  NUVACode: '0101'
-  SCT_NUVA: '1901002000104'
-  SNOMED-CT: '836374004'
+  AIC:
+  - '026653'
+  - '026653016'
+  - 026653028
+  - '026653030'
+  - '026653042'
+  - '035262'
+  ATC:
+  - J07BC01
+  CPT:
+  - '90731'
+  CVC:
+  - '34689006'
+  CVX:
+  - '45'
+  NUVACode:
+  - '0101'
+  SCT_NUVA:
+  - '1901002000104'
+  SNOMED-CT:
+  - '1296676008'
+  - '1304283008'
+  - '836374004'
 valences:
 - VAL090
