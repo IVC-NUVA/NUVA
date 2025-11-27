@@ -53,7 +53,10 @@ for vaccine in g.subjects(RDFS.subClassOf,VaccinesParent):
             id = str(n)
         else:
             codesystem = ref(n.datatype)
-            codes[codesystem] = str(n)
+            if codesystem in codes:
+                codes[codesystem].append(str(n))
+            else:
+                codes[codesystem]=[str(n)]
     
     created = str(g.value(vaccine,DCTERMS.created))
     modified = str(g.value(vaccine,DCTERMS.modified))

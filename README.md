@@ -94,7 +94,25 @@ Additional languages are published also as graphs, that can be merged with `nuva
 #### Alignments
 These are the reference alignements of other code systems for administered vaccines with NUVA vaccine codes.
 
-To allow for easy handling by code systems owners, they are provided as simple CSV files with three columns: the code in the aligned code system, the equivalent vaccine code in NUVA, and the English label for this vaccine code (informative only).
+To avoid unwanted conversion of texts to numbers, all codes are prefixed with their code system.
+
+##### code2nuva.csv
+This CSV file has three columns
+- the code in the aligned code system, 
+- the equivalent concept code in NUVA,
+- the English label for this vaccine code.
+##### nuva2code.csv
+This CSV file has 8 columns:
+- the NUVA concept code
+- the English label for this code
+- a IsAbstract boolean indicating if the code belongs to a real vaccine
+- a code in the code system that may represent this NUVA code (possibly empty if no such code exists)
+- a Best boolean indicating if this code is the best possible option for representing this NUVA concept.
+And if this is a Best code:
+- a Blur value indicating how many NUVA concepts are best represented by this same code.
+- a Equiv value indicating how many codes in the code system are exactly equivalent to the NUVA concept (they differ by a criterion outside of the NUVA scope)
+##### metrics_code.txt
+This text file contains the metrics of completeness, precision of redundancy for the given code system against all the NUVA concepts.	
 ### Documentation
 Here the documentation about the NUVA concepts, their representation in RDF, the processes used to update the NUVA, and the enforced editorial rules.
 

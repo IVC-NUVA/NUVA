@@ -118,10 +118,11 @@ for code,data in Vaccines.items():
         core.add((Vaccine,containsValence,URIRef(f'{BaseURI}/{valence}')))
     NUVACode=data['codes']['NUVACode']
     core.add((Vaccine,SKOS.notation,Literal(NUVACode,datatype=URIRef(f'{BaseURI}/NUVACode'))))
-    for system,value in data['codes'].items():
+    for system,values in data['codes'].items():
         if system in CodeSystems.keys():
-            full.add((Vaccine,SKOS.notation,Literal(value,datatype=URIRef(f'{BaseURI}/{system}'))))
-            Codes[system][value] = {system: f'{system}-{value}', "NUVA": code, "Label": data['label']}
+            for value in values:
+                full.add((Vaccine,SKOS.notation,Literal(value,datatype=URIRef(f'{BaseURI}/{system}'))))
+                Codes[system][value] = {system: f'{system}-{value}', "NUVA": code, "Label": data['label']}
 
 for code,data in Valences.items():
     Valence = URIRef(f'{BaseURI}/{code}')
