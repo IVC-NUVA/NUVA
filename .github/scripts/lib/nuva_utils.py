@@ -19,7 +19,7 @@ def nuva_core_graph():
     :return: the core graph
     """
     nuva_file = urlopen("https://ivci.org/nuva/nuva_core.ttl")
-    g = Graph()
+    g = Graph(store="Oxigraph")
     g.parse(nuva_file.read())
     return g
 

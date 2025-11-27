@@ -53,7 +53,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
-      - run: pip install rdflib PyYAML
+      - run: pip install rdflib PyYAML oxigraph oxrdflib pyoxigraph
       - run: python3 ${{github.workspace}}/.github/scripts/GenRDF.py ${{env.version}}
       - name: Write to version file
         run: echo ${{env.version}} >  "${{github.workspace}}/Release/version"      
