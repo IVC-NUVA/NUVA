@@ -54,7 +54,7 @@ BaseURI="http://ivci.org/NUVA"
 
 core = Graph()
 core.parse(data = nuva_void)
-full = Graph(store="Oxigraph")
+full = Graph()
 
 NUVS = Namespace("http://ivci.org/NUVA/nuvs#")
 NUVA = Namespace("http://ivci.org/NUVA/") 
