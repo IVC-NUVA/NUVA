@@ -1,7 +1,9 @@
 from rdflib import *
 import yaml,csv
 import sys, os, pathlib
+from pathlib import Path
 from datetime import datetime
+from lib import nuva_utils as NU
 
 nuva_void="""
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -52,7 +54,7 @@ BaseURI="http://ivci.org/NUVA"
 
 core = Graph()
 core.parse(data = nuva_void)
-full = Graph()
+full = Graph(store="Oxigraph")
 
 NUVS = Namespace("http://ivci.org/NUVA/nuvs#")
 NUVA = Namespace("http://ivci.org/NUVA/") 
@@ -78,7 +80,7 @@ def addClass(ref,parent,label,comment,notation,created, modified, localized):
     else:         litLabel = Literal(label)
     core.add((ref,RDFS.label,litLabel))
     if comment: core.add((ref,RDFS.comment,Literal(comment,lang = 'en')))
-    if notation: core.add((ref,SKOS.notation,Literal(notation)))
+    if notation: core.add((ref,SKOS.notation,Literal(notation,datatype=XSD.string)))
 
 DiseasesParent=URIRef(BaseURI+"/Disease")
 VaccinesParent=URIRef(BaseURI+"/Vaccine")
@@ -89,10 +91,6 @@ isAbstract=URIRef(BaseURI+"/nuvs#isAbstract")
 containsValence=URIRef(BaseURI+"/nuvs#containsValence")
 prevents=URIRef(BaseURI+"/nuvs#prevents")
 
-Vaccines={}
-Valences={}
-Targets={}
-CodeSystems={}
 Codes = {}
 
 Vaccines = loadUnits("Vaccines")
@@ -152,12 +150,44 @@ with open('Release/NUVA/nuva_core.csv','w',encoding='utf-8-sig',newline ='') as 
 
 print("Creating the alignment files")
 for codeSystem in CodeSystems.keys():
-    with open(f'Release/Alignments/{codeSystem}.csv','w',encoding='utf-8-sig',newline='') as csvfile:
+    print (codeSystem)
+    Path(f'Release/Alignments/{codeSystem}').mkdir(exist_ok=True)
+    with open(f'Release/Alignments/{codeSystem}/{codeSystem}2nuva.csv','w',encoding='utf-8-sig',newline='') as csvfile:
         writer = csv.DictWriter(csvfile,fieldnames=[codeSystem, "NUVA", "Label"],delimiter=';')
         writer.writeheader()
         for code in Codes[codeSystem]:
             writer.writerow(Codes[codeSystem][code])
-
+    eval_codes=NU.nuva_optimize(full,codeSystem, False)
+    map =eval_codes['map']
+    with open(f'Release/Alignments/{codeSystem}/nuva2{codeSystem}.csv','w',encoding='utf-8-sig',newline='') as mapfile:
+        map_writer = csv.writer(mapfile, delimiter=';')
+        map_writer.writerow(["NUVA","NUVA label","IsAbstract",codeSystem, f"{codeSystem} label", "Best", "Blur", "Equiv"])
+        for nuva_code,nuva_data in sorted(map.items()):
+            label =  nuva_data['label']
+            isAbstract = nuva_data['isAbstract']
+            if len(nuva_data["bestcodes"])==0 :
+                map_writer.writerow([nuva_code,label, isAbstract,"", "", "", ""])
+            else:        
+                for extcode in sorted( nuva_data["bestcodes"]):
+                    map_writer.writerow([nuva_code, label, isAbstract,
+                                         f"{codeSystem}-{extcode}",
+                                          nuva_data["bestcodes"][extcode],
+                                         True,
+                                          nuva_data["blur"],
+                                          nuva_data["nbequiv"]])
+                for extcode in sorted( nuva_data["othercodes"]):
+                    map_writer.writerow([nuva_code, label, isAbstract,
+                                         f"{codeSystem}-{extcode}",
+                                          nuva_data["othercodes"][extcode],
+                                         False, "", ""])    
+    metrics = eval_codes['metrics']                    
+    with open(f'Release/Alignments/{codeSystem}/metrics_{codeSystem}.txt','w') as f:
+        print (f"NUVA version :{version}", file = f)
+        print (f"Number of NUVA concepts : {metrics['nuvacodes']}", file = f)
+        print ("Completeness: {:.1%}".format(metrics['completeness']), file = f)
+        print (f"Number of aligned codes: {metrics['extcodes']}", file = f)
+        print ("Precision: {:.1%}".format(metrics['precision']), file = f)
+        print ("Redundancy: {:.3}".format(metrics['redundancy']), file = f)
 print("Done")
 
 
