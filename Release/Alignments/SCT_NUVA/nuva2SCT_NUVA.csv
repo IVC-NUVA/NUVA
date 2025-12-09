@@ -2274,7 +2274,7 @@ VAC0860;HPV vaccine nonavalent, unspecified;True;SCT_NUVA-2671002000108;HPV Vacc
 VAC0861;Multicomponent meningococcal B vaccine, unspecified;True;SCT_NUVA-10301002000105;Multicomponent meningococcal B vaccine, unspecified;True;1;1
 VAC0861;Multicomponent meningococcal B vaccine, unspecified;True;SCT_NUVA-9661002000107;Meningococcal B vaccine, unspecified;False;;
 VAC0862;Measles immunoglobulin, unspecified;True;SCT_NUVA-10311002000108;Measles immunoglobulin, unspecified;True;1;1
-VAC0863;Hepatitis B immunoglobulin, unspecified;True;SCT_NUVA-10321002000102;Hepatitis B immunoglobulin, unspecified;True;1;1
+VAC0863;Hepatitis B immunoglobulin, unspecified;True;SCT_NUVA-10321002000102;Hepatitis B immunoglobulin, unspecified;True;2;1
 VAC0864;Varicella-Zoster immunoglobulin, unspecified;True;SCT_NUVA-10331002000104;Varicella-Zoster immunoglobulin, unspecified;True;1;1
 VAC0865;Polysaccharide meningococcal A vaccine, unspecified;True;SCT_NUVA-10341002000107;Polysaccharide meningococcal A vaccine, unspecified;True;1;1
 VAC0866;Meningococcal conjugate vaccine A, unspecified;True;SCT_NUVA-10351002000109;Meningococcal conjugate vaccine A, unspecified;True;1;1
@@ -2425,7 +2425,7 @@ VAC0924;FLUZONE INTRADERMAL;False;SCT_NUVA-11121002000107;FLUZONE INTRADERMAL;Tr
 VAC0924;FLUZONE INTRADERMAL;False;SCT_NUVA-15101002000101;Flu vaccine, trivalent inactivated, high dose, intradermal use, unspecified;False;;
 VAC0924;FLUZONE INTRADERMAL;False;SCT_NUVA-2051002000105;Influenza vaccine, unspecified;False;;
 VAC0924;FLUZONE INTRADERMAL;False;SCT_NUVA-9811002000105;Inactivated influenza vaccine, split or subunit, unspecified;False;;
-VAC0925;Trivalent inactivated influenza vaccine, unspecified;True;SCT_NUVA-11131002000105;Trivalent inactivated influenza vaccine, unspecified;True;2;1
+VAC0925;Trivalent inactivated influenza vaccine, unspecified;True;SCT_NUVA-11131002000105;Trivalent inactivated influenza vaccine, unspecified;True;3;1
 VAC0925;Trivalent inactivated influenza vaccine, unspecified;True;SCT_NUVA-2051002000105;Influenza vaccine, unspecified;False;;
 VAC0925;Trivalent inactivated influenza vaccine, unspecified;True;SCT_NUVA-9811002000105;Inactivated influenza vaccine, split or subunit, unspecified;False;;
 VAC0926;FLUCELVAX;False;SCT_NUVA-11151002000100;FLUCELVAX;True;1;1
@@ -3982,12 +3982,12 @@ VAC1446;Japanese encephalitis vaccine, inactivated, whole-virus, derived from Ve
 VAC1446;Japanese encephalitis vaccine, inactivated, whole-virus, derived from Vero cells, 3 micrograms;True;SCT_NUVA-9781002000108;Inactivated Japanese Encephalitis vaccine, unspecified;False;;
 VAC1447;VACCIN BCG SYNTHAVERSE;False;SCT_NUVA-2321002000100;BCG vaccine, unspecified;True;4;0
 VAC1448;BCG VACCINE MERCK;False;SCT_NUVA-2321002000100;BCG vaccine, unspecified;True;4;0
-VAC1449;DITANRIX-PEDIATRIC;True;SCT_NUVA-2361002000109;DT vaccine, unspecified;True;3;0
-VAC1449;DITANRIX-PEDIATRIC;True;SCT_NUVA-5071002000106;Tetanus diphtheria vaccine, unspecified;False;;
+VAC1449;DITANRIX-PEDIATRIC;False;SCT_NUVA-2361002000109;DT vaccine, unspecified;True;3;0
+VAC1449;DITANRIX-PEDIATRIC;False;SCT_NUVA-5071002000106;Tetanus diphtheria vaccine, unspecified;False;;
 VAC1450;HEPACARE;False;SCT_NUVA-11001002000103;Hepatitis B vaccine, monovalent, adult dose, unspecified;True;2;0
 VAC1450;HEPACARE;False;SCT_NUVA-13831002000101;Hepatitis B vaccine, unspecified;False;;
 VAC1450;HEPACARE;False;SCT_NUVA-1901002000104;Hepatitis B vaccine, recombinant, unspecified;False;;
-VAC1451;CHIROFLU;False;SCT_NUVA-11131002000105;Trivalent inactivated influenza vaccine, unspecified;True;2;0
+VAC1451;CHIROFLU;False;SCT_NUVA-11131002000105;Trivalent inactivated influenza vaccine, unspecified;True;3;0
 VAC1451;CHIROFLU;False;SCT_NUVA-2051002000105;Influenza vaccine, unspecified;False;;
 VAC1451;CHIROFLU;False;SCT_NUVA-9811002000105;Inactivated influenza vaccine, split or subunit, unspecified;False;;
 VAC1452;SCI-B-VAC;False;SCT_NUVA-14041002000104;Recombinant hepatitis B vaccine, three antigens, unspecified;True;2;0
@@ -4053,3 +4053,7 @@ VAC1479;VACPERTAGEN;False;SCT_NUVA-9461002000105;Pertussis vaccine, unspecified;
 VAC1480;PNEUMOVAX 23;False;SCT_NUVA-4611002000108;Pneumococcal polysaccharide vaccine 23-valent, unspecified;True;2;0
 VAC1480;PNEUMOVAX 23;False;SCT_NUVA-2681002000106;Pneumococcal vaccine, unspecified;False;;
 VAC1480;PNEUMOVAX 23;False;SCT_NUVA-9701002000101;Pneumococcal unconjugated polysaccharide vaccine, unspecified;False;;
+VAC1481;FLUVACCINOL;False;SCT_NUVA-11131002000105;Trivalent inactivated influenza vaccine, unspecified;True;3;0
+VAC1481;FLUVACCINOL;False;SCT_NUVA-2051002000105;Influenza vaccine, unspecified;False;;
+VAC1481;FLUVACCINOL;False;SCT_NUVA-9811002000105;Inactivated influenza vaccine, split or subunit, unspecified;False;;
+VAC1482;IMMUNOGLOBULINE HUMAINE DE L'HÉPATITE B LFB;False;SCT_NUVA-10321002000102;Hepatitis B immunoglobulin, unspecified;True;2;0

@@ -1371,7 +1371,7 @@ VAC['1445'];Avian influenza vaccine, mRNA;Avian influenza vaccine, mRNA;True
 VAC['1446'];Japanese encephalitis vaccine, inactivated, whole-virus, derived from Vero cells, 3 micrograms;Japanese encephalitis vaccine, inactivated, whole-virus, derived from Vero cells, 3 micrograms;True
 VAC['1447'];VACCIN BCG SYNTHAVERSE;Tuberculosis vaccine;False
 VAC['1448'];BCG VACCINE MERCK;Live attenuated tuberculosis vaccine;False
-VAC['1449'];DITANRIX-PEDIATRIC;Paediatric diphtheria vaccine (toxoid, standard dose) and tetanus vaccine (toxoid);True
+VAC['1449'];DITANRIX-PEDIATRIC;Paediatric diphtheria vaccine (toxoid, standard dose) and tetanus vaccine (toxoid);False
 VAC['1450'];HEPACARE;Recombinant hepatitis B vaccine, adult dose;False
 VAC['1451'];CHIROFLU;Trivalent inactivated seasonal influenza vaccine, split virion;False
 VAC['1452'];SCI-B-VAC;Recombinant hepatitis B vaccine, three antigens (HbS, pre-S1 and pre-S2);False
@@ -1403,3 +1403,5 @@ VAC['1477'];ENCEPUR 0,25 mL;Tick-borne encephalitis vaccine, whole-virus inactiv
 VAC['1478'];SYNAGIS 50 mg (PALIZIVUMAB);;False
 VAC['1479'];VACPERTAGEN;;False
 VAC['1480'];PNEUMOVAX 23;Unconjugated pneumococcal polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F;False
+VAC['1481'];FLUVACCINOL;Trivalent inactivated seasonal influenza vaccine, surface antigen, adult dose;False
+VAC['1482'];IMMUNOGLOBULINE HUMAINE DE L'HÉPATITE B LFB;Hepatitis b immune globulin (human);False

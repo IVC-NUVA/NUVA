@@ -1547,9 +1547,9 @@ VAC1445;Avian influenza vaccine, mRNA;True;;;;
 VAC1446;Japanese encephalitis vaccine, inactivated, whole-virus, derived from Vero cells, 3 micrograms;True;ICD11-XM0LB5;Inactivated Japanese Encephalitis vaccine, unspecified;True;14;0
 VAC1447;VACCIN BCG SYNTHAVERSE;False;ICD11-XM8142;BCG vaccine, unspecified;True;19;0
 VAC1448;BCG VACCINE MERCK;False;ICD11-XM8142;BCG vaccine, unspecified;True;19;0
-VAC1449;DITANRIX-PEDIATRIC;True;ICD11-XM1G96;Tetanus diphtheria vaccine, unspecified;True;45;0
-VAC1449;DITANRIX-PEDIATRIC;True;ICD11-XM4039;Tetanus diphtheria vaccine, unspecified;True;45;0
-VAC1449;DITANRIX-PEDIATRIC;True;ICD11-XM8XH5;Tetanus diphtheria vaccine, unspecified;True;45;0
+VAC1449;DITANRIX-PEDIATRIC;False;ICD11-XM1G96;Tetanus diphtheria vaccine, unspecified;True;45;0
+VAC1449;DITANRIX-PEDIATRIC;False;ICD11-XM4039;Tetanus diphtheria vaccine, unspecified;True;45;0
+VAC1449;DITANRIX-PEDIATRIC;False;ICD11-XM8XH5;Tetanus diphtheria vaccine, unspecified;True;45;0
 VAC1450;HEPACARE;False;;;;
 VAC1451;CHIROFLU;False;;;;
 VAC1452;SCI-B-VAC;False;;;;
@@ -1585,3 +1585,5 @@ VAC1479;VACPERTAGEN;False;ICD11-XM4082;Acellular pertussis vaccine, unspecified;
 VAC1479;VACPERTAGEN;False;ICD11-XM62J1;Acellular pertussis vaccine, unspecified;True;8;0
 VAC1480;PNEUMOVAX 23;False;ICD11-XM2249;Pneumococcal polysaccharide vaccine 23-valent, unspecified;True;11;0
 VAC1480;PNEUMOVAX 23;False;ICD11-XM91D7;Pneumococcal unconjugated polysaccharide vaccine, unspecified;False;;
+VAC1481;FLUVACCINOL;False;;;;
+VAC1482;IMMUNOGLOBULINE HUMAINE DE L'HÉPATITE B LFB;False;;;;
