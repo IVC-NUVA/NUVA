@@ -2,7 +2,7 @@ abstract: true
 label: Smallpox vaccine, unspecified
 comment: Live attenuated smallpox vaccine
 created: '2021-07-19'
-modified: '2025-10-08'
+modified: '2025-12-08'
 codes:
   ATC:
   - J07BX01
@@ -19,7 +19,6 @@ codes:
   SCT_NUVA:
   - '2311002000106'
   SNOMED-CT:
-  - '1254676002'
   - '1269346004'
   - '1290624003'
   - '1290625002'

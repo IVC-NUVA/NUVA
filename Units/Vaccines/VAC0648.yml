@@ -2,7 +2,7 @@ abstract: true
 label: COVID-19 vaccine, unspecified
 comment: COVID-19 vaccine
 created: '2021-07-19'
-modified: '2025-05-15'
+modified: '2025-12-08'
 codes:
   CVC:
   - '28531000087107'
@@ -15,9 +15,6 @@ codes:
   - '7711002000105'
   SNOMED-CT:
   - '1119305005'
-  - '1119349007'
-  - '1157024006'
-  - '1162643001'
   - '28531000087107'
 valences:
 - VAL157

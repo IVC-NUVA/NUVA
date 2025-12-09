@@ -2,7 +2,7 @@ abstract: false
 label: VAXIGRIP
 comment: Trivalent inactivated seasonal influenza vaccine, split virion
 created: '2021-07-19'
-modified: '2025-10-16'
+modified: '2025-12-04'
 codes:
   AIC:
   - '026032'
@@ -114,6 +114,11 @@ codes:
   DIN:
   - 02223929
   - 02367718
+  ELGA:
+  - '1076502'
+  - '4215720'
+  - '6050105'
+  - '6050111'
   INFARMED:
   - '2637882'
   - '2637981'
