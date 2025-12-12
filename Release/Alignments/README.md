@@ -107,15 +107,30 @@ The International Classification of Diseases, revision 11 (ICD11) curated by WHO
 They can be viewed in a browser from https://icd.who.int/browse/2025-01/mms/en#164949870
 
 ## INFARMED (Portugal)
+THe INFARMED code is the authorization number in Portugal.
+
+It can be retrieved from the Infomed portal, typically with an Advanced Search on Product Group "Vaccine".
+
 ## NDC (USA)
 National Drug Codes (NDC) are US codes for packaged products, assigned by the FDA.
 
 https://www.accessdata.fda.gov/cder/ndcxls.zip
 
-## NTIN (Various)
-
+## NTIN (Global)
+This is a duplicate for GTIN, that should be merged too under DCID.
 ## PZN (Germany)
+THe Pharmazentralnumber (PZN) is the pharmaceutical code in Germany, attributed by Informationsstelle für Arzneispezialitäten (IFA). It exists in two variants, PZN7, obsolete since January 2020, and PZN8.
+
+There seems to be no publicly available source for PZN codes.
 ## SCT_NUVA (Global)
+THe NUVA community extension to SNOMED-CT attributes a SCTID-like identifier to each NUVA concept.
+
+These identifiers can be retrieved from the distribution files available at:
+https://ivci.org/nuva/SnomedCT_NUVAExtension/
+
 ## SNOMED-CT (Global)
+THe SNOMED-CT Global Patient Set (GPS) includes codes for abstract vaccines.
+
+It can be downloaded from https://www.snomed.org/gps
 ## UPC (Global)
 This one is a duplicate for GTIN, that should be merged too under DCID.
