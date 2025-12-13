@@ -26,7 +26,7 @@ VAC0023;PENTAVAC;False;ICD11-XM21E6;Pentavalent DTaPHibIPV vaccine, unspecified;
 VAC0023;PENTAVAC;False;ICD11-XM1LX9;Pentavalent Diphtheria-Tetanus-Pertussis-Hib-Polio (DTPerHibIPV) vaccine, unspecified;False;;
 VAC0024;PNEUMO 23;False;ICD11-XM2249;Pneumococcal polysaccharide vaccine 23-valent, unspecified;True;11;0
 VAC0024;PNEUMO 23;False;ICD11-XM91D7;Pneumococcal unconjugated polysaccharide vaccine, unspecified;False;;
-VAC0025;PREVENAR;False;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;17;0
+VAC0025;PREVENAR;False;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;18;0
 VAC0026;PREVIGRIP;False;;;;
 VAC0027;R.O.R. VAX;False;ICD11-XM8TF3;MMR vaccine, live attenuated, unspecified;True;26;0
 VAC0028;RABIPUR;False;ICD11-XM7BE8;Rabies vaccine, unspecified;True;32;0
@@ -41,8 +41,8 @@ VAC0035;STAMARIL;False;ICD11-XM3418;Yellow fever vaccine, unspecified;True;7;0
 VAC0036;TETAGRIP;False;;;;
 VAC0037;TETRAVAC-ACELLULAIRE;False;ICD11-XM9JP8;DTaPIPV vaccine, standard dose, unspecified;True;12;0
 VAC0037;TETRAVAC-ACELLULAIRE;False;ICD11-XM09Q7;Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified;False;;
-VAC0038;TICOVAC 0,5 mL;False;ICD11-XM8MP6;Tick-borne encephalitis vaccine, unspecified;True;11;0
-VAC0039;TICOVAC 0,25 mL;False;ICD11-XM8MP6;Tick-borne encephalitis vaccine, unspecified;True;11;0
+VAC0038;TICOVAC 0,5 mL;False;ICD11-XM8MP6;Tick-borne encephalitis vaccine, unspecified;True;12;0
+VAC0039;TICOVAC 0,25 mL;False;ICD11-XM8MP6;Tick-borne encephalitis vaccine, unspecified;True;12;0
 VAC0040;TYAVAX;False;ICD11-XM3JA6;Typhoid-hepatitis A vaccine, unspecified;True;6;0
 VAC0041;TYPHIM VI;False;;;;
 VAC0042;VACCIN BCG SSI;False;ICD11-XM8142;BCG vaccine, unspecified;True;19;0
@@ -85,10 +85,10 @@ VAC0076;DTVax;False;ICD11-XM4039;Tetanus diphtheria vaccine, unspecified;True;45
 VAC0076;DTVax;False;ICD11-XM8XH5;Tetanus diphtheria vaccine, unspecified;True;45;0
 VAC0077;IMOVAX OREILLONS;False;;;;
 VAC0078;RUDI-ROUVAX;False;ICD11-XM21H2;Measles-Rubella vaccine, unspecified;True;12;0
-VAC0079;ENCEPUR;False;ICD11-XM8MP6;Tick-borne encephalitis vaccine, unspecified;True;11;0
+VAC0079;ENCEPUR;False;ICD11-XM8MP6;Tick-borne encephalitis vaccine, unspecified;True;12;0
 VAC0080;BCG PASTEUR;False;ICD11-XM8142;BCG vaccine, unspecified;True;19;0
 VAC0082;MENBVAC;False;ICD11-XM9GJ1;Meningococcal B:14:P1.7,16 vaccine, unspecified;True;3;0
-VAC0083;SYNFLORIX;False;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;17;0
+VAC0083;SYNFLORIX;False;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;18;0
 VAC0084;H5N1 pre-pandemic influenza vaccine, unspecified;True;;;;
 VAC0085;T POLIO MERIEUX;False;;;;
 VAC0086;TETAVAX;False;ICD11-XM29H5;Tetanus vaccine, unspecified;True;36;0
@@ -147,7 +147,7 @@ VAC0140;INTANZA;False;;;;
 VAC0141;MENVEO;False;ICD11-XM2AR0;Meningococcal ACWY conjugate vaccine, unspecified;True;8;0
 VAC0143;Haemophilus influenzae B (or Hib) vaccine, unspecified;True;ICD11-XM6RG9;Haemophilus influenzae B (or Hib) vaccine, unspecified;True;19;1
 VAC0144;Cholera vaccine, unspecified;True;;;;
-VAC0145;Tick-borne encephalitis vaccine, unspecified;True;ICD11-XM8MP6;Tick-borne encephalitis vaccine, unspecified;True;11;1
+VAC0145;Tick-borne encephalitis vaccine, unspecified;True;ICD11-XM8MP6;Tick-borne encephalitis vaccine, unspecified;True;12;1
 VAC0146;Live attenuated Japanese Encephalitis vaccine 14-14-2 strain, unspecified;True;ICD11-XM47S0;Live attenuated Japanese Encephalitis vaccine, unspecified;True;7;0
 VAC0147;Influenza A(H1N1)2009 vaccine, unspecified;True;;;;
 VAC0148;Leptospirosis vaccine, unspecified;True;;;;
@@ -354,7 +354,7 @@ VAC0321;ORIMUNE;False;ICD11-XM4KG4;ORIMUNE;True;1;1
 VAC0321;ORIMUNE;False;ICD11-XM0KZ1;OPV 1-2-3, unspecified;False;;
 VAC0322;PARIORIX;False;;;;
 VAC0323;PAVIVAC-SEVAC;False;;;;
-VAC0324;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;17;0
+VAC0324;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;18;0
 VAC0325;PEDIARIX;False;ICD11-XM0LT9;Diphtheria-Tetanus-Pertussis-Polio-Hepatitis B pentavalent vaccine, unspecified;True;4;0
 VAC0326;PEDVAXHIB;False;ICD11-XM6RG9;Haemophilus influenzae B (or Hib) vaccine, unspecified;True;19;0
 VAC0327;PENTA;False;ICD11-XM21E6;Pentavalent DTaPHibIPV vaccine, unspecified;True;13;0
@@ -374,7 +374,7 @@ VAC0338;POLIACEL;False;ICD11-XM21E6;Pentavalent DTaPHibIPV vaccine, unspecified;
 VAC0338;POLIACEL;False;ICD11-XM1LX9;Pentavalent Diphtheria-Tetanus-Pertussis-Hib-Polio (DTPerHibIPV) vaccine, unspecified;False;;
 VAC0339;Pneumococcal polysaccharide vaccine 23-valent, unspecified;True;ICD11-XM2249;Pneumococcal polysaccharide vaccine 23-valent, unspecified;True;11;1
 VAC0339;Pneumococcal polysaccharide vaccine 23-valent, unspecified;True;ICD11-XM91D7;Pneumococcal unconjugated polysaccharide vaccine, unspecified;False;;
-VAC0341;PREVNAR;False;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;17;0
+VAC0341;PREVNAR;False;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;18;0
 VAC0343;ProHIBiT;False;ICD11-XM6RG9;Haemophilus influenzae B (or Hib) vaccine, unspecified;True;19;0
 VAC0344;PRP-OMP Hib vaccine, unspecified;True;ICD11-XM6RG9;Haemophilus influenzae B (or Hib) vaccine, unspecified;True;19;0
 VAC0345;Hib PRP-T conjugated vaccine, unspecified;True;ICD11-XM6RG9;Haemophilus influenzae B (or Hib) vaccine, unspecified;True;19;0
@@ -629,7 +629,7 @@ VAC0569;INFANRIX-IPV;False;ICD11-XM09Q7;Diphtheria-Tetanus-Pertussis-Polio vacci
 VAC0570;HIBERIX;False;ICD11-XM6RG9;Haemophilus influenzae B (or Hib) vaccine, unspecified;True;19;0
 VAC0573;AGRIFLU;False;;;;
 VAC0574;Td POLIO ADSORBED;False;ICD11-XM8AW1;Diphtheria-Tetanus-Polio vaccine, unspecified;True;14;0
-VAC0575;FSME-IMMUN;False;ICD11-XM8MP6;Tick-borne encephalitis vaccine, unspecified;True;11;0
+VAC0575;FSME-IMMUN;False;ICD11-XM8MP6;Tick-borne encephalitis vaccine, unspecified;True;12;0
 VAC0576;FLUVIRAL;False;;;;
 VAC0577;TRIPACEL HYBRID;False;ICD11-XM9YH9;Diph-T-aP/ap, unspecified;True;24;0
 VAC0577;TRIPACEL HYBRID;False;ICD11-XM9ZL9;Diph-T-aP/ap, unspecified;True;24;0
@@ -813,14 +813,14 @@ VAC0770;NDV-HXP-S;False;;;;
 VAC0771;VBI-2902a;False;;;;
 VAC0772;SARS-CoV-2 VLP Vaccine;False;;;;
 VAC0773;ABNCoV2;False;;;;
-VAC0774;FSME-IMMUN 0,25 mL;False;ICD11-XM8MP6;Tick-borne encephalitis vaccine, unspecified;True;11;0
+VAC0774;FSME-IMMUN 0,25 mL;False;ICD11-XM8MP6;Tick-borne encephalitis vaccine, unspecified;True;12;0
 VAC0775;DTwPHib, unspecified;True;;;;
 VAC0776;TETRABIK;False;ICD11-XM9JP8;DTaPIPV vaccine, standard dose, unspecified;True;12;0
 VAC0776;TETRABIK;False;ICD11-XM09Q7;Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified;False;;
 VAC0777;ADJUPANRIX;False;;;;
 VAC0778;VAXCHORA;False;ICD11-XM72A0;Live attenuated cholera vaccine, unspecified;True;4;0
 VAC0779;BATREVAC;False;;;;
-VAC0780;VAXNEUVANCE;False;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;17;0
+VAC0780;VAXNEUVANCE;False;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;18;0
 VAC0781;RABIVAC;False;ICD11-XM7BE8;Rabies vaccine, unspecified;True;32;0
 VAC0782;RASILVAX;False;ICD11-XM7BE8;Rabies vaccine, unspecified;True;32;0
 VAC0783;R-COVI;False;;;;
@@ -828,7 +828,7 @@ VAC0784;PERTAGEN;False;ICD11-XM4082;Acellular pertussis vaccine, unspecified;Tru
 VAC0784;PERTAGEN;False;ICD11-XM62J1;Acellular pertussis vaccine, unspecified;True;8;0
 VAC0785;BOOSTAGEN;False;ICD11-XM9YH9;Diph-T-aP/ap, unspecified;True;24;0
 VAC0785;BOOSTAGEN;False;ICD11-XM9ZL9;Diph-T-aP/ap, unspecified;True;24;0
-VAC0786;PREVNAR 20;False;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;17;0
+VAC0786;PREVNAR 20;False;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;18;0
 VAC0787;Diphtheria-Tetanus-Rubella, unspecified;True;ICD11-XM9744;Diphtheria-Tetanus-Rubella, unspecified;True;3;1
 VAC0788;Hib-IPV, unspecified;True;ICD11-XM01H1;Hib-IPV, unspecified;True;1;1
 VAC0789;COMVAC4;False;ICD11-XM41N3;Diphtheria-Tetanus-Pertussis-Hepatitis B vaccine, unspecified;True;7;0
@@ -860,7 +860,7 @@ VAC0810;Meningococcal polyvalent polysaccharide vaccine, unspecified;True;;;;
 VAC0811;Meningococcal B vaccine, unspecified;True;;;;
 VAC0812;Inactivated whole plague vaccine, unspecified;True;ICD11-XM3796;Inactivated whole plague vaccine, unspecified;True;1;1
 VAC0813;Pneumococcal unconjugated polysaccharide vaccine, unspecified;True;ICD11-XM91D7;Pneumococcal unconjugated polysaccharide vaccine, unspecified;True;6;1
-VAC0814;Pneumococcal conjugate vaccine, serotypes unspecified;True;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;17;1
+VAC0814;Pneumococcal conjugate vaccine, serotypes unspecified;True;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;18;1
 VAC0815;Pneumo-Hib, unspecified;True;ICD11-XM4R39;Pneumo-Hib, unspecified;True;1;1
 VAC0816;PEDATYPH;False;;;;
 VAC0817;Inactivated Typhoid vaccine, unspecified;True;;;;
@@ -951,7 +951,7 @@ VAC0896;Q fever vaccine, unspecified;True;;;;
 VAC0897;Hantavirus vaccine, unspecified;True;;;;
 VAC0898;Leishmaniasis vaccine, unspecified;True;;;;
 VAC0899;Human Parainfluenza Virus Vaccine, unspecified;True;;;;
-VAC0900;PREVENAR 20;False;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;17;0
+VAC0900;PREVENAR 20;False;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;18;0
 VAC0901;MENCEVAX ACW;False;;;;
 VAC0902;Rabies vaccine Semple type, unspecified;True;ICD11-XM7BE8;Rabies vaccine, unspecified;True;32;0
 VAC0903;Rabies vaccine Fuenzalida type, unspecified;True;ICD11-XM7BE8;Rabies vaccine, unspecified;True;32;0
@@ -986,7 +986,7 @@ VAC0929;Influenza quadrivalent inactivated vaccine, pediatric dose, unspecified;
 VAC0930;AD5-NCOV COVID-19 INHALATION VACCINE;False;;;;
 VAC0931;FLUBLOK QUADRIVALENT;False;;;;
 VAC0932;Quadrivalent recombinant influenza vaccine, unspecified;True;;;;
-VAC0933;TICOVAC 2,7µg;False;ICD11-XM8MP6;Tick-borne encephalitis vaccine, unspecified;True;11;0
+VAC0933;TICOVAC 2,7µg;False;ICD11-XM8MP6;Tick-borne encephalitis vaccine, unspecified;True;12;0
 VAC0934;VACCIN OREILLONS AVENTIS PASTEUR MSD;False;;;;
 VAC0935;VACCIN RABIQUE INACTIVE MERIEUX;False;ICD11-XM7BE8;Rabies vaccine, unspecified;True;32;0
 VAC0936;VACCIN PNEUMOCOCCIQUE POLYOSIDIQUE AVENTIS PASTEUR MSD;False;ICD11-XM2249;Pneumococcal polysaccharide vaccine 23-valent, unspecified;True;11;0
@@ -1110,8 +1110,8 @@ VAC1033;COMIRNATY ORIGINAL/OMICRON BA.4-5 (5/5 µg) BIONTECH-PFIZER;False;;;;
 VAC1034;HEBERBIOVAC B 10 µg;False;;;;
 VAC1035;HEBERBIOVAC HB 20 µg;False;;;;
 VAC1036;SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.4-5 25 µg/25 µg MODERNA;False;;;;
-VAC1037;Tick-borne encephalitis vaccine, Neudörfl strain, paediatric dose, unspecified;True;ICD11-XM8MP6;Tick-borne encephalitis vaccine, unspecified;True;11;0
-VAC1038;Tick-borne encephalitis vaccine, Neudörfl strain, adult dose, unspecified;True;ICD11-XM8MP6;Tick-borne encephalitis vaccine, unspecified;True;11;0
+VAC1037;Tick-borne encephalitis vaccine, Neudörfl strain, paediatric dose, unspecified;True;ICD11-XM8MP6;Tick-borne encephalitis vaccine, unspecified;True;12;0
+VAC1038;Tick-borne encephalitis vaccine, Neudörfl strain, adult dose, unspecified;True;ICD11-XM8MP6;Tick-borne encephalitis vaccine, unspecified;True;12;0
 VAC1039;COVID-19 mRNA vaccine, original virus, 50 µg, unspecified;True;;;;
 VAC1040;AREXVY;False;;;;
 VAC1041;COVID-19 mRNA vaccine, unspecified;True;;;;
@@ -1164,7 +1164,7 @@ VAC1082;BAYHEP B;False;;;;
 VAC1083;BAYRAB;False;;;;
 VAC1084;BAYTET;False;;;;
 VAC1085;MYCOBAX;False;ICD11-XM8142;BCG vaccine, unspecified;True;19;0
-VAC1086;PNEUMUNE;False;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;17;0
+VAC1086;PNEUMUNE;False;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;18;0
 VAC1087;HYPERTET;False;;;;
 VAC1088;HYPERRAB;False;;;;
 VAC1089;HYPERHEP B;False;;;;
@@ -1215,8 +1215,8 @@ VAC1132;COVID-19 bivalent mRNA vaccine, original virus + Omicron BA.4/5 variant,
 VAC1133;Meningococcal ACWY polysaccharide conjugate vaccine, unspecified;True;ICD11-XM2AR0;Meningococcal ACWY conjugate vaccine, unspecified;True;8;0
 VAC1134;Live attenuated vaccine against Argentine hemorrhagic fever, Junin virus, unspecified;True;;;;
 VAC1135;COVID-19 Plasmid DNA vaccine with non-replicating viral vector, adenovirus encoding the spike protein of SARS-CoV-2, by inhalation, unspecified;True;;;;
-VAC1136;23-valent Pneumococcus conjugate vaccine, unspecified;True;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;17;0
-VAC1137;Whole inactivated tick-borne encephalitis vaccine, strain K23, unspecified;True;ICD11-XM8MP6;Tick-borne encephalitis vaccine, unspecified;True;11;0
+VAC1136;23-valent Pneumococcus conjugate vaccine, unspecified;True;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;18;0
+VAC1137;Whole inactivated tick-borne encephalitis vaccine, strain K23, unspecified;True;ICD11-XM8MP6;Tick-borne encephalitis vaccine, unspecified;True;12;0
 VAC1138;COVID-19 recombinant protein subunit vaccine;True;;;;
 VAC1139;COVID-19 vaccine, non-replicating vector, Newcastle disease virus encoding the SARS-CoV-2 spike protein, unspecified;True;;;;
 VAC1140;COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 25 micrograms, unspecified;True;;;;
@@ -1242,7 +1242,7 @@ VAC1159;Recombinant trivalent influenza vaccine, unspecified;True;;;;
 VAC1160;2nd generation live smallpox vaccine, unspecified;True;ICD11-XM95R0;Smallpox vaccine, unspecified;True;18;0
 VAC1161;Quadrivalent DTPeP vaccine - Diphtheria-Tetanus-Pertussis-Hib PRP, unspecified;True;;;;
 VAC1162;COVID-19 mRNA vaccine, bivalent, original virus and Omicron BA.1 variant, 15 micrograms, unspecified;True;;;;
-VAC1163;20-valent Pneumococcus conjugate vaccine, unspecified;True;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;17;0
+VAC1163;20-valent Pneumococcus conjugate vaccine, unspecified;True;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;18;0
 VAC1164;Quadrivalent DTPaHib- Diphtheria-Tetanus-Pertussis-Hib PRP vaccine, unspecified;True;;;;
 VAC1165;Diphtheria toxoid, standard dose, unspecified;True;;;;
 VAC1166;COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, currently in clinical trial, unspecified;True;;;;
@@ -1314,13 +1314,13 @@ VAC1230;Meningococcal C and anti-Haemophilus influenzae type b vaccine, conjugat
 VAC1231;Pentavalent vaccine DTPaHibHepB- Diphtheria-Tetanus-Pertussis-Hib PRP-Hepatitis B 10μg, unspecified;True;ICD11-XM7JP3;DTPerHibHepB pentavalent vaccine, unspecified;True;20;0
 VAC1232;Acellular pertussis vaccine, reduced dose, unspecified;True;ICD11-XM4082;Acellular pertussis vaccine, unspecified;True;8;0
 VAC1232;Acellular pertussis vaccine, reduced dose, unspecified;True;ICD11-XM62J1;Acellular pertussis vaccine, unspecified;True;8;0
-VAC1233;10-valent Pneumococcus conjugate vaccine, unspecified;True;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;17;0
+VAC1233;10-valent Pneumococcus conjugate vaccine, unspecified;True;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;18;0
 VAC1234;15-valent unconjugated pneumococcal vaccine, unspecified;True;ICD11-XM91D7;Pneumococcal unconjugated polysaccharide vaccine, unspecified;True;6;0
 VAC1235;RIX4414 monovalent rotavirus vaccine, unspecified;True;ICD11-XM4GV0;Rotavirus vaccine, unspecified;True;7;0
 VAC1236;COVID-19 protein subunit vaccine, recombinant spike protein in nanoparticles, Omicron subvariant XBB.1.5, unspecified;True;;;;
 VAC1237;Pre-erythrocytic malaria vaccine, unspecified;True;;;;
 VAC1238;Vaccine against hepatitis B and malaria, unspecified;True;;;;
-VAC1239;15-valent Pneumococcus conjugate vaccine, unspecified;True;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;17;0
+VAC1239;15-valent Pneumococcus conjugate vaccine, unspecified;True;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;18;0
 VAC1240;4-component meningococcal B vaccine, unspecified;True;ICD11-XM1X81;Multicomponent meningococcal B vaccine, unspecified;True;5;0
 VAC1241;Shingles vaccine, varicella-zoster virus (VZV) surface glycoprotein E (gE), unspecified;True;;;;
 VAC1242;COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron XBB.1.5 variant, 25 micrograms;True;;;;
@@ -1335,7 +1335,7 @@ VAC1250;EUVICHOL-S;False;ICD11-XM3Z26;Whole inactivated Cholera vaccine, unspeci
 VAC1251;EUVICHOL-PLUS;False;ICD11-XM3Z26;Whole inactivated Cholera vaccine, unspecified;True;14;0
 VAC1252;JE-CV;False;ICD11-XM47S0;Live attenuated Japanese Encephalitis vaccine, unspecified;True;7;0
 VAC1253;CHIMERIVAX-JE;False;ICD11-XM47S0;Live attenuated Japanese Encephalitis vaccine, unspecified;True;7;0
-VAC1254;CAPVAXIVE;False;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;17;0
+VAC1254;CAPVAXIVE;False;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;18;0
 VAC1255;HEXASIIL;False;;;;
 VAC1256;Hexavalent vaccine DTwPHibPHepB - Diphtheria-Tetanus-Pertussis-Hib-Polio-Hepatitis B 15µg, unspecified;True;;;;
 VAC1257;Cholera vaccine, whole inactivated oral, bivalent containing the whole inactivated V. cholerae O1 and O139 bacteria, unspecified;True;ICD11-XM3Z26;Whole inactivated Cholera vaccine, unspecified;True;14;0
@@ -1365,7 +1365,7 @@ VAC1276;DTP BIOMED;False;ICD11-XM1PB8;DPT Diphtheria-Pertussis-Tetanus vaccine, 
 VAC1277;Vaccine against chikungunya, unspecified;True;;;;
 VAC1278;WALRINVAX;False;;;;
 VAC1279;Adjuvanted adsorbed anthrax vaccine;True;ICD11-XM2C05;Anthrax vaccine, unspecified;True;7;0
-VAC1280;21-valent pneumococcal conjugate vaccine, unspecified;True;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;17;0
+VAC1280;21-valent pneumococcal conjugate vaccine, unspecified;True;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;18;0
 VAC1281;PENTABIO;False;ICD11-XM7JP3;DTPerHibHepB pentavalent vaccine, unspecified;True;20;0
 VAC1282;FLUBIO INFLUENZA HA;False;;;;
 VAC1283;INDOVAC;False;;;;
@@ -1417,7 +1417,7 @@ VAC1318;DIPHTHERIA, TETANUS, PERTUSSIS AND HEPATITIS B SII;False;ICD11-XM41N3;Di
 VAC1319;DIPHTHERIA, TETANUS, PERTUSSIS AND HAEMOPHILUS INFLUENZAE B SII;False;;;;
 VAC1320;DIPHTHERIA, TETANUS, PERTUSSIS, HEPATITIS B AND HAEMOPHILUS INFLUENZAE B SII;False;ICD11-XM7JP3;DTPerHibHepB pentavalent vaccine, unspecified;True;20;0
 VAC1321;HAEMOPHILUS INFLUENZAE B SII;False;ICD11-XM6RG9;Haemophilus influenzae B (or Hib) vaccine, unspecified;True;19;0
-VAC1322;PNEUMOSIL;False;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;17;0
+VAC1322;PNEUMOSIL;False;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;18;0
 VAC1323;MENFIVE;False;;;;
 VAC1324;NASOVAC-S;False;;;;
 VAC1325;GENEVAC-B 10 µg;False;;;;
@@ -1522,7 +1522,7 @@ VAC1420;Single-stranded 5' capped mRNA encoding the Respiratory syncytial virus 
 VAC1421;COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, original virus;True;;;;
 VAC1422;COVID-19 protein subunit vaccine, recombinant N protein;True;;;;
 VAC1423;Live attenuated influenza A(H1N1)pdm09 pandemic vaccine;True;;;;
-VAC1424;10-valent pneumococcal polysaccharide conjugate vaccine, serotypes 1, 5, 6A, 6B, 7F, 9V, 14, 19A, 19F and 23F;True;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;17;0
+VAC1424;10-valent pneumococcal polysaccharide conjugate vaccine, serotypes 1, 5, 6A, 6B, 7F, 9V, 14, 19A, 19F and 23F;True;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;18;0
 VAC1425;Typhoid vaccine, Vi antigen conjugated to CRM197 protein;True;;;;
 VAC1426;Bivalent recombinant vaccine against human papillomavirus (types 16 and 18) (Pichia pastoris);True;;;;
 VAC1427;Whole inactivated Japanese encephalitis vaccine, prepared in Vero cells, 6 micrograms;True;ICD11-XM0LB5;Inactivated Japanese Encephalitis vaccine, unspecified;True;14;0
@@ -1579,7 +1579,7 @@ VAC1473;COVID-19 mRNA vaccine, encoding a fragment of the SARS-CoV-2 spike prote
 VAC1474;ENFLONSIA (CLESROVIMAB);False;;;;
 VAC1475;Human monoclonal antibody against respiratory syncytial virus (RSV), clesrovimab, unspecified;True;;;;
 VAC1476;Meningococcal vaccine against A, C, W, Y (conjugated polysaccharide) and B;True;;;;
-VAC1477;ENCEPUR 0,25 mL;False;ICD11-XM8MP6;Tick-borne encephalitis vaccine, unspecified;True;11;0
+VAC1477;ENCEPUR N ENFANT;False;ICD11-XM8MP6;Tick-borne encephalitis vaccine, unspecified;True;12;0
 VAC1478;SYNAGIS 50 mg (PALIZIVUMAB);False;;;;
 VAC1479;VACPERTAGEN;False;ICD11-XM4082;Acellular pertussis vaccine, unspecified;True;8;0
 VAC1479;VACPERTAGEN;False;ICD11-XM62J1;Acellular pertussis vaccine, unspecified;True;8;0
@@ -1587,3 +1587,8 @@ VAC1480;PNEUMOVAX 23;False;ICD11-XM2249;Pneumococcal polysaccharide vaccine 23-v
 VAC1480;PNEUMOVAX 23;False;ICD11-XM91D7;Pneumococcal unconjugated polysaccharide vaccine, unspecified;False;;
 VAC1481;FLUVACCINOL;False;;;;
 VAC1482;IMMUNOGLOBULINE HUMAINE DE L'HÉPATITE B LFB;False;;;;
+VAC1483;ENCEPUR N;False;ICD11-XM8MP6;Tick-borne encephalitis vaccine, unspecified;True;12;0
+VAC1484;HEPRECOMB ENFANT;False;;;;
+VAC1485;GEN H-B-VAX 5;False;;;;
+VAC1486;GEN H-B-VAX 10;False;;;;
+VAC1487;PREVENAR-7;False;ICD11-XM96S7;Pneumococcal conjugate vaccine, serotypes unspecified;True;18;0

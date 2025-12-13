@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "1.3.4" .
+    owl:versionInfo "1.3.5" .
 
 nuva:NUVACode a owl:Class ;
     rdfs:label "NUVA Code" ;
@@ -16887,12 +16887,12 @@ nuva:VAC1476 a owl:Class ;
         "VAC1476"^^xsd:string .
 
 nuva:VAC1477 a owl:Class ;
-    rdfs:label "ENCEPUR 0,25 mL" ;
+    rdfs:label "ENCEPUR N ENFANT" ;
     nuvs:containsValence nuva:VAL430 ;
     nuvs:isAbstract false ;
     dcterms:created "2025-11-14"^^xsd:date ;
-    dcterms:modified "2025-11-14"^^xsd:date ;
-    rdfs:comment "Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain"@en ;
+    dcterms:modified "2025-12-12"^^xsd:date ;
+    rdfs:comment "Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain, 0,25 mL"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1477']"^^nuva:NUVACode,
         "VAC1477"^^xsd:string .
@@ -16971,6 +16971,67 @@ nuva:VAC1482 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1482']"^^nuva:NUVACode,
         "VAC1482"^^xsd:string .
+
+nuva:VAC1483 a owl:Class ;
+    rdfs:label "ENCEPUR N" ;
+    nuvs:containsValence nuva:VAL431 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2025-12-12"^^xsd:date ;
+    dcterms:modified "2025-12-12"^^xsd:date ;
+    rdfs:comment "Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1483']"^^nuva:NUVACode,
+        "VAC1483"^^xsd:string .
+
+nuva:VAC1484 a owl:Class ;
+    rdfs:label "HEPRECOMB ENFANT" ;
+    nuvs:containsValence nuva:VAL170 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2025-12-12"^^xsd:date ;
+    dcterms:modified "2025-12-12"^^xsd:date ;
+    rdfs:comment "Recombinant hepatitis B vaccine, pediatric dose"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1484']"^^nuva:NUVACode,
+        "VAC1484"^^xsd:string .
+
+nuva:VAC1485 a owl:Class ;
+    rdfs:label "GEN H-B-VAX 5" ;
+    nuvs:containsValence nuva:VAL170 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2025-12-12"^^xsd:date ;
+    dcterms:modified "2025-12-12"^^xsd:date ;
+    rdfs:comment "Recombinant hepatitis B vaccine, pediatric dose"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1485']"^^nuva:NUVACode,
+        "VAC1485"^^xsd:string .
+
+nuva:VAC1486 a owl:Class ;
+    rdfs:label "GEN H-B-VAX 10" ;
+    nuvs:containsValence nuva:VAL114 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2025-12-12"^^xsd:date ;
+    dcterms:modified "2025-12-12"^^xsd:date ;
+    rdfs:comment "Recombinant hepatitis B vaccine with 10 micrograms of HBs antigen for use from the age of 11 years"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1486']"^^nuva:NUVACode,
+        "VAC1486"^^xsd:string .
+
+nuva:VAC1487 a owl:Class ;
+    rdfs:label "PREVENAR-7" ;
+    nuvs:containsValence nuva:VAL188,
+        nuva:VAL191,
+        nuva:VAL194,
+        nuva:VAL198,
+        nuva:VAL200,
+        nuva:VAL202,
+        nuva:VAL204 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2025-12-12"^^xsd:date ;
+    dcterms:modified "2025-12-12"^^xsd:date ;
+    rdfs:comment "Pneumococcal conjugate vaccine, 7-valent, adsorbed, serotypes 4, 6B, 9V, 14, 18C, 19F and 23F"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1487']"^^nuva:NUVACode,
+        "VAC1487"^^xsd:string .
 
 nuva:VAL179 a owl:Class ;
     rdfs:label "Meningococcal  valence, monovalent, conjugate"@en ;
@@ -17441,14 +17502,6 @@ nuva:VAL430 a owl:Class ;
     dcterms:modified "2025-11-14"^^xsd:date ;
     rdfs:subClassOf nuva:VAL312 ;
     skos:notation "VAL430"^^xsd:string .
-
-nuva:VAL431 a owl:Class ;
-    rdfs:label "Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain, 0,50 mL"@en ;
-    nuvs:prevents nuva:DIS027 ;
-    dcterms:created "2025-11-14"^^xsd:date ;
-    dcterms:modified "2025-11-14"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL312 ;
-    skos:notation "VAL431"^^xsd:string .
 
 nuvs:containsValence a owl:ObjectProperty ;
     rdfs:domain nuva:Vaccine ;
@@ -18594,6 +18647,14 @@ nuva:VAL429 a owl:Class ;
     rdfs:subClassOf nuva:VAL320 ;
     skos:notation "VAL429"^^xsd:string .
 
+nuva:VAL431 a owl:Class ;
+    rdfs:label "Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain, 0,50 mL"@en ;
+    nuvs:prevents nuva:DIS027 ;
+    dcterms:created "2025-11-14"^^xsd:date ;
+    dcterms:modified "2025-11-14"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL312 ;
+    skos:notation "VAL431"^^xsd:string .
+
 nuva:DIS009 a owl:Class ;
     rdfs:label "Mumps"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
@@ -18929,14 +18990,6 @@ nuva:VAL165 a owl:Class ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL157 ;
     skos:notation "VAL165"^^xsd:string .
-
-nuva:VAL170 a owl:Class ;
-    rdfs:label "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 5 micrograms"@en ;
-    nuvs:prevents nuva:DIS006 ;
-    dcterms:created "2022-03-21"^^xsd:date ;
-    dcterms:modified "2025-07-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL090 ;
-    skos:notation "VAL170"^^xsd:string .
 
 nuva:VAL232 a owl:Class ;
     rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 6A"@en ;
@@ -19635,6 +19688,14 @@ nuva:VAL164 a owl:Class ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL157 ;
     skos:notation "VAL164"^^xsd:string .
+
+nuva:VAL170 a owl:Class ;
+    rdfs:label "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 5 micrograms"@en ;
+    nuvs:prevents nuva:DIS006 ;
+    dcterms:created "2022-03-21"^^xsd:date ;
+    dcterms:modified "2025-07-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL090 ;
+    skos:notation "VAL170"^^xsd:string .
 
 nuva:VAL250 a owl:Class ;
     rdfs:label "Japanese encephalitis valence, inactivated, whole-virus, prepared on murine brain tissue"@en ;
@@ -20382,22 +20443,6 @@ nuva:VAL125 a owl:Class ;
     rdfs:subClassOf nuva:VAL288 ;
     skos:notation "VAL125"^^xsd:string .
 
-nuva:VAL188 a owl:Class ;
-    rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 4"@en ;
-    nuvs:prevents nuva:DIS025 ;
-    dcterms:created "2022-03-28"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL184 ;
-    skos:notation "VAL188"^^xsd:string .
-
-nuva:VAL200 a owl:Class ;
-    rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 18C"@en ;
-    nuvs:prevents nuva:DIS025 ;
-    dcterms:created "2022-03-28"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL184 ;
-    skos:notation "VAL200"^^xsd:string .
-
 nuva:VAL211 a owl:Class ;
     rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 6B"@en ;
     nuvs:prevents nuva:DIS025 ;
@@ -20428,6 +20473,14 @@ nuva:VAL040 a owl:Class ;
     rdfs:subClassOf nuva:VAL064 ;
     skos:notation "VAL040"^^xsd:string .
 
+nuva:VAL188 a owl:Class ;
+    rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 4"@en ;
+    nuvs:prevents nuva:DIS025 ;
+    dcterms:created "2022-03-28"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL184 ;
+    skos:notation "VAL188"^^xsd:string .
+
 nuva:VAL192 a owl:Class ;
     rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 7F"@en ;
     nuvs:prevents nuva:DIS025 ;
@@ -20435,6 +20488,14 @@ nuva:VAL192 a owl:Class ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
     skos:notation "VAL192"^^xsd:string .
+
+nuva:VAL200 a owl:Class ;
+    rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 18C"@en ;
+    nuvs:prevents nuva:DIS025 ;
+    dcterms:created "2022-03-28"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL184 ;
+    skos:notation "VAL200"^^xsd:string .
 
 nuva:VAL217 a owl:Class ;
     rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 11A"@en ;
@@ -20467,46 +20528,6 @@ nuva:VAL071 a owl:Class ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL014 ;
     skos:notation "VAL071"^^xsd:string .
-
-nuva:VAL191 a owl:Class ;
-    rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 6B"@en ;
-    nuvs:prevents nuva:DIS025 ;
-    dcterms:created "2022-03-28"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL184 ;
-    skos:notation "VAL191"^^xsd:string .
-
-nuva:VAL194 a owl:Class ;
-    rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 9V"@en ;
-    nuvs:prevents nuva:DIS025 ;
-    dcterms:created "2022-03-28"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL184 ;
-    skos:notation "VAL194"^^xsd:string .
-
-nuva:VAL198 a owl:Class ;
-    rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 14"@en ;
-    nuvs:prevents nuva:DIS025 ;
-    dcterms:created "2022-03-28"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL184 ;
-    skos:notation "VAL198"^^xsd:string .
-
-nuva:VAL202 a owl:Class ;
-    rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 19F"@en ;
-    nuvs:prevents nuva:DIS025 ;
-    dcterms:created "2022-03-28"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL184 ;
-    skos:notation "VAL202"^^xsd:string .
-
-nuva:VAL204 a owl:Class ;
-    rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 23F"@en ;
-    nuvs:prevents nuva:DIS025 ;
-    dcterms:created "2022-03-28"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL184 ;
-    skos:notation "VAL204"^^xsd:string .
 
 nuva:VAL206 a owl:Class ;
     rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 1"@en ;
@@ -20627,6 +20648,46 @@ nuva:VAL051 a owl:Class ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL386 ;
     skos:notation "VAL051"^^xsd:string .
+
+nuva:VAL191 a owl:Class ;
+    rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 6B"@en ;
+    nuvs:prevents nuva:DIS025 ;
+    dcterms:created "2022-03-28"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL184 ;
+    skos:notation "VAL191"^^xsd:string .
+
+nuva:VAL194 a owl:Class ;
+    rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 9V"@en ;
+    nuvs:prevents nuva:DIS025 ;
+    dcterms:created "2022-03-28"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL184 ;
+    skos:notation "VAL194"^^xsd:string .
+
+nuva:VAL198 a owl:Class ;
+    rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 14"@en ;
+    nuvs:prevents nuva:DIS025 ;
+    dcterms:created "2022-03-28"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL184 ;
+    skos:notation "VAL198"^^xsd:string .
+
+nuva:VAL202 a owl:Class ;
+    rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 19F"@en ;
+    nuvs:prevents nuva:DIS025 ;
+    dcterms:created "2022-03-28"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL184 ;
+    skos:notation "VAL202"^^xsd:string .
+
+nuva:VAL204 a owl:Class ;
+    rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 23F"@en ;
+    nuvs:prevents nuva:DIS025 ;
+    dcterms:created "2022-03-28"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL184 ;
+    skos:notation "VAL204"^^xsd:string .
 
 nuva:VAL017 a owl:Class ;
     rdfs:label "Pertussis valence, acellular, reduced dose"@en ;
@@ -20773,14 +20834,6 @@ nuva:Disease a owl:Class ;
     owl:disjointWith nuva:Vaccine,
         nuva:Valence .
 
-nuva:VAL114 a owl:Class ;
-    rdfs:label "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 10 micrograms"@en ;
-    nuvs:prevents nuva:DIS006 ;
-    dcterms:created "2021-09-19"^^xsd:date ;
-    dcterms:modified "2025-07-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL090 ;
-    skos:notation "VAL114"^^xsd:string .
-
 nuva:VAL079 a owl:Class ;
     rdfs:label "Rubella valence, live attenuated"@en ;
     nuvs:prevents nuva:DIS010 ;
@@ -20788,6 +20841,14 @@ nuva:VAL079 a owl:Class ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
     skos:notation "VAL079"^^xsd:string .
+
+nuva:VAL114 a owl:Class ;
+    rdfs:label "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 10 micrograms"@en ;
+    nuvs:prevents nuva:DIS006 ;
+    dcterms:created "2021-09-19"^^xsd:date ;
+    dcterms:modified "2025-07-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL090 ;
+    skos:notation "VAL114"^^xsd:string .
 
 nuva:VAL005 a owl:Class ;
     rdfs:label "Measles valence, live attenuated"@en ;

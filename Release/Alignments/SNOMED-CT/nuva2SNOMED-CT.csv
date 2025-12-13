@@ -23,20 +23,20 @@ VAC0007;GARDASIL;False;SNOMED-CT-836379009;HPV Vaccine;False;;
 VAC0007;GARDASIL;False;SNOMED-CT-911000221103;HPV Vaccine;False;;
 VAC0008;GRIPGUARD;False;SNOMED-CT-1181000221105;Influenza vaccine, unspecified;True;107;0
 VAC0008;GRIPGUARD;False;SNOMED-CT-836377006;Influenza vaccine, unspecified;True;107;0
-VAC0009;HBVAXPRO 10 µg;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC0009;HBVAXPRO 10 µg;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC0009;HBVAXPRO 10 µg;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC0009;HBVAXPRO 10 µg;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC0009;HBVAXPRO 10 µg;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC0009;HBVAXPRO 10 µg;False;SNOMED-CT-871822003;Hepatitis B vaccine, unspecified;False;;
 VAC0009;HBVAXPRO 10 µg;False;SNOMED-CT-871925000;Hepatitis B vaccine, unspecified;False;;
-VAC0010;HBVAXPRO 40 µg;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;11;0
-VAC0010;HBVAXPRO 40 µg;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;11;0
-VAC0010;HBVAXPRO 40 µg;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;11;0
+VAC0010;HBVAXPRO 40 µg;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC0010;HBVAXPRO 40 µg;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC0010;HBVAXPRO 40 µg;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;13;0
 VAC0010;HBVAXPRO 40 µg;False;SNOMED-CT-871822003;Hepatitis B vaccine, unspecified;False;;
 VAC0010;HBVAXPRO 40 µg;False;SNOMED-CT-871925000;Hepatitis B vaccine, unspecified;False;;
-VAC0011;HBVAXPRO 5 µg;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;11;0
-VAC0011;HBVAXPRO 5 µg;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;11;0
-VAC0011;HBVAXPRO 5 µg;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;11;0
+VAC0011;HBVAXPRO 5 µg;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC0011;HBVAXPRO 5 µg;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC0011;HBVAXPRO 5 µg;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;13;0
 VAC0011;HBVAXPRO 5 µg;False;SNOMED-CT-871822003;Hepatitis B vaccine, unspecified;False;;
 VAC0011;HBVAXPRO 5 µg;False;SNOMED-CT-871925000;Hepatitis B vaccine, unspecified;False;;
 VAC0012;IMMUGRIP;False;SNOMED-CT-1181000221105;Influenza vaccine, unspecified;True;107;0
@@ -69,7 +69,7 @@ VAC0023;PENTAVAC;False;SNOMED-CT-871888001;Pentavalent DTaPHibIPV vaccine, unspe
 VAC0023;PENTAVAC;False;SNOMED-CT-871887006;Pentavalent Diphtheria-Tetanus-Pertussis-Hib-Polio (DTPerHibIPV) vaccine, unspecified;False;;
 VAC0024;PNEUMO 23;False;SNOMED-CT-836398006;Pneumococcal vaccine, unspecified;True;19;0
 VAC0024;PNEUMO 23;False;SNOMED-CT-981000221107;Pneumococcal vaccine, unspecified;True;19;0
-VAC0025;PREVENAR;False;SNOMED-CT-1052328007;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;3;0
+VAC0025;PREVENAR;False;SNOMED-CT-1052328007;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;4;0
 VAC0025;PREVENAR;False;SNOMED-CT-1801000221105;Pneumococcal conjugate vaccine, serotypes unspecified;False;;
 VAC0025;PREVENAR;False;SNOMED-CT-836398006;Pneumococcal vaccine, unspecified;False;;
 VAC0025;PREVENAR;False;SNOMED-CT-981000221107;Pneumococcal vaccine, unspecified;False;;
@@ -105,8 +105,8 @@ VAC0037;TETRAVAC-ACELLULAIRE;False;SNOMED-CT-318351000221106;DTaPIPV vaccine, st
 VAC0037;TETRAVAC-ACELLULAIRE;False;SNOMED-CT-871883005;DTaPIPV vaccine, standard dose, unspecified;True;12;0
 VAC0037;TETRAVAC-ACELLULAIRE;False;SNOMED-CT-871878002;Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified;False;;
 VAC0037;TETRAVAC-ACELLULAIRE;False;SNOMED-CT-871893003;Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified;False;;
-VAC0038;TICOVAC 0,5 mL;False;SNOMED-CT-836403007;Tick-borne encephalitis vaccine, unspecified;True;8;0
-VAC0038;TICOVAC 0,5 mL;False;SNOMED-CT-871719005;Tick-borne encephalitis vaccine, unspecified;True;8;0
+VAC0038;TICOVAC 0,5 mL;False;SNOMED-CT-836403007;Tick-borne encephalitis vaccine, unspecified;True;9;0
+VAC0038;TICOVAC 0,5 mL;False;SNOMED-CT-871719005;Tick-borne encephalitis vaccine, unspecified;True;9;0
 VAC0039;TICOVAC 0,25 mL;False;SNOMED-CT-1287338003;Tick-borne encephalitis vaccine, Neudörfl strain, paediatric dose, unspecified;True;3;0
 VAC0039;TICOVAC 0,25 mL;False;SNOMED-CT-836403007;Tick-borne encephalitis vaccine, unspecified;False;;
 VAC0039;TICOVAC 0,25 mL;False;SNOMED-CT-871719005;Tick-borne encephalitis vaccine, unspecified;False;;
@@ -125,7 +125,7 @@ VAC0043;BOOSTRIXTETRA;False;SNOMED-CT-871893003;Diphtheria-Tetanus-Pertussis-Pol
 VAC0044;CERVARIX;False;SNOMED-CT-1991000221106;HPV vaccine bivalent, unspecified;True;3;0
 VAC0044;CERVARIX;False;SNOMED-CT-836379009;HPV Vaccine;False;;
 VAC0044;CERVARIX;False;SNOMED-CT-911000221103;HPV Vaccine;False;;
-VAC0045;ENGERIX B 10 µg;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC0045;ENGERIX B 10 µg;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC0045;ENGERIX B 10 µg;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC0045;ENGERIX B 10 µg;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC0045;ENGERIX B 10 µg;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;False;;
@@ -234,8 +234,8 @@ VAC0077;IMOVAX OREILLONS;False;SNOMED-CT-871737006;Mumps vaccine, unspecified;Tr
 VAC0077;IMOVAX OREILLONS;False;SNOMED-CT-871738001;Mumps vaccine, unspecified;True;12;0
 VAC0078;RUDI-ROUVAX;False;SNOMED-CT-2231000221105;Measles-Rubella vaccine, unspecified;True;12;0
 VAC0078;RUDI-ROUVAX;False;SNOMED-CT-871817003;Measles-Rubella vaccine, unspecified;True;12;0
-VAC0079;ENCEPUR;False;SNOMED-CT-836403007;Tick-borne encephalitis vaccine, unspecified;True;8;0
-VAC0079;ENCEPUR;False;SNOMED-CT-871719005;Tick-borne encephalitis vaccine, unspecified;True;8;0
+VAC0079;ENCEPUR;False;SNOMED-CT-836403007;Tick-borne encephalitis vaccine, unspecified;True;9;0
+VAC0079;ENCEPUR;False;SNOMED-CT-871719005;Tick-borne encephalitis vaccine, unspecified;True;9;0
 VAC0080;BCG PASTEUR;False;SNOMED-CT-1861000221106;BCG vaccine, unspecified;True;19;0
 VAC0080;BCG PASTEUR;False;SNOMED-CT-319941000221104;BCG vaccine, unspecified;True;19;0
 VAC0080;BCG PASTEUR;False;SNOMED-CT-836402002;BCG vaccine, unspecified;True;19;0
@@ -275,9 +275,9 @@ VAC0098;HEXAVAC;False;SNOMED-CT-2101000221107;Hexavalent vaccine DTPCaHibHepB - 
 VAC0098;HEXAVAC;False;SNOMED-CT-871895005;Hexavalent vaccine DTPerHibPHepB - Diphtheria-Tetanus-Pertussis-Polio-Hib-Hepatitis B vaccine, unspecified;False;;
 VAC0099;MENINVACT;False;SNOMED-CT-871866001;Meningococcal conjugate vaccine C, unspecified;True;11;0
 VAC0099;MENINVACT;False;SNOMED-CT-951000221102;Meningococcal conjugate vaccine C, unspecified;True;11;0
-VAC0101;Hepatitis B vaccine, recombinant, unspecified;True;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;11;3
-VAC0101;Hepatitis B vaccine, recombinant, unspecified;True;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;11;3
-VAC0101;Hepatitis B vaccine, recombinant, unspecified;True;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;11;3
+VAC0101;Hepatitis B vaccine, recombinant, unspecified;True;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;13;3
+VAC0101;Hepatitis B vaccine, recombinant, unspecified;True;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;13;3
+VAC0101;Hepatitis B vaccine, recombinant, unspecified;True;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;13;3
 VAC0101;Hepatitis B vaccine, recombinant, unspecified;True;SNOMED-CT-871822003;Hepatitis B vaccine, unspecified;False;;
 VAC0101;Hepatitis B vaccine, recombinant, unspecified;True;SNOMED-CT-871925000;Hepatitis B vaccine, unspecified;False;;
 VAC0102;Inactivated hepatitis A vaccine, unspecified;True;SNOMED-CT-1010308001;Inactivated hepatitis A vaccine, unspecified;True;12;4
@@ -356,20 +356,20 @@ VAC0125;AREPANRIX;False;SNOMED-CT-1181000221105;Influenza vaccine, unspecified;F
 VAC0125;AREPANRIX;False;SNOMED-CT-836377006;Influenza vaccine, unspecified;False;;
 VAC0126;HEVAC B;False;SNOMED-CT-871822003;Hepatitis B vaccine, unspecified;True;7;0
 VAC0126;HEVAC B;False;SNOMED-CT-871925000;Hepatitis B vaccine, unspecified;True;7;0
-VAC0127;HB VAX DNA 5 µg;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;11;0
-VAC0127;HB VAX DNA 5 µg;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;11;0
-VAC0127;HB VAX DNA 5 µg;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;11;0
+VAC0127;HB VAX DNA 5 µg;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC0127;HB VAX DNA 5 µg;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC0127;HB VAX DNA 5 µg;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;13;0
 VAC0127;HB VAX DNA 5 µg;False;SNOMED-CT-871822003;Hepatitis B vaccine, unspecified;False;;
 VAC0127;HB VAX DNA 5 µg;False;SNOMED-CT-871925000;Hepatitis B vaccine, unspecified;False;;
-VAC0128;HB VAX DNA 10 µg;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC0128;HB VAX DNA 10 µg;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC0128;HB VAX DNA 10 µg;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC0128;HB VAX DNA 10 µg;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC0128;HB VAX DNA 10 µg;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC0128;HB VAX DNA 10 µg;False;SNOMED-CT-871822003;Hepatitis B vaccine, unspecified;False;;
 VAC0128;HB VAX DNA 10 µg;False;SNOMED-CT-871925000;Hepatitis B vaccine, unspecified;False;;
-VAC0129;HB VAX DNA 40 µg;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;11;0
-VAC0129;HB VAX DNA 40 µg;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;11;0
-VAC0129;HB VAX DNA 40 µg;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;11;0
+VAC0129;HB VAX DNA 40 µg;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC0129;HB VAX DNA 40 µg;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC0129;HB VAX DNA 40 µg;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;13;0
 VAC0129;HB VAX DNA 40 µg;False;SNOMED-CT-871822003;Hepatitis B vaccine, unspecified;False;;
 VAC0129;HB VAX DNA 40 µg;False;SNOMED-CT-871925000;Hepatitis B vaccine, unspecified;False;;
 VAC0130;MMR vaccine, live attenuated, unspecified;True;SNOMED-CT-2241000221103;MMR vaccine, live attenuated, unspecified;True;26;2
@@ -410,8 +410,8 @@ VAC0143;Haemophilus influenzae B (or Hib) vaccine, unspecified;True;SNOMED-CT-83
 VAC0143;Haemophilus influenzae B (or Hib) vaccine, unspecified;True;SNOMED-CT-871764007;Haemophilus influenzae B (or Hib) vaccine, unspecified;True;19;3
 VAC0144;Cholera vaccine, unspecified;True;SNOMED-CT-836383009;Cholera vaccine, unspecified;True;10;2
 VAC0144;Cholera vaccine, unspecified;True;SNOMED-CT-991000221105;Cholera vaccine, unspecified;True;10;2
-VAC0145;Tick-borne encephalitis vaccine, unspecified;True;SNOMED-CT-836403007;Tick-borne encephalitis vaccine, unspecified;True;8;2
-VAC0145;Tick-borne encephalitis vaccine, unspecified;True;SNOMED-CT-871719005;Tick-borne encephalitis vaccine, unspecified;True;8;2
+VAC0145;Tick-borne encephalitis vaccine, unspecified;True;SNOMED-CT-836403007;Tick-borne encephalitis vaccine, unspecified;True;9;2
+VAC0145;Tick-borne encephalitis vaccine, unspecified;True;SNOMED-CT-871719005;Tick-borne encephalitis vaccine, unspecified;True;9;2
 VAC0146;Live attenuated Japanese Encephalitis vaccine 14-14-2 strain, unspecified;True;SNOMED-CT-836378001;Japanese encephalitis vaccine, unspecified;True;8;0
 VAC0146;Live attenuated Japanese Encephalitis vaccine 14-14-2 strain, unspecified;True;SNOMED-CT-871724008;Japanese encephalitis vaccine, unspecified;True;8;0
 VAC0147;Influenza A(H1N1)2009 vaccine, unspecified;True;SNOMED-CT-1157356006;Influenza A(H1N1)2009 vaccine, unspecified;True;11;2
@@ -538,7 +538,7 @@ VAC0196;BIAVAX;False;;;;
 VAC0197;BIAVAX II;False;;;;
 VAC0198;BIKEN-HB;False;SNOMED-CT-871822003;Hepatitis B vaccine, unspecified;True;7;0
 VAC0198;BIKEN-HB;False;SNOMED-CT-871925000;Hepatitis B vaccine, unspecified;True;7;0
-VAC0199;BIMMUGEN;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC0199;BIMMUGEN;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC0199;BIMMUGEN;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC0199;BIMMUGEN;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC0199;BIMMUGEN;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;False;;
@@ -645,7 +645,7 @@ VAC0242;HBY;False;SNOMED-CT-871822003;Hepatitis B vaccine, unspecified;False;;
 VAC0242;HBY;False;SNOMED-CT-871925000;Hepatitis B vaccine, unspecified;False;;
 VAC0243;HEPA-B INJECTION;False;SNOMED-CT-871822003;Hepatitis B vaccine, unspecified;True;7;0
 VAC0243;HEPA-B INJECTION;False;SNOMED-CT-871925000;Hepatitis B vaccine, unspecified;True;7;0
-VAC0244;HEPRECOMB;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC0244;HEPRECOMB;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC0244;HEPRECOMB;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC0244;HEPRECOMB;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC0244;HEPRECOMB;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;False;;
@@ -835,7 +835,7 @@ VAC0322;PARIORIX;False;SNOMED-CT-871738001;Mumps vaccine, unspecified;True;12;0
 VAC0323;PAVIVAC-SEVAC;False;SNOMED-CT-836382004;Live attenuated measles vaccine, unspecified;True;25;0
 VAC0323;PAVIVAC-SEVAC;False;SNOMED-CT-871765008;Live attenuated measles vaccine, unspecified;True;25;0
 VAC0323;PAVIVAC-SEVAC;False;SNOMED-CT-871766009;Live attenuated measles vaccine, unspecified;True;25;0
-VAC0324;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;SNOMED-CT-1052328007;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;3;1
+VAC0324;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;SNOMED-CT-1052328007;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;4;1
 VAC0324;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;SNOMED-CT-1801000221105;Pneumococcal conjugate vaccine, serotypes unspecified;False;;
 VAC0324;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;SNOMED-CT-836398006;Pneumococcal vaccine, unspecified;False;;
 VAC0324;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;SNOMED-CT-981000221107;Pneumococcal vaccine, unspecified;False;;
@@ -867,7 +867,7 @@ VAC0338;POLIACEL;False;SNOMED-CT-871888001;Pentavalent DTaPHibIPV vaccine, unspe
 VAC0338;POLIACEL;False;SNOMED-CT-871887006;Pentavalent Diphtheria-Tetanus-Pertussis-Hib-Polio (DTPerHibIPV) vaccine, unspecified;False;;
 VAC0339;Pneumococcal polysaccharide vaccine 23-valent, unspecified;True;SNOMED-CT-836398006;Pneumococcal vaccine, unspecified;True;19;0
 VAC0339;Pneumococcal polysaccharide vaccine 23-valent, unspecified;True;SNOMED-CT-981000221107;Pneumococcal vaccine, unspecified;True;19;0
-VAC0341;PREVNAR;False;SNOMED-CT-1052328007;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;3;0
+VAC0341;PREVNAR;False;SNOMED-CT-1052328007;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;4;0
 VAC0341;PREVNAR;False;SNOMED-CT-1801000221105;Pneumococcal conjugate vaccine, serotypes unspecified;False;;
 VAC0341;PREVNAR;False;SNOMED-CT-836398006;Pneumococcal vaccine, unspecified;False;;
 VAC0341;PREVNAR;False;SNOMED-CT-981000221107;Pneumococcal vaccine, unspecified;False;;
@@ -1221,9 +1221,9 @@ VAC0478;COVAXIS;False;SNOMED-CT-871876003;Diph-T-aP/ap, unspecified;False;;
 VAC0479;TRIAXIS;False;SNOMED-CT-2051000221107;Tdap - Diphtheria-Tetanus-Pertussis vaccine, low dose, unspecified;True;8;0
 VAC0479;TRIAXIS;False;SNOMED-CT-462321000124107;Tdap - Diphtheria-Tetanus-Pertussis vaccine, low dose, unspecified;True;8;0
 VAC0479;TRIAXIS;False;SNOMED-CT-871876003;Diph-T-aP/ap, unspecified;False;;
-VAC0480;FENDRIX;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;11;0
-VAC0480;FENDRIX;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;11;0
-VAC0480;FENDRIX;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;11;0
+VAC0480;FENDRIX;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC0480;FENDRIX;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC0480;FENDRIX;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;13;0
 VAC0480;FENDRIX;False;SNOMED-CT-871822003;Hepatitis B vaccine, unspecified;False;;
 VAC0480;FENDRIX;False;SNOMED-CT-871925000;Hepatitis B vaccine, unspecified;False;;
 VAC0481;TRIVIVAX;False;SNOMED-CT-2241000221103;MMR vaccine, live attenuated, unspecified;True;26;0
@@ -1436,8 +1436,8 @@ VAC0573;AGRIFLU;False;SNOMED-CT-1181000221105;Influenza vaccine, unspecified;Tru
 VAC0573;AGRIFLU;False;SNOMED-CT-836377006;Influenza vaccine, unspecified;True;107;0
 VAC0574;Td POLIO ADSORBED;False;SNOMED-CT-871838009;dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified;True;4;0
 VAC0574;Td POLIO ADSORBED;False;SNOMED-CT-871837004;Diphtheria-Tetanus-Polio vaccine, unspecified;False;;
-VAC0575;FSME-IMMUN;False;SNOMED-CT-836403007;Tick-borne encephalitis vaccine, unspecified;True;8;0
-VAC0575;FSME-IMMUN;False;SNOMED-CT-871719005;Tick-borne encephalitis vaccine, unspecified;True;8;0
+VAC0575;FSME-IMMUN;False;SNOMED-CT-836403007;Tick-borne encephalitis vaccine, unspecified;True;9;0
+VAC0575;FSME-IMMUN;False;SNOMED-CT-871719005;Tick-borne encephalitis vaccine, unspecified;True;9;0
 VAC0576;FLUVIRAL;False;SNOMED-CT-1181000221105;Influenza vaccine, unspecified;True;107;0
 VAC0576;FLUVIRAL;False;SNOMED-CT-836377006;Influenza vaccine, unspecified;True;107;0
 VAC0577;TRIPACEL HYBRID;False;SNOMED-CT-1297217008;DTaP - Diphtheria-Tetanus-Pertussis vaccine, standard dose, unspecified;True;14;0
@@ -2157,7 +2157,7 @@ VAC0913;BIMERVAX;False;SNOMED-CT-08427711324775;BIMERVAX;True;1;1
 VAC0913;BIMERVAX;False;SNOMED-CT-1119305005;COVID-19 vaccine, unspecified;False;;
 VAC0913;BIMERVAX;False;SNOMED-CT-1162643001;COVID-19 protein subunit vaccine, recombinant spike protein, unspecified;False;;
 VAC0913;BIMERVAX;False;SNOMED-CT-28531000087107;COVID-19 vaccine, unspecified;False;;
-VAC0914;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;1
+VAC0914;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;1
 VAC0914;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC0914;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC0914;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;False;;
@@ -2169,9 +2169,9 @@ VAC0915;Hepatitis B vaccine, monovalent, adult dose, unspecified;True;SNOMED-CT-
 VAC0915;Hepatitis B vaccine, monovalent, adult dose, unspecified;True;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC0915;Hepatitis B vaccine, monovalent, adult dose, unspecified;True;SNOMED-CT-871822003;Hepatitis B vaccine, unspecified;False;;
 VAC0915;Hepatitis B vaccine, monovalent, adult dose, unspecified;True;SNOMED-CT-871925000;Hepatitis B vaccine, unspecified;False;;
-VAC0916;Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified;True;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;11;0
-VAC0916;Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified;True;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;11;0
-VAC0916;Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified;True;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;11;0
+VAC0916;Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified;True;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC0916;Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified;True;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC0916;Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified;True;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;13;0
 VAC0916;Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified;True;SNOMED-CT-871822003;Hepatitis B vaccine, unspecified;False;;
 VAC0916;Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified;True;SNOMED-CT-871925000;Hepatitis B vaccine, unspecified;False;;
 VAC0917;Hepatitis E vaccine, unspecified;True;;;;
@@ -2208,8 +2208,8 @@ VAC0931;FLUBLOK QUADRIVALENT;False;SNOMED-CT-1181000221105;Influenza vaccine, un
 VAC0931;FLUBLOK QUADRIVALENT;False;SNOMED-CT-836377006;Influenza vaccine, unspecified;True;107;0
 VAC0932;Quadrivalent recombinant influenza vaccine, unspecified;True;SNOMED-CT-1181000221105;Influenza vaccine, unspecified;True;107;0
 VAC0932;Quadrivalent recombinant influenza vaccine, unspecified;True;SNOMED-CT-836377006;Influenza vaccine, unspecified;True;107;0
-VAC0933;TICOVAC 2,7µg;False;SNOMED-CT-836403007;Tick-borne encephalitis vaccine, unspecified;True;8;0
-VAC0933;TICOVAC 2,7µg;False;SNOMED-CT-871719005;Tick-borne encephalitis vaccine, unspecified;True;8;0
+VAC0933;TICOVAC 2,7µg;False;SNOMED-CT-836403007;Tick-borne encephalitis vaccine, unspecified;True;9;0
+VAC0933;TICOVAC 2,7µg;False;SNOMED-CT-871719005;Tick-borne encephalitis vaccine, unspecified;True;9;0
 VAC0934;VACCIN OREILLONS AVENTIS PASTEUR MSD;False;SNOMED-CT-836498007;Mumps vaccine, unspecified;True;12;0
 VAC0934;VACCIN OREILLONS AVENTIS PASTEUR MSD;False;SNOMED-CT-871737006;Mumps vaccine, unspecified;True;12;0
 VAC0934;VACCIN OREILLONS AVENTIS PASTEUR MSD;False;SNOMED-CT-871738001;Mumps vaccine, unspecified;True;12;0
@@ -2490,9 +2490,9 @@ VAC1026;SOBERANA 02 FINLAY-FR-2 COVID-19 VACCINE;False;SNOMED-CT-1119305005;COVI
 VAC1026;SOBERANA 02 FINLAY-FR-2 COVID-19 VACCINE;False;SNOMED-CT-28531000087107;COVID-19 vaccine, unspecified;False;;
 VAC1027;KOVIVAC CHUMAKOV COVID-19 VACCINE;False;SNOMED-CT-1119305005;COVID-19 vaccine, unspecified;True;130;0
 VAC1027;KOVIVAC CHUMAKOV COVID-19 VACCINE;False;SNOMED-CT-28531000087107;COVID-19 vaccine, unspecified;True;130;0
-VAC1028;RECOMBIVAX HB DIALYSÉ;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;11;0
-VAC1028;RECOMBIVAX HB DIALYSÉ;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;11;0
-VAC1028;RECOMBIVAX HB DIALYSÉ;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;11;0
+VAC1028;RECOMBIVAX HB DIALYSÉ;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC1028;RECOMBIVAX HB DIALYSÉ;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC1028;RECOMBIVAX HB DIALYSÉ;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;13;0
 VAC1028;RECOMBIVAX HB DIALYSÉ;False;SNOMED-CT-871822003;Hepatitis B vaccine, unspecified;False;;
 VAC1028;RECOMBIVAX HB DIALYSÉ;False;SNOMED-CT-871925000;Hepatitis B vaccine, unspecified;False;;
 VAC1029;QUINTANRIX;False;SNOMED-CT-871886002;DTPerHibHepB pentavalent vaccine, unspecified;True;17;0
@@ -2507,7 +2507,7 @@ VAC1032;SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.1 (25 µg/25 µg) MODERNA;False;SN
 VAC1033;COMIRNATY ORIGINAL/OMICRON BA.4-5 (5/5 µg) BIONTECH-PFIZER;False;SNOMED-CT-1287595003;COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 5 micrograms, unspecified;True;2;0
 VAC1033;COMIRNATY ORIGINAL/OMICRON BA.4-5 (5/5 µg) BIONTECH-PFIZER;False;SNOMED-CT-1119305005;COVID-19 vaccine, unspecified;False;;
 VAC1033;COMIRNATY ORIGINAL/OMICRON BA.4-5 (5/5 µg) BIONTECH-PFIZER;False;SNOMED-CT-28531000087107;COVID-19 vaccine, unspecified;False;;
-VAC1034;HEBERBIOVAC B 10 µg;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC1034;HEBERBIOVAC B 10 µg;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC1034;HEBERBIOVAC B 10 µg;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1034;HEBERBIOVAC B 10 µg;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1034;HEBERBIOVAC B 10 µg;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;False;;
@@ -2525,8 +2525,8 @@ VAC1036;SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.4-5 25 µg/25 µg MODERNA;False;SN
 VAC1037;Tick-borne encephalitis vaccine, Neudörfl strain, paediatric dose, unspecified;True;SNOMED-CT-1287338003;Tick-borne encephalitis vaccine, Neudörfl strain, paediatric dose, unspecified;True;3;1
 VAC1037;Tick-borne encephalitis vaccine, Neudörfl strain, paediatric dose, unspecified;True;SNOMED-CT-836403007;Tick-borne encephalitis vaccine, unspecified;False;;
 VAC1037;Tick-borne encephalitis vaccine, Neudörfl strain, paediatric dose, unspecified;True;SNOMED-CT-871719005;Tick-borne encephalitis vaccine, unspecified;False;;
-VAC1038;Tick-borne encephalitis vaccine, Neudörfl strain, adult dose, unspecified;True;SNOMED-CT-836403007;Tick-borne encephalitis vaccine, unspecified;True;8;0
-VAC1038;Tick-borne encephalitis vaccine, Neudörfl strain, adult dose, unspecified;True;SNOMED-CT-871719005;Tick-borne encephalitis vaccine, unspecified;True;8;0
+VAC1038;Tick-borne encephalitis vaccine, Neudörfl strain, adult dose, unspecified;True;SNOMED-CT-836403007;Tick-borne encephalitis vaccine, unspecified;True;9;0
+VAC1038;Tick-borne encephalitis vaccine, Neudörfl strain, adult dose, unspecified;True;SNOMED-CT-871719005;Tick-borne encephalitis vaccine, unspecified;True;9;0
 VAC1039;COVID-19 mRNA vaccine, original virus, 50 µg, unspecified;True;SNOMED-CT-1287964002;COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, original virus;True;29;0
 VAC1039;COVID-19 mRNA vaccine, original virus, 50 µg, unspecified;True;SNOMED-CT-1119305005;COVID-19 vaccine, unspecified;False;;
 VAC1039;COVID-19 mRNA vaccine, original virus, 50 µg, unspecified;True;SNOMED-CT-28531000087107;COVID-19 vaccine, unspecified;False;;
@@ -2565,7 +2565,7 @@ VAC1055;NUVAXOVID XBB.1.5;False;SNOMED-CT-1162643001;COVID-19 protein subunit va
 VAC1055;NUVAXOVID XBB.1.5;False;SNOMED-CT-1119305005;COVID-19 vaccine, unspecified;False;;
 VAC1055;NUVAXOVID XBB.1.5;False;SNOMED-CT-28531000087107;COVID-19 vaccine, unspecified;False;;
 VAC1056;R21/MATRIX-M;False;SNOMED-CT-45861000087106;Malaria vaccine, unspecified;True;4;0
-VAC1057;ENGERIX B JUNIOR;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC1057;ENGERIX B JUNIOR;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC1057;ENGERIX B JUNIOR;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1057;ENGERIX B JUNIOR;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1057;ENGERIX B JUNIOR;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;False;;
@@ -2718,8 +2718,8 @@ VAC1136;23-valent Pneumococcus conjugate vaccine, unspecified;True;SNOMED-CT-111
 VAC1136;23-valent Pneumococcus conjugate vaccine, unspecified;True;SNOMED-CT-1801000221105;Pneumococcal conjugate vaccine, serotypes unspecified;False;;
 VAC1136;23-valent Pneumococcus conjugate vaccine, unspecified;True;SNOMED-CT-836398006;Pneumococcal vaccine, unspecified;False;;
 VAC1136;23-valent Pneumococcus conjugate vaccine, unspecified;True;SNOMED-CT-981000221107;Pneumococcal vaccine, unspecified;False;;
-VAC1137;Whole inactivated tick-borne encephalitis vaccine, strain K23, unspecified;True;SNOMED-CT-836403007;Tick-borne encephalitis vaccine, unspecified;True;8;0
-VAC1137;Whole inactivated tick-borne encephalitis vaccine, strain K23, unspecified;True;SNOMED-CT-871719005;Tick-borne encephalitis vaccine, unspecified;True;8;0
+VAC1137;Whole inactivated tick-borne encephalitis vaccine, strain K23, unspecified;True;SNOMED-CT-836403007;Tick-borne encephalitis vaccine, unspecified;True;9;0
+VAC1137;Whole inactivated tick-borne encephalitis vaccine, strain K23, unspecified;True;SNOMED-CT-871719005;Tick-borne encephalitis vaccine, unspecified;True;9;0
 VAC1138;COVID-19 recombinant protein subunit vaccine;True;SNOMED-CT-1162643001;COVID-19 protein subunit vaccine, recombinant spike protein, unspecified;True;43;0
 VAC1138;COVID-19 recombinant protein subunit vaccine;True;SNOMED-CT-1119305005;COVID-19 vaccine, unspecified;False;;
 VAC1138;COVID-19 recombinant protein subunit vaccine;True;SNOMED-CT-28531000087107;COVID-19 vaccine, unspecified;False;;
@@ -2910,9 +2910,9 @@ VAC1224;Respiratory syncytial virus (RSV) vaccine, recombinant, F-glycoprotein (
 VAC1225;DT-TAB Diphtheria, tetanus, typhoid and paratypoid A and B vaccines, unspecified;True;;;;
 VAC1226;Combined hepatitis A and B vaccine, pediatric dose, unspecified;True;SNOMED-CT-121000221105;Combined hepatitis A and hepatitis B vaccine, unspecified;True;6;0
 VAC1226;Combined hepatitis A and B vaccine, pediatric dose, unspecified;True;SNOMED-CT-871803007;Combined hepatitis A and hepatitis B vaccine, unspecified;True;6;0
-VAC1227;Recombinant hepatitis B vaccine, pediatric dose, unspecified;True;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;11;0
-VAC1227;Recombinant hepatitis B vaccine, pediatric dose, unspecified;True;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;11;0
-VAC1227;Recombinant hepatitis B vaccine, pediatric dose, unspecified;True;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;11;0
+VAC1227;Recombinant hepatitis B vaccine, pediatric dose, unspecified;True;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC1227;Recombinant hepatitis B vaccine, pediatric dose, unspecified;True;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC1227;Recombinant hepatitis B vaccine, pediatric dose, unspecified;True;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;13;0
 VAC1227;Recombinant hepatitis B vaccine, pediatric dose, unspecified;True;SNOMED-CT-871822003;Hepatitis B vaccine, unspecified;False;;
 VAC1227;Recombinant hepatitis B vaccine, pediatric dose, unspecified;True;SNOMED-CT-871925000;Hepatitis B vaccine, unspecified;False;;
 VAC1228;Respiratory syncytial virus (RSV) vaccine, recombinant, F protein-derived RSVPreF3 antigen, unspecified;True;SNOMED-CT-51311000087100;RSV vaccine, unspecified;True;7;0
@@ -3041,9 +3041,9 @@ VAC1285;NOPV2 BIO FARMA;False;SNOMED-CT-1031000221108;Polio vaccine, unspecified
 VAC1286;VAKSIN COVID-19 BIO FARMA;False;SNOMED-CT-1162643001;COVID-19 protein subunit vaccine, recombinant spike protein, unspecified;True;43;0
 VAC1286;VAKSIN COVID-19 BIO FARMA;False;SNOMED-CT-1119305005;COVID-19 vaccine, unspecified;False;;
 VAC1286;VAKSIN COVID-19 BIO FARMA;False;SNOMED-CT-28531000087107;COVID-19 vaccine, unspecified;False;;
-VAC1287;VAKSIN HEPATITIS B BIO FARMA;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;11;0
-VAC1287;VAKSIN HEPATITIS B BIO FARMA;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;11;0
-VAC1287;VAKSIN HEPATITIS B BIO FARMA;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;11;0
+VAC1287;VAKSIN HEPATITIS B BIO FARMA;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC1287;VAKSIN HEPATITIS B BIO FARMA;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC1287;VAKSIN HEPATITIS B BIO FARMA;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;13;0
 VAC1287;VAKSIN HEPATITIS B BIO FARMA;False;SNOMED-CT-871822003;Hepatitis B vaccine, unspecified;False;;
 VAC1287;VAKSIN HEPATITIS B BIO FARMA;False;SNOMED-CT-871925000;Hepatitis B vaccine, unspecified;False;;
 VAC1288;VAKSIN POLIOMYELITIS BIO FARMA;False;SNOMED-CT-871739009;Inactivated Polio vaccine, unspecified;True;15;0
@@ -3077,7 +3077,7 @@ VAC1298;BETT;False;SNOMED-CT-2021000221101;Tetanus vaccine, unspecified;True;36;
 VAC1298;BETT;False;SNOMED-CT-777725002;Tetanus vaccine, unspecified;True;36;0
 VAC1298;BETT;False;SNOMED-CT-863911006;Tetanus vaccine, unspecified;True;36;0
 VAC1298;BETT;False;SNOMED-CT-871742003;Tetanus vaccine, unspecified;True;36;0
-VAC1299;BEVAC 10 µg;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC1299;BEVAC 10 µg;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC1299;BEVAC 10 µg;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1299;BEVAC 10 µg;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1299;BEVAC 10 µg;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;False;;
@@ -3148,7 +3148,7 @@ VAC1322;PNEUMOSIL;False;SNOMED-CT-981000221107;Pneumococcal vaccine, unspecified
 VAC1323;MENFIVE;False;;;;
 VAC1324;NASOVAC-S;False;SNOMED-CT-1181000221105;Influenza vaccine, unspecified;True;107;0
 VAC1324;NASOVAC-S;False;SNOMED-CT-836377006;Influenza vaccine, unspecified;True;107;0
-VAC1325;GENEVAC-B 10 µg;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC1325;GENEVAC-B 10 µg;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC1325;GENEVAC-B 10 µg;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1325;GENEVAC-B 10 µg;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1325;GENEVAC-B 10 µg;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;False;;
@@ -3160,9 +3160,9 @@ VAC1326;GENEVAC-B 20 µg;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombi
 VAC1326;GENEVAC-B 20 µg;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1326;GENEVAC-B 20 µg;False;SNOMED-CT-871822003;Hepatitis B vaccine, unspecified;False;;
 VAC1326;GENEVAC-B 20 µg;False;SNOMED-CT-871925000;Hepatitis B vaccine, unspecified;False;;
-VAC1327;HEPATITIS B SII;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;11;0
-VAC1327;HEPATITIS B SII;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;11;0
-VAC1327;HEPATITIS B SII;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;11;0
+VAC1327;HEPATITIS B SII;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC1327;HEPATITIS B SII;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC1327;HEPATITIS B SII;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;13;0
 VAC1327;HEPATITIS B SII;False;SNOMED-CT-871822003;Hepatitis B vaccine, unspecified;False;;
 VAC1327;HEPATITIS B SII;False;SNOMED-CT-871925000;Hepatitis B vaccine, unspecified;False;;
 VAC1328;TUBERVAC;False;SNOMED-CT-1861000221106;BCG vaccine, unspecified;True;19;0
@@ -3242,7 +3242,7 @@ VAC1353;IL-YANG FLU VACCINE;False;SNOMED-CT-1181000221105;Influenza vaccine, uns
 VAC1353;IL-YANG FLU VACCINE;False;SNOMED-CT-836377006;Influenza vaccine, unspecified;True;107;0
 VAC1354;EUFORVAC;False;SNOMED-CT-871886002;DTPerHibHepB pentavalent vaccine, unspecified;True;17;0
 VAC1355;EUPENTA;False;SNOMED-CT-871886002;DTPerHibHepB pentavalent vaccine, unspecified;True;17;0
-VAC1356;EUVAX B 10 µg;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC1356;EUVAX B 10 µg;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC1356;EUVAX B 10 µg;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1356;EUVAX B 10 µg;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1356;EUVAX B 10 µg;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;False;;
@@ -3255,7 +3255,7 @@ VAC1358;SKYCELLFLU QUADRIVALENT;False;SNOMED-CT-1181000221105;Influenza vaccine,
 VAC1358;SKYCELLFLU QUADRIVALENT;False;SNOMED-CT-836377006;Influenza vaccine, unspecified;True;107;0
 VAC1359;SKYCELLFLU TRIVALENT;False;SNOMED-CT-1181000221105;Influenza vaccine, unspecified;True;107;0
 VAC1359;SKYCELLFLU TRIVALENT;False;SNOMED-CT-836377006;Influenza vaccine, unspecified;True;107;0
-VAC1360;HEPAMUNE B 10 µg;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC1360;HEPAMUNE B 10 µg;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC1360;HEPAMUNE B 10 µg;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1360;HEPAMUNE B 10 µg;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1360;HEPAMUNE B 10 µg;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;False;;
@@ -3271,7 +3271,7 @@ VAC1362;SK TD;False;SNOMED-CT-2031000221103;Diphtheria-tetanus Td vaccine, unspe
 VAC1362;SK TD;False;SNOMED-CT-871827009;Diphtheria-tetanus Td vaccine, unspecified;True;15;0
 VAC1362;SK TD;False;SNOMED-CT-775641005;Tetanus diphtheria vaccine, unspecified;False;;
 VAC1362;SK TD;False;SNOMED-CT-871826000;Tetanus diphtheria vaccine, unspecified;False;;
-VAC1363;HEPAVAX-GENE B 10 µg;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC1363;HEPAVAX-GENE B 10 µg;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC1363;HEPAVAX-GENE B 10 µg;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1363;HEPAVAX-GENE B 10 µg;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1363;HEPAVAX-GENE B 10 µg;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;False;;
@@ -3299,7 +3299,7 @@ VAC1370;JENVAC;False;SNOMED-CT-871725009;Inactivated Japanese Encephalitis vacci
 VAC1370;JENVAC;False;SNOMED-CT-871825001;Inactivated Japanese Encephalitis vaccine, unspecified;True;14;0
 VAC1370;JENVAC;False;SNOMED-CT-836378001;Japanese encephalitis vaccine, unspecified;False;;
 VAC1370;JENVAC;False;SNOMED-CT-871724008;Japanese encephalitis vaccine, unspecified;False;;
-VAC1371;REVAC-B MCF;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC1371;REVAC-B MCF;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC1371;REVAC-B MCF;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1371;REVAC-B MCF;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1371;REVAC-B MCF;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;False;;
@@ -3394,7 +3394,7 @@ VAC1406;SPUTNIK V;False;SNOMED-CT-28531000087107;COVID-19 vaccine, unspecified;T
 VAC1407;NOVOHIB;False;SNOMED-CT-2041000221105;Haemophilus influenzae B (or Hib) vaccine, unspecified;True;19;0
 VAC1407;NOVOHIB;False;SNOMED-CT-836380007;Haemophilus influenzae B (or Hib) vaccine, unspecified;True;19;0
 VAC1407;NOVOHIB;False;SNOMED-CT-871764007;Haemophilus influenzae B (or Hib) vaccine, unspecified;True;19;0
-VAC1408;ENIVACHB;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC1408;ENIVACHB;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC1408;ENIVACHB;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1408;ENIVACHB;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1408;ENIVACHB;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;False;;
@@ -3547,8 +3547,8 @@ VAC1473;COVID-19 mRNA vaccine, encoding a fragment of the SARS-CoV-2 spike prote
 VAC1474;ENFLONSIA (CLESROVIMAB);False;;;;
 VAC1475;Human monoclonal antibody against respiratory syncytial virus (RSV), clesrovimab, unspecified;True;;;;
 VAC1476;Meningococcal vaccine against A, C, W, Y (conjugated polysaccharide) and B;True;;;;
-VAC1477;ENCEPUR 0,25 mL;False;SNOMED-CT-836403007;Tick-borne encephalitis vaccine, unspecified;True;8;0
-VAC1477;ENCEPUR 0,25 mL;False;SNOMED-CT-871719005;Tick-borne encephalitis vaccine, unspecified;True;8;0
+VAC1477;ENCEPUR N ENFANT;False;SNOMED-CT-836403007;Tick-borne encephalitis vaccine, unspecified;True;9;0
+VAC1477;ENCEPUR N ENFANT;False;SNOMED-CT-871719005;Tick-borne encephalitis vaccine, unspecified;True;9;0
 VAC1478;SYNAGIS 50 mg (PALIZIVUMAB);False;;;;
 VAC1479;VACPERTAGEN;False;SNOMED-CT-601000221108;Acellular pertussis vaccine, unspecified;True;15;0
 VAC1479;VACPERTAGEN;False;SNOMED-CT-871758000;Pertussis vaccine, unspecified;False;;
@@ -3558,3 +3558,25 @@ VAC1480;PNEUMOVAX 23;False;SNOMED-CT-981000221107;Pneumococcal vaccine, unspecif
 VAC1481;FLUVACCINOL;False;SNOMED-CT-1181000221105;Influenza vaccine, unspecified;True;107;0
 VAC1481;FLUVACCINOL;False;SNOMED-CT-836377006;Influenza vaccine, unspecified;True;107;0
 VAC1482;IMMUNOGLOBULINE HUMAINE DE L'HÉPATITE B LFB;False;;;;
+VAC1483;ENCEPUR N;False;SNOMED-CT-836403007;Tick-borne encephalitis vaccine, unspecified;True;9;0
+VAC1483;ENCEPUR N;False;SNOMED-CT-871719005;Tick-borne encephalitis vaccine, unspecified;True;9;0
+VAC1484;HEPRECOMB ENFANT;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC1484;HEPRECOMB ENFANT;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC1484;HEPRECOMB ENFANT;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC1484;HEPRECOMB ENFANT;False;SNOMED-CT-871822003;Hepatitis B vaccine, unspecified;False;;
+VAC1484;HEPRECOMB ENFANT;False;SNOMED-CT-871925000;Hepatitis B vaccine, unspecified;False;;
+VAC1485;GEN H-B-VAX 5;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC1485;GEN H-B-VAX 5;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC1485;GEN H-B-VAX 5;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;True;13;0
+VAC1485;GEN H-B-VAX 5;False;SNOMED-CT-871822003;Hepatitis B vaccine, unspecified;False;;
+VAC1485;GEN H-B-VAX 5;False;SNOMED-CT-871925000;Hepatitis B vaccine, unspecified;False;;
+VAC1486;GEN H-B-VAX 10;False;SNOMED-CT-1296864005;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
+VAC1486;GEN H-B-VAX 10;False;SNOMED-CT-1296676008;Hepatitis B vaccine, recombinant, unspecified;False;;
+VAC1486;GEN H-B-VAX 10;False;SNOMED-CT-1304283008;Hepatitis B vaccine, recombinant, unspecified;False;;
+VAC1486;GEN H-B-VAX 10;False;SNOMED-CT-836374004;Hepatitis B vaccine, recombinant, unspecified;False;;
+VAC1486;GEN H-B-VAX 10;False;SNOMED-CT-871822003;Hepatitis B vaccine, unspecified;False;;
+VAC1486;GEN H-B-VAX 10;False;SNOMED-CT-871925000;Hepatitis B vaccine, unspecified;False;;
+VAC1487;PREVENAR-7;False;SNOMED-CT-1052328007;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;4;0
+VAC1487;PREVENAR-7;False;SNOMED-CT-1801000221105;Pneumococcal conjugate vaccine, serotypes unspecified;False;;
+VAC1487;PREVENAR-7;False;SNOMED-CT-836398006;Pneumococcal vaccine, unspecified;False;;
+VAC1487;PREVENAR-7;False;SNOMED-CT-981000221107;Pneumococcal vaccine, unspecified;False;;

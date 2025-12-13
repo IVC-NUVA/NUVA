@@ -21,12 +21,12 @@ VAC0008;GRIPGUARD;False;CVX-168;Trivalent inactivated influenza vaccine, unspeci
 VAC0008;GRIPGUARD;False;CVX-331;Trivalent inactivated influenza vaccine, unspecified;True;50;0
 VAC0008;GRIPGUARD;False;CVX-15;Inactivated influenza vaccine, split or subunit, unspecified;False;;
 VAC0008;GRIPGUARD;False;CVX-88;Influenza vaccine, unspecified;False;;
-VAC0009;HBVAXPRO 10 µg;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
-VAC0009;HBVAXPRO 10 µg;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC0009;HBVAXPRO 10 µg;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
+VAC0009;HBVAXPRO 10 µg;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC0009;HBVAXPRO 10 µg;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC0010;HBVAXPRO 40 µg;False;CVX-44;Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified;True;5;0
 VAC0010;HBVAXPRO 40 µg;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;False;;
-VAC0011;HBVAXPRO 5 µg;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;True;6;0
+VAC0011;HBVAXPRO 5 µg;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;True;8;0
 VAC0012;IMMUGRIP;False;CVX-168;Trivalent inactivated influenza vaccine, unspecified;True;50;0
 VAC0012;IMMUGRIP;False;CVX-331;Trivalent inactivated influenza vaccine, unspecified;True;50;0
 VAC0012;IMMUGRIP;False;CVX-15;Inactivated influenza vaccine, split or subunit, unspecified;False;;
@@ -55,7 +55,7 @@ VAC0023;PENTAVAC;False;CVX-120;Pentavalent DTaPHibIPV vaccine, unspecified;True;
 VAC0023;PENTAVAC;False;CVX-170;Pentavalent DTaPHibIPV vaccine, unspecified;True;13;0
 VAC0024;PNEUMO 23;False;CVX-33;Pneumococcal polysaccharide vaccine 23-valent, unspecified;True;11;0
 VAC0024;PNEUMO 23;False;CVX-109;Pneumococcal vaccine, unspecified;False;;
-VAC0025;PREVENAR;False;CVX-100;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;3;0
+VAC0025;PREVENAR;False;CVX-100;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;4;0
 VAC0025;PREVENAR;False;CVX-109;Pneumococcal vaccine, unspecified;False;;
 VAC0025;PREVENAR;False;CVX-152;Pneumococcal conjugate vaccine, serotypes unspecified;False;;
 VAC0026;PREVIGRIP;False;CVX-168;Trivalent inactivated influenza vaccine, unspecified;True;50;0
@@ -93,8 +93,8 @@ VAC0042;VACCIN BCG SSI;False;CVX-19;BCG vaccine, unspecified;True;19;0
 VAC0043;BOOSTRIXTETRA;False;;;;
 VAC0044;CERVARIX;False;CVX-118;HPV vaccine bivalent, unspecified;True;3;0
 VAC0044;CERVARIX;False;CVX-137;HPV Vaccine;False;;
-VAC0045;ENGERIX B 10 µg;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
-VAC0045;ENGERIX B 10 µg;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC0045;ENGERIX B 10 µg;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
+VAC0045;ENGERIX B 10 µg;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC0045;ENGERIX B 10 µg;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC0046;ENGERIX B 20 µg;False;CVX-189;Hepatitis B vaccine, monovalent, adult dose, unspecified;True;15;0
 VAC0046;ENGERIX B 20 µg;False;CVX-43;Hepatitis B vaccine, monovalent, adult dose, unspecified;True;15;0
@@ -155,8 +155,8 @@ VAC0074;D.T. COQ MERIEUX;False;CVX-01;DPT Diphtheria-Pertussis-Tetanus vaccine, 
 VAC0076;DTVax;False;CVX-28;DT vaccine, unspecified;True;28;0
 VAC0077;IMOVAX OREILLONS;False;CVX-07;Mumps vaccine, unspecified;True;12;0
 VAC0078;RUDI-ROUVAX;False;CVX-04;Measles-Rubella vaccine, unspecified;True;12;0
-VAC0079;ENCEPUR;False;CVX-222;Tick-borne encephalitis vaccine, unspecified;True;4;0
-VAC0079;ENCEPUR;False;CVX-77;Tick-borne encephalitis vaccine, unspecified;True;4;0
+VAC0079;ENCEPUR;False;CVX-222;Tick-borne encephalitis vaccine, unspecified;True;5;0
+VAC0079;ENCEPUR;False;CVX-77;Tick-borne encephalitis vaccine, unspecified;True;5;0
 VAC0080;BCG PASTEUR;False;CVX-19;BCG vaccine, unspecified;True;19;0
 VAC0082;MENBVAC;False;CVX-164;Meningococcal B vaccine, unspecified;True;4;0
 VAC0083;SYNFLORIX;False;CVX-177;10-valent Pneumococcus conjugate vaccine, unspecified;True;2;0
@@ -187,7 +187,7 @@ VAC0096;VACCIN GRIPPAL RONCHESE (VGR);False;CVX-88;Influenza vaccine, unspecifie
 VAC0097;VACCIN LEPTOSPIRES ICTEROHEMORRAGIAE PASTEUR;False;;;;
 VAC0098;HEXAVAC;False;CVX-146;Hexavalent vaccine DTPCaHibHepB - Diphtheria-Tetanus-Polio-Acellular Pertussis-Hib-HepB, unspecified;True;9;0
 VAC0099;MENINVACT;False;CVX-103;Meningococcal conjugate vaccine C, unspecified;True;11;0
-VAC0101;Hepatitis B vaccine, recombinant, unspecified;True;CVX-45;Hepatitis B vaccine, recombinant, unspecified;True;6;1
+VAC0101;Hepatitis B vaccine, recombinant, unspecified;True;CVX-45;Hepatitis B vaccine, recombinant, unspecified;True;8;1
 VAC0102;Inactivated hepatitis A vaccine, unspecified;True;CVX-85;Inactivated hepatitis A vaccine, unspecified;True;7;1
 VAC0103;MENACTRA;False;CVX-114;Meningococcal ACWY conjugate vaccine, unspecified;True;4;0
 VAC0103;MENACTRA;False;CVX-147;Meningococcal ACWY conjugate vaccine, unspecified;True;4;0
@@ -257,9 +257,9 @@ VAC0125;AREPANRIX;False;CVX-128;Influenza A(H1N1)2009 vaccine, unspecified;True;
 VAC0125;AREPANRIX;False;CVX-15;Inactivated influenza vaccine, split or subunit, unspecified;False;;
 VAC0125;AREPANRIX;False;CVX-88;Influenza vaccine, unspecified;False;;
 VAC0126;HEVAC B;False;;;;
-VAC0127;HB VAX DNA 5 µg;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;True;6;0
-VAC0128;HB VAX DNA 10 µg;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
-VAC0128;HB VAX DNA 10 µg;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC0127;HB VAX DNA 5 µg;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;True;8;0
+VAC0128;HB VAX DNA 10 µg;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
+VAC0128;HB VAX DNA 10 µg;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC0128;HB VAX DNA 10 µg;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC0129;HB VAX DNA 40 µg;False;CVX-44;Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified;True;5;0
 VAC0129;HB VAX DNA 40 µg;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;False;;
@@ -288,8 +288,8 @@ VAC0141;MENVEO;False;CVX-114;Meningococcal ACWY conjugate vaccine, unspecified;F
 VAC0141;MENVEO;False;CVX-147;Meningococcal ACWY conjugate vaccine, unspecified;False;;
 VAC0143;Haemophilus influenzae B (or Hib) vaccine, unspecified;True;CVX-17;Haemophilus influenzae B (or Hib) vaccine, unspecified;True;1;1
 VAC0144;Cholera vaccine, unspecified;True;CVX-26;Cholera vaccine, unspecified;True;8;1
-VAC0145;Tick-borne encephalitis vaccine, unspecified;True;CVX-222;Tick-borne encephalitis vaccine, unspecified;True;4;2
-VAC0145;Tick-borne encephalitis vaccine, unspecified;True;CVX-77;Tick-borne encephalitis vaccine, unspecified;True;4;2
+VAC0145;Tick-borne encephalitis vaccine, unspecified;True;CVX-222;Tick-borne encephalitis vaccine, unspecified;True;5;2
+VAC0145;Tick-borne encephalitis vaccine, unspecified;True;CVX-77;Tick-borne encephalitis vaccine, unspecified;True;5;2
 VAC0146;Live attenuated Japanese Encephalitis vaccine 14-14-2 strain, unspecified;True;CVX-129;Japanese encephalitis vaccine, unspecified;True;8;0
 VAC0146;Live attenuated Japanese Encephalitis vaccine 14-14-2 strain, unspecified;True;CVX-134;Japanese encephalitis vaccine, unspecified;True;8;0
 VAC0147;Influenza A(H1N1)2009 vaccine, unspecified;True;CVX-125;Influenza A(H1N1)2009 vaccine, unspecified;True;11;4
@@ -388,8 +388,8 @@ VAC0195;BEGRIVAC;False;CVX-88;Influenza vaccine, unspecified;False;;
 VAC0196;BIAVAX;False;CVX-38;Rubella-Mumps vaccine, unspecified;True;3;0
 VAC0197;BIAVAX II;False;CVX-38;Rubella-Mumps vaccine, unspecified;True;3;0
 VAC0198;BIKEN-HB;False;;;;
-VAC0199;BIMMUGEN;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
-VAC0199;BIMMUGEN;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC0199;BIMMUGEN;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
+VAC0199;BIMMUGEN;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC0199;BIMMUGEN;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC0200;BIOTHRAX;False;CVX-24;Adjuvanted adsorbed anthrax vaccine;True;5;0
 VAC0200;BIOTHRAX;False;CVX-318;Adjuvanted adsorbed anthrax vaccine;True;5;0
@@ -471,8 +471,8 @@ VAC0242;HBY;False;CVX-189;Hepatitis B vaccine, monovalent, adult dose, unspecifi
 VAC0242;HBY;False;CVX-43;Hepatitis B vaccine, monovalent, adult dose, unspecified;True;15;0
 VAC0242;HBY;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC0243;HEPA-B INJECTION;False;;;;
-VAC0244;HEPRECOMB;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
-VAC0244;HEPRECOMB;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC0244;HEPRECOMB;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
+VAC0244;HEPRECOMB;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC0244;HEPRECOMB;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC0245;HEPTAVAX B;False;;;;
 VAC0246;HIBERNA PRODUCTSIX;False;;;;
@@ -599,7 +599,7 @@ VAC0321;ORIMUNE;False;CVX-182;Monovalent oral polio vaccine - type unknown, unsp
 VAC0321;ORIMUNE;False;CVX-89;Polio vaccine, unspecified;False;;
 VAC0322;PARIORIX;False;CVX-07;Mumps vaccine, unspecified;True;12;0
 VAC0323;PAVIVAC-SEVAC;False;CVX-05;Live attenuated measles vaccine, unspecified;True;25;0
-VAC0324;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;CVX-100;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;3;1
+VAC0324;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;CVX-100;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;4;1
 VAC0324;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;CVX-109;Pneumococcal vaccine, unspecified;False;;
 VAC0324;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;CVX-152;Pneumococcal conjugate vaccine, serotypes unspecified;False;;
 VAC0325;PEDIARIX;False;CVX-110;Diphtheria-Tetanus-Pertussis-Polio-Hepatitis B pentavalent vaccine, unspecified;True;4;0
@@ -623,7 +623,7 @@ VAC0338;POLIACEL;False;CVX-120;Pentavalent DTaPHibIPV vaccine, unspecified;True;
 VAC0338;POLIACEL;False;CVX-170;Pentavalent DTaPHibIPV vaccine, unspecified;True;13;0
 VAC0339;Pneumococcal polysaccharide vaccine 23-valent, unspecified;True;CVX-33;Pneumococcal polysaccharide vaccine 23-valent, unspecified;True;11;1
 VAC0339;Pneumococcal polysaccharide vaccine 23-valent, unspecified;True;CVX-109;Pneumococcal vaccine, unspecified;False;;
-VAC0341;PREVNAR;False;CVX-100;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;3;0
+VAC0341;PREVNAR;False;CVX-100;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;4;0
 VAC0341;PREVNAR;False;CVX-109;Pneumococcal vaccine, unspecified;False;;
 VAC0341;PREVNAR;False;CVX-152;Pneumococcal conjugate vaccine, serotypes unspecified;False;;
 VAC0343;ProHIBiT;False;CVX-46;PRP-D Hib vaccine, unspecified;True;2;0
@@ -1683,8 +1683,8 @@ VAC0912;Hepatitis A vaccine, pediatric dose, unspecified;True;CVX-84;Hepatitis A
 VAC0912;Hepatitis A vaccine, pediatric dose, unspecified;True;CVX-85;Inactivated hepatitis A vaccine, unspecified;False;;
 VAC0913;BIMERVAX;False;CVX-213;COVID-19 vaccine, unspecified;True;166;0
 VAC0913;BIMERVAX;False;CVX-500;COVID-19 vaccine, unspecified;True;166;0
-VAC0914;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;2
-VAC0914;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;2
+VAC0914;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;2
+VAC0914;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;2
 VAC0914;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;CVX-45;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC0915;Hepatitis B vaccine, monovalent, adult dose, unspecified;True;CVX-189;Hepatitis B vaccine, monovalent, adult dose, unspecified;True;15;2
 VAC0915;Hepatitis B vaccine, monovalent, adult dose, unspecified;True;CVX-43;Hepatitis B vaccine, monovalent, adult dose, unspecified;True;15;2
@@ -1984,8 +1984,8 @@ VAC1033;COMIRNATY ORIGINAL/OMICRON BA.4-5 (5/5 µg) BIONTECH-PFIZER;False;CVX-23
 VAC1033;COMIRNATY ORIGINAL/OMICRON BA.4-5 (5/5 µg) BIONTECH-PFIZER;False;CVX-301;COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 5 micrograms, unspecified;True;2;0
 VAC1033;COMIRNATY ORIGINAL/OMICRON BA.4-5 (5/5 µg) BIONTECH-PFIZER;False;CVX-213;COVID-19 vaccine, unspecified;False;;
 VAC1033;COMIRNATY ORIGINAL/OMICRON BA.4-5 (5/5 µg) BIONTECH-PFIZER;False;CVX-500;COVID-19 vaccine, unspecified;False;;
-VAC1034;HEBERBIOVAC B 10 µg;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
-VAC1034;HEBERBIOVAC B 10 µg;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC1034;HEBERBIOVAC B 10 µg;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
+VAC1034;HEBERBIOVAC B 10 µg;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC1034;HEBERBIOVAC B 10 µg;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1035;HEBERBIOVAC HB 20 µg;False;CVX-189;Hepatitis B vaccine, monovalent, adult dose, unspecified;True;15;0
 VAC1035;HEBERBIOVAC HB 20 µg;False;CVX-43;Hepatitis B vaccine, monovalent, adult dose, unspecified;True;15;0
@@ -2051,8 +2051,8 @@ VAC1055;NUVAXOVID XBB.1.5;False;CVX-211;COVID-19 protein subunit vaccine, recomb
 VAC1055;NUVAXOVID XBB.1.5;False;CVX-213;COVID-19 vaccine, unspecified;False;;
 VAC1055;NUVAXOVID XBB.1.5;False;CVX-500;COVID-19 vaccine, unspecified;False;;
 VAC1056;R21/MATRIX-M;False;CVX-67;Malaria vaccine, unspecified;True;4;0
-VAC1057;ENGERIX B JUNIOR;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
-VAC1057;ENGERIX B JUNIOR;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC1057;ENGERIX B JUNIOR;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
+VAC1057;ENGERIX B JUNIOR;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC1057;ENGERIX B JUNIOR;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1058;SPIKEVAX XBB.1.5 0,1 mg/mL dose 50 µg MODERNA;False;CVX-213;COVID-19 vaccine, unspecified;True;166;0
 VAC1058;SPIKEVAX XBB.1.5 0,1 mg/mL dose 50 µg MODERNA;False;CVX-500;COVID-19 vaccine, unspecified;True;166;0
@@ -2184,8 +2184,8 @@ VAC1135;COVID-19 Plasmid DNA vaccine with non-replicating viral vector, adenovir
 VAC1135;COVID-19 Plasmid DNA vaccine with non-replicating viral vector, adenovirus encoding the spike protein of SARS-CoV-2, by inhalation, unspecified;True;CVX-500;COVID-19 vaccine, unspecified;True;166;0
 VAC1136;23-valent Pneumococcus conjugate vaccine, unspecified;True;CVX-152;Pneumococcal conjugate vaccine, serotypes unspecified;True;5;0
 VAC1136;23-valent Pneumococcus conjugate vaccine, unspecified;True;CVX-109;Pneumococcal vaccine, unspecified;False;;
-VAC1137;Whole inactivated tick-borne encephalitis vaccine, strain K23, unspecified;True;CVX-222;Tick-borne encephalitis vaccine, unspecified;True;4;0
-VAC1137;Whole inactivated tick-borne encephalitis vaccine, strain K23, unspecified;True;CVX-77;Tick-borne encephalitis vaccine, unspecified;True;4;0
+VAC1137;Whole inactivated tick-borne encephalitis vaccine, strain K23, unspecified;True;CVX-222;Tick-borne encephalitis vaccine, unspecified;True;5;0
+VAC1137;Whole inactivated tick-borne encephalitis vaccine, strain K23, unspecified;True;CVX-77;Tick-borne encephalitis vaccine, unspecified;True;5;0
 VAC1138;COVID-19 recombinant protein subunit vaccine;True;CVX-213;COVID-19 vaccine, unspecified;True;166;0
 VAC1138;COVID-19 recombinant protein subunit vaccine;True;CVX-500;COVID-19 vaccine, unspecified;True;166;0
 VAC1139;COVID-19 vaccine, non-replicating vector, Newcastle disease virus encoding the SARS-CoV-2 spike protein, unspecified;True;CVX-213;COVID-19 vaccine, unspecified;True;166;0
@@ -2354,7 +2354,7 @@ VAC1224;Respiratory syncytial virus (RSV) vaccine, recombinant, F-glycoprotein (
 VAC1224;Respiratory syncytial virus (RSV) vaccine, recombinant, F-glycoprotein (prefusion) RSV subtypes A and B, unspecified;True;CVX-314;RSV antibody or vaccine, unspecified;False;;
 VAC1225;DT-TAB Diphtheria, tetanus, typhoid and paratypoid A and B vaccines, unspecified;True;;;;
 VAC1226;Combined hepatitis A and B vaccine, pediatric dose, unspecified;True;CVX-104;Combined hepatitis A and hepatitis B vaccine, unspecified;True;6;0
-VAC1227;Recombinant hepatitis B vaccine, pediatric dose, unspecified;True;CVX-45;Hepatitis B vaccine, recombinant, unspecified;True;6;0
+VAC1227;Recombinant hepatitis B vaccine, pediatric dose, unspecified;True;CVX-45;Hepatitis B vaccine, recombinant, unspecified;True;8;0
 VAC1228;Respiratory syncytial virus (RSV) vaccine, recombinant, F protein-derived RSVPreF3 antigen, unspecified;True;CVX-303;Respiratory syncytial virus (RSV) vaccine, recombinant, F protein-derived RSVPreF3 antigen, unspecified;True;2;1
 VAC1228;Respiratory syncytial virus (RSV) vaccine, recombinant, F protein-derived RSVPreF3 antigen, unspecified;True;CVX-304;RSV antibody or vaccine, unspecified;False;;
 VAC1228;Respiratory syncytial virus (RSV) vaccine, recombinant, F protein-derived RSVPreF3 antigen, unspecified;True;CVX-314;RSV antibody or vaccine, unspecified;False;;
@@ -2467,7 +2467,7 @@ VAC1285;NOPV2 BIO FARMA;False;CVX-182;Monovalent oral polio vaccine - type unkno
 VAC1285;NOPV2 BIO FARMA;False;CVX-89;Polio vaccine, unspecified;False;;
 VAC1286;VAKSIN COVID-19 BIO FARMA;False;CVX-213;COVID-19 vaccine, unspecified;True;166;0
 VAC1286;VAKSIN COVID-19 BIO FARMA;False;CVX-500;COVID-19 vaccine, unspecified;True;166;0
-VAC1287;VAKSIN HEPATITIS B BIO FARMA;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;True;6;0
+VAC1287;VAKSIN HEPATITIS B BIO FARMA;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;True;8;0
 VAC1288;VAKSIN POLIOMYELITIS BIO FARMA;False;CVX-10;Inactivated Polio vaccine, unspecified;True;15;0
 VAC1288;VAKSIN POLIOMYELITIS BIO FARMA;False;CVX-324;Inactivated Polio vaccine, unspecified;True;15;0
 VAC1288;VAKSIN POLIOMYELITIS BIO FARMA;False;CVX-89;Polio vaccine, unspecified;False;;
@@ -2497,8 +2497,8 @@ VAC1297;TT BIO FARMA;False;CVX-35;Tetanus vaccine, unspecified;True;36;0
 VAC1298;BETT;False;CVX-112;Tetanus vaccine, unspecified;True;36;0
 VAC1298;BETT;False;CVX-142;Tetanus vaccine, unspecified;True;36;0
 VAC1298;BETT;False;CVX-35;Tetanus vaccine, unspecified;True;36;0
-VAC1299;BEVAC 10 µg;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
-VAC1299;BEVAC 10 µg;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC1299;BEVAC 10 µg;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
+VAC1299;BEVAC 10 µg;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC1299;BEVAC 10 µg;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1300;BEVAC 20 µg;False;CVX-189;Hepatitis B vaccine, monovalent, adult dose, unspecified;True;15;0
 VAC1300;BEVAC 20 µg;False;CVX-43;Hepatitis B vaccine, monovalent, adult dose, unspecified;True;15;0
@@ -2549,13 +2549,13 @@ VAC1322;PNEUMOSIL;False;CVX-109;Pneumococcal vaccine, unspecified;False;;
 VAC1323;MENFIVE;False;;;;
 VAC1324;NASOVAC-S;False;CVX-15;Inactivated influenza vaccine, split or subunit, unspecified;True;10;0
 VAC1324;NASOVAC-S;False;CVX-88;Influenza vaccine, unspecified;False;;
-VAC1325;GENEVAC-B 10 µg;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
-VAC1325;GENEVAC-B 10 µg;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC1325;GENEVAC-B 10 µg;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
+VAC1325;GENEVAC-B 10 µg;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC1325;GENEVAC-B 10 µg;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1326;GENEVAC-B 20 µg;False;CVX-189;Hepatitis B vaccine, monovalent, adult dose, unspecified;True;15;0
 VAC1326;GENEVAC-B 20 µg;False;CVX-43;Hepatitis B vaccine, monovalent, adult dose, unspecified;True;15;0
 VAC1326;GENEVAC-B 20 µg;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;False;;
-VAC1327;HEPATITIS B SII;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;True;6;0
+VAC1327;HEPATITIS B SII;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;True;8;0
 VAC1328;TUBERVAC;False;CVX-19;BCG vaccine, unspecified;True;19;0
 VAC1329;FLU-M;False;CVX-168;Trivalent inactivated influenza vaccine, unspecified;True;50;0
 VAC1329;FLU-M;False;CVX-331;Trivalent inactivated influenza vaccine, unspecified;True;50;0
@@ -2638,8 +2638,8 @@ VAC1354;EUFORVAC;False;CVX-102;DTPerHibHepB pentavalent vaccine, unspecified;Tru
 VAC1354;EUFORVAC;False;CVX-198;DTPerHibHepB pentavalent vaccine, unspecified;True;20;0
 VAC1355;EUPENTA;False;CVX-102;DTPerHibHepB pentavalent vaccine, unspecified;True;20;0
 VAC1355;EUPENTA;False;CVX-198;DTPerHibHepB pentavalent vaccine, unspecified;True;20;0
-VAC1356;EUVAX B 10 µg;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
-VAC1356;EUVAX B 10 µg;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC1356;EUVAX B 10 µg;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
+VAC1356;EUVAX B 10 µg;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC1356;EUVAX B 10 µg;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1357;EUPOLIO;False;CVX-10;Inactivated Polio vaccine, unspecified;True;15;0
 VAC1357;EUPOLIO;False;CVX-324;Inactivated Polio vaccine, unspecified;True;15;0
@@ -2648,8 +2648,8 @@ VAC1358;SKYCELLFLU QUADRIVALENT;False;CVX-88;Influenza vaccine, unspecified;True
 VAC1359;SKYCELLFLU TRIVALENT;False;CVX-140;Inactivated trivalent influenza vaccine cell culture, normal dose, unspecified;True;3;0
 VAC1359;SKYCELLFLU TRIVALENT;False;CVX-141;Inactivated trivalent influenza vaccine cell culture, normal dose, unspecified;True;3;0
 VAC1359;SKYCELLFLU TRIVALENT;False;CVX-88;Influenza vaccine, unspecified;False;;
-VAC1360;HEPAMUNE B 10 µg;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
-VAC1360;HEPAMUNE B 10 µg;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC1360;HEPAMUNE B 10 µg;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
+VAC1360;HEPAMUNE B 10 µg;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC1360;HEPAMUNE B 10 µg;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1361;HEPAMUNE B 20 µg;False;CVX-189;Hepatitis B vaccine, monovalent, adult dose, unspecified;True;15;0
 VAC1361;HEPAMUNE B 20 µg;False;CVX-43;Hepatitis B vaccine, monovalent, adult dose, unspecified;True;15;0
@@ -2659,8 +2659,8 @@ VAC1362;SK TD;False;CVX-113;Diphtheria-tetanus Td vaccine, unspecified;True;15;0
 VAC1362;SK TD;False;CVX-138;Diphtheria-tetanus Td vaccine, unspecified;True;15;0
 VAC1362;SK TD;False;CVX-139;Diphtheria-tetanus Td vaccine, unspecified;True;15;0
 VAC1362;SK TD;False;CVX-196;Diphtheria-tetanus Td vaccine, unspecified;True;15;0
-VAC1363;HEPAVAX-GENE B 10 µg;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
-VAC1363;HEPAVAX-GENE B 10 µg;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC1363;HEPAVAX-GENE B 10 µg;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
+VAC1363;HEPAVAX-GENE B 10 µg;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC1363;HEPAVAX-GENE B 10 µg;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1364;BIOHIB;False;CVX-48;Hib PRP-T conjugated vaccine, unspecified;True;10;0
 VAC1364;BIOHIB;False;CVX-17;Haemophilus influenzae B (or Hib) vaccine, unspecified;False;;
@@ -2683,8 +2683,8 @@ VAC1369;INDIRAB;False;CVX-90;Rabies vaccine, unspecified;True;22;0
 VAC1370;JENVAC;False;CVX-39;Inactivated Japanese Encephalitis vaccine, unspecified;True;14;0
 VAC1370;JENVAC;False;CVX-129;Japanese encephalitis vaccine, unspecified;False;;
 VAC1370;JENVAC;False;CVX-134;Japanese encephalitis vaccine, unspecified;False;;
-VAC1371;REVAC-B MCF;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
-VAC1371;REVAC-B MCF;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC1371;REVAC-B MCF;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
+VAC1371;REVAC-B MCF;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC1371;REVAC-B MCF;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1372;ROTAVAC;False;CVX-122;Rotavirus vaccine, unspecified;True;4;0
 VAC1373;ROTAVAC 5D;False;CVX-122;Rotavirus vaccine, unspecified;True;4;0
@@ -2760,8 +2760,8 @@ VAC1406;SPUTNIK V;False;CVX-213;COVID-19 vaccine, unspecified;True;166;0
 VAC1406;SPUTNIK V;False;CVX-500;COVID-19 vaccine, unspecified;True;166;0
 VAC1407;NOVOHIB;False;CVX-48;Hib PRP-T conjugated vaccine, unspecified;True;10;0
 VAC1407;NOVOHIB;False;CVX-17;Haemophilus influenzae B (or Hib) vaccine, unspecified;False;;
-VAC1408;ENIVACHB;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
-VAC1408;ENIVACHB;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;15;0
+VAC1408;ENIVACHB;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
+VAC1408;ENIVACHB;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
 VAC1408;ENIVACHB;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;False;;
 VAC1409;COVID-19 mRNA vaccine, Omicron JN.1 subvariant, 50 micrograms per dose, multidose vial;True;CVX-213;COVID-19 vaccine, unspecified;True;166;0
 VAC1409;COVID-19 mRNA vaccine, Omicron JN.1 subvariant, 50 micrograms per dose, multidose vial;True;CVX-500;COVID-19 vaccine, unspecified;True;166;0
@@ -2886,8 +2886,8 @@ VAC1475;Human monoclonal antibody against respiratory syncytial virus (RSV), cle
 VAC1475;Human monoclonal antibody against respiratory syncytial virus (RSV), clesrovimab, unspecified;True;CVX-304;RSV antibody or vaccine, unspecified;False;;
 VAC1475;Human monoclonal antibody against respiratory syncytial virus (RSV), clesrovimab, unspecified;True;CVX-314;RSV antibody or vaccine, unspecified;False;;
 VAC1476;Meningococcal vaccine against A, C, W, Y (conjugated polysaccharide) and B;True;CVX-328;Meningococcal vaccine against A, C, W, Y (conjugated polysaccharide) and B;True;2;1
-VAC1477;ENCEPUR 0,25 mL;False;CVX-222;Tick-borne encephalitis vaccine, unspecified;True;4;0
-VAC1477;ENCEPUR 0,25 mL;False;CVX-77;Tick-borne encephalitis vaccine, unspecified;True;4;0
+VAC1477;ENCEPUR N ENFANT;False;CVX-222;Tick-borne encephalitis vaccine, unspecified;True;5;0
+VAC1477;ENCEPUR N ENFANT;False;CVX-77;Tick-borne encephalitis vaccine, unspecified;True;5;0
 VAC1478;SYNAGIS 50 mg (PALIZIVUMAB);False;CVX-93;Human monoclonal antibody against respiratory syncytial virus (RSV), palivizumab, unspecified;True;3;0
 VAC1478;SYNAGIS 50 mg (PALIZIVUMAB);False;CVX-304;RSV antibody or vaccine, unspecified;False;;
 VAC1478;SYNAGIS 50 mg (PALIZIVUMAB);False;CVX-314;RSV antibody or vaccine, unspecified;False;;
@@ -2900,3 +2900,13 @@ VAC1481;FLUVACCINOL;False;CVX-331;Trivalent inactivated influenza vaccine, unspe
 VAC1481;FLUVACCINOL;False;CVX-15;Inactivated influenza vaccine, split or subunit, unspecified;False;;
 VAC1481;FLUVACCINOL;False;CVX-88;Influenza vaccine, unspecified;False;;
 VAC1482;IMMUNOGLOBULINE HUMAINE DE L'HÉPATITE B LFB;False;CVX-30;Hepatitis B immunoglobulin, unspecified;True;6;0
+VAC1483;ENCEPUR N;False;CVX-222;Tick-borne encephalitis vaccine, unspecified;True;5;0
+VAC1483;ENCEPUR N;False;CVX-77;Tick-borne encephalitis vaccine, unspecified;True;5;0
+VAC1484;HEPRECOMB ENFANT;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;True;8;0
+VAC1485;GEN H-B-VAX 5;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;True;8;0
+VAC1486;GEN H-B-VAX 10;False;CVX-08;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
+VAC1486;GEN H-B-VAX 10;False;CVX-42;Hepatitis B vaccine, monovalent, pediatric dose, unspecified;True;16;0
+VAC1486;GEN H-B-VAX 10;False;CVX-45;Hepatitis B vaccine, recombinant, unspecified;False;;
+VAC1487;PREVENAR-7;False;CVX-100;Pneumococcal conjugate vaccine, 7 valent, unspecified;True;4;0
+VAC1487;PREVENAR-7;False;CVX-109;Pneumococcal vaccine, unspecified;False;;
+VAC1487;PREVENAR-7;False;CVX-152;Pneumococcal conjugate vaccine, serotypes unspecified;False;;
