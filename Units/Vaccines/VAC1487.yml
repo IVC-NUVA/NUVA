@@ -1,0 +1,19 @@
+abstract: false
+label: PREVENAR-7
+comment: Pneumococcal conjugate vaccine, 7-valent, adsorbed, serotypes 4, 6B, 9V,
+  14, 18C, 19F and 23F
+created: '2025-12-12'
+modified: '2025-12-12'
+codes:
+  NUVACode:
+  - '1487'
+  SWISSMEDIC:
+  - '643'
+valences:
+- VAL188
+- VAL191
+- VAL194
+- VAL198
+- VAL200
+- VAL202
+- VAL204

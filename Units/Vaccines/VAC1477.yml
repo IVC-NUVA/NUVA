@@ -1,8 +1,9 @@
 abstract: false
-label: ENCEPUR 0,25 mL
-comment: Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain
+label: ENCEPUR N ENFANT
+comment: Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain, 0,25
+  mL
 created: '2025-11-14'
-modified: '2025-11-14'
+modified: '2025-12-12'
 codes:
   ELGA:
   - '2427872'
@@ -10,5 +11,7 @@ codes:
   - '4977720'
   NUVACode:
   - '1477'
+  SWISSMEDIC:
+  - '628'
 valences:
 - VAL430
