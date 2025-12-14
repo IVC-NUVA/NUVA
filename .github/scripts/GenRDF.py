@@ -144,7 +144,7 @@ full.serialize(destination="Release/NUVA/nuva_full.ttl")
 
 print ("Creating the CSV core file")
 with open('Release/NUVA/nuva_core.csv','w',encoding='utf-8-sig',newline ='') as csvfile:
-    writer = csv.DictWriter(csvfile,fieldnames=['NUVA','label','comment','abstract'],delimiter=';')
+    writer = csv.DictWriter(csvfile,fieldnames=['NUVA','label','comment','abstract'],delimiter=',')
     writer.writeheader()
     for code,data in Vaccines.items():
         writer.writerow({'NUVA':f"VAC{data['codes']['NUVACode']}",'label':data['label'],'comment':data['comment'],'abstract':data['abstract']})
@@ -154,14 +154,14 @@ for codeSystem in CodeSystems.keys():
     print (codeSystem)
     Path(f'Release/Alignments/{codeSystem}').mkdir(exist_ok=True)
     with open(f'Release/Alignments/{codeSystem}/{codeSystem}2nuva.csv','w',encoding='utf-8-sig',newline='') as csvfile:
-        writer = csv.DictWriter(csvfile,fieldnames=[codeSystem, "NUVA", "Label"],delimiter=';')
+        writer = csv.DictWriter(csvfile,fieldnames=[codeSystem, "NUVA", "Label"],delimiter=',')
         writer.writeheader()
         for code in Codes[codeSystem]:
             writer.writerow(Codes[codeSystem][code])
     eval_codes=NU.nuva_optimize(full,codeSystem, False)
     map =eval_codes['map']
     with open(f'Release/Alignments/{codeSystem}/nuva2{codeSystem}.csv','w',encoding='utf-8-sig',newline='') as mapfile:
-        map_writer = csv.writer(mapfile, delimiter=';')
+        map_writer = csv.writer(mapfile, delimiter=',')
         map_writer.writerow(["NUVA","NUVA label","IsAbstract",codeSystem, f"{codeSystem} label", "Best", "Blur", "Equiv"])
         for nuva_code,nuva_data in sorted(map.items()):
             label =  nuva_data['label']
