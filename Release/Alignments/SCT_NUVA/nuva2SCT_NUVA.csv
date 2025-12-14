@@ -3958,9 +3958,9 @@ VAC1430,"COVID-19 bivalent mRNA vaccine against the original virus and the Omicr
 VAC1430,"COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 50 micrograms, unspecified",True,SCT_NUVA-12581002000105,"COVID-19 mRNA vaccine, unspecified",False,,
 VAC1430,"COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 50 micrograms, unspecified",True,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
 VAC1431,"RSV vaccine, unspecified",True,SCT_NUVA-13091002000109,"RSV antibody or vaccine, unspecified",True,2,0
-VAC1432,"Argentine hemorrhagic fever vaccine, Junin virus, unspecified",True,,,,
-VAC1433,"Plague vaccine, unspecified",True,,,,
-VAC1434,"Meningococcal A vaccine, unspecified",True,,,,
+VAC1432,"Argentine hemorrhagic fever vaccine, Junin virus, unspecified",True,,,,,
+VAC1433,"Plague vaccine, unspecified",True,,,,,
+VAC1434,"Meningococcal A vaccine, unspecified",True,,,,,
 VAC1435,"Rabies vaccine, inactivated, whole virion, cell culture-based, unspecified",True,SCT_NUVA-2281002000109,"Rabies vaccine, unspecified",True,3,0
 VAC1436,"Rabies vaccine, inactivated, whole virion, prepared from animal brain tissue infected with rabies virus, unspecified",True,SCT_NUVA-2281002000109,"Rabies vaccine, unspecified",True,3,0
 VAC1437,"Meningococcal vaccine, monovalent, conjugate",True,SCT_NUVA-11441002000105,"Meningococcal vaccine serogroup unknown, unspecified",True,3,0
@@ -3993,7 +3993,7 @@ VAC1451,CHIROFLU,False,SCT_NUVA-9811002000105,"Inactivated influenza vaccine, sp
 VAC1452,SCI-B-VAC,False,SCT_NUVA-14041002000104,"Recombinant hepatitis B vaccine, three antigens, unspecified",True,2,0
 VAC1452,SCI-B-VAC,False,SCT_NUVA-13831002000101,"Hepatitis B vaccine, unspecified",False,,
 VAC1453,INVIVAC,False,SCT_NUVA-2051002000105,"Influenza vaccine, unspecified",True,4,0
-VAC1454,PRIMAVAX,False,,,,
+VAC1454,PRIMAVAX,False,,,,,
 VAC1455,MENGIVAC A + C,False,SCT_NUVA-2591002000105,"Meningococcal A + C vaccine, unspecified",True,2,0
 VAC1456,WYVAC,False,SCT_NUVA-11401002000108,"Rabies vaccine diploid cells, unspecified",True,2,0
 VAC1456,WYVAC,False,SCT_NUVA-2281002000109,"Rabies vaccine, unspecified",False,,
@@ -4012,7 +4012,7 @@ VAC1462,PNU-IMUNE 14,False,SCT_NUVA-2681002000106,"Pneumococcal vaccine, unspeci
 VAC1463,FREEZE-DRIED BCG VACCINE JAPAN,False,SCT_NUVA-2321002000100,"BCG vaccine, unspecified",True,4,0
 VAC1464,FLUBRON VACCINE,False,SCT_NUVA-9791002000106,"Inactivated whole influenza vaccine, unspecified",True,2,0
 VAC1464,FLUBRON VACCINE,False,SCT_NUVA-2051002000105,"Influenza vaccine, unspecified",False,,
-VAC1465,PERDIPIGEN,False,,,,
+VAC1465,PERDIPIGEN,False,,,,,
 VAC1466,COMIRNATY LP.8.1 30 µg,False,SCT_NUVA-15401002000105,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,10,0
 VAC1466,COMIRNATY LP.8.1 30 µg,False,SCT_NUVA-12581002000105,"COVID-19 mRNA vaccine, unspecified",False,,
 VAC1466,COMIRNATY LP.8.1 30 µg,False,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
@@ -4041,7 +4041,7 @@ VAC1474,ENFLONSIA (CLESROVIMAB),False,SCT_NUVA-11101002000104,"Respiratory Syncy
 VAC1474,ENFLONSIA (CLESROVIMAB),False,SCT_NUVA-13091002000109,"RSV antibody or vaccine, unspecified",False,,
 VAC1475,"Human monoclonal antibody against respiratory syncytial virus (RSV), clesrovimab, unspecified",True,SCT_NUVA-11101002000104,"Respiratory Syncytial Virus monoclonal antibody, unspecified",True,3,0
 VAC1475,"Human monoclonal antibody against respiratory syncytial virus (RSV), clesrovimab, unspecified",True,SCT_NUVA-13091002000109,"RSV antibody or vaccine, unspecified",False,,
-VAC1476,"Meningococcal vaccine against A, C, W, Y (conjugated polysaccharide) and B",True,,,,
+VAC1476,"Meningococcal vaccine against A, C, W, Y (conjugated polysaccharide) and B",True,,,,,
 VAC1477,ENCEPUR N ENFANT,False,SCT_NUVA-13951002000104,"Whole inactivated tick-borne encephalitis vaccine, strain K23, unspecified",True,3,0
 VAC1477,ENCEPUR N ENFANT,False,SCT_NUVA-2511002000102,"Tick-borne encephalitis vaccine, unspecified",False,,
 VAC1478,SYNAGIS 50 mg (PALIZIVUMAB),False,SCT_NUVA-14821002000101,"Human monoclonal antibody against respiratory syncytial virus (RSV), palivizumab, unspecified",True,2,0

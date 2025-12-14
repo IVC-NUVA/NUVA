@@ -55,7 +55,7 @@ VAC0016,INFLUVAC,False,SNOMED-CT-1181000221105,"Influenza vaccine, unspecified",
 VAC0016,INFLUVAC,False,SNOMED-CT-836377006,"Influenza vaccine, unspecified",True,107,0
 VAC0017,M-M-RVAXPRO,False,SNOMED-CT-2241000221103,"MMR vaccine, live attenuated, unspecified",True,26,0
 VAC0017,M-M-RVAXPRO,False,SNOMED-CT-871831003,"MMR vaccine, live attenuated, unspecified",True,26,0
-VAC0018,MENCEVAX ACWY,False,,,,
+VAC0018,MENCEVAX ACWY,False,,,,,
 VAC0019,MENINGITEC,False,SNOMED-CT-871866001,"Meningococcal conjugate vaccine C, unspecified",True,11,0
 VAC0019,MENINGITEC,False,SNOMED-CT-951000221102,"Meningococcal conjugate vaccine C, unspecified",True,11,0
 VAC0020,MENJUGATEKIT 10 µg,False,SNOMED-CT-871866001,"Meningococcal conjugate vaccine C, unspecified",True,11,0
@@ -100,7 +100,7 @@ VAC0034,SPIROLEPT,False,SNOMED-CT-840564009,"Leptospirosis vaccine, unspecified"
 VAC0035,STAMARIL,False,SNOMED-CT-1121000221106,"Yellow fever vaccine, unspecified",True,7,0
 VAC0035,STAMARIL,False,SNOMED-CT-836385002,"Yellow fever vaccine, unspecified",True,7,0
 VAC0035,STAMARIL,False,SNOMED-CT-871717007,"Yellow fever vaccine, unspecified",True,7,0
-VAC0036,TETAGRIP,False,,,,
+VAC0036,TETAGRIP,False,,,,,
 VAC0037,TETRAVAC-ACELLULAIRE,False,SNOMED-CT-318351000221106,"DTaPIPV vaccine, standard dose, unspecified",True,12,0
 VAC0037,TETRAVAC-ACELLULAIRE,False,SNOMED-CT-871883005,"DTaPIPV vaccine, standard dose, unspecified",True,12,0
 VAC0037,TETRAVAC-ACELLULAIRE,False,SNOMED-CT-871878002,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",False,,
@@ -212,10 +212,10 @@ VAC0067,HAVRIX 360 U,False,SNOMED-CT-91000221102,"Inactivated hepatitis A vaccin
 VAC0068,MONOVAX,False,SNOMED-CT-1861000221106,"BCG vaccine, unspecified",True,19,0
 VAC0068,MONOVAX,False,SNOMED-CT-319941000221104,"BCG vaccine, unspecified",True,19,0
 VAC0068,MONOVAX,False,SNOMED-CT-836402002,"BCG vaccine, unspecified",True,19,0
-VAC0069,MENOMUNE,False,,,,
+VAC0069,MENOMUNE,False,,,,,
 VAC0070,DT BIS,False,SNOMED-CT-775641005,"Tetanus diphtheria vaccine, unspecified",True,30,0
 VAC0070,DT BIS,False,SNOMED-CT-871826000,"Tetanus diphtheria vaccine, unspecified",True,30,0
-VAC0071,D.T. BIS - RUDIVAX,False,,,,
+VAC0071,D.T. BIS - RUDIVAX,False,,,,,
 VAC0072,JE-VAX,False,SNOMED-CT-871725009,"Inactivated Japanese Encephalitis vaccine, unspecified",True,14,0
 VAC0072,JE-VAX,False,SNOMED-CT-871825001,"Inactivated Japanese Encephalitis vaccine, unspecified",True,14,0
 VAC0072,JE-VAX,False,SNOMED-CT-836378001,"Japanese encephalitis vaccine, unspecified",False,,
@@ -257,12 +257,12 @@ VAC0087,VAXICOQ,False,SNOMED-CT-601000221108,"Pertussis vaccine, unspecified",Tr
 VAC0087,VAXICOQ,False,SNOMED-CT-871758000,"Pertussis vaccine, unspecified",True,7,0
 VAC0087,VAXICOQ,False,SNOMED-CT-871759008,"Pertussis vaccine, unspecified",True,7,0
 VAC0088,"DTIPV vaccine, unspecified",True,SNOMED-CT-871837004,"Diphtheria-Tetanus-Polio vaccine, unspecified",True,10,0
-VAC0090,VACCIN BRUCELLIQUE P.I. à usage humain,False,,,,
+VAC0090,VACCIN BRUCELLIQUE P.I. à usage humain,False,,,,,
 VAC0091,VACCIN CCB PASTEUR,False,SNOMED-CT-836398006,"Pneumococcal vaccine, unspecified",True,19,0
 VAC0091,VACCIN CCB PASTEUR,False,SNOMED-CT-981000221107,"Pneumococcal vaccine, unspecified",True,19,0
 VAC0092,VACCIN CHOLERIQUE PASTEUR,False,SNOMED-CT-836383009,"Cholera vaccine, unspecified",True,10,0
 VAC0092,VACCIN CHOLERIQUE PASTEUR,False,SNOMED-CT-991000221105,"Cholera vaccine, unspecified",True,10,0
-VAC0093,VACCIN DT TAB PASTEUR,False,,,,
+VAC0093,VACCIN DT TAB PASTEUR,False,,,,,
 VAC0094,VACCIN SABIN POLIOVAC MERIEUX,False,SNOMED-CT-1031000221108,"Polio vaccine, unspecified",True,26,0
 VAC0095,VACCIN TAB PASTEUR,False,SNOMED-CT-428601009,"Typhoid vaccine, unspecified",True,21,0
 VAC0095,VACCIN TAB PASTEUR,False,SNOMED-CT-836390004,"Typhoid vaccine, unspecified",True,21,0
@@ -423,7 +423,7 @@ VAC0149,"Meningococcal B:14:P1.7,16 vaccine, unspecified",True,SNOMED-CT-1981000
 VAC0150,"Meningococcal conjugate vaccine C, unspecified",True,SNOMED-CT-871866001,"Meningococcal conjugate vaccine C, unspecified",True,11,2
 VAC0150,"Meningococcal conjugate vaccine C, unspecified",True,SNOMED-CT-951000221102,"Meningococcal conjugate vaccine C, unspecified",True,11,2
 VAC0151,"Meningococcal A + C vaccine, unspecified",True,SNOMED-CT-871871008,"Meningococcal A + C vaccine, unspecified",True,7,1
-VAC0152,"Unconjugated meningococcal vaccine ACWY, unspecified",True,,,,
+VAC0152,"Unconjugated meningococcal vaccine ACWY, unspecified",True,,,,,
 VAC0153,"Mumps vaccine, unspecified",True,SNOMED-CT-836498007,"Mumps vaccine, unspecified",True,12,3
 VAC0153,"Mumps vaccine, unspecified",True,SNOMED-CT-871737006,"Mumps vaccine, unspecified",True,12,3
 VAC0153,"Mumps vaccine, unspecified",True,SNOMED-CT-871738001,"Mumps vaccine, unspecified",True,12,3
@@ -441,9 +441,9 @@ VAC0159,"Chickenpox vaccine, unspecified",True,SNOMED-CT-1010310004,"Chickenpox 
 VAC0159,"Chickenpox vaccine, unspecified",True,SNOMED-CT-1010322001,"Chickenpox vaccine, unspecified",True,9,4
 VAC0159,"Chickenpox vaccine, unspecified",True,SNOMED-CT-2221000221107,"Chickenpox vaccine, unspecified",True,9,4
 VAC0159,"Chickenpox vaccine, unspecified",True,SNOMED-CT-871919004,"Chickenpox vaccine, unspecified",True,9,4
-VAC0160,"Live attenuated shingles vaccine, unspecified",True,,,,
-VAC0161,ZOSTAVAX,False,,,,
-VAC0162,"Brucellosis vaccine, unspecified",True,,,,
+VAC0160,"Live attenuated shingles vaccine, unspecified",True,,,,,
+VAC0161,ZOSTAVAX,False,,,,,
+VAC0162,"Brucellosis vaccine, unspecified",True,,,,,
 VAC0163,"Whole-cell inactivated pertussis vaccine, unspecified",True,SNOMED-CT-601000221108,"Pertussis vaccine, unspecified",True,7,0
 VAC0163,"Whole-cell inactivated pertussis vaccine, unspecified",True,SNOMED-CT-871758000,"Pertussis vaccine, unspecified",True,7,0
 VAC0163,"Whole-cell inactivated pertussis vaccine, unspecified",True,SNOMED-CT-871759008,"Pertussis vaccine, unspecified",True,7,0
@@ -531,11 +531,11 @@ VAC0192,ATTENUVAX,False,SNOMED-CT-871765008,"Live attenuated measles vaccine, un
 VAC0192,ATTENUVAX,False,SNOMED-CT-871766009,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0193,"AVAC-1, AVA",False,SNOMED-CT-860818003,"Acellular anthrax vaccine, unspecified",True,6,0
 VAC0193,"AVAC-1, AVA",False,SNOMED-CT-836384003,"Anthrax vaccine, unspecified",False,,
-VAC0194,B-CAPSA,False,,,,
+VAC0194,B-CAPSA,False,,,,,
 VAC0195,BEGRIVAC,False,SNOMED-CT-1181000221105,"Influenza vaccine, unspecified",True,107,0
 VAC0195,BEGRIVAC,False,SNOMED-CT-836377006,"Influenza vaccine, unspecified",True,107,0
-VAC0196,BIAVAX,False,,,,
-VAC0197,BIAVAX II,False,,,,
+VAC0196,BIAVAX,False,,,,,
+VAC0197,BIAVAX II,False,,,,,
 VAC0198,BIKEN-HB,False,SNOMED-CT-871822003,"Hepatitis B vaccine, unspecified",True,7,0
 VAC0198,BIKEN-HB,False,SNOMED-CT-871925000,"Hepatitis B vaccine, unspecified",True,7,0
 VAC0199,BIMMUGEN,False,SNOMED-CT-1296864005,"Hepatitis B vaccine, monovalent, pediatric dose, unspecified",True,16,0
@@ -547,7 +547,7 @@ VAC0199,BIMMUGEN,False,SNOMED-CT-871925000,"Hepatitis B vaccine, unspecified",Fa
 VAC0200,BIOTHRAX,False,SNOMED-CT-860818003,"Acellular anthrax vaccine, unspecified",True,6,0
 VAC0200,BIOTHRAX,False,SNOMED-CT-836384003,"Anthrax vaccine, unspecified",False,,
 VAC0201,BIVIRATEN BERNA,False,SNOMED-CT-1252703004,"Measles-mumps vaccine, unspecified",True,9,0
-VAC0202,BVAC,False,,,,
+VAC0202,BVAC,False,,,,,
 VAC0203,C.D.T.,False,SNOMED-CT-775641005,"Tetanus diphtheria vaccine, unspecified",True,30,0
 VAC0203,C.D.T.,False,SNOMED-CT-871826000,"Tetanus diphtheria vaccine, unspecified",True,30,0
 VAC0204,CAM-KOVAX,False,SNOMED-CT-836382004,"Live attenuated measles vaccine, unspecified",True,25,0
@@ -653,7 +653,7 @@ VAC0244,HEPRECOMB,False,SNOMED-CT-871822003,"Hepatitis B vaccine, unspecified",F
 VAC0244,HEPRECOMB,False,SNOMED-CT-871925000,"Hepatitis B vaccine, unspecified",False,,
 VAC0245,HEPTAVAX B,False,SNOMED-CT-871822003,"Hepatitis B vaccine, unspecified",True,7,0
 VAC0245,HEPTAVAX B,False,SNOMED-CT-871925000,"Hepatitis B vaccine, unspecified",True,7,0
-VAC0246,HIBERNA PRODUCTSIX,False,,,,
+VAC0246,HIBERNA PRODUCTSIX,False,,,,,
 VAC0247,HIBTITER,False,SNOMED-CT-2041000221105,"Haemophilus influenzae B (or Hib) vaccine, unspecified",True,19,0
 VAC0247,HIBTITER,False,SNOMED-CT-836380007,"Haemophilus influenzae B (or Hib) vaccine, unspecified",True,19,0
 VAC0247,HIBTITER,False,SNOMED-CT-871764007,"Haemophilus influenzae B (or Hib) vaccine, unspecified",True,19,0
@@ -778,8 +778,8 @@ VAC0292,MEASLES VACCINE DK3,False,SNOMED-CT-871766009,"Live attenuated measles v
 VAC0293,MENAFRIVAC,False,SNOMED-CT-52821000087108,"Meningococcal conjugate vaccine A, unspecified",True,3,0
 VAC0293,MENAFRIVAC,False,SNOMED-CT-1252690003,"Meningococcal A vaccine, unspecified",False,,
 VAC0294,MENCEVAX A,False,SNOMED-CT-1252690003,"Meningococcal A vaccine, unspecified",True,4,0
-VAC0295,MENOMUNE-A/C/Y/W-135,False,,,,
-VAC0296,MENPOVAX 4 A+C+Y+W135,False,,,,
+VAC0295,MENOMUNE-A/C/Y/W-135,False,,,,,
+VAC0296,MENPOVAX 4 A+C+Y+W135,False,,,,,
 VAC0297,MENPOVAX A+C,False,SNOMED-CT-871871008,"Meningococcal A + C vaccine, unspecified",True,7,0
 VAC0298,MERUVAX,False,SNOMED-CT-1297215000,"Rubella vaccine, live attenuated, unspecified",True,19,0
 VAC0298,MERUVAX,False,SNOMED-CT-836388000,"Rubella vaccine, live attenuated, unspecified",True,19,0
@@ -801,7 +801,7 @@ VAC0306,MORBILVAX,False,SNOMED-CT-871765008,"Live attenuated measles vaccine, un
 VAC0306,MORBILVAX,False,SNOMED-CT-871766009,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0307,MORUBEL,False,SNOMED-CT-2231000221105,"Measles-Rubella vaccine, unspecified",True,12,0
 VAC0307,MORUBEL,False,SNOMED-CT-871817003,"Measles-Rubella vaccine, unspecified",True,12,0
-VAC0308,MORUMAN BERNA PRODUCTS,False,,,,
+VAC0308,MORUMAN BERNA PRODUCTS,False,,,,,
 VAC0309,MORUPAR,False,SNOMED-CT-2241000221103,"MMR vaccine, live attenuated, unspecified",True,26,0
 VAC0309,MORUPAR,False,SNOMED-CT-871831003,"MMR vaccine, live attenuated, unspecified",True,26,0
 VAC0310,MOVIVAC,False,SNOMED-CT-836382004,"Live attenuated measles vaccine, unspecified",True,25,0
@@ -813,11 +813,11 @@ VAC0311,MUMATEN BERNA PRODUCTSNA,False,SNOMED-CT-871738001,"Mumps vaccine, unspe
 VAC0312,MUMPS LIVE,False,SNOMED-CT-836498007,"Mumps vaccine, unspecified",True,12,0
 VAC0312,MUMPS LIVE,False,SNOMED-CT-871737006,"Mumps vaccine, unspecified",True,12,0
 VAC0312,MUMPS LIVE,False,SNOMED-CT-871738001,"Mumps vaccine, unspecified",True,12,0
-VAC0313,MUMPS inactivated,False,,,,
+VAC0313,MUMPS inactivated,False,,,,,
 VAC0315,MUMPSVAX,False,SNOMED-CT-836498007,"Mumps vaccine, unspecified",True,12,0
 VAC0315,MUMPSVAX,False,SNOMED-CT-871737006,"Mumps vaccine, unspecified",True,12,0
 VAC0315,MUMPSVAX,False,SNOMED-CT-871738001,"Mumps vaccine, unspecified",True,12,0
-VAC0317,NABI-HB,False,,,,
+VAC0317,NABI-HB,False,,,,,
 VAC0318,NOTHAV,False,SNOMED-CT-1010308001,"Inactivated hepatitis A vaccine, unspecified",True,12,0
 VAC0318,NOTHAV,False,SNOMED-CT-1010318006,"Inactivated hepatitis A vaccine, unspecified",True,12,0
 VAC0318,NOTHAV,False,SNOMED-CT-836375003,"Inactivated hepatitis A vaccine, unspecified",True,12,0
@@ -852,7 +852,7 @@ VAC0328,PENTACEL,False,SNOMED-CT-871887006,"Pentavalent Diphtheria-Tetanus-Pertu
 VAC0330,PENTACT-HIB,False,SNOMED-CT-871839001,"Pentavalent DTwPHibIPV vaccine, unspecified",True,7,0
 VAC0330,PENTACT-HIB,False,SNOMED-CT-871887006,"Pentavalent Diphtheria-Tetanus-Pertussis-Hib-Polio (DTPerHibIPV) vaccine, unspecified",False,,
 VAC0332,PENTAVALENTE,False,SNOMED-CT-871886002,"DTPerHibHepB pentavalent vaccine, unspecified",True,17,0
-VAC0333,PFIZER VAX-MEASLES K INACTIVATED,False,,,,
+VAC0333,PFIZER VAX-MEASLES K INACTIVATED,False,,,,,
 VAC0334,PFIZER VAX-MEASLES L,False,SNOMED-CT-836382004,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0334,PFIZER VAX-MEASLES L,False,SNOMED-CT-871765008,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0334,PFIZER VAX-MEASLES L,False,SNOMED-CT-871766009,"Live attenuated measles vaccine, unspecified",True,25,0
@@ -916,8 +916,8 @@ VAC0355,RABAVERT,False,SNOMED-CT-836393002,"Rabies vaccine, unspecified",False,,
 VAC0355,RABAVERT,False,SNOMED-CT-871726005,"Rabies vaccine, unspecified",False,,
 VAC0356,RECOMBIVAX HB PÉDIATRIQUE,False,SNOMED-CT-871822003,"Hepatitis B vaccine, unspecified",True,7,0
 VAC0356,RECOMBIVAX HB PÉDIATRIQUE,False,SNOMED-CT-871925000,"Hepatitis B vaccine, unspecified",True,7,0
-VAC0357,"RESPIGAM, RSV-IVIG",False,,,,
-VAC0358,"Rabies immunoglobulin human origin, unspecified",True,,,,
+VAC0357,"RESPIGAM, RSV-IVIG",False,,,,,
+VAC0358,"Rabies immunoglobulin human origin, unspecified",True,,,,,
 VAC0359,RIMEVAX,False,SNOMED-CT-836382004,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0359,RIMEVAX,False,SNOMED-CT-871765008,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0359,RIMEVAX,False,SNOMED-CT-871766009,"Live attenuated measles vaccine, unspecified",True,25,0
@@ -956,7 +956,7 @@ VAC0373,SALK,False,SNOMED-CT-871740006,"Inactivated Polio vaccine, unspecified",
 VAC0373,SALK,False,SNOMED-CT-1031000221108,"Polio vaccine, unspecified",False,,
 VAC0374,SANDOVAC,False,SNOMED-CT-1181000221105,"Influenza vaccine, unspecified",True,107,0
 VAC0374,SANDOVAC,False,SNOMED-CT-836377006,"Influenza vaccine, unspecified",True,107,0
-VAC0375,SEROBACTERIN,False,,,,
+VAC0375,SEROBACTERIN,False,,,,,
 VAC0376,SHANCHOL,False,SNOMED-CT-1001000221103,"Inactivated whole virion oral cholera vaccine, unspecified",True,7,0
 VAC0376,SHANCHOL,False,SNOMED-CT-2181000221101,"Inactivated whole virion oral cholera vaccine, unspecified",True,7,0
 VAC0376,SHANCHOL,False,SNOMED-CT-836383009,"Cholera vaccine, unspecified",False,,
@@ -964,7 +964,7 @@ VAC0376,SHANCHOL,False,SNOMED-CT-991000221105,"Cholera vaccine, unspecified",Fal
 VAC0377,TRIPLE ANTIGEN SII,False,SNOMED-CT-2061000221109,"DTwP - Diphtheria-Tetanus-Pertussis, unspecified",True,24,0
 VAC0377,TRIPLE ANTIGEN SII,False,SNOMED-CT-774618008,"DTwP - Diphtheria-Tetanus-Pertussis, unspecified",True,24,0
 VAC0377,TRIPLE ANTIGEN SII,False,SNOMED-CT-871875004,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",False,,
-VAC0378,SYNAGIS 100 mg (PALIZIVUMAB),False,,,,
+VAC0378,SYNAGIS 100 mg (PALIZIVUMAB),False,,,,,
 VAC0379,T-IMMUN,False,SNOMED-CT-1101000221104,"Tetanus vaccine, unspecified",True,36,0
 VAC0379,T-IMMUN,False,SNOMED-CT-2021000221101,"Tetanus vaccine, unspecified",True,36,0
 VAC0379,T-IMMUN,False,SNOMED-CT-777725002,"Tetanus vaccine, unspecified",True,36,0
@@ -1015,7 +1015,7 @@ VAC0392,TETRAVAX,False,SNOMED-CT-871893003,"Diphtheria-Tetanus-Pertussis-Polio v
 VAC0393,TICE BCG,False,SNOMED-CT-1861000221106,"BCG vaccine, unspecified",True,19,0
 VAC0393,TICE BCG,False,SNOMED-CT-319941000221104,"BCG vaccine, unspecified",True,19,0
 VAC0393,TICE BCG,False,SNOMED-CT-836402002,"BCG vaccine, unspecified",True,19,0
-VAC0394,TIG,False,,,,
+VAC0394,TIG,False,,,,,
 VAC0395,TITIFICA,False,SNOMED-CT-428601009,"Typhoid vaccine, unspecified",True,21,0
 VAC0395,TITIFICA,False,SNOMED-CT-836390004,"Typhoid vaccine, unspecified",True,21,0
 VAC0396,BIOPOLIO,False,SNOMED-CT-1031000221108,"Polio vaccine, unspecified",True,26,0
@@ -1093,7 +1093,7 @@ VAC0427,TYPHOID-KOVAX,False,SNOMED-CT-871755002,"Typhoid polysaccharide vaccine,
 VAC0427,TYPHOID-KOVAX,False,SNOMED-CT-961000221100,"Typhoid polysaccharide vaccine, unspecified",True,7,0
 VAC0427,TYPHOID-KOVAX,False,SNOMED-CT-428601009,"Typhoid vaccine, unspecified",False,,
 VAC0427,TYPHOID-KOVAX,False,SNOMED-CT-836390004,"Typhoid vaccine, unspecified",False,,
-VAC0428,VA-MENGOC-BC,False,,,,
+VAC0428,VA-MENGOC-BC,False,,,,,
 VAC0429,VACCIN COMBINAT DIFTERO-TETANIC,False,SNOMED-CT-775641005,"Tetanus diphtheria vaccine, unspecified",True,30,0
 VAC0429,VACCIN COMBINAT DIFTERO-TETANIC,False,SNOMED-CT-871826000,"Tetanus diphtheria vaccine, unspecified",True,30,0
 VAC0430,VACCIN DIFTERIC ADSORBIT,False,SNOMED-CT-836381006,"Diphtheria vaccine, unspecified",True,7,0
@@ -1115,14 +1115,14 @@ VAC0435,VAKSIN CACAR,False,SNOMED-CT-871727001,"Smallpox vaccine, unspecified",T
 VAC0436,VAKSIN CAMPAK KERING,False,SNOMED-CT-836382004,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0436,VAKSIN CAMPAK KERING,False,SNOMED-CT-871765008,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0436,VAKSIN CAMPAK KERING,False,SNOMED-CT-871766009,"Live attenuated measles vaccine, unspecified",True,25,0
-VAC0437,VAKSIN KOTIPA,False,,,,
+VAC0437,VAKSIN KOTIPA,False,,,,,
 VAC0438,VAKSIN SERAP,False,SNOMED-CT-871875004,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,6,0
 VAC0439,VAMOAVAX,False,SNOMED-CT-1252703004,"Measles-mumps vaccine, unspecified",True,9,0
 VAC0441,SKYVARICELLA INJ,False,SNOMED-CT-1010310004,"Chickenpox vaccine, unspecified",True,9,0
 VAC0441,SKYVARICELLA INJ,False,SNOMED-CT-1010322001,"Chickenpox vaccine, unspecified",True,9,0
 VAC0441,SKYVARICELLA INJ,False,SNOMED-CT-2221000221107,"Chickenpox vaccine, unspecified",True,9,0
 VAC0441,SKYVARICELLA INJ,False,SNOMED-CT-871919004,"Chickenpox vaccine, unspecified",True,9,0
-VAC0442,VARICELLON,False,,,,
+VAC0442,VARICELLON,False,,,,,
 VAC0443,SEVAC VARIE,False,SNOMED-CT-1269346004,"Smallpox vaccine, unspecified",True,15,0
 VAC0443,SEVAC VARIE,False,SNOMED-CT-1290624003,"Smallpox vaccine, unspecified",True,15,0
 VAC0443,SEVAC VARIE,False,SNOMED-CT-1290625002,"Smallpox vaccine, unspecified",True,15,0
@@ -1160,7 +1160,7 @@ VAC0456,WELLTRIVAX TRIVALENTE,False,SNOMED-CT-871875004,"DPT Diphtheria-Pertussi
 VAC0457,YF-VAX,False,SNOMED-CT-1121000221106,"Yellow fever vaccine, unspecified",True,7,0
 VAC0457,YF-VAX,False,SNOMED-CT-836385002,"Yellow fever vaccine, unspecified",True,7,0
 VAC0457,YF-VAX,False,SNOMED-CT-871717007,"Yellow fever vaccine, unspecified",True,7,0
-VAC0458,ZAANTIDE antitoxin,False,,,,
+VAC0458,ZAANTIDE antitoxin,False,,,,,
 VAC0459,ZAANTITE,False,SNOMED-CT-1101000221104,"Tetanus vaccine, unspecified",True,36,0
 VAC0459,ZAANTITE,False,SNOMED-CT-2021000221101,"Tetanus vaccine, unspecified",True,36,0
 VAC0459,ZAANTITE,False,SNOMED-CT-777725002,"Tetanus vaccine, unspecified",True,36,0
@@ -1236,7 +1236,7 @@ VAC0483,FLUAD PAEDIATRICS,False,SNOMED-CT-836377006,"Influenza vaccine, unspecif
 VAC0484,RABIVAX-S,False,SNOMED-CT-1131000221109,"Rabies vaccine, unspecified",True,6,0
 VAC0484,RABIVAX-S,False,SNOMED-CT-836393002,"Rabies vaccine, unspecified",True,6,0
 VAC0484,RABIVAX-S,False,SNOMED-CT-871726005,"Rabies vaccine, unspecified",True,6,0
-VAC0485,TETAGAM P (immunoglobuline),False,,,,
+VAC0485,TETAGAM P (immunoglobuline),False,,,,,
 VAC0486,NIMENRIX,False,SNOMED-CT-1971000221105,"Meningococcal ACWY conjugate vaccine, unspecified",True,8,0
 VAC0486,NIMENRIX,False,SNOMED-CT-871873006,"Meningococcal ACWY conjugate vaccine, unspecified",True,8,0
 VAC0486,NIMENRIX,False,SNOMED-CT-871916006,"Meningococcal ACWY conjugate vaccine, unspecified",True,8,0
@@ -1258,14 +1258,14 @@ VAC0492,AFLURIA,False,SNOMED-CT-1181000221105,"Influenza vaccine, unspecified",T
 VAC0492,AFLURIA,False,SNOMED-CT-836377006,"Influenza vaccine, unspecified",True,107,0
 VAC0494,TRITANRIX HepB,False,SNOMED-CT-1156879008,"Diphtheria-Tetanus-Pertussis-Hepatitis B vaccine, unspecified",True,7,0
 VAC0495,BEXSERO,False,SNOMED-CT-1981000221108,"Meningococcal B vaccine, unspecified",True,9,0
-VAC0496,GAMMATETANOS (immunoglobuline),False,,,,
-VAC0497,"Tetanus immunoglobulin, unspecified",True,,,,
-VAC0498,IMOGAM RAGE,False,,,,
-VAC0499,BENIRAB (immunoglobuline),False,,,,
-VAC0500,FAVIRAB,False,,,,
-VAC0501,EQUIRAB (immunoglobuline),False,,,,
-VAC0502,"Rabies immunoglobulin, unspecified",True,,,,
-VAC0503,"Rabies immunoglobulin equine origin, unspecified",True,,,,
+VAC0496,GAMMATETANOS (immunoglobuline),False,,,,,
+VAC0497,"Tetanus immunoglobulin, unspecified",True,,,,,
+VAC0498,IMOGAM RAGE,False,,,,,
+VAC0499,BENIRAB (immunoglobuline),False,,,,,
+VAC0500,FAVIRAB,False,,,,,
+VAC0501,EQUIRAB (immunoglobuline),False,,,,,
+VAC0502,"Rabies immunoglobulin, unspecified",True,,,,,
+VAC0503,"Rabies immunoglobulin equine origin, unspecified",True,,,,,
 VAC0504,INFANRIX POLIO HIB NOURRISSONS,False,SNOMED-CT-2091000221104,"Pentavalent DTaPHibIPV vaccine, unspecified",True,13,0
 VAC0504,INFANRIX POLIO HIB NOURRISSONS,False,SNOMED-CT-871888001,"Pentavalent DTaPHibIPV vaccine, unspecified",True,13,0
 VAC0504,INFANRIX POLIO HIB NOURRISSONS,False,SNOMED-CT-871887006,"Pentavalent Diphtheria-Tetanus-Pertussis-Hib-Polio (DTPerHibIPV) vaccine, unspecified",False,,
@@ -1331,10 +1331,10 @@ VAC0524,TEVAX,False,SNOMED-CT-777725002,"Tetanus vaccine, unspecified",True,36,0
 VAC0524,TEVAX,False,SNOMED-CT-863911006,"Tetanus vaccine, unspecified",True,36,0
 VAC0524,TEVAX,False,SNOMED-CT-871742003,"Tetanus vaccine, unspecified",True,36,0
 VAC0525,INFANRIX PENTA,False,SNOMED-CT-871891001,"Diphtheria-Tetanus-Pertussis-Polio-Hepatitis B pentavalent vaccine, unspecified",True,4,0
-VAC0526,HECOLIN,False,,,,
+VAC0526,HECOLIN,False,,,,,
 VAC0527,VACCIN DIPHTERIQUE ET TETANIQUE ADSORBE,False,SNOMED-CT-775641005,"Tetanus diphtheria vaccine, unspecified",True,30,0
 VAC0527,VACCIN DIPHTERIQUE ET TETANIQUE ADSORBE,False,SNOMED-CT-871826000,"Tetanus diphtheria vaccine, unspecified",True,30,0
-VAC0528,MOSQUIRIX,False,,,,
+VAC0528,MOSQUIRIX,False,,,,,
 VAC0529,IMOVAX TETANO,False,SNOMED-CT-1101000221104,"Tetanus vaccine, unspecified",True,36,0
 VAC0529,IMOVAX TETANO,False,SNOMED-CT-2021000221101,"Tetanus vaccine, unspecified",True,36,0
 VAC0529,IMOVAX TETANO,False,SNOMED-CT-777725002,"Tetanus vaccine, unspecified",True,36,0
@@ -1421,7 +1421,7 @@ VAC0563,ALPHA-RIX-TETRA,False,SNOMED-CT-1181000221105,"Influenza vaccine, unspec
 VAC0563,ALPHA-RIX-TETRA,False,SNOMED-CT-836377006,"Influenza vaccine, unspecified",True,107,0
 VAC0566,PNEUMOCOCCAL POLYSACCHARIDE VACCINE MSD,False,SNOMED-CT-836398006,"Pneumococcal vaccine, unspecified",True,19,0
 VAC0566,PNEUMOCOCCAL POLYSACCHARIDE VACCINE MSD,False,SNOMED-CT-981000221107,"Pneumococcal vaccine, unspecified",True,19,0
-VAC0567,SHINGRIX,False,,,,
+VAC0567,SHINGRIX,False,,,,,
 VAC0568,BOOSTRIX-POLIO,False,SNOMED-CT-871894009,"TdapIPV - Diphtheria-Tetanus-Pertussis-Polio vaccine, low dose, unspecified",True,7,0
 VAC0568,BOOSTRIX-POLIO,False,SNOMED-CT-871878002,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",False,,
 VAC0568,BOOSTRIX-POLIO,False,SNOMED-CT-871893003,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",False,,
@@ -1444,8 +1444,8 @@ VAC0577,TRIPACEL HYBRID,False,SNOMED-CT-1297217008,"DTaP - Diphtheria-Tetanus-Pe
 VAC0577,TRIPACEL HYBRID,False,SNOMED-CT-871875004,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",False,,
 VAC0577,TRIPACEL HYBRID,False,SNOMED-CT-871876003,"Diph-T-aP/ap, unspecified",False,,
 VAC0578,INFANRIX-HIB,False,SNOMED-CT-318341000221109,"DTaPHib vaccine, unspecified",True,6,0
-VAC0579,CLAIRYG 50 mg/mL,False,,,,
-VAC0580,CLAIRYG,False,,,,
+VAC0579,CLAIRYG 50 mg/mL,False,,,,,
+VAC0580,CLAIRYG,False,,,,,
 VAC0582,TRUMENBA,False,SNOMED-CT-1981000221108,"Meningococcal B vaccine, unspecified",True,9,0
 VAC0585,"TdapIPV - Diphtheria-Tetanus-Pertussis-Polio vaccine, low dose, unspecified",True,SNOMED-CT-871894009,"TdapIPV - Diphtheria-Tetanus-Pertussis-Polio vaccine, low dose, unspecified",True,7,1
 VAC0585,"TdapIPV - Diphtheria-Tetanus-Pertussis-Polio vaccine, low dose, unspecified",True,SNOMED-CT-871878002,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",False,,
@@ -1539,7 +1539,7 @@ VAC0639,ADACEL POLIO,False,SNOMED-CT-871894009,"TdapIPV - Diphtheria-Tetanus-Per
 VAC0639,ADACEL POLIO,False,SNOMED-CT-871878002,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",False,,
 VAC0639,ADACEL POLIO,False,SNOMED-CT-871893003,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",False,,
 VAC0640,TRITANRIX HepB+Hib,False,SNOMED-CT-871886002,"DTPerHibHepB pentavalent vaccine, unspecified",True,17,0
-VAC0641,GLOBORIX,False,,,,
+VAC0641,GLOBORIX,False,,,,,
 VAC0642,FLUZONE HIGH-DOSE QUADRIVALENT,False,SNOMED-CT-1181000221105,"Influenza vaccine, unspecified",True,107,0
 VAC0642,FLUZONE HIGH-DOSE QUADRIVALENT,False,SNOMED-CT-836377006,"Influenza vaccine, unspecified",True,107,0
 VAC0643,"Meningococcal ACWY conjugate vaccine, unspecified",True,SNOMED-CT-1971000221105,"Meningococcal ACWY conjugate vaccine, unspecified",True,8,3
@@ -1896,8 +1896,8 @@ VAC0786,PREVNAR 20,False,SNOMED-CT-1252709000,"20-valent Pneumococcus conjugate 
 VAC0786,PREVNAR 20,False,SNOMED-CT-1801000221105,"Pneumococcal conjugate vaccine, serotypes unspecified",False,,
 VAC0786,PREVNAR 20,False,SNOMED-CT-836398006,"Pneumococcal vaccine, unspecified",False,,
 VAC0786,PREVNAR 20,False,SNOMED-CT-981000221107,"Pneumococcal vaccine, unspecified",False,,
-VAC0787,"Diphtheria-Tetanus-Rubella, unspecified",True,,,,
-VAC0788,"Hib-IPV, unspecified",True,,,,
+VAC0787,"Diphtheria-Tetanus-Rubella, unspecified",True,,,,,
+VAC0788,"Hib-IPV, unspecified",True,,,,,
 VAC0789,COMVAC4,False,SNOMED-CT-1156879008,"Diphtheria-Tetanus-Pertussis-Hepatitis B vaccine, unspecified",True,7,0
 VAC0790,"Diphtheria-Tetanus-Hepatitis B vaccine, unspecified",True,SNOMED-CT-871929006,"Diphtheria-Tetanus-Hepatitis B vaccine, unspecified",True,1,1
 VAC0791,"Hexavalent vaccine DTPerHibPHepB - Diphtheria-Tetanus-Pertussis-Polio-Hib-Hepatitis B vaccine, unspecified",True,SNOMED-CT-871895005,"Hexavalent vaccine DTPerHibPHepB - Diphtheria-Tetanus-Pertussis-Polio-Hib-Hepatitis B vaccine, unspecified",True,2,1
@@ -1906,7 +1906,7 @@ VAC0793,TETADIF,False,SNOMED-CT-2031000221103,"Diphtheria-tetanus Td vaccine, un
 VAC0793,TETADIF,False,SNOMED-CT-871827009,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
 VAC0793,TETADIF,False,SNOMED-CT-775641005,"Tetanus diphtheria vaccine, unspecified",False,,
 VAC0793,TETADIF,False,SNOMED-CT-871826000,"Tetanus diphtheria vaccine, unspecified",False,,
-VAC0794,"T-igT, unspecified",True,,,,
+VAC0794,"T-igT, unspecified",True,,,,,
 VAC0795,"Acellular pertussis vaccine, unspecified",True,SNOMED-CT-601000221108,"Acellular pertussis vaccine, unspecified",True,15,1
 VAC0795,"Acellular pertussis vaccine, unspecified",True,SNOMED-CT-871758000,"Pertussis vaccine, unspecified",False,,
 VAC0795,"Acellular pertussis vaccine, unspecified",True,SNOMED-CT-871759008,"Pertussis vaccine, unspecified",False,,
@@ -1915,8 +1915,8 @@ VAC0796,"Pertussis vaccine, unspecified",True,SNOMED-CT-871758000,"Pertussis vac
 VAC0796,"Pertussis vaccine, unspecified",True,SNOMED-CT-871759008,"Pertussis vaccine, unspecified",True,7,3
 VAC0797,"Diph-T-aP/ap, unspecified",True,SNOMED-CT-871876003,"Diph-T-aP/ap, unspecified",True,2,1
 VAC0798,"Hib-MeningoC vaccine, unspecified",True,SNOMED-CT-836500008,"Hib-MeningoC vaccine, unspecified",True,3,1
-VAC0799,"DT-Hib vaccine, unspecified",True,,,,
-VAC0800,"Diphtheria-tetanus-pertussis-Hib vaccine, unspecified",True,,,,
+VAC0799,"DT-Hib vaccine, unspecified",True,,,,,
+VAC0800,"Diphtheria-tetanus-pertussis-Hib vaccine, unspecified",True,,,,,
 VAC0801,"HepB-Hib, unspecified",True,SNOMED-CT-871806004,"HepB-Hib, unspecified",True,4,1
 VAC0802,"Monovalent oral polio vaccine - type unknown, unspecified",True,SNOMED-CT-1031000221108,"Polio vaccine, unspecified",True,26,0
 VAC0803,Polio Sabin One and Three GSK,False,SNOMED-CT-1051000221104,"OPV bivalent 1-3, unspecified",True,5,0
@@ -1926,7 +1926,7 @@ VAC0805,"Whole-cell inactivated cholera vaccine, unspecified",True,SNOMED-CT-836
 VAC0805,"Whole-cell inactivated cholera vaccine, unspecified",True,SNOMED-CT-991000221105,"Cholera vaccine, unspecified",True,10,0
 VAC0806,"Live attenuated cholera vaccine, unspecified",True,SNOMED-CT-836383009,"Cholera vaccine, unspecified",True,10,0
 VAC0806,"Live attenuated cholera vaccine, unspecified",True,SNOMED-CT-991000221105,"Cholera vaccine, unspecified",True,10,0
-VAC0807,"Cholera-Typhoid inactivated vaccine, unspecified",True,,,,
+VAC0807,"Cholera-Typhoid inactivated vaccine, unspecified",True,,,,,
 VAC0808,"Hib-MenCY, unspecified",True,SNOMED-CT-1119351006,"Hib-MenCY, unspecified",True,3,1
 VAC0809,"Meningococcal monovalent polysaccharide vaccine, unspecified",True,SNOMED-CT-836401009,"Meningococcal vaccine serogroup unknown, unspecified",True,4,0
 VAC0809,"Meningococcal monovalent polysaccharide vaccine, unspecified",True,SNOMED-CT-921000221108,"Meningococcal vaccine serogroup unknown, unspecified",True,4,0
@@ -1941,7 +1941,7 @@ VAC0813,"Pneumococcal unconjugated polysaccharide vaccine, unspecified",True,SNO
 VAC0814,"Pneumococcal conjugate vaccine, serotypes unspecified",True,SNOMED-CT-1801000221105,"Pneumococcal conjugate vaccine, serotypes unspecified",True,3,1
 VAC0814,"Pneumococcal conjugate vaccine, serotypes unspecified",True,SNOMED-CT-836398006,"Pneumococcal vaccine, unspecified",False,,
 VAC0814,"Pneumococcal conjugate vaccine, serotypes unspecified",True,SNOMED-CT-981000221107,"Pneumococcal vaccine, unspecified",False,,
-VAC0815,"Pneumo-Hib, unspecified",True,,,,
+VAC0815,"Pneumo-Hib, unspecified",True,,,,,
 VAC0816,PEDATYPH,False,SNOMED-CT-428601009,"Typhoid vaccine, unspecified",True,21,0
 VAC0816,PEDATYPH,False,SNOMED-CT-836390004,"Typhoid vaccine, unspecified",True,21,0
 VAC0817,"Inactivated Typhoid vaccine, unspecified",True,SNOMED-CT-428601009,"Typhoid vaccine, unspecified",True,21,0
@@ -1977,8 +1977,8 @@ VAC0828,"Rotavirus pentavalent vaccine, unspecified",True,SNOMED-CT-1290764006,"
 VAC0828,"Rotavirus pentavalent vaccine, unspecified",True,SNOMED-CT-1081000221109,"Rotavirus vaccine, unspecified",False,,
 VAC0828,"Rotavirus pentavalent vaccine, unspecified",True,SNOMED-CT-836387005,"Rotavirus vaccine, unspecified",False,,
 VAC0828,"Rotavirus pentavalent vaccine, unspecified",True,SNOMED-CT-871761004,"Rotavirus vaccine, unspecified",False,,
-VAC0829,"Rubella-Mumps vaccine, unspecified",True,,,,
-VAC0830,"Subunit shingles vaccine, unspecified",True,,,,
+VAC0829,"Rubella-Mumps vaccine, unspecified",True,,,,,
+VAC0830,"Subunit shingles vaccine, unspecified",True,,,,,
 VAC0831,"Ebola vaccine, unspecified",True,SNOMED-CT-45891000087103,"Ebola vaccine, unspecified",True,7,3
 VAC0831,"Ebola vaccine, unspecified",True,SNOMED-CT-836421005,"Ebola vaccine, unspecified",True,7,3
 VAC0831,"Ebola vaccine, unspecified",True,SNOMED-CT-871721000,"Ebola vaccine, unspecified",True,7,3
@@ -1996,7 +1996,7 @@ VAC0837,COVOVAX SII,False,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecifie
 VAC0838,COVOVAX NOVAVAX,False,SNOMED-CT-1162643001,"COVID-19 protein subunit vaccine, recombinant spike protein, unspecified",True,43,0
 VAC0838,COVOVAX NOVAVAX,False,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",False,,
 VAC0838,COVOVAX NOVAVAX,False,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC0839,"Inactivated whole-cell brucella vaccine, unspecified",True,,,,
+VAC0839,"Inactivated whole-cell brucella vaccine, unspecified",True,,,,,
 VAC0840,ADDIGRIP,False,SNOMED-CT-1181000221105,"Influenza vaccine, unspecified",True,107,0
 VAC0840,ADDIGRIP,False,SNOMED-CT-836377006,"Influenza vaccine, unspecified",True,107,0
 VAC0841,"INFLUVAC 0,25 mL",False,SNOMED-CT-1181000221105,"Influenza vaccine, unspecified",True,107,0
@@ -2043,15 +2043,15 @@ VAC0860,"HPV vaccine nonavalent, unspecified",True,SNOMED-CT-871767000,"HPV vacc
 VAC0860,"HPV vaccine nonavalent, unspecified",True,SNOMED-CT-836379009,HPV Vaccine,False,,
 VAC0860,"HPV vaccine nonavalent, unspecified",True,SNOMED-CT-911000221103,HPV Vaccine,False,,
 VAC0861,"Multicomponent meningococcal B vaccine, unspecified",True,SNOMED-CT-1981000221108,"Meningococcal B vaccine, unspecified",True,9,0
-VAC0862,"Measles immunoglobulin, unspecified",True,,,,
-VAC0863,"Hepatitis B immunoglobulin, unspecified",True,,,,
-VAC0864,"Varicella-Zoster immunoglobulin, unspecified",True,,,,
+VAC0862,"Measles immunoglobulin, unspecified",True,,,,,
+VAC0863,"Hepatitis B immunoglobulin, unspecified",True,,,,,
+VAC0864,"Varicella-Zoster immunoglobulin, unspecified",True,,,,,
 VAC0865,"Polysaccharide meningococcal A vaccine, unspecified",True,SNOMED-CT-1252690003,"Meningococcal A vaccine, unspecified",True,4,0
 VAC0866,"Meningococcal conjugate vaccine A, unspecified",True,SNOMED-CT-52821000087108,"Meningococcal conjugate vaccine A, unspecified",True,3,1
 VAC0866,"Meningococcal conjugate vaccine A, unspecified",True,SNOMED-CT-1252690003,"Meningococcal A vaccine, unspecified",False,,
-VAC0867,"Diphtheria antitoxin, unspecified",True,,,,
+VAC0867,"Diphtheria antitoxin, unspecified",True,,,,,
 VAC0868,MENPOVAX A,False,SNOMED-CT-1252690003,"Meningococcal A vaccine, unspecified",True,4,0
-VAC0869,MENPOVAX C,False,,,,
+VAC0869,MENPOVAX C,False,,,,,
 VAC0870,TYPBAR,False,SNOMED-CT-428601009,"Typhoid vaccine, unspecified",True,21,0
 VAC0870,TYPBAR,False,SNOMED-CT-836390004,"Typhoid vaccine, unspecified",True,21,0
 VAC0871,SUPEMTEK,False,SNOMED-CT-1181000221105,"Influenza vaccine, unspecified",True,107,0
@@ -2103,17 +2103,17 @@ VAC0893,VACCINO ANTICOLERICO SCLAVO,False,SNOMED-CT-836383009,"Cholera vaccine, 
 VAC0893,VACCINO ANTICOLERICO SCLAVO,False,SNOMED-CT-991000221105,"Cholera vaccine, unspecified",True,10,0
 VAC0894,"Adenovirus vaccine, unspecified",True,SNOMED-CT-836400005,"Adenovirus vaccine, unspecified",True,1,2
 VAC0894,"Adenovirus vaccine, unspecified",True,SNOMED-CT-871722007,"Adenovirus vaccine, unspecified",True,1,2
-VAC0895,"Venezuelan Equine Encephalitis Vaccine, Unspecified",True,,,,
+VAC0895,"Venezuelan Equine Encephalitis Vaccine, Unspecified",True,,,,,
 VAC0896,"Q fever vaccine, unspecified",True,SNOMED-CT-836397001,"Q fever vaccine, unspecified",True,2,2
 VAC0896,"Q fever vaccine, unspecified",True,SNOMED-CT-871723002,"Q fever vaccine, unspecified",True,2,2
-VAC0897,"Hantavirus vaccine, unspecified",True,,,,
-VAC0898,"Leishmaniasis vaccine, unspecified",True,,,,
-VAC0899,"Human Parainfluenza Virus Vaccine, unspecified",True,,,,
+VAC0897,"Hantavirus vaccine, unspecified",True,,,,,
+VAC0898,"Leishmaniasis vaccine, unspecified",True,,,,,
+VAC0899,"Human Parainfluenza Virus Vaccine, unspecified",True,,,,,
 VAC0900,PREVENAR 20,False,SNOMED-CT-1252709000,"20-valent Pneumococcus conjugate vaccine, unspecified",True,3,0
 VAC0900,PREVENAR 20,False,SNOMED-CT-1801000221105,"Pneumococcal conjugate vaccine, serotypes unspecified",False,,
 VAC0900,PREVENAR 20,False,SNOMED-CT-836398006,"Pneumococcal vaccine, unspecified",False,,
 VAC0900,PREVENAR 20,False,SNOMED-CT-981000221107,"Pneumococcal vaccine, unspecified",False,,
-VAC0901,MENCEVAX ACW,False,,,,
+VAC0901,MENCEVAX ACW,False,,,,,
 VAC0902,"Rabies vaccine Semple type, unspecified",True,SNOMED-CT-2201000221100,"Rabies vaccine, inactivated, whole virion, prepared from animal brain tissue infected with rabies virus, unspecified",True,3,0
 VAC0902,"Rabies vaccine Semple type, unspecified",True,SNOMED-CT-1131000221109,"Rabies vaccine, unspecified",False,,
 VAC0902,"Rabies vaccine Semple type, unspecified",True,SNOMED-CT-836393002,"Rabies vaccine, unspecified",False,,
@@ -2129,10 +2129,10 @@ VAC0905,"Rabies vaccine PHKCV, unspecified",True,SNOMED-CT-2191000221103,"Rabies
 VAC0905,"Rabies vaccine PHKCV, unspecified",True,SNOMED-CT-1131000221109,"Rabies vaccine, unspecified",False,,
 VAC0905,"Rabies vaccine PHKCV, unspecified",True,SNOMED-CT-836393002,"Rabies vaccine, unspecified",False,,
 VAC0905,"Rabies vaccine PHKCV, unspecified",True,SNOMED-CT-871726005,"Rabies vaccine, unspecified",False,,
-VAC0906,"Shingles vaccine, unspecified",True,,,,
-VAC0907,"Vaccine against adenovirus type 4, unspecified",True,,,,
-VAC0908,"Vaccine against adenovirus type 7, unspecified",True,,,,
-VAC0909,Botulinum antitoxin,True,,,,
+VAC0906,"Shingles vaccine, unspecified",True,,,,,
+VAC0907,"Vaccine against adenovirus type 4, unspecified",True,,,,,
+VAC0908,"Vaccine against adenovirus type 7, unspecified",True,,,,,
+VAC0909,Botulinum antitoxin,True,,,,,
 VAC0910,"Inactivated hepatitis A vaccine, adult dose, unspecified",True,SNOMED-CT-1010308001,"Inactivated hepatitis A vaccine, unspecified",True,12,0
 VAC0910,"Inactivated hepatitis A vaccine, adult dose, unspecified",True,SNOMED-CT-1010318006,"Inactivated hepatitis A vaccine, unspecified",True,12,0
 VAC0910,"Inactivated hepatitis A vaccine, adult dose, unspecified",True,SNOMED-CT-836375003,"Inactivated hepatitis A vaccine, unspecified",True,12,0
@@ -2174,7 +2174,7 @@ VAC0916,"Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified",
 VAC0916,"Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified",True,SNOMED-CT-836374004,"Hepatitis B vaccine, recombinant, unspecified",True,13,0
 VAC0916,"Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified",True,SNOMED-CT-871822003,"Hepatitis B vaccine, unspecified",False,,
 VAC0916,"Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified",True,SNOMED-CT-871925000,"Hepatitis B vaccine, unspecified",False,,
-VAC0917,"Hepatitis E vaccine, unspecified",True,,,,
+VAC0917,"Hepatitis E vaccine, unspecified",True,,,,,
 VAC0918,"PRP-D Hib vaccine, unspecified",True,SNOMED-CT-2041000221105,"Haemophilus influenzae B (or Hib) vaccine, unspecified",True,19,0
 VAC0918,"PRP-D Hib vaccine, unspecified",True,SNOMED-CT-836380007,"Haemophilus influenzae B (or Hib) vaccine, unspecified",True,19,0
 VAC0918,"PRP-D Hib vaccine, unspecified",True,SNOMED-CT-871764007,"Haemophilus influenzae B (or Hib) vaccine, unspecified",True,19,0
@@ -2187,8 +2187,8 @@ VAC0920,"Diphtheria-tetanus Td vaccine, unspecified",True,SNOMED-CT-775641005,"T
 VAC0920,"Diphtheria-tetanus Td vaccine, unspecified",True,SNOMED-CT-871826000,"Tetanus diphtheria vaccine, unspecified",False,,
 VAC0921,"Japanese encephalitis vaccine, unspecified",True,SNOMED-CT-836378001,"Japanese encephalitis vaccine, unspecified",True,8,2
 VAC0921,"Japanese encephalitis vaccine, unspecified",True,SNOMED-CT-871724008,"Japanese encephalitis vaccine, unspecified",True,8,2
-VAC0922,"Live attenuated adenovirus vaccine, type 4 and type 7, oral",True,,,,
-VAC0923,"Respiratory Syncytial Virus monoclonal antibody, unspecified",True,,,,
+VAC0922,"Live attenuated adenovirus vaccine, type 4 and type 7, oral",True,,,,,
+VAC0923,"Respiratory Syncytial Virus monoclonal antibody, unspecified",True,,,,,
 VAC0924,FLUZONE INTRADERMAL,False,SNOMED-CT-1181000221105,"Influenza vaccine, unspecified",True,107,0
 VAC0924,FLUZONE INTRADERMAL,False,SNOMED-CT-836377006,"Influenza vaccine, unspecified",True,107,0
 VAC0925,"Trivalent inactivated influenza vaccine, unspecified",True,SNOMED-CT-1181000221105,"Influenza vaccine, unspecified",True,107,0
@@ -2227,7 +2227,7 @@ VAC0939,PREHEVBRIO,False,SNOMED-CT-871822003,"Hepatitis B vaccine, unspecified",
 VAC0939,PREHEVBRIO,False,SNOMED-CT-871925000,"Hepatitis B vaccine, unspecified",False,,
 VAC0940,SPUTNIK-LIGHT,False,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
 VAC0940,SPUTNIK-LIGHT,False,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
-VAC0941,"Immunoglobulin against anthrax, unspecified",True,,,,
+VAC0941,"Immunoglobulin against anthrax, unspecified",True,,,,,
 VAC0942,"Chicken embryo rabies vaccine, unspecified",True,SNOMED-CT-2191000221103,"Rabies vaccine, inactivated, whole virion, cell culture-based, unspecified",True,23,0
 VAC0942,"Chicken embryo rabies vaccine, unspecified",True,SNOMED-CT-1131000221109,"Rabies vaccine, unspecified",False,,
 VAC0942,"Chicken embryo rabies vaccine, unspecified",True,SNOMED-CT-836393002,"Rabies vaccine, unspecified",False,,
@@ -2289,7 +2289,7 @@ VAC0964,ANATOXAL DI,False,SNOMED-CT-871730008,"Diphtheria toxoid, reduced dose, 
 VAC0964,ANATOXAL DI,False,SNOMED-CT-836381006,"Diphtheria vaccine, unspecified",False,,
 VAC0964,ANATOXAL DI,False,SNOMED-CT-871729003,"Diphtheria vaccine, unspecified",False,,
 VAC0964,ANATOXAL DI,False,SNOMED-CT-871830002,"Diphtheria vaccine, unspecified",False,,
-VAC0965,ANATOXAL TE TAB,False,,,,
+VAC0965,ANATOXAL TE TAB,False,,,,,
 VAC0966,JYNNEOS,False,SNOMED-CT-1293025000,"3rd generation smallpox vaccine, modified Ankara vaccinia virus, unspecified",True,4,0
 VAC0966,JYNNEOS,False,SNOMED-CT-1269346004,"Smallpox vaccine, unspecified",False,,
 VAC0966,JYNNEOS,False,SNOMED-CT-1290624003,"Smallpox vaccine, unspecified",False,,
@@ -2351,7 +2351,7 @@ VAC0984,VACCINO ANTIVAIOLOSO ISI,False,SNOMED-CT-1290624003,"Smallpox vaccine, u
 VAC0984,VACCINO ANTIVAIOLOSO ISI,False,SNOMED-CT-1290625002,"Smallpox vaccine, unspecified",True,15,0
 VAC0984,VACCINO ANTIVAIOLOSO ISI,False,SNOMED-CT-836389008,"Smallpox vaccine, unspecified",True,15,0
 VAC0984,VACCINO ANTIVAIOLOSO ISI,False,SNOMED-CT-871727001,"Smallpox vaccine, unspecified",True,15,0
-VAC0985,VACCINO TAB TE ISI,False,,,,
+VAC0985,VACCINO TAB TE ISI,False,,,,,
 VAC0986,H ATETAL ISI,False,SNOMED-CT-1101000221104,"Tetanus vaccine, unspecified",True,36,0
 VAC0986,H ATETAL ISI,False,SNOMED-CT-2021000221101,"Tetanus vaccine, unspecified",True,36,0
 VAC0986,H ATETAL ISI,False,SNOMED-CT-777725002,"Tetanus vaccine, unspecified",True,36,0
@@ -2362,8 +2362,8 @@ VAC0987,TANRIX,False,SNOMED-CT-2021000221101,"Tetanus vaccine, unspecified",True
 VAC0987,TANRIX,False,SNOMED-CT-777725002,"Tetanus vaccine, unspecified",True,36,0
 VAC0987,TANRIX,False,SNOMED-CT-863911006,"Tetanus vaccine, unspecified",True,36,0
 VAC0987,TANRIX,False,SNOMED-CT-871742003,"Tetanus vaccine, unspecified",True,36,0
-VAC0988,VACCINO MENINGOCOCCICO POLISACCARIDICO TETRAVALENTE GSK,False,,,,
-VAC0989,HANTAVAX,False,,,,
+VAC0988,VACCINO MENINGOCOCCICO POLISACCARIDICO TETRAVALENTE GSK,False,,,,,
+VAC0989,HANTAVAX,False,,,,,
 VAC0990,ALPHARIX,False,SNOMED-CT-1181000221105,"Influenza vaccine, unspecified",True,107,0
 VAC0990,ALPHARIX,False,SNOMED-CT-836377006,"Influenza vaccine, unspecified",True,107,0
 VAC0991,FLULAVAL QUADRIVALENT,False,SNOMED-CT-1181000221105,"Influenza vaccine, unspecified",True,107,0
@@ -2409,7 +2409,7 @@ VAC1000,VACV VACCINIA VIRUS LISTER ELSTREE,False,SNOMED-CT-1290624003,"Smallpox 
 VAC1000,VACV VACCINIA VIRUS LISTER ELSTREE,False,SNOMED-CT-1290625002,"Smallpox vaccine, unspecified",True,15,0
 VAC1000,VACV VACCINIA VIRUS LISTER ELSTREE,False,SNOMED-CT-836389008,"Smallpox vaccine, unspecified",True,15,0
 VAC1000,VACV VACCINIA VIRUS LISTER ELSTREE,False,SNOMED-CT-871727001,"Smallpox vaccine, unspecified",True,15,0
-VAC1001,V4020 VEEV VACCINE,False,,,,
+VAC1001,V4020 VEEV VACCINE,False,,,,,
 VAC1002,Q-VAX,False,SNOMED-CT-836397001,"Q fever vaccine, unspecified",True,2,0
 VAC1002,Q-VAX,False,SNOMED-CT-871723002,"Q fever vaccine, unspecified",True,2,0
 VAC1003,TEDIVAX PRO ADULTO,False,SNOMED-CT-2031000221103,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
@@ -2542,7 +2542,7 @@ VAC1044,"COVID-19 vaccine, whole virion inactivated, unspecified",True,SNOMED-CT
 VAC1045,INFANRIX-IPV/HIB,False,SNOMED-CT-2091000221104,"Pentavalent DTaPHibIPV vaccine, unspecified",True,13,0
 VAC1045,INFANRIX-IPV/HIB,False,SNOMED-CT-871888001,"Pentavalent DTaPHibIPV vaccine, unspecified",True,13,0
 VAC1045,INFANRIX-IPV/HIB,False,SNOMED-CT-871887006,"Pentavalent Diphtheria-Tetanus-Pertussis-Hib-Polio (DTPerHibIPV) vaccine, unspecified",False,,
-VAC1046,BEYFORTUS 50 MG (NIRSEVIMAB),False,,,,
+VAC1046,BEYFORTUS 50 MG (NIRSEVIMAB),False,,,,,
 VAC1047,ABRYSVO,False,SNOMED-CT-51311000087100,"RSV vaccine, unspecified",True,7,0
 VAC1048,DECAVAC,False,SNOMED-CT-2031000221103,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
 VAC1048,DECAVAC,False,SNOMED-CT-871827009,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
@@ -2552,7 +2552,7 @@ VAC1049,TDVAX,False,SNOMED-CT-2031000221103,"Diphtheria-tetanus Td vaccine, unsp
 VAC1049,TDVAX,False,SNOMED-CT-871827009,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
 VAC1049,TDVAX,False,SNOMED-CT-775641005,"Tetanus diphtheria vaccine, unspecified",False,,
 VAC1049,TDVAX,False,SNOMED-CT-871826000,"Tetanus diphtheria vaccine, unspecified",False,,
-VAC1050,BEYFORTUS 100 MG (NIRSEVIMAB),False,,,,
+VAC1050,BEYFORTUS 100 MG (NIRSEVIMAB),False,,,,,
 VAC1051,PFIZER COMIRNATY-30 XBB.1.5,False,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
 VAC1051,PFIZER COMIRNATY-30 XBB.1.5,False,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
 VAC1052,PFIZER COMIRNATY-10 XBB.1.5,False,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
@@ -2577,18 +2577,18 @@ VAC1059,"SPIKEVAX XBB.1.5 0,1 mg/mL dose 25 µg MODERNA",False,SNOMED-CT-1119305
 VAC1059,"SPIKEVAX XBB.1.5 0,1 mg/mL dose 25 µg MODERNA",False,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
 VAC1060,SPIKEVAX XBB.1.5 50 µg MODERNA,False,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
 VAC1060,SPIKEVAX XBB.1.5 50 µg MODERNA,False,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
-VAC1061,PENBRAYA,False,,,,
-VAC1062,CMV immune globulin,True,,,,
-VAC1063,"Hepatitis C vaccine, unspecified",True,,,,
-VAC1064,"HIV vaccine, unspecified",True,,,,
-VAC1065,Leprosy vaccine,True,,,,
-VAC1066,"Melanoma vaccine, unspecified",True,,,,
-VAC1067,"Streptococcus pyogenes vaccine, unspecified",True,,,,
-VAC1068,"Rift Valley fever vaccine, unspecified",True,,,,
-VAC1069,Vaccinia immune globulin,True,,,,
+VAC1061,PENBRAYA,False,,,,,
+VAC1062,CMV immune globulin,True,,,,,
+VAC1063,"Hepatitis C vaccine, unspecified",True,,,,,
+VAC1064,"HIV vaccine, unspecified",True,,,,,
+VAC1065,Leprosy vaccine,True,,,,,
+VAC1066,"Melanoma vaccine, unspecified",True,,,,,
+VAC1067,"Streptococcus pyogenes vaccine, unspecified",True,,,,,
+VAC1068,"Rift Valley fever vaccine, unspecified",True,,,,,
+VAC1069,Vaccinia immune globulin,True,,,,,
 VAC1070,FLUZONE HIGH-DOSE QUADRIVALENT SOUTHERN HEMISPHERE,False,SNOMED-CT-1181000221105,"Influenza vaccine, unspecified",True,107,0
 VAC1070,FLUZONE HIGH-DOSE QUADRIVALENT SOUTHERN HEMISPHERE,False,SNOMED-CT-836377006,"Influenza vaccine, unspecified",True,107,0
-VAC1071,"RSV antibody or vaccine, unspecified",True,,,,
+VAC1071,"RSV antibody or vaccine, unspecified",True,,,,,
 VAC1072,"COVID-19 mRNA vaccine, original virus, 25 µg, unspecified",True,SNOMED-CT-1287964002,"COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, original virus",True,29,0
 VAC1072,"COVID-19 mRNA vaccine, original virus, 25 µg, unspecified",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",False,,
 VAC1072,"COVID-19 mRNA vaccine, original virus, 25 µg, unspecified",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",False,,
@@ -2598,16 +2598,16 @@ VAC1074,CYFENDUS,False,SNOMED-CT-860818003,"Acellular anthrax vaccine, unspecifi
 VAC1074,CYFENDUS,False,SNOMED-CT-836384003,"Anthrax vaccine, unspecified",False,,
 VAC1075,"Acellular anthrax vaccine, unspecified",True,SNOMED-CT-860818003,"Acellular anthrax vaccine, unspecified",True,6,1
 VAC1075,"Acellular anthrax vaccine, unspecified",True,SNOMED-CT-836384003,"Anthrax vaccine, unspecified",False,,
-VAC1076,UROMUNE (MV 140),False,,,,
+VAC1076,UROMUNE (MV 140),False,,,,,
 VAC1077,ENVAX-A71,False,SNOMED-CT-51591000087104,"Enterovirus A71 vaccine, unspecified",True,4,0
 VAC1078,ENVACGEN,False,SNOMED-CT-51591000087104,"Enterovirus A71 vaccine, unspecified",True,4,0
-VAC1079,VAX-SPIRAL,False,,,,
+VAC1079,VAX-SPIRAL,False,,,,,
 VAC1080,COVAXIN,False,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
 VAC1080,COVAXIN,False,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
-VAC1081,BAYGAM,False,,,,
-VAC1082,BAYHEP B,False,,,,
-VAC1083,BAYRAB,False,,,,
-VAC1084,BAYTET,False,,,,
+VAC1081,BAYGAM,False,,,,,
+VAC1082,BAYHEP B,False,,,,,
+VAC1083,BAYRAB,False,,,,,
+VAC1084,BAYTET,False,,,,,
 VAC1085,MYCOBAX,False,SNOMED-CT-1861000221106,"BCG vaccine, unspecified",True,19,0
 VAC1085,MYCOBAX,False,SNOMED-CT-319941000221104,"BCG vaccine, unspecified",True,19,0
 VAC1085,MYCOBAX,False,SNOMED-CT-836402002,"BCG vaccine, unspecified",True,19,0
@@ -2615,13 +2615,13 @@ VAC1086,PNEUMUNE,False,SNOMED-CT-1119220001,"23-valent Pneumococcus conjugate va
 VAC1086,PNEUMUNE,False,SNOMED-CT-1801000221105,"Pneumococcal conjugate vaccine, serotypes unspecified",False,,
 VAC1086,PNEUMUNE,False,SNOMED-CT-836398006,"Pneumococcal vaccine, unspecified",False,,
 VAC1086,PNEUMUNE,False,SNOMED-CT-981000221107,"Pneumococcal vaccine, unspecified",False,,
-VAC1087,HYPERTET,False,,,,
-VAC1088,HYPERRAB,False,,,,
-VAC1089,HYPERHEP B,False,,,,
+VAC1087,HYPERTET,False,,,,,
+VAC1088,HYPERRAB,False,,,,,
+VAC1089,HYPERHEP B,False,,,,,
 VAC1090,MENZB,False,SNOMED-CT-1981000221108,"Meningococcal B vaccine, unspecified",True,9,0
-VAC1091,VARIZIG,False,,,,
-VAC1092,KAMRAB,False,,,,
-VAC1093,HEPAGAM,False,,,,
+VAC1091,VARIZIG,False,,,,,
+VAC1092,KAMRAB,False,,,,,
+VAC1093,HEPAGAM,False,,,,,
 VAC1094,OROCHOL,False,SNOMED-CT-1011000221100,"Oral live attenuated cholera vaccine, unspecified",True,2,0
 VAC1094,OROCHOL,False,SNOMED-CT-836383009,"Cholera vaccine, unspecified",False,,
 VAC1094,OROCHOL,False,SNOMED-CT-991000221105,"Cholera vaccine, unspecified",False,,
@@ -2632,17 +2632,17 @@ VAC1096,MORCVAX,False,SNOMED-CT-1001000221103,"Inactivated whole virion oral cho
 VAC1096,MORCVAX,False,SNOMED-CT-2181000221101,"Inactivated whole virion oral cholera vaccine, unspecified",True,7,0
 VAC1096,MORCVAX,False,SNOMED-CT-836383009,"Cholera vaccine, unspecified",False,,
 VAC1096,MORCVAX,False,SNOMED-CT-991000221105,"Cholera vaccine, unspecified",False,,
-VAC1097,CYTOGAM,False,,,,
+VAC1097,CYTOGAM,False,,,,,
 VAC1098,XANAFLU,False,SNOMED-CT-1181000221105,"Influenza vaccine, unspecified",True,107,0
 VAC1098,XANAFLU,False,SNOMED-CT-836377006,"Influenza vaccine, unspecified",True,107,0
-VAC1099,BABYBIG,False,,,,
-VAC1100,BOTULISM ANTITOXIN BEHRING,False,,,,
+VAC1099,BABYBIG,False,,,,,
+VAC1100,BOTULISM ANTITOXIN BEHRING,False,,,,,
 VAC1101,DOTARICIN,False,SNOMED-CT-1181000221105,"Influenza vaccine, unspecified",True,107,0
 VAC1101,DOTARICIN,False,SNOMED-CT-836377006,"Influenza vaccine, unspecified",True,107,0
-VAC1102,HIB-IMMUNE,False,,,,
-VAC1103,HIB-VAX,False,,,,
-VAC1104,DIPHTHERIA ANTITOXIN B.P.,False,,,,
-VAC1105,BAT EMERGENT BIOSOLUTIONS,False,,,,
+VAC1102,HIB-IMMUNE,False,,,,,
+VAC1103,HIB-VAX,False,,,,,
+VAC1104,DIPHTHERIA ANTITOXIN B.P.,False,,,,,
+VAC1105,BAT EMERGENT BIOSOLUTIONS,False,,,,,
 VAC1106,"COVID-19 VLP vaccine, unspecified",True,SNOMED-CT-30141000087107,"COVID-19 VLP vaccine, unspecified",True,6,1
 VAC1106,"COVID-19 VLP vaccine, unspecified",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",False,,
 VAC1106,"COVID-19 VLP vaccine, unspecified",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",False,,
@@ -2650,8 +2650,8 @@ VAC1107,"Whole inactivated Cholera vaccine, unspecified",True,SNOMED-CT-83638300
 VAC1107,"Whole inactivated Cholera vaccine, unspecified",True,SNOMED-CT-991000221105,"Cholera vaccine, unspecified",True,10,0
 VAC1108,"COVID-19 bivalent mRNA vaccine, original virus + Omicron BA.1 variant, unspecified",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
 VAC1108,"COVID-19 bivalent mRNA vaccine, original virus + Omicron BA.1 variant, unspecified",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
-VAC1109,"ACW unconjugated meningococcal vaccine, unspecified",True,,,,
-VAC1110,"Meningococcal C vaccine unconjugated, unspecified",True,,,,
+VAC1109,"ACW unconjugated meningococcal vaccine, unspecified",True,,,,,
+VAC1110,"Meningococcal C vaccine unconjugated, unspecified",True,,,,,
 VAC1111,"Japanese Encephalitis Vaccine, whole inactivated, prepared on Vero cells, unspecified",True,SNOMED-CT-871725009,"Inactivated Japanese Encephalitis vaccine, unspecified",True,14,0
 VAC1111,"Japanese Encephalitis Vaccine, whole inactivated, prepared on Vero cells, unspecified",True,SNOMED-CT-871825001,"Inactivated Japanese Encephalitis vaccine, unspecified",True,14,0
 VAC1111,"Japanese Encephalitis Vaccine, whole inactivated, prepared on Vero cells, unspecified",True,SNOMED-CT-836378001,"Japanese encephalitis vaccine, unspecified",False,,
@@ -2676,7 +2676,7 @@ VAC1117,"COVID-19 bivalent mRNA vaccine against the original virus and the Omicr
 VAC1118,"Enterovirus A71 vaccine, unspecified",True,SNOMED-CT-51591000087104,"Enterovirus A71 vaccine, unspecified",True,4,1
 VAC1119,"COVID-19 inactivated vaccine, whole virus, authorized, unspecified",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
 VAC1119,"COVID-19 inactivated vaccine, whole virus, authorized, unspecified",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
-VAC1120,"Trivalent leptospirosis vaccine, unspecified",True,,,,
+VAC1120,"Trivalent leptospirosis vaccine, unspecified",True,,,,,
 VAC1121,"Hexavalent vaccine DTPaHibPHepB - Diphtheria-Tetanus-Pertussis-Hib-Polio-Hepatitis B 10µg, unspecified",True,SNOMED-CT-1162634005,"Hexavalent vaccine DTPCaHibHepB - Diphtheria-Tetanus-Polio-Acellular Pertussis-Hib-HepB, unspecified",True,9,0
 VAC1121,"Hexavalent vaccine DTPaHibPHepB - Diphtheria-Tetanus-Pertussis-Hib-Polio-Hepatitis B 10µg, unspecified",True,SNOMED-CT-1162637003,"Hexavalent vaccine DTPCaHibHepB - Diphtheria-Tetanus-Polio-Acellular Pertussis-Hib-HepB, unspecified",True,9,0
 VAC1121,"Hexavalent vaccine DTPaHibPHepB - Diphtheria-Tetanus-Pertussis-Hib-Polio-Hepatitis B 10µg, unspecified",True,SNOMED-CT-2101000221107,"Hexavalent vaccine DTPCaHibHepB - Diphtheria-Tetanus-Polio-Acellular Pertussis-Hib-HepB, unspecified",True,9,0
@@ -2695,14 +2695,14 @@ VAC1125,"Hepatitis B vaccine, unspecified",True,SNOMED-CT-871822003,"Hepatitis B
 VAC1125,"Hepatitis B vaccine, unspecified",True,SNOMED-CT-871925000,"Hepatitis B vaccine, unspecified",True,7,2
 VAC1126,"Pentavalent DTP Hib vaccine - Diphtheria-Tetanus-Pertussis-Hib PRP-Polio, unspecified",True,SNOMED-CT-871839001,"Pentavalent DTwPHibIPV vaccine, unspecified",True,7,0
 VAC1126,"Pentavalent DTP Hib vaccine - Diphtheria-Tetanus-Pertussis-Hib PRP-Polio, unspecified",True,SNOMED-CT-871887006,"Pentavalent Diphtheria-Tetanus-Pertussis-Hib-Polio (DTPerHibIPV) vaccine, unspecified",False,,
-VAC1127,"Immunoglobulin against hepatitis A, measles, chickenpox and rubella, unspecified",True,,,,
+VAC1127,"Immunoglobulin against hepatitis A, measles, chickenpox and rubella, unspecified",True,,,,,
 VAC1128,"COVID-19 plasmid DNA vaccine, unspecified",True,SNOMED-CT-1187593009,"COVID-19 plasmid DNA vaccine, unspecified",True,12,1
 VAC1128,"COVID-19 plasmid DNA vaccine, unspecified",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",False,,
 VAC1128,"COVID-19 plasmid DNA vaccine, unspecified",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC1129,"COVID-19 protein subunit vaccine, recombinant spike protein in nanoparticles, unspecified",True,SNOMED-CT-1162643001,"COVID-19 protein subunit vaccine, recombinant spike protein, unspecified",True,43,0
 VAC1129,"COVID-19 protein subunit vaccine, recombinant spike protein in nanoparticles, unspecified",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",False,,
 VAC1129,"COVID-19 protein subunit vaccine, recombinant spike protein in nanoparticles, unspecified",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC1130,"Trivalent inactivated seasonal influenza vaccine and tetanus toxoid, unspecified",True,,,,
+VAC1130,"Trivalent inactivated seasonal influenza vaccine and tetanus toxoid, unspecified",True,,,,,
 VAC1131,"17-valent unconjugated pneumococcal vaccine, unspecified",True,SNOMED-CT-836398006,"Pneumococcal vaccine, unspecified",True,19,0
 VAC1131,"17-valent unconjugated pneumococcal vaccine, unspecified",True,SNOMED-CT-981000221107,"Pneumococcal vaccine, unspecified",True,19,0
 VAC1132,"COVID-19 bivalent mRNA vaccine, original virus + Omicron BA.4/5 variant, 1.5 micrograms, unspecified",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
@@ -2728,7 +2728,7 @@ VAC1139,"COVID-19 vaccine, non-replicating vector, Newcastle disease virus encod
 VAC1140,"COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 25 micrograms, unspecified",True,SNOMED-CT-1287596002,"COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 25 micrograms, unspecified",True,2,1
 VAC1140,"COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 25 micrograms, unspecified",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",False,,
 VAC1140,"COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 25 micrograms, unspecified",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC1141,"Bird Flu H5N8 Vaccine, unspecified",True,,,,
+VAC1141,"Bird Flu H5N8 Vaccine, unspecified",True,,,,,
 VAC1142,"COVID-19 vaccine, non-replicating vector, antigen-presenting cells, unspecified",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
 VAC1142,"COVID-19 vaccine, non-replicating vector, antigen-presenting cells, unspecified",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
 VAC1143,"COVID-19 vaccine with non-replicating viral vector, adenovirus encoding the spike protein of SARS-CoV-2, unspecified",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
@@ -2741,8 +2741,8 @@ VAC1145,"Recombinant hepatitis B vaccine, three antigens, unspecified",True,SNOM
 VAC1145,"Recombinant hepatitis B vaccine, three antigens, unspecified",True,SNOMED-CT-871925000,"Hepatitis B vaccine, unspecified",False,,
 VAC1146,"Inactivated quadrivalent influenza vaccine, high dose, unspecified",True,SNOMED-CT-1181000221105,"Influenza vaccine, unspecified",True,107,0
 VAC1146,"Inactivated quadrivalent influenza vaccine, high dose, unspecified",True,SNOMED-CT-836377006,"Influenza vaccine, unspecified",True,107,0
-VAC1147,"Human monoclonal antibody against respiratory syncytial virus (RSV), nirsevimab, unspecified",True,,,,
-VAC1148,"Haemophilus influenzae type b vaccine, unconjugated polysaccharide, unspecified",True,,,,
+VAC1147,"Human monoclonal antibody against respiratory syncytial virus (RSV), nirsevimab, unspecified",True,,,,,
+VAC1148,"Haemophilus influenzae type b vaccine, unconjugated polysaccharide, unspecified",True,,,,,
 VAC1149,"Oral live attenuated cholera vaccine, unspecified",True,SNOMED-CT-1011000221100,"Oral live attenuated cholera vaccine, unspecified",True,2,1
 VAC1149,"Oral live attenuated cholera vaccine, unspecified",True,SNOMED-CT-836383009,"Cholera vaccine, unspecified",False,,
 VAC1149,"Oral live attenuated cholera vaccine, unspecified",True,SNOMED-CT-991000221105,"Cholera vaccine, unspecified",False,,
@@ -2755,10 +2755,10 @@ VAC1152,"Meningococcal B vaccine containing fHbp of subfamilies A and B, unspeci
 VAC1153,"Quadrivalent meningococcal ACWY vaccine, diphtheria toxoid conjugate, unspecified",True,SNOMED-CT-1971000221105,"Meningococcal ACWY conjugate vaccine, unspecified",True,8,0
 VAC1153,"Quadrivalent meningococcal ACWY vaccine, diphtheria toxoid conjugate, unspecified",True,SNOMED-CT-871873006,"Meningococcal ACWY conjugate vaccine, unspecified",True,8,0
 VAC1153,"Quadrivalent meningococcal ACWY vaccine, diphtheria toxoid conjugate, unspecified",True,SNOMED-CT-871916006,"Meningococcal ACWY conjugate vaccine, unspecified",True,8,0
-VAC1154,"Whole inactivated mumps vaccine, unspecified",True,,,,
+VAC1154,"Whole inactivated mumps vaccine, unspecified",True,,,,,
 VAC1155,"Plasma hepatitis B vaccine, unspecified",True,SNOMED-CT-871822003,"Hepatitis B vaccine, unspecified",True,7,0
 VAC1155,"Plasma hepatitis B vaccine, unspecified",True,SNOMED-CT-871925000,"Hepatitis B vaccine, unspecified",True,7,0
-VAC1156,"Immunoglobulin against botulism, unspecified",True,,,,
+VAC1156,"Immunoglobulin against botulism, unspecified",True,,,,,
 VAC1157,"3rd generation smallpox vaccine, modified Ankara vaccinia virus, unspecified",True,SNOMED-CT-1293025000,"3rd generation smallpox vaccine, modified Ankara vaccinia virus, unspecified",True,4,1
 VAC1157,"3rd generation smallpox vaccine, modified Ankara vaccinia virus, unspecified",True,SNOMED-CT-1269346004,"Smallpox vaccine, unspecified",False,,
 VAC1157,"3rd generation smallpox vaccine, modified Ankara vaccinia virus, unspecified",True,SNOMED-CT-1290624003,"Smallpox vaccine, unspecified",False,,
@@ -2816,7 +2816,7 @@ VAC1177,"3rd generation smallpox vaccine, live vaccinia virus with minimal repli
 VAC1177,"3rd generation smallpox vaccine, live vaccinia virus with minimal replication, unspecified",True,SNOMED-CT-871727001,"Smallpox vaccine, unspecified",True,15,0
 VAC1178,"Tetravalent Dengue vaccine, live attenuated chimeric recombinant, unspecified",True,SNOMED-CT-840563003,"Dengue vaccine, unspecified",True,5,0
 VAC1178,"Tetravalent Dengue vaccine, live attenuated chimeric recombinant, unspecified",True,SNOMED-CT-871720004,"Dengue vaccine, unspecified",True,5,0
-VAC1179,"Cholera and typhoid vaccine, injectable, unspecified",True,,,,
+VAC1179,"Cholera and typhoid vaccine, injectable, unspecified",True,,,,,
 VAC1180,"Recombinant Lyme disease vaccine, unspecified",True,SNOMED-CT-840599008,"Lyme disease vaccine, unspecified",True,4,0
 VAC1180,"Recombinant Lyme disease vaccine, unspecified",True,SNOMED-CT-871911001,"Lyme disease vaccine, unspecified",True,4,0
 VAC1181,"Pentavalent vaccine DTPeHibHepB - Diphtheria-Tetanus-Pertussis-Hib PRP-HepatitisB 10µg, unspecified",True,SNOMED-CT-871886002,"DTPerHibHepB pentavalent vaccine, unspecified",True,17,0
@@ -2841,11 +2841,11 @@ VAC1189,"Non-replicating vector COVID-19 vaccine, modified Ankara vaccine encodi
 VAC1189,"Non-replicating vector COVID-19 vaccine, modified Ankara vaccine encoding the SARS-CoV-2 spike protein, unspecified",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
 VAC1190,"COVID-19 vaccine with replicative viral vector, vesicular stomatitis virus encoding the SARS-CoV-2 spike protein, unspecified",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
 VAC1190,"COVID-19 vaccine with replicative viral vector, vesicular stomatitis virus encoding the SARS-CoV-2 spike protein, unspecified",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
-VAC1191,"Vaccine for the prevention of urinary infections in women, unspecified",True,,,,
+VAC1191,"Vaccine for the prevention of urinary infections in women, unspecified",True,,,,,
 VAC1192,"Pentavalent vaccine DTPePHibHepB - Diphtheria-Tetanus-Pertussis-Hib OC-HepatitisB 10µg, unspecified",True,SNOMED-CT-871886002,"DTPerHibHepB pentavalent vaccine, unspecified",True,17,0
 VAC1193,"Japanese encephalitis vaccine, live recombinant attenuated, unspecified",True,SNOMED-CT-836378001,"Japanese encephalitis vaccine, unspecified",True,8,0
 VAC1193,"Japanese encephalitis vaccine, live recombinant attenuated, unspecified",True,SNOMED-CT-871724008,"Japanese encephalitis vaccine, unspecified",True,8,0
-VAC1194,"Tetanus, typhoid and paratypoid A and B vaccines, unspecified",True,,,,
+VAC1194,"Tetanus, typhoid and paratypoid A and B vaccines, unspecified",True,,,,,
 VAC1195,"COVID-19 vaccine with non-replicating viral vector, adenovirus 26 encoding the spike protein of SARS-CoV-2, in clinical trial, unspecified",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
 VAC1195,"COVID-19 vaccine with non-replicating viral vector, adenovirus 26 encoding the spike protein of SARS-CoV-2, in clinical trial, unspecified",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
 VAC1196,"Japanese encephalitis vaccine, whole inactivated prepared from murine brain tissue, unspecified",True,SNOMED-CT-871725009,"Inactivated Japanese Encephalitis vaccine, unspecified",True,14,0
@@ -2866,7 +2866,7 @@ VAC1201,"Tetravalent Dengue vaccine, live attenuated chimeric recombinant based 
 VAC1201,"Tetravalent Dengue vaccine, live attenuated chimeric recombinant based on 17D yellow fever vaccine, unspecified",True,SNOMED-CT-871720004,"Dengue vaccine, unspecified",True,5,0
 VAC1202,"COVID-19 vaccine with live attenuated virus, unspecified",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
 VAC1202,"COVID-19 vaccine with live attenuated virus, unspecified",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
-VAC1203,"Brucellosis vaccine, protein (P.I. antigen)",True,,,,
+VAC1203,"Brucellosis vaccine, protein (P.I. antigen)",True,,,,,
 VAC1204,"COVID-19 protein subunit vaccine, recombinant spike protein, with adjuvant, unspecified",True,SNOMED-CT-1162643001,"COVID-19 protein subunit vaccine, recombinant spike protein, unspecified",True,43,0
 VAC1204,"COVID-19 protein subunit vaccine, recombinant spike protein, with adjuvant, unspecified",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",False,,
 VAC1204,"COVID-19 protein subunit vaccine, recombinant spike protein, with adjuvant, unspecified",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",False,,
@@ -2879,7 +2879,7 @@ VAC1206,"COVID-19 vaccine with self-amplifying mRNA, unspecified",True,SNOMED-CT
 VAC1207,"COVID-19 vaccine with replicative viral vector, Newcastle disease virus encoding the SARS-CoV-2 spike protein, unspecified",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
 VAC1207,"COVID-19 vaccine with replicative viral vector, Newcastle disease virus encoding the SARS-CoV-2 spike protein, unspecified",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
 VAC1208,"Quadrivalent DTPeHepB vaccine - Diphtheria-Tetanus-Pertussis-HepatitisB 10µg, unspecified",True,SNOMED-CT-1156879008,"Diphtheria-Tetanus-Pertussis-Hepatitis B vaccine, unspecified",True,7,0
-VAC1209,"Measles vaccine, whole inactivated, unspecified",True,,,,
+VAC1209,"Measles vaccine, whole inactivated, unspecified",True,,,,,
 VAC1210,"COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, original virus, 100 micrograms, unspecified",True,SNOMED-CT-1287964002,"COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, original virus",True,29,0
 VAC1210,"COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, original virus, 100 micrograms, unspecified",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",False,,
 VAC1210,"COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, original virus, 100 micrograms, unspecified",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",False,,
@@ -2901,13 +2901,13 @@ VAC1216,"Quadrivalent DTPaHepB vaccine - Diphtheria-Tetanus-Pertussis-Hepatitis 
 VAC1217,"Vaccine against hepatitis B and Haemophilus influenzae type b, unspecified",True,SNOMED-CT-871806004,"HepB-Hib, unspecified",True,4,0
 VAC1218,"Meningococcal A polysaccharide vaccine conjugated to tetanus toxoid, unspecified",True,SNOMED-CT-52821000087108,"Meningococcal conjugate vaccine A, unspecified",True,3,0
 VAC1218,"Meningococcal A polysaccharide vaccine conjugated to tetanus toxoid, unspecified",True,SNOMED-CT-1252690003,"Meningococcal A vaccine, unspecified",False,,
-VAC1219,"Hexavalent vaccine DTPeHibMCV-A-C-T - Diphtheria-Tetanus-Pertussis-Hib PRP-Meningococcus A and C, conjugated with tetanus toxoid, unspecified",True,,,,
+VAC1219,"Hexavalent vaccine DTPeHibMCV-A-C-T - Diphtheria-Tetanus-Pertussis-Hib PRP-Meningococcus A and C, conjugated with tetanus toxoid, unspecified",True,,,,,
 VAC1220,"Meningococcal CY and anti-Haemophilus influenzae type b vaccine, conjugated with tetanus toxoid, unspecified",True,SNOMED-CT-1119351006,"Hib-MenCY, unspecified",True,3,0
-VAC1221,"Trivalent vaccine against diphtheria, tetanus and rubella, unspecified",True,,,,
-VAC1222,"Human monoclonal antibody against respiratory syncytial virus (RSV), palivizumab, unspecified",True,,,,
-VAC1223,"Immunoglobulin against respiratory syncytial virus (RSV), unspecified",True,,,,
+VAC1221,"Trivalent vaccine against diphtheria, tetanus and rubella, unspecified",True,,,,,
+VAC1222,"Human monoclonal antibody against respiratory syncytial virus (RSV), palivizumab, unspecified",True,,,,,
+VAC1223,"Immunoglobulin against respiratory syncytial virus (RSV), unspecified",True,,,,,
 VAC1224,"Respiratory syncytial virus (RSV) vaccine, recombinant, F-glycoprotein (prefusion) RSV subtypes A and B, unspecified",True,SNOMED-CT-51311000087100,"RSV vaccine, unspecified",True,7,0
-VAC1225,"DT-TAB Diphtheria, tetanus, typhoid and paratypoid A and B vaccines, unspecified",True,,,,
+VAC1225,"DT-TAB Diphtheria, tetanus, typhoid and paratypoid A and B vaccines, unspecified",True,,,,,
 VAC1226,"Combined hepatitis A and B vaccine, pediatric dose, unspecified",True,SNOMED-CT-121000221105,"Combined hepatitis A and hepatitis B vaccine, unspecified",True,6,0
 VAC1226,"Combined hepatitis A and B vaccine, pediatric dose, unspecified",True,SNOMED-CT-871803007,"Combined hepatitis A and hepatitis B vaccine, unspecified",True,6,0
 VAC1227,"Recombinant hepatitis B vaccine, pediatric dose, unspecified",True,SNOMED-CT-1296676008,"Hepatitis B vaccine, recombinant, unspecified",True,13,0
@@ -2916,7 +2916,7 @@ VAC1227,"Recombinant hepatitis B vaccine, pediatric dose, unspecified",True,SNOM
 VAC1227,"Recombinant hepatitis B vaccine, pediatric dose, unspecified",True,SNOMED-CT-871822003,"Hepatitis B vaccine, unspecified",False,,
 VAC1227,"Recombinant hepatitis B vaccine, pediatric dose, unspecified",True,SNOMED-CT-871925000,"Hepatitis B vaccine, unspecified",False,,
 VAC1228,"Respiratory syncytial virus (RSV) vaccine, recombinant, F protein-derived RSVPreF3 antigen, unspecified",True,SNOMED-CT-51311000087100,"RSV vaccine, unspecified",True,7,0
-VAC1229,Vaccine against meningococcal serogroups B (outer membrane vesicle proteins) and C,True,,,,
+VAC1229,Vaccine against meningococcal serogroups B (outer membrane vesicle proteins) and C,True,,,,,
 VAC1230,"Meningococcal C and anti-Haemophilus influenzae type b vaccine, conjugated with tetanus toxoid, unspecified",True,SNOMED-CT-836500008,"Hib-MeningoC vaccine, unspecified",True,3,0
 VAC1231,"Pentavalent vaccine DTPaHibHepB- Diphtheria-Tetanus-Pertussis-Hib PRP-Hepatitis B 10μg, unspecified",True,SNOMED-CT-2081000221102,"DTaPHibHepB pentavalent vaccine, unspecified",True,3,0
 VAC1231,"Pentavalent vaccine DTPaHibHepB- Diphtheria-Tetanus-Pertussis-Hib PRP-Hepatitis B 10μg, unspecified",True,SNOMED-CT-871886002,"DTPerHibHepB pentavalent vaccine, unspecified",False,,
@@ -2936,24 +2936,24 @@ VAC1236,"COVID-19 protein subunit vaccine, recombinant spike protein in nanopart
 VAC1236,"COVID-19 protein subunit vaccine, recombinant spike protein in nanoparticles, Omicron subvariant XBB.1.5, unspecified",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",False,,
 VAC1236,"COVID-19 protein subunit vaccine, recombinant spike protein in nanoparticles, Omicron subvariant XBB.1.5, unspecified",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC1237,"Pre-erythrocytic malaria vaccine, unspecified",True,SNOMED-CT-45861000087106,"Malaria vaccine, unspecified",True,4,0
-VAC1238,"Vaccine against hepatitis B and malaria, unspecified",True,,,,
+VAC1238,"Vaccine against hepatitis B and malaria, unspecified",True,,,,,
 VAC1239,"15-valent Pneumococcus conjugate vaccine, unspecified",True,SNOMED-CT-1252708008,"15-valent Pneumococcus conjugate vaccine, unspecified",True,2,1
 VAC1239,"15-valent Pneumococcus conjugate vaccine, unspecified",True,SNOMED-CT-1801000221105,"Pneumococcal conjugate vaccine, serotypes unspecified",False,,
 VAC1239,"15-valent Pneumococcus conjugate vaccine, unspecified",True,SNOMED-CT-836398006,"Pneumococcal vaccine, unspecified",False,,
 VAC1239,"15-valent Pneumococcus conjugate vaccine, unspecified",True,SNOMED-CT-981000221107,"Pneumococcal vaccine, unspecified",False,,
 VAC1240,"4-component meningococcal B vaccine, unspecified",True,SNOMED-CT-1981000221108,"Meningococcal B vaccine, unspecified",True,9,0
-VAC1241,"Shingles vaccine, varicella-zoster virus (VZV) surface glycoprotein E (gE), unspecified",True,,,,
+VAC1241,"Shingles vaccine, varicella-zoster virus (VZV) surface glycoprotein E (gE), unspecified",True,,,,,
 VAC1242,"COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron XBB.1.5 variant, 25 micrograms",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
 VAC1242,"COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron XBB.1.5 variant, 25 micrograms",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
 VAC1243,"COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron XBB.1.5 variant, 50 micrograms",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
 VAC1243,"COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron XBB.1.5 variant, 50 micrograms",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
 VAC1244,"COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron XBB.1.5 variant, 30 micrograms",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
 VAC1244,"COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron XBB.1.5 variant, 30 micrograms",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
-VAC1245,"ABCWY meningococcal vaccine, unspecified",True,,,,
-VAC1246,VACCIN COVID-GRIPPE ARN MRNA-1083,False,,,,
+VAC1245,"ABCWY meningococcal vaccine, unspecified",True,,,,,
+VAC1246,VACCIN COVID-GRIPPE ARN MRNA-1083,False,,,,,
 VAC1247,"Hepatitis A vaccine, unspecified",True,SNOMED-CT-865997008,"Hepatitis A vaccine, unspecified",True,2,2
 VAC1247,"Hepatitis A vaccine, unspecified",True,SNOMED-CT-871751006,"Hepatitis A vaccine, unspecified",True,2,2
-VAC1248,"Influenza/Covid 19 mRNA vaccine, unspecified",True,,,,
+VAC1248,"Influenza/Covid 19 mRNA vaccine, unspecified",True,,,,,
 VAC1249,"Flu vaccine, trivalent inactivated, high dose, intradermal use, unspecified",True,SNOMED-CT-1181000221105,"Influenza vaccine, unspecified",True,107,0
 VAC1249,"Flu vaccine, trivalent inactivated, high dose, intradermal use, unspecified",True,SNOMED-CT-836377006,"Influenza vaccine, unspecified",True,107,0
 VAC1250,EUVICHOL-S,False,SNOMED-CT-1001000221103,"Inactivated whole virion oral cholera vaccine, unspecified",True,7,0
@@ -2972,8 +2972,8 @@ VAC1254,CAPVAXIVE,False,SNOMED-CT-1360050007,"21-valent pneumococcal conjugate v
 VAC1254,CAPVAXIVE,False,SNOMED-CT-1801000221105,"Pneumococcal conjugate vaccine, serotypes unspecified",False,,
 VAC1254,CAPVAXIVE,False,SNOMED-CT-836398006,"Pneumococcal vaccine, unspecified",False,,
 VAC1254,CAPVAXIVE,False,SNOMED-CT-981000221107,"Pneumococcal vaccine, unspecified",False,,
-VAC1255,HEXASIIL,False,,,,
-VAC1256,"Hexavalent vaccine DTwPHibPHepB - Diphtheria-Tetanus-Pertussis-Hib-Polio-Hepatitis B 15µg, unspecified",True,,,,
+VAC1255,HEXASIIL,False,,,,,
+VAC1256,"Hexavalent vaccine DTwPHibPHepB - Diphtheria-Tetanus-Pertussis-Hib-Polio-Hepatitis B 15µg, unspecified",True,,,,,
 VAC1257,"Cholera vaccine, whole inactivated oral, bivalent containing the whole inactivated V. cholerae O1 and O139 bacteria, unspecified",True,SNOMED-CT-1001000221103,"Inactivated whole virion oral cholera vaccine, unspecified",True,7,0
 VAC1257,"Cholera vaccine, whole inactivated oral, bivalent containing the whole inactivated V. cholerae O1 and O139 bacteria, unspecified",True,SNOMED-CT-2181000221101,"Inactivated whole virion oral cholera vaccine, unspecified",True,7,0
 VAC1257,"Cholera vaccine, whole inactivated oral, bivalent containing the whole inactivated V. cholerae O1 and O139 bacteria, unspecified",True,SNOMED-CT-836383009,"Cholera vaccine, unspecified",False,,
@@ -2990,12 +2990,12 @@ VAC1261,NUVAXOVID JN.1,False,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspeci
 VAC1262,MRESVIA,False,SNOMED-CT-51311000087100,"RSV vaccine, unspecified",True,7,0
 VAC1263,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
 VAC1263,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
-VAC1264,"A(H5) avian influenza vaccine, unspecified",True,,,,
+VAC1264,"A(H5) avian influenza vaccine, unspecified",True,,,,,
 VAC1265,CLODIVAC,False,SNOMED-CT-2031000221103,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
 VAC1265,CLODIVAC,False,SNOMED-CT-871827009,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
 VAC1265,CLODIVAC,False,SNOMED-CT-775641005,"Tetanus diphtheria vaccine, unspecified",False,,
 VAC1265,CLODIVAC,False,SNOMED-CT-871826000,"Tetanus diphtheria vaccine, unspecified",False,,
-VAC1266,PENMENVY,False,,,,
+VAC1266,PENMENVY,False,,,,,
 VAC1267,VIMKUNYA,False,SNOMED-CT-1345042009,"Vaccine against chikungunya, unspecified",True,3,0
 VAC1267,VIMKUNYA,False,SNOMED-CT-1345202008,"Vaccine against chikungunya, unspecified",True,3,0
 VAC1268,SPIKEVAX JN.1 50 µg,False,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
@@ -3004,8 +3004,8 @@ VAC1269,"SPIKEVAX JN.1 0,1 mg/mL dose 25 µg",False,SNOMED-CT-1119305005,"COVID-
 VAC1269,"SPIKEVAX JN.1 0,1 mg/mL dose 25 µg",False,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
 VAC1270,"SPIKEVAX JN.1 0,1 mg/mL dose 50 µg",False,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
 VAC1270,"SPIKEVAX JN.1 0,1 mg/mL dose 50 µg",False,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
-VAC1271,TYT BIOMED,False,,,,
-VAC1272,PSEUDOVAC,False,,,,
+VAC1271,TYT BIOMED,False,,,,,
+VAC1272,PSEUDOVAC,False,,,,,
 VAC1273,DT BIOMED,False,SNOMED-CT-775641005,"Tetanus diphtheria vaccine, unspecified",True,30,0
 VAC1273,DT BIOMED,False,SNOMED-CT-871826000,"Tetanus diphtheria vaccine, unspecified",True,30,0
 VAC1274,d BIOMED,False,SNOMED-CT-871730008,"Diphtheria toxoid, reduced dose, unspecified",True,3,0
@@ -3115,7 +3115,7 @@ VAC1310,SII TD-VAC,False,SNOMED-CT-2031000221103,"Diphtheria-tetanus Td vaccine,
 VAC1310,SII TD-VAC,False,SNOMED-CT-871827009,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
 VAC1310,SII TD-VAC,False,SNOMED-CT-775641005,"Tetanus diphtheria vaccine, unspecified",False,,
 VAC1310,SII TD-VAC,False,SNOMED-CT-871826000,"Tetanus diphtheria vaccine, unspecified",False,,
-VAC1311,"Meningococcal ACWXY conjugate vaccine, unspecified",True,,,,
+VAC1311,"Meningococcal ACWXY conjugate vaccine, unspecified",True,,,,,
 VAC1312,TT SII,False,SNOMED-CT-1101000221104,"Tetanus vaccine, unspecified",True,36,0
 VAC1312,TT SII,False,SNOMED-CT-2021000221101,"Tetanus vaccine, unspecified",True,36,0
 VAC1312,TT SII,False,SNOMED-CT-777725002,"Tetanus vaccine, unspecified",True,36,0
@@ -3145,7 +3145,7 @@ VAC1321,HAEMOPHILUS INFLUENZAE B SII,False,SNOMED-CT-871764007,"Haemophilus infl
 VAC1322,PNEUMOSIL,False,SNOMED-CT-1801000221105,"Pneumococcal conjugate vaccine, serotypes unspecified",True,3,0
 VAC1322,PNEUMOSIL,False,SNOMED-CT-836398006,"Pneumococcal vaccine, unspecified",False,,
 VAC1322,PNEUMOSIL,False,SNOMED-CT-981000221107,"Pneumococcal vaccine, unspecified",False,,
-VAC1323,MENFIVE,False,,,,
+VAC1323,MENFIVE,False,,,,,
 VAC1324,NASOVAC-S,False,SNOMED-CT-1181000221105,"Influenza vaccine, unspecified",True,107,0
 VAC1324,NASOVAC-S,False,SNOMED-CT-836377006,"Influenza vaccine, unspecified",True,107,0
 VAC1325,GENEVAC-B 10 µg,False,SNOMED-CT-1296864005,"Hepatitis B vaccine, monovalent, pediatric dose, unspecified",True,16,0
@@ -3313,7 +3313,7 @@ VAC1373,ROTAVAC 5D,False,SNOMED-CT-836387005,"Rotavirus vaccine, unspecified",Tr
 VAC1373,ROTAVAC 5D,False,SNOMED-CT-871761004,"Rotavirus vaccine, unspecified",True,7,0
 VAC1374,TYPBAR-TCV,False,SNOMED-CT-428601009,"Typhoid vaccine, unspecified",True,21,0
 VAC1374,TYPBAR-TCV,False,SNOMED-CT-836390004,"Typhoid vaccine, unspecified",True,21,0
-VAC1375,TWINRAB,False,,,,
+VAC1375,TWINRAB,False,,,,,
 VAC1376,ZYCOV-D,False,SNOMED-CT-1187593009,"COVID-19 plasmid DNA vaccine, unspecified",True,12,0
 VAC1376,ZYCOV-D,False,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",False,,
 VAC1376,ZYCOV-D,False,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",False,,
@@ -3413,7 +3413,7 @@ VAC1413,"COVID-19 mRNA vaccine, subvariant Omicron JN.1, 3 micrograms, dose (6 m
 VAC1414,"COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles, with adjuvant (Matrix M), Omicron JN.1 subvariant",True,SNOMED-CT-1162643001,"COVID-19 protein subunit vaccine, recombinant spike protein, unspecified",True,43,0
 VAC1414,"COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles, with adjuvant (Matrix M), Omicron JN.1 subvariant",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",False,,
 VAC1414,"COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles, with adjuvant (Matrix M), Omicron JN.1 subvariant",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC1415,Polyvalent vaccine against  pus bacterium Pseudomonas aeruginosa,True,,,,
+VAC1415,Polyvalent vaccine against  pus bacterium Pseudomonas aeruginosa,True,,,,,
 VAC1416,"COVID-19 mRNA vaccine, subvariant Omicron KP.2, 3 micrograms, paediatric dose (6 months-4 years)",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
 VAC1416,"COVID-19 mRNA vaccine, subvariant Omicron KP.2, 3 micrograms, paediatric dose (6 months-4 years)",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
 VAC1417,"COVID-19 mRNA vaccine, subvariant Omicron KP.2, 10 micrograms, paediatric dose (5-11 years)",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
@@ -3444,7 +3444,7 @@ VAC1427,"Whole inactivated Japanese encephalitis vaccine, prepared in Vero cells
 VAC1428,"COVID-19 vaccine, protein subunit, recombinant homodimeric RBD protein, Omicron variant XBB.1.16, with adjuvant (SQBA)",True,SNOMED-CT-1162643001,"COVID-19 protein subunit vaccine, recombinant spike protein, unspecified",True,43,0
 VAC1428,"COVID-19 vaccine, protein subunit, recombinant homodimeric RBD protein, Omicron variant XBB.1.16, with adjuvant (SQBA)",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",False,,
 VAC1428,"COVID-19 vaccine, protein subunit, recombinant homodimeric RBD protein, Omicron variant XBB.1.16, with adjuvant (SQBA)",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC1429,TETANEA,False,,,,
+VAC1429,TETANEA,False,,,,,
 VAC1430,"COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 50 micrograms, unspecified",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
 VAC1430,"COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 50 micrograms, unspecified",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
 VAC1431,"RSV vaccine, unspecified",True,SNOMED-CT-51311000087100,"RSV vaccine, unspecified",True,7,1
@@ -3503,7 +3503,7 @@ VAC1452,SCI-B-VAC,False,SNOMED-CT-871822003,"Hepatitis B vaccine, unspecified",F
 VAC1452,SCI-B-VAC,False,SNOMED-CT-871925000,"Hepatitis B vaccine, unspecified",False,,
 VAC1453,INVIVAC,False,SNOMED-CT-1181000221105,"Influenza vaccine, unspecified",True,107,0
 VAC1453,INVIVAC,False,SNOMED-CT-836377006,"Influenza vaccine, unspecified",True,107,0
-VAC1454,PRIMAVAX,False,,,,
+VAC1454,PRIMAVAX,False,,,,,
 VAC1455,MENGIVAC A + C,False,SNOMED-CT-871871008,"Meningococcal A + C vaccine, unspecified",True,7,0
 VAC1456,WYVAC,False,SNOMED-CT-2191000221103,"Rabies vaccine, inactivated, whole virion, cell culture-based, unspecified",True,23,0
 VAC1456,WYVAC,False,SNOMED-CT-1131000221109,"Rabies vaccine, unspecified",False,,
@@ -3527,7 +3527,7 @@ VAC1463,FREEZE-DRIED BCG VACCINE JAPAN,False,SNOMED-CT-319941000221104,"BCG vacc
 VAC1463,FREEZE-DRIED BCG VACCINE JAPAN,False,SNOMED-CT-836402002,"BCG vaccine, unspecified",True,19,0
 VAC1464,FLUBRON VACCINE,False,SNOMED-CT-1181000221105,"Influenza vaccine, unspecified",True,107,0
 VAC1464,FLUBRON VACCINE,False,SNOMED-CT-836377006,"Influenza vaccine, unspecified",True,107,0
-VAC1465,PERDIPIGEN,False,,,,
+VAC1465,PERDIPIGEN,False,,,,,
 VAC1466,COMIRNATY LP.8.1 30 µg,False,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
 VAC1466,COMIRNATY LP.8.1 30 µg,False,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
 VAC1467,COMIRNATY LP.8.1 3 µg 6 MOIS-4 ANS,False,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
@@ -3544,12 +3544,12 @@ VAC1472,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 10 micrograms, paedia
 VAC1472,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 10 micrograms, paediatric dose (5-11 years)",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
 VAC1473,"COVID-19 mRNA vaccine, encoding a fragment of the SARS-CoV-2 spike protein, Omicron LP.8.1 subvariant",True,SNOMED-CT-1119305005,"COVID-19 vaccine, unspecified",True,130,0
 VAC1473,"COVID-19 mRNA vaccine, encoding a fragment of the SARS-CoV-2 spike protein, Omicron LP.8.1 subvariant",True,SNOMED-CT-28531000087107,"COVID-19 vaccine, unspecified",True,130,0
-VAC1474,ENFLONSIA (CLESROVIMAB),False,,,,
-VAC1475,"Human monoclonal antibody against respiratory syncytial virus (RSV), clesrovimab, unspecified",True,,,,
-VAC1476,"Meningococcal vaccine against A, C, W, Y (conjugated polysaccharide) and B",True,,,,
+VAC1474,ENFLONSIA (CLESROVIMAB),False,,,,,
+VAC1475,"Human monoclonal antibody against respiratory syncytial virus (RSV), clesrovimab, unspecified",True,,,,,
+VAC1476,"Meningococcal vaccine against A, C, W, Y (conjugated polysaccharide) and B",True,,,,,
 VAC1477,ENCEPUR N ENFANT,False,SNOMED-CT-836403007,"Tick-borne encephalitis vaccine, unspecified",True,9,0
 VAC1477,ENCEPUR N ENFANT,False,SNOMED-CT-871719005,"Tick-borne encephalitis vaccine, unspecified",True,9,0
-VAC1478,SYNAGIS 50 mg (PALIZIVUMAB),False,,,,
+VAC1478,SYNAGIS 50 mg (PALIZIVUMAB),False,,,,,
 VAC1479,VACPERTAGEN,False,SNOMED-CT-601000221108,"Acellular pertussis vaccine, unspecified",True,15,0
 VAC1479,VACPERTAGEN,False,SNOMED-CT-871758000,"Pertussis vaccine, unspecified",False,,
 VAC1479,VACPERTAGEN,False,SNOMED-CT-871759008,"Pertussis vaccine, unspecified",False,,
@@ -3557,7 +3557,7 @@ VAC1480,PNEUMOVAX 23,False,SNOMED-CT-836398006,"Pneumococcal vaccine, unspecifie
 VAC1480,PNEUMOVAX 23,False,SNOMED-CT-981000221107,"Pneumococcal vaccine, unspecified",True,19,0
 VAC1481,FLUVACCINOL,False,SNOMED-CT-1181000221105,"Influenza vaccine, unspecified",True,107,0
 VAC1481,FLUVACCINOL,False,SNOMED-CT-836377006,"Influenza vaccine, unspecified",True,107,0
-VAC1482,IMMUNOGLOBULINE HUMAINE DE L'HÉPATITE B LFB,False,,,,
+VAC1482,IMMUNOGLOBULINE HUMAINE DE L'HÉPATITE B LFB,False,,,,,
 VAC1483,ENCEPUR N,False,SNOMED-CT-836403007,"Tick-borne encephalitis vaccine, unspecified",True,9,0
 VAC1483,ENCEPUR N,False,SNOMED-CT-871719005,"Tick-borne encephalitis vaccine, unspecified",True,9,0
 VAC1484,HEPRECOMB ENFANT,False,SNOMED-CT-1296676008,"Hepatitis B vaccine, recombinant, unspecified",True,13,0
