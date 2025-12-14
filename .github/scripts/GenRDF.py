@@ -167,7 +167,7 @@ for codeSystem in CodeSystems.keys():
             label =  nuva_data['label']
             isAbstract = nuva_data['isAbstract']
             if len(nuva_data["bestcodes"])==0 :
-                map_writer.writerow([nuva_code,label, isAbstract,"", "", "", ""])
+                map_writer.writerow([nuva_code,label, isAbstract,"", "", "", "",""])
             else:        
                 for extcode in sorted( nuva_data["bestcodes"]):
                     map_writer.writerow([nuva_code, label, isAbstract,
