@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "1.3.7"^^xsd:string .
+    owl:versionInfo "1.3.8"^^xsd:string .
 
 nuva:AIC a owl:Class ;
     rdfs:label "AIC"^^xsd:string ;
@@ -4003,7 +4003,7 @@ nuva:VAC0112 a owl:Class ;
         "91"^^nuva:CVX,
         "['0112']"^^nuva:NUVACode,
         "2081002000104"^^nuva:SCT_NUVA,
-        "428601009"^^nuva:SNOMED-CT,
+        "#428601009"^^nuva:SNOMED-CT,
         "836390004"^^nuva:SNOMED-CT,
         "VAC0112"^^xsd:string .
 
@@ -8086,6 +8086,7 @@ nuva:VAC0339 a owl:Class ;
         "XM2249"^^nuva:ICD11,
         "['0339']"^^nuva:NUVACode,
         "4611002000108"^^nuva:SCT_NUVA,
+        "1119220001"^^nuva:SNOMED-CT,
         "VAC0339"^^xsd:string .
 
 nuva:VAC0341 a owl:Class ;
@@ -16697,8 +16698,8 @@ nuva:VAC0860 a owl:Class ;
         "XM5CE9"^^nuva:ICD11,
         "['0860']"^^nuva:NUVACode,
         "10281002000106"^^nuva:SCT_NUVA,
+        "#871767000"^^nuva:SNOMED-CT,
         "1209197008"^^nuva:SNOMED-CT,
-        "871767000"^^nuva:SNOMED-CT,
         "VAC0860"^^xsd:string .
 
 nuva:VAC0861 a owl:Class ;
@@ -17687,7 +17688,6 @@ nuva:VAC0913 a owl:Class ;
         "5882311"^^nuva:INFARMED,
         "['0913']"^^nuva:NUVACode,
         "10981002000102"^^nuva:SCT_NUVA,
-        "08427711324775"^^nuva:SNOMED-CT,
         "VAC0913"^^xsd:string .
 
 nuva:VAC0914 a owl:Class ;
@@ -19042,7 +19042,7 @@ nuva:VAC0997 a owl:Class ;
         "XM9G97"^^nuva:ICD11,
         "['0997']"^^nuva:NUVACode,
         "11971002000106"^^nuva:SCT_NUVA,
-        "1119254000"^^nuva:SNOMED-CT,
+        "#1119254000"^^nuva:SNOMED-CT,
         "51451000087105"^^nuva:SNOMED-CT,
         "VAC0997"^^xsd:string .
 
@@ -19764,6 +19764,7 @@ nuva:VAC1041 a owl:Class ;
         "1119349007"^^nuva:CVC,
         "['1041']"^^nuva:NUVACode,
         "12581002000105"^^nuva:SCT_NUVA,
+        "1119349007"^^nuva:SNOMED-CT,
         "VAC1041"^^xsd:string .
 
 nuva:VAC1042 a owl:Class ;
@@ -19778,6 +19779,7 @@ nuva:VAC1042 a owl:Class ;
         "29061000087103"^^nuva:CVC,
         "['1042']"^^nuva:NUVACode,
         "12601002000102"^^nuva:SCT_NUVA,
+        "29061000087103"^^nuva:SNOMED-CT,
         "VAC1042"^^xsd:string .
 
 nuva:VAC1043 a owl:Class ;
@@ -21258,7 +21260,6 @@ nuva:VAC1136 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1136']"^^nuva:NUVACode,
         "13941002000101"^^nuva:SCT_NUVA,
-        "1119220001"^^nuva:SNOMED-CT,
         "VAC1136"^^xsd:string .
 
 nuva:VAC1137 a owl:Class ;
