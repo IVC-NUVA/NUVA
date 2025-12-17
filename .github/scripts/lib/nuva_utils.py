@@ -135,7 +135,7 @@ def nuva_optimize(g,codesystem,onlyAbstract):
     ?rvac rdfs:subClassOf nuva:Vaccine . 
     ?rvac rdfs:label ?rlabel FILTER(lang(?rlabel)in ('en','')).
     ?rvac skos:notation ?rnot FILTER(DATATYPE(?rnot)=xsd:string).
-    ?rvac skos:notation ?extnot FILTER(DATATYPE(?extnot)=nuva:""" + codesystem+""").
+    ?rvac skos:notation ?extnot FILTER(DATATYPE(?extnot)=nuva:""" + codesystem+""") FILTER (!STRSTARTS(STR(?extnot),'#')).
     ?rvac nuvs:isAbstract ?abstract ."""
     if onlyAbstract:
        q2+= "?rvac nuvs:isAbstract true }"
@@ -161,7 +161,7 @@ def nuva_optimize(g,codesystem,onlyAbstract):
    SELECT ?extnot ?rlabel (count(?vacnot) as ?nvac) (GROUP_CONCAT(?vacnot) as ?lvac) WHERE { 
    ?rvac rdfs:subClassOf nuva:Vaccine .    
    ?rvac skos:notation ?rnot FILTER(DATATYPE(?rnot)=xsd:string).
-   ?rvac skos:notation ?extnot FILTER(DATATYPE(?extnot)=nuva:""" + codesystem+""").
+   ?rvac skos:notation ?extnot FILTER(DATATYPE(?extnot)=nuva:""" + codesystem+""") FILTER (!STRSTARTS(STR(?extnot),'#')).
    ?rvac rdfs:label ?rlabel FILTER(lang(?rlabel)='en').
    ?rvac nuvs:isAbstract true .
    ?vac rdfs:subClassOf nuva:Vaccine .
