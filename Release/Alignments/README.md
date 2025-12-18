@@ -18,7 +18,7 @@ Each row in a reverse mapping file consists of:
 - the NUVA label for the concept matching exactly the external code
 -  a Best flag, that means that the given external code is the least ambiguous representation in the code system for the NUVA concepts
 -  If Best is set, a Blur index, that is the number of NUVA concepts that are best represented by this code
--  If Blur is 1 (meaning that the NUVA concept is equivalent to the code), an Equiv value representing the number of other codes in the code system that would be equivalent to the same NUVA concept. This is for example the case for several codes depending upon the packaging of a same vaccine.
+-  If the NUVA concept is a direct equivalent to the code, an Equiv value representing the number of codes in the code system that would also be equivalent to the same NUVA concept. This is for example the case for several codes depending upon the packaging of a same vaccine.
 
 The present codesystems are:
 ## AIC (Italy)
