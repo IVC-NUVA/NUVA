@@ -6,7 +6,21 @@ The content of each subfolder is generated from the Unit files, and consists of:
 - a reverse map of all NUVA concepts to possible corresponding codes in the code system
 - a text file with NUVA based metrics about the code system.
 
-The present codes are:
+By convention:
+- to void unwanted conversion to numbers when loading a worksheet, all codes are prefixed with the name of their code system, such as: CVX-195
+- like in the Unit files, codes that are no longer in use are prefixed with a #. They are present in direct mapping files, but not considered for reverse mapping.
+
+Each row in a reverse mapping file consists of:
+- the NUVA code
+- the NUVA label for that code
+- a IsAbstract flag, to differentiate branded products from abstract vaccine concepts
+- an external code that is a possible transcription of the NUVA code
+- the NUVA label for the concept matching exactly the external code
+-  a Best flag, that means that the given external code is the least ambiguous representation in the code system for the NUVA concepts
+-  If Best is set, a Blur index, that is the number of NUVA concepts that are best represented by this code
+-  If Blur is 1 (meaning that the NUVA concept is equivalent to the code), an Equiv value representing the number of other codes in the code system that would be equivalent to the same NUVA concept. This is for example the case for several codes depending upon the packaging of a same vaccine.
+
+The present codesystems are:
 ## AIC (Italy)
 This is the 9 digits marketing authorization code in Italy, attributed by the Italian Medicines Agency (AIFA).
 
