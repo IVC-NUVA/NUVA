@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "1.3.8"^^xsd:string .
+    owl:versionInfo "1.3.9"^^xsd:string .
 
 nuva:AIC a owl:Class ;
     rdfs:label "AIC"^^xsd:string ;
@@ -26087,6 +26087,7 @@ nuva:VAL179 a owl:Class ;
     dcterms:created "2022-03-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL234 ;
+    skos:altLabel "MCV-mono"@en ;
     skos:notation "VAL179"^^xsd:string .
 
 nuvs:containedInVaccine a owl:ObjectProperty ;
@@ -26237,6 +26238,7 @@ nuva:VAL046 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Typhus"@en ;
     skos:notation "VAL046"^^xsd:string .
 
 nuva:VAL119 a owl:Class ;
@@ -26245,6 +26247,7 @@ nuva:VAL119 a owl:Class ;
     dcterms:created "2021-10-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL234 ;
+    skos:altLabel "MPV-mono"@en ;
     skos:notation "VAL119"^^xsd:string .
 
 nuva:VAL120 a owl:Class ;
@@ -26253,6 +26256,7 @@ nuva:VAL120 a owl:Class ;
     dcterms:created "2021-10-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL234 ;
+    skos:altLabel "MPV-poly"@en ;
     skos:notation "VAL120"^^xsd:string .
 
 nuva:VAL129 a owl:Class ;
@@ -26261,6 +26265,7 @@ nuva:VAL129 a owl:Class ;
     dcterms:created "2021-10-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "HSV"@en ;
     skos:notation "VAL129"^^xsd:string .
 
 nuva:VAL131 a owl:Class ;
@@ -26269,6 +26274,7 @@ nuva:VAL131 a owl:Class ;
     dcterms:created "2021-10-26"^^xsd:date ;
     dcterms:modified "2025-05-21"^^xsd:date ;
     rdfs:subClassOf nuva:VAL422 ;
+    skos:altLabel "Yp-I"@en ;
     skos:notation "VAL131"^^xsd:string .
 
 nuva:VAL134 a owl:Class ;
@@ -26277,6 +26283,7 @@ nuva:VAL134 a owl:Class ;
     dcterms:created "2021-10-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL230 ;
+    skos:altLabel "INF-SUid4"@en ;
     skos:notation "VAL134"^^xsd:string .
 
 nuva:VAL146 a owl:Class ;
@@ -26285,6 +26292,7 @@ nuva:VAL146 a owl:Class ;
     dcterms:created "2022-02-21"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL006 ;
+    skos:altLabel "Bruc-I"@en ;
     skos:notation "VAL146"^^xsd:string .
 
 nuva:VAL151 a owl:Class ;
@@ -26293,6 +26301,7 @@ nuva:VAL151 a owl:Class ;
     dcterms:created "2022-02-25"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Tular"@en ;
     skos:notation "VAL151"^^xsd:string .
 
 nuva:VAL166 a owl:Class ;
@@ -26301,6 +26310,7 @@ nuva:VAL166 a owl:Class ;
     dcterms:created "2022-03-13"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL122 ;
+    skos:altLabel "INF-SUped3"@en ;
     skos:notation "VAL166"^^xsd:string .
 
 nuva:VAL175 a owl:Class ;
@@ -26309,6 +26319,7 @@ nuva:VAL175 a owl:Class ;
     dcterms:created "2022-03-21"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Leish"@en ;
     skos:notation "VAL175"^^xsd:string .
 
 nuva:VAL176 a owl:Class ;
@@ -26317,6 +26328,7 @@ nuva:VAL176 a owl:Class ;
     dcterms:created "2022-03-21"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "HPIVs"@en ;
     skos:notation "VAL176"^^xsd:string .
 
 nuva:VAL178 a owl:Class ;
@@ -26325,6 +26337,7 @@ nuva:VAL178 a owl:Class ;
     dcterms:created "2022-03-22"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL393 ;
+    skos:altLabel "COVID-mRNA-S-OMI-BA.1-25"@en ;
     skos:notation "VAL178"^^xsd:string .
 
 nuva:VAL235 a owl:Class ;
@@ -26333,6 +26346,7 @@ nuva:VAL235 a owl:Class ;
     dcterms:created "2022-03-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL234 ;
+    skos:altLabel "MCV-poly"@en ;
     skos:notation "VAL235"^^xsd:string .
 
 nuva:VAL254 a owl:Class ;
@@ -26341,6 +26355,7 @@ nuva:VAL254 a owl:Class ;
     dcterms:created "2022-03-30"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL256 ;
+    skos:altLabel "Rab-I-Semple"@en ;
     skos:notation "VAL254"^^xsd:string .
 
 nuva:VAL255 a owl:Class ;
@@ -26349,6 +26364,7 @@ nuva:VAL255 a owl:Class ;
     dcterms:created "2022-04-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL256 ;
+    skos:altLabel "Rab-I-Fuenzalida"@en ;
     skos:notation "VAL255"^^xsd:string .
 
 nuva:VAL261 a owl:Class ;
@@ -26357,6 +26373,7 @@ nuva:VAL261 a owl:Class ;
     dcterms:created "2022-04-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL257 ;
+    skos:altLabel "Rab-I-PHKCV"@en ;
     skos:notation "VAL261"^^xsd:string .
 
 nuva:VAL262 a owl:Class ;
@@ -26365,6 +26382,7 @@ nuva:VAL262 a owl:Class ;
     dcterms:created "2022-04-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL080 ;
+    skos:altLabel "Rab-I-EEV"@en ;
     skos:notation "VAL262"^^xsd:string .
 
 nuva:VAL263 a owl:Class ;
@@ -26373,6 +26391,7 @@ nuva:VAL263 a owl:Class ;
     dcterms:created "2022-04-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL262 ;
+    skos:altLabel "Rab-I-PDEV"@en ;
     skos:notation "VAL263"^^xsd:string .
 
 nuva:VAL278 a owl:Class ;
@@ -26381,6 +26400,7 @@ nuva:VAL278 a owl:Class ;
     dcterms:created "2022-04-06"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "AD-LA"@en ;
     skos:notation "VAL278"^^xsd:string .
 
 nuva:VAL280 a owl:Class ;
@@ -26389,6 +26409,7 @@ nuva:VAL280 a owl:Class ;
     dcterms:created "2022-04-27"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL419 ;
+    skos:altLabel "BT"@en ;
     skos:notation "VAL280"^^xsd:string .
 
 nuva:VAL286 a owl:Class ;
@@ -26397,6 +26418,7 @@ nuva:VAL286 a owl:Class ;
     dcterms:created "2022-05-06"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL288 ;
+    skos:altLabel "HepA-LA"@en ;
     skos:notation "VAL286"^^xsd:string .
 
 nuva:VAL293 a owl:Class ;
@@ -26405,6 +26427,7 @@ nuva:VAL293 a owl:Class ;
     dcterms:created "2022-05-18"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Anthrax-Ig"@en ;
     skos:notation "VAL293"^^xsd:string .
 
 nuva:VAL332 a owl:Class ;
@@ -26413,6 +26436,7 @@ nuva:VAL332 a owl:Class ;
     dcterms:created "2024-03-18"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "HepC"@en ;
     skos:notation "VAL332"^^xsd:string .
 
 nuva:VAL333 a owl:Class ;
@@ -26421,6 +26445,7 @@ nuva:VAL333 a owl:Class ;
     dcterms:created "2024-03-18"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "HIV"@en ;
     skos:notation "VAL333"^^xsd:string .
 
 nuva:VAL334 a owl:Class ;
@@ -26429,6 +26454,7 @@ nuva:VAL334 a owl:Class ;
     dcterms:created "2024-03-18"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "MEL"@en ;
     skos:notation "VAL334"^^xsd:string .
 
 nuva:VAL335 a owl:Class ;
@@ -26437,6 +26463,7 @@ nuva:VAL335 a owl:Class ;
     dcterms:created "2024-03-18"^^xsd:date ;
     dcterms:modified "2025-02-12"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "SPYO"@en ;
     skos:notation "VAL335"^^xsd:string .
 
 nuva:VAL336 a owl:Class ;
@@ -26445,6 +26472,7 @@ nuva:VAL336 a owl:Class ;
     dcterms:created "2024-03-18"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "RVF"@en ;
     skos:notation "VAL336"^^xsd:string .
 
 nuva:VAL337 a owl:Class ;
@@ -26453,6 +26481,7 @@ nuva:VAL337 a owl:Class ;
     dcterms:created "2024-03-18"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL418 ;
+    skos:altLabel "POX-Ig"@en ;
     skos:notation "VAL337"^^xsd:string .
 
 nuva:VAL349 a owl:Class ;
@@ -26461,6 +26490,7 @@ nuva:VAL349 a owl:Class ;
     dcterms:created "2024-05-14"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL231 ;
+    skos:altLabel "INF-SUAnd3"@en ;
     skos:notation "VAL349"^^xsd:string .
 
 nuva:VAL350 a owl:Class ;
@@ -26469,6 +26499,7 @@ nuva:VAL350 a owl:Class ;
     dcterms:created "2024-05-14"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL127 ;
+    skos:altLabel "INF-SUAnd4"@en ;
     skos:notation "VAL350"^^xsd:string .
 
 nuva:VAL352 a owl:Class ;
@@ -26477,6 +26508,7 @@ nuva:VAL352 a owl:Class ;
     dcterms:created "2024-05-14"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL362 ;
+    skos:altLabel "INF-V4"@en ;
     skos:notation "VAL352"^^xsd:string .
 
 nuva:VAL363 a owl:Class ;
@@ -26485,6 +26517,7 @@ nuva:VAL363 a owl:Class ;
     dcterms:created "2024-07-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL029 ;
+    skos:altLabel "INF-VLP3"@en ;
     skos:notation "VAL363"^^xsd:string .
 
 nuva:VAL384 a owl:Class ;
@@ -26493,6 +26526,7 @@ nuva:VAL384 a owl:Class ;
     dcterms:created "2024-12-16"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "LEP"@en ;
     skos:notation "VAL384"^^xsd:string .
 
 nuva:VAL385 a owl:Class ;
@@ -26501,6 +26535,7 @@ nuva:VAL385 a owl:Class ;
     dcterms:created "2024-12-16"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL386 ;
+    skos:altLabel "AH5N8"@en ;
     skos:notation "VAL385"^^xsd:string .
 
 nuva:VAL392 a owl:Class ;
@@ -26509,6 +26544,7 @@ nuva:VAL392 a owl:Class ;
     dcterms:created "2025-02-27"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL051 ;
+    skos:altLabel "AH5N1-RNA"@en ;
     skos:notation "VAL392"^^xsd:string .
 
 nuva:VAL401 a owl:Class ;
@@ -26517,6 +26553,7 @@ nuva:VAL401 a owl:Class ;
     dcterms:created "2025-03-12"^^xsd:date ;
     dcterms:modified "2025-05-22"^^xsd:date ;
     rdfs:subClassOf nuva:VAL251 ;
+    skos:altLabel "EJ-I-Vero-3"@en ;
     skos:notation "VAL401"^^xsd:string .
 
 nuva:VAL403 a owl:Class ;
@@ -26525,6 +26562,7 @@ nuva:VAL403 a owl:Class ;
     dcterms:created "2025-03-13"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "MenX"@en ;
     skos:notation "VAL403"^^xsd:string .
 
 nuva:VAL416 a owl:Class ;
@@ -26533,6 +26571,7 @@ nuva:VAL416 a owl:Class ;
     dcterms:created "2025-04-15"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL104 ;
+    skos:altLabel "COVID-PS-rS-A"@en ;
     skos:notation "VAL416"^^xsd:string .
 
 nuva:VAL427 a owl:Class ;
@@ -26541,6 +26580,7 @@ nuva:VAL427 a owl:Class ;
     dcterms:created "2025-09-10"^^xsd:date ;
     dcterms:modified "2025-09-11"^^xsd:date ;
     rdfs:subClassOf nuva:VAL043 ;
+    skos:altLabel "Covid-ARNm-S-frag"@en ;
     skos:notation "VAL427"^^xsd:string .
 
 nuva:VAL430 a owl:Class ;
@@ -26549,6 +26589,7 @@ nuva:VAL430 a owl:Class ;
     dcterms:created "2025-11-14"^^xsd:date ;
     dcterms:modified "2025-11-14"^^xsd:date ;
     rdfs:subClassOf nuva:VAL312 ;
+    skos:altLabel "TBE-K23-25"@en ;
     skos:notation "VAL430"^^xsd:string .
 
 nuvs:containsValence a owl:ObjectProperty ;
@@ -26597,6 +26638,7 @@ nuva:VAL007 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL126 ;
+    skos:altLabel "rVSVdG-ZEBOV-GP"@en ;
     skos:notation "VAL007"^^xsd:string .
 
 nuva:VAL013 a owl:Class ;
@@ -26605,6 +26647,7 @@ nuva:VAL013 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL159 ;
+    skos:altLabel "Shingles-gE"@en ;
     skos:notation "VAL013"^^xsd:string .
 
 nuva:VAL018 a owl:Class ;
@@ -26613,6 +26656,7 @@ nuva:VAL018 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL028 ;
+    skos:altLabel "POX-3G-LC16"@en ;
     skos:notation "VAL018"^^xsd:string .
 
 nuva:VAL020 a owl:Class ;
@@ -26621,6 +26665,7 @@ nuva:VAL020 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL160 ;
+    skos:altLabel "Shingles-LA"@en ;
     skos:notation "VAL020"^^xsd:string .
 
 nuva:VAL023 a owl:Class ;
@@ -26629,6 +26674,7 @@ nuva:VAL023 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL024 ;
+    skos:altLabel "INF-SUid3"@en ;
     skos:notation "VAL023"^^xsd:string .
 
 nuva:VAL024 a owl:Class ;
@@ -26637,6 +26683,7 @@ nuva:VAL024 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL058 ;
+    skos:altLabel "INF-SU3"@en ;
     skos:notation "VAL024"^^xsd:string .
 
 nuva:VAL027 a owl:Class ;
@@ -26645,6 +26692,7 @@ nuva:VAL027 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL070 ;
+    skos:altLabel "COVID-VVnr-S-Ad26"@en ;
     skos:notation "VAL027"^^xsd:string .
 
 nuva:VAL028 a owl:Class ;
@@ -26653,6 +26701,7 @@ nuva:VAL028 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL022 ;
+    skos:altLabel "POX-3G"@en ;
     skos:notation "VAL028"^^xsd:string .
 
 nuva:VAL029 a owl:Class ;
@@ -26661,6 +26710,7 @@ nuva:VAL029 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL364 ;
+    skos:altLabel "INF-VLP"@en ;
     skos:notation "VAL029"^^xsd:string .
 
 nuva:VAL038 a owl:Class ;
@@ -26669,6 +26719,7 @@ nuva:VAL038 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL398 ;
+    skos:altLabel "COVID-VVr-S-Meas"@en ;
     skos:notation "VAL038"^^xsd:string .
 
 nuva:VAL048 a owl:Class ;
@@ -26677,6 +26728,7 @@ nuva:VAL048 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL183 ;
+    skos:altLabel "MUMPS-I"@en ;
     skos:notation "VAL048"^^xsd:string .
 
 nuva:VAL060 a owl:Class ;
@@ -26685,6 +26737,7 @@ nuva:VAL060 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL390 ;
+    skos:altLabel "CHIK-LA"@en ;
     skos:notation "VAL060"^^xsd:string .
 
 nuva:VAL061 a owl:Class ;
@@ -26693,6 +26746,7 @@ nuva:VAL061 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL104 ;
+    skos:altLabel "COVID-PS-CpG1018"@en ;
     skos:notation "VAL061"^^xsd:string .
 
 nuva:VAL062 a owl:Class ;
@@ -26701,6 +26755,7 @@ nuva:VAL062 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL021 ;
+    skos:altLabel "CHOL-SU-rCTB-O"@en ;
     skos:notation "VAL062"^^xsd:string .
 
 nuva:VAL065 a owl:Class ;
@@ -26709,6 +26764,7 @@ nuva:VAL065 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL150 ;
+    skos:altLabel "RC-TDV"@en ;
     skos:notation "VAL065"^^xsd:string .
 
 nuva:VAL066 a owl:Class ;
@@ -26717,6 +26773,7 @@ nuva:VAL066 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL398 ;
+    skos:altLabel "COVID-VVr-S-Influ"@en ;
     skos:notation "VAL066"^^xsd:string .
 
 nuva:VAL087 a owl:Class ;
@@ -26725,6 +26782,7 @@ nuva:VAL087 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL150 ;
+    skos:altLabel "CYD-TDV"@en ;
     skos:notation "VAL087"^^xsd:string .
 
 nuva:VAL093 a owl:Class ;
@@ -26733,6 +26791,7 @@ nuva:VAL093 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL182 ;
+    skos:altLabel "MEAS-I"@en ;
     skos:notation "VAL093"^^xsd:string .
 
 nuva:VAL095 a owl:Class ;
@@ -26741,6 +26800,7 @@ nuva:VAL095 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL398 ;
+    skos:altLabel "COVID-VVr-S-Nv"@en ;
     skos:notation "VAL095"^^xsd:string .
 
 nuva:VAL100 a owl:Class ;
@@ -26749,6 +26809,7 @@ nuva:VAL100 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL248 ;
+    skos:altLabel "JE-LA-14-14-2"@en ;
     skos:notation "VAL100"^^xsd:string .
 
 nuva:VAL101 a owl:Class ;
@@ -26757,6 +26818,7 @@ nuva:VAL101 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL397 ;
+    skos:altLabel "COVID-VVnr-S-Nv"@en ;
     skos:notation "VAL101"^^xsd:string .
 
 nuva:VAL102 a owl:Class ;
@@ -26765,6 +26827,7 @@ nuva:VAL102 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "HepE"@en ;
     skos:notation "VAL102"^^xsd:string .
 
 nuva:VAL108 a owl:Class ;
@@ -26773,6 +26836,7 @@ nuva:VAL108 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL126 ;
+    skos:altLabel "ZebovVRnrAd26"@en ;
     skos:notation "VAL108"^^xsd:string .
 
 nuva:VAL109 a owl:Class ;
@@ -26781,6 +26845,7 @@ nuva:VAL109 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL126 ;
+    skos:altLabel "Ebola-MVA-BN-Filo"@en ;
     skos:notation "VAL109"^^xsd:string .
 
 nuva:VAL111 a owl:Class ;
@@ -26789,6 +26854,7 @@ nuva:VAL111 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL340 ;
+    skos:altLabel "Bant"@en ;
     skos:notation "VAL111"^^xsd:string .
 
 nuva:VAL121 a owl:Class ;
@@ -26797,6 +26863,7 @@ nuva:VAL121 a owl:Class ;
     dcterms:created "2021-10-26"^^xsd:date ;
     dcterms:modified "2025-05-06"^^xsd:date ;
     rdfs:subClassOf nuva:VAL042 ;
+    skos:altLabel "IPV-O"@en ;
     skos:notation "VAL121"^^xsd:string .
 
 nuva:VAL123 a owl:Class ;
@@ -26805,6 +26872,7 @@ nuva:VAL123 a owl:Class ;
     dcterms:created "2021-10-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL106 ;
+    skos:altLabel "Rota5-L"@en ;
     skos:notation "VAL123"^^xsd:string .
 
 nuva:VAL127 a owl:Class ;
@@ -26813,6 +26881,7 @@ nuva:VAL127 a owl:Class ;
     dcterms:created "2021-10-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL230 ;
+    skos:altLabel "INF-SUimsc4"@en ;
     skos:notation "VAL127"^^xsd:string .
 
 nuva:VAL141 a owl:Class ;
@@ -26821,6 +26890,7 @@ nuva:VAL141 a owl:Class ;
     dcterms:created "2022-02-14"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL106 ;
+    skos:altLabel "ROTA-LA-mv-RIX4414"@en ;
     skos:notation "VAL141"^^xsd:string .
 
 nuva:VAL147 a owl:Class ;
@@ -26829,6 +26899,7 @@ nuva:VAL147 a owl:Class ;
     dcterms:created "2022-02-21"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL006 ;
+    skos:altLabel "Bruc-IP"@en ;
     skos:notation "VAL147"^^xsd:string .
 
 nuva:VAL148 a owl:Class ;
@@ -26837,6 +26908,7 @@ nuva:VAL148 a owl:Class ;
     dcterms:created "2022-02-23"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL317 ;
+    skos:altLabel "RSV-IG"@en ;
     skos:notation "VAL148"^^xsd:string .
 
 nuva:VAL153 a owl:Class ;
@@ -26845,6 +26917,7 @@ nuva:VAL153 a owl:Class ;
     dcterms:created "2022-03-04"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL103 ;
+    skos:altLabel "PRP-D"@en ;
     skos:notation "VAL153"^^xsd:string .
 
 nuva:VAL158 a owl:Class ;
@@ -26853,6 +26926,7 @@ nuva:VAL158 a owl:Class ;
     dcterms:created "2022-03-08"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL068 ;
+    skos:altLabel "pHBsAg"@en ;
     skos:notation "VAL158"^^xsd:string .
 
 nuva:VAL159 a owl:Class ;
@@ -26861,6 +26935,7 @@ nuva:VAL159 a owl:Class ;
     dcterms:created "2022-03-10"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL160 ;
+    skos:altLabel "Shingles-SU"@en ;
     skos:notation "VAL159"^^xsd:string .
 
 nuva:VAL162 a owl:Class ;
@@ -26869,6 +26944,7 @@ nuva:VAL162 a owl:Class ;
     dcterms:created "2022-03-13"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL165 ;
+    skos:altLabel "COVID-VVr"@en ;
     skos:notation "VAL162"^^xsd:string .
 
 nuva:VAL167 a owl:Class ;
@@ -26877,6 +26953,7 @@ nuva:VAL167 a owl:Class ;
     dcterms:created "2022-03-13"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL163 ;
+    skos:altLabel "COVID-VVnr+APC"@en ;
     skos:notation "VAL167"^^xsd:string .
 
 nuva:VAL171 a owl:Class ;
@@ -26885,6 +26962,7 @@ nuva:VAL171 a owl:Class ;
     dcterms:created "2022-03-21"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "VEE"@en ;
     skos:notation "VAL171"^^xsd:string .
 
 nuva:VAL172 a owl:Class ;
@@ -26893,6 +26971,7 @@ nuva:VAL172 a owl:Class ;
     dcterms:created "2022-03-21"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Cbur"@en ;
     skos:notation "VAL172"^^xsd:string .
 
 nuva:VAL173 a owl:Class ;
@@ -26901,6 +26980,7 @@ nuva:VAL173 a owl:Class ;
     dcterms:created "2022-03-21"^^xsd:date ;
     dcterms:modified "2025-05-20"^^xsd:date ;
     rdfs:subClassOf nuva:VAL421 ;
+    skos:altLabel "Junin-LA"@en ;
     skos:notation "VAL173"^^xsd:string .
 
 nuva:VAL174 a owl:Class ;
@@ -26909,6 +26989,7 @@ nuva:VAL174 a owl:Class ;
     dcterms:created "2022-03-21"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "HAN"@en ;
     skos:notation "VAL174"^^xsd:string .
 
 nuva:VAL177 a owl:Class ;
@@ -26917,6 +26998,7 @@ nuva:VAL177 a owl:Class ;
     dcterms:created "2022-03-22"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Hib"@en ;
     skos:notation "VAL177"^^xsd:string .
 
 nuva:VAL180 a owl:Class ;
@@ -26925,6 +27007,7 @@ nuva:VAL180 a owl:Class ;
     dcterms:created "2022-03-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL303 ;
+    skos:altLabel "COVID-mRNA-S-ORI-100"@en ;
     skos:notation "VAL180"^^xsd:string .
 
 nuva:VAL183 a owl:Class ;
@@ -26933,6 +27016,7 @@ nuva:VAL183 a owl:Class ;
     dcterms:created "2022-03-27"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "MUMPS"@en ;
     skos:notation "VAL183"^^xsd:string .
 
 nuva:VAL231 a owl:Class ;
@@ -26941,6 +27025,7 @@ nuva:VAL231 a owl:Class ;
     dcterms:created "2022-03-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL024 ;
+    skos:altLabel "INF-SUimsc3"@en ;
     skos:notation "VAL231"^^xsd:string .
 
 nuva:VAL233 a owl:Class ;
@@ -26949,6 +27034,7 @@ nuva:VAL233 a owl:Class ;
     dcterms:created "2022-03-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-25"@en ;
     skos:notation "VAL233"^^xsd:string .
 
 nuva:VAL267 a owl:Class ;
@@ -26957,6 +27043,7 @@ nuva:VAL267 a owl:Class ;
     dcterms:created "2022-04-05"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL057 ;
+    skos:altLabel "MCV-C-D"@en ;
     skos:notation "VAL267"^^xsd:string .
 
 nuva:VAL270 a owl:Class ;
@@ -26965,6 +27052,7 @@ nuva:VAL270 a owl:Class ;
     dcterms:created "2022-04-05"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL041 ;
+    skos:altLabel "MCV-A-D"@en ;
     skos:notation "VAL270"^^xsd:string .
 
 nuva:VAL273 a owl:Class ;
@@ -26973,6 +27061,7 @@ nuva:VAL273 a owl:Class ;
     dcterms:created "2022-04-05"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL136 ;
+    skos:altLabel "MCV-W-D"@en ;
     skos:notation "VAL273"^^xsd:string .
 
 nuva:VAL277 a owl:Class ;
@@ -26981,6 +27070,7 @@ nuva:VAL277 a owl:Class ;
     dcterms:created "2022-04-05"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL078 ;
+    skos:altLabel "MCV-Y-D"@en ;
     skos:notation "VAL277"^^xsd:string .
 
 nuva:VAL279 a owl:Class ;
@@ -26989,6 +27079,7 @@ nuva:VAL279 a owl:Class ;
     dcterms:created "2022-04-18"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL064 ;
+    skos:altLabel "INF-SUped4"@en ;
     skos:notation "VAL279"^^xsd:string .
 
 nuva:VAL281 a owl:Class ;
@@ -26997,6 +27088,7 @@ nuva:VAL281 a owl:Class ;
     dcterms:created "2022-04-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "AD7-LA"@en ;
     skos:notation "VAL281"^^xsd:string .
 
 nuva:VAL282 a owl:Class ;
@@ -27005,6 +27097,7 @@ nuva:VAL282 a owl:Class ;
     dcterms:created "2022-04-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "AD4-LA"@en ;
     skos:notation "VAL282"^^xsd:string .
 
 nuva:VAL284 a owl:Class ;
@@ -27013,6 +27106,7 @@ nuva:VAL284 a owl:Class ;
     dcterms:created "2022-05-03"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL125 ;
+    skos:altLabel "HepA-ADU"@en ;
     skos:notation "VAL284"^^xsd:string .
 
 nuva:VAL287 a owl:Class ;
@@ -27021,6 +27115,7 @@ nuva:VAL287 a owl:Class ;
     dcterms:created "2022-05-06"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL361 ;
+    skos:altLabel "INF-R4"@en ;
     skos:notation "VAL287"^^xsd:string .
 
 nuva:VAL289 a owl:Class ;
@@ -27029,6 +27124,7 @@ nuva:VAL289 a owl:Class ;
     dcterms:created "2022-05-16"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL303 ;
+    skos:altLabel " COVID-mRNA-S-ORI-10"@en ;
     skos:notation "VAL289"^^xsd:string .
 
 nuva:VAL292 a owl:Class ;
@@ -27037,6 +27133,7 @@ nuva:VAL292 a owl:Class ;
     dcterms:created "2022-05-18"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL070 ;
+    skos:altLabel "COVID-VVnr-S-Ad26-CT"@en ;
     skos:notation "VAL292"^^xsd:string .
 
 nuva:VAL295 a owl:Class ;
@@ -27045,6 +27142,7 @@ nuva:VAL295 a owl:Class ;
     dcterms:created "2022-07-21"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL022 ;
+    skos:altLabel "POX-2G"@en ;
     skos:notation "VAL295"^^xsd:string .
 
 nuva:VAL298 a owl:Class ;
@@ -27053,6 +27151,7 @@ nuva:VAL298 a owl:Class ;
     dcterms:created "2022-07-25"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "MenC"@en ;
     skos:notation "VAL298"^^xsd:string .
 
 nuva:VAL299 a owl:Class ;
@@ -27061,6 +27160,7 @@ nuva:VAL299 a owl:Class ;
     dcterms:created "2022-07-25"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "MenY"@en ;
     skos:notation "VAL299"^^xsd:string .
 
 nuva:VAL300 a owl:Class ;
@@ -27069,6 +27169,7 @@ nuva:VAL300 a owl:Class ;
     dcterms:created "2022-07-25"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "MenW"@en ;
     skos:notation "VAL300"^^xsd:string .
 
 nuva:VAL301 a owl:Class ;
@@ -27077,6 +27178,7 @@ nuva:VAL301 a owl:Class ;
     dcterms:created "2022-08-09"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL361 ;
+    skos:altLabel "INF-R3"@en ;
     skos:notation "VAL301"^^xsd:string .
 
 nuva:VAL305 a owl:Class ;
@@ -27085,6 +27187,7 @@ nuva:VAL305 a owl:Class ;
     dcterms:created "2022-09-09"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL393 ;
+    skos:altLabel "COVID-mRNA-S-OMI-BA.1-15"@en ;
     skos:notation "VAL305"^^xsd:string .
 
 nuva:VAL306 a owl:Class ;
@@ -27093,6 +27196,7 @@ nuva:VAL306 a owl:Class ;
     dcterms:created "2022-09-11"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL303 ;
+    skos:altLabel "COVID-mRNA-S-ORI-3"@en ;
     skos:notation "VAL306"^^xsd:string .
 
 nuva:VAL307 a owl:Class ;
@@ -27101,6 +27205,7 @@ nuva:VAL307 a owl:Class ;
     dcterms:created "2022-09-11"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL394 ;
+    skos:altLabel "COVID-mRNA-S-OMI-BA.4/5-15"@en ;
     skos:notation "VAL307"^^xsd:string .
 
 nuva:VAL308 a owl:Class ;
@@ -27109,6 +27214,7 @@ nuva:VAL308 a owl:Class ;
     dcterms:created "2022-09-12"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL394 ;
+    skos:altLabel "COVID-mRNA-S-OMI-BA.4/5-25"@en ;
     skos:notation "VAL308"^^xsd:string .
 
 nuva:VAL309 a owl:Class ;
@@ -27117,6 +27223,7 @@ nuva:VAL309 a owl:Class ;
     dcterms:created "2022-11-24"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL394 ;
+    skos:altLabel "COVID-mRNA-S-OMI-BA.4/5-5"@en ;
     skos:notation "VAL309"^^xsd:string .
 
 nuva:VAL310 a owl:Class ;
@@ -27125,6 +27232,7 @@ nuva:VAL310 a owl:Class ;
     dcterms:created "2022-11-25"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL303 ;
+    skos:altLabel "COVID-mRNA-S-ORI-5"@en ;
     skos:notation "VAL310"^^xsd:string .
 
 nuva:VAL311 a owl:Class ;
@@ -27133,6 +27241,7 @@ nuva:VAL311 a owl:Class ;
     dcterms:created "2022-11-25"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL025 ;
+    skos:altLabel "R21/Matrix-M"@en ;
     skos:notation "VAL311"^^xsd:string .
 
 nuva:VAL313 a owl:Class ;
@@ -27141,6 +27250,7 @@ nuva:VAL313 a owl:Class ;
     dcterms:created "2023-03-17"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL031 ;
+    skos:altLabel "TBE-Neudorfl"@en ;
     skos:notation "VAL313"^^xsd:string .
 
 nuva:VAL316 a owl:Class ;
@@ -27149,6 +27259,7 @@ nuva:VAL316 a owl:Class ;
     dcterms:created "2023-05-14"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL318 ;
+    skos:altLabel "RSV-PreF3"@en ;
     skos:notation "VAL316"^^xsd:string .
 
 nuva:VAL317 a owl:Class ;
@@ -27157,6 +27268,7 @@ nuva:VAL317 a owl:Class ;
     dcterms:created "2023-05-14"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL338 ;
+    skos:altLabel "RSV-Ab"@en ;
     skos:notation "VAL317"^^xsd:string .
 
 nuva:VAL319 a owl:Class ;
@@ -27165,6 +27277,7 @@ nuva:VAL319 a owl:Class ;
     dcterms:created "2023-05-15"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL397 ;
+    skos:altLabel "COVID-VVnr-S-INH"@en ;
     skos:notation "VAL319"^^xsd:string .
 
 nuva:VAL322 a owl:Class ;
@@ -27173,6 +27286,7 @@ nuva:VAL322 a owl:Class ;
     dcterms:created "2023-07-23"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL318 ;
+    skos:altLabel "RSV-PreFAB"@en ;
     skos:notation "VAL322"^^xsd:string .
 
 nuva:VAL323 a owl:Class ;
@@ -27181,6 +27295,7 @@ nuva:VAL323 a owl:Class ;
     dcterms:created "2023-09-16"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL396 ;
+    skos:altLabel "COVID-mRNA-S-OMI-XBB.1.5-30"@en ;
     skos:notation "VAL323"^^xsd:string .
 
 nuva:VAL324 a owl:Class ;
@@ -27189,6 +27304,7 @@ nuva:VAL324 a owl:Class ;
     dcterms:created "2023-09-16"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL396 ;
+    skos:altLabel "COVID-mRNA-S-OMI-XBB.1.5-10"@en ;
     skos:notation "VAL324"^^xsd:string .
 
 nuva:VAL325 a owl:Class ;
@@ -27197,6 +27313,7 @@ nuva:VAL325 a owl:Class ;
     dcterms:created "2023-09-16"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL396 ;
+    skos:altLabel "COVID-mRNA-S-OMI-XBB.1.5-3"@en ;
     skos:notation "VAL325"^^xsd:string .
 
 nuva:VAL326 a owl:Class ;
@@ -27205,6 +27322,7 @@ nuva:VAL326 a owl:Class ;
     dcterms:created "2023-09-16"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL394 ;
+    skos:altLabel "COVID-mRNA-S-OMI-BA.4/5-1.5"@en ;
     skos:notation "VAL326"^^xsd:string .
 
 nuva:VAL327 a owl:Class ;
@@ -27213,6 +27331,7 @@ nuva:VAL327 a owl:Class ;
     dcterms:created "2023-09-16"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL303 ;
+    skos:altLabel "COVID-mRNA-S-ORI-1.5"@en ;
     skos:notation "VAL327"^^xsd:string .
 
 nuva:VAL328 a owl:Class ;
@@ -27221,6 +27340,7 @@ nuva:VAL328 a owl:Class ;
     dcterms:created "2023-12-05"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL107 ;
+    skos:altLabel "COVID-PS-rSnp-XBB"@en ;
     skos:notation "VAL328"^^xsd:string .
 
 nuva:VAL330 a owl:Class ;
@@ -27229,6 +27349,7 @@ nuva:VAL330 a owl:Class ;
     dcterms:created "2024-02-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL396 ;
+    skos:altLabel "COVID-mRNA-S-OMI-XBB.1.5-25"@en ;
     skos:notation "VAL330"^^xsd:string .
 
 nuva:VAL331 a owl:Class ;
@@ -27237,6 +27358,7 @@ nuva:VAL331 a owl:Class ;
     dcterms:created "2024-03-18"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "CMV-Ig"@en ;
     skos:notation "VAL331"^^xsd:string .
 
 nuva:VAL339 a owl:Class ;
@@ -27245,6 +27367,7 @@ nuva:VAL339 a owl:Class ;
     dcterms:created "2024-03-20"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Lyme"@en ;
     skos:notation "VAL339"^^xsd:string .
 
 nuva:VAL340 a owl:Class ;
@@ -27253,6 +27376,7 @@ nuva:VAL340 a owl:Class ;
     dcterms:created "2024-03-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Anthrax"@en ;
     skos:notation "VAL340"^^xsd:string .
 
 nuva:VAL341 a owl:Class ;
@@ -27261,6 +27385,7 @@ nuva:VAL341 a owl:Class ;
     dcterms:created "2024-04-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL345 ;
+    skos:altLabel "Eco"@en ;
     skos:notation "VAL341"^^xsd:string .
 
 nuva:VAL342 a owl:Class ;
@@ -27269,6 +27394,7 @@ nuva:VAL342 a owl:Class ;
     dcterms:created "2024-04-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL345 ;
+    skos:altLabel "Kpn"@en ;
     skos:notation "VAL342"^^xsd:string .
 
 nuva:VAL343 a owl:Class ;
@@ -27277,6 +27403,7 @@ nuva:VAL343 a owl:Class ;
     dcterms:created "2024-04-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL345 ;
+    skos:altLabel "Efa"@en ;
     skos:notation "VAL343"^^xsd:string .
 
 nuva:VAL344 a owl:Class ;
@@ -27285,6 +27412,7 @@ nuva:VAL344 a owl:Class ;
     dcterms:created "2024-04-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL345 ;
+    skos:altLabel "Pvu"@en ;
     skos:notation "VAL344"^^xsd:string .
 
 nuva:VAL347 a owl:Class ;
@@ -27293,6 +27421,7 @@ nuva:VAL347 a owl:Class ;
     dcterms:created "2024-04-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Lepto-ca"@en ;
     skos:notation "VAL347"^^xsd:string .
 
 nuva:VAL348 a owl:Class ;
@@ -27301,6 +27430,7 @@ nuva:VAL348 a owl:Class ;
     dcterms:created "2024-04-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Lepto-po"@en ;
     skos:notation "VAL348"^^xsd:string .
 
 nuva:VAL351 a owl:Class ;
@@ -27309,6 +27439,7 @@ nuva:VAL351 a owl:Class ;
     dcterms:created "2024-05-14"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL362 ;
+    skos:altLabel "INF-V3"@en ;
     skos:notation "VAL351"^^xsd:string .
 
 nuva:VAL353 a owl:Class ;
@@ -27317,6 +27448,7 @@ nuva:VAL353 a owl:Class ;
     dcterms:created "2024-05-15"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-02"@en ;
     skos:notation "VAL353"^^xsd:string .
 
 nuva:VAL356 a owl:Class ;
@@ -27325,6 +27457,7 @@ nuva:VAL356 a owl:Class ;
     dcterms:created "2024-05-15"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-20"@en ;
     skos:notation "VAL356"^^xsd:string .
 
 nuva:VAL357 a owl:Class ;
@@ -27333,6 +27466,7 @@ nuva:VAL357 a owl:Class ;
     dcterms:created "2024-05-16"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL124 ;
+    skos:altLabel "CHOL-LA-O"@en ;
     skos:notation "VAL357"^^xsd:string .
 
 nuva:VAL358 a owl:Class ;
@@ -27341,6 +27475,7 @@ nuva:VAL358 a owl:Class ;
     dcterms:created "2024-05-16"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL420 ;
+    skos:altLabel "BIG"@en ;
     skos:notation "VAL358"^^xsd:string .
 
 nuva:VAL360 a owl:Class ;
@@ -27349,6 +27484,7 @@ nuva:VAL360 a owl:Class ;
     dcterms:created "2024-07-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL364 ;
+    skos:altLabel "INF-CC"@en ;
     skos:notation "VAL360"^^xsd:string .
 
 nuva:VAL361 a owl:Class ;
@@ -27357,6 +27493,7 @@ nuva:VAL361 a owl:Class ;
     dcterms:created "2024-07-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL364 ;
+    skos:altLabel "INF-R"@en ;
     skos:notation "VAL361"^^xsd:string .
 
 nuva:VAL362 a owl:Class ;
@@ -27365,6 +27502,7 @@ nuva:VAL362 a owl:Class ;
     dcterms:created "2024-07-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL364 ;
+    skos:altLabel "INF-V"@en ;
     skos:notation "VAL362"^^xsd:string .
 
 nuva:VAL365 a owl:Class ;
@@ -27373,6 +27511,7 @@ nuva:VAL365 a owl:Class ;
     dcterms:created "2024-07-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL364 ;
+    skos:altLabel "INF-E"@en ;
     skos:notation "VAL365"^^xsd:string .
 
 nuva:VAL366 a owl:Class ;
@@ -27381,6 +27520,7 @@ nuva:VAL366 a owl:Class ;
     dcterms:created "2024-07-08"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL128 ;
+    skos:altLabel "INF-RNA"@en ;
     skos:notation "VAL366"^^xsd:string .
 
 nuva:VAL369 a owl:Class ;
@@ -27389,6 +27529,7 @@ nuva:VAL369 a owl:Class ;
     dcterms:created "2024-08-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-15A"@en ;
     skos:notation "VAL369"^^xsd:string .
 
 nuva:VAL370 a owl:Class ;
@@ -27397,6 +27538,7 @@ nuva:VAL370 a owl:Class ;
     dcterms:created "2024-08-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-15C"@en ;
     skos:notation "VAL370"^^xsd:string .
 
 nuva:VAL371 a owl:Class ;
@@ -27405,6 +27547,7 @@ nuva:VAL371 a owl:Class ;
     dcterms:created "2024-08-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-16F"@en ;
     skos:notation "VAL371"^^xsd:string .
 
 nuva:VAL372 a owl:Class ;
@@ -27413,6 +27556,7 @@ nuva:VAL372 a owl:Class ;
     dcterms:created "2024-08-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-20A"@en ;
     skos:notation "VAL372"^^xsd:string .
 
 nuva:VAL373 a owl:Class ;
@@ -27421,6 +27565,7 @@ nuva:VAL373 a owl:Class ;
     dcterms:created "2024-08-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-23A"@en ;
     skos:notation "VAL373"^^xsd:string .
 
 nuva:VAL374 a owl:Class ;
@@ -27429,6 +27574,7 @@ nuva:VAL374 a owl:Class ;
     dcterms:created "2024-08-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-23B"@en ;
     skos:notation "VAL374"^^xsd:string .
 
 nuva:VAL375 a owl:Class ;
@@ -27437,6 +27583,7 @@ nuva:VAL375 a owl:Class ;
     dcterms:created "2024-08-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-24F"@en ;
     skos:notation "VAL375"^^xsd:string .
 
 nuva:VAL376 a owl:Class ;
@@ -27445,6 +27592,7 @@ nuva:VAL376 a owl:Class ;
     dcterms:created "2024-08-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-31"@en ;
     skos:notation "VAL376"^^xsd:string .
 
 nuva:VAL377 a owl:Class ;
@@ -27453,6 +27601,7 @@ nuva:VAL377 a owl:Class ;
     dcterms:created "2024-08-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-35B"@en ;
     skos:notation "VAL377"^^xsd:string .
 
 nuva:VAL378 a owl:Class ;
@@ -27461,6 +27610,7 @@ nuva:VAL378 a owl:Class ;
     dcterms:created "2024-08-05"^^xsd:date ;
     dcterms:modified "2025-07-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL090 ;
+    skos:altLabel "rHBsAg-15"@en ;
     skos:notation "VAL378"^^xsd:string .
 
 nuva:VAL379 a owl:Class ;
@@ -27469,6 +27619,7 @@ nuva:VAL379 a owl:Class ;
     dcterms:created "2024-08-23"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL395 ;
+    skos:altLabel "COVID-mRNA-S-OMI-JN.1-30"@en ;
     skos:notation "VAL379"^^xsd:string .
 
 nuva:VAL380 a owl:Class ;
@@ -27477,6 +27628,7 @@ nuva:VAL380 a owl:Class ;
     dcterms:created "2024-08-23"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL395 ;
+    skos:altLabel "COVID-mRNA-S-OMI-JN.1-10"@en ;
     skos:notation "VAL380"^^xsd:string .
 
 nuva:VAL381 a owl:Class ;
@@ -27485,6 +27637,7 @@ nuva:VAL381 a owl:Class ;
     dcterms:created "2024-08-23"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL395 ;
+    skos:altLabel "COVID-mRNA-S-OMI-JN.1-3"@en ;
     skos:notation "VAL381"^^xsd:string .
 
 nuva:VAL382 a owl:Class ;
@@ -27493,6 +27646,7 @@ nuva:VAL382 a owl:Class ;
     dcterms:created "2024-10-13"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL107 ;
+    skos:altLabel "COVID-PS-rSnp-JN.1"@en ;
     skos:notation "VAL382"^^xsd:string .
 
 nuva:VAL383 a owl:Class ;
@@ -27501,6 +27655,7 @@ nuva:VAL383 a owl:Class ;
     dcterms:created "2024-10-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL318 ;
+    skos:altLabel "mRSV"@en ;
     skos:notation "VAL383"^^xsd:string .
 
 nuva:VAL387 a owl:Class ;
@@ -27509,6 +27664,7 @@ nuva:VAL387 a owl:Class ;
     dcterms:created "2025-02-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL395 ;
+    skos:altLabel "COVID-mRNA-S-OMI-JN.1-25"@en ;
     skos:notation "VAL387"^^xsd:string .
 
 nuva:VAL389 a owl:Class ;
@@ -27517,6 +27673,7 @@ nuva:VAL389 a owl:Class ;
     dcterms:created "2025-02-20"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "PAER7"@en ;
     skos:notation "VAL389"^^xsd:string .
 
 nuva:VAL391 a owl:Class ;
@@ -27525,6 +27682,7 @@ nuva:VAL391 a owl:Class ;
     dcterms:created "2025-02-20"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL390 ;
+    skos:altLabel "Chik-VLP"@en ;
     skos:notation "VAL391"^^xsd:string .
 
 nuva:VAL400 a owl:Class ;
@@ -27533,6 +27691,7 @@ nuva:VAL400 a owl:Class ;
     dcterms:created "2025-03-12"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL002 ;
+    skos:altLabel "Ty-ViC-CRM"@en ;
     skos:notation "VAL400"^^xsd:string .
 
 nuva:VAL404 a owl:Class ;
@@ -27541,6 +27700,7 @@ nuva:VAL404 a owl:Class ;
     dcterms:created "2025-03-13"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL403 ;
+    skos:altLabel "MCV-X"@en ;
     skos:notation "VAL404"^^xsd:string .
 
 nuva:VAL405 a owl:Class ;
@@ -27549,6 +27709,7 @@ nuva:VAL405 a owl:Class ;
     dcterms:created "2025-03-13"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL058 ;
+    skos:altLabel "INF-pdm09-V"@en ;
     skos:notation "VAL405"^^xsd:string .
 
 nuva:VAL407 a owl:Class ;
@@ -27557,6 +27718,7 @@ nuva:VAL407 a owl:Class ;
     dcterms:created "2025-03-25"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL406 ;
+    skos:altLabel "COVID-mRNA-S-OMI-KP.2-3"@en ;
     skos:notation "VAL407"^^xsd:string .
 
 nuva:VAL408 a owl:Class ;
@@ -27565,6 +27727,7 @@ nuva:VAL408 a owl:Class ;
     dcterms:created "2025-03-25"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL406 ;
+    skos:altLabel "COVID-mRNA-S-OMI-KP.2-10"@en ;
     skos:notation "VAL408"^^xsd:string .
 
 nuva:VAL409 a owl:Class ;
@@ -27573,6 +27736,7 @@ nuva:VAL409 a owl:Class ;
     dcterms:created "2025-03-25"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL406 ;
+    skos:altLabel "COVID-mRNA-S-OMI-KP.2-30"@en ;
     skos:notation "VAL409"^^xsd:string .
 
 nuva:VAL410 a owl:Class ;
@@ -27581,6 +27745,7 @@ nuva:VAL410 a owl:Class ;
     dcterms:created "2025-03-25"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL053 ;
+    skos:altLabel "COVID-PS-rN"@en ;
     skos:notation "VAL410"^^xsd:string .
 
 nuva:VAL411 a owl:Class ;
@@ -27589,6 +27754,7 @@ nuva:VAL411 a owl:Class ;
     dcterms:created "2025-03-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL394 ;
+    skos:altLabel "COVID-mRNA-S-OMI-BA.4/5-50"@en ;
     skos:notation "VAL411"^^xsd:string .
 
 nuva:VAL412 a owl:Class ;
@@ -27597,6 +27763,7 @@ nuva:VAL412 a owl:Class ;
     dcterms:created "2025-03-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL393 ;
+    skos:altLabel "COVID-mRNA-S-OMI-BA.1-50"@en ;
     skos:notation "VAL412"^^xsd:string .
 
 nuva:VAL413 a owl:Class ;
@@ -27605,6 +27772,7 @@ nuva:VAL413 a owl:Class ;
     dcterms:created "2025-03-27"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL011 ;
+    skos:altLabel "COVID-PS-rRBD-XBB.1.16"@en ;
     skos:notation "VAL413"^^xsd:string .
 
 nuva:VAL414 a owl:Class ;
@@ -27613,6 +27781,7 @@ nuva:VAL414 a owl:Class ;
     dcterms:created "2025-04-04"^^xsd:date ;
     dcterms:modified "2025-04-25"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "DIPH"@en ;
     skos:notation "VAL414"^^xsd:string .
 
 nuva:VAL418 a owl:Class ;
@@ -27621,6 +27790,7 @@ nuva:VAL418 a owl:Class ;
     dcterms:created "2025-04-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "POX"@en ;
     skos:notation "VAL418"^^xsd:string .
 
 nuva:VAL419 a owl:Class ;
@@ -27629,6 +27799,7 @@ nuva:VAL419 a owl:Class ;
     dcterms:created "2025-04-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "BOT"@en ;
     skos:notation "VAL419"^^xsd:string .
 
 nuva:VAL420 a owl:Class ;
@@ -27637,6 +27808,7 @@ nuva:VAL420 a owl:Class ;
     dcterms:created "2025-04-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL419 ;
+    skos:altLabel "BOT-passive"@en ;
     skos:notation "VAL420"^^xsd:string .
 
 nuva:VAL421 a owl:Class ;
@@ -27645,6 +27817,7 @@ nuva:VAL421 a owl:Class ;
     dcterms:created "2025-05-20"^^xsd:date ;
     dcterms:modified "2025-05-20"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Junin"@en ;
     skos:notation "VAL421"^^xsd:string .
 
 nuva:VAL422 a owl:Class ;
@@ -27653,6 +27826,7 @@ nuva:VAL422 a owl:Class ;
     dcterms:created "2025-05-21"^^xsd:date ;
     dcterms:modified "2025-05-21"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Yp"@en ;
     skos:notation "VAL422"^^xsd:string .
 
 nuva:VAL424 a owl:Class ;
@@ -27661,6 +27835,7 @@ nuva:VAL424 a owl:Class ;
     dcterms:created "2025-08-28"^^xsd:date ;
     dcterms:modified "2025-08-28"^^xsd:date ;
     rdfs:subClassOf nuva:VAL423 ;
+    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1-30"@en ;
     skos:notation "VAL424"^^xsd:string .
 
 nuva:VAL425 a owl:Class ;
@@ -27669,6 +27844,7 @@ nuva:VAL425 a owl:Class ;
     dcterms:created "2025-08-28"^^xsd:date ;
     dcterms:modified "2025-08-28"^^xsd:date ;
     rdfs:subClassOf nuva:VAL423 ;
+    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1-10"@en ;
     skos:notation "VAL425"^^xsd:string .
 
 nuva:VAL426 a owl:Class ;
@@ -27677,6 +27853,7 @@ nuva:VAL426 a owl:Class ;
     dcterms:created "2025-08-28"^^xsd:date ;
     dcterms:modified "2025-09-11"^^xsd:date ;
     rdfs:subClassOf nuva:VAL423 ;
+    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1-3"@en ;
     skos:notation "VAL426"^^xsd:string .
 
 nuva:VAL428 a owl:Class ;
@@ -27685,6 +27862,7 @@ nuva:VAL428 a owl:Class ;
     dcterms:created "2025-09-12"^^xsd:date ;
     dcterms:modified "2025-09-12"^^xsd:date ;
     rdfs:subClassOf nuva:VAL427 ;
+    skos:altLabel "Covid-ARNm-S-frag-OMI-LP.8.1"@en ;
     skos:notation "VAL428"^^xsd:string .
 
 nuva:VAL429 a owl:Class ;
@@ -27693,6 +27871,7 @@ nuva:VAL429 a owl:Class ;
     dcterms:created "2025-10-08"^^xsd:date ;
     dcterms:modified "2025-10-08"^^xsd:date ;
     rdfs:subClassOf nuva:VAL320 ;
+    skos:altLabel "VRS-mAb-cle"@en ;
     skos:notation "VAL429"^^xsd:string .
 
 nuva:VAL431 a owl:Class ;
@@ -27701,6 +27880,7 @@ nuva:VAL431 a owl:Class ;
     dcterms:created "2025-11-14"^^xsd:date ;
     dcterms:modified "2025-11-14"^^xsd:date ;
     rdfs:subClassOf nuva:VAL312 ;
+    skos:altLabel "TBE-K23-50"@en ;
     skos:notation "VAL431"^^xsd:string .
 
 nuva:DIS009 a owl:Class ;
@@ -27757,6 +27937,7 @@ nuva:VAL001 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL140 ;
+    skos:altLabel "INF-L3"@en ;
     skos:notation "VAL001"^^xsd:string .
 
 nuva:VAL002 a owl:Class ;
@@ -27765,6 +27946,7 @@ nuva:VAL002 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL014 ;
+    skos:altLabel "Ty-ViC"@en ;
     skos:notation "VAL002"^^xsd:string .
 
 nuva:VAL006 a owl:Class ;
@@ -27773,6 +27955,7 @@ nuva:VAL006 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Bruc"@en ;
     skos:notation "VAL006"^^xsd:string .
 
 nuva:VAL009 a owl:Class ;
@@ -27781,6 +27964,7 @@ nuva:VAL009 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL025 ;
+    skos:altLabel "Mala-SPO"@en ;
     skos:notation "VAL009"^^xsd:string .
 
 nuva:VAL019 a owl:Class ;
@@ -27789,6 +27973,7 @@ nuva:VAL019 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL414 ;
+    skos:altLabel "DATx"@en ;
     skos:notation "VAL019"^^xsd:string .
 
 nuva:VAL025 a owl:Class ;
@@ -27797,6 +27982,7 @@ nuva:VAL025 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Mala"@en ;
     skos:notation "VAL025"^^xsd:string .
 
 nuva:VAL030 a owl:Class ;
@@ -27805,6 +27991,7 @@ nuva:VAL030 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL339 ;
+    skos:altLabel "Lyme-OspA"@en ;
     skos:notation "VAL030"^^xsd:string .
 
 nuva:VAL031 a owl:Class ;
@@ -27813,6 +28000,7 @@ nuva:VAL031 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "TBE"@en ;
     skos:notation "VAL031"^^xsd:string .
 
 nuva:VAL036 a owl:Class ;
@@ -27821,6 +28009,7 @@ nuva:VAL036 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL237 ;
+    skos:altLabel "HPV-09-valent"@en ;
     skos:notation "VAL036"^^xsd:string .
 
 nuva:VAL054 a owl:Class ;
@@ -27829,6 +28018,7 @@ nuva:VAL054 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL397 ;
+    skos:altLabel "COVID-VVnr-S-MVA"@en ;
     skos:notation "VAL054"^^xsd:string .
 
 nuva:VAL059 a owl:Class ;
@@ -27837,6 +28027,7 @@ nuva:VAL059 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL140 ;
+    skos:altLabel "INF-L4"@en ;
     skos:notation "VAL059"^^xsd:string .
 
 nuva:VAL064 a owl:Class ;
@@ -27845,6 +28036,7 @@ nuva:VAL064 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL127 ;
+    skos:altLabel "INF-SUNA4"@en ;
     skos:notation "VAL064"^^xsd:string .
 
 nuva:VAL073 a owl:Class ;
@@ -27853,6 +28045,7 @@ nuva:VAL073 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL162 ;
+    skos:altLabel "COVID-VVr+APC"@en ;
     skos:notation "VAL073"^^xsd:string .
 
 nuva:VAL082 a owl:Class ;
@@ -27861,6 +28054,7 @@ nuva:VAL082 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "HPV"@en ;
     skos:notation "VAL082"^^xsd:string .
 
 nuva:VAL084 a owl:Class ;
@@ -27869,6 +28063,7 @@ nuva:VAL084 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL398 ;
+    skos:altLabel "COVID-VVr-S-VSV"@en ;
     skos:notation "VAL084"^^xsd:string .
 
 nuva:VAL086 a owl:Class ;
@@ -27877,6 +28072,7 @@ nuva:VAL086 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL165 ;
+    skos:altLabel "COVID-LA"@en ;
     skos:notation "VAL086"^^xsd:string .
 
 nuva:VAL088 a owl:Class ;
@@ -27885,6 +28081,7 @@ nuva:VAL088 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "VZV-Ig"@en ;
     skos:notation "VAL088"^^xsd:string .
 
 nuva:VAL089 a owl:Class ;
@@ -27893,6 +28090,7 @@ nuva:VAL089 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-28"^^xsd:date ;
     rdfs:subClassOf nuva:VAL249 ;
+    skos:altLabel "JE-I"@en ;
     skos:notation "VAL089"^^xsd:string .
 
 nuva:VAL091 a owl:Class ;
@@ -27901,6 +28099,7 @@ nuva:VAL091 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL014 ;
+    skos:altLabel "Ty-LA-O"@en ;
     skos:notation "VAL091"^^xsd:string .
 
 nuva:VAL094 a owl:Class ;
@@ -27909,6 +28108,7 @@ nuva:VAL094 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL122 ;
+    skos:altLabel "INF-SUhd3"@en ;
     skos:notation "VAL094"^^xsd:string .
 
 nuva:VAL098 a owl:Class ;
@@ -27917,6 +28117,7 @@ nuva:VAL098 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL161 ;
+    skos:altLabel "4CMenB"@en ;
     skos:notation "VAL098"^^xsd:string .
 
 nuva:VAL113 a owl:Class ;
@@ -27925,6 +28126,7 @@ nuva:VAL113 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL237 ;
+    skos:altLabel "HPV-02-valent"@en ;
     skos:notation "VAL113"^^xsd:string .
 
 nuva:VAL116 a owl:Class ;
@@ -27933,6 +28135,7 @@ nuva:VAL116 a owl:Class ;
     dcterms:created "2021-10-15"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL320 ;
+    skos:altLabel "RSV-mAb-pal"@en ;
     skos:notation "VAL116"^^xsd:string .
 
 nuva:VAL122 a owl:Class ;
@@ -27941,6 +28144,7 @@ nuva:VAL122 a owl:Class ;
     dcterms:created "2021-10-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL231 ;
+    skos:altLabel "INF-SUNA3"@en ;
     skos:notation "VAL122"^^xsd:string .
 
 nuva:VAL124 a owl:Class ;
@@ -27949,6 +28153,7 @@ nuva:VAL124 a owl:Class ;
     dcterms:created "2021-10-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL081 ;
+    skos:altLabel "CHOL-LA"@en ;
     skos:notation "VAL124"^^xsd:string .
 
 nuva:VAL130 a owl:Class ;
@@ -27957,6 +28162,7 @@ nuva:VAL130 a owl:Class ;
     dcterms:created "2021-10-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL125 ;
+    skos:altLabel "HepA-VLP"@en ;
     skos:notation "VAL130"^^xsd:string .
 
 nuva:VAL140 a owl:Class ;
@@ -27965,6 +28171,7 @@ nuva:VAL140 a owl:Class ;
     dcterms:created "2022-02-14"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL128 ;
+    skos:altLabel "INF-L"@en ;
     skos:notation "VAL140"^^xsd:string .
 
 nuva:VAL145 a owl:Class ;
@@ -27973,6 +28180,7 @@ nuva:VAL145 a owl:Class ;
     dcterms:created "2022-02-17"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL284 ;
+    skos:altLabel "HepA-bv-ADU"@en ;
     skos:notation "VAL145"^^xsd:string .
 
 nuva:VAL149 a owl:Class ;
@@ -27981,6 +28189,7 @@ nuva:VAL149 a owl:Class ;
     dcterms:created "2022-02-23"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL043 ;
+    skos:altLabel "COVID-mRNA-S-OMI"@en ;
     skos:notation "VAL149"^^xsd:string .
 
 nuva:VAL150 a owl:Class ;
@@ -27989,6 +28198,7 @@ nuva:VAL150 a owl:Class ;
     dcterms:created "2022-02-24"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Den"@en ;
     skos:notation "VAL150"^^xsd:string .
 
 nuva:VAL152 a owl:Class ;
@@ -27997,6 +28207,7 @@ nuva:VAL152 a owl:Class ;
     dcterms:created "2022-03-03"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL365 ;
+    skos:altLabel "INF-I"@en ;
     skos:notation "VAL152"^^xsd:string .
 
 nuva:VAL157 a owl:Class ;
@@ -28005,6 +28216,7 @@ nuva:VAL157 a owl:Class ;
     dcterms:created "2022-03-06"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "COVID"@en ;
     skos:notation "VAL157"^^xsd:string .
 
 nuva:VAL160 a owl:Class ;
@@ -28013,6 +28225,7 @@ nuva:VAL160 a owl:Class ;
     dcterms:created "2022-03-10"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Shingles"@en ;
     skos:notation "VAL160"^^xsd:string .
 
 nuva:VAL161 a owl:Class ;
@@ -28021,6 +28234,7 @@ nuva:VAL161 a owl:Class ;
     dcterms:created "2022-03-11"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL118 ;
+    skos:altLabel "MenB-mc"@en ;
     skos:notation "VAL161"^^xsd:string .
 
 nuva:VAL163 a owl:Class ;
@@ -28029,6 +28243,7 @@ nuva:VAL163 a owl:Class ;
     dcterms:created "2022-03-13"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL165 ;
+    skos:altLabel "COVID-VVnr"@en ;
     skos:notation "VAL163"^^xsd:string .
 
 nuva:VAL165 a owl:Class ;
@@ -28037,6 +28252,7 @@ nuva:VAL165 a owl:Class ;
     dcterms:created "2022-03-13"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL157 ;
+    skos:altLabel "COVID-live"@en ;
     skos:notation "VAL165"^^xsd:string .
 
 nuva:VAL232 a owl:Class ;
@@ -28045,6 +28261,7 @@ nuva:VAL232 a owl:Class ;
     dcterms:created "2022-03-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-06A"@en ;
     skos:notation "VAL232"^^xsd:string .
 
 nuva:VAL237 a owl:Class ;
@@ -28053,6 +28270,7 @@ nuva:VAL237 a owl:Class ;
     dcterms:created "2022-03-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL082 ;
+    skos:altLabel "HPV-poly"@en ;
     skos:notation "VAL237"^^xsd:string .
 
 nuva:VAL242 a owl:Class ;
@@ -28061,6 +28279,7 @@ nuva:VAL242 a owl:Class ;
     dcterms:created "2022-03-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL236 ;
+    skos:altLabel "HPV-31"@en ;
     skos:notation "VAL242"^^xsd:string .
 
 nuva:VAL243 a owl:Class ;
@@ -28069,6 +28288,7 @@ nuva:VAL243 a owl:Class ;
     dcterms:created "2022-03-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL236 ;
+    skos:altLabel "HPV-33"@en ;
     skos:notation "VAL243"^^xsd:string .
 
 nuva:VAL244 a owl:Class ;
@@ -28077,6 +28297,7 @@ nuva:VAL244 a owl:Class ;
     dcterms:created "2022-03-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL236 ;
+    skos:altLabel "HPV-58"@en ;
     skos:notation "VAL244"^^xsd:string .
 
 nuva:VAL245 a owl:Class ;
@@ -28085,6 +28306,7 @@ nuva:VAL245 a owl:Class ;
     dcterms:created "2022-03-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL236 ;
+    skos:altLabel "HPV-52"@en ;
     skos:notation "VAL245"^^xsd:string .
 
 nuva:VAL246 a owl:Class ;
@@ -28093,6 +28315,7 @@ nuva:VAL246 a owl:Class ;
     dcterms:created "2022-03-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL236 ;
+    skos:altLabel "HPV-45"@en ;
     skos:notation "VAL246"^^xsd:string .
 
 nuva:VAL248 a owl:Class ;
@@ -28101,6 +28324,7 @@ nuva:VAL248 a owl:Class ;
     dcterms:created "2022-03-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL249 ;
+    skos:altLabel "JE-LA"@en ;
     skos:notation "VAL248"^^xsd:string .
 
 nuva:VAL249 a owl:Class ;
@@ -28109,6 +28333,7 @@ nuva:VAL249 a owl:Class ;
     dcterms:created "2022-03-29"^^xsd:date ;
     dcterms:modified "2025-04-25"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "JE"@en ;
     skos:notation "VAL249"^^xsd:string .
 
 nuva:VAL253 a owl:Class ;
@@ -28117,6 +28342,7 @@ nuva:VAL253 a owl:Class ;
     dcterms:created "2022-03-30"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL016 ;
+    skos:altLabel "eRIG"@en ;
     skos:notation "VAL253"^^xsd:string .
 
 nuva:VAL256 a owl:Class ;
@@ -28125,6 +28351,7 @@ nuva:VAL256 a owl:Class ;
     dcterms:created "2022-04-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL080 ;
+    skos:altLabel "Rab-I-NervousTissue"@en ;
     skos:notation "VAL256"^^xsd:string .
 
 nuva:VAL269 a owl:Class ;
@@ -28133,6 +28360,7 @@ nuva:VAL269 a owl:Class ;
     dcterms:created "2022-04-05"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL041 ;
+    skos:altLabel "MCV-A-CRM"@en ;
     skos:notation "VAL269"^^xsd:string .
 
 nuva:VAL274 a owl:Class ;
@@ -28141,6 +28369,7 @@ nuva:VAL274 a owl:Class ;
     dcterms:created "2022-04-05"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL136 ;
+    skos:altLabel "MCV-W-CRM"@en ;
     skos:notation "VAL274"^^xsd:string .
 
 nuva:VAL275 a owl:Class ;
@@ -28149,6 +28378,7 @@ nuva:VAL275 a owl:Class ;
     dcterms:created "2022-04-05"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL078 ;
+    skos:altLabel "MCV-Y-CRM"@en ;
     skos:notation "VAL275"^^xsd:string .
 
 nuva:VAL283 a owl:Class ;
@@ -28157,6 +28387,7 @@ nuva:VAL283 a owl:Class ;
     dcterms:created "2022-05-02"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL125 ;
+    skos:altLabel "HepA-PED"@en ;
     skos:notation "VAL283"^^xsd:string .
 
 nuva:VAL285 a owl:Class ;
@@ -28165,6 +28396,7 @@ nuva:VAL285 a owl:Class ;
     dcterms:created "2022-05-06"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL360 ;
+    skos:altLabel "INF-CC3"@en ;
     skos:notation "VAL285"^^xsd:string .
 
 nuva:VAL290 a owl:Class ;
@@ -28173,6 +28405,7 @@ nuva:VAL290 a owl:Class ;
     dcterms:created "2022-05-16"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL303 ;
+    skos:altLabel "COVID-mRNA-S-ORI-30"@en ;
     skos:notation "VAL290"^^xsd:string .
 
 nuva:VAL291 a owl:Class ;
@@ -28181,6 +28414,7 @@ nuva:VAL291 a owl:Class ;
     dcterms:created "2022-05-17"^^xsd:date ;
     dcterms:modified "2025-07-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL068 ;
+    skos:altLabel "HBs-r-3Ag"@en ;
     skos:notation "VAL291"^^xsd:string .
 
 nuva:VAL297 a owl:Class ;
@@ -28189,6 +28423,7 @@ nuva:VAL297 a owl:Class ;
     dcterms:created "2022-07-25"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "MenA"@en ;
     skos:notation "VAL297"^^xsd:string .
 
 nuva:VAL312 a owl:Class ;
@@ -28197,6 +28432,7 @@ nuva:VAL312 a owl:Class ;
     dcterms:created "2023-03-17"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL031 ;
+    skos:altLabel "TBE-K23"@en ;
     skos:notation "VAL312"^^xsd:string .
 
 nuva:VAL315 a owl:Class ;
@@ -28205,6 +28441,7 @@ nuva:VAL315 a owl:Class ;
     dcterms:created "2023-03-17"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL313 ;
+    skos:altLabel "TBE-Neudorfl-PED"@en ;
     skos:notation "VAL315"^^xsd:string .
 
 nuva:VAL321 a owl:Class ;
@@ -28213,6 +28450,7 @@ nuva:VAL321 a owl:Class ;
     dcterms:created "2023-07-22"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL320 ;
+    skos:altLabel "VRS-mAb-nir"@en ;
     skos:notation "VAL321"^^xsd:string .
 
 nuva:VAL329 a owl:Class ;
@@ -28221,6 +28459,7 @@ nuva:VAL329 a owl:Class ;
     dcterms:created "2024-02-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL396 ;
+    skos:altLabel "COVID-mRNA-S-OMI-XBB.1.5-50"@en ;
     skos:notation "VAL329"^^xsd:string .
 
 nuva:VAL338 a owl:Class ;
@@ -28229,6 +28468,7 @@ nuva:VAL338 a owl:Class ;
     dcterms:created "2024-03-18"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "RSV"@en ;
     skos:notation "VAL338"^^xsd:string .
 
 nuva:VAL359 a owl:Class ;
@@ -28237,6 +28477,7 @@ nuva:VAL359 a owl:Class ;
     dcterms:created "2024-05-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL081 ;
+    skos:altLabel "CHOL-I"@en ;
     skos:notation "VAL359"^^xsd:string .
 
 nuva:VAL368 a owl:Class ;
@@ -28245,6 +28486,7 @@ nuva:VAL368 a owl:Class ;
     dcterms:created "2024-07-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL021 ;
+    skos:altLabel "CHOL-I-O139-O"@en ;
     skos:notation "VAL368"^^xsd:string .
 
 nuva:VAL386 a owl:Class ;
@@ -28253,6 +28495,7 @@ nuva:VAL386 a owl:Class ;
     dcterms:created "2024-12-16"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "AH5"@en ;
     skos:notation "VAL386"^^xsd:string .
 
 nuva:VAL388 a owl:Class ;
@@ -28261,6 +28504,7 @@ nuva:VAL388 a owl:Class ;
     dcterms:created "2025-02-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL395 ;
+    skos:altLabel "COVID-mRNA-S-OMI-JN.1-50"@en ;
     skos:notation "VAL388"^^xsd:string .
 
 nuva:VAL390 a owl:Class ;
@@ -28269,6 +28513,7 @@ nuva:VAL390 a owl:Class ;
     dcterms:created "2025-02-20"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "CHIK"@en ;
     skos:notation "VAL390"^^xsd:string .
 
 nuva:VAL402 a owl:Class ;
@@ -28277,6 +28522,7 @@ nuva:VAL402 a owl:Class ;
     dcterms:created "2025-03-12"^^xsd:date ;
     dcterms:modified "2025-05-13"^^xsd:date ;
     rdfs:subClassOf nuva:VAL251 ;
+    skos:altLabel "EJ-I-Vero-6"@en ;
     skos:notation "VAL402"^^xsd:string .
 
 nuva:VAL406 a owl:Class ;
@@ -28285,6 +28531,7 @@ nuva:VAL406 a owl:Class ;
     dcterms:created "2025-03-25"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL395 ;
+    skos:altLabel "COVID-mRNA-S-OMI-KP.2"@en ;
     skos:notation "VAL406"^^xsd:string .
 
 nuva:VAL417 a owl:Class ;
@@ -28293,6 +28540,7 @@ nuva:VAL417 a owl:Class ;
     dcterms:created "2025-04-23"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL149 ;
+    skos:altLabel "COVID-mRNA-S-OMI-BA.2"@en ;
     skos:notation "VAL417"^^xsd:string .
 
 nuva:VAL423 a owl:Class ;
@@ -28301,6 +28549,7 @@ nuva:VAL423 a owl:Class ;
     dcterms:created "2025-08-28"^^xsd:date ;
     dcterms:modified "2025-08-28"^^xsd:date ;
     rdfs:subClassOf nuva:VAL417 ;
+    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1"@en ;
     skos:notation "VAL423"^^xsd:string .
 
 nuva:DIS008 a owl:Class ;
@@ -28339,6 +28588,7 @@ nuva:VAL016 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "RIG"@en ;
     skos:notation "VAL016"^^xsd:string .
 
 nuva:VAL022 a owl:Class ;
@@ -28347,6 +28597,7 @@ nuva:VAL022 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL418 ;
+    skos:altLabel "POX-LA"@en ;
     skos:notation "VAL022"^^xsd:string .
 
 nuva:VAL042 a owl:Class ;
@@ -28355,6 +28606,7 @@ nuva:VAL042 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "POLIO"@en ;
     skos:notation "VAL042"^^xsd:string .
 
 nuva:VAL043 a owl:Class ;
@@ -28363,6 +28615,7 @@ nuva:VAL043 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL168 ;
+    skos:altLabel "COVID-mRNA-S"@en ;
     skos:notation "VAL043"^^xsd:string .
 
 nuva:VAL049 a owl:Class ;
@@ -28371,6 +28624,7 @@ nuva:VAL049 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL177 ;
+    skos:altLabel "Hib-PS"@en ;
     skos:notation "VAL049"^^xsd:string .
 
 nuva:VAL055 a owl:Class ;
@@ -28379,6 +28633,7 @@ nuva:VAL055 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "MEAS-Ig"@en ;
     skos:notation "VAL055"^^xsd:string .
 
 nuva:VAL063 a owl:Class ;
@@ -28387,6 +28642,7 @@ nuva:VAL063 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL420 ;
+    skos:altLabel "BAT"@en ;
     skos:notation "VAL063"^^xsd:string .
 
 nuva:VAL072 a owl:Class ;
@@ -28395,6 +28651,7 @@ nuva:VAL072 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL161 ;
+    skos:altLabel "MenB-fHbpAB"@en ;
     skos:notation "VAL072"^^xsd:string .
 
 nuva:VAL074 a owl:Class ;
@@ -28403,6 +28660,7 @@ nuva:VAL074 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL064 ;
+    skos:altLabel "INF-SUhd4"@en ;
     skos:notation "VAL074"^^xsd:string .
 
 nuva:VAL076 a owl:Class ;
@@ -28411,6 +28669,7 @@ nuva:VAL076 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL164 ;
+    skos:altLabel "COVID-IV"@en ;
     skos:notation "VAL076"^^xsd:string .
 
 nuva:VAL118 a owl:Class ;
@@ -28419,6 +28678,7 @@ nuva:VAL118 a owl:Class ;
     dcterms:created "2021-10-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "MenB"@en ;
     skos:notation "VAL118"^^xsd:string .
 
 nuva:VAL126 a owl:Class ;
@@ -28427,6 +28687,7 @@ nuva:VAL126 a owl:Class ;
     dcterms:created "2021-10-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Ebola"@en ;
     skos:notation "VAL126"^^xsd:string .
 
 nuva:VAL128 a owl:Class ;
@@ -28435,6 +28696,7 @@ nuva:VAL128 a owl:Class ;
     dcterms:created "2021-10-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "INF"@en ;
     skos:notation "VAL128"^^xsd:string .
 
 nuva:VAL133 a owl:Class ;
@@ -28443,6 +28705,7 @@ nuva:VAL133 a owl:Class ;
     dcterms:created "2021-10-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL042 ;
+    skos:altLabel "mOPV"@en ;
     skos:notation "VAL133"^^xsd:string .
 
 nuva:VAL168 a owl:Class ;
@@ -28451,6 +28714,7 @@ nuva:VAL168 a owl:Class ;
     dcterms:created "2022-03-19"^^xsd:date ;
     dcterms:modified "2025-05-07"^^xsd:date ;
     rdfs:subClassOf nuva:VAL164 ;
+    skos:altLabel "COVID-mRNA"@en ;
     skos:notation "VAL168"^^xsd:string .
 
 nuva:VAL169 a owl:Class ;
@@ -28459,6 +28723,7 @@ nuva:VAL169 a owl:Class ;
     dcterms:created "2022-03-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL303 ;
+    skos:altLabel "COVID-mRNA-SAM"@en ;
     skos:notation "VAL169"^^xsd:string .
 
 nuva:VAL181 a owl:Class ;
@@ -28467,6 +28732,7 @@ nuva:VAL181 a owl:Class ;
     dcterms:created "2022-03-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL303 ;
+    skos:altLabel "COVID-mRNA-S-ORI-25"@en ;
     skos:notation "VAL181"^^xsd:string .
 
 nuva:VAL182 a owl:Class ;
@@ -28475,6 +28741,7 @@ nuva:VAL182 a owl:Class ;
     dcterms:created "2022-03-27"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "MEAS"@en ;
     skos:notation "VAL182"^^xsd:string .
 
 nuva:VAL221 a owl:Class ;
@@ -28483,6 +28750,7 @@ nuva:VAL221 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-15F"@en ;
     skos:notation "VAL221"^^xsd:string .
 
 nuva:VAL230 a owl:Class ;
@@ -28491,6 +28759,7 @@ nuva:VAL230 a owl:Class ;
     dcterms:created "2022-03-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL058 ;
+    skos:altLabel "INF-SU4"@en ;
     skos:notation "VAL230"^^xsd:string .
 
 nuva:VAL247 a owl:Class ;
@@ -28499,6 +28768,7 @@ nuva:VAL247 a owl:Class ;
     dcterms:created "2022-03-29"^^xsd:date ;
     dcterms:modified "2025-04-25"^^xsd:date ;
     rdfs:subClassOf nuva:VAL248 ;
+    skos:altLabel "JE-LAR"@en ;
     skos:notation "VAL247"^^xsd:string .
 
 nuva:VAL258 a owl:Class ;
@@ -28507,6 +28777,7 @@ nuva:VAL258 a owl:Class ;
     dcterms:created "2022-04-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL257 ;
+    skos:altLabel "Rab-I-HDCV"@en ;
     skos:notation "VAL258"^^xsd:string .
 
 nuva:VAL296 a owl:Class ;
@@ -28515,6 +28786,7 @@ nuva:VAL296 a owl:Class ;
     dcterms:created "2022-07-21"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL028 ;
+    skos:altLabel "POX-3G-MVA"@en ;
     skos:notation "VAL296"^^xsd:string .
 
 nuva:VAL304 a owl:Class ;
@@ -28523,6 +28795,7 @@ nuva:VAL304 a owl:Class ;
     dcterms:created "2022-09-09"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL303 ;
+    skos:altLabel "COVID-mRNA-S-ORI-15"@en ;
     skos:notation "VAL304"^^xsd:string .
 
 nuva:VAL314 a owl:Class ;
@@ -28531,6 +28804,7 @@ nuva:VAL314 a owl:Class ;
     dcterms:created "2023-03-17"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL313 ;
+    skos:altLabel "TBE-Neudorfl-ADU"@en ;
     skos:notation "VAL314"^^xsd:string .
 
 nuva:VAL318 a owl:Class ;
@@ -28539,6 +28813,7 @@ nuva:VAL318 a owl:Class ;
     dcterms:created "2023-05-14"^^xsd:date ;
     dcterms:modified "2025-04-28"^^xsd:date ;
     rdfs:subClassOf nuva:VAL338 ;
+    skos:altLabel "RSV-V"@en ;
     skos:notation "VAL318"^^xsd:string .
 
 nuva:VAL320 a owl:Class ;
@@ -28547,6 +28822,7 @@ nuva:VAL320 a owl:Class ;
     dcterms:created "2023-07-22"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL317 ;
+    skos:altLabel "RSV-mAb"@en ;
     skos:notation "VAL320"^^xsd:string .
 
 nuva:VAL345 a owl:Class ;
@@ -28555,6 +28831,7 @@ nuva:VAL345 a owl:Class ;
     dcterms:created "2024-04-24"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "UTI"@en ;
     skos:notation "VAL345"^^xsd:string .
 
 nuva:VAL346 a owl:Class ;
@@ -28563,6 +28840,7 @@ nuva:VAL346 a owl:Class ;
     dcterms:created "2024-04-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "EV71"@en ;
     skos:notation "VAL346"^^xsd:string .
 
 nuva:VAL354 a owl:Class ;
@@ -28571,6 +28849,7 @@ nuva:VAL354 a owl:Class ;
     dcterms:created "2024-05-15"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-9N"@en ;
     skos:notation "VAL354"^^xsd:string .
 
 nuva:VAL355 a owl:Class ;
@@ -28579,6 +28858,7 @@ nuva:VAL355 a owl:Class ;
     dcterms:created "2024-05-15"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-17F"@en ;
     skos:notation "VAL355"^^xsd:string .
 
 nuva:VAL393 a owl:Class ;
@@ -28587,6 +28867,7 @@ nuva:VAL393 a owl:Class ;
     dcterms:created "2025-02-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL149 ;
+    skos:altLabel "COVID-mRNA-S-OMI-BA.1"@en ;
     skos:notation "VAL393"^^xsd:string .
 
 nuva:VAL398 a owl:Class ;
@@ -28595,6 +28876,7 @@ nuva:VAL398 a owl:Class ;
     dcterms:created "2025-03-07"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL162 ;
+    skos:altLabel "COVID-VVr-S"@en ;
     skos:notation "VAL398"^^xsd:string .
 
 nuva:DIS001 a owl:Class ;
@@ -28639,6 +28921,7 @@ nuva:VAL012 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-07-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL090 ;
+    skos:altLabel "rHBsAg-40"@en ;
     skos:notation "VAL012"^^xsd:string .
 
 nuva:VAL021 a owl:Class ;
@@ -28647,6 +28930,7 @@ nuva:VAL021 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL359 ;
+    skos:altLabel "CHOL-I-O"@en ;
     skos:notation "VAL021"^^xsd:string .
 
 nuva:VAL026 a owl:Class ;
@@ -28655,6 +28939,7 @@ nuva:VAL026 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL118 ;
+    skos:altLabel "MenB-OMP"@en ;
     skos:notation "VAL026"^^xsd:string .
 
 nuva:VAL052 a owl:Class ;
@@ -28663,6 +28948,7 @@ nuva:VAL052 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL237 ;
+    skos:altLabel "HPV-04-valent"@en ;
     skos:notation "VAL052"^^xsd:string .
 
 nuva:VAL075 a owl:Class ;
@@ -28671,6 +28957,7 @@ nuva:VAL075 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Lepto-wI"@en ;
     skos:notation "VAL075"^^xsd:string .
 
 nuva:VAL081 a owl:Class ;
@@ -28679,6 +28966,7 @@ nuva:VAL081 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "CHOL"@en ;
     skos:notation "VAL081"^^xsd:string .
 
 nuva:VAL105 a owl:Class ;
@@ -28687,6 +28975,7 @@ nuva:VAL105 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Pneumo"@en ;
     skos:notation "VAL105"^^xsd:string .
 
 nuva:VAL112 a owl:Class ;
@@ -28695,6 +28984,7 @@ nuva:VAL112 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL360 ;
+    skos:altLabel "INF-CC4"@en ;
     skos:notation "VAL112"^^xsd:string .
 
 nuva:VAL117 a owl:Class ;
@@ -28703,6 +28993,7 @@ nuva:VAL117 a owl:Class ;
     dcterms:created "2021-10-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL003 ;
+    skos:altLabel "Acel"@en ;
     skos:notation "VAL117"^^xsd:string .
 
 nuva:VAL142 a owl:Class ;
@@ -28711,6 +29002,7 @@ nuva:VAL142 a owl:Class ;
     dcterms:created "2022-02-17"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL283 ;
+    skos:altLabel "HepA-mv-PED"@en ;
     skos:notation "VAL142"^^xsd:string .
 
 nuva:VAL143 a owl:Class ;
@@ -28719,6 +29011,7 @@ nuva:VAL143 a owl:Class ;
     dcterms:created "2022-02-17"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL283 ;
+    skos:altLabel "HepA-bv-PED"@en ;
     skos:notation "VAL143"^^xsd:string .
 
 nuva:VAL144 a owl:Class ;
@@ -28727,6 +29020,7 @@ nuva:VAL144 a owl:Class ;
     dcterms:created "2022-02-17"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL284 ;
+    skos:altLabel "HepA-mv-ADU"@en ;
     skos:notation "VAL144"^^xsd:string .
 
 nuva:VAL164 a owl:Class ;
@@ -28735,6 +29029,7 @@ nuva:VAL164 a owl:Class ;
     dcterms:created "2022-03-13"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL157 ;
+    skos:altLabel "COVID-non-live"@en ;
     skos:notation "VAL164"^^xsd:string .
 
 nuva:VAL170 a owl:Class ;
@@ -28743,6 +29038,7 @@ nuva:VAL170 a owl:Class ;
     dcterms:created "2022-03-21"^^xsd:date ;
     dcterms:modified "2025-07-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL090 ;
+    skos:altLabel "rHepB-05"@en ;
     skos:notation "VAL170"^^xsd:string .
 
 nuva:VAL250 a owl:Class ;
@@ -28751,6 +29047,7 @@ nuva:VAL250 a owl:Class ;
     dcterms:created "2022-03-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL089 ;
+    skos:altLabel "JE-I-mb"@en ;
     skos:notation "VAL250"^^xsd:string .
 
 nuva:VAL257 a owl:Class ;
@@ -28759,6 +29056,7 @@ nuva:VAL257 a owl:Class ;
     dcterms:created "2022-04-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL080 ;
+    skos:altLabel "Rab-I-CC"@en ;
     skos:notation "VAL257"^^xsd:string .
 
 nuva:VAL264 a owl:Class ;
@@ -28767,6 +29065,7 @@ nuva:VAL264 a owl:Class ;
     dcterms:created "2022-04-02"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL076 ;
+    skos:altLabel "COVID-IV-Auth"@en ;
     skos:notation "VAL264"^^xsd:string .
 
 nuva:VAL272 a owl:Class ;
@@ -28775,6 +29074,7 @@ nuva:VAL272 a owl:Class ;
     dcterms:created "2022-04-05"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL136 ;
+    skos:altLabel "MCV-W-T"@en ;
     skos:notation "VAL272"^^xsd:string .
 
 nuva:VAL288 a owl:Class ;
@@ -28783,6 +29083,7 @@ nuva:VAL288 a owl:Class ;
     dcterms:created "2022-05-08"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "HepA"@en ;
     skos:notation "VAL288"^^xsd:string .
 
 nuva:VAL364 a owl:Class ;
@@ -28791,6 +29092,7 @@ nuva:VAL364 a owl:Class ;
     dcterms:created "2024-07-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL128 ;
+    skos:altLabel "INF-NL"@en ;
     skos:notation "VAL364"^^xsd:string .
 
 nuva:VAL367 a owl:Class ;
@@ -28799,6 +29101,7 @@ nuva:VAL367 a owl:Class ;
     dcterms:created "2024-07-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL021 ;
+    skos:altLabel "CHOL-I-O1-O"@en ;
     skos:notation "VAL367"^^xsd:string .
 
 nuva:VAL394 a owl:Class ;
@@ -28807,6 +29110,7 @@ nuva:VAL394 a owl:Class ;
     dcterms:created "2025-02-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL149 ;
+    skos:altLabel "COVID-mRNA-S-OMI-BA.4/5"@en ;
     skos:notation "VAL394"^^xsd:string .
 
 nuva:VAL397 a owl:Class ;
@@ -28815,6 +29119,7 @@ nuva:VAL397 a owl:Class ;
     dcterms:created "2025-03-07"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL163 ;
+    skos:altLabel "COVID-VVnr-S"@en ;
     skos:notation "VAL397"^^xsd:string .
 
 nuva:VAL415 a owl:Class ;
@@ -28823,6 +29128,7 @@ nuva:VAL415 a owl:Class ;
     dcterms:created "2025-04-11"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL111 ;
+    skos:altLabel "BantAdj"@en ;
     skos:notation "VAL415"^^xsd:string .
 
 nuva:DIS043 a owl:Class ;
@@ -28855,6 +29161,7 @@ nuva:VAL039 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL164 ;
+    skos:altLabel "COVID-VLP-rS"@en ;
     skos:notation "VAL039"^^xsd:string .
 
 nuva:VAL047 a owl:Class ;
@@ -28863,6 +29170,7 @@ nuva:VAL047 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "IgHepB"@en ;
     skos:notation "VAL047"^^xsd:string .
 
 nuva:VAL050 a owl:Class ;
@@ -28871,6 +29179,7 @@ nuva:VAL050 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL070 ;
+    skos:altLabel "COVID-VVnr-S-Ad5"@en ;
     skos:notation "VAL050"^^xsd:string .
 
 nuva:VAL058 a owl:Class ;
@@ -28879,6 +29188,7 @@ nuva:VAL058 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL365 ;
+    skos:altLabel "INF-SU"@en ;
     skos:notation "VAL058"^^xsd:string .
 
 nuva:VAL069 a owl:Class ;
@@ -28887,6 +29197,7 @@ nuva:VAL069 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL397 ;
+    skos:altLabel "COVID-VVnr-S-ChAdOx1"@en ;
     skos:notation "VAL069"^^xsd:string .
 
 nuva:VAL107 a owl:Class ;
@@ -28895,6 +29206,7 @@ nuva:VAL107 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL104 ;
+    skos:altLabel "COVID-PS-rSnp"@en ;
     skos:notation "VAL107"^^xsd:string .
 
 nuva:VAL139 a owl:Class ;
@@ -28903,6 +29215,7 @@ nuva:VAL139 a owl:Class ;
     dcterms:created "2022-02-13"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL299 ;
+    skos:altLabel "MPV-Y"@en ;
     skos:notation "VAL139"^^xsd:string .
 
 nuva:VAL234 a owl:Class ;
@@ -28911,6 +29224,7 @@ nuva:VAL234 a owl:Class ;
     dcterms:created "2022-03-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Men"@en ;
     skos:notation "VAL234"^^xsd:string .
 
 nuva:VAL251 a owl:Class ;
@@ -28919,6 +29233,7 @@ nuva:VAL251 a owl:Class ;
     dcterms:created "2022-03-29"^^xsd:date ;
     dcterms:modified "2025-04-28"^^xsd:date ;
     rdfs:subClassOf nuva:VAL089 ;
+    skos:altLabel "JE-I-Vero"@en ;
     skos:notation "VAL251"^^xsd:string .
 
 nuva:VAL252 a owl:Class ;
@@ -28927,6 +29242,7 @@ nuva:VAL252 a owl:Class ;
     dcterms:created "2022-03-30"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL016 ;
+    skos:altLabel "RIG-hu"@en ;
     skos:notation "VAL252"^^xsd:string .
 
 nuva:VAL259 a owl:Class ;
@@ -28935,6 +29251,7 @@ nuva:VAL259 a owl:Class ;
     dcterms:created "2022-04-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL257 ;
+    skos:altLabel "Rab-I-PCEC"@en ;
     skos:notation "VAL259"^^xsd:string .
 
 nuva:VAL395 a owl:Class ;
@@ -28943,6 +29260,7 @@ nuva:VAL395 a owl:Class ;
     dcterms:created "2025-02-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL417 ;
+    skos:altLabel "COVID-mRNA-S-OMI-JN.1"@en ;
     skos:notation "VAL395"^^xsd:string .
 
 nuva:VAL396 a owl:Class ;
@@ -28951,6 +29269,7 @@ nuva:VAL396 a owl:Class ;
     dcterms:created "2025-02-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL417 ;
+    skos:altLabel "COVID-mRNA-S-OMI-XBB.1.5"@en ;
     skos:notation "VAL396"^^xsd:string .
 
 nuva:VAL399 a owl:Class ;
@@ -28959,6 +29278,7 @@ nuva:VAL399 a owl:Class ;
     dcterms:created "2025-03-12"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL002 ;
+    skos:altLabel "Ty-ViC-T"@en ;
     skos:notation "VAL399"^^xsd:string .
 
 nuva:DIS004 a owl:Class ;
@@ -28985,6 +29305,7 @@ nuva:VAL092 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "YF"@en ;
     skos:notation "VAL092"^^xsd:string .
 
 nuva:VAL106 a owl:Class ;
@@ -28993,6 +29314,7 @@ nuva:VAL106 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "ROTA-LA"@en ;
     skos:notation "VAL106"^^xsd:string .
 
 nuva:VAL136 a owl:Class ;
@@ -29001,6 +29323,7 @@ nuva:VAL136 a owl:Class ;
     dcterms:created "2022-02-13"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL300 ;
+    skos:altLabel "MCV-W"@en ;
     skos:notation "VAL136"^^xsd:string .
 
 nuva:VAL193 a owl:Class ;
@@ -29009,6 +29332,7 @@ nuva:VAL193 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-08"@en ;
     skos:notation "VAL193"^^xsd:string .
 
 nuva:VAL195 a owl:Class ;
@@ -29017,6 +29341,7 @@ nuva:VAL195 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-10A"@en ;
     skos:notation "VAL195"^^xsd:string .
 
 nuva:VAL196 a owl:Class ;
@@ -29025,6 +29350,7 @@ nuva:VAL196 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-11A"@en ;
     skos:notation "VAL196"^^xsd:string .
 
 nuva:VAL197 a owl:Class ;
@@ -29033,6 +29359,7 @@ nuva:VAL197 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-12F"@en ;
     skos:notation "VAL197"^^xsd:string .
 
 nuva:VAL199 a owl:Class ;
@@ -29041,6 +29368,7 @@ nuva:VAL199 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-15B"@en ;
     skos:notation "VAL199"^^xsd:string .
 
 nuva:VAL276 a owl:Class ;
@@ -29049,6 +29377,7 @@ nuva:VAL276 a owl:Class ;
     dcterms:created "2022-04-05"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL078 ;
+    skos:altLabel "MCV-Y-T"@en ;
     skos:notation "VAL276"^^xsd:string .
 
 nuva:VAL302 a owl:Class ;
@@ -29057,6 +29386,7 @@ nuva:VAL302 a owl:Class ;
     dcterms:created "2022-08-27"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL303 ;
+    skos:altLabel "COVID-mRNA-S-ORI-50"@en ;
     skos:notation "VAL302"^^xsd:string .
 
 nuva:DIS018 a owl:Class ;
@@ -29077,6 +29407,7 @@ nuva:VAL004 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL359 ;
+    skos:altLabel "CHOL-I-I"@en ;
     skos:notation "VAL004"^^xsd:string .
 
 nuva:VAL041 a owl:Class ;
@@ -29085,6 +29416,7 @@ nuva:VAL041 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL297 ;
+    skos:altLabel "MCV-A"@en ;
     skos:notation "VAL041"^^xsd:string .
 
 nuva:VAL078 a owl:Class ;
@@ -29093,6 +29425,7 @@ nuva:VAL078 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL299 ;
+    skos:altLabel "MCV-Y"@en ;
     skos:notation "VAL078"^^xsd:string .
 
 nuva:VAL080 a owl:Class ;
@@ -29101,6 +29434,7 @@ nuva:VAL080 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Rab-I"@en ;
     skos:notation "VAL080"^^xsd:string .
 
 nuva:VAL110 a owl:Class ;
@@ -29109,6 +29443,7 @@ nuva:VAL110 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "T-Ig"@en ;
     skos:notation "VAL110"^^xsd:string .
 
 nuva:VAL138 a owl:Class ;
@@ -29117,6 +29452,7 @@ nuva:VAL138 a owl:Class ;
     dcterms:created "2022-02-13"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL300 ;
+    skos:altLabel "MPV-W"@en ;
     skos:notation "VAL138"^^xsd:string .
 
 nuva:VAL154 a owl:Class ;
@@ -29125,6 +29461,7 @@ nuva:VAL154 a owl:Class ;
     dcterms:created "2022-03-04"^^xsd:date ;
     dcterms:modified "2025-04-25"^^xsd:date ;
     rdfs:subClassOf nuva:VAL103 ;
+    skos:altLabel "HbOC"@en ;
     skos:notation "VAL154"^^xsd:string .
 
 nuva:VAL155 a owl:Class ;
@@ -29133,6 +29470,7 @@ nuva:VAL155 a owl:Class ;
     dcterms:created "2022-03-04"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL103 ;
+    skos:altLabel "PRP-OMP"@en ;
     skos:notation "VAL155"^^xsd:string .
 
 nuva:VAL238 a owl:Class ;
@@ -29141,6 +29479,7 @@ nuva:VAL238 a owl:Class ;
     dcterms:created "2022-03-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL236 ;
+    skos:altLabel "HPV-06"@en ;
     skos:notation "VAL238"^^xsd:string .
 
 nuva:VAL239 a owl:Class ;
@@ -29149,6 +29488,7 @@ nuva:VAL239 a owl:Class ;
     dcterms:created "2022-03-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL236 ;
+    skos:altLabel "HPV-11"@en ;
     skos:notation "VAL239"^^xsd:string .
 
 nuva:DIS028 a owl:Class ;
@@ -29169,6 +29509,7 @@ nuva:VAL045 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL014 ;
+    skos:altLabel "pTy-I"@en ;
     skos:notation "VAL045"^^xsd:string .
 
 nuva:VAL053 a owl:Class ;
@@ -29177,6 +29518,7 @@ nuva:VAL053 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL164 ;
+    skos:altLabel "COVID-PS"@en ;
     skos:notation "VAL053"^^xsd:string .
 
 nuva:VAL068 a owl:Class ;
@@ -29185,6 +29527,7 @@ nuva:VAL068 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "HepB"@en ;
     skos:notation "VAL068"^^xsd:string .
 
 nuva:VAL090 a owl:Class ;
@@ -29193,6 +29536,7 @@ nuva:VAL090 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-07-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL068 ;
+    skos:altLabel "rHBsAg"@en ;
     skos:notation "VAL090"^^xsd:string .
 
 nuva:VAL203 a owl:Class ;
@@ -29201,6 +29545,7 @@ nuva:VAL203 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-22F"@en ;
     skos:notation "VAL203"^^xsd:string .
 
 nuva:VAL205 a owl:Class ;
@@ -29209,6 +29554,7 @@ nuva:VAL205 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-33F"@en ;
     skos:notation "VAL205"^^xsd:string .
 
 nuva:VAL236 a owl:Class ;
@@ -29217,6 +29563,7 @@ nuva:VAL236 a owl:Class ;
     dcterms:created "2022-03-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL082 ;
+    skos:altLabel "HPV-mono"@en ;
     skos:notation "VAL236"^^xsd:string .
 
 nuva:VAL268 a owl:Class ;
@@ -29225,6 +29572,7 @@ nuva:VAL268 a owl:Class ;
     dcterms:created "2022-04-05"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL057 ;
+    skos:altLabel "MCV-C-CRM"@en ;
     skos:notation "VAL268"^^xsd:string .
 
 nuva:VAL271 a owl:Class ;
@@ -29233,6 +29581,7 @@ nuva:VAL271 a owl:Class ;
     dcterms:created "2022-04-05"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL041 ;
+    skos:altLabel "MCV-A-T"@en ;
     skos:notation "VAL271"^^xsd:string .
 
 nuva:DIS006 a owl:Class ;
@@ -29253,6 +29602,7 @@ nuva:VAL014 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Ty"@en ;
     skos:notation "VAL014"^^xsd:string .
 
 nuva:VAL057 a owl:Class ;
@@ -29261,6 +29611,7 @@ nuva:VAL057 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-05-20"^^xsd:date ;
     rdfs:subClassOf nuva:VAL298 ;
+    skos:altLabel "MCV-C"@en ;
     skos:notation "VAL057"^^xsd:string .
 
 nuva:VAL294 a owl:Class ;
@@ -29269,6 +29620,7 @@ nuva:VAL294 a owl:Class ;
     dcterms:created "2022-07-21"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL022 ;
+    skos:altLabel "POX-1G"@en ;
     skos:notation "VAL294"^^xsd:string .
 
 nuva:DIS058 a owl:Class ;
@@ -29283,6 +29635,7 @@ nuva:VAL099 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL058 ;
+    skos:altLabel "INF-pdm09"@en ;
     skos:notation "VAL099"^^xsd:string .
 
 nuva:VAL187 a owl:Class ;
@@ -29291,6 +29644,7 @@ nuva:VAL187 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-03"@en ;
     skos:notation "VAL187"^^xsd:string .
 
 nuva:VAL190 a owl:Class ;
@@ -29299,6 +29653,7 @@ nuva:VAL190 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-06A"@en ;
     skos:notation "VAL190"^^xsd:string .
 
 nuva:VAL215 a owl:Class ;
@@ -29307,6 +29662,7 @@ nuva:VAL215 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-09V"@en ;
     skos:notation "VAL215"^^xsd:string .
 
 nuva:VAL216 a owl:Class ;
@@ -29315,6 +29671,7 @@ nuva:VAL216 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-10A"@en ;
     skos:notation "VAL216"^^xsd:string .
 
 nuva:VAL220 a owl:Class ;
@@ -29323,6 +29680,7 @@ nuva:VAL220 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-15B"@en ;
     skos:notation "VAL220"^^xsd:string .
 
 nuva:VAL224 a owl:Class ;
@@ -29331,6 +29689,7 @@ nuva:VAL224 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-19A"@en ;
     skos:notation "VAL224"^^xsd:string .
 
 nuva:VAL226 a owl:Class ;
@@ -29339,6 +29698,7 @@ nuva:VAL226 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-20"@en ;
     skos:notation "VAL226"^^xsd:string .
 
 nuva:VAL227 a owl:Class ;
@@ -29347,6 +29707,7 @@ nuva:VAL227 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-22F"@en ;
     skos:notation "VAL227"^^xsd:string .
 
 nuva:VAL229 a owl:Class ;
@@ -29355,6 +29716,7 @@ nuva:VAL229 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-33F"@en ;
     skos:notation "VAL229"^^xsd:string .
 
 nuva:VAL260 a owl:Class ;
@@ -29363,6 +29725,7 @@ nuva:VAL260 a owl:Class ;
     dcterms:created "2022-04-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL257 ;
+    skos:altLabel "Rab-I-PVRV"@en ;
     skos:notation "VAL260"^^xsd:string .
 
 nuva:VAL035 a owl:Class ;
@@ -29371,6 +29734,7 @@ nuva:VAL035 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL164 ;
+    skos:altLabel "COVID-DNA-S"@en ;
     skos:notation "VAL035"^^xsd:string .
 
 nuva:VAL070 a owl:Class ;
@@ -29379,6 +29743,7 @@ nuva:VAL070 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL397 ;
+    skos:altLabel "COVID-VVnr-S-Ad"@en ;
     skos:notation "VAL070"^^xsd:string .
 
 nuva:VAL083 a owl:Class ;
@@ -29387,6 +29752,7 @@ nuva:VAL083 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL414 ;
+    skos:altLabel "D-d"@en ;
     skos:notation "VAL083"^^xsd:string .
 
 nuva:VAL135 a owl:Class ;
@@ -29395,6 +29761,7 @@ nuva:VAL135 a owl:Class ;
     dcterms:created "2022-01-01"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL303 ;
+    skos:altLabel "COVID-mRNA-S-CT"@en ;
     skos:notation "VAL135"^^xsd:string .
 
 nuva:VAL210 a owl:Class ;
@@ -29403,6 +29770,7 @@ nuva:VAL210 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-05"@en ;
     skos:notation "VAL210"^^xsd:string .
 
 nuva:VAL265 a owl:Class ;
@@ -29411,6 +29779,7 @@ nuva:VAL265 a owl:Class ;
     dcterms:created "2022-04-02"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL076 ;
+    skos:altLabel "COVID-IV-CT"@en ;
     skos:notation "VAL265"^^xsd:string .
 
 nuva:VAL186 a owl:Class ;
@@ -29419,6 +29788,7 @@ nuva:VAL186 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-01"@en ;
     skos:notation "VAL186"^^xsd:string .
 
 nuva:VAL189 a owl:Class ;
@@ -29427,6 +29797,7 @@ nuva:VAL189 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-05"@en ;
     skos:notation "VAL189"^^xsd:string .
 
 nuva:VAL201 a owl:Class ;
@@ -29435,6 +29806,7 @@ nuva:VAL201 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-19A"@en ;
     skos:notation "VAL201"^^xsd:string .
 
 nuva:VAL222 a owl:Class ;
@@ -29443,6 +29815,7 @@ nuva:VAL222 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-17F"@en ;
     skos:notation "VAL222"^^xsd:string .
 
 nuva:VAL240 a owl:Class ;
@@ -29451,6 +29824,7 @@ nuva:VAL240 a owl:Class ;
     dcterms:created "2022-03-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL236 ;
+    skos:altLabel "HPV-16"@en ;
     skos:notation "VAL240"^^xsd:string .
 
 nuva:VAL241 a owl:Class ;
@@ -29459,6 +29833,7 @@ nuva:VAL241 a owl:Class ;
     dcterms:created "2022-03-29"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL236 ;
+    skos:altLabel "HPV-18"@en ;
     skos:notation "VAL241"^^xsd:string .
 
 nuva:DIS030 a owl:Class ;
@@ -29473,6 +29848,7 @@ nuva:VAL032 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL014 ;
+    skos:altLabel "Ty-ViPS"@en ;
     skos:notation "VAL032"^^xsd:string .
 
 nuva:VAL044 a owl:Class ;
@@ -29481,6 +29857,7 @@ nuva:VAL044 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "VZV-LA"@en ;
     skos:notation "VAL044"^^xsd:string .
 
 nuva:VAL125 a owl:Class ;
@@ -29489,6 +29866,7 @@ nuva:VAL125 a owl:Class ;
     dcterms:created "2021-10-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL288 ;
+    skos:altLabel "HepA-I"@en ;
     skos:notation "VAL125"^^xsd:string .
 
 nuva:VAL211 a owl:Class ;
@@ -29497,6 +29875,7 @@ nuva:VAL211 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-06B"@en ;
     skos:notation "VAL211"^^xsd:string .
 
 nuva:VAL303 a owl:Class ;
@@ -29505,6 +29884,7 @@ nuva:VAL303 a owl:Class ;
     dcterms:created "2022-09-09"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL043 ;
+    skos:altLabel "COVID-mRNA-S-ORI"@en ;
     skos:notation "VAL303"^^xsd:string .
 
 nuva:DIS038 a owl:Class ;
@@ -29519,6 +29899,7 @@ nuva:VAL040 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL064 ;
+    skos:altLabel "INF-SUnd4"@en ;
     skos:notation "VAL040"^^xsd:string .
 
 nuva:VAL188 a owl:Class ;
@@ -29527,6 +29908,7 @@ nuva:VAL188 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-04"@en ;
     skos:notation "VAL188"^^xsd:string .
 
 nuva:VAL192 a owl:Class ;
@@ -29535,6 +29917,7 @@ nuva:VAL192 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-07F"@en ;
     skos:notation "VAL192"^^xsd:string .
 
 nuva:VAL200 a owl:Class ;
@@ -29543,6 +29926,7 @@ nuva:VAL200 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-18C"@en ;
     skos:notation "VAL200"^^xsd:string .
 
 nuva:VAL217 a owl:Class ;
@@ -29551,6 +29935,7 @@ nuva:VAL217 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-11A"@en ;
     skos:notation "VAL217"^^xsd:string .
 
 nuva:VAL228 a owl:Class ;
@@ -29559,6 +29944,7 @@ nuva:VAL228 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-23F"@en ;
     skos:notation "VAL228"^^xsd:string .
 
 nuva:VAL266 a owl:Class ;
@@ -29567,6 +29953,7 @@ nuva:VAL266 a owl:Class ;
     dcterms:created "2022-04-05"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL057 ;
+    skos:altLabel "MCV-C-T"@en ;
     skos:notation "VAL266"^^xsd:string .
 
 nuva:VAL071 a owl:Class ;
@@ -29575,6 +29962,7 @@ nuva:VAL071 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL014 ;
+    skos:altLabel "Ty-I"@en ;
     skos:notation "VAL071"^^xsd:string .
 
 nuva:VAL206 a owl:Class ;
@@ -29583,6 +29971,7 @@ nuva:VAL206 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-01"@en ;
     skos:notation "VAL206"^^xsd:string .
 
 nuva:VAL207 a owl:Class ;
@@ -29591,6 +29980,7 @@ nuva:VAL207 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-02"@en ;
     skos:notation "VAL207"^^xsd:string .
 
 nuva:VAL208 a owl:Class ;
@@ -29599,6 +29989,7 @@ nuva:VAL208 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-03"@en ;
     skos:notation "VAL208"^^xsd:string .
 
 nuva:VAL209 a owl:Class ;
@@ -29607,6 +29998,7 @@ nuva:VAL209 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-04"@en ;
     skos:notation "VAL209"^^xsd:string .
 
 nuva:VAL212 a owl:Class ;
@@ -29615,6 +30007,7 @@ nuva:VAL212 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-07F"@en ;
     skos:notation "VAL212"^^xsd:string .
 
 nuva:VAL213 a owl:Class ;
@@ -29623,6 +30016,7 @@ nuva:VAL213 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-08"@en ;
     skos:notation "VAL213"^^xsd:string .
 
 nuva:VAL214 a owl:Class ;
@@ -29631,6 +30025,7 @@ nuva:VAL214 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-09N"@en ;
     skos:notation "VAL214"^^xsd:string .
 
 nuva:VAL218 a owl:Class ;
@@ -29639,6 +30034,7 @@ nuva:VAL218 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-12F"@en ;
     skos:notation "VAL218"^^xsd:string .
 
 nuva:VAL219 a owl:Class ;
@@ -29647,6 +30043,7 @@ nuva:VAL219 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-14"@en ;
     skos:notation "VAL219"^^xsd:string .
 
 nuva:VAL223 a owl:Class ;
@@ -29655,6 +30052,7 @@ nuva:VAL223 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-18C"@en ;
     skos:notation "VAL223"^^xsd:string .
 
 nuva:VAL225 a owl:Class ;
@@ -29663,6 +30061,7 @@ nuva:VAL225 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL185 ;
+    skos:altLabel "PPSV-19F"@en ;
     skos:notation "VAL225"^^xsd:string .
 
 nuva:VAL003 a owl:Class ;
@@ -29671,6 +30070,7 @@ nuva:VAL003 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Per"@en ;
     skos:notation "VAL003"^^xsd:string .
 
 nuva:VAL011 a owl:Class ;
@@ -29679,6 +30079,7 @@ nuva:VAL011 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL104 ;
+    skos:altLabel "COVID-PS-rRBD"@en ;
     skos:notation "VAL011"^^xsd:string .
 
 nuva:VAL033 a owl:Class ;
@@ -29687,6 +30088,7 @@ nuva:VAL033 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL133 ;
+    skos:altLabel "mOPV2"@en ;
     skos:notation "VAL033"^^xsd:string .
 
 nuva:VAL051 a owl:Class ;
@@ -29695,6 +30097,7 @@ nuva:VAL051 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL386 ;
+    skos:altLabel "AH5N1"@en ;
     skos:notation "VAL051"^^xsd:string .
 
 nuva:VAL191 a owl:Class ;
@@ -29703,6 +30106,7 @@ nuva:VAL191 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-06B"@en ;
     skos:notation "VAL191"^^xsd:string .
 
 nuva:VAL194 a owl:Class ;
@@ -29711,6 +30115,7 @@ nuva:VAL194 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-09V"@en ;
     skos:notation "VAL194"^^xsd:string .
 
 nuva:VAL198 a owl:Class ;
@@ -29719,6 +30124,7 @@ nuva:VAL198 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-14"@en ;
     skos:notation "VAL198"^^xsd:string .
 
 nuva:VAL202 a owl:Class ;
@@ -29727,6 +30133,7 @@ nuva:VAL202 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-19F"@en ;
     skos:notation "VAL202"^^xsd:string .
 
 nuva:VAL204 a owl:Class ;
@@ -29735,6 +30142,7 @@ nuva:VAL204 a owl:Class ;
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL184 ;
+    skos:altLabel "PCV-23F"@en ;
     skos:notation "VAL204"^^xsd:string .
 
 nuva:VAL017 a owl:Class ;
@@ -29743,6 +30151,7 @@ nuva:VAL017 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL117 ;
+    skos:altLabel "ap"@en ;
     skos:notation "VAL017"^^xsd:string .
 
 nuva:VAL037 a owl:Class ;
@@ -29751,6 +30160,7 @@ nuva:VAL037 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL297 ;
+    skos:altLabel "MPV-A"@en ;
     skos:notation "VAL037"^^xsd:string .
 
 nuva:VAL085 a owl:Class ;
@@ -29759,6 +30169,7 @@ nuva:VAL085 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL133 ;
+    skos:altLabel "mOPV3"@en ;
     skos:notation "VAL085"^^xsd:string .
 
 nuva:VAL096 a owl:Class ;
@@ -29767,6 +30178,7 @@ nuva:VAL096 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-25"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "BCG"@en ;
     skos:notation "VAL096"^^xsd:string .
 
 nuva:VAL137 a owl:Class ;
@@ -29775,6 +30187,7 @@ nuva:VAL137 a owl:Class ;
     dcterms:created "2022-02-13"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL298 ;
+    skos:altLabel "MPV-C"@en ;
     skos:notation "VAL137"^^xsd:string .
 
 nuva:VAL104 a owl:Class ;
@@ -29783,6 +30196,7 @@ nuva:VAL104 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL053 ;
+    skos:altLabel "COVID-PS-rS"@en ;
     skos:notation "VAL104"^^xsd:string .
 
 nuva:VAL115 a owl:Class ;
@@ -29791,6 +30205,7 @@ nuva:VAL115 a owl:Class ;
     dcterms:created "2021-09-19"^^xsd:date ;
     dcterms:modified "2025-07-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL090 ;
+    skos:altLabel "rHBsAg-20"@en ;
     skos:notation "VAL115"^^xsd:string .
 
 nuva:VAL132 a owl:Class ;
@@ -29799,6 +30214,7 @@ nuva:VAL132 a owl:Class ;
     dcterms:created "2021-10-26"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL133 ;
+    skos:altLabel "mOPV1"@en ;
     skos:notation "VAL132"^^xsd:string .
 
 nuva:VAL103 a owl:Class ;
@@ -29807,6 +30223,7 @@ nuva:VAL103 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL177 ;
+    skos:altLabel "Hib-C"@en ;
     skos:notation "VAL103"^^xsd:string .
 
 nuva:VAL185 a owl:Class ;
@@ -29815,6 +30232,7 @@ nuva:VAL185 a owl:Class ;
     dcterms:created "2022-03-27"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL105 ;
+    skos:altLabel "PPSV"@en ;
     skos:notation "VAL185"^^xsd:string .
 
 nuva:VAL184 a owl:Class ;
@@ -29823,6 +30241,7 @@ nuva:VAL184 a owl:Class ;
     dcterms:created "2022-03-27"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL105 ;
+    skos:altLabel "PCV"@en ;
     skos:notation "VAL184"^^xsd:string .
 
 nuva:VAL034 a owl:Class ;
@@ -29831,6 +30250,7 @@ nuva:VAL034 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-05-05"^^xsd:date ;
     rdfs:subClassOf nuva:VAL083 ;
+    skos:altLabel "d"@en ;
     skos:notation "VAL034"^^xsd:string .
 
 nuva:DIS015 a owl:Class ;
@@ -29845,6 +30265,7 @@ nuva:VAL015 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL122 ;
+    skos:altLabel "INF-SUnd3"@en ;
     skos:notation "VAL015"^^xsd:string .
 
 nuva:VAL077 a owl:Class ;
@@ -29853,6 +30274,7 @@ nuva:VAL077 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL183 ;
+    skos:altLabel "MUMPS-LA"@en ;
     skos:notation "VAL077"^^xsd:string .
 
 nuva:DIS025 a owl:Class ;
@@ -29867,6 +30289,7 @@ nuva:VAL008 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL117 ;
+    skos:altLabel "aP"@en ;
     skos:notation "VAL008"^^xsd:string .
 
 nuva:VAL156 a owl:Class ;
@@ -29875,6 +30298,7 @@ nuva:VAL156 a owl:Class ;
     dcterms:created "2022-03-04"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL103 ;
+    skos:altLabel "PRP-T"@en ;
     skos:notation "VAL156"^^xsd:string .
 
 nuva:Disease a owl:Class ;
@@ -29888,6 +30312,7 @@ nuva:VAL079 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Rub-LA"@en ;
     skos:notation "VAL079"^^xsd:string .
 
 nuva:VAL114 a owl:Class ;
@@ -29896,6 +30321,7 @@ nuva:VAL114 a owl:Class ;
     dcterms:created "2021-09-19"^^xsd:date ;
     dcterms:modified "2025-07-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL090 ;
+    skos:altLabel "rHBsAg-10"@en ;
     skos:notation "VAL114"^^xsd:string .
 
 nuva:VAL005 a owl:Class ;
@@ -29904,6 +30330,7 @@ nuva:VAL005 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL182 ;
+    skos:altLabel "MEAS-LA"@en ;
     skos:notation "VAL005"^^xsd:string .
 
 nuva:VAL010 a owl:Class ;
@@ -29912,6 +30339,7 @@ nuva:VAL010 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL003 ;
+    skos:altLabel "wP"@en ;
     skos:notation "VAL010"^^xsd:string .
 
 nuva:Valence a owl:Class ;
@@ -29929,6 +30357,7 @@ nuva:VAL056 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-05-04"^^xsd:date ;
     rdfs:subClassOf nuva:VAL042 ;
+    skos:altLabel "IPV"@en ;
     skos:notation "VAL056"^^xsd:string .
 
 nuva:VAL097 a owl:Class ;
@@ -29937,6 +30366,7 @@ nuva:VAL097 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:VAL083 ;
+    skos:altLabel "D"@en ;
     skos:notation "VAL097"^^xsd:string .
 
 nuva:VAL067 a owl:Class ;
@@ -29945,6 +30375,7 @@ nuva:VAL067 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "T"@en ;
     skos:notation "VAL067"^^xsd:string .
 
 nuva:Vaccine a owl:Class ;
