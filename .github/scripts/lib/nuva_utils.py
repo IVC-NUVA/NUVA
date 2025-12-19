@@ -52,6 +52,33 @@ def nuva_add_lang(g,lang):
     lang_file = urlopen("https://ivci.org/nuva/nuva_lang_"+lang+".ttl")
     g.parse(lang_file.read())
 
+def addValence(g,lang, valence, array):
+    vcode = str(g.value(valence, SKOS.notation))
+    for notation in g.objects(valence,SKOS.altLabel):
+        if notation.language == lang:
+            vnotation = str(notation)
+    for label in g.objects(valence,RDFS.label):
+        if label.language == lang:
+            vlabel = str(label)
+    children=[]
+    for child in g.subjects(RDFS.subClassOf,valence):
+        addValence(g,lang,child,children)
+    
+    array.append({'code': vcode, 'notation': vnotation, 'label': vlabel, 'children': children})
+
+def nuva_get_valences(g,lang):
+    """
+    Return a structured tree of all valences
+    """
+    ValencesParent = URIRef(BaseURI+"Valence")
+    VTree = []
+
+    for valence in g.subjects(RDFS.subClassOf,ValencesParent):
+        addValence(g, lang, valence, VTree)
+
+    return VTree
+
+
 def nuva_get_vaccines(g,lang,onlyAbstract= False):
     """
     Return a Dict of all NUVA vaccines and their properties

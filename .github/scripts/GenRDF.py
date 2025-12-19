@@ -82,6 +82,13 @@ def addClass(ref,parent,label,comment,notation,created, modified, localized):
     if comment: core.add((ref,RDFS.comment,Literal(comment,lang = 'en')))
     if notation: core.add((ref,SKOS.notation,Literal(notation,datatype=XSD.string)))
 
+indent = ".."
+
+def valprint(f,offset, valence):
+    print(offset*indent+f'{valence['notation']}({valence['code']}) - {valence['label']}', file = f)
+    for child in sorted(valence['children'],key = lambda d: d['notation']):
+        valprint(f,1+offset,child)
+
 DiseasesParent=URIRef(BaseURI+"/Disease")
 VaccinesParent=URIRef(BaseURI+"/Vaccine")
 ValencesParent=URIRef(BaseURI+"/Valence")
@@ -129,6 +136,7 @@ for code,data in Valences.items():
     VParent = URIRef(f'{BaseURI}/{data["parent"]}')
     addClass(Valence,VParent,data['label'],data.get('comment',None),code,data['created'],data['modified'],True)
     core.add((Valence,prevents,URIRef(f'{BaseURI}/{data["target"]}')))
+    core.add((Valence,SKOS.altLabel,Literal(data['shorthand'],lang='en')))
 
 if (len(sys.argv)>1):
     version = sys.argv[1]
@@ -137,6 +145,14 @@ else:
 
 core.add((URIRef(BaseURI),OWL.versionInfo,Literal(version)))
 full += core
+
+
+print("Creating the valence tree")
+vtree = NU.nuva_get_valences(core, 'en')
+
+with open('Release/NUVA/valtree_en.txt','w') as f:
+    for valence in sorted(vtree,key = lambda d: d['notation']):
+        valprint(f,0,valence)
 
 print("Creating the RDF files")
 core.serialize(destination="Release/NUVA/nuva_core.ttl")
@@ -148,6 +164,7 @@ with open('Release/NUVA/nuva_core.csv','w',encoding='utf-8-sig',newline ='') as 
     writer.writeheader()
     for code,data in Vaccines.items():
         writer.writerow({'NUVA':f"VAC{data['codes']['NUVACode']}",'label':data['label'],'comment':data['comment'],'abstract':data['abstract']})
+
 
 print("Creating the alignment files")
 for codeSystem in CodeSystems.keys():
