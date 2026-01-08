@@ -4,10 +4,6 @@ comment: Inactivated hepatitis A vaccine, pediatric dose
 created: '2021-07-19'
 modified: '2025-04-09'
 codes:
-  AIC:
-  - 028725099
-  - 028725101
-  - 028725137
   CIP:
   - '3400930128985'
   - '3400930128992'
@@ -58,6 +54,7 @@ codes:
   SCT_NUVA:
   - '1231002000103'
   SWISSMEDIC:
+  - '165'
   - '599'
 valences:
 - VAL142

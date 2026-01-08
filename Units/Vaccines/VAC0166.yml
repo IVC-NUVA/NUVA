@@ -4,11 +4,6 @@ comment: Inactivated hepatitis A vaccine, adult dose
 created: '2021-07-19'
 modified: '2025-04-10'
 codes:
-  AIC:
-  - '033317013'
-  - '033317037'
-  - '033317076'
-  - 033317088
   CIP:
   - '3400934292705'
   - '3400934292873'
@@ -27,6 +22,7 @@ codes:
   - '3019601'
   CODE_NATIONAL_SPAIN:
   - '652443'
+  - '670083'
   CP-NRONATIDENT:
   - '0433065'
   CTI:
@@ -73,5 +69,7 @@ codes:
   - 04397767
   SCT_NUVA:
   - '2801002000103'
+  SWISSMEDIC:
+  - '110'
 valences:
 - VAL144

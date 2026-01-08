@@ -4,6 +4,8 @@ comment: High-dose, trivalent inactivated seasonal influenza vaccine, split-viri
 created: '2025-04-02'
 modified: '2025-07-01'
 codes:
+  AIC:
+  - '051634'
   CIP:
   - '3400930304983'
   - '3400930304990'
@@ -15,6 +17,10 @@ codes:
   - '3400930305065'
   CNK:
   - '4891487'
+  CODE_NATIONAL_SPAIN:
+  - '766173'
+  - '766174'
+  - '766175'
   CTI:
   - '663606'
   CTI-EXTEND:

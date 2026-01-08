@@ -2,10 +2,12 @@ abstract: true
 label: Typhoid-Paratyphoid vaccine, unspecified
 comment: Typhoid and paratyphoid A and B vaccine, whole-cell inactivated
 created: '2021-10-26'
-modified: '2024-07-04'
+modified: '2026-01-08'
 codes:
   ATC:
   - J07AP10
+  ICD11:
+  - XM95H3
   NUVACode:
   - 0818
   SCT_NUVA:

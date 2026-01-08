@@ -1,17 +1,14 @@
 abstract: false
-label: SUPEMTEK
+label: SUPEMTEK TETRA
 comment: Quadrivalent inactivated seasonal influenza vaccine, cell-based
 created: '2022-03-26'
-modified: '2024-04-23'
+modified: '2026-01-08'
 codes:
   AIC:
   - 049227
-  - 049227010
-  - 049227022
-  - 049227034
-  - 049227046
-  - 049227059
-  - 049227061
+  CODE_NATIONAL_SPAIN:
+  - '730197'
+  - '734116'
   CTI:
   - '575004'
   - '575111'

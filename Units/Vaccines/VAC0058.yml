@@ -4,17 +4,6 @@ comment: Combined hepatitis A and B vaccine, pediatric dose
 created: '2021-07-19'
 modified: '2025-04-09'
 codes:
-  AIC:
-  - '033014073'
-  - 033014085
-  - 033014097
-  - 033014109
-  - '033014111'
-  - '033014123'
-  - '033014135'
-  - '033014147'
-  - '033014150'
-  - 033014198
   CIP:
   - '3400934310546'
   - '3400934310607'
@@ -28,7 +17,11 @@ codes:
   CNK:
   - '1327485'
   CODE_NATIONAL_SPAIN:
+  - '668459'
+  - '754572'
+  - '754911'
   - '803767'
+  - '803775'
   CP-NRONATIDENT:
   - '0232215'
   CTI-EXTEND:
@@ -71,6 +64,8 @@ codes:
   - 07728087
   SCT_NUVA:
   - '1331002000109'
+  SWISSMEDIC:
+  - '74'
 valences:
 - VAL114
 - VAL143

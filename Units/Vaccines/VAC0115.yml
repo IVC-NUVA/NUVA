@@ -4,13 +4,6 @@ comment: Inactivated hepatitis A vaccine, pediatric dose
 created: '2021-07-19'
 modified: '2025-09-25'
 codes:
-  AIC:
-  - 033247089
-  - 033247091
-  - '033247103'
-  - '033247115'
-  - '033247127'
-  - 033247139
   CIP:
   - '3400922459585'
   - '3400922459646'
@@ -26,6 +19,8 @@ codes:
   CIS:
   - '63777215'
   - '63937933'
+  CODE_NATIONAL_SPAIN:
+  - '730370'
   CVC:
   - '6861000087105'
   DIN:

@@ -4,9 +4,6 @@ comment: Recombinant hepatitis B vaccine, adult dose
 created: '2021-07-19'
 modified: '2025-09-23'
 codes:
-  AIC:
-  - 026653079
-  - 026653081
   CIP:
   - '3400930071601'
   - '3400930071625'
@@ -80,6 +77,7 @@ codes:
   SCT_NUVA:
   - '1181002000108'
   SWISSMEDIC:
+  - '170'
   - '534'
 valences:
 - VAL115

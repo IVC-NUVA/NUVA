@@ -6,6 +6,8 @@ comment: 'Pneumococcal polysaccharide conjugate vaccine, 20-valent, adsorbed, se
 created: '2022-04-13'
 modified: '2024-10-21'
 codes:
+  AIC:
+  - 049965
   CIP:
   - '3400930247853'
   - '3400930247860'
@@ -13,6 +15,9 @@ codes:
   - '62189757'
   CNK:
   - '4499844'
+  CODE_NATIONAL_SPAIN:
+  - '607476'
+  - '732860'
   CTI:
   - '596657'
   - '596666'

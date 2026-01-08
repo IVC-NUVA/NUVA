@@ -4,6 +4,8 @@ comment: Seasonal influenza vaccine, trivalent, live attenuated, nasal
 created: '2021-07-19'
 modified: '2025-11-14'
 codes:
+  AIC:
+  - '051223'
   CIP:
   - '3400922388175'
   - '3400922388465'
@@ -14,6 +16,8 @@ codes:
   - '66557142'
   CODE_NATIONAL_SPAIN:
   - '677686'
+  - '764648'
+  - '764649'
   CTI:
   - '662793'
   - '662794'
