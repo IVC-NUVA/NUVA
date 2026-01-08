@@ -32,7 +32,7 @@ VAC0012,IMMUGRIP,False,CPT-90673,"Trivalent inactivated influenza vaccine, unspe
 VAC0012,IMMUGRIP,False,CPT-90655,"Influenza vaccine, unspecified",False,,
 VAC0012,IMMUGRIP,False,CPT-90656,"Influenza vaccine, unspecified",False,,
 VAC0012,IMMUGRIP,False,CPT-90724,"Influenza vaccine, unspecified",False,,
-VAC0013,IMOVAX POLIO,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,15,0
+VAC0013,IMOVAX POLIO,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,18,0
 VAC0014,INFANRIX HEXA,False,CPT-90697,"Hexavalent vaccine DTPCaHibHepB - Diphtheria-Tetanus-Polio-Acellular Pertussis-Hib-HepB, unspecified",True,9,0
 VAC0015,INFANRIXQUINTA,False,CPT-90698,"Pentavalent DTaPHibIPV vaccine, unspecified",True,13,0
 VAC0016,INFLUVAC,False,CPT-90653,"Trivalent inactivated influenza vaccine, unspecified",True,50,0
@@ -66,7 +66,7 @@ VAC0029,REPEVAX,False,,,,,
 VAC0030,REVAXIS,False,,,,,
 VAC0031,ROTATEQ,False,CPT-90680,"Rotavirus pentavalent vaccine, unspecified",True,2,0
 VAC0032,ROUVAX,False,CPT-90705,"Live attenuated measles vaccine, unspecified",True,25,0
-VAC0033,RUDIVAX,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC0033,RUDIVAX,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0034,SPIROLEPT,False,,,,,
 VAC0035,STAMARIL,False,CPT-90717,"Yellow fever vaccine, unspecified",True,7,0
 VAC0036,TETAGRIP,False,,,,,
@@ -145,7 +145,7 @@ VAC0090,VACCIN BRUCELLIQUE P.I. à usage humain,False,,,,,
 VAC0091,VACCIN CCB PASTEUR,False,,,,,
 VAC0092,VACCIN CHOLERIQUE PASTEUR,False,CPT-90725,"Cholera vaccine, unspecified",True,17,0
 VAC0093,VACCIN DT TAB PASTEUR,False,,,,,
-VAC0094,VACCIN SABIN POLIOVAC MERIEUX,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
+VAC0094,VACCIN SABIN POLIOVAC MERIEUX,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC0095,VACCIN TAB PASTEUR,False,,,,,
 VAC0096,VACCIN GRIPPAL RONCHESE (VGR),False,CPT-90653,"Trivalent inactivated influenza vaccine, unspecified",True,50,0
 VAC0096,VACCIN GRIPPAL RONCHESE (VGR),False,CPT-90673,"Trivalent inactivated influenza vaccine, unspecified",True,50,0
@@ -158,51 +158,51 @@ VAC0099,MENINVACT,False,,,,,
 VAC0101,"Hepatitis B vaccine, recombinant, unspecified",True,CPT-90731,"Hepatitis B vaccine, recombinant, unspecified",True,8,1
 VAC0102,"Inactivated hepatitis A vaccine, unspecified",True,CPT-90730,"Inactivated hepatitis A vaccine, unspecified",True,8,1
 VAC0103,MENACTRA,False,CPT-90734,"Meningococcal ACWY conjugate vaccine, unspecified",True,8,0
-VAC0104,HUMENZA,False,CPT-90470,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0104,HUMENZA,False,CPT-90663,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0104,HUMENZA,False,CPT-90664,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0104,HUMENZA,False,CPT-90666,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0104,HUMENZA,False,CPT-90668,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
+VAC0104,HUMENZA,False,CPT-90470,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0104,HUMENZA,False,CPT-90663,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0104,HUMENZA,False,CPT-90664,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0104,HUMENZA,False,CPT-90666,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0104,HUMENZA,False,CPT-90668,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
 VAC0104,HUMENZA,False,CPT-90655,"Influenza vaccine, unspecified",False,,
 VAC0104,HUMENZA,False,CPT-90656,"Influenza vaccine, unspecified",False,,
 VAC0104,HUMENZA,False,CPT-90724,"Influenza vaccine, unspecified",False,,
-VAC0105,PANENZA,False,CPT-90470,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0105,PANENZA,False,CPT-90663,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0105,PANENZA,False,CPT-90664,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0105,PANENZA,False,CPT-90666,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0105,PANENZA,False,CPT-90668,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
+VAC0105,PANENZA,False,CPT-90470,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0105,PANENZA,False,CPT-90663,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0105,PANENZA,False,CPT-90664,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0105,PANENZA,False,CPT-90666,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0105,PANENZA,False,CPT-90668,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
 VAC0105,PANENZA,False,CPT-90655,"Influenza vaccine, unspecified",False,,
 VAC0105,PANENZA,False,CPT-90656,"Influenza vaccine, unspecified",False,,
 VAC0105,PANENZA,False,CPT-90724,"Influenza vaccine, unspecified",False,,
-VAC0106,Q-Pan H1N1,False,CPT-90470,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0106,Q-Pan H1N1,False,CPT-90663,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0106,Q-Pan H1N1,False,CPT-90664,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0106,Q-Pan H1N1,False,CPT-90666,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0106,Q-Pan H1N1,False,CPT-90668,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
+VAC0106,Q-Pan H1N1,False,CPT-90470,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0106,Q-Pan H1N1,False,CPT-90663,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0106,Q-Pan H1N1,False,CPT-90664,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0106,Q-Pan H1N1,False,CPT-90666,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0106,Q-Pan H1N1,False,CPT-90668,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
 VAC0106,Q-Pan H1N1,False,CPT-90655,"Influenza vaccine, unspecified",False,,
 VAC0106,Q-Pan H1N1,False,CPT-90656,"Influenza vaccine, unspecified",False,,
 VAC0106,Q-Pan H1N1,False,CPT-90724,"Influenza vaccine, unspecified",False,,
-VAC0107,CELVAPAN,False,CPT-90470,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0107,CELVAPAN,False,CPT-90663,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0107,CELVAPAN,False,CPT-90664,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0107,CELVAPAN,False,CPT-90666,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0107,CELVAPAN,False,CPT-90668,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
+VAC0107,CELVAPAN,False,CPT-90470,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0107,CELVAPAN,False,CPT-90663,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0107,CELVAPAN,False,CPT-90664,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0107,CELVAPAN,False,CPT-90666,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0107,CELVAPAN,False,CPT-90668,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
 VAC0107,CELVAPAN,False,CPT-90655,"Influenza vaccine, unspecified",False,,
 VAC0107,CELVAPAN,False,CPT-90656,"Influenza vaccine, unspecified",False,,
 VAC0107,CELVAPAN,False,CPT-90724,"Influenza vaccine, unspecified",False,,
-VAC0108,PANDEMRIX,False,CPT-90470,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0108,PANDEMRIX,False,CPT-90663,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0108,PANDEMRIX,False,CPT-90664,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0108,PANDEMRIX,False,CPT-90666,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0108,PANDEMRIX,False,CPT-90668,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
+VAC0108,PANDEMRIX,False,CPT-90470,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0108,PANDEMRIX,False,CPT-90663,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0108,PANDEMRIX,False,CPT-90664,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0108,PANDEMRIX,False,CPT-90666,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0108,PANDEMRIX,False,CPT-90668,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
 VAC0108,PANDEMRIX,False,CPT-90655,"Influenza vaccine, unspecified",False,,
 VAC0108,PANDEMRIX,False,CPT-90656,"Influenza vaccine, unspecified",False,,
 VAC0108,PANDEMRIX,False,CPT-90724,"Influenza vaccine, unspecified",False,,
-VAC0109,FOCETRIA (unidose),False,CPT-90470,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0109,FOCETRIA (unidose),False,CPT-90663,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0109,FOCETRIA (unidose),False,CPT-90664,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0109,FOCETRIA (unidose),False,CPT-90666,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0109,FOCETRIA (unidose),False,CPT-90668,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
+VAC0109,FOCETRIA (unidose),False,CPT-90470,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0109,FOCETRIA (unidose),False,CPT-90663,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0109,FOCETRIA (unidose),False,CPT-90664,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0109,FOCETRIA (unidose),False,CPT-90666,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0109,FOCETRIA (unidose),False,CPT-90668,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
 VAC0109,FOCETRIA (unidose),False,CPT-90655,"Influenza vaccine, unspecified",False,,
 VAC0109,FOCETRIA (unidose),False,CPT-90656,"Influenza vaccine, unspecified",False,,
 VAC0109,FOCETRIA (unidose),False,CPT-90724,"Influenza vaccine, unspecified",False,,
@@ -211,7 +211,7 @@ VAC0110,"Influenza vaccine, unspecified",True,CPT-90656,"Influenza vaccine, unsp
 VAC0110,"Influenza vaccine, unspecified",True,CPT-90724,"Influenza vaccine, unspecified",True,34,3
 VAC0111,"Yellow fever vaccine, unspecified",True,CPT-90717,"Yellow fever vaccine, unspecified",True,7,1
 VAC0112,"Typhoid vaccine, unspecified",True,,,,,
-VAC0113,"Rubella vaccine, live attenuated, unspecified",True,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,19,1
+VAC0113,"Rubella vaccine, live attenuated, unspecified",True,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,21,1
 VAC0114,"Live attenuated measles vaccine, unspecified",True,CPT-90705,"Live attenuated measles vaccine, unspecified",True,25,1
 VAC0115,AVAXIM 80 U PEDIATRIQUE,False,CPT-90633,"Hepatitis A whole inactivated vaccine, monovalent, pediatric dose, unspecified",True,5,0
 VAC0115,AVAXIM 80 U PEDIATRIQUE,False,CPT-90730,"Inactivated hepatitis A vaccine, unspecified",False,,
@@ -219,19 +219,19 @@ VAC0116,R.O.R SANOFI PASTEUR,False,CPT-90707,"MMR vaccine, live attenuated, unsp
 VAC0120,VACCIN VARICELLE MERIEUX,False,CPT-90716,"Chickenpox vaccine, unspecified",True,9,0
 VAC0121,PRIORIX-TETRA,False,CPT-90710,"MMRV - Measles-Mumps-Rubella-Varicella vaccine, unspecified",True,3,0
 VAC0123,PREVENAR 13,False,CPT-90670,"Pneumococcal 13-valent conjugate vaccine, unspecified",True,2,0
-VAC0124,FOCETRIA (multidose),False,CPT-90470,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0124,FOCETRIA (multidose),False,CPT-90663,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0124,FOCETRIA (multidose),False,CPT-90664,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0124,FOCETRIA (multidose),False,CPT-90666,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0124,FOCETRIA (multidose),False,CPT-90668,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
+VAC0124,FOCETRIA (multidose),False,CPT-90470,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0124,FOCETRIA (multidose),False,CPT-90663,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0124,FOCETRIA (multidose),False,CPT-90664,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0124,FOCETRIA (multidose),False,CPT-90666,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0124,FOCETRIA (multidose),False,CPT-90668,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
 VAC0124,FOCETRIA (multidose),False,CPT-90655,"Influenza vaccine, unspecified",False,,
 VAC0124,FOCETRIA (multidose),False,CPT-90656,"Influenza vaccine, unspecified",False,,
 VAC0124,FOCETRIA (multidose),False,CPT-90724,"Influenza vaccine, unspecified",False,,
-VAC0125,AREPANRIX,False,CPT-90470,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0125,AREPANRIX,False,CPT-90663,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0125,AREPANRIX,False,CPT-90664,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0125,AREPANRIX,False,CPT-90666,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC0125,AREPANRIX,False,CPT-90668,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
+VAC0125,AREPANRIX,False,CPT-90470,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0125,AREPANRIX,False,CPT-90663,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0125,AREPANRIX,False,CPT-90664,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0125,AREPANRIX,False,CPT-90666,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC0125,AREPANRIX,False,CPT-90668,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
 VAC0125,AREPANRIX,False,CPT-90655,"Influenza vaccine, unspecified",False,,
 VAC0125,AREPANRIX,False,CPT-90656,"Influenza vaccine, unspecified",False,,
 VAC0125,AREPANRIX,False,CPT-90724,"Influenza vaccine, unspecified",False,,
@@ -265,11 +265,11 @@ VAC0143,"Haemophilus influenzae B (or Hib) vaccine, unspecified",True,CPT-90737,
 VAC0144,"Cholera vaccine, unspecified",True,CPT-90725,"Cholera vaccine, unspecified",True,17,1
 VAC0145,"Tick-borne encephalitis vaccine, unspecified",True,,,,,
 VAC0146,"Live attenuated Japanese Encephalitis vaccine 14-14-2 strain, unspecified",True,,,,,
-VAC0147,"Influenza A(H1N1)2009 vaccine, unspecified",True,CPT-90470,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,5
-VAC0147,"Influenza A(H1N1)2009 vaccine, unspecified",True,CPT-90663,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,5
-VAC0147,"Influenza A(H1N1)2009 vaccine, unspecified",True,CPT-90664,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,5
-VAC0147,"Influenza A(H1N1)2009 vaccine, unspecified",True,CPT-90666,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,5
-VAC0147,"Influenza A(H1N1)2009 vaccine, unspecified",True,CPT-90668,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,5
+VAC0147,"Influenza A(H1N1)2009 vaccine, unspecified",True,CPT-90470,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,5
+VAC0147,"Influenza A(H1N1)2009 vaccine, unspecified",True,CPT-90663,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,5
+VAC0147,"Influenza A(H1N1)2009 vaccine, unspecified",True,CPT-90664,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,5
+VAC0147,"Influenza A(H1N1)2009 vaccine, unspecified",True,CPT-90666,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,5
+VAC0147,"Influenza A(H1N1)2009 vaccine, unspecified",True,CPT-90668,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,5
 VAC0147,"Influenza A(H1N1)2009 vaccine, unspecified",True,CPT-90655,"Influenza vaccine, unspecified",False,,
 VAC0147,"Influenza A(H1N1)2009 vaccine, unspecified",True,CPT-90656,"Influenza vaccine, unspecified",False,,
 VAC0147,"Influenza A(H1N1)2009 vaccine, unspecified",True,CPT-90724,"Influenza vaccine, unspecified",False,,
@@ -312,7 +312,7 @@ VAC0173,FLUENZ,False,CPT-90655,"Influenza vaccine, unspecified",False,,
 VAC0173,FLUENZ,False,CPT-90656,"Influenza vaccine, unspecified",False,,
 VAC0173,FLUENZ,False,CPT-90724,"Influenza vaccine, unspecified",False,,
 VAC0174,PROQUAD,False,CPT-90710,"MMRV - Measles-Mumps-Rubella-Varicella vaccine, unspecified",True,3,0
-VAC0175,A.D.T. BOOSTER,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC0175,A.D.T. BOOSTER,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC0176,A.K.D.S.,False,CPT-90701,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC0177,AC VAX,False,,,,,
 VAC0178,ACEL-IMUNE,False,CPT-90700,"DTaP - Diphtheria-Tetanus-Pertussis vaccine, standard dose, unspecified",True,14,0
@@ -351,7 +351,7 @@ VAC0203,C.D.T.,False,CPT-90702,"DT vaccine, unspecified",True,28,0
 VAC0204,CAM-KOVAX,False,CPT-90705,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0205,CD.JEVAX,False,,,,,
 VAC0206,CELLUVAX,False,,,,,
-VAC0207,CENDEVAX,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC0207,CENDEVAX,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0208,CERTIVA,False,CPT-90700,"DTaP - Diphtheria-Tetanus-Pertussis vaccine, standard dose, unspecified",True,14,0
 VAC0208,CERTIVA,False,CPT-90701,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",False,,
 VAC0209,COMVAX,False,CPT-90748,"HepB-Hib, unspecified",True,4,0
@@ -369,11 +369,11 @@ VAC0220,DT MERIEUX,False,CPT-90702,"DT vaccine, unspecified",True,28,0
 VAC0222,TRIPVAC,False,CPT-90701,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC0223,DUAL ANTIGEN SII,False,CPT-90702,"DT vaccine, unspecified",True,28,0
 VAC0224,ECOLARIX,False,CPT-90708,"Measles-Rubella vaccine, unspecified",True,12,0
-VAC0225,EIPV,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,15,0
+VAC0225,EIPV,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,18,0
 VAC0226,"Diptheria, Tetanus and Acellular Pertussis Combined Walvax vaccine",False,CPT-90700,"DTaP - Diphtheria-Tetanus-Pertussis vaccine, standard dose, unspecified",True,14,0
 VAC0226,"Diptheria, Tetanus and Acellular Pertussis Combined Walvax vaccine",False,CPT-90701,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",False,,
 VAC0227,EPAXAL,False,CPT-90730,"Inactivated hepatitis A vaccine, unspecified",True,8,0
-VAC0228,ERVEVAX RA 27/3,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC0228,ERVEVAX RA 27/3,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0229,FLU SHIELD,False,CPT-90653,"Trivalent inactivated influenza vaccine, unspecified",True,50,0
 VAC0229,FLU SHIELD,False,CPT-90673,"Trivalent inactivated influenza vaccine, unspecified",True,50,0
 VAC0229,FLU SHIELD,False,CPT-90655,"Influenza vaccine, unspecified",False,,
@@ -414,7 +414,7 @@ VAC0236,FLUZONE HIGH-DOSE,False,CPT-90655,"Influenza vaccine, unspecified",False
 VAC0236,FLUZONE HIGH-DOSE,False,CPT-90656,"Influenza vaccine, unspecified",False,,
 VAC0236,FLUZONE HIGH-DOSE,False,CPT-90724,"Influenza vaccine, unspecified",False,,
 VAC0238,FUNED-CEME,False,CPT-90701,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
-VAC0240,GUNEVAX,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC0240,GUNEVAX,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0241,HAEMOPHILUS INFLUENZAE B CONJUGATE VACCINE - SERUM INSTITUTE OF INDIA,False,CPT-90648,"Hib PRP-T conjugated vaccine, unspecified",True,10,0
 VAC0241,HAEMOPHILUS INFLUENZAE B CONJUGATE VACCINE - SERUM INSTITUTE OF INDIA,False,CPT-90737,"Haemophilus influenzae B (or Hib) vaccine, unspecified",False,,
 VAC0242,HBY,False,CPT-90743,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,14,0
@@ -428,7 +428,7 @@ VAC0246,HIBERNA PRODUCTSIX,False,,,,,
 VAC0247,HIBTITER,False,CPT-90645,"Hib hbOC vaccine, unspecified",True,3,0
 VAC0247,HIBTITER,False,CPT-90737,"Haemophilus influenzae B (or Hib) vaccine, unspecified",False,,
 VAC0248,HINKUYS KAROKOE,False,,,,,
-VAC0249,RUBELLA VACCINE HPV-77,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC0249,RUBELLA VACCINE HPV-77,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0251,HUMOTET-ANTI TETANUS,False,CPT-90703,"Tetanus vaccine, unspecified",True,36,0
 VAC0252,VAXIGRIP ENFANTS,False,CPT-90655,"Influenza vaccine, unspecified",True,34,0
 VAC0252,VAXIGRIP ENFANTS,False,CPT-90656,"Influenza vaccine, unspecified",True,34,0
@@ -454,7 +454,7 @@ VAC0260,IMOVAX Rabies I.D.,False,CPT-90726,"Rabies vaccine, unspecified",True,32
 VAC0261,IMOVAX RAGE,False,CPT-90675,"Rabies vaccine, unspecified",True,32,0
 VAC0261,IMOVAX RAGE,False,CPT-90676,"Rabies vaccine, unspecified",True,32,0
 VAC0261,IMOVAX RAGE,False,CPT-90726,"Rabies vaccine, unspecified",True,32,0
-VAC0262,IMOVAX RUBEOLA,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC0262,IMOVAX RUBEOLA,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0263,IMOVAX SARAMPION,False,CPT-90705,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0264,INFANRIX,False,CPT-90700,"DTaP - Diphtheria-Tetanus-Pertussis vaccine, standard dose, unspecified",True,14,0
 VAC0264,INFANRIX,False,CPT-90701,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",False,,
@@ -469,8 +469,8 @@ VAC0266,INFLUENZA HA VACCINE KOVAX,False,CPT-90655,"Influenza vaccine, unspecifi
 VAC0266,INFLUENZA HA VACCINE KOVAX,False,CPT-90656,"Influenza vaccine, unspecified",False,,
 VAC0266,INFLUENZA HA VACCINE KOVAX,False,CPT-90724,"Influenza vaccine, unspecified",False,,
 VAC0267,IPAD TP,False,,,,,
-VAC0268,IPOL,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,15,0
-VAC0270,"Inactivated Polio vaccine, unspecified",True,CPT-90713,"Inactivated Polio vaccine, unspecified",True,15,1
+VAC0268,IPOL,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,18,0
+VAC0270,"Inactivated Polio vaccine, unspecified",True,CPT-90713,"Inactivated Polio vaccine, unspecified",True,18,1
 VAC0271,ISTIVAC,False,CPT-90653,"Trivalent inactivated influenza vaccine, unspecified",True,50,0
 VAC0271,ISTIVAC,False,CPT-90673,"Trivalent inactivated influenza vaccine, unspecified",True,50,0
 VAC0271,ISTIVAC,False,CPT-90655,"Influenza vaccine, unspecified",False,,
@@ -488,7 +488,7 @@ VAC0281,LM - 3 RIT,False,CPT-90707,"MMR vaccine, live attenuated, unspecified",T
 VAC0282,LTEANAS IMUNA,False,CPT-90703,"Tetanus vaccine, unspecified",True,36,0
 VAC0283,LYMERIX,False,,,,,
 VAC0284,LYOVAC ATTENUVAX,False,CPT-90705,"Live attenuated measles vaccine, unspecified",True,25,0
-VAC0285,LYOVAC MERUVAX,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC0285,LYOVAC MERUVAX,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0286,M-M-R II,False,CPT-90707,"MMR vaccine, live attenuated, unspecified",True,26,0
 VAC0287,M-R VAX,False,CPT-90708,"Measles-Rubella vaccine, unspecified",True,12,0
 VAC0288,M-R VAX II,False,CPT-90708,"Measles-Rubella vaccine, unspecified",True,12,0
@@ -501,13 +501,13 @@ VAC0294,MENCEVAX A,False,,,,,
 VAC0295,MENOMUNE-A/C/Y/W-135,False,CPT-90733,"Unconjugated meningococcal vaccine ACWY, unspecified",True,6,0
 VAC0296,MENPOVAX 4 A+C+Y+W135,False,CPT-90733,"Unconjugated meningococcal vaccine ACWY, unspecified",True,6,0
 VAC0297,MENPOVAX A+C,False,,,,,
-VAC0298,MERUVAX,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,19,0
-VAC0299,MERUVAX II,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC0298,MERUVAX,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,21,0
+VAC0299,MERUVAX II,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0300,MEVILIN-L,False,CPT-90705,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0301,MMR,False,CPT-90707,"MMR vaccine, live attenuated, unspecified",True,26,0
 VAC0303,MONIARIX,False,,,,,
 VAC0304,MOPAVAC SEVAC,False,,,,,
-VAC0305,MOPV,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
+VAC0305,MOPV,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC0306,MORBILVAX,False,CPT-90705,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0307,MORUBEL,False,CPT-90708,"Measles-Rubella vaccine, unspecified",True,12,0
 VAC0308,MORUMAN BERNA PRODUCTS,False,CPT-90281,"Measles immunoglobulin, unspecified",True,4,0
@@ -523,8 +523,8 @@ VAC0317,NABI-HB,False,CPT-90371,"Hepatitis B immunoglobulin, unspecified",True,6
 VAC0318,NOTHAV,False,CPT-90730,"Inactivated hepatitis A vaccine, unspecified",True,8,0
 VAC0319,OMNIHIB,False,CPT-90648,"Hib PRP-T conjugated vaccine, unspecified",True,10,0
 VAC0319,OMNIHIB,False,CPT-90737,"Haemophilus influenzae B (or Hib) vaccine, unspecified",False,,
-VAC0320,"OPV 1-2-3, unspecified",True,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
-VAC0321,ORIMUNE,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
+VAC0320,"OPV 1-2-3, unspecified",True,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
+VAC0321,ORIMUNE,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC0322,PARIORIX,False,CPT-90704,"Mumps vaccine, unspecified",True,12,0
 VAC0323,PAVIVAC-SEVAC,False,CPT-90705,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0324,"Pneumococcal conjugate vaccine, 7 valent, unspecified",True,CPT-90669,"Pneumococcal conjugate vaccine, 7 valent, unspecified",True,4,1
@@ -549,7 +549,7 @@ VAC0344,"PRP-OMP Hib vaccine, unspecified",True,CPT-90647,"PRP-OMP Hib vaccine, 
 VAC0344,"PRP-OMP Hib vaccine, unspecified",True,CPT-90737,"Haemophilus influenzae B (or Hib) vaccine, unspecified",False,,
 VAC0345,"Hib PRP-T conjugated vaccine, unspecified",True,CPT-90648,"Hib PRP-T conjugated vaccine, unspecified",True,10,1
 VAC0345,"Hib PRP-T conjugated vaccine, unspecified",True,CPT-90737,"Haemophilus influenzae B (or Hib) vaccine, unspecified",False,,
-VAC0346,PURIVAX,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,15,0
+VAC0346,PURIVAX,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,18,0
 VAC0347,QUADRACEL,False,CPT-90696,"DTaPIPV vaccine, standard dose, unspecified",True,12,0
 VAC0348,QUADRACEL/HIBEST,False,CPT-90698,"Pentavalent DTaPHibIPV vaccine, unspecified",True,13,0
 VAC0349,QUADRIGEN,False,,,,,
@@ -558,8 +558,8 @@ VAC0351,QUINTUPLE,False,,,,,
 VAC0352,R-HB VACCINE,False,CPT-90743,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,14,0
 VAC0352,R-HB VACCINE,False,CPT-90746,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,14,0
 VAC0352,R-HB VACCINE,False,CPT-90731,"Hepatitis B vaccine, recombinant, unspecified",False,,
-VAC0353,R-VAC,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,19,0
-VAC0354,RA27/3,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC0353,R-VAC,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,21,0
+VAC0354,RA27/3,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0355,RABAVERT,False,CPT-90675,"Rabies vaccine, unspecified",True,32,0
 VAC0355,RABAVERT,False,CPT-90676,"Rabies vaccine, unspecified",True,32,0
 VAC0355,RABAVERT,False,CPT-90726,"Rabies vaccine, unspecified",True,32,0
@@ -572,18 +572,18 @@ VAC0360,RIMPARIX,False,,,,,
 VAC0361,RIT - LM-2,False,,,,,
 VAC0362,RIT - LM-3,False,CPT-90707,"MMR vaccine, live attenuated, unspecified",True,26,0
 VAC0363,ROTASHIELD,False,,,,,
-VAC0364,RUBEATEN BERNA PRODUCTS,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,19,0
-VAC0365,RUBELLA VACCINE MICROGEN,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,19,0
-VAC0366,RUBELLA-KOVAX,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,19,0
-VAC0367,RUBELLOVAC,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,19,0
-VAC0368,RUBELOGEN,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC0364,RUBEATEN BERNA PRODUCTS,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,21,0
+VAC0365,RUBELLA VACCINE MICROGEN,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,21,0
+VAC0366,RUBELLA-KOVAX,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,21,0
+VAC0367,RUBELLOVAC,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,21,0
+VAC0368,RUBELOGEN,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0369,RUBEOVAX,False,CPT-90705,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0370,RVA RABIES VACCINE ABSORBED BIOPORT,False,CPT-90675,"Rabies vaccine, unspecified",True,32,0
 VAC0370,RVA RABIES VACCINE ABSORBED BIOPORT,False,CPT-90676,"Rabies vaccine, unspecified",True,32,0
 VAC0370,RVA RABIES VACCINE ABSORBED BIOPORT,False,CPT-90726,"Rabies vaccine, unspecified",True,32,0
-VAC0371,POLIO SABIN GSK,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
-VAC0372,SAHIA,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
-VAC0373,SALK,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,15,0
+VAC0371,POLIO SABIN GSK,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
+VAC0372,SAHIA,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
+VAC0373,SALK,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,18,0
 VAC0374,SANDOVAC,False,CPT-90653,"Trivalent inactivated influenza vaccine, unspecified",True,50,0
 VAC0374,SANDOVAC,False,CPT-90673,"Trivalent inactivated influenza vaccine, unspecified",True,50,0
 VAC0374,SANDOVAC,False,CPT-90655,"Influenza vaccine, unspecified",False,,
@@ -610,7 +610,7 @@ VAC0393,TICE BCG,False,CPT-90585,"BCG vaccine, unspecified",True,19,0
 VAC0393,TICE BCG,False,CPT-90728,"BCG vaccine, unspecified",True,19,0
 VAC0394,TIG,False,CPT-90389,"Tetanus immunoglobulin, unspecified",True,7,0
 VAC0395,TITIFICA,False,,,,,
-VAC0396,BIOPOLIO,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
+VAC0396,BIOPOLIO,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC0397,TRESIVAC LYOPHILIZED,False,CPT-90707,"MMR vaccine, live attenuated, unspecified",True,26,0
 VAC0398,TRI-IMMUNOL,False,CPT-90701,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC0399,TRIACEL,False,,,,,
@@ -625,7 +625,7 @@ VAC0405,TRIPEDIA,False,CPT-90700,"DTaP - Diphtheria-Tetanus-Pertussis vaccine, s
 VAC0405,TRIPEDIA,False,CPT-90701,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",False,,
 VAC0407,TRIPLE,False,CPT-90701,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC0408,TRIPLE ANTIGEN,False,CPT-90701,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
-VAC0409,TRIPLE SABIN,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
+VAC0409,TRIPLE SABIN,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC0410,TRIPLE VIRAL,False,CPT-90707,"MMR vaccine, live attenuated, unspecified",True,26,0
 VAC0411,TRIVACUNA LETI,False,CPT-90701,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC0412,TRIVAX,False,CPT-90700,"DTaP - Diphtheria-Tetanus-Pertussis vaccine, standard dose, unspecified",True,14,0
@@ -671,7 +671,7 @@ VAC0445,VAXIPAR,False,CPT-90704,"Mumps vaccine, unspecified",True,12,0
 VAC0446,VCDT,False,CPT-90702,"DT vaccine, unspecified",True,28,0
 VAC0447,VDA VACCIN DIFTERIC ADSORBIT,False,,,,,
 VAC0448,VICPS (TYPHIM VI),False,CPT-90691,"Typhoid polysaccharide vaccine, unspecified",True,7,0
-VAC0449,VIRELON T 20,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
+VAC0449,VIRELON T 20,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC0450,"VIROVAC MASSLING, PEROTID, RUBELLA",False,CPT-90707,"MMR vaccine, live attenuated, unspecified",True,26,0
 VAC0451,VIVOTIF,False,CPT-90690,"Live attenuated oral typhoid vaccine, unspecified",True,3,0
 VAC0452,VT (VACINA TRIPLICE),False,CPT-90701,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
@@ -686,7 +686,7 @@ VAC0461,ZADITEVAX,False,CPT-90702,"DT vaccine, unspecified",True,28,0
 VAC0462,ZAMEVAX A+C,False,,,,,
 VAC0463,ZAMOVAX,False,CPT-90705,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0464,ZAMRUVAX,False,CPT-90708,"Measles-Rubella vaccine, unspecified",True,12,0
-VAC0465,ZARUVAX,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC0465,ZARUVAX,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0466,ZATETRAVAX,False,CPT-90701,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC0467,ZATEVAX,False,CPT-90703,"Tetanus vaccine, unspecified",True,36,0
 VAC0468,ZATRIBAVAX,False,CPT-90701,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
@@ -722,7 +722,7 @@ VAC0487,MENHIBRIX,False,CPT-90644,MENHIBRIX,True,1,1
 VAC0488,PENTAXIM,False,CPT-90698,"Pentavalent DTaPHibIPV vaccine, unspecified",True,13,0
 VAC0489,TRIMOVAX,False,CPT-90707,"MMR vaccine, live attenuated, unspecified",True,26,0
 VAC0490,KINRIX,False,CPT-90696,"DTaPIPV vaccine, standard dose, unspecified",True,12,0
-VAC0491,TENIVAC,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC0491,TENIVAC,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC0492,AFLURIA,False,CPT-90653,"Trivalent inactivated influenza vaccine, unspecified",True,50,0
 VAC0492,AFLURIA,False,CPT-90673,"Trivalent inactivated influenza vaccine, unspecified",True,50,0
 VAC0492,AFLURIA,False,CPT-90655,"Influenza vaccine, unspecified",False,,
@@ -874,7 +874,7 @@ VAC0595,FLUCELVAX TETRA,False,CPT-90724,"Influenza vaccine, unspecified",True,34
 VAC0596,"DTaPHibHepB pentavalent vaccine, unspecified",True,,,,,
 VAC0598,"DTwPHibHepB pentavalent vaccine, unspecified",True,,,,,
 VAC0599,"DTPerHibHepB pentavalent vaccine, unspecified",True,,,,,
-VAC0600,"OPV bivalent 1-3, unspecified",True,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
+VAC0600,"OPV bivalent 1-3, unspecified",True,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC0601,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,CPT-90701,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,1
 VAC0602,"DTaP - Diphtheria-Tetanus-Pertussis vaccine, standard dose, unspecified",True,CPT-90700,"DTaP - Diphtheria-Tetanus-Pertussis vaccine, standard dose, unspecified",True,14,1
 VAC0602,"DTaP - Diphtheria-Tetanus-Pertussis vaccine, standard dose, unspecified",True,CPT-90701,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",False,,
@@ -896,7 +896,7 @@ VAC0626,MoRu Viraten,False,CPT-90708,"Measles-Rubella vaccine, unspecified",True
 VAC0627,MORUMAN,False,CPT-90705,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0628,Immravax,False,CPT-90707,"MMR vaccine, live attenuated, unspecified",True,26,0
 VAC0631,MENINVACTKIT,False,,,,,
-VAC0632,OPVERO,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
+VAC0632,OPVERO,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC0633,ZABDENO,False,,,,,
 VAC0634,MVABEA,False,,,,,
 VAC0635,PREFLUCEL,False,CPT-90653,"Trivalent inactivated influenza vaccine, unspecified",True,50,0
@@ -910,7 +910,7 @@ VAC0636,FLUMIST QUADRIVALENT,False,CPT-90656,"Influenza vaccine, unspecified",Fa
 VAC0636,FLUMIST QUADRIVALENT,False,CPT-90660,"Influenza vaccine, live attenuated, unspecified",False,,
 VAC0636,FLUMIST QUADRIVALENT,False,CPT-90724,"Influenza vaccine, unspecified",False,,
 VAC0637,IPAD DT,False,CPT-90702,"DT vaccine, unspecified",True,28,0
-VAC0638,IPAD POLIO,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,15,0
+VAC0638,IPAD POLIO,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,18,0
 VAC0639,ADACEL POLIO,False,,,,,
 VAC0640,TRITANRIX HepB+Hib,False,,,,,
 VAC0641,GLOBORIX,False,,,,,
@@ -1031,7 +1031,7 @@ VAC0727,ADCLD-COV19,False,,,,,
 VAC0728,aAPC COVID-19 VACCINE,False,,,,,
 VAC0729,LV-SMENP-DC vaccine,False,,,,,
 VAC0730,DENDRITIC CELL AV-COVID-19 VACCINE,False,,,,,
-VAC0731,DITANRIX,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC0731,DITANRIX,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC0732,COVAC-1 - COVAC-2,False,,,,,
 VAC0733,HEPLISAV-B,False,CPT-90739,HEPLISAV-B,True,1,1
 VAC0733,HEPLISAV-B,False,CPT-90731,"Hepatitis B vaccine, recombinant, unspecified",False,,
@@ -1098,7 +1098,7 @@ VAC0789,COMVAC4,False,,,,,
 VAC0790,"Diphtheria-Tetanus-Hepatitis B vaccine, unspecified",True,,,,,
 VAC0791,"Hexavalent vaccine DTPerHibPHepB - Diphtheria-Tetanus-Pertussis-Polio-Hib-Hepatitis B vaccine, unspecified",True,,,,,
 VAC0792,"Diphtheria-Tetanus-Pertussis-Polio-Hepatitis B pentavalent vaccine, unspecified",True,CPT-90723,"Diphtheria-Tetanus-Pertussis-Polio-Hepatitis B pentavalent vaccine, unspecified",True,4,1
-VAC0793,TETADIF,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC0793,TETADIF,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC0794,"T-igT, unspecified",True,,,,,
 VAC0795,"Acellular pertussis vaccine, unspecified",True,,,,,
 VAC0796,"Pertussis vaccine, unspecified",True,,,,,
@@ -1107,8 +1107,8 @@ VAC0798,"Hib-MeningoC vaccine, unspecified",True,,,,,
 VAC0799,"DT-Hib vaccine, unspecified",True,,,,,
 VAC0800,"Diphtheria-tetanus-pertussis-Hib vaccine, unspecified",True,CPT-90720,"Diphtheria-tetanus-pertussis-Hib vaccine, unspecified",True,8,1
 VAC0801,"HepB-Hib, unspecified",True,CPT-90748,"HepB-Hib, unspecified",True,4,1
-VAC0802,"Monovalent oral polio vaccine - type unknown, unspecified",True,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,1
-VAC0803,Polio Sabin One and Three GSK,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
+VAC0802,"Monovalent oral polio vaccine - type unknown, unspecified",True,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,1
+VAC0803,Polio Sabin One and Three GSK,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC0804,"Anthrax vaccine, unspecified",True,CPT-90581,"Anthrax vaccine, unspecified",True,7,1
 VAC0805,"Whole-cell inactivated cholera vaccine, unspecified",True,CPT-90725,"Cholera vaccine, unspecified",True,17,0
 VAC0806,"Live attenuated cholera vaccine, unspecified",True,CPT-90625,"Live attenuated cholera vaccine, unspecified",True,4,1
@@ -1186,16 +1186,16 @@ VAC0844,VERORABVAX,False,CPT-90675,"Rabies vaccine, unspecified",True,32,0
 VAC0844,VERORABVAX,False,CPT-90676,"Rabies vaccine, unspecified",True,32,0
 VAC0844,VERORABVAX,False,CPT-90726,"Rabies vaccine, unspecified",True,32,0
 VAC0845,VACCIN POLIOMYELITIQUE ORAL PRODUIT SUR CELLULES VERO MERIEUX,False,,,,,
-VAC0846,VACCIN POLIOMYELITIQUE ORAL BIVALENT TYPES 1 et 3,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
+VAC0846,VACCIN POLIOMYELITIQUE ORAL BIVALENT TYPES 1 et 3,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC0847,VACCIN PNEUMOCOCCIQUE SARBACH,False,,,,,
 VAC0848,VACCIN BCG INSTITUT MERIEUX,False,CPT-90585,"BCG vaccine, unspecified",True,19,0
 VAC0848,VACCIN BCG INSTITUT MERIEUX,False,CPT-90728,"BCG vaccine, unspecified",True,19,0
 VAC0849,"Tularemia vaccine, unspecified",True,,,,,
 VAC0850,NEISVAC-C,False,,,,,
-VAC0851,POLIO SABIN MONO TWO (ORAL) GSK,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
-VAC0852,"mOPV2 Sabin monovalent oral polio vaccine type 2, unspecified",True,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
-VAC0853,"mOPV1 Sabin monovalent oral polio vaccine type 1, unspecified",True,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
-VAC0854,"mOPV3 Sabin monovalent oral polio vaccine type 3, unspecified",True,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
+VAC0851,POLIO SABIN MONO TWO (ORAL) GSK,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
+VAC0852,"mOPV2 Sabin monovalent oral polio vaccine type 2, unspecified",True,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
+VAC0853,"mOPV1 Sabin monovalent oral polio vaccine type 1, unspecified",True,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
+VAC0854,"mOPV3 Sabin monovalent oral polio vaccine type 3, unspecified",True,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC0855,"Diphtheria-Tetanus-Polio vaccine, unspecified",True,,,,,
 VAC0856,"DTaPHib vaccine, unspecified",True,CPT-90721,"DTaPHib vaccine, unspecified",True,6,1
 VAC0856,"DTaPHib vaccine, unspecified",True,CPT-90720,"Diphtheria-tetanus-pertussis-Hib vaccine, unspecified",False,,
@@ -1215,9 +1215,9 @@ VAC0867,"Diphtheria antitoxin, unspecified",True,CPT-90296,"Diphtheria antitoxin
 VAC0868,MENPOVAX A,False,,,,,
 VAC0869,MENPOVAX C,False,,,,,
 VAC0870,TYPBAR,False,,,,,
-VAC0871,SUPEMTEK,False,CPT-90655,"Influenza vaccine, unspecified",True,34,0
-VAC0871,SUPEMTEK,False,CPT-90656,"Influenza vaccine, unspecified",True,34,0
-VAC0871,SUPEMTEK,False,CPT-90724,"Influenza vaccine, unspecified",True,34,0
+VAC0871,SUPEMTEK TETRA,False,CPT-90655,"Influenza vaccine, unspecified",True,34,0
+VAC0871,SUPEMTEK TETRA,False,CPT-90656,"Influenza vaccine, unspecified",True,34,0
+VAC0871,SUPEMTEK TETRA,False,CPT-90724,"Influenza vaccine, unspecified",True,34,0
 VAC0872,INFLUPOZZI SUBUNITA,False,CPT-90653,"Trivalent inactivated influenza vaccine, unspecified",True,50,0
 VAC0872,INFLUPOZZI SUBUNITA,False,CPT-90673,"Trivalent inactivated influenza vaccine, unspecified",True,50,0
 VAC0872,INFLUPOZZI SUBUNITA,False,CPT-90655,"Influenza vaccine, unspecified",False,,
@@ -1250,13 +1250,13 @@ VAC0885,INFLUPOZZI ZONALE,False,CPT-90673,"Trivalent inactivated influenza vacci
 VAC0885,INFLUPOZZI ZONALE,False,CPT-90655,"Influenza vaccine, unspecified",False,,
 VAC0885,INFLUPOZZI ZONALE,False,CPT-90656,"Influenza vaccine, unspecified",False,,
 VAC0885,INFLUPOZZI ZONALE,False,CPT-90724,"Influenza vaccine, unspecified",False,,
-VAC0886,MONO OPV1,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
-VAC0887,POLIORAL,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
+VAC0886,MONO OPV1,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
+VAC0887,POLIORAL,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC0888,QUATTVAXEM,False,,,,,
-VAC0889,MONO OPV3,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
+VAC0889,MONO OPV3,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC0890,NEOTYF,False,CPT-90690,"Live attenuated oral typhoid vaccine, unspecified",True,3,0
 VAC0891,PNEUMOPUR,False,CPT-90732,"Pneumococcal polysaccharide vaccine 23-valent, unspecified",True,11,0
-VAC0892,POLIOVAX-IN,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,15,0
+VAC0892,POLIOVAX-IN,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,18,0
 VAC0893,VACCINO ANTICOLERICO SCLAVO,False,CPT-90725,"Cholera vaccine, unspecified",True,17,0
 VAC0894,"Adenovirus vaccine, unspecified",True,,,,,
 VAC0895,"Venezuelan Equine Encephalitis Vaccine, Unspecified",True,,,,,
@@ -1301,7 +1301,7 @@ VAC0918,"PRP-D Hib vaccine, unspecified",True,CPT-90646,"PRP-D Hib vaccine, unsp
 VAC0918,"PRP-D Hib vaccine, unspecified",True,CPT-90737,"Haemophilus influenzae B (or Hib) vaccine, unspecified",False,,
 VAC0919,"Hib hbOC vaccine, unspecified",True,CPT-90645,"Hib hbOC vaccine, unspecified",True,3,1
 VAC0919,"Hib hbOC vaccine, unspecified",True,CPT-90737,"Haemophilus influenzae B (or Hib) vaccine, unspecified",False,,
-VAC0920,"Diphtheria-tetanus Td vaccine, unspecified",True,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,15,1
+VAC0920,"Diphtheria-tetanus Td vaccine, unspecified",True,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,16,1
 VAC0921,"Japanese encephalitis vaccine, unspecified",True,,,,,
 VAC0922,"Live attenuated adenovirus vaccine, type 4 and type 7, oral",True,,,,,
 VAC0923,"Respiratory Syncytial Virus monoclonal antibody, unspecified",True,,,,,
@@ -1364,7 +1364,7 @@ VAC0948,BACITHRAX,False,CPT-90581,"Anthrax vaccine, unspecified",True,7,0
 VAC0949,IMOVAX BCG,False,CPT-90585,"BCG vaccine, unspecified",True,19,0
 VAC0949,IMOVAX BCG,False,CPT-90728,"BCG vaccine, unspecified",True,19,0
 VAC0950,IMOVAX DTP,False,,,,,
-VAC0951,IMOVAX POLIO ORALE,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
+VAC0951,IMOVAX POLIO ORALE,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC0952,IMOVAX COLERA,False,CPT-90725,"Cholera vaccine, unspecified",True,17,0
 VAC0953,PROCOMVAX,False,CPT-90748,"HepB-Hib, unspecified",True,4,0
 VAC0954,JAPANESE ENCEPHALITIS VACCINE,False,CPT-90735,"Inactivated Japanese Encephalitis vaccine, unspecified",True,14,0
@@ -1380,7 +1380,7 @@ VAC0958,ADIUGRIP,False,CPT-90724,"Influenza vaccine, unspecified",False,,
 VAC0959,STREPTOPUR,False,CPT-90732,"Pneumococcal polysaccharide vaccine 23-valent, unspecified",True,11,0
 VAC0960,VIATIM,False,,,,,
 VAC0961,ANATOXAL TE N,False,CPT-90703,"Tetanus vaccine, unspecified",True,36,0
-VAC0962,ANATOXAL DI TE N ADULT,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC0962,ANATOXAL DI TE N ADULT,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC0963,ANATOXAL DI TE PER,False,CPT-90701,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC0964,ANATOXAL DI,False,,,,,
 VAC0965,ANATOXAL TE TAB,False,,,,,
@@ -1416,7 +1416,7 @@ VAC0979,VACCINO ANTITETANICO ISI,False,CPT-90703,"Tetanus vaccine, unspecified",
 VAC0980,VAC.DPT ISI,False,,,,,
 VAC0981,VACCINO PERTOSSE ISI,False,,,,,
 VAC0982,VACCINO TIFICO ISI,False,,,,,
-VAC0983,VACCINO ANTIPOL ISI,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,15,0
+VAC0983,VACCINO ANTIPOL ISI,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,18,0
 VAC0984,VACCINO ANTIVAIOLOSO ISI,False,,,,,
 VAC0985,VACCINO TAB TE ISI,False,,,,,
 VAC0986,H ATETAL ISI,False,CPT-90703,"Tetanus vaccine, unspecified",True,36,0
@@ -1444,7 +1444,7 @@ VAC0992,AFLURIA QUADRIVALENT,False,CPT-90694,"Quadrivalent influenza vaccine, un
 VAC0992,AFLURIA QUADRIVALENT,False,CPT-90655,"Influenza vaccine, unspecified",False,,
 VAC0992,AFLURIA QUADRIVALENT,False,CPT-90656,"Influenza vaccine, unspecified",False,,
 VAC0992,AFLURIA QUADRIVALENT,False,CPT-90724,"Influenza vaccine, unspecified",False,,
-VAC0993,TD ADSORBED,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC0993,TD ADSORBED,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC0994,VARIVAX II,False,CPT-90716,"Chickenpox vaccine, unspecified",True,9,0
 VAC0995,IMVAMUNE,False,,,,,
 VAC0996,ACAM2000,False,CPT-90622,ACAM2000,True,1,1
@@ -1454,7 +1454,7 @@ VAC0999,WETVAX APSV,False,,,,,
 VAC1000,VACV VACCINIA VIRUS LISTER ELSTREE,False,,,,,
 VAC1001,V4020 VEEV VACCINE,False,,,,,
 VAC1002,Q-VAX,False,,,,,
-VAC1003,TEDIVAX PRO ADULTO,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC1003,TEDIVAX PRO ADULTO,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC1004,TEDIVAX,False,CPT-90702,"DT vaccine, unspecified",True,28,0
 VAC1005,REVAC-B PLUS ADULT VACCINE,False,CPT-90743,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,14,0
 VAC1005,REVAC-B PLUS ADULT VACCINE,False,CPT-90746,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,14,0
@@ -1474,7 +1474,7 @@ VAC1008,DITEMER,False,CPT-90702,"DT vaccine, unspecified",True,28,0
 VAC1009,TETAMER,False,CPT-90703,"Tetanus vaccine, unspecified",True,36,0
 VAC1010,TRIAMER,False,CPT-90701,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC1011,DITEKIBOOSTER,False,CPT-90715,"Tdap - Diphtheria-Tetanus-Pertussis vaccine, low dose, unspecified",True,8,0
-VAC1012,PICOVAX,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,15,0
+VAC1012,PICOVAX,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,18,0
 VAC1013,FLUBLOK TRIVALENT,False,CPT-90655,"Influenza vaccine, unspecified",True,34,0
 VAC1013,FLUBLOK TRIVALENT,False,CPT-90656,"Influenza vaccine, unspecified",True,34,0
 VAC1013,FLUBLOK TRIVALENT,False,CPT-90724,"Influenza vaccine, unspecified",True,34,0
@@ -1522,8 +1522,8 @@ VAC1044,"COVID-19 vaccine, whole virion inactivated, unspecified",True,,,,,
 VAC1045,INFANRIX-IPV/HIB,False,CPT-90698,"Pentavalent DTaPHibIPV vaccine, unspecified",True,13,0
 VAC1046,BEYFORTUS 50 MG (NIRSEVIMAB),False,,,,,
 VAC1047,ABRYSVO,False,,,,,
-VAC1048,DECAVAC,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
-VAC1049,TDVAX,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC1048,DECAVAC,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
+VAC1049,TDVAX,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC1050,BEYFORTUS 100 MG (NIRSEVIMAB),False,,,,,
 VAC1051,PFIZER COMIRNATY-30 XBB.1.5,False,,,,,
 VAC1052,PFIZER COMIRNATY-10 XBB.1.5,False,,,,,
@@ -1776,7 +1776,7 @@ VAC1261,NUVAXOVID JN.1,False,,,,,
 VAC1262,MRESVIA,False,,,,,
 VAC1263,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,,,,,
 VAC1264,"A(H5) avian influenza vaccine, unspecified",True,,,,,
-VAC1265,CLODIVAC,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC1265,CLODIVAC,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC1266,PENMENVY,False,,,,,
 VAC1267,VIMKUNYA,False,,,,,
 VAC1268,SPIKEVAX JN.1 50 µg,False,,,,,
@@ -1800,17 +1800,17 @@ VAC1282,FLUBIO INFLUENZA HA,False,CPT-90656,"Influenza vaccine, unspecified",Fal
 VAC1282,FLUBIO INFLUENZA HA,False,CPT-90724,"Influenza vaccine, unspecified",False,,
 VAC1283,INDOVAC,False,,,,,
 VAC1284,NUSAGARD,False,CPT-90649,"HPV vaccine quadrivalent, unspecified",True,5,0
-VAC1285,NOPV2 BIO FARMA,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
+VAC1285,NOPV2 BIO FARMA,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC1286,VAKSIN COVID-19 BIO FARMA,False,,,,,
 VAC1287,VAKSIN HEPATITIS B BIO FARMA,False,CPT-90731,"Hepatitis B vaccine, recombinant, unspecified",True,8,0
-VAC1288,VAKSIN POLIOMYELITIS BIO FARMA,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,15,0
-VAC1289,VAKSIN POLIOMYELITIS BIVALEN BIO FARMA,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
-VAC1290,MOPV1 BIO FARMA,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
-VAC1291,MOPV2 BIO FARMA,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
+VAC1288,VAKSIN POLIOMYELITIS BIO FARMA,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,18,0
+VAC1289,VAKSIN POLIOMYELITIS BIVALEN BIO FARMA,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
+VAC1290,MOPV1 BIO FARMA,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
+VAC1291,MOPV2 BIO FARMA,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC1292,BIO-TCV,False,,,,,
 VAC1293,VAKSIN BCG KERING,False,CPT-90585,"BCG vaccine, unspecified",True,19,0
 VAC1293,VAKSIN BCG KERING,False,CPT-90728,"BCG vaccine, unspecified",True,19,0
-VAC1294,BIO-TD,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC1294,BIO-TD,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC1295,DT BIO FARMA,False,CPT-90702,"DT vaccine, unspecified",True,28,0
 VAC1296,DTP BIO FARMA,False,CPT-90701,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC1297,TT BIO FARMA,False,CPT-90703,"Tetanus vaccine, unspecified",True,36,0
@@ -1820,7 +1820,7 @@ VAC1299,BEVAC 10 µg,False,CPT-90731,"Hepatitis B vaccine, recombinant, unspecif
 VAC1300,BEVAC 20 µg,False,CPT-90743,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,14,0
 VAC1300,BEVAC 20 µg,False,CPT-90746,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,14,0
 VAC1300,BEVAC 20 µg,False,CPT-90731,"Hepatitis B vaccine, recombinant, unspecified",False,,
-VAC1301,BE Td,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC1301,BE Td,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC1302,COMBE FIVE,False,,,,,
 VAC1303,VLA15,False,,,,,
 VAC1304,BERAB,False,CPT-90675,"Rabies vaccine, unspecified",True,32,0
@@ -1830,15 +1830,15 @@ VAC1305,MRBEV,False,CPT-90708,"Measles-Rubella vaccine, unspecified",True,12,0
 VAC1306,TYPHIBEV,False,,,,,
 VAC1307,JEEV 6 µg,False,CPT-90735,"Inactivated Japanese Encephalitis vaccine, unspecified",True,14,0
 VAC1308,DT BIOLOGICAL E LTD,False,CPT-90702,"DT vaccine, unspecified",True,28,0
-VAC1309,NOVEL ORAL (nOPV) TYPE 2 BIOLOGICAL E. LTD,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
-VAC1310,SII TD-VAC,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC1309,NOVEL ORAL (nOPV) TYPE 2 BIOLOGICAL E. LTD,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
+VAC1310,SII TD-VAC,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC1311,"Meningococcal ACWXY conjugate vaccine, unspecified",True,,,,,
 VAC1312,TT SII,False,CPT-90703,"Tetanus vaccine, unspecified",True,36,0
 VAC1313,BCG SII,False,CPT-90585,"BCG vaccine, unspecified",True,19,0
 VAC1313,BCG SII,False,CPT-90728,"BCG vaccine, unspecified",True,19,0
 VAC1314,MEASLES SII,False,CPT-90705,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC1315,MUMPS SII,False,CPT-90704,"Mumps vaccine, unspecified",True,12,0
-VAC1316,RUBELLA SII,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC1316,RUBELLA SII,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC1317,CERVAVAC,False,CPT-90649,"HPV vaccine quadrivalent, unspecified",True,5,0
 VAC1318,"DIPHTHERIA, TETANUS, PERTUSSIS AND HEPATITIS B SII",False,,,,,
 VAC1319,"DIPHTHERIA, TETANUS, PERTUSSIS AND HAEMOPHILUS INFLUENZAE B SII",False,CPT-90720,"Diphtheria-tetanus-pertussis-Hib vaccine, unspecified",True,8,0
@@ -1882,7 +1882,7 @@ VAC1338,ZOONOTIC,False,,,,,
 VAC1339,BIMERVAX XBB.1.16,False,,,,,
 VAC1340,"SPIKEVAX BA.1 0,1 mg/mL dose 50 µg",False,,,,,
 VAC1341,"COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron XBB.1.5 variant, unspecified dose",True,,,,,
-VAC1342,IPVAX,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,15,0
+VAC1342,IPVAX,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,18,0
 VAC1343,BORYUNG CELL CULTURE-DERIVED JAPANESE ENCEPHALITIS VACCINE,False,CPT-90735,"Inactivated Japanese Encephalitis vaccine, unspecified",True,14,0
 VAC1344,BORYUNG JAPANESE ENCEPHALITIS VACCINE,False,CPT-90735,"Inactivated Japanese Encephalitis vaccine, unspecified",True,14,0
 VAC1345,ZEROTYPH,False,CPT-90691,"Typhoid polysaccharide vaccine, unspecified",True,7,0
@@ -1919,7 +1919,7 @@ VAC1354,EUFORVAC,False,,,,,
 VAC1355,EUPENTA,False,,,,,
 VAC1356,EUVAX B 10 µg,False,CPT-90744,"Hepatitis B vaccine, monovalent, pediatric dose, unspecified",True,16,0
 VAC1356,EUVAX B 10 µg,False,CPT-90731,"Hepatitis B vaccine, recombinant, unspecified",False,,
-VAC1357,EUPOLIO,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,15,0
+VAC1357,EUPOLIO,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,18,0
 VAC1358,SKYCELLFLU QUADRIVALENT,False,CPT-90655,"Influenza vaccine, unspecified",True,34,0
 VAC1358,SKYCELLFLU QUADRIVALENT,False,CPT-90656,"Influenza vaccine, unspecified",True,34,0
 VAC1358,SKYCELLFLU QUADRIVALENT,False,CPT-90724,"Influenza vaccine, unspecified",True,34,0
@@ -1931,18 +1931,18 @@ VAC1360,HEPAMUNE B 10 µg,False,CPT-90731,"Hepatitis B vaccine, recombinant, uns
 VAC1361,HEPAMUNE B 20 µg,False,CPT-90743,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,14,0
 VAC1361,HEPAMUNE B 20 µg,False,CPT-90746,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,14,0
 VAC1361,HEPAMUNE B 20 µg,False,CPT-90731,"Hepatitis B vaccine, recombinant, unspecified",False,,
-VAC1362,SK TD,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC1362,SK TD,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC1363,HEPAVAX-GENE B 10 µg,False,CPT-90744,"Hepatitis B vaccine, monovalent, pediatric dose, unspecified",True,16,0
 VAC1363,HEPAVAX-GENE B 10 µg,False,CPT-90731,"Hepatitis B vaccine, recombinant, unspecified",False,,
 VAC1364,BIOHIB,False,CPT-90648,"Hib PRP-T conjugated vaccine, unspecified",True,10,0
 VAC1364,BIOHIB,False,CPT-90737,"Haemophilus influenzae B (or Hib) vaccine, unspecified",False,,
 VAC1365,COMVAC5,False,,,,,
 VAC1366,HILLCHOL,False,CPT-90725,"Cholera vaccine, unspecified",True,17,0
-VAC1367,HNVAC,False,CPT-90470,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC1367,HNVAC,False,CPT-90663,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC1367,HNVAC,False,CPT-90664,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC1367,HNVAC,False,CPT-90666,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC1367,HNVAC,False,CPT-90668,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
+VAC1367,HNVAC,False,CPT-90470,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC1367,HNVAC,False,CPT-90663,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC1367,HNVAC,False,CPT-90664,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC1367,HNVAC,False,CPT-90666,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC1367,HNVAC,False,CPT-90668,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
 VAC1367,HNVAC,False,CPT-90655,"Influenza vaccine, unspecified",False,,
 VAC1367,HNVAC,False,CPT-90656,"Influenza vaccine, unspecified",False,,
 VAC1367,HNVAC,False,CPT-90724,"Influenza vaccine, unspecified",False,,
@@ -1977,13 +1977,13 @@ VAC1386,GCFLU,False,CPT-90655,"Influenza vaccine, unspecified",False,,
 VAC1386,GCFLU,False,CPT-90656,"Influenza vaccine, unspecified",False,,
 VAC1386,GCFLU,False,CPT-90724,"Influenza vaccine, unspecified",False,,
 VAC1387,SINSAVAC,False,CPT-90717,"Yellow fever vaccine, unspecified",True,7,0
-VAC1388,BIVAC POLIO,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,28,0
+VAC1388,BIVAC POLIO,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC1389,INLIVE,False,,,,,
 VAC1390,HEALIVE,False,CPT-90730,"Inactivated hepatitis A vaccine, unspecified",True,8,0
 VAC1391,BILIVE,False,CPT-90636,"Combined hepatitis A and hepatitis B vaccine, unspecified",True,6,0
 VAC1392,23-VALENT SINOVAC,False,CPT-90732,"Pneumococcal polysaccharide vaccine 23-valent, unspecified",True,11,0
 VAC1393,PROVARIX,False,CPT-90716,"Chickenpox vaccine, unspecified",True,9,0
-VAC1394,POLIO SINOVAC VACCINE,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,15,0
+VAC1394,POLIO SINOVAC VACCINE,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,18,0
 VAC1395,MUMPS SINOVAC VACCINE,False,CPT-90704,"Mumps vaccine, unspecified",True,12,0
 VAC1396,ANFLU,False,CPT-90653,"Trivalent inactivated influenza vaccine, unspecified",True,50,0
 VAC1396,ANFLU,False,CPT-90673,"Trivalent inactivated influenza vaccine, unspecified",True,50,0
@@ -1991,11 +1991,11 @@ VAC1396,ANFLU,False,CPT-90655,"Influenza vaccine, unspecified",False,,
 VAC1396,ANFLU,False,CPT-90656,"Influenza vaccine, unspecified",False,,
 VAC1396,ANFLU,False,CPT-90724,"Influenza vaccine, unspecified",False,,
 VAC1397,PANFLU,False,,,,,
-VAC1398,PANFLU.1,False,CPT-90470,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC1398,PANFLU.1,False,CPT-90663,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC1398,PANFLU.1,False,CPT-90664,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC1398,PANFLU.1,False,CPT-90666,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
-VAC1398,PANFLU.1,False,CPT-90668,"Influenza A(H1N1)2009 vaccine, unspecified",True,11,0
+VAC1398,PANFLU.1,False,CPT-90470,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC1398,PANFLU.1,False,CPT-90663,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC1398,PANFLU.1,False,CPT-90664,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC1398,PANFLU.1,False,CPT-90666,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC1398,PANFLU.1,False,CPT-90668,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
 VAC1398,PANFLU.1,False,CPT-90655,"Influenza vaccine, unspecified",False,,
 VAC1398,PANFLU.1,False,CPT-90656,"Influenza vaccine, unspecified",False,,
 VAC1398,PANFLU.1,False,CPT-90724,"Influenza vaccine, unspecified",False,,
@@ -2007,7 +2007,7 @@ VAC1399,TERTRANFLU,False,CPT-90694,"Quadrivalent influenza vaccine, unspecified"
 VAC1399,TERTRANFLU,False,CPT-90655,"Influenza vaccine, unspecified",False,,
 VAC1399,TERTRANFLU,False,CPT-90656,"Influenza vaccine, unspecified",False,,
 VAC1399,TERTRANFLU,False,CPT-90724,"Influenza vaccine, unspecified",False,,
-VAC1400,SHANIPV,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,15,0
+VAC1400,SHANIPV,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,18,0
 VAC1401,9-VALENT HPV VACCINE INNOVAX,False,CPT-90651,"HPV vaccine nonavalent, unspecified",True,3,0
 VAC1402,EASYSIX,False,,,,,
 VAC1403,EASYFIVE-TT,False,,,,,
@@ -2138,3 +2138,19 @@ VAC1485,GEN H-B-VAX 5,False,CPT-90731,"Hepatitis B vaccine, recombinant, unspeci
 VAC1486,GEN H-B-VAX 10,False,CPT-90744,"Hepatitis B vaccine, monovalent, pediatric dose, unspecified",True,16,0
 VAC1486,GEN H-B-VAX 10,False,CPT-90731,"Hepatitis B vaccine, recombinant, unspecified",False,,
 VAC1487,PREVENAR-7,False,CPT-90669,"Pneumococcal conjugate vaccine, 7 valent, unspecified",True,4,0
+VAC1488,POLIORIX,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,18,0
+VAC1489,CELTURA,False,CPT-90470,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC1489,CELTURA,False,CPT-90663,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC1489,CELTURA,False,CPT-90664,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC1489,CELTURA,False,CPT-90666,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC1489,CELTURA,False,CPT-90668,"Influenza A(H1N1)2009 vaccine, unspecified",True,12,0
+VAC1489,CELTURA,False,CPT-90655,"Influenza vaccine, unspecified",False,,
+VAC1489,CELTURA,False,CPT-90656,"Influenza vaccine, unspecified",False,,
+VAC1489,CELTURA,False,CPT-90724,"Influenza vaccine, unspecified",False,,
+VAC1490,ALMEVAX,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,21,0
+VAC1491,RUBEVAC,False,CPT-90706,"Rubella vaccine, live attenuated, unspecified",True,21,0
+VAC1492,POLIOMYELITIS IMPFSTOFF BERNA,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,18,0
+VAC1493,ACEL P,False,,,,,
+VAC1494,DITEBOOSTER,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
+VAC1495,POLIO KOPROWSKI K1-K2-K3,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
+VAC1496,POLIO LILLY,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,18,0

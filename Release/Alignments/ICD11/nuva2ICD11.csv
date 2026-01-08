@@ -35,7 +35,7 @@ VAC0030,REVAXIS,False,ICD11-XM8AW1,"Diphtheria-Tetanus-Polio vaccine, unspecifie
 VAC0031,ROTATEQ,False,ICD11-XM4VG1,"Rotavirus pentavalent vaccine, unspecified",True,2,0
 VAC0031,ROTATEQ,False,ICD11-XM4GV0,"Rotavirus vaccine, unspecified",False,,
 VAC0032,ROUVAX,False,,,,,
-VAC0033,RUDIVAX,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC0033,RUDIVAX,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0034,SPIROLEPT,False,,,,,
 VAC0035,STAMARIL,False,ICD11-XM3418,"Yellow fever vaccine, unspecified",True,7,0
 VAC0036,TETAGRIP,False,,,,,
@@ -73,16 +73,16 @@ VAC0066,DTCP PASTEUR,False,ICD11-XM09Q7,"Diphtheria-Tetanus-Pertussis-Polio vacc
 VAC0067,HAVRIX 360 U,False,,,,,
 VAC0068,MONOVAX,False,ICD11-XM8142,"BCG vaccine, unspecified",True,19,0
 VAC0069,MENOMUNE,False,ICD11-XM2EH7,"Unconjugated meningococcal vaccine ACWY, unspecified",True,6,0
-VAC0070,DT BIS,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0070,DT BIS,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0070,DT BIS,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0070,DT BIS,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0070,DT BIS,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0070,DT BIS,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0071,D.T. BIS - RUDIVAX,False,ICD11-XM9744,"Diphtheria-Tetanus-Rubella, unspecified",True,3,0
 VAC0072,JE-VAX,False,ICD11-XM0LB5,"Inactivated Japanese Encephalitis vaccine, unspecified",True,14,0
 VAC0073,IXIARO,False,ICD11-XM0LB5,"Inactivated Japanese Encephalitis vaccine, unspecified",True,14,0
 VAC0074,D.T. COQ MERIEUX,False,ICD11-XM1PB8,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
-VAC0076,DTVax,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0076,DTVax,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0076,DTVax,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0076,DTVax,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0076,DTVax,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0076,DTVax,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0077,IMOVAX OREILLONS,False,,,,,
 VAC0078,RUDI-ROUVAX,False,ICD11-XM21H2,"Measles-Rubella vaccine, unspecified",True,12,0
 VAC0079,ENCEPUR,False,ICD11-XM8MP6,"Tick-borne encephalitis vaccine, unspecified",True,12,0
@@ -99,8 +99,9 @@ VAC0090,VACCIN BRUCELLIQUE P.I. à usage humain,False,ICD11-XM7RX8,"Brucellosis 
 VAC0091,VACCIN CCB PASTEUR,False,,,,,
 VAC0092,VACCIN CHOLERIQUE PASTEUR,False,ICD11-XM3Z26,"Whole inactivated Cholera vaccine, unspecified",True,14,0
 VAC0093,VACCIN DT TAB PASTEUR,False,,,,,
-VAC0094,VACCIN SABIN POLIOVAC MERIEUX,False,ICD11-XM0KZ1,"OPV 1-2-3, unspecified",True,11,0
-VAC0095,VACCIN TAB PASTEUR,False,,,,,
+VAC0094,VACCIN SABIN POLIOVAC MERIEUX,False,ICD11-XM1Y59,VACCIN SABIN POLIOVAC MERIEUX,True,1,1
+VAC0094,VACCIN SABIN POLIOVAC MERIEUX,False,ICD11-XM0KZ1,"OPV 1-2-3, unspecified",False,,
+VAC0095,VACCIN TAB PASTEUR,False,ICD11-XM95H3,"Typhoid-Paratyphoid vaccine, unspecified",True,4,0
 VAC0096,VACCIN GRIPPAL RONCHESE (VGR),False,,,,,
 VAC0097,VACCIN LEPTOSPIRES ICTEROHEMORRAGIAE PASTEUR,False,,,,,
 VAC0098,HEXAVAC,False,ICD11-XM84S1,"Hexavalent vaccine DTPCaHibHepB - Diphtheria-Tetanus-Polio-Acellular Pertussis-Hib-HepB, unspecified",True,9,0
@@ -117,7 +118,7 @@ VAC0109,FOCETRIA (unidose),False,,,,,
 VAC0110,"Influenza vaccine, unspecified",True,,,,,
 VAC0111,"Yellow fever vaccine, unspecified",True,ICD11-XM3418,"Yellow fever vaccine, unspecified",True,7,1
 VAC0112,"Typhoid vaccine, unspecified",True,,,,,
-VAC0113,"Rubella vaccine, live attenuated, unspecified",True,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,19,1
+VAC0113,"Rubella vaccine, live attenuated, unspecified",True,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,21,1
 VAC0114,"Live attenuated measles vaccine, unspecified",True,,,,,
 VAC0115,AVAXIM 80 U PEDIATRIQUE,False,,,,,
 VAC0116,R.O.R SANOFI PASTEUR,False,ICD11-XM8TF3,"MMR vaccine, live attenuated, unspecified",True,26,0
@@ -138,9 +139,9 @@ VAC0133,"Smallpox vaccine, unspecified",True,ICD11-XM95R0,"Smallpox vaccine, uns
 VAC0134,"BCG vaccine, unspecified",True,ICD11-XM8142,"BCG vaccine, unspecified",True,19,1
 VAC0135,"Polio vaccine, unspecified",True,,,,,
 VAC0136,"DTwP - Diphtheria-Tetanus-Pertussis, unspecified",True,ICD11-XM1PB8,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
-VAC0137,"DT vaccine, unspecified",True,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0137,"DT vaccine, unspecified",True,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0137,"DT vaccine, unspecified",True,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0137,"DT vaccine, unspecified",True,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0137,"DT vaccine, unspecified",True,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0137,"DT vaccine, unspecified",True,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0138,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",True,ICD11-XM09Q7,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",True,14,1
 VAC0139,PENT-HIBEST,False,ICD11-XM1LX9,"Pentavalent Diphtheria-Tetanus-Pertussis-Hib-Polio (DTPerHibIPV) vaccine, unspecified",True,8,0
 VAC0140,INTANZA,False,,,,,
@@ -174,14 +175,14 @@ VAC0168,AMBIRIX,False,,,,,
 VAC0169,OPTAFLU,False,,,,,
 VAC0170,AFLUNOV,False,,,,,
 VAC0171,PREPANDEMIC INFLUENZA VACCINE (H5N1) NOVARTIS,False,,,,,
-VAC0172,DIFTAVAX,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0172,DIFTAVAX,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0172,DIFTAVAX,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0172,DIFTAVAX,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0172,DIFTAVAX,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0172,DIFTAVAX,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0173,FLUENZ,False,,,,,
 VAC0174,PROQUAD,False,ICD11-XM4AJ8,"MMRV - Measles-Mumps-Rubella-Varicella vaccine, unspecified",True,3,0
-VAC0175,A.D.T. BOOSTER,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0175,A.D.T. BOOSTER,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0175,A.D.T. BOOSTER,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0175,A.D.T. BOOSTER,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0175,A.D.T. BOOSTER,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0175,A.D.T. BOOSTER,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0176,A.K.D.S.,False,ICD11-XM1PB8,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC0177,AC VAX,False,ICD11-XM3T39,"Meningococcal A + C vaccine, unspecified",True,7,0
 VAC0178,ACEL-IMUNE,False,ICD11-XM9YH9,"Diph-T-aP/ap, unspecified",True,24,0
@@ -193,9 +194,9 @@ VAC0182,ADACEL,False,ICD11-XM9YH9,"Diph-T-aP/ap, unspecified",True,24,0
 VAC0182,ADACEL,False,ICD11-XM9ZL9,"Diph-T-aP/ap, unspecified",True,24,0
 VAC0183,AIMMUGEN,False,,,,,
 VAC0184,ALDIANA,False,,,,,
-VAC0185,ALDITEANA,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0185,ALDITEANA,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0185,ALDITEANA,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0185,ALDITEANA,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0185,ALDITEANA,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0185,ALDITEANA,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0186,ALDITERPERA,False,ICD11-XM1PB8,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC0187,AMARIL,False,ICD11-XM3418,"Yellow fever vaccine, unspecified",True,7,0
 VAC0188,QUIMI-HIB,False,ICD11-XM6RG9,"Haemophilus influenzae B (or Hib) vaccine, unspecified",True,19,0
@@ -213,14 +214,14 @@ VAC0199,BIMMUGEN,False,,,,,
 VAC0200,BIOTHRAX,False,ICD11-XM2C05,"Anthrax vaccine, unspecified",True,7,0
 VAC0201,BIVIRATEN BERNA,False,ICD11-XM9439,"Measles-mumps vaccine, unspecified",True,9,0
 VAC0202,BVAC,False,,,,,
-VAC0203,C.D.T.,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0203,C.D.T.,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0203,C.D.T.,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0203,C.D.T.,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0203,C.D.T.,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0203,C.D.T.,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0204,CAM-KOVAX,False,,,,,
 VAC0205,CD.JEVAX,False,ICD11-XM47S0,"Live attenuated Japanese Encephalitis vaccine, unspecified",True,7,0
-VAC0206,CELLUVAX,False,ICD11-XM4082,"Acellular pertussis vaccine, unspecified",True,8,0
-VAC0206,CELLUVAX,False,ICD11-XM62J1,"Acellular pertussis vaccine, unspecified",True,8,0
-VAC0207,CENDEVAX,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC0206,CELLUVAX,False,ICD11-XM4082,"Acellular pertussis vaccine, unspecified",True,9,0
+VAC0206,CELLUVAX,False,ICD11-XM62J1,"Acellular pertussis vaccine, unspecified",True,9,0
+VAC0207,CENDEVAX,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0208,CERTIVA,False,ICD11-XM9YH9,"Diph-T-aP/ap, unspecified",True,24,0
 VAC0208,CERTIVA,False,ICD11-XM9ZL9,"Diph-T-aP/ap, unspecified",True,24,0
 VAC0208,CERTIVA,False,ICD11-XM1PB8,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",False,,
@@ -231,33 +232,33 @@ VAC0211,DAPTACEL,False,ICD11-XM9ZL9,"Diph-T-aP/ap, unspecified",True,24,0
 VAC0211,DAPTACEL,False,ICD11-XM1PB8,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",False,,
 VAC0212,DI TE PER POL IMPFSTOFF,False,ICD11-XM09Q7,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",True,14,0
 VAC0213,DI-TE-POL,False,ICD11-XM8AW1,"Diphtheria-Tetanus-Polio vaccine, unspecified",True,14,0
-VAC0214,DIF-TET-ALL,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0214,DIF-TET-ALL,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0214,DIF-TET-ALL,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0216,ANATOXAL DI TE,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0216,ANATOXAL DI TE,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0216,ANATOXAL DI TE,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0217,DITOXIM,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0217,DITOXIM,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0217,DITOXIM,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0218,DOUBLE ANIGEN B.,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0218,DOUBLE ANIGEN B.,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0218,DOUBLE ANIGEN B.,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0214,DIF-TET-ALL,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0214,DIF-TET-ALL,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0214,DIF-TET-ALL,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0216,ANATOXAL DI TE,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0216,ANATOXAL DI TE,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0216,ANATOXAL DI TE,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0217,DITOXIM,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0217,DITOXIM,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0217,DITOXIM,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0218,DOUBLE ANIGEN B.,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0218,DOUBLE ANIGEN B.,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0218,DOUBLE ANIGEN B.,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0219,DRYVAX,False,ICD11-XM95R0,"Smallpox vaccine, unspecified",True,18,0
-VAC0220,DT MERIEUX,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0220,DT MERIEUX,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0220,DT MERIEUX,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0220,DT MERIEUX,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0220,DT MERIEUX,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0220,DT MERIEUX,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0222,TRIPVAC,False,ICD11-XM1PB8,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
-VAC0223,DUAL ANTIGEN SII,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0223,DUAL ANTIGEN SII,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0223,DUAL ANTIGEN SII,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0223,DUAL ANTIGEN SII,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0223,DUAL ANTIGEN SII,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0223,DUAL ANTIGEN SII,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0224,ECOLARIX,False,ICD11-XM21H2,"Measles-Rubella vaccine, unspecified",True,12,0
 VAC0225,EIPV,False,,,,,
 VAC0226,"Diptheria, Tetanus and Acellular Pertussis Combined Walvax vaccine",False,ICD11-XM9YH9,"Diph-T-aP/ap, unspecified",True,24,0
 VAC0226,"Diptheria, Tetanus and Acellular Pertussis Combined Walvax vaccine",False,ICD11-XM9ZL9,"Diph-T-aP/ap, unspecified",True,24,0
 VAC0226,"Diptheria, Tetanus and Acellular Pertussis Combined Walvax vaccine",False,ICD11-XM1PB8,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",False,,
 VAC0227,EPAXAL,False,,,,,
-VAC0228,ERVEVAX RA 27/3,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC0228,ERVEVAX RA 27/3,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0229,FLU SHIELD,False,,,,,
 VAC0230,FLUAD,False,,,,,
 VAC0231,FLUKOVAX,False,,,,,
@@ -267,7 +268,7 @@ VAC0234,FLUOGEN,False,,,,,
 VAC0235,FLUVIRIN,False,,,,,
 VAC0236,FLUZONE HIGH-DOSE,False,,,,,
 VAC0238,FUNED-CEME,False,ICD11-XM1PB8,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
-VAC0240,GUNEVAX,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC0240,GUNEVAX,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0241,HAEMOPHILUS INFLUENZAE B CONJUGATE VACCINE - SERUM INSTITUTE OF INDIA,False,ICD11-XM6RG9,"Haemophilus influenzae B (or Hib) vaccine, unspecified",True,19,0
 VAC0242,HBY,False,,,,,
 VAC0243,HEPA-B INJECTION,False,,,,,
@@ -277,13 +278,13 @@ VAC0246,HIBERNA PRODUCTSIX,False,,,,,
 VAC0247,HIBTITER,False,ICD11-XM6RG9,"Haemophilus influenzae B (or Hib) vaccine, unspecified",True,19,0
 VAC0248,HINKUYS KAROKOE,False,ICD11-XM2TK2,"Whole-cell inactivated pertussis vaccine, unspecified",True,5,0
 VAC0248,HINKUYS KAROKOE,False,ICD11-XM45L8,"Whole-cell inactivated pertussis vaccine, unspecified",True,5,0
-VAC0249,RUBELLA VACCINE HPV-77,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC0249,RUBELLA VACCINE HPV-77,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0251,HUMOTET-ANTI TETANUS,False,ICD11-XM29H5,"Tetanus vaccine, unspecified",True,36,0
 VAC0252,VAXIGRIP ENFANTS,False,,,,,
 VAC0253,VAXIRAB N,False,ICD11-XM7BE8,"Rabies vaccine, unspecified",True,32,0
-VAC0254,IMOVAX D.T.,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0254,IMOVAX D.T.,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0254,IMOVAX D.T.,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0254,IMOVAX D.T.,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0254,IMOVAX D.T.,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0254,IMOVAX D.T.,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0255,IMOVAX GRIPPE,False,,,,,
 VAC0256,IMOVAX MUMPS,False,,,,,
 VAC0257,IMOVAX PAROTIDITIS,False,,,,,
@@ -291,7 +292,7 @@ VAC0258,IMOVAX R.O.R.,False,ICD11-XM8TF3,"MMR vaccine, live attenuated, unspecif
 VAC0259,IMOVAX Rabies,False,ICD11-XM7BE8,"Rabies vaccine, unspecified",True,32,0
 VAC0260,IMOVAX Rabies I.D.,False,ICD11-XM7BE8,"Rabies vaccine, unspecified",True,32,0
 VAC0261,IMOVAX RAGE,False,ICD11-XM7BE8,"Rabies vaccine, unspecified",True,32,0
-VAC0262,IMOVAX RUBEOLA,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC0262,IMOVAX RUBEOLA,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0263,IMOVAX SARAMPION,False,,,,,
 VAC0264,INFANRIX,False,ICD11-XM9YH9,"Diph-T-aP/ap, unspecified",True,24,0
 VAC0264,INFANRIX,False,ICD11-XM9ZL9,"Diph-T-aP/ap, unspecified",True,24,0
@@ -302,9 +303,9 @@ VAC0267,IPAD TP,False,,,,,
 VAC0268,IPOL,False,,,,,
 VAC0270,"Inactivated Polio vaccine, unspecified",True,,,,,
 VAC0271,ISTIVAC,False,,,,,
-VAC0272,KAKSOISROKOTE DUBBELVACCIN,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0272,KAKSOISROKOTE DUBBELVACCIN,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0272,KAKSOISROKOTE DUBBELVACCIN,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0272,KAKSOISROKOTE DUBBELVACCIN,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0272,KAKSOISROKOTE DUBBELVACCIN,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0272,KAKSOISROKOTE DUBBELVACCIN,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0273,KIKHOSTE-VAKSINE,False,ICD11-XM2TK2,"Whole-cell inactivated pertussis vaccine, unspecified",True,5,0
 VAC0273,KIKHOSTE-VAKSINE,False,ICD11-XM45L8,"Whole-cell inactivated pertussis vaccine, unspecified",True,5,0
 VAC0274,LANCY VAXINA,False,ICD11-XM95R0,"Smallpox vaccine, unspecified",True,18,0
@@ -317,7 +318,7 @@ VAC0281,LM - 3 RIT,False,ICD11-XM8TF3,"MMR vaccine, live attenuated, unspecified
 VAC0282,LTEANAS IMUNA,False,ICD11-XM29H5,"Tetanus vaccine, unspecified",True,36,0
 VAC0283,LYMERIX,False,,,,,
 VAC0284,LYOVAC ATTENUVAX,False,,,,,
-VAC0285,LYOVAC MERUVAX,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC0285,LYOVAC MERUVAX,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0286,M-M-R II,False,ICD11-XM8TF3,"MMR vaccine, live attenuated, unspecified",True,26,0
 VAC0287,M-R VAX,False,ICD11-XM21H2,"Measles-Rubella vaccine, unspecified",True,12,0
 VAC0288,M-R VAX II,False,ICD11-XM21H2,"Measles-Rubella vaccine, unspecified",True,12,0
@@ -330,8 +331,8 @@ VAC0294,MENCEVAX A,False,ICD11-XM37L5,"Polysaccharide meningococcal A vaccine, u
 VAC0295,MENOMUNE-A/C/Y/W-135,False,ICD11-XM2EH7,"Unconjugated meningococcal vaccine ACWY, unspecified",True,6,0
 VAC0296,MENPOVAX 4 A+C+Y+W135,False,ICD11-XM2EH7,"Unconjugated meningococcal vaccine ACWY, unspecified",True,6,0
 VAC0297,MENPOVAX A+C,False,ICD11-XM3T39,"Meningococcal A + C vaccine, unspecified",True,7,0
-VAC0298,MERUVAX,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,19,0
-VAC0299,MERUVAX II,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC0298,MERUVAX,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,21,0
+VAC0299,MERUVAX II,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0300,MEVILIN-L,False,,,,,
 VAC0301,MMR,False,ICD11-XM8TF3,"MMR vaccine, live attenuated, unspecified",True,26,0
 VAC0303,MONIARIX,False,ICD11-XM91D7,"Pneumococcal unconjugated polysaccharide vaccine, unspecified",True,6,0
@@ -388,8 +389,8 @@ VAC0350,QUATRO-VIRELON,False,ICD11-XM9JP8,"DTaPIPV vaccine, standard dose, unspe
 VAC0350,QUATRO-VIRELON,False,ICD11-XM09Q7,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",False,,
 VAC0351,QUINTUPLE,False,ICD11-XM7JP3,"DTPerHibHepB pentavalent vaccine, unspecified",True,20,0
 VAC0352,R-HB VACCINE,False,,,,,
-VAC0353,R-VAC,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,19,0
-VAC0354,RA27/3,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC0353,R-VAC,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,21,0
+VAC0354,RA27/3,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0355,RABAVERT,False,ICD11-XM7BE8,"Rabies vaccine, unspecified",True,32,0
 VAC0356,RECOMBIVAX HB PÉDIATRIQUE,False,,,,,
 VAC0357,"RESPIGAM, RSV-IVIG",False,,,,,
@@ -399,11 +400,11 @@ VAC0360,RIMPARIX,False,ICD11-XM9439,"Measles-mumps vaccine, unspecified",True,9,
 VAC0361,RIT - LM-2,False,ICD11-XM9439,"Measles-mumps vaccine, unspecified",True,9,0
 VAC0362,RIT - LM-3,False,ICD11-XM8TF3,"MMR vaccine, live attenuated, unspecified",True,26,0
 VAC0363,ROTASHIELD,False,ICD11-XM4GV0,"Rotavirus vaccine, unspecified",True,7,0
-VAC0364,RUBEATEN BERNA PRODUCTS,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,19,0
-VAC0365,RUBELLA VACCINE MICROGEN,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,19,0
-VAC0366,RUBELLA-KOVAX,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,19,0
-VAC0367,RUBELLOVAC,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,19,0
-VAC0368,RUBELOGEN,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC0364,RUBEATEN BERNA PRODUCTS,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,21,0
+VAC0365,RUBELLA VACCINE MICROGEN,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,21,0
+VAC0366,RUBELLA-KOVAX,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,21,0
+VAC0367,RUBELLOVAC,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,21,0
+VAC0368,RUBELOGEN,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0369,RUBEOVAX,False,,,,,
 VAC0370,RVA RABIES VACCINE ABSORBED BIOPORT,False,ICD11-XM7BE8,"Rabies vaccine, unspecified",True,32,0
 VAC0371,POLIO SABIN GSK,False,ICD11-XM0KZ1,"OPV 1-2-3, unspecified",True,11,0
@@ -416,9 +417,9 @@ VAC0377,TRIPLE ANTIGEN SII,False,ICD11-XM1PB8,"DPT Diphtheria-Pertussis-Tetanus 
 VAC0378,SYNAGIS 100 mg (PALIZIVUMAB),False,ICD11-XM69P6,SYNAGIS 100 mg (PALIZIVUMAB),True,1,1
 VAC0379,T-IMMUN,False,ICD11-XM29H5,"Tetanus vaccine, unspecified",True,36,0
 VAC0380,"T.Polio, unspecified",True,,,,,
-VAC0382,"Tetanus diphtheria vaccine, unspecified",True,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,3
-VAC0382,"Tetanus diphtheria vaccine, unspecified",True,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,3
-VAC0382,"Tetanus diphtheria vaccine, unspecified",True,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,3
+VAC0382,"Tetanus diphtheria vaccine, unspecified",True,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,3
+VAC0382,"Tetanus diphtheria vaccine, unspecified",True,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,3
+VAC0382,"Tetanus diphtheria vaccine, unspecified",True,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,3
 VAC0383,ANATOXAL TE,False,ICD11-XM29H5,"Tetanus vaccine, unspecified",True,36,0
 VAC0384,TE/VAC/PTAP,False,ICD11-XM29H5,"Tetanus vaccine, unspecified",True,36,0
 VAC0385,TELVACLPTAP,False,ICD11-XM29H5,"Tetanus vaccine, unspecified",True,36,0
@@ -431,7 +432,7 @@ VAC0391,TETRAMUNE,False,,,,,
 VAC0392,TETRAVAX,False,ICD11-XM09Q7,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",True,14,0
 VAC0393,TICE BCG,False,ICD11-XM8142,"BCG vaccine, unspecified",True,19,0
 VAC0394,TIG,False,,,,,
-VAC0395,TITIFICA,False,,,,,
+VAC0395,TITIFICA,False,ICD11-XM95H3,"Typhoid-Paratyphoid vaccine, unspecified",True,4,0
 VAC0396,BIOPOLIO,False,ICD11-XM0KZ1,"OPV 1-2-3, unspecified",True,11,0
 VAC0397,TRESIVAC LYOPHILIZED,False,ICD11-XM8TF3,"MMR vaccine, live attenuated, unspecified",True,26,0
 VAC0398,TRI-IMMUNOL,False,ICD11-XM1PB8,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
@@ -473,14 +474,14 @@ VAC0425,TYNE,False,ICD11-XM8142,"BCG vaccine, unspecified",True,19,0
 VAC0426,TYPHOID VACCINE WYETH,False,,,,,
 VAC0427,TYPHOID-KOVAX,False,,,,,
 VAC0428,VA-MENGOC-BC,False,,,,,
-VAC0429,VACCIN COMBINAT DIFTERO-TETANIC,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0429,VACCIN COMBINAT DIFTERO-TETANIC,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0429,VACCIN COMBINAT DIFTERO-TETANIC,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0429,VACCIN COMBINAT DIFTERO-TETANIC,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0429,VACCIN COMBINAT DIFTERO-TETANIC,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0429,VACCIN COMBINAT DIFTERO-TETANIC,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0430,VACCIN DIFTERIC ADSORBIT,False,,,,,
 VAC0431,VACCINUM MORBILLORUM VIVUM,False,,,,,
-VAC0432,VACINA DUPLA,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0432,VACINA DUPLA,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0432,VACINA DUPLA,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0432,VACINA DUPLA,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0432,VACINA DUPLA,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0432,VACINA DUPLA,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0433,VACINA TRIPLICE,False,ICD11-XM1PB8,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC0434,VACINA TRIPLICE VIRAL,False,ICD11-XM8TF3,"MMR vaccine, live attenuated, unspecified",True,26,0
 VAC0435,VAKSIN CACAR,False,ICD11-XM95R0,"Smallpox vaccine, unspecified",True,18,0
@@ -493,9 +494,9 @@ VAC0442,VARICELLON,False,,,,,
 VAC0443,SEVAC VARIE,False,ICD11-XM95R0,"Smallpox vaccine, unspecified",True,18,0
 VAC0444,VAXEM-HIB,False,ICD11-XM6RG9,"Haemophilus influenzae B (or Hib) vaccine, unspecified",True,19,0
 VAC0445,VAXIPAR,False,,,,,
-VAC0446,VCDT,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0446,VCDT,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0446,VCDT,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0446,VCDT,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0446,VCDT,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0446,VCDT,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0447,VDA VACCIN DIFTERIC ADSORBIT,False,,,,,
 VAC0448,VICPS (TYPHIM VI),False,,,,,
 VAC0449,VIRELON T 20,False,ICD11-XM0KZ1,"OPV 1-2-3, unspecified",True,11,0
@@ -508,16 +509,16 @@ VAC0456,WELLTRIVAX TRIVALENTE,False,ICD11-XM1PB8,"DPT Diphtheria-Pertussis-Tetan
 VAC0457,YF-VAX,False,ICD11-XM3418,"Yellow fever vaccine, unspecified",True,7,0
 VAC0458,ZAANTIDE antitoxin,False,,,,,
 VAC0459,ZAANTITE,False,ICD11-XM29H5,"Tetanus vaccine, unspecified",True,36,0
-VAC0460,ZADITEADVAX,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0460,ZADITEADVAX,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0460,ZADITEADVAX,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0461,ZADITEVAX,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0461,ZADITEVAX,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0461,ZADITEVAX,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0460,ZADITEADVAX,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0460,ZADITEADVAX,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0460,ZADITEADVAX,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0461,ZADITEVAX,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0461,ZADITEVAX,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0461,ZADITEVAX,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0462,ZAMEVAX A+C,False,ICD11-XM3T39,"Meningococcal A + C vaccine, unspecified",True,7,0
 VAC0463,ZAMOVAX,False,,,,,
 VAC0464,ZAMRUVAX,False,ICD11-XM21H2,"Measles-Rubella vaccine, unspecified",True,12,0
-VAC0465,ZARUVAX,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC0465,ZARUVAX,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0466,ZATETRAVAX,False,ICD11-XM1PB8,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC0467,ZATEVAX,False,ICD11-XM29H5,"Tetanus vaccine, unspecified",True,36,0
 VAC0468,ZATRIBAVAX,False,ICD11-XM1PB8,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
@@ -547,9 +548,9 @@ VAC0488,PENTAXIM,False,ICD11-XM1LX9,"Pentavalent Diphtheria-Tetanus-Pertussis-Hi
 VAC0489,TRIMOVAX,False,ICD11-XM8TF3,"MMR vaccine, live attenuated, unspecified",True,26,0
 VAC0490,KINRIX,False,ICD11-XM9JP8,"DTaPIPV vaccine, standard dose, unspecified",True,12,0
 VAC0490,KINRIX,False,ICD11-XM09Q7,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",False,,
-VAC0491,TENIVAC,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0491,TENIVAC,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0491,TENIVAC,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0491,TENIVAC,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0491,TENIVAC,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0491,TENIVAC,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0492,AFLURIA,False,,,,,
 VAC0494,TRITANRIX HepB,False,ICD11-XM41N3,"Diphtheria-Tetanus-Pertussis-Hepatitis B vaccine, unspecified",True,7,0
 VAC0495,BEXSERO,False,ICD11-XM1X81,"Multicomponent meningococcal B vaccine, unspecified",True,5,0
@@ -585,9 +586,9 @@ VAC0523,GARDASIL 9,False,ICD11-XM5CE9,"HPV vaccine nonavalent, unspecified",True
 VAC0524,TEVAX,False,ICD11-XM29H5,"Tetanus vaccine, unspecified",True,36,0
 VAC0525,INFANRIX PENTA,False,ICD11-XM0LT9,"Diphtheria-Tetanus-Pertussis-Polio-Hepatitis B pentavalent vaccine, unspecified",True,4,0
 VAC0526,HECOLIN,False,,,,,
-VAC0527,VACCIN DIPHTERIQUE ET TETANIQUE ADSORBE,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0527,VACCIN DIPHTERIQUE ET TETANIQUE ADSORBE,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0527,VACCIN DIPHTERIQUE ET TETANIQUE ADSORBE,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0527,VACCIN DIPHTERIQUE ET TETANIQUE ADSORBE,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0527,VACCIN DIPHTERIQUE ET TETANIQUE ADSORBE,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0527,VACCIN DIPHTERIQUE ET TETANIQUE ADSORBE,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0528,MOSQUIRIX,False,,,,,
 VAC0529,IMOVAX TETANO,False,ICD11-XM29H5,"Tetanus vaccine, unspecified",True,36,0
 VAC0530,TETANOL PUR,False,ICD11-XM29H5,"Tetanus vaccine, unspecified",True,36,0
@@ -680,9 +681,9 @@ VAC0633,ZABDENO,False,ICD11-XM4TZ2,"Ebola virus vaccine, recombinant live non-re
 VAC0634,MVABEA,False,,,,,
 VAC0635,PREFLUCEL,False,,,,,
 VAC0636,FLUMIST QUADRIVALENT,False,,,,,
-VAC0637,IPAD DT,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0637,IPAD DT,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0637,IPAD DT,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0637,IPAD DT,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0637,IPAD DT,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0637,IPAD DT,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0638,IPAD POLIO,False,,,,,
 VAC0639,ADACEL POLIO,False,ICD11-XM09Q7,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",True,14,0
 VAC0640,TRITANRIX HepB+Hib,False,ICD11-XM7JP3,"DTPerHibHepB pentavalent vaccine, unspecified",True,20,0
@@ -774,9 +775,9 @@ VAC0727,ADCLD-COV19,False,,,,,
 VAC0728,aAPC COVID-19 VACCINE,False,,,,,
 VAC0729,LV-SMENP-DC vaccine,False,,,,,
 VAC0730,DENDRITIC CELL AV-COVID-19 VACCINE,False,,,,,
-VAC0731,DITANRIX,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0731,DITANRIX,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0731,DITANRIX,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0731,DITANRIX,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0731,DITANRIX,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0731,DITANRIX,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0732,COVAC-1 - COVAC-2,False,,,,,
 VAC0733,HEPLISAV-B,False,,,,,
 VAC0734,POLIO BOOSTRIX,False,ICD11-XM09Q7,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",True,14,0
@@ -824,8 +825,8 @@ VAC0780,VAXNEUVANCE,False,ICD11-XM96S7,"Pneumococcal conjugate vaccine, serotype
 VAC0781,RABIVAC,False,ICD11-XM7BE8,"Rabies vaccine, unspecified",True,32,0
 VAC0782,RASILVAX,False,ICD11-XM7BE8,"Rabies vaccine, unspecified",True,32,0
 VAC0783,R-COVI,False,,,,,
-VAC0784,PERTAGEN,False,ICD11-XM4082,"Acellular pertussis vaccine, unspecified",True,8,0
-VAC0784,PERTAGEN,False,ICD11-XM62J1,"Acellular pertussis vaccine, unspecified",True,8,0
+VAC0784,PERTAGEN,False,ICD11-XM4082,"Acellular pertussis vaccine, unspecified",True,9,0
+VAC0784,PERTAGEN,False,ICD11-XM62J1,"Acellular pertussis vaccine, unspecified",True,9,0
 VAC0785,BOOSTAGEN,False,ICD11-XM9YH9,"Diph-T-aP/ap, unspecified",True,24,0
 VAC0785,BOOSTAGEN,False,ICD11-XM9ZL9,"Diph-T-aP/ap, unspecified",True,24,0
 VAC0786,PREVNAR 20,False,ICD11-XM96S7,"Pneumococcal conjugate vaccine, serotypes unspecified",True,18,0
@@ -835,12 +836,12 @@ VAC0789,COMVAC4,False,ICD11-XM41N3,"Diphtheria-Tetanus-Pertussis-Hepatitis B vac
 VAC0790,"Diphtheria-Tetanus-Hepatitis B vaccine, unspecified",True,ICD11-XM3G68,"Diphtheria-Tetanus-Hepatitis B vaccine, unspecified",True,1,1
 VAC0791,"Hexavalent vaccine DTPerHibPHepB - Diphtheria-Tetanus-Pertussis-Polio-Hib-Hepatitis B vaccine, unspecified",True,,,,,
 VAC0792,"Diphtheria-Tetanus-Pertussis-Polio-Hepatitis B pentavalent vaccine, unspecified",True,ICD11-XM0LT9,"Diphtheria-Tetanus-Pertussis-Polio-Hepatitis B pentavalent vaccine, unspecified",True,4,1
-VAC0793,TETADIF,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0793,TETADIF,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0793,TETADIF,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0793,TETADIF,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0793,TETADIF,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0793,TETADIF,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0794,"T-igT, unspecified",True,ICD11-XM9AK2,"T-igT, unspecified",True,1,1
-VAC0795,"Acellular pertussis vaccine, unspecified",True,ICD11-XM4082,"Acellular pertussis vaccine, unspecified",True,8,2
-VAC0795,"Acellular pertussis vaccine, unspecified",True,ICD11-XM62J1,"Acellular pertussis vaccine, unspecified",True,8,2
+VAC0795,"Acellular pertussis vaccine, unspecified",True,ICD11-XM4082,"Acellular pertussis vaccine, unspecified",True,9,2
+VAC0795,"Acellular pertussis vaccine, unspecified",True,ICD11-XM62J1,"Acellular pertussis vaccine, unspecified",True,9,2
 VAC0796,"Pertussis vaccine, unspecified",True,,,,,
 VAC0797,"Diph-T-aP/ap, unspecified",True,ICD11-XM9YH9,"Diph-T-aP/ap, unspecified",True,24,2
 VAC0797,"Diph-T-aP/ap, unspecified",True,ICD11-XM9ZL9,"Diph-T-aP/ap, unspecified",True,24,2
@@ -864,7 +865,7 @@ VAC0814,"Pneumococcal conjugate vaccine, serotypes unspecified",True,ICD11-XM96S
 VAC0815,"Pneumo-Hib, unspecified",True,ICD11-XM4R39,"Pneumo-Hib, unspecified",True,1,1
 VAC0816,PEDATYPH,False,,,,,
 VAC0817,"Inactivated Typhoid vaccine, unspecified",True,,,,,
-VAC0818,"Typhoid-Paratyphoid vaccine, unspecified",True,,,,,
+VAC0818,"Typhoid-Paratyphoid vaccine, unspecified",True,ICD11-XM95H3,"Typhoid-Paratyphoid vaccine, unspecified",True,4,1
 VAC0819,"Inactivated Japanese Encephalitis vaccine, unspecified",True,ICD11-XM0LB5,"Inactivated Japanese Encephalitis vaccine, unspecified",True,14,1
 VAC0820,"Inactivated whole influenza vaccine, unspecified",True,,,,,
 VAC0821,"Inactivated influenza vaccine, split or subunit, unspecified",True,,,,,
@@ -917,7 +918,7 @@ VAC0867,"Diphtheria antitoxin, unspecified",True,,,,,
 VAC0868,MENPOVAX A,False,ICD11-XM37L5,"Polysaccharide meningococcal A vaccine, unspecified",True,3,0
 VAC0869,MENPOVAX C,False,,,,,
 VAC0870,TYPBAR,False,,,,,
-VAC0871,SUPEMTEK,False,,,,,
+VAC0871,SUPEMTEK TETRA,False,,,,,
 VAC0872,INFLUPOZZI SUBUNITA,False,,,,,
 VAC0873,INFLUPOZZI ADIUVATO,False,,,,,
 VAC0874,INNOFLU,False,,,,,
@@ -926,8 +927,8 @@ VAC0876,CINQUERIX,False,ICD11-XM21E6,"Pentavalent DTaPHibIPV vaccine, unspecifie
 VAC0876,CINQUERIX,False,ICD11-XM1LX9,"Pentavalent Diphtheria-Tetanus-Pertussis-Hib-Polio (DTPerHibIPV) vaccine, unspecified",False,,
 VAC0877,INFANRIX HEPB,False,ICD11-XM41N3,"Diphtheria-Tetanus-Pertussis-Hepatitis B vaccine, unspecified",True,7,0
 VAC0878,TRITANRIX,False,ICD11-XM1PB8,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
-VAC0879,ACELLUVAX,False,ICD11-XM4082,"Acellular pertussis vaccine, unspecified",True,8,0
-VAC0879,ACELLUVAX,False,ICD11-XM62J1,"Acellular pertussis vaccine, unspecified",True,8,0
+VAC0879,ACELLUVAX,False,ICD11-XM4082,"Acellular pertussis vaccine, unspecified",True,9,0
+VAC0879,ACELLUVAX,False,ICD11-XM62J1,"Acellular pertussis vaccine, unspecified",True,9,0
 VAC0880,"Pentavalent Diphtheria-Tetanus-Pertussis-Hib-Polio (DTPerHibIPV) vaccine, unspecified",True,ICD11-XM1LX9,"Pentavalent Diphtheria-Tetanus-Pertussis-Hib-Polio (DTPerHibIPV) vaccine, unspecified",True,8,1
 VAC0881,"Live attenuated Japanese Encephalitis vaccine, unspecified",True,ICD11-XM47S0,"Live attenuated Japanese Encephalitis vaccine, unspecified",True,7,1
 VAC0882,CANDID 1,False,,,,,
@@ -971,9 +972,9 @@ VAC0916,"Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified",
 VAC0917,"Hepatitis E vaccine, unspecified",True,,,,,
 VAC0918,"PRP-D Hib vaccine, unspecified",True,ICD11-XM6RG9,"Haemophilus influenzae B (or Hib) vaccine, unspecified",True,19,0
 VAC0919,"Hib hbOC vaccine, unspecified",True,ICD11-XM6RG9,"Haemophilus influenzae B (or Hib) vaccine, unspecified",True,19,0
-VAC0920,"Diphtheria-tetanus Td vaccine, unspecified",True,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0920,"Diphtheria-tetanus Td vaccine, unspecified",True,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0920,"Diphtheria-tetanus Td vaccine, unspecified",True,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0920,"Diphtheria-tetanus Td vaccine, unspecified",True,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0920,"Diphtheria-tetanus Td vaccine, unspecified",True,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0920,"Diphtheria-tetanus Td vaccine, unspecified",True,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0921,"Japanese encephalitis vaccine, unspecified",True,,,,,
 VAC0922,"Live attenuated adenovirus vaccine, type 4 and type 7, oral",True,,,,,
 VAC0923,"Respiratory Syncytial Virus monoclonal antibody, unspecified",True,,,,,
@@ -1000,7 +1001,7 @@ VAC0942,"Chicken embryo rabies vaccine, unspecified",True,ICD11-XM7BE8,"Rabies v
 VAC0943,"Rabies vaccine diploid cells, unspecified",True,ICD11-XM7BE8,"Rabies vaccine, unspecified",True,32,0
 VAC0944,"Inactivated whole virion oral cholera vaccine, unspecified",True,ICD11-XM3Z26,"Whole inactivated Cholera vaccine, unspecified",True,14,0
 VAC0945,"Meningococcal vaccine serogroup unknown, unspecified",True,,,,,
-VAC0946,TYPHIDRALL,False,,,,,
+VAC0946,TYPHIDRALL,False,ICD11-XM95H3,"Typhoid-Paratyphoid vaccine, unspecified",True,4,0
 VAC0947,IMMU-PHILUS,False,ICD11-XM6RG9,"Haemophilus influenzae B (or Hib) vaccine, unspecified",True,19,0
 VAC0948,BACITHRAX,False,ICD11-XM2C05,"Anthrax vaccine, unspecified",True,7,0
 VAC0949,IMOVAX BCG,False,ICD11-XM8142,"BCG vaccine, unspecified",True,19,0
@@ -1018,9 +1019,9 @@ VAC0959,STREPTOPUR,False,ICD11-XM2249,"Pneumococcal polysaccharide vaccine 23-va
 VAC0959,STREPTOPUR,False,ICD11-XM91D7,"Pneumococcal unconjugated polysaccharide vaccine, unspecified",False,,
 VAC0960,VIATIM,False,ICD11-XM3JA6,"Typhoid-hepatitis A vaccine, unspecified",True,6,0
 VAC0961,ANATOXAL TE N,False,ICD11-XM29H5,"Tetanus vaccine, unspecified",True,36,0
-VAC0962,ANATOXAL DI TE N ADULT,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0962,ANATOXAL DI TE N ADULT,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0962,ANATOXAL DI TE N ADULT,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0962,ANATOXAL DI TE N ADULT,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0962,ANATOXAL DI TE N ADULT,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0962,ANATOXAL DI TE N ADULT,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0963,ANATOXAL DI TE PER,False,ICD11-XM1PB8,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC0964,ANATOXAL DI,False,,,,,
 VAC0965,ANATOXAL TE TAB,False,ICD11-XM9UB1,"Tetanus, typhoid and paratypoid A and B vaccines, unspecified",True,3,0
@@ -1033,13 +1034,13 @@ VAC0971,VACCINO ANTIVAIOLOSO LANCY,False,ICD11-XM95R0,"Smallpox vaccine, unspeci
 VAC0972,VIROFLUSOMA,False,,,,,
 VAC0973,VIROFLU,False,,,,,
 VAC0974,MENCEVAX AC,False,ICD11-XM3T39,"Meningococcal A + C vaccine, unspecified",True,7,0
-VAC0975,PERTURIX,False,ICD11-XM4082,"Acellular pertussis vaccine, unspecified",True,8,0
-VAC0975,PERTURIX,False,ICD11-XM62J1,"Acellular pertussis vaccine, unspecified",True,8,0
+VAC0975,PERTURIX,False,ICD11-XM4082,"Acellular pertussis vaccine, unspecified",True,9,0
+VAC0975,PERTURIX,False,ICD11-XM62J1,"Acellular pertussis vaccine, unspecified",True,9,0
 VAC0976,VACCINO ANTICOLERICO ISI,False,,,,,
 VAC0977,ENTEROVACCINO ISI,False,,,,,
-VAC0978,VAC.DIFTO TETANO ISI,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0978,VAC.DIFTO TETANO ISI,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0978,VAC.DIFTO TETANO ISI,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0978,VAC.DIFTO TETANO ISI,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0978,VAC.DIFTO TETANO ISI,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0978,VAC.DIFTO TETANO ISI,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0979,VACCINO ANTITETANICO ISI,False,ICD11-XM29H5,"Tetanus vaccine, unspecified",True,36,0
 VAC0980,VAC.DPT ISI,False,ICD11-XM9YH9,"Diph-T-aP/ap, unspecified",True,24,0
 VAC0980,VAC.DPT ISI,False,ICD11-XM9ZL9,"Diph-T-aP/ap, unspecified",True,24,0
@@ -1055,9 +1056,9 @@ VAC0989,HANTAVAX,False,,,,,
 VAC0990,ALPHARIX,False,,,,,
 VAC0991,FLULAVAL QUADRIVALENT,False,,,,,
 VAC0992,AFLURIA QUADRIVALENT,False,,,,,
-VAC0993,TD ADSORBED,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0993,TD ADSORBED,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC0993,TD ADSORBED,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC0993,TD ADSORBED,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0993,TD ADSORBED,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC0993,TD ADSORBED,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC0994,VARIVAX II,False,ICD11-XM0NS8,"Chickenpox vaccine, unspecified",True,9,0
 VAC0995,IMVAMUNE,False,ICD11-XM95R0,"Smallpox vaccine, unspecified",True,18,0
 VAC0996,ACAM2000,False,ICD11-XM95R0,"Smallpox vaccine, unspecified",True,18,0
@@ -1069,18 +1070,18 @@ VAC0999,WETVAX APSV,False,ICD11-XM95R0,"Smallpox vaccine, unspecified",True,18,0
 VAC1000,VACV VACCINIA VIRUS LISTER ELSTREE,False,ICD11-XM95R0,"Smallpox vaccine, unspecified",True,18,0
 VAC1001,V4020 VEEV VACCINE,False,,,,,
 VAC1002,Q-VAX,False,,,,,
-VAC1003,TEDIVAX PRO ADULTO,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1003,TEDIVAX PRO ADULTO,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1003,TEDIVAX PRO ADULTO,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1004,TEDIVAX,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1004,TEDIVAX,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1004,TEDIVAX,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC1003,TEDIVAX PRO ADULTO,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1003,TEDIVAX PRO ADULTO,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1003,TEDIVAX PRO ADULTO,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1004,TEDIVAX,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1004,TEDIVAX,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1004,TEDIVAX,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC1005,REVAC-B PLUS ADULT VACCINE,False,,,,,
 VAC1006,SHANVAC B,False,,,,,
 VAC1007,ISTIVAC4,False,,,,,
-VAC1008,DITEMER,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1008,DITEMER,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1008,DITEMER,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC1008,DITEMER,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1008,DITEMER,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1008,DITEMER,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC1009,TETAMER,False,ICD11-XM29H5,"Tetanus vaccine, unspecified",True,36,0
 VAC1010,TRIAMER,False,ICD11-XM1PB8,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC1011,DITEKIBOOSTER,False,ICD11-XM9YH9,"Diph-T-aP/ap, unspecified",True,24,0
@@ -1122,12 +1123,12 @@ VAC1045,INFANRIX-IPV/HIB,False,ICD11-XM21E6,"Pentavalent DTaPHibIPV vaccine, uns
 VAC1045,INFANRIX-IPV/HIB,False,ICD11-XM1LX9,"Pentavalent Diphtheria-Tetanus-Pertussis-Hib-Polio (DTPerHibIPV) vaccine, unspecified",False,,
 VAC1046,BEYFORTUS 50 MG (NIRSEVIMAB),False,,,,,
 VAC1047,ABRYSVO,False,,,,,
-VAC1048,DECAVAC,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1048,DECAVAC,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1048,DECAVAC,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1049,TDVAX,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1049,TDVAX,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1049,TDVAX,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC1048,DECAVAC,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1048,DECAVAC,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1048,DECAVAC,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1049,TDVAX,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1049,TDVAX,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1049,TDVAX,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC1050,BEYFORTUS 100 MG (NIRSEVIMAB),False,,,,,
 VAC1051,PFIZER COMIRNATY-30 XBB.1.5,False,,,,,
 VAC1052,PFIZER COMIRNATY-10 XBB.1.5,False,,,,,
@@ -1246,8 +1247,8 @@ VAC1163,"20-valent Pneumococcus conjugate vaccine, unspecified",True,ICD11-XM96S
 VAC1164,"Quadrivalent DTPaHib- Diphtheria-Tetanus-Pertussis-Hib PRP vaccine, unspecified",True,,,,,
 VAC1165,"Diphtheria toxoid, standard dose, unspecified",True,,,,,
 VAC1166,"COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, currently in clinical trial, unspecified",True,,,,,
-VAC1167,"Acellular Pertussis Vaccine, unspecified",True,ICD11-XM4082,"Acellular pertussis vaccine, unspecified",True,8,0
-VAC1167,"Acellular Pertussis Vaccine, unspecified",True,ICD11-XM62J1,"Acellular pertussis vaccine, unspecified",True,8,0
+VAC1167,"Acellular Pertussis Vaccine, unspecified",True,ICD11-XM4082,"Acellular pertussis vaccine, unspecified",True,9,0
+VAC1167,"Acellular Pertussis Vaccine, unspecified",True,ICD11-XM62J1,"Acellular pertussis vaccine, unspecified",True,9,0
 VAC1168,"Quadrivalent DTPeHib- Diphtheria-Tetanus-Pertussis-Hib OC vaccine, unspecified",True,,,,,
 VAC1169,"COVID-19 Bivalent mRNA vaccine, original virus + Omicron BA.4/5 variant, 15 micrograms, unspecified",True,,,,,
 VAC1170,"Non-replicating viral vector COVID-19 vaccine, chimpanzee adenovirus ChadOx1 encoding the SARS-CoV-2 spike protein",True,,,,,
@@ -1312,8 +1313,8 @@ VAC1228,"Respiratory syncytial virus (RSV) vaccine, recombinant, F protein-deriv
 VAC1229,Vaccine against meningococcal serogroups B (outer membrane vesicle proteins) and C,True,,,,,
 VAC1230,"Meningococcal C and anti-Haemophilus influenzae type b vaccine, conjugated with tetanus toxoid, unspecified",True,ICD11-XM0X86,"Hib-MeningoC vaccine, unspecified",True,3,0
 VAC1231,"Pentavalent vaccine DTPaHibHepB- Diphtheria-Tetanus-Pertussis-Hib PRP-Hepatitis B 10μg, unspecified",True,ICD11-XM7JP3,"DTPerHibHepB pentavalent vaccine, unspecified",True,20,0
-VAC1232,"Acellular pertussis vaccine, reduced dose, unspecified",True,ICD11-XM4082,"Acellular pertussis vaccine, unspecified",True,8,0
-VAC1232,"Acellular pertussis vaccine, reduced dose, unspecified",True,ICD11-XM62J1,"Acellular pertussis vaccine, unspecified",True,8,0
+VAC1232,"Acellular pertussis vaccine, reduced dose, unspecified",True,ICD11-XM4082,"Acellular pertussis vaccine, unspecified",True,9,0
+VAC1232,"Acellular pertussis vaccine, reduced dose, unspecified",True,ICD11-XM62J1,"Acellular pertussis vaccine, unspecified",True,9,0
 VAC1233,"10-valent Pneumococcus conjugate vaccine, unspecified",True,ICD11-XM96S7,"Pneumococcal conjugate vaccine, serotypes unspecified",True,18,0
 VAC1234,"15-valent unconjugated pneumococcal vaccine, unspecified",True,ICD11-XM91D7,"Pneumococcal unconjugated polysaccharide vaccine, unspecified",True,6,0
 VAC1235,"RIX4414 monovalent rotavirus vaccine, unspecified",True,ICD11-XM4GV0,"Rotavirus vaccine, unspecified",True,7,0
@@ -1346,9 +1347,9 @@ VAC1261,NUVAXOVID JN.1,False,,,,,
 VAC1262,MRESVIA,False,,,,,
 VAC1263,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,,,,,
 VAC1264,"A(H5) avian influenza vaccine, unspecified",True,,,,,
-VAC1265,CLODIVAC,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1265,CLODIVAC,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1265,CLODIVAC,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC1265,CLODIVAC,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1265,CLODIVAC,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1265,CLODIVAC,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC1266,PENMENVY,False,,,,,
 VAC1267,VIMKUNYA,False,,,,,
 VAC1268,SPIKEVAX JN.1 50 µg,False,,,,,
@@ -1356,9 +1357,9 @@ VAC1269,"SPIKEVAX JN.1 0,1 mg/mL dose 25 µg",False,,,,,
 VAC1270,"SPIKEVAX JN.1 0,1 mg/mL dose 50 µg",False,,,,,
 VAC1271,TYT BIOMED,False,,,,,
 VAC1272,PSEUDOVAC,False,,,,,
-VAC1273,DT BIOMED,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1273,DT BIOMED,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1273,DT BIOMED,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC1273,DT BIOMED,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1273,DT BIOMED,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1273,DT BIOMED,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC1274,d BIOMED,False,,,,,
 VAC1275,D BIOMED,False,,,,,
 VAC1276,DTP BIOMED,False,ICD11-XM1PB8,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
@@ -1379,39 +1380,39 @@ VAC1290,MOPV1 BIO FARMA,False,ICD11-XM0VX8,"mOPV1 Sabin monovalent oral polio va
 VAC1291,MOPV2 BIO FARMA,False,ICD11-XM0VX8,"mOPV2 Sabin monovalent oral polio vaccine type 2, unspecified",True,5,0
 VAC1292,BIO-TCV,False,,,,,
 VAC1293,VAKSIN BCG KERING,False,ICD11-XM8142,"BCG vaccine, unspecified",True,19,0
-VAC1294,BIO-TD,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1294,BIO-TD,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1294,BIO-TD,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1295,DT BIO FARMA,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1295,DT BIO FARMA,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1295,DT BIO FARMA,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC1294,BIO-TD,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1294,BIO-TD,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1294,BIO-TD,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1295,DT BIO FARMA,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1295,DT BIO FARMA,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1295,DT BIO FARMA,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC1296,DTP BIO FARMA,False,ICD11-XM1PB8,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC1297,TT BIO FARMA,False,ICD11-XM29H5,"Tetanus vaccine, unspecified",True,36,0
 VAC1298,BETT,False,ICD11-XM29H5,"Tetanus vaccine, unspecified",True,36,0
 VAC1299,BEVAC 10 µg,False,,,,,
 VAC1300,BEVAC 20 µg,False,,,,,
-VAC1301,BE Td,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1301,BE Td,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1301,BE Td,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC1301,BE Td,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1301,BE Td,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1301,BE Td,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC1302,COMBE FIVE,False,ICD11-XM7JP3,"DTPerHibHepB pentavalent vaccine, unspecified",True,20,0
 VAC1303,VLA15,False,,,,,
 VAC1304,BERAB,False,ICD11-XM7BE8,"Rabies vaccine, unspecified",True,32,0
 VAC1305,MRBEV,False,ICD11-XM21H2,"Measles-Rubella vaccine, unspecified",True,12,0
 VAC1306,TYPHIBEV,False,,,,,
 VAC1307,JEEV 6 µg,False,ICD11-XM0LB5,"Inactivated Japanese Encephalitis vaccine, unspecified",True,14,0
-VAC1308,DT BIOLOGICAL E LTD,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1308,DT BIOLOGICAL E LTD,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1308,DT BIOLOGICAL E LTD,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC1308,DT BIOLOGICAL E LTD,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1308,DT BIOLOGICAL E LTD,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1308,DT BIOLOGICAL E LTD,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC1309,NOVEL ORAL (nOPV) TYPE 2 BIOLOGICAL E. LTD,False,ICD11-XM0VX8,"mOPV2 Sabin monovalent oral polio vaccine type 2, unspecified",True,5,0
-VAC1310,SII TD-VAC,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1310,SII TD-VAC,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1310,SII TD-VAC,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC1310,SII TD-VAC,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1310,SII TD-VAC,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1310,SII TD-VAC,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC1311,"Meningococcal ACWXY conjugate vaccine, unspecified",True,,,,,
 VAC1312,TT SII,False,ICD11-XM29H5,"Tetanus vaccine, unspecified",True,36,0
 VAC1313,BCG SII,False,ICD11-XM8142,"BCG vaccine, unspecified",True,19,0
 VAC1314,MEASLES SII,False,,,,,
 VAC1315,MUMPS SII,False,,,,,
-VAC1316,RUBELLA SII,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,19,0
+VAC1316,RUBELLA SII,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC1317,CERVAVAC,False,ICD11-XM1821,"HPV vaccine quadrivalent, unspecified",True,5,0
 VAC1318,"DIPHTHERIA, TETANUS, PERTUSSIS AND HEPATITIS B SII",False,ICD11-XM41N3,"Diphtheria-Tetanus-Pertussis-Hepatitis B vaccine, unspecified",True,7,0
 VAC1319,"DIPHTHERIA, TETANUS, PERTUSSIS AND HAEMOPHILUS INFLUENZAE B SII",False,,,,,
@@ -1457,9 +1458,9 @@ VAC1358,SKYCELLFLU QUADRIVALENT,False,,,,,
 VAC1359,SKYCELLFLU TRIVALENT,False,,,,,
 VAC1360,HEPAMUNE B 10 µg,False,,,,,
 VAC1361,HEPAMUNE B 20 µg,False,,,,,
-VAC1362,SK TD,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1362,SK TD,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1362,SK TD,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC1362,SK TD,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1362,SK TD,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1362,SK TD,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC1363,HEPAVAX-GENE B 10 µg,False,,,,,
 VAC1364,BIOHIB,False,ICD11-XM6RG9,"Haemophilus influenzae B (or Hib) vaccine, unspecified",True,19,0
 VAC1365,COMVAC5,False,ICD11-XM7JP3,"DTPerHibHepB pentavalent vaccine, unspecified",True,20,0
@@ -1547,9 +1548,9 @@ VAC1445,"Avian influenza vaccine, mRNA",True,,,,,
 VAC1446,"Japanese encephalitis vaccine, inactivated, whole-virus, derived from Vero cells, 3 micrograms",True,ICD11-XM0LB5,"Inactivated Japanese Encephalitis vaccine, unspecified",True,14,0
 VAC1447,VACCIN BCG SYNTHAVERSE,False,ICD11-XM8142,"BCG vaccine, unspecified",True,19,0
 VAC1448,BCG VACCINE MERCK,False,ICD11-XM8142,"BCG vaccine, unspecified",True,19,0
-VAC1449,DITANRIX-PEDIATRIC,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1449,DITANRIX-PEDIATRIC,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1449,DITANRIX-PEDIATRIC,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC1449,DITANRIX-PEDIATRIC,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1449,DITANRIX-PEDIATRIC,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1449,DITANRIX-PEDIATRIC,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC1450,HEPACARE,False,,,,,
 VAC1451,CHIROFLU,False,,,,,
 VAC1452,SCI-B-VAC,False,,,,,
@@ -1561,9 +1562,9 @@ VAC1457,TETRA-SOLGEN,False,ICD11-XM09Q7,"Diphtheria-Tetanus-Pertussis-Polio vacc
 VAC1458,TRIDIPIGEN,False,ICD11-XM1PB8,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC1459,TRINFAGEN N0.1,False,ICD11-XM8AW1,"Diphtheria-Tetanus-Polio vaccine, unspecified",True,14,0
 VAC1460,SOLGEN,False,ICD11-XM1PB8,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
-VAC1461,DIFTET,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1461,DIFTET,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,45,0
-VAC1461,DIFTET,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,45,0
+VAC1461,DIFTET,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1461,DIFTET,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1461,DIFTET,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
 VAC1462,PNU-IMUNE 14,False,ICD11-XM91D7,"Pneumococcal unconjugated polysaccharide vaccine, unspecified",True,6,0
 VAC1463,FREEZE-DRIED BCG VACCINE JAPAN,False,ICD11-XM8142,"BCG vaccine, unspecified",True,19,0
 VAC1464,FLUBRON VACCINE,False,,,,,
@@ -1581,8 +1582,8 @@ VAC1475,"Human monoclonal antibody against respiratory syncytial virus (RSV), cl
 VAC1476,"Meningococcal vaccine against A, C, W, Y (conjugated polysaccharide) and B",True,,,,,
 VAC1477,ENCEPUR N ENFANT,False,ICD11-XM8MP6,"Tick-borne encephalitis vaccine, unspecified",True,12,0
 VAC1478,SYNAGIS 50 mg (PALIZIVUMAB),False,,,,,
-VAC1479,VACPERTAGEN,False,ICD11-XM4082,"Acellular pertussis vaccine, unspecified",True,8,0
-VAC1479,VACPERTAGEN,False,ICD11-XM62J1,"Acellular pertussis vaccine, unspecified",True,8,0
+VAC1479,VACPERTAGEN,False,ICD11-XM4082,"Acellular pertussis vaccine, unspecified",True,9,0
+VAC1479,VACPERTAGEN,False,ICD11-XM62J1,"Acellular pertussis vaccine, unspecified",True,9,0
 VAC1480,PNEUMOVAX 23,False,ICD11-XM2249,"Pneumococcal polysaccharide vaccine 23-valent, unspecified",True,11,0
 VAC1480,PNEUMOVAX 23,False,ICD11-XM91D7,"Pneumococcal unconjugated polysaccharide vaccine, unspecified",False,,
 VAC1481,FLUVACCINOL,False,,,,,
@@ -1592,3 +1593,15 @@ VAC1484,HEPRECOMB ENFANT,False,,,,,
 VAC1485,GEN H-B-VAX 5,False,,,,,
 VAC1486,GEN H-B-VAX 10,False,,,,,
 VAC1487,PREVENAR-7,False,ICD11-XM96S7,"Pneumococcal conjugate vaccine, serotypes unspecified",True,18,0
+VAC1488,POLIORIX,False,,,,,
+VAC1489,CELTURA,False,,,,,
+VAC1490,ALMEVAX,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,21,0
+VAC1491,RUBEVAC,False,ICD11-XM9PS9,"Rubella vaccine, live attenuated, unspecified",True,21,0
+VAC1492,POLIOMYELITIS IMPFSTOFF BERNA,False,,,,,
+VAC1493,ACEL P,False,ICD11-XM4082,"Acellular pertussis vaccine, unspecified",True,9,0
+VAC1493,ACEL P,False,ICD11-XM62J1,"Acellular pertussis vaccine, unspecified",True,9,0
+VAC1494,DITEBOOSTER,False,ICD11-XM1G96,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1494,DITEBOOSTER,False,ICD11-XM4039,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1494,DITEBOOSTER,False,ICD11-XM8XH5,"Tetanus diphtheria vaccine, unspecified",True,46,0
+VAC1495,POLIO KOPROWSKI K1-K2-K3,False,ICD11-XM0KZ1,"OPV 1-2-3, unspecified",True,11,0
+VAC1496,POLIO LILLY,False,,,,,

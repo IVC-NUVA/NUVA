@@ -612,7 +612,7 @@ VAC['0676'],CUREVAC-RNA-COVID,"COVID-19 vaccine, mRNA encoding the SARS-CoV-2 sp
 VAC['0677'],CHINESE-PLA-ARN-Covid,"COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, ongoing clinical trial",False
 VAC['0678'],Medicago-VLP-Covid,"COVID-19 vaccine, VLP, recombinant spike protein, with adjuvant",False
 VAC['0679'],MEDIGEN-S-2P-CpH1018-COVID,"COVID-19 vaccine, protein subunit, recombinant spike protein, S-2P and CpG1018",False
-VAC['0680'],COVILO SINOPHARM COVID-19 VACCINE,"COVID-19 vaccine, whole virion inactivated, Vero cell-cultured - Other names : SINOPHARM BBIBP-CorV COVID-19 ; COVID-19 Vaccine BIBP",False
+VAC['0680'],COVILO SINOPHARM COVID-19 VACCINE,"COVID-19 vaccine, whole virion inactivated, Vero cell-cultured - Other names : SINOPHARM BBIBP-CorV COVID-19 ; COVID-19 Vaccine BIBP ; Hayat-vax",False
 VAC['0681'],GRAD-COV2 COVID-19 VACCINE REITHERA,"COVID-19 vaccine, non-replicating adenoviral vector encoding the SARS-CoV-2 spike protein",False
 VAC['0682'],FLUQUADRI,Quadrivalent inactivated seasonal influenza vaccine with surface antigens,False
 VAC['0683'],EpiVacCorona,"COVID-19 vaccine, protein subunit, recombinant spike protein",False
@@ -793,7 +793,7 @@ VAC['0867'],"Diphtheria antitoxin, unspecified",Diphtheria antitoxin,True
 VAC['0868'],MENPOVAX A,"Unconjugated meningococcal polysaccharide vaccine, serogroup A",False
 VAC['0869'],MENPOVAX C,"Unconjugated meningococcal polysaccharide vaccine, serogroup C",False
 VAC['0870'],TYPBAR,"Typhoid conjugate vaccine, Vi polysaccharide linked to tetanus toxoid protein",False
-VAC['0871'],SUPEMTEK,"Quadrivalent inactivated seasonal influenza vaccine, cell-based",False
+VAC['0871'],SUPEMTEK TETRA,"Quadrivalent inactivated seasonal influenza vaccine, cell-based",False
 VAC['0872'],INFLUPOZZI SUBUNITA,"Trivalent inactivated seasonal influenza vaccine, egg-based, surface antigen",False
 VAC['0873'],INFLUPOZZI ADIUVATO,"Trivalent inactivated seasonal influenza vaccine, egg-based, surface antigen, adjuvanted with MF59C.1",False
 VAC['0874'],INNOFLU,"Trivalent inactivated seasonal influenza vaccine, egg-based, surface antigen, adjuvanted with MF59C.2",False
@@ -1410,3 +1410,12 @@ VAC['1484'],HEPRECOMB ENFANT,"Recombinant hepatitis B vaccine, pediatric dose",F
 VAC['1485'],GEN H-B-VAX 5,"Recombinant hepatitis B vaccine, pediatric dose",False
 VAC['1486'],GEN H-B-VAX 10,Recombinant hepatitis B vaccine with 10 micrograms of HBs antigen for use from the age of 11 years,False
 VAC['1487'],PREVENAR-7,"Pneumococcal conjugate vaccine, 7-valent, adsorbed, serotypes 4, 6B, 9V, 14, 18C, 19F and 23F",False
+VAC['1488'],POLIORIX,Inactivated polio (trivalent) vaccine,False
+VAC['1489'],CELTURA,"Pandemic influenza A(H1N1)pdm09 vaccine, inactivated",False
+VAC['1490'],ALMEVAX,Live attenuated rubella vaccine,False
+VAC['1491'],RUBEVAC,Live attenuated rubella vaccine,False
+VAC['1492'],POLIOMYELITIS IMPFSTOFF BERNA,Inactivated polio (trivalent) vaccine,False
+VAC['1493'],ACEL P,"Acellular pertussis vaccine, standard dose",False
+VAC['1494'],DITEBOOSTER,Diphtheria toxoid (low dose) and tetanus toxoid vaccine,False
+VAC['1495'],POLIO KOPROWSKI K1-K2-K3,"Polio vaccine (live attenuated, trivalent) against polioviruses 1, 2 and 3, oral",False
+VAC['1496'],POLIO LILLY,Inactivated polio (trivalent) vaccine,False

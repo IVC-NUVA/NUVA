@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "1.3.9"^^xsd:string .
+    owl:versionInfo "1.3.10"^^xsd:string .
 
 nuva:AIC a owl:Class ;
     rdfs:label "AIC"^^xsd:string ;
@@ -143,7 +143,6 @@ nuva:VAC0001 a owl:Class ;
     rdfs:comment "Haemophilus influenzae type b conjugate vaccine (tetanus protein conjugate)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "028473"^^nuva:AIC,
-        "028473015"^^nuva:AIC,
         "3400933472016"^^nuva:CIP,
         "3400934477010"^^nuva:CIP,
         "3400937082839"^^nuva:CIP,
@@ -173,6 +172,7 @@ nuva:VAC0001 a owl:Class ;
         "['0001']"^^nuva:NUVACode,
         "01146616"^^nuva:PZN,
         "61002000105"^^nuva:SCT_NUVA,
+        "78"^^nuva:SWISSMEDIC,
         "349281545030"^^nuva:UPC,
         "697177005053"^^nuva:UPC,
         "VAC0001"^^xsd:string .
@@ -182,74 +182,11 @@ nuva:VAC0002 a owl:Class ;
     nuvs:containsValence nuva:VAL015 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-09-25"^^xsd:date ;
+    dcterms:modified "2025-12-30"^^xsd:date ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, egg-based, surface antigen"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "012875"^^nuva:AIC,
-        "012875011"^^nuva:AIC,
-        "012875023"^^nuva:AIC,
-        "012875035"^^nuva:AIC,
-        "012875047"^^nuva:AIC,
-        "012875050"^^nuva:AIC,
-        "012875062"^^nuva:AIC,
-        "012875074"^^nuva:AIC,
-        "012875086"^^nuva:AIC,
-        "012875098"^^nuva:AIC,
-        "012875100"^^nuva:AIC,
-        "012875112"^^nuva:AIC,
-        "012875124"^^nuva:AIC,
-        "012875136"^^nuva:AIC,
-        "012875148"^^nuva:AIC,
-        "012875151"^^nuva:AIC,
-        "012875163"^^nuva:AIC,
-        "012875175"^^nuva:AIC,
-        "012875187"^^nuva:AIC,
-        "012875199"^^nuva:AIC,
-        "012875201"^^nuva:AIC,
-        "012875213"^^nuva:AIC,
-        "012875225"^^nuva:AIC,
-        "012875237"^^nuva:AIC,
-        "012875249"^^nuva:AIC,
-        "012875252"^^nuva:AIC,
-        "012875264"^^nuva:AIC,
         "026405"^^nuva:AIC,
-        "026405011"^^nuva:AIC,
-        "026405023"^^nuva:AIC,
-        "026405035"^^nuva:AIC,
-        "026405047"^^nuva:AIC,
-        "026405050"^^nuva:AIC,
-        "026405062"^^nuva:AIC,
-        "026405074"^^nuva:AIC,
-        "026405086"^^nuva:AIC,
-        "026405098"^^nuva:AIC,
-        "026405100"^^nuva:AIC,
-        "026405112"^^nuva:AIC,
-        "026405124"^^nuva:AIC,
-        "026405136"^^nuva:AIC,
-        "026405148"^^nuva:AIC,
-        "026405151"^^nuva:AIC,
-        "026405163"^^nuva:AIC,
-        "026405175"^^nuva:AIC,
-        "026405187"^^nuva:AIC,
-        "026405199"^^nuva:AIC,
-        "026405201"^^nuva:AIC,
-        "026405213"^^nuva:AIC,
-        "026405225"^^nuva:AIC,
-        "026405237"^^nuva:AIC,
-        "026405249"^^nuva:AIC,
-        "026405252"^^nuva:AIC,
-        "026405264"^^nuva:AIC,
-        "026405276"^^nuva:AIC,
-        "026405288"^^nuva:AIC,
-        "026405290"^^nuva:AIC,
-        "026405302"^^nuva:AIC,
-        "026405314"^^nuva:AIC,
-        "026405326"^^nuva:AIC,
-        "026405338"^^nuva:AIC,
-        "026405340"^^nuva:AIC,
-        "026405353"^^nuva:AIC,
-        "026405365"^^nuva:AIC,
-        "026405377"^^nuva:AIC,
         "3400934975448"^^nuva:CIP,
         "3400935080066"^^nuva:CIP,
         "3400935231062"^^nuva:CIP,
@@ -276,13 +213,7 @@ nuva:VAC0003 a owl:Class ;
     dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Inactivated hepatitis A vaccine, adult dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "033247014"^^nuva:AIC,
-        "033247026"^^nuva:AIC,
-        "033247038"^^nuva:AIC,
-        "033247040"^^nuva:AIC,
-        "033247053"^^nuva:AIC,
-        "033247065"^^nuva:AIC,
-        "033247077"^^nuva:AIC,
+    skos:notation "033247"^^nuva:AIC,
         "3400934166525"^^nuva:CIP,
         "3400934166693"^^nuva:CIP,
         "3400934166754"^^nuva:CIP,
@@ -295,6 +226,7 @@ nuva:VAC0003 a owl:Class ;
         "3400937082198"^^nuva:CIP,
         "62756524"^^nuva:CIS,
         "1321058"^^nuva:CNK,
+        "670042"^^nuva:CODE_NATIONAL_SPAIN,
         "731326"^^nuva:CODE_NATIONAL_SPAIN,
         "0258872"^^nuva:CP-NRONATIDENT,
         "185473"^^nuva:CTI,
@@ -353,9 +285,6 @@ nuva:VAC0005 a owl:Class ;
     rdfs:comment "Oral cholera vaccine containing recombinant cholera toxin subunit B (rTCB) and inactivated bacteria with an adjuvant role"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "036561"^^nuva:AIC,
-        "036561013"^^nuva:AIC,
-        "036561025"^^nuva:AIC,
-        "036561037"^^nuva:AIC,
         "3400936512412"^^nuva:CIP,
         "3400936512580"^^nuva:CIP,
         "3400936512641"^^nuva:CIP,
@@ -413,27 +342,6 @@ nuva:VAC0007 a owl:Class ;
     rdfs:comment "Human papillomavirus vaccine based on VLP (Virus Like Particles), quadrivalent (types 6, 11, 16 and 18), recombinant, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "037311"^^nuva:AIC,
-        "037311014"^^nuva:AIC,
-        "037311026"^^nuva:AIC,
-        "037311038"^^nuva:AIC,
-        "037311040"^^nuva:AIC,
-        "037311053"^^nuva:AIC,
-        "037311065"^^nuva:AIC,
-        "037311077"^^nuva:AIC,
-        "037311089"^^nuva:AIC,
-        "037311091"^^nuva:AIC,
-        "037311103"^^nuva:AIC,
-        "037311115"^^nuva:AIC,
-        "037311127"^^nuva:AIC,
-        "037311139"^^nuva:AIC,
-        "037311141"^^nuva:AIC,
-        "037311154"^^nuva:AIC,
-        "037311166"^^nuva:AIC,
-        "037311178"^^nuva:AIC,
-        "037311180"^^nuva:AIC,
-        "037311192"^^nuva:AIC,
-        "037311204"^^nuva:AIC,
-        "037311216"^^nuva:AIC,
         "3400937712873"^^nuva:CIP,
         "3400937712934"^^nuva:CIP,
         "3400937713016"^^nuva:CIP,
@@ -459,6 +367,8 @@ nuva:VAC0007 a owl:Class ;
         "69604608"^^nuva:CIS,
         "2415586"^^nuva:CNK,
         "602852"^^nuva:CODE_NATIONAL_SPAIN,
+        "656150"^^nuva:CODE_NATIONAL_SPAIN,
+        "656151"^^nuva:CODE_NATIONAL_SPAIN,
         "658978"^^nuva:CODE_NATIONAL_SPAIN,
         "288434"^^nuva:CTI,
         "288443"^^nuva:CTI,
@@ -535,20 +445,7 @@ nuva:VAC0009 a owl:Class ;
     dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Recombinant hepatitis B vaccine, adult dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "035262070"^^nuva:AIC,
-        "035262082"^^nuva:AIC,
-        "035262094"^^nuva:AIC,
-        "035262106"^^nuva:AIC,
-        "035262118"^^nuva:AIC,
-        "035262120"^^nuva:AIC,
-        "035262132"^^nuva:AIC,
-        "035262144"^^nuva:AIC,
-        "035262260"^^nuva:AIC,
-        "035262272"^^nuva:AIC,
-        "035262284"^^nuva:AIC,
-        "035262296"^^nuva:AIC,
-        "035262322"^^nuva:AIC,
-        "3400935676412"^^nuva:CIP,
+    skos:notation "3400935676412"^^nuva:CIP,
         "3400935947215"^^nuva:CIP,
         "3400936924413"^^nuva:CIP,
         "3400936924581"^^nuva:CIP,
@@ -612,10 +509,7 @@ nuva:VAC0010 a owl:Class ;
     dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Recombinant hepatitis B vaccine, dialysis patient dosage"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "035262157"^^nuva:AIC,
-        "035262169"^^nuva:AIC,
-        "035262171"^^nuva:AIC,
-        "3400935676580"^^nuva:CIP,
+    skos:notation "3400935676580"^^nuva:CIP,
         "64757607"^^nuva:CIS,
         "1657923"^^nuva:CNK,
         "906826"^^nuva:CODE_NATIONAL_SPAIN,
@@ -638,23 +532,7 @@ nuva:VAC0011 a owl:Class ;
     dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Recombinant hepatitis B vaccine, pediatric dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "035262017"^^nuva:AIC,
-        "035262029"^^nuva:AIC,
-        "035262031"^^nuva:AIC,
-        "035262043"^^nuva:AIC,
-        "035262056"^^nuva:AIC,
-        "035262068"^^nuva:AIC,
-        "035262183"^^nuva:AIC,
-        "035262195"^^nuva:AIC,
-        "035262207"^^nuva:AIC,
-        "035262219"^^nuva:AIC,
-        "035262221"^^nuva:AIC,
-        "035262233"^^nuva:AIC,
-        "035262245"^^nuva:AIC,
-        "035262258"^^nuva:AIC,
-        "035262308"^^nuva:AIC,
-        "035262310"^^nuva:AIC,
-        "3400935396334"^^nuva:CIP,
+    skos:notation "3400935396334"^^nuva:CIP,
         "3400935676351"^^nuva:CIP,
         "3400936408463"^^nuva:CIP,
         "3400936923812"^^nuva:CIP,
@@ -670,6 +548,7 @@ nuva:VAC0011 a owl:Class ;
         "69352630"^^nuva:CIS,
         "1657931"^^nuva:CNK,
         "652093"^^nuva:CODE_NATIONAL_SPAIN,
+        "714303"^^nuva:CODE_NATIONAL_SPAIN,
         "904813"^^nuva:CODE_NATIONAL_SPAIN,
         "223781"^^nuva:CTI,
         "223815"^^nuva:CTI,
@@ -716,6 +595,7 @@ nuva:VAC0011 a owl:Class ;
         "5177738"^^nuva:INFARMED,
         "['0011']"^^nuva:NUVACode,
         "301002000102"^^nuva:SCT_NUVA,
+        "53"^^nuva:SWISSMEDIC,
         "VAC0011"^^xsd:string .
 
 nuva:VAC0012 a owl:Class ;
@@ -741,7 +621,6 @@ nuva:VAC0013 a owl:Class ;
     rdfs:comment "Inactivated polio (trivalent) vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "029310"^^nuva:AIC,
-        "029310012"^^nuva:AIC,
         "3400932575503"^^nuva:CIP,
         "3400932575671"^^nuva:CIP,
         "3400932575732"^^nuva:CIP,
@@ -753,6 +632,7 @@ nuva:VAC0013 a owl:Class ;
         "60558497"^^nuva:CIS,
         "63513354"^^nuva:CIS,
         "0083063"^^nuva:CNK,
+        "729081"^^nuva:CODE_NATIONAL_SPAIN,
         "0056202"^^nuva:CP-NRONATIDENT,
         "133637"^^nuva:CTI,
         "133637-01"^^nuva:CTI-EXTEND,
@@ -793,27 +673,6 @@ nuva:VAC0014 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, 3 components, standard dose), Haemophilus influenzae type b (conjugated to tetanus toxoid), inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "034960"^^nuva:AIC,
-        "034960017"^^nuva:AIC,
-        "034960029"^^nuva:AIC,
-        "034960031"^^nuva:AIC,
-        "034960043"^^nuva:AIC,
-        "034960056"^^nuva:AIC,
-        "034960068"^^nuva:AIC,
-        "034960070"^^nuva:AIC,
-        "034960082"^^nuva:AIC,
-        "034960094"^^nuva:AIC,
-        "034960106"^^nuva:AIC,
-        "034960118"^^nuva:AIC,
-        "034960120"^^nuva:AIC,
-        "034960132"^^nuva:AIC,
-        "034960144"^^nuva:AIC,
-        "034960157"^^nuva:AIC,
-        "034960169"^^nuva:AIC,
-        "034960171"^^nuva:AIC,
-        "034960183"^^nuva:AIC,
-        "034960195"^^nuva:AIC,
-        "034960207"^^nuva:AIC,
-        "034960219"^^nuva:AIC,
         "3400930004326"^^nuva:CIP,
         "3400930095713"^^nuva:CIP,
         "3400935495839"^^nuva:CIP,
@@ -879,6 +738,7 @@ nuva:VAC0015 a owl:Class ;
         "02257122"^^nuva:DIN,
         "['0015']"^^nuva:NUVACode,
         "351002000103"^^nuva:SCT_NUVA,
+        "638"^^nuva:SWISSMEDIC,
         "VAC0015"^^xsd:string .
 
 nuva:VAC0016 a owl:Class ;
@@ -890,22 +750,7 @@ nuva:VAC0016 a owl:Class ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, surface antigen, adult dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "028851"^^nuva:AIC,
-        "028851018"^^nuva:AIC,
-        "028851020"^^nuva:AIC,
-        "028851032"^^nuva:AIC,
-        "028851044"^^nuva:AIC,
-        "028851057"^^nuva:AIC,
-        "028851069"^^nuva:AIC,
-        "028851071"^^nuva:AIC,
-        "028851083"^^nuva:AIC,
-        "028851095"^^nuva:AIC,
-        "028851107"^^nuva:AIC,
-        "028851119"^^nuva:AIC,
-        "028851121"^^nuva:AIC,
-        "028851133"^^nuva:AIC,
-        "028851145"^^nuva:AIC,
-        "028851158"^^nuva:AIC,
-        "028851160"^^nuva:AIC,
+        "051260"^^nuva:AIC,
         "3400930296165"^^nuva:CIP,
         "3400930296172"^^nuva:CIP,
         "3400933652166"^^nuva:CIP,
@@ -952,6 +797,10 @@ nuva:VAC0016 a owl:Class ;
         "3561735"^^nuva:CNK,
         "4877874"^^nuva:CNK,
         "725077"^^nuva:CODE_NATIONAL_SPAIN,
+        "765281"^^nuva:CODE_NATIONAL_SPAIN,
+        "765282"^^nuva:CODE_NATIONAL_SPAIN,
+        "765283"^^nuva:CODE_NATIONAL_SPAIN,
+        "765284"^^nuva:CODE_NATIONAL_SPAIN,
         "0057146"^^nuva:CP-NRONATIDENT,
         "662891"^^nuva:CTI,
         "662891-05"^^nuva:CTI-EXTEND,
@@ -972,6 +821,7 @@ nuva:VAC0016 a owl:Class ;
         "['0016']"^^nuva:NUVACode,
         "361002000101"^^nuva:SCT_NUVA,
         "485"^^nuva:SWISSMEDIC,
+        "660"^^nuva:SWISSMEDIC,
         "VAC0016"^^xsd:string .
 
 nuva:VAC0017 a owl:Class ;
@@ -985,20 +835,6 @@ nuva:VAC0017 a owl:Class ;
     rdfs:comment "Live attenuated measles, mumps and rubella vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "037172"^^nuva:AIC,
-        "037172018"^^nuva:AIC,
-        "037172020"^^nuva:AIC,
-        "037172032"^^nuva:AIC,
-        "037172044"^^nuva:AIC,
-        "037172057"^^nuva:AIC,
-        "037172069"^^nuva:AIC,
-        "037172071"^^nuva:AIC,
-        "037172083"^^nuva:AIC,
-        "037172095"^^nuva:AIC,
-        "037172107"^^nuva:AIC,
-        "037172119"^^nuva:AIC,
-        "037172121"^^nuva:AIC,
-        "037172133"^^nuva:AIC,
-        "037172145"^^nuva:AIC,
         "3400937327848"^^nuva:CIP,
         "3400937327909"^^nuva:CIP,
         "3400937328098"^^nuva:CIP,
@@ -1016,6 +852,8 @@ nuva:VAC0017 a owl:Class ;
         "65194581"^^nuva:CIS,
         "2324911"^^nuva:CNK,
         "673037"^^nuva:CODE_NATIONAL_SPAIN,
+        "673039"^^nuva:CODE_NATIONAL_SPAIN,
+        "758481"^^nuva:CODE_NATIONAL_SPAIN,
         "0435381"^^nuva:CP-NRONATIDENT,
         "287454"^^nuva:CTI,
         "287463"^^nuva:CTI,
@@ -1074,12 +912,6 @@ nuva:VAC0018 a owl:Class ;
     rdfs:comment "Unconjugated meningococcal polysaccharide vaccine, serogroups A, C, W and Y"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "038504"^^nuva:AIC,
-        "038504015"^^nuva:AIC,
-        "038504027"^^nuva:AIC,
-        "038504039"^^nuva:AIC,
-        "038504041"^^nuva:AIC,
-        "038504054"^^nuva:AIC,
-        "038504066"^^nuva:AIC,
         "3400938588354"^^nuva:CIP,
         "3400938588415"^^nuva:CIP,
         "3400938588583"^^nuva:CIP,
@@ -1105,13 +937,6 @@ nuva:VAC0019 a owl:Class ;
     rdfs:comment "Meningococcal conjugate vaccine, serogroup C (conjugated to CRM197 Protein)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "035438"^^nuva:AIC,
-        "035438011"^^nuva:AIC,
-        "035438023"^^nuva:AIC,
-        "035438035"^^nuva:AIC,
-        "035438047"^^nuva:AIC,
-        "035438050"^^nuva:AIC,
-        "035438062"^^nuva:AIC,
-        "035438074"^^nuva:AIC,
         "3400935777577"^^nuva:CIP,
         "3400935777638"^^nuva:CIP,
         "3400935777867"^^nuva:CIP,
@@ -1179,28 +1004,6 @@ nuva:VAC0021 a owl:Class ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, split virion"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "027278"^^nuva:AIC,
-        "027278011"^^nuva:AIC,
-        "027278023"^^nuva:AIC,
-        "027278035"^^nuva:AIC,
-        "027278047"^^nuva:AIC,
-        "027278050"^^nuva:AIC,
-        "027278062"^^nuva:AIC,
-        "027278074"^^nuva:AIC,
-        "027278086"^^nuva:AIC,
-        "027278098"^^nuva:AIC,
-        "027278100"^^nuva:AIC,
-        "027278112"^^nuva:AIC,
-        "027278124"^^nuva:AIC,
-        "027278136"^^nuva:AIC,
-        "027278148"^^nuva:AIC,
-        "027278151"^^nuva:AIC,
-        "027278163"^^nuva:AIC,
-        "027278175"^^nuva:AIC,
-        "027278187"^^nuva:AIC,
-        "027278199"^^nuva:AIC,
-        "027278201"^^nuva:AIC,
-        "027278213"^^nuva:AIC,
-        "027278225"^^nuva:AIC,
         "3400932015030"^^nuva:CIP,
         "3400932015269"^^nuva:CIP,
         "3400932015320"^^nuva:CIP,
@@ -1244,11 +1047,6 @@ nuva:VAC0022 a owl:Class ;
     rdfs:comment "Meningococcal conjugate vaccine, serogroup C (conjugated to tetanus toxoid)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "035602"^^nuva:AIC,
-        "035602010"^^nuva:AIC,
-        "035602022"^^nuva:AIC,
-        "035602034"^^nuva:AIC,
-        "035602046"^^nuva:AIC,
-        "035602059"^^nuva:AIC,
         "3400936276857"^^nuva:CIP,
         "3400936276918"^^nuva:CIP,
         "3400936277168"^^nuva:CIP,
@@ -1275,16 +1073,6 @@ nuva:VAC0023 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, 5 components, standard dose), Haemophilus influenzae type b (conjugated to tetanus toxoid) and inactivated polio (trivalent) pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "034126"^^nuva:AIC,
-        "034126019"^^nuva:AIC,
-        "034126021"^^nuva:AIC,
-        "034126033"^^nuva:AIC,
-        "034126045"^^nuva:AIC,
-        "034126058"^^nuva:AIC,
-        "034126060"^^nuva:AIC,
-        "034126072"^^nuva:AIC,
-        "034126084"^^nuva:AIC,
-        "034126096"^^nuva:AIC,
-        "034126108"^^nuva:AIC,
         "3400934774416"^^nuva:CIP,
         "3400934821981"^^nuva:CIP,
         "3400935166784"^^nuva:CIP,
@@ -1347,7 +1135,6 @@ nuva:VAC0024 a owl:Class ;
     rdfs:comment "Unconjgated pneumococcal polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "027644"^^nuva:AIC,
-        "027644018"^^nuva:AIC,
         "3400932434824"^^nuva:CIP,
         "3400934233272"^^nuva:CIP,
         "3400936873452"^^nuva:CIP,
@@ -1379,13 +1166,6 @@ nuva:VAC0025 a owl:Class ;
     rdfs:comment "Pneumococcal conjugate vaccine, 7-valent, adsorbed, serotypes 4, 6B, 9V, 14, 18C, 19F and 23F"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "035053"^^nuva:AIC,
-        "035053014"^^nuva:AIC,
-        "035053026"^^nuva:AIC,
-        "035053038"^^nuva:AIC,
-        "035053040"^^nuva:AIC,
-        "035053053"^^nuva:AIC,
-        "035053065"^^nuva:AIC,
-        "035053077"^^nuva:AIC,
         "3400935526809"^^nuva:CIP,
         "3400935526977"^^nuva:CIP,
         "3400935527059"^^nuva:CIP,
@@ -1449,9 +1229,6 @@ nuva:VAC0028 a owl:Class ;
     rdfs:comment "Whole virion inactivated rabies vaccine, Flury LEP strain, purified chick embryo cell vaccine (PCECV), inactivated with ß-propiolactone"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "035947"^^nuva:AIC,
-        "035947011"^^nuva:AIC,
-        "035947023"^^nuva:AIC,
-        "035947035"^^nuva:AIC,
         "3400930071595"^^nuva:CIP,
         "3400936276796"^^nuva:CIP,
         "3400936466593"^^nuva:CIP,
@@ -1545,19 +1322,6 @@ nuva:VAC0030 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (low dose), tetanus toxoid and inactivated polio (trivalent) vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "034457"^^nuva:AIC,
-        "034457010"^^nuva:AIC,
-        "034457022"^^nuva:AIC,
-        "034457034"^^nuva:AIC,
-        "034457046"^^nuva:AIC,
-        "034457059"^^nuva:AIC,
-        "034457061"^^nuva:AIC,
-        "034457073"^^nuva:AIC,
-        "034457085"^^nuva:AIC,
-        "034457097"^^nuva:AIC,
-        "034457109"^^nuva:AIC,
-        "034457111"^^nuva:AIC,
-        "034457123"^^nuva:AIC,
-        "034457135"^^nuva:AIC,
         "3400935259967"^^nuva:CIP,
         "3400935260048"^^nuva:CIP,
         "3400935308566"^^nuva:CIP,
@@ -1611,8 +1375,6 @@ nuva:VAC0031 a owl:Class ;
     rdfs:comment "Live attenuated pentavalent rotavirus vaccine, oral"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "037455"^^nuva:AIC,
-        "037455019"^^nuva:AIC,
-        "037455021"^^nuva:AIC,
         "3400937622363"^^nuva:CIP,
         "3400956970988"^^nuva:CIP,
         "66396810"^^nuva:CIS,
@@ -1621,9 +1383,13 @@ nuva:VAC0031 a owl:Class ;
         "4280848"^^nuva:CNK,
         "4490991"^^nuva:CNK,
         "654712"^^nuva:CODE_NATIONAL_SPAIN,
+        "701245"^^nuva:CODE_NATIONAL_SPAIN,
         "709886"^^nuva:CODE_NATIONAL_SPAIN,
         "729226"^^nuva:CODE_NATIONAL_SPAIN,
         "731044"^^nuva:CODE_NATIONAL_SPAIN,
+        "759162"^^nuva:CODE_NATIONAL_SPAIN,
+        "763538"^^nuva:CODE_NATIONAL_SPAIN,
+        "765410"^^nuva:CODE_NATIONAL_SPAIN,
         "0436876"^^nuva:CP-NRONATIDENT,
         "0906292"^^nuva:CP-NRONATIDENT,
         "288881"^^nuva:CTI,
@@ -1657,7 +1423,6 @@ nuva:VAC0032 a owl:Class ;
     rdfs:comment "Live attenuated measles vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026526"^^nuva:AIC,
-        "026526018"^^nuva:AIC,
         "3400930926758"^^nuva:CIP,
         "3400932859313"^^nuva:CIP,
         "3400932859481"^^nuva:CIP,
@@ -1680,8 +1445,6 @@ nuva:VAC0033 a owl:Class ;
     rdfs:comment "Live attenuated rubella vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "023281"^^nuva:AIC,
-        "023281013"^^nuva:AIC,
-        "023281025"^^nuva:AIC,
         "3400931832836"^^nuva:CIP,
         "3400937084789"^^nuva:CIP,
         "3400955150398"^^nuva:CIP,
@@ -1689,6 +1452,7 @@ nuva:VAC0033 a owl:Class ;
         "8618322"^^nuva:INFARMED,
         "['0033']"^^nuva:NUVACode,
         "961002000102"^^nuva:SCT_NUVA,
+        "112"^^nuva:SWISSMEDIC,
         "VAC0033"^^xsd:string .
 
 nuva:VAC0034 a owl:Class ;
@@ -1714,9 +1478,6 @@ nuva:VAC0035 a owl:Class ;
     rdfs:comment "Live attenuated yellow fever vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026970"^^nuva:AIC,
-        "026970018"^^nuva:AIC,
-        "026970020"^^nuva:AIC,
-        "026970032"^^nuva:AIC,
         "3400930057667"^^nuva:CIP,
         "3400930057698"^^nuva:CIP,
         "3400933658830"^^nuva:CIP,
@@ -1736,6 +1497,8 @@ nuva:VAC0035 a owl:Class ;
         "2231926"^^nuva:CNK,
         "4654869"^^nuva:CNK,
         "654297"^^nuva:CODE_NATIONAL_SPAIN,
+        "654455"^^nuva:CODE_NATIONAL_SPAIN,
+        "895524"^^nuva:CODE_NATIONAL_SPAIN,
         "0432944"^^nuva:CP-NRONATIDENT,
         "185062"^^nuva:CTI,
         "185062-01"^^nuva:CTI-EXTEND,
@@ -1795,16 +1558,6 @@ nuva:VAC0037 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, standard dose) and inactivated polio (trivalent) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "034127"^^nuva:AIC,
-        "034127011"^^nuva:AIC,
-        "034127023"^^nuva:AIC,
-        "034127035"^^nuva:AIC,
-        "034127047"^^nuva:AIC,
-        "034127050"^^nuva:AIC,
-        "034127062"^^nuva:AIC,
-        "034127074"^^nuva:AIC,
-        "034127086"^^nuva:AIC,
-        "034127098"^^nuva:AIC,
-        "034127100"^^nuva:AIC,
         "3400934822124"^^nuva:CIP,
         "3400934822353"^^nuva:CIP,
         "3400935166845"^^nuva:CIP,
@@ -1855,24 +1608,6 @@ nuva:VAC0038 a owl:Class ;
     rdfs:comment "Tick-borne encephalitis vaccine, whole-virus inactivated, Neudörfl strain, adult dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "034409"^^nuva:AIC,
-        "034409019"^^nuva:AIC,
-        "034409021"^^nuva:AIC,
-        "036515017"^^nuva:AIC,
-        "036515029"^^nuva:AIC,
-        "036515031"^^nuva:AIC,
-        "036515043"^^nuva:AIC,
-        "036515132"^^nuva:AIC,
-        "036515144"^^nuva:AIC,
-        "036515157"^^nuva:AIC,
-        "036515169"^^nuva:AIC,
-        "036515171"^^nuva:AIC,
-        "036515183"^^nuva:AIC,
-        "036515195"^^nuva:AIC,
-        "036515207"^^nuva:AIC,
-        "036515219"^^nuva:AIC,
-        "036515221"^^nuva:AIC,
-        "036515233"^^nuva:AIC,
-        "036515245"^^nuva:AIC,
         "3400927841705"^^nuva:CIP,
         "3400927841873"^^nuva:CIP,
         "3400936467606"^^nuva:CIP,
@@ -1897,23 +1632,7 @@ nuva:VAC0039 a owl:Class ;
     dcterms:modified "2025-04-09"^^xsd:date ;
     rdfs:comment "Tick-borne encephalitis vaccine, whole-virus inactivated, pediatric dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "036515056"^^nuva:AIC,
-        "036515068"^^nuva:AIC,
-        "036515070"^^nuva:AIC,
-        "036515082"^^nuva:AIC,
-        "036515094"^^nuva:AIC,
-        "036515106"^^nuva:AIC,
-        "036515118"^^nuva:AIC,
-        "036515120"^^nuva:AIC,
-        "036515258"^^nuva:AIC,
-        "036515260"^^nuva:AIC,
-        "036515272"^^nuva:AIC,
-        "036515284"^^nuva:AIC,
-        "036515296"^^nuva:AIC,
-        "036515308"^^nuva:AIC,
-        "036515310"^^nuva:AIC,
-        "036515322"^^nuva:AIC,
-        "3400936774827"^^nuva:CIP,
+    skos:notation "3400936774827"^^nuva:CIP,
         "3400936774995"^^nuva:CIP,
         "3400936775077"^^nuva:CIP,
         "3400936775138"^^nuva:CIP,
@@ -1961,8 +1680,6 @@ nuva:VAC0041 a owl:Class ;
     rdfs:comment "Polysaccharide typhoid vaccine (Vi capsular antigen)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "029153"^^nuva:AIC,
-        "029153018"^^nuva:AIC,
-        "029153020"^^nuva:AIC,
         "3400922132372"^^nuva:CIP,
         "3400933150693"^^nuva:CIP,
         "3400933150754"^^nuva:CIP,
@@ -1976,7 +1693,9 @@ nuva:VAC0041 a owl:Class ;
         "68790394"^^nuva:CIS,
         "1029719"^^nuva:CNK,
         "2231934"^^nuva:CNK,
+        "652467"^^nuva:CODE_NATIONAL_SPAIN,
         "652468"^^nuva:CODE_NATIONAL_SPAIN,
+        "762833"^^nuva:CODE_NATIONAL_SPAIN,
         "0188036"^^nuva:CP-NRONATIDENT,
         "0472614"^^nuva:CP-NRONATIDENT,
         "160307"^^nuva:CTI,
@@ -2067,15 +1786,6 @@ nuva:VAC0044 a owl:Class ;
     rdfs:comment "Human Papillomavirus vaccine, based on VLP (Virus Like Particles), bivalent (types 16 and 18), recombinant, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "038120"^^nuva:AIC,
-        "038120010"^^nuva:AIC,
-        "038120022"^^nuva:AIC,
-        "038120034"^^nuva:AIC,
-        "038120046"^^nuva:AIC,
-        "038120059"^^nuva:AIC,
-        "038120061"^^nuva:AIC,
-        "038120073"^^nuva:AIC,
-        "038120085"^^nuva:AIC,
-        "038120097"^^nuva:AIC,
         "3400938163926"^^nuva:CIP,
         "3400938164237"^^nuva:CIP,
         "3400938165128"^^nuva:CIP,
@@ -2090,7 +1800,9 @@ nuva:VAC0044 a owl:Class ;
         "64995512"^^nuva:CIS,
         "2385136"^^nuva:CNK,
         "3147410"^^nuva:CNK,
+        "602850"^^nuva:CODE_NATIONAL_SPAIN,
         "602851"^^nuva:CODE_NATIONAL_SPAIN,
+        "659683"^^nuva:CODE_NATIONAL_SPAIN,
         "659685"^^nuva:CODE_NATIONAL_SPAIN,
         "715764"^^nuva:CODE_NATIONAL_SPAIN,
         "0467483"^^nuva:CP-NRONATIDENT,
@@ -2153,13 +1865,7 @@ nuva:VAC0045 a owl:Class ;
     dcterms:modified "2025-06-04"^^xsd:date ;
     rdfs:comment "Hepatitis B recombinant vaccine, pediatric dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "026653055"^^nuva:AIC,
-        "026653067"^^nuva:AIC,
-        "026653093"^^nuva:AIC,
-        "026653105"^^nuva:AIC,
-        "026653117"^^nuva:AIC,
-        "026653129"^^nuva:AIC,
-        "026653131"^^nuva:AIC,
+    skos:notation "026653"^^nuva:AIC,
         "3400930071649"^^nuva:CIP,
         "3400930071656"^^nuva:CIP,
         "3400930071663"^^nuva:CIP,
@@ -2210,9 +1916,7 @@ nuva:VAC0046 a owl:Class ;
     dcterms:modified "2025-09-23"^^xsd:date ;
     rdfs:comment "Recombinant hepatitis B vaccine, adult dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "026653079"^^nuva:AIC,
-        "026653081"^^nuva:AIC,
-        "3400930071601"^^nuva:CIP,
+    skos:notation "3400930071601"^^nuva:CIP,
         "3400930071625"^^nuva:CIP,
         "3400930071632"^^nuva:CIP,
         "3400933115456"^^nuva:CIP,
@@ -2269,6 +1973,7 @@ nuva:VAC0046 a owl:Class ;
         "07504672"^^nuva:PZN,
         "07504689"^^nuva:PZN,
         "1181002000108"^^nuva:SCT_NUVA,
+        "170"^^nuva:SWISSMEDIC,
         "534"^^nuva:SWISSMEDIC,
         "VAC0046"^^xsd:string .
 
@@ -2281,32 +1986,7 @@ nuva:VAC0047 a owl:Class ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, split virion"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "029245"^^nuva:AIC,
-        "029245014"^^nuva:AIC,
-        "029245026"^^nuva:AIC,
-        "029245038"^^nuva:AIC,
-        "029245040"^^nuva:AIC,
-        "029245053"^^nuva:AIC,
-        "029245065"^^nuva:AIC,
-        "029245077"^^nuva:AIC,
-        "029245089"^^nuva:AIC,
-        "029245091"^^nuva:AIC,
-        "029245103"^^nuva:AIC,
-        "029245115"^^nuva:AIC,
-        "029245127"^^nuva:AIC,
-        "029245139"^^nuva:AIC,
-        "029245141"^^nuva:AIC,
-        "029245154"^^nuva:AIC,
-        "029245166"^^nuva:AIC,
-        "029245178"^^nuva:AIC,
-        "029245180"^^nuva:AIC,
-        "029245192"^^nuva:AIC,
-        "029245204"^^nuva:AIC,
-        "029245216"^^nuva:AIC,
-        "029245228"^^nuva:AIC,
-        "029245230"^^nuva:AIC,
-        "029245242"^^nuva:AIC,
-        "029245255"^^nuva:AIC,
-        "029245267"^^nuva:AIC,
+        "051402"^^nuva:AIC,
         "3400930007747"^^nuva:CIP,
         "3400930007754"^^nuva:CIP,
         "3400930007761"^^nuva:CIP,
@@ -2319,6 +1999,11 @@ nuva:VAC0047 a owl:Class ;
         "3400934129964"^^nuva:CIP,
         "69447142"^^nuva:CIS,
         "606232"^^nuva:CODE_NATIONAL_SPAIN,
+        "607860"^^nuva:CODE_NATIONAL_SPAIN,
+        "607861"^^nuva:CODE_NATIONAL_SPAIN,
+        "766932"^^nuva:CODE_NATIONAL_SPAIN,
+        "766933"^^nuva:CODE_NATIONAL_SPAIN,
+        "766934"^^nuva:CODE_NATIONAL_SPAIN,
         "842781"^^nuva:CODE_NATIONAL_SPAIN,
         "3927186"^^nuva:ELGA,
         "2454684"^^nuva:INFARMED,
@@ -2364,12 +2049,7 @@ nuva:VAC0049 a owl:Class ;
     dcterms:modified "2025-04-09"^^xsd:date ;
     rdfs:comment "Inactivated hepatitis A vaccine, adult dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "028725113"^^nuva:AIC,
-        "028725125"^^nuva:AIC,
-        "028725149"^^nuva:AIC,
-        "029545"^^nuva:AIC,
-        "029545011"^^nuva:AIC,
-        "029545023"^^nuva:AIC,
+    skos:notation "029545"^^nuva:AIC,
         "3400930128367"^^nuva:CIP,
         "3400930128374"^^nuva:CIP,
         "3400933775094"^^nuva:CIP,
@@ -2417,10 +2097,7 @@ nuva:VAC0050 a owl:Class ;
     dcterms:modified "2025-04-09"^^xsd:date ;
     rdfs:comment "Inactivated hepatitis A vaccine, pediatric dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "028725099"^^nuva:AIC,
-        "028725101"^^nuva:AIC,
-        "028725137"^^nuva:AIC,
-        "3400930128985"^^nuva:CIP,
+    skos:notation "3400930128985"^^nuva:CIP,
         "3400930128992"^^nuva:CIP,
         "3400933558505"^^nuva:CIP,
         "3400934760396"^^nuva:CIP,
@@ -2454,6 +2131,7 @@ nuva:VAC0050 a owl:Class ;
         "['0050']"^^nuva:NUVACode,
         "07728093"^^nuva:PZN,
         "1231002000103"^^nuva:SCT_NUVA,
+        "165"^^nuva:SWISSMEDIC,
         "599"^^nuva:SWISSMEDIC,
         "VAC0050"^^xsd:string .
 
@@ -2481,6 +2159,7 @@ nuva:VAC0051 a owl:Class ;
         "5835244"^^nuva:INFARMED,
         "['0051']"^^nuva:NUVACode,
         "1241002000106"^^nuva:SCT_NUVA,
+        "35"^^nuva:SWISSMEDIC,
         "VAC0051"^^xsd:string .
 
 nuva:VAC0052 a owl:Class ;
@@ -2502,6 +2181,8 @@ nuva:VAC0052 a owl:Class ;
         "65277632"^^nuva:CIS,
         "['0052']"^^nuva:NUVACode,
         "1251002000108"^^nuva:SCT_NUVA,
+        "55"^^nuva:SWISSMEDIC,
+        "95"^^nuva:SWISSMEDIC,
         "VAC0052"^^xsd:string .
 
 nuva:VAC0053 a owl:Class ;
@@ -2515,27 +2196,6 @@ nuva:VAC0053 a owl:Class ;
     rdfs:comment "Live attenuated measles, mumps and rubella vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "034199"^^nuva:AIC,
-        "034199012"^^nuva:AIC,
-        "034199024"^^nuva:AIC,
-        "034199036"^^nuva:AIC,
-        "034199048"^^nuva:AIC,
-        "034199051"^^nuva:AIC,
-        "034199063"^^nuva:AIC,
-        "034199075"^^nuva:AIC,
-        "034199087"^^nuva:AIC,
-        "034199099"^^nuva:AIC,
-        "034199101"^^nuva:AIC,
-        "034199113"^^nuva:AIC,
-        "034199125"^^nuva:AIC,
-        "034199137"^^nuva:AIC,
-        "034199149"^^nuva:AIC,
-        "034199152"^^nuva:AIC,
-        "034199164"^^nuva:AIC,
-        "034199176"^^nuva:AIC,
-        "034199188"^^nuva:AIC,
-        "034199190"^^nuva:AIC,
-        "034199202"^^nuva:AIC,
-        "034199214"^^nuva:AIC,
         "3400935081308"^^nuva:CIP,
         "3400935081476"^^nuva:CIP,
         "3400935081537"^^nuva:CIP,
@@ -2662,16 +2322,7 @@ nuva:VAC0057 a owl:Class ;
     dcterms:modified "2025-04-09"^^xsd:date ;
     rdfs:comment "Combined hepatitis A and B vaccine, adult dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "033014010"^^nuva:AIC,
-        "033014022"^^nuva:AIC,
-        "033014034"^^nuva:AIC,
-        "033014046"^^nuva:AIC,
-        "033014059"^^nuva:AIC,
-        "033014061"^^nuva:AIC,
-        "033014162"^^nuva:AIC,
-        "033014174"^^nuva:AIC,
-        "033014186"^^nuva:AIC,
-        "3400934206597"^^nuva:CIP,
+    skos:notation "3400934206597"^^nuva:CIP,
         "3400934206658"^^nuva:CIP,
         "3400934206719"^^nuva:CIP,
         "3400934206887"^^nuva:CIP,
@@ -2682,6 +2333,7 @@ nuva:VAC0057 a owl:Class ;
         "65991659"^^nuva:CIS,
         "1272665"^^nuva:CNK,
         "857946"^^nuva:CODE_NATIONAL_SPAIN,
+        "858258"^^nuva:CODE_NATIONAL_SPAIN,
         "0228162"^^nuva:CP-NRONATIDENT,
         "181833-01"^^nuva:CTI-EXTEND,
         "181842-01"^^nuva:CTI-EXTEND,
@@ -2728,17 +2380,7 @@ nuva:VAC0058 a owl:Class ;
     dcterms:modified "2025-04-09"^^xsd:date ;
     rdfs:comment "Combined hepatitis A and B vaccine, pediatric dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "033014073"^^nuva:AIC,
-        "033014085"^^nuva:AIC,
-        "033014097"^^nuva:AIC,
-        "033014109"^^nuva:AIC,
-        "033014111"^^nuva:AIC,
-        "033014123"^^nuva:AIC,
-        "033014135"^^nuva:AIC,
-        "033014147"^^nuva:AIC,
-        "033014150"^^nuva:AIC,
-        "033014198"^^nuva:AIC,
-        "3400934310546"^^nuva:CIP,
+    skos:notation "3400934310546"^^nuva:CIP,
         "3400934310607"^^nuva:CIP,
         "3400934310775"^^nuva:CIP,
         "3400934310836"^^nuva:CIP,
@@ -2747,7 +2389,11 @@ nuva:VAC0058 a owl:Class ;
         "64737775"^^nuva:CIS,
         "69567686"^^nuva:CIS,
         "1327485"^^nuva:CNK,
+        "668459"^^nuva:CODE_NATIONAL_SPAIN,
+        "754572"^^nuva:CODE_NATIONAL_SPAIN,
+        "754911"^^nuva:CODE_NATIONAL_SPAIN,
         "803767"^^nuva:CODE_NATIONAL_SPAIN,
+        "803775"^^nuva:CODE_NATIONAL_SPAIN,
         "0232215"^^nuva:CP-NRONATIDENT,
         "181824-01"^^nuva:CTI-EXTEND,
         "182007-01"^^nuva:CTI-EXTEND,
@@ -2780,6 +2426,7 @@ nuva:VAC0058 a owl:Class ;
         "07728070"^^nuva:PZN,
         "07728087"^^nuva:PZN,
         "1331002000109"^^nuva:SCT_NUVA,
+        "74"^^nuva:SWISSMEDIC,
         "VAC0058"^^xsd:string .
 
 nuva:VAC0059 a owl:Class ;
@@ -2791,16 +2438,6 @@ nuva:VAC0059 a owl:Class ;
     rdfs:comment "Polysaccharide typhoid vaccine (Vi capsular antigen)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "034461"^^nuva:AIC,
-        "034461018"^^nuva:AIC,
-        "034461020"^^nuva:AIC,
-        "034461032"^^nuva:AIC,
-        "034461044"^^nuva:AIC,
-        "034461057"^^nuva:AIC,
-        "034461069"^^nuva:AIC,
-        "034461071"^^nuva:AIC,
-        "034461083"^^nuva:AIC,
-        "034461095"^^nuva:AIC,
-        "034461107"^^nuva:AIC,
         "3400935080356"^^nuva:CIP,
         "3400935080417"^^nuva:CIP,
         "3400935080585"^^nuva:CIP,
@@ -2828,8 +2465,6 @@ nuva:VAC0060 a owl:Class ;
     rdfs:comment "Live attenuated chickenpox vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "028427"^^nuva:AIC,
-        "028427019"^^nuva:AIC,
-        "028427021"^^nuva:AIC,
         "3400930128381"^^nuva:CIP,
         "3400936277229"^^nuva:CIP,
         "62521070"^^nuva:CIS,
@@ -2869,15 +2504,6 @@ nuva:VAC0061 a owl:Class ;
     rdfs:comment "Live attenuated chickenpox vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "035032"^^nuva:AIC,
-        "035032010"^^nuva:AIC,
-        "035032022"^^nuva:AIC,
-        "035032034"^^nuva:AIC,
-        "035032046"^^nuva:AIC,
-        "035032059"^^nuva:AIC,
-        "035032061"^^nuva:AIC,
-        "035032073"^^nuva:AIC,
-        "035032085"^^nuva:AIC,
-        "035032097"^^nuva:AIC,
         "3400936276628"^^nuva:CIP,
         "3400936467194"^^nuva:CIP,
         "3400936467774"^^nuva:CIP,
@@ -2886,7 +2512,10 @@ nuva:VAC0061 a owl:Class ;
         "3400936876583"^^nuva:CIP,
         "69201849"^^nuva:CIS,
         "3906781"^^nuva:CNK,
+        "650729"^^nuva:CODE_NATIONAL_SPAIN,
         "651402"^^nuva:CODE_NATIONAL_SPAIN,
+        "651403"^^nuva:CODE_NATIONAL_SPAIN,
+        "751826"^^nuva:CODE_NATIONAL_SPAIN,
         "0359231"^^nuva:CP-NRONATIDENT,
         "0374157"^^nuva:CP-NRONATIDENT,
         "255954"^^nuva:CTI,
@@ -2921,46 +2550,7 @@ nuva:VAC0062 a owl:Class ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, split virion"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026032"^^nuva:AIC,
-        "026032019"^^nuva:AIC,
-        "026032021"^^nuva:AIC,
-        "026032033"^^nuva:AIC,
-        "026032045"^^nuva:AIC,
-        "026032058"^^nuva:AIC,
-        "026032060"^^nuva:AIC,
-        "026032072"^^nuva:AIC,
-        "026032084"^^nuva:AIC,
-        "026032096"^^nuva:AIC,
-        "026032108"^^nuva:AIC,
-        "026032110"^^nuva:AIC,
-        "026032122"^^nuva:AIC,
-        "026032134"^^nuva:AIC,
-        "026032146"^^nuva:AIC,
-        "026032159"^^nuva:AIC,
-        "026032161"^^nuva:AIC,
-        "026032173"^^nuva:AIC,
-        "026032185"^^nuva:AIC,
-        "026032197"^^nuva:AIC,
-        "026032209"^^nuva:AIC,
-        "026032211"^^nuva:AIC,
-        "026032223"^^nuva:AIC,
-        "026032235"^^nuva:AIC,
-        "026032247"^^nuva:AIC,
-        "026032250"^^nuva:AIC,
-        "026032262"^^nuva:AIC,
-        "026032274"^^nuva:AIC,
-        "026032286"^^nuva:AIC,
-        "026032298"^^nuva:AIC,
-        "026032300"^^nuva:AIC,
-        "026032312"^^nuva:AIC,
-        "026032324"^^nuva:AIC,
-        "026032336"^^nuva:AIC,
-        "026032348"^^nuva:AIC,
-        "026032351"^^nuva:AIC,
-        "026032363"^^nuva:AIC,
-        "026032375"^^nuva:AIC,
-        "026032387"^^nuva:AIC,
-        "026032399"^^nuva:AIC,
-        "026032401"^^nuva:AIC,
+        "051670"^^nuva:AIC,
         "3400930306000"^^nuva:CIP,
         "3400930306017"^^nuva:CIP,
         "3400930306024"^^nuva:CIP,
@@ -3011,6 +2601,11 @@ nuva:VAC0062 a owl:Class ;
         "3431970"^^nuva:CNK,
         "4889275"^^nuva:CNK,
         "661464"^^nuva:CODE_NATIONAL_SPAIN,
+        "766214"^^nuva:CODE_NATIONAL_SPAIN,
+        "766215"^^nuva:CODE_NATIONAL_SPAIN,
+        "766216"^^nuva:CODE_NATIONAL_SPAIN,
+        "768121"^^nuva:CODE_NATIONAL_SPAIN,
+        "768124"^^nuva:CODE_NATIONAL_SPAIN,
         "830885"^^nuva:CODE_NATIONAL_SPAIN,
         "663512"^^nuva:CTI,
         "663512-01"^^nuva:CTI-EXTEND,
@@ -3063,6 +2658,7 @@ nuva:VAC0063 a owl:Class ;
         "3475886"^^nuva:INFARMED,
         "['0063']"^^nuva:NUVACode,
         "1401002000105"^^nuva:SCT_NUVA,
+        "106"^^nuva:SWISSMEDIC,
         "VAC0063"^^xsd:string .
 
 nuva:VAC0064 a owl:Class ;
@@ -3087,6 +2683,7 @@ nuva:VAC0064 a owl:Class ;
         "69225227"^^nuva:CIS,
         "['0064']"^^nuva:NUVACode,
         "1411002000108"^^nuva:SCT_NUVA,
+        "99"^^nuva:SWISSMEDIC,
         "VAC0064"^^xsd:string .
 
 nuva:VAC0066 a owl:Class ;
@@ -3125,6 +2722,7 @@ nuva:VAC0067 a owl:Class ;
         "1097369"^^nuva:CNK,
         "['0067']"^^nuva:NUVACode,
         "1431002000104"^^nuva:SCT_NUVA,
+        "115"^^nuva:SWISSMEDIC,
         "VAC0067"^^xsd:string .
 
 nuva:VAC0068 a owl:Class ;
@@ -3154,7 +2752,6 @@ nuva:VAC0069 a owl:Class ;
     rdfs:comment "Unconjugated meningococcal polysaccharide vaccine, serogroups A, C, W and Y"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "029196"^^nuva:AIC,
-        "029196019"^^nuva:AIC,
         "3400935963871"^^nuva:CIP,
         "3400958916762"^^nuva:CIP,
         "3400958916991"^^nuva:CIP,
@@ -3215,8 +2812,6 @@ nuva:VAC0073 a owl:Class ;
     rdfs:comment "Whole virion inactivated Japanese encephalitis vaccine, Vero cell-derived, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "039220"^^nuva:AIC,
-        "039220013"^^nuva:AIC,
-        "039220025"^^nuva:AIC,
         "3400939395807"^^nuva:CIP,
         "3400939395975"^^nuva:CIP,
         "62816512"^^nuva:CIS,
@@ -3303,7 +2898,6 @@ nuva:VAC0077 a owl:Class ;
     rdfs:comment "Live attenuated mumps vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026757"^^nuva:AIC,
-        "026757017"^^nuva:AIC,
         "3400932645671"^^nuva:CIP,
         "3400932645732"^^nuva:CIP,
         "3400932645961"^^nuva:CIP,
@@ -3322,7 +2916,6 @@ nuva:VAC0078 a owl:Class ;
     rdfs:comment "Live attenuated measles and rubella vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026771"^^nuva:AIC,
-        "026771016"^^nuva:AIC,
         "3400932498697"^^nuva:CIP,
         "3400932498758"^^nuva:CIP,
         "3400932498819"^^nuva:CIP,
@@ -3373,6 +2966,7 @@ nuva:VAC0080 a owl:Class ;
         "01914537"^^nuva:DIN,
         "['0080']"^^nuva:NUVACode,
         "1581002000104"^^nuva:SCT_NUVA,
+        "87"^^nuva:SWISSMEDIC,
         "VAC0080"^^xsd:string .
 
 nuva:VAC0082 a owl:Class ;
@@ -3405,23 +2999,12 @@ nuva:VAC0083 a owl:Class ;
     rdfs:comment "Pneumococcal polysaccharide conjugate vaccine, 10-valent, seroptypes 1, 4, 5, 6B, 7F, 9V, 14, 18C, 19F and 23F"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "039104"^^nuva:AIC,
-        "039104017"^^nuva:AIC,
-        "039104029"^^nuva:AIC,
-        "039104031"^^nuva:AIC,
-        "039104043"^^nuva:AIC,
-        "039104056"^^nuva:AIC,
-        "039104068"^^nuva:AIC,
-        "039104070"^^nuva:AIC,
-        "039104082"^^nuva:AIC,
-        "039104094"^^nuva:AIC,
-        "039104106"^^nuva:AIC,
-        "039104118"^^nuva:AIC,
-        "039104120"^^nuva:AIC,
         "3400930074701"^^nuva:CIP,
         "3400930074718"^^nuva:CIP,
         "3400930074725"^^nuva:CIP,
         "68957822"^^nuva:CIS,
         "2620888"^^nuva:CNK,
+        "603136"^^nuva:CODE_NATIONAL_SPAIN,
         "662990"^^nuva:CODE_NATIONAL_SPAIN,
         "338545"^^nuva:CTI,
         "338554"^^nuva:CTI,
@@ -3478,7 +3061,6 @@ nuva:VAC0084 a owl:Class ;
     rdfs:comment "Influenza A(H5N1) vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "039230"^^nuva:AIC,
-        "039230014"^^nuva:AIC,
         "1003499009"^^nuva:CVC,
         "123"^^nuva:CVX,
         "160"^^nuva:CVX,
@@ -3627,7 +3209,7 @@ nuva:VAC0094 a owl:Class ;
         nuva:VAL132 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-09-25"^^xsd:date ;
+    dcterms:modified "2026-01-08"^^xsd:date ;
     rdfs:comment "Polio vaccine (live attenuated, trivalent) against polioviruses 1, 2 and 3, oral"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400931506683"^^nuva:CIP,
@@ -3635,6 +3217,7 @@ nuva:VAC0094 a owl:Class ;
         "3400932763177"^^nuva:CIP,
         "3400955372714"^^nuva:CIP,
         "0132704"^^nuva:CNK,
+        "XM1Y59"^^nuva:ICD11,
         "['0094']"^^nuva:NUVACode,
         "1831002000102"^^nuva:SCT_NUVA,
         "VAC0094"^^xsd:string .
@@ -3693,14 +3276,6 @@ nuva:VAC0098 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, standard dose), Haemophilus influenzae type b (conjugated to tetanus toxoid), inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "034948"^^nuva:AIC,
-        "034948012"^^nuva:AIC,
-        "034948024"^^nuva:AIC,
-        "034948036"^^nuva:AIC,
-        "034948048"^^nuva:AIC,
-        "034948051"^^nuva:AIC,
-        "034948063"^^nuva:AIC,
-        "034948075"^^nuva:AIC,
-        "034948087"^^nuva:AIC,
         "3400935495778"^^nuva:CIP,
         "3400936077607"^^nuva:CIP,
         "3400936919969"^^nuva:CIP,
@@ -3746,12 +3321,6 @@ nuva:VAC0099 a owl:Class ;
     rdfs:comment "Meningococcal conjugate vaccine, serogroup C (conjugated to CRM197 Protein)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "035437"^^nuva:AIC,
-        "035437019"^^nuva:AIC,
-        "035437021"^^nuva:AIC,
-        "035437033"^^nuva:AIC,
-        "035437045"^^nuva:AIC,
-        "035437058"^^nuva:AIC,
-        "035437060"^^nuva:AIC,
         "3400935778819"^^nuva:CIP,
         "3400935947734"^^nuva:CIP,
         "3400935947963"^^nuva:CIP,
@@ -3772,10 +3341,6 @@ nuva:VAC0101 a owl:Class ;
     rdfs:comment "Recombinant Hepatitis B vaccine, unspecified dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026653"^^nuva:AIC,
-        "026653016"^^nuva:AIC,
-        "026653028"^^nuva:AIC,
-        "026653030"^^nuva:AIC,
-        "026653042"^^nuva:AIC,
         "035262"^^nuva:AIC,
         "J07BC01"^^nuva:ATC,
         "90731"^^nuva:CPT,
@@ -3797,14 +3362,6 @@ nuva:VAC0102 a owl:Class ;
     rdfs:comment "Inactivated hepatitis A vaccine, pediatric or adult dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "028725"^^nuva:AIC,
-        "028725012"^^nuva:AIC,
-        "028725024"^^nuva:AIC,
-        "028725036"^^nuva:AIC,
-        "028725048"^^nuva:AIC,
-        "028725051"^^nuva:AIC,
-        "028725063"^^nuva:AIC,
-        "028725075"^^nuva:AIC,
-        "028725087"^^nuva:AIC,
         "033247"^^nuva:AIC,
         "033317"^^nuva:AIC,
         "J07BC02"^^nuva:ATC,
@@ -3871,9 +3428,6 @@ nuva:VAC0105 a owl:Class ;
     rdfs:comment "Pandemic influenza A(H1N1)pdm09 vaccine, inactivated"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "039464"^^nuva:AIC,
-        "039464019"^^nuva:AIC,
-        "039464021"^^nuva:AIC,
-        "039464033"^^nuva:AIC,
         "3400939925745"^^nuva:CIP,
         "3400939925806"^^nuva:CIP,
         "3400939925974"^^nuva:CIP,
@@ -3919,13 +3473,13 @@ nuva:VAC0108 a owl:Class ;
     rdfs:comment "Pandemic influenza A(H1N1)pdm09 vaccine, inactivated"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "039228"^^nuva:AIC,
-        "039228010"^^nuva:AIC,
         "3400938654851"^^nuva:CIP,
         "63343973"^^nuva:CIS,
         "EU-1-08-452-001"^^nuva:EU-NUMBER,
         "5118146"^^nuva:INFARMED,
         "['0108']"^^nuva:NUVACode,
         "2021002000103"^^nuva:SCT_NUVA,
+        "141"^^nuva:SWISSMEDIC,
         "VAC0108"^^xsd:string .
 
 nuva:VAC0109 a owl:Class ;
@@ -3937,9 +3491,6 @@ nuva:VAC0109 a owl:Class ;
     rdfs:comment "Pandemic influenza A(H1N1)pdm09 vaccine, inactivated, egg-based, surface antigen, with adjuvant"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "039396"^^nuva:AIC,
-        "039396015"^^nuva:AIC,
-        "039396027"^^nuva:AIC,
-        "039396039"^^nuva:AIC,
         "3400939886091"^^nuva:CIP,
         "3400939886152"^^nuva:CIP,
         "64566840"^^nuva:CIS,
@@ -3949,6 +3500,7 @@ nuva:VAC0109 a owl:Class ;
         "5045851"^^nuva:INFARMED,
         "['0109']"^^nuva:NUVACode,
         "2031002000100"^^nuva:SCT_NUVA,
+        "137"^^nuva:SWISSMEDIC,
         "VAC0109"^^xsd:string .
 
 nuva:VAC0110 a owl:Class ;
@@ -4055,13 +3607,7 @@ nuva:VAC0115 a owl:Class ;
     dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Inactivated hepatitis A vaccine, pediatric dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "033247089"^^nuva:AIC,
-        "033247091"^^nuva:AIC,
-        "033247103"^^nuva:AIC,
-        "033247115"^^nuva:AIC,
-        "033247127"^^nuva:AIC,
-        "033247139"^^nuva:AIC,
-        "3400922459585"^^nuva:CIP,
+    skos:notation "3400922459585"^^nuva:CIP,
         "3400922459646"^^nuva:CIP,
         "3400922459707"^^nuva:CIP,
         "3400935677013"^^nuva:CIP,
@@ -4074,6 +3620,7 @@ nuva:VAC0115 a owl:Class ;
         "3400935678072"^^nuva:CIP,
         "63777215"^^nuva:CIS,
         "63937933"^^nuva:CIS,
+        "730370"^^nuva:CODE_NATIONAL_SPAIN,
         "6861000087105"^^nuva:CVC,
         "02243741"^^nuva:DIN,
         "3400935677242"^^nuva:NTIN,
@@ -4131,18 +3678,6 @@ nuva:VAC0121 a owl:Class ;
     rdfs:comment "Live attenuated measles, mumps, rubella and chickenpox vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "038200"^^nuva:AIC,
-        "038200010"^^nuva:AIC,
-        "038200022"^^nuva:AIC,
-        "038200034"^^nuva:AIC,
-        "038200046"^^nuva:AIC,
-        "038200059"^^nuva:AIC,
-        "038200061"^^nuva:AIC,
-        "038200073"^^nuva:AIC,
-        "038200085"^^nuva:AIC,
-        "038200097"^^nuva:AIC,
-        "038200109"^^nuva:AIC,
-        "038200111"^^nuva:AIC,
-        "038200123"^^nuva:AIC,
         "3400938263671"^^nuva:CIP,
         "3400938263732"^^nuva:CIP,
         "3400938263961"^^nuva:CIP,
@@ -4158,6 +3693,9 @@ nuva:VAC0121 a owl:Class ;
         "66718236"^^nuva:CIS,
         "67106701"^^nuva:CIS,
         "2469567"^^nuva:CNK,
+        "606606"^^nuva:CODE_NATIONAL_SPAIN,
+        "606609"^^nuva:CODE_NATIONAL_SPAIN,
+        "705706"^^nuva:CODE_NATIONAL_SPAIN,
         "705708"^^nuva:CODE_NATIONAL_SPAIN,
         "0742107"^^nuva:CP-NRONATIDENT,
         "303852-01"^^nuva:CTI-EXTEND,
@@ -4197,22 +3735,6 @@ nuva:VAC0123 a owl:Class ;
     rdfs:comment "Pneumococcal polysaccharide conjugate vaccine, 13-valent, adsorbed, serotypes 1, 3, 4 , 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F and 23F"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "039550"^^nuva:AIC,
-        "039550013"^^nuva:AIC,
-        "039550025"^^nuva:AIC,
-        "039550037"^^nuva:AIC,
-        "039550049"^^nuva:AIC,
-        "039550052"^^nuva:AIC,
-        "039550064"^^nuva:AIC,
-        "039550076"^^nuva:AIC,
-        "039550088"^^nuva:AIC,
-        "039550090"^^nuva:AIC,
-        "039550102"^^nuva:AIC,
-        "039550114"^^nuva:AIC,
-        "039550126"^^nuva:AIC,
-        "039550138"^^nuva:AIC,
-        "039550140"^^nuva:AIC,
-        "039550153"^^nuva:AIC,
-        "039550165"^^nuva:AIC,
         "3400939901091"^^nuva:CIP,
         "3400939901152"^^nuva:CIP,
         "3400939901213"^^nuva:CIP,
@@ -4335,12 +3857,12 @@ nuva:VAC0126 a owl:Class ;
     rdfs:comment "Plasma vaccine against hepatitis B (first French vaccine)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "024987"^^nuva:AIC,
-        "024987012"^^nuva:AIC,
         "3400932444878"^^nuva:CIP,
         "0045344"^^nuva:CNK,
         "8578302"^^nuva:INFARMED,
         "['0126']"^^nuva:NUVACode,
         "2221002000105"^^nuva:SCT_NUVA,
+        "118"^^nuva:SWISSMEDIC,
         "VAC0126"^^xsd:string .
 
 nuva:VAC0127 a owl:Class ;
@@ -4361,6 +3883,7 @@ nuva:VAC0127 a owl:Class ;
         "1317817"^^nuva:CNK,
         "['0127']"^^nuva:NUVACode,
         "2231002000108"^^nuva:SCT_NUVA,
+        "162"^^nuva:SWISSMEDIC,
         "VAC0127"^^xsd:string .
 
 nuva:VAC0128 a owl:Class ;
@@ -4380,6 +3903,7 @@ nuva:VAC0128 a owl:Class ;
         "1273309"^^nuva:CNK,
         "['0128']"^^nuva:NUVACode,
         "2241002000100"^^nuva:SCT_NUVA,
+        "163"^^nuva:SWISSMEDIC,
         "VAC0128"^^xsd:string .
 
 nuva:VAC0129 a owl:Class ;
@@ -4395,6 +3919,7 @@ nuva:VAC0129 a owl:Class ;
         "1265412"^^nuva:CNK,
         "['0129']"^^nuva:NUVACode,
         "2251002000103"^^nuva:SCT_NUVA,
+        "164"^^nuva:SWISSMEDIC,
         "VAC0129"^^xsd:string .
 
 nuva:VAC0130 a owl:Class ;
@@ -4486,6 +4011,8 @@ nuva:VAC0133 a owl:Class ;
         "1290625002"^^nuva:SNOMED-CT,
         "836389008"^^nuva:SNOMED-CT,
         "871727001"^^nuva:SNOMED-CT,
+        "144"^^nuva:SWISSMEDIC,
+        "169"^^nuva:SWISSMEDIC,
         "VAC0133"^^xsd:string .
 
 nuva:VAC0134 a owl:Class ;
@@ -4507,6 +4034,7 @@ nuva:VAC0134 a owl:Class ;
         "1861000221106"^^nuva:SNOMED-CT,
         "319941000221104"^^nuva:SNOMED-CT,
         "836402002"^^nuva:SNOMED-CT,
+        "48"^^nuva:SWISSMEDIC,
         "VAC0134"^^xsd:string .
 
 nuva:VAC0135 a owl:Class ;
@@ -4609,12 +4137,6 @@ nuva:VAC0140 a owl:Class ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, split virion, intradermal"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "039425"^^nuva:AIC,
-        "039425018"^^nuva:AIC,
-        "039425020"^^nuva:AIC,
-        "039425032"^^nuva:AIC,
-        "039425044"^^nuva:AIC,
-        "039425057"^^nuva:AIC,
-        "039425069"^^nuva:AIC,
         "3400939522210"^^nuva:CIP,
         "3400957541231"^^nuva:CIP,
         "3400957541460"^^nuva:CIP,
@@ -4650,9 +4172,6 @@ nuva:VAC0141 a owl:Class ;
     rdfs:comment "Quadrivalent meningococcal polysaccharide conjugate vaccine, serogroups A, C, W and Y (conjugated to CRM197 Protein)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "039766"^^nuva:AIC,
-        "039766011"^^nuva:AIC,
-        "039766023"^^nuva:AIC,
-        "039766035"^^nuva:AIC,
         "3400921702903"^^nuva:CIP,
         "3400936037915"^^nuva:CIP,
         "3400941701535"^^nuva:CIP,
@@ -4660,8 +4179,11 @@ nuva:VAC0141 a owl:Class ;
         "2765428"^^nuva:CNK,
         "3062411"^^nuva:CNK,
         "605166"^^nuva:CODE_NATIONAL_SPAIN,
+        "607844"^^nuva:CODE_NATIONAL_SPAIN,
         "665797"^^nuva:CODE_NATIONAL_SPAIN,
         "677725"^^nuva:CODE_NATIONAL_SPAIN,
+        "732333"^^nuva:CODE_NATIONAL_SPAIN,
+        "766387"^^nuva:CODE_NATIONAL_SPAIN,
         "0617479"^^nuva:CP-NRONATIDENT,
         "390022"^^nuva:CTI,
         "398885"^^nuva:CTI,
@@ -5025,19 +4547,6 @@ nuva:VAC0161 a owl:Class ;
     rdfs:comment "Live attenuated shingles vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "037313"^^nuva:AIC,
-        "037313018"^^nuva:AIC,
-        "037313020"^^nuva:AIC,
-        "037313032"^^nuva:AIC,
-        "037313044"^^nuva:AIC,
-        "037313057"^^nuva:AIC,
-        "037313069"^^nuva:AIC,
-        "037313071"^^nuva:AIC,
-        "037313083"^^nuva:AIC,
-        "037313095"^^nuva:AIC,
-        "037313107"^^nuva:AIC,
-        "037313119"^^nuva:AIC,
-        "037313121"^^nuva:AIC,
-        "037313133"^^nuva:AIC,
         "3400937592574"^^nuva:CIP,
         "3400937592635"^^nuva:CIP,
         "3400937592864"^^nuva:CIP,
@@ -5166,11 +4675,7 @@ nuva:VAC0165 a owl:Class ;
     dcterms:modified "2025-04-09"^^xsd:date ;
     rdfs:comment "Inactivated hepatitis A vaccine, pediatric dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "033317025"^^nuva:AIC,
-        "033317049"^^nuva:AIC,
-        "033317052"^^nuva:AIC,
-        "033317064"^^nuva:AIC,
-        "3400934293535"^^nuva:CIP,
+    skos:notation "3400934293535"^^nuva:CIP,
         "3400934293764"^^nuva:CIP,
         "3400934293825"^^nuva:CIP,
         "3400934293993"^^nuva:CIP,
@@ -5185,6 +4690,7 @@ nuva:VAC0165 a owl:Class ;
         "3020278"^^nuva:CNK,
         "652442"^^nuva:CODE_NATIONAL_SPAIN,
         "670067"^^nuva:CODE_NATIONAL_SPAIN,
+        "670075"^^nuva:CODE_NATIONAL_SPAIN,
         "0433213"^^nuva:CP-NRONATIDENT,
         "187004"^^nuva:CTI,
         "187013"^^nuva:CTI,
@@ -5239,11 +4745,7 @@ nuva:VAC0166 a owl:Class ;
     dcterms:modified "2025-04-10"^^xsd:date ;
     rdfs:comment "Inactivated hepatitis A vaccine, adult dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "033317013"^^nuva:AIC,
-        "033317037"^^nuva:AIC,
-        "033317076"^^nuva:AIC,
-        "033317088"^^nuva:AIC,
-        "3400934292705"^^nuva:CIP,
+    skos:notation "3400934292705"^^nuva:CIP,
         "3400934292873"^^nuva:CIP,
         "3400934292934"^^nuva:CIP,
         "3400934293016"^^nuva:CIP,
@@ -5257,6 +4759,7 @@ nuva:VAC0166 a owl:Class ;
         "1422765"^^nuva:CNK,
         "3019601"^^nuva:CNK,
         "652443"^^nuva:CODE_NATIONAL_SPAIN,
+        "670083"^^nuva:CODE_NATIONAL_SPAIN,
         "0433065"^^nuva:CP-NRONATIDENT,
         "187022"^^nuva:CTI,
         "187031"^^nuva:CTI,
@@ -5292,6 +4795,7 @@ nuva:VAC0166 a owl:Class ;
         "04397750"^^nuva:PZN,
         "04397767"^^nuva:PZN,
         "2801002000103"^^nuva:SCT_NUVA,
+        "110"^^nuva:SWISSMEDIC,
         "VAC0166"^^xsd:string .
 
 nuva:VAC0168 a owl:Class ;
@@ -5304,11 +4808,8 @@ nuva:VAC0168 a owl:Class ;
     rdfs:comment "Combined hepatitis A and B vaccine, pediatric dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "035686"^^nuva:AIC,
-        "035686017"^^nuva:AIC,
-        "035686029"^^nuva:AIC,
-        "035686031"^^nuva:AIC,
-        "035686043"^^nuva:AIC,
-        "035686056"^^nuva:AIC,
+        "836973"^^nuva:CODE_NATIONAL_SPAIN,
+        "836981"^^nuva:CODE_NATIONAL_SPAIN,
         "247493"^^nuva:CTI,
         "247502"^^nuva:CTI,
         "247511"^^nuva:CTI,
@@ -5342,14 +4843,6 @@ nuva:VAC0169 a owl:Class ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, surface antigen, cell-cultured"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "038136"^^nuva:AIC,
-        "038136014"^^nuva:AIC,
-        "038136026"^^nuva:AIC,
-        "038136038"^^nuva:AIC,
-        "038136040"^^nuva:AIC,
-        "038136053"^^nuva:AIC,
-        "038136065"^^nuva:AIC,
-        "038136103"^^nuva:AIC,
-        "038136115"^^nuva:AIC,
         "3400922175027"^^nuva:CIP,
         "3400922175195"^^nuva:CIP,
         "3400922175256"^^nuva:CIP,
@@ -5412,9 +4905,6 @@ nuva:VAC0172 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (standard dose) and tetanus toxoid pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026947"^^nuva:AIC,
-        "026947010"^^nuva:AIC,
-        "026947046"^^nuva:AIC,
-        "026947059"^^nuva:AIC,
         "3400934145704"^^nuva:CIP,
         "3400934145872"^^nuva:CIP,
         "3400934145933"^^nuva:CIP,
@@ -5441,13 +4931,16 @@ nuva:VAC0173 a owl:Class ;
     dcterms:modified "2025-11-14"^^xsd:date ;
     rdfs:comment "Seasonal influenza vaccine, trivalent, live attenuated, nasal"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "3400922388175"^^nuva:CIP,
+    skos:notation "051223"^^nuva:AIC,
+        "3400922388175"^^nuva:CIP,
         "3400922388465"^^nuva:CIP,
         "3400930293447"^^nuva:CIP,
         "3400930293454"^^nuva:CIP,
         "65525113"^^nuva:CIS,
         "66557142"^^nuva:CIS,
         "677686"^^nuva:CODE_NATIONAL_SPAIN,
+        "764648"^^nuva:CODE_NATIONAL_SPAIN,
+        "764649"^^nuva:CODE_NATIONAL_SPAIN,
         "662793"^^nuva:CTI,
         "662794"^^nuva:CTI,
         "662793-01"^^nuva:CTI-EXTEND,
@@ -5476,19 +4969,6 @@ nuva:VAC0174 a owl:Class ;
     rdfs:comment "Live attenuated measles, mumps, rubella and chickenpox vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "036893"^^nuva:AIC,
-        "036893016"^^nuva:AIC,
-        "036893028"^^nuva:AIC,
-        "036893030"^^nuva:AIC,
-        "036893042"^^nuva:AIC,
-        "036893055"^^nuva:AIC,
-        "036893067"^^nuva:AIC,
-        "036893079"^^nuva:AIC,
-        "036893081"^^nuva:AIC,
-        "036893093"^^nuva:AIC,
-        "036893105"^^nuva:AIC,
-        "036893117"^^nuva:AIC,
-        "036893129"^^nuva:AIC,
-        "036893131"^^nuva:AIC,
         "3400937171298"^^nuva:CIP,
         "3400937171359"^^nuva:CIP,
         "3400937171410"^^nuva:CIP,
@@ -5504,6 +4984,7 @@ nuva:VAC0174 a owl:Class ;
         "65767967"^^nuva:CIS,
         "4121596"^^nuva:CNK,
         "654276"^^nuva:CODE_NATIONAL_SPAIN,
+        "654713"^^nuva:CODE_NATIONAL_SPAIN,
         "0436294"^^nuva:CP-NRONATIDENT,
         "287201"^^nuva:CTI,
         "287217"^^nuva:CTI,
@@ -5608,6 +5089,7 @@ nuva:VAC0178 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0178']"^^nuva:NUVACode,
         "2921002000104"^^nuva:SCT_NUVA,
+        "76"^^nuva:SWISSMEDIC,
         "VAC0178"^^xsd:string .
 
 nuva:VAC0179 a owl:Class ;
@@ -5675,6 +5157,7 @@ nuva:VAC0182 a owl:Class ;
         "9329670300762"^^nuva:NTIN,
         "['0182']"^^nuva:NUVACode,
         "2951002000106"^^nuva:SCT_NUVA,
+        "68317"^^nuva:SWISSMEDIC,
         "349281400100"^^nuva:UPC,
         "349281400209"^^nuva:UPC,
         "697177000843"^^nuva:UPC,
@@ -5768,7 +5251,6 @@ nuva:VAC0189 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (standard dose) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "002137"^^nuva:AIC,
-        "002137014"^^nuva:AIC,
         "['0189']"^^nuva:NUVACode,
         "3021002000109"^^nuva:SCT_NUVA,
         "VAC0189"^^xsd:string .
@@ -5782,11 +5264,6 @@ nuva:VAC0190 a owl:Class ;
     rdfs:comment "Tetanus toxoid vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "002238"^^nuva:AIC,
-        "002238018"^^nuva:AIC,
-        "002238020"^^nuva:AIC,
-        "002238032"^^nuva:AIC,
-        "002238044"^^nuva:AIC,
-        "002238057"^^nuva:AIC,
         "['0190']"^^nuva:NUVACode,
         "3031002000107"^^nuva:SCT_NUVA,
         "VAC0190"^^xsd:string .
@@ -5802,6 +5279,7 @@ nuva:VAC0191 a owl:Class ;
     skos:notation "1035591"^^nuva:CNK,
         "['0191']"^^nuva:NUVACode,
         "3041002000104"^^nuva:SCT_NUVA,
+        "86"^^nuva:SWISSMEDIC,
         "VAC0191"^^xsd:string .
 
 nuva:VAC0192 a owl:Class ;
@@ -5813,11 +5291,10 @@ nuva:VAC0192 a owl:Class ;
     rdfs:comment "Live attenuated measles vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "023167"^^nuva:AIC,
-        "023167012"^^nuva:AIC,
-        "023167024"^^nuva:AIC,
         "0102590"^^nuva:CNK,
         "['0192']"^^nuva:NUVACode,
         "3051002000102"^^nuva:SCT_NUVA,
+        "47"^^nuva:SWISSMEDIC,
         "VAC0192"^^xsd:string .
 
 nuva:VAC0193 a owl:Class ;
@@ -5853,35 +5330,6 @@ nuva:VAC0195 a owl:Class ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, split virion"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "022143"^^nuva:AIC,
-        "022143010"^^nuva:AIC,
-        "022143022"^^nuva:AIC,
-        "022143034"^^nuva:AIC,
-        "022143046"^^nuva:AIC,
-        "022143059"^^nuva:AIC,
-        "022143061"^^nuva:AIC,
-        "022143073"^^nuva:AIC,
-        "022143085"^^nuva:AIC,
-        "022143097"^^nuva:AIC,
-        "022143109"^^nuva:AIC,
-        "022143111"^^nuva:AIC,
-        "022143123"^^nuva:AIC,
-        "022143135"^^nuva:AIC,
-        "022143147"^^nuva:AIC,
-        "022143150"^^nuva:AIC,
-        "022143162"^^nuva:AIC,
-        "022143174"^^nuva:AIC,
-        "022143186"^^nuva:AIC,
-        "022143198"^^nuva:AIC,
-        "022143200"^^nuva:AIC,
-        "022143212"^^nuva:AIC,
-        "022143224"^^nuva:AIC,
-        "022143236"^^nuva:AIC,
-        "022143248"^^nuva:AIC,
-        "022143251"^^nuva:AIC,
-        "022143263"^^nuva:AIC,
-        "022143275"^^nuva:AIC,
-        "022143287"^^nuva:AIC,
-        "022143299"^^nuva:AIC,
         "['0195']"^^nuva:NUVACode,
         "3101002000102"^^nuva:SCT_NUVA,
         "VAC0195"^^xsd:string .
@@ -5909,7 +5357,6 @@ nuva:VAC0197 a owl:Class ;
     rdfs:comment "Live attenuated rubella and mumps vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026900"^^nuva:AIC,
-        "026900011"^^nuva:AIC,
         "['0197']"^^nuva:NUVACode,
         "3121002000105"^^nuva:SCT_NUVA,
         "VAC0197"^^xsd:string .
@@ -5947,7 +5394,6 @@ nuva:VAC0200 a owl:Class ;
     rdfs:comment "Adsorbed acellular anthrax vaccine with adjuvant"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "045823"^^nuva:AIC,
-        "045823010"^^nuva:AIC,
         "34631000087100"^^nuva:CVC,
         "02483386"^^nuva:DIN,
         "64678-0211-01"^^nuva:NDC,
@@ -5966,6 +5412,7 @@ nuva:VAC0201 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0201']"^^nuva:NUVACode,
         "3161002000101"^^nuva:SCT_NUVA,
+        "88"^^nuva:SWISSMEDIC,
         "VAC0201"^^xsd:string .
 
 nuva:VAC0202 a owl:Class ;
@@ -6143,16 +5590,6 @@ nuva:VAC0214 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (standard dose) and tetanus toxoid pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "003671"^^nuva:AIC,
-        "003671017"^^nuva:AIC,
-        "003671029"^^nuva:AIC,
-        "003671031"^^nuva:AIC,
-        "003671043"^^nuva:AIC,
-        "003671056"^^nuva:AIC,
-        "003671068"^^nuva:AIC,
-        "003671070"^^nuva:AIC,
-        "003671082"^^nuva:AIC,
-        "003671094"^^nuva:AIC,
-        "003671106"^^nuva:AIC,
         "['0214']"^^nuva:NUVACode,
         "3311002000101"^^nuva:SCT_NUVA,
         "VAC0214"^^xsd:string .
@@ -6170,6 +5607,7 @@ nuva:VAC0216 a owl:Class ;
         "8829911"^^nuva:INFARMED,
         "['0216']"^^nuva:NUVACode,
         "3321002000107"^^nuva:SCT_NUVA,
+        "154"^^nuva:SWISSMEDIC,
         "600"^^nuva:SWISSMEDIC,
         "VAC0216"^^xsd:string .
 
@@ -6299,10 +5737,6 @@ nuva:VAC0227 a owl:Class ;
     rdfs:comment "Inactivated hepatitis A vaccine, virosome, pediatric or adult"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "036438"^^nuva:AIC,
-        "036438012"^^nuva:AIC,
-        "036438024"^^nuva:AIC,
-        "036438036"^^nuva:AIC,
-        "036438048"^^nuva:AIC,
         "3400936064829"^^nuva:CIP,
         "3400936121751"^^nuva:CIP,
         "64036265"^^nuva:CIS,
@@ -6329,11 +5763,10 @@ nuva:VAC0228 a owl:Class ;
     rdfs:comment "Live attenuated rubella vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "021895"^^nuva:AIC,
-        "021895014"^^nuva:AIC,
-        "021895026"^^nuva:AIC,
         "0135392"^^nuva:CNK,
         "['0228']"^^nuva:NUVACode,
         "3451002000105"^^nuva:SCT_NUVA,
+        "91"^^nuva:SWISSMEDIC,
         "VAC0228"^^xsd:string .
 
 nuva:VAC0229 a owl:Class ;
@@ -6357,14 +5790,7 @@ nuva:VAC0230 a owl:Class ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, surface antigen, adjuvanted"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "031840"^^nuva:AIC,
-        "031840010"^^nuva:AIC,
-        "031840022"^^nuva:AIC,
-        "031840034"^^nuva:AIC,
-        "031840046"^^nuva:AIC,
-        "031840059"^^nuva:AIC,
-        "031840061"^^nuva:AIC,
-        "031840073"^^nuva:AIC,
-        "031840085"^^nuva:AIC,
+        "051753"^^nuva:AIC,
         "3400930304716"^^nuva:CIP,
         "3400930304723"^^nuva:CIP,
         "3400930304747"^^nuva:CIP,
@@ -6373,6 +5799,10 @@ nuva:VAC0230 a owl:Class ;
         "2661015"^^nuva:CNK,
         "2729358"^^nuva:CNK,
         "4889218"^^nuva:CNK,
+        "766355"^^nuva:CODE_NATIONAL_SPAIN,
+        "766356"^^nuva:CODE_NATIONAL_SPAIN,
+        "766357"^^nuva:CODE_NATIONAL_SPAIN,
+        "766358"^^nuva:CODE_NATIONAL_SPAIN,
         "663610"^^nuva:CTI,
         "663611"^^nuva:CTI,
         "663612"^^nuva:CTI,
@@ -6476,22 +5906,6 @@ nuva:VAC0235 a owl:Class ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "028372"^^nuva:AIC,
-        "028372011"^^nuva:AIC,
-        "028372023"^^nuva:AIC,
-        "028372035"^^nuva:AIC,
-        "028372047"^^nuva:AIC,
-        "028372050"^^nuva:AIC,
-        "028372062"^^nuva:AIC,
-        "028372074"^^nuva:AIC,
-        "028372086"^^nuva:AIC,
-        "028372098"^^nuva:AIC,
-        "028372100"^^nuva:AIC,
-        "028372112"^^nuva:AIC,
-        "028372124"^^nuva:AIC,
-        "028372136"^^nuva:AIC,
-        "028372148"^^nuva:AIC,
-        "028372151"^^nuva:AIC,
-        "028372163"^^nuva:AIC,
         "1103514"^^nuva:CNK,
         "1262666"^^nuva:CNK,
         "1320985"^^nuva:CNK,
@@ -6602,9 +6016,6 @@ nuva:VAC0240 a owl:Class ;
     rdfs:comment "Live attenuated rubella vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "023318"^^nuva:AIC,
-        "023318013"^^nuva:AIC,
-        "023318025"^^nuva:AIC,
-        "023318037"^^nuva:AIC,
         "['0240']"^^nuva:NUVACode,
         "3571002000103"^^nuva:SCT_NUVA,
         "VAC0240"^^xsd:string .
@@ -6692,8 +6103,6 @@ nuva:VAC0247 a owl:Class ;
     rdfs:comment "Haemophilus influenzae type b vaccine, capsular oligosaccharides (polyribosylribitol phosphate, PRP) conjugated to mutant diphtheria toxin CRM197"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "028929"^^nuva:AIC,
-        "028929014"^^nuva:AIC,
-        "028929026"^^nuva:AIC,
         "3400934042065"^^nuva:CIP,
         "3400935493248"^^nuva:CIP,
         "62565946"^^nuva:CIS,
@@ -6702,6 +6111,7 @@ nuva:VAC0247 a owl:Class ;
         "3209285"^^nuva:INFARMED,
         "['0247']"^^nuva:NUVACode,
         "3661002000109"^^nuva:SCT_NUVA,
+        "92"^^nuva:SWISSMEDIC,
         "VAC0247"^^xsd:string .
 
 nuva:VAC0248 a owl:Class ;
@@ -6919,14 +6329,6 @@ nuva:VAC0264 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (multicomponent acellular, standard dose) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "029244"^^nuva:AIC,
-        "029244011"^^nuva:AIC,
-        "029244023"^^nuva:AIC,
-        "029244035"^^nuva:AIC,
-        "029244047"^^nuva:AIC,
-        "029244050"^^nuva:AIC,
-        "029244062"^^nuva:AIC,
-        "029244074"^^nuva:AIC,
-        "029244086"^^nuva:AIC,
         "1177682"^^nuva:CNK,
         "664052"^^nuva:CODE_NATIONAL_SPAIN,
         "169303"^^nuva:CTI,
@@ -6939,6 +6341,7 @@ nuva:VAC0264 a owl:Class ;
         "['0264']"^^nuva:NUVACode,
         "08706113"^^nuva:PZN,
         "3841002000106"^^nuva:SCT_NUVA,
+        "166"^^nuva:SWISSMEDIC,
         "VAC0264"^^xsd:string .
 
 nuva:VAC0265 a owl:Class ;
@@ -7092,7 +6495,6 @@ nuva:VAC0276 a owl:Class ;
     rdfs:comment "Smallpox vaccine, first-generation, live vaccinia virus"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "008026"^^nuva:AIC,
-        "008026015"^^nuva:AIC,
         "['0276']"^^nuva:NUVACode,
         "3951002000101"^^nuva:SCT_NUVA,
         "VAC0276"^^xsd:string .
@@ -7208,8 +6610,6 @@ nuva:VAC0286 a owl:Class ;
     rdfs:comment "Live attenuated measles, mumps and rubella vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026265"^^nuva:AIC,
-        "026265013"^^nuva:AIC,
-        "026265025"^^nuva:AIC,
         "7161000087102"^^nuva:CVC,
         "00466085"^^nuva:DIN,
         "00006-4681-00"^^nuva:NDC,
@@ -7242,7 +6642,6 @@ nuva:VAC0288 a owl:Class ;
     rdfs:comment "Live attenuated measles and rubella vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026249"^^nuva:AIC,
-        "026249019"^^nuva:AIC,
         "['0288']"^^nuva:NUVACode,
         "4071002000107"^^nuva:SCT_NUVA,
         "VAC0288"^^xsd:string .
@@ -7350,10 +6749,7 @@ nuva:VAC0296 a owl:Class ;
     dcterms:modified "2022-10-28"^^xsd:date ;
     rdfs:comment "Unconjugated meningococcal polysaccharide vaccine, serogroups A, C, W and Y"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "024489066"^^nuva:AIC,
-        "024489078"^^nuva:AIC,
-        "024489080"^^nuva:AIC,
-        "['0296']"^^nuva:NUVACode,
+    skos:notation "['0296']"^^nuva:NUVACode,
         "4161002000103"^^nuva:SCT_NUVA,
         "VAC0296"^^xsd:string .
 
@@ -7366,12 +6762,7 @@ nuva:VAC0297 a owl:Class ;
     dcterms:modified "2022-10-28"^^xsd:date ;
     rdfs:comment "Unconjugated meningococcal polysaccharide vaccine, serogroups A and C"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "024489039"^^nuva:AIC,
-        "024489041"^^nuva:AIC,
-        "024489054"^^nuva:AIC,
-        "024489092"^^nuva:AIC,
-        "024489104"^^nuva:AIC,
-        "['0297']"^^nuva:NUVACode,
+    skos:notation "['0297']"^^nuva:NUVACode,
         "4171002000108"^^nuva:SCT_NUVA,
         "VAC0297"^^xsd:string .
 
@@ -7385,6 +6776,7 @@ nuva:VAC0298 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0298']"^^nuva:NUVACode,
         "4181002000106"^^nuva:SCT_NUVA,
+        "56"^^nuva:SWISSMEDIC,
         "VAC0298"^^xsd:string .
 
 nuva:VAC0299 a owl:Class ;
@@ -7396,8 +6788,6 @@ nuva:VAC0299 a owl:Class ;
     rdfs:comment "Live attenuated rubella vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "022602"^^nuva:AIC,
-        "022602015"^^nuva:AIC,
-        "022602027"^^nuva:AIC,
         "0056580"^^nuva:CNK,
         "['0299']"^^nuva:NUVACode,
         "4191002000109"^^nuva:SCT_NUVA,
@@ -7430,6 +6820,7 @@ nuva:VAC0301 a owl:Class ;
         "4020087"^^nuva:INFARMED,
         "['0301']"^^nuva:NUVACode,
         "4211002000105"^^nuva:SCT_NUVA,
+        "119"^^nuva:SWISSMEDIC,
         "VAC0301"^^xsd:string .
 
 nuva:VAC0303 a owl:Class ;
@@ -7496,11 +6887,6 @@ nuva:VAC0306 a owl:Class ;
     rdfs:comment "Live attenuated measles vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "023190"^^nuva:AIC,
-        "023190010"^^nuva:AIC,
-        "023190022"^^nuva:AIC,
-        "023190034"^^nuva:AIC,
-        "023190046"^^nuva:AIC,
-        "023190059"^^nuva:AIC,
         "['0306']"^^nuva:NUVACode,
         "4281002000100"^^nuva:SCT_NUVA,
         "VAC0306"^^xsd:string .
@@ -7515,8 +6901,6 @@ nuva:VAC0307 a owl:Class ;
     rdfs:comment "Live attenuated measles and rubella vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026321"^^nuva:AIC,
-        "026321012"^^nuva:AIC,
-        "026321024"^^nuva:AIC,
         "['0307']"^^nuva:NUVACode,
         "4291002000102"^^nuva:SCT_NUVA,
         "VAC0307"^^xsd:string .
@@ -7530,9 +6914,6 @@ nuva:VAC0308 a owl:Class ;
     rdfs:comment "Measles immunoglobulin"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "022811"^^nuva:AIC,
-        "022811018"^^nuva:AIC,
-        "022811020"^^nuva:AIC,
-        "022811032"^^nuva:AIC,
         "['0308']"^^nuva:NUVACode,
         "4311002000103"^^nuva:SCT_NUVA,
         "VAC0308"^^xsd:string .
@@ -7548,9 +6929,6 @@ nuva:VAC0309 a owl:Class ;
     rdfs:comment "Live attenuated measles, mumps and rubella vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "027506"^^nuva:AIC,
-        "027506017"^^nuva:AIC,
-        "027506029"^^nuva:AIC,
-        "027506031"^^nuva:AIC,
         "['0309']"^^nuva:NUVACode,
         "4321002000109"^^nuva:SCT_NUVA,
         "VAC0309"^^xsd:string .
@@ -7576,9 +6954,9 @@ nuva:VAC0311 a owl:Class ;
     rdfs:comment "Live attenuated mumps vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "028446"^^nuva:AIC,
-        "028446019"^^nuva:AIC,
         "['0311']"^^nuva:NUVACode,
         "4341002000104"^^nuva:SCT_NUVA,
+        "97"^^nuva:SWISSMEDIC,
         "VAC0311"^^xsd:string .
 
 nuva:VAC0312 a owl:Class ;
@@ -7614,7 +6992,6 @@ nuva:VAC0315 a owl:Class ;
     rdfs:comment "Live attenuated mumps vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "023279"^^nuva:AIC,
-        "023279019"^^nuva:AIC,
         "0058032"^^nuva:CNK,
         "['0315']"^^nuva:NUVACode,
         "4381002000108"^^nuva:SCT_NUVA,
@@ -7642,11 +7019,6 @@ nuva:VAC0318 a owl:Class ;
     rdfs:comment "Inactivated hepatitis A vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "032794"^^nuva:AIC,
-        "032794012"^^nuva:AIC,
-        "032794024"^^nuva:AIC,
-        "032794036"^^nuva:AIC,
-        "032794048"^^nuva:AIC,
-        "032794051"^^nuva:AIC,
         "['0318']"^^nuva:NUVACode,
         "4411002000106"^^nuva:SCT_NUVA,
         "VAC0318"^^xsd:string .
@@ -7704,8 +7076,6 @@ nuva:VAC0322 a owl:Class ;
     rdfs:comment "Live attenuated mumps vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026898"^^nuva:AIC,
-        "026898015"^^nuva:AIC,
-        "026898027"^^nuva:AIC,
         "0811422"^^nuva:CNK,
         "['0322']"^^nuva:NUVACode,
         "4451002000107"^^nuva:SCT_NUVA,
@@ -7743,6 +7113,7 @@ nuva:VAC0324 a owl:Class ;
         "['0324']"^^nuva:NUVACode,
         "4471002000104"^^nuva:SCT_NUVA,
         "1052328007"^^nuva:SNOMED-CT,
+        "100"^^nuva:SWISSMEDIC,
         "VAC0324"^^xsd:string .
 
 nuva:VAC0325 a owl:Class ;
@@ -7778,6 +7149,7 @@ nuva:VAC0326 a owl:Class ;
         "00006-4897-00"^^nuva:NDC,
         "['0326']"^^nuva:NUVACode,
         "4491002000103"^^nuva:SCT_NUVA,
+        "98"^^nuva:SWISSMEDIC,
         "VAC0326"^^xsd:string .
 
 nuva:VAC0327 a owl:Class ;
@@ -7889,10 +7261,9 @@ nuva:VAC0335 a owl:Class ;
     rdfs:comment "Live attenuated measles, mumps and rubella vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026444"^^nuva:AIC,
-        "026444012"^^nuva:AIC,
-        "026444024"^^nuva:AIC,
         "['0335']"^^nuva:NUVACode,
         "4571002000100"^^nuva:SCT_NUVA,
+        "75"^^nuva:SWISSMEDIC,
         "VAC0335"^^xsd:string .
 
 nuva:VAC0336 a owl:Class ;
@@ -7926,18 +7297,6 @@ nuva:VAC0336 a owl:Class ;
     rdfs:comment "Unconjugated pneumococcal polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "034933"^^nuva:AIC,
-        "034933010"^^nuva:AIC,
-        "034933022"^^nuva:AIC,
-        "034933034"^^nuva:AIC,
-        "034933046"^^nuva:AIC,
-        "034933059"^^nuva:AIC,
-        "034933061"^^nuva:AIC,
-        "034933073"^^nuva:AIC,
-        "034933085"^^nuva:AIC,
-        "034933097"^^nuva:AIC,
-        "034933109"^^nuva:AIC,
-        "034933111"^^nuva:AIC,
-        "034933123"^^nuva:AIC,
         "3400930044339"^^nuva:CIP,
         "3400930044346"^^nuva:CIP,
         "3400930044360"^^nuva:CIP,
@@ -8025,8 +7384,6 @@ nuva:VAC0337 a owl:Class ;
     rdfs:comment "Unconjugated pneumococcal polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "029547"^^nuva:AIC,
-        "029547015"^^nuva:AIC,
-        "029547027"^^nuva:AIC,
         "3400934612626"^^nuva:CIP,
         "69491701"^^nuva:CIS,
         "2481182"^^nuva:INFARMED,
@@ -8077,7 +7434,7 @@ nuva:VAC0339 a owl:Class ;
         nuva:VAL229 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-15"^^xsd:date ;
+    dcterms:modified "2026-01-05"^^xsd:date ;
     rdfs:comment "Unconjugated pneumococcal polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "90732"^^nuva:CPT,
@@ -8120,9 +7477,10 @@ nuva:VAC0343 a owl:Class ;
     rdfs:comment "Haemophilus influenzae type b conjugate vaccine (PRP-D)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "028436"^^nuva:AIC,
-        "028436018"^^nuva:AIC,
         "['0343']"^^nuva:NUVACode,
         "4641002000107"^^nuva:SCT_NUVA,
+        "133"^^nuva:SWISSMEDIC,
+        "142"^^nuva:SWISSMEDIC,
         "VAC0343"^^xsd:string .
 
 nuva:VAC0344 a owl:Class ;
@@ -8312,11 +7670,6 @@ nuva:VAC0356 a owl:Class ;
     rdfs:comment "Hepatitis B vaccine (Paediatric and adult dosage at 10 µg and dosage for dialysis patients at 40 µg)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026710"^^nuva:AIC,
-        "026710018"^^nuva:AIC,
-        "026710020"^^nuva:AIC,
-        "026710032"^^nuva:AIC,
-        "026710044"^^nuva:AIC,
-        "026710057"^^nuva:AIC,
         "6941000087103"^^nuva:CVC,
         "6951000087100"^^nuva:CVC,
         "01934023"^^nuva:DIN,
@@ -8376,7 +7729,6 @@ nuva:VAC0359 a owl:Class ;
     rdfs:comment "Live attenuated measles vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "025821"^^nuva:AIC,
-        "025821012"^^nuva:AIC,
         "0128603"^^nuva:CNK,
         "8591404"^^nuva:INFARMED,
         "8591412"^^nuva:INFARMED,
@@ -8398,6 +7750,7 @@ nuva:VAC0360 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0360']"^^nuva:NUVACode,
         "4831002000100"^^nuva:SCT_NUVA,
+        "121"^^nuva:SWISSMEDIC,
         "VAC0360"^^xsd:string .
 
 nuva:VAC0361 a owl:Class ;
@@ -8436,7 +7789,6 @@ nuva:VAC0363 a owl:Class ;
     rdfs:comment "Rotavirus vaccine (First)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "034428"^^nuva:AIC,
-        "034428019"^^nuva:AIC,
         "74"^^nuva:CVX,
         "2917284"^^nuva:INFARMED,
         "['0363']"^^nuva:NUVACode,
@@ -8452,11 +7804,10 @@ nuva:VAC0364 a owl:Class ;
     rdfs:comment "Live attenuated rubella vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "025590"^^nuva:AIC,
-        "025590011"^^nuva:AIC,
-        "025590023"^^nuva:AIC,
         "8516203"^^nuva:INFARMED,
         "['0364']"^^nuva:NUVACode,
         "4871002000102"^^nuva:SCT_NUVA,
+        "111"^^nuva:SWISSMEDIC,
         "VAC0364"^^xsd:string .
 
 nuva:VAC0365 a owl:Class ;
@@ -8542,13 +7893,6 @@ nuva:VAC0371 a owl:Class ;
     rdfs:comment "Polio vaccine (live attenuated, trivalent) against polioviruses 1, 2 and 3, oral"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026054"^^nuva:AIC,
-        "026054015"^^nuva:AIC,
-        "026054027"^^nuva:AIC,
-        "026054039"^^nuva:AIC,
-        "026054041"^^nuva:AIC,
-        "026054054"^^nuva:AIC,
-        "026054066"^^nuva:AIC,
-        "026054078"^^nuva:AIC,
         "2910982"^^nuva:INFARMED,
         "2911089"^^nuva:INFARMED,
         "8584409"^^nuva:INFARMED,
@@ -8562,6 +7906,7 @@ nuva:VAC0371 a owl:Class ;
         "8584482"^^nuva:INFARMED,
         "['0371']"^^nuva:NUVACode,
         "4941002000100"^^nuva:SCT_NUVA,
+        "102"^^nuva:SWISSMEDIC,
         "VAC0371"^^xsd:string .
 
 nuva:VAC0372 a owl:Class ;
@@ -8589,6 +7934,7 @@ nuva:VAC0373 a owl:Class ;
     skos:notation "1260571"^^nuva:ELGA,
         "['0373']"^^nuva:NUVACode,
         "4961002000101"^^nuva:SCT_NUVA,
+        "101"^^nuva:SWISSMEDIC,
         "VAC0373"^^xsd:string .
 
 nuva:VAC0374 a owl:Class ;
@@ -8722,6 +8068,7 @@ nuva:VAC0383 a owl:Class ;
         "8830125"^^nuva:INFARMED,
         "['0383']"^^nuva:NUVACode,
         "5081002000109"^^nuva:SCT_NUVA,
+        "83"^^nuva:SWISSMEDIC,
         "VAC0383"^^xsd:string .
 
 nuva:VAC0384 a owl:Class ;
@@ -8809,7 +8156,6 @@ nuva:VAC0390 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell inactivated) et Haemophilus influenzae type b (conjugated to tetanus toxoid) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "032133"^^nuva:AIC,
-        "032133011"^^nuva:AIC,
         "3400933731151"^^nuva:CIP,
         "3400934338571"^^nuva:CIP,
         "3400934338632"^^nuva:CIP,
@@ -8838,6 +8184,7 @@ nuva:VAC0391 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0391']"^^nuva:NUVACode,
         "5161002000102"^^nuva:SCT_NUVA,
+        "107"^^nuva:SWISSMEDIC,
         "VAC0391"^^xsd:string .
 
 nuva:VAC0392 a owl:Class ;
@@ -8959,8 +8306,6 @@ nuva:VAC0400 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (multicomponent acellular, standard dose) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "029401"^^nuva:AIC,
-        "029401015"^^nuva:AIC,
-        "029401027"^^nuva:AIC,
         "2860781"^^nuva:INFARMED,
         "2860880"^^nuva:INFARMED,
         "2860989"^^nuva:INFARMED,
@@ -9176,6 +8521,7 @@ nuva:VAC0416 a owl:Class ;
         "8715524"^^nuva:INFARMED,
         "['0416']"^^nuva:NUVACode,
         "5401002000107"^^nuva:SCT_NUVA,
+        "23"^^nuva:SWISSMEDIC,
         "VAC0416"^^xsd:string .
 
 nuva:VAC0417 a owl:Class ;
@@ -9272,6 +8618,7 @@ nuva:VAC0424 a owl:Class ;
         "['0424']"^^nuva:NUVACode,
         "5481002000100"^^nuva:SCT_NUVA,
         "971000221109"^^nuva:SNOMED-CT,
+        "143"^^nuva:SWISSMEDIC,
         "VAC0424"^^xsd:string .
 
 nuva:VAC0425 a owl:Class ;
@@ -9510,13 +8857,6 @@ nuva:VAC0444 a owl:Class ;
     rdfs:comment "Haemophilus influenzae type b (conjugated to diphtheria toxoid) vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "028780"^^nuva:AIC,
-        "028780017"^^nuva:AIC,
-        "028780029"^^nuva:AIC,
-        "028780031"^^nuva:AIC,
-        "028780043"^^nuva:AIC,
-        "028780056"^^nuva:AIC,
-        "028780068"^^nuva:AIC,
-        "028780070"^^nuva:AIC,
         "['0444']"^^nuva:NUVACode,
         "5681002000102"^^nuva:SCT_NUVA,
         "VAC0444"^^xsd:string .
@@ -9530,10 +8870,6 @@ nuva:VAC0445 a owl:Class ;
     rdfs:comment "Live mumps vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "027504"^^nuva:AIC,
-        "027504012"^^nuva:AIC,
-        "027504024"^^nuva:AIC,
-        "027504036"^^nuva:AIC,
-        "027504048"^^nuva:AIC,
         "['0445']"^^nuva:NUVACode,
         "5691002000104"^^nuva:SCT_NUVA,
         "VAC0445"^^xsd:string .
@@ -9612,14 +8948,7 @@ nuva:VAC0451 a owl:Class ;
     rdfs:comment "Live attenuated typhoid vaccine, strain Ty21a, oral"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "025219"^^nuva:AIC,
-        "025219015"^^nuva:AIC,
-        "025219027"^^nuva:AIC,
-        "025219039"^^nuva:AIC,
-        "025219041"^^nuva:AIC,
-        "025219054"^^nuva:AIC,
-        "025219066"^^nuva:AIC,
         "045650"^^nuva:AIC,
-        "045650013"^^nuva:AIC,
         "3400930166123"^^nuva:CIP,
         "68510344"^^nuva:CIS,
         "0069914"^^nuva:CNK,
@@ -9639,6 +8968,7 @@ nuva:VAC0451 a owl:Class ;
         "69401-0000-02"^^nuva:NDC,
         "['0451']"^^nuva:NUVACode,
         "5751002000100"^^nuva:SCT_NUVA,
+        "25"^^nuva:SWISSMEDIC,
         "467"^^nuva:SWISSMEDIC,
         "VAC0451"^^xsd:string .
 
@@ -9894,6 +9224,7 @@ nuva:VAC0471 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0471']"^^nuva:NUVACode,
         "5951002000102"^^nuva:SCT_NUVA,
+        "172"^^nuva:SWISSMEDIC,
         "VAC0471"^^xsd:string .
 
 nuva:VAC0472 a owl:Class ;
@@ -9905,7 +9236,6 @@ nuva:VAC0472 a owl:Class ;
     rdfs:comment "Influenza A(H5N1) vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "038772"^^nuva:AIC,
-        "038772012"^^nuva:AIC,
         "350962-01"^^nuva:CTI-EXTEND,
         "EU-1-08-453-002"^^nuva:EU-NUMBER,
         "5118138"^^nuva:INFARMED,
@@ -9949,8 +9279,6 @@ nuva:VAC0475 a owl:Class ;
     rdfs:comment "Influenza A(H5N1) vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "048369"^^nuva:AIC,
-        "048369058"^^nuva:AIC,
-        "048369060"^^nuva:AIC,
         "357831"^^nuva:CTI,
         "357847"^^nuva:CTI,
         "357856"^^nuva:CTI,
@@ -9984,7 +9312,9 @@ nuva:VAC0476 a owl:Class ;
     dcterms:modified "2023-08-15"^^xsd:date ;
     rdfs:comment "Influenza A(H5N1) vaccine (whole virion, Vero cell cultured, inactivated) multidose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "EU-1-09-571-001"^^nuva:EU-NUMBER,
+    skos:notation "694048"^^nuva:CODE_NATIONAL_SPAIN,
+        "694049"^^nuva:CODE_NATIONAL_SPAIN,
+        "EU-1-09-571-001"^^nuva:EU-NUMBER,
         "['0476']"^^nuva:NUVACode,
         "6001002000107"^^nuva:SCT_NUVA,
         "VAC0476"^^xsd:string .
@@ -10033,15 +9363,6 @@ nuva:VAC0479 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (low dose), tetanus toxoid and pertussis (multicomponent acellular, low dose) vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "039760"^^nuva:AIC,
-        "039760018"^^nuva:AIC,
-        "039760020"^^nuva:AIC,
-        "039760032"^^nuva:AIC,
-        "039760044"^^nuva:AIC,
-        "039760057"^^nuva:AIC,
-        "039760069"^^nuva:AIC,
-        "039760071"^^nuva:AIC,
-        "039760083"^^nuva:AIC,
-        "039760095"^^nuva:AIC,
         "3400930071809"^^nuva:CIP,
         "3400930071816"^^nuva:CIP,
         "3400930071823"^^nuva:CIP,
@@ -10060,6 +9381,7 @@ nuva:VAC0479 a owl:Class ;
         "3707767"^^nuva:CNK,
         "664727"^^nuva:CODE_NATIONAL_SPAIN,
         "711632"^^nuva:CODE_NATIONAL_SPAIN,
+        "763256"^^nuva:CODE_NATIONAL_SPAIN,
         "0843291"^^nuva:CP-NRONATIDENT,
         "502222"^^nuva:CTI,
         "502222-01"^^nuva:CTI-EXTEND,
@@ -10089,15 +9411,13 @@ nuva:VAC0480 a owl:Class ;
     rdfs:comment "Recombinant hepatitis B vaccine, dialysis patient dosage"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "036776"^^nuva:AIC,
-        "036776019"^^nuva:AIC,
-        "036776021"^^nuva:AIC,
-        "036776033"^^nuva:AIC,
         "3400936586741"^^nuva:CIP,
         "3400936586802"^^nuva:CIP,
         "3400956620654"^^nuva:CIP,
         "61173458"^^nuva:CIS,
         "2210151"^^nuva:CNK,
         "650862"^^nuva:CODE_NATIONAL_SPAIN,
+        "650863"^^nuva:CODE_NATIONAL_SPAIN,
         "0883461"^^nuva:CP-NRONATIDENT,
         "275956"^^nuva:CTI,
         "275965"^^nuva:CTI,
@@ -10191,14 +9511,6 @@ nuva:VAC0486 a owl:Class ;
     rdfs:comment "Quadrivalent meningococcal polysaccharide conjugate vaccine, serogroups A, C, W and Y (conjugated to tetanus toxoid)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "042040"^^nuva:AIC,
-        "042040016"^^nuva:AIC,
-        "042040028"^^nuva:AIC,
-        "042040030"^^nuva:AIC,
-        "042040042"^^nuva:AIC,
-        "042040055"^^nuva:AIC,
-        "042040067"^^nuva:AIC,
-        "042040079"^^nuva:AIC,
-        "042040081"^^nuva:AIC,
         "3400922253701"^^nuva:CIP,
         "3400922253879"^^nuva:CIP,
         "3400922253930"^^nuva:CIP,
@@ -10305,11 +9617,11 @@ nuva:VAC0489 a owl:Class ;
     rdfs:comment "Live attenuated measles, mumps and rubella vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026918"^^nuva:AIC,
-        "026918019"^^nuva:AIC,
         "3400933158569"^^nuva:CIP,
         "0288415"^^nuva:CNK,
         "['0489']"^^nuva:NUVACode,
         "6151002000105"^^nuva:SCT_NUVA,
+        "123"^^nuva:SWISSMEDIC,
         "VAC0489"^^xsd:string .
 
 nuva:VAC0490 a owl:Class ;
@@ -10359,12 +9671,6 @@ nuva:VAC0492 a owl:Class ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, split virion"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "043216"^^nuva:AIC,
-        "043216011"^^nuva:AIC,
-        "043216023"^^nuva:AIC,
-        "043216035"^^nuva:AIC,
-        "043216047"^^nuva:AIC,
-        "043216050"^^nuva:AIC,
-        "043216062"^^nuva:AIC,
         "3400927959899"^^nuva:CIP,
         "3400927959950"^^nuva:CIP,
         "3400927960031"^^nuva:CIP,
@@ -10406,8 +9712,6 @@ nuva:VAC0494 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell inactivated) and hepatitis B (recombinant) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "030694"^^nuva:AIC,
-        "030694018"^^nuva:AIC,
-        "030694020"^^nuva:AIC,
         "676122"^^nuva:CODE_NATIONAL_SPAIN,
         "EU-1-96-014-001"^^nuva:EU-NUMBER,
         "EU-1-96-014-002"^^nuva:EU-NUMBER,
@@ -10428,16 +9732,13 @@ nuva:VAC0495 a owl:Class ;
     rdfs:comment "4-component meningococcal vaccine, serogroup B"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "042687"^^nuva:AIC,
-        "042687018"^^nuva:AIC,
-        "042687020"^^nuva:AIC,
-        "042687032"^^nuva:AIC,
-        "042687044"^^nuva:AIC,
         "3400926863036"^^nuva:CIP,
         "3400926863265"^^nuva:CIP,
         "3400926863326"^^nuva:CIP,
         "3400926863494"^^nuva:CIP,
         "64493883"^^nuva:CIS,
         "3032513"^^nuva:CNK,
+        "701253"^^nuva:CODE_NATIONAL_SPAIN,
         "701257"^^nuva:CODE_NATIONAL_SPAIN,
         "0686316"^^nuva:CP-NRONATIDENT,
         "90620"^^nuva:CPT,
@@ -10654,13 +9955,6 @@ nuva:VAC0507 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, standard dose), Haemophilus influenzae type b (conjugated to tetanus toxoid), inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "042816"^^nuva:AIC,
-        "042816013"^^nuva:AIC,
-        "042816025"^^nuva:AIC,
-        "042816037"^^nuva:AIC,
-        "042816049"^^nuva:AIC,
-        "042816052"^^nuva:AIC,
-        "042816064"^^nuva:AIC,
-        "042816076"^^nuva:AIC,
         "441052"^^nuva:CTI,
         "441061"^^nuva:CTI,
         "441077"^^nuva:CTI,
@@ -10732,15 +10026,6 @@ nuva:VAC0510 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, 2 components, standard dose), Haemophilus influenzae type b (conjugated to tetanus toxoid), inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "042817"^^nuva:AIC,
-        "042817015"^^nuva:AIC,
-        "042817027"^^nuva:AIC,
-        "042817039"^^nuva:AIC,
-        "042817041"^^nuva:AIC,
-        "042817054"^^nuva:AIC,
-        "042817066"^^nuva:AIC,
-        "042817078"^^nuva:AIC,
-        "042817080"^^nuva:AIC,
-        "042817092"^^nuva:AIC,
         "3400927349997"^^nuva:CIP,
         "3400927350078"^^nuva:CIP,
         "3400927350139"^^nuva:CIP,
@@ -10751,8 +10036,11 @@ nuva:VAC0510 a owl:Class ;
         "3050176"^^nuva:CNK,
         "4615423"^^nuva:CNK,
         "606140"^^nuva:CODE_NATIONAL_SPAIN,
+        "606439"^^nuva:CODE_NATIONAL_SPAIN,
         "698078"^^nuva:CODE_NATIONAL_SPAIN,
         "731499"^^nuva:CODE_NATIONAL_SPAIN,
+        "762544"^^nuva:CODE_NATIONAL_SPAIN,
+        "765355"^^nuva:CODE_NATIONAL_SPAIN,
         "0756164"^^nuva:CP-NRONATIDENT,
         "441122"^^nuva:CTI,
         "441131"^^nuva:CTI,
@@ -10876,18 +10164,6 @@ nuva:VAC0514 a owl:Class ;
     rdfs:comment "Monovalent rotavirus vaccine, oral"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "037045"^^nuva:AIC,
-        "037045010"^^nuva:AIC,
-        "037045022"^^nuva:AIC,
-        "037045034"^^nuva:AIC,
-        "037045046"^^nuva:AIC,
-        "037045059"^^nuva:AIC,
-        "037045061"^^nuva:AIC,
-        "037045073"^^nuva:AIC,
-        "037045085"^^nuva:AIC,
-        "037045097"^^nuva:AIC,
-        "037045109"^^nuva:AIC,
-        "037045111"^^nuva:AIC,
-        "037045123"^^nuva:AIC,
         "3400930264065"^^nuva:CIP,
         "3400930264072"^^nuva:CIP,
         "3400937232593"^^nuva:CIP,
@@ -10905,6 +10181,7 @@ nuva:VAC0514 a owl:Class ;
         "2663532"^^nuva:CNK,
         "4183133"^^nuva:CNK,
         "4332086"^^nuva:CNK,
+        "603065"^^nuva:CODE_NATIONAL_SPAIN,
         "654097"^^nuva:CODE_NATIONAL_SPAIN,
         "661542"^^nuva:CODE_NATIONAL_SPAIN,
         "661543"^^nuva:CODE_NATIONAL_SPAIN,
@@ -10913,6 +10190,8 @@ nuva:VAC0514 a owl:Class ;
         "731043"^^nuva:CODE_NATIONAL_SPAIN,
         "731045"^^nuva:CODE_NATIONAL_SPAIN,
         "731553"^^nuva:CODE_NATIONAL_SPAIN,
+        "732458"^^nuva:CODE_NATIONAL_SPAIN,
+        "759122"^^nuva:CODE_NATIONAL_SPAIN,
         "0430449"^^nuva:CP-NRONATIDENT,
         "0886821"^^nuva:CP-NRONATIDENT,
         "90681"^^nuva:CPT,
@@ -11005,21 +10284,18 @@ nuva:VAC0517 a owl:Class ;
     rdfs:comment "Quadrivalent inactivated seasonal influenza vaccine, split virion"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "043132"^^nuva:AIC,
-        "043132012"^^nuva:AIC,
-        "043132024"^^nuva:AIC,
-        "043132036"^^nuva:AIC,
-        "043132048"^^nuva:AIC,
-        "043132051"^^nuva:AIC,
-        "043132063"^^nuva:AIC,
-        "043132075"^^nuva:AIC,
         "3400927442599"^^nuva:CIP,
         "3400927442650"^^nuva:CIP,
         "3400930029169"^^nuva:CIP,
         "3400930029190"^^nuva:CIP,
         "3400930029220"^^nuva:CIP,
         "62464573"^^nuva:CIS,
+        "606408"^^nuva:CODE_NATIONAL_SPAIN,
         "701798"^^nuva:CODE_NATIONAL_SPAIN,
+        "708993"^^nuva:CODE_NATIONAL_SPAIN,
         "708994"^^nuva:CODE_NATIONAL_SPAIN,
+        "708995"^^nuva:CODE_NATIONAL_SPAIN,
+        "708996"^^nuva:CODE_NATIONAL_SPAIN,
         "4205785"^^nuva:ELGA,
         "5801495"^^nuva:ELGA,
         "5751078"^^nuva:INFARMED,
@@ -11059,9 +10335,9 @@ nuva:VAC0520 a owl:Class ;
     rdfs:comment "Smallpox vaccine, third generation, modified vaccinia virus Ankara, non-replicative"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "042944"^^nuva:AIC,
-        "042944013"^^nuva:AIC,
         "3400930254271"^^nuva:CIP,
         "4604070"^^nuva:CNK,
+        "607802"^^nuva:CODE_NATIONAL_SPAIN,
         "444516"^^nuva:CTI,
         "661237"^^nuva:CTI,
         "663217"^^nuva:CTI,
@@ -11084,10 +10360,6 @@ nuva:VAC0521 a owl:Class ;
     rdfs:comment "Live attenuated quadrivalent seasonal influenza vaccine, nasal"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "043173"^^nuva:AIC,
-        "043173018"^^nuva:AIC,
-        "043173020"^^nuva:AIC,
-        "043173032"^^nuva:AIC,
-        "043173044"^^nuva:AIC,
         "3400927937439"^^nuva:CIP,
         "3400927937668"^^nuva:CIP,
         "3400928099853"^^nuva:CIP,
@@ -11133,10 +10405,6 @@ nuva:VAC0523 a owl:Class ;
     rdfs:comment "Human Papillomavirus vaccine, based on VLP (Virus Like Particles), nonavalent (types 6, 11, 16, 18, 31, 33, 45, 52, and 58), recombinant, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "044268"^^nuva:AIC,
-        "044268011"^^nuva:AIC,
-        "044268023"^^nuva:AIC,
-        "044268035"^^nuva:AIC,
-        "044268047"^^nuva:AIC,
         "3400930056196"^^nuva:CIP,
         "3400930056202"^^nuva:CIP,
         "3400955020011"^^nuva:CIP,
@@ -11144,6 +10412,7 @@ nuva:VAC0523 a owl:Class ;
         "65017887"^^nuva:CIS,
         "3402799"^^nuva:CNK,
         "707342"^^nuva:CODE_NATIONAL_SPAIN,
+        "758339"^^nuva:CODE_NATIONAL_SPAIN,
         "0822743"^^nuva:CP-NRONATIDENT,
         "475946"^^nuva:CTI,
         "476186"^^nuva:CTI,
@@ -11200,16 +10469,6 @@ nuva:VAC0525 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, standard dose), inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "034961"^^nuva:AIC,
-        "034961019"^^nuva:AIC,
-        "034961021"^^nuva:AIC,
-        "034961033"^^nuva:AIC,
-        "034961045"^^nuva:AIC,
-        "034961058"^^nuva:AIC,
-        "034961060"^^nuva:AIC,
-        "034961072"^^nuva:AIC,
-        "034961084"^^nuva:AIC,
-        "034961096"^^nuva:AIC,
-        "034961108"^^nuva:AIC,
         "EU-1-00-153-001"^^nuva:EU-NUMBER,
         "EU-1-00-153-002"^^nuva:EU-NUMBER,
         "EU-1-00-153-003"^^nuva:EU-NUMBER,
@@ -11232,6 +10491,7 @@ nuva:VAC0525 a owl:Class ;
         "3890985"^^nuva:INFARMED,
         "['0525']"^^nuva:NUVACode,
         "6621002000108"^^nuva:SCT_NUVA,
+        "39"^^nuva:SWISSMEDIC,
         "VAC0525"^^xsd:string .
 
 nuva:VAC0526 a owl:Class ;
@@ -11284,7 +10544,6 @@ nuva:VAC0529 a owl:Class ;
     rdfs:comment "Tetanus toxoid vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026171"^^nuva:AIC,
-        "026171013"^^nuva:AIC,
         "['0529']"^^nuva:NUVACode,
         "6681002000107"^^nuva:SCT_NUVA,
         "VAC0529"^^xsd:string .
@@ -11336,18 +10595,6 @@ nuva:VAC0534 a owl:Class ;
     rdfs:comment "Meningococcal conjugate vaccine, serogroup C (conjugated to CRM197 Protein)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "035436"^^nuva:AIC,
-        "035436017"^^nuva:AIC,
-        "035436029"^^nuva:AIC,
-        "035436031"^^nuva:AIC,
-        "035436043"^^nuva:AIC,
-        "035436056"^^nuva:AIC,
-        "035436068"^^nuva:AIC,
-        "035436070"^^nuva:AIC,
-        "035436082"^^nuva:AIC,
-        "035436094"^^nuva:AIC,
-        "035436106"^^nuva:AIC,
-        "035436118"^^nuva:AIC,
-        "035436120"^^nuva:AIC,
         "3400930016831"^^nuva:CIP,
         "3400930016855"^^nuva:CIP,
         "3400930016862"^^nuva:CIP,
@@ -11399,14 +10646,6 @@ nuva:VAC0535 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, standard dose), Haemophilus influenzae type b (conjugated to outer membrane protein of Neisseria meningitidis serogroup B), inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "044721"^^nuva:AIC,
-        "044721013"^^nuva:AIC,
-        "044721025"^^nuva:AIC,
-        "044721037"^^nuva:AIC,
-        "044721049"^^nuva:AIC,
-        "044721052"^^nuva:AIC,
-        "044721064"^^nuva:AIC,
-        "044721076"^^nuva:AIC,
-        "044721088"^^nuva:AIC,
         "3400930079775"^^nuva:CIP,
         "3400930079782"^^nuva:CIP,
         "3400930079799"^^nuva:CIP,
@@ -11416,8 +10655,11 @@ nuva:VAC0535 a owl:Class ;
         "3400955028383"^^nuva:CIP,
         "69688620"^^nuva:CIS,
         "3652112"^^nuva:CNK,
+        "606933"^^nuva:CODE_NATIONAL_SPAIN,
         "714004"^^nuva:CODE_NATIONAL_SPAIN,
         "721440"^^nuva:CODE_NATIONAL_SPAIN,
+        "768257"^^nuva:CODE_NATIONAL_SPAIN,
+        "768258"^^nuva:CODE_NATIONAL_SPAIN,
         "494106"^^nuva:CTI,
         "494177"^^nuva:CTI,
         "494186"^^nuva:CTI,
@@ -11474,11 +10716,6 @@ nuva:VAC0539 a owl:Class ;
     rdfs:comment "Live attenuated, chimeric recombinant, quadrivalent vaccine against the four serotypes (1, 2, 3 and 4) of dengue virus (based on yellow fever vaccine 17D)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "047528"^^nuva:AIC,
-        "047528017"^^nuva:AIC,
-        "047528029"^^nuva:AIC,
-        "047528031"^^nuva:AIC,
-        "047528043"^^nuva:AIC,
-        "047528056"^^nuva:AIC,
         "3400930198599"^^nuva:CIP,
         "3400930198605"^^nuva:CIP,
         "3400930198643"^^nuva:CIP,
@@ -11536,26 +10773,6 @@ nuva:VAC0541 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (low dose), tetanus toxoid and pertussis (multicomponent acellular, low dose) vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "034813"^^nuva:AIC,
-        "034813016"^^nuva:AIC,
-        "034813028"^^nuva:AIC,
-        "034813030"^^nuva:AIC,
-        "034813042"^^nuva:AIC,
-        "034813055"^^nuva:AIC,
-        "034813067"^^nuva:AIC,
-        "034813079"^^nuva:AIC,
-        "034813081"^^nuva:AIC,
-        "034813093"^^nuva:AIC,
-        "034813105"^^nuva:AIC,
-        "034813117"^^nuva:AIC,
-        "034813129"^^nuva:AIC,
-        "034813131"^^nuva:AIC,
-        "034813143"^^nuva:AIC,
-        "034813156"^^nuva:AIC,
-        "034813168"^^nuva:AIC,
-        "034813170"^^nuva:AIC,
-        "034813182"^^nuva:AIC,
-        "034813194"^^nuva:AIC,
-        "034813206"^^nuva:AIC,
         "3400930195123"^^nuva:CIP,
         "3400930195130"^^nuva:CIP,
         "64849952"^^nuva:CIS,
@@ -11657,7 +10874,10 @@ nuva:VAC0544 a owl:Class ;
         "3400939189741"^^nuva:CIP,
         "61779744"^^nuva:CIS,
         "67628592"^^nuva:CIS,
+        "607365"^^nuva:CODE_NATIONAL_SPAIN,
         "729101"^^nuva:CODE_NATIONAL_SPAIN,
+        "762329"^^nuva:CODE_NATIONAL_SPAIN,
+        "763754"^^nuva:CODE_NATIONAL_SPAIN,
         "5909991302252"^^nuva:NTIN,
         "7501895110070"^^nuva:NTIN,
         "7891058999599"^^nuva:NTIN,
@@ -11821,11 +11041,6 @@ nuva:VAC0554 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, 5 components, standard dose), Haemophilus influenzae type b (conjugated to tetanus toxoid) and inactivated polio (trivalent) pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "040475"^^nuva:AIC,
-        "040475016"^^nuva:AIC,
-        "040475028"^^nuva:AIC,
-        "040475030"^^nuva:AIC,
-        "040475042"^^nuva:AIC,
-        "040475055"^^nuva:AIC,
         "3400949961894"^^nuva:CIP,
         "3400949961955"^^nuva:CIP,
         "3400949962037"^^nuva:CIP,
@@ -11887,12 +11102,6 @@ nuva:VAC0560 a owl:Class ;
     rdfs:comment "Quadrivalent inactivated seasonal influenza vaccine, surface antigens"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "044898"^^nuva:AIC,
-        "044898017"^^nuva:AIC,
-        "044898029"^^nuva:AIC,
-        "044898031"^^nuva:AIC,
-        "044898043"^^nuva:AIC,
-        "044898056"^^nuva:AIC,
-        "044898068"^^nuva:AIC,
         "3400928099761"^^nuva:CIP,
         "3400928099877"^^nuva:CIP,
         "3400930067727"^^nuva:CIP,
@@ -12011,10 +11220,6 @@ nuva:VAC0562 a owl:Class ;
     rdfs:comment "Quadrivalent inactivated seasonal influenza vaccine with surface antigens"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "045452"^^nuva:AIC,
-        "045452012"^^nuva:AIC,
-        "045452024"^^nuva:AIC,
-        "045452036"^^nuva:AIC,
-        "045452048"^^nuva:AIC,
         "3400930117712"^^nuva:CIP,
         "3400930117729"^^nuva:CIP,
         "3400955043522"^^nuva:CIP,
@@ -12027,6 +11232,7 @@ nuva:VAC0562 a owl:Class ;
         "4665212"^^nuva:CNK,
         "719762"^^nuva:CODE_NATIONAL_SPAIN,
         "719763"^^nuva:CODE_NATIONAL_SPAIN,
+        "728232"^^nuva:CODE_NATIONAL_SPAIN,
         "728233"^^nuva:CODE_NATIONAL_SPAIN,
         "0844544"^^nuva:CP-NRONATIDENT,
         "514142"^^nuva:CTI,
@@ -12115,12 +11321,10 @@ nuva:VAC0567 a owl:Class ;
     nuvs:containsValence nuva:VAL013 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-11-24"^^xsd:date ;
+    dcterms:modified "2025-12-29"^^xsd:date ;
     rdfs:comment "Shingles vaccine (recombinant, with adjuvant)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "046337"^^nuva:AIC,
-        "046337010"^^nuva:AIC,
-        "046337022"^^nuva:AIC,
         "3400930141861"^^nuva:CIP,
         "3400955053361"^^nuva:CIP,
         "62887096"^^nuva:CIS,
@@ -12182,6 +11386,7 @@ nuva:VAC0568 a owl:Class ;
         "00762098"^^nuva:PZN,
         "04150007620810"^^nuva:PZN,
         "7011002000107"^^nuva:SCT_NUVA,
+        "681"^^nuva:SWISSMEDIC,
         "VAC0568"^^xsd:string .
 
 nuva:VAC0569 a owl:Class ;
@@ -12216,12 +11421,11 @@ nuva:VAC0570 a owl:Class ;
     rdfs:comment "Haemophilus influenzae type b conjugate vaccine (tetanus protein conjugate)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "031902"^^nuva:AIC,
-        "031902012"^^nuva:AIC,
-        "031902024"^^nuva:AIC,
         "3400934377082"^^nuva:CIP,
         "3400934377143"^^nuva:CIP,
         "62216574"^^nuva:CIS,
         "1340884"^^nuva:CNK,
+        "605428"^^nuva:CODE_NATIONAL_SPAIN,
         "664730"^^nuva:CODE_NATIONAL_SPAIN,
         "230151"^^nuva:CTI,
         "230151-03"^^nuva:CTI-EXTEND,
@@ -12293,6 +11497,7 @@ nuva:VAC0575 a owl:Class ;
         "5609441"^^nuva:INFARMED,
         "['0575']"^^nuva:NUVACode,
         "7061002000105"^^nuva:SCT_NUVA,
+        "128"^^nuva:SWISSMEDIC,
         "450"^^nuva:SWISSMEDIC,
         "VAC0575"^^xsd:string .
 
@@ -12344,6 +11549,7 @@ nuva:VAC0578 a owl:Class ;
         "3093184"^^nuva:INFARMED,
         "['0578']"^^nuva:NUVACode,
         "7091002000104"^^nuva:SCT_NUVA,
+        "73"^^nuva:SWISSMEDIC,
         "VAC0578"^^xsd:string .
 
 nuva:VAC0579 a owl:Class ;
@@ -12385,12 +11591,6 @@ nuva:VAC0582 a owl:Class ;
     rdfs:comment "Meningococcal vaccine, serogroup B (recombinant, adsorbed)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "045429"^^nuva:AIC,
-        "045429014"^^nuva:AIC,
-        "045429026"^^nuva:AIC,
-        "045429038"^^nuva:AIC,
-        "045429040"^^nuva:AIC,
-        "045429053"^^nuva:AIC,
-        "045429065"^^nuva:AIC,
         "3400930096376"^^nuva:CIP,
         "65802140"^^nuva:CIS,
         "3598034"^^nuva:CNK,
@@ -12454,7 +11654,6 @@ nuva:VAC0586 a owl:Class ;
     rdfs:comment "Ebola Zaire vaccine (rVSVΔG-ZEBOV-GP, live)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "048364"^^nuva:AIC,
-        "048364018"^^nuva:AIC,
         "3400955070689"^^nuva:CIP,
         "62614126"^^nuva:CIS,
         "90758"^^nuva:CPT,
@@ -12481,6 +11680,7 @@ nuva:VAC0590 a owl:Class ;
         "3400936466364"^^nuva:CIP,
         "3400936466425"^^nuva:CIP,
         "61077869"^^nuva:CIS,
+        "758854"^^nuva:CODE_NATIONAL_SPAIN,
         "4472189"^^nuva:INFARMED,
         "['0590']"^^nuva:NUVACode,
         "7171002000104"^^nuva:SCT_NUVA,
@@ -12528,7 +11728,8 @@ nuva:VAC0593 a owl:Class ;
     dcterms:modified "2025-04-23"^^xsd:date ;
     rdfs:comment "Whole virion inactivated rabies vaccine, WISTAR PM/WI 38-1503-3M strain, cultured on Vero cells, inactivated with ß-propiolactone"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "3400930152096"^^nuva:CIP,
+    skos:notation "050684"^^nuva:AIC,
+        "3400930152096"^^nuva:CIP,
         "3400930265628"^^nuva:CIP,
         "3400933660499"^^nuva:CIP,
         "3400933660550"^^nuva:CIP,
@@ -12538,6 +11739,7 @@ nuva:VAC0593 a owl:Class ;
         "65583006"^^nuva:CIS,
         "65724720"^^nuva:CIS,
         "4867487"^^nuva:CNK,
+        "763203"^^nuva:CODE_NATIONAL_SPAIN,
         "661685"^^nuva:CTI,
         "661685-01"^^nuva:CTI-EXTEND,
         "661685-02"^^nuva:CTI-EXTEND,
@@ -12564,14 +11766,13 @@ nuva:VAC0594 a owl:Class ;
     rdfs:comment "Quadrivalent meningococcal polysaccharide conjugate vaccine, serogroups A, C, W and Y (conjugated to tetanus toxoid)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "049225"^^nuva:AIC,
-        "049225016"^^nuva:AIC,
-        "049225028"^^nuva:AIC,
         "3400930221877"^^nuva:CIP,
         "3400930221884"^^nuva:CIP,
         "3400930244210"^^nuva:CIP,
         "63064137"^^nuva:CIS,
         "729825"^^nuva:CODE_NATIONAL_SPAIN,
         "732101"^^nuva:CODE_NATIONAL_SPAIN,
+        "763017"^^nuva:CODE_NATIONAL_SPAIN,
         "575173"^^nuva:CTI,
         "575182"^^nuva:CTI,
         "593360"^^nuva:CTI,
@@ -12618,10 +11819,6 @@ nuva:VAC0595 a owl:Class ;
     rdfs:comment "Quadrivalent inactivated seasonal influenza vaccine, cell-based"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "047475"^^nuva:AIC,
-        "047475013"^^nuva:AIC,
-        "047475025"^^nuva:AIC,
-        "047475037"^^nuva:AIC,
-        "047475049"^^nuva:AIC,
         "3400930176603"^^nuva:CIP,
         "3400930176610"^^nuva:CIP,
         "3400930283530"^^nuva:CIP,
@@ -12736,7 +11933,6 @@ nuva:VAC0600 a owl:Class ;
     rdfs:comment "Polio vaccine (live attenuated, bivalent) against poliovirus types 1 and 3, oral"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "041165"^^nuva:AIC,
-        "041165010"^^nuva:AIC,
         "J07BF04"^^nuva:ATC,
         "178"^^nuva:CVX,
         "XM79H3"^^nuva:ICD11,
@@ -12907,7 +12103,9 @@ nuva:VAC0620 a owl:Class ;
     dcterms:modified "2024-08-16"^^xsd:date ;
     rdfs:comment "Live attenuated chikungunya vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "3400930296448"^^nuva:CIP,
+    skos:notation "051357"^^nuva:AIC,
+        "3400930296448"^^nuva:CIP,
+        "766689"^^nuva:CODE_NATIONAL_SPAIN,
         "5534284"^^nuva:ELGA,
         "EU-1-24-1828"^^nuva:EU-NUMBER,
         "5900766"^^nuva:INFARMED,
@@ -12940,6 +12138,7 @@ nuva:VAC0622 a owl:Class ;
         "8674713"^^nuva:INFARMED,
         "['0622']"^^nuva:NUVACode,
         "7391002000101"^^nuva:SCT_NUVA,
+        "127"^^nuva:SWISSMEDIC,
         "VAC0622"^^xsd:string .
 
 nuva:VAC0623 a owl:Class ;
@@ -12951,8 +12150,7 @@ nuva:VAC0623 a owl:Class ;
     dcterms:modified "2025-07-16"^^xsd:date ;
     rdfs:comment "Live attenuated measles and mumps vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "026901013"^^nuva:AIC,
-        "J07BD51"^^nuva:ATC,
+    skos:notation "J07BD51"^^nuva:ATC,
         "XM9439"^^nuva:ICD11,
         "['0623']"^^nuva:NUVACode,
         "7401002000104"^^nuva:SCT_NUVA,
@@ -12970,6 +12168,7 @@ nuva:VAC0624 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0624']"^^nuva:NUVACode,
         "7411002000101"^^nuva:SCT_NUVA,
+        "96"^^nuva:SWISSMEDIC,
         "VAC0624"^^xsd:string .
 
 nuva:VAC0625 a owl:Class ;
@@ -12981,8 +12180,6 @@ nuva:VAC0625 a owl:Class ;
     rdfs:comment "Live attenuated measles vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "026983"^^nuva:AIC,
-        "026983015"^^nuva:AIC,
-        "026983027"^^nuva:AIC,
         "8290502"^^nuva:INFARMED,
         "['0625']"^^nuva:NUVACode,
         "7421002000107"^^nuva:SCT_NUVA,
@@ -12999,9 +12196,9 @@ nuva:VAC0626 a owl:Class ;
     rdfs:comment "Live attenuated measles and rubella vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "027978"^^nuva:AIC,
-        "027978016"^^nuva:AIC,
         "['0626']"^^nuva:NUVACode,
         "7431002000105"^^nuva:SCT_NUVA,
+        "14"^^nuva:SWISSMEDIC,
         "VAC0626"^^xsd:string .
 
 nuva:VAC0627 a owl:Class ;
@@ -13014,6 +12211,7 @@ nuva:VAC0627 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0627']"^^nuva:NUVACode,
         "7441002000102"^^nuva:SCT_NUVA,
+        "120"^^nuva:SWISSMEDIC,
         "VAC0627"^^xsd:string .
 
 nuva:VAC0628 a owl:Class ;
@@ -13081,9 +12279,9 @@ nuva:VAC0633 a owl:Class ;
     rdfs:comment "Ebola virus vaccine with live non-replicating recombinant virus vector"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "048911"^^nuva:AIC,
-        "048911010"^^nuva:AIC,
         "3400955076698"^^nuva:CIP,
         "66738274"^^nuva:CIS,
+        "730912"^^nuva:CODE_NATIONAL_SPAIN,
         "567262"^^nuva:CTI,
         "567262-01"^^nuva:CTI-EXTEND,
         "EU-1-20-1444-001"^^nuva:EU-NUMBER,
@@ -13101,9 +12299,9 @@ nuva:VAC0634 a owl:Class ;
     rdfs:comment "Ebola virus vaccine with non-replicating viral vector"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "048914"^^nuva:AIC,
-        "048914016"^^nuva:AIC,
         "3400955076704"^^nuva:CIP,
         "67848058"^^nuva:CIS,
+        "731055"^^nuva:CODE_NATIONAL_SPAIN,
         "567253"^^nuva:CTI,
         "567253-01"^^nuva:CTI-EXTEND,
         "EU-1-20-1445-001"^^nuva:EU-NUMBER,
@@ -13121,10 +12319,6 @@ nuva:VAC0635 a owl:Class ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, purified antigens"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "040490"^^nuva:AIC,
-        "040490017"^^nuva:AIC,
-        "040490029"^^nuva:AIC,
-        "040490031"^^nuva:AIC,
-        "040490043"^^nuva:AIC,
         "5380407"^^nuva:INFARMED,
         "5380415"^^nuva:INFARMED,
         "['0635']"^^nuva:NUVACode,
@@ -13196,6 +12390,7 @@ nuva:VAC0639 a owl:Class ;
         "8699625960428"^^nuva:NTIN,
         "['0639']"^^nuva:NUVACode,
         "7561002000102"^^nuva:SCT_NUVA,
+        "68110"^^nuva:SWISSMEDIC,
         "697177005169"^^nuva:UPC,
         "VAC0639"^^xsd:string .
 
@@ -13294,10 +12489,12 @@ nuva:VAC0644 a owl:Class ;
     rdfs:comment """Live attenuated, chimeric recombinant, quadrivalent vaccine against the four serotypes (1, 2, 3 and 4) of dengue virus
 Other names: TAK-003; DENVAX"""@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "3400930266274"^^nuva:CIP,
+    skos:notation "050458"^^nuva:AIC,
+        "3400930266274"^^nuva:CIP,
         "3400930266281"^^nuva:CIP,
         "3400930266458"^^nuva:CIP,
         "4642039"^^nuva:CNK,
+        "758837"^^nuva:CODE_NATIONAL_SPAIN,
         "660937"^^nuva:CTI,
         "660959"^^nuva:CTI,
         "660960"^^nuva:CTI,
@@ -13393,12 +12590,6 @@ nuva:VAC0649 a owl:Class ;
     rdfs:comment "High-dose, quadrivalent inactivated seasonal influenza vaccine, split-virion"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "048644"^^nuva:AIC,
-        "048644013"^^nuva:AIC,
-        "048644025"^^nuva:AIC,
-        "048644037"^^nuva:AIC,
-        "048644049"^^nuva:AIC,
-        "048644052"^^nuva:AIC,
-        "048644064"^^nuva:AIC,
         "3400930205372"^^nuva:CIP,
         "3400930205389"^^nuva:CIP,
         "3400930205396"^^nuva:CIP,
@@ -13409,7 +12600,9 @@ nuva:VAC0649 a owl:Class ;
         "3400930288825"^^nuva:CIP,
         "62048742"^^nuva:CIS,
         "67823603"^^nuva:CIS,
+        "607420"^^nuva:CODE_NATIONAL_SPAIN,
         "728468"^^nuva:CODE_NATIONAL_SPAIN,
+        "728470"^^nuva:CODE_NATIONAL_SPAIN,
         "560471"^^nuva:CTI,
         "560471-19"^^nuva:CTI-EXTEND,
         "560471-20"^^nuva:CTI-EXTEND,
@@ -13440,8 +12633,6 @@ nuva:VAC0650 a owl:Class ;
     rdfs:comment "COVID-19 vaccine, non-replicating chimpanzee adenoviral vector ChAdOx1 encoding the SARS-CoV-2 spike protein"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "049314"^^nuva:AIC,
-        "049314014"^^nuva:AIC,
-        "049314026"^^nuva:AIC,
         "3400928099822"^^nuva:CIP,
         "3400930222249"^^nuva:CIP,
         "3400930222256"^^nuva:CIP,
@@ -13553,7 +12744,6 @@ nuva:VAC0656 a owl:Class ;
     rdfs:comment "COVID-19 mRNA vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "049283"^^nuva:AIC,
-        "049283017"^^nuva:AIC,
         "3400928099778"^^nuva:CIP,
         "3400930219553"^^nuva:CIP,
         "66689795"^^nuva:CIS,
@@ -13741,8 +12931,6 @@ nuva:VAC0666 a owl:Class ;
     rdfs:comment "COVID-19 vaccine with non-replicating viral vector (adenovirus)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "049395"^^nuva:AIC,
-        "049395015"^^nuva:AIC,
-        "049395027"^^nuva:AIC,
         "3400928099785"^^nuva:CIP,
         "3400930222232"^^nuva:CIP,
         "3400930227015"^^nuva:CIP,
@@ -13773,7 +12961,8 @@ nuva:VAC0667 a owl:Class ;
     dcterms:modified "2022-12-18"^^xsd:date ;
     rdfs:comment "COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles, with adjuvant (Matrix M) - Other name: NOVAVAX NVX-CoV2373 COVID-19 Vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "3400928099648"^^nuva:CIP,
+    skos:notation "049811"^^nuva:AIC,
+        "3400928099648"^^nuva:CIP,
         "3400930245774"^^nuva:CIP,
         "3400930271674"^^nuva:CIP,
         "3400930275047"^^nuva:CIP,
@@ -13781,6 +12970,7 @@ nuva:VAC0667 a owl:Class ;
         "69544189"^^nuva:CIS,
         "4492567"^^nuva:CNK,
         "732750"^^nuva:CODE_NATIONAL_SPAIN,
+        "762730"^^nuva:CODE_NATIONAL_SPAIN,
         "593884"^^nuva:CTI,
         "661244"^^nuva:CTI,
         "661582"^^nuva:CTI,
@@ -13961,8 +13151,8 @@ nuva:VAC0680 a owl:Class ;
     nuvs:containsValence nuva:VAL264 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-07-25"^^xsd:date ;
-    rdfs:comment "COVID-19 vaccine, whole virion inactivated, Vero cell-cultured - Other names : SINOPHARM BBIBP-CorV COVID-19 ; COVID-19 Vaccine BIBP"@en ;
+    dcterms:modified "2026-01-08"^^xsd:date ;
+    rdfs:comment "COVID-19 vaccine, whole virion inactivated, Vero cell-cultured - Other names : SINOPHARM BBIBP-CorV COVID-19 ; COVID-19 Vaccine BIBP ; Hayat-vax"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "31301000087101"^^nuva:CVC,
         "510"^^nuva:CVX,
@@ -14173,7 +13363,7 @@ nuva:VAC0696 a owl:Class ;
     nuvs:containsValence nuva:VAL265 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-05-15"^^xsd:date ;
+    dcterms:modified "2026-01-08"^^xsd:date ;
     rdfs:comment "COVID-19 vaccine, whole virion inactivated (Vero cell culture)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "33431000087104"^^nuva:CVC,
@@ -14674,15 +13864,6 @@ nuva:VAC0731 a owl:Class ;
     rdfs:comment "Diphtheria vaccine (toxoid, reduced dose) and tetanus vaccine (toxoid), adult dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "020967"^^nuva:AIC,
-        "020967016"^^nuva:AIC,
-        "020967028"^^nuva:AIC,
-        "020967030"^^nuva:AIC,
-        "020967042"^^nuva:AIC,
-        "020967055"^^nuva:AIC,
-        "020967067"^^nuva:AIC,
-        "020967079"^^nuva:AIC,
-        "020967081"^^nuva:AIC,
-        "020967093"^^nuva:AIC,
         "656829"^^nuva:CODE_NATIONAL_SPAIN,
         "2374189"^^nuva:INFARMED,
         "['0731']"^^nuva:NUVACode,
@@ -14710,7 +13891,8 @@ nuva:VAC0733 a owl:Class ;
     dcterms:modified "2025-03-31"^^xsd:date ;
     rdfs:comment "Recombinant hepatitis B vaccine, adult dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "90739"^^nuva:CPT,
+    skos:notation "049380"^^nuva:AIC,
+        "90739"^^nuva:CPT,
         "580880"^^nuva:CTI,
         "661896"^^nuva:CTI,
         "580880-01"^^nuva:CTI-EXTEND,
@@ -14735,14 +13917,6 @@ nuva:VAC0734 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (low dose), tetanus toxoid, pertussis (multicomponent acellular, 5 components, low dose) and inactivated polio (trivalent) vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "036752"^^nuva:AIC,
-        "036752018"^^nuva:AIC,
-        "036752020"^^nuva:AIC,
-        "036752032"^^nuva:AIC,
-        "036752044"^^nuva:AIC,
-        "036752057"^^nuva:AIC,
-        "036752069"^^nuva:AIC,
-        "036752071"^^nuva:AIC,
-        "036752083"^^nuva:AIC,
         "['0734']"^^nuva:NUVACode,
         "8791002000101"^^nuva:SCT_NUVA,
         "VAC0734"^^xsd:string .
@@ -14759,15 +13933,6 @@ nuva:VAC0735 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, standard dose) and inactivated polio (trivalent) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "037157"^^nuva:AIC,
-        "037157017"^^nuva:AIC,
-        "037157029"^^nuva:AIC,
-        "037157031"^^nuva:AIC,
-        "037157043"^^nuva:AIC,
-        "037157056"^^nuva:AIC,
-        "037157068"^^nuva:AIC,
-        "037157070"^^nuva:AIC,
-        "037157082"^^nuva:AIC,
-        "037157094"^^nuva:AIC,
         "['0735']"^^nuva:NUVACode,
         "8801002000100"^^nuva:SCT_NUVA,
         "VAC0735"^^xsd:string .
@@ -14784,17 +13949,9 @@ nuva:VAC0736 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (low dose), tetanus toxoid, pertussis (multicomponent acellular, 5 components, low dose) and inactivated polio (trivalent) vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "048290"^^nuva:AIC,
-        "048290011"^^nuva:AIC,
-        "048290023"^^nuva:AIC,
-        "048290035"^^nuva:AIC,
-        "048290047"^^nuva:AIC,
-        "048290050"^^nuva:AIC,
-        "048290062"^^nuva:AIC,
-        "048290074"^^nuva:AIC,
-        "048290086"^^nuva:AIC,
-        "048290098"^^nuva:AIC,
-        "048290100"^^nuva:AIC,
         "4237939"^^nuva:CNK,
+        "728007"^^nuva:CODE_NATIONAL_SPAIN,
+        "728008"^^nuva:CODE_NATIONAL_SPAIN,
         "0433017"^^nuva:CP-NRONATIDENT,
         "241096"^^nuva:CTI,
         "241096-01"^^nuva:CTI-EXTEND,
@@ -15238,7 +14395,8 @@ nuva:VAC0777 a owl:Class ;
     dcterms:modified "2023-08-15"^^xsd:date ;
     rdfs:comment "Influenza A(H5N1) vaccine (fragmented virion, inactivated, adjuvanted)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "357874"^^nuva:CTI,
+    skos:notation "696678"^^nuva:CODE_NATIONAL_SPAIN,
+        "357874"^^nuva:CTI,
         "357874-01"^^nuva:CTI-EXTEND,
         "EU-1-09-578-001"^^nuva:EU-NUMBER,
         "['0777']"^^nuva:NUVACode,
@@ -15254,8 +14412,8 @@ nuva:VAC0778 a owl:Class ;
     rdfs:comment "Live attenuated cholera vaccine (attenuated V. cholerae strain CVD 103-HgR produced by recombinant DNA technology)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "048696"^^nuva:AIC,
-        "048696013"^^nuva:AIC,
         "3400930264966"^^nuva:CIP,
+        "728425"^^nuva:CODE_NATIONAL_SPAIN,
         "559697"^^nuva:CTI,
         "559697-01"^^nuva:CTI-EXTEND,
         "EU-1-20-1423-001"^^nuva:EU-NUMBER,
@@ -15275,10 +14433,6 @@ nuva:VAC0779 a owl:Class ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, surface antigen"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "035619"^^nuva:AIC,
-        "035619016"^^nuva:AIC,
-        "035619028"^^nuva:AIC,
-        "035619030"^^nuva:AIC,
-        "035619042"^^nuva:AIC,
         "3400935493309"^^nuva:CIP,
         "3400935493477"^^nuva:CIP,
         "3400939497563"^^nuva:CIP,
@@ -15311,12 +14465,6 @@ nuva:VAC0780 a owl:Class ;
     rdfs:comment "Pneumococcal polysaccharide conjugate vaccine, 15-valent, adsorbed, serotypes 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F and 33F"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "049825"^^nuva:AIC,
-        "049825019"^^nuva:AIC,
-        "049825021"^^nuva:AIC,
-        "049825033"^^nuva:AIC,
-        "049825045"^^nuva:AIC,
-        "049825058"^^nuva:AIC,
-        "049825060"^^nuva:AIC,
         "3400930244357"^^nuva:CIP,
         "3400930244364"^^nuva:CIP,
         "3400930244371"^^nuva:CIP,
@@ -15325,6 +14473,9 @@ nuva:VAC0780 a owl:Class ;
         "3400930244401"^^nuva:CIP,
         "64355843"^^nuva:CIS,
         "4491015"^^nuva:CNK,
+        "732718"^^nuva:CODE_NATIONAL_SPAIN,
+        "737665"^^nuva:CODE_NATIONAL_SPAIN,
+        "762442"^^nuva:CODE_NATIONAL_SPAIN,
         "90671"^^nuva:CPT,
         "594702"^^nuva:CTI,
         "594862"^^nuva:CTI,
@@ -15377,7 +14528,6 @@ nuva:VAC0782 a owl:Class ;
     rdfs:comment "Whole virion inactivated rabies vaccine, Flury LEP strain, purified chick embryo cell vaccine (PCECV), inactivated with ß-propiolactone"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "024398"^^nuva:AIC,
-        "024398012"^^nuva:AIC,
         "['0782']"^^nuva:NUVACode,
         "9261002000109"^^nuva:SCT_NUVA,
         "VAC0782"^^xsd:string .
@@ -15960,10 +15110,11 @@ nuva:VAC0818 a owl:Class ;
         nuva:VAL071 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-10-26"^^xsd:date ;
-    dcterms:modified "2024-07-04"^^xsd:date ;
+    dcterms:modified "2026-01-08"^^xsd:date ;
     rdfs:comment "Typhoid and paratyphoid A and B vaccine, whole-cell inactivated"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "J07AP10"^^nuva:ATC,
+        "XM95H3"^^nuva:ICD11,
         "['0818']"^^nuva:NUVACode,
         "9761002000100"^^nuva:SCT_NUVA,
         "VAC0818"^^xsd:string .
@@ -16199,7 +15350,8 @@ nuva:VAC0833 a owl:Class ;
     dcterms:modified "2025-04-09"^^xsd:date ;
     rdfs:comment "Covid 19 mRNA vaccine, 10 micrograms, paediatric dose 5-11 years"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "3400928099693"^^nuva:CIP,
+    skos:notation "049269"^^nuva:AIC,
+        "3400928099693"^^nuva:CIP,
         "3400930243404"^^nuva:CIP,
         "69174918"^^nuva:CIS,
         "4476651"^^nuva:CNK,
@@ -16247,10 +15399,6 @@ nuva:VAC0836 a owl:Class ;
     rdfs:comment "Quadrivalent inactivated seasonal influenza vaccine with surface antigens"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "048797"^^nuva:AIC,
-        "048797017"^^nuva:AIC,
-        "048797029"^^nuva:AIC,
-        "048797031"^^nuva:AIC,
-        "048797043"^^nuva:AIC,
         "3400930233481"^^nuva:CIP,
         "3400930233504"^^nuva:CIP,
         "3400930283516"^^nuva:CIP,
@@ -16822,8 +15970,7 @@ nuva:VAC0868 a owl:Class ;
     dcterms:modified "2024-04-23"^^xsd:date ;
     rdfs:comment "Unconjugated meningococcal polysaccharide vaccine, serogroup A"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "024489015"^^nuva:AIC,
-        "['0868']"^^nuva:NUVACode,
+    skos:notation "['0868']"^^nuva:NUVACode,
         "10371002000101"^^nuva:SCT_NUVA,
         "VAC0868"^^xsd:string .
 
@@ -16835,8 +15982,7 @@ nuva:VAC0869 a owl:Class ;
     dcterms:modified "2024-04-23"^^xsd:date ;
     rdfs:comment "Unconjugated meningococcal polysaccharide vaccine, serogroup C"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "024489027"^^nuva:AIC,
-        "['0869']"^^nuva:NUVACode,
+    skos:notation "['0869']"^^nuva:NUVACode,
         "10381002000103"^^nuva:SCT_NUVA,
         "VAC0869"^^xsd:string .
 
@@ -16853,20 +15999,16 @@ nuva:VAC0870 a owl:Class ;
         "VAC0870"^^xsd:string .
 
 nuva:VAC0871 a owl:Class ;
-    rdfs:label "SUPEMTEK"^^xsd:string ;
+    rdfs:label "SUPEMTEK TETRA"^^xsd:string ;
     nuvs:containsValence nuva:VAL112 ;
     nuvs:isAbstract false ;
     dcterms:created "2022-03-26"^^xsd:date ;
-    dcterms:modified "2024-04-23"^^xsd:date ;
+    dcterms:modified "2026-01-08"^^xsd:date ;
     rdfs:comment "Quadrivalent inactivated seasonal influenza vaccine, cell-based"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "049227"^^nuva:AIC,
-        "049227010"^^nuva:AIC,
-        "049227022"^^nuva:AIC,
-        "049227034"^^nuva:AIC,
-        "049227046"^^nuva:AIC,
-        "049227059"^^nuva:AIC,
-        "049227061"^^nuva:AIC,
+        "730197"^^nuva:CODE_NATIONAL_SPAIN,
+        "734116"^^nuva:CODE_NATIONAL_SPAIN,
         "575004"^^nuva:CTI,
         "575111"^^nuva:CTI,
         "575120"^^nuva:CTI,
@@ -16900,38 +16042,6 @@ nuva:VAC0872 a owl:Class ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, egg-based, surface antigen"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "025984"^^nuva:AIC,
-        "025984016"^^nuva:AIC,
-        "025984028"^^nuva:AIC,
-        "025984030"^^nuva:AIC,
-        "025984042"^^nuva:AIC,
-        "025984055"^^nuva:AIC,
-        "025984067"^^nuva:AIC,
-        "025984079"^^nuva:AIC,
-        "025984081"^^nuva:AIC,
-        "025984093"^^nuva:AIC,
-        "025984105"^^nuva:AIC,
-        "025984117"^^nuva:AIC,
-        "025984129"^^nuva:AIC,
-        "025984131"^^nuva:AIC,
-        "025984143"^^nuva:AIC,
-        "025984156"^^nuva:AIC,
-        "025984168"^^nuva:AIC,
-        "025984170"^^nuva:AIC,
-        "025984182"^^nuva:AIC,
-        "025984194"^^nuva:AIC,
-        "025984206"^^nuva:AIC,
-        "025984218"^^nuva:AIC,
-        "025984220"^^nuva:AIC,
-        "025984232"^^nuva:AIC,
-        "025984244"^^nuva:AIC,
-        "025984257"^^nuva:AIC,
-        "025984269"^^nuva:AIC,
-        "025984271"^^nuva:AIC,
-        "025984283"^^nuva:AIC,
-        "025984295"^^nuva:AIC,
-        "025984321"^^nuva:AIC,
-        "025984333"^^nuva:AIC,
-        "025984384"^^nuva:AIC,
         "['0872']"^^nuva:NUVACode,
         "10411002000100"^^nuva:SCT_NUVA,
         "VAC0872"^^xsd:string .
@@ -16945,8 +16055,6 @@ nuva:VAC0873 a owl:Class ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, egg-based, surface antigen, adjuvanted with MF59C.1"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "034377"^^nuva:AIC,
-        "034377010"^^nuva:AIC,
-        "034377022"^^nuva:AIC,
         "['0873']"^^nuva:NUVACode,
         "10421002000106"^^nuva:SCT_NUVA,
         "VAC0873"^^xsd:string .
@@ -16960,12 +16068,6 @@ nuva:VAC0874 a owl:Class ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, egg-based, surface antigen, adjuvanted with MF59C.2"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "045390"^^nuva:AIC,
-        "045390010"^^nuva:AIC,
-        "045390022"^^nuva:AIC,
-        "045390034"^^nuva:AIC,
-        "045390046"^^nuva:AIC,
-        "045390059"^^nuva:AIC,
-        "045390061"^^nuva:AIC,
         "['0874']"^^nuva:NUVACode,
         "10431002000109"^^nuva:SCT_NUVA,
         "VAC0874"^^xsd:string .
@@ -16979,7 +16081,7 @@ nuva:VAC0875 a owl:Class ;
     rdfs:comment "Pre-pandemic influenza A(H5N1) vaccine, live attenuated, nasal"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "044890"^^nuva:AIC,
-        "044890010"^^nuva:AIC,
+        "718751"^^nuva:CODE_NATIONAL_SPAIN,
         "['0875']"^^nuva:NUVACode,
         "10441002000101"^^nuva:SCT_NUVA,
         "VAC0875"^^xsd:string .
@@ -16997,10 +16099,6 @@ nuva:VAC0876 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, standard dose), Haemophilus influenzae type b (conjugated to tetanus toxoid) and inactivated polio (trivalent) pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "033536"^^nuva:AIC,
-        "033536018"^^nuva:AIC,
-        "033536020"^^nuva:AIC,
-        "033536032"^^nuva:AIC,
-        "033536044"^^nuva:AIC,
         "['0876']"^^nuva:NUVACode,
         "10451002000104"^^nuva:SCT_NUVA,
         "VAC0876"^^xsd:string .
@@ -17017,20 +16115,6 @@ nuva:VAC0877 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, standard dose) and hepatitis B pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "033342"^^nuva:AIC,
-        "033342015"^^nuva:AIC,
-        "033342027"^^nuva:AIC,
-        "033342039"^^nuva:AIC,
-        "033342041"^^nuva:AIC,
-        "033342054"^^nuva:AIC,
-        "033342066"^^nuva:AIC,
-        "033342078"^^nuva:AIC,
-        "033342080"^^nuva:AIC,
-        "033342092"^^nuva:AIC,
-        "033342104"^^nuva:AIC,
-        "033342116"^^nuva:AIC,
-        "033342128"^^nuva:AIC,
-        "033342130"^^nuva:AIC,
-        "033342142"^^nuva:AIC,
         "2558187"^^nuva:INFARMED,
         "2558286"^^nuva:INFARMED,
         "2558385"^^nuva:INFARMED,
@@ -17047,6 +16131,7 @@ nuva:VAC0877 a owl:Class ;
         "3910189"^^nuva:INFARMED,
         "['0877']"^^nuva:NUVACode,
         "10461002000102"^^nuva:SCT_NUVA,
+        "93"^^nuva:SWISSMEDIC,
         "VAC0877"^^xsd:string .
 
 nuva:VAC0878 a owl:Class ;
@@ -17060,9 +16145,6 @@ nuva:VAC0878 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (whole-cell inactivated) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "021328"^^nuva:AIC,
-        "021328012"^^nuva:AIC,
-        "021328024"^^nuva:AIC,
-        "021328036"^^nuva:AIC,
         "23691000087103"^^nuva:CVC,
         "['0878']"^^nuva:NUVACode,
         "10471002000107"^^nuva:SCT_NUVA,
@@ -17077,9 +16159,6 @@ nuva:VAC0879 a owl:Class ;
     rdfs:comment "Pertussis (multicomponent acelullar, 3 components, standard dose) vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "028274"^^nuva:AIC,
-        "028274013"^^nuva:AIC,
-        "028274025"^^nuva:AIC,
-        "028274037"^^nuva:AIC,
         "['0879']"^^nuva:NUVACode,
         "10481002000105"^^nuva:SCT_NUVA,
         "VAC0879"^^xsd:string .
@@ -17153,9 +16232,6 @@ nuva:VAC0884 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (multicomponent acellular, 3 components, standard dose) pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "004127"^^nuva:AIC,
-        "004127015"^^nuva:AIC,
-        "004127027"^^nuva:AIC,
-        "004127039"^^nuva:AIC,
         "['0884']"^^nuva:NUVACode,
         "10551002000103"^^nuva:SCT_NUVA,
         "VAC0884"^^xsd:string .
@@ -17169,19 +16245,6 @@ nuva:VAC0885 a owl:Class ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, egg-based, surface antigen"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "008646"^^nuva:AIC,
-        "008646010"^^nuva:AIC,
-        "008646022"^^nuva:AIC,
-        "008646034"^^nuva:AIC,
-        "008646046"^^nuva:AIC,
-        "008646059"^^nuva:AIC,
-        "008646061"^^nuva:AIC,
-        "008646073"^^nuva:AIC,
-        "008646085"^^nuva:AIC,
-        "008646097"^^nuva:AIC,
-        "008646109"^^nuva:AIC,
-        "008646111"^^nuva:AIC,
-        "008646123"^^nuva:AIC,
-        "008646135"^^nuva:AIC,
         "['0885']"^^nuva:NUVACode,
         "10561002000101"^^nuva:SCT_NUVA,
         "VAC0885"^^xsd:string .
@@ -17195,7 +16258,6 @@ nuva:VAC0886 a owl:Class ;
     rdfs:comment "Polio vaccine (live attenuated, monovalent) against poliovirus types 1, oral"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "037777"^^nuva:AIC,
-        "037777012"^^nuva:AIC,
         "274391"^^nuva:CTI,
         "274391-01"^^nuva:CTI-EXTEND,
         "274391-02"^^nuva:CTI-EXTEND,
@@ -17214,17 +16276,9 @@ nuva:VAC0887 a owl:Class ;
     rdfs:comment "Polio vaccine (live attenuated, trivalent) against polioviruses 1, 2 and 3, oral"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "020297"^^nuva:AIC,
-        "020297014"^^nuva:AIC,
-        "020297026"^^nuva:AIC,
-        "020297038"^^nuva:AIC,
-        "020297040"^^nuva:AIC,
-        "020297053"^^nuva:AIC,
-        "020297089"^^nuva:AIC,
-        "020297091"^^nuva:AIC,
-        "020297103"^^nuva:AIC,
-        "020297115"^^nuva:AIC,
         "['0887']"^^nuva:NUVACode,
         "10581002000109"^^nuva:SCT_NUVA,
+        "103"^^nuva:SWISSMEDIC,
         "VAC0887"^^xsd:string .
 
 nuva:VAC0888 a owl:Class ;
@@ -17240,9 +16294,6 @@ nuva:VAC0888 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell inactivated), Haemophilus influenzae type b (conjugated to diphtheria toxoid) and hepatitis B (recombinant) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "035029"^^nuva:AIC,
-        "035029014"^^nuva:AIC,
-        "035029026"^^nuva:AIC,
-        "035029038"^^nuva:AIC,
         "['0888']"^^nuva:NUVACode,
         "10591002000107"^^nuva:SCT_NUVA,
         "VAC0888"^^xsd:string .
@@ -17256,7 +16307,6 @@ nuva:VAC0889 a owl:Class ;
     rdfs:comment "Polio vaccine (live attenuated, monovalent) against poliovirus type 3, oral"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "037893"^^nuva:AIC,
-        "037893017"^^nuva:AIC,
         "289152"^^nuva:CTI,
         "289152-01"^^nuva:CTI-EXTEND,
         "289152-02"^^nuva:CTI-EXTEND,
@@ -17273,10 +16323,6 @@ nuva:VAC0890 a owl:Class ;
     rdfs:comment "Live attenuated typhoid vaccine, Salmonella Typhi Strain Ty21A, oral"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "025268"^^nuva:AIC,
-        "025268018"^^nuva:AIC,
-        "025268020"^^nuva:AIC,
-        "025268032"^^nuva:AIC,
-        "025268044"^^nuva:AIC,
         "['0890']"^^nuva:NUVACode,
         "10611002000103"^^nuva:SCT_NUVA,
         "VAC0890"^^xsd:string .
@@ -17312,9 +16358,6 @@ nuva:VAC0891 a owl:Class ;
     rdfs:comment "Unconjugated pneumococcal polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19F, 19A, 20, 22F, 23F and 33F"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "035180"^^nuva:AIC,
-        "035180013"^^nuva:AIC,
-        "035180025"^^nuva:AIC,
-        "035180037"^^nuva:AIC,
         "['0891']"^^nuva:NUVACode,
         "10621002000109"^^nuva:SCT_NUVA,
         "VAC0891"^^xsd:string .
@@ -17328,7 +16371,6 @@ nuva:VAC0892 a owl:Class ;
     rdfs:comment "Inactivated polio (trivalent) vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "034440"^^nuva:AIC,
-        "034440014"^^nuva:AIC,
         "['0892']"^^nuva:NUVACode,
         "10631002000107"^^nuva:SCT_NUVA,
         "VAC0892"^^xsd:string .
@@ -17342,8 +16384,6 @@ nuva:VAC0893 a owl:Class ;
     rdfs:comment "Cholera vaccine, unspecified"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "014486"^^nuva:AIC,
-        "014486017"^^nuva:AIC,
-        "014486029"^^nuva:AIC,
         "['0893']"^^nuva:NUVACode,
         "10641002000104"^^nuva:SCT_NUVA,
         "VAC0893"^^xsd:string .
@@ -17459,10 +16499,13 @@ nuva:VAC0900 a owl:Class ;
     dcterms:modified "2024-10-21"^^xsd:date ;
     rdfs:comment "Pneumococcal polysaccharide conjugate vaccine, 20-valent, adsorbed, serotypes 1, 3, 4, 5, 6A, 6B, 7F, 8, 9V, 10A, 11A, 12F, 14, 15B, 18C, 19A, 19F, 22F, 23F and 33F - Other name : Prevnar 20 in the USA"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "3400930247853"^^nuva:CIP,
+    skos:notation "049965"^^nuva:AIC,
+        "3400930247853"^^nuva:CIP,
         "3400930247860"^^nuva:CIP,
         "62189757"^^nuva:CIS,
         "4499844"^^nuva:CNK,
+        "607476"^^nuva:CODE_NATIONAL_SPAIN,
+        "732860"^^nuva:CODE_NATIONAL_SPAIN,
         "596657"^^nuva:CTI,
         "596666"^^nuva:CTI,
         "596675"^^nuva:CTI,
@@ -17665,7 +16708,9 @@ nuva:VAC0913 a owl:Class ;
     dcterms:modified "2024-04-19"^^xsd:date ;
     rdfs:comment "COVID-19 vaccine, protein subunit, recombinant spike protein, RBD fusion heterodimer, adjuvanted"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "4676235"^^nuva:CNK,
+    skos:notation "050631"^^nuva:AIC,
+        "4676235"^^nuva:CNK,
+        "732869"^^nuva:CODE_NATIONAL_SPAIN,
         "661366"^^nuva:CTI,
         "662475"^^nuva:CTI,
         "662476"^^nuva:CTI,
@@ -17802,6 +16847,7 @@ nuva:VAC0920 a owl:Class ;
         "11051002000104"^^nuva:SCT_NUVA,
         "2031000221103"^^nuva:SNOMED-CT,
         "871827009"^^nuva:SNOMED-CT,
+        "686"^^nuva:SWISSMEDIC,
         "711-02"^^nuva:SWISSMEDIC,
         "VAC0920"^^xsd:string .
 
@@ -17892,11 +16938,16 @@ nuva:VAC0926 a owl:Class ;
     dcterms:modified "2025-09-11"^^xsd:date ;
     rdfs:comment "Trivalent inactivated seasonal influenza vaccine, produced in cell culture"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "3400930304662"^^nuva:CIP,
+    skos:notation "051752"^^nuva:AIC,
+        "3400930304662"^^nuva:CIP,
         "3400930304686"^^nuva:CIP,
         "3400930304693"^^nuva:CIP,
         "3400930304709"^^nuva:CIP,
         "62752472"^^nuva:CIS,
+        "766362"^^nuva:CODE_NATIONAL_SPAIN,
+        "766363"^^nuva:CODE_NATIONAL_SPAIN,
+        "766364"^^nuva:CODE_NATIONAL_SPAIN,
+        "766365"^^nuva:CODE_NATIONAL_SPAIN,
         "90661"^^nuva:CPT,
         "663552"^^nuva:CTI,
         "663568"^^nuva:CTI,
@@ -18049,6 +17100,7 @@ nuva:VAC0935 a owl:Class ;
         "653979"^^nuva:CODE_NATIONAL_SPAIN,
         "['0935']"^^nuva:NUVACode,
         "11281002000100"^^nuva:SCT_NUVA,
+        "417"^^nuva:SWISSMEDIC,
         "VAC0935"^^xsd:string .
 
 nuva:VAC0936 a owl:Class ;
@@ -18481,6 +17533,7 @@ nuva:VAC0961 a owl:Class ;
     skos:notation "['0961']"^^nuva:NUVACode,
         "11601002000105"^^nuva:SCT_NUVA,
         "689"^^nuva:SWISSMEDIC,
+        "84"^^nuva:SWISSMEDIC,
         "VAC0961"^^xsd:string .
 
 nuva:VAC0962 a owl:Class ;
@@ -18497,6 +17550,8 @@ nuva:VAC0962 a owl:Class ;
         "['0962']"^^nuva:NUVACode,
         "11611002000108"^^nuva:SCT_NUVA,
         "690"^^nuva:SWISSMEDIC,
+        "80"^^nuva:SWISSMEDIC,
+        "81"^^nuva:SWISSMEDIC,
         "VAC0962"^^xsd:string .
 
 nuva:VAC0963 a owl:Class ;
@@ -18513,7 +17568,10 @@ nuva:VAC0963 a owl:Class ;
         "8830018"^^nuva:INFARMED,
         "['0963']"^^nuva:NUVACode,
         "11621002000102"^^nuva:SCT_NUVA,
+        "134"^^nuva:SWISSMEDIC,
+        "155"^^nuva:SWISSMEDIC,
         "711"^^nuva:SWISSMEDIC,
+        "79"^^nuva:SWISSMEDIC,
         "VAC0963"^^xsd:string .
 
 nuva:VAC0964 a owl:Class ;
@@ -18526,6 +17584,8 @@ nuva:VAC0964 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0964']"^^nuva:NUVACode,
         "11631002000104"^^nuva:SCT_NUVA,
+        "151"^^nuva:SWISSMEDIC,
+        "82"^^nuva:SWISSMEDIC,
         "VAC0964"^^xsd:string .
 
 nuva:VAC0965 a owl:Class ;
@@ -18600,6 +17660,7 @@ nuva:VAC0969 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0969']"^^nuva:NUVACode,
         "11681002000103"^^nuva:SCT_NUVA,
+        "94"^^nuva:SWISSMEDIC,
         "VAC0969"^^xsd:string .
 
 nuva:VAC0970 a owl:Class ;
@@ -18830,6 +17891,7 @@ nuva:VAC0987 a owl:Class ;
         "3089281"^^nuva:INFARMED,
         "['0987']"^^nuva:NUVACode,
         "11861002000107"^^nuva:SCT_NUVA,
+        "168"^^nuva:SWISSMEDIC,
         "VAC0987"^^xsd:string .
 
 nuva:VAC0988 a owl:Class ;
@@ -18976,6 +18038,7 @@ nuva:VAC0993 a owl:Class ;
         "4989947"^^nuva:ELGA,
         "['0993']"^^nuva:NUVACode,
         "11921002000105"^^nuva:SCT_NUVA,
+        "702"^^nuva:SWISSMEDIC,
         "VAC0993"^^xsd:string .
 
 nuva:VAC0994 a owl:Class ;
@@ -19316,6 +18379,7 @@ nuva:VAC1017 a owl:Class ;
         "3400930261682"^^nuva:CIP,
         "62609613"^^nuva:CIS,
         "68374353"^^nuva:CIS,
+        "758210"^^nuva:CODE_NATIONAL_SPAIN,
         "660572"^^nuva:CTI,
         "660573"^^nuva:CTI,
         "660572-01"^^nuva:CTI-EXTEND,
@@ -19426,6 +18490,7 @@ nuva:VAC1022 a owl:Class ;
         "3400930264058"^^nuva:CIP,
         "63786926"^^nuva:CIS,
         "4636536"^^nuva:CNK,
+        "759235"^^nuva:CODE_NATIONAL_SPAIN,
         "660784"^^nuva:CTI,
         "660784-01"^^nuva:CTI-EXTEND,
         "EU-1-20-1528-010"^^nuva:EU-NUMBER,
@@ -19448,6 +18513,7 @@ nuva:VAC1023 a owl:Class ;
         "3400930262009"^^nuva:CIP,
         "65590890"^^nuva:CIS,
         "4623567"^^nuva:CNK,
+        "758296"^^nuva:CODE_NATIONAL_SPAIN,
         "660609"^^nuva:CTI,
         "660610"^^nuva:CTI,
         "660953"^^nuva:CTI,
@@ -19581,6 +18647,7 @@ nuva:VAC1031 a owl:Class ;
         "660541-01"^^nuva:CTI-EXTEND,
         "['1031']"^^nuva:NUVACode,
         "12411002000101"^^nuva:SCT_NUVA,
+        "69010"^^nuva:SWISSMEDIC,
         "VAC1031"^^xsd:string .
 
 nuva:VAC1032 a owl:Class ;
@@ -19592,7 +18659,8 @@ nuva:VAC1032 a owl:Class ;
     dcterms:modified "2025-04-25"^^xsd:date ;
     rdfs:comment "COVID-19 bivalent mRNA vaccine, original virus + Omicron BA.1 variant, 25 micrograms each"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "660782"^^nuva:CTI,
+    skos:notation "758209"^^nuva:CODE_NATIONAL_SPAIN,
+        "660782"^^nuva:CTI,
         "660783"^^nuva:CTI,
         "660782-01"^^nuva:CTI-EXTEND,
         "660783-01"^^nuva:CTI-EXTEND,
@@ -19601,6 +18669,7 @@ nuva:VAC1032 a owl:Class ;
         "5844949"^^nuva:INFARMED,
         "['1032']"^^nuva:NUVACode,
         "12441002000102"^^nuva:SCT_NUVA,
+        "69123"^^nuva:SWISSMEDIC,
         "VAC1032"^^xsd:string .
 
 nuva:VAC1033 a owl:Class ;
@@ -19615,6 +18684,7 @@ nuva:VAC1033 a owl:Class ;
     skos:notation "3400928099563"^^nuva:CIP,
         "3400930264478"^^nuva:CIP,
         "64089816"^^nuva:CIS,
+        "759239"^^nuva:CODE_NATIONAL_SPAIN,
         "660832"^^nuva:CTI,
         "660833"^^nuva:CTI,
         "661712"^^nuva:CTI,
@@ -19673,6 +18743,7 @@ nuva:VAC1036 a owl:Class ;
         "3400930269008"^^nuva:CIP,
         "69457407"^^nuva:CIS,
         "69556437"^^nuva:CIS,
+        "758838"^^nuva:CODE_NATIONAL_SPAIN,
         "661133"^^nuva:CTI,
         "661136"^^nuva:CTI,
         "661133-01"^^nuva:CTI-EXTEND,
@@ -19735,10 +18806,13 @@ nuva:VAC1040 a owl:Class ;
     dcterms:modified "2024-04-11"^^xsd:date ;
     rdfs:comment "Respiratory syncytial virus (RSV) vaccine, recombinant, RSVPreF3 antigen derived from F protein, adjuvanted"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "3400930274170"^^nuva:CIP,
+    skos:notation "050751"^^nuva:AIC,
+        "3400930274170"^^nuva:CIP,
         "3400930274187"^^nuva:CIP,
         "4710224"^^nuva:CNK,
         "4860383"^^nuva:CNK,
+        "607675"^^nuva:CODE_NATIONAL_SPAIN,
+        "762747"^^nuva:CODE_NATIONAL_SPAIN,
         "661565"^^nuva:CTI,
         "661566"^^nuva:CTI,
         "661565-01"^^nuva:CTI-EXTEND,
@@ -19772,14 +18846,13 @@ nuva:VAC1042 a owl:Class ;
     nuvs:containsValence nuva:VAL163 ;
     nuvs:isAbstract true ;
     dcterms:created "2023-05-16"^^xsd:date ;
-    dcterms:modified "2024-04-11"^^xsd:date ;
+    dcterms:modified "2025-12-17"^^xsd:date ;
     rdfs:comment "COVID-19 vaccine, non-replicating viral vector"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "J07BN02"^^nuva:ATC,
         "29061000087103"^^nuva:CVC,
         "['1042']"^^nuva:NUVACode,
         "12601002000102"^^nuva:SCT_NUVA,
-        "29061000087103"^^nuva:SNOMED-CT,
         "VAC1042"^^xsd:string .
 
 nuva:VAC1043 a owl:Class ;
@@ -19854,10 +18927,14 @@ nuva:VAC1047 a owl:Class ;
     dcterms:modified "2024-11-28"^^xsd:date ;
     rdfs:comment "Respiratory Syncytial Virus (RSV) vaccine, recombinant prefusion F glycoproteins of RSV, bivalent (subtypes A and B), non-adjuvanted"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "3400930275573"^^nuva:CIP,
+    skos:notation "050831"^^nuva:AIC,
+        "3400930275573"^^nuva:CIP,
         "3400930281512"^^nuva:CIP,
         "3400930281529"^^nuva:CIP,
         "4736807"^^nuva:CNK,
+        "607692"^^nuva:CODE_NATIONAL_SPAIN,
+        "607832"^^nuva:CODE_NATIONAL_SPAIN,
+        "762989"^^nuva:CODE_NATIONAL_SPAIN,
         "661771"^^nuva:CTI,
         "66177101"^^nuva:CTI,
         "661772"^^nuva:CTI,
@@ -19950,6 +19027,7 @@ nuva:VAC1051 a owl:Class ;
         "60144425"^^nuva:CIS,
         "64548397"^^nuva:CIS,
         "4740098"^^nuva:CNK,
+        "763234"^^nuva:CODE_NATIONAL_SPAIN,
         "661734"^^nuva:CTI,
         "661735"^^nuva:CTI,
         "661736"^^nuva:CTI,
@@ -19988,6 +19066,7 @@ nuva:VAC1052 a owl:Class ;
         "65248463"^^nuva:CIS,
         "4740106"^^nuva:CNK,
         "4749438"^^nuva:CNK,
+        "763236"^^nuva:CODE_NATIONAL_SPAIN,
         "661737"^^nuva:CTI,
         "661738"^^nuva:CTI,
         "661739"^^nuva:CTI,
@@ -20016,6 +19095,7 @@ nuva:VAC1053 a owl:Class ;
         "3400930295953"^^nuva:CIP,
         "64995124"^^nuva:CIS,
         "4741435"^^nuva:CNK,
+        "763335"^^nuva:CODE_NATIONAL_SPAIN,
         "661740"^^nuva:CTI,
         "662701"^^nuva:CTI,
         "661740-01"^^nuva:CTI-EXTEND,
@@ -20055,7 +19135,8 @@ nuva:VAC1055 a owl:Class ;
     dcterms:modified "2024-04-09"^^xsd:date ;
     rdfs:comment "COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles, with adjuvant (Matrix M), Omicron XBB.1.5 subvariant"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "3400928099518"^^nuva:CIP,
+    skos:notation "050926"^^nuva:AIC,
+        "3400928099518"^^nuva:CIP,
         "3400930277379"^^nuva:CIP,
         "3400930277386"^^nuva:CIP,
         "3400930277393"^^nuva:CIP,
@@ -20063,6 +19144,7 @@ nuva:VAC1055 a owl:Class ;
         "3400930291559"^^nuva:CIP,
         "3400930297827"^^nuva:CIP,
         "65689785"^^nuva:CIS,
+        "763761"^^nuva:CODE_NATIONAL_SPAIN,
         "661936"^^nuva:CTI,
         "661937"^^nuva:CTI,
         "663318"^^nuva:CTI,
@@ -20161,6 +19243,7 @@ nuva:VAC1060 a owl:Class ;
         "3400930275634"^^nuva:CIP,
         "60914655"^^nuva:CIS,
         "61906476"^^nuva:CIS,
+        "762834"^^nuva:CODE_NATIONAL_SPAIN,
         "661767"^^nuva:CTI,
         "661768"^^nuva:CTI,
         "661769"^^nuva:CTI,
@@ -20663,6 +19746,7 @@ nuva:VAC1094 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1094']"^^nuva:NUVACode,
         "13481002000102"^^nuva:SCT_NUVA,
+        "16"^^nuva:SWISSMEDIC,
         "555"^^nuva:SWISSMEDIC,
         "VAC1094"^^xsd:string .
 
@@ -22880,8 +21964,11 @@ nuva:VAC1254 a owl:Class ;
     dcterms:modified "2025-02-09"^^xsd:date ;
     rdfs:comment "Pneumococcal polysaccharide conjugate vaccine, 21-valent, adsorbed, serotypes 3, 6A, 7F, 8, 9N, 10A, 11A, 12F, 15A, 15B, 15C, 16F, 17F, 19A, 20A, 22F, 23A, 23B, 24F, 31, 33F, 35B"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "3400930311462"^^nuva:CIP,
+    skos:notation "052027"^^nuva:AIC,
+        "3400930311462"^^nuva:CIP,
         "3400930311479"^^nuva:CIP,
+        "767366"^^nuva:CODE_NATIONAL_SPAIN,
+        "767367"^^nuva:CODE_NATIONAL_SPAIN,
         "6057900"^^nuva:ELGA,
         "5903471"^^nuva:INFARMED,
         "['1254']"^^nuva:NUVACode,
@@ -22952,6 +22039,7 @@ nuva:VAC1258 a owl:Class ;
         "61838388"^^nuva:CIS,
         "64281916"^^nuva:CIS,
         "4855128"^^nuva:CNK,
+        "765442"^^nuva:CODE_NATIONAL_SPAIN,
         "662865"^^nuva:CTI,
         "662867"^^nuva:CTI,
         "662868"^^nuva:CTI,
@@ -22984,6 +22072,7 @@ nuva:VAC1259 a owl:Class ;
         "3400930299753"^^nuva:CIP,
         "64397504"^^nuva:CIS,
         "4855110"^^nuva:CNK,
+        "765444"^^nuva:CODE_NATIONAL_SPAIN,
         "662870"^^nuva:CTI,
         "662871"^^nuva:CTI,
         "662872"^^nuva:CTI,
@@ -23013,6 +22102,7 @@ nuva:VAC1260 a owl:Class ;
         "3400930299777"^^nuva:CIP,
         "65290793"^^nuva:CIS,
         "4855144"^^nuva:CNK,
+        "765445"^^nuva:CODE_NATIONAL_SPAIN,
         "662873"^^nuva:CTI,
         "662874"^^nuva:CTI,
         "662873-01"^^nuva:CTI-EXTEND,
@@ -23035,11 +22125,14 @@ nuva:VAC1261 a owl:Class ;
     dcterms:modified "2025-11-16"^^xsd:date ;
     rdfs:comment "COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles, with adjuvant (Matrix M), Omicron JN.1 subvariant"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "3400930297841"^^nuva:CIP,
+    skos:notation "051560"^^nuva:AIC,
+        "3400930297841"^^nuva:CIP,
         "3400930297858"^^nuva:CIP,
         "3400930297865"^^nuva:CIP,
         "3400930297872"^^nuva:CIP,
         "67954296"^^nuva:CIS,
+        "764833"^^nuva:CODE_NATIONAL_SPAIN,
+        "764834"^^nuva:CODE_NATIONAL_SPAIN,
         "663772"^^nuva:CTI,
         "663773"^^nuva:CTI,
         "663772-01"^^nuva:CTI-EXTEND,
@@ -23057,8 +22150,13 @@ nuva:VAC1262 a owl:Class ;
     dcterms:modified "2025-04-14"^^xsd:date ;
     rdfs:comment "Single-stranded 5' capped mRNA encoding the Respiratory syncytial virus glycoprotein F stabilized in the prefusion conformation"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "3400930302187"^^nuva:CIP,
+    skos:notation "051452"^^nuva:AIC,
+        "3400930302187"^^nuva:CIP,
         "3400930302194"^^nuva:CIP,
+        "765718"^^nuva:CODE_NATIONAL_SPAIN,
+        "765720"^^nuva:CODE_NATIONAL_SPAIN,
+        "767803"^^nuva:CODE_NATIONAL_SPAIN,
+        "767804"^^nuva:CODE_NATIONAL_SPAIN,
         "663214"^^nuva:CTI,
         "663215"^^nuva:CTI,
         "663214-01"^^nuva:CTI-EXTEND,
@@ -23137,7 +22235,9 @@ nuva:VAC1267 a owl:Class ;
     dcterms:modified "2025-09-25"^^xsd:date ;
     rdfs:comment "Chikungunya VLP vaccine (recombinant, adsorbed)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "3400930313398"^^nuva:CIP,
+    skos:notation "052011"^^nuva:AIC,
+        "3400930313398"^^nuva:CIP,
+        "767529"^^nuva:CODE_NATIONAL_SPAIN,
         "['1267']"^^nuva:NUVACode,
         "15461002000106"^^nuva:SCT_NUVA,
         "VAC1267"^^xsd:string .
@@ -24015,7 +23115,8 @@ nuva:VAC1331 a owl:Class ;
     dcterms:modified "2025-03-27"^^xsd:date ;
     rdfs:comment "Influenza A(H5N1) vaccine (split virion)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "662556"^^nuva:CTI,
+    skos:notation "051213"^^nuva:AIC,
+        "662556"^^nuva:CTI,
         "662556-01"^^nuva:CTI-EXTEND,
         "EU-1-24-1806-001"^^nuva:EU-NUMBER,
         "['1331']"^^nuva:NUVACode,
@@ -24030,7 +23131,8 @@ nuva:VAC1332 a owl:Class ;
     dcterms:modified "2025-06-03"^^xsd:date ;
     rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron KP.2, 3 micrograms, paediatric dose (6 months-4 years)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "663376"^^nuva:CTI,
+    skos:notation "765864"^^nuva:CODE_NATIONAL_SPAIN,
+        "663376"^^nuva:CTI,
         "663376-01"^^nuva:CTI-EXTEND,
         "6051346"^^nuva:ELGA,
         "EU-1-20-1528-042"^^nuva:EU-NUMBER,
@@ -24047,7 +23149,8 @@ nuva:VAC1333 a owl:Class ;
     dcterms:modified "2025-06-03"^^xsd:date ;
     rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron KP.2, 10 micrograms, paediatric dose (5-11 years)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "663374"^^nuva:CTI,
+    skos:notation "765865"^^nuva:CODE_NATIONAL_SPAIN,
+        "663374"^^nuva:CTI,
         "663375"^^nuva:CTI,
         "663374-01"^^nuva:CTI-EXTEND,
         "663375-01"^^nuva:CTI-EXTEND,
@@ -24067,7 +23170,8 @@ nuva:VAC1334 a owl:Class ;
     dcterms:modified "2025-06-03"^^xsd:date ;
     rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron KP.2, 30 micrograms, adult (+ 12 years)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "663371"^^nuva:CTI,
+    skos:notation "765866"^^nuva:CODE_NATIONAL_SPAIN,
+        "663371"^^nuva:CTI,
         "663372"^^nuva:CTI,
         "663373"^^nuva:CTI,
         "663371-01"^^nuva:CTI-EXTEND,
@@ -24090,7 +23194,8 @@ nuva:VAC1335 a owl:Class ;
     dcterms:modified "2025-03-25"^^xsd:date ;
     rdfs:comment "Influenza A(H5N1) vaccine (split virion)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "662557"^^nuva:CTI,
+    skos:notation "051217"^^nuva:AIC,
+        "662557"^^nuva:CTI,
         "662557-01"^^nuva:CTI-EXTEND,
         "EU-1-24-1807-001"^^nuva:EU-NUMBER,
         "['1335']"^^nuva:NUVACode,
@@ -24105,7 +23210,8 @@ nuva:VAC1336 a owl:Class ;
     dcterms:modified "2025-04-04"^^xsd:date ;
     rdfs:comment "COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, original virus"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "663960"^^nuva:CTI,
+    skos:notation "052010"^^nuva:AIC,
+        "663960"^^nuva:CTI,
         "663960-01"^^nuva:CTI-EXTEND,
         "EU-1-24-1873-001"^^nuva:EU-NUMBER,
         "['1336']"^^nuva:NUVACode,
@@ -24132,7 +23238,8 @@ nuva:VAC1338 a owl:Class ;
     dcterms:modified "2025-03-26"^^xsd:date ;
     rdfs:comment "Influenza A(H5N1) vaccine (fragmented virion, inactivated, adjuvanted)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "662050"^^nuva:CTI,
+    skos:notation "050943"^^nuva:AIC,
+        "662050"^^nuva:CTI,
         "662051"^^nuva:CTI,
         "662050-01"^^nuva:CTI-EXTEND,
         "662051-01"^^nuva:CTI-EXTEND,
@@ -24152,7 +23259,8 @@ nuva:VAC1339 a owl:Class ;
     dcterms:modified "2025-04-04"^^xsd:date ;
     rdfs:comment "COVID-19 vaccine, protein subunit, recombinant homodimeric RBD protein, Omicron variant XBB.1.16, with adjuvant (SQBA)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "EU-1-22-1709-005"^^nuva:EU-NUMBER,
+    skos:notation "051848"^^nuva:AIC,
+        "EU-1-22-1709-005"^^nuva:EU-NUMBER,
         "EU-1-22-1709-006"^^nuva:EU-NUMBER,
         "EU-1-22-1709-007"^^nuva:EU-NUMBER,
         "5892344"^^nuva:INFARMED,
@@ -24261,7 +23369,8 @@ nuva:VAC1347 a owl:Class ;
     dcterms:modified "2025-07-01"^^xsd:date ;
     rdfs:comment "High-dose, trivalent inactivated seasonal influenza vaccine, split-virion"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "3400930304983"^^nuva:CIP,
+    skos:notation "051634"^^nuva:AIC,
+        "3400930304983"^^nuva:CIP,
         "3400930304990"^^nuva:CIP,
         "3400930305003"^^nuva:CIP,
         "3400930305010"^^nuva:CIP,
@@ -24270,6 +23379,9 @@ nuva:VAC1347 a owl:Class ;
         "3400930305058"^^nuva:CIP,
         "3400930305065"^^nuva:CIP,
         "4891487"^^nuva:CNK,
+        "766173"^^nuva:CODE_NATIONAL_SPAIN,
+        "766174"^^nuva:CODE_NATIONAL_SPAIN,
+        "766175"^^nuva:CODE_NATIONAL_SPAIN,
         "663606"^^nuva:CTI,
         "663606-01"^^nuva:CTI-EXTEND,
         "663606-02"^^nuva:CTI-EXTEND,
@@ -25575,6 +24687,7 @@ nuva:VAC1449 a owl:Class ;
     rdfs:comment "Paediatric diphtheria vaccine (toxoid, standard dose) and tetanus vaccine (toxoid)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1449']"^^nuva:NUVACode,
+        "126"^^nuva:SWISSMEDIC,
         "VAC1449"^^xsd:string .
 
 nuva:VAC1450 a owl:Class ;
@@ -25790,6 +24903,7 @@ nuva:VAC1466 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930325506"^^nuva:CIP,
         "4969630"^^nuva:CNK,
+        "768198"^^nuva:CODE_NATIONAL_SPAIN,
         "664819-01"^^nuva:CTI-EXTEND,
         "6062367"^^nuva:ELGA,
         "['1466']"^^nuva:NUVACode,
@@ -25806,6 +24920,7 @@ nuva:VAC1467 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930325568"^^nuva:CIP,
         "4969648"^^nuva:CNK,
+        "768196"^^nuva:CODE_NATIONAL_SPAIN,
         "664824-01"^^nuva:CTI-EXTEND,
         "6062396"^^nuva:ELGA,
         "['1467']"^^nuva:NUVACode,
@@ -25821,6 +24936,7 @@ nuva:VAC1468 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930325544"^^nuva:CIP,
         "4969622"^^nuva:CNK,
+        "768197"^^nuva:CODE_NATIONAL_SPAIN,
         "664823-01"^^nuva:CTI-EXTEND,
         "6062373"^^nuva:ELGA,
         "['1468']"^^nuva:NUVACode,
@@ -25988,7 +25104,11 @@ nuva:VAC1480 a owl:Class ;
     dcterms:modified "2025-11-25"^^xsd:date ;
     rdfs:comment "Unconjugated pneumococcal polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "['1480']"^^nuva:NUVACode,
+    skos:notation "654341"^^nuva:CODE_NATIONAL_SPAIN,
+        "706818"^^nuva:CODE_NATIONAL_SPAIN,
+        "706822"^^nuva:CODE_NATIONAL_SPAIN,
+        "820415"^^nuva:CODE_NATIONAL_SPAIN,
+        "['1480']"^^nuva:NUVACode,
         "VAC1480"^^xsd:string .
 
 nuva:VAC1481 a owl:Class ;
@@ -26080,6 +25200,122 @@ nuva:VAC1487 a owl:Class ;
     skos:notation "['1487']"^^nuva:NUVACode,
         "643"^^nuva:SWISSMEDIC,
         "VAC1487"^^xsd:string .
+
+nuva:VAC1488 a owl:Class ;
+    rdfs:label "POLIORIX"^^xsd:string ;
+    nuvs:containsValence nuva:VAL056 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-01-05"^^xsd:date ;
+    dcterms:modified "2026-01-05"^^xsd:date ;
+    rdfs:comment "Inactivated polio (trivalent) vaccine"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1488']"^^nuva:NUVACode,
+        "669"^^nuva:SWISSMEDIC,
+        "VAC1488"^^xsd:string .
+
+nuva:VAC1489 a owl:Class ;
+    rdfs:label "CELTURA"^^xsd:string ;
+    nuvs:containsValence nuva:VAL099 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-01-07"^^xsd:date ;
+    dcterms:modified "2026-01-08"^^xsd:date ;
+    rdfs:comment "Pandemic influenza A(H1N1)pdm09 vaccine, inactivated"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1489']"^^nuva:NUVACode,
+        "136"^^nuva:SWISSMEDIC,
+        "VAC1489"^^xsd:string .
+
+nuva:VAC1490 a owl:Class ;
+    rdfs:label "ALMEVAX"^^xsd:string ;
+    nuvs:containsValence nuva:VAL079 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-01-07"^^xsd:date ;
+    dcterms:modified "2026-01-08"^^xsd:date ;
+    rdfs:comment "Live attenuated rubella vaccine"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1490']"^^nuva:NUVACode,
+        "117"^^nuva:SWISSMEDIC,
+        "VAC1490"^^xsd:string .
+
+nuva:VAC1491 a owl:Class ;
+    rdfs:label "RUBEVAC"^^xsd:string ;
+    nuvs:containsValence nuva:VAL079 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-01-07"^^xsd:date ;
+    dcterms:modified "2026-01-08"^^xsd:date ;
+    rdfs:comment "Live attenuated rubella vaccine"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1491']"^^nuva:NUVACode,
+        "122"^^nuva:SWISSMEDIC,
+        "VAC1491"^^xsd:string .
+
+nuva:VAC1492 a owl:Class ;
+    rdfs:label "POLIOMYELITIS IMPFSTOFF BERNA"^^xsd:string ;
+    nuvs:containsValence nuva:VAL056 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-01-07"^^xsd:date ;
+    dcterms:modified "2026-01-08"^^xsd:date ;
+    rdfs:comment "Inactivated polio (trivalent) vaccine"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1492']"^^nuva:NUVACode,
+        "17"^^nuva:SWISSMEDIC,
+        "VAC1492"^^xsd:string .
+
+nuva:VAC1493 a owl:Class ;
+    rdfs:label "ACEL P"^^xsd:string ;
+    nuvs:containsValence nuva:VAL008 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-01-07"^^xsd:date ;
+    dcterms:modified "2026-01-08"^^xsd:date ;
+    rdfs:comment "Acellular pertussis vaccine, standard dose"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1493']"^^nuva:NUVACode,
+        "77"^^nuva:SWISSMEDIC,
+        "VAC1493"^^xsd:string .
+
+nuva:VAC1494 a owl:Class ;
+    rdfs:label "DITEBOOSTER"^^xsd:string ;
+    nuvs:containsValence nuva:VAL034,
+        nuva:VAL067 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-01-08"^^xsd:date ;
+    dcterms:modified "2026-01-08"^^xsd:date ;
+    rdfs:comment "Diphtheria toxoid (low dose) and tetanus toxoid vaccine"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "606901"^^nuva:CODE_NATIONAL_SPAIN,
+        "658681"^^nuva:CODE_NATIONAL_SPAIN,
+        "658684"^^nuva:CODE_NATIONAL_SPAIN,
+        "658685"^^nuva:CODE_NATIONAL_SPAIN,
+        "['1494']"^^nuva:NUVACode,
+        "VAC1494"^^xsd:string .
+
+nuva:VAC1495 a owl:Class ;
+    rdfs:label "POLIO KOPROWSKI K1-K2-K3"^^xsd:string ;
+    nuvs:containsValence nuva:VAL033,
+        nuva:VAL085,
+        nuva:VAL132 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-01-08"^^xsd:date ;
+    dcterms:modified "2026-01-08"^^xsd:date ;
+    rdfs:comment "Polio vaccine (live attenuated, trivalent) against polioviruses 1, 2 and 3, oral"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1495']"^^nuva:NUVACode,
+        "138"^^nuva:SWISSMEDIC,
+        "139"^^nuva:SWISSMEDIC,
+        "147"^^nuva:SWISSMEDIC,
+        "VAC1495"^^xsd:string .
+
+nuva:VAC1496 a owl:Class ;
+    rdfs:label "POLIO LILLY"^^xsd:string ;
+    nuvs:containsValence nuva:VAL056 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-01-08"^^xsd:date ;
+    dcterms:modified "2026-01-08"^^xsd:date ;
+    rdfs:comment "Inactivated polio (trivalent) vaccine"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1496']"^^nuva:NUVACode,
+        "148"^^nuva:SWISSMEDIC,
+        "VAC1496"^^xsd:string .
 
 nuva:VAL179 a owl:Class ;
     rdfs:label "Meningococcal  valence, monovalent, conjugate"@en ;
@@ -29629,15 +28865,6 @@ nuva:DIS058 a owl:Class ;
     dcterms:modified "2022-12-12"^^xsd:date ;
     rdfs:subClassOf nuva:Disease .
 
-nuva:VAL099 a owl:Class ;
-    rdfs:label "Influenza valence, inactivated, pandemic influenza H1N1 2009 "@en ;
-    nuvs:prevents nuva:DIS015 ;
-    dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL058 ;
-    skos:altLabel "INF-pdm09"@en ;
-    skos:notation "VAL099"^^xsd:string .
-
 nuva:VAL187 a owl:Class ;
     rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 3"@en ;
     nuvs:prevents nuva:DIS025 ;
@@ -29754,6 +28981,15 @@ nuva:VAL083 a owl:Class ;
     rdfs:subClassOf nuva:VAL414 ;
     skos:altLabel "D-d"@en ;
     skos:notation "VAL083"^^xsd:string .
+
+nuva:VAL099 a owl:Class ;
+    rdfs:label "Influenza valence, inactivated, pandemic influenza H1N1 2009 "@en ;
+    nuvs:prevents nuva:DIS015 ;
+    dcterms:created "2021-07-19"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL058 ;
+    skos:altLabel "INF-pdm09"@en ;
+    skos:notation "VAL099"^^xsd:string .
 
 nuva:VAL135 a owl:Class ;
     rdfs:label "COVID-19 valence, mRNA encoding the SARS-CoV-2 spike protein, in clinical trials "@en ;
@@ -30082,15 +29318,6 @@ nuva:VAL011 a owl:Class ;
     skos:altLabel "COVID-PS-rRBD"@en ;
     skos:notation "VAL011"^^xsd:string .
 
-nuva:VAL033 a owl:Class ;
-    rdfs:label "Polio type 2 valence, monovalent, live attenuated, oral"@en ;
-    nuvs:prevents nuva:DIS004 ;
-    dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL133 ;
-    skos:altLabel "mOPV2"@en ;
-    skos:notation "VAL033"^^xsd:string .
-
 nuva:VAL051 a owl:Class ;
     rdfs:label "Avian influenza A(H5N1) valence"@en ;
     nuvs:prevents nuva:DIS050 ;
@@ -30154,6 +29381,15 @@ nuva:VAL017 a owl:Class ;
     skos:altLabel "ap"@en ;
     skos:notation "VAL017"^^xsd:string .
 
+nuva:VAL033 a owl:Class ;
+    rdfs:label "Polio type 2 valence, monovalent, live attenuated, oral"@en ;
+    nuvs:prevents nuva:DIS004 ;
+    dcterms:created "2021-07-19"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL133 ;
+    skos:altLabel "mOPV2"@en ;
+    skos:notation "VAL033"^^xsd:string .
+
 nuva:VAL037 a owl:Class ;
     rdfs:label "Meningococcal A valence, unconjugated polysaccharide"@en ;
     nuvs:prevents nuva:DIS044 ;
@@ -30162,15 +29398,6 @@ nuva:VAL037 a owl:Class ;
     rdfs:subClassOf nuva:VAL297 ;
     skos:altLabel "MPV-A"@en ;
     skos:notation "VAL037"^^xsd:string .
-
-nuva:VAL085 a owl:Class ;
-    rdfs:label "Polio type 3 valence, monovalent, live attenuated, oral"@en ;
-    nuvs:prevents nuva:DIS004 ;
-    dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL133 ;
-    skos:altLabel "mOPV3"@en ;
-    skos:notation "VAL085"^^xsd:string .
 
 nuva:VAL096 a owl:Class ;
     rdfs:label "BCG valence"@en ;
@@ -30189,6 +29416,15 @@ nuva:VAL137 a owl:Class ;
     rdfs:subClassOf nuva:VAL298 ;
     skos:altLabel "MPV-C"@en ;
     skos:notation "VAL137"^^xsd:string .
+
+nuva:VAL085 a owl:Class ;
+    rdfs:label "Polio type 3 valence, monovalent, live attenuated, oral"@en ;
+    nuvs:prevents nuva:DIS004 ;
+    dcterms:created "2021-07-19"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL133 ;
+    skos:altLabel "mOPV3"@en ;
+    skos:notation "VAL085"^^xsd:string .
 
 nuva:VAL104 a owl:Class ;
     rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein"@en ;
@@ -30244,6 +29480,12 @@ nuva:VAL184 a owl:Class ;
     skos:altLabel "PCV"@en ;
     skos:notation "VAL184"^^xsd:string .
 
+nuva:DIS015 a owl:Class ;
+    rdfs:label "Influenza"@en ;
+    dcterms:created "2021-07-19"^^xsd:date ;
+    dcterms:modified "2022-12-12"^^xsd:date ;
+    rdfs:subClassOf nuva:Disease .
+
 nuva:VAL034 a owl:Class ;
     rdfs:label "Diphtheria valence, toxoid, reduced dose"@en ;
     nuvs:prevents nuva:DIS001 ;
@@ -30252,12 +29494,6 @@ nuva:VAL034 a owl:Class ;
     rdfs:subClassOf nuva:VAL083 ;
     skos:altLabel "d"@en ;
     skos:notation "VAL034"^^xsd:string .
-
-nuva:DIS015 a owl:Class ;
-    rdfs:label "Influenza"@en ;
-    dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-12-12"^^xsd:date ;
-    rdfs:subClassOf nuva:Disease .
 
 nuva:VAL015 a owl:Class ;
     rdfs:label "Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose"@en ;
@@ -30283,15 +29519,6 @@ nuva:DIS025 a owl:Class ;
     dcterms:modified "2022-12-12"^^xsd:date ;
     rdfs:subClassOf nuva:Disease .
 
-nuva:VAL008 a owl:Class ;
-    rdfs:label "Pertussis  valence, acellular, standard dose"@en ;
-    nuvs:prevents nuva:DIS003 ;
-    dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL117 ;
-    skos:altLabel "aP"@en ;
-    skos:notation "VAL008"^^xsd:string .
-
 nuva:VAL156 a owl:Class ;
     rdfs:label "Haemophilus influenzae type b valence, PRP conjugated to tetanus toxoid"@en ;
     nuvs:prevents nuva:DIS005 ;
@@ -30306,14 +29533,14 @@ nuva:Disease a owl:Class ;
     owl:disjointWith nuva:Vaccine,
         nuva:Valence .
 
-nuva:VAL079 a owl:Class ;
-    rdfs:label "Rubella valence, live attenuated"@en ;
-    nuvs:prevents nuva:DIS010 ;
+nuva:VAL008 a owl:Class ;
+    rdfs:label "Pertussis  valence, acellular, standard dose"@en ;
+    nuvs:prevents nuva:DIS003 ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:Valence ;
-    skos:altLabel "Rub-LA"@en ;
-    skos:notation "VAL079"^^xsd:string .
+    rdfs:subClassOf nuva:VAL117 ;
+    skos:altLabel "aP"@en ;
+    skos:notation "VAL008"^^xsd:string .
 
 nuva:VAL114 a owl:Class ;
     rdfs:label "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 10 micrograms"@en ;
@@ -30323,6 +29550,15 @@ nuva:VAL114 a owl:Class ;
     rdfs:subClassOf nuva:VAL090 ;
     skos:altLabel "rHBsAg-10"@en ;
     skos:notation "VAL114"^^xsd:string .
+
+nuva:VAL079 a owl:Class ;
+    rdfs:label "Rubella valence, live attenuated"@en ;
+    nuvs:prevents nuva:DIS010 ;
+    dcterms:created "2021-07-19"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Rub-LA"@en ;
+    skos:notation "VAL079"^^xsd:string .
 
 nuva:VAL005 a owl:Class ;
     rdfs:label "Measles valence, live attenuated"@en ;
