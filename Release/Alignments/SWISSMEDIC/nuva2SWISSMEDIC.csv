@@ -13,7 +13,7 @@ VAC0011,HBVAXPRO 5 µg,False,SWISSMEDIC-53,HBVAXPRO 5 µg,True,1,1
 VAC0012,IMMUGRIP,False,,,,,
 VAC0013,IMOVAX POLIO,False,,,,,
 VAC0014,INFANRIX HEXA,False,SWISSMEDIC-640,INFANRIX HEXA,True,1,1
-VAC0015,INFANRIXQUINTA,False,SWISSMEDIC-638,INFANRIXQUINTA,True,1,1
+VAC0015,INFANRIXQUINTA,False,,,,,
 VAC0016,INFLUVAC,False,SWISSMEDIC-485,INFLUVAC,True,1,2
 VAC0016,INFLUVAC,False,SWISSMEDIC-660,INFLUVAC,True,1,2
 VAC0017,M-M-RVAXPRO,False,SWISSMEDIC-703,M-M-RVAXPRO,True,1,1
@@ -54,7 +54,8 @@ VAC0048,GENHEVAC B PASTEUR,False,,,,,
 VAC0049,HAVRIX 1440 U/1mL,False,SWISSMEDIC-558,HAVRIX 1440 U/1mL,True,1,1
 VAC0050,"HAVRIX 720 U/0,5 mL",False,SWISSMEDIC-165,"HAVRIX 720 U/0,5 mL",True,1,2
 VAC0050,"HAVRIX 720 U/0,5 mL",False,SWISSMEDIC-599,"HAVRIX 720 U/0,5 mL",True,1,2
-VAC0051,INFANRIXTETRA,False,SWISSMEDIC-35,INFANRIXTETRA,True,1,1
+VAC0051,INFANRIXTETRA,False,SWISSMEDIC-35,INFANRIXTETRA,True,1,2
+VAC0051,INFANRIXTETRA,False,SWISSMEDIC-636,INFANRIXTETRA,True,1,2
 VAC0052,VACCIN MENINGOCOCCIQUE A+C,False,SWISSMEDIC-55,VACCIN MENINGOCOCCIQUE A+C,True,1,2
 VAC0052,VACCIN MENINGOCOCCIQUE A+C,False,SWISSMEDIC-95,VACCIN MENINGOCOCCIQUE A+C,True,1,2
 VAC0053,PRIORIX,False,SWISSMEDIC-615,PRIORIX,True,1,1
@@ -169,7 +170,6 @@ VAC0171,PREPANDEMIC INFLUENZA VACCINE (H5N1) NOVARTIS,False,,,,,
 VAC0172,DIFTAVAX,False,SWISSMEDIC-711-01,"DT vaccine, unspecified",True,26,0
 VAC0173,FLUENZ,False,,,,,
 VAC0174,PROQUAD,False,SWISSMEDIC-699,PROQUAD,True,1,1
-VAC0175,A.D.T. BOOSTER,False,SWISSMEDIC-686,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
 VAC0175,A.D.T. BOOSTER,False,SWISSMEDIC-711-02,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
 VAC0176,A.K.D.S.,False,,,,,
 VAC0177,AC VAX,False,,,,,
@@ -210,8 +210,9 @@ VAC0211,DAPTACEL,False,,,,,
 VAC0212,DI TE PER POL IMPFSTOFF,False,,,,,
 VAC0213,DI-TE-POL,False,,,,,
 VAC0214,DIF-TET-ALL,False,SWISSMEDIC-711-01,"DT vaccine, unspecified",True,26,0
-VAC0216,ANATOXAL DI TE,False,SWISSMEDIC-154,ANATOXAL DI TE,True,1,2
-VAC0216,ANATOXAL DI TE,False,SWISSMEDIC-600,ANATOXAL DI TE,True,1,2
+VAC0216,ANATOXAL DI TE,False,SWISSMEDIC-134,ANATOXAL DI TE,True,1,3
+VAC0216,ANATOXAL DI TE,False,SWISSMEDIC-154,ANATOXAL DI TE,True,1,3
+VAC0216,ANATOXAL DI TE,False,SWISSMEDIC-600,ANATOXAL DI TE,True,1,3
 VAC0216,ANATOXAL DI TE,False,SWISSMEDIC-711-01,"DT vaccine, unspecified",False,,
 VAC0217,DITOXIM,False,SWISSMEDIC-711-01,"DT vaccine, unspecified",True,26,0
 VAC0218,DOUBLE ANIGEN B.,False,SWISSMEDIC-711-01,"DT vaccine, unspecified",True,26,0
@@ -478,7 +479,6 @@ VAC0487,MENHIBRIX,False,,,,,
 VAC0488,PENTAXIM,False,,,,,
 VAC0489,TRIMOVAX,False,SWISSMEDIC-123,TRIMOVAX,True,1,1
 VAC0490,KINRIX,False,,,,,
-VAC0491,TENIVAC,False,SWISSMEDIC-686,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
 VAC0491,TENIVAC,False,SWISSMEDIC-711-02,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
 VAC0492,AFLURIA,False,,,,,
 VAC0494,TRITANRIX HepB,False,,,,,
@@ -690,7 +690,6 @@ VAC0728,aAPC COVID-19 VACCINE,False,,,,,
 VAC0729,LV-SMENP-DC vaccine,False,,,,,
 VAC0730,DENDRITIC CELL AV-COVID-19 VACCINE,False,,,,,
 VAC0731,DITANRIX,False,SWISSMEDIC-567,DITANRIX,True,1,1
-VAC0731,DITANRIX,False,SWISSMEDIC-686,"Diphtheria-tetanus Td vaccine, unspecified",False,,
 VAC0731,DITANRIX,False,SWISSMEDIC-711-02,"Diphtheria-tetanus Td vaccine, unspecified",False,,
 VAC0732,COVAC-1 - COVAC-2,False,,,,,
 VAC0733,HEPLISAV-B,False,,,,,
@@ -746,7 +745,6 @@ VAC0789,COMVAC4,False,,,,,
 VAC0790,"Diphtheria-Tetanus-Hepatitis B vaccine, unspecified",True,,,,,
 VAC0791,"Hexavalent vaccine DTPerHibPHepB - Diphtheria-Tetanus-Pertussis-Polio-Hib-Hepatitis B vaccine, unspecified",True,,,,,
 VAC0792,"Diphtheria-Tetanus-Pertussis-Polio-Hepatitis B pentavalent vaccine, unspecified",True,,,,,
-VAC0793,TETADIF,False,SWISSMEDIC-686,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
 VAC0793,TETADIF,False,SWISSMEDIC-711-02,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
 VAC0794,"T-igT, unspecified",True,,,,,
 VAC0795,"Acellular pertussis vaccine, unspecified",True,,,,,
@@ -873,8 +871,7 @@ VAC0916,"Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified",
 VAC0917,"Hepatitis E vaccine, unspecified",True,,,,,
 VAC0918,"PRP-D Hib vaccine, unspecified",True,,,,,
 VAC0919,"Hib hbOC vaccine, unspecified",True,,,,,
-VAC0920,"Diphtheria-tetanus Td vaccine, unspecified",True,SWISSMEDIC-686,"Diphtheria-tetanus Td vaccine, unspecified",True,13,2
-VAC0920,"Diphtheria-tetanus Td vaccine, unspecified",True,SWISSMEDIC-711-02,"Diphtheria-tetanus Td vaccine, unspecified",True,13,2
+VAC0920,"Diphtheria-tetanus Td vaccine, unspecified",True,SWISSMEDIC-711-02,"Diphtheria-tetanus Td vaccine, unspecified",True,13,1
 VAC0921,"Japanese encephalitis vaccine, unspecified",True,,,,,
 VAC0922,"Live attenuated adenovirus vaccine, type 4 and type 7, oral",True,,,,,
 VAC0923,"Respiratory Syncytial Virus monoclonal antibody, unspecified",True,,,,,
@@ -920,12 +917,10 @@ VAC0961,ANATOXAL TE N,False,SWISSMEDIC-84,ANATOXAL TE N,True,1,2
 VAC0962,ANATOXAL DI TE N ADULT,False,SWISSMEDIC-690,ANATOXAL DI TE N ADULT,True,1,3
 VAC0962,ANATOXAL DI TE N ADULT,False,SWISSMEDIC-80,ANATOXAL DI TE N ADULT,True,1,3
 VAC0962,ANATOXAL DI TE N ADULT,False,SWISSMEDIC-81,ANATOXAL DI TE N ADULT,True,1,3
-VAC0962,ANATOXAL DI TE N ADULT,False,SWISSMEDIC-686,"Diphtheria-tetanus Td vaccine, unspecified",False,,
 VAC0962,ANATOXAL DI TE N ADULT,False,SWISSMEDIC-711-02,"Diphtheria-tetanus Td vaccine, unspecified",False,,
-VAC0963,ANATOXAL DI TE PER,False,SWISSMEDIC-134,ANATOXAL DI TE PER,True,1,4
-VAC0963,ANATOXAL DI TE PER,False,SWISSMEDIC-155,ANATOXAL DI TE PER,True,1,4
-VAC0963,ANATOXAL DI TE PER,False,SWISSMEDIC-711,ANATOXAL DI TE PER,True,1,4
-VAC0963,ANATOXAL DI TE PER,False,SWISSMEDIC-79,ANATOXAL DI TE PER,True,1,4
+VAC0963,ANATOXAL DI TE PER,False,SWISSMEDIC-155,ANATOXAL DI TE PER,True,1,3
+VAC0963,ANATOXAL DI TE PER,False,SWISSMEDIC-711,ANATOXAL DI TE PER,True,1,3
+VAC0963,ANATOXAL DI TE PER,False,SWISSMEDIC-79,ANATOXAL DI TE PER,True,1,3
 VAC0964,ANATOXAL DI,False,SWISSMEDIC-151,ANATOXAL DI,True,1,2
 VAC0964,ANATOXAL DI,False,SWISSMEDIC-82,ANATOXAL DI,True,1,2
 VAC0965,ANATOXAL TE TAB,False,,,,,
@@ -961,7 +956,6 @@ VAC0990,ALPHARIX,False,,,,,
 VAC0991,FLULAVAL QUADRIVALENT,False,,,,,
 VAC0992,AFLURIA QUADRIVALENT,False,,,,,
 VAC0993,TD ADSORBED,False,SWISSMEDIC-702,TD ADSORBED,True,1,1
-VAC0993,TD ADSORBED,False,SWISSMEDIC-686,"Diphtheria-tetanus Td vaccine, unspecified",False,,
 VAC0993,TD ADSORBED,False,SWISSMEDIC-711-02,"Diphtheria-tetanus Td vaccine, unspecified",False,,
 VAC0994,VARIVAX II,False,,,,,
 VAC0995,IMVAMUNE,False,SWISSMEDIC-144,"Smallpox vaccine, unspecified",True,18,0
@@ -977,7 +971,6 @@ VAC1000,VACV VACCINIA VIRUS LISTER ELSTREE,False,SWISSMEDIC-144,"Smallpox vaccin
 VAC1000,VACV VACCINIA VIRUS LISTER ELSTREE,False,SWISSMEDIC-169,"Smallpox vaccine, unspecified",True,18,0
 VAC1001,V4020 VEEV VACCINE,False,,,,,
 VAC1002,Q-VAX,False,,,,,
-VAC1003,TEDIVAX PRO ADULTO,False,SWISSMEDIC-686,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
 VAC1003,TEDIVAX PRO ADULTO,False,SWISSMEDIC-711-02,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
 VAC1004,TEDIVAX,False,SWISSMEDIC-711-01,"DT vaccine, unspecified",True,26,0
 VAC1005,REVAC-B PLUS ADULT VACCINE,False,,,,,
@@ -1024,9 +1017,7 @@ VAC1044,"COVID-19 vaccine, whole virion inactivated, unspecified",True,,,,,
 VAC1045,INFANRIX-IPV/HIB,False,SWISSMEDIC-619,INFANRIX-IPV/HIB,True,1,1
 VAC1046,BEYFORTUS 50 MG (NIRSEVIMAB),False,,,,,
 VAC1047,ABRYSVO,False,SWISSMEDIC-69691,ABRYSVO,True,1,1
-VAC1048,DECAVAC,False,SWISSMEDIC-686,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
 VAC1048,DECAVAC,False,SWISSMEDIC-711-02,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
-VAC1049,TDVAX,False,SWISSMEDIC-686,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
 VAC1049,TDVAX,False,SWISSMEDIC-711-02,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
 VAC1050,BEYFORTUS 100 MG (NIRSEVIMAB),False,,,,,
 VAC1051,PFIZER COMIRNATY-30 XBB.1.5,False,SWISSMEDIC-69488,PFIZER COMIRNATY-30 XBB.1.5,True,1,1
@@ -1249,7 +1240,6 @@ VAC1261,NUVAXOVID JN.1,False,,,,,
 VAC1262,MRESVIA,False,SWISSMEDIC-69995-01,MRESVIA,True,1,1
 VAC1263,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,,,,,
 VAC1264,"A(H5) avian influenza vaccine, unspecified",True,,,,,
-VAC1265,CLODIVAC,False,SWISSMEDIC-686,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
 VAC1265,CLODIVAC,False,SWISSMEDIC-711-02,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
 VAC1266,PENMENVY,False,,,,,
 VAC1267,VIMKUNYA,False,,,,,
@@ -1279,7 +1269,6 @@ VAC1290,MOPV1 BIO FARMA,False,,,,,
 VAC1291,MOPV2 BIO FARMA,False,,,,,
 VAC1292,BIO-TCV,False,,,,,
 VAC1293,VAKSIN BCG KERING,False,SWISSMEDIC-48,"BCG vaccine, unspecified",True,17,0
-VAC1294,BIO-TD,False,SWISSMEDIC-686,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
 VAC1294,BIO-TD,False,SWISSMEDIC-711-02,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
 VAC1295,DT BIO FARMA,False,SWISSMEDIC-711-01,"DT vaccine, unspecified",True,26,0
 VAC1296,DTP BIO FARMA,False,,,,,
@@ -1287,7 +1276,6 @@ VAC1297,TT BIO FARMA,False,,,,,
 VAC1298,BETT,False,,,,,
 VAC1299,BEVAC 10 µg,False,,,,,
 VAC1300,BEVAC 20 µg,False,,,,,
-VAC1301,BE Td,False,SWISSMEDIC-686,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
 VAC1301,BE Td,False,SWISSMEDIC-711-02,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
 VAC1302,COMBE FIVE,False,,,,,
 VAC1303,VLA15,False,,,,,
@@ -1297,7 +1285,6 @@ VAC1306,TYPHIBEV,False,,,,,
 VAC1307,JEEV 6 µg,False,,,,,
 VAC1308,DT BIOLOGICAL E LTD,False,SWISSMEDIC-711-01,"DT vaccine, unspecified",True,26,0
 VAC1309,NOVEL ORAL (nOPV) TYPE 2 BIOLOGICAL E. LTD,False,,,,,
-VAC1310,SII TD-VAC,False,SWISSMEDIC-686,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
 VAC1310,SII TD-VAC,False,SWISSMEDIC-711-02,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
 VAC1311,"Meningococcal ACWXY conjugate vaccine, unspecified",True,,,,,
 VAC1312,TT SII,False,,,,,
@@ -1350,7 +1337,6 @@ VAC1358,SKYCELLFLU QUADRIVALENT,False,,,,,
 VAC1359,SKYCELLFLU TRIVALENT,False,,,,,
 VAC1360,HEPAMUNE B 10 µg,False,,,,,
 VAC1361,HEPAMUNE B 20 µg,False,,,,,
-VAC1362,SK TD,False,SWISSMEDIC-686,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
 VAC1362,SK TD,False,SWISSMEDIC-711-02,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
 VAC1363,HEPAVAX-GENE B 10 µg,False,,,,,
 VAC1364,BIOHIB,False,,,,,
@@ -1485,9 +1471,9 @@ VAC1490,ALMEVAX,False,SWISSMEDIC-117,ALMEVAX,True,1,1
 VAC1491,RUBEVAC,False,SWISSMEDIC-122,RUBEVAC,True,1,1
 VAC1492,POLIOMYELITIS IMPFSTOFF BERNA,False,SWISSMEDIC-17,POLIOMYELITIS IMPFSTOFF BERNA,True,1,1
 VAC1493,ACEL P,False,SWISSMEDIC-77,ACEL P,True,1,1
-VAC1494,DITEBOOSTER,False,SWISSMEDIC-686,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
 VAC1494,DITEBOOSTER,False,SWISSMEDIC-711-02,"Diphtheria-tetanus Td vaccine, unspecified",True,13,0
 VAC1495,POLIO KOPROWSKI K1-K2-K3,False,SWISSMEDIC-138,POLIO KOPROWSKI K1-K2-K3,True,1,3
 VAC1495,POLIO KOPROWSKI K1-K2-K3,False,SWISSMEDIC-139,POLIO KOPROWSKI K1-K2-K3,True,1,3
 VAC1495,POLIO KOPROWSKI K1-K2-K3,False,SWISSMEDIC-147,POLIO KOPROWSKI K1-K2-K3,True,1,3
 VAC1496,POLIO LILLY,False,SWISSMEDIC-148,POLIO LILLY,True,1,1
+VAC1497,TD-VIRELON,False,SWISSMEDIC-686,TD-VIRELON,True,1,1

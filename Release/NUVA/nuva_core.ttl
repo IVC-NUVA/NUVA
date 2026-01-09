@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "1.3.11" .
+    owl:versionInfo "1.3.12" .
 
 nuva:NUVACode a owl:Class ;
     rdfs:label "NUVA Code" ;
@@ -188,7 +188,7 @@ nuva:VAC0015 a owl:Class ;
         nuva:VAL156 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-09-23"^^xsd:date ;
+    dcterms:modified "2026-01-09"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, 3 components, standard dose), Haemophilus influenzae type b (conjugated to tetanus toxoid) and inactivated polio (trivalent) pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0015']"^^nuva:NUVACode,
@@ -641,7 +641,7 @@ nuva:VAC0051 a owl:Class ;
         nuva:VAL097 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-09-25"^^xsd:date ;
+    dcterms:modified "2026-01-09"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, standard dose) and inactivated polio (trivalent) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0051']"^^nuva:NUVACode,
@@ -1173,7 +1173,7 @@ nuva:VAC0101 a owl:Class ;
     nuvs:containsValence nuva:VAL090 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-05-20"^^xsd:date ;
+    dcterms:modified "2026-01-09"^^xsd:date ;
     rdfs:comment "Recombinant Hepatitis B vaccine, unspecified dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0101']"^^nuva:NUVACode,
@@ -1718,7 +1718,7 @@ nuva:VAC0152 a owl:Class ;
         nuva:VAL139 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-15"^^xsd:date ;
+    dcterms:modified "2026-01-09"^^xsd:date ;
     rdfs:comment "Unconjugated meningococcal polysaccharide vaccine, serogroups A, C, W and Y"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0152']"^^nuva:NUVACode,
@@ -2428,7 +2428,7 @@ nuva:VAC0216 a owl:Class ;
         nuva:VAL097 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2026-01-09"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose) and tetanus toxoid pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0216']"^^nuva:NUVACode,
@@ -2985,7 +2985,7 @@ nuva:VAC0270 a owl:Class ;
     nuvs:containsValence nuva:VAL056 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-11"^^xsd:date ;
+    dcterms:modified "2026-01-09"^^xsd:date ;
     rdfs:comment "Inactivated polio (trivalent) vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0270']"^^nuva:NUVACode,
@@ -7036,7 +7036,7 @@ nuva:VAC0643 a owl:Class ;
         nuva:VAL136 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-05-20"^^xsd:date ;
+    dcterms:modified "2026-01-09"^^xsd:date ;
     rdfs:comment "Quadrivalent meningococcal polysaccharide conjugate vaccine, serogroups A, C, W and Y"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0643']"^^nuva:NUVACode,
@@ -12610,7 +12610,7 @@ nuva:VAC1125 a owl:Class ;
     nuvs:containsValence nuva:VAL068 ;
     nuvs:isAbstract true ;
     dcterms:created "2024-06-05"^^xsd:date ;
-    dcterms:modified "2025-05-19"^^xsd:date ;
+    dcterms:modified "2026-01-09"^^xsd:date ;
     rdfs:comment "Hepatitis B vaccine, unspecified"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1125']"^^nuva:NUVACode,
@@ -12859,7 +12859,7 @@ nuva:VAC1143 a owl:Class ;
     nuvs:containsValence nuva:VAL070 ;
     nuvs:isAbstract true ;
     dcterms:created "2024-06-05"^^xsd:date ;
-    dcterms:modified "2025-03-27"^^xsd:date ;
+    dcterms:modified "2026-01-09"^^xsd:date ;
     rdfs:comment "Anti-covid 19 vaccine with non-replicating viral vector, adenovirus encoding the spike protein of SARS-CoV-2, unspecified"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1143']"^^nuva:NUVACode,
@@ -14064,7 +14064,7 @@ nuva:VAC1241 a owl:Class ;
     nuvs:containsValence nuva:VAL013 ;
     nuvs:isAbstract true ;
     dcterms:created "2024-06-05"^^xsd:date ;
-    dcterms:modified "2024-07-04"^^xsd:date ;
+    dcterms:modified "2026-01-09"^^xsd:date ;
     rdfs:comment "Shingles vaccine, varicella-zoster virus (VZV) surface glycoprotein E (gE), unspecified"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1241']"^^nuva:NUVACode,
@@ -17134,6 +17134,19 @@ nuva:VAC1496 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1496']"^^nuva:NUVACode,
         "VAC1496"^^xsd:string .
+
+nuva:VAC1497 a owl:Class ;
+    rdfs:label "TD-VIRELON" ;
+    nuvs:containsValence nuva:VAL034,
+        nuva:VAL056,
+        nuva:VAL067 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-01-09"^^xsd:date ;
+    dcterms:modified "2026-01-09"^^xsd:date ;
+    rdfs:comment "Diphtheria toxoid (low dose), tetanus toxoid and inactivated polio (trivalent) vaccine"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1497']"^^nuva:NUVACode,
+        "VAC1497"^^xsd:string .
 
 nuva:VAL179 a owl:Class ;
     rdfs:label "Meningococcal  valence, monovalent, conjugate"@en ;

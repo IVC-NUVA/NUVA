@@ -143,7 +143,7 @@ VAC0067,HAVRIX 360 U,False,CVX-85,"Inactivated hepatitis A vaccine, unspecified"
 VAC0068,MONOVAX,False,CVX-19,"BCG vaccine, unspecified",True,19,0
 VAC0069,MENOMUNE,False,CVX-108,"Unconjugated meningococcal vaccine ACWY, unspecified",True,6,0
 VAC0069,MENOMUNE,False,CVX-32,"Unconjugated meningococcal vaccine ACWY, unspecified",True,6,0
-VAC0070,DT BIS,False,CVX-28,"DT vaccine, unspecified",True,28,0
+VAC0070,DT BIS,False,CVX-28,"DT vaccine, unspecified",True,27,0
 VAC0071,D.T. BIS - RUDIVAX,False,,,,,
 VAC0072,JE-VAX,False,CVX-39,"Inactivated Japanese Encephalitis vaccine, unspecified",True,14,0
 VAC0072,JE-VAX,False,CVX-129,"Japanese encephalitis vaccine, unspecified",False,,
@@ -152,7 +152,7 @@ VAC0073,IXIARO,False,CVX-39,"Inactivated Japanese Encephalitis vaccine, unspecif
 VAC0073,IXIARO,False,CVX-129,"Japanese encephalitis vaccine, unspecified",False,,
 VAC0073,IXIARO,False,CVX-134,"Japanese encephalitis vaccine, unspecified",False,,
 VAC0074,D.T. COQ MERIEUX,False,CVX-01,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
-VAC0076,DTVax,False,CVX-28,"DT vaccine, unspecified",True,28,0
+VAC0076,DTVax,False,CVX-28,"DT vaccine, unspecified",True,27,0
 VAC0077,IMOVAX OREILLONS,False,CVX-07,"Mumps vaccine, unspecified",True,12,0
 VAC0078,RUDI-ROUVAX,False,CVX-04,"Measles-Rubella vaccine, unspecified",True,12,0
 VAC0079,ENCEPUR,False,CVX-222,"Tick-borne encephalitis vaccine, unspecified",True,5,0
@@ -276,7 +276,7 @@ VAC0133,"Smallpox vaccine, unspecified",True,CVX-75,"Smallpox vaccine, unspecifi
 VAC0134,"BCG vaccine, unspecified",True,CVX-19,"BCG vaccine, unspecified",True,19,1
 VAC0135,"Polio vaccine, unspecified",True,CVX-89,"Polio vaccine, unspecified",True,3,1
 VAC0136,"DTwP - Diphtheria-Tetanus-Pertussis, unspecified",True,CVX-01,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
-VAC0137,"DT vaccine, unspecified",True,CVX-28,"DT vaccine, unspecified",True,28,1
+VAC0137,"DT vaccine, unspecified",True,CVX-28,"DT vaccine, unspecified",True,27,1
 VAC0138,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",True,,,,,
 VAC0139,PENT-HIBEST,False,,,,,
 VAC0140,INTANZA,False,CVX-168,"Trivalent inactivated influenza vaccine, unspecified",True,50,0
@@ -338,7 +338,7 @@ VAC0170,AFLUNOV,False,CVX-323,"A(H5) avian influenza vaccine, unspecified",False
 VAC0171,PREPANDEMIC INFLUENZA VACCINE (H5N1) NOVARTIS,False,CVX-123,"H5N1 pre-pandemic influenza vaccine, unspecified",True,17,0
 VAC0171,PREPANDEMIC INFLUENZA VACCINE (H5N1) NOVARTIS,False,CVX-160,"H5N1 pre-pandemic influenza vaccine, unspecified",True,17,0
 VAC0171,PREPANDEMIC INFLUENZA VACCINE (H5N1) NOVARTIS,False,CVX-323,"A(H5) avian influenza vaccine, unspecified",False,,
-VAC0172,DIFTAVAX,False,CVX-28,"DT vaccine, unspecified",True,28,0
+VAC0172,DIFTAVAX,False,CVX-28,"DT vaccine, unspecified",True,27,0
 VAC0173,FLUENZ,False,CVX-111,"Live attenuated trivalent influenza vaccine, unspecified",True,3,0
 VAC0173,FLUENZ,False,CVX-333,"Live attenuated trivalent influenza vaccine, unspecified",True,3,0
 VAC0173,FLUENZ,False,CVX-151,"Influenza vaccine, live attenuated, unspecified",False,,
@@ -362,7 +362,7 @@ VAC0182,ADACEL,False,CVX-115,"Tdap - Diphtheria-Tetanus-Pertussis vaccine, low d
 VAC0182,ADACEL,False,CVX-107,"Diph-T-aP/ap, unspecified",False,,
 VAC0183,AIMMUGEN,False,CVX-85,"Inactivated hepatitis A vaccine, unspecified",True,7,0
 VAC0184,ALDIANA,False,,,,,
-VAC0185,ALDITEANA,False,CVX-28,"DT vaccine, unspecified",True,28,0
+VAC0185,ALDITEANA,False,CVX-28,"DT vaccine, unspecified",True,27,0
 VAC0186,ALDITERPERA,False,CVX-01,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC0187,AMARIL,False,CVX-183,"Yellow fever vaccine, unspecified",True,7,0
 VAC0187,AMARIL,False,CVX-184,"Yellow fever vaccine, unspecified",True,7,0
@@ -396,7 +396,7 @@ VAC0200,BIOTHRAX,False,CVX-318,Adjuvanted adsorbed anthrax vaccine,True,5,0
 VAC0200,BIOTHRAX,False,CVX-319,"Anthrax vaccine, unspecified",False,,
 VAC0201,BIVIRATEN BERNA,False,,,,,
 VAC0202,BVAC,False,CVX-27,Botulinum antitoxin,True,4,0
-VAC0203,C.D.T.,False,CVX-28,"DT vaccine, unspecified",True,28,0
+VAC0203,C.D.T.,False,CVX-28,"DT vaccine, unspecified",True,27,0
 VAC0204,CAM-KOVAX,False,CVX-05,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0205,CD.JEVAX,False,CVX-129,"Japanese encephalitis vaccine, unspecified",True,8,0
 VAC0205,CD.JEVAX,False,CVX-134,"Japanese encephalitis vaccine, unspecified",True,8,0
@@ -414,16 +414,17 @@ VAC0211,DAPTACEL,False,CVX-01,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspeci
 VAC0211,DAPTACEL,False,CVX-107,"Diph-T-aP/ap, unspecified",False,,
 VAC0212,DI TE PER POL IMPFSTOFF,False,,,,,
 VAC0213,DI-TE-POL,False,CVX-195,"DTIPV vaccine, unspecified",True,9,0
-VAC0214,DIF-TET-ALL,False,CVX-28,"DT vaccine, unspecified",True,28,0
-VAC0216,ANATOXAL DI TE,False,CVX-28,"DT vaccine, unspecified",True,28,0
-VAC0217,DITOXIM,False,CVX-28,"DT vaccine, unspecified",True,28,0
-VAC0218,DOUBLE ANIGEN B.,False,CVX-28,"DT vaccine, unspecified",True,28,0
+VAC0214,DIF-TET-ALL,False,CVX-28,"DT vaccine, unspecified",True,27,0
+VAC0216,ANATOXAL DI TE,False,CVX-134,ANATOXAL DI TE,True,1,1
+VAC0216,ANATOXAL DI TE,False,CVX-28,"DT vaccine, unspecified",False,,
+VAC0217,DITOXIM,False,CVX-28,"DT vaccine, unspecified",True,27,0
+VAC0218,DOUBLE ANIGEN B.,False,CVX-28,"DT vaccine, unspecified",True,27,0
 VAC0219,DRYVAX,False,CVX-105,"Smallpox vaccine, unspecified",True,15,0
 VAC0219,DRYVAX,False,CVX-325,"Smallpox vaccine, unspecified",True,15,0
 VAC0219,DRYVAX,False,CVX-75,"Smallpox vaccine, unspecified",True,15,0
-VAC0220,DT MERIEUX,False,CVX-28,"DT vaccine, unspecified",True,28,0
+VAC0220,DT MERIEUX,False,CVX-28,"DT vaccine, unspecified",True,27,0
 VAC0222,TRIPVAC,False,CVX-01,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
-VAC0223,DUAL ANTIGEN SII,False,CVX-28,"DT vaccine, unspecified",True,28,0
+VAC0223,DUAL ANTIGEN SII,False,CVX-28,"DT vaccine, unspecified",True,27,0
 VAC0224,ECOLARIX,False,CVX-04,"Measles-Rubella vaccine, unspecified",True,12,0
 VAC0225,EIPV,False,CVX-10,"Inactivated Polio vaccine, unspecified",True,18,0
 VAC0225,EIPV,False,CVX-324,"Inactivated Polio vaccine, unspecified",True,18,0
@@ -489,7 +490,7 @@ VAC0253,VAXIRAB N,False,CVX-176,"Chicken embryo rabies vaccine, unspecified",Tru
 VAC0253,VAXIRAB N,False,CVX-18,"Rabies vaccine, unspecified",False,,
 VAC0253,VAXIRAB N,False,CVX-40,"Rabies vaccine, unspecified",False,,
 VAC0253,VAXIRAB N,False,CVX-90,"Rabies vaccine, unspecified",False,,
-VAC0254,IMOVAX D.T.,False,CVX-28,"DT vaccine, unspecified",True,28,0
+VAC0254,IMOVAX D.T.,False,CVX-28,"DT vaccine, unspecified",True,27,0
 VAC0255,IMOVAX GRIPPE,False,CVX-168,"Trivalent inactivated influenza vaccine, unspecified",True,50,0
 VAC0255,IMOVAX GRIPPE,False,CVX-331,"Trivalent inactivated influenza vaccine, unspecified",True,50,0
 VAC0255,IMOVAX GRIPPE,False,CVX-15,"Inactivated influenza vaccine, split or subunit, unspecified",False,,
@@ -533,7 +534,7 @@ VAC0271,ISTIVAC,False,CVX-168,"Trivalent inactivated influenza vaccine, unspecif
 VAC0271,ISTIVAC,False,CVX-331,"Trivalent inactivated influenza vaccine, unspecified",True,50,0
 VAC0271,ISTIVAC,False,CVX-15,"Inactivated influenza vaccine, split or subunit, unspecified",False,,
 VAC0271,ISTIVAC,False,CVX-88,"Influenza vaccine, unspecified",False,,
-VAC0272,KAKSOISROKOTE DUBBELVACCIN,False,CVX-28,"DT vaccine, unspecified",True,28,0
+VAC0272,KAKSOISROKOTE DUBBELVACCIN,False,CVX-28,"DT vaccine, unspecified",True,27,0
 VAC0273,KIKHOSTE-VAKSINE,False,CVX-11,"Pertussis vaccine, unspecified",True,16,0
 VAC0274,LANCY VAXINA,False,CVX-105,"Smallpox vaccine, unspecified",True,15,0
 VAC0274,LANCY VAXINA,False,CVX-325,"Smallpox vaccine, unspecified",True,15,0
@@ -789,10 +790,10 @@ VAC0427,TYPHOID-KOVAX,False,CVX-101,"Typhoid polysaccharide vaccine, unspecified
 VAC0427,TYPHOID-KOVAX,False,CVX-41,"Typhoid polysaccharide vaccine, unspecified",True,7,0
 VAC0427,TYPHOID-KOVAX,False,CVX-91,"Typhoid vaccine, unspecified",False,,
 VAC0428,VA-MENGOC-BC,False,,,,,
-VAC0429,VACCIN COMBINAT DIFTERO-TETANIC,False,CVX-28,"DT vaccine, unspecified",True,28,0
+VAC0429,VACCIN COMBINAT DIFTERO-TETANIC,False,CVX-28,"DT vaccine, unspecified",True,27,0
 VAC0430,VACCIN DIFTERIC ADSORBIT,False,,,,,
 VAC0431,VACCINUM MORBILLORUM VIVUM,False,CVX-05,"Live attenuated measles vaccine, unspecified",True,25,0
-VAC0432,VACINA DUPLA,False,CVX-28,"DT vaccine, unspecified",True,28,0
+VAC0432,VACINA DUPLA,False,CVX-28,"DT vaccine, unspecified",True,27,0
 VAC0433,VACINA TRIPLICE,False,CVX-01,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC0434,VACINA TRIPLICE VIRAL,False,CVX-03,"MMR vaccine, live attenuated, unspecified",True,26,0
 VAC0435,VAKSIN CACAR,False,CVX-105,"Smallpox vaccine, unspecified",True,15,0
@@ -811,7 +812,7 @@ VAC0443,SEVAC VARIE,False,CVX-75,"Smallpox vaccine, unspecified",True,15,0
 VAC0444,VAXEM-HIB,False,CVX-47,"Hib hbOC vaccine, unspecified",True,3,0
 VAC0444,VAXEM-HIB,False,CVX-17,"Haemophilus influenzae B (or Hib) vaccine, unspecified",False,,
 VAC0445,VAXIPAR,False,CVX-07,"Mumps vaccine, unspecified",True,12,0
-VAC0446,VCDT,False,CVX-28,"DT vaccine, unspecified",True,28,0
+VAC0446,VCDT,False,CVX-28,"DT vaccine, unspecified",True,27,0
 VAC0447,VDA VACCIN DIFTERIC ADSORBIT,False,,,,,
 VAC0448,VICPS (TYPHIM VI),False,CVX-101,"Typhoid polysaccharide vaccine, unspecified",True,7,0
 VAC0448,VICPS (TYPHIM VI),False,CVX-41,"Typhoid polysaccharide vaccine, unspecified",True,7,0
@@ -834,8 +835,8 @@ VAC0458,ZAANTIDE antitoxin,False,CVX-12,"Diphtheria antitoxin, unspecified",True
 VAC0459,ZAANTITE,False,CVX-112,"Tetanus vaccine, unspecified",True,36,0
 VAC0459,ZAANTITE,False,CVX-142,"Tetanus vaccine, unspecified",True,36,0
 VAC0459,ZAANTITE,False,CVX-35,"Tetanus vaccine, unspecified",True,36,0
-VAC0460,ZADITEADVAX,False,CVX-28,"DT vaccine, unspecified",True,28,0
-VAC0461,ZADITEVAX,False,CVX-28,"DT vaccine, unspecified",True,28,0
+VAC0460,ZADITEADVAX,False,CVX-28,"DT vaccine, unspecified",True,27,0
+VAC0461,ZADITEVAX,False,CVX-28,"DT vaccine, unspecified",True,27,0
 VAC0462,ZAMEVAX A+C,False,CVX-192,"Meningococcal A + C vaccine, unspecified",True,7,0
 VAC0463,ZAMOVAX,False,CVX-05,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0464,ZAMRUVAX,False,CVX-04,"Measles-Rubella vaccine, unspecified",True,12,0
@@ -966,7 +967,7 @@ VAC0524,TEVAX,False,CVX-142,"Tetanus vaccine, unspecified",True,36,0
 VAC0524,TEVAX,False,CVX-35,"Tetanus vaccine, unspecified",True,36,0
 VAC0525,INFANRIX PENTA,False,CVX-110,"Diphtheria-Tetanus-Pertussis-Polio-Hepatitis B pentavalent vaccine, unspecified",True,4,0
 VAC0526,HECOLIN,False,CVX-59,"Hepatitis E vaccine, unspecified",True,2,0
-VAC0527,VACCIN DIPHTERIQUE ET TETANIQUE ADSORBE,False,CVX-28,"DT vaccine, unspecified",True,28,0
+VAC0527,VACCIN DIPHTERIQUE ET TETANIQUE ADSORBE,False,CVX-28,"DT vaccine, unspecified",True,27,0
 VAC0528,MOSQUIRIX,False,,,,,
 VAC0529,IMOVAX TETANO,False,CVX-112,"Tetanus vaccine, unspecified",True,36,0
 VAC0529,IMOVAX TETANO,False,CVX-142,"Tetanus vaccine, unspecified",True,36,0
@@ -1116,7 +1117,7 @@ VAC0635,PREFLUCEL,False,CVX-88,"Influenza vaccine, unspecified",False,,
 VAC0636,FLUMIST QUADRIVALENT,False,CVX-149,"Live attenuated quadrivalent influenza vaccine, unspecified",True,3,0
 VAC0636,FLUMIST QUADRIVALENT,False,CVX-151,"Influenza vaccine, live attenuated, unspecified",False,,
 VAC0636,FLUMIST QUADRIVALENT,False,CVX-88,"Influenza vaccine, unspecified",False,,
-VAC0637,IPAD DT,False,CVX-28,"DT vaccine, unspecified",True,28,0
+VAC0637,IPAD DT,False,CVX-28,"DT vaccine, unspecified",True,27,0
 VAC0638,IPAD POLIO,False,CVX-10,"Inactivated Polio vaccine, unspecified",True,18,0
 VAC0638,IPAD POLIO,False,CVX-324,"Inactivated Polio vaccine, unspecified",True,18,0
 VAC0638,IPAD POLIO,False,CVX-89,"Polio vaccine, unspecified",False,,
@@ -1906,7 +1907,7 @@ VAC1003,TEDIVAX PRO ADULTO,False,CVX-113,"Diphtheria-tetanus Td vaccine, unspeci
 VAC1003,TEDIVAX PRO ADULTO,False,CVX-138,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC1003,TEDIVAX PRO ADULTO,False,CVX-139,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC1003,TEDIVAX PRO ADULTO,False,CVX-196,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
-VAC1004,TEDIVAX,False,CVX-28,"DT vaccine, unspecified",True,28,0
+VAC1004,TEDIVAX,False,CVX-28,"DT vaccine, unspecified",True,27,0
 VAC1005,REVAC-B PLUS ADULT VACCINE,False,CVX-189,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,15,0
 VAC1005,REVAC-B PLUS ADULT VACCINE,False,CVX-43,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,15,0
 VAC1005,REVAC-B PLUS ADULT VACCINE,False,CVX-45,"Hepatitis B vaccine, recombinant, unspecified",False,,
@@ -1919,7 +1920,7 @@ VAC1007,ISTIVAC4,False,CVX-166,"Quadrivalent influenza vaccine, unspecified",Tru
 VAC1007,ISTIVAC4,False,CVX-205,"Quadrivalent influenza vaccine, unspecified",True,15,0
 VAC1007,ISTIVAC4,False,CVX-15,"Inactivated influenza vaccine, split or subunit, unspecified",False,,
 VAC1007,ISTIVAC4,False,CVX-88,"Influenza vaccine, unspecified",False,,
-VAC1008,DITEMER,False,CVX-28,"DT vaccine, unspecified",True,28,0
+VAC1008,DITEMER,False,CVX-28,"DT vaccine, unspecified",True,27,0
 VAC1009,TETAMER,False,CVX-112,"Tetanus vaccine, unspecified",True,36,0
 VAC1009,TETAMER,False,CVX-142,"Tetanus vaccine, unspecified",True,36,0
 VAC1009,TETAMER,False,CVX-35,"Tetanus vaccine, unspecified",True,36,0
@@ -2440,7 +2441,7 @@ VAC1270,"SPIKEVAX JN.1 0,1 mg/mL dose 50 µg",False,CVX-213,"COVID-19 vaccine, u
 VAC1270,"SPIKEVAX JN.1 0,1 mg/mL dose 50 µg",False,CVX-500,"COVID-19 vaccine, unspecified",True,166,0
 VAC1271,TYT BIOMED,False,,,,,
 VAC1272,PSEUDOVAC,False,,,,,
-VAC1273,DT BIOMED,False,CVX-28,"DT vaccine, unspecified",True,28,0
+VAC1273,DT BIOMED,False,CVX-28,"DT vaccine, unspecified",True,27,0
 VAC1274,d BIOMED,False,,,,,
 VAC1275,D BIOMED,False,,,,,
 VAC1276,DTP BIOMED,False,CVX-01,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
@@ -2489,7 +2490,7 @@ VAC1294,BIO-TD,False,CVX-113,"Diphtheria-tetanus Td vaccine, unspecified",True,1
 VAC1294,BIO-TD,False,CVX-138,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC1294,BIO-TD,False,CVX-139,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC1294,BIO-TD,False,CVX-196,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
-VAC1295,DT BIO FARMA,False,CVX-28,"DT vaccine, unspecified",True,28,0
+VAC1295,DT BIO FARMA,False,CVX-28,"DT vaccine, unspecified",True,27,0
 VAC1296,DTP BIO FARMA,False,CVX-01,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC1297,TT BIO FARMA,False,CVX-112,"Tetanus vaccine, unspecified",True,36,0
 VAC1297,TT BIO FARMA,False,CVX-142,"Tetanus vaccine, unspecified",True,36,0
@@ -2519,7 +2520,7 @@ VAC1306,TYPHIBEV,False,CVX-91,"Typhoid vaccine, unspecified",True,10,0
 VAC1307,JEEV 6 µg,False,CVX-39,"Inactivated Japanese Encephalitis vaccine, unspecified",True,14,0
 VAC1307,JEEV 6 µg,False,CVX-129,"Japanese encephalitis vaccine, unspecified",False,,
 VAC1307,JEEV 6 µg,False,CVX-134,"Japanese encephalitis vaccine, unspecified",False,,
-VAC1308,DT BIOLOGICAL E LTD,False,CVX-28,"DT vaccine, unspecified",True,28,0
+VAC1308,DT BIOLOGICAL E LTD,False,CVX-28,"DT vaccine, unspecified",True,27,0
 VAC1309,NOVEL ORAL (nOPV) TYPE 2 BIOLOGICAL E. LTD,False,CVX-179,"Monovalent oral polio vaccine - type unknown, unspecified",True,11,0
 VAC1309,NOVEL ORAL (nOPV) TYPE 2 BIOLOGICAL E. LTD,False,CVX-182,"Monovalent oral polio vaccine - type unknown, unspecified",True,11,0
 VAC1309,NOVEL ORAL (nOPV) TYPE 2 BIOLOGICAL E. LTD,False,CVX-89,"Polio vaccine, unspecified",False,,
@@ -2835,7 +2836,7 @@ VAC1446,"Japanese encephalitis vaccine, inactivated, whole-virus, derived from V
 VAC1446,"Japanese encephalitis vaccine, inactivated, whole-virus, derived from Vero cells, 3 micrograms",True,CVX-134,"Japanese encephalitis vaccine, unspecified",False,,
 VAC1447,VACCIN BCG SYNTHAVERSE,False,CVX-19,"BCG vaccine, unspecified",True,19,0
 VAC1448,BCG VACCINE MERCK,False,CVX-19,"BCG vaccine, unspecified",True,19,0
-VAC1449,DITANRIX-PEDIATRIC,False,CVX-28,"DT vaccine, unspecified",True,28,0
+VAC1449,DITANRIX-PEDIATRIC,False,CVX-28,"DT vaccine, unspecified",True,27,0
 VAC1450,HEPACARE,False,CVX-189,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,15,0
 VAC1450,HEPACARE,False,CVX-43,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,15,0
 VAC1450,HEPACARE,False,CVX-45,"Hepatitis B vaccine, recombinant, unspecified",False,,
@@ -2855,7 +2856,7 @@ VAC1457,TETRA-SOLGEN,False,,,,,
 VAC1458,TRIDIPIGEN,False,CVX-01,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC1459,TRINFAGEN N0.1,False,CVX-195,"DTIPV vaccine, unspecified",True,9,0
 VAC1460,SOLGEN,False,CVX-01,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
-VAC1461,DIFTET,False,CVX-28,"DT vaccine, unspecified",True,28,0
+VAC1461,DIFTET,False,CVX-28,"DT vaccine, unspecified",True,27,0
 VAC1462,PNU-IMUNE 14,False,CVX-109,"Pneumococcal vaccine, unspecified",True,8,0
 VAC1463,FREEZE-DRIED BCG VACCINE JAPAN,False,CVX-19,"BCG vaccine, unspecified",True,19,0
 VAC1464,FLUBRON VACCINE,False,CVX-16,"Inactivated whole influenza vaccine, unspecified",True,3,0
@@ -2937,3 +2938,4 @@ VAC1495,POLIO KOPROWSKI K1-K2-K3,False,CVX-89,"Polio vaccine, unspecified",False
 VAC1496,POLIO LILLY,False,CVX-10,"Inactivated Polio vaccine, unspecified",True,18,0
 VAC1496,POLIO LILLY,False,CVX-324,"Inactivated Polio vaccine, unspecified",True,18,0
 VAC1496,POLIO LILLY,False,CVX-89,"Polio vaccine, unspecified",False,,
+VAC1497,TD-VIRELON,False,,,,,

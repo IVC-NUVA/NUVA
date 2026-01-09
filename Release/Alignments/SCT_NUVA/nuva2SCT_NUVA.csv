@@ -1401,7 +1401,7 @@ VAC0545,EUVAX B 20 µg,False,SCT_NUVA-1901002000104,"Hepatitis B vaccine, recomb
 VAC0546,DULTAVAX,False,SCT_NUVA-6831002000105,DULTAVAX,True,1,1
 VAC0546,DULTAVAX,False,SCT_NUVA-10231002000105,"Diphtheria-Tetanus-Polio vaccine, unspecified",False,,
 VAC0546,DULTAVAX,False,SCT_NUVA-6841002000102,"dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified",False,,
-VAC0549,"dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified",True,SCT_NUVA-6841002000102,"dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified",True,1,1
+VAC0549,"dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified",True,SCT_NUVA-6841002000102,"dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified",True,2,1
 VAC0549,"dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified",True,SCT_NUVA-10231002000105,"Diphtheria-Tetanus-Polio vaccine, unspecified",False,,
 VAC0550,"Measles-Rubella vaccine, unspecified",True,SCT_NUVA-6851002000100,"Measles-Rubella vaccine, unspecified",True,1,1
 VAC0551,"DTaPIPV vaccine, standard dose, unspecified",True,SCT_NUVA-6861002000103,"DTaPIPV vaccine, standard dose, unspecified",True,1,1
@@ -4090,3 +4090,5 @@ VAC1495,POLIO KOPROWSKI K1-K2-K3,False,SCT_NUVA-2341002000105,"Polio vaccine, un
 VAC1495,POLIO KOPROWSKI K1-K2-K3,False,SCT_NUVA-9531002000104,"Monovalent oral polio vaccine - type unknown, unspecified",False,,
 VAC1496,POLIO LILLY,False,SCT_NUVA-3891002000104,"Inactivated Polio vaccine, unspecified",True,4,0
 VAC1496,POLIO LILLY,False,SCT_NUVA-2341002000105,"Polio vaccine, unspecified",False,,
+VAC1497,TD-VIRELON,False,SCT_NUVA-6841002000102,"dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified",True,2,0
+VAC1497,TD-VIRELON,False,SCT_NUVA-10231002000105,"Diphtheria-Tetanus-Polio vaccine, unspecified",False,,

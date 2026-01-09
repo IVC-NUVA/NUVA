@@ -53,7 +53,7 @@ VAC0027,R.O.R. VAX,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified
 VAC0028,RABIPUR,False,,,,,
 VAC0029,REPEVAX,False,CVC-7891000087104,"TdapIPV - Diphtheria-Tetanus-Pertussis-Polio vaccine, low dose, unspecified",True,5,0
 VAC0029,REPEVAX,False,CVC-7871000087103,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",False,,
-VAC0030,REVAXIS,False,CVC-7911000087101,"dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified",True,3,0
+VAC0030,REVAXIS,False,CVC-7911000087101,"dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified",True,4,0
 VAC0031,ROTATEQ,False,CVC-7201000087107,ROTATEQ,True,1,1
 VAC0031,ROTATEQ,False,CVC-116077000,"Rotavirus vaccine, unspecified",False,,
 VAC0031,ROTATEQ,False,CVC-7811000087105,"Rotavirus vaccine, unspecified",False,,
@@ -728,8 +728,8 @@ VAC0544,TETRAXIM,False,CVC-7881000087101,"DTaPIPV vaccine, standard dose, unspec
 VAC0544,TETRAXIM,False,CVC-7871000087103,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",False,,
 VAC0545,EUVAX B 20 µg,False,CVC-8771000087109,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,14,0
 VAC0545,EUVAX B 20 µg,False,CVC-34689006,"Hepatitis B vaccine, recombinant, unspecified",False,,
-VAC0546,DULTAVAX,False,CVC-7911000087101,"dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified",True,3,0
-VAC0549,"dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified",True,CVC-7911000087101,"dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified",True,3,1
+VAC0546,DULTAVAX,False,CVC-7911000087101,"dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified",True,4,0
+VAC0549,"dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified",True,CVC-7911000087101,"dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified",True,4,1
 VAC0550,"Measles-Rubella vaccine, unspecified",True,CVC-7281000087100,"Measles-Rubella vaccine, unspecified",True,12,1
 VAC0551,"DTaPIPV vaccine, standard dose, unspecified",True,CVC-7881000087101,"DTaPIPV vaccine, standard dose, unspecified",True,8,1
 VAC0551,"DTaPIPV vaccine, standard dose, unspecified",True,CVC-7871000087103,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",False,,
@@ -2026,3 +2026,4 @@ VAC1495,POLIO KOPROWSKI K1-K2-K3,False,CVC-125690004,"Monovalent oral polio vacc
 VAC1495,POLIO KOPROWSKI K1-K2-K3,False,CVC-111164008,"Polio vaccine, unspecified",False,,
 VAC1496,POLIO LILLY,False,CVC-125688000,"Inactivated Polio vaccine, unspecified",True,17,0
 VAC1496,POLIO LILLY,False,CVC-111164008,"Polio vaccine, unspecified",False,,
+VAC1497,TD-VIRELON,False,CVC-7911000087101,"dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified",True,4,0
