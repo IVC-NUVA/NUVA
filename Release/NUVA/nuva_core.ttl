@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "1.3.10" .
+    owl:versionInfo "1.3.11" .
 
 nuva:NUVACode a owl:Class ;
     rdfs:label "NUVA Code" ;
@@ -6225,7 +6225,7 @@ nuva:VAC0553 a owl:Class ;
         nuva:VAL103 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-11-02"^^xsd:date ;
+    dcterms:modified "2026-01-08"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell inactivated), Haemophilus influenzae type b (conjugated, unspecified) and inactivated polio (trivalent) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0553']"^^nuva:NUVACode,
@@ -8752,7 +8752,7 @@ nuva:VAC0800 a owl:Class ;
         nuva:VAL103 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-10-26"^^xsd:date ;
-    dcterms:modified "2023-10-31"^^xsd:date ;
+    dcterms:modified "2026-01-08"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (acellular standard dose or whole-inactivated) and Haemophilus influenzae type b (conjugated, unspecified) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0800']"^^nuva:NUVACode,
