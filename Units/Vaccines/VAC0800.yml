@@ -4,7 +4,7 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (acellular
   dose or whole-inactivated) and Haemophilus influenzae type b (conjugated, unspecified)
   pediatric vaccine
 created: '2021-10-26'
-modified: '2023-10-31'
+modified: '2026-01-08'
 codes:
   ATC:
   - J07AG52
@@ -16,6 +16,8 @@ codes:
   - 0800
   SCT_NUVA:
   - '9501002000105'
+  SNOMED-CT:
+  - '871839001'
 valences:
 - VAL003
 - VAL067
