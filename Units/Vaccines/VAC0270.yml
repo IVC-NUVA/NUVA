@@ -2,7 +2,7 @@ abstract: true
 label: Inactivated Polio vaccine, unspecified
 comment: Inactivated polio (trivalent) vaccine
 created: '2021-07-19'
-modified: '2025-04-11'
+modified: '2026-01-09'
 codes:
   ATC:
   - J07BF03
@@ -18,7 +18,6 @@ codes:
   SCT_NUVA:
   - '3891002000104'
   SNOMED-CT:
-  - '871739009'
   - '871740006'
 valences:
 - VAL056

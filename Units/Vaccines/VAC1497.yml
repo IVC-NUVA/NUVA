@@ -1,0 +1,15 @@
+abstract: false
+label: TD-VIRELON
+comment: Diphtheria toxoid (low dose), tetanus toxoid and inactivated polio (trivalent)
+  vaccine
+created: '2026-01-09'
+modified: '2026-01-09'
+codes:
+  NUVACode:
+  - '1497'
+  SWISSMEDIC:
+  - '686'
+valences:
+- VAL034
+- VAL056
+- VAL067

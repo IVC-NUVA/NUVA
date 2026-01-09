@@ -4,11 +4,13 @@ label: COVID-19 vaccine with non-replicating viral vector, adenovirus encoding t
 comment: Anti-covid 19 vaccine with non-replicating viral vector, adenovirus encoding
   the spike protein of SARS-CoV-2, unspecified
 created: '2024-06-05'
-modified: '2025-03-27'
+modified: '2026-01-09'
 codes:
   NUVACode:
   - '1143'
   SCT_NUVA:
   - '14021002000109'
+  SNOMED-CT:
+  - '29061000087103'
 valences:
 - VAL070

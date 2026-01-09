@@ -2,7 +2,7 @@ abstract: true
 label: Hepatitis B vaccine, recombinant, unspecified
 comment: Recombinant Hepatitis B vaccine, unspecified dose
 created: '2021-07-19'
-modified: '2025-05-20'
+modified: '2026-01-09'
 codes:
   AIC:
   - '026653'
@@ -22,6 +22,5 @@ codes:
   SNOMED-CT:
   - '1296676008'
   - '1304283008'
-  - '836374004'
 valences:
 - VAL090

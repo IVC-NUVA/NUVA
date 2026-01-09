@@ -2,8 +2,10 @@ abstract: false
 label: ANATOXAL DI TE
 comment: Diphtheria toxoid (standard dose) and tetanus toxoid pediatric vaccine
 created: '2021-07-19'
-modified: '2022-10-28'
+modified: '2026-01-09'
 codes:
+  CVX:
+  - '134'
   INFARMED:
   - '8829903'
   - '8829911'
@@ -12,6 +14,7 @@ codes:
   SCT_NUVA:
   - '3321002000107'
   SWISSMEDIC:
+  - '134'
   - '154'
   - '600'
 valences:
