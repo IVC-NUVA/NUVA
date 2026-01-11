@@ -3,7 +3,7 @@ label: INFANRIX-IPV
 comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
   acellular, standard dose) and inactivated polio (trivalent) pediatric vaccine
 created: '2021-07-19'
-modified: '2025-04-03'
+modified: '2026-01-09'
 codes:
   CNK:
   - '1552215'
@@ -23,6 +23,8 @@ codes:
   - 0569
   SCT_NUVA:
   - '7021002000101'
+  SWISSMEDIC:
+  - '638'
 valences:
 - VAL008
 - VAL056
