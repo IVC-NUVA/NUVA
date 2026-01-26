@@ -5,6 +5,8 @@ comment: Diphtheria toxoid (standard dose), tetanus toxoid and Haemophilus influ
 created: '2021-10-26'
 modified: '2023-10-31'
 codes:
+  ICD11:
+  - XM7F70
   NUVACode:
   - 0799
   SCT_NUVA:

@@ -1,8 +1,8 @@
 abstract: false
-label: EpiVacCorona
+label: EPIVACCORONA
 comment: COVID-19 vaccine, protein subunit, recombinant spike protein
 created: '2021-07-19'
-modified: '2023-08-15'
+modified: '2026-01-24'
 codes:
   CVC:
   - '33421000087101'
@@ -11,6 +11,9 @@ codes:
   ELGA:
   - AUSL_000005
   - AUSL_000022
+  ICD11:
+  - XM3SK8
+  - XM6SZ8
   NUVACode:
   - 0683
   SCT_NUVA:
