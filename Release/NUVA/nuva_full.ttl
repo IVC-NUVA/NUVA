@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "1.3.13"^^xsd:string .
+    owl:versionInfo "1.3.14"^^xsd:string .
 
 nuva:AIC a owl:Class ;
     rdfs:label "AIC"^^xsd:string ;
@@ -2808,7 +2808,7 @@ nuva:VAC0073 a owl:Class ;
     nuvs:containsValence nuva:VAL251 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-09-25"^^xsd:date ;
+    dcterms:modified "2026-01-23"^^xsd:date ;
     rdfs:comment "Whole virion inactivated Japanese encephalitis vaccine, Vero cell-derived, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "039220"^^nuva:AIC,
@@ -3366,6 +3366,7 @@ nuva:VAC0102 a owl:Class ;
         "J07BC02"^^nuva:ATC,
         "90730"^^nuva:CPT,
         "85"^^nuva:CVX,
+        "XM2A12"^^nuva:ICD11,
         "['0102']"^^nuva:NUVACode,
         "1911002000101"^^nuva:SCT_NUVA,
         "1010308001"^^nuva:SNOMED-CT,
@@ -3514,6 +3515,7 @@ nuva:VAC0110 a owl:Class ;
         "90656"^^nuva:CPT,
         "90724"^^nuva:CPT,
         "88"^^nuva:CVX,
+        "XM1LR5"^^nuva:ICD11,
         "['0110']"^^nuva:NUVACode,
         "2051002000105"^^nuva:SCT_NUVA,
         "1181000221105"^^nuva:SNOMED-CT,
@@ -3534,6 +3536,7 @@ nuva:VAC0111 a owl:Class ;
         "183"^^nuva:CVX,
         "184"^^nuva:CVX,
         "37"^^nuva:CVX,
+        "XM0N24"^^nuva:ICD11,
         "XM3418"^^nuva:ICD11,
         "['0111']"^^nuva:NUVACode,
         "2061002000107"^^nuva:SCT_NUVA,
@@ -3552,6 +3555,8 @@ nuva:VAC0112 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "89428009"^^nuva:CVC,
         "91"^^nuva:CVX,
+        "XM3SF6"^^nuva:ICD11,
+        "XM8BU8"^^nuva:ICD11,
         "['0112']"^^nuva:NUVACode,
         "2081002000104"^^nuva:SCT_NUVA,
         "#428601009"^^nuva:SNOMED-CT,
@@ -3570,6 +3575,7 @@ nuva:VAC0113 a owl:Class ;
         "90706"^^nuva:CPT,
         "386013003"^^nuva:CVC,
         "06"^^nuva:CVX,
+        "XM7PP1"^^nuva:ICD11,
         "XM9PS9"^^nuva:ICD11,
         "['0113']"^^nuva:NUVACode,
         "2091002000101"^^nuva:SCT_NUVA,
@@ -3590,6 +3596,7 @@ nuva:VAC0114 a owl:Class ;
         "90705"^^nuva:CPT,
         "386012008"^^nuva:CVC,
         "05"^^nuva:CVX,
+        "XM8L15"^^nuva:ICD11,
         "['0114']"^^nuva:NUVACode,
         "2101002000105"^^nuva:SCT_NUVA,
         "836382004"^^nuva:SNOMED-CT,
@@ -3957,6 +3964,7 @@ nuva:VAC0131 a owl:Class ;
         "18"^^nuva:CVX,
         "40"^^nuva:CVX,
         "90"^^nuva:CVX,
+        "XM6T09"^^nuva:ICD11,
         "XM7BE8"^^nuva:ICD11,
         "['0131']"^^nuva:NUVACode,
         "2281002000109"^^nuva:SCT_NUVA,
@@ -3980,6 +3988,7 @@ nuva:VAC0132 a owl:Class ;
         "142"^^nuva:CVX,
         "35"^^nuva:CVX,
         "XM29H5"^^nuva:ICD11,
+        "XM5L44"^^nuva:ICD11,
         "['0132']"^^nuva:NUVACode,
         "2291002000107"^^nuva:SCT_NUVA,
         "1101000221104"^^nuva:SNOMED-CT,
@@ -4002,6 +4011,7 @@ nuva:VAC0133 a owl:Class ;
         "105"^^nuva:CVX,
         "325"^^nuva:CVX,
         "75"^^nuva:CVX,
+        "XM7ZF1"^^nuva:ICD11,
         "XM95R0"^^nuva:ICD11,
         "['0133']"^^nuva:NUVACode,
         "2311002000106"^^nuva:SCT_NUVA,
@@ -4027,6 +4037,7 @@ nuva:VAC0134 a owl:Class ;
         "90728"^^nuva:CPT,
         "418268006"^^nuva:CVC,
         "19"^^nuva:CVX,
+        "XM4639"^^nuva:ICD11,
         "XM8142"^^nuva:ICD11,
         "['0134']"^^nuva:NUVACode,
         "2321002000100"^^nuva:SCT_NUVA,
@@ -4046,6 +4057,7 @@ nuva:VAC0135 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "111164008"^^nuva:CVC,
         "89"^^nuva:CVX,
+        "XM0N50"^^nuva:ICD11,
         "['0135']"^^nuva:NUVACode,
         "2341002000105"^^nuva:SCT_NUVA,
         "1031000221108"^^nuva:SNOMED-CT,
@@ -4245,6 +4257,7 @@ nuva:VAC0144 a owl:Class ;
     skos:notation "90725"^^nuva:CPT,
         "35736007"^^nuva:CVC,
         "26"^^nuva:CVX,
+        "XM29K4"^^nuva:ICD11,
         "['0144']"^^nuva:NUVACode,
         "2491002000106"^^nuva:SCT_NUVA,
         "836383009"^^nuva:SNOMED-CT,
@@ -4409,6 +4422,8 @@ nuva:VAC0153 a owl:Class ;
         "90704"^^nuva:CPT,
         "90043005"^^nuva:CVC,
         "07"^^nuva:CVX,
+        "XM1131"^^nuva:ICD11,
+        "XM2340"^^nuva:ICD11,
         "['0153']"^^nuva:NUVACode,
         "2611002000101"^^nuva:SCT_NUVA,
         "836498007"^^nuva:SNOMED-CT,
@@ -4457,6 +4472,7 @@ nuva:VAC0156 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "424519000"^^nuva:CVC,
         "137"^^nuva:CVX,
+        "XM9QP0"^^nuva:ICD11,
         "['0156']"^^nuva:NUVACode,
         "2671002000108"^^nuva:SCT_NUVA,
         "836379009"^^nuva:SNOMED-CT,
@@ -4474,6 +4490,7 @@ nuva:VAC0157 a owl:Class ;
     skos:notation "135642004"^^nuva:CVC,
         "333598008"^^nuva:CVC,
         "109"^^nuva:CVX,
+        "XM9EM7"^^nuva:ICD11,
         "['0157']"^^nuva:NUVACode,
         "2681002000106"^^nuva:SCT_NUVA,
         "836398006"^^nuva:SNOMED-CT,
@@ -4513,6 +4530,7 @@ nuva:VAC0159 a owl:Class ;
         "108729007"^^nuva:CVC,
         "21"^^nuva:CVX,
         "XM0NS8"^^nuva:ICD11,
+        "XM8DG3"^^nuva:ICD11,
         "['0159']"^^nuva:NUVACode,
         "2711002000107"^^nuva:SCT_NUVA,
         "1010310004"^^nuva:SNOMED-CT,
@@ -4623,10 +4641,11 @@ nuva:VAC0162 a owl:Class ;
     nuvs:containsValence nuva:VAL006 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-15"^^xsd:date ;
-    rdfs:comment "Brucellosis vaccine"@en ;
+    dcterms:modified "2026-01-19"^^xsd:date ;
+    rdfs:comment "Brucellosis vaccine, unspecified"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "J07AD01"^^nuva:ATC,
+        "XM7PB3"^^nuva:ICD11,
         "XM7RX8"^^nuva:ICD11,
         "['0162']"^^nuva:NUVACode,
         "2761002000105"^^nuva:SCT_NUVA,
@@ -4637,11 +4656,10 @@ nuva:VAC0163 a owl:Class ;
     nuvs:containsValence nuva:VAL010 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-15"^^xsd:date ;
+    dcterms:modified "2026-01-21"^^xsd:date ;
     rdfs:comment "Pertussis (whole-cell inactivated) vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "J07AJ01"^^nuva:ATC,
-        "XM2TK2"^^nuva:ICD11,
         "XM45L8"^^nuva:ICD11,
         "['0163']"^^nuva:NUVACode,
         "2771002000100"^^nuva:SCT_NUVA,
@@ -6414,6 +6432,7 @@ nuva:VAC0270 a owl:Class ;
         "125688000"^^nuva:CVC,
         "10"^^nuva:CVX,
         "324"^^nuva:CVX,
+        "XM5V19"^^nuva:ICD11,
         "['0270']"^^nuva:NUVACode,
         "3891002000104"^^nuva:SCT_NUVA,
         "871740006"^^nuva:SNOMED-CT,
@@ -8046,7 +8065,9 @@ nuva:VAC0382 a owl:Class ;
     rdfs:comment "Diphtheria toxoid (unspecified dose) and tetanus toxoid vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "J07AM51"^^nuva:ATC,
+        "XM1G86"^^nuva:ICD11,
         "XM1G96"^^nuva:ICD11,
+        "XM32Q5"^^nuva:ICD11,
         "XM4039"^^nuva:ICD11,
         "XM8XH5"^^nuva:ICD11,
         "['0382']"^^nuva:NUVACode,
@@ -10136,6 +10157,7 @@ nuva:VAC0512 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "J07AR01"^^nuva:ATC,
         "131"^^nuva:CVX,
+        "XM3JJ2"^^nuva:ICD11,
         "['0512']"^^nuva:NUVACode,
         "6411002000104"^^nuva:SCT_NUVA,
         "37146000"^^nuva:SNOMED-CT,
@@ -11664,6 +11686,7 @@ nuva:VAC0586 a owl:Class ;
         "45411000087107"^^nuva:CVC,
         "204"^^nuva:CVX,
         "EU-1-19-1392-001"^^nuva:EU-NUMBER,
+        "XM4P37"^^nuva:ICD11,
         "['0586']"^^nuva:NUVACode,
         "7161002000109"^^nuva:SCT_NUVA,
         "68358"^^nuva:SWISSMEDIC,
@@ -12576,6 +12599,7 @@ nuva:VAC0648 a owl:Class ;
     skos:notation "28531000087107"^^nuva:CVC,
         "213"^^nuva:CVX,
         "500"^^nuva:CVX,
+        "XM68M6"^^nuva:ICD11,
         "['0648']"^^nuva:NUVACode,
         "7711002000105"^^nuva:SCT_NUVA,
         "1119305005"^^nuva:SNOMED-CT,
@@ -12647,6 +12671,7 @@ nuva:VAC0650 a owl:Class ;
         "4990459"^^nuva:ELGA,
         "EU-1-21-1529-001"^^nuva:EU-NUMBER,
         "EU-1-21-1529-002"^^nuva:EU-NUMBER,
+        "XM4YL8"^^nuva:ICD11,
         "5808019"^^nuva:INFARMED,
         "5808027"^^nuva:INFARMED,
         "00310-1222-15"^^nuva:NDC,
@@ -12668,6 +12693,7 @@ nuva:VAC0651 a owl:Class ;
         "AUSL_000007"^^nuva:ELGA,
         "AUSL_000008"^^nuva:ELGA,
         "AUSL_000024"^^nuva:ELGA,
+        "XM7HT3"^^nuva:ICD11,
         "['0651']"^^nuva:NUVACode,
         "7761002000108"^^nuva:SCT_NUVA,
         "VAC0651"^^xsd:string .
@@ -12683,6 +12709,8 @@ nuva:VAC0652 a owl:Class ;
     skos:notation "31431000087100"^^nuva:CVC,
         "506"^^nuva:CVX,
         "AUSL_000004"^^nuva:ELGA,
+        "XM1AG7"^^nuva:ICD11,
+        "XM4T09"^^nuva:ICD11,
         "['0652']"^^nuva:NUVACode,
         "7781002000100"^^nuva:SCT_NUVA,
         "VAC0652"^^xsd:string .
@@ -12729,6 +12757,8 @@ nuva:VAC0655 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "J07AF01"^^nuva:ATC,
         "428214002"^^nuva:CVC,
+        "XM86V7"^^nuva:ICD11,
+        "XM8AW3"^^nuva:ICD11,
         "['0655']"^^nuva:NUVACode,
         "7811002000103"^^nuva:SCT_NUVA,
         "836381006"^^nuva:SNOMED-CT,
@@ -12844,6 +12874,7 @@ nuva:VAC0659 a owl:Class ;
     skos:notation "33471000087102"^^nuva:CVC,
         "507"^^nuva:CVX,
         "513"^^nuva:CVX,
+        "XM3CT4"^^nuva:ICD11,
         "['0659']"^^nuva:NUVACode,
         "7891002000106"^^nuva:SCT_NUVA,
         "VAC0659"^^xsd:string .
@@ -12945,6 +12976,7 @@ nuva:VAC0666 a owl:Class ;
         "5502522"^^nuva:ELGA,
         "EU-1-20-1525-001"^^nuva:EU-NUMBER,
         "EU-1-20-1525-002"^^nuva:EU-NUMBER,
+        "XM6QV1"^^nuva:ICD11,
         "5811344"^^nuva:INFARMED,
         "5814504"^^nuva:INFARMED,
         "59676-0580-15"^^nuva:NDC,
@@ -12987,6 +13019,7 @@ nuva:VAC0667 a owl:Class ;
         "EU-1-21-1618-002"^^nuva:EU-NUMBER,
         "EU-1-21-1618-003"^^nuva:EU-NUMBER,
         "EU-1-21-1618-004"^^nuva:EU-NUMBER,
+        "XM9T65"^^nuva:ICD11,
         "5827969"^^nuva:INFARMED,
         "['0667']"^^nuva:NUVACode,
         "8001002000108"^^nuva:SCT_NUVA,
@@ -13028,6 +13061,8 @@ nuva:VAC0670 a owl:Class ;
     skos:notation "31341000087103"^^nuva:CVC,
         "505"^^nuva:CVX,
         "AUSL_000003"^^nuva:ELGA,
+        "XM4PM4"^^nuva:ICD11,
+        "XM6Z24"^^nuva:ICD11,
         "['0670']"^^nuva:NUVACode,
         "8051002000107"^^nuva:SCT_NUVA,
         "VAC0670"^^xsd:string .
@@ -13040,7 +13075,8 @@ nuva:VAC0671 a owl:Class ;
     dcterms:modified "2024-06-04"^^xsd:date ;
     rdfs:comment "COVID-19 vaccine, protein subunit, recombinant spike protein"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "['0671']"^^nuva:NUVACode,
+    skos:notation "XM8ME2"^^nuva:ICD11,
+        "['0671']"^^nuva:NUVACode,
         "8071002000104"^^nuva:SCT_NUVA,
         "VAC0671"^^xsd:string .
 
@@ -13128,6 +13164,7 @@ nuva:VAC0678 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "30151000087105"^^nuva:CVC,
         "512"^^nuva:CVX,
+        "XM0BS6"^^nuva:ICD11,
         "['0678']"^^nuva:NUVACode,
         "8161002000108"^^nuva:SCT_NUVA,
         "VAC0678"^^xsd:string .
@@ -13143,6 +13180,7 @@ nuva:VAC0679 a owl:Class ;
     skos:notation "33441000087105"^^nuva:CVC,
         "515"^^nuva:CVX,
         "AUSL_000018"^^nuva:ELGA,
+        "XM4EC8"^^nuva:ICD11,
         "['0679']"^^nuva:NUVACode,
         "8181002000100"^^nuva:SCT_NUVA,
         "VAC0679"^^xsd:string .
@@ -13159,6 +13197,8 @@ nuva:VAC0680 a owl:Class ;
         "510"^^nuva:CVX,
         "AUSL_000006"^^nuva:ELGA,
         "AUSL_000015"^^nuva:ELGA,
+        "XM8866"^^nuva:ICD11,
+        "XM9FQ7"^^nuva:ICD11,
         "['0680']"^^nuva:NUVACode,
         "8191002000102"^^nuva:SCT_NUVA,
         "VAC0680"^^xsd:string .
@@ -13188,17 +13228,19 @@ nuva:VAC0682 a owl:Class ;
         "VAC0682"^^xsd:string .
 
 nuva:VAC0683 a owl:Class ;
-    rdfs:label "EpiVacCorona"^^xsd:string ;
+    rdfs:label "EPIVACCORONA"^^xsd:string ;
     nuvs:containsValence nuva:VAL053 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2023-08-15"^^xsd:date ;
+    dcterms:modified "2026-01-24"^^xsd:date ;
     rdfs:comment "COVID-19 vaccine, protein subunit, recombinant spike protein"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "33421000087101"^^nuva:CVC,
         "509"^^nuva:CVX,
         "AUSL_000005"^^nuva:ELGA,
         "AUSL_000022"^^nuva:ELGA,
+        "XM3SK8"^^nuva:ICD11,
+        "XM6SZ8"^^nuva:ICD11,
         "['0683']"^^nuva:NUVACode,
         "8231002000105"^^nuva:SCT_NUVA,
         "VAC0683"^^xsd:string .
@@ -13213,6 +13255,7 @@ nuva:VAC0684 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "33451000087108"^^nuva:CVC,
         "501"^^nuva:CVX,
+        "XM97N6"^^nuva:ICD11,
         "['0684']"^^nuva:NUVACode,
         "8241002000102"^^nuva:SCT_NUVA,
         "VAC0684"^^xsd:string .
@@ -13233,6 +13276,7 @@ nuva:VAC0685 a owl:Class ;
         "5517908"^^nuva:ELGA,
         "AUSL_000020"^^nuva:ELGA,
         "EU-1-21-1580-001"^^nuva:EU-NUMBER,
+        "XM9ZB6"^^nuva:ICD11,
         "5848155"^^nuva:INFARMED,
         "['0685']"^^nuva:NUVACode,
         "8251002000100"^^nuva:SCT_NUVA,
@@ -13307,6 +13351,7 @@ nuva:VAC0691 a owl:Class ;
     rdfs:comment "COVID-19 vaccine, protein subunit, recombinant spike protein"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "AUSL_000031"^^nuva:ELGA,
+        "XM0RV9"^^nuva:ICD11,
         "['0691']"^^nuva:NUVACode,
         "8321002000102"^^nuva:SCT_NUVA,
         "VAC0691"^^xsd:string .
@@ -13369,6 +13414,7 @@ nuva:VAC0696 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "33431000087104"^^nuva:CVC,
         "516"^^nuva:CVX,
+        "XM9TQ1"^^nuva:ICD11,
         "['0696']"^^nuva:NUVACode,
         "8381002000103"^^nuva:SCT_NUVA,
         "VAC0696"^^xsd:string .
@@ -13578,7 +13624,8 @@ nuva:VAC0709 a owl:Class ;
     dcterms:modified "2023-05-15"^^xsd:date ;
     rdfs:comment "COVID-19 vaccine, live attenuated"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "['0709']"^^nuva:NUVACode,
+    skos:notation "XM85P5"^^nuva:ICD11,
+        "['0709']"^^nuva:NUVACode,
         "8511002000104"^^nuva:SCT_NUVA,
         "VAC0709"^^xsd:string .
 
@@ -13656,6 +13703,7 @@ nuva:VAC0714 a owl:Class ;
         "5506431"^^nuva:ELGA,
         "AUSL_000021"^^nuva:ELGA,
         "EU-1-21-1624-001"^^nuva:EU-NUMBER,
+        "XM42N8"^^nuva:ICD11,
         "5839840"^^nuva:INFARMED,
         "['0714']"^^nuva:NUVACode,
         "8571002000106"^^nuva:SCT_NUVA,
@@ -13669,7 +13717,8 @@ nuva:VAC0715 a owl:Class ;
     dcterms:modified "2023-05-15"^^xsd:date ;
     rdfs:comment "COVID-19 vaccine, whole virion inactivated"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "['0715']"^^nuva:NUVACode,
+    skos:notation "XM86F7"^^nuva:ICD11,
+        "['0715']"^^nuva:NUVACode,
         "8581002000109"^^nuva:SCT_NUVA,
         "VAC0715"^^xsd:string .
 
@@ -13707,6 +13756,7 @@ nuva:VAC0718 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "33391000087109"^^nuva:CVC,
         "AUSL_000016"^^nuva:ELGA,
+        "XM8T18"^^nuva:ICD11,
         "['0718']"^^nuva:NUVACode,
         "8611002000103"^^nuva:SCT_NUVA,
         "VAC0718"^^xsd:string .
@@ -13983,7 +14033,8 @@ nuva:VAC0739 a owl:Class ;
     dcterms:modified "2024-06-04"^^xsd:date ;
     rdfs:comment "COVID-19 vaccine, protein subunit, recombinant spike protein, with adjuvant unspecidfied"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "['0739']"^^nuva:NUVACode,
+    skos:notation "XM9N08"^^nuva:ICD11,
+        "['0739']"^^nuva:NUVACode,
         "8831002000106"^^nuva:SCT_NUVA,
         "VAC0739"^^xsd:string .
 
@@ -14070,6 +14121,7 @@ nuva:VAC0752 a owl:Class ;
     skos:notation "28961000087105"^^nuva:CVC,
         "02512947"^^nuva:DIN,
         "AUSL_000010"^^nuva:ELGA,
+        "XM97T2"^^nuva:ICD11,
         "['0752']"^^nuva:NUVACode,
         "8901002000109"^^nuva:SCT_NUVA,
         "VAC0752"^^xsd:string .
@@ -14082,7 +14134,8 @@ nuva:VAC0753 a owl:Class ;
     dcterms:modified "2024-06-04"^^xsd:date ;
     rdfs:comment "COVID-19 vaccine, whole virion inactivated"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "['0753']"^^nuva:NUVACode,
+    skos:notation "XM0J98"^^nuva:ICD11,
+        "['0753']"^^nuva:NUVACode,
         "8911002000107"^^nuva:SCT_NUVA,
         "VAC0753"^^xsd:string .
 
@@ -14154,7 +14207,8 @@ nuva:VAC0759 a owl:Class ;
     dcterms:modified "2024-06-04"^^xsd:date ;
     rdfs:comment "COVID-19 vaccine, protein subunit, recombinant spike protein, with adjuvant unspecified"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "['0759']"^^nuva:NUVACode,
+    skos:notation "XM85Q8"^^nuva:ICD11,
+        "['0759']"^^nuva:NUVACode,
         "8971002000100"^^nuva:SCT_NUVA,
         "VAC0759"^^xsd:string .
 
@@ -14180,7 +14234,8 @@ nuva:VAC0761 a owl:Class ;
     dcterms:modified "2023-05-15"^^xsd:date ;
     rdfs:comment "COVID-19 vaccine, protein subunit, recombinant spike protein, fusion protein"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "['0761']"^^nuva:NUVACode,
+    skos:notation "XM6WB0"^^nuva:ICD11,
+        "['0761']"^^nuva:NUVACode,
         "8991002000104"^^nuva:SCT_NUVA,
         "VAC0761"^^xsd:string .
 
@@ -14764,6 +14819,7 @@ nuva:VAC0796 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "61602008"^^nuva:CVC,
         "11"^^nuva:CVX,
+        "XM43M9"^^nuva:ICD11,
         "['0796']"^^nuva:NUVACode,
         "9461002000105"^^nuva:SCT_NUVA,
         "601000221108"^^nuva:SNOMED-CT,
@@ -14783,6 +14839,7 @@ nuva:VAC0797 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "J07AJ52"^^nuva:ATC,
         "107"^^nuva:CVX,
+        "XM31Q8"^^nuva:ICD11,
         "XM9YH9"^^nuva:ICD11,
         "XM9ZL9"^^nuva:ICD11,
         "['0797']"^^nuva:NUVACode,
@@ -14816,7 +14873,8 @@ nuva:VAC0799 a owl:Class ;
     dcterms:modified "2023-10-31"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid and Haemophilus influenzae type b (conjugated unspecified) pediatric vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "['0799']"^^nuva:NUVACode,
+    skos:notation "XM7F70"^^nuva:ICD11,
+        "['0799']"^^nuva:NUVACode,
         "9491002000104"^^nuva:SCT_NUVA,
         "VAC0799"^^xsd:string .
 
@@ -14834,6 +14892,7 @@ nuva:VAC0800 a owl:Class ;
     skos:notation "J07AG52"^^nuva:ATC,
         "90720"^^nuva:CPT,
         "22"^^nuva:CVX,
+        "XM81F7"^^nuva:ICD11,
         "['0800']"^^nuva:NUVACode,
         "9501002000105"^^nuva:SCT_NUVA,
         "871839001"^^nuva:SNOMED-CT,
@@ -14904,6 +14963,7 @@ nuva:VAC0804 a owl:Class ;
         "333521006"^^nuva:CVC,
         "319"^^nuva:CVX,
         "XM2C05"^^nuva:ICD11,
+        "XM8NU9"^^nuva:ICD11,
         "['0804']"^^nuva:NUVACode,
         "9561002000106"^^nuva:SCT_NUVA,
         "836384003"^^nuva:SNOMED-CT,
@@ -14994,6 +15054,7 @@ nuva:VAC0810 a owl:Class ;
     skos:notation "024489"^^nuva:AIC,
         "J07AH05"^^nuva:ATC,
         "8241000087109"^^nuva:CVC,
+        "XM5LC2"^^nuva:ICD11,
         "['0810']"^^nuva:NUVACode,
         "9641002000108"^^nuva:SCT_NUVA,
         "1061000221102"^^nuva:SNOMED-CT,
@@ -15102,6 +15163,7 @@ nuva:VAC0817 a owl:Class ;
         "90692"^^nuva:CPT,
         "90693"^^nuva:CPT,
         "53"^^nuva:CVX,
+        "XM89G3"^^nuva:ICD11,
         "['0817']"^^nuva:NUVACode,
         "9751002000102"^^nuva:SCT_NUVA,
         "VAC0817"^^xsd:string .
@@ -15116,6 +15178,7 @@ nuva:VAC0818 a owl:Class ;
     rdfs:comment "Typhoid and paratyphoid A and B vaccine, whole-cell inactivated"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "J07AP10"^^nuva:ATC,
+        "XM3VD2"^^nuva:ICD11,
         "XM95H3"^^nuva:ICD11,
         "['0818']"^^nuva:NUVACode,
         "9761002000100"^^nuva:SCT_NUVA,
@@ -15152,6 +15215,7 @@ nuva:VAC0820 a owl:Class ;
         "90658"^^nuva:CPT,
         "90659"^^nuva:CPT,
         "16"^^nuva:CVX,
+        "XM8857"^^nuva:ICD11,
         "['0820']"^^nuva:NUVACode,
         "9791002000106"^^nuva:SCT_NUVA,
         "VAC0820"^^xsd:string .
@@ -15166,6 +15230,8 @@ nuva:VAC0821 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "J07BB02"^^nuva:ATC,
         "15"^^nuva:CVX,
+        "XM33X8"^^nuva:ICD11,
+        "XM8MP2"^^nuva:ICD11,
         "['0821']"^^nuva:NUVACode,
         "9811002000105"^^nuva:SCT_NUVA,
         "VAC0821"^^xsd:string .
@@ -15182,6 +15248,7 @@ nuva:VAC0822 a owl:Class ;
         "90660"^^nuva:CPT,
         "409269001"^^nuva:CVC,
         "151"^^nuva:CVX,
+        "XM5V64"^^nuva:ICD11,
         "['0822']"^^nuva:NUVACode,
         "9831002000101"^^nuva:SCT_NUVA,
         "1010313002"^^nuva:SNOMED-CT,
@@ -15196,6 +15263,7 @@ nuva:VAC0823 a owl:Class ;
     rdfs:comment "Virus-Like Particle (VLP) seasonal influenza vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "J07BB04"^^nuva:ATC,
+        "XM9E16"^^nuva:ICD11,
         "['0823']"^^nuva:NUVACode,
         "9851002000106"^^nuva:SCT_NUVA,
         "VAC0823"^^xsd:string .
@@ -15295,6 +15363,7 @@ nuva:VAC0829 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "J07BJ51"^^nuva:ATC,
         "38"^^nuva:CVX,
+        "XM3B09"^^nuva:ICD11,
         "['0829']"^^nuva:NUVACode,
         "9911002000100"^^nuva:SCT_NUVA,
         "VAC0829"^^xsd:string .
@@ -15323,6 +15392,7 @@ nuva:VAC0831 a owl:Class ;
     skos:notation "J07BX02"^^nuva:ATC,
         "45891000087103"^^nuva:CVC,
         "214"^^nuva:CVX,
+        "XM7P50"^^nuva:ICD11,
         "['0831']"^^nuva:NUVACode,
         "9951002000104"^^nuva:SCT_NUVA,
         "45891000087103"^^nuva:SNOMED-CT,
@@ -15442,6 +15512,7 @@ nuva:VAC0837 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "34921000087108"^^nuva:CVC,
         "AUSL_000019"^^nuva:ELGA,
+        "XM85Q5"^^nuva:ICD11,
         "['0837']"^^nuva:NUVACode,
         "10021002000100"^^nuva:SCT_NUVA,
         "VAC0837"^^xsd:string .
@@ -16731,6 +16802,7 @@ nuva:VAC0913 a owl:Class ;
         "EU-1-22-1709-002"^^nuva:EU-NUMBER,
         "EU-1-22-1709-003"^^nuva:EU-NUMBER,
         "EU-1-22-1709-004"^^nuva:EU-NUMBER,
+        "XM6790"^^nuva:ICD11,
         "5855473"^^nuva:INFARMED,
         "5882311"^^nuva:INFARMED,
         "['0913']"^^nuva:NUVACode,
@@ -17203,6 +17275,7 @@ nuva:VAC0940 a owl:Class ;
     skos:notation "33461000087106"^^nuva:CVC,
         "504"^^nuva:CVX,
         "AUSL_000014"^^nuva:ELGA,
+        "XM5QM6"^^nuva:ICD11,
         "['0940']"^^nuva:NUVACode,
         "11361002000100"^^nuva:SCT_NUVA,
         "VAC0940"^^xsd:string .
@@ -17271,6 +17344,7 @@ nuva:VAC0945 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "423531006"^^nuva:CVC,
         "167"^^nuva:CVX,
+        "XM2WV4"^^nuva:ICD11,
         "['0945']"^^nuva:NUVACode,
         "11441002000105"^^nuva:SCT_NUVA,
         "836401009"^^nuva:SNOMED-CT,
@@ -18399,7 +18473,8 @@ nuva:VAC1018 a owl:Class ;
     dcterms:modified "2025-04-25"^^xsd:date ;
     rdfs:comment "COVID-19 vaccine, recombinant protein subunit"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "['1018']"^^nuva:NUVACode,
+    skos:notation "XM7P85"^^nuva:ICD11,
+        "['1018']"^^nuva:NUVACode,
         "12221002000108"^^nuva:SCT_NUVA,
         "VAC1018"^^xsd:string .
 
@@ -18419,6 +18494,7 @@ nuva:VAC1019 a owl:Class ;
         "EU-1-20-1507-001"^^nuva:EU-NUMBER,
         "EU-1-20-1507-002"^^nuva:EU-NUMBER,
         "EU-1-20-1507-003"^^nuva:EU-NUMBER,
+        "XM3DT5"^^nuva:ICD11,
         "5805965"^^nuva:INFARMED,
         "['1019']"^^nuva:NUVACode,
         "12231002000106"^^nuva:SCT_NUVA,
@@ -18526,6 +18602,7 @@ nuva:VAC1023 a owl:Class ;
         "EU-1-20-1528-008"^^nuva:EU-NUMBER,
         "EU-1-20-1528-009"^^nuva:EU-NUMBER,
         "EU-1-20-1528-014"^^nuva:EU-NUMBER,
+        "XM5U85"^^nuva:ICD11,
         "5845060"^^nuva:INFARMED,
         "5845078"^^nuva:INFARMED,
         "['1023']"^^nuva:NUVACode,
@@ -18562,6 +18639,7 @@ nuva:VAC1025 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "47591000087109"^^nuva:CVC,
         "517"^^nuva:CVX,
+        "XM63N7"^^nuva:ICD11,
         "['1025']"^^nuva:NUVACode,
         "12341002000108"^^nuva:SCT_NUVA,
         "VAC1025"^^xsd:string .
@@ -18576,6 +18654,7 @@ nuva:VAC1026 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "34591000087100"^^nuva:CVC,
         "AUSL_000030"^^nuva:ELGA,
+        "XM3PG0"^^nuva:ICD11,
         "['1026']"^^nuva:NUVACode,
         "12351002000105"^^nuva:SCT_NUVA,
         "VAC1026"^^xsd:string .
@@ -18631,7 +18710,8 @@ nuva:VAC1030 a owl:Class ;
     dcterms:modified "2024-04-12"^^xsd:date ;
     rdfs:comment "COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, ongoing clinical trial"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "['1030']"^^nuva:NUVACode,
+    skos:notation "XM3X29"^^nuva:ICD11,
+        "['1030']"^^nuva:NUVACode,
         "12401002000104"^^nuva:SCT_NUVA,
         "VAC1030"^^xsd:string .
 
@@ -18836,6 +18916,7 @@ nuva:VAC1041 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "J07BN01"^^nuva:ATC,
         "1119349007"^^nuva:CVC,
+        "XM0GQ8"^^nuva:ICD11,
         "['1041']"^^nuva:NUVACode,
         "12581002000105"^^nuva:SCT_NUVA,
         "1119349007"^^nuva:SNOMED-CT,
@@ -18851,6 +18932,7 @@ nuva:VAC1042 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "J07BN02"^^nuva:ATC,
         "29061000087103"^^nuva:CVC,
+        "XM9QW8"^^nuva:ICD11,
         "['1042']"^^nuva:NUVACode,
         "12601002000102"^^nuva:SCT_NUVA,
         "VAC1042"^^xsd:string .
@@ -18864,6 +18946,7 @@ nuva:VAC1043 a owl:Class ;
     rdfs:comment "COVID-19 vaccine, protein subunit"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "J07BN04"^^nuva:ATC,
+        "XM5JC5"^^nuva:ICD11,
         "['1043']"^^nuva:NUVACode,
         "12611002000104"^^nuva:SCT_NUVA,
         "VAC1043"^^xsd:string .
@@ -18878,6 +18961,7 @@ nuva:VAC1044 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "J07BN03"^^nuva:ATC,
         "1157024006"^^nuva:CVC,
+        "XM1FB4"^^nuva:ICD11,
         "['1044']"^^nuva:NUVACode,
         "12621002000105"^^nuva:SCT_NUVA,
         "VAC1044"^^xsd:string .
@@ -19044,6 +19128,7 @@ nuva:VAC1051 a owl:Class ;
         "EU-1-20-1258-020"^^nuva:EU-NUMBER,
         "EU-1-20-1258-025"^^nuva:EU-NUMBER,
         "EU-1-20-1258-027"^^nuva:EU-NUMBER,
+        "XM7U45"^^nuva:ICD11,
         "5862768"^^nuva:INFARMED,
         "['1051']"^^nuva:NUVACode,
         "12721002000104"^^nuva:SCT_NUVA,
@@ -19156,6 +19241,7 @@ nuva:VAC1055 a owl:Class ;
         "5526847"^^nuva:ELGA,
         "EU-1-21-1618-006"^^nuva:EU-NUMBER,
         "EU-1-21-1618-008"^^nuva:EU-NUMBER,
+        "XM2FM2"^^nuva:ICD11,
         "['1055']"^^nuva:NUVACode,
         "12811002000103"^^nuva:SCT_NUVA,
         "VAC1055"^^xsd:string .
@@ -19898,6 +19984,7 @@ nuva:VAC1106 a owl:Class ;
     rdfs:comment "Covid 19 VLP vaccine, unspecified"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "J07BN05"^^nuva:ATC,
+        "XM1J92"^^nuva:ICD11,
         "['1106']"^^nuva:NUVACode,
         "13611002000109"^^nuva:SCT_NUVA,
         "30141000087107"^^nuva:SNOMED-CT,
@@ -20153,7 +20240,8 @@ nuva:VAC1125 a owl:Class ;
     dcterms:modified "2026-01-09"^^xsd:date ;
     rdfs:comment "Hepatitis B vaccine, unspecified"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "['1125']"^^nuva:NUVACode,
+    skos:notation "XM9V38"^^nuva:ICD11,
+        "['1125']"^^nuva:NUVACode,
         "13831002000101"^^nuva:SCT_NUVA,
         "836374004"^^nuva:SNOMED-CT,
         "871822003"^^nuva:SNOMED-CT,
@@ -20199,7 +20287,8 @@ nuva:VAC1128 a owl:Class ;
     dcterms:modified "2025-05-21"^^xsd:date ;
     rdfs:comment "Plasmid DNA anti-covid 19 vaccine, unspecified"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "['1128']"^^nuva:NUVACode,
+    skos:notation "XM6AT1"^^nuva:ICD11,
+        "['1128']"^^nuva:NUVACode,
         "13861002000108"^^nuva:SCT_NUVA,
         "1187593009"^^nuva:SNOMED-CT,
         "VAC1128"^^xsd:string .
@@ -21224,7 +21313,8 @@ nuva:VAC1202 a owl:Class ;
     dcterms:modified "2025-03-27"^^xsd:date ;
     rdfs:comment "Anti-covid 19 vaccine with live attenuated virus, unspecified"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "['1202']"^^nuva:NUVACode,
+    skos:notation "XM5DF6"^^nuva:ICD11,
+        "['1202']"^^nuva:NUVACode,
         "14611002000106"^^nuva:SCT_NUVA,
         "VAC1202"^^xsd:string .
 
@@ -22141,6 +22231,7 @@ nuva:VAC1261 a owl:Class ;
         "663772-01"^^nuva:CTI-EXTEND,
         "663773-01"^^nuva:CTI-EXTEND,
         "5540089"^^nuva:ELGA,
+        "XM6YA9"^^nuva:ICD11,
         "['1261']"^^nuva:NUVACode,
         "15361002000102"^^nuva:SCT_NUVA,
         "VAC1261"^^xsd:string .
@@ -22494,7 +22585,8 @@ nuva:VAC1283 a owl:Class ;
     dcterms:modified "2025-04-04"^^xsd:date ;
     rdfs:comment "COVID-19 protein subunit vaccine, recombinant spike protein, intramuscular route"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "['1283']"^^nuva:NUVACode,
+    skos:notation "XM7E37"^^nuva:ICD11,
+        "['1283']"^^nuva:NUVACode,
         "15661002000108"^^nuva:SCT_NUVA,
         "VAC1283"^^xsd:string .
 
@@ -23184,6 +23276,7 @@ nuva:VAC1334 a owl:Class ;
         "EU-1-20-1528-037"^^nuva:EU-NUMBER,
         "EU-1-20-1528-038"^^nuva:EU-NUMBER,
         "EU-1-20-1528-039"^^nuva:EU-NUMBER,
+        "XM52Y9"^^nuva:ICD11,
         "5890520"^^nuva:INFARMED,
         "['1334']"^^nuva:NUVACode,
         "16241002000104"^^nuva:SCT_NUVA,
@@ -23217,6 +23310,7 @@ nuva:VAC1336 a owl:Class ;
         "663960"^^nuva:CTI,
         "663960-01"^^nuva:CTI-EXTEND,
         "EU-1-24-1873-001"^^nuva:EU-NUMBER,
+        "XM6FF0"^^nuva:ICD11,
         "['1336']"^^nuva:NUVACode,
         "16261002000100"^^nuva:SCT_NUVA,
         "VAC1336"^^xsd:string .
@@ -23229,7 +23323,8 @@ nuva:VAC1337 a owl:Class ;
     dcterms:modified "2025-04-04"^^xsd:date ;
     rdfs:comment "COVID-19 protein subunit vaccine, recombinant N protein"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "['1337']"^^nuva:NUVACode,
+    skos:notation "XM5TF6"^^nuva:ICD11,
+        "['1337']"^^nuva:NUVACode,
         "16281002000108"^^nuva:SCT_NUVA,
         "VAC1337"^^xsd:string .
 
@@ -23662,7 +23757,8 @@ nuva:VAC1368 a owl:Class ;
     dcterms:modified "2025-04-04"^^xsd:date ;
     rdfs:comment "COVID-19 vaccine, non-replicating chimpanzee adenoviral vector ChAdOx1 encoding the SARS-CoV-2 spike protein"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "['1368']"^^nuva:NUVACode,
+    skos:notation "XM5309"^^nuva:ICD11,
+        "['1368']"^^nuva:NUVACode,
         "16611002000100"^^nuva:SCT_NUVA,
         "VAC1368"^^xsd:string .
 
@@ -23758,7 +23854,8 @@ nuva:VAC1376 a owl:Class ;
     dcterms:modified "2025-04-07"^^xsd:date ;
     rdfs:comment "COVID-19 plasmid DNA vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "['1376']"^^nuva:NUVACode,
+    skos:notation "XM52P3"^^nuva:ICD11,
+        "['1376']"^^nuva:NUVACode,
         "16691002000108"^^nuva:SCT_NUVA,
         "VAC1376"^^xsd:string .
 
@@ -24484,7 +24581,8 @@ nuva:VAC1431 a owl:Class ;
     dcterms:modified "2025-05-20"^^xsd:date ;
     rdfs:comment "RSV vaccine, unspecified"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "['1431']"^^nuva:NUVACode,
+    skos:notation "XM02Y0"^^nuva:ICD11,
+        "['1431']"^^nuva:NUVACode,
         "51311000087100"^^nuva:SNOMED-CT,
         "VAC1431"^^xsd:string .
 
@@ -24508,7 +24606,8 @@ nuva:VAC1433 a owl:Class ;
     dcterms:modified "2025-05-21"^^xsd:date ;
     rdfs:comment "Plague vaccine, unspecified"@en ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "['1433']"^^nuva:NUVACode,
+    skos:notation "XM8ZX8"^^nuva:ICD11,
+        "['1433']"^^nuva:NUVACode,
         "871718002"^^nuva:SNOMED-CT,
         "VAC1433"^^xsd:string .
 
@@ -25334,6 +25433,52 @@ nuva:VAC1497 a owl:Class ;
         "686"^^nuva:SWISSMEDIC,
         "VAC1497"^^xsd:string .
 
+nuva:VAC1498 a owl:Class ;
+    rdfs:label "EPIVACCORONA-N"^^xsd:string ;
+    nuvs:containsValence nuva:VAL410 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-01-20"^^xsd:date ;
+    dcterms:modified "2026-01-24"^^xsd:date ;
+    rdfs:comment "COVID-19 protein subunit vaccine, recombinant N protein"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1498']"^^nuva:NUVACode,
+        "VAC1498"^^xsd:string .
+
+nuva:VAC1499 a owl:Class ;
+    rdfs:label "SPUTNIK-M"^^xsd:string ;
+    nuvs:containsValence nuva:VAL070 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-01-20"^^xsd:date ;
+    dcterms:modified "2026-01-24"^^xsd:date ;
+    rdfs:comment "COVID-19 vaccine, non-replicating viral vector, adenovirus 6 encoding the SARS-CoV-2 spike protein, intended for adolescents"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1499']"^^nuva:NUVACode,
+        "VAC1499"^^xsd:string .
+
+nuva:VAC1500 a owl:Class ;
+    rdfs:label "SPIKEVAX LP.8.1 50 µg"^^xsd:string ;
+    nuvs:containsValence nuva:VAL433 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-01-20"^^xsd:date ;
+    dcterms:modified "2026-01-20"^^xsd:date ;
+    rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 50 micrograms"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "052449"^^nuva:AIC,
+        "['1500']"^^nuva:NUVACode,
+        "70205"^^nuva:SWISSMEDIC,
+        "VAC1500"^^xsd:string .
+
+nuva:VAC1501 a owl:Class ;
+    rdfs:label "SPIKEVAX LP.8.1 25 µg"^^xsd:string ;
+    nuvs:containsValence nuva:VAL432 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-01-20"^^xsd:date ;
+    dcterms:modified "2026-01-20"^^xsd:date ;
+    rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 25 micrograms"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1501']"^^nuva:NUVACode,
+        "VAC1501"^^xsd:string .
+
 nuva:VAL179 a owl:Class ;
     rdfs:label "Meningococcal  valence, monovalent, conjugate"@en ;
     nuvs:prevents nuva:DIS048 ;
@@ -25844,6 +25989,24 @@ nuva:VAL430 a owl:Class ;
     rdfs:subClassOf nuva:VAL312 ;
     skos:altLabel "TBE-K23-25"@en ;
     skos:notation "VAL430"^^xsd:string .
+
+nuva:VAL432 a owl:Class ;
+    rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms"@en ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2026-01-20"^^xsd:date ;
+    dcterms:modified "2026-01-20"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL423 ;
+    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1-25"@en ;
+    skos:notation "VAL432"^^xsd:string .
+
+nuva:VAL433 a owl:Class ;
+    rdfs:label "Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes"@en ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2026-01-20"^^xsd:date ;
+    dcterms:modified "2026-01-20"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL423 ;
+    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1-50"@en ;
+    skos:notation "VAL433"^^xsd:string .
 
 nuvs:containsValence a owl:ObjectProperty ;
     rdfs:domain nuva:Vaccine ;
@@ -26992,15 +27155,6 @@ nuva:VAL409 a owl:Class ;
     skos:altLabel "COVID-mRNA-S-OMI-KP.2-30"@en ;
     skos:notation "VAL409"^^xsd:string .
 
-nuva:VAL410 a owl:Class ;
-    rdfs:label "COVID-19 valence, protein subunit, recombinant N protein"@en ;
-    nuvs:prevents nuva:DIS057 ;
-    dcterms:created "2025-03-25"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL053 ;
-    skos:altLabel "COVID-PS-rN"@en ;
-    skos:notation "VAL410"^^xsd:string .
-
 nuva:VAL411 a owl:Class ;
     rdfs:label "COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms"@en ;
     nuvs:prevents nuva:DIS057 ;
@@ -27787,6 +27941,15 @@ nuva:VAL406 a owl:Class ;
     skos:altLabel "COVID-mRNA-S-OMI-KP.2"@en ;
     skos:notation "VAL406"^^xsd:string .
 
+nuva:VAL410 a owl:Class ;
+    rdfs:label "COVID-19 valence, protein subunit, recombinant N protein"@en ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2025-03-25"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL053 ;
+    skos:altLabel "COVID-PS-rN"@en ;
+    skos:notation "VAL410"^^xsd:string .
+
 nuva:VAL417 a owl:Class ;
     rdfs:label "COVID-19 valence, Omicron BA.2 variant, mRNA encoding the SARS-CoV-2 spike protein"@en ;
     nuvs:prevents nuva:DIS057 ;
@@ -27795,15 +27958,6 @@ nuva:VAL417 a owl:Class ;
     rdfs:subClassOf nuva:VAL149 ;
     skos:altLabel "COVID-mRNA-S-OMI-BA.2"@en ;
     skos:notation "VAL417"^^xsd:string .
-
-nuva:VAL423 a owl:Class ;
-    rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein"@en ;
-    nuvs:prevents nuva:DIS057 ;
-    dcterms:created "2025-08-28"^^xsd:date ;
-    dcterms:modified "2025-08-28"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL417 ;
-    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1"@en ;
-    skos:notation "VAL423"^^xsd:string .
 
 nuva:DIS008 a owl:Class ;
     rdfs:label "Measles"@en ;
@@ -28383,6 +28537,15 @@ nuva:VAL415 a owl:Class ;
     rdfs:subClassOf nuva:VAL111 ;
     skos:altLabel "BantAdj"@en ;
     skos:notation "VAL415"^^xsd:string .
+
+nuva:VAL423 a owl:Class ;
+    rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein"@en ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2025-08-28"^^xsd:date ;
+    dcterms:modified "2025-08-28"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL417 ;
+    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1"@en ;
+    skos:notation "VAL423"^^xsd:string .
 
 nuva:DIS043 a owl:Class ;
     rdfs:label "Meningococcal C"@en ;
@@ -28981,15 +29144,6 @@ nuva:VAL035 a owl:Class ;
     skos:altLabel "COVID-DNA-S"@en ;
     skos:notation "VAL035"^^xsd:string .
 
-nuva:VAL070 a owl:Class ;
-    rdfs:label "COVID-19 valence, non-replicating adenoviral vector encoding the SARS-CoV-2 spike protein, unspecified"@en ;
-    nuvs:prevents nuva:DIS057 ;
-    dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL397 ;
-    skos:altLabel "COVID-VVnr-S-Ad"@en ;
-    skos:notation "VAL070"^^xsd:string .
-
 nuva:VAL083 a owl:Class ;
     rdfs:label "Diphtheria valence, toxoid, dose unspecified"@en ;
     nuvs:prevents nuva:DIS001 ;
@@ -29034,6 +29188,15 @@ nuva:VAL265 a owl:Class ;
     rdfs:subClassOf nuva:VAL076 ;
     skos:altLabel "COVID-IV-CT"@en ;
     skos:notation "VAL265"^^xsd:string .
+
+nuva:VAL070 a owl:Class ;
+    rdfs:label "COVID-19 valence, non-replicating adenoviral vector encoding the SARS-CoV-2 spike protein, unspecified"@en ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2021-07-19"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL397 ;
+    skos:altLabel "COVID-VVnr-S-Ad"@en ;
+    skos:notation "VAL070"^^xsd:string .
 
 nuva:VAL186 a owl:Class ;
     rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 1"@en ;

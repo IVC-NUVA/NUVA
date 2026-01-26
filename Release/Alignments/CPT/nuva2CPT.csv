@@ -971,7 +971,7 @@ VAC0682,FLUQUADRI,False,CPT-90694,"Quadrivalent influenza vaccine, unspecified",
 VAC0682,FLUQUADRI,False,CPT-90655,"Influenza vaccine, unspecified",False,,
 VAC0682,FLUQUADRI,False,CPT-90656,"Influenza vaccine, unspecified",False,,
 VAC0682,FLUQUADRI,False,CPT-90724,"Influenza vaccine, unspecified",False,,
-VAC0683,EpiVacCorona,False,,,,,
+VAC0683,EPIVACCORONA,False,,,,,
 VAC0684,QAZVAC,False,,,,,
 VAC0685,VIDPREVTYN BETA,False,CPT-91310,VIDPREVTYN BETA,True,1,1
 VAC0686,MULTI-PEPTIDE-pVAC-COVID,False,,,,,
@@ -2155,3 +2155,7 @@ VAC1494,DITEBOOSTER,False,CPT-90714,"Diphtheria-tetanus Td vaccine, unspecified"
 VAC1495,POLIO KOPROWSKI K1-K2-K3,False,CPT-90712,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC1496,POLIO LILLY,False,CPT-90713,"Inactivated Polio vaccine, unspecified",True,18,0
 VAC1497,TD-VIRELON,False,,,,,
+VAC1498,EPIVACCORONA-N,False,,,,,
+VAC1499,SPUTNIK-M,False,,,,,
+VAC1500,SPIKEVAX LP.8.1 50 µg,False,,,,,
+VAC1501,SPIKEVAX LP.8.1 25 µg,False,,,,,
