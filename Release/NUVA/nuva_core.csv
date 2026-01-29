@@ -1420,7 +1420,11 @@ VAC['1494'],DITEBOOSTER,Diphtheria toxoid (low dose) and tetanus toxoid vaccine,
 VAC['1495'],POLIO KOPROWSKI K1-K2-K3,"Polio vaccine (live attenuated, trivalent) against polioviruses 1, 2 and 3, oral",False
 VAC['1496'],POLIO LILLY,Inactivated polio (trivalent) vaccine,False
 VAC['1497'],TD-VIRELON,"Diphtheria toxoid (low dose), tetanus toxoid and inactivated polio (trivalent) vaccine",False
-VAC['1498'],EPIVACCORONA-N,"COVID-19 protein subunit vaccine, recombinant N protein",False
+VAC['1498'],EPIVACCORONA-N,"COVID-19 protein subunit vaccine, recombinant protein",False
 VAC['1499'],SPUTNIK-M,"COVID-19 vaccine, non-replicating viral vector, adenovirus 6 encoding the SARS-CoV-2 spike protein, intended for adolescents",False
 VAC['1500'],SPIKEVAX LP.8.1 50 µg,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 50 micrograms",False
 VAC['1501'],SPIKEVAX LP.8.1 25 µg,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 25 micrograms",False
+VAC['1502'],BIMERVAX LP.8.1,"COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant",False
+VAC['1503'],"COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant","COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant",True
+VAC['1504'],TD-PUR,Diphtheria toxoid (low dose) and tetanus toxoid vaccine,False
+VAC['1505'],SCTV01C,"COVID-19 protein subunit vaccine, recombinant protein",False

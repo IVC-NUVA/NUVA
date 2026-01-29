@@ -276,7 +276,7 @@ VAC0172,DIFTAVAX,False,CVC-7921000087109,"DT vaccine, unspecified",True,28,0
 VAC0173,FLUENZ,False,CVC-409269001,"Influenza vaccine, live attenuated, unspecified",True,6,0
 VAC0174,PROQUAD,False,CVC-19441000087102,PROQUAD,True,1,1
 VAC0174,PROQUAD,False,CVC-419550004,"MMRV - Measles-Mumps-Rubella-Varicella vaccine, unspecified",False,,
-VAC0175,A.D.T. BOOSTER,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC0175,A.D.T. BOOSTER,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC0176,A.K.D.S.,False,CVC-7831000087100,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,29,0
 VAC0177,AC VAX,False,CVC-21721000087105,"Meningococcal A + C vaccine, unspecified",True,7,0
 VAC0177,AC VAX,False,CVC-7091000087106,"Meningococcal A + C vaccine, unspecified",True,7,0
@@ -663,7 +663,7 @@ VAC0489,TRIMOVAX,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",
 VAC0490,KINRIX,False,CVC-22691000087106,KINRIX,True,1,1
 VAC0490,KINRIX,False,CVC-7871000087103,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",False,,
 VAC0490,KINRIX,False,CVC-7881000087101,"DTaPIPV vaccine, standard dose, unspecified",False,,
-VAC0491,TENIVAC,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC0491,TENIVAC,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC0492,AFLURIA,False,CVC-7691000087100,"Trivalent inactivated influenza vaccine, unspecified",True,41,0
 VAC0494,TRITANRIX HepB,False,CVC-20601000087103,"Diphtheria-Tetanus-Pertussis-Hepatitis B vaccine, unspecified",True,7,0
 VAC0495,BEXSERO,False,CVC-19311000087109,BEXSERO,True,1,2
@@ -836,7 +836,7 @@ VAC0646,CECOLIN,False,CVC-7791000087109,"HPV vaccine bivalent, unspecified",True
 VAC0646,CECOLIN,False,CVC-424519000,HPV Vaccine,False,,
 VAC0647,ROTASIIL,False,CVC-116077000,"Rotavirus vaccine, unspecified",True,6,0
 VAC0647,ROTASIIL,False,CVC-7811000087105,"Rotavirus vaccine, unspecified",True,6,0
-VAC0648,"COVID-19 vaccine, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,1
+VAC0648,"COVID-19 vaccine, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,1
 VAC0649,EFLUELDA TETRA,False,,,,,
 VAC0650,VAXZEVRIA ASTRAZENECA,False,CVC-28761000087108,VAXZEVRIA ASTRAZENECA,True,1,1
 VAC0650,VAXZEVRIA ASTRAZENECA,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
@@ -864,10 +864,10 @@ VAC0659,ZIFIVAX ANHUI COVID-19 VACCINE,False,CVC-33471000087102,ZIFIVAX ANHUI CO
 VAC0659,ZIFIVAX ANHUI COVID-19 VACCINE,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC0660,CHINESE-IMB-INACTIVATED-COVID,False,CVC-1157024006,"COVID-19 vaccine, whole virion inactivated, unspecified",True,13,0
 VAC0660,CHINESE-IMB-INACTIVATED-COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC0661,INOVIO-DNA-COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0662,OSAKA-DNA-COVID / AG0301-COVID19,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0663,CADILA-DNA-COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0664,GX-19-DNA-Covid,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC0661,INOVIO-DNA-COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0662,OSAKA-DNA-COVID / AG0301-COVID19,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0663,CADILA-DNA-COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0664,GX-19-DNA-Covid,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC0665,COVAXIN BHARAT BIOTECH COVID-19 VACCINE,False,CVC-33211000087105,COVAXIN BHARAT BIOTECH COVID-19 VACCINE,True,1,1
 VAC0665,COVAXIN BHARAT BIOTECH COVID-19 VACCINE,False,CVC-1157024006,"COVID-19 vaccine, whole virion inactivated, unspecified",False,,
 VAC0665,COVAXIN BHARAT BIOTECH COVID-19 VACCINE,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
@@ -876,16 +876,16 @@ VAC0666,JCOVDEN (ancien nom : JANSSEN COVID-19 VACCINE),False,CVC-28531000087107
 VAC0666,JCOVDEN (ancien nom : JANSSEN COVID-19 VACCINE),False,CVC-29061000087103,"COVID-19 vaccine, non-replicating viral vector, unspecified",False,,
 VAC0667,NUVAXOVID,False,CVC-29171000087106,NUVAXOVID,True,1,1
 VAC0667,NUVAXOVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC0668,KENTUCKY-RBD-COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC0668,KENTUCKY-RBD-COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC0669,ARCTURUS-RNA-COVID,False,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
 VAC0669,ARCTURUS-RNA-COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC0670,SPOUTNIK V,False,CVC-31341000087103,SPOUTNIK V,True,1,1
 VAC0670,SPOUTNIK V,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC0670,SPOUTNIK V,False,CVC-29061000087103,"COVID-19 vaccine, non-replicating viral vector, unspecified",False,,
-VAC0671,CLOVER-SPIKE-SCB-2019-COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0672,VAXINE-SPIKE-COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0673,QUEENSLAND-SPIKE-MF59-COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0674,PASTEUR-MSD MEASLES VECTOR COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC0671,CLOVER-SPIKE-SCB-2019-COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0672,VAXINE-SPIKE-COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0673,QUEENSLAND-SPIKE-MF59-COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0674,PASTEUR-MSD MEASLES VECTOR COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC0675,IMPERIAL-COLLEGE-RNA-COVID,False,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
 VAC0675,IMPERIAL-COLLEGE-RNA-COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC0676,CUREVAC-RNA-COVID,False,CVC-33221000087102,CUREVAC-RNA-COVID,True,1,1
@@ -910,37 +910,37 @@ VAC0684,QAZVAC,False,CVC-1157024006,"COVID-19 vaccine, whole virion inactivated,
 VAC0684,QAZVAC,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC0685,VIDPREVTYN BETA,False,CVC-45391000087107,VIDPREVTYN BETA,True,1,1
 VAC0685,VIDPREVTYN BETA,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC0686,MULTI-PEPTIDE-pVAC-COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0687,UB-612 COVID-19 Vaccine,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0688,INTRANASAL FLU-BASED RBD DelNS1-2019-nCoV-RBD-OPT1 COVID-19 Vaccine,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0689,CHINESE-RECOMBINANT-Sf9-COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC0686,MULTI-PEPTIDE-pVAC-COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0687,UB-612 COVID-19 Vaccine,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0688,INTRANASAL FLU-BASED RBD DelNS1-2019-nCoV-RBD-OPT1 COVID-19 Vaccine,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0689,CHINESE-RECOMBINANT-Sf9-COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC0690,CHINESE-AD5-NCOV-COVID,False,CVC-29061000087103,"COVID-19 vaccine, non-replicating viral vector, unspecified",True,27,0
 VAC0690,CHINESE-AD5-NCOV-COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC0691,FINLAY-FR-1,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0692,COVAXX,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC0691,FINLAY-FR-1,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0692,COVAXX,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC0693,VXA-COV2-1-COVID,False,CVC-29061000087103,"COVID-19 vaccine, non-replicating viral vector, unspecified",True,27,0
 VAC0693,VXA-COV2-1-COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC0694,LMU-MVA-SARS-2-S-COVID,False,CVC-29061000087103,"COVID-19 vaccine, non-replicating viral vector, unspecified",True,27,0
 VAC0694,LMU-MVA-SARS-2-S-COVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC0695,RBD-HBsAg-VLPs-Covid,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC0695,RBD-HBsAg-VLPs-Covid,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC0696,KCONVAC MINHAI COVID-19 VACCINE,False,CVC-33431000087104,KCONVAC MINHAI COVID-19 VACCINE,True,1,1
 VAC0696,KCONVAC MINHAI COVID-19 VACCINE,False,CVC-1157024006,"COVID-19 vaccine, whole virion inactivated, unspecified",False,,
 VAC0696,KCONVAC MINHAI COVID-19 VACCINE,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC0697,V590 (COVID-19),False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC0697,V590 (COVID-19),False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC0698,hAd5-COVID-19,False,CVC-29061000087103,"COVID-19 vaccine, non-replicating viral vector, unspecified",True,27,0
 VAC0698,hAd5-COVID-19,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC0699,IIBR's RECOMBINANT VSV-DeltaG-spike VACCINE,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0701,BACTRL-SPIKE,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0702,RRBD PRODUCED IN CHO-CELL CHEMICALLY CONJUGATE TO TETANUS TOXOID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0703,ADJUVANTED PROTEIN SUBUNIT (RBD),False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC0699,IIBR's RECOMBINANT VSV-DeltaG-spike VACCINE,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0701,BACTRL-SPIKE,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0702,RRBD PRODUCED IN CHO-CELL CHEMICALLY CONJUGATE TO TETANUS TOXOID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0703,ADJUVANTED PROTEIN SUBUNIT (RBD),False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC0705,INFLUSPLIT TETRA,False,CVC-28591000087108,INFLUSPLIT TETRA,True,1,1
 VAC0705,INFLUSPLIT TETRA,False,CVC-19401000087100,"Quadrivalent influenza vaccine, unspecified",False,,
 VAC0706,FLUZONE QUADRIVALENT,False,CVC-20691000087107,FLUZONE QUADRIVALENT,True,1,1
 VAC0706,FLUZONE QUADRIVALENT,False,CVC-19401000087100,"Quadrivalent influenza vaccine, unspecified",False,,
 VAC0707,CORONAVIRUS SARS-CoV-2 INACTIVÉ,False,CVC-1157024006,"COVID-19 vaccine, whole virion inactivated, unspecified",True,13,0
 VAC0707,CORONAVIRUS SARS-CoV-2 INACTIVÉ,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC0708,CORVAX12,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0709,COVI-VAC,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC0708,CORVAX12,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0709,COVI-VAC,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC0710,COVID-19 mRNA VACCINE BNT162b2,False,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
 VAC0710,COVID-19 mRNA VACCINE BNT162b2,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC0711,"Typhoid conjugate vaccine, unspecified",True,CVC-89428009,"Typhoid vaccine, unspecified",True,23,0
@@ -951,15 +951,15 @@ VAC0714,"VACCIN CONTRE LA COVID-19 (INACTIVE, AVEC ADJUVANT) VALNEVA",False,CVC-
 VAC0714,"VACCIN CONTRE LA COVID-19 (INACTIVE, AVEC ADJUVANT) VALNEVA",False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC0715,ERUCOV-VAC,False,CVC-1157024006,"COVID-19 vaccine, whole virion inactivated, unspecified",True,13,0
 VAC0715,ERUCOV-VAC,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC0716,SARS-COV-2-RBD-FC FUSION PROTEIN,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0717,CIGB-669,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC0716,SARS-COV-2-RBD-FC FUSION PROTEIN,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0717,CIGB-669,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC0718,CIGB-66,False,CVC-33391000087109,CIGB-66,True,1,1
 VAC0718,CIGB-66,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC0719,NANOCOVAX,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0720,S-268019,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0721,ADIMRSC-2F,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0722,COVIGENIX VAX-001,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0723,GLS-5310,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC0719,NANOCOVAX,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0720,S-268019,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0721,ADIMRSC-2F,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0722,COVIGENIX VAX-001,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0723,GLS-5310,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC0724,CHULACOV19,False,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
 VAC0724,CHULACOV19,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC0725,COH04S1,False,CVC-29061000087103,"COVID-19 vaccine, non-replicating viral vector, unspecified",True,27,0
@@ -968,12 +968,12 @@ VAC0726,ADCOVID,False,CVC-29061000087103,"COVID-19 vaccine, non-replicating vira
 VAC0726,ADCOVID,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC0727,ADCLD-COV19,False,CVC-29061000087103,"COVID-19 vaccine, non-replicating viral vector, unspecified",True,27,0
 VAC0727,ADCLD-COV19,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC0728,aAPC COVID-19 VACCINE,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC0728,aAPC COVID-19 VACCINE,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC0729,LV-SMENP-DC vaccine,False,CVC-29061000087103,"COVID-19 vaccine, non-replicating viral vector, unspecified",True,27,0
 VAC0729,LV-SMENP-DC vaccine,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC0730,DENDRITIC CELL AV-COVID-19 VACCINE,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0731,DITANRIX,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
-VAC0732,COVAC-1 - COVAC-2,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC0730,DENDRITIC CELL AV-COVID-19 VACCINE,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0731,DITANRIX,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
+VAC0732,COVAC-1 - COVAC-2,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC0733,HEPLISAV-B,False,CVC-8771000087109,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,14,0
 VAC0733,HEPLISAV-B,False,CVC-34689006,"Hepatitis B vaccine, recombinant, unspecified",False,,
 VAC0734,POLIO BOOSTRIX,False,CVC-7891000087104,"TdapIPV - Diphtheria-Tetanus-Pertussis-Polio vaccine, low dose, unspecified",True,5,0
@@ -982,17 +982,17 @@ VAC0735,POLIOINFANRIX,False,CVC-7881000087101,"DTaPIPV vaccine, standard dose, u
 VAC0735,POLIOINFANRIX,False,CVC-7871000087103,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",False,,
 VAC0736,TRIAXIS POLIO,False,CVC-7891000087104,"TdapIPV - Diphtheria-Tetanus-Pertussis-Polio vaccine, low dose, unspecified",True,5,0
 VAC0736,TRIAXIS POLIO,False,CVC-7871000087103,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",False,,
-VAC0737,GBP510,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0739,RAZI COV PARS,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC0737,GBP510,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0739,RAZI COV PARS,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC0740,PTX-COVID19-B,False,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
 VAC0740,PTX-COVID19-B,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC0741,COVID-EVAX,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0742,COVIGEN,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC0741,COVID-EVAX,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0742,COVIGEN,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC0743,BBV154,False,CVC-29061000087103,"COVID-19 vaccine, non-replicating viral vector, unspecified",True,27,0
 VAC0743,BBV154,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC0744,COVID-19 INACTIVATED VACCINE,False,CVC-1157024006,"COVID-19 vaccine, whole virion inactivated, unspecified",True,13,0
 VAC0744,COVID-19 INACTIVATED VACCINE,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC0745,MF59 ADJUVANTED SARS-CoV-2 SCLAMP VACCINE,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC0745,MF59 ADJUVANTED SARS-CoV-2 SCLAMP VACCINE,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC0752,COVISHIELD,False,CVC-28961000087105,COVISHIELD,True,1,1
 VAC0752,COVISHIELD,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC0752,COVISHIELD,False,CVC-29061000087103,"COVID-19 vaccine, non-replicating viral vector, unspecified",False,,
@@ -1002,12 +1002,12 @@ VAC0754,INACTIVATED KOCAK-19 INAKTIF ADJUVANT COVID-19 VACCINE,False,CVC-1157024
 VAC0754,INACTIVATED KOCAK-19 INAKTIF ADJUVANT COVID-19 VACCINE,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC0755,ADJUVANTED INACTIVATED VACCINE AGAINST SARS-CoV-2,False,CVC-1157024006,"COVID-19 vaccine, whole virion inactivated, unspecified",True,13,0
 VAC0755,ADJUVANTED INACTIVATED VACCINE AGAINST SARS-CoV-2,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC0756,MV-014-212,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0757,NBP 2001,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0758,SPFN COVID 19 VACCINE + AFLQ,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0759,EUCORVAC-19,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0760,RECOV,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0761,V-01,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC0756,MV-014-212,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0757,NBP 2001,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0758,SPFN COVID 19 VACCINE + AFLQ,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0759,EUCORVAC-19,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0760,RECOV,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0761,V-01,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC0762,COV2 SAM (LNP) VACCINE,False,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
 VAC0762,COV2 SAM (LNP) VACCINE,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC0763,mRNA-1273.351,False,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
@@ -1018,16 +1018,16 @@ VAC0765,DS-5670a,False,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,
 VAC0765,DS-5670a,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC0766,HDT-301,False,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
 VAC0766,HDT-301,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC0767,ChAdV68 SAM-LNP rS-TCE GRITSTONE ONCOLOGY COVID-19 VACCINE,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC0767,ChAdV68 SAM-LNP rS-TCE GRITSTONE ONCOLOGY COVID-19 VACCINE,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC0768,COVIVAC,False,CVC-33411000087109,COVIVAC,True,1,1
 VAC0768,COVIVAC,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC0768,COVIVAC,False,CVC-29061000087103,"COVID-19 vaccine, non-replicating viral vector, unspecified",False,,
 VAC0769,SC-Ad6-1,False,CVC-29061000087103,"COVID-19 vaccine, non-replicating viral vector, unspecified",True,27,0
 VAC0769,SC-Ad6-1,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC0770,NDV-HXP-S,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0771,VBI-2902a,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0772,SARS-CoV-2 VLP Vaccine,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC0773,ABNCoV2,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC0770,NDV-HXP-S,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0771,VBI-2902a,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0772,SARS-CoV-2 VLP Vaccine,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC0773,ABNCoV2,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC0774,"FSME-IMMUN 0,25 mL",False,CVC-333699008,"Tick-borne encephalitis vaccine, unspecified",True,11,0
 VAC0775,"DTwPHib, unspecified",True,,,,,
 VAC0776,TETRABIK,False,CVC-7881000087101,"DTaPIPV vaccine, standard dose, unspecified",True,8,0
@@ -1057,7 +1057,7 @@ VAC0789,COMVAC4,False,CVC-20601000087103,"Diphtheria-Tetanus-Pertussis-Hepatitis
 VAC0790,"Diphtheria-Tetanus-Hepatitis B vaccine, unspecified",True,,,,,
 VAC0791,"Hexavalent vaccine DTPerHibPHepB - Diphtheria-Tetanus-Pertussis-Polio-Hib-Hepatitis B vaccine, unspecified",True,,,,,
 VAC0792,"Diphtheria-Tetanus-Pertussis-Polio-Hepatitis B pentavalent vaccine, unspecified",True,CVC-20641000087100,"Diphtheria-Tetanus-Pertussis-Polio-Hepatitis B pentavalent vaccine, unspecified",True,3,1
-VAC0793,TETADIF,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC0793,TETADIF,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC0794,"T-igT, unspecified",True,,,,,
 VAC0795,"Acellular pertussis vaccine, unspecified",True,CVC-449019003,"Acellular pertussis vaccine, unspecified",True,9,2
 VAC0795,"Acellular pertussis vaccine, unspecified",True,CVC-7781000087107,"Acellular pertussis vaccine, unspecified",True,9,2
@@ -1118,7 +1118,7 @@ VAC0835,FIOCRUZ COVID-19 VACCINE,False,CVC-28531000087107,"COVID-19 vaccine, uns
 VAC0836,FLUAD TETRA,False,CVC-19401000087100,"Quadrivalent influenza vaccine, unspecified",True,10,0
 VAC0837,COVOVAX SII,False,CVC-34921000087108,COVOVAX SII,True,1,1
 VAC0837,COVOVAX SII,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC0838,COVOVAX NOVAVAX,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC0838,COVOVAX NOVAVAX,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC0839,"Inactivated whole-cell brucella vaccine, unspecified",True,,,,,
 VAC0840,ADDIGRIP,False,CVC-7691000087100,"Trivalent inactivated influenza vaccine, unspecified",True,41,0
 VAC0841,"INFLUVAC 0,25 mL",False,CVC-7691000087100,"Trivalent inactivated influenza vaccine, unspecified",True,41,0
@@ -1219,7 +1219,7 @@ VAC0909,Botulinum antitoxin,True,CVC-86080005,Botulinum antitoxin,True,3,2
 VAC0910,"Inactivated hepatitis A vaccine, adult dose, unspecified",True,,,,,
 VAC0911,"Hepatitis A whole inactivated vaccine, monovalent, pediatric dose, unspecified",True,CVC-9811000087103,"Hepatitis A whole inactivated vaccine, monovalent, pediatric dose, unspecified",True,2,1
 VAC0912,"Hepatitis A vaccine, pediatric dose, unspecified",True,,,,,
-VAC0913,BIMERVAX,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC0913,BIMERVAX,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC0914,"Hepatitis B vaccine, monovalent, pediatric dose, unspecified",True,CVC-9831000087108,"Hepatitis B vaccine, monovalent, pediatric dose, unspecified",True,15,1
 VAC0914,"Hepatitis B vaccine, monovalent, pediatric dose, unspecified",True,CVC-34689006,"Hepatitis B vaccine, recombinant, unspecified",False,,
 VAC0915,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,CVC-8771000087109,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,14,1
@@ -1229,7 +1229,7 @@ VAC0916,"Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified",
 VAC0917,"Hepatitis E vaccine, unspecified",True,,,,,
 VAC0918,"PRP-D Hib vaccine, unspecified",True,CVC-333680004,"Haemophilus influenzae B (or Hib) vaccine, unspecified",True,16,0
 VAC0919,"Hib hbOC vaccine, unspecified",True,CVC-333680004,"Haemophilus influenzae B (or Hib) vaccine, unspecified",True,16,0
-VAC0920,"Diphtheria-tetanus Td vaccine, unspecified",True,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,15,1
+VAC0920,"Diphtheria-tetanus Td vaccine, unspecified",True,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,16,1
 VAC0921,"Japanese encephalitis vaccine, unspecified",True,CVC-333697005,"Japanese encephalitis vaccine, unspecified",True,20,1
 VAC0922,"Live attenuated adenovirus vaccine, type 4 and type 7, oral",True,,,,,
 VAC0923,"Respiratory Syncytial Virus monoclonal antibody, unspecified",True,CVC-108725001,"Respiratory Syncytial Virus monoclonal antibody, unspecified",True,8,1
@@ -1283,7 +1283,7 @@ VAC0959,STREPTOPUR,False,CVC-135642004,"Pneumococcal vaccine, unspecified",False
 VAC0959,STREPTOPUR,False,CVC-333598008,"Pneumococcal vaccine, unspecified",False,,
 VAC0960,VIATIM,False,CVC-333707007,"Typhoid-hepatitis A vaccine, unspecified",True,5,0
 VAC0961,ANATOXAL TE N,False,CVC-333621002,"Tetanus vaccine, unspecified",True,36,0
-VAC0962,ANATOXAL DI TE N ADULT,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC0962,ANATOXAL DI TE N ADULT,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC0963,ANATOXAL DI TE PER,False,CVC-7831000087100,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,29,0
 VAC0964,ANATOXAL DI,False,CVC-428214002,"Diphtheria vaccine, unspecified",True,10,0
 VAC0965,ANATOXAL TE TAB,False,,,,,
@@ -1336,7 +1336,7 @@ VAC0999,WETVAX APSV,False,CVC-33234009,"Smallpox vaccine, unspecified",True,18,0
 VAC1000,VACV VACCINIA VIRUS LISTER ELSTREE,False,CVC-33234009,"Smallpox vaccine, unspecified",True,18,0
 VAC1001,V4020 VEEV VACCINE,False,,,,,
 VAC1002,Q-VAX,False,,,,,
-VAC1003,TEDIVAX PRO ADULTO,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC1003,TEDIVAX PRO ADULTO,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC1004,TEDIVAX,False,CVC-7921000087109,"DT vaccine, unspecified",True,28,0
 VAC1005,REVAC-B PLUS ADULT VACCINE,False,CVC-8771000087109,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,14,0
 VAC1005,REVAC-B PLUS ADULT VACCINE,False,CVC-34689006,"Hepatitis B vaccine, recombinant, unspecified",False,,
@@ -1356,7 +1356,7 @@ VAC1016,IDFLU,False,CVC-7691000087100,"Trivalent inactivated influenza vaccine, 
 VAC1017,SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.1 (50 µg/50 µg)/mL MULTIDOSE MODERNA,False,CVC-37311000087109,SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.1 (50 µg/50 µg)/mL MULTIDOSE MODERNA,True,1,1
 VAC1017,SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.1 (50 µg/50 µg)/mL MULTIDOSE MODERNA,False,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",False,,
 VAC1017,SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.1 (50 µg/50 µg)/mL MULTIDOSE MODERNA,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC1018,NOORA VACCINE,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1018,NOORA VACCINE,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1019,"SPIKEVAX 0,1 mg/mL MODERNA",False,CVC-35651000087105,"SPIKEVAX 0,1 mg/mL MODERNA",True,1,1
 VAC1019,"SPIKEVAX 0,1 mg/mL MODERNA",False,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",False,,
 VAC1019,"SPIKEVAX 0,1 mg/mL MODERNA",False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
@@ -1406,15 +1406,15 @@ VAC1041,"COVID-19 mRNA vaccine, unspecified",True,CVC-1119349007,"COVID-19 mRNA 
 VAC1041,"COVID-19 mRNA vaccine, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC1042,"COVID-19 vaccine, non-replicating viral vector, unspecified",True,CVC-29061000087103,"COVID-19 vaccine, non-replicating viral vector, unspecified",True,27,1
 VAC1042,"COVID-19 vaccine, non-replicating viral vector, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC1043,"COVID-19 vaccine, protein subunit, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1043,"COVID-19 vaccine, protein subunit, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1044,"COVID-19 vaccine, whole virion inactivated, unspecified",True,CVC-1157024006,"COVID-19 vaccine, whole virion inactivated, unspecified",True,13,1
 VAC1044,"COVID-19 vaccine, whole virion inactivated, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC1045,INFANRIX-IPV/HIB,False,CVC-7931000087106,"Pentavalent DTaPHibIPV vaccine, unspecified",True,9,0
 VAC1045,INFANRIX-IPV/HIB,False,CVC-8221000087100,"Pentavalent DTaPHibIPV vaccine, unspecified",True,9,0
 VAC1046,BEYFORTUS 50 MG (NIRSEVIMAB),False,CVC-108725001,"Respiratory Syncytial Virus monoclonal antibody, unspecified",True,8,0
 VAC1047,ABRYSVO,False,CVC-55351000087104,ABRYSVO,True,1,1
-VAC1048,DECAVAC,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
-VAC1049,TDVAX,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC1048,DECAVAC,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
+VAC1049,TDVAX,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC1050,BEYFORTUS 100 MG (NIRSEVIMAB),False,CVC-108725001,"Respiratory Syncytial Virus monoclonal antibody, unspecified",True,8,0
 VAC1051,PFIZER COMIRNATY-30 XBB.1.5,False,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
 VAC1051,PFIZER COMIRNATY-30 XBB.1.5,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
@@ -1424,7 +1424,7 @@ VAC1053,PFIZER COMIRNATY-3 XBB.1.5,False,CVC-1119349007,"COVID-19 mRNA vaccine, 
 VAC1053,PFIZER COMIRNATY-3 XBB.1.5,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC1054,"COMIRNATY ORIGINAL/OMICRON BA.4-5 (1,5/1,5 µg)",False,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
 VAC1054,"COMIRNATY ORIGINAL/OMICRON BA.4-5 (1,5/1,5 µg)",False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC1055,NUVAXOVID XBB.1.5,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1055,NUVAXOVID XBB.1.5,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1056,R21/MATRIX-M,False,,,,,
 VAC1057,ENGERIX B JUNIOR,False,CVC-9831000087108,"Hepatitis B vaccine, monovalent, pediatric dose, unspecified",True,15,0
 VAC1057,ENGERIX B JUNIOR,False,CVC-34689006,"Hepatitis B vaccine, recombinant, unspecified",False,,
@@ -1494,7 +1494,7 @@ VAC1104,DIPHTHERIA ANTITOXIN B.P.,False,CVC-19431000087108,DIPHTHERIA ANTITOXIN 
 VAC1104,DIPHTHERIA ANTITOXIN B.P.,False,CVC-77048008,"Diphtheria antitoxin, unspecified",False,,
 VAC1105,BAT EMERGENT BIOSOLUTIONS,False,CVC-21911000087100,Botulinum antitoxin,True,3,0
 VAC1105,BAT EMERGENT BIOSOLUTIONS,False,CVC-86080005,Botulinum antitoxin,True,3,0
-VAC1106,"COVID-19 VLP vaccine, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1106,"COVID-19 VLP vaccine, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1107,"Whole inactivated Cholera vaccine, unspecified",True,CVC-35736007,"Cholera vaccine, unspecified",True,20,0
 VAC1108,"COVID-19 bivalent mRNA vaccine, original virus + Omicron BA.1 variant, unspecified",True,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
 VAC1108,"COVID-19 bivalent mRNA vaccine, original virus + Omicron BA.1 variant, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
@@ -1502,7 +1502,7 @@ VAC1109,"ACW unconjugated meningococcal vaccine, unspecified",True,,,,,
 VAC1110,"Meningococcal C vaccine unconjugated, unspecified",True,,,,,
 VAC1111,"Japanese Encephalitis Vaccine, whole inactivated, prepared on Vero cells, unspecified",True,CVC-333697005,"Japanese encephalitis vaccine, unspecified",True,20,0
 VAC1112,"Live attenuated quadrivalent influenza vaccine, unspecified",True,CVC-409269001,"Influenza vaccine, live attenuated, unspecified",True,6,0
-VAC1113,"COVID-19 protein subunit vaccine, recombinant spike protein, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1113,"COVID-19 protein subunit vaccine, recombinant spike protein, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1114,"Vaccine against typhoid fever and hepatitis A, unspecified",True,CVC-333707007,"Typhoid-hepatitis A vaccine, unspecified",True,5,0
 VAC1115,"Pentavalent vaccine DTPaHibP - Diphtheria-Tetanus-Pertussis-Hib PRP-Polio, unspecified",True,CVC-7931000087106,"Pentavalent DTaPHibIPV vaccine, unspecified",True,9,0
 VAC1115,"Pentavalent vaccine DTPaHibP - Diphtheria-Tetanus-Pertussis-Hib PRP-Polio, unspecified",True,CVC-8221000087100,"Pentavalent DTaPHibIPV vaccine, unspecified",True,9,0
@@ -1521,8 +1521,8 @@ VAC1124,"Inactivated whole virus COVID-19 vaccine, in clinical trial, unspecifie
 VAC1125,"Hepatitis B vaccine, unspecified",True,,,,,
 VAC1126,"Pentavalent DTP Hib vaccine - Diphtheria-Tetanus-Pertussis-Hib PRP-Polio, unspecified",True,,,,,
 VAC1127,"Immunoglobulin against hepatitis A, measles, chickenpox and rubella, unspecified",True,,,,,
-VAC1128,"COVID-19 plasmid DNA vaccine, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC1129,"COVID-19 protein subunit vaccine, recombinant spike protein in nanoparticles, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1128,"COVID-19 plasmid DNA vaccine, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC1129,"COVID-19 protein subunit vaccine, recombinant spike protein in nanoparticles, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1130,"Trivalent inactivated seasonal influenza vaccine and tetanus toxoid, unspecified",True,,,,,
 VAC1131,"17-valent unconjugated pneumococcal vaccine, unspecified",True,CVC-135642004,"Pneumococcal vaccine, unspecified",True,8,0
 VAC1131,"17-valent unconjugated pneumococcal vaccine, unspecified",True,CVC-333598008,"Pneumococcal vaccine, unspecified",True,8,0
@@ -1536,7 +1536,7 @@ VAC1136,"23-valent Pneumococcus conjugate vaccine, unspecified",True,CVC-7261000
 VAC1136,"23-valent Pneumococcus conjugate vaccine, unspecified",True,CVC-135642004,"Pneumococcal vaccine, unspecified",False,,
 VAC1136,"23-valent Pneumococcus conjugate vaccine, unspecified",True,CVC-333598008,"Pneumococcal vaccine, unspecified",False,,
 VAC1137,"Whole inactivated tick-borne encephalitis vaccine, strain K23, unspecified",True,CVC-333699008,"Tick-borne encephalitis vaccine, unspecified",True,11,0
-VAC1138,COVID-19 recombinant protein subunit vaccine,True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1138,COVID-19 recombinant protein subunit vaccine,True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1139,"COVID-19 vaccine, non-replicating vector, Newcastle disease virus encoding the SARS-CoV-2 spike protein, unspecified",True,CVC-29061000087103,"COVID-19 vaccine, non-replicating viral vector, unspecified",True,27,0
 VAC1139,"COVID-19 vaccine, non-replicating vector, Newcastle disease virus encoding the SARS-CoV-2 spike protein, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC1140,"COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 25 micrograms, unspecified",True,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
@@ -1546,7 +1546,7 @@ VAC1142,"COVID-19 vaccine, non-replicating vector, antigen-presenting cells, uns
 VAC1142,"COVID-19 vaccine, non-replicating vector, antigen-presenting cells, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC1143,"COVID-19 vaccine with non-replicating viral vector, adenovirus encoding the spike protein of SARS-CoV-2, unspecified",True,CVC-29061000087103,"COVID-19 vaccine, non-replicating viral vector, unspecified",True,27,0
 VAC1143,"COVID-19 vaccine with non-replicating viral vector, adenovirus encoding the spike protein of SARS-CoV-2, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC1144,"COVID-19 protein subunit vaccine, recombinant SARS-CoV-2 spike protein, S-2P and CpG1018, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1144,"COVID-19 protein subunit vaccine, recombinant SARS-CoV-2 spike protein, S-2P and CpG1018, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1145,"Recombinant hepatitis B vaccine, three antigens, unspecified",True,,,,,
 VAC1146,"Inactivated quadrivalent influenza vaccine, high dose, unspecified",True,,,,,
 VAC1147,"Human monoclonal antibody against respiratory syncytial virus (RSV), nirsevimab, unspecified",True,CVC-108725001,"Respiratory Syncytial Virus monoclonal antibody, unspecified",True,8,0
@@ -1585,7 +1585,7 @@ VAC1170,"Non-replicating viral vector COVID-19 vaccine, chimpanzee adenovirus Ch
 VAC1170,"Non-replicating viral vector COVID-19 vaccine, chimpanzee adenovirus ChadOx1 encoding the SARS-CoV-2 spike protein",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC1171,"Inactivated trivalent influenza vaccine, high dose, unspecified",True,,,,,
 VAC1172,"Diphtheria toxoid, reduced dose, unspecified",True,CVC-428214002,"Diphtheria vaccine, unspecified",True,10,0
-VAC1173,"COVID-19 vaccine with replicative viral vector, influenza virus encoding the spike protein of SARS-CoV-2, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1173,"COVID-19 vaccine with replicative viral vector, influenza virus encoding the spike protein of SARS-CoV-2, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1174,"Pentavalent DTPaPHepB vaccine - Diphtheria-Tetanus-Pertussis-Polio-Hepatitis B 10µg, unspecified",True,CVC-20641000087100,"Diphtheria-Tetanus-Pertussis-Polio-Hepatitis B pentavalent vaccine, unspecified",True,3,0
 VAC1175,"Inactivated trivalent influenza vaccine cell culture, normal dose, unspecified",True,,,,,
 VAC1176,"COVID-19 vaccine with non-replicating viral vector, adenovirus 5 encoding the S and N proteins of SARS-CoV-2, unspecified",True,CVC-29061000087103,"COVID-19 vaccine, non-replicating viral vector, unspecified",True,27,0
@@ -1600,13 +1600,13 @@ VAC1183,"Non-replicating viral vector Ebola vaccine, unspecified",True,CVC-45891
 VAC1184,"Meningococcal C polysaccharide vaccine conjugated to tetanus toxoid, unspecified",True,CVC-359068008,"Meningococcal conjugate vaccine C, unspecified",True,8,0
 VAC1185,"COVID-19 vaccine with non-replicating viral vector, adenovirus 26 encoding the spike protein of SARS-CoV-2, unspecified",True,CVC-29061000087103,"COVID-19 vaccine, non-replicating viral vector, unspecified",True,27,0
 VAC1185,"COVID-19 vaccine with non-replicating viral vector, adenovirus 26 encoding the spike protein of SARS-CoV-2, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC1186,"COVID-19 vaccine with replicative viral vector with antigen-presenting cells, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
-VAC1187,"COVID-19 vaccine with replicative viral vector, measles virus encoding the SARS-CoV-2 spike protein, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1186,"COVID-19 vaccine with replicative viral vector with antigen-presenting cells, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC1187,"COVID-19 vaccine with replicative viral vector, measles virus encoding the SARS-CoV-2 spike protein, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1188,"COVID-19 mRNA vaccine encoding the spike protein of SARS-CoV-2, original virus, 3 micrograms, unspecified",True,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
 VAC1188,"COVID-19 mRNA vaccine encoding the spike protein of SARS-CoV-2, original virus, 3 micrograms, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC1189,"Non-replicating vector COVID-19 vaccine, modified Ankara vaccine encoding the SARS-CoV-2 spike protein, unspecified",True,CVC-29061000087103,"COVID-19 vaccine, non-replicating viral vector, unspecified",True,27,0
 VAC1189,"Non-replicating vector COVID-19 vaccine, modified Ankara vaccine encoding the SARS-CoV-2 spike protein, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC1190,"COVID-19 vaccine with replicative viral vector, vesicular stomatitis virus encoding the SARS-CoV-2 spike protein, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1190,"COVID-19 vaccine with replicative viral vector, vesicular stomatitis virus encoding the SARS-CoV-2 spike protein, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1191,"Vaccine for the prevention of urinary infections in women, unspecified",True,,,,,
 VAC1192,"Pentavalent vaccine DTPePHibHepB - Diphtheria-Tetanus-Pertussis-Hib OC-HepatitisB 10µg, unspecified",True,,,,,
 VAC1193,"Japanese encephalitis vaccine, live recombinant attenuated, unspecified",True,CVC-333697005,"Japanese encephalitis vaccine, unspecified",True,20,0
@@ -1614,18 +1614,18 @@ VAC1194,"Tetanus, typhoid and paratypoid A and B vaccines, unspecified",True,,,,
 VAC1195,"COVID-19 vaccine with non-replicating viral vector, adenovirus 26 encoding the spike protein of SARS-CoV-2, in clinical trial, unspecified",True,CVC-29061000087103,"COVID-19 vaccine, non-replicating viral vector, unspecified",True,27,0
 VAC1195,"COVID-19 vaccine with non-replicating viral vector, adenovirus 26 encoding the spike protein of SARS-CoV-2, in clinical trial, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC1196,"Japanese encephalitis vaccine, whole inactivated prepared from murine brain tissue, unspecified",True,CVC-333697005,"Japanese encephalitis vaccine, unspecified",True,20,0
-VAC1197,"COVID-19 vaccine with chimpanzee adenovirus and self-amplifying mRNA, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1197,"COVID-19 vaccine with chimpanzee adenovirus and self-amplifying mRNA, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1198,"Chinkungunya vaccine, live attenuated, unspecified",True,,,,,
 VAC1199,"Recombinant vesicular stomatitis replicative viral vector Ebola vaccine (rVSV) - EBOV GP glycoprotein, unspecified",True,CVC-45891000087103,"Ebola vaccine, unspecified",True,6,0
 VAC1200,"Quadrivalent influenza vaccine, on cell culture, unspecified",True,,,,,
 VAC1201,"Tetravalent Dengue vaccine, live attenuated chimeric recombinant based on 17D yellow fever vaccine, unspecified",True,,,,,
-VAC1202,"COVID-19 vaccine with live attenuated virus, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1202,"COVID-19 vaccine with live attenuated virus, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1203,"Brucellosis vaccine, protein (P.I. antigen)",True,,,,,
-VAC1204,"COVID-19 protein subunit vaccine, recombinant spike protein, with adjuvant, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1204,"COVID-19 protein subunit vaccine, recombinant spike protein, with adjuvant, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1205,"Ebola virus vaccine, recombinant live non-replicating viral vector Ad26.ZEBOV, unspecified",True,CVC-45891000087103,"Ebola vaccine, unspecified",True,6,0
 VAC1206,"COVID-19 vaccine with self-amplifying mRNA, unspecified",True,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
 VAC1206,"COVID-19 vaccine with self-amplifying mRNA, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC1207,"COVID-19 vaccine with replicative viral vector, Newcastle disease virus encoding the SARS-CoV-2 spike protein, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1207,"COVID-19 vaccine with replicative viral vector, Newcastle disease virus encoding the SARS-CoV-2 spike protein, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1208,"Quadrivalent DTPeHepB vaccine - Diphtheria-Tetanus-Pertussis-HepatitisB 10µg, unspecified",True,CVC-20601000087103,"Diphtheria-Tetanus-Pertussis-Hepatitis B vaccine, unspecified",True,7,0
 VAC1209,"Measles vaccine, whole inactivated, unspecified",True,,,,,
 VAC1210,"COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, original virus, 100 micrograms, unspecified",True,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
@@ -1662,7 +1662,7 @@ VAC1234,"15-valent unconjugated pneumococcal vaccine, unspecified",True,CVC-1356
 VAC1234,"15-valent unconjugated pneumococcal vaccine, unspecified",True,CVC-333598008,"Pneumococcal vaccine, unspecified",True,8,0
 VAC1235,"RIX4414 monovalent rotavirus vaccine, unspecified",True,CVC-116077000,"Rotavirus vaccine, unspecified",True,6,0
 VAC1235,"RIX4414 monovalent rotavirus vaccine, unspecified",True,CVC-7811000087105,"Rotavirus vaccine, unspecified",True,6,0
-VAC1236,"COVID-19 protein subunit vaccine, recombinant spike protein in nanoparticles, Omicron subvariant XBB.1.5, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1236,"COVID-19 protein subunit vaccine, recombinant spike protein in nanoparticles, Omicron subvariant XBB.1.5, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1237,"Pre-erythrocytic malaria vaccine, unspecified",True,,,,,
 VAC1238,"Vaccine against hepatitis B and malaria, unspecified",True,,,,,
 VAC1239,"15-valent Pneumococcus conjugate vaccine, unspecified",True,CVC-7261000087106,"Pneumococcal conjugate vaccine, serotypes unspecified",True,11,0
@@ -1698,12 +1698,12 @@ VAC1259,COMIRNATY JN.1 10 µg,False,CVC-1119349007,"COVID-19 mRNA vaccine, unspe
 VAC1259,COMIRNATY JN.1 10 µg,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC1260,COMIRNATY JN.1 3 µg,False,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
 VAC1260,COMIRNATY JN.1 3 µg,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC1261,NUVAXOVID JN.1,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1261,NUVAXOVID JN.1,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1262,MRESVIA,False,,,,,
 VAC1263,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
 VAC1263,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC1264,"A(H5) avian influenza vaccine, unspecified",True,,,,,
-VAC1265,CLODIVAC,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC1265,CLODIVAC,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC1266,PENMENVY,False,,,,,
 VAC1267,VIMKUNYA,False,,,,,
 VAC1268,SPIKEVAX JN.1 50 µg,False,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
@@ -1726,12 +1726,12 @@ VAC1280,"21-valent pneumococcal conjugate vaccine, unspecified",True,CVC-1356420
 VAC1280,"21-valent pneumococcal conjugate vaccine, unspecified",True,CVC-333598008,"Pneumococcal vaccine, unspecified",False,,
 VAC1281,PENTABIO,False,,,,,
 VAC1282,FLUBIO INFLUENZA HA,False,CVC-7691000087100,"Trivalent inactivated influenza vaccine, unspecified",True,41,0
-VAC1283,INDOVAC,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1283,INDOVAC,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1284,NUSAGARD,False,CVC-7801000087108,"HPV vaccine quadrivalent, unspecified",True,4,0
 VAC1284,NUSAGARD,False,CVC-424519000,HPV Vaccine,False,,
 VAC1285,NOPV2 BIO FARMA,False,CVC-125690004,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC1285,NOPV2 BIO FARMA,False,CVC-111164008,"Polio vaccine, unspecified",False,,
-VAC1286,VAKSIN COVID-19 BIO FARMA,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1286,VAKSIN COVID-19 BIO FARMA,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1287,VAKSIN HEPATITIS B BIO FARMA,False,CVC-34689006,"Hepatitis B vaccine, recombinant, unspecified",True,8,0
 VAC1288,VAKSIN POLIOMYELITIS BIO FARMA,False,CVC-125688000,"Inactivated Polio vaccine, unspecified",True,17,0
 VAC1288,VAKSIN POLIOMYELITIS BIO FARMA,False,CVC-111164008,"Polio vaccine, unspecified",False,,
@@ -1743,7 +1743,7 @@ VAC1291,MOPV2 BIO FARMA,False,CVC-125690004,"Monovalent oral polio vaccine - typ
 VAC1291,MOPV2 BIO FARMA,False,CVC-111164008,"Polio vaccine, unspecified",False,,
 VAC1292,BIO-TCV,False,CVC-89428009,"Typhoid vaccine, unspecified",True,23,0
 VAC1293,VAKSIN BCG KERING,False,CVC-418268006,"BCG vaccine, unspecified",True,18,0
-VAC1294,BIO-TD,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC1294,BIO-TD,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC1295,DT BIO FARMA,False,CVC-7921000087109,"DT vaccine, unspecified",True,28,0
 VAC1296,DTP BIO FARMA,False,CVC-7831000087100,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,29,0
 VAC1297,TT BIO FARMA,False,CVC-333621002,"Tetanus vaccine, unspecified",True,36,0
@@ -1752,7 +1752,7 @@ VAC1299,BEVAC 10 µg,False,CVC-9831000087108,"Hepatitis B vaccine, monovalent, p
 VAC1299,BEVAC 10 µg,False,CVC-34689006,"Hepatitis B vaccine, recombinant, unspecified",False,,
 VAC1300,BEVAC 20 µg,False,CVC-8771000087109,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,14,0
 VAC1300,BEVAC 20 µg,False,CVC-34689006,"Hepatitis B vaccine, recombinant, unspecified",False,,
-VAC1301,BE Td,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC1301,BE Td,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC1302,COMBE FIVE,False,,,,,
 VAC1303,VLA15,False,CVC-116083002,"Lyme disease vaccine, unspecified",True,4,0
 VAC1304,BERAB,False,,,,,
@@ -1762,7 +1762,7 @@ VAC1307,JEEV 6 µg,False,CVC-333697005,"Japanese encephalitis vaccine, unspecifi
 VAC1308,DT BIOLOGICAL E LTD,False,CVC-7921000087109,"DT vaccine, unspecified",True,28,0
 VAC1309,NOVEL ORAL (nOPV) TYPE 2 BIOLOGICAL E. LTD,False,CVC-125690004,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC1309,NOVEL ORAL (nOPV) TYPE 2 BIOLOGICAL E. LTD,False,CVC-111164008,"Polio vaccine, unspecified",False,,
-VAC1310,SII TD-VAC,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC1310,SII TD-VAC,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC1311,"Meningococcal ACWXY conjugate vaccine, unspecified",True,,,,,
 VAC1312,TT SII,False,CVC-333621002,"Tetanus vaccine, unspecified",True,36,0
 VAC1313,BCG SII,False,CVC-418268006,"BCG vaccine, unspecified",True,18,0
@@ -1798,9 +1798,9 @@ VAC1334,COMIRNATY KP.2 30 µg,False,CVC-28531000087107,"COVID-19 vaccine, unspec
 VAC1335,INCELLIPAN,False,CVC-1003499009,"H5N1 pre-pandemic influenza vaccine, unspecified",True,16,0
 VAC1336,KOSTAIVE,False,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
 VAC1336,KOSTAIVE,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC1337,CONVACELL,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1337,CONVACELL,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1338,ZOONOTIC,False,CVC-1003499009,"H5N1 pre-pandemic influenza vaccine, unspecified",True,16,0
-VAC1339,BIMERVAX XBB.1.16,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1339,BIMERVAX XBB.1.16,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1340,"SPIKEVAX BA.1 0,1 mg/mL dose 50 µg",False,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
 VAC1340,"SPIKEVAX BA.1 0,1 mg/mL dose 50 µg",False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC1341,"COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron XBB.1.5 variant, unspecified dose",True,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
@@ -1831,7 +1831,7 @@ VAC1360,HEPAMUNE B 10 µg,False,CVC-9831000087108,"Hepatitis B vaccine, monovale
 VAC1360,HEPAMUNE B 10 µg,False,CVC-34689006,"Hepatitis B vaccine, recombinant, unspecified",False,,
 VAC1361,HEPAMUNE B 20 µg,False,CVC-8771000087109,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,14,0
 VAC1361,HEPAMUNE B 20 µg,False,CVC-34689006,"Hepatitis B vaccine, recombinant, unspecified",False,,
-VAC1362,SK TD,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC1362,SK TD,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC1363,HEPAVAX-GENE B 10 µg,False,CVC-9831000087108,"Hepatitis B vaccine, monovalent, pediatric dose, unspecified",True,15,0
 VAC1363,HEPAVAX-GENE B 10 µg,False,CVC-34689006,"Hepatitis B vaccine, recombinant, unspecified",False,,
 VAC1364,BIOHIB,False,CVC-333680004,"Haemophilus influenzae B (or Hib) vaccine, unspecified",True,16,0
@@ -1853,7 +1853,7 @@ VAC1373,ROTAVAC 5D,False,CVC-116077000,"Rotavirus vaccine, unspecified",True,6,0
 VAC1373,ROTAVAC 5D,False,CVC-7811000087105,"Rotavirus vaccine, unspecified",True,6,0
 VAC1374,TYPBAR-TCV,False,CVC-89428009,"Typhoid vaccine, unspecified",True,23,0
 VAC1375,TWINRAB,False,,,,,
-VAC1376,ZYCOV-D,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1376,ZYCOV-D,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1377,VAXIFLU-4,False,,,,,
 VAC1378,VACTYPH,False,CVC-346639000,"Typhoid polysaccharide vaccine, unspecified",True,5,0
 VAC1378,VACTYPH,False,CVC-89428009,"Typhoid vaccine, unspecified",False,,
@@ -1908,7 +1908,7 @@ VAC1412,"COVID-19 mRNA vaccine, subvariant Omicron JN.1, 10 micrograms, paediatr
 VAC1412,"COVID-19 mRNA vaccine, subvariant Omicron JN.1, 10 micrograms, paediatric dose (5-11 years)",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC1413,"COVID-19 mRNA vaccine, subvariant Omicron JN.1, 3 micrograms, dose (6 months-4 years)",True,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
 VAC1413,"COVID-19 mRNA vaccine, subvariant Omicron JN.1, 3 micrograms, dose (6 months-4 years)",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC1414,"COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles, with adjuvant (Matrix M), Omicron JN.1 subvariant",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1414,"COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles, with adjuvant (Matrix M), Omicron JN.1 subvariant",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1415,Polyvalent vaccine against  pus bacterium Pseudomonas aeruginosa,True,,,,,
 VAC1416,"COVID-19 mRNA vaccine, subvariant Omicron KP.2, 3 micrograms, paediatric dose (6 months-4 years)",True,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
 VAC1416,"COVID-19 mRNA vaccine, subvariant Omicron KP.2, 3 micrograms, paediatric dose (6 months-4 years)",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
@@ -1920,7 +1920,7 @@ VAC1419,"Chikungunya VLP vaccine (recombinant, adsorbed)",True,,,,,
 VAC1420,Single-stranded 5' capped mRNA encoding the Respiratory syncytial virus glycoprotein F stabilized in the prefusion conformation,True,,,,,
 VAC1421,"COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, original virus",True,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
 VAC1421,"COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, original virus",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
-VAC1422,"COVID-19 protein subunit vaccine, recombinant N protein",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1422,"COVID-19 protein subunit vaccine, recombinant N protein",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1423,Live attenuated influenza A(H1N1)pdm09 pandemic vaccine,True,,,,,
 VAC1424,"10-valent pneumococcal polysaccharide conjugate vaccine, serotypes 1, 5, 6A, 6B, 7F, 9V, 14, 19A, 19F and 23F",True,CVC-7261000087106,"Pneumococcal conjugate vaccine, serotypes unspecified",True,11,0
 VAC1424,"10-valent pneumococcal polysaccharide conjugate vaccine, serotypes 1, 5, 6A, 6B, 7F, 9V, 14, 19A, 19F and 23F",True,CVC-135642004,"Pneumococcal vaccine, unspecified",False,,
@@ -1928,7 +1928,7 @@ VAC1424,"10-valent pneumococcal polysaccharide conjugate vaccine, serotypes 1, 5
 VAC1425,"Typhoid vaccine, Vi antigen conjugated to CRM197 protein",True,CVC-89428009,"Typhoid vaccine, unspecified",True,23,0
 VAC1426,Bivalent recombinant vaccine against human papillomavirus (types 16 and 18) (Pichia pastoris),True,CVC-424519000,HPV Vaccine,True,3,0
 VAC1427,"Whole inactivated Japanese encephalitis vaccine, prepared in Vero cells, 6 micrograms",True,CVC-333697005,"Japanese encephalitis vaccine, unspecified",True,20,0
-VAC1428,"COVID-19 vaccine, protein subunit, recombinant homodimeric RBD protein, Omicron variant XBB.1.16, with adjuvant (SQBA)",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1428,"COVID-19 vaccine, protein subunit, recombinant homodimeric RBD protein, Omicron variant XBB.1.16, with adjuvant (SQBA)",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1429,TETANEA,False,CVC-86337009,"Tetanus immunoglobulin, unspecified",True,6,0
 VAC1430,"COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 50 micrograms, unspecified",True,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
 VAC1430,"COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 50 micrograms, unspecified",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
@@ -2021,16 +2021,20 @@ VAC1492,POLIOMYELITIS IMPFSTOFF BERNA,False,CVC-111164008,"Polio vaccine, unspec
 VAC1493,ACEL P,False,CVC-449019003,"Acellular pertussis vaccine, unspecified",True,9,0
 VAC1493,ACEL P,False,CVC-7781000087107,"Acellular pertussis vaccine, unspecified",True,9,0
 VAC1493,ACEL P,False,CVC-61602008,"Pertussis vaccine, unspecified",False,,
-VAC1494,DITEBOOSTER,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,15,0
+VAC1494,DITEBOOSTER,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
 VAC1495,POLIO KOPROWSKI K1-K2-K3,False,CVC-125690004,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC1495,POLIO KOPROWSKI K1-K2-K3,False,CVC-111164008,"Polio vaccine, unspecified",False,,
 VAC1496,POLIO LILLY,False,CVC-125688000,"Inactivated Polio vaccine, unspecified",True,17,0
 VAC1496,POLIO LILLY,False,CVC-111164008,"Polio vaccine, unspecified",False,,
 VAC1497,TD-VIRELON,False,CVC-7911000087101,"dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified",True,4,0
-VAC1498,EPIVACCORONA-N,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,80,0
+VAC1498,EPIVACCORONA-N,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
 VAC1499,SPUTNIK-M,False,CVC-29061000087103,"COVID-19 vaccine, non-replicating viral vector, unspecified",True,27,0
 VAC1499,SPUTNIK-M,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC1500,SPIKEVAX LP.8.1 50 µg,False,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
 VAC1500,SPIKEVAX LP.8.1 50 µg,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
 VAC1501,SPIKEVAX LP.8.1 25 µg,False,CVC-1119349007,"COVID-19 mRNA vaccine, unspecified",True,74,0
 VAC1501,SPIKEVAX LP.8.1 25 µg,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",False,,
+VAC1502,BIMERVAX LP.8.1,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC1503,"COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant",True,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0
+VAC1504,TD-PUR,False,CVC-68208009,"Diphtheria-tetanus Td vaccine, unspecified",True,16,0
+VAC1505,SCTV01C,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83,0

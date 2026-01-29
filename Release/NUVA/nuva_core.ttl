@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "1.3.14" .
+    owl:versionInfo "1.3.15" .
 
 nuva:NUVACode a owl:Class ;
     rdfs:label "NUVA Code" ;
@@ -1615,7 +1615,7 @@ nuva:VAC0143 a owl:Class ;
     nuvs:containsValence nuva:VAL103 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-05-13"^^xsd:date ;
+    dcterms:modified "2026-01-28"^^xsd:date ;
     rdfs:comment "Haemophilus influenzae type b conjugate vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0143']"^^nuva:NUVACode,
@@ -15264,7 +15264,7 @@ nuva:VAC1339 a owl:Class ;
     nuvs:containsValence nuva:VAL413 ;
     nuvs:isAbstract false ;
     dcterms:created "2025-03-27"^^xsd:date ;
-    dcterms:modified "2025-04-04"^^xsd:date ;
+    dcterms:modified "2026-01-28"^^xsd:date ;
     rdfs:comment "COVID-19 vaccine, protein subunit, recombinant homodimeric RBD protein, Omicron variant XBB.1.16, with adjuvant (SQBA)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1339']"^^nuva:NUVACode,
@@ -16912,7 +16912,7 @@ nuva:VAC1479 a owl:Class ;
     nuvs:containsValence nuva:VAL017 ;
     nuvs:isAbstract false ;
     dcterms:created "2025-11-17"^^xsd:date ;
-    dcterms:modified "2025-11-17"^^xsd:date ;
+    dcterms:modified "2026-01-28"^^xsd:date ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1479']"^^nuva:NUVACode,
         "VAC1479"^^xsd:string .
@@ -17150,11 +17150,11 @@ nuva:VAC1497 a owl:Class ;
 
 nuva:VAC1498 a owl:Class ;
     rdfs:label "EPIVACCORONA-N" ;
-    nuvs:containsValence nuva:VAL410 ;
+    nuvs:containsValence nuva:VAL104 ;
     nuvs:isAbstract false ;
     dcterms:created "2026-01-20"^^xsd:date ;
-    dcterms:modified "2026-01-24"^^xsd:date ;
-    rdfs:comment "COVID-19 protein subunit vaccine, recombinant N protein"@en ;
+    dcterms:modified "2026-01-26"^^xsd:date ;
+    rdfs:comment "COVID-19 protein subunit vaccine, recombinant protein"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1498']"^^nuva:NUVACode,
         "VAC1498"^^xsd:string .
@@ -17191,6 +17191,51 @@ nuva:VAC1501 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1501']"^^nuva:NUVACode,
         "VAC1501"^^xsd:string .
+
+nuva:VAC1502 a owl:Class ;
+    rdfs:label "BIMERVAX LP.8.1" ;
+    nuvs:containsValence nuva:VAL434 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-01-28"^^xsd:date ;
+    dcterms:modified "2026-01-28"^^xsd:date ;
+    rdfs:comment "COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1502']"^^nuva:NUVACode,
+        "VAC1502"^^xsd:string .
+
+nuva:VAC1503 a owl:Class ;
+    rdfs:label "COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant"@en ;
+    nuvs:containsValence nuva:VAL434 ;
+    nuvs:isAbstract true ;
+    dcterms:created "2026-01-28"^^xsd:date ;
+    dcterms:modified "2026-01-28"^^xsd:date ;
+    rdfs:comment "COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1503']"^^nuva:NUVACode,
+        "VAC1503"^^xsd:string .
+
+nuva:VAC1504 a owl:Class ;
+    rdfs:label "TD-PUR" ;
+    nuvs:containsValence nuva:VAL034,
+        nuva:VAL067 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-01-29"^^xsd:date ;
+    dcterms:modified "2026-01-29"^^xsd:date ;
+    rdfs:comment "Diphtheria toxoid (low dose) and tetanus toxoid vaccine"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1504']"^^nuva:NUVACode,
+        "VAC1504"^^xsd:string .
+
+nuva:VAC1505 a owl:Class ;
+    rdfs:label "SCTV01C" ;
+    nuvs:containsValence nuva:VAL104 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-01-29"^^xsd:date ;
+    dcterms:modified "2026-01-29"^^xsd:date ;
+    rdfs:comment "COVID-19 protein subunit vaccine, recombinant protein"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1505']"^^nuva:NUVACode,
+        "VAC1505"^^xsd:string .
 
 nuva:VAL179 a owl:Class ;
     rdfs:label "Meningococcal  valence, monovalent, conjugate"@en ;
@@ -18868,6 +18913,15 @@ nuva:VAL409 a owl:Class ;
     skos:altLabel "COVID-mRNA-S-OMI-KP.2-30"@en ;
     skos:notation "VAL409"^^xsd:string .
 
+nuva:VAL410 a owl:Class ;
+    rdfs:label "COVID-19 valence, protein subunit, recombinant N protein"@en ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2025-03-25"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL053 ;
+    skos:altLabel "COVID-PS-rN"@en ;
+    skos:notation "VAL410"^^xsd:string .
+
 nuva:VAL411 a owl:Class ;
     rdfs:label "COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms"@en ;
     nuvs:prevents nuva:DIS057 ;
@@ -19002,6 +19056,15 @@ nuva:VAL431 a owl:Class ;
     rdfs:subClassOf nuva:VAL312 ;
     skos:altLabel "TBE-K23-50"@en ;
     skos:notation "VAL431"^^xsd:string .
+
+nuva:VAL434 a owl:Class ;
+    rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant"@en ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2026-01-28"^^xsd:date ;
+    dcterms:modified "2026-01-28"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL011 ;
+    skos:altLabel "Covid-SP-rRBD-LP.8.1"@en ;
+    skos:notation "VAL434"^^xsd:string .
 
 nuva:DIS009 a owl:Class ;
     rdfs:label "Mumps"@en ;
@@ -19653,15 +19716,6 @@ nuva:VAL406 a owl:Class ;
     rdfs:subClassOf nuva:VAL395 ;
     skos:altLabel "COVID-mRNA-S-OMI-KP.2"@en ;
     skos:notation "VAL406"^^xsd:string .
-
-nuva:VAL410 a owl:Class ;
-    rdfs:label "COVID-19 valence, protein subunit, recombinant N protein"@en ;
-    nuvs:prevents nuva:DIS057 ;
-    dcterms:created "2025-03-25"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL053 ;
-    skos:altLabel "COVID-PS-rN"@en ;
-    skos:notation "VAL410"^^xsd:string .
 
 nuva:VAL417 a owl:Class ;
     rdfs:label "COVID-19 valence, Omicron BA.2 variant, mRNA encoding the SARS-CoV-2 spike protein"@en ;
@@ -21202,15 +21256,6 @@ nuva:VAL003 a owl:Class ;
     skos:altLabel "Per"@en ;
     skos:notation "VAL003"^^xsd:string .
 
-nuva:VAL011 a owl:Class ;
-    rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein (RBD)"@en ;
-    nuvs:prevents nuva:DIS057 ;
-    dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL104 ;
-    skos:altLabel "COVID-PS-rRBD"@en ;
-    skos:notation "VAL011"^^xsd:string .
-
 nuva:VAL051 a owl:Class ;
     rdfs:label "Avian influenza A(H5N1) valence"@en ;
     nuvs:prevents nuva:DIS050 ;
@@ -21264,6 +21309,15 @@ nuva:VAL204 a owl:Class ;
     rdfs:subClassOf nuva:VAL184 ;
     skos:altLabel "PCV-23F"@en ;
     skos:notation "VAL204"^^xsd:string .
+
+nuva:VAL011 a owl:Class ;
+    rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein (RBD)"@en ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2021-07-19"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL104 ;
+    skos:altLabel "COVID-PS-rRBD"@en ;
+    skos:notation "VAL011"^^xsd:string .
 
 nuva:VAL017 a owl:Class ;
     rdfs:label "Pertussis valence, acellular, reduced dose"@en ;
@@ -21319,15 +21373,6 @@ nuva:VAL085 a owl:Class ;
     skos:altLabel "mOPV3"@en ;
     skos:notation "VAL085"^^xsd:string .
 
-nuva:VAL104 a owl:Class ;
-    rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein"@en ;
-    nuvs:prevents nuva:DIS057 ;
-    dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL053 ;
-    skos:altLabel "COVID-PS-rS"@en ;
-    skos:notation "VAL104"^^xsd:string .
-
 nuva:VAL115 a owl:Class ;
     rdfs:label "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 20 micrograms"@en ;
     nuvs:prevents nuva:DIS006 ;
@@ -21354,6 +21399,15 @@ nuva:VAL103 a owl:Class ;
     rdfs:subClassOf nuva:VAL177 ;
     skos:altLabel "Hib-C"@en ;
     skos:notation "VAL103"^^xsd:string .
+
+nuva:VAL104 a owl:Class ;
+    rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein"@en ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2021-07-19"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL053 ;
+    skos:altLabel "COVID-PS-rS"@en ;
+    skos:notation "VAL104"^^xsd:string .
 
 nuva:VAL185 a owl:Class ;
     rdfs:label "Pneumococcal valence, polysaccharide unconjugated, unspecified"@en ;
