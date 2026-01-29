@@ -1,10 +1,12 @@
 abstract: false
 label: EPIVACCORONA-N
-comment: COVID-19 protein subunit vaccine, recombinant N protein
+comment: COVID-19 protein subunit vaccine, recombinant protein
 created: '2026-01-20'
-modified: '2026-01-24'
+modified: '2026-01-26'
 codes:
   NUVACode:
   - '1498'
+  THL:
+  - '157'
 valences:
-- VAL410
+- VAL104

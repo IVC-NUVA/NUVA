@@ -1188,6 +1188,10 @@ en:
       and B
     VAC1476L: Meningococcal vaccine against A, C, W, Y (conjugated polysaccharide)
       and B
+    VAC1503C: COVID-19 vaccine, protein subunit, recombinant spike protein (RBD),
+      Omicron LP.8.1 subvariant
+    VAC1503L: COVID-19 vaccine, protein subunit, recombinant spike protein (RBD),
+      Omicron LP.8.1 subvariant
   valence:
     VAL001L: Influenza valence, trivalent, live attenuated, standard dose
     VAL001S: INF-L3
@@ -2178,3 +2182,6 @@ en:
     VAL433L: Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de
       pointe du SARS-CoV-2, 50 microgrammes
     VAL433S: Covid-ARNm-S-OMI-LP.8.1-50
+    VAL434L: COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron
+      LP.8.1 subvariant
+    VAL434S: Covid-SP-rRBD-LP.8.1

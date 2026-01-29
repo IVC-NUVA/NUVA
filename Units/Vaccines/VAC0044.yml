@@ -82,8 +82,7 @@ codes:
   INFARMED:
   - '5055173'
   NDC:
-  - 58160-0830-34
-  - 58160-0830-52
+  - 58160-0830
   NUVACode:
   - '0044'
   PZN:
@@ -93,6 +92,8 @@ codes:
   - '1151002000102'
   SWISSMEDIC:
   - '57814'
+  THL:
+  - '17'
 valences:
 - VAL113
 - VAL240
