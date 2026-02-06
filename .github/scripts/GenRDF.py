@@ -207,7 +207,6 @@ with open('Release/NUVA/valtree_en.html','w') as f:
         valprint(f,0,valence)
     print(valences_bottom,file=f)
 
-exit(0)
 print("Creating the RDF files")
 core.serialize(destination="Release/NUVA/nuva_core.ttl")
 full.serialize(destination="Release/NUVA/nuva_full.ttl")
