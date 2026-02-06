@@ -50,6 +50,48 @@ nuva:NUVACode a owl:Class ;
 	rdfs:comment "The numeric value for a NUVA vaccine concept"@en ;
     rdfs:subClassOf nuva:Code .
 """
+valences_top="""
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="content-type" content="text/html; charset=windows-1252"><title>Valences tree</title><style>
+li {list-style-type: none;}ul li ul { display:none}
+.unfolded:before {content: ""; border-color: blue transparent transparent transparent; border-style: solid;border-width: 0.6em 0.4em 0  0.4em;display: block;height: 0;width: 0;left: -2em;top: 0.9em;position: relative;}
+.folded:before {content: ""; border-color: transparent transparent transparent blue; border-style: solid;border-width: 0.4em 0 0.4em 0.6em;display: block;height: 0;width: 0;left: -2em;top: 1em;position: relative;}	
+.final:before {content: ""; background-color:green;display: block;height: 0.2em;width: 0.5em;left: -2em;top: 0.7em;margin-top: 0.5em;position: relative;}
+.final {color:green}
+</style></head>
+<body>
+<ul>
+"""
+valences_bottom = """
+</ul>
+<script>
+var foldeder = document.querySelectorAll('.folded');
+for (var i = 0; i < foldeder.length; ++i) 
+{ foldeder[i].onclick=function() { 
+var ul=this.parentElement.querySelectorAll('ul' )[0]; 
+if (ul.offsetHeight> 0) 
+  { ul.style.display='none' ;   
+    this.className = 'folded';
+   }
+else { 
+	ul.style.display='block' ; 
+	this.className = 'unfolded'
+	children=ul.getElementsByTagName('li');
+	for (var j=0; j<children.length;j++)
+	{
+	  child = children[j];
+	  link = child.querySelectorAll('a')[0]
+	  if (link.className == 'unfolded')
+	  {
+		link.className = 'folded';
+		ul2 = child.querySelectorAll('ul')[0]
+		ul2.style.display = 'none'	   
+	  }
+	}   
+} } }
+</script></body></html>
+"""
 BaseURI="http://ivci.org/NUVA"
 
 core = Graph()
@@ -82,12 +124,21 @@ def addClass(ref,parent,label,comment,notation,created, modified, localized):
     if comment: core.add((ref,RDFS.comment,Literal(comment,lang = 'en')))
     if notation: core.add((ref,SKOS.notation,Literal(notation,datatype=XSD.string)))
 
-indent = ".."
+indent = "  "
 
 def valprint(f,offset, valence):
-    print(offset*indent+f'{valence['notation']}({valence['code']}) - {valence['label']}', file = f)
-    for child in sorted(valence['children'],key = lambda d: d['notation']):
-        valprint(f,1+offset,child)
+    if len(valence['children']) == 0:
+        style = "final"
+    else:
+        style = "folded"
+
+    print(offset*indent+f'<li><a class = "{style}">{valence['notation']}({valence['code']}) - {valence['label']}</a>', file = f)
+    if style == "folded":
+        print(offset*indent+'<ul>',file = f)
+        for child in sorted(valence['children'],key = lambda d: d['notation']):
+            valprint(f,1+offset,child)
+        print(offset*indent+'</ul>',file = f)
+    print (offset*indent+'</li>',file = f)
 
 DiseasesParent=URIRef(BaseURI+"/Disease")
 VaccinesParent=URIRef(BaseURI+"/Vaccine")
@@ -150,10 +201,13 @@ full += core
 print("Creating the valence tree")
 vtree = NU.nuva_get_valences(core, 'en')
 
-with open('Release/NUVA/valtree_en.txt','w') as f:
+with open('Release/NUVA/valtree_en.html','w') as f:
+    print(valences_top,file=f)
     for valence in sorted(vtree,key = lambda d: d['notation']):
         valprint(f,0,valence)
+    print(valences_bottom,file=f)
 
+exit(0)
 print("Creating the RDF files")
 core.serialize(destination="Release/NUVA/nuva_core.ttl")
 full.serialize(destination="Release/NUVA/nuva_full.ttl")
