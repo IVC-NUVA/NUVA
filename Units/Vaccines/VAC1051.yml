@@ -38,6 +38,8 @@ codes:
   - EU-1-20-1258-020
   - EU-1-20-1258-025
   - EU-1-20-1258-027
+  ICD11:
+  - XM7U45
   INFARMED:
   - '5862768'
   NUVACode:
@@ -46,5 +48,7 @@ codes:
   - '12721002000104'
   SWISSMEDIC:
   - '69488'
+  THL:
+  - '177'
 valences:
 - VAL323

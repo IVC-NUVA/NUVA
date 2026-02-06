@@ -14,11 +14,14 @@ codes:
   - '319'
   ICD11:
   - XM2C05
+  - XM8NU9
   NUVACode:
   - 0804
   SCT_NUVA:
   - '9561002000106'
   SNOMED-CT:
   - '836384003'
+  THL:
+  - '74'
 valences:
 - VAL340

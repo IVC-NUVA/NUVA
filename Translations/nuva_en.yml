@@ -145,7 +145,7 @@ en:
     VAC0159L: Chickenpox vaccine, unspecified
     VAC0160C: Live attenuated shingles vaccine
     VAC0160L: Live attenuated shingles vaccine, unspecified
-    VAC0162C: Brucellosis vaccine
+    VAC0162C: Brucellosis vaccine, unspecified
     VAC0162L: Brucellosis vaccine, unspecified
     VAC0163C: Pertussis (whole-cell inactivated) vaccine
     VAC0163L: Whole-cell inactivated pertussis vaccine, unspecified
@@ -1188,6 +1188,10 @@ en:
       and B
     VAC1476L: Meningococcal vaccine against A, C, W, Y (conjugated polysaccharide)
       and B
+    VAC1503C: COVID-19 vaccine, protein subunit, recombinant spike protein (RBD),
+      Omicron LP.8.1 subvariant
+    VAC1503L: COVID-19 vaccine, protein subunit, recombinant spike protein (RBD),
+      Omicron LP.8.1 subvariant
   valence:
     VAL001L: Influenza valence, trivalent, live attenuated, standard dose
     VAL001S: INF-L3
@@ -2172,3 +2176,12 @@ en:
     VAL431L: Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain,
       0,50 mL
     VAL431S: TBE-K23-50
+    VAL432L: COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2
+      spike protein, 25 micrograms
+    VAL432S: Covid-ARNm-S-OMI-LP.8.1-25
+    VAL433L: Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de
+      pointe du SARS-CoV-2, 50 microgrammes
+    VAL433S: Covid-ARNm-S-OMI-LP.8.1-50
+    VAL434L: COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron
+      LP.8.1 subvariant
+    VAL434S: Covid-SP-rRBD-LP.8.1

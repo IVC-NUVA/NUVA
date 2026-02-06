@@ -149,7 +149,7 @@ VAC['0158'],"Rotavirus vaccine, unspecified",Rotavirus vaccine,True
 VAC['0159'],"Chickenpox vaccine, unspecified",Live attenuated chickenpox vaccine,True
 VAC['0160'],"Live attenuated shingles vaccine, unspecified",Live attenuated shingles vaccine,True
 VAC['0161'],ZOSTAVAX,Live attenuated shingles vaccine,False
-VAC['0162'],"Brucellosis vaccine, unspecified",Brucellosis vaccine,True
+VAC['0162'],"Brucellosis vaccine, unspecified","Brucellosis vaccine, unspecified",True
 VAC['0163'],"Whole-cell inactivated pertussis vaccine, unspecified",Pertussis (whole-cell inactivated) vaccine,True
 VAC['0164'],INTANZA 9 µg,"Trivalent inactivated seasonal influenza vaccine, split virion",False
 VAC['0165'],"VAQTA 25 U/0,5 mL","Inactivated hepatitis A vaccine, pediatric dose",False
@@ -615,7 +615,7 @@ VAC['0679'],MEDIGEN-S-2P-CpH1018-COVID,"COVID-19 vaccine, protein subunit, recom
 VAC['0680'],COVILO SINOPHARM COVID-19 VACCINE,"COVID-19 vaccine, whole virion inactivated, Vero cell-cultured - Other names : SINOPHARM BBIBP-CorV COVID-19 ; COVID-19 Vaccine BIBP ; Hayat-vax",False
 VAC['0681'],GRAD-COV2 COVID-19 VACCINE REITHERA,"COVID-19 vaccine, non-replicating adenoviral vector encoding the SARS-CoV-2 spike protein",False
 VAC['0682'],FLUQUADRI,Quadrivalent inactivated seasonal influenza vaccine with surface antigens,False
-VAC['0683'],EpiVacCorona,"COVID-19 vaccine, protein subunit, recombinant spike protein",False
+VAC['0683'],EPIVACCORONA,"COVID-19 vaccine, protein subunit, recombinant spike protein",False
 VAC['0684'],QAZVAC,"COVID-19 vaccine, whole virion inactivated",False
 VAC['0685'],VIDPREVTYN BETA,"COVID-19 vaccine, protein subunit, recombinant spike protein, with ASO3 adjuvant. Other name: Sanofi-GSK Recombinant COVID-19 Vaccine.",False
 VAC['0686'],MULTI-PEPTIDE-pVAC-COVID,"COVID-19 vaccine, protein subunit, recombinant spike protein, adapted to human major histocompatibility complex II molecules",False
@@ -1420,3 +1420,11 @@ VAC['1494'],DITEBOOSTER,Diphtheria toxoid (low dose) and tetanus toxoid vaccine,
 VAC['1495'],POLIO KOPROWSKI K1-K2-K3,"Polio vaccine (live attenuated, trivalent) against polioviruses 1, 2 and 3, oral",False
 VAC['1496'],POLIO LILLY,Inactivated polio (trivalent) vaccine,False
 VAC['1497'],TD-VIRELON,"Diphtheria toxoid (low dose), tetanus toxoid and inactivated polio (trivalent) vaccine",False
+VAC['1498'],EPIVACCORONA-N,"COVID-19 protein subunit vaccine, recombinant protein",False
+VAC['1499'],SPUTNIK-M,"COVID-19 vaccine, non-replicating viral vector, adenovirus 6 encoding the SARS-CoV-2 spike protein, intended for adolescents",False
+VAC['1500'],SPIKEVAX LP.8.1 50 µg,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 50 micrograms",False
+VAC['1501'],SPIKEVAX LP.8.1 25 µg,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 25 micrograms",False
+VAC['1502'],BIMERVAX LP.8.1,"COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant",False
+VAC['1503'],"COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant","COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant",True
+VAC['1504'],TD-PUR,Diphtheria toxoid (low dose) and tetanus toxoid vaccine,False
+VAC['1505'],SCTV01C,"COVID-19 protein subunit vaccine, recombinant protein",False

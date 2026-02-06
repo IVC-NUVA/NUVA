@@ -1750,9 +1750,9 @@ VAC0682,FLUQUADRI,False,SCT_NUVA-8211002000101,FLUQUADRI,True,1,1
 VAC0682,FLUQUADRI,False,SCT_NUVA-11321002000109,"Quadrivalent influenza vaccine, unspecified",False,,
 VAC0682,FLUQUADRI,False,SCT_NUVA-2051002000105,"Influenza vaccine, unspecified",False,,
 VAC0682,FLUQUADRI,False,SCT_NUVA-9811002000105,"Inactivated influenza vaccine, split or subunit, unspecified",False,,
-VAC0683,EpiVacCorona,False,SCT_NUVA-8231002000105,EpiVacCorona,True,1,1
-VAC0683,EpiVacCorona,False,SCT_NUVA-12611002000104,"COVID-19 vaccine, protein subunit, unspecified",False,,
-VAC0683,EpiVacCorona,False,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
+VAC0683,EPIVACCORONA,False,SCT_NUVA-8231002000105,EPIVACCORONA,True,1,1
+VAC0683,EPIVACCORONA,False,SCT_NUVA-12611002000104,"COVID-19 vaccine, protein subunit, unspecified",False,,
+VAC0683,EPIVACCORONA,False,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
 VAC0684,QAZVAC,False,SCT_NUVA-8241002000102,QAZVAC,True,1,1
 VAC0684,QAZVAC,False,SCT_NUVA-12621002000105,"COVID-19 vaccine, whole virion inactivated, unspecified",False,,
 VAC0684,QAZVAC,False,SCT_NUVA-13821002000104,"Inactivated whole virus COVID-19 vaccine, in clinical trial, unspecified",False,,
@@ -2415,7 +2415,7 @@ VAC0918,"PRP-D Hib vaccine, unspecified",True,SCT_NUVA-11031002000109,"PRP-D Hib
 VAC0918,"PRP-D Hib vaccine, unspecified",True,SCT_NUVA-2471002000105,"Haemophilus influenzae B (or Hib) vaccine, unspecified",False,,
 VAC0919,"Hib hbOC vaccine, unspecified",True,SCT_NUVA-11041002000101,"Hib hbOC vaccine, unspecified",True,1,1
 VAC0919,"Hib hbOC vaccine, unspecified",True,SCT_NUVA-2471002000105,"Haemophilus influenzae B (or Hib) vaccine, unspecified",False,,
-VAC0920,"Diphtheria-tetanus Td vaccine, unspecified",True,SCT_NUVA-11051002000104,"Diphtheria-tetanus Td vaccine, unspecified",True,2,1
+VAC0920,"Diphtheria-tetanus Td vaccine, unspecified",True,SCT_NUVA-11051002000104,"Diphtheria-tetanus Td vaccine, unspecified",True,3,1
 VAC0920,"Diphtheria-tetanus Td vaccine, unspecified",True,SCT_NUVA-5071002000106,"Tetanus diphtheria vaccine, unspecified",False,,
 VAC0921,"Japanese encephalitis vaccine, unspecified",True,SCT_NUVA-11071002000107,"Japanese encephalitis vaccine, unspecified",True,1,1
 VAC0922,"Live attenuated adenovirus vaccine, type 4 and type 7, oral",True,SCT_NUVA-11081002000105,"Live attenuated adenovirus vaccine, type 4 and type 7, oral",True,1,1
@@ -3003,7 +3003,7 @@ VAC1111,"Japanese Encephalitis Vaccine, whole inactivated, prepared on Vero cell
 VAC1112,"Live attenuated quadrivalent influenza vaccine, unspecified",True,SCT_NUVA-13701002000101,"Live attenuated quadrivalent influenza vaccine, unspecified",True,1,1
 VAC1112,"Live attenuated quadrivalent influenza vaccine, unspecified",True,SCT_NUVA-2051002000105,"Influenza vaccine, unspecified",False,,
 VAC1112,"Live attenuated quadrivalent influenza vaccine, unspecified",True,SCT_NUVA-9831002000101,"Influenza vaccine, live attenuated, unspecified",False,,
-VAC1113,"COVID-19 protein subunit vaccine, recombinant spike protein, unspecified",True,SCT_NUVA-13711002000103,"COVID-19 protein subunit vaccine, recombinant spike protein, unspecified",True,1,1
+VAC1113,"COVID-19 protein subunit vaccine, recombinant spike protein, unspecified",True,SCT_NUVA-13711002000103,"COVID-19 protein subunit vaccine, recombinant spike protein, unspecified",True,3,1
 VAC1113,"COVID-19 protein subunit vaccine, recombinant spike protein, unspecified",True,SCT_NUVA-12611002000104,"COVID-19 vaccine, protein subunit, unspecified",False,,
 VAC1113,"COVID-19 protein subunit vaccine, recombinant spike protein, unspecified",True,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
 VAC1114,"Vaccine against typhoid fever and hepatitis A, unspecified",True,SCT_NUVA-13721002000109,"Vaccine against typhoid fever and hepatitis A, unspecified",True,1,1
@@ -3063,7 +3063,7 @@ VAC1136,"23-valent Pneumococcus conjugate vaccine, unspecified",True,SCT_NUVA-26
 VAC1136,"23-valent Pneumococcus conjugate vaccine, unspecified",True,SCT_NUVA-9721002000109,"Pneumococcal conjugate vaccine, serotypes unspecified",False,,
 VAC1137,"Whole inactivated tick-borne encephalitis vaccine, strain K23, unspecified",True,SCT_NUVA-13951002000104,"Whole inactivated tick-borne encephalitis vaccine, strain K23, unspecified",True,3,1
 VAC1137,"Whole inactivated tick-borne encephalitis vaccine, strain K23, unspecified",True,SCT_NUVA-2511002000102,"Tick-borne encephalitis vaccine, unspecified",False,,
-VAC1138,COVID-19 recombinant protein subunit vaccine,True,SCT_NUVA-13961002000102,COVID-19 recombinant protein subunit vaccine,True,1,1
+VAC1138,COVID-19 recombinant protein subunit vaccine,True,SCT_NUVA-13961002000102,COVID-19 recombinant protein subunit vaccine,True,3,1
 VAC1138,COVID-19 recombinant protein subunit vaccine,True,SCT_NUVA-12611002000104,"COVID-19 vaccine, protein subunit, unspecified",False,,
 VAC1138,COVID-19 recombinant protein subunit vaccine,True,SCT_NUVA-13711002000103,"COVID-19 protein subunit vaccine, recombinant spike protein, unspecified",False,,
 VAC1138,COVID-19 recombinant protein subunit vaccine,True,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
@@ -3079,7 +3079,7 @@ VAC1141,"Bird Flu H5N8 Vaccine, unspecified",True,SCT_NUVA-15421002000102,"A(H5)
 VAC1142,"COVID-19 vaccine, non-replicating vector, antigen-presenting cells, unspecified",True,SCT_NUVA-14011002000103,"COVID-19 vaccine, non-replicating vector, antigen-presenting cells, unspecified",True,1,1
 VAC1142,"COVID-19 vaccine, non-replicating vector, antigen-presenting cells, unspecified",True,SCT_NUVA-12601002000102,"COVID-19 vaccine, non-replicating viral vector, unspecified",False,,
 VAC1142,"COVID-19 vaccine, non-replicating vector, antigen-presenting cells, unspecified",True,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
-VAC1143,"COVID-19 vaccine with non-replicating viral vector, adenovirus encoding the spike protein of SARS-CoV-2, unspecified",True,SCT_NUVA-14021002000109,"COVID-19 vaccine with non-replicating viral vector, adenovirus encoding the spike protein of SARS-CoV-2, unspecified",True,1,1
+VAC1143,"COVID-19 vaccine with non-replicating viral vector, adenovirus encoding the spike protein of SARS-CoV-2, unspecified",True,SCT_NUVA-14021002000109,"COVID-19 vaccine with non-replicating viral vector, adenovirus encoding the spike protein of SARS-CoV-2, unspecified",True,2,1
 VAC1143,"COVID-19 vaccine with non-replicating viral vector, adenovirus encoding the spike protein of SARS-CoV-2, unspecified",True,SCT_NUVA-12601002000102,"COVID-19 vaccine, non-replicating viral vector, unspecified",False,,
 VAC1143,"COVID-19 vaccine with non-replicating viral vector, adenovirus encoding the spike protein of SARS-CoV-2, unspecified",True,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
 VAC1144,"COVID-19 protein subunit vaccine, recombinant SARS-CoV-2 spike protein, S-2P and CpG1018, unspecified",True,SCT_NUVA-14031002000107,"COVID-19 protein subunit vaccine, recombinant SARS-CoV-2 spike protein, S-2P and CpG1018, unspecified",True,1,1
@@ -3409,7 +3409,7 @@ VAC1261,NUVAXOVID JN.1,False,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecifi
 VAC1262,MRESVIA,False,SCT_NUVA-15381002000105,MRESVIA,True,1,1
 VAC1262,MRESVIA,False,SCT_NUVA-13091002000109,"RSV antibody or vaccine, unspecified",False,,
 VAC1262,MRESVIA,False,SCT_NUVA-17151002000105,Single-stranded 5' capped mRNA encoding the Respiratory syncytial virus glycoprotein F stabilized in the prefusion conformation,False,,
-VAC1263,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,SCT_NUVA-15401002000105,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,10,1
+VAC1263,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,SCT_NUVA-15401002000105,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,12,1
 VAC1263,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,SCT_NUVA-12581002000105,"COVID-19 mRNA vaccine, unspecified",False,,
 VAC1263,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
 VAC1264,"A(H5) avian influenza vaccine, unspecified",True,SCT_NUVA-15421002000102,"A(H5) avian influenza vaccine, unspecified",True,1,1
@@ -3954,7 +3954,7 @@ VAC1428,"COVID-19 vaccine, protein subunit, recombinant homodimeric RBD protein,
 VAC1428,"COVID-19 vaccine, protein subunit, recombinant homodimeric RBD protein, Omicron variant XBB.1.16, with adjuvant (SQBA)",True,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
 VAC1429,TETANEA,False,SCT_NUVA-17241002000101,TETANEA,True,1,1
 VAC1429,TETANEA,False,SCT_NUVA-6231002000109,"Tetanus immunoglobulin, unspecified",False,,
-VAC1430,"COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 50 micrograms, unspecified",True,SCT_NUVA-15401002000105,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,10,0
+VAC1430,"COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 50 micrograms, unspecified",True,SCT_NUVA-15401002000105,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,12,0
 VAC1430,"COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 50 micrograms, unspecified",True,SCT_NUVA-12581002000105,"COVID-19 mRNA vaccine, unspecified",False,,
 VAC1430,"COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 50 micrograms, unspecified",True,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
 VAC1431,"RSV vaccine, unspecified",True,SCT_NUVA-13091002000109,"RSV antibody or vaccine, unspecified",True,2,0
@@ -4013,28 +4013,28 @@ VAC1463,FREEZE-DRIED BCG VACCINE JAPAN,False,SCT_NUVA-2321002000100,"BCG vaccine
 VAC1464,FLUBRON VACCINE,False,SCT_NUVA-9791002000106,"Inactivated whole influenza vaccine, unspecified",True,2,0
 VAC1464,FLUBRON VACCINE,False,SCT_NUVA-2051002000105,"Influenza vaccine, unspecified",False,,
 VAC1465,PERDIPIGEN,False,,,,,
-VAC1466,COMIRNATY LP.8.1 30 µg,False,SCT_NUVA-15401002000105,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,10,0
+VAC1466,COMIRNATY LP.8.1 30 µg,False,SCT_NUVA-15401002000105,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,12,0
 VAC1466,COMIRNATY LP.8.1 30 µg,False,SCT_NUVA-12581002000105,"COVID-19 mRNA vaccine, unspecified",False,,
 VAC1466,COMIRNATY LP.8.1 30 µg,False,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
-VAC1467,COMIRNATY LP.8.1 3 µg 6 MOIS-4 ANS,False,SCT_NUVA-15401002000105,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,10,0
+VAC1467,COMIRNATY LP.8.1 3 µg 6 MOIS-4 ANS,False,SCT_NUVA-15401002000105,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,12,0
 VAC1467,COMIRNATY LP.8.1 3 µg 6 MOIS-4 ANS,False,SCT_NUVA-12581002000105,"COVID-19 mRNA vaccine, unspecified",False,,
 VAC1467,COMIRNATY LP.8.1 3 µg 6 MOIS-4 ANS,False,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
-VAC1468,COMIRNATY LP.8.1 10 µg 5-11 ans,False,SCT_NUVA-15401002000105,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,10,0
+VAC1468,COMIRNATY LP.8.1 10 µg 5-11 ans,False,SCT_NUVA-15401002000105,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,12,0
 VAC1468,COMIRNATY LP.8.1 10 µg 5-11 ans,False,SCT_NUVA-12581002000105,"COVID-19 mRNA vaccine, unspecified",False,,
 VAC1468,COMIRNATY LP.8.1 10 µg 5-11 ans,False,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
-VAC1469,mNEXSPIKE,False,SCT_NUVA-15401002000105,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,10,0
+VAC1469,mNEXSPIKE,False,SCT_NUVA-15401002000105,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,12,0
 VAC1469,mNEXSPIKE,False,SCT_NUVA-12581002000105,"COVID-19 mRNA vaccine, unspecified",False,,
 VAC1469,mNEXSPIKE,False,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
-VAC1470,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 3 micrograms, paediatric dose (6 months-4 years)",True,SCT_NUVA-15401002000105,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,10,0
+VAC1470,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 3 micrograms, paediatric dose (6 months-4 years)",True,SCT_NUVA-15401002000105,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,12,0
 VAC1470,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 3 micrograms, paediatric dose (6 months-4 years)",True,SCT_NUVA-12581002000105,"COVID-19 mRNA vaccine, unspecified",False,,
 VAC1470,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 3 micrograms, paediatric dose (6 months-4 years)",True,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
-VAC1471,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 30 micrograms, adult (+ 12 years)",True,SCT_NUVA-15401002000105,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,10,0
+VAC1471,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 30 micrograms, adult (+ 12 years)",True,SCT_NUVA-15401002000105,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,12,0
 VAC1471,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 30 micrograms, adult (+ 12 years)",True,SCT_NUVA-12581002000105,"COVID-19 mRNA vaccine, unspecified",False,,
 VAC1471,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 30 micrograms, adult (+ 12 years)",True,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
-VAC1472,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 10 micrograms, paediatric dose (5-11 years)",True,SCT_NUVA-15401002000105,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,10,0
+VAC1472,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 10 micrograms, paediatric dose (5-11 years)",True,SCT_NUVA-15401002000105,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,12,0
 VAC1472,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 10 micrograms, paediatric dose (5-11 years)",True,SCT_NUVA-12581002000105,"COVID-19 mRNA vaccine, unspecified",False,,
 VAC1472,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 10 micrograms, paediatric dose (5-11 years)",True,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
-VAC1473,"COVID-19 mRNA vaccine, encoding a fragment of the SARS-CoV-2 spike protein, Omicron LP.8.1 subvariant",True,SCT_NUVA-15401002000105,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,10,0
+VAC1473,"COVID-19 mRNA vaccine, encoding a fragment of the SARS-CoV-2 spike protein, Omicron LP.8.1 subvariant",True,SCT_NUVA-15401002000105,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,12,0
 VAC1473,"COVID-19 mRNA vaccine, encoding a fragment of the SARS-CoV-2 spike protein, Omicron LP.8.1 subvariant",True,SCT_NUVA-12581002000105,"COVID-19 mRNA vaccine, unspecified",False,,
 VAC1473,"COVID-19 mRNA vaccine, encoding a fragment of the SARS-CoV-2 spike protein, Omicron LP.8.1 subvariant",True,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
 VAC1474,ENFLONSIA (CLESROVIMAB),False,SCT_NUVA-11101002000104,"Respiratory Syncytial Virus monoclonal antibody, unspecified",True,3,0
@@ -4083,7 +4083,7 @@ VAC1492,POLIOMYELITIS IMPFSTOFF BERNA,False,SCT_NUVA-2341002000105,"Polio vaccin
 VAC1493,ACEL P,False,SCT_NUVA-14261002000106,"Acellular Pertussis Vaccine, unspecified",True,2,0
 VAC1493,ACEL P,False,SCT_NUVA-9451002000108,"Acellular pertussis vaccine, unspecified",False,,
 VAC1493,ACEL P,False,SCT_NUVA-9461002000105,"Pertussis vaccine, unspecified",False,,
-VAC1494,DITEBOOSTER,False,SCT_NUVA-11051002000104,"Diphtheria-tetanus Td vaccine, unspecified",True,2,0
+VAC1494,DITEBOOSTER,False,SCT_NUVA-11051002000104,"Diphtheria-tetanus Td vaccine, unspecified",True,3,0
 VAC1494,DITEBOOSTER,False,SCT_NUVA-5071002000106,"Tetanus diphtheria vaccine, unspecified",False,,
 VAC1495,POLIO KOPROWSKI K1-K2-K3,False,SCT_NUVA-4431002000102,"OPV 1-2-3, unspecified",True,2,0
 VAC1495,POLIO KOPROWSKI K1-K2-K3,False,SCT_NUVA-2341002000105,"Polio vaccine, unspecified",False,,
@@ -4092,3 +4092,28 @@ VAC1496,POLIO LILLY,False,SCT_NUVA-3891002000104,"Inactivated Polio vaccine, uns
 VAC1496,POLIO LILLY,False,SCT_NUVA-2341002000105,"Polio vaccine, unspecified",False,,
 VAC1497,TD-VIRELON,False,SCT_NUVA-6841002000102,"dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified",True,2,0
 VAC1497,TD-VIRELON,False,SCT_NUVA-10231002000105,"Diphtheria-Tetanus-Polio vaccine, unspecified",False,,
+VAC1498,EPIVACCORONA-N,False,SCT_NUVA-13711002000103,"COVID-19 protein subunit vaccine, recombinant spike protein, unspecified",True,3,0
+VAC1498,EPIVACCORONA-N,False,SCT_NUVA-12611002000104,"COVID-19 vaccine, protein subunit, unspecified",False,,
+VAC1498,EPIVACCORONA-N,False,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
+VAC1499,SPUTNIK-M,False,SCT_NUVA-14021002000109,"COVID-19 vaccine with non-replicating viral vector, adenovirus encoding the spike protein of SARS-CoV-2, unspecified",True,2,0
+VAC1499,SPUTNIK-M,False,SCT_NUVA-12601002000102,"COVID-19 vaccine, non-replicating viral vector, unspecified",False,,
+VAC1499,SPUTNIK-M,False,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
+VAC1500,SPIKEVAX LP.8.1 50 µg,False,SCT_NUVA-15401002000105,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,12,0
+VAC1500,SPIKEVAX LP.8.1 50 µg,False,SCT_NUVA-12581002000105,"COVID-19 mRNA vaccine, unspecified",False,,
+VAC1500,SPIKEVAX LP.8.1 50 µg,False,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
+VAC1501,SPIKEVAX LP.8.1 25 µg,False,SCT_NUVA-15401002000105,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,12,0
+VAC1501,SPIKEVAX LP.8.1 25 µg,False,SCT_NUVA-12581002000105,"COVID-19 mRNA vaccine, unspecified",False,,
+VAC1501,SPIKEVAX LP.8.1 25 µg,False,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
+VAC1502,BIMERVAX LP.8.1,False,SCT_NUVA-13961002000102,COVID-19 recombinant protein subunit vaccine,True,3,0
+VAC1502,BIMERVAX LP.8.1,False,SCT_NUVA-12611002000104,"COVID-19 vaccine, protein subunit, unspecified",False,,
+VAC1502,BIMERVAX LP.8.1,False,SCT_NUVA-13711002000103,"COVID-19 protein subunit vaccine, recombinant spike protein, unspecified",False,,
+VAC1502,BIMERVAX LP.8.1,False,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
+VAC1503,"COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant",True,SCT_NUVA-13961002000102,COVID-19 recombinant protein subunit vaccine,True,3,0
+VAC1503,"COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant",True,SCT_NUVA-12611002000104,"COVID-19 vaccine, protein subunit, unspecified",False,,
+VAC1503,"COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant",True,SCT_NUVA-13711002000103,"COVID-19 protein subunit vaccine, recombinant spike protein, unspecified",False,,
+VAC1503,"COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant",True,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
+VAC1504,TD-PUR,False,SCT_NUVA-11051002000104,"Diphtheria-tetanus Td vaccine, unspecified",True,3,0
+VAC1504,TD-PUR,False,SCT_NUVA-5071002000106,"Tetanus diphtheria vaccine, unspecified",False,,
+VAC1505,SCTV01C,False,SCT_NUVA-13711002000103,"COVID-19 protein subunit vaccine, recombinant spike protein, unspecified",True,3,0
+VAC1505,SCTV01C,False,SCT_NUVA-12611002000104,"COVID-19 vaccine, protein subunit, unspecified",False,,
+VAC1505,SCTV01C,False,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,

@@ -6,11 +6,15 @@ modified: '2025-05-21'
 codes:
   ATC:
   - J07BN05
+  ICD11:
+  - XM1J92
   NUVACode:
   - '1106'
   SCT_NUVA:
   - '13611002000109'
   SNOMED-CT:
   - '30141000087107'
+  THL:
+  - '146'
 valences:
 - VAL039
