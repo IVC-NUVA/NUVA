@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "1.3.15"^^xsd:string .
+    owl:versionInfo "1.3.17"^^xsd:string .
 
 nuva:AIC a owl:Class ;
     rdfs:label "AIC"^^xsd:string ;
@@ -2978,6 +2978,7 @@ nuva:VAC0079 a owl:Class ;
         "3400936774537"^^nuva:CIP,
         "3400936775718"^^nuva:CIP,
         "3400936775886"^^nuva:CIP,
+        "69431992"^^nuva:CIS,
         "2246975"^^nuva:ELGA,
         "2249436"^^nuva:ELGA,
         "4977140"^^nuva:ELGA,
@@ -10438,6 +10439,7 @@ nuva:VAC0520 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "042944"^^nuva:AIC,
         "3400930254271"^^nuva:CIP,
+        "60215623"^^nuva:CIS,
         "4604070"^^nuva:CNK,
         "607802"^^nuva:CODE_NATIONAL_SPAIN,
         "444516"^^nuva:CTI,
@@ -12231,6 +12233,7 @@ nuva:VAC0620 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "051357"^^nuva:AIC,
         "3400930296448"^^nuva:CIP,
+        "67395234"^^nuva:CIS,
         "766689"^^nuva:CODE_NATIONAL_SPAIN,
         "5534284"^^nuva:ELGA,
         "EU-1-24-1828"^^nuva:EU-NUMBER,
@@ -12624,6 +12627,7 @@ Other names: TAK-003; DENVAX"""@en ;
         "3400930266274"^^nuva:CIP,
         "3400930266281"^^nuva:CIP,
         "3400930266458"^^nuva:CIP,
+        "69091949"^^nuva:CIS,
         "4642039"^^nuva:CNK,
         "758837"^^nuva:CODE_NATIONAL_SPAIN,
         "660937"^^nuva:CTI,
@@ -14585,6 +14589,7 @@ nuva:VAC0778 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "048696"^^nuva:AIC,
         "3400930264966"^^nuva:CIP,
+        "69975093"^^nuva:CIS,
         "728425"^^nuva:CODE_NATIONAL_SPAIN,
         "559697"^^nuva:CTI,
         "559697-01"^^nuva:CTI-EXTEND,
@@ -17819,6 +17824,7 @@ nuva:VAC0966 a owl:Class ;
     rdfs:comment "Smallpox vaccine, third generation, modified vaccinia virus Ankara, non-replicative"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930255469"^^nuva:CIP,
+        "60215623"^^nuva:CIS,
         "4604088"^^nuva:CNK,
         "90611"^^nuva:CPT,
         "AWEG_000004"^^nuva:ELGA,
@@ -19043,6 +19049,7 @@ nuva:VAC1040 a owl:Class ;
     skos:notation "050751"^^nuva:AIC,
         "3400930274170"^^nuva:CIP,
         "3400930274187"^^nuva:CIP,
+        "64431629"^^nuva:CIS,
         "4710224"^^nuva:CNK,
         "4860383"^^nuva:CNK,
         "607675"^^nuva:CODE_NATIONAL_SPAIN,
@@ -19173,6 +19180,7 @@ nuva:VAC1047 a owl:Class ;
         "3400930275573"^^nuva:CIP,
         "3400930281512"^^nuva:CIP,
         "3400930281529"^^nuva:CIP,
+        "60990140"^^nuva:CIS,
         "4736807"^^nuva:CNK,
         "607692"^^nuva:CODE_NATIONAL_SPAIN,
         "607832"^^nuva:CODE_NATIONAL_SPAIN,
@@ -22228,6 +22236,7 @@ nuva:VAC1254 a owl:Class ;
     skos:notation "052027"^^nuva:AIC,
         "3400930311462"^^nuva:CIP,
         "3400930311479"^^nuva:CIP,
+        "69077052"^^nuva:CIS,
         "767366"^^nuva:CODE_NATIONAL_SPAIN,
         "767367"^^nuva:CODE_NATIONAL_SPAIN,
         "6057900"^^nuva:ELGA,
@@ -23653,6 +23662,7 @@ nuva:VAC1347 a owl:Class ;
         "3400930305034"^^nuva:CIP,
         "3400930305058"^^nuva:CIP,
         "3400930305065"^^nuva:CIP,
+        "62048742"^^nuva:CIS,
         "4891487"^^nuva:CNK,
         "766173"^^nuva:CODE_NATIONAL_SPAIN,
         "766174"^^nuva:CODE_NATIONAL_SPAIN,
@@ -25184,6 +25194,7 @@ nuva:VAC1466 a owl:Class ;
     rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 30 micrograms, adult (+ 12 years)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930325506"^^nuva:CIP,
+        "63466367"^^nuva:CIS,
         "4969630"^^nuva:CNK,
         "768198"^^nuva:CODE_NATIONAL_SPAIN,
         "664819-01"^^nuva:CTI-EXTEND,
@@ -25202,6 +25213,7 @@ nuva:VAC1467 a owl:Class ;
     rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 3 micrograms, paediatric dose (6 months-4 years)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930325568"^^nuva:CIP,
+        "64208590"^^nuva:CIS,
         "4969648"^^nuva:CNK,
         "768196"^^nuva:CODE_NATIONAL_SPAIN,
         "664824-01"^^nuva:CTI-EXTEND,
@@ -25218,6 +25230,7 @@ nuva:VAC1468 a owl:Class ;
     rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 10 micrograms, paediatric dose (5-11 years)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930325544"^^nuva:CIP,
+        "67364121"^^nuva:CIS,
         "4969622"^^nuva:CNK,
         "768197"^^nuva:CODE_NATIONAL_SPAIN,
         "664823-01"^^nuva:CTI-EXTEND,
@@ -28216,7 +28229,7 @@ nuva:DIS008 a owl:Class ;
 nuva:DIS033 a owl:Class ;
     rdfs:label "Shingles"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-12-12"^^xsd:date ;
+    dcterms:modified "2026-02-17"^^xsd:date ;
     rdfs:subClassOf nuva:Disease .
 
 nuva:DIS050 a owl:Class ;
@@ -29062,7 +29075,7 @@ nuva:DIS018 a owl:Class ;
 nuva:DIS029 a owl:Class ;
     rdfs:label "Smallpox-Monkeypox"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2024-08-20"^^xsd:date ;
+    dcterms:modified "2026-02-17"^^xsd:date ;
     rdfs:subClassOf nuva:Disease .
 
 nuva:VAL004 a owl:Class ;
@@ -29554,7 +29567,7 @@ nuva:VAL303 a owl:Class ;
 nuva:DIS038 a owl:Class ;
     rdfs:label "Papillomavirus"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-12-12"^^xsd:date ;
+    dcterms:modified "2026-02-17"^^xsd:date ;
     rdfs:subClassOf nuva:Disease .
 
 nuva:VAL040 a owl:Class ;
@@ -29911,7 +29924,7 @@ nuva:VAL184 a owl:Class ;
 nuva:DIS015 a owl:Class ;
     rdfs:label "Influenza"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-12-12"^^xsd:date ;
+    dcterms:modified "2026-02-17"^^xsd:date ;
     rdfs:subClassOf nuva:Disease .
 
 nuva:VAL034 a owl:Class ;
