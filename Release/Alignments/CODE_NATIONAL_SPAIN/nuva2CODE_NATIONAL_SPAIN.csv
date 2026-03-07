@@ -382,8 +382,8 @@ VAC0332,PENTAVALENTE,False,,,,,
 VAC0333,PFIZER VAX-MEASLES K INACTIVATED,False,,,,,
 VAC0334,PFIZER VAX-MEASLES L,False,,,,,
 VAC0335,PLUSERIX,False,,,,,
-VAC0336,PNEUMOVAX,False,CODE_NATIONAL_SPAIN-706818,PNEUMOVAX,True,1,2
-VAC0336,PNEUMOVAX,False,CODE_NATIONAL_SPAIN-820415,PNEUMOVAX,True,1,2
+VAC0336,PNEUMOVAX,False,CODE_NATIONAL_SPAIN-706818,PNEUMOVAX,True,2,2
+VAC0336,PNEUMOVAX,False,CODE_NATIONAL_SPAIN-820415,PNEUMOVAX,True,2,2
 VAC0337,PNU-IMUNE 23,False,,,,,
 VAC0338,POLIACEL,False,,,,,
 VAC0339,"Pneumococcal polysaccharide vaccine 23-valent, unspecified",True,,,,,
@@ -1315,7 +1315,7 @@ VAC1242,"COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron XB
 VAC1243,"COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron XBB.1.5 variant, 50 micrograms",True,,,,,
 VAC1244,"COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron XBB.1.5 variant, 30 micrograms",True,,,,,
 VAC1245,"ABCWY meningococcal vaccine, unspecified",True,,,,,
-VAC1246,VACCIN COVID-GRIPPE ARN MRNA-1083,False,,,,,
+VAC1246,MCOMBRIAX,False,,,,,
 VAC1247,"Hepatitis A vaccine, unspecified",True,,,,,
 VAC1248,"Influenza/Covid 19 mRNA vaccine, unspecified",True,,,,,
 VAC1249,"Flu vaccine, trivalent inactivated, high dose, intradermal use, unspecified",True,,,,,

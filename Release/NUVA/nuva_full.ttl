@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "1.3.17"^^xsd:string .
+    owl:versionInfo "1.3.18"^^xsd:string .
 
 nuva:AIC a owl:Class ;
     rdfs:label "AIC"^^xsd:string ;
@@ -124,6 +124,11 @@ nuva:SNOMED-CT a owl:Class ;
     rdfs:comment "To be completed for code system SNOMED-CT"@en ;
     rdfs:subClassOf nuva:CodeSystem .
 
+nuva:SWISSLEGACY a owl:Class ;
+    rdfs:label "SWISSLEGACY"^^xsd:string ;
+    rdfs:comment "To be completed for code system SWISSLEGACY"@en ;
+    rdfs:subClassOf nuva:CodeSystem .
+
 nuva:SWISSMEDIC a owl:Class ;
     rdfs:label "SWISSMEDIC"^^xsd:string ;
     rdfs:comment "To be completed for code system SWISSMEDIC"@en ;
@@ -177,7 +182,7 @@ nuva:VAC0001 a owl:Class ;
         "['0001']"^^nuva:NUVACode,
         "01146616"^^nuva:PZN,
         "61002000105"^^nuva:SCT_NUVA,
-        "78"^^nuva:SWISSMEDIC,
+        "78"^^nuva:SWISSLEGACY,
         "73"^^nuva:THL,
         "349281545030"^^nuva:UPC,
         "697177005053"^^nuva:UPC,
@@ -607,7 +612,7 @@ nuva:VAC0011 a owl:Class ;
         "5177738"^^nuva:INFARMED,
         "['0011']"^^nuva:NUVACode,
         "301002000102"^^nuva:SCT_NUVA,
-        "53"^^nuva:SWISSMEDIC,
+        "53"^^nuva:SWISSLEGACY,
         "VAC0011"^^xsd:string .
 
 nuva:VAC0012 a owl:Class ;
@@ -682,7 +687,7 @@ nuva:VAC0014 a owl:Class ;
         nuva:VAL156 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-09-25"^^xsd:date ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, 3 components, standard dose), Haemophilus influenzae type b (conjugated to tetanus toxoid), inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "034960"^^nuva:AIC,
@@ -1474,7 +1479,7 @@ nuva:VAC0033 a owl:Class ;
         "8618322"^^nuva:INFARMED,
         "['0033']"^^nuva:NUVACode,
         "961002000102"^^nuva:SCT_NUVA,
-        "112"^^nuva:SWISSMEDIC,
+        "112"^^nuva:SWISSLEGACY,
         "VAC0033"^^xsd:string .
 
 nuva:VAC0034 a owl:Class ;
@@ -1999,7 +2004,7 @@ nuva:VAC0046 a owl:Class ;
         "07504672"^^nuva:PZN,
         "07504689"^^nuva:PZN,
         "1181002000108"^^nuva:SCT_NUVA,
-        "170"^^nuva:SWISSMEDIC,
+        "170"^^nuva:SWISSLEGACY,
         "534"^^nuva:SWISSMEDIC,
         "10"^^nuva:THL,
         "VAC0046"^^xsd:string .
@@ -2158,7 +2163,7 @@ nuva:VAC0050 a owl:Class ;
         "['0050']"^^nuva:NUVACode,
         "07728093"^^nuva:PZN,
         "1231002000103"^^nuva:SCT_NUVA,
-        "165"^^nuva:SWISSMEDIC,
+        "165"^^nuva:SWISSLEGACY,
         "599"^^nuva:SWISSMEDIC,
         "VAC0050"^^xsd:string .
 
@@ -2186,7 +2191,7 @@ nuva:VAC0051 a owl:Class ;
         "5835244"^^nuva:INFARMED,
         "['0051']"^^nuva:NUVACode,
         "1241002000106"^^nuva:SCT_NUVA,
-        "35"^^nuva:SWISSMEDIC,
+        "35"^^nuva:SWISSLEGACY,
         "636"^^nuva:SWISSMEDIC,
         "VAC0051"^^xsd:string .
 
@@ -2209,8 +2214,8 @@ nuva:VAC0052 a owl:Class ;
         "65277632"^^nuva:CIS,
         "['0052']"^^nuva:NUVACode,
         "1251002000108"^^nuva:SCT_NUVA,
-        "55"^^nuva:SWISSMEDIC,
-        "95"^^nuva:SWISSMEDIC,
+        "55"^^nuva:SWISSLEGACY,
+        "95"^^nuva:SWISSLEGACY,
         "VAC0052"^^xsd:string .
 
 nuva:VAC0053 a owl:Class ;
@@ -2456,7 +2461,7 @@ nuva:VAC0058 a owl:Class ;
         "07728070"^^nuva:PZN,
         "07728087"^^nuva:PZN,
         "1331002000109"^^nuva:SCT_NUVA,
-        "74"^^nuva:SWISSMEDIC,
+        "74"^^nuva:SWISSLEGACY,
         "15"^^nuva:THL,
         "VAC0058"^^xsd:string .
 
@@ -2493,7 +2498,7 @@ nuva:VAC0060 a owl:Class ;
     nuvs:containsValence nuva:VAL044 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-09-23"^^xsd:date ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
     rdfs:comment "Live attenuated chickenpox vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "028427"^^nuva:AIC,
@@ -2694,7 +2699,7 @@ nuva:VAC0063 a owl:Class ;
         "3475886"^^nuva:INFARMED,
         "['0063']"^^nuva:NUVACode,
         "1401002000105"^^nuva:SCT_NUVA,
-        "106"^^nuva:SWISSMEDIC,
+        "106"^^nuva:SWISSLEGACY,
         "VAC0063"^^xsd:string .
 
 nuva:VAC0064 a owl:Class ;
@@ -2719,7 +2724,7 @@ nuva:VAC0064 a owl:Class ;
         "69225227"^^nuva:CIS,
         "['0064']"^^nuva:NUVACode,
         "1411002000108"^^nuva:SCT_NUVA,
-        "99"^^nuva:SWISSMEDIC,
+        "99"^^nuva:SWISSLEGACY,
         "VAC0064"^^xsd:string .
 
 nuva:VAC0066 a owl:Class ;
@@ -2758,7 +2763,7 @@ nuva:VAC0067 a owl:Class ;
         "1097369"^^nuva:CNK,
         "['0067']"^^nuva:NUVACode,
         "1431002000104"^^nuva:SCT_NUVA,
-        "115"^^nuva:SWISSMEDIC,
+        "115"^^nuva:SWISSLEGACY,
         "VAC0067"^^xsd:string .
 
 nuva:VAC0068 a owl:Class ;
@@ -3007,7 +3012,7 @@ nuva:VAC0080 a owl:Class ;
         "01914537"^^nuva:DIN,
         "['0080']"^^nuva:NUVACode,
         "1581002000104"^^nuva:SCT_NUVA,
-        "87"^^nuva:SWISSMEDIC,
+        "87"^^nuva:SWISSLEGACY,
         "82"^^nuva:THL,
         "VAC0080"^^xsd:string .
 
@@ -3523,7 +3528,7 @@ nuva:VAC0108 a owl:Class ;
         "5118146"^^nuva:INFARMED,
         "['0108']"^^nuva:NUVACode,
         "2021002000103"^^nuva:SCT_NUVA,
-        "141"^^nuva:SWISSMEDIC,
+        "141"^^nuva:SWISSLEGACY,
         "32"^^nuva:THL,
         "VAC0108"^^xsd:string .
 
@@ -3545,7 +3550,7 @@ nuva:VAC0109 a owl:Class ;
         "5045851"^^nuva:INFARMED,
         "['0109']"^^nuva:NUVACode,
         "2031002000100"^^nuva:SCT_NUVA,
-        "137"^^nuva:SWISSMEDIC,
+        "137"^^nuva:SWISSLEGACY,
         "VAC0109"^^xsd:string .
 
 nuva:VAC0110 a owl:Class ;
@@ -3913,7 +3918,7 @@ nuva:VAC0126 a owl:Class ;
         "8578302"^^nuva:INFARMED,
         "['0126']"^^nuva:NUVACode,
         "2221002000105"^^nuva:SCT_NUVA,
-        "118"^^nuva:SWISSMEDIC,
+        "118"^^nuva:SWISSLEGACY,
         "VAC0126"^^xsd:string .
 
 nuva:VAC0127 a owl:Class ;
@@ -3934,7 +3939,7 @@ nuva:VAC0127 a owl:Class ;
         "1317817"^^nuva:CNK,
         "['0127']"^^nuva:NUVACode,
         "2231002000108"^^nuva:SCT_NUVA,
-        "162"^^nuva:SWISSMEDIC,
+        "162"^^nuva:SWISSLEGACY,
         "VAC0127"^^xsd:string .
 
 nuva:VAC0128 a owl:Class ;
@@ -3954,7 +3959,7 @@ nuva:VAC0128 a owl:Class ;
         "1273309"^^nuva:CNK,
         "['0128']"^^nuva:NUVACode,
         "2241002000100"^^nuva:SCT_NUVA,
-        "163"^^nuva:SWISSMEDIC,
+        "163"^^nuva:SWISSLEGACY,
         "VAC0128"^^xsd:string .
 
 nuva:VAC0129 a owl:Class ;
@@ -3970,7 +3975,7 @@ nuva:VAC0129 a owl:Class ;
         "1265412"^^nuva:CNK,
         "['0129']"^^nuva:NUVACode,
         "2251002000103"^^nuva:SCT_NUVA,
-        "164"^^nuva:SWISSMEDIC,
+        "164"^^nuva:SWISSLEGACY,
         "VAC0129"^^xsd:string .
 
 nuva:VAC0130 a owl:Class ;
@@ -4065,8 +4070,8 @@ nuva:VAC0133 a owl:Class ;
         "1290625002"^^nuva:SNOMED-CT,
         "836389008"^^nuva:SNOMED-CT,
         "871727001"^^nuva:SNOMED-CT,
-        "144"^^nuva:SWISSMEDIC,
-        "169"^^nuva:SWISSMEDIC,
+        "144"^^nuva:SWISSLEGACY,
+        "169"^^nuva:SWISSLEGACY,
         "VAC0133"^^xsd:string .
 
 nuva:VAC0134 a owl:Class ;
@@ -4089,7 +4094,7 @@ nuva:VAC0134 a owl:Class ;
         "1861000221106"^^nuva:SNOMED-CT,
         "319941000221104"^^nuva:SNOMED-CT,
         "836402002"^^nuva:SNOMED-CT,
-        "48"^^nuva:SWISSMEDIC,
+        "48"^^nuva:SWISSLEGACY,
         "VAC0134"^^xsd:string .
 
 nuva:VAC0135 a owl:Class ;
@@ -4862,7 +4867,7 @@ nuva:VAC0166 a owl:Class ;
         "04397750"^^nuva:PZN,
         "04397767"^^nuva:PZN,
         "2801002000103"^^nuva:SCT_NUVA,
-        "110"^^nuva:SWISSMEDIC,
+        "110"^^nuva:SWISSLEGACY,
         "VAC0166"^^xsd:string .
 
 nuva:VAC0168 a owl:Class ;
@@ -5160,7 +5165,7 @@ nuva:VAC0178 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0178']"^^nuva:NUVACode,
         "2921002000104"^^nuva:SCT_NUVA,
-        "76"^^nuva:SWISSMEDIC,
+        "76"^^nuva:SWISSLEGACY,
         "VAC0178"^^xsd:string .
 
 nuva:VAC0179 a owl:Class ;
@@ -5349,7 +5354,7 @@ nuva:VAC0191 a owl:Class ;
     skos:notation "1035591"^^nuva:CNK,
         "['0191']"^^nuva:NUVACode,
         "3041002000104"^^nuva:SCT_NUVA,
-        "86"^^nuva:SWISSMEDIC,
+        "86"^^nuva:SWISSLEGACY,
         "75"^^nuva:THL,
         "VAC0191"^^xsd:string .
 
@@ -5365,7 +5370,7 @@ nuva:VAC0192 a owl:Class ;
         "0102590"^^nuva:CNK,
         "['0192']"^^nuva:NUVACode,
         "3051002000102"^^nuva:SCT_NUVA,
-        "47"^^nuva:SWISSMEDIC,
+        "47"^^nuva:SWISSLEGACY,
         "VAC0192"^^xsd:string .
 
 nuva:VAC0193 a owl:Class ;
@@ -5485,7 +5490,7 @@ nuva:VAC0201 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0201']"^^nuva:NUVACode,
         "3161002000101"^^nuva:SCT_NUVA,
-        "88"^^nuva:SWISSMEDIC,
+        "88"^^nuva:SWISSLEGACY,
         "VAC0201"^^xsd:string .
 
 nuva:VAC0202 a owl:Class ;
@@ -5680,8 +5685,8 @@ nuva:VAC0216 a owl:Class ;
         "8829911"^^nuva:INFARMED,
         "['0216']"^^nuva:NUVACode,
         "3321002000107"^^nuva:SCT_NUVA,
-        "134"^^nuva:SWISSMEDIC,
-        "154"^^nuva:SWISSMEDIC,
+        "134"^^nuva:SWISSLEGACY,
+        "154"^^nuva:SWISSLEGACY,
         "600"^^nuva:SWISSMEDIC,
         "VAC0216"^^xsd:string .
 
@@ -5841,7 +5846,7 @@ nuva:VAC0228 a owl:Class ;
         "0135392"^^nuva:CNK,
         "['0228']"^^nuva:NUVACode,
         "3451002000105"^^nuva:SCT_NUVA,
-        "91"^^nuva:SWISSMEDIC,
+        "91"^^nuva:SWISSLEGACY,
         "VAC0228"^^xsd:string .
 
 nuva:VAC0229 a owl:Class ;
@@ -6178,7 +6183,7 @@ nuva:VAC0247 a owl:Class ;
         "3209285"^^nuva:INFARMED,
         "['0247']"^^nuva:NUVACode,
         "3661002000109"^^nuva:SCT_NUVA,
-        "92"^^nuva:SWISSMEDIC,
+        "92"^^nuva:SWISSLEGACY,
         "81"^^nuva:THL,
         "VAC0247"^^xsd:string .
 
@@ -6412,7 +6417,7 @@ nuva:VAC0264 a owl:Class ;
         "['0264']"^^nuva:NUVACode,
         "08706113"^^nuva:PZN,
         "3841002000106"^^nuva:SCT_NUVA,
-        "166"^^nuva:SWISSMEDIC,
+        "166"^^nuva:SWISSLEGACY,
         "VAC0264"^^xsd:string .
 
 nuva:VAC0265 a owl:Class ;
@@ -6851,7 +6856,7 @@ nuva:VAC0298 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0298']"^^nuva:NUVACode,
         "4181002000106"^^nuva:SCT_NUVA,
-        "56"^^nuva:SWISSMEDIC,
+        "56"^^nuva:SWISSLEGACY,
         "VAC0298"^^xsd:string .
 
 nuva:VAC0299 a owl:Class ;
@@ -6895,7 +6900,7 @@ nuva:VAC0301 a owl:Class ;
         "4020087"^^nuva:INFARMED,
         "['0301']"^^nuva:NUVACode,
         "4211002000105"^^nuva:SCT_NUVA,
-        "119"^^nuva:SWISSMEDIC,
+        "119"^^nuva:SWISSLEGACY,
         "VAC0301"^^xsd:string .
 
 nuva:VAC0303 a owl:Class ;
@@ -7031,7 +7036,7 @@ nuva:VAC0311 a owl:Class ;
     skos:notation "028446"^^nuva:AIC,
         "['0311']"^^nuva:NUVACode,
         "4341002000104"^^nuva:SCT_NUVA,
-        "97"^^nuva:SWISSMEDIC,
+        "97"^^nuva:SWISSLEGACY,
         "VAC0311"^^xsd:string .
 
 nuva:VAC0312 a owl:Class ;
@@ -7188,7 +7193,7 @@ nuva:VAC0324 a owl:Class ;
         "['0324']"^^nuva:NUVACode,
         "4471002000104"^^nuva:SCT_NUVA,
         "1052328007"^^nuva:SNOMED-CT,
-        "100"^^nuva:SWISSMEDIC,
+        "100"^^nuva:SWISSLEGACY,
         "VAC0324"^^xsd:string .
 
 nuva:VAC0325 a owl:Class ;
@@ -7226,7 +7231,7 @@ nuva:VAC0326 a owl:Class ;
         "0006-4897"^^nuva:NDC,
         "['0326']"^^nuva:NUVACode,
         "4491002000103"^^nuva:SCT_NUVA,
-        "98"^^nuva:SWISSMEDIC,
+        "98"^^nuva:SWISSLEGACY,
         "VAC0326"^^xsd:string .
 
 nuva:VAC0327 a owl:Class ;
@@ -7342,7 +7347,7 @@ nuva:VAC0335 a owl:Class ;
     skos:notation "026444"^^nuva:AIC,
         "['0335']"^^nuva:NUVACode,
         "4571002000100"^^nuva:SCT_NUVA,
-        "75"^^nuva:SWISSMEDIC,
+        "75"^^nuva:SWISSLEGACY,
         "VAC0335"^^xsd:string .
 
 nuva:VAC0336 a owl:Class ;
@@ -7557,8 +7562,8 @@ nuva:VAC0343 a owl:Class ;
     skos:notation "028436"^^nuva:AIC,
         "['0343']"^^nuva:NUVACode,
         "4641002000107"^^nuva:SCT_NUVA,
-        "133"^^nuva:SWISSMEDIC,
-        "142"^^nuva:SWISSMEDIC,
+        "133"^^nuva:SWISSLEGACY,
+        "142"^^nuva:SWISSLEGACY,
         "95"^^nuva:THL,
         "VAC0343"^^xsd:string .
 
@@ -7832,7 +7837,7 @@ nuva:VAC0360 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0360']"^^nuva:NUVACode,
         "4831002000100"^^nuva:SCT_NUVA,
-        "121"^^nuva:SWISSMEDIC,
+        "121"^^nuva:SWISSLEGACY,
         "VAC0360"^^xsd:string .
 
 nuva:VAC0361 a owl:Class ;
@@ -7889,7 +7894,7 @@ nuva:VAC0364 a owl:Class ;
         "8516203"^^nuva:INFARMED,
         "['0364']"^^nuva:NUVACode,
         "4871002000102"^^nuva:SCT_NUVA,
-        "111"^^nuva:SWISSMEDIC,
+        "111"^^nuva:SWISSLEGACY,
         "106"^^nuva:THL,
         "VAC0364"^^xsd:string .
 
@@ -7989,7 +7994,7 @@ nuva:VAC0371 a owl:Class ;
         "8584482"^^nuva:INFARMED,
         "['0371']"^^nuva:NUVACode,
         "4941002000100"^^nuva:SCT_NUVA,
-        "102"^^nuva:SWISSMEDIC,
+        "102"^^nuva:SWISSLEGACY,
         "94"^^nuva:THL,
         "VAC0371"^^xsd:string .
 
@@ -8018,7 +8023,7 @@ nuva:VAC0373 a owl:Class ;
     skos:notation "1260571"^^nuva:ELGA,
         "['0373']"^^nuva:NUVACode,
         "4961002000101"^^nuva:SCT_NUVA,
-        "101"^^nuva:SWISSMEDIC,
+        "101"^^nuva:SWISSLEGACY,
         "VAC0373"^^xsd:string .
 
 nuva:VAC0374 a owl:Class ;
@@ -8155,7 +8160,7 @@ nuva:VAC0383 a owl:Class ;
         "8830125"^^nuva:INFARMED,
         "['0383']"^^nuva:NUVACode,
         "5081002000109"^^nuva:SCT_NUVA,
-        "83"^^nuva:SWISSMEDIC,
+        "83"^^nuva:SWISSLEGACY,
         "VAC0383"^^xsd:string .
 
 nuva:VAC0384 a owl:Class ;
@@ -8272,7 +8277,7 @@ nuva:VAC0391 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0391']"^^nuva:NUVACode,
         "5161002000102"^^nuva:SCT_NUVA,
-        "107"^^nuva:SWISSMEDIC,
+        "107"^^nuva:SWISSLEGACY,
         "100"^^nuva:THL,
         "VAC0391"^^xsd:string .
 
@@ -8610,7 +8615,7 @@ nuva:VAC0416 a owl:Class ;
         "8715524"^^nuva:INFARMED,
         "['0416']"^^nuva:NUVACode,
         "5401002000107"^^nuva:SCT_NUVA,
-        "23"^^nuva:SWISSMEDIC,
+        "23"^^nuva:SWISSLEGACY,
         "98"^^nuva:THL,
         "VAC0416"^^xsd:string .
 
@@ -8708,7 +8713,7 @@ nuva:VAC0424 a owl:Class ;
         "['0424']"^^nuva:NUVACode,
         "5481002000100"^^nuva:SCT_NUVA,
         "971000221109"^^nuva:SNOMED-CT,
-        "143"^^nuva:SWISSMEDIC,
+        "143"^^nuva:SWISSLEGACY,
         "VAC0424"^^xsd:string .
 
 nuva:VAC0425 a owl:Class ;
@@ -9059,7 +9064,7 @@ nuva:VAC0451 a owl:Class ;
         "69401-0000"^^nuva:NDC,
         "['0451']"^^nuva:NUVACode,
         "5751002000100"^^nuva:SCT_NUVA,
-        "25"^^nuva:SWISSMEDIC,
+        "25"^^nuva:SWISSLEGACY,
         "467"^^nuva:SWISSMEDIC,
         "45"^^nuva:THL,
         "VAC0451"^^xsd:string .
@@ -9316,7 +9321,7 @@ nuva:VAC0471 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0471']"^^nuva:NUVACode,
         "5951002000102"^^nuva:SCT_NUVA,
-        "172"^^nuva:SWISSMEDIC,
+        "172"^^nuva:SWISSLEGACY,
         "VAC0471"^^xsd:string .
 
 nuva:VAC0472 a owl:Class ;
@@ -9715,7 +9720,7 @@ nuva:VAC0489 a owl:Class ;
         "0288415"^^nuva:CNK,
         "['0489']"^^nuva:NUVACode,
         "6151002000105"^^nuva:SCT_NUVA,
-        "123"^^nuva:SWISSMEDIC,
+        "123"^^nuva:SWISSLEGACY,
         "VAC0489"^^xsd:string .
 
 nuva:VAC0490 a owl:Class ;
@@ -10507,7 +10512,7 @@ nuva:VAC0523 a owl:Class ;
         nuva:VAL246 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-06-04"^^xsd:date ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
     rdfs:comment "Human Papillomavirus vaccine, based on VLP (Virus Like Particles), nonavalent (types 6, 11, 16, 18, 31, 33, 45, 52, and 58), recombinant, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "044268"^^nuva:AIC,
@@ -10600,7 +10605,7 @@ nuva:VAC0525 a owl:Class ;
         "3890985"^^nuva:INFARMED,
         "['0525']"^^nuva:NUVACode,
         "6621002000108"^^nuva:SCT_NUVA,
-        "39"^^nuva:SWISSMEDIC,
+        "39"^^nuva:SWISSLEGACY,
         "VAC0525"^^xsd:string .
 
 nuva:VAC0526 a owl:Class ;
@@ -11618,7 +11623,7 @@ nuva:VAC0575 a owl:Class ;
         "5609441"^^nuva:INFARMED,
         "['0575']"^^nuva:NUVACode,
         "7061002000105"^^nuva:SCT_NUVA,
-        "128"^^nuva:SWISSMEDIC,
+        "128"^^nuva:SWISSLEGACY,
         "450"^^nuva:SWISSMEDIC,
         "80"^^nuva:THL,
         "VAC0575"^^xsd:string .
@@ -11671,7 +11676,7 @@ nuva:VAC0578 a owl:Class ;
         "3093184"^^nuva:INFARMED,
         "['0578']"^^nuva:NUVACode,
         "7091002000104"^^nuva:SCT_NUVA,
-        "73"^^nuva:SWISSMEDIC,
+        "73"^^nuva:SWISSLEGACY,
         "VAC0578"^^xsd:string .
 
 nuva:VAC0579 a owl:Class ;
@@ -12268,7 +12273,7 @@ nuva:VAC0622 a owl:Class ;
         "8674713"^^nuva:INFARMED,
         "['0622']"^^nuva:NUVACode,
         "7391002000101"^^nuva:SCT_NUVA,
-        "127"^^nuva:SWISSMEDIC,
+        "127"^^nuva:SWISSLEGACY,
         "VAC0622"^^xsd:string .
 
 nuva:VAC0623 a owl:Class ;
@@ -12298,7 +12303,7 @@ nuva:VAC0624 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0624']"^^nuva:NUVACode,
         "7411002000101"^^nuva:SCT_NUVA,
-        "96"^^nuva:SWISSMEDIC,
+        "96"^^nuva:SWISSLEGACY,
         "VAC0624"^^xsd:string .
 
 nuva:VAC0625 a owl:Class ;
@@ -12322,13 +12327,13 @@ nuva:VAC0626 a owl:Class ;
         nuva:VAL079 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2026-03-05"^^xsd:date ;
     rdfs:comment "Live attenuated measles and rubella vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "027978"^^nuva:AIC,
         "['0626']"^^nuva:NUVACode,
         "7431002000105"^^nuva:SCT_NUVA,
-        "14"^^nuva:SWISSMEDIC,
+        "14"^^nuva:SWISSLEGACY,
         "VAC0626"^^xsd:string .
 
 nuva:VAC0627 a owl:Class ;
@@ -12341,7 +12346,7 @@ nuva:VAC0627 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0627']"^^nuva:NUVACode,
         "7441002000102"^^nuva:SCT_NUVA,
-        "120"^^nuva:SWISSMEDIC,
+        "120"^^nuva:SWISSLEGACY,
         "VAC0627"^^xsd:string .
 
 nuva:VAC0628 a owl:Class ;
@@ -16334,7 +16339,7 @@ nuva:VAC0877 a owl:Class ;
         "3910189"^^nuva:INFARMED,
         "['0877']"^^nuva:NUVACode,
         "10461002000102"^^nuva:SCT_NUVA,
-        "93"^^nuva:SWISSMEDIC,
+        "93"^^nuva:SWISSLEGACY,
         "VAC0877"^^xsd:string .
 
 nuva:VAC0878 a owl:Class ;
@@ -16481,7 +16486,7 @@ nuva:VAC0887 a owl:Class ;
     skos:notation "020297"^^nuva:AIC,
         "['0887']"^^nuva:NUVACode,
         "10581002000109"^^nuva:SCT_NUVA,
-        "103"^^nuva:SWISSMEDIC,
+        "103"^^nuva:SWISSLEGACY,
         "VAC0887"^^xsd:string .
 
 nuva:VAC0888 a owl:Class ;
@@ -17746,8 +17751,8 @@ nuva:VAC0961 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0961']"^^nuva:NUVACode,
         "11601002000105"^^nuva:SCT_NUVA,
+        "84"^^nuva:SWISSLEGACY,
         "689"^^nuva:SWISSMEDIC,
-        "84"^^nuva:SWISSMEDIC,
         "VAC0961"^^xsd:string .
 
 nuva:VAC0962 a owl:Class ;
@@ -17763,9 +17768,9 @@ nuva:VAC0962 a owl:Class ;
         "8504001"^^nuva:INFARMED,
         "['0962']"^^nuva:NUVACode,
         "11611002000108"^^nuva:SCT_NUVA,
+        "80"^^nuva:SWISSLEGACY,
+        "81"^^nuva:SWISSLEGACY,
         "690"^^nuva:SWISSMEDIC,
-        "80"^^nuva:SWISSMEDIC,
-        "81"^^nuva:SWISSMEDIC,
         "VAC0962"^^xsd:string .
 
 nuva:VAC0963 a owl:Class ;
@@ -17782,9 +17787,9 @@ nuva:VAC0963 a owl:Class ;
         "8830018"^^nuva:INFARMED,
         "['0963']"^^nuva:NUVACode,
         "11621002000102"^^nuva:SCT_NUVA,
-        "155"^^nuva:SWISSMEDIC,
+        "155"^^nuva:SWISSLEGACY,
+        "79"^^nuva:SWISSLEGACY,
         "711"^^nuva:SWISSMEDIC,
-        "79"^^nuva:SWISSMEDIC,
         "VAC0963"^^xsd:string .
 
 nuva:VAC0964 a owl:Class ;
@@ -17797,8 +17802,8 @@ nuva:VAC0964 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0964']"^^nuva:NUVACode,
         "11631002000104"^^nuva:SCT_NUVA,
-        "151"^^nuva:SWISSMEDIC,
-        "82"^^nuva:SWISSMEDIC,
+        "151"^^nuva:SWISSLEGACY,
+        "82"^^nuva:SWISSLEGACY,
         "VAC0964"^^xsd:string .
 
 nuva:VAC0965 a owl:Class ;
@@ -17881,7 +17886,7 @@ nuva:VAC0969 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0969']"^^nuva:NUVACode,
         "11681002000103"^^nuva:SCT_NUVA,
-        "94"^^nuva:SWISSMEDIC,
+        "94"^^nuva:SWISSLEGACY,
         "VAC0969"^^xsd:string .
 
 nuva:VAC0970 a owl:Class ;
@@ -18114,7 +18119,7 @@ nuva:VAC0987 a owl:Class ;
         "3089281"^^nuva:INFARMED,
         "['0987']"^^nuva:NUVACode,
         "11861002000107"^^nuva:SCT_NUVA,
-        "168"^^nuva:SWISSMEDIC,
+        "168"^^nuva:SWISSLEGACY,
         "VAC0987"^^xsd:string .
 
 nuva:VAC0988 a owl:Class ;
@@ -20006,7 +20011,7 @@ nuva:VAC1094 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1094']"^^nuva:NUVACode,
         "13481002000102"^^nuva:SCT_NUVA,
-        "16"^^nuva:SWISSMEDIC,
+        "16"^^nuva:SWISSLEGACY,
         "555"^^nuva:SWISSMEDIC,
         "VAC1094"^^xsd:string .
 
@@ -22103,12 +22108,12 @@ nuva:VAC1245 a owl:Class ;
         "VAC1245"^^xsd:string .
 
 nuva:VAC1246 a owl:Class ;
-    rdfs:label "VACCIN COVID-GRIPPE ARN MRNA-1083"^^xsd:string ;
+    rdfs:label "MCOMBRIAX"^^xsd:string ;
     nuvs:containsValence nuva:VAL168,
         nuva:VAL366 ;
     nuvs:isAbstract false ;
     dcterms:created "2024-07-08"^^xsd:date ;
-    dcterms:modified "2025-02-28"^^xsd:date ;
+    dcterms:modified "2026-03-03"^^xsd:date ;
     rdfs:comment "Combined influenza/Covid 19 mRNA vaccine in clinical trial"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1246']"^^nuva:NUVACode,
@@ -22427,6 +22432,7 @@ nuva:VAC1262 a owl:Class ;
     skos:notation "051452"^^nuva:AIC,
         "3400930302187"^^nuva:CIP,
         "3400930302194"^^nuva:CIP,
+        "64933425"^^nuva:CIS,
         "765718"^^nuva:CODE_NATIONAL_SPAIN,
         "765720"^^nuva:CODE_NATIONAL_SPAIN,
         "767803"^^nuva:CODE_NATIONAL_SPAIN,
@@ -22509,11 +22515,12 @@ nuva:VAC1267 a owl:Class ;
     nuvs:containsValence nuva:VAL391 ;
     nuvs:isAbstract false ;
     dcterms:created "2025-02-18"^^xsd:date ;
-    dcterms:modified "2025-09-25"^^xsd:date ;
+    dcterms:modified "2026-03-07"^^xsd:date ;
     rdfs:comment "Chikungunya VLP vaccine (recombinant, adsorbed)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "052011"^^nuva:AIC,
         "3400930313398"^^nuva:CIP,
+        "67392551"^^nuva:CIS,
         "767529"^^nuva:CODE_NATIONAL_SPAIN,
         "50632-018"^^nuva:NDC,
         "['1267']"^^nuva:NUVACode,
@@ -24978,7 +24985,7 @@ nuva:VAC1449 a owl:Class ;
     rdfs:comment "Paediatric diphtheria vaccine (toxoid, standard dose) and tetanus vaccine (toxoid)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1449']"^^nuva:NUVACode,
-        "126"^^nuva:SWISSMEDIC,
+        "126"^^nuva:SWISSLEGACY,
         "VAC1449"^^xsd:string .
 
 nuva:VAC1450 a owl:Class ;
@@ -25524,7 +25531,7 @@ nuva:VAC1489 a owl:Class ;
     rdfs:comment "Pandemic influenza A(H1N1)pdm09 vaccine, inactivated"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1489']"^^nuva:NUVACode,
-        "136"^^nuva:SWISSMEDIC,
+        "136"^^nuva:SWISSLEGACY,
         "VAC1489"^^xsd:string .
 
 nuva:VAC1490 a owl:Class ;
@@ -25536,7 +25543,7 @@ nuva:VAC1490 a owl:Class ;
     rdfs:comment "Live attenuated rubella vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1490']"^^nuva:NUVACode,
-        "117"^^nuva:SWISSMEDIC,
+        "117"^^nuva:SWISSLEGACY,
         "VAC1490"^^xsd:string .
 
 nuva:VAC1491 a owl:Class ;
@@ -25548,7 +25555,7 @@ nuva:VAC1491 a owl:Class ;
     rdfs:comment "Live attenuated rubella vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1491']"^^nuva:NUVACode,
-        "122"^^nuva:SWISSMEDIC,
+        "122"^^nuva:SWISSLEGACY,
         "VAC1491"^^xsd:string .
 
 nuva:VAC1492 a owl:Class ;
@@ -25560,7 +25567,7 @@ nuva:VAC1492 a owl:Class ;
     rdfs:comment "Inactivated polio (trivalent) vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1492']"^^nuva:NUVACode,
-        "17"^^nuva:SWISSMEDIC,
+        "17"^^nuva:SWISSLEGACY,
         "VAC1492"^^xsd:string .
 
 nuva:VAC1493 a owl:Class ;
@@ -25572,7 +25579,7 @@ nuva:VAC1493 a owl:Class ;
     rdfs:comment "Acellular pertussis vaccine, standard dose"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1493']"^^nuva:NUVACode,
-        "77"^^nuva:SWISSMEDIC,
+        "77"^^nuva:SWISSLEGACY,
         "VAC1493"^^xsd:string .
 
 nuva:VAC1494 a owl:Class ;
@@ -25603,9 +25610,9 @@ nuva:VAC1495 a owl:Class ;
     rdfs:comment "Polio vaccine (live attenuated, trivalent) against polioviruses 1, 2 and 3, oral"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1495']"^^nuva:NUVACode,
-        "138"^^nuva:SWISSMEDIC,
-        "139"^^nuva:SWISSMEDIC,
-        "147"^^nuva:SWISSMEDIC,
+        "138"^^nuva:SWISSLEGACY,
+        "139"^^nuva:SWISSLEGACY,
+        "147"^^nuva:SWISSLEGACY,
         "VAC1495"^^xsd:string .
 
 nuva:VAC1496 a owl:Class ;
@@ -25617,7 +25624,7 @@ nuva:VAC1496 a owl:Class ;
     rdfs:comment "Inactivated polio (trivalent) vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1496']"^^nuva:NUVACode,
-        "148"^^nuva:SWISSMEDIC,
+        "148"^^nuva:SWISSLEGACY,
         "VAC1496"^^xsd:string .
 
 nuva:VAC1497 a owl:Class ;
@@ -28566,9 +28573,9 @@ nuva:DIS045 a owl:Class ;
     rdfs:subClassOf nuva:Disease .
 
 nuva:DIS048 a owl:Class ;
-    rdfs:label "Méningocoque"@en ;
+    rdfs:label "Meningococcus"@en ;
     dcterms:created "2022-07-25"^^xsd:date ;
-    dcterms:modified "2024-12-23"^^xsd:date ;
+    dcterms:modified "2026-03-03"^^xsd:date ;
     rdfs:subClassOf nuva:Disease .
 
 nuva:DIS052 a owl:Class ;
