@@ -216,7 +216,7 @@ with open('Release/NUVA/nuva_core.csv','w',encoding='utf-8-sig',newline ='') as 
     writer = csv.DictWriter(csvfile,fieldnames=['NUVA','label','comment','abstract'],delimiter=',')
     writer.writeheader()
     for code,data in Vaccines.items():
-        writer.writerow({'NUVA':f"VAC{data['codes']['NUVACode']}",'label':data['label'],'comment':data['comment'],'abstract':data['abstract']})
+        writer.writerow({'NUVA':code,'label':data['label'],'comment':data['comment'],'abstract':data['abstract']})
 
 
 print("Creating the alignment files")
