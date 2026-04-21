@@ -2,7 +2,7 @@
 VAC0001,ACT-HIB,False,AIC-028473,ACT-HIB,True,1,1
 VAC0002,AGRIPPAL,False,AIC-012875,AGRIPPAL,True,1,2
 VAC0002,AGRIPPAL,False,AIC-026405,AGRIPPAL,True,1,2
-VAC0003,AVAXIM 160 U,False,AIC-033247,AVAXIM 160 U,True,15,1
+VAC0003,AVAXIM 160 U,False,AIC-033247,AVAXIM 160 U,True,16,1
 VAC0003,AVAXIM 160 U,False,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",False,,
 VAC0003,AVAXIM 160 U,False,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",False,,
 VAC0004,D.T. POLIO MERIEUX,False,,,,,
@@ -10,12 +10,12 @@ VAC0005,DUKORAL,False,AIC-036561,DUKORAL,True,1,1
 VAC0006,FLUVIRINE,False,,,,,
 VAC0007,GARDASIL,False,AIC-037311,GARDASIL,True,1,1
 VAC0008,GRIPGUARD,False,,,,,
-VAC0009,HBVAXPRO 10 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC0009,HBVAXPRO 10 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC0010,HBVAXPRO 40 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC0010,HBVAXPRO 40 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC0011,HBVAXPRO 5 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC0011,HBVAXPRO 5 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC0009,HBVAXPRO 10 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC0009,HBVAXPRO 10 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC0010,HBVAXPRO 40 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC0010,HBVAXPRO 40 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC0011,HBVAXPRO 5 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC0011,HBVAXPRO 5 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC0012,IMMUGRIP,False,,,,,
 VAC0013,IMOVAX POLIO,False,AIC-029310,IMOVAX POLIO,True,1,1
 VAC0014,INFANRIX HEXA,False,AIC-034960,INFANRIX HEXA,True,1,1
@@ -51,21 +51,21 @@ VAC0041,TYPHIM VI,False,AIC-029153,TYPHIM VI,True,1,1
 VAC0042,VACCIN BCG SSI,False,,,,,
 VAC0043,BOOSTRIXTETRA,False,,,,,
 VAC0044,CERVARIX,False,AIC-038120,CERVARIX,True,1,1
-VAC0045,ENGERIX B 10 µg,False,AIC-026653,ENGERIX B 10 µg,True,42,1
+VAC0045,ENGERIX B 10 µg,False,AIC-026653,ENGERIX B 10 µg,True,43,1
 VAC0045,ENGERIX B 10 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",False,,
-VAC0046,ENGERIX B 20 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC0046,ENGERIX B 20 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC0046,ENGERIX B 20 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC0046,ENGERIX B 20 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC0047,FLUARIX,False,AIC-029245,FLUARIX,True,1,2
 VAC0047,FLUARIX,False,AIC-051402,FLUARIX,True,1,2
-VAC0048,GENHEVAC B PASTEUR,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC0048,GENHEVAC B PASTEUR,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC0048,GENHEVAC B PASTEUR,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC0048,GENHEVAC B PASTEUR,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC0049,HAVRIX 1440 U/1mL,False,AIC-029545,HAVRIX 1440 U/1mL,True,1,1
 VAC0049,HAVRIX 1440 U/1mL,False,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",False,,
 VAC0049,HAVRIX 1440 U/1mL,False,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",False,,
 VAC0049,HAVRIX 1440 U/1mL,False,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",False,,
-VAC0050,"HAVRIX 720 U/0,5 mL",False,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0050,"HAVRIX 720 U/0,5 mL",False,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0050,"HAVRIX 720 U/0,5 mL",False,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,14,0
+VAC0050,"HAVRIX 720 U/0,5 mL",False,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0050,"HAVRIX 720 U/0,5 mL",False,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0050,"HAVRIX 720 U/0,5 mL",False,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,15,0
 VAC0051,INFANRIXTETRA,False,,,,,
 VAC0052,VACCIN MENINGOCOCCIQUE A+C,False,,,,,
 VAC0053,PRIORIX,False,AIC-034199,PRIORIX,True,1,1
@@ -81,9 +81,9 @@ VAC0062,VAXIGRIP,False,AIC-051670,VAXIGRIP,True,1,2
 VAC0063,TETRACOQ,False,,,,,
 VAC0064,PENTACOQ,False,,,,,
 VAC0066,DTCP PASTEUR,False,,,,,
-VAC0067,HAVRIX 360 U,False,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0067,HAVRIX 360 U,False,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0067,HAVRIX 360 U,False,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,14,0
+VAC0067,HAVRIX 360 U,False,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0067,HAVRIX 360 U,False,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0067,HAVRIX 360 U,False,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,15,0
 VAC0068,MONOVAX,False,,,,,
 VAC0069,MENOMUNE,False,AIC-029196,MENOMUNE,True,1,1
 VAC0070,DT BIS,False,,,,,
@@ -113,11 +113,11 @@ VAC0096,VACCIN GRIPPAL RONCHESE (VGR),False,,,,,
 VAC0097,VACCIN LEPTOSPIRES ICTEROHEMORRAGIAE PASTEUR,False,,,,,
 VAC0098,HEXAVAC,False,AIC-034948,HEXAVAC,True,1,1
 VAC0099,MENINVACT,False,AIC-035437,MENINVACT,True,1,1
-VAC0101,"Hepatitis B vaccine, recombinant, unspecified",True,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,2
-VAC0101,"Hepatitis B vaccine, recombinant, unspecified",True,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,2
-VAC0102,"Inactivated hepatitis A vaccine, unspecified",True,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,14,3
-VAC0102,"Inactivated hepatitis A vaccine, unspecified",True,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,14,3
-VAC0102,"Inactivated hepatitis A vaccine, unspecified",True,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,14,3
+VAC0101,"Hepatitis B vaccine, recombinant, unspecified",True,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,2
+VAC0101,"Hepatitis B vaccine, recombinant, unspecified",True,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,2
+VAC0102,"Inactivated hepatitis A vaccine, unspecified",True,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,15,3
+VAC0102,"Inactivated hepatitis A vaccine, unspecified",True,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,15,3
+VAC0102,"Inactivated hepatitis A vaccine, unspecified",True,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,15,3
 VAC0103,MENACTRA,False,,,,,
 VAC0104,HUMENZA,False,,,,,
 VAC0105,PANENZA,False,AIC-039464,PANENZA,True,1,1
@@ -130,9 +130,9 @@ VAC0111,"Yellow fever vaccine, unspecified",True,,,,,
 VAC0112,"Typhoid vaccine, unspecified",True,,,,,
 VAC0113,"Rubella vaccine, live attenuated, unspecified",True,,,,,
 VAC0114,"Live attenuated measles vaccine, unspecified",True,,,,,
-VAC0115,AVAXIM 80 U PEDIATRIQUE,False,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0115,AVAXIM 80 U PEDIATRIQUE,False,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0115,AVAXIM 80 U PEDIATRIQUE,False,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,14,0
+VAC0115,AVAXIM 80 U PEDIATRIQUE,False,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0115,AVAXIM 80 U PEDIATRIQUE,False,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0115,AVAXIM 80 U PEDIATRIQUE,False,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,15,0
 VAC0116,R.O.R SANOFI PASTEUR,False,,,,,
 VAC0120,VACCIN VARICELLE MERIEUX,False,,,,,
 VAC0121,PRIORIX-TETRA,False,AIC-038200,PRIORIX-TETRA,True,1,1
@@ -140,12 +140,12 @@ VAC0123,PREVENAR 13,False,AIC-039550,PREVENAR 13,True,1,1
 VAC0124,FOCETRIA (multidose),False,,,,,
 VAC0125,AREPANRIX,False,,,,,
 VAC0126,HEVAC B,False,AIC-024987,HEVAC B,True,1,1
-VAC0127,HB VAX DNA 5 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC0127,HB VAX DNA 5 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC0128,HB VAX DNA 10 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC0128,HB VAX DNA 10 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC0129,HB VAX DNA 40 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC0129,HB VAX DNA 40 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC0127,HB VAX DNA 5 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC0127,HB VAX DNA 5 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC0128,HB VAX DNA 10 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC0128,HB VAX DNA 10 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC0129,HB VAX DNA 40 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC0129,HB VAX DNA 40 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC0130,"MMR vaccine, live attenuated, unspecified",True,,,,,
 VAC0131,"Rabies vaccine, unspecified",True,,,,,
 VAC0132,"Tetanus vaccine, unspecified",True,,,,,
@@ -180,12 +180,12 @@ VAC0161,ZOSTAVAX,False,AIC-037313,ZOSTAVAX,True,1,1
 VAC0162,"Brucellosis vaccine, unspecified",True,,,,,
 VAC0163,"Whole-cell inactivated pertussis vaccine, unspecified",True,,,,,
 VAC0164,INTANZA 9 µg,False,,,,,
-VAC0165,"VAQTA 25 U/0,5 mL",False,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0165,"VAQTA 25 U/0,5 mL",False,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0165,"VAQTA 25 U/0,5 mL",False,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0166,VAQTA 50 U,False,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0166,VAQTA 50 U,False,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0166,VAQTA 50 U,False,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,14,0
+VAC0165,"VAQTA 25 U/0,5 mL",False,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0165,"VAQTA 25 U/0,5 mL",False,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0165,"VAQTA 25 U/0,5 mL",False,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0166,VAQTA 50 U,False,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0166,VAQTA 50 U,False,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0166,VAQTA 50 U,False,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,15,0
 VAC0168,AMBIRIX,False,AIC-035686,AMBIRIX,True,1,1
 VAC0168,AMBIRIX,False,AIC-033014,"Combined hepatitis A and hepatitis B vaccine, unspecified",False,,
 VAC0169,OPTAFLU,False,AIC-038136,OPTAFLU,True,1,1
@@ -201,9 +201,9 @@ VAC0178,ACEL-IMUNE,False,,,,,
 VAC0179,ACELLULAR D.P.T. KOVAX,False,,,,,
 VAC0180,ACTACEL,False,,,,,
 VAC0182,ADACEL,False,,,,,
-VAC0183,AIMMUGEN,False,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0183,AIMMUGEN,False,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0183,AIMMUGEN,False,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,14,0
+VAC0183,AIMMUGEN,False,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0183,AIMMUGEN,False,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0183,AIMMUGEN,False,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,15,0
 VAC0184,ALDIANA,False,,,,,
 VAC0185,ALDITEANA,False,,,,,
 VAC0186,ALDITERPERA,False,,,,,
@@ -219,8 +219,8 @@ VAC0195,BEGRIVAC,False,AIC-022143,BEGRIVAC,True,1,1
 VAC0196,BIAVAX,False,,,,,
 VAC0197,BIAVAX II,False,AIC-026900,BIAVAX II,True,1,1
 VAC0198,BIKEN-HB,False,,,,,
-VAC0199,BIMMUGEN,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC0199,BIMMUGEN,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC0199,BIMMUGEN,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC0199,BIMMUGEN,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC0200,BIOTHRAX,False,AIC-045823,BIOTHRAX,True,1,1
 VAC0201,BIVIRATEN BERNA,False,,,,,
 VAC0202,BVAC,False,,,,,
@@ -263,11 +263,11 @@ VAC0236,FLUZONE HIGH-DOSE,False,,,,,
 VAC0238,FUNED-CEME,False,,,,,
 VAC0240,GUNEVAX,False,AIC-023318,GUNEVAX,True,1,1
 VAC0241,HAEMOPHILUS INFLUENZAE B CONJUGATE VACCINE - SERUM INSTITUTE OF INDIA,False,,,,,
-VAC0242,HBY,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC0242,HBY,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC0242,HBY,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC0242,HBY,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC0243,HEPA-B INJECTION,False,,,,,
-VAC0244,HEPRECOMB,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC0244,HEPRECOMB,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC0244,HEPRECOMB,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC0244,HEPRECOMB,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC0245,HEPTAVAX B,False,,,,,
 VAC0246,HIBERNA PRODUCTSIX,False,,,,,
 VAC0247,HIBTITER,False,AIC-028929,HIBTITER,True,1,1
@@ -368,8 +368,8 @@ VAC0348,QUADRACEL/HIBEST,False,,,,,
 VAC0349,QUADRIGEN,False,,,,,
 VAC0350,QUATRO-VIRELON,False,,,,,
 VAC0351,QUINTUPLE,False,,,,,
-VAC0352,R-HB VACCINE,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC0352,R-HB VACCINE,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC0352,R-HB VACCINE,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC0352,R-HB VACCINE,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC0353,R-VAC,False,,,,,
 VAC0354,RA27/3,False,,,,,
 VAC0355,RABAVERT,False,,,,,
@@ -483,8 +483,8 @@ VAC0467,ZATEVAX,False,,,,,
 VAC0468,ZATRIBAVAX,False,,,,,
 VAC0469,ZATRIVAX,False,,,,,
 VAC0470,QUINVAXEM,False,,,,,
-VAC0471,HEPAVAX-GENE B 20 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC0471,HEPAVAX-GENE B 20 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC0471,HEPAVAX-GENE B 20 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC0471,HEPAVAX-GENE B 20 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC0472,PREPANDRIX,False,AIC-038772,PREPANDRIX,True,1,1
 VAC0472,PREPANDRIX,False,AIC-039230,"H5N1 pre-pandemic influenza vaccine, unspecified",False,,
 VAC0473,PRE-PANDEMIC INFLUENZA VACCINE H5N1,False,AIC-039230,"H5N1 pre-pandemic influenza vaccine, unspecified",True,11,0
@@ -556,8 +556,8 @@ VAC0541,BOOSTRIX,False,AIC-034813,BOOSTRIX,True,1,1
 VAC0542,Vaccin D.T.P. Pasteur,False,,,,,
 VAC0543,HEXAXIM,False,,,,,
 VAC0544,TETRAXIM,False,,,,,
-VAC0545,EUVAX B 20 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC0545,EUVAX B 20 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC0545,EUVAX B 20 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC0545,EUVAX B 20 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC0546,DULTAVAX,False,,,,,
 VAC0549,"dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified",True,,,,,
 VAC0550,"Measles-Rubella vaccine, unspecified",True,,,,,
@@ -801,9 +801,9 @@ VAC0820,"Inactivated whole influenza vaccine, unspecified",True,,,,,
 VAC0821,"Inactivated influenza vaccine, split or subunit, unspecified",True,,,,,
 VAC0822,"Influenza vaccine, live attenuated, unspecified",True,,,,,
 VAC0823,"VLP influenza vaccine, unspecified",True,,,,,
-VAC0824,"Hepatitis A virosome vaccine, unspecified",True,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0824,"Hepatitis A virosome vaccine, unspecified",True,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0824,"Hepatitis A virosome vaccine, unspecified",True,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,14,0
+VAC0824,"Hepatitis A virosome vaccine, unspecified",True,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0824,"Hepatitis A virosome vaccine, unspecified",True,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0824,"Hepatitis A virosome vaccine, unspecified",True,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,15,0
 VAC0825,"Combined hepatitis A and hepatitis B vaccine, unspecified",True,AIC-033014,"Combined hepatitis A and hepatitis B vaccine, unspecified",True,8,1
 VAC0826,MEASLES AND RUBELLA VACCINE SII,False,,,,,
 VAC0827,"MMRV - Measles-Mumps-Rubella-Varicella vaccine, unspecified",True,,,,,
@@ -889,22 +889,22 @@ VAC0906,"Shingles vaccine, unspecified",True,,,,,
 VAC0907,"Vaccine against adenovirus type 4, unspecified",True,,,,,
 VAC0908,"Vaccine against adenovirus type 7, unspecified",True,,,,,
 VAC0909,Botulinum antitoxin,True,,,,,
-VAC0910,"Inactivated hepatitis A vaccine, adult dose, unspecified",True,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0910,"Inactivated hepatitis A vaccine, adult dose, unspecified",True,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0910,"Inactivated hepatitis A vaccine, adult dose, unspecified",True,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0911,"Hepatitis A whole inactivated vaccine, monovalent, pediatric dose, unspecified",True,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0911,"Hepatitis A whole inactivated vaccine, monovalent, pediatric dose, unspecified",True,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0911,"Hepatitis A whole inactivated vaccine, monovalent, pediatric dose, unspecified",True,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0912,"Hepatitis A vaccine, pediatric dose, unspecified",True,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0912,"Hepatitis A vaccine, pediatric dose, unspecified",True,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0912,"Hepatitis A vaccine, pediatric dose, unspecified",True,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,14,0
+VAC0910,"Inactivated hepatitis A vaccine, adult dose, unspecified",True,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0910,"Inactivated hepatitis A vaccine, adult dose, unspecified",True,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0910,"Inactivated hepatitis A vaccine, adult dose, unspecified",True,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0911,"Hepatitis A whole inactivated vaccine, monovalent, pediatric dose, unspecified",True,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0911,"Hepatitis A whole inactivated vaccine, monovalent, pediatric dose, unspecified",True,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0911,"Hepatitis A whole inactivated vaccine, monovalent, pediatric dose, unspecified",True,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0912,"Hepatitis A vaccine, pediatric dose, unspecified",True,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0912,"Hepatitis A vaccine, pediatric dose, unspecified",True,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0912,"Hepatitis A vaccine, pediatric dose, unspecified",True,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,15,0
 VAC0913,BIMERVAX,False,AIC-050631,BIMERVAX,True,1,1
-VAC0914,"Hepatitis B vaccine, monovalent, pediatric dose, unspecified",True,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC0914,"Hepatitis B vaccine, monovalent, pediatric dose, unspecified",True,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC0915,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC0915,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC0916,"Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified",True,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC0916,"Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified",True,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC0914,"Hepatitis B vaccine, monovalent, pediatric dose, unspecified",True,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC0914,"Hepatitis B vaccine, monovalent, pediatric dose, unspecified",True,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC0915,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC0915,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC0916,"Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified",True,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC0916,"Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified",True,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC0917,"Hepatitis E vaccine, unspecified",True,,,,,
 VAC0918,"PRP-D Hib vaccine, unspecified",True,,,,,
 VAC0919,"Hib hbOC vaccine, unspecified",True,,,,,
@@ -955,9 +955,9 @@ VAC0963,ANATOXAL DI TE PER,False,,,,,
 VAC0964,ANATOXAL DI,False,,,,,
 VAC0965,ANATOXAL TE TAB,False,,,,,
 VAC0966,JYNNEOS,False,,,,,
-VAC0967,HEPASOMA,False,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0967,HEPASOMA,False,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC0967,HEPASOMA,False,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,14,0
+VAC0967,HEPASOMA,False,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0967,HEPASOMA,False,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC0967,HEPASOMA,False,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,15,0
 VAC0968,INFLEXAL V,False,,,,,
 VAC0969,LYSSAVAC N BERNA,False,,,,,
 VAC0970,TETATOX,False,,,,,
@@ -995,10 +995,10 @@ VAC1001,V4020 VEEV VACCINE,False,,,,,
 VAC1002,Q-VAX,False,,,,,
 VAC1003,TEDIVAX PRO ADULTO,False,,,,,
 VAC1004,TEDIVAX,False,,,,,
-VAC1005,REVAC-B PLUS ADULT VACCINE,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1005,REVAC-B PLUS ADULT VACCINE,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1006,SHANVAC B,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1006,SHANVAC B,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC1005,REVAC-B PLUS ADULT VACCINE,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1005,REVAC-B PLUS ADULT VACCINE,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1006,SHANVAC B,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1006,SHANVAC B,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC1007,ISTIVAC4,False,,,,,
 VAC1008,DITEMER,False,,,,,
 VAC1009,TETAMER,False,,,,,
@@ -1012,9 +1012,9 @@ VAC1016,IDFLU,False,,,,,
 VAC1017,SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.1 (50 µg/50 µg)/mL MULTIDOSE MODERNA,False,,,,,
 VAC1018,NOORA VACCINE,False,,,,,
 VAC1019,"SPIKEVAX 0,1 mg/mL MODERNA",False,,,,,
-VAC1020,VACCIN HEPATITE A AVENTIS PASTEUR MSD,False,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC1020,VACCIN HEPATITE A AVENTIS PASTEUR MSD,False,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC1020,VACCIN HEPATITE A AVENTIS PASTEUR MSD,False,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,14,0
+VAC1020,VACCIN HEPATITE A AVENTIS PASTEUR MSD,False,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC1020,VACCIN HEPATITE A AVENTIS PASTEUR MSD,False,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC1020,VACCIN HEPATITE A AVENTIS PASTEUR MSD,False,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,15,0
 VAC1021,COMIRNATY ORIGINAL/OMICRON BA.1 (15/15 µg) BIONTECH-PFIZER,False,,,,,
 VAC1022,COMIRNATY 3 µg 6 MOIS-4 ANS BIONTECH-PFIZER,False,,,,,
 VAC1023,COMIRNATY ORIGINAL/OMICRON BA.4-5 (15/15 µg) BIONTECH-PFIZER,False,,,,,
@@ -1022,17 +1022,17 @@ VAC1024,SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.4-5 (50 µg/50 µg)/mL MODERNA,Fal
 VAC1025,CORBEVAX,False,,,,,
 VAC1026,SOBERANA 02 FINLAY-FR-2 COVID-19 VACCINE,False,,,,,
 VAC1027,KOVIVAC CHUMAKOV COVID-19 VACCINE,False,,,,,
-VAC1028,RECOMBIVAX HB DIALYSÉ,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1028,RECOMBIVAX HB DIALYSÉ,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC1028,RECOMBIVAX HB DIALYSÉ,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1028,RECOMBIVAX HB DIALYSÉ,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC1029,QUINTANRIX,False,,,,,
 VAC1030,GEMCOVAC-19,False,,,,,
 VAC1031,SPIKEVAX 50 µg MONODOSE MODERNA,False,,,,,
 VAC1032,SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.1 (25 µg/25 µg) MODERNA,False,,,,,
 VAC1033,COMIRNATY ORIGINAL/OMICRON BA.4-5 (5/5 µg) BIONTECH-PFIZER,False,,,,,
-VAC1034,HEBERBIOVAC B 10 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1034,HEBERBIOVAC B 10 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1035,HEBERBIOVAC HB 20 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1035,HEBERBIOVAC HB 20 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC1034,HEBERBIOVAC B 10 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1034,HEBERBIOVAC B 10 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1035,HEBERBIOVAC HB 20 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1035,HEBERBIOVAC HB 20 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC1036,SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.4-5 25 µg/25 µg MODERNA,False,,,,,
 VAC1037,"Tick-borne encephalitis vaccine, Neudörfl strain, paediatric dose, unspecified",True,AIC-036515,"Tick-borne encephalitis vaccine, unspecified",True,11,0
 VAC1038,"Tick-borne encephalitis vaccine, Neudörfl strain, adult dose, unspecified",True,AIC-036515,"Tick-borne encephalitis vaccine, unspecified",True,11,0
@@ -1054,8 +1054,8 @@ VAC1053,PFIZER COMIRNATY-3 XBB.1.5,False,,,,,
 VAC1054,"COMIRNATY ORIGINAL/OMICRON BA.4-5 (1,5/1,5 µg)",False,,,,,
 VAC1055,NUVAXOVID XBB.1.5,False,AIC-050926,NUVAXOVID XBB.1.5,True,1,1
 VAC1056,R21/MATRIX-M,False,,,,,
-VAC1057,ENGERIX B JUNIOR,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1057,ENGERIX B JUNIOR,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC1057,ENGERIX B JUNIOR,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1057,ENGERIX B JUNIOR,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC1058,"SPIKEVAX XBB.1.5 0,1 mg/mL dose 50 µg MODERNA",False,,,,,
 VAC1059,"SPIKEVAX XBB.1.5 0,1 mg/mL dose 25 µg MODERNA",False,,,,,
 VAC1060,SPIKEVAX XBB.1.5 50 µg MODERNA,False,,,,,
@@ -1225,8 +1225,8 @@ VAC1223,"Immunoglobulin against respiratory syncytial virus (RSV), unspecified",
 VAC1224,"Respiratory syncytial virus (RSV) vaccine, recombinant, F-glycoprotein (prefusion) RSV subtypes A and B, unspecified",True,,,,,
 VAC1225,"DT-TAB Diphtheria, tetanus, typhoid and paratypoid A and B vaccines, unspecified",True,,,,,
 VAC1226,"Combined hepatitis A and B vaccine, pediatric dose, unspecified",True,AIC-033014,"Combined hepatitis A and hepatitis B vaccine, unspecified",True,8,0
-VAC1227,"Recombinant hepatitis B vaccine, pediatric dose, unspecified",True,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1227,"Recombinant hepatitis B vaccine, pediatric dose, unspecified",True,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC1227,"Recombinant hepatitis B vaccine, pediatric dose, unspecified",True,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1227,"Recombinant hepatitis B vaccine, pediatric dose, unspecified",True,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC1228,"Respiratory syncytial virus (RSV) vaccine, recombinant, F protein-derived RSVPreF3 antigen, unspecified",True,,,,,
 VAC1229,Vaccine against meningococcal serogroups B (outer membrane vesicle proteins) and C,True,,,,,
 VAC1230,"Meningococcal C and anti-Haemophilus influenzae type b vaccine, conjugated with tetanus toxoid, unspecified",True,,,,,
@@ -1286,8 +1286,8 @@ VAC1283,INDOVAC,False,,,,,
 VAC1284,NUSAGARD,False,,,,,
 VAC1285,NOPV2 BIO FARMA,False,,,,,
 VAC1286,VAKSIN COVID-19 BIO FARMA,False,,,,,
-VAC1287,VAKSIN HEPATITIS B BIO FARMA,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1287,VAKSIN HEPATITIS B BIO FARMA,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC1287,VAKSIN HEPATITIS B BIO FARMA,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1287,VAKSIN HEPATITIS B BIO FARMA,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC1288,VAKSIN POLIOMYELITIS BIO FARMA,False,,,,,
 VAC1289,VAKSIN POLIOMYELITIS BIVALEN BIO FARMA,False,AIC-041165,"OPV bivalent 1-3, unspecified",True,5,0
 VAC1290,MOPV1 BIO FARMA,False,,,,,
@@ -1299,10 +1299,10 @@ VAC1295,DT BIO FARMA,False,,,,,
 VAC1296,DTP BIO FARMA,False,,,,,
 VAC1297,TT BIO FARMA,False,,,,,
 VAC1298,BETT,False,,,,,
-VAC1299,BEVAC 10 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1299,BEVAC 10 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1300,BEVAC 20 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1300,BEVAC 20 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC1299,BEVAC 10 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1299,BEVAC 10 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1300,BEVAC 20 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1300,BEVAC 20 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC1301,BE Td,False,,,,,
 VAC1302,COMBE FIVE,False,,,,,
 VAC1303,VLA15,False,,,,,
@@ -1327,12 +1327,12 @@ VAC1321,HAEMOPHILUS INFLUENZAE B SII,False,,,,,
 VAC1322,PNEUMOSIL,False,,,,,
 VAC1323,MENFIVE,False,,,,,
 VAC1324,NASOVAC-S,False,,,,,
-VAC1325,GENEVAC-B 10 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1325,GENEVAC-B 10 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1326,GENEVAC-B 20 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1326,GENEVAC-B 20 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1327,HEPATITIS B SII,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1327,HEPATITIS B SII,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC1325,GENEVAC-B 10 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1325,GENEVAC-B 10 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1326,GENEVAC-B 20 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1326,GENEVAC-B 20 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1327,HEPATITIS B SII,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1327,HEPATITIS B SII,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC1328,TUBERVAC,False,,,,,
 VAC1329,FLU-M,False,,,,,
 VAC1330,FLU-M TETRA,False,,,,,
@@ -1364,18 +1364,18 @@ VAC1352,TERATECT,False,,,,,
 VAC1353,IL-YANG FLU VACCINE,False,,,,,
 VAC1354,EUFORVAC,False,,,,,
 VAC1355,EUPENTA,False,,,,,
-VAC1356,EUVAX B 10 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1356,EUVAX B 10 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC1356,EUVAX B 10 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1356,EUVAX B 10 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC1357,EUPOLIO,False,,,,,
 VAC1358,SKYCELLFLU QUADRIVALENT,False,,,,,
 VAC1359,SKYCELLFLU TRIVALENT,False,,,,,
-VAC1360,HEPAMUNE B 10 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1360,HEPAMUNE B 10 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1361,HEPAMUNE B 20 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1361,HEPAMUNE B 20 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC1360,HEPAMUNE B 10 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1360,HEPAMUNE B 10 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1361,HEPAMUNE B 20 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1361,HEPAMUNE B 20 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC1362,SK TD,False,,,,,
-VAC1363,HEPAVAX-GENE B 10 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1363,HEPAVAX-GENE B 10 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC1363,HEPAVAX-GENE B 10 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1363,HEPAVAX-GENE B 10 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC1364,BIOHIB,False,,,,,
 VAC1365,COMVAC5,False,,,,,
 VAC1366,HILLCHOL,False,,,,,
@@ -1383,8 +1383,8 @@ VAC1367,HNVAC,False,,,,,
 VAC1368,INCOVACC,False,,,,,
 VAC1369,INDIRAB,False,,,,,
 VAC1370,JENVAC,False,,,,,
-VAC1371,REVAC-B MCF,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1371,REVAC-B MCF,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC1371,REVAC-B MCF,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1371,REVAC-B MCF,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC1372,ROTAVAC,False,,,,,
 VAC1373,ROTAVAC 5D,False,,,,,
 VAC1374,TYPBAR-TCV,False,,,,,
@@ -1403,9 +1403,9 @@ VAC1386,GCFLU,False,,,,,
 VAC1387,SINSAVAC,False,,,,,
 VAC1388,BIVAC POLIO,False,AIC-041165,"OPV bivalent 1-3, unspecified",True,5,0
 VAC1389,INLIVE,False,,,,,
-VAC1390,HEALIVE,False,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC1390,HEALIVE,False,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,14,0
-VAC1390,HEALIVE,False,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,14,0
+VAC1390,HEALIVE,False,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC1390,HEALIVE,False,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC1390,HEALIVE,False,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,15,0
 VAC1391,BILIVE,False,AIC-033014,"Combined hepatitis A and hepatitis B vaccine, unspecified",True,8,0
 VAC1392,23-VALENT SINOVAC,False,,,,,
 VAC1393,PROVARIX,False,,,,,
@@ -1423,8 +1423,8 @@ VAC1404,EASYFOUR-TT,False,,,,,
 VAC1405,EASYFOURPOL,False,,,,,
 VAC1406,SPUTNIK V,False,,,,,
 VAC1407,NOVOHIB,False,,,,,
-VAC1408,ENIVACHB,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1408,ENIVACHB,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC1408,ENIVACHB,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1408,ENIVACHB,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC1409,"COVID-19 mRNA vaccine, Omicron JN.1 subvariant, 50 micrograms per dose, multidose vial",True,,,,,
 VAC1410,"COVID-19 mRNA vaccine, Omicron JN.1 subvariant, 25 micrograms per dose, multidose vial",True,,,,,
 VAC1411,"COVID-19 mRNA vaccine, subvariant Omicron JN.1, 30 micrograms, adult dose (+ 12 years)",True,,,,,
@@ -1466,8 +1466,8 @@ VAC1446,"Japanese encephalitis vaccine, inactivated, whole-virus, derived from V
 VAC1447,VACCIN BCG SYNTHAVERSE,False,,,,,
 VAC1448,BCG VACCINE MERCK,False,,,,,
 VAC1449,DITANRIX-PEDIATRIC,False,,,,,
-VAC1450,HEPACARE,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1450,HEPACARE,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC1450,HEPACARE,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1450,HEPACARE,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC1451,CHIROFLU,False,,,,,
 VAC1452,SCI-B-VAC,False,,,,,
 VAC1453,INVIVAC,False,,,,,
@@ -1501,12 +1501,12 @@ VAC1480,PNEUMOVAX 23,False,,,,,
 VAC1481,FLUVACCINOL,False,,,,,
 VAC1482,IMMUNOGLOBULINE HUMAINE DE L'HÉPATITE B LFB,False,,,,,
 VAC1483,ENCEPUR N,False,AIC-036515,"Tick-borne encephalitis vaccine, unspecified",True,11,0
-VAC1484,HEPRECOMB ENFANT,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1484,HEPRECOMB ENFANT,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1485,GEN H-B-VAX 5,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1485,GEN H-B-VAX 5,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1486,GEN H-B-VAX 10,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
-VAC1486,GEN H-B-VAX 10,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,41,0
+VAC1484,HEPRECOMB ENFANT,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1484,HEPRECOMB ENFANT,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1485,GEN H-B-VAX 5,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1485,GEN H-B-VAX 5,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1486,GEN H-B-VAX 10,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1486,GEN H-B-VAX 10,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC1487,PREVENAR-7,False,,,,,
 VAC1488,POLIORIX,False,,,,,
 VAC1489,CELTURA,False,,,,,
@@ -1526,3 +1526,17 @@ VAC1502,BIMERVAX LP.8.1,False,,,,,
 VAC1503,"COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant",True,,,,,
 VAC1504,TD-PUR,False,,,,,
 VAC1505,SCTV01C,False,,,,,
+VAC1506,STROVAC,False,,,,,
+VAC1507,BUTANTAN-DV,False,,,,,
+VAC1508,BUTANTAN HEP A,False,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC1508,BUTANTAN HEP A,False,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC1508,BUTANTAN HEP A,False,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,15,0
+VAC1509,BUTANTAN HEP B,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1509,BUTANTAN HEP B,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
+VAC1510,BUTANTAN HPV,False,,,,,
+VAC1511,BUTANTAN DT,False,,,,,
+VAC1512,BUTANTAN DT ADULTE,False,,,,,
+VAC1513,BUTANTAN DTP,False,,,,,
+VAC1514,BUTANTAN DTAP,False,,,,,
+VAC1515,BUTANTAN RAGE,False,,,,,
+VAC1516,BUTANTAN INFLUENZA,False,,,,,

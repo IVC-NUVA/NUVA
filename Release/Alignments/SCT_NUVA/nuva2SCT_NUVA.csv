@@ -291,9 +291,9 @@ VAC0098,HEXAVAC,False,SCT_NUVA-9401002000109,"Hexavalent vaccine DTPerHibPHepB -
 VAC0099,MENINVACT,False,SCT_NUVA-1881002000101,MENINVACT,True,1,1
 VAC0099,MENINVACT,False,SCT_NUVA-14711002000100,"Meningococcal C polysaccharide vaccine conjugated to CRM197 protein, unspecified",False,,
 VAC0099,MENINVACT,False,SCT_NUVA-2581002000107,"Meningococcal conjugate vaccine C, unspecified",False,,
-VAC0101,"Hepatitis B vaccine, recombinant, unspecified",True,SCT_NUVA-1901002000104,"Hepatitis B vaccine, recombinant, unspecified",True,1,1
+VAC0101,"Hepatitis B vaccine, recombinant, unspecified",True,SCT_NUVA-1901002000104,"Hepatitis B vaccine, recombinant, unspecified",True,2,1
 VAC0101,"Hepatitis B vaccine, recombinant, unspecified",True,SCT_NUVA-13831002000101,"Hepatitis B vaccine, unspecified",False,,
-VAC0102,"Inactivated hepatitis A vaccine, unspecified",True,SCT_NUVA-1911002000101,"Inactivated hepatitis A vaccine, unspecified",True,1,1
+VAC0102,"Inactivated hepatitis A vaccine, unspecified",True,SCT_NUVA-1911002000101,"Inactivated hepatitis A vaccine, unspecified",True,2,1
 VAC0102,"Inactivated hepatitis A vaccine, unspecified",True,SCT_NUVA-15081002000107,"Hepatitis A vaccine, unspecified",False,,
 VAC0103,MENACTRA,False,SCT_NUVA-1961002000103,MENACTRA,True,1,1
 VAC0103,MENACTRA,False,SCT_NUVA-14121002000105,"Quadrivalent meningococcal ACWY vaccine, diphtheria toxoid conjugate, unspecified",False,,
@@ -370,9 +370,9 @@ VAC0132,"Tetanus vaccine, unspecified",True,SCT_NUVA-2291002000107,"Tetanus vacc
 VAC0133,"Smallpox vaccine, unspecified",True,SCT_NUVA-2311002000106,"Smallpox vaccine, unspecified",True,1,1
 VAC0134,"BCG vaccine, unspecified",True,SCT_NUVA-2321002000100,"BCG vaccine, unspecified",True,4,1
 VAC0135,"Polio vaccine, unspecified",True,SCT_NUVA-2341002000105,"Polio vaccine, unspecified",True,1,1
-VAC0136,"DTwP - Diphtheria-Tetanus-Pertussis, unspecified",True,SCT_NUVA-2351002000107,"DTwP - Diphtheria-Tetanus-Pertussis, unspecified",True,3,1
+VAC0136,"DTwP - Diphtheria-Tetanus-Pertussis, unspecified",True,SCT_NUVA-2351002000107,"DTwP - Diphtheria-Tetanus-Pertussis, unspecified",True,4,1
 VAC0136,"DTwP - Diphtheria-Tetanus-Pertussis, unspecified",True,SCT_NUVA-7271002000109,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",False,,
-VAC0137,"DT vaccine, unspecified",True,SCT_NUVA-2361002000109,"DT vaccine, unspecified",True,3,1
+VAC0137,"DT vaccine, unspecified",True,SCT_NUVA-2361002000109,"DT vaccine, unspecified",True,4,1
 VAC0137,"DT vaccine, unspecified",True,SCT_NUVA-5071002000106,"Tetanus diphtheria vaccine, unspecified",False,,
 VAC0138,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",True,SCT_NUVA-2391002000103,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",True,1,1
 VAC0139,PENT-HIBEST,False,SCT_NUVA-2401002000101,PENT-HIBEST,True,1,1
@@ -403,7 +403,7 @@ VAC0151,"Meningococcal A + C vaccine, unspecified",True,SCT_NUVA-2591002000105,"
 VAC0152,"Unconjugated meningococcal vaccine ACWY, unspecified",True,SCT_NUVA-2601002000104,"Unconjugated meningococcal vaccine ACWY, unspecified",True,1,1
 VAC0153,"Mumps vaccine, unspecified",True,SCT_NUVA-2611002000101,"Mumps vaccine, unspecified",True,1,1
 VAC0154,"Malaria vaccine, unspecified",True,SCT_NUVA-2631002000105,"Malaria vaccine, unspecified",True,1,1
-VAC0155,"Dengue vaccine, unspecified",True,SCT_NUVA-2651002000100,"Dengue vaccine, unspecified",True,1,1
+VAC0155,"Dengue vaccine, unspecified",True,SCT_NUVA-2651002000100,"Dengue vaccine, unspecified",True,2,1
 VAC0156,HPV Vaccine,True,SCT_NUVA-2671002000108,HPV Vaccine,True,1,1
 VAC0157,"Pneumococcal vaccine, unspecified",True,SCT_NUVA-2681002000106,"Pneumococcal vaccine, unspecified",True,1,1
 VAC0158,"Rotavirus vaccine, unspecified",True,SCT_NUVA-2701002000109,"Rotavirus vaccine, unspecified",True,1,1
@@ -1520,7 +1520,7 @@ VAC0602,"DTaP - Diphtheria-Tetanus-Pertussis vaccine, standard dose, unspecified
 VAC0603,COMVAC3,False,SCT_NUVA-7291002000105,COMVAC3,True,1,1
 VAC0603,COMVAC3,False,SCT_NUVA-2351002000107,"DTwP - Diphtheria-Tetanus-Pertussis, unspecified",False,,
 VAC0603,COMVAC3,False,SCT_NUVA-7271002000109,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",False,,
-VAC0610,"Tdap - Diphtheria-Tetanus-Pertussis vaccine, low dose, unspecified",True,SCT_NUVA-7301002000106,"Tdap - Diphtheria-Tetanus-Pertussis vaccine, low dose, unspecified",True,1,1
+VAC0610,"Tdap - Diphtheria-Tetanus-Pertussis vaccine, low dose, unspecified",True,SCT_NUVA-7301002000106,"Tdap - Diphtheria-Tetanus-Pertussis vaccine, low dose, unspecified",True,2,1
 VAC0610,"Tdap - Diphtheria-Tetanus-Pertussis vaccine, low dose, unspecified",True,SCT_NUVA-9471002000100,"Diph-T-aP/ap, unspecified",False,,
 VAC0611,SHAN-5,False,SCT_NUVA-7311002000109,SHAN-5,True,1,1
 VAC0611,SHAN-5,False,SCT_NUVA-14401002000106,"Pentavalent vaccine DTPeHibHepB - Diphtheria-Tetanus-Pertussis-Hib PRP-HepatitisB 10µg, unspecified",False,,
@@ -2267,7 +2267,7 @@ VAC0856,"DTaPHib vaccine, unspecified",True,SCT_NUVA-9501002000105,"Diphtheria-t
 VAC0857,"Diphtheria-Tetanus-Pertussis-Hepatitis B vaccine, unspecified",True,SCT_NUVA-10251002000100,"Diphtheria-Tetanus-Pertussis-Hepatitis B vaccine, unspecified",True,1,1
 VAC0858,"HPV vaccine bivalent, unspecified",True,SCT_NUVA-10261002000103,"HPV vaccine bivalent, unspecified",True,1,1
 VAC0858,"HPV vaccine bivalent, unspecified",True,SCT_NUVA-2671002000108,HPV Vaccine,False,,
-VAC0859,"HPV vaccine quadrivalent, unspecified",True,SCT_NUVA-10271002000108,"HPV vaccine quadrivalent, unspecified",True,1,1
+VAC0859,"HPV vaccine quadrivalent, unspecified",True,SCT_NUVA-10271002000108,"HPV vaccine quadrivalent, unspecified",True,2,1
 VAC0859,"HPV vaccine quadrivalent, unspecified",True,SCT_NUVA-2671002000108,HPV Vaccine,False,,
 VAC0860,"HPV vaccine nonavalent, unspecified",True,SCT_NUVA-10281002000106,"HPV vaccine nonavalent, unspecified",True,1,1
 VAC0860,"HPV vaccine nonavalent, unspecified",True,SCT_NUVA-2671002000108,HPV Vaccine,False,,
@@ -2415,7 +2415,7 @@ VAC0918,"PRP-D Hib vaccine, unspecified",True,SCT_NUVA-11031002000109,"PRP-D Hib
 VAC0918,"PRP-D Hib vaccine, unspecified",True,SCT_NUVA-2471002000105,"Haemophilus influenzae B (or Hib) vaccine, unspecified",False,,
 VAC0919,"Hib hbOC vaccine, unspecified",True,SCT_NUVA-11041002000101,"Hib hbOC vaccine, unspecified",True,1,1
 VAC0919,"Hib hbOC vaccine, unspecified",True,SCT_NUVA-2471002000105,"Haemophilus influenzae B (or Hib) vaccine, unspecified",False,,
-VAC0920,"Diphtheria-tetanus Td vaccine, unspecified",True,SCT_NUVA-11051002000104,"Diphtheria-tetanus Td vaccine, unspecified",True,3,1
+VAC0920,"Diphtheria-tetanus Td vaccine, unspecified",True,SCT_NUVA-11051002000104,"Diphtheria-tetanus Td vaccine, unspecified",True,4,1
 VAC0920,"Diphtheria-tetanus Td vaccine, unspecified",True,SCT_NUVA-5071002000106,"Tetanus diphtheria vaccine, unspecified",False,,
 VAC0921,"Japanese encephalitis vaccine, unspecified",True,SCT_NUVA-11071002000107,"Japanese encephalitis vaccine, unspecified",True,1,1
 VAC0922,"Live attenuated adenovirus vaccine, type 4 and type 7, oral",True,SCT_NUVA-11081002000105,"Live attenuated adenovirus vaccine, type 4 and type 7, oral",True,1,1
@@ -2425,7 +2425,7 @@ VAC0924,FLUZONE INTRADERMAL,False,SCT_NUVA-11121002000107,FLUZONE INTRADERMAL,Tr
 VAC0924,FLUZONE INTRADERMAL,False,SCT_NUVA-15101002000101,"Flu vaccine, trivalent inactivated, high dose, intradermal use, unspecified",False,,
 VAC0924,FLUZONE INTRADERMAL,False,SCT_NUVA-2051002000105,"Influenza vaccine, unspecified",False,,
 VAC0924,FLUZONE INTRADERMAL,False,SCT_NUVA-9811002000105,"Inactivated influenza vaccine, split or subunit, unspecified",False,,
-VAC0925,"Trivalent inactivated influenza vaccine, unspecified",True,SCT_NUVA-11131002000105,"Trivalent inactivated influenza vaccine, unspecified",True,3,1
+VAC0925,"Trivalent inactivated influenza vaccine, unspecified",True,SCT_NUVA-11131002000105,"Trivalent inactivated influenza vaccine, unspecified",True,4,1
 VAC0925,"Trivalent inactivated influenza vaccine, unspecified",True,SCT_NUVA-2051002000105,"Influenza vaccine, unspecified",False,,
 VAC0925,"Trivalent inactivated influenza vaccine, unspecified",True,SCT_NUVA-9811002000105,"Inactivated influenza vaccine, split or subunit, unspecified",False,,
 VAC0926,FLUCELVAX,False,SCT_NUVA-11151002000100,FLUCELVAX,True,1,1
@@ -3011,7 +3011,7 @@ VAC1114,"Vaccine against typhoid fever and hepatitis A, unspecified",True,SCT_NU
 VAC1115,"Pentavalent vaccine DTPaHibP - Diphtheria-Tetanus-Pertussis-Hib PRP-Polio, unspecified",True,SCT_NUVA-13731002000107,"Pentavalent vaccine DTPaHibP - Diphtheria-Tetanus-Pertussis-Hib PRP-Polio, unspecified",True,1,1
 VAC1115,"Pentavalent vaccine DTPaHibP - Diphtheria-Tetanus-Pertussis-Hib PRP-Polio, unspecified",True,SCT_NUVA-10491002000108,"Pentavalent Diphtheria-Tetanus-Pertussis-Hib-Polio (DTPerHibIPV) vaccine, unspecified",False,,
 VAC1115,"Pentavalent vaccine DTPaHibP - Diphtheria-Tetanus-Pertussis-Hib PRP-Polio, unspecified",True,SCT_NUVA-6341002000106,"Pentavalent DTaPHibIPV vaccine, unspecified",False,,
-VAC1116,"Rabies vaccine, whole inactivated, prepared in Vero cell culture, unspecified",True,SCT_NUVA-13741002000104,"Rabies vaccine, whole inactivated, prepared in Vero cell culture, unspecified",True,1,1
+VAC1116,"Rabies vaccine, whole inactivated, prepared in Vero cell culture, unspecified",True,SCT_NUVA-13741002000104,"Rabies vaccine, whole inactivated, prepared in Vero cell culture, unspecified",True,2,1
 VAC1116,"Rabies vaccine, whole inactivated, prepared in Vero cell culture, unspecified",True,SCT_NUVA-2281002000109,"Rabies vaccine, unspecified",False,,
 VAC1117,"COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 5 micrograms, unspecified",True,SCT_NUVA-13751002000102,"COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 5 micrograms, unspecified",True,1,1
 VAC1117,"COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 5 micrograms, unspecified",True,SCT_NUVA-12581002000105,"COVID-19 mRNA vaccine, unspecified",False,,
@@ -3982,12 +3982,12 @@ VAC1446,"Japanese encephalitis vaccine, inactivated, whole-virus, derived from V
 VAC1446,"Japanese encephalitis vaccine, inactivated, whole-virus, derived from Vero cells, 3 micrograms",True,SCT_NUVA-9781002000108,"Inactivated Japanese Encephalitis vaccine, unspecified",False,,
 VAC1447,VACCIN BCG SYNTHAVERSE,False,SCT_NUVA-2321002000100,"BCG vaccine, unspecified",True,4,0
 VAC1448,BCG VACCINE MERCK,False,SCT_NUVA-2321002000100,"BCG vaccine, unspecified",True,4,0
-VAC1449,DITANRIX-PEDIATRIC,False,SCT_NUVA-2361002000109,"DT vaccine, unspecified",True,3,0
+VAC1449,DITANRIX-PEDIATRIC,False,SCT_NUVA-2361002000109,"DT vaccine, unspecified",True,4,0
 VAC1449,DITANRIX-PEDIATRIC,False,SCT_NUVA-5071002000106,"Tetanus diphtheria vaccine, unspecified",False,,
 VAC1450,HEPACARE,False,SCT_NUVA-11001002000103,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,2,0
 VAC1450,HEPACARE,False,SCT_NUVA-13831002000101,"Hepatitis B vaccine, unspecified",False,,
 VAC1450,HEPACARE,False,SCT_NUVA-1901002000104,"Hepatitis B vaccine, recombinant, unspecified",False,,
-VAC1451,CHIROFLU,False,SCT_NUVA-11131002000105,"Trivalent inactivated influenza vaccine, unspecified",True,3,0
+VAC1451,CHIROFLU,False,SCT_NUVA-11131002000105,"Trivalent inactivated influenza vaccine, unspecified",True,4,0
 VAC1451,CHIROFLU,False,SCT_NUVA-2051002000105,"Influenza vaccine, unspecified",False,,
 VAC1451,CHIROFLU,False,SCT_NUVA-9811002000105,"Inactivated influenza vaccine, split or subunit, unspecified",False,,
 VAC1452,SCI-B-VAC,False,SCT_NUVA-14041002000104,"Recombinant hepatitis B vaccine, three antigens, unspecified",True,2,0
@@ -3999,13 +3999,13 @@ VAC1456,WYVAC,False,SCT_NUVA-11401002000108,"Rabies vaccine diploid cells, unspe
 VAC1456,WYVAC,False,SCT_NUVA-2281002000109,"Rabies vaccine, unspecified",False,,
 VAC1457,TETRA-SOLGEN,False,SCT_NUVA-14101002000102,"Quadrivalent DTPeP vaccine - Diphtheria-Tetanus-Pertussis-Polio, unspecified",True,2,0
 VAC1457,TETRA-SOLGEN,False,SCT_NUVA-2391002000103,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",False,,
-VAC1458,TRIDIPIGEN,False,SCT_NUVA-2351002000107,"DTwP - Diphtheria-Tetanus-Pertussis, unspecified",True,3,0
+VAC1458,TRIDIPIGEN,False,SCT_NUVA-2351002000107,"DTwP - Diphtheria-Tetanus-Pertussis, unspecified",True,4,0
 VAC1458,TRIDIPIGEN,False,SCT_NUVA-7271002000109,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",False,,
 VAC1459,TRINFAGEN N0.1,False,SCT_NUVA-1701002000102,"DTIPV vaccine, unspecified",True,2,0
 VAC1459,TRINFAGEN N0.1,False,SCT_NUVA-10231002000105,"Diphtheria-Tetanus-Polio vaccine, unspecified",False,,
-VAC1460,SOLGEN,False,SCT_NUVA-2351002000107,"DTwP - Diphtheria-Tetanus-Pertussis, unspecified",True,3,0
+VAC1460,SOLGEN,False,SCT_NUVA-2351002000107,"DTwP - Diphtheria-Tetanus-Pertussis, unspecified",True,4,0
 VAC1460,SOLGEN,False,SCT_NUVA-7271002000109,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",False,,
-VAC1461,DIFTET,False,SCT_NUVA-2361002000109,"DT vaccine, unspecified",True,3,0
+VAC1461,DIFTET,False,SCT_NUVA-2361002000109,"DT vaccine, unspecified",True,4,0
 VAC1461,DIFTET,False,SCT_NUVA-5071002000106,"Tetanus diphtheria vaccine, unspecified",False,,
 VAC1462,PNU-IMUNE 14,False,SCT_NUVA-9701002000101,"Pneumococcal unconjugated polysaccharide vaccine, unspecified",True,2,0
 VAC1462,PNU-IMUNE 14,False,SCT_NUVA-2681002000106,"Pneumococcal vaccine, unspecified",False,,
@@ -4053,7 +4053,7 @@ VAC1479,VACPERTAGEN,False,SCT_NUVA-9461002000105,"Pertussis vaccine, unspecified
 VAC1480,PNEUMOVAX 23,False,SCT_NUVA-4611002000108,"Pneumococcal polysaccharide vaccine 23-valent, unspecified",True,2,0
 VAC1480,PNEUMOVAX 23,False,SCT_NUVA-2681002000106,"Pneumococcal vaccine, unspecified",False,,
 VAC1480,PNEUMOVAX 23,False,SCT_NUVA-9701002000101,"Pneumococcal unconjugated polysaccharide vaccine, unspecified",False,,
-VAC1481,FLUVACCINOL,False,SCT_NUVA-11131002000105,"Trivalent inactivated influenza vaccine, unspecified",True,3,0
+VAC1481,FLUVACCINOL,False,SCT_NUVA-11131002000105,"Trivalent inactivated influenza vaccine, unspecified",True,4,0
 VAC1481,FLUVACCINOL,False,SCT_NUVA-2051002000105,"Influenza vaccine, unspecified",False,,
 VAC1481,FLUVACCINOL,False,SCT_NUVA-9811002000105,"Inactivated influenza vaccine, split or subunit, unspecified",False,,
 VAC1482,IMMUNOGLOBULINE HUMAINE DE L'HÉPATITE B LFB,False,SCT_NUVA-10321002000102,"Hepatitis B immunoglobulin, unspecified",True,2,0
@@ -4083,7 +4083,7 @@ VAC1492,POLIOMYELITIS IMPFSTOFF BERNA,False,SCT_NUVA-2341002000105,"Polio vaccin
 VAC1493,ACEL P,False,SCT_NUVA-14261002000106,"Acellular Pertussis Vaccine, unspecified",True,2,0
 VAC1493,ACEL P,False,SCT_NUVA-9451002000108,"Acellular pertussis vaccine, unspecified",False,,
 VAC1493,ACEL P,False,SCT_NUVA-9461002000105,"Pertussis vaccine, unspecified",False,,
-VAC1494,DITEBOOSTER,False,SCT_NUVA-11051002000104,"Diphtheria-tetanus Td vaccine, unspecified",True,3,0
+VAC1494,DITEBOOSTER,False,SCT_NUVA-11051002000104,"Diphtheria-tetanus Td vaccine, unspecified",True,4,0
 VAC1494,DITEBOOSTER,False,SCT_NUVA-5071002000106,"Tetanus diphtheria vaccine, unspecified",False,,
 VAC1495,POLIO KOPROWSKI K1-K2-K3,False,SCT_NUVA-4431002000102,"OPV 1-2-3, unspecified",True,2,0
 VAC1495,POLIO KOPROWSKI K1-K2-K3,False,SCT_NUVA-2341002000105,"Polio vaccine, unspecified",False,,
@@ -4112,8 +4112,29 @@ VAC1503,"COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omi
 VAC1503,"COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant",True,SCT_NUVA-12611002000104,"COVID-19 vaccine, protein subunit, unspecified",False,,
 VAC1503,"COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant",True,SCT_NUVA-13711002000103,"COVID-19 protein subunit vaccine, recombinant spike protein, unspecified",False,,
 VAC1503,"COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant",True,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
-VAC1504,TD-PUR,False,SCT_NUVA-11051002000104,"Diphtheria-tetanus Td vaccine, unspecified",True,3,0
+VAC1504,TD-PUR,False,SCT_NUVA-11051002000104,"Diphtheria-tetanus Td vaccine, unspecified",True,4,0
 VAC1504,TD-PUR,False,SCT_NUVA-5071002000106,"Tetanus diphtheria vaccine, unspecified",False,,
 VAC1505,SCTV01C,False,SCT_NUVA-13711002000103,"COVID-19 protein subunit vaccine, recombinant spike protein, unspecified",True,3,0
 VAC1505,SCTV01C,False,SCT_NUVA-12611002000104,"COVID-19 vaccine, protein subunit, unspecified",False,,
 VAC1505,SCTV01C,False,SCT_NUVA-7711002000105,"COVID-19 vaccine, unspecified",False,,
+VAC1506,STROVAC,False,,,,,
+VAC1507,BUTANTAN-DV,False,SCT_NUVA-2651002000100,"Dengue vaccine, unspecified",True,2,0
+VAC1508,BUTANTAN HEP A,False,SCT_NUVA-1911002000101,"Inactivated hepatitis A vaccine, unspecified",True,2,0
+VAC1508,BUTANTAN HEP A,False,SCT_NUVA-15081002000107,"Hepatitis A vaccine, unspecified",False,,
+VAC1509,BUTANTAN HEP B,False,SCT_NUVA-1901002000104,"Hepatitis B vaccine, recombinant, unspecified",True,2,0
+VAC1509,BUTANTAN HEP B,False,SCT_NUVA-13831002000101,"Hepatitis B vaccine, unspecified",False,,
+VAC1510,BUTANTAN HPV,False,SCT_NUVA-10271002000108,"HPV vaccine quadrivalent, unspecified",True,2,0
+VAC1510,BUTANTAN HPV,False,SCT_NUVA-2671002000108,HPV Vaccine,False,,
+VAC1511,BUTANTAN DT,False,SCT_NUVA-2361002000109,"DT vaccine, unspecified",True,4,0
+VAC1511,BUTANTAN DT,False,SCT_NUVA-5071002000106,"Tetanus diphtheria vaccine, unspecified",False,,
+VAC1512,BUTANTAN DT ADULTE,False,SCT_NUVA-11051002000104,"Diphtheria-tetanus Td vaccine, unspecified",True,4,0
+VAC1512,BUTANTAN DT ADULTE,False,SCT_NUVA-5071002000106,"Tetanus diphtheria vaccine, unspecified",False,,
+VAC1513,BUTANTAN DTP,False,SCT_NUVA-2351002000107,"DTwP - Diphtheria-Tetanus-Pertussis, unspecified",True,4,0
+VAC1513,BUTANTAN DTP,False,SCT_NUVA-7271002000109,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",False,,
+VAC1514,BUTANTAN DTAP,False,SCT_NUVA-7301002000106,"Tdap - Diphtheria-Tetanus-Pertussis vaccine, low dose, unspecified",True,2,0
+VAC1514,BUTANTAN DTAP,False,SCT_NUVA-9471002000100,"Diph-T-aP/ap, unspecified",False,,
+VAC1515,BUTANTAN RAGE,False,SCT_NUVA-13741002000104,"Rabies vaccine, whole inactivated, prepared in Vero cell culture, unspecified",True,2,0
+VAC1515,BUTANTAN RAGE,False,SCT_NUVA-2281002000109,"Rabies vaccine, unspecified",False,,
+VAC1516,BUTANTAN INFLUENZA,False,SCT_NUVA-11131002000105,"Trivalent inactivated influenza vaccine, unspecified",True,4,0
+VAC1516,BUTANTAN INFLUENZA,False,SCT_NUVA-2051002000105,"Influenza vaccine, unspecified",False,,
+VAC1516,BUTANTAN INFLUENZA,False,SCT_NUVA-9811002000105,"Inactivated influenza vaccine, split or subunit, unspecified",False,,
