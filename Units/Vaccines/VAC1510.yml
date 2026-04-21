@@ -1,0 +1,14 @@
+abstract: false
+label: BUTANTAN HPV
+comment: Human Papillomavirus vaccine, quadrivalent (types 6, 11, 16, and 18), recombinant
+created: '2026-03-18'
+modified: '2026-03-18'
+codes:
+  NUVACode:
+  - '1510'
+valences:
+- VAL052
+- VAL238
+- VAL239
+- VAL240
+- VAL241
