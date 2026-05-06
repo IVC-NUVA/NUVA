@@ -36,7 +36,7 @@ menu = document.getElementById("Menu")
 
 labels = Object.keys(links)
 for (i in labels){
-	menu.innerHTML += "<p><a onclick = \"Update(\'"+links[labels[i]]+"\')\">"+labels[i]+"</a></p>"
+	menu.innerHTML += "<p><a onclick = \"event.stopPropagation();Update(\'"+links[labels[i]]+"\')\">"+labels[i]+"</a></p>"
 	}
 
 </script>
