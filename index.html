@@ -25,7 +25,7 @@ function Update(link) {
 	iframe = document.getElementById("content")
 	console.log (iframe)
 	iframe.src = link
-	iframe.setAttribute('src',link)
+	iframe.setAttribute('src',"./"+link)
 	console.log (iframe)
 	iframe.contentWindow.location.reload()
 	iframe2 = document.getElementById("content")
