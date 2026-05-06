@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<title>NUVA resources</title>
+<body>
+
+<div style="width: 100%; height:100%">
+    <div style="float:left; width: 10%; height:100%">
+	<div style="background-color:grey;color:white">SELECT</div>
+	<!--a onclick="Update('valtree_en.html')">Valence tree</a-->
+	<div id='Menu'>
+	</div>	
+    </div>
+	
+    <div style="float:left; width:90%; height:100%">
+	<iframe id = "content" src="home.html" style="overflow:hidden;height:100vh;width:100%">
+	</iframe>
+    </div>
+</div>
+
+<script>
+const links= { "Home": 'home.html', "Valence tree": 'valtree_en.html', }
+
+function Update(link) {
+	iframe = document.getElementById("content")
+	console.log (iframe)
+	iframe.src = link
+	iframe.setAttribute('src',link)
+	console.log (iframe)
+	iframe.contentWindow.location.reload()
+	iframe2 = document.getElementById("content")
+	console.log(iframe2)
+}
+
+menu = document.getElementById("Menu")
+
+labels = Object.keys(links)
+for (i in labels){
+	menu.innerHTML += "<p><a onclick = \"Update(\'"+links[labels[i]]+"\')\">"+labels[i]+"</a></p>"
+	}
+
+</script>
+</body>
+</html>
+
