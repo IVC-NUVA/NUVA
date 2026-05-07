@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "1.3.19"^^xsd:string .
+    owl:versionInfo "1.3.20"^^xsd:string .
 
 nuva:AIC a owl:Class ;
     rdfs:label "AIC"^^xsd:string ;
@@ -841,6 +841,7 @@ nuva:VAC0016 a owl:Class ;
         "361002000101"^^nuva:SCT_NUVA,
         "485"^^nuva:SWISSMEDIC,
         "660"^^nuva:SWISSMEDIC,
+        "69992"^^nuva:SWISSMEDIC,
         "22"^^nuva:THL,
         "VAC0016"^^xsd:string .
 
@@ -2974,7 +2975,7 @@ nuva:VAC0079 a owl:Class ;
     nuvs:containsValence nuva:VAL431 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-11-14"^^xsd:date ;
+    dcterms:modified "2026-04-28"^^xsd:date ;
     rdfs:comment "Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930198391"^^nuva:CIP,
@@ -9922,11 +9923,11 @@ nuva:VAC0498 a owl:Class ;
         "VAC0498"^^xsd:string .
 
 nuva:VAC0499 a owl:Class ;
-    rdfs:label "BENIRAB (immunoglobuline)"^^xsd:string ;
+    rdfs:label "BERIRAB (immunoglobuline)"^^xsd:string ;
     nuvs:containsValence nuva:VAL252 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-10-28"^^xsd:date ;
+    dcterms:modified "2026-04-27"^^xsd:date ;
     rdfs:comment "Rabies immunoglobulin, human origin"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0499']"^^nuva:NUVACode,
@@ -10512,7 +10513,7 @@ nuva:VAC0523 a owl:Class ;
         nuva:VAL246 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:modified "2026-04-23"^^xsd:date ;
     rdfs:comment "Human Papillomavirus vaccine, based on VLP (Virus Like Particles), nonavalent (types 6, 11, 16, 18, 31, 33, 45, 52, and 58), recombinant, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "044268"^^nuva:AIC,
@@ -17180,6 +17181,7 @@ nuva:VAC0926 a owl:Class ;
         "70461-655"^^nuva:NDC,
         "['0926']"^^nuva:NUVACode,
         "11151002000100"^^nuva:SCT_NUVA,
+        "70144"^^nuva:SWISSMEDIC,
         "VAC0926"^^xsd:string .
 
 nuva:VAC0927 a owl:Class ;
@@ -22515,7 +22517,7 @@ nuva:VAC1267 a owl:Class ;
     nuvs:containsValence nuva:VAL391 ;
     nuvs:isAbstract false ;
     dcterms:created "2025-02-18"^^xsd:date ;
-    dcterms:modified "2026-03-07"^^xsd:date ;
+    dcterms:modified "2026-05-06"^^xsd:date ;
     rdfs:comment "Chikungunya VLP vaccine (recombinant, adsorbed)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "052011"^^nuva:AIC,
@@ -22525,6 +22527,7 @@ nuva:VAC1267 a owl:Class ;
         "50632-018"^^nuva:NDC,
         "['1267']"^^nuva:NUVACode,
         "15461002000106"^^nuva:SCT_NUVA,
+        "70490"^^nuva:SWISSMEDIC,
         "199"^^nuva:THL,
         "VAC1267"^^xsd:string .
 
@@ -23303,7 +23306,7 @@ nuva:VAC1323 a owl:Class ;
         nuva:VAL404 ;
     nuvs:isAbstract false ;
     dcterms:created "2025-03-13"^^xsd:date ;
-    dcterms:modified "2025-03-14"^^xsd:date ;
+    dcterms:modified "2026-04-02"^^xsd:date ;
     rdfs:comment "Quadrivalent meningococcal polysaccharide conjugate vaccine, serogroups A, C, W, X and Y"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1323']"^^nuva:NUVACode,
@@ -25197,7 +25200,7 @@ nuva:VAC1466 a owl:Class ;
     nuvs:containsValence nuva:VAL424 ;
     nuvs:isAbstract false ;
     dcterms:created "2025-08-28"^^xsd:date ;
-    dcterms:modified "2025-08-29"^^xsd:date ;
+    dcterms:modified "2026-04-23"^^xsd:date ;
     rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 30 micrograms, adult (+ 12 years)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930325506"^^nuva:CIP,
@@ -25216,7 +25219,7 @@ nuva:VAC1467 a owl:Class ;
     nuvs:containsValence nuva:VAL426 ;
     nuvs:isAbstract false ;
     dcterms:created "2025-08-28"^^xsd:date ;
-    dcterms:modified "2025-10-22"^^xsd:date ;
+    dcterms:modified "2026-04-23"^^xsd:date ;
     rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 3 micrograms, paediatric dose (6 months-4 years)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930325568"^^nuva:CIP,
@@ -25233,7 +25236,7 @@ nuva:VAC1468 a owl:Class ;
     nuvs:containsValence nuva:VAL425 ;
     nuvs:isAbstract false ;
     dcterms:created "2025-08-28"^^xsd:date ;
-    dcterms:modified "2025-10-22"^^xsd:date ;
+    dcterms:modified "2026-04-23"^^xsd:date ;
     rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 10 micrograms, paediatric dose (5-11 years)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930325544"^^nuva:CIP,
@@ -27770,7 +27773,7 @@ nuva:DIS041 a owl:Class ;
 nuva:DIS056 a owl:Class ;
     rdfs:label "Chikungunya"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-12-12"^^xsd:date ;
+    dcterms:modified "2026-05-05"^^xsd:date ;
     rdfs:subClassOf nuva:Disease .
 
 nuva:DIS063 a owl:Class ;
@@ -28409,7 +28412,7 @@ nuva:DIS051 a owl:Class ;
 nuva:DIS055 a owl:Class ;
     rdfs:label "Ebola"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-12-12"^^xsd:date ;
+    dcterms:modified "2026-05-05"^^xsd:date ;
     rdfs:subClassOf nuva:Disease .
 
 nuva:VAL016 a owl:Class ;
@@ -29246,7 +29249,7 @@ nuva:VAL302 a owl:Class ;
 nuva:DIS018 a owl:Class ;
     rdfs:label "Typhoid"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-12-12"^^xsd:date ;
+    dcterms:modified "2026-04-07"^^xsd:date ;
     rdfs:subClassOf nuva:Disease .
 
 nuva:DIS029 a owl:Class ;
@@ -29675,7 +29678,7 @@ nuva:VAL222 a owl:Class ;
 nuva:DIS030 a owl:Class ;
     rdfs:label "Rabies"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2022-12-12"^^xsd:date ;
+    dcterms:modified "2026-04-07"^^xsd:date ;
     rdfs:subClassOf nuva:Disease .
 
 nuva:VAL032 a owl:Class ;
