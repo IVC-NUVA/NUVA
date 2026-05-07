@@ -2,7 +2,7 @@ abstract: false
 label: VIMKUNYA
 comment: Chikungunya VLP vaccine (recombinant, adsorbed)
 created: '2025-02-18'
-modified: '2026-03-07'
+modified: '2026-05-06'
 codes:
   AIC:
   - '052011'
@@ -18,6 +18,8 @@ codes:
   - '1267'
   SCT_NUVA:
   - '15461002000106'
+  SWISSMEDIC:
+  - '70490'
   THL:
   - '199'
 valences:
