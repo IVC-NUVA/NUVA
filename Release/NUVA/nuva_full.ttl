@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "1.3.20"^^xsd:string .
+    owl:versionInfo "1.3.21"^^xsd:string .
 
 nuva:AIC a owl:Class ;
     rdfs:label "AIC"^^xsd:string ;
@@ -24847,10 +24847,10 @@ nuva:VAC1436 a owl:Class ;
 
 nuva:VAC1437 a owl:Class ;
     rdfs:label "Meningococcal vaccine, monovalent, conjugate"@en ;
-    nuvs:containsValence nuva:VAL234 ;
+    nuvs:containsValence nuva:VAL179 ;
     nuvs:isAbstract true ;
     dcterms:created "2025-05-22"^^xsd:date ;
-    dcterms:modified "2025-05-22"^^xsd:date ;
+    dcterms:modified "2026-05-19"^^xsd:date ;
     rdfs:comment "Meningococcal vaccine, monovalent, conjugate"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1437']"^^nuva:NUVACode,
@@ -25875,15 +25875,6 @@ nuva:VAC1516 a owl:Class ;
     skos:notation "['1516']"^^nuva:NUVACode,
         "VAC1516"^^xsd:string .
 
-nuva:VAL179 a owl:Class ;
-    rdfs:label "Meningococcal  valence, monovalent, conjugate"@en ;
-    nuvs:prevents nuva:DIS048 ;
-    dcterms:created "2022-03-26"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL234 ;
-    skos:altLabel "MCV-mono"@en ;
-    skos:notation "VAL179"^^xsd:string .
-
 nuvs:containedInVaccine a owl:ObjectProperty ;
     owl:inverseOf nuvs:containsValence .
 
@@ -26133,6 +26124,15 @@ nuva:VAL178 a owl:Class ;
     rdfs:subClassOf nuva:VAL393 ;
     skos:altLabel "COVID-mRNA-S-OMI-BA.1-25"@en ;
     skos:notation "VAL178"^^xsd:string .
+
+nuva:VAL179 a owl:Class ;
+    rdfs:label "Meningococcal  valence, monovalent, conjugate"@en ;
+    nuvs:prevents nuva:DIS048 ;
+    dcterms:created "2022-03-26"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL234 ;
+    skos:altLabel "MCV-mono"@en ;
+    skos:notation "VAL179"^^xsd:string .
 
 nuva:VAL235 a owl:Class ;
     rdfs:label "Meningococcal valence, polyvalent, conjugate polysaccharide"@en ;
@@ -28856,6 +28856,15 @@ nuva:VAL170 a owl:Class ;
     skos:altLabel "rHepB-05"@en ;
     skos:notation "VAL170"^^xsd:string .
 
+nuva:VAL234 a owl:Class ;
+    rdfs:label "Meningococcal valence, unspecified"@en ;
+    nuvs:prevents nuva:DIS048 ;
+    dcterms:created "2022-03-29"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Men"@en ;
+    skos:notation "VAL234"^^xsd:string .
+
 nuva:VAL250 a owl:Class ;
     rdfs:label "Japanese encephalitis valence, inactivated, whole-virus, prepared on murine brain tissue"@en ;
     nuvs:prevents nuva:DIS028 ;
@@ -29059,15 +29068,6 @@ nuva:VAL139 a owl:Class ;
     rdfs:subClassOf nuva:VAL299 ;
     skos:altLabel "MPV-Y"@en ;
     skos:notation "VAL139"^^xsd:string .
-
-nuva:VAL234 a owl:Class ;
-    rdfs:label "Meningococcal valence, unspecified"@en ;
-    nuvs:prevents nuva:DIS048 ;
-    dcterms:created "2022-03-29"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:Valence ;
-    skos:altLabel "Men"@en ;
-    skos:notation "VAL234"^^xsd:string .
 
 nuva:VAL251 a owl:Class ;
     rdfs:label "Japanese encephalitis valence, inactivated, whole-virus, derived from Vero cells"@en ;
