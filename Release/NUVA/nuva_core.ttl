@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "1.3.21" .
+    owl:versionInfo "1.3.22" .
 
 nuva:NUVACode a owl:Class ;
     rdfs:label "NUVA Code" ;
@@ -16902,7 +16902,8 @@ nuva:VAC1478 a owl:Class ;
     nuvs:containsValence nuva:VAL116 ;
     nuvs:isAbstract false ;
     dcterms:created "2025-11-17"^^xsd:date ;
-    dcterms:modified "2025-11-17"^^xsd:date ;
+    dcterms:modified "2026-05-27"^^xsd:date ;
+    rdfs:comment "hRSV monoclonal antibody"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1478']"^^nuva:NUVACode,
         "VAC1478"^^xsd:string .
@@ -16912,7 +16913,8 @@ nuva:VAC1479 a owl:Class ;
     nuvs:containsValence nuva:VAL017 ;
     nuvs:isAbstract false ;
     dcterms:created "2025-11-17"^^xsd:date ;
-    dcterms:modified "2026-01-28"^^xsd:date ;
+    dcterms:modified "2026-05-27"^^xsd:date ;
+    rdfs:comment "Pertussis vaccine (recombinant, acellular, reduced-dose, bivalent, adsorbed)."@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1479']"^^nuva:NUVACode,
         "VAC1479"^^xsd:string .
