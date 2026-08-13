@@ -1309,6 +1309,14 @@ vaccine:
     et B
   VAC1476L: Vaccin méningococcique contre les A, C, W, Y (polyosidique conjugué)
     et B
+  VAC1436C: Vaccin rage, inactivé, entier, préparé sur tissu cérébral animal 
+    infecté par le virus de la rage, sans précision
+  VAC1436L: Vaccin rage, inactivé, entier, préparé sur tissu cérébral animal 
+    infecté par le virus de la rage, sans précision
+  VAC1503C: Vaccin anti-covid 19, sous-variant Omicron LP.8.1, sous-unité 
+    protéique, protéine de pointe recombinante (domaine RBD)
+  VAC1503L: Vaccin anti-covid 19, sous-variant Omicron LP.8.1, sous-unité 
+    protéique, protéine de pointe recombinante (domaine RBD)
 valence:
   VAL063S: BAT
   VAL064L: Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, 
@@ -2308,3 +2316,24 @@ valence:
   VAL428S: Covid-ARNm-S-frag-OMI-LP.8.1
   VAL429L: Valence VRS, anticorps monoclonal, clesrovimab
   VAL429S: VRS-mAb-cle
+  VAL430L: Valence encéphalite à tiques, inactivée, entière, souche K23, 0,25 mL
+  VAL430S: TBE-K23-25
+  VAL431L: Valence encéphalite à tiques, inactivée, entière, souche K23, 0,50 mL
+  VAL431S: TBE-K23-50
+  VAL432L: Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de 
+    pointe du SARS-CoV-2, 25 microgrammes
+  VAL432S: Covid-ARNm-S-OMI-LP.8.1-25
+  VAL433L: Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de 
+    pointe du SARS-CoV-2, 50 microgrammes
+  VAL433S: Covid-ARNm-S-OMI-LP.8.1-50
+  VAL434L: Valence covid 19, sous-variant Omicron LP.8.1, sous-unité protéique, 
+    protéine de pointe recombinante (domaine RBD)
+  VAL434S: Covid-SP-rRBD-LP.8.1
+  VAL435L: Valence dengue, souche atténuée native
+  VAL435S: DENV2-VVA
+  VAL436L: Valence dengue, vivant, recombinant, chimère DENV-2 + prM/E de DENV-1
+  VAL436S: DENV1rCH
+  VAL437L: Valence dengue, vivant, recombinant, chimère DENV-2 + prM/E de DENV-3
+  VAL437S: DENV3rCH
+  VAL438L: Valence dengue, vivant, recombinant, chimère DENV-2 + prM/E de DENV-4
+  VAL438S: DENV4rCH
