@@ -97,6 +97,8 @@ BaseURI="http://ivci.org/NUVA"
 core = Graph()
 core.parse(data = nuva_void)
 full = Graph(store="Oxigraph")
+langgraphs = {}
+Terms = {}
 
 NUVS = Namespace("http://ivci.org/NUVA/nuvs#")
 NUVA = Namespace("http://ivci.org/NUVA/") 
@@ -112,7 +114,29 @@ def loadUnits(type):
         with open(file,encoding='utf-8') as data:
             tempdir[file.stem] = yaml.safe_load(data)
     return dict(sorted(tempdir.items()))
-    
+
+def loadLanguages():
+    files = pathlib.Path(f'Translations').rglob('nuva_*.yml')
+    for file in files:
+        with open(file, encoding='utf-8') as data:
+            langterms = yaml.safe_load(data)
+            lang=next(iter(langterms))
+        for theme in ['disease','valence','vaccine']:
+            for key,term in langterms[lang][theme].items():
+                if key not in Terms:
+                    Terms[key] = {}
+                Terms[key][lang] = term
+
+def addLanguages(ref,predicate,key):
+    if not key in Terms:
+        return
+    for lang in Terms[key]:
+        triple = (ref,predicate,Literal(Terms[key][lang],lang=lang))
+        full.add(triple)
+        if lang not in langgraphs:
+            langgraphs[lang]= Graph()
+        langgraphs[lang].add(triple)
+
 def addClass(ref,parent,label,comment,notation,created, modified, localized):
     core.add((ref,RDF.type, OWL.Class))
     core.add((ref,RDFS.subClassOf,parent))
@@ -132,7 +156,7 @@ def valprint(f,offset, valence):
     else:
         style = "folded"
 
-    print(offset*indent+f'<li><a class = "{style}">{valence['notation']}({valence['code']}) - {valence['label']}</a>', file = f)
+    print(offset*indent+f'<li><a class = "{style}">{valence["notation"]}({valence["code"]}) - {valence["label"]}</a>', file = f)
     if style == "folded":
         print(offset*indent+'<ul>',file = f)
         for child in sorted(valence['children'],key = lambda d: d['notation']):
@@ -156,9 +180,12 @@ Valences = loadUnits("Valences")
 Targets = loadUnits("Targets")
 CodeSystems = loadUnits("CodeSystems")
 
+loadLanguages()
+
 for code,data in Targets.items():
     Target = URIRef(f'{BaseURI}/{code}')
     addClass(Target,DiseasesParent,data['label'],None, None,data['created'],data['modified'], True)
+    addLanguages(Target,RDFS.label,f'{code}L')
 
 for codeSystem in CodeSystems.keys():
     Codes[codeSystem] = {}
@@ -181,6 +208,8 @@ for code,data in Vaccines.items():
             for value in values:
                 full.add((Vaccine,SKOS.notation,Literal(value,datatype=URIRef(f'{BaseURI}/{system}'))))
                 Codes[system][value] = {system: f'{system}-{value}', "NUVA": code, "Label": data['label']}
+    addLanguages(Vaccine,RDFS.label,f'{code}L')
+    addLanguages(Vaccine, RDFS.comment, f'{code}C')
 
 for code,data in Valences.items():
     Valence = URIRef(f'{BaseURI}/{code}')
@@ -188,6 +217,8 @@ for code,data in Valences.items():
     addClass(Valence,VParent,data['label'],data.get('comment',None),code,data['created'],data['modified'],True)
     core.add((Valence,prevents,URIRef(f'{BaseURI}/{data["target"]}')))
     core.add((Valence,SKOS.altLabel,Literal(data['shorthand'],lang='en')))
+    addLanguages(Valence,RDFS.label,f'{code}L')
+    addLanguages(Valence, SKOS.altLabel, f'{code}S')
 
 if (len(sys.argv)>1):
     version = sys.argv[1]
@@ -210,6 +241,10 @@ with open('Release/NUVA/valtree_en.html','w') as f:
 print("Creating the RDF files")
 core.serialize(destination="Release/NUVA/nuva_core.ttl")
 full.serialize(destination="Release/NUVA/nuva_full.ttl")
+
+print ('Creating the language RDF files')
+for lang in langgraphs:
+    langgraphs[lang].serialize(destination=f"Release/Languages/nuva_{lang}.ttl")
 
 print ("Creating the CSV core file")
 with open('Release/NUVA/nuva_core.csv','w',encoding='utf-8-sig',newline ='') as csvfile:
