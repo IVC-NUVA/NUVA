@@ -2,8 +2,10 @@ abstract: true
 label: Vaccine against chikungunya, unspecified
 comment: Vaccine against chikungunya, unspecified
 created: '2025-02-20'
-modified: '2025-05-20'
+modified: '2026-06-04'
 codes:
+  ATC:
+  - J07BP
   NUVACode:
   - '1277'
   SCT_NUVA:
