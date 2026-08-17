@@ -1,0 +1,1704 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://ivci.org/NUVA/DIS001> rdfs:label "Διφθερίτιδα"@el .
+
+<http://ivci.org/NUVA/DIS002> rdfs:label "Τέτανος"@el .
+
+<http://ivci.org/NUVA/DIS003> rdfs:label "Κοκκίτης"@el .
+
+<http://ivci.org/NUVA/DIS004> rdfs:label "Πολιομυελίτις"@el .
+
+<http://ivci.org/NUVA/DIS005> rdfs:label "Haemophilus influenzae β"@el .
+
+<http://ivci.org/NUVA/DIS006> rdfs:label "Ηπατίτιδα Β"@el .
+
+<http://ivci.org/NUVA/DIS008> rdfs:label "Ιλαρά"@el .
+
+<http://ivci.org/NUVA/DIS009> rdfs:label "Παρωτίτιδα"@el .
+
+<http://ivci.org/NUVA/DIS010> rdfs:label "Ερυθρά"@el .
+
+<http://ivci.org/NUVA/DIS011> rdfs:label "Ανεμοβλογιά"@el .
+
+<http://ivci.org/NUVA/DIS014> rdfs:label "Φυματίωση"@el .
+
+<http://ivci.org/NUVA/DIS015> rdfs:label "εποχική γρίπη"@el .
+
+<http://ivci.org/NUVA/DIS016> rdfs:label "Ηπατίτιδα Α"@el .
+
+<http://ivci.org/NUVA/DIS017> rdfs:label "Κίτρινος πυρετός"@el .
+
+<http://ivci.org/NUVA/DIS018> rdfs:label "Τυφοειδής"@el .
+
+<http://ivci.org/NUVA/DIS025> rdfs:label "Πνευμονιόκοκκος"@el .
+
+<http://ivci.org/NUVA/DIS027> rdfs:label "Εγκεφαλίτιδα από τσιμπούρια"@el .
+
+<http://ivci.org/NUVA/DIS028> rdfs:label "Ιαπωνική εγκεφαλίτιδα"@el .
+
+<http://ivci.org/NUVA/DIS029> rdfs:label "Ευλογιά-Μαϊμουδοπανώλη"@el .
+
+<http://ivci.org/NUVA/DIS030> rdfs:label "Οργή"@el .
+
+<http://ivci.org/NUVA/DIS031> rdfs:label "Δάγκειος πυρετός"@el .
+
+<http://ivci.org/NUVA/DIS032> rdfs:label "Ροταϊός"@el .
+
+<http://ivci.org/NUVA/DIS033> rdfs:label "ζώνη"@el .
+
+<http://ivci.org/NUVA/DIS034> rdfs:label "Λεπτοσπείρωση"@el .
+
+<http://ivci.org/NUVA/DIS036> rdfs:label "Χολέρα"@el .
+
+<http://ivci.org/NUVA/DIS038> rdfs:label "Ιός θηλώματος"@el .
+
+<http://ivci.org/NUVA/DIS040> rdfs:label "Ελονοσία"@el .
+
+<http://ivci.org/NUVA/DIS041> rdfs:label "Βρουκέλλωση"@el .
+
+<http://ivci.org/NUVA/DIS042> rdfs:label "Εξανθηματώδης τύφος"@el .
+
+<http://ivci.org/NUVA/DIS043> rdfs:label "Μηνιγγιτιδόκοκκος C"@el .
+
+<http://ivci.org/NUVA/DIS044> rdfs:label "Μηνιγγιτιδόκοκκος Α"@el .
+
+<http://ivci.org/NUVA/DIS045> rdfs:label "Μηνιγγιτιδόκοκκος Β"@el .
+
+<http://ivci.org/NUVA/DIS046> rdfs:label "Μηνιγγιτιδόκοκκος W"@el .
+
+<http://ivci.org/NUVA/DIS047> rdfs:label "Μηνιγγιτιδόκοκκος Υ"@el .
+
+<http://ivci.org/NUVA/DIS048> rdfs:label "Μηνιγγιτιδόκοκκος"@el .
+
+<http://ivci.org/NUVA/DIS050> rdfs:label "Γρίπη των πτηνών"@el .
+
+<http://ivci.org/NUVA/DIS051> rdfs:label "Ανθρακας"@el .
+
+<http://ivci.org/NUVA/DIS052> rdfs:label "Δηλητηρίαση από ακάθαρτη τροφή"@el .
+
+<http://ivci.org/NUVA/DIS053> rdfs:label "Η νόσος του Lyme"@el .
+
+<http://ivci.org/NUVA/DIS054> rdfs:label "Ηπατίτιδα Ε"@el .
+
+<http://ivci.org/NUVA/DIS055> rdfs:label "Έμπολα"@el .
+
+<http://ivci.org/NUVA/DIS056> rdfs:label "Τσικουνγκούνια"@el .
+
+<http://ivci.org/NUVA/DIS057> rdfs:label "COVID-19"@el .
+
+<http://ivci.org/NUVA/DIS058> rdfs:label "Αναπνευστικός συγκυτιακός ιός"@el .
+
+<http://ivci.org/NUVA/DIS059> rdfs:label "Πανούκλα"@el .
+
+<http://ivci.org/NUVA/DIS060> rdfs:label "Ερπης"@el .
+
+<http://ivci.org/NUVA/DIS061> rdfs:label "Τουλαραιμία"@el .
+
+<http://ivci.org/NUVA/DIS062> rdfs:label "Αργεντινός αιμορραγικός πυρετός"@el .
+
+<http://ivci.org/NUVA/DIS063> rdfs:label "Αδενοϊός"@el .
+
+<http://ivci.org/NUVA/DIS064> rdfs:label "Βενεζουελανική εγκεφαλίτιδα ιπποειδών"@el .
+
+<http://ivci.org/NUVA/DIS065> rdfs:label "Q πυρετός"@el .
+
+<http://ivci.org/NUVA/DIS066> rdfs:label "Χανταϊός"@el .
+
+<http://ivci.org/NUVA/DIS067> rdfs:label "Λεϊσμανίαση"@el .
+
+<http://ivci.org/NUVA/DIS068> rdfs:label "Ανθρώπινοι ιοί παραγρίπης"@el .
+
+<http://ivci.org/NUVA/DIS070> rdfs:label "κυτταρομεγαλοϊός"@el .
+
+<http://ivci.org/NUVA/DIS071> rdfs:label "Ηπατίτιδα Γ"@el .
+
+<http://ivci.org/NUVA/DIS072> rdfs:label "HIV λοίμωξη"@el .
+
+<http://ivci.org/NUVA/DIS073> rdfs:label "Μελάνωμα"@el .
+
+<http://ivci.org/NUVA/DIS074> rdfs:label "Streptococcus pyogenes"@el .
+
+<http://ivci.org/NUVA/DIS075> rdfs:label "Πυρετός της κοιλάδας Rift"@el .
+
+<http://ivci.org/NUVA/DIS076> rdfs:label "Ουρολοίμωξη"@el .
+
+<http://ivci.org/NUVA/DIS078> rdfs:label "Λέπρα"@el .
+
+<http://ivci.org/NUVA/DIS079> rdfs:label "Pseudomonas aeruginosa"@el .
+
+<http://ivci.org/NUVA/DIS080> rdfs:label "Μηνιγγιτιδόκοκκος X"@el .
+
+<http://ivci.org/NUVA/VAC0084> rdfs:label "H5N1 pre-pandemic influenza vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο γρίπης Α(Η5Ν1)"@el .
+
+<http://ivci.org/NUVA/VAC0088> rdfs:label "DTIPV vaccine, unspecified"@el ;
+    rdfs:comment "Παιδιατρικό εμβόλιο διφθεριδοτοξοειδούς (τυπική δόση), τοξοειδούς τετάνου και αδρανοποιημένης πολιομυελίτιδας (τρισθενές)"@el .
+
+<http://ivci.org/NUVA/VAC0101> rdfs:label "Εμβόλιο ανασυνδυασμένης ηπατίτιδας Β, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο ανασυνδυασμένης ηπατίτιδας Β, δόση απροσδιόριστη"@el .
+
+<http://ivci.org/NUVA/VAC0102> rdfs:label "Αδρανοποιημένο εμβόλιο ηπατίτιδας Α, απροσδιόριστο"@el ;
+    rdfs:comment "Αδρανοποιημένο εμβόλιο ηπατίτιδας Α, παιδιατρική δόση ή δόση ενηλίκων"@el .
+
+<http://ivci.org/NUVA/VAC0110> rdfs:label "Influenza vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο εποχικής γρίπης"@el .
+
+<http://ivci.org/NUVA/VAC0111> rdfs:label "Yellow fever vaccine, unspecified"@el ;
+    rdfs:comment "Ζωντανό εξασθενημένο εμβόλιο κίτρινου πυρετού"@el .
+
+<http://ivci.org/NUVA/VAC0112> rdfs:label "Typhoid vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο τυφοειδούς"@el .
+
+<http://ivci.org/NUVA/VAC0113> rdfs:label "Rubella vaccine, unspecified"@el ;
+    rdfs:comment "Ζωντανό εξασθενημένο εμβόλιο ερυθράς"@el .
+
+<http://ivci.org/NUVA/VAC0114> rdfs:label "Live attenuated measles vaccine, unspecified"@el ;
+    rdfs:comment "Ζωντανό εξασθενημένο εμβόλιο ιλαράς"@el .
+
+<http://ivci.org/NUVA/VAC0130> rdfs:label "MMR vaccine, unspecified"@el ;
+    rdfs:comment "Ζωντανό εξασθενημένο εμβόλιο ιλαράς, παρωτίτιδας και ερυθράς"@el .
+
+<http://ivci.org/NUVA/VAC0131> rdfs:label "Rabies vaccine, unspecified"@el ;
+    rdfs:comment "Αδρανοποιημένο εμβόλιο λύσσας με ολόκληρο τον ιό"@el .
+
+<http://ivci.org/NUVA/VAC0132> rdfs:label "Tetanus vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο τοξοειδούς τετάνου"@el .
+
+<http://ivci.org/NUVA/VAC0133> rdfs:label "Smallpox vaccine, unspecified"@el ;
+    rdfs:comment "Ζωντανό εξασθενημένο εμβόλιο ευλογιάς"@el .
+
+<http://ivci.org/NUVA/VAC0134> rdfs:label "BCG vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο κατά της φυματίωσης"@el .
+
+<http://ivci.org/NUVA/VAC0135> rdfs:label "Polio vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο πολιομυελίτιδας (ζωντανό εξασθενημένο, τρισθενές)"@el .
+
+<http://ivci.org/NUVA/VAC0136> rdfs:label "DTwP - Diphtheria-Tetanus-Pertussis, unspecified"@el ;
+    rdfs:comment "Παιδιατρικό εμβόλιο διφθερίτιδας (τυπική δόση), τοξοειδούς τετάνου και αδρανοποιημένου κοκκύτη ολικού κυττάρου"@el .
+
+<http://ivci.org/NUVA/VAC0137> rdfs:label "DT vaccine, unspecified"@el ;
+    rdfs:comment "Παιδιατρικό εμβόλιο διφθεριδοτοξοειδούς (τυπική δόση) και τετανοτοξοειδούς"@el .
+
+<http://ivci.org/NUVA/VAC0138> rdfs:label "Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified"@el ;
+    rdfs:comment "Τοξοειδές διφθερίτιδας (δόση που δεν προσδιορίζεται), τοξοειδές τετάνου, αδρανοποιημένος κοκκύτης (δόση που δεν προσδιορίζεται) και αδρανοποιημένο εμβόλιο πολιομυελίτιδας (τρισθενές)"@el .
+
+<http://ivci.org/NUVA/VAC0143> rdfs:label "Haemophilus influenzae B (or Hib) vaccine, unspecified"@el ;
+    rdfs:comment "Συζευγμένο εμβόλιο Haemophilus influenzae τύπου β"@el .
+
+<http://ivci.org/NUVA/VAC0144> rdfs:label "Cholera vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο χολέρας"@el .
+
+<http://ivci.org/NUVA/VAC0145> rdfs:label "Tick-borne encephalitis vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο κατά της εγκεφαλίτιδας που προκαλείται από τσιμπούρια"@el .
+
+<http://ivci.org/NUVA/VAC0146> rdfs:label "Live attenuated Japanese Encephalitis vaccine 14-14-2 strain, unspecified"@el ;
+    rdfs:comment "Ζωντανό εξασθενημένο εμβόλιο ιαπωνικής εγκεφαλίτιδας, στέλεχος 14-14-2"@el .
+
+<http://ivci.org/NUVA/VAC0147> rdfs:label "Influenza A(H1N1)2009 vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο πανδημικής γρίπης A(H1N1)pdm09, αδρανοποιημένο"@el .
+
+<http://ivci.org/NUVA/VAC0148> rdfs:label "Leptospirosis vaccine, unspecified"@el ;
+    rdfs:comment "Αδρανοποιημένο εμβόλιο λεπτοσπείρωσης ολικών κυττάρων"@el .
+
+<http://ivci.org/NUVA/VAC0149> rdfs:label "Meningococcal B:14:P1.7,16 vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο κατά του μηνιγγιτιδόκοκκου Β (πρωτεΐνη κυστιδίου εξωτερικής μεμβράνης B:14:P1.7,16)"@el .
+
+<http://ivci.org/NUVA/VAC0150> rdfs:label "Meningococcal conjugate vaccine C, unspecified"@el ;
+    rdfs:comment "Εμβόλιο κατά του μηνιγγιτιδόκοκκου C"@el .
+
+<http://ivci.org/NUVA/VAC0151> rdfs:label "Meningococcal A + C vaccine, unspecified"@el ;
+    rdfs:comment "Μη συζευγμένο πολυσακχαριδικό εμβόλιο κατά του μηνιγγιτιδόκοκκου, οροομάδες A και C"@el .
+
+<http://ivci.org/NUVA/VAC0152> rdfs:label "Unconjugated meningococcal vaccine ACWY, unspecified"@el ;
+    rdfs:comment "Μη συζευγμένο πολυσακχαριδικό εμβόλιο κατά του μηνιγγιτιδόκοκκου, οροομάδες A, C, W και Y"@el .
+
+<http://ivci.org/NUVA/VAC0153> rdfs:label "Mumps vaccine, unspecified"@el ;
+    rdfs:comment "Ζωντανό εξασθενημένο εμβόλιο παρωτίτιδας"@el .
+
+<http://ivci.org/NUVA/VAC0154> rdfs:label "Malaria vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο ελονοσίας (χρησιμοποιείται σε κλινικές δοκιμές)"@el .
+
+<http://ivci.org/NUVA/VAC0155> rdfs:label "Dengue vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο κατά του δάγκειου πυρετού, απροσδιόριστο"@el .
+
+<http://ivci.org/NUVA/VAC0156> rdfs:label "HPV Vaccine"@el ;
+    rdfs:comment "Εμβόλιο για τον ιό των ανθρώπινων θηλωμάτων, απροσδιόριστο"@el .
+
+<http://ivci.org/NUVA/VAC0157> rdfs:label "Pneumococcal vaccine, unspecified"@el ;
+    rdfs:comment "Πνευμονιοκοκκικό συζευγμένο ή μη συζευγμένο πολυσακχαριδικό εμβόλιο, αριθμός ορότυπων απροσδιόριστος"@el .
+
+<http://ivci.org/NUVA/VAC0158> rdfs:label "Rotavirus vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο κατά του ροταϊού"@el .
+
+<http://ivci.org/NUVA/VAC0159> rdfs:label "Chickenpox vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο ανεμευλογιάς"@el .
+
+<http://ivci.org/NUVA/VAC0160> rdfs:label "Live attenuated shingles vaccine, unspecified"@el ;
+    rdfs:comment "Ζωντανό εξασθενημένο εμβόλιο κατά του έρπητα ζωστήρα"@el .
+
+<http://ivci.org/NUVA/VAC0162> rdfs:label "Brucellosis vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο κατά της βρουκέλλωσης"@el .
+
+<http://ivci.org/NUVA/VAC0163> rdfs:label "Whole-cell inactivated pertussis vaccine, unspecified"@el ;
+    rdfs:comment "Ολοκληρωμένο αδρανοποιημένο εμβόλιο κοκκύτη"@el .
+
+<http://ivci.org/NUVA/VAC0270> rdfs:label "Inactivated Polio vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο πολιομυελίτιδας (ολόκληρο αδρανοποιημένο, τρισθενές)"@el .
+
+<http://ivci.org/NUVA/VAC0320> rdfs:label "OPV 1-2-3, unspecified"@el ;
+    rdfs:comment "Εμβόλιο πολιομυελίτιδας (ζωντανό εξασθενημένο, τρισθενές) κατά των ιών πολιομυελίτιδας 1, 2 και 3, από του στόματος"@el .
+
+<http://ivci.org/NUVA/VAC0324> rdfs:label "Pneumococcal conjugate vaccine, 7 valent, unspecified"@el ;
+    rdfs:comment "Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, 7δύναμο, ορότυποι 4, 6B, 9V, 14, 18C, 19F και 23F"@el .
+
+<http://ivci.org/NUVA/VAC0339> rdfs:label "Pneumococcal polysaccharide vaccine 23-valent, unspecified"@el ;
+    rdfs:comment "Πολυσακχαριδικό πνευμονιοκοκκικό μη συζευγμένο εμβόλιο, 23-δύναμο"@el .
+
+<http://ivci.org/NUVA/VAC0344> rdfs:label "PRP-OMP Hib vaccine, unspecified"@el ;
+    rdfs:comment "Συζευγμένο εμβόλιο Haemophilus influenzae τύπου b αποτελούμενο από PRP (φωσφορική πολυριβοσυλριβιτόλη) συζευγμένο με OMP (πρωτεΐνη εξωτερικής μεμβράνης Neisseria meningitidis)"@el .
+
+<http://ivci.org/NUVA/VAC0345> rdfs:label "Hib PRP-T conjugated vaccine, unspecified"@el ;
+    rdfs:comment "Συζευγμένο εμβόλιο Haemophilus influenzae τύπου β αποτελούμενο από PRP (φωσφορική πολυριβοσυλριβιτόλη) συζευγμένο με τοξικοειδές του τετάνου"@el .
+
+<http://ivci.org/NUVA/VAC0358> rdfs:label "Rabies immunoglobulin human origin, unspecified"@el ;
+    rdfs:comment "Ανοσοσφαιρίνη λύσσας, ανθρώπινης προέλευσης"@el .
+
+<http://ivci.org/NUVA/VAC0380> rdfs:label "T.Polio, unspecified"@el ;
+    rdfs:comment "Εμβόλια τετάνου (τοξοειδές) και πολιομυελίτιδας (ολόκληρα αδρανοποιημένα, τρισθενή)"@el .
+
+<http://ivci.org/NUVA/VAC0382> rdfs:label "Tetanus diphtheria vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο τοξοειδούς διφθερίτιδας (δόση απροσδιόριστη) και τοξοειδούς τετάνου"@el .
+
+<http://ivci.org/NUVA/VAC0424> rdfs:label "Live attenuated oral typhoid vaccine, unspecified"@el ;
+    rdfs:comment "Ζωντανό εξασθενημένο εμβόλιο τυφοειδούς, στέλεχος Ty21a, από του στόματος"@el .
+
+<http://ivci.org/NUVA/VAC0497> rdfs:label "Tetanus immunoglobulin, unspecified"@el ;
+    rdfs:comment "Ανοσοσφαιρίνη κατά του τετάνου"@el .
+
+<http://ivci.org/NUVA/VAC0502> rdfs:label "Rabies immunoglobulin, unspecified"@el ;
+    rdfs:comment "Ανοσοσφαιρίνη λύσσας, ανθρώπινης ή ιπποειδών προέλευσης"@el .
+
+<http://ivci.org/NUVA/VAC0503> rdfs:label "Rabies immunoglobulin equine origin, unspecified"@el ;
+    rdfs:comment "Ανοσοσφαιρίνη κατά της λύσσας, ιπποειδούς προέλευσης"@el .
+
+<http://ivci.org/NUVA/VAC0506> rdfs:label "Pentavalent DTaPHibIPV vaccine, unspecified"@el ;
+    rdfs:comment "Τοξοειδές διφθερίτιδας (τυπική δόση), τοξοειδές τετάνου, πολυσυσύνθετο οξυτενή κοκκύτη (τυπική δόση), Haemophilus influenzae τύπου b (συζευγμένο ακαθόριστο) και αδρανοποιημένο εμβόλιο πολιομυελίτιδας (τρισθενές) παιδιατρικό εμβόλιο"@el .
+
+<http://ivci.org/NUVA/VAC0512> rdfs:label "Typhus vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο κατά του επιδημικού τύφου (επιδημικός τύφος των ψειρών)"@el .
+
+<http://ivci.org/NUVA/VAC0549> rdfs:label "dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified"@el ;
+    rdfs:comment "Τοξοειδές διφθερίτιδας (χαμηλή δόση), τοξοειδές τετάνου και αδρανοποιημένο εμβόλιο πολιομυελίτιδας (τρισθενές)"@el .
+
+<http://ivci.org/NUVA/VAC0550> rdfs:label "Measles-Rubella vaccine, unspecified"@el ;
+    rdfs:comment "Ζωντανό εξασθενημένο εμβόλιο ιλαράς και ερυθράς"@el .
+
+<http://ivci.org/NUVA/VAC0551> rdfs:label "DTaPIPV vaccine, standard dose, unspecified"@el ;
+    rdfs:comment "Παιδιατρικό εμβόλιο διφθεριτικού τοξοειδούς (κανονική δόση), τετανικού τοξοειδούς, πολυδύναμου οξυτενούς κοκκύτη (κανονική δόση) και αδρανοποιημένης πολιομυελίτιδας (τρισθενές)"@el .
+
+<http://ivci.org/NUVA/VAC0552> rdfs:label "DTaPHibHepBIPV hexavalent vaccine, unspecified"@el ;
+    rdfs:comment "Τοξοειδές διφθερίτιδας (τυπική δόση), τοξοειδές τετάνου, πολυσυσύνθετο ακανθώδες κοκκύτη (τυπική δόση), Haemophilus influenzae τύπου β (συζευγμένο ακαθόριστο), αδρανοποιημένη πολιομυελίτιδα (τρισθενές) και παιδιατρικό εμβόλιο ηπατίτιδας Β (ανασυνδυασμένο)."@el .
+
+<http://ivci.org/NUVA/VAC0553> rdfs:label "Pentavalent DTwPHibIPV vaccine, unspecified"@el ;
+    rdfs:comment "Παιδιατρικό εμβόλιο διφθερίτιδας τοξοειδούς (τυπική δόση), τοξοειδούς τετάνου, ολικού κοκκύτη, συζευγμένου Haemophilus influenzae τύπου β (συζευγμένου ακαθόριστου) και αδρανοποιημένης πολιομυελίτιδας (τρισθενές)"@el .
+
+<http://ivci.org/NUVA/VAC0585> rdfs:label "TdapIPV - Diphtheria-Tetanus-Pertussis-Polio vaccine, low dose, unspecified"@el ;
+    rdfs:comment "Τοξοειδές διφθερίτιδας (χαμηλή δόση), τοξοειδές τετάνου, πολυσυσύνθετο εμβόλιο οξυτενούς κοκκύτη (5 συστατικά, χαμηλή δόση) και αδρανοποιημένο εμβόλιο πολιομυελίτιδας (τρισθενές), προσροφημένο"@el .
+
+<http://ivci.org/NUVA/VAC0596> rdfs:label "DTaPHibHepB pentavalent vaccine, unspecified"@el ;
+    rdfs:comment "Παιδιατρικό εμβόλιο διφθερίτιδας (τυπική δόση), τοξοειδούς τετάνου και πολυδύναμου κυτταρικού κοκκύτη (τυπική δόση), Haemophilus influenzae τύπου β (συζευγμένο, μη καθορισμένο) και ηπατίτιδας Β (ανασυνδυασμένο)"@el .
+
+<http://ivci.org/NUVA/VAC0598> rdfs:label "DTwPHibHepB pentavalent vaccine, unspecified"@el ;
+    rdfs:comment "Τοξοειδές διφθερίτιδας (τυπική δόση), τοξοειδές τετάνου, αδρανοποιημένος κοκκύτης ολικών κυττάρων, Haemophilus influenzae τύπου β (συζευγμένο, απροσδιόριστο) και ηπατίτιδα Β (ανασυνδυασμένο) παιδιατρικό εμβόλιο"@el .
+
+<http://ivci.org/NUVA/VAC0599> rdfs:label "DTPerHibHepB pentavalent vaccine, unspecified"@el ;
+    rdfs:comment "Τοξοειδές διφθερίτιδας (τυπική δόση), τοξοειδές τετάνου και πολυσυσύνθετο κυτταρικό κοκκύτη (απροσδιόριστο), Haemophilus influenzae τύπου β (συζευγμένο, απροσδιόριστο) και παιδιατρικό εμβόλιο ηπατίτιδας Β (ανασυνδυασμένο)"@el .
+
+<http://ivci.org/NUVA/VAC0600> rdfs:label "OPV bivalent 1-3, unspecified"@el ;
+    rdfs:comment "Εμβόλιο πολιομυελίτιδας (ζωντανό εξασθενημένο, δισθενές) κατά των τύπων 1 και 3 του ιού της πολιομυελίτιδας, από του στόματος"@el .
+
+<http://ivci.org/NUVA/VAC0601> rdfs:label "DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified"@el ;
+    rdfs:comment "Παιδιατρικό εμβόλιο διφθεριτικού τοξοειδούς (τυπική δόση), τετανικού τοξοειδούς και ολόσωμου αδρανοποιημένου ή ακανθοκυτταρικού κοκκύτη (δόση απροσδιόριστη)"@el .
+
+<http://ivci.org/NUVA/VAC0602> rdfs:label "DTaP - Diphtheria-Tetanus-Pertussis vaccine, standard dose, unspecified"@el ;
+    rdfs:comment "Παιδιατρικό εμβόλιο διφθερίτιδας (τυπική δόση), τοξικοειδούς τετάνου και πολυδύναμου οξυτενούς κοκκύτη (τυπική δόση)"@el .
+
+<http://ivci.org/NUVA/VAC0610> rdfs:label "Tdap - Diphtheria-Tetanus-Pertussis vaccine, low dose, unspecified"@el ;
+    rdfs:comment "Εμβόλιο διφθερίτιδας (χαμηλή δόση), τοξοειδούς τετάνου και πολυσύνθετο εμβόλιο οξυτενούς κοκκύτη (χαμηλή δόση)"@el .
+
+<http://ivci.org/NUVA/VAC0623> rdfs:label "Measles-mumps vaccine, unspecified"@el ;
+    rdfs:comment "Ζωντανό εξασθενημένο εμβόλιο ιλαράς και παρωτίτιδας"@el .
+
+<http://ivci.org/NUVA/VAC0643> rdfs:label "Meningococcal ACWY conjugate vaccine, unspecified"@el ;
+    rdfs:comment "Τετραδύναμο συζευγμένο εμβόλιο κατά του μηνιγγιτιδόκοκκου των οροομάδων A, C, W και Y"@el .
+
+<http://ivci.org/NUVA/VAC0648> rdfs:label "COVID-19 vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο COVID-19"@el .
+
+<http://ivci.org/NUVA/VAC0653> rdfs:label "Hepatitis A + Hepatitis B vaccine Child, unspecified"@el ;
+    rdfs:comment "Συνδυασμένο εμβόλιο ηπατίτιδας Α και Β, παιδιατρική δόση"@el .
+
+<http://ivci.org/NUVA/VAC0654> rdfs:label "Hepatitis A + Hepatitis B vaccine Adult, unspecified"@el ;
+    rdfs:comment "Συνδυασμένο εμβόλιο κατά της ηπατίτιδας Α και Β, δόση για ενήλικες"@el .
+
+<http://ivci.org/NUVA/VAC0655> rdfs:label "Diphtheria vaccine, unspecified"@el ;
+    rdfs:comment "Τοξοειδές διφθερίτιδας (απροσδιόριστη δόση)"@el .
+
+<http://ivci.org/NUVA/VAC0711> rdfs:label "Typhoid conjugate vaccine, unspecified"@el ;
+    rdfs:comment "Πολυσακχαριδικό συζευγμένο εμβόλιο τυφοειδούς"@el .
+
+<http://ivci.org/NUVA/VAC0712> rdfs:label "Typhoid-hepatitis A vaccine, unspecified"@el ;
+    rdfs:comment "Συνδυασμένο εμβόλιο τύφου και ηπατίτιδας Α"@el .
+
+<http://ivci.org/NUVA/VAC0713> rdfs:label "Typhoid polysaccharide vaccine, unspecified"@el ;
+    rdfs:comment "Πολυσακχαριδικό εμβόλιο τύφου (καψικό αντιγόνο Vi)"@el .
+
+<http://ivci.org/NUVA/VAC0775> rdfs:label "DTwPHib, unspecified"@el ;
+    rdfs:comment "Παιδιατρικό εμβόλιο διφθεριτικού τοξοειδούς (τυπική δόση), τοξοειδούς τετάνου, αδρανοποιημένου κοκκύτη ολικών κυττάρων και αιμόφιλου γρίπης τύπου β (συζευγμένο ακαθόριστο)"@el .
+
+<http://ivci.org/NUVA/VAC0787> rdfs:label "Diphtheria-Tetanus-Rubella, unspecified"@el ;
+    rdfs:comment "Εμβόλιο διφθερίτιδας τοξοειδούς (απροσδιόριστη δόση), τοξοειδούς τετάνου και ερυθράς (ζωντανό εξασθενημένο)"@el .
+
+<http://ivci.org/NUVA/VAC0788> rdfs:label "Hib-IPV, unspecified"@el ;
+    rdfs:comment "Εμβόλιο Haemophilus influenzae τύπου β (συζευγμένο, μη προσδιορισμένο) και αδρανοποιημένο εμβόλιο πολιομυελίτιδας (τρισθενές)"@el .
+
+<http://ivci.org/NUVA/VAC0790> rdfs:label "Diphtheria-Tetanus-Hepatitis B vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο διφθερίτιδας τοξοειδούς (απροσδιόριστη δόση), τοξοειδούς τετάνου και ηπατίτιδας Β (ανασυνδυασμένο)"@el .
+
+<http://ivci.org/NUVA/VAC0791> rdfs:label "Εξασθενές εμβόλιο διφθερίτιδας-τετάνου-κοκκύτη-πολιο-χιμπ-ηπατίτιδας Β, ακαθόριστο"@el ;
+    rdfs:comment "Τοξοειδές διφθερίτιδας (τυπική δόση), τοξοειδές τετάνου, κοκκύτη (μη προσδιοριζόμενο), Haemophilus influenzae τύπου β (συζευγμένο μη προσδιοριζόμενο), αδρανοποιημένο εμβόλιο πολιομυελίτιδας (τρισθενές) και παιδιατρικό εμβόλιο ηπατίτιδας Β (ανασυνδυασμένο)"@el .
+
+<http://ivci.org/NUVA/VAC0792> rdfs:label "Diphtheria-Tetanus-Pertussis-Polio-Hepatitis B pentavalent vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο διφθερίτιδας τοξοειδές (απροσδιόριστη δόση), τοξοειδές τετάνου, οξυτενή ή ολικά αδρανοποιημένο κοκκύτη (απροσδιόριστη δόση), αδρανοποιημένη πολιομυελίτιδα (τρισθενές) και ηπατίτιδα Β (ανασυνδυασμένο)"@el .
+
+<http://ivci.org/NUVA/VAC0794> rdfs:label "T-igT, unspecified"@el ;
+    rdfs:comment "Εμβόλιο τοξοειδούς τετάνου σε συνδυασμό με ανοσοσφαιρίνη τετάνου"@el .
+
+<http://ivci.org/NUVA/VAC0795> rdfs:label "Acellular pertussis vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο κυτταρικού κοκκύτη, δόση απροσδιόριστη"@el .
+
+<http://ivci.org/NUVA/VAC0796> rdfs:label "Pertussis vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο κοκκύτη (κυτταρικό ή ολικό αδρανοποιημένο)"@el .
+
+<http://ivci.org/NUVA/VAC0797> rdfs:label "Diph-T-aP/ap, unspecified"@el ;
+    rdfs:comment "Εμβόλιο τοξοειδούς διφθερίτιδας (απροσδιόριστη δόση), τοξοειδούς τετάνου και οξυτενούς κοκκύτη (απροσδιόριστη δόση)"@el .
+
+<http://ivci.org/NUVA/VAC0798> rdfs:label "Hib-MeningoC vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο κατά του αιμόφιλου influenzae τύπου β και του μηνιγγιτιδόκοκκου C συζευγμένο εμβόλιο"@el .
+
+<http://ivci.org/NUVA/VAC0799> rdfs:label "DT-Hib vaccine, unspecified"@el ;
+    rdfs:comment "Παιδιατρικό εμβόλιο διφθεριτικού τοξοειδούς (τυπική δόση), τετανικού τοξοειδούς και αιμόφιλου γρίπης τύπου β (συζευγμένου ακαθόριστου)"@el .
+
+<http://ivci.org/NUVA/VAC0800> rdfs:label "Diphtheria-tetanus-pertussis-Hib vaccine, unspecified"@el ;
+    rdfs:comment "Παιδιατρικό εμβόλιο διφθερίτιδας (τυπική δόση), τοξοειδούς τετάνου, κοκκύτη (κυτταρική τυπική δόση ή ολικά αδρανοποιημένο) και Haemophilus influenzae τύπου β (συζευγμένο, μη προσδιοριζόμενο)"@el .
+
+<http://ivci.org/NUVA/VAC0801> rdfs:label "HepB-Hib, unspecified"@el ;
+    rdfs:comment "Εμβόλιο Haemophilus influenzae τύπου β και ηπατίτιδας Β"@el .
+
+<http://ivci.org/NUVA/VAC0802> rdfs:label "Monovalent oral polio vaccine - type unknown, unspecified"@el ;
+    rdfs:comment "Εμβόλιο πολιομυελίτιδας (ζωντανό εξασθενημένο, μονοδύναμο), από του στόματος"@el .
+
+<http://ivci.org/NUVA/VAC0804> rdfs:label "Anthrax vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο κατά του άνθρακα"@el .
+
+<http://ivci.org/NUVA/VAC0805> rdfs:label "Whole-cell inactivated cholera vaccine, unspecified"@el ;
+    rdfs:comment "Αδρανοποιημένο ολικό εμβόλιο χολέρας για ένεση"@el .
+
+<http://ivci.org/NUVA/VAC0806> rdfs:label "Live attenuated cholera vaccine, unspecified"@el ;
+    rdfs:comment "Ζωντανό εξασθενημένο εμβόλιο χολέρας"@el .
+
+<http://ivci.org/NUVA/VAC0807> rdfs:label "Cholera-Typhoid inactivated vaccine, unspecified"@el ;
+    rdfs:comment "Αδρανοποιημένο εμβόλιο χολέρας ολικών κυττάρων σε συνδυασμό με αδρανοποιημένο εμβόλιο τύφου ολικών κυττάρων, ενέσιμο"@el .
+
+<http://ivci.org/NUVA/VAC0808> rdfs:label "Hib-MenCY, unspecified"@el ;
+    rdfs:comment "Εμβόλιο Haemophilus influenzae τύπου β και συζευγμένο εμβόλιο κατά του μηνιγγιτιδόκοκκου C και Y"@el .
+
+<http://ivci.org/NUVA/VAC0809> rdfs:label "Meningococcal monovalent polysaccharide vaccine, unspecified"@el ;
+    rdfs:comment "Μηνιγγιτιδοκοκκικό μονοδύναμο εμβόλιο, συζευγμένο ή μη συζευγμένο πολυσακχαρίτη"@el .
+
+<http://ivci.org/NUVA/VAC0810> rdfs:label "Meningococcal polyvalent polysaccharide vaccine, unspecified"@el ;
+    rdfs:comment "Πολυδύναμο μη συζευγμένο πολυσακχαριδικό εμβόλιο κατά του μηνιγγιτιδόκοκκου"@el .
+
+<http://ivci.org/NUVA/VAC0811> rdfs:label "Meningococcal B vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο μηνιγγιτιδοκόκκου Β, τύπος εμβολίου απροσδιόριστος"@el .
+
+<http://ivci.org/NUVA/VAC0812> rdfs:label "Inactivated whole plague vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο πανώλης - ολόκληρο αδρανοποιημένο"@el .
+
+<http://ivci.org/NUVA/VAC0813> rdfs:label "Pneumococcal unconjugated polysaccharide vaccine, unspecified"@el ;
+    rdfs:comment "Πνευμονιοκοκκικό εμβόλιο μη συζευγμένου πολυσακχαρίτη, ορότυποι απροσδιόριστοι"@el .
+
+<http://ivci.org/NUVA/VAC0814> rdfs:label "Pneumococcal conjugate vaccine, serotypes unspecified"@el ;
+    rdfs:comment "Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, αριθμός ορότυπων απροσδιόριστος"@el .
+
+<http://ivci.org/NUVA/VAC0815> rdfs:label "Pneumo-Hib, unspecified"@el ;
+    rdfs:comment "Εμβόλιο Haemophilus influenzae τύπου b και πνευμονιοκοκκικό εμβόλιο - συζευγμένο, μη καθορισμένο"@el .
+
+<http://ivci.org/NUVA/VAC0817> rdfs:label "Inactivated Typhoid vaccine, unspecified"@el ;
+    rdfs:comment "Αδρανοποιημένο εμβόλιο τύφου ολικού κυττάρου"@el .
+
+<http://ivci.org/NUVA/VAC0818> rdfs:label "Typhoid-Paratyphoid vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο τυφοειδούς και παρατυφοειδούς, ολόκληρο αδρανοποιημένο"@el .
+
+<http://ivci.org/NUVA/VAC0819> rdfs:label "Inactivated Japanese Encephalitis vaccine, unspecified"@el ;
+    rdfs:comment "Αδρανοποιημένο εμβόλιο ιαπωνικής εγκεφαλίτιδας με ολόκληρο ιό"@el .
+
+<http://ivci.org/NUVA/VAC0820> rdfs:label "Inactivated whole influenza vaccine, unspecified"@el ;
+    rdfs:comment "Αδρανοποιημένο εμβόλιο εποχικής γρίπης με ολόκληρο τον ιό"@el .
+
+<http://ivci.org/NUVA/VAC0821> rdfs:label "Inactivated influenza vaccine, split or subunit, unspecified"@el ;
+    rdfs:comment "Αδρανοποιημένο εμβόλιο εποχικής γρίπης"@el .
+
+<http://ivci.org/NUVA/VAC0822> rdfs:label "Influenza vaccine, live attenuated, unspecified"@el ;
+    rdfs:comment "Εμβόλιο εποχικής γρίπης, ζωντανό εξασθενημένο"@el .
+
+<http://ivci.org/NUVA/VAC0823> rdfs:label "VLP influenza vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο εποχικής γρίπης με σωματίδια που μοιάζουν με ιό (VLP)"@el .
+
+<http://ivci.org/NUVA/VAC0824> rdfs:label "Hepatitis A virosome vaccine, unspecified"@el ;
+    rdfs:comment "Αδρανοποιημένο εμβόλιο ηπατίτιδας Α, ιοσωμικό, παιδιατρικό ή ενηλίκων"@el .
+
+<http://ivci.org/NUVA/VAC0825> rdfs:label "Combined hepatitis A and hepatitis B vaccine, unspecified"@el ;
+    rdfs:comment "Συνδυασμένο εμβόλιο ηπατίτιδας Α και Β"@el .
+
+<http://ivci.org/NUVA/VAC0827> rdfs:label "MMRV - Measles-Mumps-Rubella-Varicella vaccine, unspecified"@el ;
+    rdfs:comment "Ζωντανό εξασθενημένο εμβόλιο ιλαράς, παρωτίτιδας, ερυθράς και ανεμευλογιάς"@el .
+
+<http://ivci.org/NUVA/VAC0828> rdfs:label "Rotavirus pentavalent vaccine, unspecified"@el ;
+    rdfs:comment "Ζωντανό εξασθενημένο εμβόλιο πενταδύναμου ροταϊού, από του στόματος"@el .
+
+<http://ivci.org/NUVA/VAC0829> rdfs:label "Rubella-Mumps vaccine, unspecified"@el ;
+    rdfs:comment "Ζωντανό εξασθενημένο εμβόλιο ερυθράς και παρωτίτιδας"@el .
+
+<http://ivci.org/NUVA/VAC0830> rdfs:label "Subunit shingles vaccine, unspecified"@el ;
+    rdfs:comment "Υπομονάδα εμβολίου κατά του έρπητα ζωστήρα (επί του παρόντος αντιστοιχεί στη γλυκοπρωτεΐνη Ε)"@el .
+
+<http://ivci.org/NUVA/VAC0831> rdfs:label "Ebola vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο κατά του ιού Έμπολα"@el .
+
+<http://ivci.org/NUVA/VAC0832> rdfs:label "Herpes Simplex vaccine, unspecified"@el ;
+    rdfs:comment "Αδρανοποιημένο εμβόλιο κατά του απλού έρπητα"@el .
+
+<http://ivci.org/NUVA/VAC0839> rdfs:label "Inactivated whole-cell brucella vaccine, unspecified"@el ;
+    rdfs:comment "Ολοκληρωμένο αδρανοποιημένο εμβόλιο βρουκέλλωσης"@el .
+
+<http://ivci.org/NUVA/VAC0849> rdfs:label "Εμβόλιο για την τουλαραιμία, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο τουλαραιμίας"@el .
+
+<http://ivci.org/NUVA/VAC0852> rdfs:label "mOPV2 Sabin μονοσθενές από του στόματος εμβόλιο πολιομυελίτιδας τύπου 2, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο πολιομυελίτιδας (ζωντανό εξασθενημένο, μονοδύναμο) κατά των πολιοϊών τύπου 2, από του στόματος"@el .
+
+<http://ivci.org/NUVA/VAC0853> rdfs:label "mOPV1 Sabin μονοσθενές από του στόματος εμβόλιο πολιομυελίτιδας τύπου 1, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο πολιομυελίτιδας (ζωντανό εξασθενημένο, μονοδύναμο) κατά του ιού της πολιομυελίτιδας τύπου 1, από του στόματος"@el .
+
+<http://ivci.org/NUVA/VAC0854> rdfs:label "mOPV3 Sabin μονοσθενές από του στόματος εμβόλιο πολιομυελίτιδας τύπου 3, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο πολιομυελίτιδας (ζωντανό εξασθενημένο, μονοδύναμο) κατά του πολιοϊού τύπου 3, από του στόματος"@el .
+
+<http://ivci.org/NUVA/VAC0855> rdfs:label "Εμβόλιο διφθερίτιδας-τετάνου-πολυομυελίτιδας, απροσδιόριστο"@el ;
+    rdfs:comment "Τοξοειδές διφθερίτιδας (απροσδιόριστη δόση), τοξοειδές τετάνου και αδρανοποιημένο εμβόλιο πολιομυελίτιδας (τρισθενές), προσροφημένο"@el .
+
+<http://ivci.org/NUVA/VAC0856> rdfs:label "Εμβόλιο DTaPHib, απροσδιόριστο"@el ;
+    rdfs:comment "Παιδιατρικό εμβόλιο διφθεριτικού τοξοειδούς (τυπική δόση), τετανικού τοξοειδούς και πολυσυσύνθετου οξυτενούς κοκκύτη (τυπική δόση) και Haemophilus influenzae τύπου b (συζευγμένο, μη καθορισμένο)"@el .
+
+<http://ivci.org/NUVA/VAC0857> rdfs:label "Εμβόλιο διφθερίτιδας-τετάνου-κοκκύτη-Ηπατίτιδας Β, απροσδιόριστο"@el ;
+    rdfs:comment "Παιδιατρικό εμβόλιο διφθερίτιδας τοξοειδούς (τυπική δόση), τετάνου τοξοειδούς, κοκκύτη (κυτταρικό τυπική δόση ή ολικά αδρανοποιημένο) και ηπατίτιδας Β (ανασυνδυασμένο)"@el .
+
+<http://ivci.org/NUVA/VAC0858> rdfs:label "Εμβόλιο HPV δισθενές, απροσδιόριστο"@el ;
+    rdfs:comment "Δυαδικό ανασυνδυασμένο εμβόλιο κατά του ιού των ανθρώπινων θηλωμάτων, τύποι 16 και 18"@el .
+
+<http://ivci.org/NUVA/VAC0859> rdfs:label "Εμβόλιο HPV τετραδύναμο, απροσδιόριστο"@el ;
+    rdfs:comment "Τετραδύναμο ανασυνδυασμένο εμβόλιο του ιού των ανθρώπινων θηλωμάτων, τύποι 6, 11, 16 και 18"@el .
+
+<http://ivci.org/NUVA/VAC0860> rdfs:label "Εμβόλιο HPV μη δυναμικό, απροσδιόριστο"@el ;
+    rdfs:comment "Μη σφαιρικό ανασυνδυασμένο εμβόλιο για τον ιό των ανθρώπινων θηλωμάτων, τύποι 6, 11, 16, 18, 31, 33, 45, 52 και 58"@el .
+
+<http://ivci.org/NUVA/VAC0861> rdfs:label "Πολυσυστατικό εμβόλιο μηνιγγιτιδοκοκκικού Β, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο κατά του μηνιγγιτιδόκοκκου οροομάδας Β (πολυσύνθετο - πολλαπλές πρωτεΐνες)"@el .
+
+<http://ivci.org/NUVA/VAC0862> rdfs:label "Ανοσοσφαιρίνη ιλαράς, απροσδιόριστη"@el ;
+    rdfs:comment "Ανοσοσφαιρίνη ιλαράς"@el .
+
+<http://ivci.org/NUVA/VAC0863> rdfs:label "Ανοσοσφαιρίνη ηπατίτιδας Β, μη καθορισμένη"@el ;
+    rdfs:comment "Ανοσοσφαιρίνη ηπατίτιδας Β"@el .
+
+<http://ivci.org/NUVA/VAC0864> rdfs:label "Ανοσοσφαιρίνη ανεμευλογιάς-ζωστήρα, μη καθορισμένη"@el ;
+    rdfs:comment "Ανοσοσφαιρίνη Varicella-Zoster"@el .
+
+<http://ivci.org/NUVA/VAC0865> rdfs:label "Εμβόλιο πολυσακχαρίτη μηνιγγιτιδοκοκκικού Α, απροσδιόριστο"@el ;
+    rdfs:comment "Μη συζευγμένο πολυσακχαριδικό εμβόλιο κατά του μηνιγγιτιδόκοκκου, οροομάδα Α"@el .
+
+<http://ivci.org/NUVA/VAC0866> rdfs:label "Μηνιγγιτιδοκοκκικό συζευγμένο εμβόλιο Α, απροσδιόριστο"@el ;
+    rdfs:comment "Πολυσακχαριδικό συζευγμένο εμβόλιο μηνιγγιτιδοκόκκου Α"@el .
+
+<http://ivci.org/NUVA/VAC0867> rdfs:label "Αντιτοξίνη διφθερίτιδας, μη καθορισμένη"@el ;
+    rdfs:comment "Αντιτοξίνη διφθερίτιδας"@el .
+
+<http://ivci.org/NUVA/VAC0880> rdfs:label "Πενταδύναμο εμβόλιο διφθερίτιδας-τετάνου-κοκκύτη-Hib-πολυομυελίτιδας (DTPerHibIPV), μη καθορισμένο"@el ;
+    rdfs:comment "Παιδιατρικό εμβόλιο διφθερίτιδας τοξοειδούς (τυπική δόση), τετάνου τοξοειδούς, κοκκύτη (μη προσδιοριζόμενο), συζευγμένο Haemophilus influenzae τύπου β (συζευγμένο, μη προσδιοριζόμενο) και αδρανοποιημένο εμβόλιο πολιομυελίτιδας (τρισθενές), προσροφημένο"@el .
+
+<http://ivci.org/NUVA/VAC0881> rdfs:label "Ζωντανό εξασθενημένο εμβόλιο Ιαπωνικής Εγκεφαλίτιδας, απροσδιόριστο"@el ;
+    rdfs:comment "Ζωντανό εξασθενημένο εμβόλιο ιαπωνικής εγκεφαλίτιδας, στέλεχος και πλατφόρμα παραγωγής που δεν προσδιορίζεται"@el .
+
+<http://ivci.org/NUVA/VAC0894> rdfs:label "Adenovirus vaccine, unspecified"@el ;
+    rdfs:comment "Εμβόλιο αδενοϊού, απροσδιόριστου τύπου"@el .
+
+<http://ivci.org/NUVA/VAC0895> rdfs:label "Εμβόλιο εγκεφαλίτιδας ιπποειδών της Βενεζουέλας, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο κατά της εγκεφαλίτιδας των ιπποειδών της Βενεζουέλας"@el .
+
+<http://ivci.org/NUVA/VAC0896> rdfs:label "Q-Fieber-Impfstoff, nicht näher bezeichnet"@el ;
+    rdfs:comment "Εμβόλιο κατά του πυρετού Q"@el .
+
+<http://ivci.org/NUVA/VAC0897> rdfs:label "Εμβόλιο Hantavirus, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο κατά του ιού της χανταΐας"@el .
+
+<http://ivci.org/NUVA/VAC0898> rdfs:label "Εμβόλιο λεϊσμανίασης, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο κατά της λεϊσμανίασης"@el .
+
+<http://ivci.org/NUVA/VAC0899> rdfs:label "Εμβόλιο για τον ιό της ανθρώπινης παραγρίπης, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο κατά του ιού της ανθρώπινης παραϊνφλουέντσας"@el .
+
+<http://ivci.org/NUVA/VAC0902> rdfs:label "Αντιλυσσικό εμβόλιο Semple τύπου, απροσδιόριστος"@el ;
+    rdfs:comment "Αδρανοποιημένο εμβόλιο κατά της λύσσας, παρασκευασμένο από εγκεφαλικό ιστό αίγας ή προβάτου που έχει μολυνθεί με τον ιό της λύσσας, περιέχει μυελίνη."@el .
+
+<http://ivci.org/NUVA/VAC0903> rdfs:label "Αντιλυσσικό εμβόλιο τύπου Fuenzalida, απροσδιόριστος"@el ;
+    rdfs:comment "Αδρανοποιημένο εμβόλιο κατά της λύσσας με ολόκληρο τον ιό, παρασκευασμένο από ιστό εγκεφάλου θηλαστικού ποντικού μολυσμένου με τον ιό της λύσσας, μειωμένη περιεκτικότητα σε μυελίνη"@el .
+
+<http://ivci.org/NUVA/VAC0904> rdfs:label "Εμβόλιο εμβρύου πάπιας λύσσας, απροσδιόριστο"@el ;
+    rdfs:comment "Αδρανοποιημένο εμβόλιο κατά της λύσσας με ολόκληρο τον ιό, εμβόλιο καθαρισμένου εμβρύου πάπιας (PDEV), αδρανοποίηση με β-προπιολάκτον."@el .
+
+<http://ivci.org/NUVA/VAC0905> rdfs:label "Αντιλυσσικό εμβόλιο PHKCV, απροσδιόριστο"@el ;
+    rdfs:comment "Αδρανοποιημένο εμβόλιο λύσσας με ολόκληρο τον ιό, με βάση την κυτταροκαλλιέργεια, εμβόλιο πρωτογενών νεφρικών κυττάρων χάμστερ (PHKCV), στέλεχος Beijing, αδρανοποίηση με φορμόλη"@el .
+
+<http://ivci.org/NUVA/VAC0906> rdfs:label "Εμβόλιο κατά του έρπητα ζωστήρα, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο κατά του έρπητα ζωστήρα"@el .
+
+<http://ivci.org/NUVA/VAC0907> rdfs:label "Εμβόλιο κατά του αδενοϊού τύπου 4, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο κατά του αδενοϊού τύπου 4"@el .
+
+<http://ivci.org/NUVA/VAC0908> rdfs:label "Εμβόλιο κατά του αδενοϊού τύπου 7, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο κατά του αδενοϊού τύπου 7"@el .
+
+<http://ivci.org/NUVA/VAC0909> rdfs:label "Αντιτοξίνη αλλαντίασης"@el ;
+    rdfs:comment "Αντιτοξίνη κατά της αλλαντίασης"@el .
+
+<http://ivci.org/NUVA/VAC0910> rdfs:label "Αδρανοποιημένο εμβόλιο ηπατίτιδας Α, δόση για ενήλικες, μη καθορισμένη"@el ;
+    rdfs:comment "Αδρανοποιημένο εμβόλιο ηπατίτιδας Α, δόση για ενήλικες"@el .
+
+<http://ivci.org/NUVA/VAC0911> rdfs:label "Ολόκληρο αδρανοποιημένο εμβόλιο ηπατίτιδας Α, μονοσθενές, παιδιατρική δόση, απροσδιόριστο"@el ;
+    rdfs:comment "Αδρανοποιημένο εμβόλιο ολόκληρου του ιού, μονοδύναμο, παιδιατρική δόση"@el .
+
+<http://ivci.org/NUVA/VAC0912> rdfs:label "Εμβόλιο ηπατίτιδας Α, παιδιατρική δόση, απροσδιόριστη"@el ;
+    rdfs:comment "Ολόκληρος ιός Αδρανοποιημένο εμβόλιο ηπατίτιδας Α, παιδιατρική δόση, μη καθορισμένη σύνθεση (μονοδύναμο ή δισθενές με ηπατίτιδα Β)"@el .
+
+<http://ivci.org/NUVA/VAC0914> rdfs:label "Εμβόλιο ηπατίτιδας Β, μονοσθενές, παιδιατρική δόση, απροσδιόριστο"@el ;
+    rdfs:comment "Ανασυνδυασμένο εμβόλιο ηπατίτιδας Β, μονοδύναμο, παιδιατρική δόση"@el .
+
+<http://ivci.org/NUVA/VAC0915> rdfs:label "Εμβόλιο ηπατίτιδας Β, μονοσθενές, δόση για ενήλικες, απροσδιόριστο"@el ;
+    rdfs:comment "Ανασυνδυασμένο εμβόλιο ηπατίτιδας Β, μονοδύναμο, δόση για ενήλικες"@el .
+
+<http://ivci.org/NUVA/VAC0916> rdfs:label "Εμβόλιο ηπατίτιδας Β, μονοσθενές, δοσολογία ασθενούς σε αιμοκάθαρση, απροσδιόριστη"@el ;
+    rdfs:comment "Ανασυνδυασμένο εμβόλιο ηπατίτιδας Β, μονοδύναμο, δοσολογημένο για ασθενείς με αιμοκάθαρση"@el .
+
+<http://ivci.org/NUVA/VAC0917> rdfs:label "Εμβόλιο ηπατίτιδας Ε, απροσδιόριστο"@el ;
+    rdfs:comment "Ανασυνδυασμένο πεπτιδικό εμβόλιο κατά της ηπατίτιδας Ε"@el .
+
+<http://ivci.org/NUVA/VAC0918> rdfs:label "Εμβόλιο PRP-D Hib, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο συζευγμένου εμβολίου Hemophilus influenzae τύπου b αποτελούμενο από PRP (φωσφορική πολυριβοσυλριβιτόλη) συζευγμένο με τοξοειδές διφθερίτιδας"@el .
+
+<http://ivci.org/NUVA/VAC0919> rdfs:label "Εμβόλιο Hib hbOC, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο Haemophilus influenzae τύπου β, καψικά ολιγοσίδια (φωσφορική πολυριβοσυλριβιτόλη, PRP) συζευγμένα με μεταλλαγμένη διφθεριτική τοξίνη CRM197"@el .
+
+<http://ivci.org/NUVA/VAC0920> rdfs:label "Εμβόλιο διφθερίτιδας-τετάνου Td, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο διφθερίτιδας (τοξοειδές, μειωμένη δόση) και τετάνου (τοξοειδές)"@el .
+
+<http://ivci.org/NUVA/VAC0921> rdfs:label "Ιαπωνικό εμβόλιο εγκεφαλίτιδας, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο ιαπωνικής εγκεφαλίτιδας"@el .
+
+<http://ivci.org/NUVA/VAC0922> rdfs:label "Εμβόλιο ζωντανού εξασθενημένου αδενοϊού, τύπου 4 και τύπου 7, από του στόματος"@el ;
+    rdfs:comment "Εμβόλιο κατά του αδενοϊού τύπου 7 και 4"@el .
+
+<http://ivci.org/NUVA/VAC0923> rdfs:label "Μονόκλωνο αντίσωμα αναπνευστικού συγκυτιακού ιού, απροσδιόριστο"@el ;
+    rdfs:comment "Μονοκλωνικό αντίσωμα κατά του RSV"@el .
+
+<http://ivci.org/NUVA/VAC0925> rdfs:label "Τριδύναμο αδρανοποιημένο εμβόλιο γρίπης, απροσδιόριστο"@el ;
+    rdfs:comment "Τρισθενές αδρανοποιημένο εμβόλιο εποχικής γρίπης, διαιρεμένο ή υπομονάδα, τυπική δόση"@el .
+
+<http://ivci.org/NUVA/VAC0927> rdfs:label "Εμβόλιο mRNA COVID-19, παιδιατρική δόση, απροσδιόριστη"@el ;
+    rdfs:comment "Εμβόλιο COVID-19 mRNA, παιδιατρική δόση"@el .
+
+<http://ivci.org/NUVA/VAC0928> rdfs:label "Ζωντανό εξασθενημένο εμβόλιο ηπατίτιδας Α, απροσδιόριστο"@el ;
+    rdfs:comment "Ζωντανό εξασθενημένο εμβόλιο ηπατίτιδας Α"@el .
+
+<http://ivci.org/NUVA/VAC0929> rdfs:label "Τετραδύναμο αδρανοποιημένο εμβόλιο κατά της γρίπης, παιδιατρική δόση, απροσδιόριστη"@el ;
+    rdfs:comment "Εμβόλιο εποχικής γρίπης, αδρανοποιημένο, τετραδύναμο, παιδιατρική δόση"@el .
+
+<http://ivci.org/NUVA/VAC0932> rdfs:label "Τετραδύναμο ανασυνδυασμένο εμβόλιο γρίπης, απροσδιόριστο"@el ;
+    rdfs:comment "Τετραδύναμο ανασυνδυασμένο εμβόλιο εποχικής γρίπης"@el .
+
+<http://ivci.org/NUVA/VAC0937> rdfs:label "Εμβόλιο αλλαντίασης, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο αλλαντίασης"@el .
+
+<http://ivci.org/NUVA/VAC0938> rdfs:label "Τετραδύναμο εμβόλιο γρίπης, απροσδιόριστο"@el ;
+    rdfs:comment "Τετραδύναμο αδρανοποιημένο εμβόλιο εποχικής γρίπης, εμβόλιο διαιρεμένου ιού ή επιφανειακού αντιγόνου"@el .
+
+<http://ivci.org/NUVA/VAC0941> rdfs:label "Ανοσοσφαιρίνη κατά του άνθρακα, απροσδιόριστη"@el ;
+    rdfs:comment "Ανοσοσφαιρίνη Antrax"@el .
+
+<http://ivci.org/NUVA/VAC0942> rdfs:label "Εμβόλιο λύσσας εμβρύου κοτόπουλου, απροσδιόριστο"@el ;
+    rdfs:comment "Αδρανοποιημένο πλήρες εμβόλιο λύσσας, καλλιεργημένο σε κύτταρα εμβρύου κοτόπουλου (CEEC), αδρανοποιημένο με β-προπιολάκτον."@el .
+
+<http://ivci.org/NUVA/VAC0943> rdfs:label "Διπλοειδή κύτταρα αντιλυσσικού εμβολίου, απροσδιόριστα"@el ;
+    rdfs:comment "Αδρανοποιημένο πλήρες εμβόλιο λύσσας, παρασκευασμένο σε ανθρώπινη διπλοειδή κυτταροκαλλιέργεια (HDCV) MRC-5, αδρανοποιημένο με β-προπιολάκτονη"@el .
+
+<http://ivci.org/NUVA/VAC0944> rdfs:label "Απενεργοποιημένο από του στόματος εμβόλιο χολέρας ολόκληρου ιού, απροσδιόριστο"@el ;
+    rdfs:comment "Αδρανοποιημένο ολικό εμβόλιο χολέρας από το στόμα"@el .
+
+<http://ivci.org/NUVA/VAC0945> rdfs:label "Άγνωστη οροομάδα εμβολίου μηνιγγιτιδοκοκκικού, απροσδιόριστη"@el ;
+    rdfs:comment "Μηνιγγιτιδοκοκκικό εμβόλιο με απροσδιόριστη οροομάδα"@el .
+
+<http://ivci.org/NUVA/VAC0997> rdfs:label "Πνευμονιόκοκκο 13-δύναμο συζευγμένο εμβόλιο, απροσδιόριστο"@el ;
+    rdfs:comment "13-δύναμο συζευγμένο εμβόλιο πνευμονιόκοκκου, προσροφημένο, ορότυποι 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F και 23F"@el .
+
+<http://ivci.org/NUVA/VAC1037> rdfs:label "Εμβόλιο εγκεφαλίτιδας από κρότωνες, στέλεχος Neudörfl, παιδιατρική δόση, μη καθορισμένη"@el ;
+    rdfs:comment "Εμβόλιο εγκεφαλίτιδας που μεταδίδεται από κρότωνες, αδρανοποιημένο από ολόκληρο τον ιό, στέλεχος Neudörfl, παιδιατρική δόση"@el .
+
+<http://ivci.org/NUVA/VAC1038> rdfs:label "Εμβόλιο εγκεφαλίτιδας που μεταδίδεται από κρότωνες, στέλεχος Neudörfl, δόση ενηλίκων, μη καθορισμένη"@el ;
+    rdfs:comment "Εμβόλιο εγκεφαλίτιδας που μεταδίδεται από κρότωνες, αδρανοποιημένο από ολόκληρο τον ιό, στέλεχος Neudörfl, δόση ενηλίκων"@el .
+
+<http://ivci.org/NUVA/VAC1039> rdfs:label "Εμβόλιο mRNA COVID-19, αρχικός ιός, 50 μg, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο mRNA COVID-19, αρχικός ιός, 50 μικρογραμμάρια ανά δόση"@el .
+
+<http://ivci.org/NUVA/VAC1041> rdfs:label "Εμβόλιο RNA COVID-19, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο RNA COVID-19"@el .
+
+<http://ivci.org/NUVA/VAC1042> rdfs:label "Εμβόλιο COVID-19, μη αναπαραγόμενος ιικός φορέας, απροσδιόριστος"@el ;
+    rdfs:comment "Εμβόλιο COVID-19, μη αναπαραγόμενος ιικός φορέας"@el .
+
+<http://ivci.org/NUVA/VAC1043> rdfs:label "Εμβόλιο COVID-19, υπομονάδα πρωτεΐνης, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο COVID-19, υπομονάδα πρωτεΐνης"@el .
+
+<http://ivci.org/NUVA/VAC1044> rdfs:label "Εμβόλιο COVID-19, αδρανοποιημένο ολόκληρο ιοσωμάτιο, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο COVID-19, ολόκληρο το ιοσωμάτιο απενεργοποιημένο"@el .
+
+<http://ivci.org/NUVA/VAC1062> rdfs:label "CMV ανοσοσφαιρίνη"@el ;
+    rdfs:comment "Ανοσοσφαιρίνη κυτταρομεγαλοϊού, ενδοφλέβια"@el .
+
+<http://ivci.org/NUVA/VAC1063> rdfs:label "Εμβόλιο ηπατίτιδας C, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο ηπατίτιδας C, απροσδιόριστο"@el .
+
+<http://ivci.org/NUVA/VAC1064> rdfs:label "Εμβόλιο HIV, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο HIV, απροσδιόριστο"@el .
+
+<http://ivci.org/NUVA/VAC1065> rdfs:label "Leprosy vaccine"@el ;
+    rdfs:comment "Εμβόλιο λέπρας, απροσδιόριστο"@el .
+
+<http://ivci.org/NUVA/VAC1066> rdfs:label "Εμβόλιο μελανώματος, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο μελανώματος, απροσδιόριστο"@el .
+
+<http://ivci.org/NUVA/VAC1067> rdfs:label "Εμβόλιο Streptococcus pyogenes, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο Streptococcus pyogenes, απροσδιόριστο"@el .
+
+<http://ivci.org/NUVA/VAC1068> rdfs:label "Εμβόλιο κατά του πυρετού Rift Valley, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο κατά του πυρετού Rift Valley, απροσδιόριστο"@el .
+
+<http://ivci.org/NUVA/VAC1069> rdfs:label "Vaccinia immune globulin"@el ;
+    rdfs:comment "Ανοσοσφαιρίνη Vaccinia"@el .
+
+<http://ivci.org/NUVA/VAC1071> rdfs:label "Αντίσωμα ή εμβόλιο RSV, απροσδιόριστο"@el ;
+    rdfs:comment "Αντίσωμα ή εμβόλιο RSV, απροσδιόριστο"@el .
+
+<http://ivci.org/NUVA/VAC1072> rdfs:label "Εμβόλιο mRNA COVID-19, αρχικός ιός, 25 μg, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο mRNA COVID-19, αρχικός ιός, 25 μικρογραμμάρια"@el .
+
+<http://ivci.org/NUVA/VAC1073> rdfs:label "Εμβόλιο για τη νόσο του Lyme, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο για τη νόσο του Lyme, απροσδιόριστο"@el .
+
+<http://ivci.org/NUVA/VAC1075> rdfs:label "Ακυτταρικό εμβόλιο άνθρακα, απροσδιόριστο"@el ;
+    rdfs:comment "Ακυτταρικό εμβόλιο άνθρακα, απροσδιόριστο"@el .
+
+<http://ivci.org/NUVA/VAC1136> rdfs:label "Πνευμονιοκοκκικό 23-δύναμο συζευγμένο εμβόλιο, απροσδιόριστο"@el ;
+    rdfs:comment "23-δύναμο πνευμονιοκοκκικό συζευγμένο εμβόλιο, ορότυποι 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F και 33F"@el .
+
+<http://ivci.org/NUVA/VAC1163> rdfs:label "20-δύναμο πνευμονιοκοκκικό συζευγμένο εμβόλιο, απροσδιόριστο"@el ;
+    rdfs:comment "20δύναμο πνευμονιοκοκκικό συζευγμένο εμβόλιο, προσροφημένο, ορότυποι 1, 3, 4, 5, 6A, 6B, 7F, 8, 9V, 10A, 11A, 12F, 14, 15B, 18C, 19A, 19F, 22F, 23F και 33F"@el .
+
+<http://ivci.org/NUVA/VAC1233> rdfs:label "Πνευμονιοκοκκικό 10-δύναμο συζευγμένο εμβόλιο, απροσδιόριστο"@el .
+
+<http://ivci.org/NUVA/VAC1239> rdfs:label "Πνευμονιοκοκκικό 15-δύναμο συζευγμένο εμβόλιο, απροσδιόριστο"@el ;
+    rdfs:comment "15-δύναμο πνευμονιοκοκκικό συζευγμένο εμβόλιο, προσροφημένο, ορότυποι 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F και 33F"@el .
+
+<http://ivci.org/NUVA/VAC1263> rdfs:label "Εμβόλιο mRNA για τον covid που κωδικοποιεί την πρωτεΐνη ακίδας SARS-COV-2, εγκεκριμένο"@el ;
+    rdfs:comment "Εμβόλιο mRNA για τον covid που κωδικοποιεί την πρωτεΐνη ακίδας SARS-COV-2, εγκεκριμένο"@el .
+
+<http://ivci.org/NUVA/VAC1264> rdfs:label "A(H5) avian influenza vaccine, unspecified"@el .
+
+<http://ivci.org/NUVA/VAC1277> rdfs:label "Εμβόλιο κατά του chikungunya, απροσδιόριστο"@el ;
+    rdfs:comment "Εμβόλιο κατά του chikungunya, απροσδιόριστο"@el .
+
+<http://ivci.org/NUVA/VAC1311> rdfs:label "Meningococcal ACWXY conjugate vaccine, unspecified"@el .
+
+<http://ivci.org/NUVA/VAC1341> rdfs:label "SPIKEVAX BA.4-5 0,1 mg/mL dose 50 µg"@el .
+
+<http://ivci.org/NUVA/VAL001> rdfs:label "Τρισθενής ζωντανή εξασθενημένη βαλεντία της γρίπης, κανονική δόση"@el ;
+    skos:altLabel "Inf-L3"@el .
+
+<http://ivci.org/NUVA/VAL002> rdfs:label "Συζευγμένο εμβόλιο τυφοειδούς, πολυσακχαριδικό αντιγόνο Vi συνδεδεμένο με πρωτεΐνη φορέα"@el ;
+    skos:altLabel "Ty-ViC"@el .
+
+<http://ivci.org/NUVA/VAL003> rdfs:label "Βαλεντία κοκκύτη, χωρίς διευκρίνιση"@el ;
+    skos:altLabel "Per"@el .
+
+<http://ivci.org/NUVA/VAL004> rdfs:label "Ολόκληρη αδρανοποιημένη βαλεντία της χολέρας, ενέσιμη"@el ;
+    skos:altLabel "I-Chol-I"@el .
+
+<http://ivci.org/NUVA/VAL005> skos:altLabel "Meas-LAV"@el .
+
+<http://ivci.org/NUVA/VAL006> rdfs:label "Αντι-Brucella βαλεντία, χωρίς διευκρίνιση"@el ;
+    skos:altLabel "Bruc"@el .
+
+<http://ivci.org/NUVA/VAL007> rdfs:label "Ανασυνδυασμένος αναπαραγωγικός φορέας του ιού της φυσαλιδώδους στοματίτιδας (rVSV) Εμβόλιο Έμπολα - γλυκοπρωτεΐνη EBOV GP"@el ;
+    skos:altLabel "rVSVdG-ZEBOV-GP"@el .
+
+<http://ivci.org/NUVA/VAL008> rdfs:label "Ακυτταρική βακτηριακή βαλεντία κοκκύτη, τυπική δόση"@el ;
+    skos:altLabel "aP"@el .
+
+<http://ivci.org/NUVA/VAL009> rdfs:label "Εμβόλια πρωτεϊνών επιφανείας σποροζωιδίων"@el ;
+    skos:altLabel "Mala-SPO"@el .
+
+<http://ivci.org/NUVA/VAL010> rdfs:label "Βαλεντία κατά του αδρανοποιημένου ολοκυτταρικού κοκκύτη"@el ;
+    skos:altLabel "wP"@el .
+
+<http://ivci.org/NUVA/VAL011> rdfs:label "Εμβόλιο COVID-19, πρωτεϊνική υπομονάδα, ανασυνδυασμένη πρωτεΐνη αιχμής (RBD)"@el ;
+    skos:altLabel "COVID-PS-rRBD"@el .
+
+<http://ivci.org/NUVA/VAL012> rdfs:label "Εμβόλιο ηπατίτιδας Β, ανασυνδυασμένο αντιγόνο επιφανείας του ιού της ηπατίτιδας Β (HBsAg), 40 μικρογραμμάρια (δοσολογία ασθενούς αιμοκάθαρσης)"@el ;
+    skos:altLabel "rHBsAg-40"@el .
+
+<http://ivci.org/NUVA/VAL013> rdfs:label "Επιφανειακή γλυκοπρωτεΐνη Ε (gE) του ιού Varicella zoster (VZV)"@el ;
+    skos:altLabel "Shingles-gE"@el .
+
+<http://ivci.org/NUVA/VAL014> rdfs:label "Εμβόλιο τυφοειδούς, απροσδιόριστο"@el ;
+    skos:altLabel "Ty"@el .
+
+<http://ivci.org/NUVA/VAL016> rdfs:label "Λύσσα ανοσοσφαιρίνη, απροσδιόριστη"@el ;
+    skos:altLabel "RIG"@el .
+
+<http://ivci.org/NUVA/VAL017> rdfs:label "Ακυτταρική βακτηριακή βαλεντία κοκκύτη, μειωμένη δόση"@el ;
+    skos:altLabel "ap"@el .
+
+<http://ivci.org/NUVA/VAL018> rdfs:label "Εμβόλιο ευλογιάς τρίτης γενιάς, ελάχιστα αναπαραγόμενος ζωντανός ιός εμβολιασμού"@el ;
+    skos:altLabel "Pox-3G-LC16"@el .
+
+<http://ivci.org/NUVA/VAL019> rdfs:label "Αντιτοξίνη διφθερίτιδας"@el ;
+    skos:altLabel "DATx"@el .
+
+<http://ivci.org/NUVA/VAL020> skos:altLabel "Shingles-L"@el .
+
+<http://ivci.org/NUVA/VAL021> rdfs:label "Από του στόματος αδρανοποιημένο εμβόλιο χολέρας"@el ;
+    skos:altLabel "O-Chol-I"@el .
+
+<http://ivci.org/NUVA/VAL022> skos:altLabel "Smallpox-L"@el .
+
+<http://ivci.org/NUVA/VAL024> rdfs:label "Τρισθενής αδρανοποιημένη βαλεντία της γρίπης, κλασματοποιημένη ή υπομονάδα, χωρίς διευκρίνιση"@el .
+
+<http://ivci.org/NUVA/VAL025> rdfs:label "Εμβόλιο κατά της ελονοσίας, απροσδιόριστο"@el ;
+    skos:altLabel "Mala"@el .
+
+<http://ivci.org/NUVA/VAL026> rdfs:label "Μηνιγγιτιδοκοκκικό εμβόλιο B:14:P1.7,16 με πρωτεΐνες κυστιδίων εξωτερικής μεμβράνης"@el ;
+    skos:altLabel "MenB-OMP"@el .
+
+<http://ivci.org/NUVA/VAL027> rdfs:label "Εμβόλιο COVID-19, μη αναπαραγόμενος φορέας αδενοϊού 26 που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2"@el ;
+    skos:altLabel "COVID-VVnr-S-Ad26"@el .
+
+<http://ivci.org/NUVA/VAL028> skos:altLabel "POX-3G"@el .
+
+<http://ivci.org/NUVA/VAL029> rdfs:label "Εμβόλιο εποχικής γρίπης VLP, απροσδιόριστο"@el ;
+    skos:altLabel "Inf-VLP"@el .
+
+<http://ivci.org/NUVA/VAL030> rdfs:label "Ανασυνδυασμένο εμβόλιο κατά της Borrelia burgdorferi - πρωτεΐνη εξωτερικής επιφάνειας Α (OspA)"@el ;
+    skos:altLabel "Lyme-OspA"@el .
+
+<http://ivci.org/NUVA/VAL031> rdfs:label "Εγκεφαλίτιδα που προκαλείται από τσιμπούρια"@el ;
+    skos:altLabel "TBE"@el .
+
+<http://ivci.org/NUVA/VAL032> rdfs:label "Εμβόλιο πολυσακχαρίτη τυφοειδούς, μη συζευγμένο αντιγόνο πολυσακχαρίτη Vi"@el ;
+    skos:altLabel "Ty-ViPS"@el .
+
+<http://ivci.org/NUVA/VAL033> rdfs:label "Μονοδύναμο ζωντανό εξασθενημένο από του στόματος εμβόλιο πολιομυελίτιδας τύπου 2"@el ;
+    skos:altLabel "mOPV2"@el .
+
+<http://ivci.org/NUVA/VAL034> rdfs:label "Τοξοειδές διφθερίτιδας, χαμηλή δόση"@el ;
+    skos:altLabel "d"@el .
+
+<http://ivci.org/NUVA/VAL035> rdfs:label "Εμβόλιο COVID-19, πλασμιδιακό DNA που κωδικοποιεί την πρωτεΐνη SARS-CoV-2 spike"@el ;
+    skos:altLabel "COVID-DNA-S"@el .
+
+<http://ivci.org/NUVA/VAL036> rdfs:label "Μη στρεπτό εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύποι 6, 11, 16, 18, 31, 33, 45, 52, 58"@el ;
+    skos:altLabel "HPV-09-valent"@el .
+
+<http://ivci.org/NUVA/VAL037> rdfs:label "Εμβόλιο μηνιγγιτιδοκόκκου Α, μη συζευγμένος πολυσακχαρίτης"@el ;
+    skos:altLabel "MPV-A"@el .
+
+<http://ivci.org/NUVA/VAL038> rdfs:label "Εμβόλιο COVID-19, πολλαπλασιαστικός φορέας ιού ιλαράς που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2"@el ;
+    skos:altLabel "COVID-VVr-S-Meas"@el .
+
+<http://ivci.org/NUVA/VAL039> rdfs:label "Εμβόλιο COVID-19, VLP, ανασυνδυασμένη πρωτεΐνη αιχμής"@el ;
+    skos:altLabel "COVID-VLP-rS"@el .
+
+<http://ivci.org/NUVA/VAL041> rdfs:label "Μηνιγγιτιδοκοκκικό Α, πολυσακχαριδικό συζευγμένο εμβόλιο"@el ;
+    skos:altLabel "MCV-A"@el .
+
+<http://ivci.org/NUVA/VAL042> rdfs:label "Εμβόλιο πολιομυελίτιδας, απροσδιόριστο"@el ;
+    skos:altLabel "POLIO"@el .
+
+<http://ivci.org/NUVA/VAL043> rdfs:label "Εμβόλιο SARS-CoV-2 spike protein mRNA 19"@el ;
+    skos:altLabel "COVID-mRNA-S"@el .
+
+<http://ivci.org/NUVA/VAL044> rdfs:label "Varicella"@el ;
+    skos:altLabel "VZV-LAV"@el .
+
+<http://ivci.org/NUVA/VAL045> rdfs:label "Αδρανοποιημένο ολόκληρο παρατυφοειδές εμβόλιο"@el ;
+    skos:altLabel "pTy-I"@el .
+
+<http://ivci.org/NUVA/VAL046> rdfs:label "Τύφος"@el ;
+    skos:altLabel "Typhus"@el .
+
+<http://ivci.org/NUVA/VAL047> rdfs:label "Ανοσοσφαιρίνη ηπατίτιδας Β"@el ;
+    skos:altLabel "IgHepB"@el .
+
+<http://ivci.org/NUVA/VAL048> rdfs:label "Αδρανοποιημένο πλήρες εμβόλιο παρωτίτιδας"@el ;
+    skos:altLabel "Or-I"@el .
+
+<http://ivci.org/NUVA/VAL049> rdfs:label "Πολυσακχαριδική βαλεντία του Haemophilus influenzae τύπου b, μη συζευγμένη"@el ;
+    skos:altLabel "Hib-PS"@el .
+
+<http://ivci.org/NUVA/VAL050> rdfs:label "Εμβόλιο COVID-19, μη αναπαραγόμενος φορέας αδενοϊού 5 που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2, απροσδιόριστο"@el ;
+    skos:altLabel "COVID-VVnr-S-Ad5"@el .
+
+<http://ivci.org/NUVA/VAL051> rdfs:label "Προπανδημικό εμβόλιο κατά της γρίπης Α(Η5Ν1)"@el ;
+    skos:altLabel "AH5N1"@el .
+
+<http://ivci.org/NUVA/VAL052> rdfs:label "Τετραδύναμο εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύποι 6, 11, 16 και 18"@el ;
+    skos:altLabel "HPV-04-valent"@el .
+
+<http://ivci.org/NUVA/VAL053> rdfs:label "Εμβόλιο COVID-19, πρωτεϊνική υπομονάδα, ανασυνδυασμένη πρωτεΐνη αιχμής, απροσδιόριστο"@el ;
+    skos:altLabel "COVID-PS"@el .
+
+<http://ivci.org/NUVA/VAL054> rdfs:label "Εμβόλιο COVID-19, μη αναπαραγόμενος τροποποιημένος φορέας Vaccinia Virus Ankara που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2"@el ;
+    skos:altLabel "COVID-VVnr-S-MVA"@el .
+
+<http://ivci.org/NUVA/VAL055> rdfs:label "Ανοσοσφαιρίνη ιλαράς"@el ;
+    skos:altLabel "Ig-Measles"@el .
+
+<http://ivci.org/NUVA/VAL056> rdfs:label "Ολόκληρο αδρανοποιημένο τρισθενές εμβόλιο πολιομυελίτιδας για ένεση"@el ;
+    skos:altLabel "POLIO-I"@el .
+
+<http://ivci.org/NUVA/VAL057> rdfs:label "Εμβόλιο μηνιγγιτιδοκόκκου C, πολυσακχαριδικό συζευγμένο"@el ;
+    skos:altLabel "MCV-C"@el .
+
+<http://ivci.org/NUVA/VAL058> rdfs:label "Αδρανοποιημένη βαλεντία της γρίπης, κλασματοποιημένη ή υπομονάδα, χωρίς διευκρίνιση"@el .
+
+<http://ivci.org/NUVA/VAL059> rdfs:label "Τετρασθενής ζωντανή εξασθενημένη βαλεντία της γρίπης, κανονική δόση"@el .
+
+<http://ivci.org/NUVA/VAL060> skos:altLabel "CHIK-LA"@el .
+
+<http://ivci.org/NUVA/VAL061> rdfs:label "Εμβόλιο COVID-19, πρωτεϊνική υπομονάδα, ανασυνδυασμένη πρωτεΐνη spike, S-2P και CpG1018"@el ;
+    skos:altLabel "COVID-PS-CpG1018"@el .
+
+<http://ivci.org/NUVA/VAL062> skos:altLabel "O-Chol-rCTB-I"@el .
+
+<http://ivci.org/NUVA/VAL063> rdfs:label "Αντιτοξίνη της αλλαντίασης"@el ;
+    skos:altLabel "BAT"@el .
+
+<http://ivci.org/NUVA/VAL065> rdfs:label "Ζωντανό εξασθενημένο ανασυνδυασμένο χιμαιρικό τετραδύναμο εμβόλιο κατά του δάγκειου πυρετού "@el ;
+    skos:altLabel "RC-TDV"@el .
+
+<http://ivci.org/NUVA/VAL066> rdfs:label "Εμβόλιο κατά του αναπαραγωγικού φορέα ιού covid 19, ιός γρίπης που κωδικοποιεί την πρωτεΐνη κορυφής του SARS-CoV-2"@el ;
+    skos:altLabel "COVID-VVr-S-Influ"@el .
+
+<http://ivci.org/NUVA/VAL067> rdfs:label "Τοξικοειδές τετάνου"@el ;
+    skos:altLabel "T"@el .
+
+<http://ivci.org/NUVA/VAL068> rdfs:label "Βαλεντία της ηπατίτιδας Β, χωρίς διευκρίνιση"@el ;
+    skos:altLabel "HepB"@el .
+
+<http://ivci.org/NUVA/VAL069> rdfs:label "Εμβόλιο COVID-19, μη αναπαραγόμενος αδενοϊικός φορέας ChAdOx1 χιμπατζή που κωδικοποιεί την πρωτεΐνη SARS-CoV-2 spike"@el ;
+    skos:altLabel "COVID-VVnr-S-ChAdOx1"@el .
+
+<http://ivci.org/NUVA/VAL070> rdfs:label "Εμβόλιο COVID-19, μη αναπαραγόμενος αδενοϊικός φορέας που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2, απροσδιόριστο"@el ;
+    skos:altLabel "COVID-VVnr-S-Ad"@el .
+
+<http://ivci.org/NUVA/VAL071> rdfs:label "Αδρανοποιημένο πλήρες εμβόλιο τύφου"@el ;
+    skos:altLabel "Ty-I"@el .
+
+<http://ivci.org/NUVA/VAL072> rdfs:label "Εμβόλιο κατά του μηνιγγιτιδόκοκκου Β που περιέχει fHbp των υποοικογενειών Α και Β"@el ;
+    skos:altLabel "MenB-fHbpAB"@el .
+
+<http://ivci.org/NUVA/VAL073> rdfs:label "Εμβόλιο COVID-19, αναπαραγόμενος ιικός φορέας, με αντιγονοπαρουσιαστικά κύτταρα"@el ;
+    skos:altLabel "COVID-VVr+APC"@el .
+
+<http://ivci.org/NUVA/VAL074> rdfs:label "Τετραδύναμο αδρανοποιημένο εμβόλιο γρίπης, διαιρεμένο ή υπομονάδα, υψηλής δόσης"@el .
+
+<http://ivci.org/NUVA/VAL075> rdfs:label "Αδρανοποιημένο πλήρες εμβόλιο κατά της Leptospira icterohaemorrhagiae"@el ;
+    skos:altLabel "Lepto-wI"@el .
+
+<http://ivci.org/NUVA/VAL076> rdfs:label "Εμβόλιο COVID-19, αδρανοποιημένο με ολόκληρο τον ιό, απροσδιόριστο"@el .
+
+<http://ivci.org/NUVA/VAL077> skos:altLabel "Mumps-LAV"@el .
+
+<http://ivci.org/NUVA/VAL078> rdfs:label "Εμβόλιο μηνιγγιτιδοκόκκου Y, πολυσακχαριδικό συζευγμένο"@el ;
+    skos:altLabel "MCV-Y"@el .
+
+<http://ivci.org/NUVA/VAL079> skos:altLabel "Rub-LAV"@el .
+
+<http://ivci.org/NUVA/VAL080> rdfs:label "Αδρανοποιημένο εμβόλιο κατά της λύσσας με ολόκληρο τον ιό, απροσδιόριστο"@el ;
+    skos:altLabel "Rab-I"@el .
+
+<http://ivci.org/NUVA/VAL081> rdfs:label "Χολερική βαλεντία, χωρίς διευκρίνιση"@el ;
+    skos:altLabel "Chol"@el .
+
+<http://ivci.org/NUVA/VAL082> rdfs:label "Εμβόλιο κατά του ιού των ανθρώπινων θηλωμάτων, απροσδιόριστων τύπων"@el ;
+    skos:altLabel "HPV"@el .
+
+<http://ivci.org/NUVA/VAL083> rdfs:label "Τοξοειδές διφθερίτιδας, απροσδιόριστη δόση"@el ;
+    skos:altLabel "D-d"@el .
+
+<http://ivci.org/NUVA/VAL084> rdfs:label "Εμβόλιο COVID-19, αναπαραγόμενος φορέας του ιού της φυσαλιδώδους στοματίτιδας που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2"@el ;
+    skos:altLabel "COVID-VVr-S-VSV"@el .
+
+<http://ivci.org/NUVA/VAL085> rdfs:label "Μονοδύναμο ζωντανό εξασθενημένο από του στόματος εμβόλιο πολιομυελίτιδας τύπου 3"@el ;
+    skos:altLabel "mOPV3"@el .
+
+<http://ivci.org/NUVA/VAL086> rdfs:label "Εμβόλιο COVID-19, ζωντανό εξασθενημένο, απροσδιόριστο"@el ;
+    skos:altLabel "COVID-LA"@el .
+
+<http://ivci.org/NUVA/VAL087> rdfs:label "Βαλεντία δάγκειου πυρετού, ζωντανή εξασθενημένη τετραδύναμη χιμαιρική ανασυνδυασμένη βασισμένη στο εμβόλιο κίτρινου πυρετού 17D"@el ;
+    skos:altLabel "CYD-TDV"@el .
+
+<http://ivci.org/NUVA/VAL088> rdfs:label "Ανοσοσφαιρίνη Varicella"@el ;
+    skos:altLabel "VZV-Ig"@el .
+
+<http://ivci.org/NUVA/VAL089> rdfs:label "Αδρανοποιημένη βαλεντία κατά της Ιαπωνικής εγκεφαλίτιδας, χωρίς διευκρίνιση"@el ;
+    skos:altLabel "JE-I"@el .
+
+<http://ivci.org/NUVA/VAL090> rdfs:label "Εμβόλιο ηπατίτιδας Β, ανασυνδυασμένο αντιγόνο επιφανείας του ιού της ηπατίτιδας Β (HBsAg), δόση απροσδιόριστη"@el ;
+    skos:altLabel "rHBsAg"@el .
+
+<http://ivci.org/NUVA/VAL091> rdfs:label "Ζωντανό εξασθενημένο εμβόλιο τύφου, στέλεχος Ty21a, από του στόματος"@el ;
+    skos:altLabel "Ty-LA"@el .
+
+<http://ivci.org/NUVA/VAL092> rdfs:label "Κίτρινος πυρετός"@el ;
+    skos:altLabel "YF"@el .
+
+<http://ivci.org/NUVA/VAL093> rdfs:label "Αδρανοποιημένο πλήρες εμβόλιο ιλαράς"@el ;
+    skos:altLabel "Meas-I"@el .
+
+<http://ivci.org/NUVA/VAL095> rdfs:label "Εμβόλιο COVID-19, αναπαραγωγικός φορέας του ιού της νόσου του Newcastle που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2"@el ;
+    skos:altLabel "COVID-VVr-S-Nv"@el .
+
+<http://ivci.org/NUVA/VAL096> rdfs:label "Εμβόλιο BCGΒαλεντία BCG"@el ;
+    skos:altLabel "BCG"@el .
+
+<http://ivci.org/NUVA/VAL097> rdfs:label "Τοξοειδές διφθερίτιδας, τυπική δόση"@el ;
+    skos:altLabel "D"@el .
+
+<http://ivci.org/NUVA/VAL098> rdfs:label "Εμβόλιο κατά του μηνιγγιτιδόκοκκου Β 4 συστατικών"@el ;
+    skos:altLabel "4CMenB"@el .
+
+<http://ivci.org/NUVA/VAL099> rdfs:label "Αδρανοποιημένη βαλεντία της πανδημικής γρίπης H1N1 2009 "@el ;
+    skos:altLabel "Inf-pdm09"@el .
+
+<http://ivci.org/NUVA/VAL100> skos:altLabel "JE-LAV-14-14-2"@el .
+
+<http://ivci.org/NUVA/VAL101> rdfs:label "Εμβόλιο COVID-19, μη αναπαραγόμενος φορέας του ιού της νόσου του Newcastle που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2"@el ;
+    skos:altLabel "COVID-VVnr-S-Nv"@el .
+
+<http://ivci.org/NUVA/VAL102> rdfs:label "Ανασυνδυασμένη πεπτιδική βαλεντία της ηπατίτιδας Ε"@el ;
+    skos:altLabel "HepE"@el .
+
+<http://ivci.org/NUVA/VAL103> rdfs:label "Συζευγμένη βαλεντία του Haemophilus influenzae τύπου b, χωρίς διευκρίνιση"@el ;
+    skos:altLabel "Hib-C"@el .
+
+<http://ivci.org/NUVA/VAL104> rdfs:label "Εμβόλιο COVID-19, πρωτεϊνική υπομονάδα, ανασυνδυασμένη πρωτεΐνη αιχμής"@el ;
+    skos:altLabel "COVID-PS-rS"@el .
+
+<http://ivci.org/NUVA/VAL105> rdfs:label "Πνευμονιοκοκκικό εμβόλιο, απροσδιόριστο"@el ;
+    skos:altLabel "Pneumo"@el .
+
+<http://ivci.org/NUVA/VAL106> rdfs:label "Εμβόλιο κατά του ροταϊού, απροσδιόριστο"@el ;
+    skos:altLabel "Rota"@el .
+
+<http://ivci.org/NUVA/VAL107> rdfs:label "Εμβόλιο COVID-19, πρωτεϊνική υπομονάδα, ανασυνδυασμένα νανοσωματίδια πρωτεΐνης αιχμής"@el .
+
+<http://ivci.org/NUVA/VAL108> rdfs:label "Ζωντανό μη αναπαραγόμενο εμβόλιο ανασυνδυασμένου ιικού φορέα Ad26.ZEBOV"@el ;
+    skos:altLabel "ZebovVRnrAd26"@el .
+
+<http://ivci.org/NUVA/VAL109> rdfs:label "Βαλεντία κατά του ιού Έμπολα με μη αναδιπλασιαζόμενο ιογενή φορέα, τροποποιημένο εμβόλιο Άγκυρας "@el ;
+    skos:altLabel "Ebola-MVA-BN-Filo"@el .
+
+<http://ivci.org/NUVA/VAL110> rdfs:label "Ανοσοσφαιρίνη τετάνου"@el ;
+    skos:altLabel "T-Ig"@el .
+
+<http://ivci.org/NUVA/VAL111> rdfs:label "Κυτταρικό εμβόλιο κατά του άνθρακα"@el ;
+    skos:altLabel "Bant"@el .
+
+<http://ivci.org/NUVA/VAL112> rdfs:label "Τετρασθενής αδρανοποιημένη βαλεντία της γρίπης που προέρχεται από κυτταροκαλλιέργεια, κλασματοποιημένη ή υπομονάδα, κανονική δόση"@el .
+
+<http://ivci.org/NUVA/VAL113> rdfs:label "Δισθενές εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύποι 16 και 18"@el ;
+    skos:altLabel "HPV-02-valent"@el .
+
+<http://ivci.org/NUVA/VAL114> rdfs:label "Εμβόλιο ηπατίτιδας Β, ανασυνδυασμένο αντιγόνο επιφανείας ηπατίτιδας Β (HBsAg), 10 μικρογραμμάρια"@el ;
+    skos:altLabel "rHBsAg-10"@el .
+
+<http://ivci.org/NUVA/VAL115> rdfs:label "Εμβόλιο ηπατίτιδας Β, ανασυνδυασμένο αντιγόνο επιφανείας του ιού της ηπατίτιδας Β (HBsAg), 20 μικρογραμμάρια"@el .
+
+<http://ivci.org/NUVA/VAL116> rdfs:label "Μονοκλωνικό αντίσωμα στον RSV, palivizumab"@el ;
+    skos:altLabel "RSV-mAb-pal"@el .
+
+<http://ivci.org/NUVA/VAL117> rdfs:label "Εμβόλιο κατά του κυτταρικού κοκκύτη, απροσδιόριστη δόση"@el ;
+    skos:altLabel "Acel"@el .
+
+<http://ivci.org/NUVA/VAL118> rdfs:label "Εμβόλιο μηνιγγιτιδοκόκκου Β, απροσδιόριστο"@el ;
+    skos:altLabel "MenB"@el .
+
+<http://ivci.org/NUVA/VAL119> rdfs:label "Μηνιγγιτιδοκοκκικό μονοδύναμο μη συζευγμένο πολυσακχαριδικό εμβόλιο"@el ;
+    skos:altLabel "MPV-mono"@el .
+
+<http://ivci.org/NUVA/VAL120> rdfs:label "Μηνιγγιτιδοκοκκικός μη συζευγμένος πολυσακχαρίτης, πολυδύναμο"@el ;
+    skos:altLabel "MPV-poly"@el .
+
+<http://ivci.org/NUVA/VAL121> rdfs:label "Από του στόματος τρισθενές αδρανοποιημένο εμβόλιο ολικής πολιομυελίτιδας"@el ;
+    skos:altLabel "POLIO-I-O"@el .
+
+<http://ivci.org/NUVA/VAL123> skos:altLabel "Rota5-L"@el .
+
+<http://ivci.org/NUVA/VAL124> rdfs:label "Ζωντανή εξασθενημένη χολερική βαλεντία, χωρίς διευκρίνιση"@el ;
+    skos:altLabel "Chol-L"@el .
+
+<http://ivci.org/NUVA/VAL125> rdfs:label "Ολόκληρη αδρανοποιημένη βαλεντία της ηπατίτιδας Α, χωρίς διευκρίνιση"@el ;
+    skos:altLabel "HepA-I"@el .
+
+<http://ivci.org/NUVA/VAL126> rdfs:label "Βαλεντία κατά του ιού Έμπολα, χωρίς διευκρίνιση"@el ;
+    skos:altLabel "Ebola"@el .
+
+<http://ivci.org/NUVA/VAL128> rdfs:label "Βαλεντία της γρίπης, χωρίς διευκρίνιση"@el ;
+    skos:altLabel "Inf"@el .
+
+<http://ivci.org/NUVA/VAL129> rdfs:label "Βαλεντία του έρπητα απλού, χωρίς διευκρίνιση"@el ;
+    skos:altLabel "HSV"@el .
+
+<http://ivci.org/NUVA/VAL130> rdfs:label "Βαλεντία ιοσώματος της ηπατίτιδας Α"@el ;
+    skos:altLabel "HepA-VLP"@el .
+
+<http://ivci.org/NUVA/VAL131> rdfs:label "Ολόκληρο αδρανοποιημένο εμβόλιο κατά της πανώλης"@el ;
+    skos:altLabel "Yp-I"@el .
+
+<http://ivci.org/NUVA/VAL132> rdfs:label "Ζωντανό εξασθενημένο μονοδύναμο από του στόματος εμβόλιο κατά της πολιομυελίτιδας τύπου 1"@el ;
+    skos:altLabel "mOPV1"@el .
+
+<http://ivci.org/NUVA/VAL133> rdfs:label "Ζωντανό εξασθενημένο μονοδύναμο από του στόματος εμβόλιο πολιομυελίτιδας, απροσδιόριστου τύπου"@el ;
+    skos:altLabel "mOPV"@el .
+
+<http://ivci.org/NUVA/VAL135> skos:altLabel "Covid-ARNm-S-CT"@el .
+
+<http://ivci.org/NUVA/VAL136> rdfs:label "Εμβόλιο μηνιγγιτιδοκόκκου W, πολυσακχαριδικό συζευγμένο"@el ;
+    skos:altLabel "MCV-W"@el .
+
+<http://ivci.org/NUVA/VAL137> rdfs:label "Εμβόλιο μηνιγγιτιδοκόκκου C, μη συζευγμένος πολυσακχαρίτης"@el ;
+    skos:altLabel "MPV-C"@el .
+
+<http://ivci.org/NUVA/VAL138> rdfs:label "Εμβόλιο μηνιγγιτιδοκόκκου W, μη συζευγμένος πολυσακχαρίτης"@el ;
+    skos:altLabel "MPV-W"@el .
+
+<http://ivci.org/NUVA/VAL139> rdfs:label "Εμβόλιο μηνιγγιτιδοκόκκου Y, μη συζευγμένος πολυσακχαρίτης"@el ;
+    skos:altLabel "MPV-Y"@el .
+
+<http://ivci.org/NUVA/VAL140> skos:altLabel "Inf-L"@el .
+
+<http://ivci.org/NUVA/VAL141> rdfs:label "RIX4414 μονοδύναμο εμβόλιο κατά του ροταϊού"@el ;
+    skos:altLabel "Rota-mv-RIX4414"@el .
+
+<http://ivci.org/NUVA/VAL142> rdfs:label "Ολόκληρη αδρανοποιημένη βαλεντία της ηπατίτιδας Α, μονοσθενής, παιδιατρική δόση"@el ;
+    skos:altLabel "HepA-mv-PED"@el .
+
+<http://ivci.org/NUVA/VAL143> rdfs:label "Ολόκληρη αδρανοποιημένη βαλεντία κατά της ηπατίτιδας Α, δισθενής (ηπατίτιδα Α και Β), παιδιατρική δόση"@el ;
+    skos:altLabel "HepA-bv-PED"@el .
+
+<http://ivci.org/NUVA/VAL144> rdfs:label "Ολόκληρη αδρανοποιημένη βαλεντία της ηπατίτιδας Α, μονοσθενής, δόση για ενήλικες"@el ;
+    skos:altLabel "HepA-mv-ADU"@el .
+
+<http://ivci.org/NUVA/VAL145> rdfs:label "Ολόκληρη αδρανοποιημένη βαλεντία της ηπατίτιδας Α, δισθενής (ηπατίτιδα Α και Β), δόση για ενήλικες"@el ;
+    skos:altLabel "HepA-bv-ADU"@el .
+
+<http://ivci.org/NUVA/VAL146> rdfs:label "Βαλεντία κατά της ολόκληρης αδρανοποιημένης Brucella"@el ;
+    skos:altLabel "Bruc-I"@el .
+
+<http://ivci.org/NUVA/VAL147> rdfs:label "Βαλεντία με αντιγόνο πρωτεΐνης P.I. (αδιάλυτο σε φαινόλη) κατά της βρουκέλλωσης"@el ;
+    skos:altLabel "Bruc-IP"@el .
+
+<http://ivci.org/NUVA/VAL148> rdfs:label "Μονοκλωνικό αντίσωμα του αναπνευστικού συγκυτιακού ιού"@el ;
+    skos:altLabel "RSV-IG"@el .
+
+<http://ivci.org/NUVA/VAL149> rdfs:label "Εμβόλιο COVID-19, mRNA που κωδικοποιεί την πρωτεΐνη SARS-CoV-2 spike, 25 μικρογραμμάρια"@el ;
+    skos:altLabel "Covid-mRNA-S-25"@el .
+
+<http://ivci.org/NUVA/VAL150> rdfs:label "Βαλεντία κατά του δάγκειου πυρετού, χωρίς διευκρίνιση"@el ;
+    skos:altLabel "Den"@el .
+
+<http://ivci.org/NUVA/VAL151> rdfs:label "Εμβόλιο τουλαραιμίας, απροσδιόριστο"@el ;
+    skos:altLabel "Tular"@el .
+
+<http://ivci.org/NUVA/VAL152> rdfs:label "Ολόκληρη αδρανοποιημένη βαλεντία της γρίπης, χωρίς διευκρίνιση"@el ;
+    skos:altLabel "Inf-I"@el .
+
+<http://ivci.org/NUVA/VAL153> rdfs:label "Εμβόλιο Haemophilus influenzae τύπου β, πολυσακχαρίτης PRP συζευγμένο με τοξοειδές διφθερίτιδας"@el ;
+    skos:altLabel "PRP-D"@el .
+
+<http://ivci.org/NUVA/VAL154> rdfs:label "Βαλεντία Haemophilus influenzae τύπου b, PRP ολιγοσακχαρίτες συζευγμένοι με μεταλλαγμένη διφθεριτική τοξίνη CRM197"@el ;
+    skos:altLabel "HbOC"@el .
+
+<http://ivci.org/NUVA/VAL155> rdfs:label "Εμβόλιο Haemophilus influenzae τύπου β, πολυσακχαρίτης συζευγμένος με την πρωτεΐνη της εξωτερικής μεμβράνης της οροομάδας Β της Neisseria meningitidis"@el ;
+    skos:altLabel "PRP-OMP"@el .
+
+<http://ivci.org/NUVA/VAL156> rdfs:label "PRP-T Εμβόλιο Haemophilus influenzae τύπου b, πολυσακχαρίτης PRP συζευγμένος με τοξοειδές του τετάνου"@el ;
+    skos:altLabel "PRP-T"@el .
+
+<http://ivci.org/NUVA/VAL157> rdfs:label "Εμβόλιο COVID-19, απροσδιόριστο"@el ;
+    skos:altLabel "COVID"@el .
+
+<http://ivci.org/NUVA/VAL158> rdfs:label "Εμβόλιο πλάσματος ηπατίτιδας Β"@el ;
+    skos:altLabel "pHBsAg"@el .
+
+<http://ivci.org/NUVA/VAL159> rdfs:label "Υπομονάδα εμβολίου κατά του έρπητα ζωστήρα, απροσδιόριστο"@el ;
+    skos:altLabel "Shingles-SU"@el .
+
+<http://ivci.org/NUVA/VAL160> rdfs:label "Εμβόλιο κατά του έρπητα ζωστήρα, απροσδιόριστο"@el ;
+    skos:altLabel "Shingles"@el .
+
+<http://ivci.org/NUVA/VAL161> rdfs:label "Πολυδύναμο εμβόλιο μηνιγγιτιδοκόκκου Β, απροσδιόριστο"@el ;
+    skos:altLabel "MenB-mc"@el .
+
+<http://ivci.org/NUVA/VAL162> rdfs:label "Εμβόλιο COVID-19, πολλαπλασιαστικός φορέας ιού, απροσδιόριστο"@el ;
+    skos:altLabel "COVID-VVr"@el .
+
+<http://ivci.org/NUVA/VAL163> rdfs:label "Εμβόλιο COVID-19, μη αναπαραγόμενος ιικός φορέας, απροσδιόριστο"@el ;
+    skos:altLabel "COVID-VVnr"@el .
+
+<http://ivci.org/NUVA/VAL164> rdfs:label "Εμβόλιο COVID-19, μη ζωντανό, απροσδιόριστο"@el ;
+    skos:altLabel "COVID-non-live"@el .
+
+<http://ivci.org/NUVA/VAL165> rdfs:label "Ζωντανό εμβόλιο κατά των κολοβακτηριδίων 19, απροσδιόριστο"@el ;
+    skos:altLabel "COVID-live"@el .
+
+<http://ivci.org/NUVA/VAL167> rdfs:label "Εμβόλιο COVID-19, μη αναπαραγόμενος ιικός φορέας, με αντιγονοπαρουσιαστικά κύτταρα"@el ;
+    skos:altLabel "COVID-VVnr+APC"@el .
+
+<http://ivci.org/NUVA/VAL168> rdfs:label "Εμβόλιο RNA anti-covid 19, απροσδιόριστο"@el ;
+    skos:altLabel "COVID-RNA"@el .
+
+<http://ivci.org/NUVA/VAL169> rdfs:label "Εμβόλιο COVID-19, αυτοενισχυόμενο mRNA (SAM)"@el ;
+    skos:altLabel "COVID-mRNA-SAM"@el .
+
+<http://ivci.org/NUVA/VAL170> rdfs:label "Εμβόλιο ηπατίτιδας Β, ανασυνδυασμένο αντιγόνο επιφανείας του ιού της ηπατίτιδας Β (HBsAg), 5 μικρογραμμάρια"@el ;
+    skos:altLabel "rHepB-05"@el .
+
+<http://ivci.org/NUVA/VAL171> rdfs:label "Εμβόλιο κατά της εγκεφαλίτιδας των ιπποειδών της Βενεζουέλας, απροσδιόριστο"@el ;
+    skos:altLabel "VEE"@el .
+
+<http://ivci.org/NUVA/VAL172> rdfs:label "Βαλεντία κατά του πυρετού Q (Coxiella burnetii), χωρίς διευκρίνιση"@el ;
+    skos:altLabel "Cbur"@el .
+
+<http://ivci.org/NUVA/VAL173> skos:altLabel "Junin-LAV"@el .
+
+<http://ivci.org/NUVA/VAL174> rdfs:label "Βαλεντία των Χανταϊών ιών, χωρίς διευκρίνιση"@el ;
+    skos:altLabel "HAN"@el .
+
+<http://ivci.org/NUVA/VAL175> rdfs:label "Εμβόλιο κατά της λεϊσμανίασης, απροσδιόριστο"@el ;
+    skos:altLabel "Leish"@el .
+
+<http://ivci.org/NUVA/VAL176> rdfs:label "Εμβόλιο ανθρώπινων ιών της παραϊνφλουέντσας, απροσδιόριστο"@el ;
+    skos:altLabel "HPIVs"@el .
+
+<http://ivci.org/NUVA/VAL177> rdfs:label "Βαλεντία του Haemophilus influenzae τύπου b, χωρίς διευκρίνιση"@el ;
+    skos:altLabel "Hib"@el .
+
+<http://ivci.org/NUVA/VAL178> rdfs:label "COVID-19 vaccine, mRNA coding for SARS-CoV-2 spike protein, Omicron variant BA.1, 25 micrograms"@el ;
+    skos:altLabel "COVID-mRNA-S-OMI-BA.1-25"@el .
+
+<http://ivci.org/NUVA/VAL179> rdfs:label "Εμβόλιο κατά του μηνιγγιτιδόκοκκου, μονοδύναμο"@el ;
+    skos:altLabel "MCV-mono"@el .
+
+<http://ivci.org/NUVA/VAL180> rdfs:label "Εμβόλιο COVID-19, mRNA που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2, 100 μικρογραμμάρια"@el ;
+    skos:altLabel "COVID-mRNA-S-ORI-100"@el .
+
+<http://ivci.org/NUVA/VAL181> rdfs:label "Εμβόλιο COVID-19, mRNA που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2, αρχικός ιός SARS-CoV-2, 25 μικρογραμμάρια"@el ;
+    skos:altLabel "Covid-mRNA-S-ORI-25"@el .
+
+<http://ivci.org/NUVA/VAL182> rdfs:label "Εμβόλιο ιλαράς, απροσδιόριστο"@el ;
+    skos:altLabel "Meas"@el .
+
+<http://ivci.org/NUVA/VAL183> rdfs:label "Εμβόλιο παρωτίτιδας, απροσδιόριστο"@el ;
+    skos:altLabel "Mumps"@el .
+
+<http://ivci.org/NUVA/VAL184> rdfs:label "Πολυσακχαριδικό συζευγμένο εμβόλιο πνευμονιόκοκκου, μονοδύναμο"@el ;
+    skos:altLabel "PCV"@el .
+
+<http://ivci.org/NUVA/VAL185> rdfs:label "Πολυσακχαριδικό εμβόλιο πνευμονιόκοκκου μη συζευγμένο, μη προσδιορισμένο"@el ;
+    skos:altLabel "PPSV"@el .
+
+<http://ivci.org/NUVA/VAL186> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 1"@el ;
+    skos:altLabel "PCV-01"@el .
+
+<http://ivci.org/NUVA/VAL187> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 3"@el ;
+    skos:altLabel "PCV-03"@el .
+
+<http://ivci.org/NUVA/VAL188> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 4"@el ;
+    skos:altLabel "PCV-04"@el .
+
+<http://ivci.org/NUVA/VAL189> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 5"@el ;
+    skos:altLabel "PCV-05"@el .
+
+<http://ivci.org/NUVA/VAL190> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 6Α"@el ;
+    skos:altLabel "PCV-06A"@el .
+
+<http://ivci.org/NUVA/VAL191> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 6B"@el ;
+    skos:altLabel "PCV-06B"@el .
+
+<http://ivci.org/NUVA/VAL192> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 7F"@el ;
+    skos:altLabel "PCV-07F"@el .
+
+<http://ivci.org/NUVA/VAL193> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 8"@el ;
+    skos:altLabel "PCV-08"@el .
+
+<http://ivci.org/NUVA/VAL194> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 9V"@el ;
+    skos:altLabel "PCV-09V"@el .
+
+<http://ivci.org/NUVA/VAL195> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 10Α"@el ;
+    skos:altLabel "PCV-10A"@el .
+
+<http://ivci.org/NUVA/VAL196> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 11Α"@el ;
+    skos:altLabel "PCV-11A"@el .
+
+<http://ivci.org/NUVA/VAL197> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 12F"@el ;
+    skos:altLabel "PCV-12F"@el .
+
+<http://ivci.org/NUVA/VAL198> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 14"@el ;
+    skos:altLabel "PCV-14"@el .
+
+<http://ivci.org/NUVA/VAL199> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 15Β"@el ;
+    skos:altLabel "PCV-15B"@el .
+
+<http://ivci.org/NUVA/VAL200> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 18C"@el ;
+    skos:altLabel "PCV-18C"@el .
+
+<http://ivci.org/NUVA/VAL201> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 19Α"@el ;
+    skos:altLabel "PCV-19A"@el .
+
+<http://ivci.org/NUVA/VAL202> rdfs:label "Πολυσακχαριδικό συζευγμένο εμβόλιο πνευμονιόκοκκου, ορότυπος 19F"@el ;
+    skos:altLabel "PCV-19F"@el .
+
+<http://ivci.org/NUVA/VAL203> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 22F"@el ;
+    skos:altLabel "PCV-22F"@el .
+
+<http://ivci.org/NUVA/VAL204> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 23F"@el ;
+    skos:altLabel "PCV-23F"@el .
+
+<http://ivci.org/NUVA/VAL205> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 33F"@el ;
+    skos:altLabel "PCV-33F"@el .
+
+<http://ivci.org/NUVA/VAL206> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 1"@el ;
+    skos:altLabel "PPSV-01"@el .
+
+<http://ivci.org/NUVA/VAL207> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 2"@el ;
+    skos:altLabel "PPSV-02"@el .
+
+<http://ivci.org/NUVA/VAL208> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 3"@el ;
+    skos:altLabel "PPSV-03"@el .
+
+<http://ivci.org/NUVA/VAL209> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 4"@el ;
+    skos:altLabel "PPSV-04"@el .
+
+<http://ivci.org/NUVA/VAL210> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 5"@el ;
+    skos:altLabel "PPSV-05"@el .
+
+<http://ivci.org/NUVA/VAL211> rdfs:label "Μη συζευγμένο εμβόλιο πολυσακχαρίτη του πνευμονιόκοκκου, ορότυπος 6Β"@el ;
+    skos:altLabel "PPSV-06B"@el .
+
+<http://ivci.org/NUVA/VAL212> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 7F"@el ;
+    skos:altLabel "PPSV-07F"@el .
+
+<http://ivci.org/NUVA/VAL213> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 8"@el ;
+    skos:altLabel "PPSV-08"@el .
+
+<http://ivci.org/NUVA/VAL214> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 9N"@el ;
+    skos:altLabel "PPSV-09N"@el .
+
+<http://ivci.org/NUVA/VAL215> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 9V"@el ;
+    skos:altLabel "PPSV-09V"@el .
+
+<http://ivci.org/NUVA/VAL216> rdfs:label "Μη συζευγμένο εμβόλιο πολυσακχαριδικού πνευμονιόκοκκου, ορότυπος 10Α"@el ;
+    skos:altLabel "PPSV-10A"@el .
+
+<http://ivci.org/NUVA/VAL217> rdfs:label "Μη συζευγμένο εμβόλιο πολυσακχαρίτη του πνευμονιόκοκκου, ορότυπος 11Α"@el ;
+    skos:altLabel "PPSV-11A"@el .
+
+<http://ivci.org/NUVA/VAL218> rdfs:label "Μη συζευγμένο εμβόλιο πολυσακχαριτών του πνευμονιόκοκκου, ορότυπος 12F"@el ;
+    skos:altLabel "PPSV-12F"@el .
+
+<http://ivci.org/NUVA/VAL219> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 14"@el ;
+    skos:altLabel "PPSV-14"@el .
+
+<http://ivci.org/NUVA/VAL220> rdfs:label "Μη συζευγμένο εμβόλιο πολυσακχαρίτη του πνευμονιόκοκκου, ορότυπος 15Β"@el ;
+    skos:altLabel "PPSV-15B"@el .
+
+<http://ivci.org/NUVA/VAL221> rdfs:label "Μη συζευγμένο εμβόλιο πολυσακχαρίτη του πνευμονιόκοκκου, ορότυπος 15F"@el ;
+    skos:altLabel "PPSV-15F"@el .
+
+<http://ivci.org/NUVA/VAL222> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 17F"@el ;
+    skos:altLabel "PPSV-17F"@el .
+
+<http://ivci.org/NUVA/VAL223> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 18C"@el ;
+    skos:altLabel "PPSV-18C"@el .
+
+<http://ivci.org/NUVA/VAL224> rdfs:label "Μη συζευγμένο εμβόλιο πολυσακχαρίτη του πνευμονιόκοκκου, ορότυπος 19A"@el ;
+    skos:altLabel "PPSV-19A"@el .
+
+<http://ivci.org/NUVA/VAL225> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 19F"@el ;
+    skos:altLabel "PPSV-19F"@el .
+
+<http://ivci.org/NUVA/VAL226> rdfs:label "Μη συζευγμένο εμβόλιο πολυσακχαρίτη του πνευμονιόκοκκου, ορότυπος 20"@el ;
+    skos:altLabel "PPSV-20"@el .
+
+<http://ivci.org/NUVA/VAL227> rdfs:label "Μη συζευγμένο εμβόλιο πολυσακχαρίτη του πνευμονιόκοκκου, ορότυπος 22F"@el ;
+    skos:altLabel "PPSV-22F"@el .
+
+<http://ivci.org/NUVA/VAL228> rdfs:label "Μη συζευγμένο εμβόλιο πολυσακχαρίτη πνευμονιόκοκκου, ορότυπος 23F"@el ;
+    skos:altLabel "PPSV-23F"@el .
+
+<http://ivci.org/NUVA/VAL229> rdfs:label "Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 33F"@el ;
+    skos:altLabel "PPSV-33F"@el .
+
+<http://ivci.org/NUVA/VAL230> rdfs:label "Τετρασθενής αδρανοποιημένη βαλεντία της γρίπης, κλασματοποιημένη ή υπομονάδα, χωρίς διευκρίνιση"@el .
+
+<http://ivci.org/NUVA/VAL232> rdfs:label "Μη συζευγμένο εμβόλιο πολυσακχαρίτη του πνευμονιόκοκκου, ορότυπος 6Α"@el ;
+    skos:altLabel "PPSV-06A"@el .
+
+<http://ivci.org/NUVA/VAL233> rdfs:label "Πολυσακχαριδικό εμβόλιο πνευμονιόκοκκου μη συζευγμένο, ορότυπος 25"@el ;
+    skos:altLabel "PPSV-25"@el .
+
+<http://ivci.org/NUVA/VAL234> rdfs:label "Εμβόλιο μηνιγγιτιδοκόκκου, απροσδιόριστο"@el ;
+    skos:altLabel "Men"@el .
+
+<http://ivci.org/NUVA/VAL235> rdfs:label "Μηνιγγιτιδοκοκκικό συζευγμένο πολυσακχαριδικό εμβόλιο, πολυδύναμο"@el ;
+    skos:altLabel "MCV-poly"@el .
+
+<http://ivci.org/NUVA/VAL236> rdfs:label "Εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, μονοδύναμο"@el ;
+    skos:altLabel "HPV-mono"@el .
+
+<http://ivci.org/NUVA/VAL237> rdfs:label "Εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, πολυδύναμο"@el ;
+    skos:altLabel "HPV-poly"@el .
+
+<http://ivci.org/NUVA/VAL238> rdfs:label "Εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύπου 6"@el ;
+    skos:altLabel "HPV-06"@el .
+
+<http://ivci.org/NUVA/VAL239> rdfs:label "Εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύπου 11"@el ;
+    skos:altLabel "HVP-11"@el .
+
+<http://ivci.org/NUVA/VAL240> rdfs:label "Εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύπου 16"@el ;
+    skos:altLabel "HVP-16"@el .
+
+<http://ivci.org/NUVA/VAL241> rdfs:label "Εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύπου 18"@el ;
+    skos:altLabel "HVP-18"@el .
+
+<http://ivci.org/NUVA/VAL242> rdfs:label "Εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύπου 31"@el ;
+    skos:altLabel "HVP-31"@el .
+
+<http://ivci.org/NUVA/VAL243> rdfs:label "Εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύπου 33"@el ;
+    skos:altLabel "HPV-33"@el .
+
+<http://ivci.org/NUVA/VAL244> rdfs:label "Εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύπου 58"@el ;
+    skos:altLabel "HVP-58"@el .
+
+<http://ivci.org/NUVA/VAL245> rdfs:label "Εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύπου 52"@el ;
+    skos:altLabel "HVP-52"@el .
+
+<http://ivci.org/NUVA/VAL246> rdfs:label "Εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύπου 45"@el ;
+    skos:altLabel "HVP-45"@el .
+
+<http://ivci.org/NUVA/VAL247> skos:altLabel "JE-LAR"@el .
+
+<http://ivci.org/NUVA/VAL248> skos:altLabel "JE-LAV"@el .
+
+<http://ivci.org/NUVA/VAL249> rdfs:label "Βαλεντία κατά της Ιαπωνικής εγκεφαλίτιδας, χωρίς διευκρίνιση"@el ;
+    skos:altLabel "JE"@el .
+
+<http://ivci.org/NUVA/VAL250> rdfs:label "Βαλεντία κατά της Ιαπωνικής εγκεφαλίτιδας, ολόκληρη αδρανοποιημένη, παρασκευασμένη σε εγκεφαλικό ιστό ποντικιού"@el ;
+    skos:altLabel "JE-I-mb"@el .
+
+<http://ivci.org/NUVA/VAL251> rdfs:label "αλεντία ιαπωνικής εγκεφαλίτιδας, αδρανοποιημένη, προερχόμενη από κύτταρα Vero"@el ;
+    skos:altLabel "JE-I-Vero"@el .
+
+<http://ivci.org/NUVA/VAL252> rdfs:label "Ανοσοσφαιρίνη λύσσας, ανθρώπινης προέλευσης"@el ;
+    skos:altLabel "RIG-hu"@el .
+
+<http://ivci.org/NUVA/VAL253> rdfs:label "Ανοσοσφαιρίνη λύσσας, ιπποειδούς προέλευσης"@el ;
+    skos:altLabel "eRIG"@el .
+
+<http://ivci.org/NUVA/VAL254> rdfs:label "Αδρανοποιημένο εμβόλιο κατά της λύσσας, τύπου Semple, παρασκευασμένο από εγκεφαλικό ιστό αίγας ή προβάτου μολυσμένο με τον ιό της λύσσας, περιέχει μυελίνη"@el ;
+    skos:altLabel "Rab-I-Semple"@el .
+
+<http://ivci.org/NUVA/VAL255> rdfs:label "Ολόκληρο αδρανοποιημένο εμβόλιο κατά της λύσσας, τύπου Fuenzalida, παρασκευασμένο από εγκεφαλικό ιστό θηλαστικού ποντικού μολυσμένου με τον ιό της λύσσας, με μειωμένη περιεκτικότητα σε μυελίνη"@el ;
+    skos:altLabel "Rab-I-Fuenzalida"@el .
+
+<http://ivci.org/NUVA/VAL256> rdfs:label "Αδρανοποιημένο εμβόλιο της λύσσας, παρασκευασμένο από ιστό εγκεφάλου ζώου που έχει μολυνθεί από τον ιό της λύσσας, απροσδιόριστο"@el ;
+    skos:altLabel "Rab-I-NervousTissue"@el .
+
+<http://ivci.org/NUVA/VAL257> rdfs:label "Ολόκληρο εμβόλιο αδρανοποιημένου ιού λύσσας, βασισμένο σε κυτταρική καλλιέργεια, απροσδιόριστο"@el ;
+    skos:altLabel "Rab-I-CC"@el .
+
+<http://ivci.org/NUVA/VAL258> rdfs:label "Αδρανοποιημένο εμβόλιο λύσσας με ολόκληρο ιό, με βάση την κυτταρική καλλιέργεια, εμβόλιο ανθρώπινων διπλοειδών κυττάρων (HDCV) MRC-5, αδρανοποίηση με β-προπιολάκτονη"@el ;
+    skos:altLabel "Rab-I-HDCV"@el .
+
+<http://ivci.org/NUVA/VAL259> rdfs:label "Αδρανοποιημένο εμβόλιο της λύσσας με ολόκληρο τον ιό, εμβόλιο από καθαρισμένα κύτταρα εμβρύου νεοσσού (PCECV), το οποίο λαμβάνεται με την καλλιέργεια του σταθερού στελέχους του ιού της λύσσας Flury LEP-25 σε πρωτογενείς καλλιέργειες ινοβλαστών νεοσσού, ο ιός αδρανοποιείται με β-προπιολάκτον."@el ;
+    skos:altLabel "Rab-I-PCEC"@el .
+
+<http://ivci.org/NUVA/VAL260> rdfs:label "Αδρανοποιημένο εμβόλιο για τη λύσσα, με βάση την κυτταροκαλλιέργεια, καθαρισμένο εμβόλιο κατά της λύσσας από κύτταρα Vero (PVRV), στέλεχος Wistar, αδρανοποίηση με ß-προπιολάκτονη"@el ;
+    skos:altLabel "Rab-I-PVRV"@el .
+
+<http://ivci.org/NUVA/VAL261> rdfs:label "Αδρανοποιημένο εμβόλιο της λύσσας, με βάση την κυτταροκαλλιέργεια, εμβόλιο πρωτογενών νεφρικών κυττάρων χάμστερ (PHKCV), στέλεχος Beijing, αδρανοποίηση με φορμόλη"@el ;
+    skos:altLabel "Rab-I-PHKCV"@el .
+
+<http://ivci.org/NUVA/VAL262> rdfs:label "Ολόκληρο ιόν αδρανοποιημένο εμβόλιο λύσσας, εμβόλιο με βάση τα εμβρυοποιημένα αυγά (EEV), απροσδιόριστο"@el ;
+    skos:altLabel "Rab-I-EEV"@el .
+
+<http://ivci.org/NUVA/VAL263> rdfs:label "Αδρανοποιημένο εμβόλιο λύσσας με ολόκληρο τον ιό, καθαρισμένο εμβόλιο εμβρύου πάπιας (PDEV), αδρανοποίηση με ß-προπιολάκτονη"@el ;
+    skos:altLabel "Rab-I-PDEV"@el .
+
+<http://ivci.org/NUVA/VAL264> rdfs:label "Εμβόλιο COVID-19, ολόκληρο ιό αδρανοποιημένο"@el ;
+    skos:altLabel "COVID-IV-Auth"@el .
+
+<http://ivci.org/NUVA/VAL265> rdfs:label "Εμβόλιο COVID-19, ολόκληρο ιό αδρανοποιημένο, σε κλινικές δοκιμές"@el ;
+    skos:altLabel "COVID-IV-CT"@el .
+
+<http://ivci.org/NUVA/VAL266> rdfs:label "Εμβόλιο μηνιγγιτιδοκόκκου C, συζευγμένο τοξοειδές τετάνου"@el ;
+    skos:altLabel "MCV-C-T"@el .
+
+<http://ivci.org/NUVA/VAL267> rdfs:label "Εμβόλιο μηνιγγιτιδοκόκκου C, πολυσακχαρίτης συζευγμένος με τοξοειδές διφθερίτιδας"@el ;
+    skos:altLabel "MCV-C-D"@el .
+
+<http://ivci.org/NUVA/VAL268> rdfs:label "Εμβόλιο μηνιγγιτιδοκόκκου C, πολυσακχαρίτης συζευγμένος με CRM197"@el ;
+    skos:altLabel "MCV-C-CRM"@el .
+
+<http://ivci.org/NUVA/VAL269> rdfs:label "Εμβόλιο μηνιγγιτιδοκόκκου Α, πολυσακχαρίτης συζευγμένος με CRM197"@el ;
+    skos:altLabel "MCV-A-CRM"@el .
+
+<http://ivci.org/NUVA/VAL270> rdfs:label "Εμβόλιο μηνιγγιτιδοκόκκου Α, πολυσακχαρίτης συζευγμένος με τοξοειδές διφθερίτιδας"@el ;
+    skos:altLabel "MCV-A-D"@el .
+
+<http://ivci.org/NUVA/VAL271> rdfs:label "Εμβόλιο μηνιγγιτιδοκόκκου Α, πολυσακχαρίτης συζευγμένος με τοξικοειδές τετάνου"@el ;
+    skos:altLabel "MCV-A-T"@el .
+
+<http://ivci.org/NUVA/VAL272> rdfs:label "Εμβόλιο μηνιγγιτιδοκόκκου W, συζευγμένο τοξοειδές τετάνου"@el ;
+    skos:altLabel "MCV-W-T"@el .
+
+<http://ivci.org/NUVA/VAL273> rdfs:label "Εμβόλιο μηνιγγιτιδοκόκκου W, πολυσακχαρίτης συζευγμένος με τοξοειδές διφθερίτιδας"@el ;
+    skos:altLabel "MCV-W-D"@el .
+
+<http://ivci.org/NUVA/VAL274> rdfs:label "Εμβόλιο μηνιγγιτιδοκόκκου W, πολυσακχαρίτης συζευγμένος με CRM197"@el ;
+    skos:altLabel "MCV-W-CRM"@el .
+
+<http://ivci.org/NUVA/VAL275> rdfs:label "Μηνιγγιτιδοκοκκικό εμβόλιο Y, πολυσακχαρίτης συζευγμένος με CRM197"@el ;
+    skos:altLabel "MCV-Y-CRM"@el .
+
+<http://ivci.org/NUVA/VAL276> rdfs:label "Εμβόλιο μηνιγγιτιδοκόκκου Y, συζευγμένο τοξοειδές τετάνου"@el ;
+    skos:altLabel "MCV-Y-T"@el .
+
+<http://ivci.org/NUVA/VAL277> rdfs:label "Εμβόλιο μηνιγγιτιδοκόκκου Y, πολυσακχαρίτης συζευγμένος με τοξοειδές διφθερίτιδας"@el ;
+    skos:altLabel "MCV-Y-D"@el .
+
+<http://ivci.org/NUVA/VAL278> skos:altLabel "Adeno-LAV"@el .
+
+<http://ivci.org/NUVA/VAL280> rdfs:label "Τοξικοειδές της αλλαντοτοξίνης"@el ;
+    skos:altLabel "BT"@el .
+
+<http://ivci.org/NUVA/VAL281> skos:altLabel "Adeno-7"@el .
+
+<http://ivci.org/NUVA/VAL282> skos:altLabel "Adeno-4"@el .
+
+<http://ivci.org/NUVA/VAL283> rdfs:label "Ολόκληρη αδρανοποιημένη βαλεντία της ηπατίτιδας Α, παιδιατρική δόση, χωρίς διευκρίνιση"@el ;
+    skos:altLabel "HepA-PED"@el .
+
+<http://ivci.org/NUVA/VAL284> rdfs:label "Ολόκληρη αδρανοποιημένη βαλεντία της ηπατίτιδας Α, δόση για ενήλικες, χωρίς διευκρίνιση"@el ;
+    skos:altLabel "HepA-ADU"@el .
+
+<http://ivci.org/NUVA/VAL285> rdfs:label "Τρισθενής αδρανοποιημένη βαλεντία της γρίπης που προέρχεται από κυτταροκαλλιέργεια, κλασματοποιημένη ή υπομονάδα, κανονική δόση"@el .
+
+<http://ivci.org/NUVA/VAL286> skos:altLabel "HepA-LAV"@el .
+
+<http://ivci.org/NUVA/VAL287> rdfs:label "Tετρασθενής ανασυνδυασμένη βαλεντία της γρίπης"@el .
+
+<http://ivci.org/NUVA/VAL288> rdfs:label "Βαλεντία της ηπατίτιδας Α, χωρίς διευκρίνιση"@el ;
+    skos:altLabel "HepA"@el .
+
+<http://ivci.org/NUVA/VAL289> rdfs:label "Εμβόλιο COVID-19, mRNA που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2, 10 μικρογραμμάρια"@el ;
+    skos:altLabel " COVID-mRNA-S-ORI-10"@el .
+
+<http://ivci.org/NUVA/VAL290> rdfs:label "Εμβόλιο COVID-19, mRNA που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2, 30 μικρογραμμάρια"@el ;
+    skos:altLabel "COVID-mRNA-S-ORI-30"@el .
+
+<http://ivci.org/NUVA/VAL291> rdfs:label "Ανασυνδυασμένη βαλεντία της ηπατίτιδας Β, τρία αντιγόνα (HbS, προ-S1 και προ-S2)"@el ;
+    skos:altLabel "HepB-r-3Ag"@el .
+
+<http://ivci.org/NUVA/VAL292> rdfs:label "Εμβόλιο COVID-19, μη αναπαραγόμενος φορέας αδενοϊού 26 που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2, σε κλινικές δοκιμές"@el ;
+    skos:altLabel "Covid-VVnr-S-Ad26-CT"@el .
+
+<http://ivci.org/NUVA/VAL293> rdfs:label "Ανοσοσφαιρίνη άνθρακα"@el ;
+    skos:altLabel "Anthrax-Ig"@el .
+
+<http://ivci.org/NUVA/VAL294> rdfs:label "Ζωντανός ιός της εμβολίας, εμβόλιο πρώτης γενιάς"@el ;
+    skos:altLabel "Pox-1G"@el .
+
+<http://ivci.org/NUVA/VAL295> skos:altLabel "Pox-2G"@el .
+
+<http://ivci.org/NUVA/VAL296> rdfs:label "Τροποποιημένο εμβόλιο Ankara, μη αναπαραγόμενο, τρίτης γενιάς"@el ;
+    skos:altLabel "Pox-3G-MVA"@el .
+
+<http://ivci.org/NUVA/VAL297> rdfs:label "Εμβόλιο μηνιγγιτιδοκόκκου Α, απροσδιόριστο"@el ;
+    skos:altLabel "MenA"@el .
+
+<http://ivci.org/NUVA/VAL298> rdfs:label "Εμβόλιο μηνιγγιτιδοκόκκου C, απροσδιόριστο"@el ;
+    skos:altLabel "MenC"@el .
+
+<http://ivci.org/NUVA/VAL299> rdfs:label "Εμβόλιο κατά του μηνιγγιτιδόκοκκου Y, απροσδιόριστο"@el ;
+    skos:altLabel "MenY"@el .
+
+<http://ivci.org/NUVA/VAL300> rdfs:label "Εμβόλιο μηνιγγιτιδοκόκκου W, απροσδιόριστο"@el ;
+    skos:altLabel "MenW"@el .
+
+<http://ivci.org/NUVA/VAL301> rdfs:label "Ανασυνδυασμένο τρισθενές εμβόλιο γρίπης"@el .
+
+<http://ivci.org/NUVA/VAL302> rdfs:label "Εμβόλιο COVID-19, mRNA που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2, 50 μικρογραμμάρια"@el ;
+    skos:altLabel "COVID-mRNA-S-ORI-50"@el .
+
+<http://ivci.org/NUVA/VAL303> rdfs:label "Εμβόλιο anti-covid 19 mRNA που κωδικοποιεί την πρωτεΐνη spike του SARS-CoV-2, του αρχικού ιού"@el ;
+    skos:altLabel "COVID-mRNA-S-ORI"@el .
+
+<http://ivci.org/NUVA/VAL304> rdfs:label "Εμβόλιο SARS-CoV-2 spike protein mRNA 19, αρχικός ιός, 15 μικρογραμμάρια"@el ;
+    skos:altLabel "Covid-ARNm-S-ORI-15"@el .
+
+<http://ivci.org/NUVA/VAL305> rdfs:label "Εμβόλιο SARS-CoV-2 peak protein mRNA 19, παραλλαγή Omicron BA.1, 15 μικρογραμμάρια"@el ;
+    skos:altLabel "COVID-mRNA-S-OMI-BA.1-15"@el .
+
+<http://ivci.org/NUVA/VAL306> rdfs:label "Εμβόλιο SARS-CoV-2 peak protein mRNA 19, αρχικός ιός, 3 μικρογραμμάρια"@el ;
+    skos:altLabel "COVID-mRNA-S-ORI-3"@el .
+
+<http://ivci.org/NUVA/VAL307> rdfs:label "Εμβόλιο SARS-CoV-2 peak protein mRNA 19, παραλλαγή Omicron BA.4/BA.5, 15 μικρογραμμάρια"@el ;
+    skos:altLabel "COVID-mRNA-S-OMI-BA.4/5-15"@el .
+
+<http://ivci.org/NUVA/VAL308> rdfs:label "Εμβόλιο SARS-CoV-2 spike protein mRNA 19, παραλλαγή Omicron BA.4/BA.5, 25 μικρογραμμάρια"@el ;
+    skos:altLabel "COVID-mRNA-S-OMI-BA.4/5-25"@el .
+
+<http://ivci.org/NUVA/VAL309> rdfs:label "Εμβόλιο SARS-CoV-2 peak protein mRNA 19, παραλλαγή Omicron BA.4/BA.5, 5 μικρογραμμάρια"@el ;
+    skos:altLabel "Covid-ARNm-S-OMI-BA.4/5-5"@el .
+
+<http://ivci.org/NUVA/VAL310> rdfs:label "Εμβόλιο COVID-19, mRNA που κωδικοποιεί την πρωτεΐνη ακίδας SARS-CoV-2, αρχικός ιός, 5 μικρογραμμάρια"@el ;
+    skos:altLabel "Covid-mRNA-S-ORI-5"@el .
+
+<http://ivci.org/NUVA/VAL311> skos:altLabel "R21/Matrix-M"@el .
+
+<http://ivci.org/NUVA/VAL312> skos:altLabel "TBE-K23"@el .
+
+<http://ivci.org/NUVA/VAL313> skos:altLabel "TBE-Neudorfl"@el .
+
+<http://ivci.org/NUVA/VAL314> skos:altLabel "TBE-Neudorfl-ADU"@el .
+
+<http://ivci.org/NUVA/VAL315> skos:altLabel "TBE-Neudorfl-PED"@el .
+
+<http://ivci.org/NUVA/VAL316> skos:altLabel "RSV-PreF3"@el .
+
+<http://ivci.org/NUVA/VAL317> rdfs:label "Αντισώματα RSV, απροσδιόριστα"@el ;
+    skos:altLabel "RSV-Ab"@el .
+
+<http://ivci.org/NUVA/VAL318> rdfs:label "Εμβόλιο RSV, απροσδιόριστο"@el ;
+    skos:altLabel "RSV-V"@el .
+
+<http://ivci.org/NUVA/VAL321> skos:altLabel "VRS-mAb-nir"@el .
+
+<http://ivci.org/NUVA/VAL322> skos:altLabel "RSV-PreFAB"@el .
+
+<http://ivci.org/NUVA/VAL326> skos:altLabel "COVID-mRNA-S-OMI-BA.4/5-1.5"@el .
+
+<http://ivci.org/NUVA/VAL327> skos:altLabel "COVID-mRNA-S-ORI-1.5"@el .
+
+<http://ivci.org/NUVA/VAL329> rdfs:label "Εμβόλιο SARS-CoV-2 spike protein mRNA 19, παραλλαγή Omicron XBB.1.5-50 μικρογραμμάρια"@el ;
+    skos:altLabel "Covid-ARNm-S-OMI-XBB.1.5-50"@el .
+
+<http://ivci.org/NUVA/VAL331> rdfs:label "CMV immune globulin"@el ;
+    skos:altLabel "CMV-Ig"@el .
+
+<http://ivci.org/NUVA/VAL332> rdfs:label "Βαλεντία της ηπατίτιδας C, χωρίς διευκρίνιση"@el .
+
+<http://ivci.org/NUVA/VAL336> rdfs:label "Βαλεντία του Πυρετού της Κοιλάδας του Ριφτ, χωρίς διευκρίνιση"@el ;
+    skos:altLabel "RVF"@el .
+
+<http://ivci.org/NUVA/VAL337> skos:altLabel "Ευλογιά-Ig"@el .
+
+<http://ivci.org/NUVA/VAL338> rdfs:label "Αντίσωμα ή εμβόλιο RSV, απροσδιόριστο"@el ;
+    skos:altLabel "RSV"@el .
+
+<http://ivci.org/NUVA/VAL340> rdfs:label "Βαλεντία κατά του άνθρακα, χωρίς διευκρίνιση"@el ;
+    skos:altLabel "Άνθρακας"@el .
+
+<http://ivci.org/NUVA/VAL341> rdfs:label "Βαλεντία κατά του Escherichia coli, χωρίς διευκρίνιση"@el ;
+    skos:altLabel "Eco"@el .
+
+<http://ivci.org/NUVA/VAL342> skos:altLabel "Kpn"@el .
+
+<http://ivci.org/NUVA/VAL343> rdfs:label "Βαλεντία κατά του Enterococcus faecalis, χωρίς διευκρίνιση"@el ;
+    skos:altLabel "Efa"@el .
+
+<http://ivci.org/NUVA/VAL344> skos:altLabel "Pvu"@el .
+
+<http://ivci.org/NUVA/VAL345> skos:altLabel "UTI"@el .
+
+<http://ivci.org/NUVA/VAL359> rdfs:label "Αδρανοποιημένη ολόκληρη χολερική βαλεντία, χωρίς διευκρίνιση"@el .
+
+<http://ivci.org/NUVA/VAL360> rdfs:label "Αδρανοποιημένη βαλεντία της γρίπης που προέρχεται από κυτταροκαλλιέργεια, κλασματοποιημένη ή υπομονάδα, κανονική δόση, χωρίς διευκρίνιση"@el .
+
+<http://ivci.org/NUVA/VAL361> rdfs:label "Aνασυνδυασμένη βαλεντία της γρίπης, χωρίς διευκρίνιση"@el .
+
+<http://ivci.org/NUVA/VAL364> rdfs:label "Μη ζωντανή βαλεντία της γρίπης, χωρίς διευκρίνιση"@el .
+
+<http://ivci.org/NUVA/VAL365> rdfs:label "Μη ζωντανή βαλεντία της γρίπης που προέρχεται από καλλιέργεια σε αυγά, χωρίς διευκρίνιση"@el .
+
+<http://ivci.org/NUVA/VAL366> rdfs:label "Βαλεντία της γρίπης με βάση το RNA, χωρίς διευκρίνιση"@el .
+
+<http://ivci.org/NUVA/VAL383> rdfs:label "Single-stranded 5' capped mRNA encoding the Respiratory syncytial virus glycoprotein F stabilized in the prefusion conformation"@el ;
+    skos:altLabel "mRSV"@el .
+
+<http://ivci.org/NUVA/VAL384> skos:altLabel "LEP"@el .
+
+<http://ivci.org/NUVA/VAL386> skos:altLabel "AH5"@el .
+
+<http://ivci.org/NUVA/VAL389> rdfs:label "Valence contre Pseudomonas aeruginosa, 7 ανοσοτύποι"@el ;
+    skos:altLabel "PAER7"@el .
+
+<http://ivci.org/NUVA/VAL390> rdfs:label "Chikungunya valence, απροσδιόριστη"@el ;
+    skos:altLabel "CHIK"@el .
+
+<http://ivci.org/NUVA/VAL391> rdfs:label "Chikungunya VLP valence"@el ;
+    skos:altLabel "Chik-VLP"@el .
+
+<http://ivci.org/NUVA/VAL392> skos:altLabel "AH5N1-RNA"@el .
+
+<http://ivci.org/NUVA/VAL411> skos:altLabel "COVID-mRNA-S-OMI-BA.4/5-50"@el .
+
+<http://ivci.org/NUVA/VAL412> skos:altLabel "Covid-ARNm-S-OMI-BA.1-50"@el .
+
+<http://ivci.org/NUVA/VAL413> skos:altLabel "Covid-SP-rRBD-XBB.1.16"@el .
+
+<http://ivci.org/NUVA/VAL414> skos:altLabel "DIPH"@el .
+
+<http://ivci.org/NUVA/VAL415> skos:altLabel "BantAdj"@el .
+

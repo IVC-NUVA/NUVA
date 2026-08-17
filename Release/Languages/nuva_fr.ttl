@@ -1,0 +1,2623 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://ivci.org/NUVA/DIS001> rdfs:label "Diphtérie"@fr .
+
+<http://ivci.org/NUVA/DIS002> rdfs:label "Tétanos"@fr .
+
+<http://ivci.org/NUVA/DIS003> rdfs:label "Coqueluche"@fr .
+
+<http://ivci.org/NUVA/DIS004> rdfs:label "Poliomyélite"@fr .
+
+<http://ivci.org/NUVA/DIS005> rdfs:label "Haemophilus influenzae b"@fr .
+
+<http://ivci.org/NUVA/DIS006> rdfs:label "Hépatite B"@fr .
+
+<http://ivci.org/NUVA/DIS008> rdfs:label "Rougeole"@fr .
+
+<http://ivci.org/NUVA/DIS009> rdfs:label "Oreillons"@fr .
+
+<http://ivci.org/NUVA/DIS010> rdfs:label "Rubéole"@fr .
+
+<http://ivci.org/NUVA/DIS011> rdfs:label "Varicelle"@fr .
+
+<http://ivci.org/NUVA/DIS014> rdfs:label "Tuberculose"@fr .
+
+<http://ivci.org/NUVA/DIS015> rdfs:label "Grippe saisonnière"@fr .
+
+<http://ivci.org/NUVA/DIS016> rdfs:label "Hépatite A"@fr .
+
+<http://ivci.org/NUVA/DIS017> rdfs:label "Fièvre jaune"@fr .
+
+<http://ivci.org/NUVA/DIS018> rdfs:label "Typhoïde"@fr .
+
+<http://ivci.org/NUVA/DIS025> rdfs:label "Pneumocoque"@fr .
+
+<http://ivci.org/NUVA/DIS027> rdfs:label "Encéphalite à tiques"@fr .
+
+<http://ivci.org/NUVA/DIS028> rdfs:label "Encéphalite japonaise"@fr .
+
+<http://ivci.org/NUVA/DIS029> rdfs:label "Variole-Mpox"@fr .
+
+<http://ivci.org/NUVA/DIS030> rdfs:label "Rage"@fr .
+
+<http://ivci.org/NUVA/DIS031> rdfs:label "Dengue"@fr .
+
+<http://ivci.org/NUVA/DIS032> rdfs:label "Rotavirus"@fr .
+
+<http://ivci.org/NUVA/DIS033> rdfs:label "Zona"@fr .
+
+<http://ivci.org/NUVA/DIS034> rdfs:label "Leptospirose"@fr .
+
+<http://ivci.org/NUVA/DIS036> rdfs:label "Choléra"@fr .
+
+<http://ivci.org/NUVA/DIS038> rdfs:label "Papillomavirus"@fr .
+
+<http://ivci.org/NUVA/DIS040> rdfs:label "Paludisme"@fr .
+
+<http://ivci.org/NUVA/DIS041> rdfs:label "Brucellose"@fr .
+
+<http://ivci.org/NUVA/DIS042> rdfs:label "Typhus exanthématique"@fr .
+
+<http://ivci.org/NUVA/DIS043> rdfs:label "Méningocoque C"@fr .
+
+<http://ivci.org/NUVA/DIS044> rdfs:label "Méningocoque A"@fr .
+
+<http://ivci.org/NUVA/DIS045> rdfs:label "Méningocoque B"@fr .
+
+<http://ivci.org/NUVA/DIS046> rdfs:label "Méningocoque W"@fr .
+
+<http://ivci.org/NUVA/DIS047> rdfs:label "Méningocoque Y"@fr .
+
+<http://ivci.org/NUVA/DIS048> rdfs:label "Méningocoques"@fr .
+
+<http://ivci.org/NUVA/DIS050> rdfs:label "Grippe aviaire"@fr .
+
+<http://ivci.org/NUVA/DIS051> rdfs:label "Charbon"@fr .
+
+<http://ivci.org/NUVA/DIS052> rdfs:label "Botulisme"@fr .
+
+<http://ivci.org/NUVA/DIS053> rdfs:label "Maladie de Lyme"@fr .
+
+<http://ivci.org/NUVA/DIS054> rdfs:label "Hépatite E"@fr .
+
+<http://ivci.org/NUVA/DIS055> rdfs:label "Ebola"@fr .
+
+<http://ivci.org/NUVA/DIS056> rdfs:label "Chikungunya"@fr .
+
+<http://ivci.org/NUVA/DIS057> rdfs:label "Covid 19"@fr .
+
+<http://ivci.org/NUVA/DIS058> rdfs:label "Virus Respiratoire Syncytial"@fr .
+
+<http://ivci.org/NUVA/DIS059> rdfs:label "Peste"@fr .
+
+<http://ivci.org/NUVA/DIS060> rdfs:label "Herpès"@fr .
+
+<http://ivci.org/NUVA/DIS061> rdfs:label "Tularémie"@fr .
+
+<http://ivci.org/NUVA/DIS062> rdfs:label "Fièvre hémorragique d'Argentine"@fr .
+
+<http://ivci.org/NUVA/DIS063> rdfs:label "Adénovirus"@fr .
+
+<http://ivci.org/NUVA/DIS064> rdfs:label "Encéphalite équine vénézuélienne"@fr .
+
+<http://ivci.org/NUVA/DIS065> rdfs:label "Fièvre Q"@fr .
+
+<http://ivci.org/NUVA/DIS066> rdfs:label "Hantavirus"@fr .
+
+<http://ivci.org/NUVA/DIS067> rdfs:label "Leishmaniose"@fr .
+
+<http://ivci.org/NUVA/DIS068> rdfs:label "Virus parainfluenza humains"@fr .
+
+<http://ivci.org/NUVA/DIS070> rdfs:label "Cytomégalovirus"@fr .
+
+<http://ivci.org/NUVA/DIS071> rdfs:label "Hépatite C"@fr .
+
+<http://ivci.org/NUVA/DIS072> rdfs:label "Infection à VIH"@fr .
+
+<http://ivci.org/NUVA/DIS073> rdfs:label "Mélanome"@fr .
+
+<http://ivci.org/NUVA/DIS074> rdfs:label "Streptococcus pyogenes"@fr .
+
+<http://ivci.org/NUVA/DIS075> rdfs:label "Fièvre de la vallée du Rift"@fr .
+
+<http://ivci.org/NUVA/DIS076> rdfs:label "Infection urinaire"@fr .
+
+<http://ivci.org/NUVA/DIS077> rdfs:label "Entérovirus"@fr .
+
+<http://ivci.org/NUVA/DIS078> rdfs:label "Lèpre"@fr .
+
+<http://ivci.org/NUVA/DIS079> rdfs:label "Pseudomonas aeruginosa"@fr .
+
+<http://ivci.org/NUVA/DIS080> rdfs:label "Méningocoque X"@fr .
+
+<http://ivci.org/NUVA/VAC0084> rdfs:label "Vaccin Grippe prépandémique H5N1, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la grippe A(H5N1)"@fr .
+
+<http://ivci.org/NUVA/VAC0088> rdfs:label "Vaccin DTP - Diphtérie-Tétanos-Polio, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine) et poliomyélitique (entier inactivé, trivalent)"@fr .
+
+<http://ivci.org/NUVA/VAC0101> rdfs:label "Vaccin Hépatite B, recombinant, sans précision"@fr ;
+    rdfs:comment "Vaccin recombinant contre le virus de l'hépatite B, dose non précisée"@fr .
+
+<http://ivci.org/NUVA/VAC0102> rdfs:label "Vaccin Hépatite A inactivé, sans précision"@fr ;
+    rdfs:comment "Vaccin entier inactivé contre l'hépatite A"@fr .
+
+<http://ivci.org/NUVA/VAC0110> rdfs:label "Vaccin Grippe, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la grippe saisonnière"@fr .
+
+<http://ivci.org/NUVA/VAC0111> rdfs:label "Vaccin Fièvre jaune, sans précision"@fr ;
+    rdfs:comment "Vaccin vivant atténué contre la fièvre jaune"@fr .
+
+<http://ivci.org/NUVA/VAC0112> rdfs:label "Vaccin Typhoïde, sans précision"@fr ;
+    rdfs:comment "Vaccin typhoïdique, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC0113> rdfs:label "Vaccin rubéole, vivant atténué, sans précision"@fr ;
+    rdfs:comment "Vaccin vivant atténué contre la rubéole"@fr .
+
+<http://ivci.org/NUVA/VAC0114> rdfs:label "Vaccin Rougeole, vivant atténué, sans précision"@fr ;
+    rdfs:comment "Vaccin vivant atténué contre la rougeole"@fr .
+
+<http://ivci.org/NUVA/VAC0130> rdfs:label "Vaccin ROR, sans précision"@fr ;
+    rdfs:comment "Vaccin vivant atténué contre la rougeole, les oreillons et la rubéole"@fr .
+
+<http://ivci.org/NUVA/VAC0131> rdfs:label "Vaccin Rage, sans précision"@fr ;
+    rdfs:comment "Vaccin rabique entier inactivé"@fr .
+
+<http://ivci.org/NUVA/VAC0132> rdfs:label "Vaccin Tétanos, sans précision"@fr ;
+    rdfs:comment "Vaccin tétanique (anatoxine)"@fr .
+
+<http://ivci.org/NUVA/VAC0133> rdfs:label "Vaccin Variole, sans précision"@fr ;
+    rdfs:comment "Vaccin vivant atténué contre la variole"@fr .
+
+<http://ivci.org/NUVA/VAC0134> rdfs:label "Vaccin BCG, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la tuberculose (vivant atténué)"@fr .
+
+<http://ivci.org/NUVA/VAC0135> rdfs:label "Vaccin Poliomyélite, sans précision"@fr ;
+    rdfs:comment "Vaccin poliomyélitique, vivant ou inactivé (sans précision)"@fr .
+
+<http://ivci.org/NUVA/VAC0136> rdfs:label "Vaccin DTCe - Diphtérie-Tétanos-Coqueluche, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine) et coquelucheux (entier inactivé)"@fr .
+
+<http://ivci.org/NUVA/VAC0137> rdfs:label "Vaccin Diphtérie et Tétanos, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard) et tétanique (anatoxine)"@fr .
+
+<http://ivci.org/NUVA/VAC0138> rdfs:label "Vaccin DiphTPCoq - Diphtérie-Tétanos-Coqueluche-Polio, sans précision"@fr ;
+    rdfs:comment "Vaccin diphtérique (anatoxine, dose non précisée), tétanique (anatoxine), coquelucheux (acellulaire ou entier inactivé, dose non précisée) et poliomyélitique (entier inactivé, trivalent)"@fr .
+
+<http://ivci.org/NUVA/VAC0143> rdfs:label "Vaccin Haemophilus influenzae B, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-Haemophilus influenzae type b (conjugué, sans précision)"@fr .
+
+<http://ivci.org/NUVA/VAC0144> rdfs:label "Vaccin Choléra, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-choléra, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC0145> rdfs:label "Vaccin Encéphalite à tiques, sans précision"@fr ;
+    rdfs:comment "Vaccin entier inactivé contre l'encéphalite à tiques, souche non précisée"@fr .
+
+<http://ivci.org/NUVA/VAC0146> rdfs:label "Vaccin Encéphalite Japonaise vivant atténué 14-14-2, sans précision"@fr ;
+    rdfs:comment "Vaccin vivant atténué contre l'encéphalite japonaise, souche 14-14-2"@fr .
+
+<http://ivci.org/NUVA/VAC0147> rdfs:label "Vaccin Grippe A(H1N1)2009, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé"@fr .
+
+<http://ivci.org/NUVA/VAC0148> rdfs:label "Vaccin Leptospirose, sans précision"@fr ;
+    rdfs:comment "Vaccin entier inactivé contre la leptospirose"@fr .
+
+<http://ivci.org/NUVA/VAC0149> rdfs:label "Vaccin Méningocoque B:14:P1.7,16, sans précision"@fr ;
+    rdfs:comment "Vaccin contre les méningocoques du sérogroupe B (à protéines de vésicules de membrane externe B:14:P1.7,16)"@fr .
+
+<http://ivci.org/NUVA/VAC0150> rdfs:label "Vaccin Méningocoque C conjugué, sans précision"@fr ;
+    rdfs:comment "Vaccin polyosidique conjugué contre les méningocoques du sérogroupe C"@fr .
+
+<http://ivci.org/NUVA/VAC0151> rdfs:label "Vaccin Méningocoques A + C, sans précision"@fr ;
+    rdfs:comment "Vaccin polyosidique non conjugué contre les méningocoques des sérogroupes A et C"@fr .
+
+<http://ivci.org/NUVA/VAC0152> rdfs:label "Vaccin Méningocoques ACWY non conjugué, sans précision"@fr ;
+    rdfs:comment "Vaccin polyosidique non conjugué contre les méningocoques des sérogroupes A, C, W et Y"@fr .
+
+<http://ivci.org/NUVA/VAC0153> rdfs:label "Vaccin Oreillons, sans précision"@fr ;
+    rdfs:comment "Vaccin vivant atténué contre les oreillons"@fr .
+
+<http://ivci.org/NUVA/VAC0154> rdfs:label "Vaccin Paludisme, sans précision"@fr ;
+    rdfs:comment "Vaccin contre le paludisme (utilisé dans des essais cliniques)"@fr .
+
+<http://ivci.org/NUVA/VAC0155> rdfs:label "Vaccin Dengue, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la dengue, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC0156> rdfs:label "Vaccin HPV, sans précision"@fr ;
+    rdfs:comment "Vaccin contre les papillomavirus humains"@fr .
+
+<http://ivci.org/NUVA/VAC0157> rdfs:label "Vaccin Pneumocoque, sans précision"@fr ;
+    rdfs:comment "Vaccin pneumococcique, polyoside conjugué ou non, nombre de sérotypes non précisé"@fr .
+
+<http://ivci.org/NUVA/VAC0158> rdfs:label "Vaccin Rotavirus, sans précision"@fr ;
+    rdfs:comment "Vaccin contre les rotavirus"@fr .
+
+<http://ivci.org/NUVA/VAC0159> rdfs:label "Vaccin Varicelle, sans précision"@fr ;
+    rdfs:comment "Vaccin vivant atténué contre la varicelle"@fr .
+
+<http://ivci.org/NUVA/VAC0160> rdfs:label "Vaccin Zona vivant atténué, sans précision"@fr ;
+    rdfs:comment "Vaccin vivant atténué contre le zona"@fr .
+
+<http://ivci.org/NUVA/VAC0162> rdfs:label "Vaccin Brucellose, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la brucellose"@fr .
+
+<http://ivci.org/NUVA/VAC0163> rdfs:label "Vaccin Coqueluche entier inactivé, sans précision"@fr ;
+    rdfs:comment "Vaccin coquelucheux (entier inactivé)"@fr .
+
+<http://ivci.org/NUVA/VAC0270> rdfs:label "Vaccin Poliomyélite inactivé, sans précision"@fr ;
+    rdfs:comment "Vaccin poliomyélitique (entier inactivé, trivalent)"@fr .
+
+<http://ivci.org/NUVA/VAC0320> rdfs:label "Vaccin Poliomyélite oral trivalent, sans précision"@fr ;
+    rdfs:comment "Vaccin poliomyélitique (vivant atténué, trivalent) contre les poliovirus 1, 2 et 3, par voie orale"@fr .
+
+<http://ivci.org/NUVA/VAC0324> rdfs:label "Vaccin Pneumocoque conjugué 7-valent, sans précision"@fr ;
+    rdfs:comment "Vaccin pneumococcique polyosidique conjugué, 7-valent, sérotypes 4, 6B, 9V, 14, 18C, 19F et 23F"@fr .
+
+<http://ivci.org/NUVA/VAC0339> rdfs:label "Vaccin Pneumocoque non conjugué 23-valent, sans précision"@fr ;
+    rdfs:comment "Vaccin pneumococcique polyosidique non conjugué, 23-valent, sérotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19F, 19A, 20, 22F, 23F et 33F"@fr .
+
+<http://ivci.org/NUVA/VAC0344> rdfs:label "Vaccin Haemophilus influenzae b PRP-OMP, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-Haemophilus influenzae type b, polyoside capsulaire (phosphate de polyribosylribitol, PRP) conjugué à la protéine de membrane externe de Neisseria meningitidis sérogroupe B"@fr .
+
+<http://ivci.org/NUVA/VAC0345> rdfs:label "Vaccin Haemophilus influenzae b PRP-T, sans précision"@fr ;
+    rdfs:comment "Vaccin conjugué anti-Hemophilus influenzae de type b composé du PRP (polyribosylribitol phosphate) conjugué à l'anatoxine tétanique"@fr .
+
+<http://ivci.org/NUVA/VAC0358> rdfs:label "Immunoglobuline Rage origine humaine, sans précision"@fr ;
+    rdfs:comment "Immunoglobuline anti-rabique, origine humaine"@fr .
+
+<http://ivci.org/NUVA/VAC0380> rdfs:label "Vaccin TP - Tétanos-Poliomyélite, sans précision"@fr ;
+    rdfs:comment "Vaccin tétanique (anatoxine) et poliomyélitique (entier inactivé, trivalent)"@fr .
+
+<http://ivci.org/NUVA/VAC0382> rdfs:label "Vaccin Diph-T - Diphtérie-Tétanos, sans précision"@fr ;
+    rdfs:comment "Vaccin diphtérique (anatoxine, dose non précisée) et tétanique (anatoxine)"@fr .
+
+<http://ivci.org/NUVA/VAC0424> rdfs:label "Vaccin Typhoïde oral vivant atténué, sans précision"@fr ;
+    rdfs:comment "Vaccin typhoïdique vivant atténué, souche de Salmonella Typhi Ty21a, voie orale"@fr .
+
+<http://ivci.org/NUVA/VAC0497> rdfs:label "Immunoglobuline Tétanos, sans précision"@fr ;
+    rdfs:comment "Immunoglobuline anti-tétanique"@fr .
+
+<http://ivci.org/NUVA/VAC0502> rdfs:label "Immunoglobuline Rage, sans précision"@fr ;
+    rdfs:comment "Immunoglobuline anti-rabique, origine humaine ou équine"@fr .
+
+<http://ivci.org/NUVA/VAC0503> rdfs:label "Immunoglobuline Rage origine équine, sans précision"@fr ;
+    rdfs:comment "Immunoglobuline anti-rabique, origine équine"@fr .
+
+<http://ivci.org/NUVA/VAC0506> rdfs:label "Vaccin pentavalent DTCaHibP - Diphtérie-Tétanos-Coqueluche-Hib-Polio, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard), poliomyélitique (entier inactivé, trivalent) et anti-Haemophilus influenzae type b (conjugué, sans précision)"@fr .
+
+<http://ivci.org/NUVA/VAC0512> rdfs:label "Vaccin Typhus, sans précision"@fr ;
+    rdfs:comment "Vaccin contre le typhus exanthématique (typhus épidémique à poux)"@fr .
+
+<http://ivci.org/NUVA/VAC0549> rdfs:label "Vaccin dTP - Diphtérie-Tétanos-Polio, dose réduite, sans précision"@fr ;
+    rdfs:comment "Vaccin diphtérique (anatoxine, dose réduite), tétanique (anatoxine) et poliomyélitique (entier inactivé, trivalent)"@fr .
+
+<http://ivci.org/NUVA/VAC0550> rdfs:label "Vaccin RR - Rougeole-Rubéole, sans précision"@fr ;
+    rdfs:comment "Vaccin vivant atténué contre la rougeole et la rubéole"@fr .
+
+<http://ivci.org/NUVA/VAC0551> rdfs:label "Vaccin DTCaP - Diphtérie-Tétanos-Coqueluche-Polio, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard) et poliomyélitique (entier inactivé, trivalent)"@fr .
+
+<http://ivci.org/NUVA/VAC0552> rdfs:label "Vaccin hexavalent DTPCaHibHepB - Diphtérie-Tétanos-Polio-Coqueluche acellulaire -Hib-Hépatite B, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard), poliomyélitique (entier inactivé, trivalent), anti-Haemophilus influenzae type b (conjugué, sans précision) et de l'hépatite B (recombinant)"@fr .
+
+<http://ivci.org/NUVA/VAC0553> rdfs:label "Vaccin pentavalent DTCeHibP - Diphtérie-Tétanos-Coqueluche-Hib-Polio, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus influenzae type b (conjugué, sans précision) et poliomyélitique (entier inactivé, trivalent)"@fr .
+
+<http://ivci.org/NUVA/VAC0585> rdfs:label "Vaccin dTcaP - Diphtérie-Tétanos-Coqueluche-Polio, dose réduite, sans précision"@fr ;
+    rdfs:comment "Vaccin diphtérique (anatoxine, dose réduite), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, 5 composants, dose réduite) et poliomyélitique (entier inactivé, trivalent), adsorbé"@fr .
+
+<http://ivci.org/NUVA/VAC0596> rdfs:label "Vaccin pentavalent DTCaHibHepB - Diphtérie-Tétanos-Coqueluche-Hib-Hépatite B, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard), anti-Haemophilus influenzae type b (conjugué, sans précision) et de l'hépatite B (recombinant)"@fr .
+
+<http://ivci.org/NUVA/VAC0598> rdfs:label "Vaccin pentavalent DTCeHibHepB - Diphtérie-Tétanos-Coqueluche-Hib-Hépatite B, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus influenzae type b (conjugué, sans précision) et de l'hépatite B (recombinant)"@fr .
+
+<http://ivci.org/NUVA/VAC0599> rdfs:label "Vaccin pentavalent DTCoqHibHepB - Diphtérie-Tétanos-Coqueluche-Hib-Hépatite B, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire ou entier inactivé, dose non précisée), anti-Haemophilus influenzae type b (conjugué, sans précision) et de l'hépatite B (recombinant)"@fr .
+
+<http://ivci.org/NUVA/VAC0600> rdfs:label "Vaccin Poliomyélite bivalent OPV 1-3, sans précision"@fr ;
+    rdfs:comment "Vaccin poliomyélitique (vivant atténué, bivalent) contre les poliovirus 1 et 3, par voie orale"@fr .
+
+<http://ivci.org/NUVA/VAC0601> rdfs:label "Vaccin DTC - Diphtérie-Tétanos-Coqueluche, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine) et coquelucheux (acellulaire ou entier inactivé, dose non précisée)"@fr .
+
+<http://ivci.org/NUVA/VAC0602> rdfs:label "Vaccin DTCa - Diphtérie-Tétanos-Coqueluche, dose standard, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine) et coquelucheux (acellulaire multicomposé, dose standard)"@fr .
+
+<http://ivci.org/NUVA/VAC0610> rdfs:label "Vaccin dTca - Diphtérie-Tétanos-Coqueluche, dose réduite, sans précision"@fr ;
+    rdfs:comment "Vaccin diphtérique (anatoxine, dose réduite), tétanique (anatoxine) et coquelucheux (acellulaire multicomposé, dose réduite)"@fr .
+
+<http://ivci.org/NUVA/VAC0623> rdfs:label "Vaccin Rougeole et Oreillons, sans précision"@fr ;
+    rdfs:comment "Vaccin vivant atténué contre la rougeole et les oreillons"@fr .
+
+<http://ivci.org/NUVA/VAC0643> rdfs:label "Vaccin Méningocoques ACWY conjugué, sans précision"@fr ;
+    rdfs:comment "Vaccin méningococcique polyosidique conjugué quadrivalent contre les sérogroupes A, C, W et Y"@fr .
+
+<http://ivci.org/NUVA/VAC0648> rdfs:label "Vaccin Covid 19, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19"@fr .
+
+<http://ivci.org/NUVA/VAC0653> rdfs:label "Vaccin Hépatite A et B enfant, sans précision"@fr ;
+    rdfs:comment "Vaccin combiné contre les hépatites A et B, dose pédiatrique"@fr .
+
+<http://ivci.org/NUVA/VAC0654> rdfs:label "Vaccin Hépatite A et B adulte, sans précision"@fr ;
+    rdfs:comment "Vaccin combiné contre les hépatites A et B, dose adulte"@fr .
+
+<http://ivci.org/NUVA/VAC0655> rdfs:label "Vaccin Diphtérie, sans précision"@fr ;
+    rdfs:comment "Vaccin diphtérique (anatoxine, dose non précisée)"@fr .
+
+<http://ivci.org/NUVA/VAC0711> rdfs:label "Vaccin Typhoïde conjugué, sans précision"@fr ;
+    rdfs:comment "Vaccin typhoïdique, antigène Vi conjugué à l'anatoxine tétanique"@fr .
+
+<http://ivci.org/NUVA/VAC0712> rdfs:label "Vaccin Typhoïde et Hépatite A, sans précision"@fr ;
+    rdfs:comment "Vaccin typhoïdique combiné au vaccin contre l'hépatite A (entier inactivé)"@fr .
+
+<http://ivci.org/NUVA/VAC0713> rdfs:label "Vaccin Typhoïde polyosidique, sans précision"@fr ;
+    rdfs:comment "Vaccin typhoïdique polyosidique non conjugué (antigène capsulaire Vi)"@fr .
+
+<http://ivci.org/NUVA/VAC0775> rdfs:label "Vaccin DTCeHib - Diphtérie-Tétanos-Coqueluche-Hib, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé) et anti-Haemophilus influenzae type b (conjugué, sans précision)"@fr .
+
+<http://ivci.org/NUVA/VAC0787> rdfs:label "Vaccin DiphTRub - Diphtérie-Tétanos-Rubéole, sans précision"@fr ;
+    rdfs:comment "Vaccin diphtérique (anatoxine, dose non précisée), tétanique (anatoxine) et contre la rubéole (vivant atténué)"@fr .
+
+<http://ivci.org/NUVA/VAC0788> rdfs:label "Vaccin Haemophilus influenzae b et Poliomyélite, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-Haemophilus influenzae de type b (conjugué, sans précision) et poliomyélitique (entier inactivé, trivalent)"@fr .
+
+<http://ivci.org/NUVA/VAC0790> rdfs:label "Vaccin DTHepB - Diphtérie-Tétanos-Hépatite B, sans précision"@fr ;
+    rdfs:comment "Vaccin diphtérique (anatoxine, dose non précisée), tétanique (anatoxine) et de l'hépatite B (recombinant)"@fr .
+
+<http://ivci.org/NUVA/VAC0791> rdfs:label "Vaccin hexavalent DTPCoqHibHepB - Diphtérie-Tétanos-Coqueluche-Polio-Hib-Hépatite B, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire ou entier inactivé, dose non précisée), poliomyélitique (entier inactivé, trivalent), anti-Haemophilus influenzae type b (conjugué, sans précision) et de l'hépatite B (recombinant)"@fr .
+
+<http://ivci.org/NUVA/VAC0792> rdfs:label "Vaccin pentavalent DTCoqPHepB - Diphtérie-Tétanos-Coqueluche-Polio-Hépatite B, sans précision"@fr ;
+    rdfs:comment "Vaccin diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire ou entier inactivé, dose non précisée), poliomyélitique (entier inactivé, trivalent) et de l'hépatite B (recombinant)"@fr .
+
+<http://ivci.org/NUVA/VAC0794> rdfs:label "Vaccin Tétanos avec Ig T, sans précision"@fr ;
+    rdfs:comment "Vaccin tétanique (anatoxine) associé aux immunoglobulines anti-tétaniques"@fr .
+
+<http://ivci.org/NUVA/VAC0795> rdfs:label "Vaccin Coqueluche acellulaire, sans précision"@fr ;
+    rdfs:comment "Vaccin coquelucheux (acellulaire, dose non précisée)"@fr .
+
+<http://ivci.org/NUVA/VAC0796> rdfs:label "Vaccin Coqueluche, sans précision"@fr ;
+    rdfs:comment "Vaccin coquelucheux (acellulaire ou entier inactivé, dose non précisée)"@fr .
+
+<http://ivci.org/NUVA/VAC0797> rdfs:label "Vaccin Diphtérie, Tétanos et Coqueluche, sans précision"@fr ;
+    rdfs:comment "Vaccin diphtérique (anatoxine, dose non précisée), tétanique (anatoxine) et coquelucheux (acellulaire, dose non précisée)"@fr .
+
+<http://ivci.org/NUVA/VAC0798> rdfs:label "Vaccin Haemophilus influenzae b et Méningocoque C, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-Haemophilus influenzae type b (conjugué, sans précision) et contre les méningocoques du sérogroupe C"@fr .
+
+<http://ivci.org/NUVA/VAC0799> rdfs:label "Vaccin DTHib - Diphtérie-Tétanos-Hib, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine) et anti-Haemophilus influenzae type b (conjugué, sans précision)"@fr .
+
+<http://ivci.org/NUVA/VAC0800> rdfs:label "Vaccin DTCoqHib - Diphtérie-Tétanos-Coqueluche-Hib, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire ou entier inactivé, dose non précisée) et anti-Haemophilus influenzae type b (conjugué, sans précision)"@fr .
+
+<http://ivci.org/NUVA/VAC0801> rdfs:label "Vaccin Hépatite B et Haemophilus influenzae b, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-Haemophilus influenzae type b (conjugué, sans précision) et contre l'hépatite B"@fr .
+
+<http://ivci.org/NUVA/VAC0802> rdfs:label "Vaccin Poliomyélite monovalent oral - type non connu, sans précision"@fr ;
+    rdfs:comment "Vaccin poliomyélitique (vivant atténué, monovalent), voie orale"@fr .
+
+<http://ivci.org/NUVA/VAC0804> rdfs:label "Vaccin Charbon, sans précision"@fr ;
+    rdfs:comment "Vaccin contre le charbon, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC0805> rdfs:label "Vaccin Choléra, entier inactivé, injectable, sans précision"@fr ;
+    rdfs:comment "Vaccin cholérique entier inactivé, injectable"@fr .
+
+<http://ivci.org/NUVA/VAC0806> rdfs:label "Vaccin Choléra, vivant atténué, sans précision"@fr ;
+    rdfs:comment "Vaccin cholérique vivant atténué (souche atténuée CVD 103-HgR de V. cholerae produite par une technologie d’ADN recombiné)"@fr .
+
+<http://ivci.org/NUVA/VAC0807> rdfs:label "Vaccin Choléra et Typhoïde inactivé, sans précision"@fr ;
+    rdfs:comment "Vaccin cholérique (entier inactivé) et typhoïdique (entier inactivé), injectable"@fr .
+
+<http://ivci.org/NUVA/VAC0808> rdfs:label "Vaccin Haemophilus influenzae b et Ménigocoque CY, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-Haemophilus influenzae type b (conjugué, sans précision) et contre les méningocoques des sérogroupes C et Y"@fr .
+
+<http://ivci.org/NUVA/VAC0809> rdfs:label "Vaccin Méningocoque polyosidique monovalent, sans précision"@fr ;
+    rdfs:comment "Vaccin monovalent contre les méningocoques, polyosidique conjugué ou non conjugué"@fr .
+
+<http://ivci.org/NUVA/VAC0810> rdfs:label "Vaccin Méningocoque polyosidique polyvalent, sans précision"@fr ;
+    rdfs:comment "Vaccin polyvalent polyosidique non conjugué contre les méningocoques"@fr .
+
+<http://ivci.org/NUVA/VAC0811> rdfs:label "Vaccin Méningocoque B, sans précision"@fr ;
+    rdfs:comment "Vaccin contre les méningocoques du sérogroupe B, type de vaccin non précisé"@fr .
+
+<http://ivci.org/NUVA/VAC0812> rdfs:label "Vaccin Peste entier inactivé, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la peste (entier inactivé)"@fr .
+
+<http://ivci.org/NUVA/VAC0813> rdfs:label "Vaccin Pneumocoque non conjugué, sans précision"@fr ;
+    rdfs:comment "Vaccin pneumococcique polyosidique non conjugué, sérotypes non précisés"@fr .
+
+<http://ivci.org/NUVA/VAC0814> rdfs:label "Vaccin Pneumocoque conjugué, sans précision"@fr ;
+    rdfs:comment "Vaccin pneumococcique polyosidique conjugué, sérotypes non précisés"@fr .
+
+<http://ivci.org/NUVA/VAC0815> rdfs:label "Vaccin Pneumocoque et Haemophilus influenzae b, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-Haemophilus influenzae type b (conjugué, sans précision) et pneumococcique (conjugué, sans précision)"@fr .
+
+<http://ivci.org/NUVA/VAC0817> rdfs:label "Vaccin Typhoïde entier inactivé, sans précision"@fr ;
+    rdfs:comment "Vaccin typhoïdique entier inactivé"@fr .
+
+<http://ivci.org/NUVA/VAC0818> rdfs:label "Vaccin Typhoïde et Paratyphoïde, sans précision"@fr ;
+    rdfs:comment "Vaccin typhoïdique et paratyphoïdique A et B, entier inactivé"@fr .
+
+<http://ivci.org/NUVA/VAC0819> rdfs:label "Vaccin Encéphalite Japonaise entier inactivé, sans précision"@fr ;
+    rdfs:comment "Vaccin entier inactivé contre l'encéphalite japonaise"@fr .
+
+<http://ivci.org/NUVA/VAC0820> rdfs:label "Vaccin Grippe entier inactivé, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la grippe saisonnière à virus entier inactivé"@fr .
+
+<http://ivci.org/NUVA/VAC0821> rdfs:label "Vaccin Grippe inactivé, fractionné ou sous-unité, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la grippe saisonnière inactivé"@fr .
+
+<http://ivci.org/NUVA/VAC0822> rdfs:label "Vaccin Grippe vivant atténué, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la grippe saisonnière, à virus vivant atténué, par voie nasale"@fr .
+
+<http://ivci.org/NUVA/VAC0823> rdfs:label "Vaccin Grippe VLP, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la grippe saisonnière à pseudo-particules virales (VLP : \"Virus-Like Particle\")"@fr .
+
+<http://ivci.org/NUVA/VAC0824> rdfs:label "Vaccin Hépatite A virosomal, sans précision"@fr ;
+    rdfs:comment "Vaccin entier inactivé contre l'hépatite A, virosomal, dose pédiatrique ou adulte"@fr .
+
+<http://ivci.org/NUVA/VAC0825> rdfs:label "Vaccin Hépatites A et B combiné, sans précision"@fr ;
+    rdfs:comment "Vaccin combiné contre l'hépatite A (entier inactivé) et l'hépatite B"@fr .
+
+<http://ivci.org/NUVA/VAC0827> rdfs:label "Vaccin ROR-V - Rougeole-Oreillons-Rubéole-Varicelle, sans précision"@fr ;
+    rdfs:comment "Vaccin vivant atténué contre la rougeole, la rubéole, les oreillons et la varicelle"@fr .
+
+<http://ivci.org/NUVA/VAC0828> rdfs:label "Vaccin Rotavirus pentavalent, sans précision"@fr ;
+    rdfs:comment "Vaccin vivant atténué pentavalent contre les rotavirus, par voie orale"@fr .
+
+<http://ivci.org/NUVA/VAC0829> rdfs:label "Vaccin Rubéole et Oreillons, sans précision"@fr ;
+    rdfs:comment "Vaccin vivant atténué contre la rubéole et les oreillons"@fr .
+
+<http://ivci.org/NUVA/VAC0830> rdfs:label "Vaccin Zona sous-unitaire, sans précision"@fr ;
+    rdfs:comment "Vaccin contre le zona, sous-unitaire (correspond actuellement à la glycoprotéine E)"@fr .
+
+<http://ivci.org/NUVA/VAC0831> rdfs:label "Vaccin Ebola, sans précision"@fr ;
+    rdfs:comment "Vaccin contre le virus Ebola"@fr .
+
+<http://ivci.org/NUVA/VAC0832> rdfs:label "Vaccin Herpes Simplex, sans précision"@fr ;
+    rdfs:comment "Vaccin contre l'herpès simplex à virus inactivé"@fr .
+
+<http://ivci.org/NUVA/VAC0839> rdfs:label "Vaccin Brucellose entier inactivé, sans précision"@fr ;
+    rdfs:comment "Vaccin entier inactivé contre la brucellose"@fr .
+
+<http://ivci.org/NUVA/VAC0849> rdfs:label "Vaccin Tularémie, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la tularémie"@fr .
+
+<http://ivci.org/NUVA/VAC0852> rdfs:label "Vaccin Poliomyélite oral monovalent type 2 - mOPV2, sans précision"@fr ;
+    rdfs:comment "Vaccin poliomyélitique (vivant atténué, monovalent) contre les poliovirus 2, par voie orale"@fr .
+
+<http://ivci.org/NUVA/VAC0853> rdfs:label "Vaccin Poliomyélite oral monovalent type 1 - mOPV1, sans précision"@fr ;
+    rdfs:comment "Vaccin poliomyélitique (vivant atténué, monovalent) contre les poliovirus 1, par voie orale"@fr .
+
+<http://ivci.org/NUVA/VAC0854> rdfs:label "Vaccin Poliomyélite oral monovalent type 3 - mOPV3, sans précision"@fr ;
+    rdfs:comment "Vaccin poliomyélitique (vivant atténué, monovalent) contre les poliovirus 3, par voie orale"@fr .
+
+<http://ivci.org/NUVA/VAC0855> rdfs:label "Vaccin DiphTP - Diphtérie-Tétanos-Polio, sans précision"@fr ;
+    rdfs:comment "Vaccin diphtérique (anatoxine, dose non précisée), tétanique (anatoxine) et poliomyélitique (entier inactivé, trivalent)"@fr .
+
+<http://ivci.org/NUVA/VAC0856> rdfs:label "Vaccin DTCaHib - Diphtérie-Tétanos-Coqueluche-Hib, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard) et anti-Haemophilus influenzae de type b (conjugué, sans précision)"@fr .
+
+<http://ivci.org/NUVA/VAC0857> rdfs:label "Vaccin DTCoqHepB - Diphtérie-Tétanos-Coqueluche-Hépatite B, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire ou entier inactivé, dose non précisée) et de l’hépatite B (recombinant)"@fr .
+
+<http://ivci.org/NUVA/VAC0858> rdfs:label "Vaccin HPV bivalent, sans précision"@fr ;
+    rdfs:comment "Vaccin contre les papillomavirus humains à base de VLP (Virus Like Particles ou pseudo particules virales), bivalent (types 16 et 18), recombinant"@fr .
+
+<http://ivci.org/NUVA/VAC0859> rdfs:label "Vaccin HPV quadrivalent, sans précision"@fr ;
+    rdfs:comment "Vaccin contre les papillomavirus humains à base de VLP (Virus Like Particles ou pseudo particules virales), quadrivalent (types 6, 11, 16 et 18), recombinant, adsorbé"@fr .
+
+<http://ivci.org/NUVA/VAC0860> rdfs:label "Vaccin HPV nonavalent, sans précision"@fr ;
+    rdfs:comment "Vaccin contre les papillomavirus humains à base de VLP (Virus Like Particles ou pseudo particules virales), nonavalent (types 6, 11, 16, 18, 31, 33, 45, 52 et 58), recombinant, adsorbé"@fr .
+
+<http://ivci.org/NUVA/VAC0861> rdfs:label "Vaccin Méningocoque B multicomposé, sans précision"@fr ;
+    rdfs:comment "Vaccin contre les méningocoques du sérogroupe B (multicomposé - plusieurs protéines)"@fr .
+
+<http://ivci.org/NUVA/VAC0862> rdfs:label "Immunoglobuline Rougeole, sans précision"@fr ;
+    rdfs:comment "Immunoglobuline contre la rougeole"@fr .
+
+<http://ivci.org/NUVA/VAC0863> rdfs:label "Immunoglobuline Hépatite B, sans précision"@fr ;
+    rdfs:comment "Immunoglobuline contre l'hépatite B"@fr .
+
+<http://ivci.org/NUVA/VAC0864> rdfs:label "Immunoglobuline Varicelle, sans précision"@fr ;
+    rdfs:comment "Immunoglobuline contre le virus de la varicelle"@fr .
+
+<http://ivci.org/NUVA/VAC0865> rdfs:label "Vaccin Méningocoque A non conjugué, sans précision"@fr ;
+    rdfs:comment "Vaccin polyosidique non conjugué contre les méningocoques du sérogroupe A"@fr .
+
+<http://ivci.org/NUVA/VAC0866> rdfs:label "Vaccin Méningocoque A conjugué, sans précision"@fr ;
+    rdfs:comment "Vaccin polyosidique conjugué contre les méningocoques du sérogroupe A"@fr .
+
+<http://ivci.org/NUVA/VAC0867> rdfs:label "Antitoxine Diphtérie, sans précision"@fr ;
+    rdfs:comment "Immunoglobuline anti-toxine diphtérique"@fr .
+
+<http://ivci.org/NUVA/VAC0880> rdfs:label "Vaccin pentavalent DTCoqHibP - Diphtérie-Tétanos-Coqueluche-Hib-Polio, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire ou entier inactivé, dose non précisée), anti-Haemophilus influenzae type b (conjugué, sans précision) et poliomyélitique (entier inactivé, trivalent)"@fr .
+
+<http://ivci.org/NUVA/VAC0881> rdfs:label "Vaccin Encéphalite Japonaise vivant atténué, sans précision"@fr ;
+    rdfs:comment "Vaccin vivant atténué contre l'encéphalite japonaise, souche et plate-forme de production non précisées"@fr .
+
+<http://ivci.org/NUVA/VAC0894> rdfs:label "Vaccin Adénovirus, sans précision"@fr ;
+    rdfs:comment "Vaccin contre les adénovirus, sans précision de type"@fr .
+
+<http://ivci.org/NUVA/VAC0895> rdfs:label "Vaccin Encéphalite équine vénézuélienne, sans précision"@fr ;
+    rdfs:comment "Vaccin vivant atténué à ARN contre le virus de l'encéphalite équine vénézuélienne"@fr .
+
+<http://ivci.org/NUVA/VAC0896> rdfs:label "Vaccin Fièvre Q, sans précision"@fr ;
+    rdfs:comment "Vaccin inactivé contre la fièvre Q"@fr .
+
+<http://ivci.org/NUVA/VAC0897> rdfs:label "Vaccin Hantavirus, sans précision"@fr ;
+    rdfs:comment "Vaccin entier inactivé contre les fièvres hémorragiques avec syndrome rénal (FHSR) causées par un hantavirus, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC0898> rdfs:label "Vaccin Leishmaniose, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la leishmaniose"@fr .
+
+<http://ivci.org/NUVA/VAC0899> rdfs:label "Vaccin Virus Parainfluenza humains, sans précision"@fr ;
+    rdfs:comment "Vaccin contre les virus Parainfluenza humains"@fr .
+
+<http://ivci.org/NUVA/VAC0902> rdfs:label "Vaccin Rage type Semple, sans précision"@fr ;
+    rdfs:comment "Vaccin rabique entier inactivé, préparé sur tissu cérébral de chèvre ou de mouton infecté par le virus de la rage, inactivé par du phénol ou de la ß-propiolactone, contient de la myéline"@fr .
+
+<http://ivci.org/NUVA/VAC0903> rdfs:label "Vaccin Rage type Fuenzalida, sans précision"@fr ;
+    rdfs:comment "Vaccin rabique entier inactivé, préparé sur tissu cérébral de souriceau à la mamelle infecté par le virus de la rage, teneur réduite en myéline"@fr .
+
+<http://ivci.org/NUVA/VAC0904> rdfs:label "Vaccin Rage préparé sur embryon de canard, sans précision"@fr ;
+    rdfs:comment "Vaccin rabique entier inactivé, préparé sur cellules d’embryon de canard, inactivation par la ß-propiolactone"@fr .
+
+<http://ivci.org/NUVA/VAC0905> rdfs:label "Vaccin Rage PHKCV, sans précision"@fr ;
+    rdfs:comment "Vaccin rabique entier inactivé, préparé en culture primaire de cellules rénales de hamster (PHKCV), souche Beijing, inactivaté par le formol"@fr .
+
+<http://ivci.org/NUVA/VAC0906> rdfs:label "Vaccin Zona, sans précision"@fr ;
+    rdfs:comment "Vaccin contre le zona"@fr .
+
+<http://ivci.org/NUVA/VAC0907> rdfs:label "Vaccin Adénovirus de type 4, sans précision"@fr ;
+    rdfs:comment "Vaccin contre les adénovirus de type 4"@fr .
+
+<http://ivci.org/NUVA/VAC0908> rdfs:label "Vaccin Adénovirus de type 7, sans précision"@fr ;
+    rdfs:comment "Vaccin contre les adénovirus de type 7"@fr .
+
+<http://ivci.org/NUVA/VAC0909> rdfs:label "Antitoxine Botulisme, sans précision"@fr ;
+    rdfs:comment "Antitoxine contre le botulisme"@fr .
+
+<http://ivci.org/NUVA/VAC0910> rdfs:label "Vaccin Hépatite A, entier inactivé, dose adulte, sans précision"@fr ;
+    rdfs:comment "Vaccin entier inactivé contre l'hépatite A, dose adulte"@fr .
+
+<http://ivci.org/NUVA/VAC0911> rdfs:label "Vaccin Hépatite A, monovalent, dose pédiatrique, sans précision"@fr ;
+    rdfs:comment "Vaccin entier inactivé contre l'hépatite A, dose pédiatrique"@fr .
+
+<http://ivci.org/NUVA/VAC0912> rdfs:label "Vaccin Hépatite A, dose pédiatrique, sans précision"@fr ;
+    rdfs:comment "Vaccin entier inactivé contre l'hépatite A, dose pédiatrique, formulation non précisée (monovalente ou bivalente avec l'hépatite B)"@fr .
+
+<http://ivci.org/NUVA/VAC0914> rdfs:label "Vaccin Hépatite B, monovalent, dose pédiatrique, sans précision"@fr ;
+    rdfs:comment "Vaccin recombinant contre l'hépatite B, monovalent, dose pédiatrique"@fr .
+
+<http://ivci.org/NUVA/VAC0915> rdfs:label "Vaccin Hépatite B, monovalent, dose adulte, sans précision"@fr ;
+    rdfs:comment "Vaccin recombinant contre l'hépatite B, monovalent, dose adulte"@fr .
+
+<http://ivci.org/NUVA/VAC0916> rdfs:label "Vaccin Hépatite B, monovalent pour les patients dialysés, sans précision"@fr ;
+    rdfs:comment "Vaccin recombinant contre l'hépatite B, dose pour patient dialysé"@fr .
+
+<http://ivci.org/NUVA/VAC0917> rdfs:label "Vaccin Hépatite E, sans précision"@fr ;
+    rdfs:comment "Vaccin recombinant peptidique contre l'hépatite E"@fr .
+
+<http://ivci.org/NUVA/VAC0918> rdfs:label "Vaccin Haemophilus influenzae b, PRP-D, sans précision"@fr ;
+    rdfs:comment "Vaccin conjugué anti-Hemophilus influenzae de type b composé du PRP (polyribosylribitol phosphate) conjugué à l'anatoxine diphtérique"@fr .
+
+<http://ivci.org/NUVA/VAC0919> rdfs:label "Vaccin Haemophilus influenzae b, hbOC, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-Haemophilus influenzae type b, oligosides capsulaires (phosphate de polyribosylribitol, PRP) conjugué à la toxine diphtérique mutante CRM197"@fr .
+
+<http://ivci.org/NUVA/VAC0920> rdfs:label "Vaccin dT - Diphtérie-Tétanos, sans précision"@fr ;
+    rdfs:comment "Vaccin diphtérique (anatoxine, dose réduite) et tétanique (anatoxine)"@fr .
+
+<http://ivci.org/NUVA/VAC0921> rdfs:label "Vaccin Encéphalite Japonaise, sans précision"@fr ;
+    rdfs:comment "Vaccin contre l'encéphalite japonaise"@fr .
+
+<http://ivci.org/NUVA/VAC0922> rdfs:label "Vaccin Adénovirus, type 4 et type 7, vivant atténué, voie orale, sans précision"@fr ;
+    rdfs:comment "Vaccin contre les adénovirus de type 7 et 4"@fr .
+
+<http://ivci.org/NUVA/VAC0923> rdfs:label "Anticorps monoclonal VRS, sans précision"@fr ;
+    rdfs:comment "Anticorps monoclonal contre le virus respiratoire syncytial (VRS)"@fr .
+
+<http://ivci.org/NUVA/VAC0925> rdfs:label "Vaccin Grippe trivalent inactivé, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la grippe saisonnière trivalent inactivé, fractionné ou sous-unité, dose normale"@fr .
+
+<http://ivci.org/NUVA/VAC0927> rdfs:label "Vaccin Covid 19 à ARNm, dose pédiatrique, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à ARNm, dose pédiatrique"@fr .
+
+<http://ivci.org/NUVA/VAC0928> rdfs:label "Vaccin Hépatite A vivant atténué, sans précision"@fr ;
+    rdfs:comment "Vaccin vivant atténué contre l'hépatite A"@fr .
+
+<http://ivci.org/NUVA/VAC0929> rdfs:label "Vaccin Grippe quadrivalent inactivé, dose pédiatrique, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la grippe saisonnière inactivé, quadrivalent, dose pédiatrique"@fr .
+
+<http://ivci.org/NUVA/VAC0932> rdfs:label "Vaccin Grippe quadrivalent recombinant, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la grippe saisonnière recombinant quadrivalent"@fr .
+
+<http://ivci.org/NUVA/VAC0937> rdfs:label "Vaccin Botulisme, sans précision"@fr ;
+    rdfs:comment "Vaccin contre le botulisme"@fr .
+
+<http://ivci.org/NUVA/VAC0938> rdfs:label "Vaccin Grippe quadrivalent, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la grippe saisonnière inactivé quadrivalent, à virion fractionné ou à antigène de surface"@fr .
+
+<http://ivci.org/NUVA/VAC0941> rdfs:label "Immunoglobuline Charbon, sans précision"@fr ;
+    rdfs:comment "Immunoglobuline contre le charbon"@fr .
+
+<http://ivci.org/NUVA/VAC0942> rdfs:label "Vaccin Rage embryon de poulet, sans précision"@fr ;
+    rdfs:comment "Vaccin rabique entier inactivé, cultivé sur cellules d’embryon de poulet (PCEC), inactivation par la ß-propiolactone"@fr .
+
+<http://ivci.org/NUVA/VAC0943> rdfs:label "Vaccin Rage cellules diploïdes, sans précision"@fr ;
+    rdfs:comment "Vaccin rabique entier inactivé, préparé sur culture de cellules diploïdes humaines (HDCV) MRC-5, inactivation par la ß-propiolactone"@fr .
+
+<http://ivci.org/NUVA/VAC0944> rdfs:label "Vaccin Choléra entier inactivé, voie orale, sans précision"@fr ;
+    rdfs:comment "Vaccin cholérique entier inactivé, par voie orale"@fr .
+
+<http://ivci.org/NUVA/VAC0945> rdfs:label "Vaccin Méningocoque sérogroupe inconnu, sans précision"@fr ;
+    rdfs:comment "Vaccin Méningocoque avec sérogroupe non précisé"@fr .
+
+<http://ivci.org/NUVA/VAC0997> rdfs:label "Vaccin Pneumocoque conjugué 13-valent, sans précision"@fr ;
+    rdfs:comment "Vaccin pneumococcique polyosidique conjugué, 13-valent, adsorbé, sérotypes 1, 3, 4 , 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F et 23F"@fr .
+
+<http://ivci.org/NUVA/VAC1037> rdfs:label "Vaccin Encéphalite à tiques, souche Neudörfl, dose pédiatrique, sans précision"@fr ;
+    rdfs:comment "Vaccin entier inactivé contre l'encéphalite à tiques, souche Neudörfl, dose pédiatrique"@fr .
+
+<http://ivci.org/NUVA/VAC1038> rdfs:label "Vaccin Encéphalite à tiques, souche Neudörfl, dose adulte, sans précision"@fr ;
+    rdfs:comment "Vaccin entier inactivé contre l'encéphalite à tiques, souche Neudörfl, dose adulte"@fr .
+
+<http://ivci.org/NUVA/VAC1039> rdfs:label "Vaccin Covid 19 à ARNm, virus originel, 50 µg, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, virus originel, 50 microgrammes par dose"@fr .
+
+<http://ivci.org/NUVA/VAC1041> rdfs:label "Vaccin Covid 19 à ARN, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à ARN"@fr .
+
+<http://ivci.org/NUVA/VAC1042> rdfs:label "Vaccin Covid 19 à vecteur viral non replicatif, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à vecteur viral non replicatif"@fr .
+
+<http://ivci.org/NUVA/VAC1043> rdfs:label "Vaccin Covid 19 à sous-unité protéique, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique"@fr .
+
+<http://ivci.org/NUVA/VAC1044> rdfs:label "Vaccin Covid 19 à virus entier inactivé, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à virus entier inactivé"@fr .
+
+<http://ivci.org/NUVA/VAC1062> rdfs:label "Immunoglobulines CMV, sans précision"@fr ;
+    rdfs:comment "Immunoglobulines contre le cytomégalovirus, intraveineuse"@fr .
+
+<http://ivci.org/NUVA/VAC1063> rdfs:label "Vaccin Hépatite C, sans précision"@fr ;
+    rdfs:comment "Vaccin contre l'hépatite C, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1064> rdfs:label "Vaccin VIH, sans précision"@fr ;
+    rdfs:comment "Vaccin contre le VIH, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1065> rdfs:label "Vaccin Lèpre, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la lèpre, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1066> rdfs:label "Vaccin Mélanome, sans précision"@fr ;
+    rdfs:comment "Vaccin contre le mélanome, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1067> rdfs:label "Vaccin Streptococcus pyogenes, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-Streptococcus pyogenes, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1068> rdfs:label "Vaccin Fièvre de la vallée du Rift, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la fièvre de la vallée du Rift, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1069> rdfs:label "Immunoglobuline Vaccine, sans précision"@fr ;
+    rdfs:comment "Immunoglobulines anti-vaccine"@fr .
+
+<http://ivci.org/NUVA/VAC1071> rdfs:label "Anticorps ou vaccin VRS, sans précision"@fr ;
+    rdfs:comment "Anticorps ou vaccin contre le VRS, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1072> rdfs:label "Vaccin Covid 19 à ARNm, virus originel, 25 µg, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à ARNm, virus originel, dosage à 25 microgrammes"@fr .
+
+<http://ivci.org/NUVA/VAC1073> rdfs:label "Vaccin Maladie de Lyme (anti-Borrelia burgdorferi), sans précision"@fr ;
+    rdfs:comment "Vaccin contre la maladie de Lyme, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1075> rdfs:label "Vaccin Charbon acellulaire, sans précision"@fr ;
+    rdfs:comment "Vaccin acellulaire contre le charbon, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1106> rdfs:label "Vaccin Covid 19 VLP, sans précision"@fr ;
+    rdfs:comment "Vaccin Covid 19 VLP, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1107> rdfs:label "Vaccin Choléra entier inactivé, sans précision"@fr ;
+    rdfs:comment "Vaccin cholérique entier inactivé, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1108> rdfs:label "Vaccin bivalent Covid 19 à ARNm contre le virus originel et le variant Omicron BA.1, sans précision"@fr ;
+    rdfs:comment "Vaccin bivalent anti-covid 19 à ARNm contre le virus originel et le variant Omicron BA.1, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1109> rdfs:label "Vaccin Méningocoque ACW non conjugué, sans précision"@fr ;
+    rdfs:comment "Vaccin polyosidique non conjugué contre les méningocoques des sérogroupes A,C et W"@fr .
+
+<http://ivci.org/NUVA/VAC1110> rdfs:label "Vaccin Méningocoque C non conjugué, sans précision"@fr ;
+    rdfs:comment "Vaccin Méningocoque C non conjugué, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1111> rdfs:label "Vaccin Encéphalite Japonaise, entier inactivé, préparé sur cellules Vero, sans précision"@fr ;
+    rdfs:comment "Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur cellules Vero"@fr .
+
+<http://ivci.org/NUVA/VAC1112> rdfs:label "Vaccin Grippe quadrivalent, vivant atténué, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la grippe saisonnière quadrivalent à virus vivant atténué, par voie nasale"@fr .
+
+<http://ivci.org/NUVA/VAC1113> rdfs:label "Vaccin Covid 19 à sous-unité protéique, protéine de pointe recombinante, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1114> rdfs:label "Vaccin Typhoïde et Hépatite A, antigène capsulaire polyosidique, sans précision"@fr ;
+    rdfs:comment "Vaccin typhoïdique combiné au vaccin contre l'hépatite A"@fr .
+
+<http://ivci.org/NUVA/VAC1115> rdfs:label "Vaccin pentavalent DTCaHibP - Diphtérie-Tétanos-Coqueluche-Hib PRP-Polio, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique) et poliomyélitique (entier inactivé, trivalent), adsorbé"@fr .
+
+<http://ivci.org/NUVA/VAC1116> rdfs:label "Vaccin Rage, entier inactivé, préparé sur culture de cellules Vero, sans précision"@fr ;
+    rdfs:comment "Vaccin rabique entier inactivé, préparé sur culture de cellules Vero (PVRV), souche Wistar, inactivation par la ß-propiolactone"@fr .
+
+<http://ivci.org/NUVA/VAC1117> rdfs:label "Vaccin Covid 19 bivalent à ARNm contre le virus originel et le variant Omicron BA.4/5, 5 microgrammes, sans précision"@fr ;
+    rdfs:comment "Vaccin bivalent anti-covid 19 à ARNm contre le virus originel et le variant Omicron BA.4/5, 5 microgrammes, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1118> rdfs:label "Vaccin Entérovirus A71, sans précision"@fr ;
+    rdfs:comment "Vaccin contre l'entérovirus A71, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1119> rdfs:label "Vaccin Covid 19 à virus entier inactivé, autorisé, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à virus entier inactivé, autorisé, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1120> rdfs:label "Vaccin Leptospirose, trivalent, sans précision"@fr ;
+    rdfs:comment "Vaccin trivalent contre la leptospirose causée par Canicola serovar canicola, Icterohaemorrhagiae serovar copenhageni et Pomona serovar mozdok"@fr .
+
+<http://ivci.org/NUVA/VAC1121> rdfs:label "Vaccin hexavalent DTCaHibPHepB - Diphtérie-Tétanos-Coqueluche-Hib-Polio-Hépatite B 10µg, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard, 3 composants), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique), poliomyélitique (entier inactivé, trivalent) et de l’hépatite B (recombinant), sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1122> rdfs:label "Vaccin Variole vivant de 1ère génération, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la variole de première génération, virus vivant de la vaccine"@fr .
+
+<http://ivci.org/NUVA/VAC1123> rdfs:label "Vaccin Grippe trivalent, vivant atténué, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la grippe saisonnière trivalent à virus vivant atténué, par voie nasale"@fr .
+
+<http://ivci.org/NUVA/VAC1124> rdfs:label "Vaccin Covid 19 à virus entier inactivé, en essai clinique, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à virus entier inactivé, en essai clinique, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1125> rdfs:label "Vaccin Hépatite B, sans précision"@fr ;
+    rdfs:comment "Vaccin contre l'hépatite B, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1126> rdfs:label "Vaccin pentavalent DTCeHibP - Diphtérie-Tétanos-Coqueluche-Hib PRP-Polio, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique) et poliomyélitique (entier inactivé, trivalent), sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1127> rdfs:label "Immunoglobuline Hépatite A, Rougeole, Varicelle et Rubéole, sans précision"@fr ;
+    rdfs:comment "Immunoglobuline contre l'hépatite A, rougeole, varicelle et rubéole, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1128> rdfs:label "Vaccin Covid 19 à ADN plasmidique, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à ADN plasmidique, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1129> rdfs:label "Vaccin Covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1130> rdfs:label "Vaccin Grippe saisonnière trivalent inactivé et anatoxine tétanique, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté et tétanique (anatoxine)"@fr .
+
+<http://ivci.org/NUVA/VAC1131> rdfs:label "Vaccin Pneumocoque non conjugué 17-valent, sans précision"@fr ;
+    rdfs:comment "Vaccin pneumococcique polyosidique non conjugué, 17-valent, sérotypes 1, 2, 3, 4, 6A, 7F, 8, 9N, 11A, 12F, 14, 15F, 17F, 18C, 19F, 23F et 25"@fr .
+
+<http://ivci.org/NUVA/VAC1132> rdfs:label "Vaccin Covid 19 bivalent à ARNm contre le virus originel et le variant Omicron BA.4/5, 1,5 microgrammes, sans précision"@fr ;
+    rdfs:comment "Vaccin bivalent anti-covid 19 à ARNm contre le virus originel et le variant Omicron BA.4/5, 1,5 microgrammes, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1133> rdfs:label "Vaccin Méningocoque ACWY polyosidique conjugué, sans précision"@fr ;
+    rdfs:comment "Vaccin méningococcique polyosidique conjugué quadrivalent contre les sérogroupes A, C, W et Y (conjugué à la protéine CRM 197)"@fr .
+
+<http://ivci.org/NUVA/VAC1134> rdfs:label "Vaccin Fièvre hémorragique d'Argentine, vivant atténué, virus Junin, sans précision"@fr ;
+    rdfs:comment "Vaccin vivant atténué contre la fièvre hémorragique d'Argentine, virus Junin, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1135> rdfs:label "Vaccin Covid 19 à vecteur viral non réplicatif, adénovirus codant la protéine de pointe du SARS-CoV-2, par inhalation, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus codant la protéine de pointe du SARS-CoV-2, par inhalation, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1136> rdfs:label "Vaccin Pneumocoque conjugué 23-valent, sans précision"@fr ;
+    rdfs:comment "Vaccin pneumococcique polyosidique conjugué, 23-valent, sérotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F et 33F"@fr .
+
+<http://ivci.org/NUVA/VAC1137> rdfs:label "Vaccin Encéphalite à tiques, entier inactivé, souche K23, sans précision"@fr ;
+    rdfs:comment "Vaccin entier inactivé contre l'encéphalite à tiques, souche K23, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1138> rdfs:label "Vaccin Covid 19 à sous-unité protéique recombinante"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique recombinante"@fr .
+
+<http://ivci.org/NUVA/VAC1139> rdfs:label "Vaccin Covid 19 à vecteur non réplicatif, virus de la maladie de Newcastle codant la protéine de pointe du SARS-CoV-2, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à vecteur non réplicatif, virus de la maladie de Newcastle codant la protéine de pointe du SARS-CoV-2, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1140> rdfs:label "Vaccin Covid 19 bivalent à ARNm contre le virus originel et le variant Omicron BA.4/5, 25 microgrammes, sans précision"@fr ;
+    rdfs:comment "Vaccin Covid 19 bivalent à ARNm contre le virus originel et le variant Omicron BA.4/5, 25 microgrammes, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1141> rdfs:label "Vaccin contre la grippe aviaire H5N8, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la grippe aviaire H5N8, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1142> rdfs:label "Vaccin Covid 19 à vecteur viral non replicatif avec cellules présentant l'antigène, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à vecteur viral non replicatif avec cellules présentant l'antigène, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1143> rdfs:label "Vaccin Covid 19 à vecteur viral non réplicatif, adénovirus codant la protéine de pointe du SARS-CoV-2, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus codant la protéine de pointe du SARS-CoV-2, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1144> rdfs:label "Vaccin Covid 19 à sous-unité protéique, protéine de pointe du SARS-CoV-2 recombinante, S-2P et CpG1018, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe du SARS-CoV-2 recombinante, S-2P et CpG1018, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1145> rdfs:label "Vaccin Hépatite B recombinant, trois antigènes, sans précision"@fr ;
+    rdfs:comment "Vaccin recombinant contre l'hépatite B, trois antigènes (HbS, pré-S1 et pré-S2)"@fr .
+
+<http://ivci.org/NUVA/VAC1146> rdfs:label "Vaccin Grippe quadrivalent, inactivé, haute dose, sans précision"@fr ;
+    rdfs:comment "Vaccin quadrivalent inactivé contre l’influenza, fractionné ou sous-unité, haute dose"@fr .
+
+<http://ivci.org/NUVA/VAC1147> rdfs:label "Anticorps monoclonal humain VRS, nirsevimab, sans précision"@fr ;
+    rdfs:comment "Anticorps monoclonal humain contre le virus respiratoire syncytial (VRS), nirsevimab, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1148> rdfs:label "Vaccin Haemophilus influenzae type b, polyosidique non conjugué, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-Haemophilus influenzae type b, polyosidique non conjugué, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1149> rdfs:label "Vaccin Choléra vivant atténué oral, sans précision"@fr ;
+    rdfs:comment "Vaccin cholérique vivant atténué oral, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1150> rdfs:label "Vaccin Covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, virus originel, 30 microgrammes, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, virus originel, 30 microgrammes, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1151> rdfs:label "Vaccin quadrivalent DTCeP - Diphtérie-Tétanos-Coqueluche-Polio, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé) et poliomyélitique (entier inactivé, trivalent)"@fr .
+
+<http://ivci.org/NUVA/VAC1152> rdfs:label "Vaccin Méningocoque B contenant la fHbp des sous-familles A et B, sans précision"@fr ;
+    rdfs:comment "Vaccin méningococcique B contenant la fHbp des sous-familles A et B, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1153> rdfs:label "Vaccin Méningocoque ACWY quadrivalent, conjugué à l'anatoxine diphtérique, sans précision"@fr ;
+    rdfs:comment "Vaccin méningococcique polyosidique conjugué quadrivalent contre les sérogroupes A, C, W et Y (conjugué à l'anatoxine diphtérique)"@fr .
+
+<http://ivci.org/NUVA/VAC1154> rdfs:label "Vaccin Oreillons entier inactivé, sans précision"@fr ;
+    rdfs:comment "Vaccin entier inactivé contre les oreillons, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1155> rdfs:label "Vaccin Hépatite B plasmatique, sans précision"@fr ;
+    rdfs:comment "Vaccin plasmatique contre l'hépatite B, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1156> rdfs:label "Immunoglobuline Botulisme, sans précision"@fr ;
+    rdfs:comment "Immunoglobuline humaine intraveineuse contre le botulisme infantile de type A et B"@fr .
+
+<http://ivci.org/NUVA/VAC1157> rdfs:label "Vaccin Variole de 3ème génération, virus modifié de la vaccine d'Ankara, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la variole de troisième génération, virus modifié de la vaccine d'Ankara, non réplicatif"@fr .
+
+<http://ivci.org/NUVA/VAC1158> rdfs:label "Vaccin Covid 19 à ARNm contre le variant Omicron XBB.1.5, 3 microgrammes, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à ARNm contre le variant Omicron XBB.1.5, 3 microgrammes"@fr .
+
+<http://ivci.org/NUVA/VAC1159> rdfs:label "Vaccin Grippe trivalent, recombinant, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la grippe saisonnière recombinant trivalent"@fr .
+
+<http://ivci.org/NUVA/VAC1160> rdfs:label "Vaccin Variole vivant de 2ème génération, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la variole de seconde génération, virus de la vaccine obtenu par culture cellulaire"@fr .
+
+<http://ivci.org/NUVA/VAC1161> rdfs:label "Vaccin quadrivalent DTCeP - Diphtérie-Tétanos-Coqueluche-Hib PRP, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé) et anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique)"@fr .
+
+<http://ivci.org/NUVA/VAC1162> rdfs:label "Vaccin Covid 19 bivalent à ARNm contre le virus originel et le variant Omicron BA.1, 15 microgrammes, sans précision"@fr ;
+    rdfs:comment "Vaccin bivalent anti-covid 19 à ARNm contre le virus originel et le variant Omicron BA.1, 15 microgrammes, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1163> rdfs:label "Vaccin Pneumocoque conjugué 20-valent, sans précision"@fr ;
+    rdfs:comment "Vaccin pneumococcique polyosidique conjugué, 20-valent, adsorbé, sérotypes 1, 3, 4, 5, 6A, 6B, 7F, 8, 9V, 10A, 11A, 12F, 14, 15B, 18C, 19A, 19F, 22F, 23F et 33F"@fr .
+
+<http://ivci.org/NUVA/VAC1164> rdfs:label "Vaccin quadrivalent DTCaHib- Diphtérie-Tétanos-Coqueluche-Hib PRP, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard) et anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique)"@fr .
+
+<http://ivci.org/NUVA/VAC1165> rdfs:label "Anatoxine Diphtérie, dose standard, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard)"@fr .
+
+<http://ivci.org/NUVA/VAC1166> rdfs:label "Vaccin Covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, en cours d'essai clinique, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, en cours d'essai clinique, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1167> rdfs:label "Vaccin Coqueluche acellulaire, dose standard, sans précision"@fr ;
+    rdfs:comment "Vaccin coquelucheux acellulaire, dose standard"@fr .
+
+<http://ivci.org/NUVA/VAC1168> rdfs:label "Vaccin quadrivalent DTCeHib- Diphtérie-Tétanos-Coqueluche-Hib OC, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé) et anti-Haemophilus influenzae type b (conjugué à l'anatoxine diphtérique)"@fr .
+
+<http://ivci.org/NUVA/VAC1169> rdfs:label "Vaccin Covid 19 bivalent à ARNm contre le virus originel et le variant Omicron BA.4/5, 15 microgrammes, sans précision"@fr ;
+    rdfs:comment "Vaccin bivalent anti-covid 19 à ARNm contre le virus originel et le variant Omicron BA.4/5, 15 microgrammes, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1170> rdfs:label "Vaccin Covid 19 à vecteur viral non réplicatif, adénovirus de chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus de chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2"@fr .
+
+<http://ivci.org/NUVA/VAC1171> rdfs:label "Vaccin Grippe trivalent, inactivé, haute dose, sans précision"@fr ;
+    rdfs:comment "Vaccin trivalent inactivé contre la grippe, fractionné ou sous-unité, haute dose"@fr .
+
+<http://ivci.org/NUVA/VAC1172> rdfs:label "Anatoxine Diphtérie, dose réduite, sans précision"@fr ;
+    rdfs:comment "Vaccin diphtérique (anatoxine, dose réduite)"@fr .
+
+<http://ivci.org/NUVA/VAC1173> rdfs:label "Vaccin Covid 19 à vecteur viral réplicatif, virus influenza codant la protéine de pointe du SARS-CoV-2, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à vecteur viral réplicatif, virus influenza codant la protéine de pointe du SARS-CoV-2, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1174> rdfs:label "Vaccin pentavalent DTCaPHepB - Diphtérie-Tétanos-Coqueluche-Polio-Hépatite B 10µg, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard), poliomyélitique (entier inactivé, trivalent) et de l’hépatite B (recombinant)"@fr .
+
+<http://ivci.org/NUVA/VAC1175> rdfs:label "Vaccin Grippe trivalent, inactivé culture cellulaire, dose normale, sans précision"@fr ;
+    rdfs:comment "Vaccin trivalent inactivé contre la grippe obtenu sur culture cellulaire, fractionné ou sous-unité, dose normale"@fr .
+
+<http://ivci.org/NUVA/VAC1176> rdfs:label "Vaccin Covid 19 à vecteur viral non réplicatif, adénovirus 5 codant les protéines S et N du SARS-CoV-2, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus 5 codant les protéines S et N du SARS-CoV-2, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1177> rdfs:label "Vaccin Variole de 3ème génération, virus de la vaccine vivant à réplication minimale, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la variole de troisième génération, obtenu sur culture cellulaire, virus de la vaccine vivant à réplication minimale"@fr .
+
+<http://ivci.org/NUVA/VAC1178> rdfs:label "Vaccin Dengue tétravalent, vivant atténué recombinant chimérique, sans précision"@fr ;
+    rdfs:comment "Vaccin vivant atténué, chimérique recombinant, quadrivalent contre les quatre sérotypes (1, 2, 3 et 4) du virus de la dengue"@fr .
+
+<http://ivci.org/NUVA/VAC1179> rdfs:label "Vaccin Choléra et Typhoïde, injectable, sans précision"@fr ;
+    rdfs:comment "Vaccin cholérique (entier inactivé) et typhoïdique (non conjugué, antigène polyosidique Vi purifié), injectable"@fr .
+
+<http://ivci.org/NUVA/VAC1180> rdfs:label "Vaccin Maladie de Lyme, recombinant, sans précision"@fr ;
+    rdfs:comment "Vaccin recombinant anti-Borrelia burgdorferi, protéine de surface externe A (OspA)"@fr .
+
+<http://ivci.org/NUVA/VAC1181> rdfs:label "Vaccin pentavalent DTCeHibHepB - Diphtérie-Tétanos-Coqueluche-Hib PRP-HépatiteB 10µg, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier intactivé), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique) et de l'hépatite B (recombinant)"@fr .
+
+<http://ivci.org/NUVA/VAC1182> rdfs:label "Vaccin Méningocoque ACWY polyosidique conjugué à l'anatoxine tétanique, sans précision"@fr ;
+    rdfs:comment "Vaccin polyosidique conjugué quadrivalent contre les méningocoques des sérogroupes A, C, W et Y (conjugué à l'anatoxine tétanique)"@fr .
+
+<http://ivci.org/NUVA/VAC1183> rdfs:label "Vaccin Ebola à vecteur viral non réplicatif, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-Ebola à vecteur viral non réplicatif, Vaccine Ankara modifiée"@fr .
+
+<http://ivci.org/NUVA/VAC1184> rdfs:label "Vaccin Méningocoque C polyosidique conjugué à l'anatoxine tétanique, sans précision"@fr ;
+    rdfs:comment "Vaccin méningococcique polyosidique conjugué à l'anatoxine tétanique contre le sérogroupe C"@fr .
+
+<http://ivci.org/NUVA/VAC1185> rdfs:label "Vaccin Covid 19 à vecteur viral non réplicatif, adénovirus 26 codant la protéine de pointe du SARS-CoV-2, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus 26 codant la protéine de pointe du SARS-CoV-2, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1186> rdfs:label "Vaccin Covid 19 à vecteur viral replicatif avec cellules présentant l'antigène, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à vecteur viral replicatif avec cellules présentant l'antigène, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1187> rdfs:label "Vaccin Covid 19 à vecteur viral réplicatif, virus de la rougeole codant la protéine de pointe du SARS-CoV-2, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à vecteur viral réplicatif, virus de la rougeole codant la protéine de pointe du SARS-CoV-2, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1188> rdfs:label "Vaccin Covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, virus originel, 3 microgrammes, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, virus originel, 3 microgrammes, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1189> rdfs:label "Vaccin Covid 19 à vecteur non réplicatif, vaccine Ankara modifiée codant la protéine de pointe du SARS-CoV-2, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à vecteur non réplicatif, vaccine Ankara modifiée codant la protéine de pointe du SARS-CoV-2, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1190> rdfs:label "Vaccin Covid 19 à vecteur viral réplicatif, virus de la stomatite vésiculaire codant la protéine de pointe du SARS-CoV-2, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à vecteur viral réplicatif, virus de la stomatite vésiculaire codant la protéine de pointe du SARS-CoV-2, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1191> rdfs:label "Vaccin Infections urinaires chez la femme, sans précision"@fr ;
+    rdfs:comment "Vaccin contre Escherichia coli, Klebsiella pneumoniæ, Enterococcus fæcalis, Proteus vulgaris"@fr .
+
+<http://ivci.org/NUVA/VAC1192> rdfs:label "Vaccin pentavalent DTCePHibHepB - Diphtérie-Tétanos-Coqueluche-Hib OC-HépatiteB 10µg, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus influenzae type b (conjugué à l'anatoxine diphtérique) et de l’hépatite B (recombinant)"@fr .
+
+<http://ivci.org/NUVA/VAC1193> rdfs:label "Vaccin Encéphalite japonaise, vivant recombinant atténué, sans précision"@fr ;
+    rdfs:comment "Vaccin vivant atténué contre l'encéphalite japonaise, recombinant chimérique"@fr .
+
+<http://ivci.org/NUVA/VAC1194> rdfs:label "Vaccin Tétanos, Typhoïde et Paratyphoïde A et B, sans précision"@fr ;
+    rdfs:comment "Vaccin tétanique (anatoxine), typhoïdique (entier inactivé) et paratyphoïdique A et B (entier inactivé)"@fr .
+
+<http://ivci.org/NUVA/VAC1195> rdfs:label "Vaccin Covid 19 à vecteur viral non réplicatif, adénovirus 26 codant la protéine de pointe du SARS-CoV-2, en essai clinique, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus 26 codant la protéine de pointe du SARS-CoV-2, en essai clinique, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1196> rdfs:label "Vaccin Encéphalite japonaise, entier inactivé préparé sur tissu cérébral murin, sans précision"@fr ;
+    rdfs:comment "Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur tissu cérébral murin, souche Nakayama, voie injectable"@fr .
+
+<http://ivci.org/NUVA/VAC1197> rdfs:label "Vaccin Covid 19 à adénovirus de chimpanzé et à ARNm auto-amplifiant, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à adénovirus de chimpanzé et à ARNm auto-amplifiant : 1. A vecteur viral non réplicatif, adénovirus de chimpanzé, sérotype 68 (ChAdV68), codant la protéine de pointe du SARS-CoV-2 (ChAdV68-S) et/ou la protéine de pointe plus des épitopes supplémentaires du SARS-CoV-2 reconnus par les cellules T (ChAdV68-S-TCE) et 2. A ARNm auto-amplifiant (SAM) dans des nanoparticules lipidiques (SAM-LNP) codant la protéine de pointe du SARS-CoV-2 (SAM-S) et/ou la protéine de pointe plus des épitopes supplémentaires du SARS-CoV-2 reconnus par les cellules T (SAM-S-TCE), vecteur SAM basé sur le virus de l'encéphalite équine du Venezuela (VEEV)"@fr .
+
+<http://ivci.org/NUVA/VAC1198> rdfs:label "Vaccin Chinkungunya, vivant atténué, sans précision"@fr ;
+    rdfs:comment "Vaccin vivant atténué contre le chikungunya"@fr .
+
+<http://ivci.org/NUVA/VAC1199> rdfs:label "Vaccin Ebola à vecteur viral réplicatif de la stomatite vésiculaire recombinant (rVSV) - glycoprotéine GP d'EBOV, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-Ebola à vecteur viral réplicatif de la stomatite vésiculaire recombinant (rVSV) - glycoprotéine GP d'EBOV, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1200> rdfs:label "Vaccin Grippe quadrivalent, sur culture cellulaire, sans précision"@fr ;
+    rdfs:comment "Vaccin quadrivalent inactivé contre la grippe obtenu sur culture cellulaire, fractionné ou sous-unité, dose normale"@fr .
+
+<http://ivci.org/NUVA/VAC1201> rdfs:label "Vaccin Dengue tétravalent, vivant atténué recombinant chimérique basé sur le vaccin fièvre jaune 17D, sans précision"@fr ;
+    rdfs:comment "Vaccin Dengue tétravalent, vivant atténué recombinant chimérique basé sur le vaccin fièvre jaune 17D, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1202> rdfs:label "Vaccin Covid 19 à virus vivant atténué, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à virus vivant atténué, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1203> rdfs:label "Vaccin Brucellose, protéique (antigène P.I.), sans précision"@fr ;
+    rdfs:comment "Vaccin à antigène protéique P.I. (phénol-insoluble) contre la brucellose"@fr .
+
+<http://ivci.org/NUVA/VAC1204> rdfs:label "Vaccin Covid 19 à sous-unité protéique, protéine de pointe recombinante, avec adjuvant, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante, avec adjuvant, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1205> rdfs:label "Vaccin Ebola, vecteur viral vivant non réplicatif recombinant Ad26.ZEBOV, sans précision"@fr ;
+    rdfs:comment "Vaccin contre le virus Ebola, vecteur viral vivant non réplicatif recombinant Ad26.ZEBOV, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1206> rdfs:label "Vaccin Covid 19 à ARNm auto-amplifiant, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à ARNm auto-amplifiant, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1207> rdfs:label "Vaccin Covid 19 à vecteur viral réplicatif, virus de la maladie de Newcastle codant la protéine de pointe du SARS-CoV-2, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à vecteur viral réplicatif, virus de la maladie de Newcastle codant la protéine de pointe du SARS-CoV-2, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1208> rdfs:label "Vaccin quadrivalent DTCeHepB - Diphtérie-Tétanos-Coqueluche-HépatiteB 10µg, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé) et de l’hépatite B (recombinant), adsorbé"@fr .
+
+<http://ivci.org/NUVA/VAC1209> rdfs:label "Vaccin Rougeole, entier inactivé, sans précision"@fr ;
+    rdfs:comment "Vaccin entier inactivé contre la rougeole (historique)"@fr .
+
+<http://ivci.org/NUVA/VAC1210> rdfs:label "Vaccin Covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, virus original, 100 microgrammes, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, virus original, 100 microgrammes, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1211> rdfs:label "Vaccin Méningocoque C polyosidique conjugué à la protéine CRM197, sans précision"@fr ;
+    rdfs:comment "Vaccin méningococcique C, polyoside conjugué à la protéine CRM197"@fr .
+
+<http://ivci.org/NUVA/VAC1212> rdfs:label "Vaccin Poliomyélite, trivalent, entier inactivé oral, sans précision"@fr ;
+    rdfs:comment "Vaccin poliomyélitique (entier inactivé, trivalent), par voie orale"@fr .
+
+<http://ivci.org/NUVA/VAC1213> rdfs:label "Vaccin Choléra contenant la sous-unité B recombinante de la toxine cholérique et des bactéries V. cholerae O1 entières inactivées, sans précision"@fr ;
+    rdfs:comment "Vaccin cholérique contenant la sous-unité B recombinante de la toxine cholérique et des bactéries V. cholerae O1 entières inactivées, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1214> rdfs:label "Vaccin Covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, contre le variant Omicron XBB.1.5, 10µg, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, contre le variant Omicron XBB.1.5, 10µg"@fr .
+
+<http://ivci.org/NUVA/VAC1215> rdfs:label "Vaccin hexavalent DTCaHibPHepB - Diphtérie-Tétanos-Coqueluche-Hib OMP-Polio-Hépatite B 10µg, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard), anti-Haemophilus influenzae type b (conjugué à la protéine de membrane externe de Neisseria meningitidis sérogroupe B), poliomyélitique (entier inactivé, trivalent) et de l’hépatite B (recombinant), adsorbé"@fr .
+
+<http://ivci.org/NUVA/VAC1216> rdfs:label "Vaccin quadrivalent DTCaHepB - Diphtérie-Tétanos-Coqueluche-Hépatite B 10µg, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard) et de l’hépatite B (recombinant)"@fr .
+
+<http://ivci.org/NUVA/VAC1217> rdfs:label "Vaccin Hépatite B et Haemophilus influenzae type b, sans précision"@fr ;
+    rdfs:comment "Vaccin contre l'hépatite B et anti-Haemophilus influenzae type b, polyoside capsulaire (phosphate de polyribosylribitol, PRP) conjugué à la protéine de membrane externe de Neisseria meningitidis sérogroupe B"@fr .
+
+<http://ivci.org/NUVA/VAC1218> rdfs:label "Vaccin Méningocoque A polyosidique conjugué à l'anatoxine tétanique, sans précision"@fr ;
+    rdfs:comment "Vaccin méningococcique polyosidique conjugué à l'anatoxine tétanique contre le sérogroupe A"@fr .
+
+<http://ivci.org/NUVA/VAC1219> rdfs:label "Vaccin hexavalent DTCeHibMCV-A-C-T - Diphtérie-Tétanos-Coqueluche-Hib PRP-Méningocoque A et C, conjugué à l'anatoxine tétanique, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique) et contre les méningocoques des sérogroupes A et C (conjugué à l'anatoxine tétanique)"@fr .
+
+<http://ivci.org/NUVA/VAC1220> rdfs:label "Vaccin Méningocoque CY et Haemophilus influenzae type b, conjugué à l'anatoxine tétanique, sans précision"@fr ;
+    rdfs:comment "Vaccin conjugué anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique) et contre les méningocoques des sérogroupes C et Y (conjugué à l'anatoxine tétanique)"@fr .
+
+<http://ivci.org/NUVA/VAC1221> rdfs:label "Vaccin trivalent Diphtérie, Tétanos et Rubéole, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine) et contre la rubéole (vivant atténué)"@fr .
+
+<http://ivci.org/NUVA/VAC1222> rdfs:label "Anticorps monoclonal humain VRS, palivizumab, sans précision"@fr ;
+    rdfs:comment "Anticorps monoclonal humain contre le virus respiratoire syncytial (VRS), palivizumab, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1223> rdfs:label "Immunoglobuline VRS, sans précision"@fr ;
+    rdfs:comment "Immunoglobuline contre le virus respiratoire syncytial (VRS), sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1224> rdfs:label "Vaccin VRS, recombinant, glycoprotéines F (préfusion) des sous-types A et B du VRS, sans précision"@fr ;
+    rdfs:comment "Vaccin contre le virus respiratoire syncytial (VRS), recombinant, glycoprotéines F (préfusion), bivalent (sous-types A et B du VRS), sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1225> rdfs:label "DT-TAB - Vaccin Diphtérie, Tétanos, Typhoïde et Paratyphoïde A et B, sans précision"@fr ;
+    rdfs:comment "Vaccin diphtérique, tétanique (anatoxine), typhoïdique (entier inactivé) et paratyphoïdique A et B (entier inactivé)"@fr .
+
+<http://ivci.org/NUVA/VAC1226> rdfs:label "Vaccin Hépatites A et B, dose pédiatrique, sans précision"@fr ;
+    rdfs:comment "Vaccin combiné contre les hépatites A et B, dose pédiatrique, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1227> rdfs:label "Vaccin Hépatite B, dose pédiatrique, sans précision"@fr ;
+    rdfs:comment "Vaccin contre l'hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), 5 microgrammes"@fr .
+
+<http://ivci.org/NUVA/VAC1228> rdfs:label "Vaccin VRS, recombinant, antigène RSVPreF3 dérivé de la protéine F, sans précision"@fr ;
+    rdfs:comment "Vaccin contre le virus respiratoire syncytial (VRS), recombinant, antigène RSVPreF3 dérivé de la protéine F, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1229> rdfs:label "Vaccin Méningocoque B (à protéines de vésicules de membrane externe) et C, sans précision"@fr ;
+    rdfs:comment "Vaccin contre les méningocoques des sérogroupes B (à protéines de vésicules de membrane externe B:14:P1.7,16) et C"@fr .
+
+<http://ivci.org/NUVA/VAC1230> rdfs:label "Vaccin Méningocoque C et Haemophilus influenzae type b, conjugué à l'anatoxine tétanique, sans précision"@fr ;
+    rdfs:comment "Vaccin conjugué anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique) et contre les méningocoques des sérogroupes C (conjugué à l'anatoxine tétanique)"@fr .
+
+<http://ivci.org/NUVA/VAC1231> rdfs:label "Vaccin pentavalent DTCaHibHepB- Diphtérie-Tétanos-Coqueluche-Hib PRP-Hepatite B 10μg, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard), hépatite B et anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique)"@fr .
+
+<http://ivci.org/NUVA/VAC1232> rdfs:label "Vaccin Coqueluche acellulaire, dose réduite, sans précision"@fr ;
+    rdfs:comment "Vaccin coquelucheux acellulaire, dose réduite"@fr .
+
+<http://ivci.org/NUVA/VAC1233> rdfs:label "Vaccin Pneumocoque conjugué 10-valent, sans précision"@fr ;
+    rdfs:comment "Vaccin pneumococcique polyosidique conjugué, 10-valent, sérotypes 1, 4, 5, 6B, 7F, 9V, 14, 18C, 19F et 23F"@fr .
+
+<http://ivci.org/NUVA/VAC1234> rdfs:label "Vaccin Pneumocoque non conjugué 15-valent, sans précision"@fr ;
+    rdfs:comment "Vaccin pneumococcique polyosidique non conjugué, 15-valent, sérotypes 1, 2, 3, 4, 6B, 7F, 8, 9N, 11A, 12F, 14, 15F, 18C, 19F et 23F"@fr .
+
+<http://ivci.org/NUVA/VAC1235> rdfs:label "Vaccin Rotavirus monovalent RIX4414, sans précision"@fr ;
+    rdfs:comment "Vaccin monovalent RIX4414 contre le rotavirus, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1236> rdfs:label "Vaccin Covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, sous-variant Omicron XBB.1.5, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, sous-variant Omicron XBB.1.5"@fr .
+
+<http://ivci.org/NUVA/VAC1237> rdfs:label "Vaccin Paludisme pré-érythrocytaire, sans précision"@fr ;
+    rdfs:comment "Vaccin contre le paludisme pré-érythrocytaire R21/Matrix-M"@fr .
+
+<http://ivci.org/NUVA/VAC1238> rdfs:label "Vaccin Hépatite B et Paludisme, sans précision"@fr ;
+    rdfs:comment "Vaccin contre l'hépatite B et le paludisme, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1239> rdfs:label "Vaccin Pneumocoque conjugué 15-valent, sans précision"@fr ;
+    rdfs:comment "Vaccin pneumococcique polyosidique conjugué, 15-valent, adsorbé, sérotypes 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F et 33F"@fr .
+
+<http://ivci.org/NUVA/VAC1240> rdfs:label "Vaccin Méningocoque B à 4 composants, sans précision"@fr ;
+    rdfs:comment "Vaccin contre les méningococciques du sérogroupe B à 4 composants"@fr .
+
+<http://ivci.org/NUVA/VAC1241> rdfs:label "Vaccin Zona, glycoprotéine E (gE) de surface du virus varicelle-zona (VZV), sans précision"@fr ;
+    rdfs:comment "Vaccin contre le zona, glycoprotéine E (gE) de surface du virus varicelle-zona (VZV), sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1242> rdfs:label "Vaccin Covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, variant Omicron XBB.1.5, 25 microgrammes, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, variant Omicron XBB.1.5, 25 microgrammes"@fr .
+
+<http://ivci.org/NUVA/VAC1243> rdfs:label "Vaccin Covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, variant Omicron XBB.1.5, 50 microgrammes, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, variant Omicron XBB.1.5, 50 microgrammes"@fr .
+
+<http://ivci.org/NUVA/VAC1244> rdfs:label "Vaccin Covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, variant Omicron XBB.1.5, 30 microgrammes, sans précision"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, variant Omicron XBB.1.5, 30 microgrammes"@fr .
+
+<http://ivci.org/NUVA/VAC1245> rdfs:label "Vaccin Méningocoque ABCWY, sans précision"@fr ;
+    rdfs:comment "Vaccin méningococcique contre les sérogroupes A, C, W et Y (polyosidique conjugué à l'anatoxine tétanique), et contre le sérogroupe B (recombinant)"@fr .
+
+<http://ivci.org/NUVA/VAC1247> rdfs:label "Vaccin Hépatite A, sans précision"@fr ;
+    rdfs:comment "Vaccin contre l'hépatite A, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1248> rdfs:label "Vaccin Grippe/Covid 19, à ARNm, sans précision"@fr ;
+    rdfs:comment "Vaccin combiné contre la grippe et la Covid 19, à ARNm, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1249> rdfs:label "Vaccin Grippe, inactivé trivalent, haute dose, voie intradermique, sans précision"@fr ;
+    rdfs:comment "Vaccin trivalent inactivé contre la grippe, fractionné ou sous-unité, voie intradermique, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1256> rdfs:label "Vaccin hexavalent DTCeHibPHepB - Diphtérie-Tétanos-Coqueluche-Hib-Polio-Hépatite B 15µg, sans précision"@fr ;
+    rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique), poliomyélitique (entier inactivé, trivalent) et de l’hépatite B (recombinant), adsorbé"@fr .
+
+<http://ivci.org/NUVA/VAC1257> rdfs:label "Vaccin Choléra, entier inactivé oral, bivalent contenant les bactéries V. cholerae O1 et O139 entières inactivées, sans précision"@fr ;
+    rdfs:comment "Vaccin cholérique, oral, bivalent constitué de cellules entières tuées de Vibrio cholerae O1 (classique et El Tor) et O139"@fr .
+
+<http://ivci.org/NUVA/VAC1263> rdfs:label "Vaccin covid à ARNm codant la protéine de pointe du SARS-COV-2, autorisé"@fr ;
+    rdfs:comment "Vaccin anti-covid à ARNm codant la protéine de pointe du SARS-COV-2, autorisé"@fr .
+
+<http://ivci.org/NUVA/VAC1264> rdfs:label "Vaccin A(H5) contre la grippe aviaire, sans précision"@fr ;
+    rdfs:comment "Vaccin A(H5) contre la grippe aviaire, type de neuraminidase non précisé"@fr .
+
+<http://ivci.org/NUVA/VAC1277> rdfs:label "Vaccin contre le chikungunya, sans précision"@fr ;
+    rdfs:comment "Vaccin contre le chikungunya, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1279> rdfs:label "Vaccin contre le charbon adsorbé, avec adjuvant"@fr ;
+    rdfs:comment "Vaccin accellulaire contre le charbon adsorbé, avec adjuvant"@fr .
+
+<http://ivci.org/NUVA/VAC1280> rdfs:label "Vaccin Pneumocoque conjugué 21-valent, sans précision"@fr ;
+    rdfs:comment "Vaccin pneumococcique polyosidique conjugué, 21-valent, adsorbé, sérotypes 3, 6A, 7F, 8, 9N, 10A, 11A, 12F, 15A, 15B, 15C, 16F, 17F, 19A, 20A, 22F, 23A, 23B, 24F, 31, 33F, 35B"@fr .
+
+<http://ivci.org/NUVA/VAC1311> rdfs:label "Vaccin Méningocoques ACWXY conjugué, sans précision"@fr ;
+    rdfs:comment "Vaccin méningococcique polyosidique conjugué quadrivalent contre les sérogroupes A, C, W, X et Y"@fr .
+
+<http://ivci.org/NUVA/VAC1341> rdfs:label "Vaccin Covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, variant Omicron XBB.1.5, dose non précisée"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, variant Omicron XBB.1.5, dose non précisée"@fr .
+
+<http://ivci.org/NUVA/VAC1409> rdfs:label "Vaccin à ARNm contre la covid 19 , subvariant Omicron JN.1, 50 microgrammes par dose, flacon multidose"@fr ;
+    rdfs:comment "Vaccin à ARNm contre la covid 19 , subvariant Omicron JN.1, 50 microgrammes par dose, flacon multidose"@fr .
+
+<http://ivci.org/NUVA/VAC1410> rdfs:label "Vaccin à ARNm contre la covid 19, subvariant Omicron JN.1, 25 microgrammes par dose, flacon multidose"@fr ;
+    rdfs:comment "Vaccin à ARNm contre la covid 19, subvariant Omicron JN.1, 25 microgrammes par dose, flacon multidose"@fr .
+
+<http://ivci.org/NUVA/VAC1411> rdfs:label "Vaccin à ARNm contre la covid 19, subvariant Omicron JN.1, 30 microgrammes, dose adulte (+ 12 ans)"@fr ;
+    rdfs:comment "Vaccin à ARNm contre la covid 19, subvariant Omicron JN.1, 30 microgrammes, dose adulte (+ 12 ans)"@fr .
+
+<http://ivci.org/NUVA/VAC1412> rdfs:label "Vaccin à ARNm contre la covid 19, subvariant Omicron JN.1, 10 microgrammes, dose pédiatrique (5-11 ans)"@fr ;
+    rdfs:comment "Vaccin à ARNm contre la covid 19, subvariant Omicron JN.1, 10 microgrammes, dose pédiatrique (5-11 ans)"@fr .
+
+<http://ivci.org/NUVA/VAC1413> rdfs:label "Vaccin à ARNm contre la covid 19, subvariant Omicron JN.1, 3 microgrammes, dose (6 mois-4 ans)"@fr ;
+    rdfs:comment "Vaccin à ARNm contre la covid 19, subvariant Omicron JN.1, 3 microgrammes, dose (6 mois-4 ans)"@fr .
+
+<http://ivci.org/NUVA/VAC1414> rdfs:label "Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, avec adjuvant (Matrix M), sous-variant Omicron JN.1"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, avec adjuvant (Matrix M), sous-variant Omicron JN.1"@fr .
+
+<http://ivci.org/NUVA/VAC1415> rdfs:label "Vaccin polyvalent contre la bactérie Pseudomonas aeruginosa"@fr ;
+    rdfs:comment "Vaccin polyvalent contre la bactérie Pseudomonas aeruginosa"@fr .
+
+<http://ivci.org/NUVA/VAC1416> rdfs:label "Vaccin à ARNm contre la covid 19, subvariant Omicron KP.2, 3 microgrammes, dose pédiatrique (6 mois-4 ans)"@fr ;
+    rdfs:comment "Vaccin à ARNm contre la covid 19, subvariant Omicron KP.2, 3 microgrammes, dose pédiatrique (6 mois-4 ans)"@fr .
+
+<http://ivci.org/NUVA/VAC1417> rdfs:label "Vaccin à ARNm contre la covid 19, subvariant Omicron KP.2, 10 microgrammes, dose pédiatrique (5-11 ans)"@fr ;
+    rdfs:comment "Vaccin à ARNm contre la covid 19, subvariant Omicron KP.2, 10 microgrammes, dose pédiatrique (5-11 ans)"@fr .
+
+<http://ivci.org/NUVA/VAC1418> rdfs:label "Vaccin à ARNm contre la covid 19, subvariant Omicron KP.2, 30 microgrammes, adulte (+ 12 ans)"@fr ;
+    rdfs:comment "Vaccin à ARNm contre la covid 19, subvariant Omicron KP.2, 30 microgrammes, adulte (+ 12 ans)"@fr .
+
+<http://ivci.org/NUVA/VAC1419> rdfs:label "Vaccin Chikungunya à base de VLP (recombinant, adsorbé)"@fr ;
+    rdfs:comment "Vaccin Chikungunya à base de VLP (recombinant, adsorbé)"@fr .
+
+<http://ivci.org/NUVA/VAC1420> rdfs:label "ARNm simple brin coiffé en 5' codant la glycoprotéine F du virus respiratoire syncytial stabilisé dans la conformation de préfusion"@fr ;
+    rdfs:comment "ARNm simple brin coiffé en 5' codant la glycoprotéine F du virus respiratoire syncytial stabilisé dans la conformation de préfusion"@fr .
+
+<http://ivci.org/NUVA/VAC1421> rdfs:label "Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, virus originel"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, virus originel"@fr .
+
+<http://ivci.org/NUVA/VAC1422> rdfs:label "Vaccin anti-covid 19 à sous-unité protéique, protéine N recombinante"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique, protéine N recombinante"@fr .
+
+<http://ivci.org/NUVA/VAC1423> rdfs:label "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 vivant atténué"@fr ;
+    rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 vivant atténué"@fr .
+
+<http://ivci.org/NUVA/VAC1424> rdfs:label "Vaccin pneumococcique polyosidique conjugué, 10-valent, séroptypes 1, 5, 6A, 6B, 7F, 9V, 14, 19A, 19F et 23F"@fr ;
+    rdfs:comment "Vaccin pneumococcique polyosidique conjugué, 10-valent, séroptypes 1, 5, 6A, 6B, 7F, 9V, 14, 19A, 19F et 23F"@fr .
+
+<http://ivci.org/NUVA/VAC1425> rdfs:label "Vaccin typhoïdique, antigène Vi conjugué à la protéine CRM197"@fr ;
+    rdfs:comment "Vaccin typhoïdique, antigène Vi conjugué à la protéine CRM197"@fr .
+
+<http://ivci.org/NUVA/VAC1426> rdfs:label "Vaccin bivalent recombinant contre le papillomavirus humain (types 16 et 18) (Pichia pastoris)"@fr ;
+    rdfs:comment "Vaccin bivalent recombinant contre le papillomavirus humain (types 16 et 18) (Pichia pastoris)"@fr .
+
+<http://ivci.org/NUVA/VAC1427> rdfs:label "Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur cellules Vero, 6 microgrammes"@fr ;
+    rdfs:comment "Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur cellules Vero, 6 microgrammes"@fr .
+
+<http://ivci.org/NUVA/VAC1428> rdfs:label "Vaccin anti-covid 19 à sous-unité protéique, protéine RBD recombinante homodimérique, variant Omicron XBB.1.16, avec adjuvant (SQBA)"@fr ;
+    rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique, protéine RBD recombinante homodimérique, variant Omicron XBB.1.16, avec adjuvant (SQBA)"@fr .
+
+<http://ivci.org/NUVA/VAC1430> rdfs:label "Vaccin Covid 19 bivalent à ARNm contre le virus originel et le variant Omicron BA.4/5, 50 microgrammes, sans précision"@fr ;
+    rdfs:comment "Vaccin Covid 19 bivalent à ARNm contre le virus originel et le variant Omicron BA.4/5, 50 microgrammes, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1431> rdfs:label "Vaccin VRS, sans précision"@fr ;
+    rdfs:comment "Vaccin VRS vaccin, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1432> rdfs:label "Vaccin Fièvre hémorragique d'Argentine, virus Junin, sans précision"@fr ;
+    rdfs:comment "Vaccin Fièvre hémorragique d'Argentine, virus Junin, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1433> rdfs:label "Vaccin peste, sans précision"@fr ;
+    rdfs:comment "Vaccin peste, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1434> rdfs:label "Vaccin méningocoque A, sans précision"@fr ;
+    rdfs:comment "Vaccin méningocoque A, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1435> rdfs:label "Vaccin rage, inactivé, entier, préparé sur culture cellulaire, sans précision"@fr ;
+    rdfs:comment "Vaccin rage, inactivé, entier, préparé sur culture cellulaire, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1436> rdfs:label "Vaccin rage, inactivé, entier, préparé sur tissu cérébral animal infecté par le virus de la rage, sans précision"@fr ;
+    rdfs:comment "Vaccin rage, inactivé, entier, préparé sur tissu cérébral animal infecté par le virus de la rage, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1437> rdfs:label "Vaccin méningocoque, monovalent, polyosidique conjugué"@fr ;
+    rdfs:comment "Vaccin méningocoque, monovalent, polyosidique conjugué"@fr .
+
+<http://ivci.org/NUVA/VAC1438> rdfs:label "Vaccin grippe, trivalent, inactivé, fractionné ou sous-unité, adjuvant"@fr ;
+    rdfs:comment "Vaccin grippe, trivalent, inactivé, fractionné ou sous-unité, adjuvant"@fr .
+
+<http://ivci.org/NUVA/VAC1439> rdfs:label "Vaccin méningocoque, polyvalent, polyosidique conjugué"@fr ;
+    rdfs:comment "Vaccin méningocoque, polyvalent, polyosidique conjugué"@fr .
+
+<http://ivci.org/NUVA/VAC1440> rdfs:label "Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, adjuvant, dose normale"@fr ;
+    rdfs:comment "Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, adjuvant, dose normale"@fr .
+
+<http://ivci.org/NUVA/VAC1441> rdfs:label "Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, voie intradermique, sans précision"@fr ;
+    rdfs:comment "Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, voie intradermique, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1442> rdfs:label "Vaccin grippe, quadrivalent, virosomale, sans précision"@fr ;
+    rdfs:comment "Vaccin grippe, quadrivalent, virosomal, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1443> rdfs:label "Vaccin grippe, trivalent, virosomal, sans précision"@fr ;
+    rdfs:comment "Vaccin grippe, trivalent, virosomal, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1444> rdfs:label "Vaccin grippe, trivalent, VLP, sans précision"@fr ;
+    rdfs:comment "Vaccin grippe, trivalent, VLP, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1445> rdfs:label "Vaccin grippe aviaire, A(H5N1), ARNm"@fr ;
+    rdfs:comment "Vaccin grippe aviaire, A(H5N1), ARNm"@fr .
+
+<http://ivci.org/NUVA/VAC1446> rdfs:label "Vaccin encéphalite japonaise, inactivé, dérivé de cellules Vero, 3 microgrammes"@fr ;
+    rdfs:comment "Vaccin encéphalite japonaise, inactivé, dérivé de cellules Vero, 3 microgrammes"@fr .
+
+<http://ivci.org/NUVA/VAC1470> rdfs:label "Vaccin à ARNm contre la covid 19, subvariant Omicron LP.8.1, 3 microgrammes, dose pédiatrique (6 mois-4 ans)"@fr ;
+    rdfs:comment "Vaccin à ARNm contre la covid 19, subvariant Omicron LP.8.1, 3 microgrammes, dose pédiatrique (6 mois-4 ans)"@fr .
+
+<http://ivci.org/NUVA/VAC1471> rdfs:label "Vaccin à ARNm contre la covid 19, subvariant Omicron LP.8.1, 30 microgrammes, adulte (+ 12 ans)"@fr ;
+    rdfs:comment "Vaccin à ARNm contre la covid 19, subvariant Omicron LP.8.1, 30 microgrammes, adulte (+ 12 ans)"@fr .
+
+<http://ivci.org/NUVA/VAC1472> rdfs:label "Vaccin à ARNm contre la covid 19, subvariant Omicron LP.8.1, 10 microgrammes, dose pédiatrique (5-11 ans)"@fr ;
+    rdfs:comment "Vaccin à ARNm contre la covid 19, subvariant Omicron LP.8.1, 10 microgrammes, dose pédiatrique (5-11 ans)"@fr .
+
+<http://ivci.org/NUVA/VAC1473> rdfs:label "Vaccin à ARNm contre la covid 19, codant un fragment de la protéine Spike du SARS-CoV-2, sous-variant Omicron LP.8.1"@fr ;
+    rdfs:comment "Vaccin à ARNm contre la covid 19, codant un fragment de la protéine Spike du SARS-CoV-2, sous-variant Omicron LP.8.1"@fr .
+
+<http://ivci.org/NUVA/VAC1475> rdfs:label "Anticorps monoclonal humain VRS, clesrovimab, sans précision"@fr ;
+    rdfs:comment "Anticorps monoclonal humain contre le virus respiratoire syncytial (VRS), clesrovimab, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1476> rdfs:label "Vaccin méningococcique contre les A, C, W, Y (polyosidique conjugué) et B"@fr ;
+    rdfs:comment "Vaccin méningococcique contre les A, C, W, Y (polyosidique conjugué) et B"@fr .
+
+<http://ivci.org/NUVA/VAC1503> rdfs:label "Vaccin anti-covid 19, sous-variant Omicron LP.8.1, sous-unité protéique, protéine de pointe recombinante (domaine RBD)"@fr ;
+    rdfs:comment "Vaccin anti-covid 19, sous-variant Omicron LP.8.1, sous-unité protéique, protéine de pointe recombinante (domaine RBD)"@fr .
+
+<http://ivci.org/NUVA/VAL001> rdfs:label "Valence grippe, trivalente, vivante atténuée, dose normale"@fr ;
+    skos:altLabel "Inf-L3"@fr .
+
+<http://ivci.org/NUVA/VAL002> rdfs:label "Valence typhoïde, conjuguée, antigène capsulaire polyosidique Vi lié à une protéine porteuse"@fr ;
+    skos:altLabel "Ty-ViC"@fr .
+
+<http://ivci.org/NUVA/VAL003> rdfs:label "Valence coqueluche, sans précision"@fr ;
+    skos:altLabel "Coq"@fr .
+
+<http://ivci.org/NUVA/VAL004> rdfs:label "Valence choléra, inactivée, entière, injectable"@fr ;
+    skos:altLabel "I-Chol-I"@fr .
+
+<http://ivci.org/NUVA/VAL005> rdfs:label "Valence rougeole, vivante atténuée"@fr ;
+    skos:altLabel "Roug-VVA"@fr .
+
+<http://ivci.org/NUVA/VAL006> rdfs:label "Valence brucellose, sans précision"@fr ;
+    skos:altLabel "Bruc"@fr .
+
+<http://ivci.org/NUVA/VAL007> rdfs:label "Valence Ebola, vecteur réplicatif virus de la stomatite vésiculaire recombinant (rVSV) - glycoprotéine GP d'EBOV"@fr ;
+    skos:altLabel "rVSVdG-ZEBOV-GP"@fr .
+
+<http://ivci.org/NUVA/VAL008> rdfs:label "Valence coqueluche, acellulaire, dose standard"@fr ;
+    skos:altLabel "Ca"@fr .
+
+<http://ivci.org/NUVA/VAL009> rdfs:label "Valence paludisme, protéine de surface du sporozoïte"@fr ;
+    skos:altLabel "Palu-SPO"@fr .
+
+<http://ivci.org/NUVA/VAL010> rdfs:label "Valence coqueluche, inactivée, entière"@fr ;
+    skos:altLabel "Ce"@fr .
+
+<http://ivci.org/NUVA/VAL011> rdfs:label "Valence covid 19, sous-unité protéique, protéine de pointe recombinante (domaine RBD)"@fr ;
+    skos:altLabel "Covid-SP-rRBD"@fr .
+
+<http://ivci.org/NUVA/VAL012> rdfs:label "Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), 40 microgrammes (dose pour patient dialysé)"@fr ;
+    skos:altLabel "rAgHBs-40"@fr .
+
+<http://ivci.org/NUVA/VAL013> rdfs:label "Valence zona, glycoprotéine E (gE) de surface du virus varicelle-zona (VZV)"@fr ;
+    skos:altLabel "Zona-gE"@fr .
+
+<http://ivci.org/NUVA/VAL014> rdfs:label "Valence typhoïde, sans précision"@fr ;
+    skos:altLabel "Ty"@fr .
+
+<http://ivci.org/NUVA/VAL015> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant, dose normale"@fr ;
+    skos:altLabel "Inf-SUnd3"@fr .
+
+<http://ivci.org/NUVA/VAL016> rdfs:label "Valence rage, immunoglobuline, sans précision"@fr ;
+    skos:altLabel "RIG"@fr .
+
+<http://ivci.org/NUVA/VAL017> rdfs:label "Valence coqueluche, acellulaire, dose réduite"@fr ;
+    skos:altLabel "ca"@fr .
+
+<http://ivci.org/NUVA/VAL018> rdfs:label "Valence variole, troisième génération, virus de la vaccine à réplication minimale"@fr ;
+    skos:altLabel "POX-3G-LC16"@fr .
+
+<http://ivci.org/NUVA/VAL019> rdfs:label "Valence diphtérique, antitoxine"@fr ;
+    skos:altLabel "DATx"@fr .
+
+<http://ivci.org/NUVA/VAL020> rdfs:label "Valence zona, vivant atténué"@fr ;
+    skos:altLabel "Zona-V"@fr .
+
+<http://ivci.org/NUVA/VAL021> rdfs:label "Valence choléra, inactivée, entière, orale"@fr ;
+    skos:altLabel "O-Chol-I"@fr .
+
+<http://ivci.org/NUVA/VAL022> rdfs:label "Valence variole, vivant atténué, sans précision"@fr ;
+    skos:altLabel "POX-V"@fr .
+
+<http://ivci.org/NUVA/VAL023> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intradermique, sans précision"@fr ;
+    skos:altLabel "Inf-SUid3"@fr .
+
+<http://ivci.org/NUVA/VAL024> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, sans précision"@fr ;
+    skos:altLabel "Inf-SU3"@fr .
+
+<http://ivci.org/NUVA/VAL025> rdfs:label "Valence paludisme, sans précision"@fr ;
+    skos:altLabel "Palu"@fr .
+
+<http://ivci.org/NUVA/VAL026> rdfs:label "Valence méningocoque B, protéines de vésicules de membrane externe"@fr ;
+    skos:altLabel "MenB-OMP"@fr .
+
+<http://ivci.org/NUVA/VAL027> rdfs:label "Valence covid 19, vecteur viral non réplicatif, adénovirus 26 codant la protéine de pointe du SARS-CoV-2"@fr ;
+    skos:altLabel "Covid-VVnr-S-Ad26"@fr .
+
+<http://ivci.org/NUVA/VAL028> rdfs:label "Valence variole, troisième génération, vivant atténué"@fr ;
+    skos:altLabel "POX-3G"@fr .
+
+<http://ivci.org/NUVA/VAL029> rdfs:label "Valence grippe, VLP, sans précision"@fr ;
+    skos:altLabel "Inf-VLP"@fr .
+
+<http://ivci.org/NUVA/VAL030> rdfs:label "Valence Borrelia burgdorferi, recombinante, protéine de surface externe A (OspA)"@fr ;
+    skos:altLabel "Lyme-OspA"@fr .
+
+<http://ivci.org/NUVA/VAL031> rdfs:label "Valence encéphalite à tiques, sans précision"@fr ;
+    skos:altLabel "TBE"@fr .
+
+<http://ivci.org/NUVA/VAL032> rdfs:label "Valence typhoïde, non conjuguée, antigène capsulaire polyosidique Vi"@fr ;
+    skos:altLabel "Ty-ViPS"@fr .
+
+<http://ivci.org/NUVA/VAL033> rdfs:label "Valence poliomyélite, vivante atténuée, orale, monovalente type 2"@fr ;
+    skos:altLabel "mVPO2"@fr .
+
+<http://ivci.org/NUVA/VAL034> rdfs:label "Valence diphtérique, anatoxine, dose réduite"@fr ;
+    skos:altLabel "d"@fr .
+
+<http://ivci.org/NUVA/VAL035> rdfs:label "Valence covid 19, ADN plasmidique codant la protéine de pointe du SARS-CoV-2"@fr ;
+    skos:altLabel "Covid-ADN-S"@fr .
+
+<http://ivci.org/NUVA/VAL036> rdfs:label "Valence papillomavirus, VLP, nonavalent, types 6, 11, 16, 18, 31, 33, 45, 52 et 58"@fr ;
+    skos:altLabel "VPH-09-valent"@fr .
+
+<http://ivci.org/NUVA/VAL037> rdfs:label "Valence méningocoque A, polyoside non conjugué"@fr ;
+    skos:altLabel "MPV-A"@fr .
+
+<http://ivci.org/NUVA/VAL038> rdfs:label "Valence covid 19, vecteur viral réplicatif, virus de la rougeole codant la protéine de pointe du SARS-CoV-2"@fr ;
+    skos:altLabel "Covid-VVr-S-Roug"@fr .
+
+<http://ivci.org/NUVA/VAL039> rdfs:label "Valence covid 19, VLP, protéine de pointe recombinante"@fr ;
+    skos:altLabel "Covid-VLP-rS"@fr .
+
+<http://ivci.org/NUVA/VAL040> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant, dose normale"@fr ;
+    skos:altLabel "Inf-SUnd4"@fr .
+
+<http://ivci.org/NUVA/VAL041> rdfs:label "Valence méningocoque A, polyoside conjugué"@fr ;
+    skos:altLabel "MCV-A"@fr .
+
+<http://ivci.org/NUVA/VAL042> rdfs:label "Valence poliomyélite, sans précision"@fr ;
+    skos:altLabel "POLIO"@fr .
+
+<http://ivci.org/NUVA/VAL043> rdfs:label "Valence covid 19, ARNm codant la protéine de pointe du SARS-CoV-2, autorisé"@fr ;
+    skos:altLabel "Covid-ARNm-S"@fr .
+
+<http://ivci.org/NUVA/VAL044> rdfs:label "Valence varicelle, sans précision"@fr ;
+    skos:altLabel "VZV-VVA"@fr .
+
+<http://ivci.org/NUVA/VAL045> rdfs:label "Valence paratyphoïde, inactivée, entière"@fr ;
+    skos:altLabel "pTy-I"@fr .
+
+<http://ivci.org/NUVA/VAL046> rdfs:label "Valence Typhus"@fr ;
+    skos:altLabel "Typhus"@fr .
+
+<http://ivci.org/NUVA/VAL047> rdfs:label "Valence hépatite B, immunoglobuline"@fr ;
+    skos:altLabel "IgHepB"@fr .
+
+<http://ivci.org/NUVA/VAL048> rdfs:label "Valence oreillons, inactivée, entière"@fr ;
+    skos:altLabel "Or-I"@fr .
+
+<http://ivci.org/NUVA/VAL049> rdfs:label "Valence Haemophilus influenzae type b, polyoside non conjuguée"@fr ;
+    skos:altLabel "Hib-PS"@fr .
+
+<http://ivci.org/NUVA/VAL050> rdfs:label "Valence covid 19, vecteur viral non réplicatif, adénovirus 5 codant la protéine de pointe du SARS-CoV-2, sans précision"@fr ;
+    skos:altLabel "Covid-VVnr-S-Ad5"@fr .
+
+<http://ivci.org/NUVA/VAL051> rdfs:label "Valence grippe aviaire, A(H5N1)"@fr ;
+    skos:altLabel "AH5N1"@fr .
+
+<http://ivci.org/NUVA/VAL052> rdfs:label "Valence papillomavirus, VLP, quadrivalente, types 6, 11, 16 et 18"@fr ;
+    skos:altLabel "VPH-04-valent"@fr .
+
+<http://ivci.org/NUVA/VAL053> rdfs:label "Valence covid 19, sous-unité protéique, sans précision"@fr ;
+    skos:altLabel "Covid-SP"@fr .
+
+<http://ivci.org/NUVA/VAL054> rdfs:label "Valence covid 19, vecteur non réplicatif, vaccine Ankara modifiée codant la protéine de pointe du SARS-CoV-2"@fr ;
+    skos:altLabel "Covid-VVnr-S-MVA"@fr .
+
+<http://ivci.org/NUVA/VAL055> rdfs:label "Valence rougeole, immunoglobuline"@fr ;
+    skos:altLabel "Ig-Rougeole"@fr .
+
+<http://ivci.org/NUVA/VAL056> rdfs:label "Valence poliomyélite, trivalente, inactivée, entière, injectable"@fr ;
+    skos:altLabel "VPI"@fr .
+
+<http://ivci.org/NUVA/VAL057> rdfs:label "Valence méningocoque C, polyoside conjugué"@fr ;
+    skos:altLabel "MCV-C"@fr .
+
+<http://ivci.org/NUVA/VAL058> rdfs:label "Valence grippe, inactivée, fractionnée ou sous-unité, sans précision"@fr ;
+    skos:altLabel "Inf-SU"@fr .
+
+<http://ivci.org/NUVA/VAL059> rdfs:label "Valence grippe, quadrivalente, vivante atténuée, dose normale"@fr ;
+    skos:altLabel "Inf-L4"@fr .
+
+<http://ivci.org/NUVA/VAL060> rdfs:label "Valence chikungunya, vivant atténué"@fr ;
+    skos:altLabel "CHIK-LA"@fr .
+
+<http://ivci.org/NUVA/VAL061> rdfs:label "Valence covid 19, sous-unité protéique, protéine de pointe du SARS-CoV-2 recombinante, S-2P et CpG1018"@fr ;
+    skos:altLabel "Covid-SP-CpG1018"@fr .
+
+<http://ivci.org/NUVA/VAL062> rdfs:label "Valence choléra, sous-unité, recombinante de la toxine cholérique B (rCTB)"@fr ;
+    skos:altLabel "O-Chol-rTCB-I"@fr .
+
+<http://ivci.org/NUVA/VAL063> rdfs:label "Valence botulisme, antitoxine"@fr ;
+    skos:altLabel "BAT"@fr .
+
+<http://ivci.org/NUVA/VAL064> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant"@fr ;
+    skos:altLabel "Inf-SUNA4"@fr .
+
+<http://ivci.org/NUVA/VAL065> rdfs:label "Valence dengue, vivante atténuée, tétravalente, chimérique recombinante "@fr ;
+    skos:altLabel "RC-TDV"@fr .
+
+<http://ivci.org/NUVA/VAL066> rdfs:label "Valence covid 19, vecteur viral réplicatif, virus influenza codant la protéine de pointe du SARS-CoV-2"@fr ;
+    skos:altLabel "Covid-VVr-S-Influ"@fr .
+
+<http://ivci.org/NUVA/VAL067> rdfs:label "Valence tétanos, anatoxine"@fr ;
+    skos:altLabel "T"@fr .
+
+<http://ivci.org/NUVA/VAL068> rdfs:label "Valence hépatite B, sans précision"@fr ;
+    skos:altLabel "HepB"@fr .
+
+<http://ivci.org/NUVA/VAL069> rdfs:label "Valence covid 19, vecteur viral non réplicatif, adénovirus de chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2"@fr ;
+    skos:altLabel "Covid-VVnr-S-ChAdOx1"@fr .
+
+<http://ivci.org/NUVA/VAL070> rdfs:label "Valence covid 19, vecteur viral non réplicatif, adénovirus codant la protéine de pointe du SARS-CoV-2, sans précision"@fr ;
+    skos:altLabel "Covid-VVnr-S-Ad"@fr .
+
+<http://ivci.org/NUVA/VAL071> rdfs:label "Valence typhoïde, inactivée, entière"@fr ;
+    skos:altLabel "Ty-I"@fr .
+
+<http://ivci.org/NUVA/VAL072> rdfs:label "Valence méningocoque B, contenant la fHbp des sous-familles A et B"@fr ;
+    skos:altLabel "MenB-fHbpAB"@fr .
+
+<http://ivci.org/NUVA/VAL073> rdfs:label "Valence covid 19, vecteur viral replicatif avec cellules présentant l'antigène"@fr ;
+    skos:altLabel "Covid-VVr+APC"@fr .
+
+<http://ivci.org/NUVA/VAL074> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, haute dose"@fr ;
+    skos:altLabel "Inf-SUhd4"@fr .
+
+<http://ivci.org/NUVA/VAL075> rdfs:label "Valence Leptospira icterohaemorrhagiae, inactivée, entière"@fr ;
+    skos:altLabel "Lepto-eI"@fr .
+
+<http://ivci.org/NUVA/VAL076> rdfs:label "Valence covid 19, entier inactivé, sans précision"@fr ;
+    skos:altLabel "Covid-VI"@fr .
+
+<http://ivci.org/NUVA/VAL077> rdfs:label "Valence oreillons, vivant atténué"@fr ;
+    skos:altLabel "Or-VVA"@fr .
+
+<http://ivci.org/NUVA/VAL078> rdfs:label "Valence méningocoque Y, polyoside conjugué"@fr ;
+    skos:altLabel "MCV-Y"@fr .
+
+<http://ivci.org/NUVA/VAL079> rdfs:label "Valence rubéole, vivante atténuée"@fr ;
+    skos:altLabel "Rub-VVA"@fr .
+
+<http://ivci.org/NUVA/VAL080> rdfs:label "Valence rage, inactivée, entière, sans précision"@fr ;
+    skos:altLabel "Rab-I"@fr .
+
+<http://ivci.org/NUVA/VAL081> rdfs:label "Valence choléra, sans précision"@fr ;
+    skos:altLabel "Chol"@fr .
+
+<http://ivci.org/NUVA/VAL082> rdfs:label "Valence papillomavirus, types non précisés"@fr ;
+    skos:altLabel "VPH"@fr .
+
+<http://ivci.org/NUVA/VAL083> rdfs:label "Valence diphtérique, anatoxine, dose non précisée"@fr ;
+    skos:altLabel "D-d"@fr .
+
+<http://ivci.org/NUVA/VAL084> rdfs:label "Valence covid 19, vecteur viral réplicatif, virus de la stomatite vésiculaire codant la protéine de pointe du SARS-CoV-2"@fr ;
+    skos:altLabel "Covid-VVr-S-VSV"@fr .
+
+<http://ivci.org/NUVA/VAL085> rdfs:label "Valence poliomyélite, vivante atténuée, orale, monovalente type 3"@fr ;
+    skos:altLabel "mVPO3"@fr .
+
+<http://ivci.org/NUVA/VAL086> rdfs:label "Valence covid 19, vivant atténué, sans précision"@fr ;
+    skos:altLabel "Covid-VA"@fr .
+
+<http://ivci.org/NUVA/VAL087> rdfs:label "Valence dengue, vivante atténuée, tétravalente, chimérique recombinante basée sur le vaccin contre la fièvre jaune 17D"@fr ;
+    skos:altLabel "CYD-TDV"@fr .
+
+<http://ivci.org/NUVA/VAL088> rdfs:label "Valence varicelle, immunoglobuline"@fr ;
+    skos:altLabel "VZV-Ig"@fr .
+
+<http://ivci.org/NUVA/VAL089> rdfs:label "Valence encéphalite japonaise, inactivée, sans précision"@fr ;
+    skos:altLabel "EJ-I"@fr .
+
+<http://ivci.org/NUVA/VAL090> rdfs:label "Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), sans précision"@fr ;
+    skos:altLabel "rAgHBs"@fr .
+
+<http://ivci.org/NUVA/VAL091> rdfs:label "Valence typhoïde, vivante atténuée, souche Ty21a, orale"@fr ;
+    skos:altLabel "Ty-VA"@fr .
+
+<http://ivci.org/NUVA/VAL092> rdfs:label "Valence fièvre jaune"@fr ;
+    skos:altLabel "YF"@fr .
+
+<http://ivci.org/NUVA/VAL093> rdfs:label "Valence rougeole, inactivée, entière"@fr ;
+    skos:altLabel "Roug-I"@fr .
+
+<http://ivci.org/NUVA/VAL094> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant, haute dose"@fr ;
+    skos:altLabel "Inf-SUhd3"@fr .
+
+<http://ivci.org/NUVA/VAL095> rdfs:label "Valence covid 19, vecteur viral réplicatif, virus de la maladie de Newcastle codant la protéine de pointe du SARS-CoV-2"@fr ;
+    skos:altLabel "Covid-VVr-S-Nv"@fr .
+
+<http://ivci.org/NUVA/VAL096> rdfs:label "Valence BCG"@fr ;
+    skos:altLabel "BCG"@fr .
+
+<http://ivci.org/NUVA/VAL097> rdfs:label "Valence diphtérique, anatoxine, dose standard"@fr ;
+    skos:altLabel "D"@fr .
+
+<http://ivci.org/NUVA/VAL098> rdfs:label "Valence méningocoque B, 4 composants"@fr ;
+    skos:altLabel "4CMenB"@fr .
+
+<http://ivci.org/NUVA/VAL099> rdfs:label "Valence grippe pandémique H1N1 2009, inactivée "@fr ;
+    skos:altLabel "Inf-pdm09"@fr .
+
+<http://ivci.org/NUVA/VAL100> rdfs:label "Valence encéphalite japonaise, vivant atténué, souche 14-14-2"@fr ;
+    skos:altLabel "EJ-VVA-14-14-2"@fr .
+
+<http://ivci.org/NUVA/VAL101> rdfs:label "Valence covid 19, vecteur non réplicatif, virus de la maladie de Newcastle codant la protéine de pointe du SARS-CoV-2"@fr ;
+    skos:altLabel "Covid-VVnr-S-Nv"@fr .
+
+<http://ivci.org/NUVA/VAL102> rdfs:label "Valence hépatite E, recombinante, peptidique"@fr ;
+    skos:altLabel "HepE"@fr .
+
+<http://ivci.org/NUVA/VAL103> rdfs:label "Valence Haemophilus influenzae type b, conjuguée, sans précision"@fr ;
+    skos:altLabel "Hib-C"@fr .
+
+<http://ivci.org/NUVA/VAL104> rdfs:label "Valence covid 19, sous-unité protéique, protéine de pointe recombinante"@fr ;
+    skos:altLabel "Covid-SP-rS"@fr .
+
+<http://ivci.org/NUVA/VAL105> rdfs:label "Valence pneumocoque, sans précision"@fr ;
+    skos:altLabel "Pneumo"@fr .
+
+<http://ivci.org/NUVA/VAL106> rdfs:label "Valence rotavirus, vivant atténué, sans précision"@fr ;
+    skos:altLabel "Rota"@fr .
+
+<http://ivci.org/NUVA/VAL107> rdfs:label "Valence covid 19, sous-unité protéique, protéine de pointe recombinante dans des nanoparticules"@fr ;
+    skos:altLabel "Covid-SP-rSnp"@fr .
+
+<http://ivci.org/NUVA/VAL108> rdfs:label "Valence Ebola, vecteur viral vivant non réplicatif recombinant Ad26.ZEBOV"@fr ;
+    skos:altLabel "ZebovVRnrAd26"@fr .
+
+<http://ivci.org/NUVA/VAL109> rdfs:label "Valence Ebola, vecteur viral non réplicatif, Vaccine Ankara modifiée "@fr ;
+    skos:altLabel "Ebola-MVA-BN-Filo"@fr .
+
+<http://ivci.org/NUVA/VAL110> rdfs:label "Valence tétanos, immunoglobuline"@fr ;
+    skos:altLabel "T-Ig"@fr .
+
+<http://ivci.org/NUVA/VAL111> rdfs:label "Valence charbon, acellulaire"@fr ;
+    skos:altLabel "Bant"@fr .
+
+<http://ivci.org/NUVA/VAL112> rdfs:label "Valence grippe, quadrivalente, inactivée, obtenue sur culture cellulaire, fractionnée ou sous-unité, dose normale"@fr ;
+    skos:altLabel "Inf-CC4"@fr .
+
+<http://ivci.org/NUVA/VAL113> rdfs:label "Valence papillomavirus, VLP, bivalent, types 16 et 18"@fr ;
+    skos:altLabel "VPH-02-valent"@fr .
+
+<http://ivci.org/NUVA/VAL114> rdfs:label "Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), 10 microgrammes"@fr ;
+    skos:altLabel "rAgHBs-10"@fr .
+
+<http://ivci.org/NUVA/VAL115> rdfs:label "Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), 20 microgrammes"@fr ;
+    skos:altLabel "rAgHBs-20"@fr .
+
+<http://ivci.org/NUVA/VAL116> rdfs:label "Valence VRS, anticorps monoclonal, palivizumab"@fr ;
+    skos:altLabel "VRS-mAb-pal"@fr .
+
+<http://ivci.org/NUVA/VAL117> rdfs:label "Valence coqueluche, acellulaire, dose non précisée"@fr ;
+    skos:altLabel "Acel"@fr .
+
+<http://ivci.org/NUVA/VAL118> rdfs:label "Valence méningocoque B, sans précision"@fr ;
+    skos:altLabel "MenB"@fr .
+
+<http://ivci.org/NUVA/VAL119> rdfs:label "Valence méningocoque, monovalent, polyosidique non conjugué"@fr ;
+    skos:altLabel "MPV-mono"@fr .
+
+<http://ivci.org/NUVA/VAL120> rdfs:label "Valence méningocoque, polyvalent, polyoside non conjugué"@fr ;
+    skos:altLabel "MPV-poly"@fr .
+
+<http://ivci.org/NUVA/VAL121> rdfs:label "Valence poliomyélite, trivalente, inactivée, entière, orale"@fr ;
+    skos:altLabel "VPI-0"@fr .
+
+<http://ivci.org/NUVA/VAL122> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant"@fr ;
+    skos:altLabel "Inf-SUNA3"@fr .
+
+<http://ivci.org/NUVA/VAL123> rdfs:label "Valence rotavirus, vivant atténué, pentavalent"@fr ;
+    skos:altLabel "Rota5-V"@fr .
+
+<http://ivci.org/NUVA/VAL124> rdfs:label "Valence choléra, vivante atténuée, sans précision"@fr ;
+    skos:altLabel "Chol-V"@fr .
+
+<http://ivci.org/NUVA/VAL125> rdfs:label "Valence hépatite A, inactivée, entière, sans précision"@fr ;
+    skos:altLabel "HepA-I"@fr .
+
+<http://ivci.org/NUVA/VAL126> rdfs:label "Valence Ebola, sans précision"@fr ;
+    skos:altLabel "Ebola"@fr .
+
+<http://ivci.org/NUVA/VAL127> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée"@fr ;
+    skos:altLabel "Inf-SUimsc4"@fr .
+
+<http://ivci.org/NUVA/VAL128> rdfs:label "Valence grippe, sans précision"@fr ;
+    skos:altLabel "Inf"@fr .
+
+<http://ivci.org/NUVA/VAL129> rdfs:label "Valence herpes simplex, sans précision"@fr ;
+    skos:altLabel "HSV"@fr .
+
+<http://ivci.org/NUVA/VAL130> rdfs:label "Valence hépatite A, virosome"@fr ;
+    skos:altLabel "HepA-VLP"@fr .
+
+<http://ivci.org/NUVA/VAL131> rdfs:label "Valence peste, inactivée, entière"@fr ;
+    skos:altLabel "Yp-I"@fr .
+
+<http://ivci.org/NUVA/VAL132> rdfs:label "Valence poliomyélite, vivante atténuée, orale, monovalente type 1"@fr ;
+    skos:altLabel "mVPO1"@fr .
+
+<http://ivci.org/NUVA/VAL133> rdfs:label "Valence poliomyélite, vivante atténuée, orale, monovalente, sans précision"@fr ;
+    skos:altLabel "mVPO"@fr .
+
+<http://ivci.org/NUVA/VAL134> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intradermique, sans précision"@fr ;
+    skos:altLabel "Inf-SUid4"@fr .
+
+<http://ivci.org/NUVA/VAL135> rdfs:label "Valence covid 19, ARNm codant la protéine de pointe du SARS-CoV-2, en essai clinique "@fr ;
+    skos:altLabel "Covid-ARNm-S-CT"@fr .
+
+<http://ivci.org/NUVA/VAL136> rdfs:label "Valence méningocoque W, polyoside conjugué"@fr ;
+    skos:altLabel "MCV-W"@fr .
+
+<http://ivci.org/NUVA/VAL137> rdfs:label "Valence méningocoque C, polyoside non conjugué"@fr ;
+    skos:altLabel "MPV-C"@fr .
+
+<http://ivci.org/NUVA/VAL138> rdfs:label "Valence méningocoque W, polyoside non conjugué"@fr ;
+    skos:altLabel "MPV-W"@fr .
+
+<http://ivci.org/NUVA/VAL139> rdfs:label "Valence méningocoque Y, polyoside non conjugué"@fr ;
+    skos:altLabel "MPV-Y"@fr .
+
+<http://ivci.org/NUVA/VAL140> rdfs:label "Valence grippe, vivant atténué, sans précision"@fr ;
+    skos:altLabel "Inf-L"@fr .
+
+<http://ivci.org/NUVA/VAL141> rdfs:label "Valence rotavirus, vivant atténué, monovalent RIX4414"@fr ;
+    skos:altLabel "Rota-mv-RIX4414"@fr .
+
+<http://ivci.org/NUVA/VAL142> rdfs:label "Valence hépatite A, inactivée, entière, monovalente, dose pédiatrique"@fr ;
+    skos:altLabel "HepA-mv-PED"@fr .
+
+<http://ivci.org/NUVA/VAL143> rdfs:label "Valence hépatite A, inactivée, entière, bivalent (hépatites A et B), dose pédiatrique"@fr ;
+    skos:altLabel "HepA-bv-PED"@fr .
+
+<http://ivci.org/NUVA/VAL144> rdfs:label "Valence hépatite A, inactivée, entière, monovalente, dose adulte"@fr ;
+    skos:altLabel "HepA-mv-ADU"@fr .
+
+<http://ivci.org/NUVA/VAL145> rdfs:label "Valence hépatite A, inactivée, entière, bivalent (hépatites A et B), dose adulte"@fr ;
+    skos:altLabel "HepA-bv-ADU"@fr .
+
+<http://ivci.org/NUVA/VAL146> rdfs:label "Valence brucellose, inactivée, entière"@fr ;
+    skos:altLabel "Bruc-I"@fr .
+
+<http://ivci.org/NUVA/VAL147> rdfs:label "Valence brucellose, antigène protéique P.I. (phénol-insoluble)"@fr ;
+    skos:altLabel "Bruc-PI"@fr .
+
+<http://ivci.org/NUVA/VAL148> rdfs:label "Valence VRS, immunoglobuline"@fr ;
+    skos:altLabel "VRS-Ig"@fr .
+
+<http://ivci.org/NUVA/VAL149> rdfs:label "Valence covid 19, variant omicron, ARNm codant la protéine de pointe du SARS-CoV-2"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI"@fr .
+
+<http://ivci.org/NUVA/VAL150> rdfs:label "Valence dengue, sans précision"@fr ;
+    skos:altLabel "Den"@fr .
+
+<http://ivci.org/NUVA/VAL151> rdfs:label "Valence tularémie, sans précision"@fr ;
+    skos:altLabel "Tular"@fr .
+
+<http://ivci.org/NUVA/VAL152> rdfs:label "Valence grippe, inactivée, entière, sans précision"@fr ;
+    skos:altLabel "Inf-I"@fr .
+
+<http://ivci.org/NUVA/VAL153> rdfs:label "Valence Haemophilus influenzae type b, polyoside de PRP conjugué à l'anatoxine diphtérique"@fr ;
+    skos:altLabel "PRP-D"@fr .
+
+<http://ivci.org/NUVA/VAL154> rdfs:label "Valence Haemophilus influenzae type b, oligosides de PRP conjugués à la toxine diphtérique mutante CRM197"@fr ;
+    skos:altLabel "HbOC"@fr .
+
+<http://ivci.org/NUVA/VAL155> rdfs:label "Valence Haemophilus influenzae type b, polyoside de PRP conjugué à la protéine de membrane externe de Neisseria meningitidis sérogroupe B"@fr ;
+    skos:altLabel "PRP-OMP"@fr .
+
+<http://ivci.org/NUVA/VAL156> rdfs:label "Valence Haemophilus influenzae type b, polyoside de PRP conjugué à l’anatoxine tétanique"@fr ;
+    skos:altLabel "PRP-T"@fr .
+
+<http://ivci.org/NUVA/VAL157> rdfs:label "Valence covid 19, sans précision"@fr ;
+    skos:altLabel "Covid"@fr .
+
+<http://ivci.org/NUVA/VAL158> rdfs:label "Valence hépatite B, plasmatique"@fr ;
+    skos:altLabel "pAgHBs"@fr .
+
+<http://ivci.org/NUVA/VAL159> rdfs:label "Valence zona, sous-unitaire"@fr ;
+    skos:altLabel "Zona-SU"@fr .
+
+<http://ivci.org/NUVA/VAL160> rdfs:label "Valence zona, sans précision"@fr ;
+    skos:altLabel "Zona"@fr .
+
+<http://ivci.org/NUVA/VAL161> rdfs:label "Valence méningocoque B, multicomposée, sans précision"@fr ;
+    skos:altLabel "MenB-mc"@fr .
+
+<http://ivci.org/NUVA/VAL162> rdfs:label "Valence covid 19, vecteur viral réplicatif, sans précision"@fr ;
+    skos:altLabel "Covid-VVr"@fr .
+
+<http://ivci.org/NUVA/VAL163> rdfs:label "Valence covid 19, vecteur viral non replicatif, sans précision"@fr ;
+    skos:altLabel "Covid-VVnr"@fr .
+
+<http://ivci.org/NUVA/VAL164> rdfs:label "Valence covid 19, non vivant, sans précision"@fr ;
+    skos:altLabel "Covid-non-vivant"@fr .
+
+<http://ivci.org/NUVA/VAL165> rdfs:label "Valence covid 19, vivant, sans précision"@fr ;
+    skos:altLabel "Covid-vivant"@fr .
+
+<http://ivci.org/NUVA/VAL166> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, dose pédiatrique"@fr ;
+    skos:altLabel "Inf-SUped3"@fr .
+
+<http://ivci.org/NUVA/VAL167> rdfs:label "Valence covid 19, vecteur viral non replicatif avec cellules présentant l'antigène"@fr ;
+    skos:altLabel "Covid-VVnr+APC"@fr .
+
+<http://ivci.org/NUVA/VAL168> rdfs:label "Valence covid 19, ARN, sans précision"@fr ;
+    skos:altLabel "Covid-ARN"@fr .
+
+<http://ivci.org/NUVA/VAL169> rdfs:label "Valence covid 19, ARNm auto-amplifiant (AAA)"@fr ;
+    skos:altLabel "Covid-ARNm-AAA"@fr .
+
+<http://ivci.org/NUVA/VAL170> rdfs:label "Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), 5 microgrammes"@fr ;
+    skos:altLabel "rAgHBs-05"@fr .
+
+<http://ivci.org/NUVA/VAL171> rdfs:label "Valence encéphalite équine vénézuélienne, sans précision"@fr ;
+    skos:altLabel "VEE"@fr .
+
+<http://ivci.org/NUVA/VAL172> rdfs:label "Valence fièvre Q (Coxiella burnetii), sans précision"@fr ;
+    skos:altLabel "Cbur"@fr .
+
+<http://ivci.org/NUVA/VAL173> rdfs:label "Valence fièvre hémorragique d'Argentine, vivant atténué, virus Junin"@fr ;
+    skos:altLabel "Junin-VVA"@fr .
+
+<http://ivci.org/NUVA/VAL174> rdfs:label "Valence Hantavirus, sans précision"@fr ;
+    skos:altLabel "HAN"@fr .
+
+<http://ivci.org/NUVA/VAL175> rdfs:label "Valence leishmaniose, sans précision"@fr ;
+    skos:altLabel "Leish"@fr .
+
+<http://ivci.org/NUVA/VAL176> rdfs:label "Valence virus parainfluenza humains, sans précision"@fr ;
+    skos:altLabel "VPIH"@fr .
+
+<http://ivci.org/NUVA/VAL177> rdfs:label "Valence Haemophilus influenzae type b, sans précision"@fr ;
+    skos:altLabel "Hib"@fr .
+
+<http://ivci.org/NUVA/VAL178> rdfs:label "Valence covid 19, variant Omicron BA.1, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-BA.1-25"@fr .
+
+<http://ivci.org/NUVA/VAL179> rdfs:label "Valence méningocoque, monovalent, polyosidique conjugué"@fr ;
+    skos:altLabel "MCV-mono"@fr .
+
+<http://ivci.org/NUVA/VAL180> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 100 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-ORI-100"@fr .
+
+<http://ivci.org/NUVA/VAL181> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-ORI-25"@fr .
+
+<http://ivci.org/NUVA/VAL182> rdfs:label "Valence rougeole, sans précision"@fr ;
+    skos:altLabel "Roug"@fr .
+
+<http://ivci.org/NUVA/VAL183> rdfs:label "Valence oreillons, sans précision"@fr ;
+    skos:altLabel "Oreillons"@fr .
+
+<http://ivci.org/NUVA/VAL184> rdfs:label "Valence pneumocoque, polyosidique conjugué, sans précision"@fr ;
+    skos:altLabel "VPC"@fr .
+
+<http://ivci.org/NUVA/VAL185> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sans précision"@fr ;
+    skos:altLabel "VPP"@fr .
+
+<http://ivci.org/NUVA/VAL186> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 1"@fr ;
+    skos:altLabel "VPC-01"@fr .
+
+<http://ivci.org/NUVA/VAL187> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 3"@fr ;
+    skos:altLabel "VPC-03"@fr .
+
+<http://ivci.org/NUVA/VAL188> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 4"@fr ;
+    skos:altLabel "VPC-04"@fr .
+
+<http://ivci.org/NUVA/VAL189> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 5"@fr ;
+    skos:altLabel "VPC-05"@fr .
+
+<http://ivci.org/NUVA/VAL190> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 6A"@fr ;
+    skos:altLabel "VPC-06A"@fr .
+
+<http://ivci.org/NUVA/VAL191> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 6B"@fr ;
+    skos:altLabel "VPC-06B"@fr .
+
+<http://ivci.org/NUVA/VAL192> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 7F"@fr ;
+    skos:altLabel "VPC-07F"@fr .
+
+<http://ivci.org/NUVA/VAL193> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 8"@fr ;
+    skos:altLabel "VPC-08"@fr .
+
+<http://ivci.org/NUVA/VAL194> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 9V"@fr ;
+    skos:altLabel "VPC-09V"@fr .
+
+<http://ivci.org/NUVA/VAL195> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 10A"@fr ;
+    skos:altLabel "VPC-10A"@fr .
+
+<http://ivci.org/NUVA/VAL196> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 11A"@fr ;
+    skos:altLabel "VPC-11A"@fr .
+
+<http://ivci.org/NUVA/VAL197> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 12F"@fr ;
+    skos:altLabel "VPC-12F"@fr .
+
+<http://ivci.org/NUVA/VAL198> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 14"@fr ;
+    skos:altLabel "VPC-14"@fr .
+
+<http://ivci.org/NUVA/VAL199> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 15B"@fr ;
+    skos:altLabel "VPC-15B"@fr .
+
+<http://ivci.org/NUVA/VAL200> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 18C"@fr ;
+    skos:altLabel "VPC-18C"@fr .
+
+<http://ivci.org/NUVA/VAL201> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 19A"@fr ;
+    skos:altLabel "VPC-19A"@fr .
+
+<http://ivci.org/NUVA/VAL202> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 19F"@fr ;
+    skos:altLabel "VPC-19F"@fr .
+
+<http://ivci.org/NUVA/VAL203> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 22F"@fr ;
+    skos:altLabel "VPC-22F"@fr .
+
+<http://ivci.org/NUVA/VAL204> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 23F"@fr ;
+    skos:altLabel "VPC-23F"@fr .
+
+<http://ivci.org/NUVA/VAL205> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 33F"@fr ;
+    skos:altLabel "VPC-33F"@fr .
+
+<http://ivci.org/NUVA/VAL206> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 1"@fr ;
+    skos:altLabel "VPP-01"@fr .
+
+<http://ivci.org/NUVA/VAL207> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 2"@fr ;
+    skos:altLabel "VPP-02"@fr .
+
+<http://ivci.org/NUVA/VAL208> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 3"@fr ;
+    skos:altLabel "VPP-03"@fr .
+
+<http://ivci.org/NUVA/VAL209> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 4"@fr ;
+    skos:altLabel "VPP-04"@fr .
+
+<http://ivci.org/NUVA/VAL210> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 5"@fr ;
+    skos:altLabel "VPP-05"@fr .
+
+<http://ivci.org/NUVA/VAL211> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 6B"@fr ;
+    skos:altLabel "VPP-06B"@fr .
+
+<http://ivci.org/NUVA/VAL212> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 7F"@fr ;
+    skos:altLabel "VPP-07F"@fr .
+
+<http://ivci.org/NUVA/VAL213> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 8"@fr ;
+    skos:altLabel "VPP-08"@fr .
+
+<http://ivci.org/NUVA/VAL214> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 9N"@fr ;
+    skos:altLabel "VPP-09N"@fr .
+
+<http://ivci.org/NUVA/VAL215> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 9V"@fr ;
+    skos:altLabel "VPP-09V"@fr .
+
+<http://ivci.org/NUVA/VAL216> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 10A"@fr ;
+    skos:altLabel "VPP-10A"@fr .
+
+<http://ivci.org/NUVA/VAL217> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 11A"@fr ;
+    skos:altLabel "VPP-11A"@fr .
+
+<http://ivci.org/NUVA/VAL218> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 12F"@fr ;
+    skos:altLabel "VPP-12F"@fr .
+
+<http://ivci.org/NUVA/VAL219> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 14"@fr ;
+    skos:altLabel "VPP-14"@fr .
+
+<http://ivci.org/NUVA/VAL220> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 15B"@fr ;
+    skos:altLabel "VPP-15B"@fr .
+
+<http://ivci.org/NUVA/VAL221> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 15F"@fr ;
+    skos:altLabel "VPP-15F"@fr .
+
+<http://ivci.org/NUVA/VAL222> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 17F"@fr ;
+    skos:altLabel "VPP-17F"@fr .
+
+<http://ivci.org/NUVA/VAL223> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 18C"@fr ;
+    skos:altLabel "VPP-18C"@fr .
+
+<http://ivci.org/NUVA/VAL224> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 19A"@fr ;
+    skos:altLabel "VPP-19A"@fr .
+
+<http://ivci.org/NUVA/VAL225> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 19F"@fr ;
+    skos:altLabel "VPP-19F"@fr .
+
+<http://ivci.org/NUVA/VAL226> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 20"@fr ;
+    skos:altLabel "VPP-20"@fr .
+
+<http://ivci.org/NUVA/VAL227> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 22F"@fr ;
+    skos:altLabel "VPP-22F"@fr .
+
+<http://ivci.org/NUVA/VAL228> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 23F"@fr ;
+    skos:altLabel "VPP-23F"@fr .
+
+<http://ivci.org/NUVA/VAL229> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 33F"@fr ;
+    skos:altLabel "VPP-33F"@fr .
+
+<http://ivci.org/NUVA/VAL230> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, sans précision"@fr ;
+    skos:altLabel "Inf-SU4"@fr .
+
+<http://ivci.org/NUVA/VAL231> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée"@fr ;
+    skos:altLabel "Inf-SUimsc3"@fr .
+
+<http://ivci.org/NUVA/VAL232> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 6A"@fr ;
+    skos:altLabel "VPP-06A"@fr .
+
+<http://ivci.org/NUVA/VAL233> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 25"@fr ;
+    skos:altLabel "VPP-25"@fr .
+
+<http://ivci.org/NUVA/VAL234> rdfs:label "Valence méningocoque, sans précision"@fr ;
+    skos:altLabel "Men"@fr .
+
+<http://ivci.org/NUVA/VAL235> rdfs:label "Valence méningocoque, polyvalent, polyosidique conjugué"@fr ;
+    skos:altLabel "MCV-poly"@fr .
+
+<http://ivci.org/NUVA/VAL236> rdfs:label "Valence papillomavirus, VLP, monovalent"@fr ;
+    skos:altLabel "VPH-mono"@fr .
+
+<http://ivci.org/NUVA/VAL237> rdfs:label "Valence papillomavirus, VLP, polyvalent"@fr ;
+    skos:altLabel "VPH-poly"@fr .
+
+<http://ivci.org/NUVA/VAL238> rdfs:label "Valence papillomavirus, VLP, type 6"@fr ;
+    skos:altLabel "VPH-06"@fr .
+
+<http://ivci.org/NUVA/VAL239> rdfs:label "Valence papillomavirus, VLP, type 11"@fr ;
+    skos:altLabel "VPH-11"@fr .
+
+<http://ivci.org/NUVA/VAL240> rdfs:label "Valence papillomavirus, VLP, type 16"@fr ;
+    skos:altLabel "VPH-16"@fr .
+
+<http://ivci.org/NUVA/VAL241> rdfs:label "Valence papillomavirus, VLP, type 18"@fr ;
+    skos:altLabel "VPH-18"@fr .
+
+<http://ivci.org/NUVA/VAL242> rdfs:label "Valence papillomavirus, VLP, type 31"@fr ;
+    skos:altLabel "VPH-31"@fr .
+
+<http://ivci.org/NUVA/VAL243> rdfs:label "Valence papillomavirus, VLP, type 33"@fr ;
+    skos:altLabel "VPH-33"@fr .
+
+<http://ivci.org/NUVA/VAL244> rdfs:label "Valence papillomavirus, VLP, type 58"@fr ;
+    skos:altLabel "VPH-58"@fr .
+
+<http://ivci.org/NUVA/VAL245> rdfs:label "Valence papillomavirus, VLP, type 52"@fr ;
+    skos:altLabel "VPH-52"@fr .
+
+<http://ivci.org/NUVA/VAL246> rdfs:label "Valence papillomavirus, VLP, type 45"@fr ;
+    skos:altLabel "VPH-45"@fr .
+
+<http://ivci.org/NUVA/VAL247> rdfs:label "Valence encéphalite japonaise, virus chimérique vivant atténué"@fr ;
+    skos:altLabel "EJ-VRA"@fr .
+
+<http://ivci.org/NUVA/VAL248> rdfs:label "Valence encéphalite japonaise, vivant atténué, sans précision"@fr ;
+    skos:altLabel "EJ-VVA"@fr .
+
+<http://ivci.org/NUVA/VAL249> rdfs:label "Valence encéphalite japonaise, sans précision"@fr ;
+    skos:altLabel "EJ"@fr .
+
+<http://ivci.org/NUVA/VAL250> rdfs:label "Valence encéphalite japonaise, inactivée, entière, préparée sur tissu cérébral murin"@fr ;
+    skos:altLabel "EJ-I-cm"@fr .
+
+<http://ivci.org/NUVA/VAL251> rdfs:label "Valence encéphalite japonaise, inactivée, dérivée de cellules Vero"@fr ;
+    skos:altLabel "EJ-I-Vero"@fr .
+
+<http://ivci.org/NUVA/VAL252> rdfs:label "Valence rage, immunoglobuline, origine humaine"@fr ;
+    skos:altLabel "hRIG"@fr .
+
+<http://ivci.org/NUVA/VAL253> rdfs:label "Valence rage, immunoglobuline, origine équine"@fr ;
+    skos:altLabel "eRIG"@fr .
+
+<http://ivci.org/NUVA/VAL254> rdfs:label "Valence rage, inactivée, entière, type Semple, préparée sur tissu cérébral de chèvre ou de mouton infecté par le virus de la rage, inactivé par du phénol ou de la ß-propiolactone, contient de la myéline"@fr ;
+    skos:altLabel "Rab-I-Semple"@fr .
+
+<http://ivci.org/NUVA/VAL255> rdfs:label "Valence rage, inactivée, entière, type Fuenzalida, préparée sur tissu cérébral de souriceau à la mamelle infecté par le virus de la rage, teneur moindre en myéline"@fr ;
+    skos:altLabel "Rab-I-Fuenzalida"@fr .
+
+<http://ivci.org/NUVA/VAL256> rdfs:label "Valence rage, inactivée, entière, préparée sur tissu cérébral animal infecté par le virus de la rage, sans précision"@fr ;
+    skos:altLabel "Rab-I-TissuNerveux"@fr .
+
+<http://ivci.org/NUVA/VAL257> rdfs:label "Valence rage, inactivée, entière, préparée sur culture cellulaire, sans précision"@fr ;
+    skos:altLabel "Rab-I-CC"@fr .
+
+<http://ivci.org/NUVA/VAL258> rdfs:label "Valence rage, inactivée, entière, préparée sur culture de cellules diploïdes humaines (HDCV) MRC-5, inactivation par la ß-propiolactone"@fr ;
+    skos:altLabel "Rab-I-HDCV"@fr .
+
+<http://ivci.org/NUVA/VAL259> rdfs:label "Valence rage, inactivée, entière, purifiée et préparée sur culture de cellules d’embryon de poulet (PCECV), souche fixe du virus de la rage Flury LEP-25 multipliée sur cultures primaires de fibroblastes de poulet, virus inactivé par la ß-propiolactone"@fr ;
+    skos:altLabel "Rab-I-PCEC"@fr .
+
+<http://ivci.org/NUVA/VAL260> rdfs:label "Valence rage, inactivée, entière, préparée sur culture de cellules Vero (PVRV), souche Wistar, inactivation par la ß-propiolactone"@fr ;
+    skos:altLabel "Rab-I-PVRV"@fr .
+
+<http://ivci.org/NUVA/VAL261> rdfs:label "Valence rage, inactivée, entière, préparée en culture primaire de cellules rénales de hamster (PHKCV), souche Beijing, inactivation par le formol"@fr ;
+    skos:altLabel "Rab-I-PHKCV"@fr .
+
+<http://ivci.org/NUVA/VAL262> rdfs:label "Valence rage, inactivée, entière, préparée sur oeufs embryonnés (VOE), sans précision"@fr ;
+    skos:altLabel "Rab-I-VOE"@fr .
+
+<http://ivci.org/NUVA/VAL263> rdfs:label "Valence rage, inactivée, entière, préparée sur cellules d’embryon de canard, inactivation par la ß-propiolactone"@fr ;
+    skos:altLabel "Rab-I-PDEV"@fr .
+
+<http://ivci.org/NUVA/VAL264> rdfs:label "Valence covid 19, entier inactivé, autorisé"@fr ;
+    skos:altLabel "Covid-VI-Aut"@fr .
+
+<http://ivci.org/NUVA/VAL265> rdfs:label "Valence covid 19, entier inactivé, en essai clinique"@fr ;
+    skos:altLabel "Covid-VI-CT"@fr .
+
+<http://ivci.org/NUVA/VAL266> rdfs:label "Valence méningocoque C, polyoside conjugué à l'anatoxine tétanique"@fr ;
+    skos:altLabel "MCV-C-T"@fr .
+
+<http://ivci.org/NUVA/VAL267> rdfs:label "Valence méningocoque C, polyoside conjugué à l'anatoxine diphtérique"@fr ;
+    skos:altLabel "MCV-C-D"@fr .
+
+<http://ivci.org/NUVA/VAL268> rdfs:label "Valence méningocoque C, polyoside conjugué à la protéine CRM197"@fr ;
+    skos:altLabel "MCV-C-CRM"@fr .
+
+<http://ivci.org/NUVA/VAL269> rdfs:label "Valence méningocoque A, polyoside conjugué à la protéine CRM197"@fr ;
+    skos:altLabel "MCV-A-CRM"@fr .
+
+<http://ivci.org/NUVA/VAL270> rdfs:label "Valence méningocoque A, polyoside conjugué à l'anatoxine diphtérique"@fr ;
+    skos:altLabel "MCV-A-D"@fr .
+
+<http://ivci.org/NUVA/VAL271> rdfs:label "Valence méningocoque A, polyoside conjugué à l'anatoxine tétanique"@fr ;
+    skos:altLabel "MCV-A-T"@fr .
+
+<http://ivci.org/NUVA/VAL272> rdfs:label "Valence méningocoque W, polyoside conjugué à l'anatoxine tétanique"@fr ;
+    skos:altLabel "MCV-W-T"@fr .
+
+<http://ivci.org/NUVA/VAL273> rdfs:label "Valence méningocoque W, polyoside conjugué à l'anatoxine diphtérique"@fr ;
+    skos:altLabel "MCV-W-D"@fr .
+
+<http://ivci.org/NUVA/VAL274> rdfs:label "Valence méningocoque W, polyoside conjugué à la protéine CRM197"@fr ;
+    skos:altLabel "MCV-W-CRM"@fr .
+
+<http://ivci.org/NUVA/VAL275> rdfs:label "Valence méningocoque Y, polyoside conjugué à la protéine CRM197"@fr ;
+    skos:altLabel "MCV-Y-CRM"@fr .
+
+<http://ivci.org/NUVA/VAL276> rdfs:label "Valence méningocoque Y, polyoside conjugué à l'anatoxine tétanique"@fr ;
+    skos:altLabel "MCV-Y-T"@fr .
+
+<http://ivci.org/NUVA/VAL277> rdfs:label "Valence méningocoque Y, polyoside conjugué à l'anatoxine diphtérique"@fr ;
+    skos:altLabel "MCV-Y-D"@fr .
+
+<http://ivci.org/NUVA/VAL278> rdfs:label "Valence Adénovirus, vivant atténué, voie orale, sans précision"@fr ;
+    skos:altLabel "Adeno-VVA"@fr .
+
+<http://ivci.org/NUVA/VAL279> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, dose pédiatrique"@fr ;
+    skos:altLabel "Inf-SUped4"@fr .
+
+<http://ivci.org/NUVA/VAL280> rdfs:label "Valence botulisme, anatoxine"@fr ;
+    skos:altLabel "BT"@fr .
+
+<http://ivci.org/NUVA/VAL281> rdfs:label "Valence Adénovirus de type 7, vivant atténué, voie orale, sans précision"@fr ;
+    skos:altLabel "Adeno-7"@fr .
+
+<http://ivci.org/NUVA/VAL282> rdfs:label "Valence Adénovirus de type 4, vivant atténué, voie orale, sans précision"@fr ;
+    skos:altLabel "Adeno-4"@fr .
+
+<http://ivci.org/NUVA/VAL283> rdfs:label "Valence hépatite A, inactivée, entière, dose pédiatrique, sans précision"@fr ;
+    skos:altLabel "HepA-PED"@fr .
+
+<http://ivci.org/NUVA/VAL284> rdfs:label "Valence hépatite A, inactivée, entière, dose adulte, sans précision"@fr ;
+    skos:altLabel "HepA-ADU"@fr .
+
+<http://ivci.org/NUVA/VAL285> rdfs:label "Valence grippe, trivalente, inactivée, obtenue sur culture cellulaire, fractionnée ou sous-unité, dose normale"@fr ;
+    skos:altLabel "Inf-CC3"@fr .
+
+<http://ivci.org/NUVA/VAL286> rdfs:label "Valence hépatite A, vivant atténué, sans précision"@fr ;
+    skos:altLabel "HepA-VVA"@fr .
+
+<http://ivci.org/NUVA/VAL287> rdfs:label "Valence grippe, quadrivalente, recombinante"@fr ;
+    skos:altLabel "Inf-R4"@fr .
+
+<http://ivci.org/NUVA/VAL288> rdfs:label "Valence hépatite A, sans précision"@fr ;
+    skos:altLabel "HepA"@fr .
+
+<http://ivci.org/NUVA/VAL289> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes"@fr ;
+    skos:altLabel " Covid-ARNm-S-ORI-10"@fr .
+
+<http://ivci.org/NUVA/VAL290> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-ORI-30"@fr .
+
+<http://ivci.org/NUVA/VAL291> rdfs:label "Valence hépatite B, ant!gène de surface recombinant, trois antigènes (Ag HbS, pré-S1 et pré-S2)"@fr ;
+    skos:altLabel "HBs-r-3Ag"@fr .
+
+<http://ivci.org/NUVA/VAL292> rdfs:label "Valence covid 19, vecteur viral non réplicatif, adénovirus 26 codant la protéine de pointe du SARS-CoV-2, en essai clinique"@fr ;
+    skos:altLabel "Covid-VVnr-S-Ad26-CT"@fr .
+
+<http://ivci.org/NUVA/VAL293> rdfs:label "Valence charbon, immunoglobuline"@fr ;
+    skos:altLabel "Charbon-Ig"@fr .
+
+<http://ivci.org/NUVA/VAL294> rdfs:label "Valence variole, première génération, vivant atténué"@fr ;
+    skos:altLabel "POX-1G"@fr .
+
+<http://ivci.org/NUVA/VAL295> rdfs:label "Valence variole, deuxième génération, vivant atténué"@fr ;
+    skos:altLabel "POX-2G"@fr .
+
+<http://ivci.org/NUVA/VAL296> rdfs:label "Valence variole, troisième génération, non réplicatif, Virus modifié de la vaccine d'Ankara,"@fr ;
+    skos:altLabel "POX-3G-MVA"@fr .
+
+<http://ivci.org/NUVA/VAL297> rdfs:label "Valence méningocoque A, sans précision"@fr ;
+    skos:altLabel "MenA"@fr .
+
+<http://ivci.org/NUVA/VAL298> rdfs:label "Valence méningocoque C, sans précision"@fr ;
+    skos:altLabel "MenC"@fr .
+
+<http://ivci.org/NUVA/VAL299> rdfs:label "Valence méningocoque Y, sans précision"@fr ;
+    skos:altLabel "MenY"@fr .
+
+<http://ivci.org/NUVA/VAL300> rdfs:label "Valence méningocoque W, sans précision"@fr ;
+    skos:altLabel "MenW"@fr .
+
+<http://ivci.org/NUVA/VAL301> rdfs:label "Valence grippe, trivalente, recombinante"@fr ;
+    skos:altLabel "Inf-R3"@fr .
+
+<http://ivci.org/NUVA/VAL302> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-ORI-50"@fr .
+
+<http://ivci.org/NUVA/VAL303> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2"@fr ;
+    skos:altLabel "Covid-ARNm-S-ORI"@fr .
+
+<http://ivci.org/NUVA/VAL304> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 15 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-ORI-15"@fr .
+
+<http://ivci.org/NUVA/VAL305> rdfs:label "Valence covid 19, variant Omicron BA.1, ARNm codant la protéine de pointe du SARS-CoV-2, 15 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-BA.1-15"@fr .
+
+<http://ivci.org/NUVA/VAL306> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 3 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-ORI-3"@fr .
+
+<http://ivci.org/NUVA/VAL307> rdfs:label "Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2, 15 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-BA.4/5-15"@fr .
+
+<http://ivci.org/NUVA/VAL308> rdfs:label "Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-BA.4/5-25"@fr .
+
+<http://ivci.org/NUVA/VAL309> rdfs:label "Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2, 5 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-BA.4/5-5"@fr .
+
+<http://ivci.org/NUVA/VAL310> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 5 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-ORI-5"@fr .
+
+<http://ivci.org/NUVA/VAL311> rdfs:label "Valence paludisme, pré-érythrocytaire R21/Matrix-M"@fr ;
+    skos:altLabel "R21/Matrix-M"@fr .
+
+<http://ivci.org/NUVA/VAL312> rdfs:label "Valence encéphalite à tiques, inactivée, entière, souche K23"@fr ;
+    skos:altLabel "TBE-K23"@fr .
+
+<http://ivci.org/NUVA/VAL313> rdfs:label "Valence encéphalite à tiques, inactivée, entière, souche Neudörfl, dose non précisée"@fr ;
+    skos:altLabel "TBE-Neudorfl"@fr .
+
+<http://ivci.org/NUVA/VAL314> rdfs:label "Valence encéphalite à tiques, inactivée, entière, souche Neudörfl, dose adulte"@fr ;
+    skos:altLabel "TBE-Neudorfl-ADU"@fr .
+
+<http://ivci.org/NUVA/VAL315> rdfs:label "Valence encéphalite à tiques, entière inactivée, souche Neudörfl, dose pédiatrique"@fr ;
+    skos:altLabel "TBE-Neudorfl-PED"@fr .
+
+<http://ivci.org/NUVA/VAL316> rdfs:label "Valence VRS, recombinante, antigène RSVPreF3 dérivé de la protéine F"@fr ;
+    skos:altLabel "VRS-PreF3"@fr .
+
+<http://ivci.org/NUVA/VAL317> rdfs:label "Valence VRS, anticorps, sans précision"@fr ;
+    skos:altLabel "VRS-Ab"@fr .
+
+<http://ivci.org/NUVA/VAL318> rdfs:label "Valence VRS, vaccin, sans précision"@fr ;
+    skos:altLabel "VRS-V"@fr .
+
+<http://ivci.org/NUVA/VAL319> rdfs:label "Valence covid 19, vecteur viral non réplicatif, adénovirus codant la protéine de pointe du SARS-CoV-2, par inhalation"@fr ;
+    skos:altLabel "Covid-VVnr-S-INH"@fr .
+
+<http://ivci.org/NUVA/VAL320> rdfs:label "Valence VRS, anticorps monoclonal, sans précision"@fr ;
+    skos:altLabel "VRS-mAb"@fr .
+
+<http://ivci.org/NUVA/VAL321> rdfs:label "Valence VRS, anticorps monoclonal, nirsévimab"@fr ;
+    skos:altLabel "VRS-mAb-nir"@fr .
+
+<http://ivci.org/NUVA/VAL322> rdfs:label "Valence VRS, recombinante, glycoprotéines F des sous-types A et B"@fr ;
+    skos:altLabel "VRS-PreFAB"@fr .
+
+<http://ivci.org/NUVA/VAL323> rdfs:label "Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-XBB.1.5-30"@fr .
+
+<http://ivci.org/NUVA/VAL324> rdfs:label "Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-XBB.1.5-10"@fr .
+
+<http://ivci.org/NUVA/VAL325> rdfs:label "Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2, 3 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-XBB.1.5-3"@fr .
+
+<http://ivci.org/NUVA/VAL326> rdfs:label "Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2, 1,5 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-BA.4/5-1,5"@fr .
+
+<http://ivci.org/NUVA/VAL327> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 1,5 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-ORI-1,5"@fr .
+
+<http://ivci.org/NUVA/VAL328> rdfs:label "Valence covid 19, sous-variant Omicron XBB.1.5, sous-unité protéique, protéine de pointe recombinante dans des nanoparticules"@fr ;
+    skos:altLabel "Covid-SP-rSnp-XBB"@fr .
+
+<http://ivci.org/NUVA/VAL329> rdfs:label "Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-XBB.1.5-50"@fr .
+
+<http://ivci.org/NUVA/VAL330> rdfs:label "Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-XBB.1.5-25"@fr .
+
+<http://ivci.org/NUVA/VAL331> rdfs:label "Valence CMV, immunoglobulines"@fr ;
+    skos:altLabel "CMV-Ig"@fr .
+
+<http://ivci.org/NUVA/VAL332> rdfs:label "Valence hépatite C, sans précision"@fr ;
+    skos:altLabel "HepC"@fr .
+
+<http://ivci.org/NUVA/VAL333> rdfs:label "Valence VIH, sans précision"@fr ;
+    skos:altLabel "VIH"@fr .
+
+<http://ivci.org/NUVA/VAL334> rdfs:label "Valence mélanome, sans précision"@fr ;
+    skos:altLabel "MEL"@fr .
+
+<http://ivci.org/NUVA/VAL335> rdfs:label "Valence Streptococcus pyogenes, sans précision"@fr ;
+    skos:altLabel "SPYO"@fr .
+
+<http://ivci.org/NUVA/VAL336> rdfs:label "Valence fièvre de la vallée du Rift, sans précision"@fr ;
+    skos:altLabel "FVR"@fr .
+
+<http://ivci.org/NUVA/VAL337> rdfs:label "Valence variole, immunoglobuline"@fr ;
+    skos:altLabel "POX-Ig"@fr .
+
+<http://ivci.org/NUVA/VAL338> rdfs:label "Valence VRS, anticorps ou vaccin, sans précision"@fr ;
+    skos:altLabel "VRS"@fr .
+
+<http://ivci.org/NUVA/VAL339> rdfs:label "Valence Borrelia burgdorferi, sans précision"@fr ;
+    skos:altLabel "Lyme"@fr .
+
+<http://ivci.org/NUVA/VAL340> rdfs:label "Valence charbon, sans précision"@fr ;
+    skos:altLabel "Charbon"@fr .
+
+<http://ivci.org/NUVA/VAL341> rdfs:label "Valence Escherichia coli, sans précision"@fr ;
+    skos:altLabel "Eco"@fr .
+
+<http://ivci.org/NUVA/VAL342> rdfs:label "Valence Klebsiella pneumoniæ, sans précision"@fr ;
+    skos:altLabel "Kpn"@fr .
+
+<http://ivci.org/NUVA/VAL343> rdfs:label "Valence Enterococcus fæcalis, sans précision"@fr ;
+    skos:altLabel "Efa"@fr .
+
+<http://ivci.org/NUVA/VAL344> rdfs:label "Valence Proteus vulgaris, sans précision"@fr ;
+    skos:altLabel "Pvu"@fr .
+
+<http://ivci.org/NUVA/VAL345> rdfs:label "Valence infections urinaires, sans précision"@fr ;
+    skos:altLabel "UTI"@fr .
+
+<http://ivci.org/NUVA/VAL346> rdfs:label "Valence entérovirus A71"@fr ;
+    skos:altLabel "EV71"@fr .
+
+<http://ivci.org/NUVA/VAL347> rdfs:label "Valence Leptospira canicola, inactivée, entière"@fr ;
+    skos:altLabel "Lepto-ca"@fr .
+
+<http://ivci.org/NUVA/VAL348> rdfs:label "Valence Leptospira pomona, inactivée, entière"@fr ;
+    skos:altLabel "Lepto-po"@fr .
+
+<http://ivci.org/NUVA/VAL349> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, adjuvant"@fr ;
+    skos:altLabel "Inf-SUAnd3"@fr .
+
+<http://ivci.org/NUVA/VAL350> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, adjuvant, dose normale"@fr ;
+    skos:altLabel "Inf-SUAnd4"@fr .
+
+<http://ivci.org/NUVA/VAL351> rdfs:label "Valence grippe, trivalente, virosomale, sans précision"@fr ;
+    skos:altLabel "Inf-V3"@fr .
+
+<http://ivci.org/NUVA/VAL352> rdfs:label "Valence grippe, quadrivalente, virosomale, sans précision"@fr ;
+    skos:altLabel "Inf-V4"@fr .
+
+<http://ivci.org/NUVA/VAL353> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 2"@fr ;
+    skos:altLabel "VPC-02"@fr .
+
+<http://ivci.org/NUVA/VAL354> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 9N"@fr ;
+    skos:altLabel "VPC-09N"@fr .
+
+<http://ivci.org/NUVA/VAL355> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 17F"@fr ;
+    skos:altLabel "VPC-17F"@fr .
+
+<http://ivci.org/NUVA/VAL356> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 20"@fr ;
+    skos:altLabel "VPC-20"@fr .
+
+<http://ivci.org/NUVA/VAL357> rdfs:label "Valence choléra, vivante atténuée, orale"@fr ;
+    skos:altLabel "O-Chol-V"@fr .
+
+<http://ivci.org/NUVA/VAL358> rdfs:label "Valence botulisme, immunoglobuline"@fr ;
+    skos:altLabel "BIG"@fr .
+
+<http://ivci.org/NUVA/VAL359> rdfs:label "Valence choléra, inactivée, entière, sans précision"@fr ;
+    skos:altLabel "Chol-I"@fr .
+
+<http://ivci.org/NUVA/VAL360> rdfs:label "Valence grippe, inactivée, obtenue sur culture cellulaire, fractionnée ou sous-unité, dose normale, sans précision"@fr ;
+    skos:altLabel "Inf-CC"@fr .
+
+<http://ivci.org/NUVA/VAL361> rdfs:label "Valence grippe, recombinante, sans précision"@fr ;
+    skos:altLabel "Inf-R"@fr .
+
+<http://ivci.org/NUVA/VAL362> rdfs:label "Valence grippe, virosomal, sans précision"@fr ;
+    skos:altLabel "Inf-V"@fr .
+
+<http://ivci.org/NUVA/VAL363> rdfs:label "Valence grippe, trivalente, VLP, sans précision"@fr ;
+    skos:altLabel "Inf-VLP3"@fr .
+
+<http://ivci.org/NUVA/VAL364> rdfs:label "Valence grippe, non vivante, sans précision"@fr ;
+    skos:altLabel "Inf-NL"@fr .
+
+<http://ivci.org/NUVA/VAL365> rdfs:label "Valence grippe, non vivante, obtenue sur culture d'œufs, sans précision"@fr ;
+    skos:altLabel "Inf-E"@fr .
+
+<http://ivci.org/NUVA/VAL366> rdfs:label "Valence grippe, ARN, sans précision"@fr ;
+    skos:altLabel "INF-ARN"@fr .
+
+<http://ivci.org/NUVA/VAL367> rdfs:label "Valence choléra, V. cholerae O1, entière inactivée, orale"@fr ;
+    skos:altLabel "O-Chol-O1-I"@fr .
+
+<http://ivci.org/NUVA/VAL368> rdfs:label "Valence choléra, V. cholerae O139, inactivée, entière, orale"@fr ;
+    skos:altLabel "O-Chol-O139-I"@fr .
+
+<http://ivci.org/NUVA/VAL369> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 15A"@fr ;
+    skos:altLabel "VPC-15A"@fr .
+
+<http://ivci.org/NUVA/VAL370> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 15C"@fr ;
+    skos:altLabel "VPC-15C"@fr .
+
+<http://ivci.org/NUVA/VAL371> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 16F"@fr ;
+    skos:altLabel "VPC-16F"@fr .
+
+<http://ivci.org/NUVA/VAL372> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 20A"@fr ;
+    skos:altLabel "VPC-20A"@fr .
+
+<http://ivci.org/NUVA/VAL373> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 23A"@fr ;
+    skos:altLabel "VPC-23A"@fr .
+
+<http://ivci.org/NUVA/VAL374> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 23B"@fr ;
+    skos:altLabel "VPC-23B"@fr .
+
+<http://ivci.org/NUVA/VAL375> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 24F"@fr ;
+    skos:altLabel "VPC-24F"@fr .
+
+<http://ivci.org/NUVA/VAL376> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 31"@fr ;
+    skos:altLabel "VPC-31"@fr .
+
+<http://ivci.org/NUVA/VAL377> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 35B"@fr ;
+    skos:altLabel "VPC-35B"@fr .
+
+<http://ivci.org/NUVA/VAL378> rdfs:label "Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), 15 microgrammes"@fr ;
+    skos:altLabel "rAgHBs-15"@fr .
+
+<http://ivci.org/NUVA/VAL379> rdfs:label "Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-JN.1-30"@fr .
+
+<http://ivci.org/NUVA/VAL380> rdfs:label "Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-JN.1-10"@fr .
+
+<http://ivci.org/NUVA/VAL381> rdfs:label "Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2, 3 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-JN.1-3"@fr .
+
+<http://ivci.org/NUVA/VAL382> rdfs:label "Valence covid 19, sous-variant Omicron JN.1, sous-unité protéique, protéine de pointe recombinante dans des nanoparticules"@fr ;
+    skos:altLabel "Covid-SP-rSnp-JN.1"@fr .
+
+<http://ivci.org/NUVA/VAL383> rdfs:label "Valence VRS, ARNm simple brin coiffé en 5' codant pour la glycoprotéine F, stabilisé dans la conformation de préfusion"@fr ;
+    skos:altLabel "mVRS"@fr .
+
+<http://ivci.org/NUVA/VAL384> rdfs:label "Valence lèpre, sans précision"@fr ;
+    skos:altLabel "Lep"@fr .
+
+<http://ivci.org/NUVA/VAL385> rdfs:label "Valence grippe aviaire, A(H5N8)"@fr ;
+    skos:altLabel "AH5N8"@fr .
+
+<http://ivci.org/NUVA/VAL386> rdfs:label "Valence grippe aviaire, A(H5), sans précision"@fr ;
+    skos:altLabel "AH5"@fr .
+
+<http://ivci.org/NUVA/VAL387> rdfs:label "Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-JN.1-25"@fr .
+
+<http://ivci.org/NUVA/VAL388> rdfs:label "Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-JN.1-50"@fr .
+
+<http://ivci.org/NUVA/VAL389> rdfs:label "Valence Pseudomonas aeruginosa, 7 immunotypes"@fr ;
+    skos:altLabel "PAER7"@fr .
+
+<http://ivci.org/NUVA/VAL390> rdfs:label "Valence chikungunya, sans précision"@fr ;
+    skos:altLabel "CHIK"@fr .
+
+<http://ivci.org/NUVA/VAL391> rdfs:label "Valence chikungunya, VLP"@fr ;
+    skos:altLabel "Chik-VLP"@fr .
+
+<http://ivci.org/NUVA/VAL392> rdfs:label "Valence grippe aviaire, A(H5N1), ARNm"@fr ;
+    skos:altLabel "AH5N1-ARN"@fr .
+
+<http://ivci.org/NUVA/VAL393> rdfs:label "Valence covid 19, variant Omicron BA.1, ARNm codant la protéine de pointe du SARS-CoV-2"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-BA.1"@fr .
+
+<http://ivci.org/NUVA/VAL394> rdfs:label "Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-BA.4/5"@fr .
+
+<http://ivci.org/NUVA/VAL395> rdfs:label "Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-JN.1"@fr .
+
+<http://ivci.org/NUVA/VAL396> rdfs:label "Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-XBB.1.5"@fr .
+
+<http://ivci.org/NUVA/VAL397> rdfs:label "Valence covid 19, vecteur viral non réplicatif codant la protéine de pointe du SARS-CoV-2, sans précision"@fr ;
+    skos:altLabel "Covid-VVnr-S"@fr .
+
+<http://ivci.org/NUVA/VAL398> rdfs:label "Valence covid 19, vecteur viral réplicatif, virus codant la protéine de pointe du SARS-CoV-2"@fr ;
+    skos:altLabel "Covid-VVr-S"@fr .
+
+<http://ivci.org/NUVA/VAL399> rdfs:label "Valence typhoïde, antigène Vi conjugué à l’anatoxine tétanique"@fr ;
+    skos:altLabel "Ty-ViC-T"@fr .
+
+<http://ivci.org/NUVA/VAL400> rdfs:label "Valence typhoïde, antigène Vi conjugué à la protéine CRM197"@fr ;
+    skos:altLabel "Ty-ViC-CRM"@fr .
+
+<http://ivci.org/NUVA/VAL401> rdfs:label "Valence encéphalite japonaise, inactivée, dérivée de cellules Vero, 3 microgrammes"@fr ;
+    skos:altLabel "EJ-I-Vero-3"@fr .
+
+<http://ivci.org/NUVA/VAL402> rdfs:label "Valence encéphalite japonaise, inactivée, dérivée de cellules Vero, 6 microgrammes"@fr ;
+    skos:altLabel "EJ-I-Vero-6"@fr .
+
+<http://ivci.org/NUVA/VAL403> rdfs:label "Valence méningocoque X, sans précision"@fr ;
+    skos:altLabel "MenX"@fr .
+
+<http://ivci.org/NUVA/VAL404> rdfs:label "Valence méningocoque X, polyoside conjugué"@fr ;
+    skos:altLabel "MCV-X"@fr .
+
+<http://ivci.org/NUVA/VAL405> rdfs:label "Valence grippe pandémique H1N1 2009, vivante atténuée"@fr ;
+    skos:altLabel "Inf-pdm09-V"@fr .
+
+<http://ivci.org/NUVA/VAL406> rdfs:label "Valence covid 19, variant Omicron KP.2, ARNm codant la protéine de pointe du SARS-CoV-2"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-KP.2"@fr .
+
+<http://ivci.org/NUVA/VAL407> rdfs:label "Valence covid 19, variant Omicron KP.2, ARNm codant la protéine de pointe du SARS-CoV-2, 3 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-KP.2-3"@fr .
+
+<http://ivci.org/NUVA/VAL408> rdfs:label "Valence covid 19, variant Omicron KP.2, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-KP.2-10"@fr .
+
+<http://ivci.org/NUVA/VAL409> rdfs:label "Valence covid 19, variant Omicron KP.2, ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-KP.2-30"@fr .
+
+<http://ivci.org/NUVA/VAL410> rdfs:label "Valence covid 19, sous-unité protéique, protéine N recombinante"@fr ;
+    skos:altLabel "Covid-SP-rN"@fr .
+
+<http://ivci.org/NUVA/VAL411> rdfs:label "Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-BA.4/5-50"@fr .
+
+<http://ivci.org/NUVA/VAL412> rdfs:label "Valence covid 19, variant Omicron BA.1, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-BA.1-50"@fr .
+
+<http://ivci.org/NUVA/VAL413> rdfs:label "Valence covid 19, sous-variant Omicron XBB.1.16 , sous-unité protéique, protéine de pointe recombinante (domaine RBD)"@fr ;
+    skos:altLabel "Covid-SP-rRBD-XBB.1.16"@fr .
+
+<http://ivci.org/NUVA/VAL414> rdfs:label "Valence diphtérique, sans précision"@fr ;
+    skos:altLabel "DIPH"@fr .
+
+<http://ivci.org/NUVA/VAL415> rdfs:label "Valence charbon, acellulaire, absorbé, adjuvant"@fr ;
+    skos:altLabel "BantAdj"@fr .
+
+<http://ivci.org/NUVA/VAL416> rdfs:label "Valence covid 19, sous-unité protéique, adjuvant, protéine de pointe recombinante"@fr ;
+    skos:altLabel "Covid-SP-rS-A"@fr .
+
+<http://ivci.org/NUVA/VAL417> rdfs:label "Valence covid 19, variant Omicron BA.2, ARNm codant la protéine de pointe du SARS-CoV-2"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-BA.2"@fr .
+
+<http://ivci.org/NUVA/VAL418> rdfs:label "Valence variole, produits d'immunisation active ou passive"@fr ;
+    skos:altLabel "POX"@fr .
+
+<http://ivci.org/NUVA/VAL419> rdfs:label "Valence botulisme, produits d'immunisation active ou passive"@fr ;
+    skos:altLabel "BOT"@fr .
+
+<http://ivci.org/NUVA/VAL420> rdfs:label "Valence botulisme, produits d'immunisation passive"@fr ;
+    skos:altLabel "BOT-passive"@fr .
+
+<http://ivci.org/NUVA/VAL421> rdfs:label "Valence fièvre hémorragique d'Argentine, virus Junin, sans précision"@fr ;
+    skos:altLabel "Junin"@fr .
+
+<http://ivci.org/NUVA/VAL422> rdfs:label "Valence peste, sans précision"@fr ;
+    skos:altLabel "Yp"@fr .
+
+<http://ivci.org/NUVA/VAL423> rdfs:label "Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1"@fr .
+
+<http://ivci.org/NUVA/VAL424> rdfs:label "Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1-30"@fr .
+
+<http://ivci.org/NUVA/VAL425> rdfs:label "Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1-10"@fr .
+
+<http://ivci.org/NUVA/VAL426> rdfs:label "Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 3 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1-3"@fr .
+
+<http://ivci.org/NUVA/VAL427> rdfs:label "Valence covid 19, ARNm codant un fragment de la protéine Spike du SARS-CoV-2"@fr ;
+    skos:altLabel "Covid-ARNm-S-frag"@fr .
+
+<http://ivci.org/NUVA/VAL428> rdfs:label "Valence covid 19, ARNm codant les fragments NTD et RBD de la protéine Spike, variant Omicron LP.8.1"@fr ;
+    skos:altLabel "Covid-ARNm-S-frag-OMI-LP.8.1"@fr .
+
+<http://ivci.org/NUVA/VAL429> rdfs:label "Valence VRS, anticorps monoclonal, clesrovimab"@fr ;
+    skos:altLabel "VRS-mAb-cle"@fr .
+
+<http://ivci.org/NUVA/VAL430> rdfs:label "Valence encéphalite à tiques, inactivée, entière, souche K23, 0,25 mL"@fr ;
+    skos:altLabel "TBE-K23-25"@fr .
+
+<http://ivci.org/NUVA/VAL431> rdfs:label "Valence encéphalite à tiques, inactivée, entière, souche K23, 0,50 mL"@fr ;
+    skos:altLabel "TBE-K23-50"@fr .
+
+<http://ivci.org/NUVA/VAL432> rdfs:label "Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1-25"@fr .
+
+<http://ivci.org/NUVA/VAL433> rdfs:label "Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes"@fr ;
+    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1-50"@fr .
+
+<http://ivci.org/NUVA/VAL434> rdfs:label "Valence covid 19, sous-variant Omicron LP.8.1, sous-unité protéique, protéine de pointe recombinante (domaine RBD)"@fr ;
+    skos:altLabel "Covid-SP-rRBD-LP.8.1"@fr .
+
+<http://ivci.org/NUVA/VAL435> rdfs:label "Valence dengue, souche atténuée native"@fr ;
+    skos:altLabel "DENV2-VVA"@fr .
+
+<http://ivci.org/NUVA/VAL436> rdfs:label "Valence dengue, vivant, recombinant, chimère DENV-2 + prM/E de DENV-1"@fr ;
+    skos:altLabel "DENV1rCH"@fr .
+
+<http://ivci.org/NUVA/VAL437> rdfs:label "Valence dengue, vivant, recombinant, chimère DENV-2 + prM/E de DENV-3"@fr ;
+    skos:altLabel "DENV3rCH"@fr .
+
+<http://ivci.org/NUVA/VAL438> rdfs:label "Valence dengue, vivant, recombinant, chimère DENV-2 + prM/E de DENV-4"@fr ;
+    skos:altLabel "DENV4rCH"@fr .
+

@@ -118,7 +118,7 @@ VAC0126,HEVAC B,Plasma vaccine against hepatitis B (first French vaccine),False
 VAC0127,HB VAX DNA 5 µg,"Recombinant hepatitis B vaccine, pediatric dose",False
 VAC0128,HB VAX DNA 10 µg,"Recombinant hepatitis B vaccine with 10 micrograms of HBs antigen (although 10 µg, this vaccine is indicated from the age of 16)",False
 VAC0129,HB VAX DNA 40 µg,"Recombinant hepatitis B vaccine, dialysis patient dosage",False
-VAC0130,"MMR vaccine, live attenuated, unspecified","Live attenuated measles, mumps and rubella vaccine",True
+VAC0130,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified","Live attenuated measles, mumps and rubella vaccine",True
 VAC0131,"Rabies vaccine, unspecified",Whole virion inactivated rabies vaccine,True
 VAC0132,"Tetanus vaccine, unspecified",Tetanus toxoid vaccine,True
 VAC0133,"Smallpox vaccine, unspecified",Live attenuated smallpox vaccine,True
@@ -1439,3 +1439,5 @@ VAC1513,BUTANTAN DTP,"Diphtheria toxoid (standard dose), tetanus toxoid and pert
 VAC1514,BUTANTAN DTAP,"Diphtheria toxoid (low dose), tetanus toxoid and pertussis toxoid (acellular, low dose) vaccine",False
 VAC1515,BUTANTAN RAGE,"Whole virion inactivated rabies vaccine, cultured on Vero cells",False
 VAC1516,BUTANTAN INFLUENZA,"Trivalent inactivated seasonal influenza vaccine, split virion",False
+VAC1517,AUJEMFLU,"Influenza vaccine, trivalent, inactivated, fractionated or subunit, adjuvanted",False
+VAC1518,MFLUSIVA,"Influenza vaccine, trivalent, messenger RNA",False

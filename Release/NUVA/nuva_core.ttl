@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "1.3.22" .
+    owl:versionInfo "1.3.23" .
 
 nuva:NUVACode a owl:Class ;
     rdfs:label "NUVA Code" ;
@@ -124,7 +124,7 @@ nuva:VAC0010 a owl:Class ;
     nuvs:containsValence nuva:VAL012 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-09-25"^^xsd:date ;
+    dcterms:modified "2026-08-03"^^xsd:date ;
     rdfs:comment "Recombinant hepatitis B vaccine, dialysis patient dosage"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0010']"^^nuva:NUVACode,
@@ -285,7 +285,7 @@ nuva:VAC0023 a owl:Class ;
         nuva:VAL156 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-03-10"^^xsd:date ;
+    dcterms:modified "2026-08-02"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, 5 components, standard dose), Haemophilus influenzae type b (conjugated to tetanus toxoid) and inactivated polio (trivalent) pediatric vaccine, adsorbed"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0023']"^^nuva:NUVACode,
@@ -370,7 +370,7 @@ nuva:VAC0028 a owl:Class ;
     nuvs:containsValence nuva:VAL259 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-10-22"^^xsd:date ;
+    dcterms:modified "2026-05-29"^^xsd:date ;
     rdfs:comment "Whole virion inactivated rabies vaccine, Flury LEP strain, purified chick embryo cell vaccine (PCECV), inactivated with ß-propiolactone"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0028']"^^nuva:NUVACode,
@@ -1286,7 +1286,7 @@ nuva:VAC0111 a owl:Class ;
     nuvs:containsValence nuva:VAL092 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-16"^^xsd:date ;
+    dcterms:modified "2026-07-29"^^xsd:date ;
     rdfs:comment "Live attenuated yellow fever vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0111']"^^nuva:NUVACode,
@@ -1464,13 +1464,13 @@ nuva:VAC0129 a owl:Class ;
         "VAC0129"^^xsd:string .
 
 nuva:VAC0130 a owl:Class ;
-    rdfs:label "MMR vaccine, live attenuated, unspecified"@en ;
+    rdfs:label "MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified"@en ;
     nuvs:containsValence nuva:VAL005,
         nuva:VAL077,
         nuva:VAL079 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-05-20"^^xsd:date ;
+    dcterms:modified "2026-07-29"^^xsd:date ;
     rdfs:comment "Live attenuated measles, mumps and rubella vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0130']"^^nuva:NUVACode,
@@ -1492,7 +1492,7 @@ nuva:VAC0132 a owl:Class ;
     nuvs:containsValence nuva:VAL067 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-12-08"^^xsd:date ;
+    dcterms:modified "2026-07-29"^^xsd:date ;
     rdfs:comment "Tetanus toxoid vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0132']"^^nuva:NUVACode,
@@ -1514,7 +1514,7 @@ nuva:VAC0134 a owl:Class ;
     nuvs:containsValence nuva:VAL096 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-02-11"^^xsd:date ;
+    dcterms:modified "2026-07-28"^^xsd:date ;
     rdfs:comment "Tuberculosis vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0134']"^^nuva:NUVACode,
@@ -1525,7 +1525,7 @@ nuva:VAC0135 a owl:Class ;
     nuvs:containsValence nuva:VAL042 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-08-05"^^xsd:date ;
+    dcterms:modified "2026-07-28"^^xsd:date ;
     rdfs:comment "Polio vaccine, live or inactivated (unspecified)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0135']"^^nuva:NUVACode,
@@ -1637,7 +1637,7 @@ nuva:VAC0145 a owl:Class ;
     nuvs:containsValence nuva:VAL031 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-15"^^xsd:date ;
+    dcterms:modified "2026-07-29"^^xsd:date ;
     rdfs:comment "Tick-borne encephalitis vaccine, whole-virus inactivated, strain unspecified"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0145']"^^nuva:NUVACode,
@@ -1740,7 +1740,7 @@ nuva:VAC0154 a owl:Class ;
     nuvs:containsValence nuva:VAL025 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-05-21"^^xsd:date ;
+    dcterms:modified "2026-07-28"^^xsd:date ;
     rdfs:comment "Malaria vaccine (used in clinical trials)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0154']"^^nuva:NUVACode,
@@ -1773,7 +1773,7 @@ nuva:VAC0157 a owl:Class ;
     nuvs:containsValence nuva:VAL105 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-02-11"^^xsd:date ;
+    dcterms:modified "2026-07-29"^^xsd:date ;
     rdfs:comment "Pneumococcal conjugate or non conjugate polysaccharide vaccine, number of serotypes unspecified"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0157']"^^nuva:NUVACode,
@@ -1795,7 +1795,7 @@ nuva:VAC0159 a owl:Class ;
     nuvs:containsValence nuva:VAL044 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-05-19"^^xsd:date ;
+    dcterms:modified "2026-07-29"^^xsd:date ;
     rdfs:comment "Live attenuated chickenpox vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0159']"^^nuva:NUVACode,
@@ -6570,7 +6570,7 @@ nuva:VAC0593 a owl:Class ;
     nuvs:containsValence nuva:VAL260 ;
     nuvs:isAbstract false ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-23"^^xsd:date ;
+    dcterms:modified "2026-08-03"^^xsd:date ;
     rdfs:comment "Whole virion inactivated rabies vaccine, WISTAR PM/WI 38-1503-3M strain, cultured on Vero cells, inactivated with ß-propiolactone"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0593']"^^nuva:NUVACode,
@@ -7096,7 +7096,7 @@ nuva:VAC0648 a owl:Class ;
     nuvs:containsValence nuva:VAL157 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-12-08"^^xsd:date ;
+    dcterms:modified "2026-07-31"^^xsd:date ;
     rdfs:comment "COVID-19 vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0648']"^^nuva:NUVACode,
@@ -7175,7 +7175,7 @@ nuva:VAC0655 a owl:Class ;
     nuvs:containsValence nuva:VAL083 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-05-20"^^xsd:date ;
+    dcterms:modified "2026-07-29"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (unspecified dose)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0655']"^^nuva:NUVACode,
@@ -8700,7 +8700,7 @@ nuva:VAC0796 a owl:Class ;
     nuvs:containsValence nuva:VAL003 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-10-26"^^xsd:date ;
-    dcterms:modified "2025-05-21"^^xsd:date ;
+    dcterms:modified "2026-07-29"^^xsd:date ;
     rdfs:comment "Pertussis vaccine (acellular or whole-cell inactivated)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0796']"^^nuva:NUVACode,
@@ -8713,7 +8713,7 @@ nuva:VAC0797 a owl:Class ;
         nuva:VAL117 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-10-26"^^xsd:date ;
-    dcterms:modified "2025-04-15"^^xsd:date ;
+    dcterms:modified "2026-07-29"^^xsd:date ;
     rdfs:comment "Diphtheria toxoid (unspecified dose), tetanus toxoid and pertussis (acellular, unspecified dose) vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0797']"^^nuva:NUVACode,
@@ -9452,7 +9452,7 @@ nuva:VAC0860 a owl:Class ;
         nuva:VAL246 ;
     nuvs:isAbstract true ;
     dcterms:created "2022-03-09"^^xsd:date ;
-    dcterms:modified "2024-07-05"^^xsd:date ;
+    dcterms:modified "2026-07-28"^^xsd:date ;
     rdfs:comment "Human Papillomavirus vaccine, nonavalent (types 6, 11, 16, 18, 31, 33, 45, 52, and 58), recombinant"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0860']"^^nuva:NUVACode,
@@ -10475,7 +10475,7 @@ nuva:VAC0945 a owl:Class ;
     nuvs:containsValence nuva:VAL234 ;
     nuvs:isAbstract true ;
     dcterms:created "2022-05-18"^^xsd:date ;
-    dcterms:modified "2024-04-17"^^xsd:date ;
+    dcterms:modified "2026-07-28"^^xsd:date ;
     rdfs:comment "Meningococcal vaccine, unspecified serogroup"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['0945']"^^nuva:NUVACode,
@@ -12792,7 +12792,7 @@ nuva:VAC1137 a owl:Class ;
     nuvs:containsValence nuva:VAL312 ;
     nuvs:isAbstract true ;
     dcterms:created "2024-06-05"^^xsd:date ;
-    dcterms:modified "2024-07-04"^^xsd:date ;
+    dcterms:modified "2026-07-29"^^xsd:date ;
     rdfs:comment "Whole inactivated tick-borne encephalitis vaccine, strain K23, unspecified"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1137']"^^nuva:NUVACode,
@@ -13522,7 +13522,7 @@ nuva:VAC1198 a owl:Class ;
     nuvs:containsValence nuva:VAL060 ;
     nuvs:isAbstract true ;
     dcterms:created "2024-06-05"^^xsd:date ;
-    dcterms:modified "2025-05-20"^^xsd:date ;
+    dcterms:modified "2026-06-04"^^xsd:date ;
     rdfs:comment "Live attenuated chikungunya vaccine"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1198']"^^nuva:NUVACode,
@@ -14394,7 +14394,7 @@ nuva:VAC1267 a owl:Class ;
     nuvs:containsValence nuva:VAL391 ;
     nuvs:isAbstract false ;
     dcterms:created "2025-02-18"^^xsd:date ;
-    dcterms:modified "2026-05-06"^^xsd:date ;
+    dcterms:modified "2026-06-04"^^xsd:date ;
     rdfs:comment "Chikungunya VLP vaccine (recombinant, adsorbed)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1267']"^^nuva:NUVACode,
@@ -14508,7 +14508,7 @@ nuva:VAC1277 a owl:Class ;
     nuvs:containsValence nuva:VAL390 ;
     nuvs:isAbstract true ;
     dcterms:created "2025-02-20"^^xsd:date ;
-    dcterms:modified "2025-05-20"^^xsd:date ;
+    dcterms:modified "2026-06-04"^^xsd:date ;
     rdfs:comment "Vaccine against chikungunya, unspecified"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1277']"^^nuva:NUVACode,
@@ -16210,7 +16210,7 @@ nuva:VAC1419 a owl:Class ;
     nuvs:containsValence nuva:VAL391 ;
     nuvs:isAbstract true ;
     dcterms:created "2025-04-14"^^xsd:date ;
-    dcterms:modified "2025-10-08"^^xsd:date ;
+    dcterms:modified "2026-06-04"^^xsd:date ;
     rdfs:comment "Chikungunya VLP vaccine (recombinant, adsorbed)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "['1419']"^^nuva:NUVACode,
@@ -17373,6 +17373,28 @@ nuva:VAC1516 a owl:Class ;
     skos:notation "['1516']"^^nuva:NUVACode,
         "VAC1516"^^xsd:string .
 
+nuva:VAC1517 a owl:Class ;
+    rdfs:label "AUJEMFLU" ;
+    nuvs:containsValence nuva:VAL349 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-08-04"^^xsd:date ;
+    dcterms:modified "2026-08-04"^^xsd:date ;
+    rdfs:comment "Influenza vaccine, trivalent, inactivated, fractionated or subunit, adjuvanted"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1517']"^^nuva:NUVACode,
+        "VAC1517"^^xsd:string .
+
+nuva:VAC1518 a owl:Class ;
+    rdfs:label "MFLUSIVA" ;
+    nuvs:containsValence nuva:VAL366 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-08-07"^^xsd:date ;
+    dcterms:modified "2026-08-07"^^xsd:date ;
+    rdfs:comment "Influenza vaccine, trivalent, messenger RNA"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1518']"^^nuva:NUVACode,
+        "VAC1518"^^xsd:string .
+
 nuvs:containedInVaccine a owl:ObjectProperty ;
     owl:inverseOf nuvs:containsValence .
 
@@ -17776,15 +17798,6 @@ nuva:VAL337 a owl:Class ;
     skos:altLabel "POX-Ig"@en ;
     skos:notation "VAL337"^^xsd:string .
 
-nuva:VAL349 a owl:Class ;
-    rdfs:label "Influenza valence, trivalent, inactivated, fractionated or subunit, adjuvanted"@en ;
-    nuvs:prevents nuva:DIS015 ;
-    dcterms:created "2024-05-14"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL231 ;
-    skos:altLabel "INF-SUAnd3"@en ;
-    skos:notation "VAL349"^^xsd:string .
-
 nuva:VAL350 a owl:Class ;
     rdfs:label "Influenza valence, quadrivalent, inactivated, fractionated or subunit, adjuvanted, normal dose"@en ;
     nuvs:prevents nuva:DIS015 ;
@@ -17894,10 +17907,10 @@ nuva:VAL432 a owl:Class ;
     skos:notation "VAL432"^^xsd:string .
 
 nuva:VAL433 a owl:Class ;
-    rdfs:label "Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes"@en ;
+    rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms."@en ;
     nuvs:prevents nuva:DIS057 ;
     dcterms:created "2026-01-20"^^xsd:date ;
-    dcterms:modified "2026-01-20"^^xsd:date ;
+    dcterms:modified "2026-08-13"^^xsd:date ;
     rdfs:subClassOf nuva:VAL423 ;
     skos:altLabel "Covid-ARNm-S-OMI-LP.8.1-50"@en ;
     skos:notation "VAL433"^^xsd:string .
@@ -17933,7 +17946,7 @@ nuva:VAL438 a owl:Class ;
     rdfs:label "Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-4"@en ;
     nuvs:prevents nuva:DIS031 ;
     dcterms:created "2026-03-17"^^xsd:date ;
-    dcterms:modified "2026-03-17"^^xsd:date ;
+    dcterms:modified "2026-08-13"^^xsd:date ;
     rdfs:subClassOf nuva:VAL150 ;
     skos:altLabel "DENV4rCH"@en ;
     skos:notation "VAL438"^^xsd:string .
@@ -18779,6 +18792,15 @@ nuva:VAL348 a owl:Class ;
     skos:altLabel "Lepto-po"@en ;
     skos:notation "VAL348"^^xsd:string .
 
+nuva:VAL349 a owl:Class ;
+    rdfs:label "Influenza valence, trivalent, inactivated, fractionated or subunit, adjuvanted"@en ;
+    nuvs:prevents nuva:DIS015 ;
+    dcterms:created "2024-05-14"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL231 ;
+    skos:altLabel "INF-SUAnd3"@en ;
+    skos:notation "VAL349"^^xsd:string .
+
 nuva:VAL351 a owl:Class ;
     rdfs:label "Influenza valence, trivalent, virosomal, unspecified"@en ;
     nuvs:prevents nuva:DIS015 ;
@@ -18859,15 +18881,6 @@ nuva:VAL365 a owl:Class ;
     rdfs:subClassOf nuva:VAL364 ;
     skos:altLabel "INF-E"@en ;
     skos:notation "VAL365"^^xsd:string .
-
-nuva:VAL366 a owl:Class ;
-    rdfs:label "Influenza valence, RNA-based, unspecified"@en ;
-    nuvs:prevents nuva:DIS015 ;
-    dcterms:created "2024-07-08"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL128 ;
-    skos:altLabel "INF-RNA"@en ;
-    skos:notation "VAL366"^^xsd:string .
 
 nuva:VAL369 a owl:Class ;
     rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 15A"@en ;
@@ -19819,6 +19832,15 @@ nuva:VAL359 a owl:Class ;
     rdfs:subClassOf nuva:VAL081 ;
     skos:altLabel "CHOL-I"@en ;
     skos:notation "VAL359"^^xsd:string .
+
+nuva:VAL366 a owl:Class ;
+    rdfs:label "Influenza valence, RNA-based, unspecified"@en ;
+    nuvs:prevents nuva:DIS015 ;
+    dcterms:created "2024-07-08"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL128 ;
+    skos:altLabel "INF-RNA"@en ;
+    skos:notation "VAL366"^^xsd:string .
 
 nuva:VAL368 a owl:Class ;
     rdfs:label "Cholera valence, V. cholerae O139, inactivated, whole-cell, oral"@en ;

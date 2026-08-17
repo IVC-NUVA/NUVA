@@ -29,7 +29,7 @@ VAC0015,INFANRIXQUINTA,False,CVC-8221000087100,"Pentavalent DTaPHibIPV vaccine, 
 VAC0016,INFLUVAC,False,CVC-22681000087109,INFLUVAC,True,1,2
 VAC0016,INFLUVAC,False,CVC-7621000087103,INFLUVAC,True,1,2
 VAC0016,INFLUVAC,False,CVC-7691000087100,"Trivalent inactivated influenza vaccine, unspecified",False,,
-VAC0017,M-M-RVAXPRO,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,0
+VAC0017,M-M-RVAXPRO,False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,0
 VAC0018,MENCEVAX ACWY,False,CVC-420261000,"Unconjugated meningococcal vaccine ACWY, unspecified",True,5,0
 VAC0018,MENCEVAX ACWY,False,CVC-7101000087101,"Unconjugated meningococcal vaccine ACWY, unspecified",True,5,0
 VAC0019,MENINGITEC,False,CVC-7061000087103,MENINGITEC,True,1,1
@@ -49,7 +49,7 @@ VAC0025,PREVENAR,False,CVC-135642004,"Pneumococcal vaccine, unspecified",False,,
 VAC0025,PREVENAR,False,CVC-333598008,"Pneumococcal vaccine, unspecified",False,,
 VAC0025,PREVENAR,False,CVC-7261000087106,"Pneumococcal conjugate vaccine, serotypes unspecified",False,,
 VAC0026,PREVIGRIP,False,CVC-7691000087100,"Trivalent inactivated influenza vaccine, unspecified",True,42,0
-VAC0027,R.O.R. VAX,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,0
+VAC0027,R.O.R. VAX,False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,0
 VAC0028,RABIPUR,False,,,,,
 VAC0029,REPEVAX,False,CVC-7891000087104,"TdapIPV - Diphtheria-Tetanus-Pertussis-Polio vaccine, low dose, unspecified",True,5,0
 VAC0029,REPEVAX,False,CVC-7871000087103,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",False,,
@@ -95,7 +95,7 @@ VAC0051,INFANRIXTETRA,False,CVC-7871000087103,"Diphtheria-Tetanus-Pertussis-Poli
 VAC0052,VACCIN MENINGOCOCCIQUE A+C,False,CVC-21721000087105,"Meningococcal A + C vaccine, unspecified",True,7,0
 VAC0052,VACCIN MENINGOCOCCIQUE A+C,False,CVC-7091000087106,"Meningococcal A + C vaccine, unspecified",True,7,0
 VAC0053,PRIORIX,False,CVC-7171000087106,PRIORIX,True,1,1
-VAC0053,PRIORIX,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",False,,
+VAC0053,PRIORIX,False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",False,,
 VAC0054,VACCIN RABIQUE PASTEUR,False,,,,,
 VAC0056,VACCIN TETANIQUE PASTEUR,False,CVC-333621002,"Tetanus vaccine, unspecified",True,36,0
 VAC0057,TWINRIX 20 µg,False,CVC-24371000087105,"Hepatitis A + Hepatitis B vaccine Adult, unspecified",True,3,0
@@ -190,7 +190,7 @@ VAC0113,"Rubella vaccine, live attenuated, unspecified",True,CVC-386013003,"Rube
 VAC0114,"Live attenuated measles vaccine, unspecified",True,CVC-386012008,"Live attenuated measles vaccine, unspecified",True,25,1
 VAC0115,AVAXIM 80 U PEDIATRIQUE,False,CVC-6861000087105,AVAXIM 80 U PEDIATRIQUE,True,1,1
 VAC0115,AVAXIM 80 U PEDIATRIQUE,False,CVC-9811000087103,"Hepatitis A whole inactivated vaccine, monovalent, pediatric dose, unspecified",False,,
-VAC0116,R.O.R SANOFI PASTEUR,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,0
+VAC0116,R.O.R SANOFI PASTEUR,False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,0
 VAC0120,VACCIN VARICELLE MERIEUX,False,CVC-108729007,"Chickenpox vaccine, unspecified",True,7,0
 VAC0121,PRIORIX-TETRA,False,CVC-7181000087108,PRIORIX-TETRA,True,1,1
 VAC0121,PRIORIX-TETRA,False,CVC-419550004,"MMRV - Measles-Mumps-Rubella-Varicella vaccine, unspecified",False,,
@@ -214,7 +214,7 @@ VAC0128,HB VAX DNA 10 µg,False,CVC-9831000087108,"Hepatitis B vaccine, monovale
 VAC0128,HB VAX DNA 10 µg,False,CVC-34689006,"Hepatitis B vaccine, recombinant, unspecified",False,,
 VAC0129,HB VAX DNA 40 µg,False,CVC-8781000087106,"Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified",True,5,0
 VAC0129,HB VAX DNA 40 µg,False,CVC-34689006,"Hepatitis B vaccine, recombinant, unspecified",False,,
-VAC0130,"MMR vaccine, live attenuated, unspecified",True,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,1
+VAC0130,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,1
 VAC0131,"Rabies vaccine, unspecified",True,,,,,
 VAC0132,"Tetanus vaccine, unspecified",True,CVC-333621002,"Tetanus vaccine, unspecified",True,36,1
 VAC0133,"Smallpox vaccine, unspecified",True,CVC-33234009,"Smallpox vaccine, unspecified",True,18,1
@@ -374,7 +374,7 @@ VAC0254,IMOVAX D.T.,False,CVC-7921000087109,"DT vaccine, unspecified",True,29,0
 VAC0255,IMOVAX GRIPPE,False,CVC-7691000087100,"Trivalent inactivated influenza vaccine, unspecified",True,42,0
 VAC0256,IMOVAX MUMPS,False,CVC-90043005,"Mumps vaccine, unspecified",True,12,0
 VAC0257,IMOVAX PAROTIDITIS,False,CVC-90043005,"Mumps vaccine, unspecified",True,12,0
-VAC0258,IMOVAX R.O.R.,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,0
+VAC0258,IMOVAX R.O.R.,False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,0
 VAC0259,IMOVAX Rabies,False,CVC-7381000087106,IMOVAX Rabies,True,1,1
 VAC0260,IMOVAX Rabies I.D.,False,,,,,
 VAC0261,IMOVAX RAGE,False,,,,,
@@ -398,13 +398,13 @@ VAC0276,LIOVAX,False,CVC-33234009,"Smallpox vaccine, unspecified",True,18,0
 VAC0277,LIRUBEL,False,CVC-7281000087100,"Measles-Rubella vaccine, unspecified",True,12,0
 VAC0278,LIRUGEN,False,CVC-386012008,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0280,MUMPS-MEASLES VACCINE MICROGEN,False,,,,,
-VAC0281,LM - 3 RIT,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,0
+VAC0281,LM - 3 RIT,False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,0
 VAC0282,LTEANAS IMUNA,False,CVC-333621002,"Tetanus vaccine, unspecified",True,36,0
 VAC0283,LYMERIX,False,CVC-116083002,"Lyme disease vaccine, unspecified",True,4,0
 VAC0284,LYOVAC ATTENUVAX,False,CVC-386012008,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0285,LYOVAC MERUVAX,False,CVC-386013003,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0286,M-M-R II,False,CVC-7161000087102,M-M-R II,True,1,1
-VAC0286,M-M-R II,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",False,,
+VAC0286,M-M-R II,False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",False,,
 VAC0287,M-R VAX,False,CVC-7281000087100,"Measles-Rubella vaccine, unspecified",True,12,0
 VAC0288,M-R VAX II,False,CVC-7281000087100,"Measles-Rubella vaccine, unspecified",True,12,0
 VAC0289,M-VAX PFIZER,False,CVC-386012008,"Live attenuated measles vaccine, unspecified",True,25,0
@@ -423,7 +423,7 @@ VAC0297,MENPOVAX A+C,False,CVC-7091000087106,"Meningococcal A + C vaccine, unspe
 VAC0298,MERUVAX,False,CVC-386013003,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0299,MERUVAX II,False,CVC-386013003,"Rubella vaccine, live attenuated, unspecified",True,21,0
 VAC0300,MEVILIN-L,False,CVC-386012008,"Live attenuated measles vaccine, unspecified",True,25,0
-VAC0301,MMR,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,0
+VAC0301,MMR,False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,0
 VAC0303,MONIARIX,False,CVC-135642004,"Pneumococcal vaccine, unspecified",True,8,0
 VAC0303,MONIARIX,False,CVC-333598008,"Pneumococcal vaccine, unspecified",True,8,0
 VAC0304,MOPAVAC SEVAC,False,,,,,
@@ -432,7 +432,7 @@ VAC0305,MOPV,False,CVC-111164008,"Polio vaccine, unspecified",False,,
 VAC0306,MORBILVAX,False,CVC-386012008,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0307,MORUBEL,False,CVC-7281000087100,"Measles-Rubella vaccine, unspecified",True,12,0
 VAC0308,MORUMAN BERNA PRODUCTS,False,,,,,
-VAC0309,MORUPAR,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,0
+VAC0309,MORUPAR,False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,0
 VAC0310,MOVIVAC,False,CVC-386012008,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0311,MUMATEN BERNA PRODUCTSNA,False,CVC-90043005,"Mumps vaccine, unspecified",True,12,0
 VAC0312,MUMPS LIVE,False,CVC-90043005,"Mumps vaccine, unspecified",True,12,0
@@ -464,7 +464,7 @@ VAC0330,PENTACT-HIB,False,,,,,
 VAC0332,PENTAVALENTE,False,,,,,
 VAC0333,PFIZER VAX-MEASLES K INACTIVATED,False,,,,,
 VAC0334,PFIZER VAX-MEASLES L,False,CVC-386012008,"Live attenuated measles vaccine, unspecified",True,25,0
-VAC0335,PLUSERIX,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,0
+VAC0335,PLUSERIX,False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,0
 VAC0336,PNEUMOVAX,False,CVC-7641000087107,PNEUMOVAX,True,1,1
 VAC0336,PNEUMOVAX,False,CVC-135642004,"Pneumococcal vaccine, unspecified",False,,
 VAC0336,PNEUMOVAX,False,CVC-333598008,"Pneumococcal vaccine, unspecified",False,,
@@ -509,7 +509,7 @@ VAC0358,"Rabies immunoglobulin human origin, unspecified",True,CVC-80834004,"Rab
 VAC0359,RIMEVAX,False,CVC-386012008,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0360,RIMPARIX,False,,,,,
 VAC0361,RIT - LM-2,False,,,,,
-VAC0362,RIT - LM-3,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,0
+VAC0362,RIT - LM-3,False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,0
 VAC0363,ROTASHIELD,False,CVC-116077000,"Rotavirus vaccine, unspecified",True,6,0
 VAC0363,ROTASHIELD,False,CVC-7811000087105,"Rotavirus vaccine, unspecified",True,6,0
 VAC0364,RUBEATEN BERNA PRODUCTS,False,CVC-386013003,"Rubella vaccine, live attenuated, unspecified",True,21,0
@@ -549,7 +549,7 @@ VAC0394,TIG,False,CVC-86337009,"Tetanus immunoglobulin, unspecified",True,6,0
 VAC0395,TITIFICA,False,CVC-89428009,"Typhoid vaccine, unspecified",True,23,0
 VAC0396,BIOPOLIO,False,CVC-125690004,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC0396,BIOPOLIO,False,CVC-111164008,"Polio vaccine, unspecified",False,,
-VAC0397,TRESIVAC LYOPHILIZED,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,0
+VAC0397,TRESIVAC LYOPHILIZED,False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,0
 VAC0398,TRI-IMMUNOL,False,CVC-7831000087100,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC0399,TRIACEL,False,CVC-7901000087103,"DTIPV vaccine, unspecified",True,9,0
 VAC0400,TRIACELLUVAX,False,CVC-7841000087106,"DTaP - Diphtheria-Tetanus-Pertussis vaccine, standard dose, unspecified",True,12,0
@@ -565,7 +565,7 @@ VAC0407,TRIPLE,False,CVC-7831000087100,"DPT Diphtheria-Pertussis-Tetanus vaccine
 VAC0408,TRIPLE ANTIGEN,False,CVC-7831000087100,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC0409,TRIPLE SABIN,False,CVC-125690004,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC0409,TRIPLE SABIN,False,CVC-111164008,"Polio vaccine, unspecified",False,,
-VAC0410,TRIPLE VIRAL,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,0
+VAC0410,TRIPLE VIRAL,False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,0
 VAC0411,TRIVACUNA LETI,False,CVC-7831000087100,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC0412,TRIVAX,False,CVC-7841000087106,"DTaP - Diphtheria-Tetanus-Pertussis vaccine, standard dose, unspecified",True,12,0
 VAC0412,TRIVAX,False,CVC-7831000087100,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",False,,
@@ -573,9 +573,9 @@ VAC0413,TRIVAX-AD,False,CVC-7841000087106,"DTaP - Diphtheria-Tetanus-Pertussis v
 VAC0413,TRIVAX-AD,False,CVC-7831000087100,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",False,,
 VAC0414,TRIVAX-HIB,False,CVC-8211000087108,"DTaPHib vaccine, unspecified",True,5,0
 VAC0415,TRIVB,False,CVC-7901000087103,"DTIPV vaccine, unspecified",True,9,0
-VAC0416,TRIVIRATEN,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,0
-VAC0417,TRIVIVAC SEVAC,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,0
-VAC0418,TRIVIVAC Y,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,0
+VAC0416,TRIVIRATEN,False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,0
+VAC0417,TRIVIVAC SEVAC,False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,0
+VAC0418,TRIVIVAC Y,False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,0
 VAC0419,SHANTT,False,CVC-333621002,"Tetanus vaccine, unspecified",True,36,0
 VAC0420,BIO-TT,False,CVC-333621002,"Tetanus vaccine, unspecified",True,36,0
 VAC0421,TUSSITRUPIN FORTE,False,CVC-61602008,"Pertussis vaccine, unspecified",True,7,0
@@ -592,7 +592,7 @@ VAC0430,VACCIN DIFTERIC ADSORBIT,False,CVC-428214002,"Diphtheria vaccine, unspec
 VAC0431,VACCINUM MORBILLORUM VIVUM,False,CVC-386012008,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0432,VACINA DUPLA,False,CVC-7921000087109,"DT vaccine, unspecified",True,29,0
 VAC0433,VACINA TRIPLICE,False,CVC-7831000087100,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
-VAC0434,VACINA TRIPLICE VIRAL,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,0
+VAC0434,VACINA TRIPLICE VIRAL,False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,0
 VAC0435,VAKSIN CACAR,False,CVC-33234009,"Smallpox vaccine, unspecified",True,18,0
 VAC0436,VAKSIN CAMPAK KERING,False,CVC-386012008,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0437,VAKSIN KOTIPA,False,,,,,
@@ -609,12 +609,12 @@ VAC0448,VICPS (TYPHIM VI),False,CVC-346639000,"Typhoid polysaccharide vaccine, u
 VAC0448,VICPS (TYPHIM VI),False,CVC-89428009,"Typhoid vaccine, unspecified",False,,
 VAC0449,VIRELON T 20,False,CVC-125690004,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC0449,VIRELON T 20,False,CVC-111164008,"Polio vaccine, unspecified",False,,
-VAC0450,"VIROVAC MASSLING, PEROTID, RUBELLA",False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,0
+VAC0450,"VIROVAC MASSLING, PEROTID, RUBELLA",False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,0
 VAC0451,VIVOTIF,False,CVC-37901000087108,VIVOTIF,True,1,2
 VAC0451,VIVOTIF,False,CVC-7321000087105,VIVOTIF,True,1,2
 VAC0451,VIVOTIF,False,CVC-89428009,"Typhoid vaccine, unspecified",False,,
 VAC0452,VT (VACINA TRIPLICE),False,CVC-7831000087100,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
-VAC0453,VTV (VACINA TRIPLICE VIRAL),False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,0
+VAC0453,VTV (VACINA TRIPLICE VIRAL),False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,0
 VAC0454,VVR CANTACUZINO,False,CVC-386012008,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0456,WELLTRIVAX TRIVALENTE,False,CVC-7831000087100,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC0457,YF-VAX,False,CVC-7221000087101,YF-VAX,True,1,1
@@ -631,7 +631,7 @@ VAC0465,ZARUVAX,False,CVC-386013003,"Rubella vaccine, live attenuated, unspecifi
 VAC0466,ZATETRAVAX,False,CVC-7831000087100,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
 VAC0467,ZATEVAX,False,CVC-333621002,"Tetanus vaccine, unspecified",True,36,0
 VAC0468,ZATRIBAVAX,False,CVC-7831000087100,"DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",True,30,0
-VAC0469,ZATRIVAX,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,0
+VAC0469,ZATRIVAX,False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,0
 VAC0470,QUINVAXEM,False,,,,,
 VAC0471,HEPAVAX-GENE B 20 µg,False,CVC-8771000087109,"Hepatitis B vaccine, monovalent, adult dose, unspecified",True,14,0
 VAC0471,HEPAVAX-GENE B 20 µg,False,CVC-34689006,"Hepatitis B vaccine, recombinant, unspecified",False,,
@@ -646,7 +646,7 @@ VAC0478,COVAXIS,False,CVC-7851000087109,"Tdap - Diphtheria-Tetanus-Pertussis vac
 VAC0479,TRIAXIS,False,CVC-7851000087109,"Tdap - Diphtheria-Tetanus-Pertussis vaccine, low dose, unspecified",True,7,0
 VAC0480,FENDRIX,False,CVC-8781000087106,"Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified",True,5,0
 VAC0480,FENDRIX,False,CVC-34689006,"Hepatitis B vaccine, recombinant, unspecified",False,,
-VAC0481,TRIVIVAX,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,0
+VAC0481,TRIVIVAX,False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,0
 VAC0482,VEPACEL,False,CVC-1003499009,"H5N1 pre-pandemic influenza vaccine, unspecified",True,16,0
 VAC0483,FLUAD PAEDIATRICS,False,CVC-28391000087101,FLUAD PAEDIATRICS,True,1,1
 VAC0483,FLUAD PAEDIATRICS,False,CVC-7691000087100,"Trivalent inactivated influenza vaccine, unspecified",False,,
@@ -659,7 +659,7 @@ VAC0487,MENHIBRIX,False,CVC-20851000087103,MENHIBRIX,True,1,1
 VAC0487,MENHIBRIX,False,CVC-2068100007105,"Hib-MenCY, unspecified",False,,
 VAC0488,PENTAXIM,False,CVC-7931000087106,"Pentavalent DTaPHibIPV vaccine, unspecified",True,9,0
 VAC0488,PENTAXIM,False,CVC-8221000087100,"Pentavalent DTaPHibIPV vaccine, unspecified",True,9,0
-VAC0489,TRIMOVAX,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,0
+VAC0489,TRIMOVAX,False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,0
 VAC0490,KINRIX,False,CVC-22691000087106,KINRIX,True,1,1
 VAC0490,KINRIX,False,CVC-7871000087103,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",False,,
 VAC0490,KINRIX,False,CVC-7881000087101,"DTaPIPV vaccine, standard dose, unspecified",False,,
@@ -812,7 +812,7 @@ VAC0624,M-M-Vax,False,,,,,
 VAC0625,MORATEN,False,CVC-386012008,"Live attenuated measles vaccine, unspecified",True,25,0
 VAC0626,MoRu Viraten,False,CVC-7281000087100,"Measles-Rubella vaccine, unspecified",True,12,0
 VAC0627,MORUMAN,False,CVC-386012008,"Live attenuated measles vaccine, unspecified",True,25,0
-VAC0628,Immravax,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,0
+VAC0628,Immravax,False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,0
 VAC0631,MENINVACTKIT,False,CVC-359068008,"Meningococcal conjugate vaccine C, unspecified",True,8,0
 VAC0632,OPVERO,False,CVC-125690004,"Monovalent oral polio vaccine - type unknown, unspecified",True,29,0
 VAC0632,OPVERO,False,CVC-111164008,"Polio vaccine, unspecified",False,,
@@ -831,7 +831,7 @@ VAC0641,GLOBORIX,False,,,,,
 VAC0642,FLUZONE HIGH-DOSE QUADRIVALENT,False,CVC-31571000087102,FLUZONE HIGH-DOSE QUADRIVALENT,True,1,1
 VAC0643,"Meningococcal ACWY conjugate vaccine, unspecified",True,CVC-7121000087107,"Meningococcal ACWY conjugate vaccine, unspecified",True,4,1
 VAC0644,QDENGA,False,,,,,
-VAC0645,IMMU ORR,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,0
+VAC0645,IMMU ORR,False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,0
 VAC0646,CECOLIN,False,CVC-7791000087109,"HPV vaccine bivalent, unspecified",True,2,0
 VAC0646,CECOLIN,False,CVC-424519000,HPV Vaccine,False,,
 VAC0647,ROTASIIL,False,CVC-116077000,"Rotavirus vaccine, unspecified",True,6,0
@@ -1857,7 +1857,7 @@ VAC1376,ZYCOV-D,False,CVC-28531000087107,"COVID-19 vaccine, unspecified",True,83
 VAC1377,VAXIFLU-4,False,,,,,
 VAC1378,VACTYPH,False,CVC-346639000,"Typhoid polysaccharide vaccine, unspecified",True,5,0
 VAC1378,VACTYPH,False,CVC-89428009,"Typhoid vaccine, unspecified",False,,
-VAC1379,ZYVAC MMR,False,CVC-61153008,"MMR vaccine, live attenuated, unspecified",True,24,0
+VAC1379,ZYVAC MMR,False,CVC-61153008,"MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",True,24,0
 VAC1380,ZYVAC TCV,False,CVC-89428009,"Typhoid vaccine, unspecified",True,23,0
 VAC1381,MEASLES AND RUBELLA VACCINE ZYDUS,False,,,,,
 VAC1382,SKYTYPHOID,False,CVC-89428009,"Typhoid vaccine, unspecified",True,23,0
@@ -2050,3 +2050,5 @@ VAC1513,BUTANTAN DTP,False,CVC-7831000087100,"DPT Diphtheria-Pertussis-Tetanus v
 VAC1514,BUTANTAN DTAP,False,CVC-7851000087109,"Tdap - Diphtheria-Tetanus-Pertussis vaccine, low dose, unspecified",True,7,0
 VAC1515,BUTANTAN RAGE,False,,,,,
 VAC1516,BUTANTAN INFLUENZA,False,CVC-7691000087100,"Trivalent inactivated influenza vaccine, unspecified",True,42,0
+VAC1517,AUJEMFLU,False,,,,,
+VAC1518,MFLUSIVA,False,,,,,
