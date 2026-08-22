@@ -1,45 +1,64 @@
 <!DOCTYPE html>
-<html>
-<head><meta http-equiv="content-type" content="text/html; charset=windows-1252">
-<title>NUVA resources</title>
+<html lang="en">
+<head>
+    <title>NUVA editor</title>
+    <link href = "style/styles.css" rel="stylesheet">
+    <script type = 'text/javascript' src='scripts/vaccines.js'></script>
+    <script type = 'text/javascript' src='scripts/valences.js'></script>
+    <script type = 'text/javascript' src='scripts/nuva.js'></script>
+</head>
 <body>
+<nav class="sidebar">
+  <h2>NUVA</h2>
+  <ul>
+    <li><a href="index.html">Usage</a></li>
+    <li><a href="vaccines.html">Vaccines</a></li>
+    <li><a href="valences.html">Valences</a></li>
+  </ul>
 
-<div style="width: 100%; height:100%">
-    <div style="float:left; width: 10%; height:100%">
-	<div style="background-color:grey;color:white">SELECT</div>
-	<!--a onclick="Update('valtree_en.html')">Valence tree</a-->
-	<div id='Menu'>
-	</div>	
-    </div>
-	
-    <div style="float:left; width:90%; height:100%">
-	<iframe id = "content" src="home.html" style="overflow:hidden;height:100vh;width:100%">
-	</iframe>
-    </div>
-</div>
+ <div style = "height:20%">
+ <h3>Filter (all)</h3>
+ <ul id=filter></ul>
 
-<script>
-const links= { "Home": 'home.html', "Valence tree": 'valtree_en.html', }
+ <button onclick = 'clearFilter()'>Clear filter</button>
+ </div>
+ <div style = height:20%>
+ <h3>Selected</h3>
+<ul id=selected></ul>
 
-function Update(link) {
-	iframe = document.getElementById("content")
-	console.log (iframe)
-	iframe.src = link
-	iframe.setAttribute('src',"./"+link)
-	console.log (iframe)
-	iframe.contentWindow.location.reload()
-	iframe2 = document.getElementById("content")
-	console.log(iframe2)
-}
+  <button onclick="setFilter()">Use as filter</button>
+  <button onclick = "clearSelected()">Clear</button>
+ </div>
+</nav>
 
-menu = document.getElementById("Menu")
+<main class="content">
+<h1>NUVA browser</h1>
+<p> This site presents the current core content of the NUVA terminology.<p>
+<p>It is automatically updated on each NUVA update in the <a href = 'https://github.com/IVC-NUVA/NUVA'>GitHub repository</a>.<p>
+<h2>Vaccines view</h2>
+<p>The Vaccines view presents all the NUVA vaccine concepts, with for each vaccine the list of its valences.</p>
+<p>Valences are represented with the usual shorthand notation. You can see more detail by hovering over the valence tag.</p>
 
-labels = Object.keys(links)
-for (i in labels){
-	menu.innerHTML += "<p><a onclick = \"event.stopPropagation();Update(\'"+links[labels[i]]+"\')\">"+labels[i]+"</a></p>"
-	}
+<h2>Valences view</h2>
+<p>The Valence view presents the hierarchy of valences.</p>
+<p>The terminal (most precise) valences are displayed in green.</p>
+<p>The aggregated valences are displayed in black. You can fold or unfold them by clicking on their description.</p>
 
-</script>
+<h2>Selection</h2>
+<p>You can include a valence in the selection:</p>
+<ul>
+<li>By clicking on a valence tag in the Vaccines view</li>
+<li>By ticking the checkbox for a valence in the Valences view</li>
+</ul>
+<p>The selected valences are visible in the Selected section of the left side menu and as checkboxes in the valences tree. The parents valences for a selected valence are also checked, but with a greyed checkbox.</p>
+<h2>Filtering</h2>
+<p>Once valences have been selected, they can be assigned to the filter.<p>
+<p>The filter has impact in both views:<p>
+<ul>
+<li>Only vaccines with ALL of the selected valences (or a more precise version of the selected ones) are displayed</li>
+<li>Only valences with ANY of the selected valences, their parents and children, are displayed</li>
+</ul>
+</main>
+
 </body>
 </html>
-

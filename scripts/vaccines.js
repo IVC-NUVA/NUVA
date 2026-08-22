@@ -1,0 +1,21437 @@
+﻿defaultVaccines = {
+    "VAC0001": {
+        "label": "ACT-HIB",
+        "valences": [
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL156",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0002": {
+        "label": "AGRIPPAL",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0003": {
+        "label": "AVAXIM 160 U",
+        "valences": [
+            "VAL144"
+        ],
+        "implicit": [
+            "VAL144",
+            "VAL284",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0004": {
+        "label": "D.T. POLIO MERIEUX",
+        "valences": [
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0005": {
+        "label": "DUKORAL",
+        "valences": [
+            "VAL062"
+        ],
+        "implicit": [
+            "VAL062",
+            "VAL021",
+            "VAL359",
+            "VAL081"
+        ]
+    },
+    "VAC0006": {
+        "label": "FLUVIRINE",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0007": {
+        "label": "GARDASIL",
+        "valences": [
+            "VAL052",
+            "VAL238",
+            "VAL239",
+            "VAL240",
+            "VAL241"
+        ],
+        "implicit": [
+            "VAL052",
+            "VAL238",
+            "VAL239",
+            "VAL240",
+            "VAL241",
+            "VAL237",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082"
+        ]
+    },
+    "VAC0008": {
+        "label": "GRIPGUARD",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0009": {
+        "label": "HBVAXPRO 10 µg",
+        "valences": [
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL114",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0010": {
+        "label": "HBVAXPRO 40 µg",
+        "valences": [
+            "VAL012"
+        ],
+        "implicit": [
+            "VAL012",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0011": {
+        "label": "HBVAXPRO 5 µg",
+        "valences": [
+            "VAL170"
+        ],
+        "implicit": [
+            "VAL170",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0012": {
+        "label": "IMMUGRIP",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0013": {
+        "label": "IMOVAX POLIO",
+        "valences": [
+            "VAL056"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL042"
+        ]
+    },
+    "VAC0014": {
+        "label": "INFANRIX HEXA",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0015": {
+        "label": "INFANRIXQUINTA",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0016": {
+        "label": "INFLUVAC",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0017": {
+        "label": "M-M-RVAXPRO",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0018": {
+        "label": "MENCEVAX ACWY",
+        "valences": [
+            "VAL037",
+            "VAL137",
+            "VAL138",
+            "VAL139"
+        ],
+        "implicit": [
+            "VAL037",
+            "VAL137",
+            "VAL138",
+            "VAL139",
+            "VAL297",
+            "VAL298",
+            "VAL300",
+            "VAL299"
+        ]
+    },
+    "VAC0019": {
+        "label": "MENINGITEC",
+        "valences": [
+            "VAL268"
+        ],
+        "implicit": [
+            "VAL268",
+            "VAL057",
+            "VAL298"
+        ]
+    },
+    "VAC0020": {
+        "label": "MENJUGATEKIT 10 µg",
+        "valences": [
+            "VAL268"
+        ],
+        "implicit": [
+            "VAL268",
+            "VAL057",
+            "VAL298"
+        ]
+    },
+    "VAC0021": {
+        "label": "MUTAGRIP",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0022": {
+        "label": "NEISVAC",
+        "valences": [
+            "VAL266"
+        ],
+        "implicit": [
+            "VAL266",
+            "VAL057",
+            "VAL298"
+        ]
+    },
+    "VAC0023": {
+        "label": "PENTAVAC",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0024": {
+        "label": "PNEUMO 23",
+        "valences": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL215",
+            "VAL216",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL220",
+            "VAL222",
+            "VAL223",
+            "VAL224",
+            "VAL225",
+            "VAL226",
+            "VAL227",
+            "VAL228",
+            "VAL229"
+        ],
+        "implicit": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL215",
+            "VAL216",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL220",
+            "VAL222",
+            "VAL223",
+            "VAL224",
+            "VAL225",
+            "VAL226",
+            "VAL227",
+            "VAL228",
+            "VAL229",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105"
+        ]
+    },
+    "VAC0025": {
+        "label": "PREVENAR",
+        "valences": [
+            "VAL188",
+            "VAL191",
+            "VAL194",
+            "VAL198",
+            "VAL200",
+            "VAL202",
+            "VAL204"
+        ],
+        "implicit": [
+            "VAL188",
+            "VAL191",
+            "VAL194",
+            "VAL198",
+            "VAL200",
+            "VAL202",
+            "VAL204",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105"
+        ]
+    },
+    "VAC0026": {
+        "label": "PREVIGRIP",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0027": {
+        "label": "R.O.R. VAX",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0028": {
+        "label": "RABIPUR",
+        "valences": [
+            "VAL259"
+        ],
+        "implicit": [
+            "VAL259",
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC0029": {
+        "label": "REPEVAX",
+        "valences": [
+            "VAL017",
+            "VAL034",
+            "VAL056",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL017",
+            "VAL034",
+            "VAL056",
+            "VAL067",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL042"
+        ]
+    },
+    "VAC0030": {
+        "label": "REVAXIS",
+        "valences": [
+            "VAL034",
+            "VAL056",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL056",
+            "VAL067",
+            "VAL083",
+            "VAL414",
+            "VAL042"
+        ]
+    },
+    "VAC0031": {
+        "label": "ROTATEQ",
+        "valences": [
+            "VAL123"
+        ],
+        "implicit": [
+            "VAL123",
+            "VAL106"
+        ]
+    },
+    "VAC0032": {
+        "label": "ROUVAX",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0033": {
+        "label": "RUDIVAX",
+        "valences": [
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL079"
+        ]
+    },
+    "VAC0034": {
+        "label": "SPIROLEPT",
+        "valences": [
+            "VAL075"
+        ],
+        "implicit": [
+            "VAL075"
+        ]
+    },
+    "VAC0035": {
+        "label": "STAMARIL",
+        "valences": [
+            "VAL092"
+        ],
+        "implicit": [
+            "VAL092"
+        ]
+    },
+    "VAC0036": {
+        "label": "TETAGRIP",
+        "valences": [
+            "VAL015",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL067",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0037": {
+        "label": "TETRAVAC-ACELLULAIRE",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0038": {
+        "label": "TICOVAC 0,5 mL",
+        "valences": [
+            "VAL314"
+        ],
+        "implicit": [
+            "VAL314",
+            "VAL313",
+            "VAL031"
+        ]
+    },
+    "VAC0039": {
+        "label": "TICOVAC 0,25 mL",
+        "valences": [
+            "VAL315"
+        ],
+        "implicit": [
+            "VAL315",
+            "VAL313",
+            "VAL031"
+        ]
+    },
+    "VAC0040": {
+        "label": "TYAVAX",
+        "valences": [
+            "VAL032",
+            "VAL125"
+        ],
+        "implicit": [
+            "VAL032",
+            "VAL125",
+            "VAL014",
+            "VAL288"
+        ]
+    },
+    "VAC0041": {
+        "label": "TYPHIM VI",
+        "valences": [
+            "VAL032"
+        ],
+        "implicit": [
+            "VAL032",
+            "VAL014"
+        ]
+    },
+    "VAC0042": {
+        "label": "VACCIN BCG SSI",
+        "valences": [
+            "VAL096"
+        ],
+        "implicit": [
+            "VAL096"
+        ]
+    },
+    "VAC0043": {
+        "label": "BOOSTRIXTETRA",
+        "valences": [
+            "VAL017",
+            "VAL034",
+            "VAL056",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL017",
+            "VAL034",
+            "VAL056",
+            "VAL067",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL042"
+        ]
+    },
+    "VAC0044": {
+        "label": "CERVARIX",
+        "valences": [
+            "VAL113",
+            "VAL240",
+            "VAL241"
+        ],
+        "implicit": [
+            "VAL113",
+            "VAL240",
+            "VAL241",
+            "VAL237",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082"
+        ]
+    },
+    "VAC0045": {
+        "label": "ENGERIX B 10 µg",
+        "valences": [
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL114",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0046": {
+        "label": "ENGERIX B 20 µg",
+        "valences": [
+            "VAL115"
+        ],
+        "implicit": [
+            "VAL115",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0047": {
+        "label": "FLUARIX",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0048": {
+        "label": "GENHEVAC B PASTEUR",
+        "valences": [
+            "VAL115"
+        ],
+        "implicit": [
+            "VAL115",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0049": {
+        "label": "HAVRIX 1440 U/1mL",
+        "valences": [
+            "VAL144"
+        ],
+        "implicit": [
+            "VAL144",
+            "VAL284",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0050": {
+        "label": "HAVRIX 720 U/0,5 mL",
+        "valences": [
+            "VAL142"
+        ],
+        "implicit": [
+            "VAL142",
+            "VAL283",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0051": {
+        "label": "INFANRIXTETRA",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0052": {
+        "label": "VACCIN MENINGOCOCCIQUE A+C",
+        "valences": [
+            "VAL037",
+            "VAL137"
+        ],
+        "implicit": [
+            "VAL037",
+            "VAL137",
+            "VAL297",
+            "VAL298"
+        ]
+    },
+    "VAC0053": {
+        "label": "PRIORIX",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0054": {
+        "label": "VACCIN RABIQUE PASTEUR",
+        "valences": [
+            "VAL260"
+        ],
+        "implicit": [
+            "VAL260",
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC0056": {
+        "label": "VACCIN TETANIQUE PASTEUR",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0057": {
+        "label": "TWINRIX 20 µg",
+        "valences": [
+            "VAL115",
+            "VAL145"
+        ],
+        "implicit": [
+            "VAL115",
+            "VAL145",
+            "VAL090",
+            "VAL068",
+            "VAL284",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0058": {
+        "label": "TWINRIX 10 µg",
+        "valences": [
+            "VAL114",
+            "VAL143"
+        ],
+        "implicit": [
+            "VAL114",
+            "VAL143",
+            "VAL090",
+            "VAL068",
+            "VAL283",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0059": {
+        "label": "TYPHERIX",
+        "valences": [
+            "VAL032"
+        ],
+        "implicit": [
+            "VAL032",
+            "VAL014"
+        ]
+    },
+    "VAC0060": {
+        "label": "VARILRIX",
+        "valences": [
+            "VAL044"
+        ],
+        "implicit": [
+            "VAL044"
+        ]
+    },
+    "VAC0061": {
+        "label": "VARIVAX",
+        "valences": [
+            "VAL044"
+        ],
+        "implicit": [
+            "VAL044"
+        ]
+    },
+    "VAC0062": {
+        "label": "VAXIGRIP",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0063": {
+        "label": "TETRACOQ",
+        "valences": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0064": {
+        "label": "PENTACOQ",
+        "valences": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0066": {
+        "label": "DTCP PASTEUR",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0067": {
+        "label": "HAVRIX 360 U",
+        "valences": [
+            "VAL142"
+        ],
+        "implicit": [
+            "VAL142",
+            "VAL283",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0068": {
+        "label": "MONOVAX",
+        "valences": [
+            "VAL096"
+        ],
+        "implicit": [
+            "VAL096"
+        ]
+    },
+    "VAC0069": {
+        "label": "MENOMUNE",
+        "valences": [
+            "VAL037",
+            "VAL137",
+            "VAL138",
+            "VAL139"
+        ],
+        "implicit": [
+            "VAL037",
+            "VAL137",
+            "VAL138",
+            "VAL139",
+            "VAL297",
+            "VAL298",
+            "VAL300",
+            "VAL299"
+        ]
+    },
+    "VAC0070": {
+        "label": "DT BIS",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0071": {
+        "label": "D.T. BIS - RUDIVAX",
+        "valences": [
+            "VAL067",
+            "VAL079",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL079",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0072": {
+        "label": "JE-VAX",
+        "valences": [
+            "VAL250"
+        ],
+        "implicit": [
+            "VAL250",
+            "VAL089",
+            "VAL249"
+        ]
+    },
+    "VAC0073": {
+        "label": "IXIARO",
+        "valences": [
+            "VAL251"
+        ],
+        "implicit": [
+            "VAL251",
+            "VAL089",
+            "VAL249"
+        ]
+    },
+    "VAC0074": {
+        "label": "D.T. COQ MERIEUX",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0076": {
+        "label": "DTVax",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0077": {
+        "label": "IMOVAX OREILLONS",
+        "valences": [
+            "VAL077"
+        ],
+        "implicit": [
+            "VAL077",
+            "VAL183"
+        ]
+    },
+    "VAC0078": {
+        "label": "RUDI-ROUVAX",
+        "valences": [
+            "VAL005",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL079",
+            "VAL182"
+        ]
+    },
+    "VAC0079": {
+        "label": "ENCEPUR",
+        "valences": [
+            "VAL431"
+        ],
+        "implicit": [
+            "VAL431",
+            "VAL312",
+            "VAL031"
+        ]
+    },
+    "VAC0080": {
+        "label": "BCG PASTEUR",
+        "valences": [
+            "VAL096"
+        ],
+        "implicit": [
+            "VAL096"
+        ]
+    },
+    "VAC0082": {
+        "label": "MENBVAC",
+        "valences": [
+            "VAL026"
+        ],
+        "implicit": [
+            "VAL026",
+            "VAL118"
+        ]
+    },
+    "VAC0083": {
+        "label": "SYNFLORIX",
+        "valences": [
+            "VAL186",
+            "VAL188",
+            "VAL189",
+            "VAL191",
+            "VAL192",
+            "VAL194",
+            "VAL198",
+            "VAL200",
+            "VAL202",
+            "VAL204"
+        ],
+        "implicit": [
+            "VAL186",
+            "VAL188",
+            "VAL189",
+            "VAL191",
+            "VAL192",
+            "VAL194",
+            "VAL198",
+            "VAL200",
+            "VAL202",
+            "VAL204",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105"
+        ]
+    },
+    "VAC0084": {
+        "label": "H5N1 pre-pandemic influenza vaccine, unspecified",
+        "valences": [
+            "VAL051"
+        ],
+        "implicit": [
+            "VAL051",
+            "VAL386"
+        ]
+    },
+    "VAC0085": {
+        "label": "T POLIO MERIEUX",
+        "valences": [
+            "VAL056",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL067",
+            "VAL042"
+        ]
+    },
+    "VAC0086": {
+        "label": "TETAVAX",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0087": {
+        "label": "VAXICOQ",
+        "valences": [
+            "VAL010"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL003"
+        ]
+    },
+    "VAC0088": {
+        "label": "DTIPV vaccine, unspecified",
+        "valences": [
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0090": {
+        "label": "VACCIN BRUCELLIQUE P.I. à usage humain",
+        "valences": [
+            "VAL147"
+        ],
+        "implicit": [
+            "VAL147",
+            "VAL006"
+        ]
+    },
+    "VAC0091": {
+        "label": "VACCIN CCB PASTEUR",
+        "valences": [
+            "VAL105"
+        ],
+        "implicit": [
+            "VAL105"
+        ]
+    },
+    "VAC0092": {
+        "label": "VACCIN CHOLERIQUE PASTEUR",
+        "valences": [
+            "VAL004"
+        ],
+        "implicit": [
+            "VAL004",
+            "VAL359",
+            "VAL081"
+        ]
+    },
+    "VAC0093": {
+        "label": "VACCIN DT TAB PASTEUR",
+        "valences": [
+            "VAL045",
+            "VAL067",
+            "VAL071",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL045",
+            "VAL067",
+            "VAL071",
+            "VAL097",
+            "VAL014",
+            "VAL014",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0094": {
+        "label": "VACCIN SABIN POLIOVAC MERIEUX",
+        "valences": [
+            "VAL033",
+            "VAL085",
+            "VAL132"
+        ],
+        "implicit": [
+            "VAL033",
+            "VAL085",
+            "VAL132",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC0095": {
+        "label": "VACCIN TAB PASTEUR",
+        "valences": [
+            "VAL045",
+            "VAL071"
+        ],
+        "implicit": [
+            "VAL045",
+            "VAL071",
+            "VAL014",
+            "VAL014"
+        ]
+    },
+    "VAC0096": {
+        "label": "VACCIN GRIPPAL RONCHESE (VGR)",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0097": {
+        "label": "VACCIN LEPTOSPIRES ICTEROHEMORRAGIAE PASTEUR",
+        "valences": [
+            "VAL075"
+        ],
+        "implicit": [
+            "VAL075"
+        ]
+    },
+    "VAC0098": {
+        "label": "HEXAVAC",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0099": {
+        "label": "MENINVACT",
+        "valences": [
+            "VAL268"
+        ],
+        "implicit": [
+            "VAL268",
+            "VAL057",
+            "VAL298"
+        ]
+    },
+    "VAC0101": {
+        "label": "Hepatitis B vaccine, recombinant, unspecified",
+        "valences": [
+            "VAL090"
+        ],
+        "implicit": [
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0102": {
+        "label": "Inactivated hepatitis A vaccine, unspecified",
+        "valences": [
+            "VAL125"
+        ],
+        "implicit": [
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0103": {
+        "label": "MENACTRA",
+        "valences": [
+            "VAL267",
+            "VAL270",
+            "VAL273",
+            "VAL277"
+        ],
+        "implicit": [
+            "VAL267",
+            "VAL270",
+            "VAL273",
+            "VAL277",
+            "VAL057",
+            "VAL298",
+            "VAL041",
+            "VAL297",
+            "VAL136",
+            "VAL300",
+            "VAL078",
+            "VAL299"
+        ]
+    },
+    "VAC0104": {
+        "label": "HUMENZA",
+        "valences": [
+            "VAL099"
+        ],
+        "implicit": [
+            "VAL099",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0105": {
+        "label": "PANENZA",
+        "valences": [
+            "VAL099"
+        ],
+        "implicit": [
+            "VAL099",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0106": {
+        "label": "Q-Pan H1N1",
+        "valences": [
+            "VAL099"
+        ],
+        "implicit": [
+            "VAL099",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0107": {
+        "label": "CELVAPAN",
+        "valences": [
+            "VAL099"
+        ],
+        "implicit": [
+            "VAL099",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0108": {
+        "label": "PANDEMRIX",
+        "valences": [
+            "VAL099"
+        ],
+        "implicit": [
+            "VAL099",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0109": {
+        "label": "FOCETRIA (unidose)",
+        "valences": [
+            "VAL099"
+        ],
+        "implicit": [
+            "VAL099",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0110": {
+        "label": "Influenza vaccine, unspecified",
+        "valences": [
+            "VAL128"
+        ],
+        "implicit": [
+            "VAL128"
+        ]
+    },
+    "VAC0111": {
+        "label": "Yellow fever vaccine, unspecified",
+        "valences": [
+            "VAL092"
+        ],
+        "implicit": [
+            "VAL092"
+        ]
+    },
+    "VAC0112": {
+        "label": "Typhoid vaccine, unspecified",
+        "valences": [
+            "VAL014"
+        ],
+        "implicit": [
+            "VAL014"
+        ]
+    },
+    "VAC0113": {
+        "label": "Rubella vaccine, live attenuated, unspecified",
+        "valences": [
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL079"
+        ]
+    },
+    "VAC0114": {
+        "label": "Live attenuated measles vaccine, unspecified",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0115": {
+        "label": "AVAXIM 80 U PEDIATRIQUE",
+        "valences": [
+            "VAL142"
+        ],
+        "implicit": [
+            "VAL142",
+            "VAL283",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0116": {
+        "label": "R.O.R SANOFI PASTEUR",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0120": {
+        "label": "VACCIN VARICELLE MERIEUX",
+        "valences": [
+            "VAL044"
+        ],
+        "implicit": [
+            "VAL044"
+        ]
+    },
+    "VAC0121": {
+        "label": "PRIORIX-TETRA",
+        "valences": [
+            "VAL005",
+            "VAL044",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL044",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0123": {
+        "label": "PREVENAR 13",
+        "valences": [
+            "VAL186",
+            "VAL187",
+            "VAL188",
+            "VAL189",
+            "VAL190",
+            "VAL191",
+            "VAL192",
+            "VAL194",
+            "VAL198",
+            "VAL200",
+            "VAL201",
+            "VAL202",
+            "VAL204"
+        ],
+        "implicit": [
+            "VAL186",
+            "VAL187",
+            "VAL188",
+            "VAL189",
+            "VAL190",
+            "VAL191",
+            "VAL192",
+            "VAL194",
+            "VAL198",
+            "VAL200",
+            "VAL201",
+            "VAL202",
+            "VAL204",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105"
+        ]
+    },
+    "VAC0124": {
+        "label": "FOCETRIA (multidose)",
+        "valences": [
+            "VAL099"
+        ],
+        "implicit": [
+            "VAL099",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0125": {
+        "label": "AREPANRIX",
+        "valences": [
+            "VAL099"
+        ],
+        "implicit": [
+            "VAL099",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0126": {
+        "label": "HEVAC B",
+        "valences": [
+            "VAL068"
+        ],
+        "implicit": [
+            "VAL068"
+        ]
+    },
+    "VAC0127": {
+        "label": "HB VAX DNA 5 µg",
+        "valences": [
+            "VAL170"
+        ],
+        "implicit": [
+            "VAL170",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0128": {
+        "label": "HB VAX DNA 10 µg",
+        "valences": [
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL114",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0129": {
+        "label": "HB VAX DNA 40 µg",
+        "valences": [
+            "VAL012"
+        ],
+        "implicit": [
+            "VAL012",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0130": {
+        "label": "MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0131": {
+        "label": "Rabies vaccine, unspecified",
+        "valences": [
+            "VAL080"
+        ],
+        "implicit": [
+            "VAL080"
+        ]
+    },
+    "VAC0132": {
+        "label": "Tetanus vaccine, unspecified",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0133": {
+        "label": "Smallpox vaccine, unspecified",
+        "valences": [
+            "VAL022"
+        ],
+        "implicit": [
+            "VAL022",
+            "VAL418"
+        ]
+    },
+    "VAC0134": {
+        "label": "BCG vaccine, unspecified",
+        "valences": [
+            "VAL096"
+        ],
+        "implicit": [
+            "VAL096"
+        ]
+    },
+    "VAC0135": {
+        "label": "Polio vaccine, unspecified",
+        "valences": [
+            "VAL042"
+        ],
+        "implicit": [
+            "VAL042"
+        ]
+    },
+    "VAC0136": {
+        "label": "DTwP - Diphtheria-Tetanus-Pertussis, unspecified",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0137": {
+        "label": "DT vaccine, unspecified",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0138": {
+        "label": "Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",
+        "valences": [
+            "VAL003",
+            "VAL056",
+            "VAL067",
+            "VAL083"
+        ],
+        "implicit": [
+            "VAL003",
+            "VAL056",
+            "VAL067",
+            "VAL083",
+            "VAL042",
+            "VAL414"
+        ]
+    },
+    "VAC0139": {
+        "label": "PENT-HIBEST",
+        "valences": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0140": {
+        "label": "INTANZA",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0141": {
+        "label": "MENVEO",
+        "valences": [
+            "VAL268",
+            "VAL269",
+            "VAL274",
+            "VAL275"
+        ],
+        "implicit": [
+            "VAL268",
+            "VAL269",
+            "VAL274",
+            "VAL275",
+            "VAL057",
+            "VAL298",
+            "VAL041",
+            "VAL297",
+            "VAL136",
+            "VAL300",
+            "VAL078",
+            "VAL299"
+        ]
+    },
+    "VAC0143": {
+        "label": "Haemophilus influenzae B (or Hib) vaccine, unspecified",
+        "valences": [
+            "VAL103"
+        ],
+        "implicit": [
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0144": {
+        "label": "Cholera vaccine, unspecified",
+        "valences": [
+            "VAL081"
+        ],
+        "implicit": [
+            "VAL081"
+        ]
+    },
+    "VAC0145": {
+        "label": "Tick-borne encephalitis vaccine, unspecified",
+        "valences": [
+            "VAL031"
+        ],
+        "implicit": [
+            "VAL031"
+        ]
+    },
+    "VAC0146": {
+        "label": "Live attenuated Japanese Encephalitis vaccine 14-14-2 strain, unspecified",
+        "valences": [
+            "VAL100"
+        ],
+        "implicit": [
+            "VAL100",
+            "VAL248",
+            "VAL249"
+        ]
+    },
+    "VAC0147": {
+        "label": "Influenza A(H1N1)2009 vaccine, unspecified",
+        "valences": [
+            "VAL099"
+        ],
+        "implicit": [
+            "VAL099",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0148": {
+        "label": "Leptospirosis vaccine, unspecified",
+        "valences": [
+            "VAL075"
+        ],
+        "implicit": [
+            "VAL075"
+        ]
+    },
+    "VAC0149": {
+        "label": "Meningococcal B:14:P1.7,16 vaccine, unspecified",
+        "valences": [
+            "VAL026"
+        ],
+        "implicit": [
+            "VAL026",
+            "VAL118"
+        ]
+    },
+    "VAC0150": {
+        "label": "Meningococcal conjugate vaccine C, unspecified",
+        "valences": [
+            "VAL057"
+        ],
+        "implicit": [
+            "VAL057",
+            "VAL298"
+        ]
+    },
+    "VAC0151": {
+        "label": "Meningococcal A + C vaccine, unspecified",
+        "valences": [
+            "VAL037",
+            "VAL137"
+        ],
+        "implicit": [
+            "VAL037",
+            "VAL137",
+            "VAL297",
+            "VAL298"
+        ]
+    },
+    "VAC0152": {
+        "label": "Unconjugated meningococcal vaccine ACWY, unspecified",
+        "valences": [
+            "VAL037",
+            "VAL137",
+            "VAL138",
+            "VAL139"
+        ],
+        "implicit": [
+            "VAL037",
+            "VAL137",
+            "VAL138",
+            "VAL139",
+            "VAL297",
+            "VAL298",
+            "VAL300",
+            "VAL299"
+        ]
+    },
+    "VAC0153": {
+        "label": "Mumps vaccine, unspecified",
+        "valences": [
+            "VAL077"
+        ],
+        "implicit": [
+            "VAL077",
+            "VAL183"
+        ]
+    },
+    "VAC0154": {
+        "label": "Malaria vaccine, unspecified",
+        "valences": [
+            "VAL025"
+        ],
+        "implicit": [
+            "VAL025"
+        ]
+    },
+    "VAC0155": {
+        "label": "Dengue vaccine, unspecified",
+        "valences": [
+            "VAL150"
+        ],
+        "implicit": [
+            "VAL150"
+        ]
+    },
+    "VAC0156": {
+        "label": "HPV Vaccine",
+        "valences": [
+            "VAL082"
+        ],
+        "implicit": [
+            "VAL082"
+        ]
+    },
+    "VAC0157": {
+        "label": "Pneumococcal vaccine, unspecified",
+        "valences": [
+            "VAL105"
+        ],
+        "implicit": [
+            "VAL105"
+        ]
+    },
+    "VAC0158": {
+        "label": "Rotavirus vaccine, unspecified",
+        "valences": [
+            "VAL106"
+        ],
+        "implicit": [
+            "VAL106"
+        ]
+    },
+    "VAC0159": {
+        "label": "Chickenpox vaccine, unspecified",
+        "valences": [
+            "VAL044"
+        ],
+        "implicit": [
+            "VAL044"
+        ]
+    },
+    "VAC0160": {
+        "label": "Live attenuated shingles vaccine, unspecified",
+        "valences": [
+            "VAL020"
+        ],
+        "implicit": [
+            "VAL020",
+            "VAL160"
+        ]
+    },
+    "VAC0161": {
+        "label": "ZOSTAVAX",
+        "valences": [
+            "VAL020"
+        ],
+        "implicit": [
+            "VAL020",
+            "VAL160"
+        ]
+    },
+    "VAC0162": {
+        "label": "Brucellosis vaccine, unspecified",
+        "valences": [
+            "VAL006"
+        ],
+        "implicit": [
+            "VAL006"
+        ]
+    },
+    "VAC0163": {
+        "label": "Whole-cell inactivated pertussis vaccine, unspecified",
+        "valences": [
+            "VAL010"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL003"
+        ]
+    },
+    "VAC0164": {
+        "label": "INTANZA 9 µg",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0165": {
+        "label": "VAQTA 25 U/0,5 mL",
+        "valences": [
+            "VAL142"
+        ],
+        "implicit": [
+            "VAL142",
+            "VAL283",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0166": {
+        "label": "VAQTA 50 U",
+        "valences": [
+            "VAL144"
+        ],
+        "implicit": [
+            "VAL144",
+            "VAL284",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0168": {
+        "label": "AMBIRIX",
+        "valences": [
+            "VAL115",
+            "VAL143"
+        ],
+        "implicit": [
+            "VAL115",
+            "VAL143",
+            "VAL090",
+            "VAL068",
+            "VAL283",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0169": {
+        "label": "OPTAFLU",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0170": {
+        "label": "AFLUNOV",
+        "valences": [
+            "VAL051"
+        ],
+        "implicit": [
+            "VAL051",
+            "VAL386"
+        ]
+    },
+    "VAC0171": {
+        "label": "PREPANDEMIC INFLUENZA VACCINE (H5N1) NOVARTIS",
+        "valences": [
+            "VAL051"
+        ],
+        "implicit": [
+            "VAL051",
+            "VAL386"
+        ]
+    },
+    "VAC0172": {
+        "label": "DIFTAVAX",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0173": {
+        "label": "FLUENZ",
+        "valences": [
+            "VAL001"
+        ],
+        "implicit": [
+            "VAL001",
+            "VAL140",
+            "VAL128"
+        ]
+    },
+    "VAC0174": {
+        "label": "PROQUAD",
+        "valences": [
+            "VAL005",
+            "VAL044",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL044",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0175": {
+        "label": "A.D.T. BOOSTER",
+        "valences": [
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL067",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0176": {
+        "label": "A.K.D.S.",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0177": {
+        "label": "AC VAX",
+        "valences": [
+            "VAL037",
+            "VAL137"
+        ],
+        "implicit": [
+            "VAL037",
+            "VAL137",
+            "VAL297",
+            "VAL298"
+        ]
+    },
+    "VAC0178": {
+        "label": "ACEL-IMUNE",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0179": {
+        "label": "ACELLULAR D.P.T. KOVAX",
+        "valences": [
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0180": {
+        "label": "ACTACEL",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0182": {
+        "label": "ADACEL",
+        "valences": [
+            "VAL017",
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL017",
+            "VAL034",
+            "VAL067",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0183": {
+        "label": "AIMMUGEN",
+        "valences": [
+            "VAL125"
+        ],
+        "implicit": [
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0184": {
+        "label": "ALDIANA",
+        "valences": [
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0185": {
+        "label": "ALDITEANA",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0186": {
+        "label": "ALDITERPERA",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0187": {
+        "label": "AMARIL",
+        "valences": [
+            "VAL092"
+        ],
+        "implicit": [
+            "VAL092"
+        ]
+    },
+    "VAC0188": {
+        "label": "QUIMI-HIB",
+        "valences": [
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL156",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0189": {
+        "label": "ANADIFTERALL",
+        "valences": [
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0190": {
+        "label": "ANATETALL",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0191": {
+        "label": "ARILVAX",
+        "valences": [
+            "VAL092"
+        ],
+        "implicit": [
+            "VAL092"
+        ]
+    },
+    "VAC0192": {
+        "label": "ATTENUVAX",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0193": {
+        "label": "AVAC-1, AVA",
+        "valences": [
+            "VAL415"
+        ],
+        "implicit": [
+            "VAL415",
+            "VAL111",
+            "VAL340"
+        ]
+    },
+    "VAC0194": {
+        "label": "B-CAPSA",
+        "valences": [
+            "VAL049"
+        ],
+        "implicit": [
+            "VAL049",
+            "VAL177"
+        ]
+    },
+    "VAC0195": {
+        "label": "BEGRIVAC",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0196": {
+        "label": "BIAVAX",
+        "valences": [
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL077",
+            "VAL079",
+            "VAL183"
+        ]
+    },
+    "VAC0197": {
+        "label": "BIAVAX II",
+        "valences": [
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL077",
+            "VAL079",
+            "VAL183"
+        ]
+    },
+    "VAC0198": {
+        "label": "BIKEN-HB",
+        "valences": [
+            "VAL068"
+        ],
+        "implicit": [
+            "VAL068"
+        ]
+    },
+    "VAC0199": {
+        "label": "BIMMUGEN",
+        "valences": [
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL114",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0200": {
+        "label": "BIOTHRAX",
+        "valences": [
+            "VAL415"
+        ],
+        "implicit": [
+            "VAL415",
+            "VAL111",
+            "VAL340"
+        ]
+    },
+    "VAC0201": {
+        "label": "BIVIRATEN BERNA",
+        "valences": [
+            "VAL005",
+            "VAL077"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0202": {
+        "label": "BVAC",
+        "valences": [
+            "VAL063"
+        ],
+        "implicit": [
+            "VAL063",
+            "VAL420",
+            "VAL419"
+        ]
+    },
+    "VAC0203": {
+        "label": "C.D.T.",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0204": {
+        "label": "CAM-KOVAX",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0205": {
+        "label": "CD.JEVAX",
+        "valences": [
+            "VAL100"
+        ],
+        "implicit": [
+            "VAL100",
+            "VAL248",
+            "VAL249"
+        ]
+    },
+    "VAC0206": {
+        "label": "CELLUVAX",
+        "valences": [
+            "VAL008"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL117",
+            "VAL003"
+        ]
+    },
+    "VAC0207": {
+        "label": "CENDEVAX",
+        "valences": [
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL079"
+        ]
+    },
+    "VAC0208": {
+        "label": "CERTIVA",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0209": {
+        "label": "COMVAX",
+        "valences": [
+            "VAL114",
+            "VAL155"
+        ],
+        "implicit": [
+            "VAL114",
+            "VAL155",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0210": {
+        "label": "D.S.D.P.T.",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0211": {
+        "label": "DAPTACEL",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0212": {
+        "label": "DI TE PER POL IMPFSTOFF",
+        "valences": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0213": {
+        "label": "DI-TE-POL",
+        "valences": [
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0214": {
+        "label": "DIF-TET-ALL",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0216": {
+        "label": "ANATOXAL DI TE",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0217": {
+        "label": "DITOXIM",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0218": {
+        "label": "DOUBLE ANIGEN B.",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0219": {
+        "label": "DRYVAX",
+        "valences": [
+            "VAL294"
+        ],
+        "implicit": [
+            "VAL294",
+            "VAL022",
+            "VAL418"
+        ]
+    },
+    "VAC0220": {
+        "label": "DT MERIEUX",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0222": {
+        "label": "TRIPVAC",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0223": {
+        "label": "DUAL ANTIGEN SII",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0224": {
+        "label": "ECOLARIX",
+        "valences": [
+            "VAL005",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL079",
+            "VAL182"
+        ]
+    },
+    "VAC0225": {
+        "label": "EIPV",
+        "valences": [
+            "VAL056"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL042"
+        ]
+    },
+    "VAC0226": {
+        "label": "Diptheria, Tetanus and Acellular Pertussis Combined Walvax vaccine",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0227": {
+        "label": "EPAXAL",
+        "valences": [
+            "VAL130"
+        ],
+        "implicit": [
+            "VAL130",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0228": {
+        "label": "ERVEVAX RA 27/3",
+        "valences": [
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL079"
+        ]
+    },
+    "VAC0229": {
+        "label": "FLU SHIELD",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0230": {
+        "label": "FLUAD",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0231": {
+        "label": "FLUKOVAX",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0232": {
+        "label": "FLULAVAL",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0233": {
+        "label": "FLUMIST",
+        "valences": [
+            "VAL001"
+        ],
+        "implicit": [
+            "VAL001",
+            "VAL140",
+            "VAL128"
+        ]
+    },
+    "VAC0234": {
+        "label": "FLUOGEN",
+        "valences": [
+            "VAL152"
+        ],
+        "implicit": [
+            "VAL152",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0235": {
+        "label": "FLUVIRIN",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0236": {
+        "label": "FLUZONE HIGH-DOSE",
+        "valences": [
+            "VAL094"
+        ],
+        "implicit": [
+            "VAL094",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0238": {
+        "label": "FUNED-CEME",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0240": {
+        "label": "GUNEVAX",
+        "valences": [
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL079"
+        ]
+    },
+    "VAC0241": {
+        "label": "HAEMOPHILUS INFLUENZAE B CONJUGATE VACCINE - SERUM INSTITUTE OF INDIA",
+        "valences": [
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL156",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0242": {
+        "label": "HBY",
+        "valences": [
+            "VAL115"
+        ],
+        "implicit": [
+            "VAL115",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0243": {
+        "label": "HEPA-B INJECTION",
+        "valences": [
+            "VAL068"
+        ],
+        "implicit": [
+            "VAL068"
+        ]
+    },
+    "VAC0244": {
+        "label": "HEPRECOMB",
+        "valences": [
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL114",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0245": {
+        "label": "HEPTAVAX B",
+        "valences": [
+            "VAL158"
+        ],
+        "implicit": [
+            "VAL158",
+            "VAL068"
+        ]
+    },
+    "VAC0246": {
+        "label": "HIBERNA PRODUCTSIX",
+        "valences": [
+            "VAL015",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL067",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0247": {
+        "label": "HIBTITER",
+        "valences": [
+            "VAL154"
+        ],
+        "implicit": [
+            "VAL154",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0248": {
+        "label": "HINKUYS KAROKOE",
+        "valences": [
+            "VAL010"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL003"
+        ]
+    },
+    "VAC0249": {
+        "label": "RUBELLA VACCINE HPV-77",
+        "valences": [
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL079"
+        ]
+    },
+    "VAC0251": {
+        "label": "HUMOTET-ANTI TETANUS",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0252": {
+        "label": "VAXIGRIP ENFANTS",
+        "valences": [
+            "VAL166"
+        ],
+        "implicit": [
+            "VAL166",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0253": {
+        "label": "VAXIRAB N",
+        "valences": [
+            "VAL259"
+        ],
+        "implicit": [
+            "VAL259",
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC0254": {
+        "label": "IMOVAX D.T.",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0255": {
+        "label": "IMOVAX GRIPPE",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0256": {
+        "label": "IMOVAX MUMPS",
+        "valences": [
+            "VAL077"
+        ],
+        "implicit": [
+            "VAL077",
+            "VAL183"
+        ]
+    },
+    "VAC0257": {
+        "label": "IMOVAX PAROTIDITIS",
+        "valences": [
+            "VAL077"
+        ],
+        "implicit": [
+            "VAL077",
+            "VAL183"
+        ]
+    },
+    "VAC0258": {
+        "label": "IMOVAX R.O.R.",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0259": {
+        "label": "IMOVAX Rabies",
+        "valences": [
+            "VAL258"
+        ],
+        "implicit": [
+            "VAL258",
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC0260": {
+        "label": "IMOVAX Rabies I.D.",
+        "valences": [
+            "VAL258"
+        ],
+        "implicit": [
+            "VAL258",
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC0261": {
+        "label": "IMOVAX RAGE",
+        "valences": [
+            "VAL080"
+        ],
+        "implicit": [
+            "VAL080"
+        ]
+    },
+    "VAC0262": {
+        "label": "IMOVAX RUBEOLA",
+        "valences": [
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL079"
+        ]
+    },
+    "VAC0263": {
+        "label": "IMOVAX SARAMPION",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0264": {
+        "label": "INFANRIX",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0265": {
+        "label": "INFLU-KOVAX",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0266": {
+        "label": "INFLUENZA HA VACCINE KOVAX",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0267": {
+        "label": "IPAD TP",
+        "valences": [
+            "VAL056",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL067",
+            "VAL042"
+        ]
+    },
+    "VAC0268": {
+        "label": "IPOL",
+        "valences": [
+            "VAL056"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL042"
+        ]
+    },
+    "VAC0270": {
+        "label": "Inactivated Polio vaccine, unspecified",
+        "valences": [
+            "VAL056"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL042"
+        ]
+    },
+    "VAC0271": {
+        "label": "ISTIVAC",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0272": {
+        "label": "KAKSOISROKOTE DUBBELVACCIN",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0273": {
+        "label": "KIKHOSTE-VAKSINE",
+        "valences": [
+            "VAL010"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL003"
+        ]
+    },
+    "VAC0274": {
+        "label": "LANCY VAXINA",
+        "valences": [
+            "VAL294"
+        ],
+        "implicit": [
+            "VAL294",
+            "VAL022",
+            "VAL418"
+        ]
+    },
+    "VAC0275": {
+        "label": "LAVANTUU TIROKOTE",
+        "valences": [
+            "VAL014"
+        ],
+        "implicit": [
+            "VAL014"
+        ]
+    },
+    "VAC0276": {
+        "label": "LIOVAX",
+        "valences": [
+            "VAL294"
+        ],
+        "implicit": [
+            "VAL294",
+            "VAL022",
+            "VAL418"
+        ]
+    },
+    "VAC0277": {
+        "label": "LIRUBEL",
+        "valences": [
+            "VAL005",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL079",
+            "VAL182"
+        ]
+    },
+    "VAC0278": {
+        "label": "LIRUGEN",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0280": {
+        "label": "MUMPS-MEASLES VACCINE MICROGEN",
+        "valences": [
+            "VAL005",
+            "VAL077"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0281": {
+        "label": "LM - 3 RIT",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0282": {
+        "label": "LTEANAS IMUNA",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0283": {
+        "label": "LYMERIX",
+        "valences": [
+            "VAL030"
+        ],
+        "implicit": [
+            "VAL030",
+            "VAL339"
+        ]
+    },
+    "VAC0284": {
+        "label": "LYOVAC ATTENUVAX",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0285": {
+        "label": "LYOVAC MERUVAX",
+        "valences": [
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL079"
+        ]
+    },
+    "VAC0286": {
+        "label": "M-M-R II",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0287": {
+        "label": "M-R VAX",
+        "valences": [
+            "VAL005",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL079",
+            "VAL182"
+        ]
+    },
+    "VAC0288": {
+        "label": "M-R VAX II",
+        "valences": [
+            "VAL005",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL079",
+            "VAL182"
+        ]
+    },
+    "VAC0289": {
+        "label": "M-VAX PFIZER",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0290": {
+        "label": "MASERN-IMPFSTOFF SSW",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0291": {
+        "label": "MEASLES VACCINE AIK-C STRAIN POLYVAC",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0292": {
+        "label": "MEASLES VACCINE DK3",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0293": {
+        "label": "MENAFRIVAC",
+        "valences": [
+            "VAL271"
+        ],
+        "implicit": [
+            "VAL271",
+            "VAL041",
+            "VAL297"
+        ]
+    },
+    "VAC0294": {
+        "label": "MENCEVAX A",
+        "valences": [
+            "VAL037"
+        ],
+        "implicit": [
+            "VAL037",
+            "VAL297"
+        ]
+    },
+    "VAC0295": {
+        "label": "MENOMUNE-A/C/Y/W-135",
+        "valences": [
+            "VAL037",
+            "VAL137",
+            "VAL138",
+            "VAL139"
+        ],
+        "implicit": [
+            "VAL037",
+            "VAL137",
+            "VAL138",
+            "VAL139",
+            "VAL297",
+            "VAL298",
+            "VAL300",
+            "VAL299"
+        ]
+    },
+    "VAC0296": {
+        "label": "MENPOVAX 4 A+C+Y+W135",
+        "valences": [
+            "VAL037",
+            "VAL137",
+            "VAL138",
+            "VAL139"
+        ],
+        "implicit": [
+            "VAL037",
+            "VAL137",
+            "VAL138",
+            "VAL139",
+            "VAL297",
+            "VAL298",
+            "VAL300",
+            "VAL299"
+        ]
+    },
+    "VAC0297": {
+        "label": "MENPOVAX A+C",
+        "valences": [
+            "VAL037",
+            "VAL137"
+        ],
+        "implicit": [
+            "VAL037",
+            "VAL137",
+            "VAL297",
+            "VAL298"
+        ]
+    },
+    "VAC0298": {
+        "label": "MERUVAX",
+        "valences": [
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL079"
+        ]
+    },
+    "VAC0299": {
+        "label": "MERUVAX II",
+        "valences": [
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL079"
+        ]
+    },
+    "VAC0300": {
+        "label": "MEVILIN-L",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0301": {
+        "label": "MMR",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0303": {
+        "label": "MONIARIX",
+        "valences": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL221",
+            "VAL222",
+            "VAL223",
+            "VAL225",
+            "VAL228",
+            "VAL232",
+            "VAL233"
+        ],
+        "implicit": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL221",
+            "VAL222",
+            "VAL223",
+            "VAL225",
+            "VAL228",
+            "VAL232",
+            "VAL233",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105"
+        ]
+    },
+    "VAC0304": {
+        "label": "MOPAVAC SEVAC",
+        "valences": [
+            "VAL005",
+            "VAL077"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0305": {
+        "label": "MOPV",
+        "valences": [
+            "VAL033",
+            "VAL085",
+            "VAL132"
+        ],
+        "implicit": [
+            "VAL033",
+            "VAL085",
+            "VAL132",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC0306": {
+        "label": "MORBILVAX",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0307": {
+        "label": "MORUBEL",
+        "valences": [
+            "VAL005",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL079",
+            "VAL182"
+        ]
+    },
+    "VAC0308": {
+        "label": "MORUMAN BERNA PRODUCTS",
+        "valences": [
+            "VAL055"
+        ],
+        "implicit": [
+            "VAL055"
+        ]
+    },
+    "VAC0309": {
+        "label": "MORUPAR",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0310": {
+        "label": "MOVIVAC",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0311": {
+        "label": "MUMATEN BERNA PRODUCTSNA",
+        "valences": [
+            "VAL077"
+        ],
+        "implicit": [
+            "VAL077",
+            "VAL183"
+        ]
+    },
+    "VAC0312": {
+        "label": "MUMPS LIVE",
+        "valences": [
+            "VAL077"
+        ],
+        "implicit": [
+            "VAL077",
+            "VAL183"
+        ]
+    },
+    "VAC0313": {
+        "label": "MUMPS inactivated",
+        "valences": [
+            "VAL048"
+        ],
+        "implicit": [
+            "VAL048",
+            "VAL183"
+        ]
+    },
+    "VAC0315": {
+        "label": "MUMPSVAX",
+        "valences": [
+            "VAL077"
+        ],
+        "implicit": [
+            "VAL077",
+            "VAL183"
+        ]
+    },
+    "VAC0317": {
+        "label": "NABI-HB",
+        "valences": [
+            "VAL047"
+        ],
+        "implicit": [
+            "VAL047"
+        ]
+    },
+    "VAC0318": {
+        "label": "NOTHAV",
+        "valences": [
+            "VAL125"
+        ],
+        "implicit": [
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0319": {
+        "label": "OMNIHIB",
+        "valences": [
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL156",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0320": {
+        "label": "OPV 1-2-3, unspecified",
+        "valences": [
+            "VAL033",
+            "VAL085",
+            "VAL132"
+        ],
+        "implicit": [
+            "VAL033",
+            "VAL085",
+            "VAL132",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC0321": {
+        "label": "ORIMUNE",
+        "valences": [
+            "VAL033",
+            "VAL085",
+            "VAL132"
+        ],
+        "implicit": [
+            "VAL033",
+            "VAL085",
+            "VAL132",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC0322": {
+        "label": "PARIORIX",
+        "valences": [
+            "VAL077"
+        ],
+        "implicit": [
+            "VAL077",
+            "VAL183"
+        ]
+    },
+    "VAC0323": {
+        "label": "PAVIVAC-SEVAC",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0324": {
+        "label": "Pneumococcal conjugate vaccine, 7 valent, unspecified",
+        "valences": [
+            "VAL188",
+            "VAL191",
+            "VAL194",
+            "VAL198",
+            "VAL200",
+            "VAL202",
+            "VAL204"
+        ],
+        "implicit": [
+            "VAL188",
+            "VAL191",
+            "VAL194",
+            "VAL198",
+            "VAL200",
+            "VAL202",
+            "VAL204",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105"
+        ]
+    },
+    "VAC0325": {
+        "label": "PEDIARIX",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0326": {
+        "label": "PEDVAXHIB",
+        "valences": [
+            "VAL155"
+        ],
+        "implicit": [
+            "VAL155",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0327": {
+        "label": "PENTA",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0328": {
+        "label": "PENTACEL",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0330": {
+        "label": "PENTACT-HIB",
+        "valences": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0332": {
+        "label": "PENTAVALENTE",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0333": {
+        "label": "PFIZER VAX-MEASLES K INACTIVATED",
+        "valences": [
+            "VAL093"
+        ],
+        "implicit": [
+            "VAL093",
+            "VAL182"
+        ]
+    },
+    "VAC0334": {
+        "label": "PFIZER VAX-MEASLES L",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0335": {
+        "label": "PLUSERIX",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0336": {
+        "label": "PNEUMOVAX",
+        "valences": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL215",
+            "VAL216",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL220",
+            "VAL222",
+            "VAL223",
+            "VAL224",
+            "VAL225",
+            "VAL226",
+            "VAL227",
+            "VAL228",
+            "VAL229"
+        ],
+        "implicit": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL215",
+            "VAL216",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL220",
+            "VAL222",
+            "VAL223",
+            "VAL224",
+            "VAL225",
+            "VAL226",
+            "VAL227",
+            "VAL228",
+            "VAL229",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105"
+        ]
+    },
+    "VAC0337": {
+        "label": "PNU-IMUNE 23",
+        "valences": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL215",
+            "VAL216",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL220",
+            "VAL222",
+            "VAL223",
+            "VAL224",
+            "VAL225",
+            "VAL226",
+            "VAL227",
+            "VAL228",
+            "VAL229"
+        ],
+        "implicit": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL215",
+            "VAL216",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL220",
+            "VAL222",
+            "VAL223",
+            "VAL224",
+            "VAL225",
+            "VAL226",
+            "VAL227",
+            "VAL228",
+            "VAL229",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105"
+        ]
+    },
+    "VAC0338": {
+        "label": "POLIACEL",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0339": {
+        "label": "Pneumococcal polysaccharide vaccine 23-valent, unspecified",
+        "valences": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL215",
+            "VAL216",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL220",
+            "VAL222",
+            "VAL223",
+            "VAL224",
+            "VAL225",
+            "VAL226",
+            "VAL227",
+            "VAL228",
+            "VAL229"
+        ],
+        "implicit": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL215",
+            "VAL216",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL220",
+            "VAL222",
+            "VAL223",
+            "VAL224",
+            "VAL225",
+            "VAL226",
+            "VAL227",
+            "VAL228",
+            "VAL229",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105"
+        ]
+    },
+    "VAC0341": {
+        "label": "PREVNAR",
+        "valences": [
+            "VAL188",
+            "VAL191",
+            "VAL194",
+            "VAL198",
+            "VAL200",
+            "VAL202",
+            "VAL204"
+        ],
+        "implicit": [
+            "VAL188",
+            "VAL191",
+            "VAL194",
+            "VAL198",
+            "VAL200",
+            "VAL202",
+            "VAL204",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105"
+        ]
+    },
+    "VAC0343": {
+        "label": "ProHIBiT",
+        "valences": [
+            "VAL153"
+        ],
+        "implicit": [
+            "VAL153",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0344": {
+        "label": "PRP-OMP Hib vaccine, unspecified",
+        "valences": [
+            "VAL155"
+        ],
+        "implicit": [
+            "VAL155",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0345": {
+        "label": "Hib PRP-T conjugated vaccine, unspecified",
+        "valences": [
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL156",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0346": {
+        "label": "PURIVAX",
+        "valences": [
+            "VAL056"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL042"
+        ]
+    },
+    "VAC0347": {
+        "label": "QUADRACEL",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0348": {
+        "label": "QUADRACEL/HIBEST",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0349": {
+        "label": "QUADRIGEN",
+        "valences": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0350": {
+        "label": "QUATRO-VIRELON",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0351": {
+        "label": "QUINTUPLE",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0352": {
+        "label": "R-HB VACCINE",
+        "valences": [
+            "VAL115"
+        ],
+        "implicit": [
+            "VAL115",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0353": {
+        "label": "R-VAC",
+        "valences": [
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL079"
+        ]
+    },
+    "VAC0354": {
+        "label": "RA27/3",
+        "valences": [
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL079"
+        ]
+    },
+    "VAC0355": {
+        "label": "RABAVERT",
+        "valences": [
+            "VAL259"
+        ],
+        "implicit": [
+            "VAL259",
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC0356": {
+        "label": "RECOMBIVAX HB PÉDIATRIQUE",
+        "valences": [
+            "VAL068"
+        ],
+        "implicit": [
+            "VAL068"
+        ]
+    },
+    "VAC0357": {
+        "label": "RESPIGAM, RSV-IVIG",
+        "valences": [
+            "VAL148"
+        ],
+        "implicit": [
+            "VAL148",
+            "VAL317",
+            "VAL338"
+        ]
+    },
+    "VAC0358": {
+        "label": "Rabies immunoglobulin human origin, unspecified",
+        "valences": [
+            "VAL252"
+        ],
+        "implicit": [
+            "VAL252",
+            "VAL016"
+        ]
+    },
+    "VAC0359": {
+        "label": "RIMEVAX",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0360": {
+        "label": "RIMPARIX",
+        "valences": [
+            "VAL005",
+            "VAL077"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0361": {
+        "label": "RIT - LM-2",
+        "valences": [
+            "VAL005",
+            "VAL077"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0362": {
+        "label": "RIT - LM-3",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0363": {
+        "label": "ROTASHIELD",
+        "valences": [
+            "VAL106"
+        ],
+        "implicit": [
+            "VAL106"
+        ]
+    },
+    "VAC0364": {
+        "label": "RUBEATEN BERNA PRODUCTS",
+        "valences": [
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL079"
+        ]
+    },
+    "VAC0365": {
+        "label": "RUBELLA VACCINE MICROGEN",
+        "valences": [
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL079"
+        ]
+    },
+    "VAC0366": {
+        "label": "RUBELLA-KOVAX",
+        "valences": [
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL079"
+        ]
+    },
+    "VAC0367": {
+        "label": "RUBELLOVAC",
+        "valences": [
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL079"
+        ]
+    },
+    "VAC0368": {
+        "label": "RUBELOGEN",
+        "valences": [
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL079"
+        ]
+    },
+    "VAC0369": {
+        "label": "RUBEOVAX",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0370": {
+        "label": "RVA RABIES VACCINE ABSORBED BIOPORT",
+        "valences": [
+            "VAL080"
+        ],
+        "implicit": [
+            "VAL080"
+        ]
+    },
+    "VAC0371": {
+        "label": "POLIO SABIN GSK",
+        "valences": [
+            "VAL033",
+            "VAL085",
+            "VAL132"
+        ],
+        "implicit": [
+            "VAL033",
+            "VAL085",
+            "VAL132",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC0372": {
+        "label": "SAHIA",
+        "valences": [
+            "VAL033",
+            "VAL085",
+            "VAL132"
+        ],
+        "implicit": [
+            "VAL033",
+            "VAL085",
+            "VAL132",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC0373": {
+        "label": "SALK",
+        "valences": [
+            "VAL056"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL042"
+        ]
+    },
+    "VAC0374": {
+        "label": "SANDOVAC",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0375": {
+        "label": "SEROBACTERIN",
+        "valences": [
+            "VAL004",
+            "VAL032"
+        ],
+        "implicit": [
+            "VAL004",
+            "VAL032",
+            "VAL359",
+            "VAL081",
+            "VAL014"
+        ]
+    },
+    "VAC0376": {
+        "label": "SHANCHOL",
+        "valences": [
+            "VAL367",
+            "VAL368"
+        ],
+        "implicit": [
+            "VAL367",
+            "VAL368",
+            "VAL021",
+            "VAL359",
+            "VAL081",
+            "VAL021",
+            "VAL359",
+            "VAL081"
+        ]
+    },
+    "VAC0377": {
+        "label": "TRIPLE ANTIGEN SII",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0378": {
+        "label": "SYNAGIS 100 mg (PALIZIVUMAB)",
+        "valences": [
+            "VAL116"
+        ],
+        "implicit": [
+            "VAL116",
+            "VAL320",
+            "VAL317",
+            "VAL338"
+        ]
+    },
+    "VAC0379": {
+        "label": "T-IMMUN",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0380": {
+        "label": "T.Polio, unspecified",
+        "valences": [
+            "VAL056",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL067",
+            "VAL042"
+        ]
+    },
+    "VAC0382": {
+        "label": "Tetanus diphtheria vaccine, unspecified",
+        "valences": [
+            "VAL067",
+            "VAL083"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0383": {
+        "label": "ANATOXAL TE",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0384": {
+        "label": "TE/VAC/PTAP",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0385": {
+        "label": "TELVACLPTAP",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0386": {
+        "label": "TETAMYN",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0387": {
+        "label": "TETANOL",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0388": {
+        "label": "TETASORBAT SSW",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0389": {
+        "label": "TETAMUN SSW",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0390": {
+        "label": "TETRACT-HIB",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0391": {
+        "label": "TETRAMUNE",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL154"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL154",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0392": {
+        "label": "TETRAVAX",
+        "valences": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0393": {
+        "label": "TICE BCG",
+        "valences": [
+            "VAL096"
+        ],
+        "implicit": [
+            "VAL096"
+        ]
+    },
+    "VAC0394": {
+        "label": "TIG",
+        "valences": [
+            "VAL110"
+        ],
+        "implicit": [
+            "VAL110"
+        ]
+    },
+    "VAC0395": {
+        "label": "TITIFICA",
+        "valences": [
+            "VAL045",
+            "VAL071"
+        ],
+        "implicit": [
+            "VAL045",
+            "VAL071",
+            "VAL014",
+            "VAL014"
+        ]
+    },
+    "VAC0396": {
+        "label": "BIOPOLIO",
+        "valences": [
+            "VAL033",
+            "VAL085",
+            "VAL132"
+        ],
+        "implicit": [
+            "VAL033",
+            "VAL085",
+            "VAL132",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC0397": {
+        "label": "TRESIVAC LYOPHILIZED",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0398": {
+        "label": "TRI-IMMUNOL",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0399": {
+        "label": "TRIACEL",
+        "valences": [
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0400": {
+        "label": "TRIACELLUVAX",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0401": {
+        "label": "TRIHIBIT",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0403": {
+        "label": "TRINIVAC",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0404": {
+        "label": "TRIPACEL",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0405": {
+        "label": "TRIPEDIA",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0407": {
+        "label": "TRIPLE",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0408": {
+        "label": "TRIPLE ANTIGEN",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0409": {
+        "label": "TRIPLE SABIN",
+        "valences": [
+            "VAL033",
+            "VAL085",
+            "VAL132"
+        ],
+        "implicit": [
+            "VAL033",
+            "VAL085",
+            "VAL132",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC0410": {
+        "label": "TRIPLE VIRAL",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0411": {
+        "label": "TRIVACUNA LETI",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0412": {
+        "label": "TRIVAX",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0413": {
+        "label": "TRIVAX-AD",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0414": {
+        "label": "TRIVAX-HIB",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0415": {
+        "label": "TRIVB",
+        "valences": [
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0416": {
+        "label": "TRIVIRATEN",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0417": {
+        "label": "TRIVIVAC SEVAC",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0418": {
+        "label": "TRIVIVAC Y",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0419": {
+        "label": "SHANTT",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0420": {
+        "label": "BIO-TT",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0421": {
+        "label": "TUSSITRUPIN FORTE",
+        "valences": [
+            "VAL010"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL003"
+        ]
+    },
+    "VAC0423": {
+        "label": "TWINRIX JUNIOR",
+        "valences": [
+            "VAL114",
+            "VAL143"
+        ],
+        "implicit": [
+            "VAL114",
+            "VAL143",
+            "VAL090",
+            "VAL068",
+            "VAL283",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0424": {
+        "label": "Live attenuated oral typhoid vaccine, unspecified",
+        "valences": [
+            "VAL091"
+        ],
+        "implicit": [
+            "VAL091",
+            "VAL014"
+        ]
+    },
+    "VAC0425": {
+        "label": "TYNE",
+        "valences": [
+            "VAL096"
+        ],
+        "implicit": [
+            "VAL096"
+        ]
+    },
+    "VAC0426": {
+        "label": "TYPHOID VACCINE WYETH",
+        "valences": [
+            "VAL071"
+        ],
+        "implicit": [
+            "VAL071",
+            "VAL014"
+        ]
+    },
+    "VAC0427": {
+        "label": "TYPHOID-KOVAX",
+        "valences": [
+            "VAL032"
+        ],
+        "implicit": [
+            "VAL032",
+            "VAL014"
+        ]
+    },
+    "VAC0428": {
+        "label": "VA-MENGOC-BC",
+        "valences": [
+            "VAL026",
+            "VAL137"
+        ],
+        "implicit": [
+            "VAL026",
+            "VAL137",
+            "VAL118",
+            "VAL298"
+        ]
+    },
+    "VAC0429": {
+        "label": "VACCIN COMBINAT DIFTERO-TETANIC",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0430": {
+        "label": "VACCIN DIFTERIC ADSORBIT",
+        "valences": [
+            "VAL083"
+        ],
+        "implicit": [
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0431": {
+        "label": "VACCINUM MORBILLORUM VIVUM",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0432": {
+        "label": "VACINA DUPLA",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0433": {
+        "label": "VACINA TRIPLICE",
+        "valences": [
+            "VAL003",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL003",
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0434": {
+        "label": "VACINA TRIPLICE VIRAL",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0435": {
+        "label": "VAKSIN CACAR",
+        "valences": [
+            "VAL294"
+        ],
+        "implicit": [
+            "VAL294",
+            "VAL022",
+            "VAL418"
+        ]
+    },
+    "VAC0436": {
+        "label": "VAKSIN CAMPAK KERING",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0437": {
+        "label": "VAKSIN KOTIPA",
+        "valences": [
+            "VAL004",
+            "VAL071"
+        ],
+        "implicit": [
+            "VAL004",
+            "VAL071",
+            "VAL359",
+            "VAL081",
+            "VAL014"
+        ]
+    },
+    "VAC0438": {
+        "label": "VAKSIN SERAP",
+        "valences": [
+            "VAL003",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL003",
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0439": {
+        "label": "VAMOAVAX",
+        "valences": [
+            "VAL005",
+            "VAL077"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0441": {
+        "label": "SKYVARICELLA INJ",
+        "valences": [
+            "VAL044"
+        ],
+        "implicit": [
+            "VAL044"
+        ]
+    },
+    "VAC0442": {
+        "label": "VARICELLON",
+        "valences": [
+            "VAL088"
+        ],
+        "implicit": [
+            "VAL088"
+        ]
+    },
+    "VAC0443": {
+        "label": "SEVAC VARIE",
+        "valences": [
+            "VAL294"
+        ],
+        "implicit": [
+            "VAL294",
+            "VAL022",
+            "VAL418"
+        ]
+    },
+    "VAC0444": {
+        "label": "VAXEM-HIB",
+        "valences": [
+            "VAL154"
+        ],
+        "implicit": [
+            "VAL154",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0445": {
+        "label": "VAXIPAR",
+        "valences": [
+            "VAL077"
+        ],
+        "implicit": [
+            "VAL077",
+            "VAL183"
+        ]
+    },
+    "VAC0446": {
+        "label": "VCDT",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0447": {
+        "label": "VDA VACCIN DIFTERIC ADSORBIT",
+        "valences": [
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0448": {
+        "label": "VICPS (TYPHIM VI)",
+        "valences": [
+            "VAL032"
+        ],
+        "implicit": [
+            "VAL032",
+            "VAL014"
+        ]
+    },
+    "VAC0449": {
+        "label": "VIRELON T 20",
+        "valences": [
+            "VAL033",
+            "VAL085",
+            "VAL132"
+        ],
+        "implicit": [
+            "VAL033",
+            "VAL085",
+            "VAL132",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC0450": {
+        "label": "VIROVAC MASSLING, PEROTID, RUBELLA",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0451": {
+        "label": "VIVOTIF",
+        "valences": [
+            "VAL091"
+        ],
+        "implicit": [
+            "VAL091",
+            "VAL014"
+        ]
+    },
+    "VAC0452": {
+        "label": "VT (VACINA TRIPLICE)",
+        "valences": [
+            "VAL003",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL003",
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0453": {
+        "label": "VTV (VACINA TRIPLICE VIRAL)",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0454": {
+        "label": "VVR CANTACUZINO",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0456": {
+        "label": "WELLTRIVAX TRIVALENTE",
+        "valences": [
+            "VAL003",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL003",
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0457": {
+        "label": "YF-VAX",
+        "valences": [
+            "VAL092"
+        ],
+        "implicit": [
+            "VAL092"
+        ]
+    },
+    "VAC0458": {
+        "label": "ZAANTIDE antitoxin",
+        "valences": [
+            "VAL019"
+        ],
+        "implicit": [
+            "VAL019",
+            "VAL414"
+        ]
+    },
+    "VAC0459": {
+        "label": "ZAANTITE",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0460": {
+        "label": "ZADITEADVAX",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0461": {
+        "label": "ZADITEVAX",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0462": {
+        "label": "ZAMEVAX A+C",
+        "valences": [
+            "VAL037",
+            "VAL137"
+        ],
+        "implicit": [
+            "VAL037",
+            "VAL137",
+            "VAL297",
+            "VAL298"
+        ]
+    },
+    "VAC0463": {
+        "label": "ZAMOVAX",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0464": {
+        "label": "ZAMRUVAX",
+        "valences": [
+            "VAL005",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL079",
+            "VAL182"
+        ]
+    },
+    "VAC0465": {
+        "label": "ZARUVAX",
+        "valences": [
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL079"
+        ]
+    },
+    "VAC0466": {
+        "label": "ZATETRAVAX",
+        "valences": [
+            "VAL003",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL003",
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0467": {
+        "label": "ZATEVAX",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0468": {
+        "label": "ZATRIBAVAX",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0469": {
+        "label": "ZATRIVAX",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0470": {
+        "label": "QUINVAXEM",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL154"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL154",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0471": {
+        "label": "HEPAVAX-GENE B 20 µg",
+        "valences": [
+            "VAL115"
+        ],
+        "implicit": [
+            "VAL115",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0472": {
+        "label": "PREPANDRIX",
+        "valences": [
+            "VAL051"
+        ],
+        "implicit": [
+            "VAL051",
+            "VAL386"
+        ]
+    },
+    "VAC0473": {
+        "label": "PRE-PANDEMIC INFLUENZA VACCINE H5N1",
+        "valences": [
+            "VAL051"
+        ],
+        "implicit": [
+            "VAL051",
+            "VAL386"
+        ]
+    },
+    "VAC0474": {
+        "label": "DARONRIX",
+        "valences": [
+            "VAL051"
+        ],
+        "implicit": [
+            "VAL051",
+            "VAL386"
+        ]
+    },
+    "VAC0475": {
+        "label": "FOCLIVIA",
+        "valences": [
+            "VAL051"
+        ],
+        "implicit": [
+            "VAL051",
+            "VAL386"
+        ]
+    },
+    "VAC0476": {
+        "label": "PANDEMIC INFLUENZA VACCINE H5N1 BAXTER",
+        "valences": [
+            "VAL051"
+        ],
+        "implicit": [
+            "VAL051",
+            "VAL386"
+        ]
+    },
+    "VAC0477": {
+        "label": "PUMARIX",
+        "valences": [
+            "VAL051"
+        ],
+        "implicit": [
+            "VAL051",
+            "VAL386"
+        ]
+    },
+    "VAC0478": {
+        "label": "COVAXIS",
+        "valences": [
+            "VAL017",
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL017",
+            "VAL034",
+            "VAL067",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0479": {
+        "label": "TRIAXIS",
+        "valences": [
+            "VAL017",
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL017",
+            "VAL034",
+            "VAL067",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0480": {
+        "label": "FENDRIX",
+        "valences": [
+            "VAL012"
+        ],
+        "implicit": [
+            "VAL012",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0481": {
+        "label": "TRIVIVAX",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0482": {
+        "label": "VEPACEL",
+        "valences": [
+            "VAL051"
+        ],
+        "implicit": [
+            "VAL051",
+            "VAL386"
+        ]
+    },
+    "VAC0483": {
+        "label": "FLUAD PAEDIATRICS",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0484": {
+        "label": "RABIVAX-S",
+        "valences": [
+            "VAL080"
+        ],
+        "implicit": [
+            "VAL080"
+        ]
+    },
+    "VAC0485": {
+        "label": "TETAGAM P (immunoglobuline)",
+        "valences": [
+            "VAL110"
+        ],
+        "implicit": [
+            "VAL110"
+        ]
+    },
+    "VAC0486": {
+        "label": "NIMENRIX",
+        "valences": [
+            "VAL266",
+            "VAL271",
+            "VAL272",
+            "VAL276"
+        ],
+        "implicit": [
+            "VAL266",
+            "VAL271",
+            "VAL272",
+            "VAL276",
+            "VAL057",
+            "VAL298",
+            "VAL041",
+            "VAL297",
+            "VAL136",
+            "VAL300",
+            "VAL078",
+            "VAL299"
+        ]
+    },
+    "VAC0487": {
+        "label": "MENHIBRIX",
+        "valences": [
+            "VAL156",
+            "VAL266",
+            "VAL276"
+        ],
+        "implicit": [
+            "VAL156",
+            "VAL266",
+            "VAL276",
+            "VAL103",
+            "VAL177",
+            "VAL057",
+            "VAL298",
+            "VAL078",
+            "VAL299"
+        ]
+    },
+    "VAC0488": {
+        "label": "PENTAXIM",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0489": {
+        "label": "TRIMOVAX",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0490": {
+        "label": "KINRIX",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0491": {
+        "label": "TENIVAC",
+        "valences": [
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL067",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0492": {
+        "label": "AFLURIA",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0494": {
+        "label": "TRITANRIX HepB",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0495": {
+        "label": "BEXSERO",
+        "valences": [
+            "VAL098"
+        ],
+        "implicit": [
+            "VAL098",
+            "VAL161",
+            "VAL118"
+        ]
+    },
+    "VAC0496": {
+        "label": "GAMMATETANOS (immunoglobuline)",
+        "valences": [
+            "VAL110"
+        ],
+        "implicit": [
+            "VAL110"
+        ]
+    },
+    "VAC0497": {
+        "label": "Tetanus immunoglobulin, unspecified",
+        "valences": [
+            "VAL110"
+        ],
+        "implicit": [
+            "VAL110"
+        ]
+    },
+    "VAC0498": {
+        "label": "IMOGAM RAGE",
+        "valences": [
+            "VAL252"
+        ],
+        "implicit": [
+            "VAL252",
+            "VAL016"
+        ]
+    },
+    "VAC0499": {
+        "label": "BERIRAB (immunoglobuline)",
+        "valences": [
+            "VAL252"
+        ],
+        "implicit": [
+            "VAL252",
+            "VAL016"
+        ]
+    },
+    "VAC0500": {
+        "label": "FAVIRAB",
+        "valences": [
+            "VAL253"
+        ],
+        "implicit": [
+            "VAL253",
+            "VAL016"
+        ]
+    },
+    "VAC0501": {
+        "label": "EQUIRAB (immunoglobuline)",
+        "valences": [
+            "VAL253"
+        ],
+        "implicit": [
+            "VAL253",
+            "VAL016"
+        ]
+    },
+    "VAC0502": {
+        "label": "Rabies immunoglobulin, unspecified",
+        "valences": [
+            "VAL016"
+        ],
+        "implicit": [
+            "VAL016"
+        ]
+    },
+    "VAC0503": {
+        "label": "Rabies immunoglobulin equine origin, unspecified",
+        "valences": [
+            "VAL253"
+        ],
+        "implicit": [
+            "VAL253",
+            "VAL016"
+        ]
+    },
+    "VAC0504": {
+        "label": "INFANRIX POLIO HIB NOURRISSONS",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0505": {
+        "label": "HIBEST",
+        "valences": [
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL156",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0506": {
+        "label": "Pentavalent DTaPHibIPV vaccine, unspecified",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL103"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL103",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL177"
+        ]
+    },
+    "VAC0507": {
+        "label": "HEXACIMA",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0508": {
+        "label": "JEEV 3 µg",
+        "valences": [
+            "VAL251"
+        ],
+        "implicit": [
+            "VAL251",
+            "VAL089",
+            "VAL249"
+        ]
+    },
+    "VAC0509": {
+        "label": "BIKEN",
+        "valences": [
+            "VAL250"
+        ],
+        "implicit": [
+            "VAL250",
+            "VAL089",
+            "VAL249"
+        ]
+    },
+    "VAC0510": {
+        "label": "HEXYON",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0511": {
+        "label": "SILGARD",
+        "valences": [
+            "VAL052",
+            "VAL238",
+            "VAL239",
+            "VAL240",
+            "VAL241"
+        ],
+        "implicit": [
+            "VAL052",
+            "VAL238",
+            "VAL239",
+            "VAL240",
+            "VAL241",
+            "VAL237",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082"
+        ]
+    },
+    "VAC0512": {
+        "label": "Typhus vaccine, unspecified",
+        "valences": [
+            "VAL046"
+        ],
+        "implicit": [
+            "VAL046"
+        ]
+    },
+    "VAC0513": {
+        "label": "HEPATYRIX",
+        "valences": [
+            "VAL032",
+            "VAL125"
+        ],
+        "implicit": [
+            "VAL032",
+            "VAL125",
+            "VAL014",
+            "VAL288"
+        ]
+    },
+    "VAC0514": {
+        "label": "ROTARIX",
+        "valences": [
+            "VAL141"
+        ],
+        "implicit": [
+            "VAL141",
+            "VAL106"
+        ]
+    },
+    "VAC0515": {
+        "label": "INFANRIX-POLIO",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0516": {
+        "label": "ABHAYRAB",
+        "valences": [
+            "VAL080"
+        ],
+        "implicit": [
+            "VAL080"
+        ]
+    },
+    "VAC0517": {
+        "label": "FLUARIXTETRA",
+        "valences": [
+            "VAL040"
+        ],
+        "implicit": [
+            "VAL040",
+            "VAL064",
+            "VAL127",
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0518": {
+        "label": "STAMARIL (multidose)",
+        "valences": [
+            "VAL092"
+        ],
+        "implicit": [
+            "VAL092"
+        ]
+    },
+    "VAC0520": {
+        "label": "IMVANEX",
+        "valences": [
+            "VAL296"
+        ],
+        "implicit": [
+            "VAL296",
+            "VAL028",
+            "VAL022",
+            "VAL418"
+        ]
+    },
+    "VAC0521": {
+        "label": "FLUENZ TETRA",
+        "valences": [
+            "VAL059"
+        ],
+        "implicit": [
+            "VAL059",
+            "VAL140",
+            "VAL128"
+        ]
+    },
+    "VAC0523": {
+        "label": "GARDASIL 9",
+        "valences": [
+            "VAL036",
+            "VAL238",
+            "VAL239",
+            "VAL240",
+            "VAL241",
+            "VAL242",
+            "VAL243",
+            "VAL244",
+            "VAL245",
+            "VAL246"
+        ],
+        "implicit": [
+            "VAL036",
+            "VAL238",
+            "VAL239",
+            "VAL240",
+            "VAL241",
+            "VAL242",
+            "VAL243",
+            "VAL244",
+            "VAL245",
+            "VAL246",
+            "VAL237",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082"
+        ]
+    },
+    "VAC0524": {
+        "label": "TEVAX",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0525": {
+        "label": "INFANRIX PENTA",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0526": {
+        "label": "HECOLIN",
+        "valences": [
+            "VAL102"
+        ],
+        "implicit": [
+            "VAL102"
+        ]
+    },
+    "VAC0527": {
+        "label": "VACCIN DIPHTERIQUE ET TETANIQUE ADSORBE",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0528": {
+        "label": "MOSQUIRIX",
+        "valences": [
+            "VAL009",
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL009",
+            "VAL114",
+            "VAL025",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0529": {
+        "label": "IMOVAX TETANO",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0530": {
+        "label": "TETANOL PUR",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0531": {
+        "label": "TETANOS ADSORBE MERIEUX",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0532": {
+        "label": "TETANUS VACCIN",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0534": {
+        "label": "MENJUGATE 10 µg",
+        "valences": [
+            "VAL268"
+        ],
+        "implicit": [
+            "VAL268",
+            "VAL057",
+            "VAL298"
+        ]
+    },
+    "VAC0535": {
+        "label": "VAXELIS",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL155"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL155",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0538": {
+        "label": "VACCIN BCG BIOMED-LUBLIN",
+        "valences": [
+            "VAL096"
+        ],
+        "implicit": [
+            "VAL096"
+        ]
+    },
+    "VAC0539": {
+        "label": "DENGVAXIA",
+        "valences": [
+            "VAL087"
+        ],
+        "implicit": [
+            "VAL087",
+            "VAL150"
+        ]
+    },
+    "VAC0540": {
+        "label": "IPAD T",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0541": {
+        "label": "BOOSTRIX",
+        "valences": [
+            "VAL017",
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL017",
+            "VAL034",
+            "VAL067",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0542": {
+        "label": "Vaccin D.T.P. Pasteur",
+        "valences": [
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0543": {
+        "label": "HEXAXIM",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0544": {
+        "label": "TETRAXIM",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0545": {
+        "label": "EUVAX B 20 µg",
+        "valences": [
+            "VAL115"
+        ],
+        "implicit": [
+            "VAL115",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0546": {
+        "label": "DULTAVAX",
+        "valences": [
+            "VAL034",
+            "VAL056",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL056",
+            "VAL067",
+            "VAL083",
+            "VAL414",
+            "VAL042"
+        ]
+    },
+    "VAC0549": {
+        "label": "dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified",
+        "valences": [
+            "VAL034",
+            "VAL056",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL056",
+            "VAL067",
+            "VAL083",
+            "VAL414",
+            "VAL042"
+        ]
+    },
+    "VAC0550": {
+        "label": "Measles-Rubella vaccine, unspecified",
+        "valences": [
+            "VAL005",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL079",
+            "VAL182"
+        ]
+    },
+    "VAC0551": {
+        "label": "DTaPIPV vaccine, standard dose, unspecified",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0552": {
+        "label": "Hexavalent vaccine DTPCaHibHepB - Diphtheria-Tetanus-Polio-Acellular Pertussis-Hib-HepB, unspecified",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL103",
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL103",
+            "VAL114",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL177",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0553": {
+        "label": "Pentavalent DTwPHibIPV vaccine, unspecified",
+        "valences": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL103"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL103",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL177"
+        ]
+    },
+    "VAC0554": {
+        "label": "PEDIACEL",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0555": {
+        "label": "COMBACT-HIB",
+        "valences": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0556": {
+        "label": "MENITORIX",
+        "valences": [
+            "VAL156",
+            "VAL266"
+        ],
+        "implicit": [
+            "VAL156",
+            "VAL266",
+            "VAL103",
+            "VAL177",
+            "VAL057",
+            "VAL298"
+        ]
+    },
+    "VAC0560": {
+        "label": "VAXIGRIPTETRA",
+        "valences": [
+            "VAL112"
+        ],
+        "implicit": [
+            "VAL112",
+            "VAL360",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0561": {
+        "label": "IMOJEV",
+        "valences": [
+            "VAL247"
+        ],
+        "implicit": [
+            "VAL247",
+            "VAL248",
+            "VAL249"
+        ]
+    },
+    "VAC0562": {
+        "label": "INFLUVAC TETRA",
+        "valences": [
+            "VAL040"
+        ],
+        "implicit": [
+            "VAL040",
+            "VAL064",
+            "VAL127",
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0563": {
+        "label": "ALPHA-RIX-TETRA",
+        "valences": [
+            "VAL040"
+        ],
+        "implicit": [
+            "VAL040",
+            "VAL064",
+            "VAL127",
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0566": {
+        "label": "PNEUMOCOCCAL POLYSACCHARIDE VACCINE MSD",
+        "valences": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL215",
+            "VAL216",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL220",
+            "VAL222",
+            "VAL223",
+            "VAL224",
+            "VAL225",
+            "VAL226",
+            "VAL227",
+            "VAL228",
+            "VAL229"
+        ],
+        "implicit": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL215",
+            "VAL216",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL220",
+            "VAL222",
+            "VAL223",
+            "VAL224",
+            "VAL225",
+            "VAL226",
+            "VAL227",
+            "VAL228",
+            "VAL229",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105"
+        ]
+    },
+    "VAC0567": {
+        "label": "SHINGRIX",
+        "valences": [
+            "VAL013"
+        ],
+        "implicit": [
+            "VAL013",
+            "VAL159",
+            "VAL160"
+        ]
+    },
+    "VAC0568": {
+        "label": "BOOSTRIX-POLIO",
+        "valences": [
+            "VAL017",
+            "VAL034",
+            "VAL056",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL017",
+            "VAL034",
+            "VAL056",
+            "VAL067",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL042"
+        ]
+    },
+    "VAC0569": {
+        "label": "INFANRIX-IPV",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0570": {
+        "label": "HIBERIX",
+        "valences": [
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL156",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0573": {
+        "label": "AGRIFLU",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0574": {
+        "label": "Td POLIO ADSORBED",
+        "valences": [
+            "VAL034",
+            "VAL056",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL056",
+            "VAL067",
+            "VAL083",
+            "VAL414",
+            "VAL042"
+        ]
+    },
+    "VAC0575": {
+        "label": "FSME-IMMUN",
+        "valences": [
+            "VAL314"
+        ],
+        "implicit": [
+            "VAL314",
+            "VAL313",
+            "VAL031"
+        ]
+    },
+    "VAC0576": {
+        "label": "FLUVIRAL",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0577": {
+        "label": "TRIPACEL HYBRID",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0578": {
+        "label": "INFANRIX-HIB",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0579": {
+        "label": "CLAIRYG 50 mg/mL",
+        "valences": [
+            "VAL055"
+        ],
+        "implicit": [
+            "VAL055"
+        ]
+    },
+    "VAC0580": {
+        "label": "CLAIRYG",
+        "valences": [
+            "VAL055"
+        ],
+        "implicit": [
+            "VAL055"
+        ]
+    },
+    "VAC0582": {
+        "label": "TRUMENBA",
+        "valences": [
+            "VAL072"
+        ],
+        "implicit": [
+            "VAL072",
+            "VAL161",
+            "VAL118"
+        ]
+    },
+    "VAC0585": {
+        "label": "TdapIPV - Diphtheria-Tetanus-Pertussis-Polio vaccine, low dose, unspecified",
+        "valences": [
+            "VAL017",
+            "VAL034",
+            "VAL056",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL017",
+            "VAL034",
+            "VAL056",
+            "VAL067",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL042"
+        ]
+    },
+    "VAC0586": {
+        "label": "ERVEBO",
+        "valences": [
+            "VAL007"
+        ],
+        "implicit": [
+            "VAL007",
+            "VAL126"
+        ]
+    },
+    "VAC0590": {
+        "label": "VACCIN BCG AJVACCINES",
+        "valences": [
+            "VAL096"
+        ],
+        "implicit": [
+            "VAL096"
+        ]
+    },
+    "VAC0591": {
+        "label": "VIVAXIM",
+        "valences": [
+            "VAL032",
+            "VAL125"
+        ],
+        "implicit": [
+            "VAL032",
+            "VAL125",
+            "VAL014",
+            "VAL288"
+        ]
+    },
+    "VAC0592": {
+        "label": "SPEEDA",
+        "valences": [
+            "VAL260"
+        ],
+        "implicit": [
+            "VAL260",
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC0593": {
+        "label": "VERORAB",
+        "valences": [
+            "VAL260"
+        ],
+        "implicit": [
+            "VAL260",
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC0594": {
+        "label": "MENQUADFI",
+        "valences": [
+            "VAL266",
+            "VAL271",
+            "VAL272",
+            "VAL276"
+        ],
+        "implicit": [
+            "VAL266",
+            "VAL271",
+            "VAL272",
+            "VAL276",
+            "VAL057",
+            "VAL298",
+            "VAL041",
+            "VAL297",
+            "VAL136",
+            "VAL300",
+            "VAL078",
+            "VAL299"
+        ]
+    },
+    "VAC0595": {
+        "label": "FLUCELVAX TETRA",
+        "valences": [
+            "VAL112"
+        ],
+        "implicit": [
+            "VAL112",
+            "VAL360",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0596": {
+        "label": "DTaPHibHepB pentavalent vaccine, unspecified",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL103",
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL103",
+            "VAL114",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL177",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0598": {
+        "label": "DTwPHibHepB pentavalent vaccine, unspecified",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL103",
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL103",
+            "VAL114",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL177",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0599": {
+        "label": "DTPerHibHepB pentavalent vaccine, unspecified",
+        "valences": [
+            "VAL003",
+            "VAL067",
+            "VAL097",
+            "VAL103",
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL003",
+            "VAL067",
+            "VAL097",
+            "VAL103",
+            "VAL114",
+            "VAL083",
+            "VAL414",
+            "VAL177",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0600": {
+        "label": "OPV bivalent 1-3, unspecified",
+        "valences": [
+            "VAL085",
+            "VAL132"
+        ],
+        "implicit": [
+            "VAL085",
+            "VAL132",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC0601": {
+        "label": "DPT Diphtheria-Pertussis-Tetanus vaccine, unspecified",
+        "valences": [
+            "VAL003",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL003",
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0602": {
+        "label": "DTaP - Diphtheria-Tetanus-Pertussis vaccine, standard dose, unspecified",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0603": {
+        "label": "COMVAC3",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0610": {
+        "label": "Tdap - Diphtheria-Tetanus-Pertussis vaccine, low dose, unspecified",
+        "valences": [
+            "VAL017",
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL017",
+            "VAL034",
+            "VAL067",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0611": {
+        "label": "SHAN-5",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0612": {
+        "label": "DTP-vax FINLAY",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0613": {
+        "label": "BORYUNG DTap VACCINE",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0614": {
+        "label": "TDAPBOOSTER AJ VACCINES",
+        "valences": [
+            "VAL017",
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL017",
+            "VAL034",
+            "VAL067",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0615": {
+        "label": "VACCIN T.P. PASTEUR",
+        "valences": [
+            "VAL056",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL067",
+            "VAL042"
+        ]
+    },
+    "VAC0620": {
+        "label": "IXCHIQ",
+        "valences": [
+            "VAL060"
+        ],
+        "implicit": [
+            "VAL060",
+            "VAL390"
+        ]
+    },
+    "VAC0621": {
+        "label": "MENC VACCINE FUNED",
+        "valences": [
+            "VAL266"
+        ],
+        "implicit": [
+            "VAL266",
+            "VAL057",
+            "VAL298"
+        ]
+    },
+    "VAC0622": {
+        "label": "EOLARIX",
+        "valences": [
+            "VAL005",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL079",
+            "VAL182"
+        ]
+    },
+    "VAC0623": {
+        "label": "Measles-mumps vaccine, unspecified",
+        "valences": [
+            "VAL005",
+            "VAL077"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0624": {
+        "label": "M-M-Vax",
+        "valences": [
+            "VAL005",
+            "VAL077"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0625": {
+        "label": "MORATEN",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0626": {
+        "label": "MoRu Viraten",
+        "valences": [
+            "VAL005",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL079",
+            "VAL182"
+        ]
+    },
+    "VAC0627": {
+        "label": "MORUMAN",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC0628": {
+        "label": "Immravax",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0631": {
+        "label": "MENINVACTKIT",
+        "valences": [
+            "VAL268"
+        ],
+        "implicit": [
+            "VAL268",
+            "VAL057",
+            "VAL298"
+        ]
+    },
+    "VAC0632": {
+        "label": "OPVERO",
+        "valences": [
+            "VAL033",
+            "VAL085",
+            "VAL132"
+        ],
+        "implicit": [
+            "VAL033",
+            "VAL085",
+            "VAL132",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC0633": {
+        "label": "ZABDENO",
+        "valences": [
+            "VAL108"
+        ],
+        "implicit": [
+            "VAL108",
+            "VAL126"
+        ]
+    },
+    "VAC0634": {
+        "label": "MVABEA",
+        "valences": [
+            "VAL109"
+        ],
+        "implicit": [
+            "VAL109",
+            "VAL126"
+        ]
+    },
+    "VAC0635": {
+        "label": "PREFLUCEL",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0636": {
+        "label": "FLUMIST QUADRIVALENT",
+        "valences": [
+            "VAL059"
+        ],
+        "implicit": [
+            "VAL059",
+            "VAL140",
+            "VAL128"
+        ]
+    },
+    "VAC0637": {
+        "label": "IPAD DT",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0638": {
+        "label": "IPAD POLIO",
+        "valences": [
+            "VAL056"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL042"
+        ]
+    },
+    "VAC0639": {
+        "label": "ADACEL POLIO",
+        "valences": [
+            "VAL017",
+            "VAL034",
+            "VAL056",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL017",
+            "VAL034",
+            "VAL056",
+            "VAL067",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL042"
+        ]
+    },
+    "VAC0640": {
+        "label": "TRITANRIX HepB+Hib",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0641": {
+        "label": "GLOBORIX",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL266",
+            "VAL271"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL266",
+            "VAL271",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177",
+            "VAL057",
+            "VAL298",
+            "VAL041",
+            "VAL297"
+        ]
+    },
+    "VAC0642": {
+        "label": "FLUZONE HIGH-DOSE QUADRIVALENT",
+        "valences": [
+            "VAL074"
+        ],
+        "implicit": [
+            "VAL074",
+            "VAL064",
+            "VAL127",
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0643": {
+        "label": "Meningococcal ACWY conjugate vaccine, unspecified",
+        "valences": [
+            "VAL041",
+            "VAL057",
+            "VAL078",
+            "VAL136"
+        ],
+        "implicit": [
+            "VAL041",
+            "VAL057",
+            "VAL078",
+            "VAL136",
+            "VAL297",
+            "VAL298",
+            "VAL299",
+            "VAL300"
+        ]
+    },
+    "VAC0644": {
+        "label": "QDENGA",
+        "valences": [
+            "VAL065"
+        ],
+        "implicit": [
+            "VAL065",
+            "VAL150"
+        ]
+    },
+    "VAC0645": {
+        "label": "IMMU ORR",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0646": {
+        "label": "CECOLIN",
+        "valences": [
+            "VAL113",
+            "VAL240",
+            "VAL241"
+        ],
+        "implicit": [
+            "VAL113",
+            "VAL240",
+            "VAL241",
+            "VAL237",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082"
+        ]
+    },
+    "VAC0647": {
+        "label": "ROTASIIL",
+        "valences": [
+            "VAL106"
+        ],
+        "implicit": [
+            "VAL106"
+        ]
+    },
+    "VAC0648": {
+        "label": "COVID-19 vaccine, unspecified",
+        "valences": [
+            "VAL157"
+        ],
+        "implicit": [
+            "VAL157"
+        ]
+    },
+    "VAC0649": {
+        "label": "EFLUELDA TETRA",
+        "valences": [
+            "VAL074"
+        ],
+        "implicit": [
+            "VAL074",
+            "VAL064",
+            "VAL127",
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0650": {
+        "label": "VAXZEVRIA ASTRAZENECA",
+        "valences": [
+            "VAL069"
+        ],
+        "implicit": [
+            "VAL069",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0651": {
+        "label": "CORONAVAC COVID-19 VACCINE",
+        "valences": [
+            "VAL264"
+        ],
+        "implicit": [
+            "VAL264",
+            "VAL076",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0652": {
+        "label": "CONVIDECIA",
+        "valences": [
+            "VAL050"
+        ],
+        "implicit": [
+            "VAL050",
+            "VAL070",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0653": {
+        "label": "Hepatitis A + Hepatitis B vaccine Child, unspecified",
+        "valences": [
+            "VAL114",
+            "VAL143"
+        ],
+        "implicit": [
+            "VAL114",
+            "VAL143",
+            "VAL090",
+            "VAL068",
+            "VAL283",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0654": {
+        "label": "Hepatitis A + Hepatitis B vaccine Adult, unspecified",
+        "valences": [
+            "VAL115",
+            "VAL145"
+        ],
+        "implicit": [
+            "VAL115",
+            "VAL145",
+            "VAL090",
+            "VAL068",
+            "VAL284",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0655": {
+        "label": "Diphtheria vaccine, unspecified",
+        "valences": [
+            "VAL083"
+        ],
+        "implicit": [
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0656": {
+        "label": "SPIKEVAX 0,2 mg/mL MODERNA",
+        "valences": [
+            "VAL180"
+        ],
+        "implicit": [
+            "VAL180",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0657": {
+        "label": "SINOPHARM WUHAN COVID-19 VACCINE",
+        "valences": [
+            "VAL265"
+        ],
+        "implicit": [
+            "VAL265",
+            "VAL076",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0658": {
+        "label": "COMIRNATY 30 µg BIONTECH-PFIZER",
+        "valences": [
+            "VAL290"
+        ],
+        "implicit": [
+            "VAL290",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0659": {
+        "label": "ZIFIVAX ANHUI COVID-19 VACCINE",
+        "valences": [
+            "VAL011"
+        ],
+        "implicit": [
+            "VAL011",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0660": {
+        "label": "CHINESE-IMB-INACTIVATED-COVID",
+        "valences": [
+            "VAL265"
+        ],
+        "implicit": [
+            "VAL265",
+            "VAL076",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0661": {
+        "label": "INOVIO-DNA-COVID",
+        "valences": [
+            "VAL035"
+        ],
+        "implicit": [
+            "VAL035",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0662": {
+        "label": "OSAKA-DNA-COVID / AG0301-COVID19",
+        "valences": [
+            "VAL035"
+        ],
+        "implicit": [
+            "VAL035",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0663": {
+        "label": "CADILA-DNA-COVID",
+        "valences": [
+            "VAL035"
+        ],
+        "implicit": [
+            "VAL035",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0664": {
+        "label": "GX-19-DNA-Covid",
+        "valences": [
+            "VAL035"
+        ],
+        "implicit": [
+            "VAL035",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0665": {
+        "label": "COVAXIN BHARAT BIOTECH COVID-19 VACCINE",
+        "valences": [
+            "VAL264"
+        ],
+        "implicit": [
+            "VAL264",
+            "VAL076",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0666": {
+        "label": "JCOVDEN (ancien nom : JANSSEN COVID-19 VACCINE)",
+        "valences": [
+            "VAL027"
+        ],
+        "implicit": [
+            "VAL027",
+            "VAL070",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0667": {
+        "label": "NUVAXOVID",
+        "valences": [
+            "VAL107"
+        ],
+        "implicit": [
+            "VAL107",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0668": {
+        "label": "KENTUCKY-RBD-COVID",
+        "valences": [
+            "VAL011"
+        ],
+        "implicit": [
+            "VAL011",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0669": {
+        "label": "ARCTURUS-RNA-COVID",
+        "valences": [
+            "VAL135"
+        ],
+        "implicit": [
+            "VAL135",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0670": {
+        "label": "SPOUTNIK V",
+        "valences": [
+            "VAL070"
+        ],
+        "implicit": [
+            "VAL070",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0671": {
+        "label": "CLOVER-SPIKE-SCB-2019-COVID",
+        "valences": [
+            "VAL104"
+        ],
+        "implicit": [
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0672": {
+        "label": "VAXINE-SPIKE-COVID",
+        "valences": [
+            "VAL104"
+        ],
+        "implicit": [
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0673": {
+        "label": "QUEENSLAND-SPIKE-MF59-COVID",
+        "valences": [
+            "VAL104"
+        ],
+        "implicit": [
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0674": {
+        "label": "PASTEUR-MSD MEASLES VECTOR COVID",
+        "valences": [
+            "VAL038"
+        ],
+        "implicit": [
+            "VAL038",
+            "VAL398",
+            "VAL162",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0675": {
+        "label": "IMPERIAL-COLLEGE-RNA-COVID",
+        "valences": [
+            "VAL135"
+        ],
+        "implicit": [
+            "VAL135",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0676": {
+        "label": "CUREVAC-RNA-COVID",
+        "valences": [
+            "VAL135"
+        ],
+        "implicit": [
+            "VAL135",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0677": {
+        "label": "CHINESE-PLA-ARN-Covid",
+        "valences": [
+            "VAL135"
+        ],
+        "implicit": [
+            "VAL135",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0678": {
+        "label": "Medicago-VLP-Covid",
+        "valences": [
+            "VAL039"
+        ],
+        "implicit": [
+            "VAL039",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0679": {
+        "label": "MEDIGEN-S-2P-CpH1018-COVID",
+        "valences": [
+            "VAL061"
+        ],
+        "implicit": [
+            "VAL061",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0680": {
+        "label": "COVILO SINOPHARM COVID-19 VACCINE",
+        "valences": [
+            "VAL264"
+        ],
+        "implicit": [
+            "VAL264",
+            "VAL076",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0681": {
+        "label": "GRAD-COV2 COVID-19 VACCINE REITHERA",
+        "valences": [
+            "VAL070"
+        ],
+        "implicit": [
+            "VAL070",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0682": {
+        "label": "FLUQUADRI",
+        "valences": [
+            "VAL040"
+        ],
+        "implicit": [
+            "VAL040",
+            "VAL064",
+            "VAL127",
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0683": {
+        "label": "EPIVACCORONA",
+        "valences": [
+            "VAL053"
+        ],
+        "implicit": [
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0684": {
+        "label": "QAZVAC",
+        "valences": [
+            "VAL265"
+        ],
+        "implicit": [
+            "VAL265",
+            "VAL076",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0685": {
+        "label": "VIDPREVTYN BETA",
+        "valences": [
+            "VAL053"
+        ],
+        "implicit": [
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0686": {
+        "label": "MULTI-PEPTIDE-pVAC-COVID",
+        "valences": [
+            "VAL053"
+        ],
+        "implicit": [
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0687": {
+        "label": "UB-612 COVID-19 Vaccine",
+        "valences": [
+            "VAL053"
+        ],
+        "implicit": [
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0688": {
+        "label": "INTRANASAL FLU-BASED RBD DelNS1-2019-nCoV-RBD-OPT1 COVID-19 Vaccine",
+        "valences": [
+            "VAL066"
+        ],
+        "implicit": [
+            "VAL066",
+            "VAL398",
+            "VAL162",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0689": {
+        "label": "CHINESE-RECOMBINANT-Sf9-COVID",
+        "valences": [
+            "VAL053"
+        ],
+        "implicit": [
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0690": {
+        "label": "CHINESE-AD5-NCOV-COVID",
+        "valences": [
+            "VAL050"
+        ],
+        "implicit": [
+            "VAL050",
+            "VAL070",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0691": {
+        "label": "FINLAY-FR-1",
+        "valences": [
+            "VAL053"
+        ],
+        "implicit": [
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0692": {
+        "label": "COVAXX",
+        "valences": [
+            "VAL011"
+        ],
+        "implicit": [
+            "VAL011",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0693": {
+        "label": "VXA-COV2-1-COVID",
+        "valences": [
+            "VAL050"
+        ],
+        "implicit": [
+            "VAL050",
+            "VAL070",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0694": {
+        "label": "LMU-MVA-SARS-2-S-COVID",
+        "valences": [
+            "VAL054"
+        ],
+        "implicit": [
+            "VAL054",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0695": {
+        "label": "RBD-HBsAg-VLPs-Covid",
+        "valences": [
+            "VAL039"
+        ],
+        "implicit": [
+            "VAL039",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0696": {
+        "label": "KCONVAC MINHAI COVID-19 VACCINE",
+        "valences": [
+            "VAL265"
+        ],
+        "implicit": [
+            "VAL265",
+            "VAL076",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0697": {
+        "label": "V590 (COVID-19)",
+        "valences": [
+            "VAL084"
+        ],
+        "implicit": [
+            "VAL084",
+            "VAL398",
+            "VAL162",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0698": {
+        "label": "hAd5-COVID-19",
+        "valences": [
+            "VAL050"
+        ],
+        "implicit": [
+            "VAL050",
+            "VAL070",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0699": {
+        "label": "IIBR's RECOMBINANT VSV-DeltaG-spike VACCINE",
+        "valences": [
+            "VAL084"
+        ],
+        "implicit": [
+            "VAL084",
+            "VAL398",
+            "VAL162",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0701": {
+        "label": "BACTRL-SPIKE",
+        "valences": [
+            "VAL035"
+        ],
+        "implicit": [
+            "VAL035",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0702": {
+        "label": "RRBD PRODUCED IN CHO-CELL CHEMICALLY CONJUGATE TO TETANUS TOXOID",
+        "valences": [
+            "VAL011"
+        ],
+        "implicit": [
+            "VAL011",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0703": {
+        "label": "ADJUVANTED PROTEIN SUBUNIT (RBD)",
+        "valences": [
+            "VAL011"
+        ],
+        "implicit": [
+            "VAL011",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0705": {
+        "label": "INFLUSPLIT TETRA",
+        "valences": [
+            "VAL040"
+        ],
+        "implicit": [
+            "VAL040",
+            "VAL064",
+            "VAL127",
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0706": {
+        "label": "FLUZONE QUADRIVALENT",
+        "valences": [
+            "VAL040"
+        ],
+        "implicit": [
+            "VAL040",
+            "VAL064",
+            "VAL127",
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0707": {
+        "label": "CORONAVIRUS SARS-CoV-2 INACTIVÉ",
+        "valences": [
+            "VAL265"
+        ],
+        "implicit": [
+            "VAL265",
+            "VAL076",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0708": {
+        "label": "CORVAX12",
+        "valences": [
+            "VAL035"
+        ],
+        "implicit": [
+            "VAL035",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0709": {
+        "label": "COVI-VAC",
+        "valences": [
+            "VAL086"
+        ],
+        "implicit": [
+            "VAL086",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0710": {
+        "label": "COVID-19 mRNA VACCINE BNT162b2",
+        "valences": [
+            "VAL290"
+        ],
+        "implicit": [
+            "VAL290",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0711": {
+        "label": "Typhoid conjugate vaccine, unspecified",
+        "valences": [
+            "VAL399"
+        ],
+        "implicit": [
+            "VAL399",
+            "VAL002",
+            "VAL014"
+        ]
+    },
+    "VAC0712": {
+        "label": "Typhoid-hepatitis A vaccine, unspecified",
+        "valences": [
+            "VAL014",
+            "VAL125"
+        ],
+        "implicit": [
+            "VAL014",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0713": {
+        "label": "Typhoid polysaccharide vaccine, unspecified",
+        "valences": [
+            "VAL032"
+        ],
+        "implicit": [
+            "VAL032",
+            "VAL014"
+        ]
+    },
+    "VAC0714": {
+        "label": "VACCIN CONTRE LA COVID-19 (INACTIVE, AVEC ADJUVANT) VALNEVA",
+        "valences": [
+            "VAL264"
+        ],
+        "implicit": [
+            "VAL264",
+            "VAL076",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0715": {
+        "label": "ERUCOV-VAC",
+        "valences": [
+            "VAL265"
+        ],
+        "implicit": [
+            "VAL265",
+            "VAL076",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0716": {
+        "label": "SARS-COV-2-RBD-FC FUSION PROTEIN",
+        "valences": [
+            "VAL011"
+        ],
+        "implicit": [
+            "VAL011",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0717": {
+        "label": "CIGB-669",
+        "valences": [
+            "VAL011"
+        ],
+        "implicit": [
+            "VAL011",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0718": {
+        "label": "CIGB-66",
+        "valences": [
+            "VAL011"
+        ],
+        "implicit": [
+            "VAL011",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0719": {
+        "label": "NANOCOVAX",
+        "valences": [
+            "VAL104"
+        ],
+        "implicit": [
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0720": {
+        "label": "S-268019",
+        "valences": [
+            "VAL104"
+        ],
+        "implicit": [
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0721": {
+        "label": "ADIMRSC-2F",
+        "valences": [
+            "VAL011"
+        ],
+        "implicit": [
+            "VAL011",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0722": {
+        "label": "COVIGENIX VAX-001",
+        "valences": [
+            "VAL035"
+        ],
+        "implicit": [
+            "VAL035",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0723": {
+        "label": "GLS-5310",
+        "valences": [
+            "VAL035"
+        ],
+        "implicit": [
+            "VAL035",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0724": {
+        "label": "CHULACOV19",
+        "valences": [
+            "VAL135"
+        ],
+        "implicit": [
+            "VAL135",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0725": {
+        "label": "COH04S1",
+        "valences": [
+            "VAL054"
+        ],
+        "implicit": [
+            "VAL054",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0726": {
+        "label": "ADCOVID",
+        "valences": [
+            "VAL070"
+        ],
+        "implicit": [
+            "VAL070",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0727": {
+        "label": "ADCLD-COV19",
+        "valences": [
+            "VAL050"
+        ],
+        "implicit": [
+            "VAL050",
+            "VAL070",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0728": {
+        "label": "aAPC COVID-19 VACCINE",
+        "valences": [
+            "VAL073"
+        ],
+        "implicit": [
+            "VAL073",
+            "VAL162",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0729": {
+        "label": "LV-SMENP-DC vaccine",
+        "valences": [
+            "VAL167"
+        ],
+        "implicit": [
+            "VAL167",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0730": {
+        "label": "DENDRITIC CELL AV-COVID-19 VACCINE",
+        "valences": [
+            "VAL073"
+        ],
+        "implicit": [
+            "VAL073",
+            "VAL162",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0731": {
+        "label": "DITANRIX",
+        "valences": [
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL067",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0732": {
+        "label": "COVAC-1 - COVAC-2",
+        "valences": [
+            "VAL104"
+        ],
+        "implicit": [
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0733": {
+        "label": "HEPLISAV-B",
+        "valences": [
+            "VAL115"
+        ],
+        "implicit": [
+            "VAL115",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0734": {
+        "label": "POLIO BOOSTRIX",
+        "valences": [
+            "VAL017",
+            "VAL034",
+            "VAL056",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL017",
+            "VAL034",
+            "VAL056",
+            "VAL067",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL042"
+        ]
+    },
+    "VAC0735": {
+        "label": "POLIOINFANRIX",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0736": {
+        "label": "TRIAXIS POLIO",
+        "valences": [
+            "VAL017",
+            "VAL034",
+            "VAL056",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL017",
+            "VAL034",
+            "VAL056",
+            "VAL067",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL042"
+        ]
+    },
+    "VAC0737": {
+        "label": "GBP510",
+        "valences": [
+            "VAL104"
+        ],
+        "implicit": [
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0739": {
+        "label": "RAZI COV PARS",
+        "valences": [
+            "VAL104"
+        ],
+        "implicit": [
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0740": {
+        "label": "PTX-COVID19-B",
+        "valences": [
+            "VAL135"
+        ],
+        "implicit": [
+            "VAL135",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0741": {
+        "label": "COVID-EVAX",
+        "valences": [
+            "VAL035"
+        ],
+        "implicit": [
+            "VAL035",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0742": {
+        "label": "COVIGEN",
+        "valences": [
+            "VAL035"
+        ],
+        "implicit": [
+            "VAL035",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0743": {
+        "label": "BBV154",
+        "valences": [
+            "VAL070"
+        ],
+        "implicit": [
+            "VAL070",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0744": {
+        "label": "COVID-19 INACTIVATED VACCINE",
+        "valences": [
+            "VAL265"
+        ],
+        "implicit": [
+            "VAL265",
+            "VAL076",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0745": {
+        "label": "MF59 ADJUVANTED SARS-CoV-2 SCLAMP VACCINE",
+        "valences": [
+            "VAL104"
+        ],
+        "implicit": [
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0752": {
+        "label": "COVISHIELD",
+        "valences": [
+            "VAL069"
+        ],
+        "implicit": [
+            "VAL069",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0753": {
+        "label": "INACTIVATED SARS-COV-2 VACCINE FAKHRAVAC (MIVAC)",
+        "valences": [
+            "VAL265"
+        ],
+        "implicit": [
+            "VAL265",
+            "VAL076",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0754": {
+        "label": "INACTIVATED KOCAK-19 INAKTIF ADJUVANT COVID-19 VACCINE",
+        "valences": [
+            "VAL265"
+        ],
+        "implicit": [
+            "VAL265",
+            "VAL076",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0755": {
+        "label": "ADJUVANTED INACTIVATED VACCINE AGAINST SARS-CoV-2",
+        "valences": [
+            "VAL265"
+        ],
+        "implicit": [
+            "VAL265",
+            "VAL076",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0756": {
+        "label": "MV-014-212",
+        "valences": [
+            "VAL086"
+        ],
+        "implicit": [
+            "VAL086",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0757": {
+        "label": "NBP 2001",
+        "valences": [
+            "VAL104"
+        ],
+        "implicit": [
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0758": {
+        "label": "SPFN COVID 19 VACCINE + AFLQ",
+        "valences": [
+            "VAL104"
+        ],
+        "implicit": [
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0759": {
+        "label": "EUCORVAC-19",
+        "valences": [
+            "VAL104"
+        ],
+        "implicit": [
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0760": {
+        "label": "RECOV",
+        "valences": [
+            "VAL011",
+            "VAL104"
+        ],
+        "implicit": [
+            "VAL011",
+            "VAL104",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0761": {
+        "label": "V-01",
+        "valences": [
+            "VAL104"
+        ],
+        "implicit": [
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0762": {
+        "label": "COV2 SAM (LNP) VACCINE",
+        "valences": [
+            "VAL169"
+        ],
+        "implicit": [
+            "VAL169",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0763": {
+        "label": "mRNA-1273.351",
+        "valences": [
+            "VAL135"
+        ],
+        "implicit": [
+            "VAL135",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0764": {
+        "label": "MRT5500",
+        "valences": [
+            "VAL135"
+        ],
+        "implicit": [
+            "VAL135",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0765": {
+        "label": "DS-5670a",
+        "valences": [
+            "VAL135"
+        ],
+        "implicit": [
+            "VAL135",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0766": {
+        "label": "HDT-301",
+        "valences": [
+            "VAL135"
+        ],
+        "implicit": [
+            "VAL135",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0767": {
+        "label": "ChAdV68 SAM-LNP rS-TCE GRITSTONE ONCOLOGY COVID-19 VACCINE",
+        "valences": [
+            "VAL070",
+            "VAL169"
+        ],
+        "implicit": [
+            "VAL070",
+            "VAL169",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0768": {
+        "label": "COVIVAC",
+        "valences": [
+            "VAL101"
+        ],
+        "implicit": [
+            "VAL101",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0769": {
+        "label": "SC-Ad6-1",
+        "valences": [
+            "VAL070"
+        ],
+        "implicit": [
+            "VAL070",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0770": {
+        "label": "NDV-HXP-S",
+        "valences": [
+            "VAL095"
+        ],
+        "implicit": [
+            "VAL095",
+            "VAL398",
+            "VAL162",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0771": {
+        "label": "VBI-2902a",
+        "valences": [
+            "VAL039"
+        ],
+        "implicit": [
+            "VAL039",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0772": {
+        "label": "SARS-CoV-2 VLP Vaccine",
+        "valences": [
+            "VAL039"
+        ],
+        "implicit": [
+            "VAL039",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0773": {
+        "label": "ABNCoV2",
+        "valences": [
+            "VAL039"
+        ],
+        "implicit": [
+            "VAL039",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0774": {
+        "label": "FSME-IMMUN 0,25 mL",
+        "valences": [
+            "VAL315"
+        ],
+        "implicit": [
+            "VAL315",
+            "VAL313",
+            "VAL031"
+        ]
+    },
+    "VAC0775": {
+        "label": "DTwPHib, unspecified",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL103"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL103",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL177"
+        ]
+    },
+    "VAC0776": {
+        "label": "TETRABIK",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0777": {
+        "label": "ADJUPANRIX",
+        "valences": [
+            "VAL051"
+        ],
+        "implicit": [
+            "VAL051",
+            "VAL386"
+        ]
+    },
+    "VAC0778": {
+        "label": "VAXCHORA",
+        "valences": [
+            "VAL124"
+        ],
+        "implicit": [
+            "VAL124",
+            "VAL081"
+        ]
+    },
+    "VAC0779": {
+        "label": "BATREVAC",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0780": {
+        "label": "VAXNEUVANCE",
+        "valences": [
+            "VAL186",
+            "VAL187",
+            "VAL188",
+            "VAL189",
+            "VAL190",
+            "VAL191",
+            "VAL192",
+            "VAL194",
+            "VAL198",
+            "VAL200",
+            "VAL201",
+            "VAL202",
+            "VAL203",
+            "VAL204",
+            "VAL205"
+        ],
+        "implicit": [
+            "VAL186",
+            "VAL187",
+            "VAL188",
+            "VAL189",
+            "VAL190",
+            "VAL191",
+            "VAL192",
+            "VAL194",
+            "VAL198",
+            "VAL200",
+            "VAL201",
+            "VAL202",
+            "VAL203",
+            "VAL204",
+            "VAL205",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105"
+        ]
+    },
+    "VAC0781": {
+        "label": "RABIVAC",
+        "valences": [
+            "VAL259"
+        ],
+        "implicit": [
+            "VAL259",
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC0782": {
+        "label": "RASILVAX",
+        "valences": [
+            "VAL259"
+        ],
+        "implicit": [
+            "VAL259",
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC0783": {
+        "label": "R-COVI",
+        "valences": [
+            "VAL069"
+        ],
+        "implicit": [
+            "VAL069",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0784": {
+        "label": "PERTAGEN",
+        "valences": [
+            "VAL017"
+        ],
+        "implicit": [
+            "VAL017",
+            "VAL117",
+            "VAL003"
+        ]
+    },
+    "VAC0785": {
+        "label": "BOOSTAGEN",
+        "valences": [
+            "VAL017",
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL017",
+            "VAL034",
+            "VAL067",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0786": {
+        "label": "PREVNAR 20",
+        "valences": [
+            "VAL186",
+            "VAL187",
+            "VAL188",
+            "VAL189",
+            "VAL190",
+            "VAL191",
+            "VAL192",
+            "VAL193",
+            "VAL194",
+            "VAL195",
+            "VAL196",
+            "VAL197",
+            "VAL198",
+            "VAL199",
+            "VAL200",
+            "VAL201",
+            "VAL202",
+            "VAL203",
+            "VAL204",
+            "VAL205"
+        ],
+        "implicit": [
+            "VAL186",
+            "VAL187",
+            "VAL188",
+            "VAL189",
+            "VAL190",
+            "VAL191",
+            "VAL192",
+            "VAL193",
+            "VAL194",
+            "VAL195",
+            "VAL196",
+            "VAL197",
+            "VAL198",
+            "VAL199",
+            "VAL200",
+            "VAL201",
+            "VAL202",
+            "VAL203",
+            "VAL204",
+            "VAL205",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105"
+        ]
+    },
+    "VAC0787": {
+        "label": "Diphtheria-Tetanus-Rubella, unspecified",
+        "valences": [
+            "VAL067",
+            "VAL079",
+            "VAL083"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL079",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0788": {
+        "label": "Hib-IPV, unspecified",
+        "valences": [
+            "VAL056",
+            "VAL103"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL103",
+            "VAL042",
+            "VAL177"
+        ]
+    },
+    "VAC0789": {
+        "label": "COMVAC4",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0790": {
+        "label": "Diphtheria-Tetanus-Hepatitis B vaccine, unspecified",
+        "valences": [
+            "VAL067",
+            "VAL083",
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL083",
+            "VAL114",
+            "VAL414",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0791": {
+        "label": "Hexavalent vaccine DTPerHibPHepB - Diphtheria-Tetanus-Pertussis-Polio-Hib-Hepatitis B vaccine, unspecified",
+        "valences": [
+            "VAL003",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL103",
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL003",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL103",
+            "VAL114",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL177",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0792": {
+        "label": "Diphtheria-Tetanus-Pertussis-Polio-Hepatitis B pentavalent vaccine, unspecified",
+        "valences": [
+            "VAL003",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL003",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0793": {
+        "label": "TETADIF",
+        "valences": [
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL067",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0794": {
+        "label": "T-igT, unspecified",
+        "valences": [
+            "VAL067",
+            "VAL110"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL110"
+        ]
+    },
+    "VAC0795": {
+        "label": "Acellular pertussis vaccine, unspecified",
+        "valences": [
+            "VAL117"
+        ],
+        "implicit": [
+            "VAL117",
+            "VAL003"
+        ]
+    },
+    "VAC0796": {
+        "label": "Pertussis vaccine, unspecified",
+        "valences": [
+            "VAL003"
+        ],
+        "implicit": [
+            "VAL003"
+        ]
+    },
+    "VAC0797": {
+        "label": "Diph-T-aP/ap, unspecified",
+        "valences": [
+            "VAL067",
+            "VAL083",
+            "VAL117"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL083",
+            "VAL117",
+            "VAL414",
+            "VAL003"
+        ]
+    },
+    "VAC0798": {
+        "label": "Hib-MeningoC vaccine, unspecified",
+        "valences": [
+            "VAL057",
+            "VAL103"
+        ],
+        "implicit": [
+            "VAL057",
+            "VAL103",
+            "VAL298",
+            "VAL177"
+        ]
+    },
+    "VAC0799": {
+        "label": "DT-Hib vaccine, unspecified",
+        "valences": [
+            "VAL067",
+            "VAL097",
+            "VAL103"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL103",
+            "VAL083",
+            "VAL414",
+            "VAL177"
+        ]
+    },
+    "VAC0800": {
+        "label": "Diphtheria-tetanus-pertussis-Hib vaccine, unspecified",
+        "valences": [
+            "VAL003",
+            "VAL067",
+            "VAL097",
+            "VAL103"
+        ],
+        "implicit": [
+            "VAL003",
+            "VAL067",
+            "VAL097",
+            "VAL103",
+            "VAL083",
+            "VAL414",
+            "VAL177"
+        ]
+    },
+    "VAC0801": {
+        "label": "HepB-Hib, unspecified",
+        "valences": [
+            "VAL103",
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL103",
+            "VAL114",
+            "VAL177",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0802": {
+        "label": "Monovalent oral polio vaccine - type unknown, unspecified",
+        "valences": [
+            "VAL133"
+        ],
+        "implicit": [
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC0803": {
+        "label": "Polio Sabin One and Three GSK",
+        "valences": [
+            "VAL085",
+            "VAL132"
+        ],
+        "implicit": [
+            "VAL085",
+            "VAL132",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC0804": {
+        "label": "Anthrax vaccine, unspecified",
+        "valences": [
+            "VAL340"
+        ],
+        "implicit": [
+            "VAL340"
+        ]
+    },
+    "VAC0805": {
+        "label": "Whole-cell inactivated cholera vaccine, unspecified",
+        "valences": [
+            "VAL004"
+        ],
+        "implicit": [
+            "VAL004",
+            "VAL359",
+            "VAL081"
+        ]
+    },
+    "VAC0806": {
+        "label": "Live attenuated cholera vaccine, unspecified",
+        "valences": [
+            "VAL124"
+        ],
+        "implicit": [
+            "VAL124",
+            "VAL081"
+        ]
+    },
+    "VAC0807": {
+        "label": "Cholera-Typhoid inactivated vaccine, unspecified",
+        "valences": [
+            "VAL004",
+            "VAL071"
+        ],
+        "implicit": [
+            "VAL004",
+            "VAL071",
+            "VAL359",
+            "VAL081",
+            "VAL014"
+        ]
+    },
+    "VAC0808": {
+        "label": "Hib-MenCY, unspecified",
+        "valences": [
+            "VAL057",
+            "VAL078",
+            "VAL103"
+        ],
+        "implicit": [
+            "VAL057",
+            "VAL078",
+            "VAL103",
+            "VAL298",
+            "VAL299",
+            "VAL177"
+        ]
+    },
+    "VAC0809": {
+        "label": "Meningococcal monovalent polysaccharide vaccine, unspecified",
+        "valences": [
+            "VAL119"
+        ],
+        "implicit": [
+            "VAL119",
+            "VAL234"
+        ]
+    },
+    "VAC0810": {
+        "label": "Meningococcal polyvalent polysaccharide vaccine, unspecified",
+        "valences": [
+            "VAL120"
+        ],
+        "implicit": [
+            "VAL120",
+            "VAL234"
+        ]
+    },
+    "VAC0811": {
+        "label": "Meningococcal B vaccine, unspecified",
+        "valences": [
+            "VAL118"
+        ],
+        "implicit": [
+            "VAL118"
+        ]
+    },
+    "VAC0812": {
+        "label": "Inactivated whole plague vaccine, unspecified",
+        "valences": [
+            "VAL131"
+        ],
+        "implicit": [
+            "VAL131",
+            "VAL422"
+        ]
+    },
+    "VAC0813": {
+        "label": "Pneumococcal unconjugated polysaccharide vaccine, unspecified",
+        "valences": [
+            "VAL185"
+        ],
+        "implicit": [
+            "VAL185",
+            "VAL105"
+        ]
+    },
+    "VAC0814": {
+        "label": "Pneumococcal conjugate vaccine, serotypes unspecified",
+        "valences": [
+            "VAL184"
+        ],
+        "implicit": [
+            "VAL184",
+            "VAL105"
+        ]
+    },
+    "VAC0815": {
+        "label": "Pneumo-Hib, unspecified",
+        "valences": [
+            "VAL103",
+            "VAL105"
+        ],
+        "implicit": [
+            "VAL103",
+            "VAL105",
+            "VAL177"
+        ]
+    },
+    "VAC0816": {
+        "label": "PEDATYPH",
+        "valences": [
+            "VAL399"
+        ],
+        "implicit": [
+            "VAL399",
+            "VAL002",
+            "VAL014"
+        ]
+    },
+    "VAC0817": {
+        "label": "Inactivated Typhoid vaccine, unspecified",
+        "valences": [
+            "VAL071"
+        ],
+        "implicit": [
+            "VAL071",
+            "VAL014"
+        ]
+    },
+    "VAC0818": {
+        "label": "Typhoid-Paratyphoid vaccine, unspecified",
+        "valences": [
+            "VAL045",
+            "VAL071"
+        ],
+        "implicit": [
+            "VAL045",
+            "VAL071",
+            "VAL014",
+            "VAL014"
+        ]
+    },
+    "VAC0819": {
+        "label": "Inactivated Japanese Encephalitis vaccine, unspecified",
+        "valences": [
+            "VAL089"
+        ],
+        "implicit": [
+            "VAL089",
+            "VAL249"
+        ]
+    },
+    "VAC0820": {
+        "label": "Inactivated whole influenza vaccine, unspecified",
+        "valences": [
+            "VAL152"
+        ],
+        "implicit": [
+            "VAL152",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0821": {
+        "label": "Inactivated influenza vaccine, split or subunit, unspecified",
+        "valences": [
+            "VAL058"
+        ],
+        "implicit": [
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0822": {
+        "label": "Influenza vaccine, live attenuated, unspecified",
+        "valences": [
+            "VAL140"
+        ],
+        "implicit": [
+            "VAL140",
+            "VAL128"
+        ]
+    },
+    "VAC0823": {
+        "label": "VLP influenza vaccine, unspecified",
+        "valences": [
+            "VAL029"
+        ],
+        "implicit": [
+            "VAL029",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0824": {
+        "label": "Hepatitis A virosome vaccine, unspecified",
+        "valences": [
+            "VAL130"
+        ],
+        "implicit": [
+            "VAL130",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0825": {
+        "label": "Combined hepatitis A and hepatitis B vaccine, unspecified",
+        "valences": [
+            "VAL068",
+            "VAL125"
+        ],
+        "implicit": [
+            "VAL068",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0826": {
+        "label": "MEASLES AND RUBELLA VACCINE SII",
+        "valences": [
+            "VAL005",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL079",
+            "VAL182"
+        ]
+    },
+    "VAC0827": {
+        "label": "MMRV - Measles-Mumps-Rubella-Varicella vaccine, unspecified",
+        "valences": [
+            "VAL005",
+            "VAL044",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL044",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC0828": {
+        "label": "Rotavirus pentavalent vaccine, unspecified",
+        "valences": [
+            "VAL123"
+        ],
+        "implicit": [
+            "VAL123",
+            "VAL106"
+        ]
+    },
+    "VAC0829": {
+        "label": "Rubella-Mumps vaccine, unspecified",
+        "valences": [
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL077",
+            "VAL079",
+            "VAL183"
+        ]
+    },
+    "VAC0830": {
+        "label": "Subunit shingles vaccine, unspecified",
+        "valences": [
+            "VAL159"
+        ],
+        "implicit": [
+            "VAL159",
+            "VAL160"
+        ]
+    },
+    "VAC0831": {
+        "label": "Ebola vaccine, unspecified",
+        "valences": [
+            "VAL126"
+        ],
+        "implicit": [
+            "VAL126"
+        ]
+    },
+    "VAC0832": {
+        "label": "Herpes Simplex vaccine, unspecified",
+        "valences": [
+            "VAL129"
+        ],
+        "implicit": [
+            "VAL129"
+        ]
+    },
+    "VAC0833": {
+        "label": "COMIRNATY 10 µg BIONTECH-PFIZER",
+        "valences": [
+            "VAL289"
+        ],
+        "implicit": [
+            "VAL289",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0835": {
+        "label": "FIOCRUZ COVID-19 VACCINE",
+        "valences": [
+            "VAL069"
+        ],
+        "implicit": [
+            "VAL069",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0836": {
+        "label": "FLUAD TETRA",
+        "valences": [
+            "VAL040"
+        ],
+        "implicit": [
+            "VAL040",
+            "VAL064",
+            "VAL127",
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0837": {
+        "label": "COVOVAX SII",
+        "valences": [
+            "VAL107"
+        ],
+        "implicit": [
+            "VAL107",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0838": {
+        "label": "COVOVAX NOVAVAX",
+        "valences": [
+            "VAL107"
+        ],
+        "implicit": [
+            "VAL107",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0839": {
+        "label": "Inactivated whole-cell brucella vaccine, unspecified",
+        "valences": [
+            "VAL146"
+        ],
+        "implicit": [
+            "VAL146",
+            "VAL006"
+        ]
+    },
+    "VAC0840": {
+        "label": "ADDIGRIP",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0841": {
+        "label": "INFLUVAC 0,25 mL",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0842": {
+        "label": "NEORABIS",
+        "valences": [
+            "VAL260"
+        ],
+        "implicit": [
+            "VAL260",
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC0843": {
+        "label": "NOVIRAB",
+        "valences": [
+            "VAL260"
+        ],
+        "implicit": [
+            "VAL260",
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC0844": {
+        "label": "VERORABVAX",
+        "valences": [
+            "VAL260"
+        ],
+        "implicit": [
+            "VAL260",
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC0845": {
+        "label": "VACCIN POLIOMYELITIQUE ORAL PRODUIT SUR CELLULES VERO MERIEUX",
+        "valences": [
+            "VAL121"
+        ],
+        "implicit": [
+            "VAL121",
+            "VAL042"
+        ]
+    },
+    "VAC0846": {
+        "label": "VACCIN POLIOMYELITIQUE ORAL BIVALENT TYPES 1 et 3",
+        "valences": [
+            "VAL085",
+            "VAL132"
+        ],
+        "implicit": [
+            "VAL085",
+            "VAL132",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC0847": {
+        "label": "VACCIN PNEUMOCOCCIQUE SARBACH",
+        "valences": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL221",
+            "VAL223",
+            "VAL225",
+            "VAL228"
+        ],
+        "implicit": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL221",
+            "VAL223",
+            "VAL225",
+            "VAL228",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105"
+        ]
+    },
+    "VAC0848": {
+        "label": "VACCIN BCG INSTITUT MERIEUX",
+        "valences": [
+            "VAL096"
+        ],
+        "implicit": [
+            "VAL096"
+        ]
+    },
+    "VAC0849": {
+        "label": "Tularemia vaccine, unspecified",
+        "valences": [
+            "VAL151"
+        ],
+        "implicit": [
+            "VAL151"
+        ]
+    },
+    "VAC0850": {
+        "label": "NEISVAC-C",
+        "valences": [
+            "VAL266"
+        ],
+        "implicit": [
+            "VAL266",
+            "VAL057",
+            "VAL298"
+        ]
+    },
+    "VAC0851": {
+        "label": "POLIO SABIN MONO TWO (ORAL) GSK",
+        "valences": [
+            "VAL033"
+        ],
+        "implicit": [
+            "VAL033",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC0852": {
+        "label": "mOPV2 Sabin monovalent oral polio vaccine type 2, unspecified",
+        "valences": [
+            "VAL033"
+        ],
+        "implicit": [
+            "VAL033",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC0853": {
+        "label": "mOPV1 Sabin monovalent oral polio vaccine type 1, unspecified",
+        "valences": [
+            "VAL132"
+        ],
+        "implicit": [
+            "VAL132",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC0854": {
+        "label": "mOPV3 Sabin monovalent oral polio vaccine type 3, unspecified",
+        "valences": [
+            "VAL085"
+        ],
+        "implicit": [
+            "VAL085",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC0855": {
+        "label": "Diphtheria-Tetanus-Polio vaccine, unspecified",
+        "valences": [
+            "VAL056",
+            "VAL067",
+            "VAL083"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL067",
+            "VAL083",
+            "VAL042",
+            "VAL414"
+        ]
+    },
+    "VAC0856": {
+        "label": "DTaPHib vaccine, unspecified",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL103"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL103",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL177"
+        ]
+    },
+    "VAC0857": {
+        "label": "Diphtheria-Tetanus-Pertussis-Hepatitis B vaccine, unspecified",
+        "valences": [
+            "VAL003",
+            "VAL067",
+            "VAL097",
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL003",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0858": {
+        "label": "HPV vaccine bivalent, unspecified",
+        "valences": [
+            "VAL113",
+            "VAL240",
+            "VAL241"
+        ],
+        "implicit": [
+            "VAL113",
+            "VAL240",
+            "VAL241",
+            "VAL237",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082"
+        ]
+    },
+    "VAC0859": {
+        "label": "HPV vaccine quadrivalent, unspecified",
+        "valences": [
+            "VAL052",
+            "VAL238",
+            "VAL239",
+            "VAL240",
+            "VAL241"
+        ],
+        "implicit": [
+            "VAL052",
+            "VAL238",
+            "VAL239",
+            "VAL240",
+            "VAL241",
+            "VAL237",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082"
+        ]
+    },
+    "VAC0860": {
+        "label": "HPV vaccine nonavalent, unspecified",
+        "valences": [
+            "VAL036",
+            "VAL238",
+            "VAL239",
+            "VAL240",
+            "VAL241",
+            "VAL242",
+            "VAL243",
+            "VAL244",
+            "VAL245",
+            "VAL246"
+        ],
+        "implicit": [
+            "VAL036",
+            "VAL238",
+            "VAL239",
+            "VAL240",
+            "VAL241",
+            "VAL242",
+            "VAL243",
+            "VAL244",
+            "VAL245",
+            "VAL246",
+            "VAL237",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082"
+        ]
+    },
+    "VAC0861": {
+        "label": "Multicomponent meningococcal B vaccine, unspecified",
+        "valences": [
+            "VAL161"
+        ],
+        "implicit": [
+            "VAL161",
+            "VAL118"
+        ]
+    },
+    "VAC0862": {
+        "label": "Measles immunoglobulin, unspecified",
+        "valences": [
+            "VAL055"
+        ],
+        "implicit": [
+            "VAL055"
+        ]
+    },
+    "VAC0863": {
+        "label": "Hepatitis B immunoglobulin, unspecified",
+        "valences": [
+            "VAL047"
+        ],
+        "implicit": [
+            "VAL047"
+        ]
+    },
+    "VAC0864": {
+        "label": "Varicella-Zoster immunoglobulin, unspecified",
+        "valences": [
+            "VAL088"
+        ],
+        "implicit": [
+            "VAL088"
+        ]
+    },
+    "VAC0865": {
+        "label": "Polysaccharide meningococcal A vaccine, unspecified",
+        "valences": [
+            "VAL037"
+        ],
+        "implicit": [
+            "VAL037",
+            "VAL297"
+        ]
+    },
+    "VAC0866": {
+        "label": "Meningococcal conjugate vaccine A, unspecified",
+        "valences": [
+            "VAL041"
+        ],
+        "implicit": [
+            "VAL041",
+            "VAL297"
+        ]
+    },
+    "VAC0867": {
+        "label": "Diphtheria antitoxin, unspecified",
+        "valences": [
+            "VAL019"
+        ],
+        "implicit": [
+            "VAL019",
+            "VAL414"
+        ]
+    },
+    "VAC0868": {
+        "label": "MENPOVAX A",
+        "valences": [
+            "VAL037"
+        ],
+        "implicit": [
+            "VAL037",
+            "VAL297"
+        ]
+    },
+    "VAC0869": {
+        "label": "MENPOVAX C",
+        "valences": [
+            "VAL137"
+        ],
+        "implicit": [
+            "VAL137",
+            "VAL298"
+        ]
+    },
+    "VAC0870": {
+        "label": "TYPBAR",
+        "valences": [
+            "VAL399"
+        ],
+        "implicit": [
+            "VAL399",
+            "VAL002",
+            "VAL014"
+        ]
+    },
+    "VAC0871": {
+        "label": "SUPEMTEK TETRA",
+        "valences": [
+            "VAL112"
+        ],
+        "implicit": [
+            "VAL112",
+            "VAL360",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0872": {
+        "label": "INFLUPOZZI SUBUNITA",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0873": {
+        "label": "INFLUPOZZI ADIUVATO",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0874": {
+        "label": "INNOFLU",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0875": {
+        "label": "PANDEMIC INFLUENZA VACCINE H5N1 ASTRAZENECA",
+        "valences": [
+            "VAL051"
+        ],
+        "implicit": [
+            "VAL051",
+            "VAL386"
+        ]
+    },
+    "VAC0876": {
+        "label": "CINQUERIX",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0877": {
+        "label": "INFANRIX HEPB",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0878": {
+        "label": "TRITANRIX",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0879": {
+        "label": "ACELLUVAX",
+        "valences": [
+            "VAL008"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL117",
+            "VAL003"
+        ]
+    },
+    "VAC0880": {
+        "label": "Pentavalent Diphtheria-Tetanus-Pertussis-Hib-Polio (DTPerHibIPV) vaccine, unspecified",
+        "valences": [
+            "VAL003",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL103"
+        ],
+        "implicit": [
+            "VAL003",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL103",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL177"
+        ]
+    },
+    "VAC0881": {
+        "label": "Live attenuated Japanese Encephalitis vaccine, unspecified",
+        "valences": [
+            "VAL248"
+        ],
+        "implicit": [
+            "VAL248",
+            "VAL249"
+        ]
+    },
+    "VAC0882": {
+        "label": "CANDID 1",
+        "valences": [
+            "VAL173"
+        ],
+        "implicit": [
+            "VAL173",
+            "VAL421"
+        ]
+    },
+    "VAC0883": {
+        "label": "ENTEROVACCINO TIFICO SCLAVO",
+        "valences": [
+            "VAL071"
+        ],
+        "implicit": [
+            "VAL071",
+            "VAL014"
+        ]
+    },
+    "VAC0884": {
+        "label": "DIF-PER-TET-ALL CHIRON",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0885": {
+        "label": "INFLUPOZZI ZONALE",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0886": {
+        "label": "MONO OPV1",
+        "valences": [
+            "VAL132"
+        ],
+        "implicit": [
+            "VAL132",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC0887": {
+        "label": "POLIORAL",
+        "valences": [
+            "VAL033",
+            "VAL085",
+            "VAL132"
+        ],
+        "implicit": [
+            "VAL033",
+            "VAL085",
+            "VAL132",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC0888": {
+        "label": "QUATTVAXEM",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL154"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL154",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0889": {
+        "label": "MONO OPV3",
+        "valences": [
+            "VAL085"
+        ],
+        "implicit": [
+            "VAL085",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC0890": {
+        "label": "NEOTYF",
+        "valences": [
+            "VAL091"
+        ],
+        "implicit": [
+            "VAL091",
+            "VAL014"
+        ]
+    },
+    "VAC0891": {
+        "label": "PNEUMOPUR",
+        "valences": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL215",
+            "VAL216",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL220",
+            "VAL222",
+            "VAL223",
+            "VAL224",
+            "VAL225",
+            "VAL226",
+            "VAL227",
+            "VAL228",
+            "VAL229"
+        ],
+        "implicit": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL215",
+            "VAL216",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL220",
+            "VAL222",
+            "VAL223",
+            "VAL224",
+            "VAL225",
+            "VAL226",
+            "VAL227",
+            "VAL228",
+            "VAL229",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105"
+        ]
+    },
+    "VAC0892": {
+        "label": "POLIOVAX-IN",
+        "valences": [
+            "VAL056"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL042"
+        ]
+    },
+    "VAC0893": {
+        "label": "VACCINO ANTICOLERICO SCLAVO",
+        "valences": [
+            "VAL081"
+        ],
+        "implicit": [
+            "VAL081"
+        ]
+    },
+    "VAC0894": {
+        "label": "Adenovirus vaccine, unspecified",
+        "valences": [
+            "VAL278"
+        ],
+        "implicit": [
+            "VAL278"
+        ]
+    },
+    "VAC0895": {
+        "label": "Venezuelan Equine Encephalitis Vaccine, Unspecified",
+        "valences": [
+            "VAL171"
+        ],
+        "implicit": [
+            "VAL171"
+        ]
+    },
+    "VAC0896": {
+        "label": "Q fever vaccine, unspecified",
+        "valences": [
+            "VAL172"
+        ],
+        "implicit": [
+            "VAL172"
+        ]
+    },
+    "VAC0897": {
+        "label": "Hantavirus vaccine, unspecified",
+        "valences": [
+            "VAL174"
+        ],
+        "implicit": [
+            "VAL174"
+        ]
+    },
+    "VAC0898": {
+        "label": "Leishmaniasis vaccine, unspecified",
+        "valences": [
+            "VAL175"
+        ],
+        "implicit": [
+            "VAL175"
+        ]
+    },
+    "VAC0899": {
+        "label": "Human Parainfluenza Virus Vaccine, unspecified",
+        "valences": [
+            "VAL176"
+        ],
+        "implicit": [
+            "VAL176"
+        ]
+    },
+    "VAC0900": {
+        "label": "PREVENAR 20",
+        "valences": [
+            "VAL186",
+            "VAL187",
+            "VAL188",
+            "VAL189",
+            "VAL190",
+            "VAL191",
+            "VAL192",
+            "VAL193",
+            "VAL194",
+            "VAL195",
+            "VAL196",
+            "VAL197",
+            "VAL198",
+            "VAL199",
+            "VAL200",
+            "VAL201",
+            "VAL202",
+            "VAL203",
+            "VAL204",
+            "VAL205"
+        ],
+        "implicit": [
+            "VAL186",
+            "VAL187",
+            "VAL188",
+            "VAL189",
+            "VAL190",
+            "VAL191",
+            "VAL192",
+            "VAL193",
+            "VAL194",
+            "VAL195",
+            "VAL196",
+            "VAL197",
+            "VAL198",
+            "VAL199",
+            "VAL200",
+            "VAL201",
+            "VAL202",
+            "VAL203",
+            "VAL204",
+            "VAL205",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105"
+        ]
+    },
+    "VAC0901": {
+        "label": "MENCEVAX ACW",
+        "valences": [
+            "VAL037",
+            "VAL137",
+            "VAL138"
+        ],
+        "implicit": [
+            "VAL037",
+            "VAL137",
+            "VAL138",
+            "VAL297",
+            "VAL298",
+            "VAL300"
+        ]
+    },
+    "VAC0902": {
+        "label": "Rabies vaccine Semple type, unspecified",
+        "valences": [
+            "VAL254"
+        ],
+        "implicit": [
+            "VAL254",
+            "VAL256",
+            "VAL080"
+        ]
+    },
+    "VAC0903": {
+        "label": "Rabies vaccine Fuenzalida type, unspecified",
+        "valences": [
+            "VAL255"
+        ],
+        "implicit": [
+            "VAL255",
+            "VAL256",
+            "VAL080"
+        ]
+    },
+    "VAC0904": {
+        "label": "Rabies duck embryo vaccine, unspecified",
+        "valences": [
+            "VAL263"
+        ],
+        "implicit": [
+            "VAL263",
+            "VAL262",
+            "VAL080"
+        ]
+    },
+    "VAC0905": {
+        "label": "Rabies vaccine PHKCV, unspecified",
+        "valences": [
+            "VAL261"
+        ],
+        "implicit": [
+            "VAL261",
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC0906": {
+        "label": "Shingles vaccine, unspecified",
+        "valences": [
+            "VAL160"
+        ],
+        "implicit": [
+            "VAL160"
+        ]
+    },
+    "VAC0907": {
+        "label": "Vaccine against adenovirus type 4, unspecified",
+        "valences": [
+            "VAL282"
+        ],
+        "implicit": [
+            "VAL282"
+        ]
+    },
+    "VAC0908": {
+        "label": "Vaccine against adenovirus type 7, unspecified",
+        "valences": [
+            "VAL281"
+        ],
+        "implicit": [
+            "VAL281"
+        ]
+    },
+    "VAC0909": {
+        "label": "Botulinum antitoxin",
+        "valences": [
+            "VAL063"
+        ],
+        "implicit": [
+            "VAL063",
+            "VAL420",
+            "VAL419"
+        ]
+    },
+    "VAC0910": {
+        "label": "Inactivated hepatitis A vaccine, adult dose, unspecified",
+        "valences": [
+            "VAL144"
+        ],
+        "implicit": [
+            "VAL144",
+            "VAL284",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0911": {
+        "label": "Hepatitis A whole inactivated vaccine, monovalent, pediatric dose, unspecified",
+        "valences": [
+            "VAL142"
+        ],
+        "implicit": [
+            "VAL142",
+            "VAL283",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0912": {
+        "label": "Hepatitis A vaccine, pediatric dose, unspecified",
+        "valences": [
+            "VAL283"
+        ],
+        "implicit": [
+            "VAL283",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0913": {
+        "label": "BIMERVAX",
+        "valences": [
+            "VAL011"
+        ],
+        "implicit": [
+            "VAL011",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0914": {
+        "label": "Hepatitis B vaccine, monovalent, pediatric dose, unspecified",
+        "valences": [
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL114",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0915": {
+        "label": "Hepatitis B vaccine, monovalent, adult dose, unspecified",
+        "valences": [
+            "VAL115"
+        ],
+        "implicit": [
+            "VAL115",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0916": {
+        "label": "Hepatitis B vaccine, monovalent, dialysis patient dosage, unspecified",
+        "valences": [
+            "VAL012"
+        ],
+        "implicit": [
+            "VAL012",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC0917": {
+        "label": "Hepatitis E vaccine, unspecified",
+        "valences": [
+            "VAL102"
+        ],
+        "implicit": [
+            "VAL102"
+        ]
+    },
+    "VAC0918": {
+        "label": "PRP-D Hib vaccine, unspecified",
+        "valences": [
+            "VAL153"
+        ],
+        "implicit": [
+            "VAL153",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0919": {
+        "label": "Hib hbOC vaccine, unspecified",
+        "valences": [
+            "VAL154"
+        ],
+        "implicit": [
+            "VAL154",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0920": {
+        "label": "Diphtheria-tetanus Td vaccine, unspecified",
+        "valences": [
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL067",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0921": {
+        "label": "Japanese encephalitis vaccine, unspecified",
+        "valences": [
+            "VAL249"
+        ],
+        "implicit": [
+            "VAL249"
+        ]
+    },
+    "VAC0922": {
+        "label": "Live attenuated adenovirus vaccine, type 4 and type 7, oral",
+        "valences": [
+            "VAL281",
+            "VAL282"
+        ],
+        "implicit": [
+            "VAL281",
+            "VAL282"
+        ]
+    },
+    "VAC0923": {
+        "label": "Respiratory Syncytial Virus monoclonal antibody, unspecified",
+        "valences": [
+            "VAL320"
+        ],
+        "implicit": [
+            "VAL320",
+            "VAL317",
+            "VAL338"
+        ]
+    },
+    "VAC0924": {
+        "label": "FLUZONE INTRADERMAL",
+        "valences": [
+            "VAL023"
+        ],
+        "implicit": [
+            "VAL023",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0925": {
+        "label": "Trivalent inactivated influenza vaccine, unspecified",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0926": {
+        "label": "FLUCELVAX",
+        "valences": [
+            "VAL285"
+        ],
+        "implicit": [
+            "VAL285",
+            "VAL360",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0927": {
+        "label": "COVID-19 mRNA vaccine, paediatric dose, unspecified",
+        "valences": [
+            "VAL289"
+        ],
+        "implicit": [
+            "VAL289",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC0928": {
+        "label": "Live attenuated Hepatitis A vaccine, unspecified",
+        "valences": [
+            "VAL286"
+        ],
+        "implicit": [
+            "VAL286",
+            "VAL288"
+        ]
+    },
+    "VAC0929": {
+        "label": "Influenza quadrivalent inactivated vaccine, pediatric dose, unspecified",
+        "valences": [
+            "VAL279"
+        ],
+        "implicit": [
+            "VAL279",
+            "VAL064",
+            "VAL127",
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0930": {
+        "label": "AD5-NCOV COVID-19 INHALATION VACCINE",
+        "valences": [
+            "VAL319"
+        ],
+        "implicit": [
+            "VAL319",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0931": {
+        "label": "FLUBLOK QUADRIVALENT",
+        "valences": [
+            "VAL287"
+        ],
+        "implicit": [
+            "VAL287",
+            "VAL361",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0932": {
+        "label": "Quadrivalent recombinant influenza vaccine, unspecified",
+        "valences": [
+            "VAL287"
+        ],
+        "implicit": [
+            "VAL287",
+            "VAL361",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0933": {
+        "label": "TICOVAC 2,7µg",
+        "valences": [
+            "VAL314"
+        ],
+        "implicit": [
+            "VAL314",
+            "VAL313",
+            "VAL031"
+        ]
+    },
+    "VAC0934": {
+        "label": "VACCIN OREILLONS AVENTIS PASTEUR MSD",
+        "valences": [
+            "VAL077"
+        ],
+        "implicit": [
+            "VAL077",
+            "VAL183"
+        ]
+    },
+    "VAC0935": {
+        "label": "VACCIN RABIQUE INACTIVE MERIEUX",
+        "valences": [
+            "VAL260"
+        ],
+        "implicit": [
+            "VAL260",
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC0936": {
+        "label": "VACCIN PNEUMOCOCCIQUE POLYOSIDIQUE AVENTIS PASTEUR MSD",
+        "valences": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL215",
+            "VAL216",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL220",
+            "VAL222",
+            "VAL223",
+            "VAL224",
+            "VAL225",
+            "VAL226",
+            "VAL227",
+            "VAL228",
+            "VAL229"
+        ],
+        "implicit": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL215",
+            "VAL216",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL220",
+            "VAL222",
+            "VAL223",
+            "VAL224",
+            "VAL225",
+            "VAL226",
+            "VAL227",
+            "VAL228",
+            "VAL229",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105"
+        ]
+    },
+    "VAC0937": {
+        "label": "Botulism vaccine, unspecified",
+        "valences": [
+            "VAL280"
+        ],
+        "implicit": [
+            "VAL280",
+            "VAL419"
+        ]
+    },
+    "VAC0938": {
+        "label": "Quadrivalent influenza vaccine, unspecified",
+        "valences": [
+            "VAL040"
+        ],
+        "implicit": [
+            "VAL040",
+            "VAL064",
+            "VAL127",
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0939": {
+        "label": "PREHEVBRIO",
+        "valences": [
+            "VAL291"
+        ],
+        "implicit": [
+            "VAL291",
+            "VAL068"
+        ]
+    },
+    "VAC0940": {
+        "label": "SPUTNIK-LIGHT",
+        "valences": [
+            "VAL292"
+        ],
+        "implicit": [
+            "VAL292",
+            "VAL070",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC0941": {
+        "label": "Immunoglobulin against anthrax, unspecified",
+        "valences": [
+            "VAL293"
+        ],
+        "implicit": [
+            "VAL293"
+        ]
+    },
+    "VAC0942": {
+        "label": "Chicken embryo rabies vaccine, unspecified",
+        "valences": [
+            "VAL259"
+        ],
+        "implicit": [
+            "VAL259",
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC0943": {
+        "label": "Rabies vaccine diploid cells, unspecified",
+        "valences": [
+            "VAL258"
+        ],
+        "implicit": [
+            "VAL258",
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC0944": {
+        "label": "Inactivated whole virion oral cholera vaccine, unspecified",
+        "valences": [
+            "VAL021"
+        ],
+        "implicit": [
+            "VAL021",
+            "VAL359",
+            "VAL081"
+        ]
+    },
+    "VAC0945": {
+        "label": "Meningococcal vaccine serogroup unknown, unspecified",
+        "valences": [
+            "VAL234"
+        ],
+        "implicit": [
+            "VAL234"
+        ]
+    },
+    "VAC0946": {
+        "label": "TYPHIDRALL",
+        "valences": [
+            "VAL045",
+            "VAL071"
+        ],
+        "implicit": [
+            "VAL045",
+            "VAL071",
+            "VAL014",
+            "VAL014"
+        ]
+    },
+    "VAC0947": {
+        "label": "IMMU-PHILUS",
+        "valences": [
+            "VAL155"
+        ],
+        "implicit": [
+            "VAL155",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0948": {
+        "label": "BACITHRAX",
+        "valences": [
+            "VAL415"
+        ],
+        "implicit": [
+            "VAL415",
+            "VAL111",
+            "VAL340"
+        ]
+    },
+    "VAC0949": {
+        "label": "IMOVAX BCG",
+        "valences": [
+            "VAL096"
+        ],
+        "implicit": [
+            "VAL096"
+        ]
+    },
+    "VAC0950": {
+        "label": "IMOVAX DTP",
+        "valences": [
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0951": {
+        "label": "IMOVAX POLIO ORALE",
+        "valences": [
+            "VAL033",
+            "VAL085",
+            "VAL132"
+        ],
+        "implicit": [
+            "VAL033",
+            "VAL085",
+            "VAL132",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC0952": {
+        "label": "IMOVAX COLERA",
+        "valences": [
+            "VAL004"
+        ],
+        "implicit": [
+            "VAL004",
+            "VAL359",
+            "VAL081"
+        ]
+    },
+    "VAC0953": {
+        "label": "PROCOMVAX",
+        "valences": [
+            "VAL114",
+            "VAL155"
+        ],
+        "implicit": [
+            "VAL114",
+            "VAL155",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC0954": {
+        "label": "JAPANESE ENCEPHALITIS VACCINE",
+        "valences": [
+            "VAL250"
+        ],
+        "implicit": [
+            "VAL250",
+            "VAL089",
+            "VAL249"
+        ]
+    },
+    "VAC0955": {
+        "label": "PULMOVAX",
+        "valences": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL215",
+            "VAL216",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL220",
+            "VAL222",
+            "VAL223",
+            "VAL224",
+            "VAL225",
+            "VAL226",
+            "VAL227",
+            "VAL228",
+            "VAL229"
+        ],
+        "implicit": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL215",
+            "VAL216",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL220",
+            "VAL222",
+            "VAL223",
+            "VAL224",
+            "VAL225",
+            "VAL226",
+            "VAL227",
+            "VAL228",
+            "VAL229",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105"
+        ]
+    },
+    "VAC0956": {
+        "label": "VACCINO COLERICO BERNA",
+        "valences": [
+            "VAL004"
+        ],
+        "implicit": [
+            "VAL004",
+            "VAL359",
+            "VAL081"
+        ]
+    },
+    "VAC0957": {
+        "label": "VACCINO BCG BERNA",
+        "valences": [
+            "VAL096"
+        ],
+        "implicit": [
+            "VAL096"
+        ]
+    },
+    "VAC0958": {
+        "label": "ADIUGRIP",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0959": {
+        "label": "STREPTOPUR",
+        "valences": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL215",
+            "VAL216",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL220",
+            "VAL222",
+            "VAL223",
+            "VAL224",
+            "VAL225",
+            "VAL226",
+            "VAL227",
+            "VAL228",
+            "VAL229"
+        ],
+        "implicit": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL215",
+            "VAL216",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL220",
+            "VAL222",
+            "VAL223",
+            "VAL224",
+            "VAL225",
+            "VAL226",
+            "VAL227",
+            "VAL228",
+            "VAL229",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105"
+        ]
+    },
+    "VAC0960": {
+        "label": "VIATIM",
+        "valences": [
+            "VAL032",
+            "VAL125"
+        ],
+        "implicit": [
+            "VAL032",
+            "VAL125",
+            "VAL014",
+            "VAL288"
+        ]
+    },
+    "VAC0961": {
+        "label": "ANATOXAL TE N",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0962": {
+        "label": "ANATOXAL DI TE N ADULT",
+        "valences": [
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL067",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0963": {
+        "label": "ANATOXAL DI TE PER",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0964": {
+        "label": "ANATOXAL DI",
+        "valences": [
+            "VAL034"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0965": {
+        "label": "ANATOXAL TE TAB",
+        "valences": [
+            "VAL045",
+            "VAL067",
+            "VAL071"
+        ],
+        "implicit": [
+            "VAL045",
+            "VAL067",
+            "VAL071",
+            "VAL014",
+            "VAL014"
+        ]
+    },
+    "VAC0966": {
+        "label": "JYNNEOS",
+        "valences": [
+            "VAL296"
+        ],
+        "implicit": [
+            "VAL296",
+            "VAL028",
+            "VAL022",
+            "VAL418"
+        ]
+    },
+    "VAC0967": {
+        "label": "HEPASOMA",
+        "valences": [
+            "VAL130"
+        ],
+        "implicit": [
+            "VAL130",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC0968": {
+        "label": "INFLEXAL V",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0969": {
+        "label": "LYSSAVAC N BERNA",
+        "valences": [
+            "VAL260"
+        ],
+        "implicit": [
+            "VAL260",
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC0970": {
+        "label": "TETATOX",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0971": {
+        "label": "VACCINO ANTIVAIOLOSO LANCY",
+        "valences": [
+            "VAL294"
+        ],
+        "implicit": [
+            "VAL294",
+            "VAL022",
+            "VAL418"
+        ]
+    },
+    "VAC0972": {
+        "label": "VIROFLUSOMA",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0973": {
+        "label": "VIROFLU",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0974": {
+        "label": "MENCEVAX AC",
+        "valences": [
+            "VAL037",
+            "VAL137"
+        ],
+        "implicit": [
+            "VAL037",
+            "VAL137",
+            "VAL297",
+            "VAL298"
+        ]
+    },
+    "VAC0975": {
+        "label": "PERTURIX",
+        "valences": [
+            "VAL008"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL117",
+            "VAL003"
+        ]
+    },
+    "VAC0976": {
+        "label": "VACCINO ANTICOLERICO ISI",
+        "valences": [
+            "VAL081"
+        ],
+        "implicit": [
+            "VAL081"
+        ]
+    },
+    "VAC0977": {
+        "label": "ENTEROVACCINO ISI",
+        "valences": [
+            "VAL071"
+        ],
+        "implicit": [
+            "VAL071",
+            "VAL014"
+        ]
+    },
+    "VAC0978": {
+        "label": "VAC.DIFTO TETANO ISI",
+        "valences": [
+            "VAL067",
+            "VAL083"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0979": {
+        "label": "VACCINO ANTITETANICO ISI",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0980": {
+        "label": "VAC.DPT ISI",
+        "valences": [
+            "VAL067",
+            "VAL083",
+            "VAL117"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL083",
+            "VAL117",
+            "VAL414",
+            "VAL003"
+        ]
+    },
+    "VAC0981": {
+        "label": "VACCINO PERTOSSE ISI",
+        "valences": [
+            "VAL003"
+        ],
+        "implicit": [
+            "VAL003"
+        ]
+    },
+    "VAC0982": {
+        "label": "VACCINO TIFICO ISI",
+        "valences": [
+            "VAL014"
+        ],
+        "implicit": [
+            "VAL014"
+        ]
+    },
+    "VAC0983": {
+        "label": "VACCINO ANTIPOL ISI",
+        "valences": [
+            "VAL056"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL042"
+        ]
+    },
+    "VAC0984": {
+        "label": "VACCINO ANTIVAIOLOSO ISI",
+        "valences": [
+            "VAL294"
+        ],
+        "implicit": [
+            "VAL294",
+            "VAL022",
+            "VAL418"
+        ]
+    },
+    "VAC0985": {
+        "label": "VACCINO TAB TE ISI",
+        "valences": [
+            "VAL045",
+            "VAL067",
+            "VAL071"
+        ],
+        "implicit": [
+            "VAL045",
+            "VAL067",
+            "VAL071",
+            "VAL014",
+            "VAL014"
+        ]
+    },
+    "VAC0986": {
+        "label": "H ATETAL ISI",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0987": {
+        "label": "TANRIX",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC0988": {
+        "label": "VACCINO MENINGOCOCCICO POLISACCARIDICO TETRAVALENTE GSK",
+        "valences": [
+            "VAL037",
+            "VAL137",
+            "VAL138",
+            "VAL139"
+        ],
+        "implicit": [
+            "VAL037",
+            "VAL137",
+            "VAL138",
+            "VAL139",
+            "VAL297",
+            "VAL298",
+            "VAL300",
+            "VAL299"
+        ]
+    },
+    "VAC0989": {
+        "label": "HANTAVAX",
+        "valences": [
+            "VAL174"
+        ],
+        "implicit": [
+            "VAL174"
+        ]
+    },
+    "VAC0990": {
+        "label": "ALPHARIX",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0991": {
+        "label": "FLULAVAL QUADRIVALENT",
+        "valences": [
+            "VAL040"
+        ],
+        "implicit": [
+            "VAL040",
+            "VAL064",
+            "VAL127",
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0992": {
+        "label": "AFLURIA QUADRIVALENT",
+        "valences": [
+            "VAL040"
+        ],
+        "implicit": [
+            "VAL040",
+            "VAL064",
+            "VAL127",
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC0993": {
+        "label": "TD ADSORBED",
+        "valences": [
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL067",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC0994": {
+        "label": "VARIVAX II",
+        "valences": [
+            "VAL044"
+        ],
+        "implicit": [
+            "VAL044"
+        ]
+    },
+    "VAC0995": {
+        "label": "IMVAMUNE",
+        "valences": [
+            "VAL296"
+        ],
+        "implicit": [
+            "VAL296",
+            "VAL028",
+            "VAL022",
+            "VAL418"
+        ]
+    },
+    "VAC0996": {
+        "label": "ACAM2000",
+        "valences": [
+            "VAL295"
+        ],
+        "implicit": [
+            "VAL295",
+            "VAL022",
+            "VAL418"
+        ]
+    },
+    "VAC0997": {
+        "label": "Pneumococcal 13-valent conjugate vaccine, unspecified",
+        "valences": [
+            "VAL186",
+            "VAL187",
+            "VAL188",
+            "VAL189",
+            "VAL190",
+            "VAL191",
+            "VAL192",
+            "VAL194",
+            "VAL198",
+            "VAL200",
+            "VAL201",
+            "VAL202",
+            "VAL204"
+        ],
+        "implicit": [
+            "VAL186",
+            "VAL187",
+            "VAL188",
+            "VAL189",
+            "VAL190",
+            "VAL191",
+            "VAL192",
+            "VAL194",
+            "VAL198",
+            "VAL200",
+            "VAL201",
+            "VAL202",
+            "VAL204",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105"
+        ]
+    },
+    "VAC0998": {
+        "label": "LC16",
+        "valences": [
+            "VAL018"
+        ],
+        "implicit": [
+            "VAL018",
+            "VAL028",
+            "VAL022",
+            "VAL418"
+        ]
+    },
+    "VAC0999": {
+        "label": "WETVAX APSV",
+        "valences": [
+            "VAL294"
+        ],
+        "implicit": [
+            "VAL294",
+            "VAL022",
+            "VAL418"
+        ]
+    },
+    "VAC1000": {
+        "label": "VACV VACCINIA VIRUS LISTER ELSTREE",
+        "valences": [
+            "VAL294"
+        ],
+        "implicit": [
+            "VAL294",
+            "VAL022",
+            "VAL418"
+        ]
+    },
+    "VAC1001": {
+        "label": "V4020 VEEV VACCINE",
+        "valences": [
+            "VAL171"
+        ],
+        "implicit": [
+            "VAL171"
+        ]
+    },
+    "VAC1002": {
+        "label": "Q-VAX",
+        "valences": [
+            "VAL172"
+        ],
+        "implicit": [
+            "VAL172"
+        ]
+    },
+    "VAC1003": {
+        "label": "TEDIVAX PRO ADULTO",
+        "valences": [
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL067",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1004": {
+        "label": "TEDIVAX",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1005": {
+        "label": "REVAC-B PLUS ADULT VACCINE",
+        "valences": [
+            "VAL115"
+        ],
+        "implicit": [
+            "VAL115",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1006": {
+        "label": "SHANVAC B",
+        "valences": [
+            "VAL115"
+        ],
+        "implicit": [
+            "VAL115",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1007": {
+        "label": "ISTIVAC4",
+        "valences": [
+            "VAL040"
+        ],
+        "implicit": [
+            "VAL040",
+            "VAL064",
+            "VAL127",
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1008": {
+        "label": "DITEMER",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1009": {
+        "label": "TETAMER",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC1010": {
+        "label": "TRIAMER",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1011": {
+        "label": "DITEKIBOOSTER",
+        "valences": [
+            "VAL017",
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL017",
+            "VAL034",
+            "VAL067",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1012": {
+        "label": "PICOVAX",
+        "valences": [
+            "VAL056"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL042"
+        ]
+    },
+    "VAC1013": {
+        "label": "FLUBLOK TRIVALENT",
+        "valences": [
+            "VAL301"
+        ],
+        "implicit": [
+            "VAL301",
+            "VAL361",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1014": {
+        "label": "PROVARIVAX",
+        "valences": [
+            "VAL044"
+        ],
+        "implicit": [
+            "VAL044"
+        ]
+    },
+    "VAC1015": {
+        "label": "COMBIVAX",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1016": {
+        "label": "IDFLU",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1017": {
+        "label": "SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.1 (50 µg/50 µg)/mL MULTIDOSE MODERNA",
+        "valences": [
+            "VAL302",
+            "VAL412"
+        ],
+        "implicit": [
+            "VAL302",
+            "VAL412",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157",
+            "VAL393",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1018": {
+        "label": "NOORA VACCINE",
+        "valences": [
+            "VAL011"
+        ],
+        "implicit": [
+            "VAL011",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1019": {
+        "label": "SPIKEVAX 0,1 mg/mL MODERNA",
+        "valences": [
+            "VAL302"
+        ],
+        "implicit": [
+            "VAL302",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1020": {
+        "label": "VACCIN HEPATITE A AVENTIS PASTEUR MSD",
+        "valences": [
+            "VAL144"
+        ],
+        "implicit": [
+            "VAL144",
+            "VAL284",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC1021": {
+        "label": "COMIRNATY ORIGINAL/OMICRON BA.1 (15/15 µg) BIONTECH-PFIZER",
+        "valences": [
+            "VAL304",
+            "VAL305"
+        ],
+        "implicit": [
+            "VAL304",
+            "VAL305",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157",
+            "VAL393",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1022": {
+        "label": "COMIRNATY 3 µg 6 MOIS-4 ANS BIONTECH-PFIZER",
+        "valences": [
+            "VAL306"
+        ],
+        "implicit": [
+            "VAL306",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1023": {
+        "label": "COMIRNATY ORIGINAL/OMICRON BA.4-5 (15/15 µg) BIONTECH-PFIZER",
+        "valences": [
+            "VAL304",
+            "VAL307"
+        ],
+        "implicit": [
+            "VAL304",
+            "VAL307",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157",
+            "VAL394",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1024": {
+        "label": "SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.4-5 (50 µg/50 µg)/mL MODERNA",
+        "valences": [
+            "VAL302",
+            "VAL411"
+        ],
+        "implicit": [
+            "VAL302",
+            "VAL411",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157",
+            "VAL394",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1025": {
+        "label": "CORBEVAX",
+        "valences": [
+            "VAL104"
+        ],
+        "implicit": [
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1026": {
+        "label": "SOBERANA 02 FINLAY-FR-2 COVID-19 VACCINE",
+        "valences": [
+            "VAL011"
+        ],
+        "implicit": [
+            "VAL011",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1027": {
+        "label": "KOVIVAC CHUMAKOV COVID-19 VACCINE",
+        "valences": [
+            "VAL076"
+        ],
+        "implicit": [
+            "VAL076",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1028": {
+        "label": "RECOMBIVAX HB DIALYSÉ",
+        "valences": [
+            "VAL012"
+        ],
+        "implicit": [
+            "VAL012",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1029": {
+        "label": "QUINTANRIX",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1030": {
+        "label": "GEMCOVAC-19",
+        "valences": [
+            "VAL135"
+        ],
+        "implicit": [
+            "VAL135",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1031": {
+        "label": "SPIKEVAX 50 µg MONODOSE MODERNA",
+        "valences": [
+            "VAL302"
+        ],
+        "implicit": [
+            "VAL302",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1032": {
+        "label": "SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.1 (25 µg/25 µg) MODERNA",
+        "valences": [
+            "VAL178",
+            "VAL181"
+        ],
+        "implicit": [
+            "VAL178",
+            "VAL181",
+            "VAL393",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1033": {
+        "label": "COMIRNATY ORIGINAL/OMICRON BA.4-5 (5/5 µg) BIONTECH-PFIZER",
+        "valences": [
+            "VAL309",
+            "VAL310"
+        ],
+        "implicit": [
+            "VAL309",
+            "VAL310",
+            "VAL394",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1034": {
+        "label": "HEBERBIOVAC B 10 µg",
+        "valences": [
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL114",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1035": {
+        "label": "HEBERBIOVAC HB 20 µg",
+        "valences": [
+            "VAL115"
+        ],
+        "implicit": [
+            "VAL115",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1036": {
+        "label": "SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.4-5 25 µg/25 µg MODERNA",
+        "valences": [
+            "VAL181",
+            "VAL308"
+        ],
+        "implicit": [
+            "VAL181",
+            "VAL308",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157",
+            "VAL394",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1037": {
+        "label": "Tick-borne encephalitis vaccine, Neudörfl strain, paediatric dose, unspecified",
+        "valences": [
+            "VAL315"
+        ],
+        "implicit": [
+            "VAL315",
+            "VAL313",
+            "VAL031"
+        ]
+    },
+    "VAC1038": {
+        "label": "Tick-borne encephalitis vaccine, Neudörfl strain, adult dose, unspecified",
+        "valences": [
+            "VAL314"
+        ],
+        "implicit": [
+            "VAL314",
+            "VAL313",
+            "VAL031"
+        ]
+    },
+    "VAC1039": {
+        "label": "COVID-19 mRNA vaccine, original virus, 50 µg, unspecified",
+        "valences": [
+            "VAL302"
+        ],
+        "implicit": [
+            "VAL302",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1040": {
+        "label": "AREXVY",
+        "valences": [
+            "VAL316"
+        ],
+        "implicit": [
+            "VAL316",
+            "VAL318",
+            "VAL338"
+        ]
+    },
+    "VAC1041": {
+        "label": "COVID-19 mRNA vaccine, unspecified",
+        "valences": [
+            "VAL168"
+        ],
+        "implicit": [
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1042": {
+        "label": "COVID-19 vaccine, non-replicating viral vector, unspecified",
+        "valences": [
+            "VAL163"
+        ],
+        "implicit": [
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC1043": {
+        "label": "COVID-19 vaccine, protein subunit, unspecified",
+        "valences": [
+            "VAL053"
+        ],
+        "implicit": [
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1044": {
+        "label": "COVID-19 vaccine, whole virion inactivated, unspecified",
+        "valences": [
+            "VAL076"
+        ],
+        "implicit": [
+            "VAL076",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1045": {
+        "label": "INFANRIX-IPV/HIB",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1046": {
+        "label": "BEYFORTUS 50 MG (NIRSEVIMAB)",
+        "valences": [
+            "VAL321"
+        ],
+        "implicit": [
+            "VAL321",
+            "VAL320",
+            "VAL317",
+            "VAL338"
+        ]
+    },
+    "VAC1047": {
+        "label": "ABRYSVO",
+        "valences": [
+            "VAL322"
+        ],
+        "implicit": [
+            "VAL322",
+            "VAL318",
+            "VAL338"
+        ]
+    },
+    "VAC1048": {
+        "label": "DECAVAC",
+        "valences": [
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL067",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1049": {
+        "label": "TDVAX",
+        "valences": [
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL067",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1050": {
+        "label": "BEYFORTUS 100 MG (NIRSEVIMAB)",
+        "valences": [
+            "VAL321"
+        ],
+        "implicit": [
+            "VAL321",
+            "VAL320",
+            "VAL317",
+            "VAL338"
+        ]
+    },
+    "VAC1051": {
+        "label": "PFIZER COMIRNATY-30 XBB.1.5",
+        "valences": [
+            "VAL323"
+        ],
+        "implicit": [
+            "VAL323",
+            "VAL396",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1052": {
+        "label": "PFIZER COMIRNATY-10 XBB.1.5",
+        "valences": [
+            "VAL324"
+        ],
+        "implicit": [
+            "VAL324",
+            "VAL396",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1053": {
+        "label": "PFIZER COMIRNATY-3 XBB.1.5",
+        "valences": [
+            "VAL325"
+        ],
+        "implicit": [
+            "VAL325",
+            "VAL396",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1054": {
+        "label": "COMIRNATY ORIGINAL/OMICRON BA.4-5 (1,5/1,5 µg)",
+        "valences": [
+            "VAL326",
+            "VAL327"
+        ],
+        "implicit": [
+            "VAL326",
+            "VAL327",
+            "VAL394",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1055": {
+        "label": "NUVAXOVID XBB.1.5",
+        "valences": [
+            "VAL328"
+        ],
+        "implicit": [
+            "VAL328",
+            "VAL107",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1056": {
+        "label": "R21/MATRIX-M",
+        "valences": [
+            "VAL311"
+        ],
+        "implicit": [
+            "VAL311",
+            "VAL025"
+        ]
+    },
+    "VAC1057": {
+        "label": "ENGERIX B JUNIOR",
+        "valences": [
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL114",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1058": {
+        "label": "SPIKEVAX XBB.1.5 0,1 mg/mL dose 50 µg MODERNA",
+        "valences": [
+            "VAL329"
+        ],
+        "implicit": [
+            "VAL329",
+            "VAL396",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1059": {
+        "label": "SPIKEVAX XBB.1.5 0,1 mg/mL dose 25 µg MODERNA",
+        "valences": [
+            "VAL330"
+        ],
+        "implicit": [
+            "VAL330",
+            "VAL396",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1060": {
+        "label": "SPIKEVAX XBB.1.5 50 µg MODERNA",
+        "valences": [
+            "VAL329"
+        ],
+        "implicit": [
+            "VAL329",
+            "VAL396",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1061": {
+        "label": "PENBRAYA",
+        "valences": [
+            "VAL072",
+            "VAL266",
+            "VAL271",
+            "VAL272",
+            "VAL276"
+        ],
+        "implicit": [
+            "VAL072",
+            "VAL266",
+            "VAL271",
+            "VAL272",
+            "VAL276",
+            "VAL161",
+            "VAL118",
+            "VAL057",
+            "VAL298",
+            "VAL041",
+            "VAL297",
+            "VAL136",
+            "VAL300",
+            "VAL078",
+            "VAL299"
+        ]
+    },
+    "VAC1062": {
+        "label": "CMV immune globulin",
+        "valences": [
+            "VAL331"
+        ],
+        "implicit": [
+            "VAL331"
+        ]
+    },
+    "VAC1063": {
+        "label": "Hepatitis C vaccine, unspecified",
+        "valences": [
+            "VAL332"
+        ],
+        "implicit": [
+            "VAL332"
+        ]
+    },
+    "VAC1064": {
+        "label": "HIV vaccine, unspecified",
+        "valences": [
+            "VAL333"
+        ],
+        "implicit": [
+            "VAL333"
+        ]
+    },
+    "VAC1065": {
+        "label": "Leprosy vaccine",
+        "valences": [
+            "VAL384"
+        ],
+        "implicit": [
+            "VAL384"
+        ]
+    },
+    "VAC1066": {
+        "label": "Melanoma vaccine, unspecified",
+        "valences": [
+            "VAL334"
+        ],
+        "implicit": [
+            "VAL334"
+        ]
+    },
+    "VAC1067": {
+        "label": "Streptococcus pyogenes vaccine, unspecified",
+        "valences": [
+            "VAL335"
+        ],
+        "implicit": [
+            "VAL335"
+        ]
+    },
+    "VAC1068": {
+        "label": "Rift Valley fever vaccine, unspecified",
+        "valences": [
+            "VAL336"
+        ],
+        "implicit": [
+            "VAL336"
+        ]
+    },
+    "VAC1069": {
+        "label": "Vaccinia immune globulin",
+        "valences": [
+            "VAL337"
+        ],
+        "implicit": [
+            "VAL337",
+            "VAL418"
+        ]
+    },
+    "VAC1070": {
+        "label": "FLUZONE HIGH-DOSE QUADRIVALENT SOUTHERN HEMISPHERE",
+        "valences": [
+            "VAL074"
+        ],
+        "implicit": [
+            "VAL074",
+            "VAL064",
+            "VAL127",
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1071": {
+        "label": "RSV antibody or vaccine, unspecified",
+        "valences": [
+            "VAL338"
+        ],
+        "implicit": [
+            "VAL338"
+        ]
+    },
+    "VAC1072": {
+        "label": "COVID-19 mRNA vaccine, original virus, 25 µg, unspecified",
+        "valences": [
+            "VAL181"
+        ],
+        "implicit": [
+            "VAL181",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1073": {
+        "label": "Lyme disease vaccine, unspecified",
+        "valences": [
+            "VAL339"
+        ],
+        "implicit": [
+            "VAL339"
+        ]
+    },
+    "VAC1074": {
+        "label": "CYFENDUS",
+        "valences": [
+            "VAL415"
+        ],
+        "implicit": [
+            "VAL415",
+            "VAL111",
+            "VAL340"
+        ]
+    },
+    "VAC1075": {
+        "label": "Acellular anthrax vaccine, unspecified",
+        "valences": [
+            "VAL111"
+        ],
+        "implicit": [
+            "VAL111",
+            "VAL340"
+        ]
+    },
+    "VAC1076": {
+        "label": "UROMUNE (MV 140)",
+        "valences": [
+            "VAL341",
+            "VAL342",
+            "VAL343",
+            "VAL344"
+        ],
+        "implicit": [
+            "VAL341",
+            "VAL342",
+            "VAL343",
+            "VAL344",
+            "VAL345",
+            "VAL345",
+            "VAL345",
+            "VAL345"
+        ]
+    },
+    "VAC1077": {
+        "label": "ENVAX-A71",
+        "valences": [
+            "VAL346"
+        ],
+        "implicit": [
+            "VAL346"
+        ]
+    },
+    "VAC1078": {
+        "label": "ENVACGEN",
+        "valences": [
+            "VAL346"
+        ],
+        "implicit": [
+            "VAL346"
+        ]
+    },
+    "VAC1079": {
+        "label": "VAX-SPIRAL",
+        "valences": [
+            "VAL075",
+            "VAL347",
+            "VAL348"
+        ],
+        "implicit": [
+            "VAL075",
+            "VAL347",
+            "VAL348"
+        ]
+    },
+    "VAC1080": {
+        "label": "COVAXIN",
+        "valences": [
+            "VAL265"
+        ],
+        "implicit": [
+            "VAL265",
+            "VAL076",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1081": {
+        "label": "BAYGAM",
+        "valences": [
+            "VAL044",
+            "VAL079",
+            "VAL182",
+            "VAL288"
+        ],
+        "implicit": [
+            "VAL044",
+            "VAL079",
+            "VAL182",
+            "VAL288"
+        ]
+    },
+    "VAC1082": {
+        "label": "BAYHEP B",
+        "valences": [
+            "VAL047"
+        ],
+        "implicit": [
+            "VAL047"
+        ]
+    },
+    "VAC1083": {
+        "label": "BAYRAB",
+        "valences": [
+            "VAL252"
+        ],
+        "implicit": [
+            "VAL252",
+            "VAL016"
+        ]
+    },
+    "VAC1084": {
+        "label": "BAYTET",
+        "valences": [
+            "VAL110"
+        ],
+        "implicit": [
+            "VAL110"
+        ]
+    },
+    "VAC1085": {
+        "label": "MYCOBAX",
+        "valences": [
+            "VAL096"
+        ],
+        "implicit": [
+            "VAL096"
+        ]
+    },
+    "VAC1086": {
+        "label": "PNEUMUNE",
+        "valences": [
+            "VAL186",
+            "VAL187",
+            "VAL188",
+            "VAL189",
+            "VAL191",
+            "VAL192",
+            "VAL193",
+            "VAL194",
+            "VAL195",
+            "VAL196",
+            "VAL197",
+            "VAL198",
+            "VAL199",
+            "VAL200",
+            "VAL201",
+            "VAL202",
+            "VAL203",
+            "VAL204",
+            "VAL205",
+            "VAL353",
+            "VAL354",
+            "VAL355",
+            "VAL356"
+        ],
+        "implicit": [
+            "VAL186",
+            "VAL187",
+            "VAL188",
+            "VAL189",
+            "VAL191",
+            "VAL192",
+            "VAL193",
+            "VAL194",
+            "VAL195",
+            "VAL196",
+            "VAL197",
+            "VAL198",
+            "VAL199",
+            "VAL200",
+            "VAL201",
+            "VAL202",
+            "VAL203",
+            "VAL204",
+            "VAL205",
+            "VAL353",
+            "VAL354",
+            "VAL355",
+            "VAL356",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105"
+        ]
+    },
+    "VAC1087": {
+        "label": "HYPERTET",
+        "valences": [
+            "VAL110"
+        ],
+        "implicit": [
+            "VAL110"
+        ]
+    },
+    "VAC1088": {
+        "label": "HYPERRAB",
+        "valences": [
+            "VAL252"
+        ],
+        "implicit": [
+            "VAL252",
+            "VAL016"
+        ]
+    },
+    "VAC1089": {
+        "label": "HYPERHEP B",
+        "valences": [
+            "VAL047"
+        ],
+        "implicit": [
+            "VAL047"
+        ]
+    },
+    "VAC1090": {
+        "label": "MENZB",
+        "valences": [
+            "VAL026"
+        ],
+        "implicit": [
+            "VAL026",
+            "VAL118"
+        ]
+    },
+    "VAC1091": {
+        "label": "VARIZIG",
+        "valences": [
+            "VAL088"
+        ],
+        "implicit": [
+            "VAL088"
+        ]
+    },
+    "VAC1092": {
+        "label": "KAMRAB",
+        "valences": [
+            "VAL252"
+        ],
+        "implicit": [
+            "VAL252",
+            "VAL016"
+        ]
+    },
+    "VAC1093": {
+        "label": "HEPAGAM",
+        "valences": [
+            "VAL047"
+        ],
+        "implicit": [
+            "VAL047"
+        ]
+    },
+    "VAC1094": {
+        "label": "OROCHOL",
+        "valences": [
+            "VAL357"
+        ],
+        "implicit": [
+            "VAL357",
+            "VAL124",
+            "VAL081"
+        ]
+    },
+    "VAC1095": {
+        "label": "MVA85A",
+        "valences": [
+            "VAL096"
+        ],
+        "implicit": [
+            "VAL096"
+        ]
+    },
+    "VAC1096": {
+        "label": "MORCVAX",
+        "valences": [
+            "VAL021"
+        ],
+        "implicit": [
+            "VAL021",
+            "VAL359",
+            "VAL081"
+        ]
+    },
+    "VAC1097": {
+        "label": "CYTOGAM",
+        "valences": [
+            "VAL331"
+        ],
+        "implicit": [
+            "VAL331"
+        ]
+    },
+    "VAC1098": {
+        "label": "XANAFLU",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1099": {
+        "label": "BABYBIG",
+        "valences": [
+            "VAL358"
+        ],
+        "implicit": [
+            "VAL358",
+            "VAL420",
+            "VAL419"
+        ]
+    },
+    "VAC1100": {
+        "label": "BOTULISM ANTITOXIN BEHRING",
+        "valences": [
+            "VAL063"
+        ],
+        "implicit": [
+            "VAL063",
+            "VAL420",
+            "VAL419"
+        ]
+    },
+    "VAC1101": {
+        "label": "DOTARICIN",
+        "valences": [
+            "VAL058"
+        ],
+        "implicit": [
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1102": {
+        "label": "HIB-IMMUNE",
+        "valences": [
+            "VAL049"
+        ],
+        "implicit": [
+            "VAL049",
+            "VAL177"
+        ]
+    },
+    "VAC1103": {
+        "label": "HIB-VAX",
+        "valences": [
+            "VAL049"
+        ],
+        "implicit": [
+            "VAL049",
+            "VAL177"
+        ]
+    },
+    "VAC1104": {
+        "label": "DIPHTHERIA ANTITOXIN B.P.",
+        "valences": [
+            "VAL019"
+        ],
+        "implicit": [
+            "VAL019",
+            "VAL414"
+        ]
+    },
+    "VAC1105": {
+        "label": "BAT EMERGENT BIOSOLUTIONS",
+        "valences": [
+            "VAL063"
+        ],
+        "implicit": [
+            "VAL063",
+            "VAL420",
+            "VAL419"
+        ]
+    },
+    "VAC1106": {
+        "label": "COVID-19 VLP vaccine, unspecified",
+        "valences": [
+            "VAL039"
+        ],
+        "implicit": [
+            "VAL039",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1107": {
+        "label": "Whole inactivated Cholera vaccine, unspecified",
+        "valences": [
+            "VAL359"
+        ],
+        "implicit": [
+            "VAL359",
+            "VAL081"
+        ]
+    },
+    "VAC1108": {
+        "label": "COVID-19 bivalent mRNA vaccine, original virus + Omicron BA.1 variant, unspecified",
+        "valences": [
+            "VAL303",
+            "VAL393"
+        ],
+        "implicit": [
+            "VAL303",
+            "VAL393",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1109": {
+        "label": "ACW unconjugated meningococcal vaccine, unspecified",
+        "valences": [
+            "VAL037",
+            "VAL137",
+            "VAL138"
+        ],
+        "implicit": [
+            "VAL037",
+            "VAL137",
+            "VAL138",
+            "VAL297",
+            "VAL298",
+            "VAL300"
+        ]
+    },
+    "VAC1110": {
+        "label": "Meningococcal C vaccine unconjugated, unspecified",
+        "valences": [
+            "VAL137"
+        ],
+        "implicit": [
+            "VAL137",
+            "VAL298"
+        ]
+    },
+    "VAC1111": {
+        "label": "Japanese Encephalitis Vaccine, whole inactivated, prepared on Vero cells, unspecified",
+        "valences": [
+            "VAL251"
+        ],
+        "implicit": [
+            "VAL251",
+            "VAL089",
+            "VAL249"
+        ]
+    },
+    "VAC1112": {
+        "label": "Live attenuated quadrivalent influenza vaccine, unspecified",
+        "valences": [
+            "VAL059"
+        ],
+        "implicit": [
+            "VAL059",
+            "VAL140",
+            "VAL128"
+        ]
+    },
+    "VAC1113": {
+        "label": "COVID-19 protein subunit vaccine, recombinant spike protein, unspecified",
+        "valences": [
+            "VAL104"
+        ],
+        "implicit": [
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1114": {
+        "label": "Vaccine against typhoid fever and hepatitis A, unspecified",
+        "valences": [
+            "VAL032",
+            "VAL125"
+        ],
+        "implicit": [
+            "VAL032",
+            "VAL125",
+            "VAL014",
+            "VAL288"
+        ]
+    },
+    "VAC1115": {
+        "label": "Pentavalent vaccine DTPaHibP - Diphtheria-Tetanus-Pertussis-Hib PRP-Polio, unspecified",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1116": {
+        "label": "Rabies vaccine, whole inactivated, prepared in Vero cell culture, unspecified",
+        "valences": [
+            "VAL260"
+        ],
+        "implicit": [
+            "VAL260",
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC1117": {
+        "label": "COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 5 micrograms, unspecified",
+        "valences": [
+            "VAL309",
+            "VAL310"
+        ],
+        "implicit": [
+            "VAL309",
+            "VAL310",
+            "VAL394",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1118": {
+        "label": "Enterovirus A71 vaccine, unspecified",
+        "valences": [
+            "VAL346"
+        ],
+        "implicit": [
+            "VAL346"
+        ]
+    },
+    "VAC1119": {
+        "label": "COVID-19 inactivated vaccine, whole virus, authorized, unspecified",
+        "valences": [
+            "VAL264"
+        ],
+        "implicit": [
+            "VAL264",
+            "VAL076",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1120": {
+        "label": "Trivalent leptospirosis vaccine, unspecified",
+        "valences": [
+            "VAL075",
+            "VAL347",
+            "VAL348"
+        ],
+        "implicit": [
+            "VAL075",
+            "VAL347",
+            "VAL348"
+        ]
+    },
+    "VAC1121": {
+        "label": "Hexavalent vaccine DTPaHibPHepB - Diphtheria-Tetanus-Pertussis-Hib-Polio-Hepatitis B 10µg, unspecified",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1122": {
+        "label": "1st generation live smallpox vaccine, unspecified",
+        "valences": [
+            "VAL294"
+        ],
+        "implicit": [
+            "VAL294",
+            "VAL022",
+            "VAL418"
+        ]
+    },
+    "VAC1123": {
+        "label": "Live attenuated trivalent influenza vaccine, unspecified",
+        "valences": [
+            "VAL001"
+        ],
+        "implicit": [
+            "VAL001",
+            "VAL140",
+            "VAL128"
+        ]
+    },
+    "VAC1124": {
+        "label": "Inactivated whole virus COVID-19 vaccine, in clinical trial, unspecified",
+        "valences": [
+            "VAL265"
+        ],
+        "implicit": [
+            "VAL265",
+            "VAL076",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1125": {
+        "label": "Hepatitis B vaccine, unspecified",
+        "valences": [
+            "VAL068"
+        ],
+        "implicit": [
+            "VAL068"
+        ]
+    },
+    "VAC1126": {
+        "label": "Pentavalent DTP Hib vaccine - Diphtheria-Tetanus-Pertussis-Hib PRP-Polio, unspecified",
+        "valences": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1127": {
+        "label": "Immunoglobulin against hepatitis A, measles, chickenpox and rubella, unspecified",
+        "valences": [
+            "VAL044",
+            "VAL079",
+            "VAL182",
+            "VAL288"
+        ],
+        "implicit": [
+            "VAL044",
+            "VAL079",
+            "VAL182",
+            "VAL288"
+        ]
+    },
+    "VAC1128": {
+        "label": "COVID-19 plasmid DNA vaccine, unspecified",
+        "valences": [
+            "VAL035"
+        ],
+        "implicit": [
+            "VAL035",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1129": {
+        "label": "COVID-19 protein subunit vaccine, recombinant spike protein in nanoparticles, unspecified",
+        "valences": [
+            "VAL107"
+        ],
+        "implicit": [
+            "VAL107",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1130": {
+        "label": "Trivalent inactivated seasonal influenza vaccine and tetanus toxoid, unspecified",
+        "valences": [
+            "VAL015",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL067",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1131": {
+        "label": "17-valent unconjugated pneumococcal vaccine, unspecified",
+        "valences": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL221",
+            "VAL222",
+            "VAL223",
+            "VAL225",
+            "VAL228",
+            "VAL232",
+            "VAL233"
+        ],
+        "implicit": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL221",
+            "VAL222",
+            "VAL223",
+            "VAL225",
+            "VAL228",
+            "VAL232",
+            "VAL233",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105"
+        ]
+    },
+    "VAC1132": {
+        "label": "COVID-19 bivalent mRNA vaccine, original virus + Omicron BA.4/5 variant, 1.5 micrograms, unspecified",
+        "valences": [
+            "VAL326",
+            "VAL327"
+        ],
+        "implicit": [
+            "VAL326",
+            "VAL327",
+            "VAL394",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1133": {
+        "label": "Meningococcal ACWY polysaccharide conjugate vaccine, unspecified",
+        "valences": [
+            "VAL268",
+            "VAL269",
+            "VAL274",
+            "VAL275"
+        ],
+        "implicit": [
+            "VAL268",
+            "VAL269",
+            "VAL274",
+            "VAL275",
+            "VAL057",
+            "VAL298",
+            "VAL041",
+            "VAL297",
+            "VAL136",
+            "VAL300",
+            "VAL078",
+            "VAL299"
+        ]
+    },
+    "VAC1134": {
+        "label": "Live attenuated vaccine against Argentine hemorrhagic fever, Junin virus, unspecified",
+        "valences": [
+            "VAL173"
+        ],
+        "implicit": [
+            "VAL173",
+            "VAL421"
+        ]
+    },
+    "VAC1135": {
+        "label": "COVID-19 Plasmid DNA vaccine with non-replicating viral vector, adenovirus encoding the spike protein of SARS-CoV-2, by inhalation, unspecified",
+        "valences": [
+            "VAL319"
+        ],
+        "implicit": [
+            "VAL319",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC1136": {
+        "label": "23-valent Pneumococcus conjugate vaccine, unspecified",
+        "valences": [
+            "VAL186",
+            "VAL187",
+            "VAL188",
+            "VAL189",
+            "VAL191",
+            "VAL192",
+            "VAL193",
+            "VAL194",
+            "VAL195",
+            "VAL196",
+            "VAL197",
+            "VAL198",
+            "VAL199",
+            "VAL200",
+            "VAL201",
+            "VAL202",
+            "VAL203",
+            "VAL204",
+            "VAL205",
+            "VAL353",
+            "VAL354",
+            "VAL355",
+            "VAL356"
+        ],
+        "implicit": [
+            "VAL186",
+            "VAL187",
+            "VAL188",
+            "VAL189",
+            "VAL191",
+            "VAL192",
+            "VAL193",
+            "VAL194",
+            "VAL195",
+            "VAL196",
+            "VAL197",
+            "VAL198",
+            "VAL199",
+            "VAL200",
+            "VAL201",
+            "VAL202",
+            "VAL203",
+            "VAL204",
+            "VAL205",
+            "VAL353",
+            "VAL354",
+            "VAL355",
+            "VAL356",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105"
+        ]
+    },
+    "VAC1137": {
+        "label": "Whole inactivated tick-borne encephalitis vaccine, strain K23, unspecified",
+        "valences": [
+            "VAL312"
+        ],
+        "implicit": [
+            "VAL312",
+            "VAL031"
+        ]
+    },
+    "VAC1138": {
+        "label": "COVID-19 recombinant protein subunit vaccine",
+        "valences": [
+            "VAL011"
+        ],
+        "implicit": [
+            "VAL011",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1139": {
+        "label": "COVID-19 vaccine, non-replicating vector, Newcastle disease virus encoding the SARS-CoV-2 spike protein, unspecified",
+        "valences": [
+            "VAL101"
+        ],
+        "implicit": [
+            "VAL101",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC1140": {
+        "label": "COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 25 micrograms, unspecified",
+        "valences": [
+            "VAL181",
+            "VAL308"
+        ],
+        "implicit": [
+            "VAL181",
+            "VAL308",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157",
+            "VAL394",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1141": {
+        "label": "Bird Flu H5N8 Vaccine, unspecified",
+        "valences": [
+            "VAL385"
+        ],
+        "implicit": [
+            "VAL385",
+            "VAL386"
+        ]
+    },
+    "VAC1142": {
+        "label": "COVID-19 vaccine, non-replicating vector, antigen-presenting cells, unspecified",
+        "valences": [
+            "VAL167"
+        ],
+        "implicit": [
+            "VAL167",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC1143": {
+        "label": "COVID-19 vaccine with non-replicating viral vector, adenovirus encoding the spike protein of SARS-CoV-2, unspecified",
+        "valences": [
+            "VAL070"
+        ],
+        "implicit": [
+            "VAL070",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC1144": {
+        "label": "COVID-19 protein subunit vaccine, recombinant SARS-CoV-2 spike protein, S-2P and CpG1018, unspecified",
+        "valences": [
+            "VAL061"
+        ],
+        "implicit": [
+            "VAL061",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1145": {
+        "label": "Recombinant hepatitis B vaccine, three antigens, unspecified",
+        "valences": [
+            "VAL291"
+        ],
+        "implicit": [
+            "VAL291",
+            "VAL068"
+        ]
+    },
+    "VAC1146": {
+        "label": "Inactivated quadrivalent influenza vaccine, high dose, unspecified",
+        "valences": [
+            "VAL074"
+        ],
+        "implicit": [
+            "VAL074",
+            "VAL064",
+            "VAL127",
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1147": {
+        "label": "Human monoclonal antibody against respiratory syncytial virus (RSV), nirsevimab, unspecified",
+        "valences": [
+            "VAL321"
+        ],
+        "implicit": [
+            "VAL321",
+            "VAL320",
+            "VAL317",
+            "VAL338"
+        ]
+    },
+    "VAC1148": {
+        "label": "Haemophilus influenzae type b vaccine, unconjugated polysaccharide, unspecified",
+        "valences": [
+            "VAL049"
+        ],
+        "implicit": [
+            "VAL049",
+            "VAL177"
+        ]
+    },
+    "VAC1149": {
+        "label": "Oral live attenuated cholera vaccine, unspecified",
+        "valences": [
+            "VAL357"
+        ],
+        "implicit": [
+            "VAL357",
+            "VAL124",
+            "VAL081"
+        ]
+    },
+    "VAC1150": {
+        "label": "COVID-19 mRNA vaccine encoding the spike protein of SARS-CoV-2, original virus, 30 micrograms, unspecified",
+        "valences": [
+            "VAL290"
+        ],
+        "implicit": [
+            "VAL290",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1151": {
+        "label": "Quadrivalent DTPeP vaccine - Diphtheria-Tetanus-Pertussis-Polio, unspecified",
+        "valences": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1152": {
+        "label": "Meningococcal B vaccine containing fHbp of subfamilies A and B, unspecified",
+        "valences": [
+            "VAL072"
+        ],
+        "implicit": [
+            "VAL072",
+            "VAL161",
+            "VAL118"
+        ]
+    },
+    "VAC1153": {
+        "label": "Quadrivalent meningococcal ACWY vaccine, diphtheria toxoid conjugate, unspecified",
+        "valences": [
+            "VAL267",
+            "VAL270",
+            "VAL273",
+            "VAL277"
+        ],
+        "implicit": [
+            "VAL267",
+            "VAL270",
+            "VAL273",
+            "VAL277",
+            "VAL057",
+            "VAL298",
+            "VAL041",
+            "VAL297",
+            "VAL136",
+            "VAL300",
+            "VAL078",
+            "VAL299"
+        ]
+    },
+    "VAC1154": {
+        "label": "Whole inactivated mumps vaccine, unspecified",
+        "valences": [
+            "VAL048"
+        ],
+        "implicit": [
+            "VAL048",
+            "VAL183"
+        ]
+    },
+    "VAC1155": {
+        "label": "Plasma hepatitis B vaccine, unspecified",
+        "valences": [
+            "VAL158"
+        ],
+        "implicit": [
+            "VAL158",
+            "VAL068"
+        ]
+    },
+    "VAC1156": {
+        "label": "Immunoglobulin against botulism, unspecified",
+        "valences": [
+            "VAL358"
+        ],
+        "implicit": [
+            "VAL358",
+            "VAL420",
+            "VAL419"
+        ]
+    },
+    "VAC1157": {
+        "label": "3rd generation smallpox vaccine, modified Ankara vaccinia virus, unspecified",
+        "valences": [
+            "VAL296"
+        ],
+        "implicit": [
+            "VAL296",
+            "VAL028",
+            "VAL022",
+            "VAL418"
+        ]
+    },
+    "VAC1158": {
+        "label": "COVID-19 mRNA vaccine against the Omicron XBB.1.5 variant, 3 micrograms, unspecified",
+        "valences": [
+            "VAL325"
+        ],
+        "implicit": [
+            "VAL325",
+            "VAL396",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1159": {
+        "label": "Recombinant trivalent influenza vaccine, unspecified",
+        "valences": [
+            "VAL301"
+        ],
+        "implicit": [
+            "VAL301",
+            "VAL361",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1160": {
+        "label": "2nd generation live smallpox vaccine, unspecified",
+        "valences": [
+            "VAL295"
+        ],
+        "implicit": [
+            "VAL295",
+            "VAL022",
+            "VAL418"
+        ]
+    },
+    "VAC1161": {
+        "label": "Quadrivalent DTPeP vaccine - Diphtheria-Tetanus-Pertussis-Hib PRP, unspecified",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1162": {
+        "label": "COVID-19 mRNA vaccine, bivalent, original virus and Omicron BA.1 variant, 15 micrograms, unspecified",
+        "valences": [
+            "VAL304",
+            "VAL305"
+        ],
+        "implicit": [
+            "VAL304",
+            "VAL305",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157",
+            "VAL393",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1163": {
+        "label": "20-valent Pneumococcus conjugate vaccine, unspecified",
+        "valences": [
+            "VAL186",
+            "VAL187",
+            "VAL188",
+            "VAL189",
+            "VAL190",
+            "VAL191",
+            "VAL192",
+            "VAL193",
+            "VAL194",
+            "VAL195",
+            "VAL196",
+            "VAL197",
+            "VAL198",
+            "VAL199",
+            "VAL200",
+            "VAL201",
+            "VAL202",
+            "VAL203",
+            "VAL204",
+            "VAL205"
+        ],
+        "implicit": [
+            "VAL186",
+            "VAL187",
+            "VAL188",
+            "VAL189",
+            "VAL190",
+            "VAL191",
+            "VAL192",
+            "VAL193",
+            "VAL194",
+            "VAL195",
+            "VAL196",
+            "VAL197",
+            "VAL198",
+            "VAL199",
+            "VAL200",
+            "VAL201",
+            "VAL202",
+            "VAL203",
+            "VAL204",
+            "VAL205",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105"
+        ]
+    },
+    "VAC1164": {
+        "label": "Quadrivalent DTPaHib- Diphtheria-Tetanus-Pertussis-Hib PRP vaccine, unspecified",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1165": {
+        "label": "Diphtheria toxoid, standard dose, unspecified",
+        "valences": [
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1166": {
+        "label": "COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, currently in clinical trial, unspecified",
+        "valences": [
+            "VAL135"
+        ],
+        "implicit": [
+            "VAL135",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1167": {
+        "label": "Acellular Pertussis Vaccine, unspecified",
+        "valences": [
+            "VAL008"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL117",
+            "VAL003"
+        ]
+    },
+    "VAC1168": {
+        "label": "Quadrivalent DTPeHib- Diphtheria-Tetanus-Pertussis-Hib OC vaccine, unspecified",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL154"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL154",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1169": {
+        "label": "COVID-19 Bivalent mRNA vaccine, original virus + Omicron BA.4/5 variant, 15 micrograms, unspecified",
+        "valences": [
+            "VAL304",
+            "VAL307"
+        ],
+        "implicit": [
+            "VAL304",
+            "VAL307",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157",
+            "VAL394",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1170": {
+        "label": "Non-replicating viral vector COVID-19 vaccine, chimpanzee adenovirus ChadOx1 encoding the SARS-CoV-2 spike protein",
+        "valences": [
+            "VAL069"
+        ],
+        "implicit": [
+            "VAL069",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC1171": {
+        "label": "Inactivated trivalent influenza vaccine, high dose, unspecified",
+        "valences": [
+            "VAL094"
+        ],
+        "implicit": [
+            "VAL094",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1172": {
+        "label": "Diphtheria toxoid, reduced dose, unspecified",
+        "valences": [
+            "VAL034"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1173": {
+        "label": "COVID-19 vaccine with replicative viral vector, influenza virus encoding the spike protein of SARS-CoV-2, unspecified",
+        "valences": [
+            "VAL066"
+        ],
+        "implicit": [
+            "VAL066",
+            "VAL398",
+            "VAL162",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC1174": {
+        "label": "Pentavalent DTPaPHepB vaccine - Diphtheria-Tetanus-Pertussis-Polio-Hepatitis B 10µg, unspecified",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1175": {
+        "label": "Inactivated trivalent influenza vaccine cell culture, normal dose, unspecified",
+        "valences": [
+            "VAL285"
+        ],
+        "implicit": [
+            "VAL285",
+            "VAL360",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1176": {
+        "label": "COVID-19 vaccine with non-replicating viral vector, adenovirus 5 encoding the S and N proteins of SARS-CoV-2, unspecified",
+        "valences": [
+            "VAL050"
+        ],
+        "implicit": [
+            "VAL050",
+            "VAL070",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC1177": {
+        "label": "3rd generation smallpox vaccine, live vaccinia virus with minimal replication, unspecified",
+        "valences": [
+            "VAL018"
+        ],
+        "implicit": [
+            "VAL018",
+            "VAL028",
+            "VAL022",
+            "VAL418"
+        ]
+    },
+    "VAC1178": {
+        "label": "Tetravalent Dengue vaccine, live attenuated chimeric recombinant, unspecified",
+        "valences": [
+            "VAL065"
+        ],
+        "implicit": [
+            "VAL065",
+            "VAL150"
+        ]
+    },
+    "VAC1179": {
+        "label": "Cholera and typhoid vaccine, injectable, unspecified",
+        "valences": [
+            "VAL004",
+            "VAL032"
+        ],
+        "implicit": [
+            "VAL004",
+            "VAL032",
+            "VAL359",
+            "VAL081",
+            "VAL014"
+        ]
+    },
+    "VAC1180": {
+        "label": "Recombinant Lyme disease vaccine, unspecified",
+        "valences": [
+            "VAL030"
+        ],
+        "implicit": [
+            "VAL030",
+            "VAL339"
+        ]
+    },
+    "VAC1181": {
+        "label": "Pentavalent vaccine DTPeHibHepB - Diphtheria-Tetanus-Pertussis-Hib PRP-HepatitisB 10µg, unspecified",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1182": {
+        "label": "Meningococcal ACWY polysaccharide vaccine conjugated to tetanus toxoid, unspecified",
+        "valences": [
+            "VAL266",
+            "VAL271",
+            "VAL272",
+            "VAL276"
+        ],
+        "implicit": [
+            "VAL266",
+            "VAL271",
+            "VAL272",
+            "VAL276",
+            "VAL057",
+            "VAL298",
+            "VAL041",
+            "VAL297",
+            "VAL136",
+            "VAL300",
+            "VAL078",
+            "VAL299"
+        ]
+    },
+    "VAC1183": {
+        "label": "Non-replicating viral vector Ebola vaccine, unspecified",
+        "valences": [
+            "VAL109"
+        ],
+        "implicit": [
+            "VAL109",
+            "VAL126"
+        ]
+    },
+    "VAC1184": {
+        "label": "Meningococcal C polysaccharide vaccine conjugated to tetanus toxoid, unspecified",
+        "valences": [
+            "VAL266"
+        ],
+        "implicit": [
+            "VAL266",
+            "VAL057",
+            "VAL298"
+        ]
+    },
+    "VAC1185": {
+        "label": "COVID-19 vaccine with non-replicating viral vector, adenovirus 26 encoding the spike protein of SARS-CoV-2, unspecified",
+        "valences": [
+            "VAL027"
+        ],
+        "implicit": [
+            "VAL027",
+            "VAL070",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC1186": {
+        "label": "COVID-19 vaccine with replicative viral vector with antigen-presenting cells, unspecified",
+        "valences": [
+            "VAL073"
+        ],
+        "implicit": [
+            "VAL073",
+            "VAL162",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC1187": {
+        "label": "COVID-19 vaccine with replicative viral vector, measles virus encoding the SARS-CoV-2 spike protein, unspecified",
+        "valences": [
+            "VAL038"
+        ],
+        "implicit": [
+            "VAL038",
+            "VAL398",
+            "VAL162",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC1188": {
+        "label": "COVID-19 mRNA vaccine encoding the spike protein of SARS-CoV-2, original virus, 3 micrograms, unspecified",
+        "valences": [
+            "VAL306"
+        ],
+        "implicit": [
+            "VAL306",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1189": {
+        "label": "Non-replicating vector COVID-19 vaccine, modified Ankara vaccine encoding the SARS-CoV-2 spike protein, unspecified",
+        "valences": [
+            "VAL054"
+        ],
+        "implicit": [
+            "VAL054",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC1190": {
+        "label": "COVID-19 vaccine with replicative viral vector, vesicular stomatitis virus encoding the SARS-CoV-2 spike protein, unspecified",
+        "valences": [
+            "VAL084"
+        ],
+        "implicit": [
+            "VAL084",
+            "VAL398",
+            "VAL162",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC1191": {
+        "label": "Vaccine for the prevention of urinary infections in women, unspecified",
+        "valences": [
+            "VAL341",
+            "VAL342",
+            "VAL343",
+            "VAL344"
+        ],
+        "implicit": [
+            "VAL341",
+            "VAL342",
+            "VAL343",
+            "VAL344",
+            "VAL345",
+            "VAL345",
+            "VAL345",
+            "VAL345"
+        ]
+    },
+    "VAC1192": {
+        "label": "Pentavalent vaccine DTPePHibHepB - Diphtheria-Tetanus-Pertussis-Hib OC-HepatitisB 10µg, unspecified",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL154"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL154",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1193": {
+        "label": "Japanese encephalitis vaccine, live recombinant attenuated, unspecified",
+        "valences": [
+            "VAL247"
+        ],
+        "implicit": [
+            "VAL247",
+            "VAL248",
+            "VAL249"
+        ]
+    },
+    "VAC1194": {
+        "label": "Tetanus, typhoid and paratypoid A and B vaccines, unspecified",
+        "valences": [
+            "VAL045",
+            "VAL067",
+            "VAL071"
+        ],
+        "implicit": [
+            "VAL045",
+            "VAL067",
+            "VAL071",
+            "VAL014",
+            "VAL014"
+        ]
+    },
+    "VAC1195": {
+        "label": "COVID-19 vaccine with non-replicating viral vector, adenovirus 26 encoding the spike protein of SARS-CoV-2, in clinical trial, unspecified",
+        "valences": [
+            "VAL292"
+        ],
+        "implicit": [
+            "VAL292",
+            "VAL070",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC1196": {
+        "label": "Japanese encephalitis vaccine, whole inactivated prepared from murine brain tissue, unspecified",
+        "valences": [
+            "VAL250"
+        ],
+        "implicit": [
+            "VAL250",
+            "VAL089",
+            "VAL249"
+        ]
+    },
+    "VAC1197": {
+        "label": "COVID-19 vaccine with chimpanzee adenovirus and self-amplifying mRNA, unspecified",
+        "valences": [
+            "VAL070",
+            "VAL169"
+        ],
+        "implicit": [
+            "VAL070",
+            "VAL169",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1198": {
+        "label": "Chinkungunya vaccine, live attenuated, unspecified",
+        "valences": [
+            "VAL060"
+        ],
+        "implicit": [
+            "VAL060",
+            "VAL390"
+        ]
+    },
+    "VAC1199": {
+        "label": "Recombinant vesicular stomatitis replicative viral vector Ebola vaccine (rVSV) - EBOV GP glycoprotein, unspecified",
+        "valences": [
+            "VAL007"
+        ],
+        "implicit": [
+            "VAL007",
+            "VAL126"
+        ]
+    },
+    "VAC1200": {
+        "label": "Quadrivalent influenza vaccine, on cell culture, unspecified",
+        "valences": [
+            "VAL112"
+        ],
+        "implicit": [
+            "VAL112",
+            "VAL360",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1201": {
+        "label": "Tetravalent Dengue vaccine, live attenuated chimeric recombinant based on 17D yellow fever vaccine, unspecified",
+        "valences": [
+            "VAL087"
+        ],
+        "implicit": [
+            "VAL087",
+            "VAL150"
+        ]
+    },
+    "VAC1202": {
+        "label": "COVID-19 vaccine with live attenuated virus, unspecified",
+        "valences": [
+            "VAL086"
+        ],
+        "implicit": [
+            "VAL086",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC1203": {
+        "label": "Brucellosis vaccine, protein (P.I. antigen)",
+        "valences": [
+            "VAL147"
+        ],
+        "implicit": [
+            "VAL147",
+            "VAL006"
+        ]
+    },
+    "VAC1204": {
+        "label": "COVID-19 protein subunit vaccine, recombinant spike protein, with adjuvant, unspecified",
+        "valences": [
+            "VAL416"
+        ],
+        "implicit": [
+            "VAL416",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1205": {
+        "label": "Ebola virus vaccine, recombinant live non-replicating viral vector Ad26.ZEBOV, unspecified",
+        "valences": [
+            "VAL108"
+        ],
+        "implicit": [
+            "VAL108",
+            "VAL126"
+        ]
+    },
+    "VAC1206": {
+        "label": "COVID-19 vaccine with self-amplifying mRNA, unspecified",
+        "valences": [
+            "VAL169"
+        ],
+        "implicit": [
+            "VAL169",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1207": {
+        "label": "COVID-19 vaccine with replicative viral vector, Newcastle disease virus encoding the SARS-CoV-2 spike protein, unspecified",
+        "valences": [
+            "VAL095"
+        ],
+        "implicit": [
+            "VAL095",
+            "VAL398",
+            "VAL162",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC1208": {
+        "label": "Quadrivalent DTPeHepB vaccine - Diphtheria-Tetanus-Pertussis-HepatitisB 10µg, unspecified",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1209": {
+        "label": "Measles vaccine, whole inactivated, unspecified",
+        "valences": [
+            "VAL093"
+        ],
+        "implicit": [
+            "VAL093",
+            "VAL182"
+        ]
+    },
+    "VAC1210": {
+        "label": "COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, original virus, 100 micrograms, unspecified",
+        "valences": [
+            "VAL180"
+        ],
+        "implicit": [
+            "VAL180",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1211": {
+        "label": "Meningococcal C polysaccharide vaccine conjugated to CRM197 protein, unspecified",
+        "valences": [
+            "VAL268"
+        ],
+        "implicit": [
+            "VAL268",
+            "VAL057",
+            "VAL298"
+        ]
+    },
+    "VAC1212": {
+        "label": "Trivalent Poliomyelitis vaccine, whole inactivated oral, unspecified",
+        "valences": [
+            "VAL121"
+        ],
+        "implicit": [
+            "VAL121",
+            "VAL042"
+        ]
+    },
+    "VAC1213": {
+        "label": "Cholera vaccine containing recombinant cholera toxin B subunit and inactivated whole V. cholerae O1 bacteria, unspecified",
+        "valences": [
+            "VAL062"
+        ],
+        "implicit": [
+            "VAL062",
+            "VAL021",
+            "VAL359",
+            "VAL081"
+        ]
+    },
+    "VAC1214": {
+        "label": "COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, against the Omicron XBB.1.5 variant, 10µg, unspecified",
+        "valences": [
+            "VAL324"
+        ],
+        "implicit": [
+            "VAL324",
+            "VAL396",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1215": {
+        "label": "Hexavalent vaccine DTPaHibPHepB - Diphtheria-Tetanus-Pertussis-Hib OMP-Polio-Hepatitis B 10µg, unspecified",
+        "valences": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL155"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL155",
+            "VAL117",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1216": {
+        "label": "Quadrivalent DTPaHepB vaccine - Diphtheria-Tetanus-Pertussis-Hepatitis B 10µg, unspecified",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1217": {
+        "label": "Vaccine against hepatitis B and Haemophilus influenzae type b, unspecified",
+        "valences": [
+            "VAL114",
+            "VAL155"
+        ],
+        "implicit": [
+            "VAL114",
+            "VAL155",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1218": {
+        "label": "Meningococcal A polysaccharide vaccine conjugated to tetanus toxoid, unspecified",
+        "valences": [
+            "VAL271"
+        ],
+        "implicit": [
+            "VAL271",
+            "VAL041",
+            "VAL297"
+        ]
+    },
+    "VAC1219": {
+        "label": "Hexavalent vaccine DTPeHibMCV-A-C-T - Diphtheria-Tetanus-Pertussis-Hib PRP-Meningococcus A and C, conjugated with tetanus toxoid, unspecified",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL266",
+            "VAL271"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL266",
+            "VAL271",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177",
+            "VAL057",
+            "VAL298",
+            "VAL041",
+            "VAL297"
+        ]
+    },
+    "VAC1220": {
+        "label": "Meningococcal CY and anti-Haemophilus influenzae type b vaccine, conjugated with tetanus toxoid, unspecified",
+        "valences": [
+            "VAL156",
+            "VAL266",
+            "VAL276"
+        ],
+        "implicit": [
+            "VAL156",
+            "VAL266",
+            "VAL276",
+            "VAL103",
+            "VAL177",
+            "VAL057",
+            "VAL298",
+            "VAL078",
+            "VAL299"
+        ]
+    },
+    "VAC1221": {
+        "label": "Trivalent vaccine against diphtheria, tetanus and rubella, unspecified",
+        "valences": [
+            "VAL067",
+            "VAL079",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL079",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1222": {
+        "label": "Human monoclonal antibody against respiratory syncytial virus (RSV), palivizumab, unspecified",
+        "valences": [
+            "VAL116"
+        ],
+        "implicit": [
+            "VAL116",
+            "VAL320",
+            "VAL317",
+            "VAL338"
+        ]
+    },
+    "VAC1223": {
+        "label": "Immunoglobulin against respiratory syncytial virus (RSV), unspecified",
+        "valences": [
+            "VAL148"
+        ],
+        "implicit": [
+            "VAL148",
+            "VAL317",
+            "VAL338"
+        ]
+    },
+    "VAC1224": {
+        "label": "Respiratory syncytial virus (RSV) vaccine, recombinant, F-glycoprotein (prefusion) RSV subtypes A and B, unspecified",
+        "valences": [
+            "VAL322"
+        ],
+        "implicit": [
+            "VAL322",
+            "VAL318",
+            "VAL338"
+        ]
+    },
+    "VAC1225": {
+        "label": "DT-TAB Diphtheria, tetanus, typhoid and paratypoid A and B vaccines, unspecified",
+        "valences": [
+            "VAL045",
+            "VAL067",
+            "VAL071",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL045",
+            "VAL067",
+            "VAL071",
+            "VAL097",
+            "VAL014",
+            "VAL014",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1226": {
+        "label": "Combined hepatitis A and B vaccine, pediatric dose, unspecified",
+        "valences": [
+            "VAL115",
+            "VAL143"
+        ],
+        "implicit": [
+            "VAL115",
+            "VAL143",
+            "VAL090",
+            "VAL068",
+            "VAL283",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC1227": {
+        "label": "Recombinant hepatitis B vaccine, pediatric dose, unspecified",
+        "valences": [
+            "VAL170"
+        ],
+        "implicit": [
+            "VAL170",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1228": {
+        "label": "Respiratory syncytial virus (RSV) vaccine, recombinant, F protein-derived RSVPreF3 antigen, unspecified",
+        "valences": [
+            "VAL316"
+        ],
+        "implicit": [
+            "VAL316",
+            "VAL318",
+            "VAL338"
+        ]
+    },
+    "VAC1229": {
+        "label": "Vaccine against meningococcal serogroups B (outer membrane vesicle proteins) and C",
+        "valences": [
+            "VAL026",
+            "VAL137"
+        ],
+        "implicit": [
+            "VAL026",
+            "VAL137",
+            "VAL118",
+            "VAL298"
+        ]
+    },
+    "VAC1230": {
+        "label": "Meningococcal C and anti-Haemophilus influenzae type b vaccine, conjugated with tetanus toxoid, unspecified",
+        "valences": [
+            "VAL156",
+            "VAL266"
+        ],
+        "implicit": [
+            "VAL156",
+            "VAL266",
+            "VAL103",
+            "VAL177",
+            "VAL057",
+            "VAL298"
+        ]
+    },
+    "VAC1231": {
+        "label": "Pentavalent vaccine DTPaHibHepB- Diphtheria-Tetanus-Pertussis-Hib PRP-Hepatitis B 10μg, unspecified",
+        "valences": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1232": {
+        "label": "Acellular pertussis vaccine, reduced dose, unspecified",
+        "valences": [
+            "VAL017"
+        ],
+        "implicit": [
+            "VAL017",
+            "VAL117",
+            "VAL003"
+        ]
+    },
+    "VAC1233": {
+        "label": "10-valent Pneumococcus conjugate vaccine, unspecified",
+        "valences": [
+            "VAL186",
+            "VAL188",
+            "VAL189",
+            "VAL191",
+            "VAL192",
+            "VAL194",
+            "VAL198",
+            "VAL200",
+            "VAL202",
+            "VAL204"
+        ],
+        "implicit": [
+            "VAL186",
+            "VAL188",
+            "VAL189",
+            "VAL191",
+            "VAL192",
+            "VAL194",
+            "VAL198",
+            "VAL200",
+            "VAL202",
+            "VAL204",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105"
+        ]
+    },
+    "VAC1234": {
+        "label": "15-valent unconjugated pneumococcal vaccine, unspecified",
+        "valences": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL221",
+            "VAL223",
+            "VAL225",
+            "VAL228"
+        ],
+        "implicit": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL221",
+            "VAL223",
+            "VAL225",
+            "VAL228",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105"
+        ]
+    },
+    "VAC1235": {
+        "label": "RIX4414 monovalent rotavirus vaccine, unspecified",
+        "valences": [
+            "VAL141"
+        ],
+        "implicit": [
+            "VAL141",
+            "VAL106"
+        ]
+    },
+    "VAC1236": {
+        "label": "COVID-19 protein subunit vaccine, recombinant spike protein in nanoparticles, Omicron subvariant XBB.1.5, unspecified",
+        "valences": [
+            "VAL328"
+        ],
+        "implicit": [
+            "VAL328",
+            "VAL107",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1237": {
+        "label": "Pre-erythrocytic malaria vaccine, unspecified",
+        "valences": [
+            "VAL311"
+        ],
+        "implicit": [
+            "VAL311",
+            "VAL025"
+        ]
+    },
+    "VAC1238": {
+        "label": "Vaccine against hepatitis B and malaria, unspecified",
+        "valences": [
+            "VAL009",
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL009",
+            "VAL114",
+            "VAL025",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1239": {
+        "label": "15-valent Pneumococcus conjugate vaccine, unspecified",
+        "valences": [
+            "VAL186",
+            "VAL187",
+            "VAL188",
+            "VAL189",
+            "VAL190",
+            "VAL191",
+            "VAL192",
+            "VAL194",
+            "VAL198",
+            "VAL200",
+            "VAL201",
+            "VAL202",
+            "VAL203",
+            "VAL204",
+            "VAL205"
+        ],
+        "implicit": [
+            "VAL186",
+            "VAL187",
+            "VAL188",
+            "VAL189",
+            "VAL190",
+            "VAL191",
+            "VAL192",
+            "VAL194",
+            "VAL198",
+            "VAL200",
+            "VAL201",
+            "VAL202",
+            "VAL203",
+            "VAL204",
+            "VAL205",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105"
+        ]
+    },
+    "VAC1240": {
+        "label": "4-component meningococcal B vaccine, unspecified",
+        "valences": [
+            "VAL098"
+        ],
+        "implicit": [
+            "VAL098",
+            "VAL161",
+            "VAL118"
+        ]
+    },
+    "VAC1241": {
+        "label": "Shingles vaccine, varicella-zoster virus (VZV) surface glycoprotein E (gE), unspecified",
+        "valences": [
+            "VAL013"
+        ],
+        "implicit": [
+            "VAL013",
+            "VAL159",
+            "VAL160"
+        ]
+    },
+    "VAC1242": {
+        "label": "COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron XBB.1.5 variant, 25 micrograms",
+        "valences": [
+            "VAL330"
+        ],
+        "implicit": [
+            "VAL330",
+            "VAL396",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1243": {
+        "label": "COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron XBB.1.5 variant, 50 micrograms",
+        "valences": [
+            "VAL329"
+        ],
+        "implicit": [
+            "VAL329",
+            "VAL396",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1244": {
+        "label": "COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron XBB.1.5 variant, 30 micrograms",
+        "valences": [
+            "VAL323"
+        ],
+        "implicit": [
+            "VAL323",
+            "VAL396",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1245": {
+        "label": "ABCWY meningococcal vaccine, unspecified",
+        "valences": [
+            "VAL072",
+            "VAL266",
+            "VAL271",
+            "VAL272",
+            "VAL276"
+        ],
+        "implicit": [
+            "VAL072",
+            "VAL266",
+            "VAL271",
+            "VAL272",
+            "VAL276",
+            "VAL161",
+            "VAL118",
+            "VAL057",
+            "VAL298",
+            "VAL041",
+            "VAL297",
+            "VAL136",
+            "VAL300",
+            "VAL078",
+            "VAL299"
+        ]
+    },
+    "VAC1246": {
+        "label": "MCOMBRIAX",
+        "valences": [
+            "VAL168",
+            "VAL366"
+        ],
+        "implicit": [
+            "VAL168",
+            "VAL366",
+            "VAL164",
+            "VAL157",
+            "VAL128"
+        ]
+    },
+    "VAC1247": {
+        "label": "Hepatitis A vaccine, unspecified",
+        "valences": [
+            "VAL288"
+        ],
+        "implicit": [
+            "VAL288"
+        ]
+    },
+    "VAC1248": {
+        "label": "Influenza/Covid 19 mRNA vaccine, unspecified",
+        "valences": [
+            "VAL168",
+            "VAL366"
+        ],
+        "implicit": [
+            "VAL168",
+            "VAL366",
+            "VAL164",
+            "VAL157",
+            "VAL128"
+        ]
+    },
+    "VAC1249": {
+        "label": "Flu vaccine, trivalent inactivated, high dose, intradermal use, unspecified",
+        "valences": [
+            "VAL023"
+        ],
+        "implicit": [
+            "VAL023",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1250": {
+        "label": "EUVICHOL-S",
+        "valences": [
+            "VAL367"
+        ],
+        "implicit": [
+            "VAL367",
+            "VAL021",
+            "VAL359",
+            "VAL081"
+        ]
+    },
+    "VAC1251": {
+        "label": "EUVICHOL-PLUS",
+        "valences": [
+            "VAL367",
+            "VAL368"
+        ],
+        "implicit": [
+            "VAL367",
+            "VAL368",
+            "VAL021",
+            "VAL359",
+            "VAL081",
+            "VAL021",
+            "VAL359",
+            "VAL081"
+        ]
+    },
+    "VAC1252": {
+        "label": "JE-CV",
+        "valences": [
+            "VAL247"
+        ],
+        "implicit": [
+            "VAL247",
+            "VAL248",
+            "VAL249"
+        ]
+    },
+    "VAC1253": {
+        "label": "CHIMERIVAX-JE",
+        "valences": [
+            "VAL247"
+        ],
+        "implicit": [
+            "VAL247",
+            "VAL248",
+            "VAL249"
+        ]
+    },
+    "VAC1254": {
+        "label": "CAPVAXIVE",
+        "valences": [
+            "VAL187",
+            "VAL190",
+            "VAL192",
+            "VAL193",
+            "VAL195",
+            "VAL196",
+            "VAL197",
+            "VAL199",
+            "VAL201",
+            "VAL203",
+            "VAL205",
+            "VAL354",
+            "VAL355",
+            "VAL369",
+            "VAL370",
+            "VAL371",
+            "VAL372",
+            "VAL373",
+            "VAL374",
+            "VAL375",
+            "VAL376",
+            "VAL377"
+        ],
+        "implicit": [
+            "VAL187",
+            "VAL190",
+            "VAL192",
+            "VAL193",
+            "VAL195",
+            "VAL196",
+            "VAL197",
+            "VAL199",
+            "VAL201",
+            "VAL203",
+            "VAL205",
+            "VAL354",
+            "VAL355",
+            "VAL369",
+            "VAL370",
+            "VAL371",
+            "VAL372",
+            "VAL373",
+            "VAL374",
+            "VAL375",
+            "VAL376",
+            "VAL377",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105"
+        ]
+    },
+    "VAC1255": {
+        "label": "HEXASIIL",
+        "valences": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL378"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL378",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1256": {
+        "label": "Hexavalent vaccine DTwPHibPHepB - Diphtheria-Tetanus-Pertussis-Hib-Polio-Hepatitis B 15µg, unspecified",
+        "valences": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL378"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL378",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1257": {
+        "label": "Cholera vaccine, whole inactivated oral, bivalent containing the whole inactivated V. cholerae O1 and O139 bacteria, unspecified",
+        "valences": [
+            "VAL367",
+            "VAL368"
+        ],
+        "implicit": [
+            "VAL367",
+            "VAL368",
+            "VAL021",
+            "VAL359",
+            "VAL081",
+            "VAL021",
+            "VAL359",
+            "VAL081"
+        ]
+    },
+    "VAC1258": {
+        "label": "COMIRNATY JN.1 30 µg",
+        "valences": [
+            "VAL379"
+        ],
+        "implicit": [
+            "VAL379",
+            "VAL395",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1259": {
+        "label": "COMIRNATY JN.1 10 µg",
+        "valences": [
+            "VAL380"
+        ],
+        "implicit": [
+            "VAL380",
+            "VAL395",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1260": {
+        "label": "COMIRNATY JN.1 3 µg",
+        "valences": [
+            "VAL381"
+        ],
+        "implicit": [
+            "VAL381",
+            "VAL395",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1261": {
+        "label": "NUVAXOVID JN.1",
+        "valences": [
+            "VAL382"
+        ],
+        "implicit": [
+            "VAL382",
+            "VAL107",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1262": {
+        "label": "MRESVIA",
+        "valences": [
+            "VAL383"
+        ],
+        "implicit": [
+            "VAL383",
+            "VAL318",
+            "VAL338"
+        ]
+    },
+    "VAC1263": {
+        "label": "COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",
+        "valences": [
+            "VAL043"
+        ],
+        "implicit": [
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1264": {
+        "label": "A(H5) avian influenza vaccine, unspecified",
+        "valences": [
+            "VAL386"
+        ],
+        "implicit": [
+            "VAL386"
+        ]
+    },
+    "VAC1265": {
+        "label": "CLODIVAC",
+        "valences": [
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL067",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1266": {
+        "label": "PENMENVY",
+        "valences": [
+            "VAL098",
+            "VAL268",
+            "VAL269",
+            "VAL274",
+            "VAL275"
+        ],
+        "implicit": [
+            "VAL098",
+            "VAL268",
+            "VAL269",
+            "VAL274",
+            "VAL275",
+            "VAL161",
+            "VAL118",
+            "VAL057",
+            "VAL298",
+            "VAL041",
+            "VAL297",
+            "VAL136",
+            "VAL300",
+            "VAL078",
+            "VAL299"
+        ]
+    },
+    "VAC1267": {
+        "label": "VIMKUNYA",
+        "valences": [
+            "VAL391"
+        ],
+        "implicit": [
+            "VAL391",
+            "VAL390"
+        ]
+    },
+    "VAC1268": {
+        "label": "SPIKEVAX JN.1 50 µg",
+        "valences": [
+            "VAL388"
+        ],
+        "implicit": [
+            "VAL388",
+            "VAL395",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1269": {
+        "label": "SPIKEVAX JN.1 0,1 mg/mL dose 25 µg",
+        "valences": [
+            "VAL387"
+        ],
+        "implicit": [
+            "VAL387",
+            "VAL395",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1270": {
+        "label": "SPIKEVAX JN.1 0,1 mg/mL dose 50 µg",
+        "valences": [
+            "VAL388"
+        ],
+        "implicit": [
+            "VAL388",
+            "VAL395",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1271": {
+        "label": "TYT BIOMED",
+        "valences": [
+            "VAL014",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL014",
+            "VAL067"
+        ]
+    },
+    "VAC1272": {
+        "label": "PSEUDOVAC",
+        "valences": [
+            "VAL389"
+        ],
+        "implicit": [
+            "VAL389"
+        ]
+    },
+    "VAC1273": {
+        "label": "DT BIOMED",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1274": {
+        "label": "d BIOMED",
+        "valences": [
+            "VAL034"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1275": {
+        "label": "D BIOMED",
+        "valences": [
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1276": {
+        "label": "DTP BIOMED",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1277": {
+        "label": "Vaccine against chikungunya, unspecified",
+        "valences": [
+            "VAL390"
+        ],
+        "implicit": [
+            "VAL390"
+        ]
+    },
+    "VAC1278": {
+        "label": "WALRINVAX",
+        "valences": [
+            "VAL240",
+            "VAL241"
+        ],
+        "implicit": [
+            "VAL240",
+            "VAL241",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082"
+        ]
+    },
+    "VAC1279": {
+        "label": "Adjuvanted adsorbed anthrax vaccine",
+        "valences": [
+            "VAL415"
+        ],
+        "implicit": [
+            "VAL415",
+            "VAL111",
+            "VAL340"
+        ]
+    },
+    "VAC1280": {
+        "label": "21-valent pneumococcal conjugate vaccine, unspecified",
+        "valences": [
+            "VAL187",
+            "VAL190",
+            "VAL192",
+            "VAL193",
+            "VAL195",
+            "VAL196",
+            "VAL197",
+            "VAL199",
+            "VAL201",
+            "VAL203",
+            "VAL205",
+            "VAL354",
+            "VAL355",
+            "VAL369",
+            "VAL370",
+            "VAL371",
+            "VAL372",
+            "VAL373",
+            "VAL374",
+            "VAL375",
+            "VAL376",
+            "VAL377"
+        ],
+        "implicit": [
+            "VAL187",
+            "VAL190",
+            "VAL192",
+            "VAL193",
+            "VAL195",
+            "VAL196",
+            "VAL197",
+            "VAL199",
+            "VAL201",
+            "VAL203",
+            "VAL205",
+            "VAL354",
+            "VAL355",
+            "VAL369",
+            "VAL370",
+            "VAL371",
+            "VAL372",
+            "VAL373",
+            "VAL374",
+            "VAL375",
+            "VAL376",
+            "VAL377",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105"
+        ]
+    },
+    "VAC1281": {
+        "label": "PENTABIO",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1282": {
+        "label": "FLUBIO INFLUENZA HA",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1283": {
+        "label": "INDOVAC",
+        "valences": [
+            "VAL011"
+        ],
+        "implicit": [
+            "VAL011",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1284": {
+        "label": "NUSAGARD",
+        "valences": [
+            "VAL052",
+            "VAL238",
+            "VAL239",
+            "VAL240",
+            "VAL241"
+        ],
+        "implicit": [
+            "VAL052",
+            "VAL238",
+            "VAL239",
+            "VAL240",
+            "VAL241",
+            "VAL237",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082"
+        ]
+    },
+    "VAC1285": {
+        "label": "NOPV2 BIO FARMA",
+        "valences": [
+            "VAL033"
+        ],
+        "implicit": [
+            "VAL033",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC1286": {
+        "label": "VAKSIN COVID-19 BIO FARMA",
+        "valences": [
+            "VAL011"
+        ],
+        "implicit": [
+            "VAL011",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1287": {
+        "label": "VAKSIN HEPATITIS B BIO FARMA",
+        "valences": [
+            "VAL090"
+        ],
+        "implicit": [
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1288": {
+        "label": "VAKSIN POLIOMYELITIS BIO FARMA",
+        "valences": [
+            "VAL056"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL042"
+        ]
+    },
+    "VAC1289": {
+        "label": "VAKSIN POLIOMYELITIS BIVALEN BIO FARMA",
+        "valences": [
+            "VAL085",
+            "VAL132"
+        ],
+        "implicit": [
+            "VAL085",
+            "VAL132",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC1290": {
+        "label": "MOPV1 BIO FARMA",
+        "valences": [
+            "VAL132"
+        ],
+        "implicit": [
+            "VAL132",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC1291": {
+        "label": "MOPV2 BIO FARMA",
+        "valences": [
+            "VAL033"
+        ],
+        "implicit": [
+            "VAL033",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC1292": {
+        "label": "BIO-TCV",
+        "valences": [
+            "VAL399"
+        ],
+        "implicit": [
+            "VAL399",
+            "VAL002",
+            "VAL014"
+        ]
+    },
+    "VAC1293": {
+        "label": "VAKSIN BCG KERING",
+        "valences": [
+            "VAL096"
+        ],
+        "implicit": [
+            "VAL096"
+        ]
+    },
+    "VAC1294": {
+        "label": "BIO-TD",
+        "valences": [
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL067",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1295": {
+        "label": "DT BIO FARMA",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1296": {
+        "label": "DTP BIO FARMA",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1297": {
+        "label": "TT BIO FARMA",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC1298": {
+        "label": "BETT",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC1299": {
+        "label": "BEVAC 10 µg",
+        "valences": [
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL114",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1300": {
+        "label": "BEVAC 20 µg",
+        "valences": [
+            "VAL115"
+        ],
+        "implicit": [
+            "VAL115",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1301": {
+        "label": "BE Td",
+        "valences": [
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL067",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1302": {
+        "label": "COMBE FIVE",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1303": {
+        "label": "VLA15",
+        "valences": [
+            "VAL030"
+        ],
+        "implicit": [
+            "VAL030",
+            "VAL339"
+        ]
+    },
+    "VAC1304": {
+        "label": "BERAB",
+        "valences": [
+            "VAL260"
+        ],
+        "implicit": [
+            "VAL260",
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC1305": {
+        "label": "MRBEV",
+        "valences": [
+            "VAL005",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL079",
+            "VAL182"
+        ]
+    },
+    "VAC1306": {
+        "label": "TYPHIBEV",
+        "valences": [
+            "VAL400"
+        ],
+        "implicit": [
+            "VAL400",
+            "VAL002",
+            "VAL014"
+        ]
+    },
+    "VAC1307": {
+        "label": "JEEV 6 µg",
+        "valences": [
+            "VAL402"
+        ],
+        "implicit": [
+            "VAL402",
+            "VAL251",
+            "VAL089",
+            "VAL249"
+        ]
+    },
+    "VAC1308": {
+        "label": "DT BIOLOGICAL E LTD",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1309": {
+        "label": "NOVEL ORAL (nOPV) TYPE 2 BIOLOGICAL E. LTD",
+        "valences": [
+            "VAL033"
+        ],
+        "implicit": [
+            "VAL033",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC1310": {
+        "label": "SII TD-VAC",
+        "valences": [
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL067",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1311": {
+        "label": "Meningococcal ACWXY conjugate vaccine, unspecified",
+        "valences": [
+            "VAL041",
+            "VAL057",
+            "VAL078",
+            "VAL136",
+            "VAL404"
+        ],
+        "implicit": [
+            "VAL041",
+            "VAL057",
+            "VAL078",
+            "VAL136",
+            "VAL404",
+            "VAL297",
+            "VAL298",
+            "VAL299",
+            "VAL300",
+            "VAL403"
+        ]
+    },
+    "VAC1312": {
+        "label": "TT SII",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC1313": {
+        "label": "BCG SII",
+        "valences": [
+            "VAL096"
+        ],
+        "implicit": [
+            "VAL096"
+        ]
+    },
+    "VAC1314": {
+        "label": "MEASLES SII",
+        "valences": [
+            "VAL005"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL182"
+        ]
+    },
+    "VAC1315": {
+        "label": "MUMPS SII",
+        "valences": [
+            "VAL077"
+        ],
+        "implicit": [
+            "VAL077",
+            "VAL183"
+        ]
+    },
+    "VAC1316": {
+        "label": "RUBELLA SII",
+        "valences": [
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL079"
+        ]
+    },
+    "VAC1317": {
+        "label": "CERVAVAC",
+        "valences": [
+            "VAL052",
+            "VAL238",
+            "VAL239",
+            "VAL240",
+            "VAL241"
+        ],
+        "implicit": [
+            "VAL052",
+            "VAL238",
+            "VAL239",
+            "VAL240",
+            "VAL241",
+            "VAL237",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082"
+        ]
+    },
+    "VAC1318": {
+        "label": "DIPHTHERIA, TETANUS, PERTUSSIS AND HEPATITIS B SII",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1319": {
+        "label": "DIPHTHERIA, TETANUS, PERTUSSIS AND HAEMOPHILUS INFLUENZAE B SII",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1320": {
+        "label": "DIPHTHERIA, TETANUS, PERTUSSIS, HEPATITIS B AND HAEMOPHILUS INFLUENZAE B SII",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1321": {
+        "label": "HAEMOPHILUS INFLUENZAE B SII",
+        "valences": [
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL156",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1322": {
+        "label": "PNEUMOSIL",
+        "valences": [
+            "VAL186",
+            "VAL189",
+            "VAL190",
+            "VAL191",
+            "VAL192",
+            "VAL194",
+            "VAL198",
+            "VAL201",
+            "VAL202",
+            "VAL204"
+        ],
+        "implicit": [
+            "VAL186",
+            "VAL189",
+            "VAL190",
+            "VAL191",
+            "VAL192",
+            "VAL194",
+            "VAL198",
+            "VAL201",
+            "VAL202",
+            "VAL204",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105"
+        ]
+    },
+    "VAC1323": {
+        "label": "MENFIVE",
+        "valences": [
+            "VAL041",
+            "VAL057",
+            "VAL078",
+            "VAL136",
+            "VAL404"
+        ],
+        "implicit": [
+            "VAL041",
+            "VAL057",
+            "VAL078",
+            "VAL136",
+            "VAL404",
+            "VAL297",
+            "VAL298",
+            "VAL299",
+            "VAL300",
+            "VAL403"
+        ]
+    },
+    "VAC1324": {
+        "label": "NASOVAC-S",
+        "valences": [
+            "VAL405"
+        ],
+        "implicit": [
+            "VAL405",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1325": {
+        "label": "GENEVAC-B 10 µg",
+        "valences": [
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL114",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1326": {
+        "label": "GENEVAC-B 20 µg",
+        "valences": [
+            "VAL115"
+        ],
+        "implicit": [
+            "VAL115",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1327": {
+        "label": "HEPATITIS B SII",
+        "valences": [
+            "VAL090"
+        ],
+        "implicit": [
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1328": {
+        "label": "TUBERVAC",
+        "valences": [
+            "VAL096"
+        ],
+        "implicit": [
+            "VAL096"
+        ]
+    },
+    "VAC1329": {
+        "label": "FLU-M",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1330": {
+        "label": "FLU-M TETRA",
+        "valences": [
+            "VAL040"
+        ],
+        "implicit": [
+            "VAL040",
+            "VAL064",
+            "VAL127",
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1331": {
+        "label": "CELLDEMIC",
+        "valences": [
+            "VAL051"
+        ],
+        "implicit": [
+            "VAL051",
+            "VAL386"
+        ]
+    },
+    "VAC1332": {
+        "label": "COMIRNATY KP.2 3 µg",
+        "valences": [
+            "VAL407"
+        ],
+        "implicit": [
+            "VAL407",
+            "VAL406",
+            "VAL395",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1333": {
+        "label": "COMIRNATY KP.2 10 µg",
+        "valences": [
+            "VAL408"
+        ],
+        "implicit": [
+            "VAL408",
+            "VAL406",
+            "VAL395",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1334": {
+        "label": "COMIRNATY KP.2 30 µg",
+        "valences": [
+            "VAL409"
+        ],
+        "implicit": [
+            "VAL409",
+            "VAL406",
+            "VAL395",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1335": {
+        "label": "INCELLIPAN",
+        "valences": [
+            "VAL051"
+        ],
+        "implicit": [
+            "VAL051",
+            "VAL386"
+        ]
+    },
+    "VAC1336": {
+        "label": "KOSTAIVE",
+        "valences": [
+            "VAL303"
+        ],
+        "implicit": [
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1337": {
+        "label": "CONVACELL",
+        "valences": [
+            "VAL410"
+        ],
+        "implicit": [
+            "VAL410",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1338": {
+        "label": "ZOONOTIC",
+        "valences": [
+            "VAL051"
+        ],
+        "implicit": [
+            "VAL051",
+            "VAL386"
+        ]
+    },
+    "VAC1339": {
+        "label": "BIMERVAX XBB.1.16",
+        "valences": [
+            "VAL413"
+        ],
+        "implicit": [
+            "VAL413",
+            "VAL011",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1340": {
+        "label": "SPIKEVAX BA.1 0,1 mg/mL dose 50 µg",
+        "valences": [
+            "VAL302",
+            "VAL412"
+        ],
+        "implicit": [
+            "VAL302",
+            "VAL412",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157",
+            "VAL393",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1341": {
+        "label": "COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron XBB.1.5 variant, unspecified dose",
+        "valences": [
+            "VAL396"
+        ],
+        "implicit": [
+            "VAL396",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1342": {
+        "label": "IPVAX",
+        "valences": [
+            "VAL056"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL042"
+        ]
+    },
+    "VAC1343": {
+        "label": "BORYUNG CELL CULTURE-DERIVED JAPANESE ENCEPHALITIS VACCINE",
+        "valences": [
+            "VAL402"
+        ],
+        "implicit": [
+            "VAL402",
+            "VAL251",
+            "VAL089",
+            "VAL249"
+        ]
+    },
+    "VAC1344": {
+        "label": "BORYUNG JAPANESE ENCEPHALITIS VACCINE",
+        "valences": [
+            "VAL250"
+        ],
+        "implicit": [
+            "VAL250",
+            "VAL089",
+            "VAL249"
+        ]
+    },
+    "VAC1345": {
+        "label": "ZEROTYPH",
+        "valences": [
+            "VAL032"
+        ],
+        "implicit": [
+            "VAL032",
+            "VAL014"
+        ]
+    },
+    "VAC1346": {
+        "label": "FLU QUADRIVALENT MCV",
+        "valences": [
+            "VAL040"
+        ],
+        "implicit": [
+            "VAL040",
+            "VAL064",
+            "VAL127",
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1347": {
+        "label": "EFLUELDA",
+        "valences": [
+            "VAL094"
+        ],
+        "implicit": [
+            "VAL094",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1348": {
+        "label": "TETANA",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC1349": {
+        "label": "TY BIOMED",
+        "valences": [
+            "VAL071"
+        ],
+        "implicit": [
+            "VAL071",
+            "VAL014"
+        ]
+    },
+    "VAC1350": {
+        "label": "T SIS BIOMED",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC1351": {
+        "label": "TETANA PRO",
+        "valences": [
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL067"
+        ]
+    },
+    "VAC1352": {
+        "label": "TERATECT",
+        "valences": [
+            "VAL040"
+        ],
+        "implicit": [
+            "VAL040",
+            "VAL064",
+            "VAL127",
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1353": {
+        "label": "IL-YANG FLU VACCINE",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1354": {
+        "label": "EUFORVAC",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1355": {
+        "label": "EUPENTA",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1356": {
+        "label": "EUVAX B 10 µg",
+        "valences": [
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL114",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1357": {
+        "label": "EUPOLIO",
+        "valences": [
+            "VAL056"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL042"
+        ]
+    },
+    "VAC1358": {
+        "label": "SKYCELLFLU QUADRIVALENT",
+        "valences": [
+            "VAL112"
+        ],
+        "implicit": [
+            "VAL112",
+            "VAL360",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1359": {
+        "label": "SKYCELLFLU TRIVALENT",
+        "valences": [
+            "VAL285"
+        ],
+        "implicit": [
+            "VAL285",
+            "VAL360",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1360": {
+        "label": "HEPAMUNE B 10 µg",
+        "valences": [
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL114",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1361": {
+        "label": "HEPAMUNE B 20 µg",
+        "valences": [
+            "VAL115"
+        ],
+        "implicit": [
+            "VAL115",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1362": {
+        "label": "SK TD",
+        "valences": [
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL067",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1363": {
+        "label": "HEPAVAX-GENE B 10 µg",
+        "valences": [
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL114",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1364": {
+        "label": "BIOHIB",
+        "valences": [
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL156",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1365": {
+        "label": "COMVAC5",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1366": {
+        "label": "HILLCHOL",
+        "valences": [
+            "VAL367"
+        ],
+        "implicit": [
+            "VAL367",
+            "VAL021",
+            "VAL359",
+            "VAL081"
+        ]
+    },
+    "VAC1367": {
+        "label": "HNVAC",
+        "valences": [
+            "VAL099"
+        ],
+        "implicit": [
+            "VAL099",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1368": {
+        "label": "INCOVACC",
+        "valences": [
+            "VAL069"
+        ],
+        "implicit": [
+            "VAL069",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC1369": {
+        "label": "INDIRAB",
+        "valences": [
+            "VAL260"
+        ],
+        "implicit": [
+            "VAL260",
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC1370": {
+        "label": "JENVAC",
+        "valences": [
+            "VAL251"
+        ],
+        "implicit": [
+            "VAL251",
+            "VAL089",
+            "VAL249"
+        ]
+    },
+    "VAC1371": {
+        "label": "REVAC-B MCF",
+        "valences": [
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL114",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1372": {
+        "label": "ROTAVAC",
+        "valences": [
+            "VAL106"
+        ],
+        "implicit": [
+            "VAL106"
+        ]
+    },
+    "VAC1373": {
+        "label": "ROTAVAC 5D",
+        "valences": [
+            "VAL106"
+        ],
+        "implicit": [
+            "VAL106"
+        ]
+    },
+    "VAC1374": {
+        "label": "TYPBAR-TCV",
+        "valences": [
+            "VAL399"
+        ],
+        "implicit": [
+            "VAL399",
+            "VAL002",
+            "VAL014"
+        ]
+    },
+    "VAC1375": {
+        "label": "TWINRAB",
+        "valences": [
+            "VAL016"
+        ],
+        "implicit": [
+            "VAL016"
+        ]
+    },
+    "VAC1376": {
+        "label": "ZYCOV-D",
+        "valences": [
+            "VAL035"
+        ],
+        "implicit": [
+            "VAL035",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1377": {
+        "label": "VAXIFLU-4",
+        "valences": [
+            "VAL230"
+        ],
+        "implicit": [
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1378": {
+        "label": "VACTYPH",
+        "valences": [
+            "VAL032"
+        ],
+        "implicit": [
+            "VAL032",
+            "VAL014"
+        ]
+    },
+    "VAC1379": {
+        "label": "ZYVAC MMR",
+        "valences": [
+            "VAL005",
+            "VAL077",
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL079",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC1380": {
+        "label": "ZYVAC TCV",
+        "valences": [
+            "VAL399"
+        ],
+        "implicit": [
+            "VAL399",
+            "VAL002",
+            "VAL014"
+        ]
+    },
+    "VAC1381": {
+        "label": "MEASLES AND RUBELLA VACCINE ZYDUS",
+        "valences": [
+            "VAL005",
+            "VAL077"
+        ],
+        "implicit": [
+            "VAL005",
+            "VAL077",
+            "VAL182",
+            "VAL183"
+        ]
+    },
+    "VAC1382": {
+        "label": "SKYTYPHOID",
+        "valences": [
+            "VAL002"
+        ],
+        "implicit": [
+            "VAL002",
+            "VAL014"
+        ]
+    },
+    "VAC1383": {
+        "label": "CYVAC",
+        "valences": [
+            "VAL009"
+        ],
+        "implicit": [
+            "VAL009",
+            "VAL025"
+        ]
+    },
+    "VAC1384": {
+        "label": "BARYCELA",
+        "valences": [
+            "VAL044"
+        ],
+        "implicit": [
+            "VAL044"
+        ]
+    },
+    "VAC1385": {
+        "label": "GC FLU QUADRIVALENT",
+        "valences": [
+            "VAL230"
+        ],
+        "implicit": [
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1386": {
+        "label": "GCFLU",
+        "valences": [
+            "VAL279"
+        ],
+        "implicit": [
+            "VAL279",
+            "VAL064",
+            "VAL127",
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1387": {
+        "label": "SINSAVAC",
+        "valences": [
+            "VAL092"
+        ],
+        "implicit": [
+            "VAL092"
+        ]
+    },
+    "VAC1388": {
+        "label": "BIVAC POLIO",
+        "valences": [
+            "VAL085",
+            "VAL132"
+        ],
+        "implicit": [
+            "VAL085",
+            "VAL132",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC1389": {
+        "label": "INLIVE",
+        "valences": [
+            "VAL346"
+        ],
+        "implicit": [
+            "VAL346"
+        ]
+    },
+    "VAC1390": {
+        "label": "HEALIVE",
+        "valences": [
+            "VAL125"
+        ],
+        "implicit": [
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC1391": {
+        "label": "BILIVE",
+        "valences": [
+            "VAL115",
+            "VAL145"
+        ],
+        "implicit": [
+            "VAL115",
+            "VAL145",
+            "VAL090",
+            "VAL068",
+            "VAL284",
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC1392": {
+        "label": "23-VALENT SINOVAC",
+        "valences": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL215",
+            "VAL216",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL220",
+            "VAL222",
+            "VAL223",
+            "VAL224",
+            "VAL225",
+            "VAL226",
+            "VAL227",
+            "VAL228",
+            "VAL229"
+        ],
+        "implicit": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL215",
+            "VAL216",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL220",
+            "VAL222",
+            "VAL223",
+            "VAL224",
+            "VAL225",
+            "VAL226",
+            "VAL227",
+            "VAL228",
+            "VAL229",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105"
+        ]
+    },
+    "VAC1393": {
+        "label": "PROVARIX",
+        "valences": [
+            "VAL044"
+        ],
+        "implicit": [
+            "VAL044"
+        ]
+    },
+    "VAC1394": {
+        "label": "POLIO SINOVAC VACCINE",
+        "valences": [
+            "VAL056"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL042"
+        ]
+    },
+    "VAC1395": {
+        "label": "MUMPS SINOVAC VACCINE",
+        "valences": [
+            "VAL077"
+        ],
+        "implicit": [
+            "VAL077",
+            "VAL183"
+        ]
+    },
+    "VAC1396": {
+        "label": "ANFLU",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1397": {
+        "label": "PANFLU",
+        "valences": [
+            "VAL051"
+        ],
+        "implicit": [
+            "VAL051",
+            "VAL386"
+        ]
+    },
+    "VAC1398": {
+        "label": "PANFLU.1",
+        "valences": [
+            "VAL099"
+        ],
+        "implicit": [
+            "VAL099",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1399": {
+        "label": "TERTRANFLU",
+        "valences": [
+            "VAL040"
+        ],
+        "implicit": [
+            "VAL040",
+            "VAL064",
+            "VAL127",
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1400": {
+        "label": "SHANIPV",
+        "valences": [
+            "VAL056"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL042"
+        ]
+    },
+    "VAC1401": {
+        "label": "9-VALENT HPV VACCINE INNOVAX",
+        "valences": [
+            "VAL036",
+            "VAL238",
+            "VAL239",
+            "VAL240",
+            "VAL241",
+            "VAL242",
+            "VAL243",
+            "VAL244",
+            "VAL245",
+            "VAL246"
+        ],
+        "implicit": [
+            "VAL036",
+            "VAL238",
+            "VAL239",
+            "VAL240",
+            "VAL241",
+            "VAL242",
+            "VAL243",
+            "VAL244",
+            "VAL245",
+            "VAL246",
+            "VAL237",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082"
+        ]
+    },
+    "VAC1402": {
+        "label": "EASYSIX",
+        "valences": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1403": {
+        "label": "EASYFIVE-TT",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL114",
+            "VAL156",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL090",
+            "VAL068",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1404": {
+        "label": "EASYFOUR-TT",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL003",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1405": {
+        "label": "EASYFOURPOL",
+        "valences": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL156",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1406": {
+        "label": "SPUTNIK V",
+        "valences": [
+            "VAL070"
+        ],
+        "implicit": [
+            "VAL070",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC1407": {
+        "label": "NOVOHIB",
+        "valences": [
+            "VAL156"
+        ],
+        "implicit": [
+            "VAL156",
+            "VAL103",
+            "VAL177"
+        ]
+    },
+    "VAC1408": {
+        "label": "ENIVACHB",
+        "valences": [
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL114",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1409": {
+        "label": "COVID-19 mRNA vaccine, Omicron JN.1 subvariant, 50 micrograms per dose, multidose vial",
+        "valences": [
+            "VAL388"
+        ],
+        "implicit": [
+            "VAL388",
+            "VAL395",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1410": {
+        "label": "COVID-19 mRNA vaccine, Omicron JN.1 subvariant, 25 micrograms per dose, multidose vial",
+        "valences": [
+            "VAL387"
+        ],
+        "implicit": [
+            "VAL387",
+            "VAL395",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1411": {
+        "label": "COVID-19 mRNA vaccine, subvariant Omicron JN.1, 30 micrograms, adult dose (+ 12 years)",
+        "valences": [
+            "VAL379"
+        ],
+        "implicit": [
+            "VAL379",
+            "VAL395",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1412": {
+        "label": "COVID-19 mRNA vaccine, subvariant Omicron JN.1, 10 micrograms, paediatric dose (5-11 years)",
+        "valences": [
+            "VAL380"
+        ],
+        "implicit": [
+            "VAL380",
+            "VAL395",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1413": {
+        "label": "COVID-19 mRNA vaccine, subvariant Omicron JN.1, 3 micrograms, dose (6 months-4 years)",
+        "valences": [
+            "VAL381"
+        ],
+        "implicit": [
+            "VAL381",
+            "VAL395",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1414": {
+        "label": "COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles, with adjuvant (Matrix M), Omicron JN.1 subvariant",
+        "valences": [
+            "VAL382"
+        ],
+        "implicit": [
+            "VAL382",
+            "VAL107",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1415": {
+        "label": "Polyvalent vaccine against  pus bacterium Pseudomonas aeruginosa",
+        "valences": [
+            "VAL389"
+        ],
+        "implicit": [
+            "VAL389"
+        ]
+    },
+    "VAC1416": {
+        "label": "COVID-19 mRNA vaccine, subvariant Omicron KP.2, 3 micrograms, paediatric dose (6 months-4 years)",
+        "valences": [
+            "VAL407"
+        ],
+        "implicit": [
+            "VAL407",
+            "VAL406",
+            "VAL395",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1417": {
+        "label": "COVID-19 mRNA vaccine, subvariant Omicron KP.2, 10 micrograms, paediatric dose (5-11 years)",
+        "valences": [
+            "VAL408"
+        ],
+        "implicit": [
+            "VAL408",
+            "VAL406",
+            "VAL395",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1418": {
+        "label": "COVID-19 mRNA vaccine, subvariant Omicron KP.2, 30 micrograms, adult (+ 12 years)",
+        "valences": [
+            "VAL409"
+        ],
+        "implicit": [
+            "VAL409",
+            "VAL406",
+            "VAL395",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1419": {
+        "label": "Chikungunya VLP vaccine (recombinant, adsorbed)",
+        "valences": [
+            "VAL391"
+        ],
+        "implicit": [
+            "VAL391",
+            "VAL390"
+        ]
+    },
+    "VAC1420": {
+        "label": "Single-stranded 5' capped mRNA encoding the Respiratory syncytial virus glycoprotein F stabilized in the prefusion conformation",
+        "valences": [
+            "VAL383"
+        ],
+        "implicit": [
+            "VAL383",
+            "VAL318",
+            "VAL338"
+        ]
+    },
+    "VAC1421": {
+        "label": "COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, original virus",
+        "valences": [
+            "VAL303"
+        ],
+        "implicit": [
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1422": {
+        "label": "COVID-19 protein subunit vaccine, recombinant N protein",
+        "valences": [
+            "VAL410"
+        ],
+        "implicit": [
+            "VAL410",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1423": {
+        "label": "Live attenuated influenza A(H1N1)pdm09 pandemic vaccine",
+        "valences": [
+            "VAL405"
+        ],
+        "implicit": [
+            "VAL405",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1424": {
+        "label": "10-valent pneumococcal polysaccharide conjugate vaccine, serotypes 1, 5, 6A, 6B, 7F, 9V, 14, 19A, 19F and 23F",
+        "valences": [
+            "VAL186",
+            "VAL189",
+            "VAL190",
+            "VAL191",
+            "VAL192",
+            "VAL194",
+            "VAL198",
+            "VAL201",
+            "VAL202",
+            "VAL204"
+        ],
+        "implicit": [
+            "VAL186",
+            "VAL189",
+            "VAL190",
+            "VAL191",
+            "VAL192",
+            "VAL194",
+            "VAL198",
+            "VAL201",
+            "VAL202",
+            "VAL204",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105"
+        ]
+    },
+    "VAC1425": {
+        "label": "Typhoid vaccine, Vi antigen conjugated to CRM197 protein",
+        "valences": [
+            "VAL400"
+        ],
+        "implicit": [
+            "VAL400",
+            "VAL002",
+            "VAL014"
+        ]
+    },
+    "VAC1426": {
+        "label": "Bivalent recombinant vaccine against human papillomavirus (types 16 and 18) (Pichia pastoris)",
+        "valences": [
+            "VAL240",
+            "VAL241"
+        ],
+        "implicit": [
+            "VAL240",
+            "VAL241",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082"
+        ]
+    },
+    "VAC1427": {
+        "label": "Whole inactivated Japanese encephalitis vaccine, prepared in Vero cells, 6 micrograms",
+        "valences": [
+            "VAL402"
+        ],
+        "implicit": [
+            "VAL402",
+            "VAL251",
+            "VAL089",
+            "VAL249"
+        ]
+    },
+    "VAC1428": {
+        "label": "COVID-19 vaccine, protein subunit, recombinant homodimeric RBD protein, Omicron variant XBB.1.16, with adjuvant (SQBA)",
+        "valences": [
+            "VAL413"
+        ],
+        "implicit": [
+            "VAL413",
+            "VAL011",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1429": {
+        "label": "TETANEA",
+        "valences": [
+            "VAL110"
+        ],
+        "implicit": [
+            "VAL110"
+        ]
+    },
+    "VAC1430": {
+        "label": "COVID-19 bivalent mRNA vaccine against the original virus and the Omicron BA.4/5 variant, 50 micrograms, unspecified",
+        "valences": [
+            "VAL302",
+            "VAL411"
+        ],
+        "implicit": [
+            "VAL302",
+            "VAL411",
+            "VAL303",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157",
+            "VAL394",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1431": {
+        "label": "RSV vaccine, unspecified",
+        "valences": [
+            "VAL318"
+        ],
+        "implicit": [
+            "VAL318",
+            "VAL338"
+        ]
+    },
+    "VAC1432": {
+        "label": "Argentine hemorrhagic fever vaccine, Junin virus, unspecified",
+        "valences": [
+            "VAL421"
+        ],
+        "implicit": [
+            "VAL421"
+        ]
+    },
+    "VAC1433": {
+        "label": "Plague vaccine, unspecified",
+        "valences": [
+            "VAL422"
+        ],
+        "implicit": [
+            "VAL422"
+        ]
+    },
+    "VAC1434": {
+        "label": "Meningococcal A vaccine, unspecified",
+        "valences": [
+            "VAL297"
+        ],
+        "implicit": [
+            "VAL297"
+        ]
+    },
+    "VAC1435": {
+        "label": "Rabies vaccine, inactivated, whole virion, cell culture-based, unspecified",
+        "valences": [
+            "VAL257"
+        ],
+        "implicit": [
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC1436": {
+        "label": "Rabies vaccine, inactivated, whole virion, prepared from animal brain tissue infected with rabies virus, unspecified",
+        "valences": [
+            "VAL256"
+        ],
+        "implicit": [
+            "VAL256",
+            "VAL080"
+        ]
+    },
+    "VAC1437": {
+        "label": "Meningococcal vaccine, monovalent, conjugate",
+        "valences": [
+            "VAL179"
+        ],
+        "implicit": [
+            "VAL179",
+            "VAL234"
+        ]
+    },
+    "VAC1438": {
+        "label": "Influenza vaccine, trivalent, inactivated, fractionated or subunit, adjuvanted",
+        "valences": [
+            "VAL349"
+        ],
+        "implicit": [
+            "VAL349",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1439": {
+        "label": "Meningococcal vaccine, polyvalent, conjugate polysaccharide",
+        "valences": [
+            "VAL235"
+        ],
+        "implicit": [
+            "VAL235",
+            "VAL234"
+        ]
+    },
+    "VAC1440": {
+        "label": "Influenza vaccine, quadrivalent, inactivated, fractionated or subunit, adjuvanted, normal dose",
+        "valences": [
+            "VAL350"
+        ],
+        "implicit": [
+            "VAL350",
+            "VAL127",
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1441": {
+        "label": "Influenza vaccine, quadrivalent, inactivated, split or subunit, intradermal route, unspecified",
+        "valences": [
+            "VAL134"
+        ],
+        "implicit": [
+            "VAL134",
+            "VAL230",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1442": {
+        "label": "Influenza vaccine, quadrivalent, virosomal, unspecified",
+        "valences": [
+            "VAL352"
+        ],
+        "implicit": [
+            "VAL352",
+            "VAL362",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1443": {
+        "label": "Influenza vaccine, trivalent, virosomal, unspecified",
+        "valences": [
+            "VAL351"
+        ],
+        "implicit": [
+            "VAL351",
+            "VAL362",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1444": {
+        "label": "Influenza vaccine, trivalent, VLP, unspecified",
+        "valences": [
+            "VAL363"
+        ],
+        "implicit": [
+            "VAL363",
+            "VAL029",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1445": {
+        "label": "Avian influenza vaccine, mRNA",
+        "valences": [
+            "VAL392"
+        ],
+        "implicit": [
+            "VAL392",
+            "VAL051",
+            "VAL386"
+        ]
+    },
+    "VAC1446": {
+        "label": "Japanese encephalitis vaccine, inactivated, whole-virus, derived from Vero cells, 3 micrograms",
+        "valences": [
+            "VAL401"
+        ],
+        "implicit": [
+            "VAL401",
+            "VAL251",
+            "VAL089",
+            "VAL249"
+        ]
+    },
+    "VAC1447": {
+        "label": "VACCIN BCG SYNTHAVERSE",
+        "valences": [
+            "VAL096"
+        ],
+        "implicit": [
+            "VAL096"
+        ]
+    },
+    "VAC1448": {
+        "label": "BCG VACCINE MERCK",
+        "valences": [
+            "VAL096"
+        ],
+        "implicit": [
+            "VAL096"
+        ]
+    },
+    "VAC1449": {
+        "label": "DITANRIX-PEDIATRIC",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1450": {
+        "label": "HEPACARE",
+        "valences": [
+            "VAL115"
+        ],
+        "implicit": [
+            "VAL115",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1451": {
+        "label": "CHIROFLU",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1452": {
+        "label": "SCI-B-VAC",
+        "valences": [
+            "VAL291"
+        ],
+        "implicit": [
+            "VAL291",
+            "VAL068"
+        ]
+    },
+    "VAC1453": {
+        "label": "INVIVAC",
+        "valences": [
+            "VAL351"
+        ],
+        "implicit": [
+            "VAL351",
+            "VAL362",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1454": {
+        "label": "PRIMAVAX",
+        "valences": [
+            "VAL067",
+            "VAL090",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL090",
+            "VAL097",
+            "VAL068",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1455": {
+        "label": "MENGIVAC A + C",
+        "valences": [
+            "VAL037",
+            "VAL137"
+        ],
+        "implicit": [
+            "VAL037",
+            "VAL137",
+            "VAL297",
+            "VAL298"
+        ]
+    },
+    "VAC1456": {
+        "label": "WYVAC",
+        "valences": [
+            "VAL258"
+        ],
+        "implicit": [
+            "VAL258",
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC1457": {
+        "label": "TETRA-SOLGEN",
+        "valences": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1458": {
+        "label": "TRIDIPIGEN",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1459": {
+        "label": "TRINFAGEN N0.1",
+        "valences": [
+            "VAL056",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL067",
+            "VAL097",
+            "VAL042",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1460": {
+        "label": "SOLGEN",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1461": {
+        "label": "DIFTET",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1462": {
+        "label": "PNU-IMUNE 14",
+        "valences": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL218",
+            "VAL219",
+            "VAL223",
+            "VAL225",
+            "VAL232"
+        ],
+        "implicit": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL218",
+            "VAL219",
+            "VAL223",
+            "VAL225",
+            "VAL232",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105"
+        ]
+    },
+    "VAC1463": {
+        "label": "FREEZE-DRIED BCG VACCINE JAPAN",
+        "valences": [
+            "VAL096"
+        ],
+        "implicit": [
+            "VAL096"
+        ]
+    },
+    "VAC1464": {
+        "label": "FLUBRON VACCINE",
+        "valences": [
+            "VAL152"
+        ],
+        "implicit": [
+            "VAL152",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1465": {
+        "label": "PERDIPIGEN",
+        "valences": [
+            "VAL010",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL003"
+        ]
+    },
+    "VAC1466": {
+        "label": "COMIRNATY LP.8.1 30 µg",
+        "valences": [
+            "VAL424"
+        ],
+        "implicit": [
+            "VAL424",
+            "VAL423",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1467": {
+        "label": "COMIRNATY LP.8.1 3 µg 6 MOIS-4 ANS",
+        "valences": [
+            "VAL426"
+        ],
+        "implicit": [
+            "VAL426",
+            "VAL423",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1468": {
+        "label": "COMIRNATY LP.8.1 10 µg 5-11 ans",
+        "valences": [
+            "VAL425"
+        ],
+        "implicit": [
+            "VAL425",
+            "VAL423",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1469": {
+        "label": "mNEXSPIKE",
+        "valences": [
+            "VAL428"
+        ],
+        "implicit": [
+            "VAL428",
+            "VAL427",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1470": {
+        "label": "COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 3 micrograms, paediatric dose (6 months-4 years)",
+        "valences": [
+            "VAL426"
+        ],
+        "implicit": [
+            "VAL426",
+            "VAL423",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1471": {
+        "label": "COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 30 micrograms, adult (+ 12 years)",
+        "valences": [
+            "VAL424"
+        ],
+        "implicit": [
+            "VAL424",
+            "VAL423",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1472": {
+        "label": "COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 10 micrograms, paediatric dose (5-11 years)",
+        "valences": [
+            "VAL425"
+        ],
+        "implicit": [
+            "VAL425",
+            "VAL423",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1473": {
+        "label": "COVID-19 mRNA vaccine, encoding a fragment of the SARS-CoV-2 spike protein, Omicron LP.8.1 subvariant",
+        "valences": [
+            "VAL428"
+        ],
+        "implicit": [
+            "VAL428",
+            "VAL427",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1474": {
+        "label": "ENFLONSIA (CLESROVIMAB)",
+        "valences": [
+            "VAL429"
+        ],
+        "implicit": [
+            "VAL429",
+            "VAL320",
+            "VAL317",
+            "VAL338"
+        ]
+    },
+    "VAC1475": {
+        "label": "Human monoclonal antibody against respiratory syncytial virus (RSV), clesrovimab, unspecified",
+        "valences": [
+            "VAL429"
+        ],
+        "implicit": [
+            "VAL429",
+            "VAL320",
+            "VAL317",
+            "VAL338"
+        ]
+    },
+    "VAC1476": {
+        "label": "Meningococcal vaccine against A, C, W, Y (conjugated polysaccharide) and B",
+        "valences": [
+            "VAL041",
+            "VAL057",
+            "VAL078",
+            "VAL118",
+            "VAL136"
+        ],
+        "implicit": [
+            "VAL041",
+            "VAL057",
+            "VAL078",
+            "VAL118",
+            "VAL136",
+            "VAL297",
+            "VAL298",
+            "VAL299",
+            "VAL300"
+        ]
+    },
+    "VAC1477": {
+        "label": "ENCEPUR N ENFANT",
+        "valences": [
+            "VAL430"
+        ],
+        "implicit": [
+            "VAL430",
+            "VAL312",
+            "VAL031"
+        ]
+    },
+    "VAC1478": {
+        "label": "SYNAGIS 50 mg (PALIZIVUMAB)",
+        "valences": [
+            "VAL116"
+        ],
+        "implicit": [
+            "VAL116",
+            "VAL320",
+            "VAL317",
+            "VAL338"
+        ]
+    },
+    "VAC1479": {
+        "label": "VACPERTAGEN",
+        "valences": [
+            "VAL017"
+        ],
+        "implicit": [
+            "VAL017",
+            "VAL117",
+            "VAL003"
+        ]
+    },
+    "VAC1480": {
+        "label": "PNEUMOVAX 23",
+        "valences": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL215",
+            "VAL216",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL220",
+            "VAL222",
+            "VAL223",
+            "VAL224",
+            "VAL225",
+            "VAL226",
+            "VAL227",
+            "VAL228",
+            "VAL229"
+        ],
+        "implicit": [
+            "VAL206",
+            "VAL207",
+            "VAL208",
+            "VAL209",
+            "VAL210",
+            "VAL211",
+            "VAL212",
+            "VAL213",
+            "VAL214",
+            "VAL215",
+            "VAL216",
+            "VAL217",
+            "VAL218",
+            "VAL219",
+            "VAL220",
+            "VAL222",
+            "VAL223",
+            "VAL224",
+            "VAL225",
+            "VAL226",
+            "VAL227",
+            "VAL228",
+            "VAL229",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105",
+            "VAL185",
+            "VAL105"
+        ]
+    },
+    "VAC1481": {
+        "label": "FLUVACCINOL",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1482": {
+        "label": "IMMUNOGLOBULINE HUMAINE DE L'HÉPATITE B LFB",
+        "valences": [
+            "VAL047"
+        ],
+        "implicit": [
+            "VAL047"
+        ]
+    },
+    "VAC1483": {
+        "label": "ENCEPUR N",
+        "valences": [
+            "VAL431"
+        ],
+        "implicit": [
+            "VAL431",
+            "VAL312",
+            "VAL031"
+        ]
+    },
+    "VAC1484": {
+        "label": "HEPRECOMB ENFANT",
+        "valences": [
+            "VAL170"
+        ],
+        "implicit": [
+            "VAL170",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1485": {
+        "label": "GEN H-B-VAX 5",
+        "valences": [
+            "VAL170"
+        ],
+        "implicit": [
+            "VAL170",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1486": {
+        "label": "GEN H-B-VAX 10",
+        "valences": [
+            "VAL114"
+        ],
+        "implicit": [
+            "VAL114",
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1487": {
+        "label": "PREVENAR-7",
+        "valences": [
+            "VAL188",
+            "VAL191",
+            "VAL194",
+            "VAL198",
+            "VAL200",
+            "VAL202",
+            "VAL204"
+        ],
+        "implicit": [
+            "VAL188",
+            "VAL191",
+            "VAL194",
+            "VAL198",
+            "VAL200",
+            "VAL202",
+            "VAL204",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105",
+            "VAL184",
+            "VAL105"
+        ]
+    },
+    "VAC1488": {
+        "label": "POLIORIX",
+        "valences": [
+            "VAL056"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL042"
+        ]
+    },
+    "VAC1489": {
+        "label": "CELTURA",
+        "valences": [
+            "VAL099"
+        ],
+        "implicit": [
+            "VAL099",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1490": {
+        "label": "ALMEVAX",
+        "valences": [
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL079"
+        ]
+    },
+    "VAC1491": {
+        "label": "RUBEVAC",
+        "valences": [
+            "VAL079"
+        ],
+        "implicit": [
+            "VAL079"
+        ]
+    },
+    "VAC1492": {
+        "label": "POLIOMYELITIS IMPFSTOFF BERNA",
+        "valences": [
+            "VAL056"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL042"
+        ]
+    },
+    "VAC1493": {
+        "label": "ACEL P",
+        "valences": [
+            "VAL008"
+        ],
+        "implicit": [
+            "VAL008",
+            "VAL117",
+            "VAL003"
+        ]
+    },
+    "VAC1494": {
+        "label": "DITEBOOSTER",
+        "valences": [
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL067",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1495": {
+        "label": "POLIO KOPROWSKI K1-K2-K3",
+        "valences": [
+            "VAL033",
+            "VAL085",
+            "VAL132"
+        ],
+        "implicit": [
+            "VAL033",
+            "VAL085",
+            "VAL132",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042",
+            "VAL133",
+            "VAL042"
+        ]
+    },
+    "VAC1496": {
+        "label": "POLIO LILLY",
+        "valences": [
+            "VAL056"
+        ],
+        "implicit": [
+            "VAL056",
+            "VAL042"
+        ]
+    },
+    "VAC1497": {
+        "label": "TD-VIRELON",
+        "valences": [
+            "VAL034",
+            "VAL056",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL056",
+            "VAL067",
+            "VAL083",
+            "VAL414",
+            "VAL042"
+        ]
+    },
+    "VAC1498": {
+        "label": "EPIVACCORONA-N",
+        "valences": [
+            "VAL104"
+        ],
+        "implicit": [
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1499": {
+        "label": "SPUTNIK-M",
+        "valences": [
+            "VAL070"
+        ],
+        "implicit": [
+            "VAL070",
+            "VAL397",
+            "VAL163",
+            "VAL165",
+            "VAL157"
+        ]
+    },
+    "VAC1500": {
+        "label": "SPIKEVAX LP.8.1 50 µg",
+        "valences": [
+            "VAL433"
+        ],
+        "implicit": [
+            "VAL433",
+            "VAL423",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1501": {
+        "label": "SPIKEVAX LP.8.1 25 µg",
+        "valences": [
+            "VAL432"
+        ],
+        "implicit": [
+            "VAL432",
+            "VAL423",
+            "VAL417",
+            "VAL149",
+            "VAL043",
+            "VAL168",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1502": {
+        "label": "BIMERVAX LP.8.1",
+        "valences": [
+            "VAL434"
+        ],
+        "implicit": [
+            "VAL434",
+            "VAL011",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1503": {
+        "label": "COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant",
+        "valences": [
+            "VAL434"
+        ],
+        "implicit": [
+            "VAL434",
+            "VAL011",
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1504": {
+        "label": "TD-PUR",
+        "valences": [
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL067",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1505": {
+        "label": "SCTV01C",
+        "valences": [
+            "VAL104"
+        ],
+        "implicit": [
+            "VAL104",
+            "VAL053",
+            "VAL164",
+            "VAL157"
+        ]
+    },
+    "VAC1506": {
+        "label": "STROVAC",
+        "valences": [
+            "VAL345"
+        ],
+        "implicit": [
+            "VAL345"
+        ]
+    },
+    "VAC1507": {
+        "label": "BUTANTAN-DV",
+        "valences": [
+            "VAL435",
+            "VAL436",
+            "VAL437",
+            "VAL438"
+        ],
+        "implicit": [
+            "VAL435",
+            "VAL436",
+            "VAL437",
+            "VAL438",
+            "VAL150",
+            "VAL150",
+            "VAL150",
+            "VAL150"
+        ]
+    },
+    "VAC1508": {
+        "label": "BUTANTAN HEP A",
+        "valences": [
+            "VAL125"
+        ],
+        "implicit": [
+            "VAL125",
+            "VAL288"
+        ]
+    },
+    "VAC1509": {
+        "label": "BUTANTAN HEP B",
+        "valences": [
+            "VAL090"
+        ],
+        "implicit": [
+            "VAL090",
+            "VAL068"
+        ]
+    },
+    "VAC1510": {
+        "label": "BUTANTAN HPV",
+        "valences": [
+            "VAL052",
+            "VAL238",
+            "VAL239",
+            "VAL240",
+            "VAL241"
+        ],
+        "implicit": [
+            "VAL052",
+            "VAL238",
+            "VAL239",
+            "VAL240",
+            "VAL241",
+            "VAL237",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082",
+            "VAL236",
+            "VAL082"
+        ]
+    },
+    "VAC1511": {
+        "label": "BUTANTAN DT",
+        "valences": [
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL067",
+            "VAL097",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1512": {
+        "label": "BUTANTAN DT ADULTE",
+        "valences": [
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL034",
+            "VAL067",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1513": {
+        "label": "BUTANTAN DTP",
+        "valences": [
+            "VAL010",
+            "VAL067",
+            "VAL097"
+        ],
+        "implicit": [
+            "VAL010",
+            "VAL067",
+            "VAL097",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1514": {
+        "label": "BUTANTAN DTAP",
+        "valences": [
+            "VAL017",
+            "VAL034",
+            "VAL067"
+        ],
+        "implicit": [
+            "VAL017",
+            "VAL034",
+            "VAL067",
+            "VAL117",
+            "VAL003",
+            "VAL083",
+            "VAL414"
+        ]
+    },
+    "VAC1515": {
+        "label": "BUTANTAN RAGE",
+        "valences": [
+            "VAL260"
+        ],
+        "implicit": [
+            "VAL260",
+            "VAL257",
+            "VAL080"
+        ]
+    },
+    "VAC1516": {
+        "label": "BUTANTAN INFLUENZA",
+        "valences": [
+            "VAL015"
+        ],
+        "implicit": [
+            "VAL015",
+            "VAL122",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1517": {
+        "label": "AUJEMFLU",
+        "valences": [
+            "VAL349"
+        ],
+        "implicit": [
+            "VAL349",
+            "VAL231",
+            "VAL024",
+            "VAL058",
+            "VAL365",
+            "VAL364",
+            "VAL128"
+        ]
+    },
+    "VAC1518": {
+        "label": "MFLUSIVA",
+        "valences": [
+            "VAL366"
+        ],
+        "implicit": [
+            "VAL366",
+            "VAL128"
+        ]
+    }
+}
