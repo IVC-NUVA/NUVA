@@ -65,6 +65,7 @@ jobs:
             git add -A
             git commit -am "${{ github.event.inputs.message}}"       
             git push
+            git subtree pull --prefix Website origin gh-pages
             git subtree push --prefix Website origin gh-pages
       - name: Release
         if: github.event.inputs.reason == 'release'
