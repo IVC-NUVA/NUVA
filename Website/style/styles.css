@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+/* Le menu latéral */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #2c3e50;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar h2 {
+  font-size: 22px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 15px;
+}
+
+.sidebar a {
+  color: #bdc3c7;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  background-color: #34495e;
+  color: white;
+}
+
+/* Décalage du contenu principal pour ne pas être caché par le menu */
+.content {
+  margin-left: 250px;
+  padding: 40px;
+  width: calc(100% - 250px);
+}
+
+.valence {
+  text-align: center;
+  background-color: grey;
+  color: white;
+  padding: 2px;
+  border-radius: 8px;
+  border:solid;
+}
+
+.valencetext {
+  visibility:hidden;
+  width: 0px;
+  z-index:1;
+}
+
+.valence:hover .valencetext {
+  visibility:visible;
+  width: 100%
+}
+
+table {
+  border-collapse: collapse;
+}
+table th,td {
+ border: 1px solid;
+ vertical-align: top;
+ padding: 6px;
+}
+
+lval.li {list-style-type: none;}ul li ul { display:none}
+
+/* List icons */
+.unfolded:before {
+   content: "";
+   border-color: blue transparent transparent transparent;
+   border-style: solid;
+   border-width: 0.6em 0.4em 0  0.4em;
+   display: block;
+   height: 0;width: 0;left: -2em;top: 0.9em;
+   position: relative;
+   }
+.folded:before {
+  content: "";
+  border-color: transparent transparent transparent blue;
+  border-style: solid;
+  border-width: 0.4em 0 0.4em 0.6em;
+  display: block;
+  height: 0;width: 0;left: -2em;top: 1em;
+  position: relative;
+  }
+
+.final:before {
+  content: "";
+  background-color:green;
+  display: block;height: 0.2em;width: 0.5em;left: -2em;top: 0.7em;margin-top: 0.5em;
+  position: relative;
+  }
+
+.final {color:green}
+
+

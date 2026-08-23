@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NUVA editor</title>
+    <link href = "style/styles.css" rel="stylesheet">
+    <script type = 'text/javascript' src='scripts/vaccines.js'></script>
+    <script type = 'text/javascript' src='scripts/valences.js'></script>
+    <script type = 'text/javascript' src='scripts/fold.js'></script>
+    <script type = 'text/javascript' src='scripts/nuva.js'></script>
+</head>
+<body>
+<nav class="sidebar">
+  <h1>NUVA</h1>
+  <ul>
+    <li><a href="index.html">Usage</a></li>  
+    <li><a href="vaccines.html">Vaccines</a></li>
+    <li><a href="valences.html">Valences</a></li>
+  </ul>
+
+ <div style = "height:20%">
+ <h3>Filter (any)</h3>
+ <ul id=filter></ul>
+
+ <button onclick = 'clearFilter()'>Clear filter</button>
+ </div>
+ <div style = height:20%>
+ <h3>Selected</h3>
+<ul id=selected></ul>
+
+  <button onclick="setFilter()">Use as filter</button>
+  <button onclick = "clearSelected()">Clear</button>
+ </div>
+</nav>
+
+<main class="content">
+<h1>Valences</h1>
+ 
+
+  <div id=lval> </div>
+
+<script type = "text/javascript">
+
+window.onload = function () {
+  initContext()
+  table = document.getElementById("tvalences")
+  showValences(table, null)
+  updateTicks()
+}
+</script>
+
+
+</main>
+
+</body>
+</html>

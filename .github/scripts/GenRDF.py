@@ -1,5 +1,5 @@
 from rdflib import *
-import yaml,csv
+import yaml,csv,json
 import sys, os, pathlib
 from pathlib import Path
 from datetime import datetime
@@ -148,22 +148,6 @@ def addClass(ref,parent,label,comment,notation,created, modified, localized):
     if comment: core.add((ref,RDFS.comment,Literal(comment,lang = 'en')))
     if notation: core.add((ref,SKOS.notation,Literal(notation,datatype=XSD.string)))
 
-indent = "  "
-
-def valprint(f,offset, valence):
-    if len(valence['children']) == 0:
-        style = "final"
-    else:
-        style = "folded"
-
-    print(offset*indent+f'<li><a class = "{style}">{valence["notation"]}({valence["code"]}) - {valence["label"]}</a>', file = f)
-    if style == "folded":
-        print(offset*indent+'<ul>',file = f)
-        for child in sorted(valence['children'],key = lambda d: d['notation']):
-            valprint(f,1+offset,child)
-        print(offset*indent+'</ul>',file = f)
-    print (offset*indent+'</li>',file = f)
-
 DiseasesParent=URIRef(BaseURI+"/Disease")
 VaccinesParent=URIRef(BaseURI+"/Vaccine")
 ValencesParent=URIRef(BaseURI+"/Valence")
@@ -228,19 +212,34 @@ else:
 core.add((URIRef(BaseURI),OWL.versionInfo,Literal(version)))
 full += core
 
-
-print("Creating the valence tree")
-vtree = NU.nuva_get_valences(core, 'en')
-
-with open('Release/NUVA/valtree_en.html','w') as f:
-    print(valences_top,file=f)
-    for valence in sorted(vtree,key = lambda d: d['notation']):
-        valprint(f,0,valence)
-    print(valences_bottom,file=f)
-
 print("Creating the RDF files")
 core.serialize(destination="Release/NUVA/nuva_core.ttl")
 full.serialize(destination="Release/NUVA/nuva_full.ttl")
+
+print("Creating the JavaScript files")
+jsonVaccines = {}
+for code,data in Vaccines.items():
+    jsonVaccines[code] = {'label': data['label'], 'valences': data['valences'].copy(), 'implicit': data['valences'].copy()}
+    for valence in data['valences']:
+        curvalence = Valences[valence]['parent']
+        while curvalence != 'Valence':
+            jsonVaccines[code]['implicit'].append(curvalence)
+            curvalence = Valences[curvalence]['parent']
+with open('website/scripts/vaccines.js','w',encoding='utf-8-sig') as f:
+    f.write("defaultVaccines="+json.dumps(jsonVaccines,ensure_ascii=False))
+
+jsonValences = {'Valence': {'shorthand': 'VAL', 'label': 'Valence', 'parent': 'Valence', 'children': [], 'lineage': []}}
+for code,data in Valences.items():
+    jsonValences[code]={'shorthand': data['shorthand'], 'label': data['label'], 'parent': data['parent'], 'children': [], 'lineage': []}
+    curparent = data['parent']
+    while curparent != 'Valence':
+        jsonValences[code]['lineage'].append(curparent)
+        curparent = Valences[curparent]['parent']
+for code,data in Valences.items():
+    jsonValences[data['parent']]['children'].append(code)
+
+with open('website/scripts/valences.js','w',encoding='utf-8-sig') as f:
+    f.write("defaultValences="+json.dumps(jsonValences,ensure_ascii=False))
 
 print ('Creating the language RDF files')
 for lang in langgraphs:
