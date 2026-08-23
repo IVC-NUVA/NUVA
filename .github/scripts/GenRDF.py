@@ -225,7 +225,7 @@ for code,data in Vaccines.items():
         while curvalence != 'Valence':
             jsonVaccines[code]['implicit'].append(curvalence)
             curvalence = Valences[curvalence]['parent']
-with open('website/scripts/vaccines.js','w',encoding='utf-8-sig') as f:
+with open('Website/scripts/vaccines.js','w',encoding='utf-8-sig') as f:
     f.write("defaultVaccines="+json.dumps(jsonVaccines,ensure_ascii=False))
 
 jsonValences = {'Valence': {'shorthand': 'VAL', 'label': 'Valence', 'parent': 'Valence', 'children': [], 'lineage': []}}
@@ -238,7 +238,7 @@ for code,data in Valences.items():
 for code,data in Valences.items():
     jsonValences[data['parent']]['children'].append(code)
 
-with open('website/scripts/valences.js','w',encoding='utf-8-sig') as f:
+with open('Website/scripts/valences.js','w',encoding='utf-8-sig') as f:
     f.write("defaultValences="+json.dumps(jsonValences,ensure_ascii=False))
 
 print ('Creating the language RDF files')
