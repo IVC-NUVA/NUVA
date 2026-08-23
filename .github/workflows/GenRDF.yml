@@ -67,7 +67,7 @@ jobs:
             git push
             git switch --orphan gh-pages
             git commit --allow-empty -m "Branch creation"
-            gti switch main
+            git switch main
             git subtree push --prefix Website origin gh-pages
       - name: Release
         if: github.event.inputs.reason == 'release'
