@@ -50,48 +50,7 @@ nuva:NUVACode a owl:Class ;
 	rdfs:comment "The numeric value for a NUVA vaccine concept"@en ;
     rdfs:subClassOf nuva:Code .
 """
-valences_top="""
-<!DOCTYPE html>
-<html>
-<head><meta http-equiv="content-type" content="text/html; charset=windows-1252"><title>Valences tree</title><style>
-li {list-style-type: none;}ul li ul { display:none}
-.unfolded:before {content: ""; border-color: blue transparent transparent transparent; border-style: solid;border-width: 0.6em 0.4em 0  0.4em;display: block;height: 0;width: 0;left: -2em;top: 0.9em;position: relative;}
-.folded:before {content: ""; border-color: transparent transparent transparent blue; border-style: solid;border-width: 0.4em 0 0.4em 0.6em;display: block;height: 0;width: 0;left: -2em;top: 1em;position: relative;}	
-.final:before {content: ""; background-color:green;display: block;height: 0.2em;width: 0.5em;left: -2em;top: 0.7em;margin-top: 0.5em;position: relative;}
-.final {color:green}
-</style></head>
-<body>
-<ul>
-"""
-valences_bottom = """
-</ul>
-<script>
-var foldeder = document.querySelectorAll('.folded');
-for (var i = 0; i < foldeder.length; ++i) 
-{ foldeder[i].onclick=function() { 
-var ul=this.parentElement.querySelectorAll('ul' )[0]; 
-if (ul.offsetHeight> 0) 
-  { ul.style.display='none' ;   
-    this.className = 'folded';
-   }
-else { 
-	ul.style.display='block' ; 
-	this.className = 'unfolded'
-	children=ul.getElementsByTagName('li');
-	for (var j=0; j<children.length;j++)
-	{
-	  child = children[j];
-	  link = child.querySelectorAll('a')[0]
-	  if (link.className == 'unfolded')
-	  {
-		link.className = 'folded';
-		ul2 = child.querySelectorAll('ul')[0]
-		ul2.style.display = 'none'	   
-	  }
-	}   
-} } }
-</script></body></html>
-"""
+
 BaseURI="http://ivci.org/NUVA"
 
 core = Graph()
