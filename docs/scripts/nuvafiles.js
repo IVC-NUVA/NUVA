@@ -2,7 +2,6 @@ spacer = "  "
 EOL = "\n"
 loglines = []
 var logTimer = null
-
 /* Keep context in session storage*/
 function loadFromSession(key,value) {
   json = sessionStorage.getItem(key)
