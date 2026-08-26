@@ -3,9 +3,10 @@
 <head>
     <title>NUVA editor</title>
     <link href = "style/styles.css" rel="stylesheet">
-    <script type = 'text/javascript' src='scripts/vaccines.js'></script>
-    <script type = 'text/javascript' src='scripts/valences.js'></script>
+    <script type = 'text/javascript' src='https://nuva.ivci.org/scripts/vaccines.js'></script>
+    <script type = 'text/javascript' src='https://nuva.ivci.org/scripts/valences.js'></script>	
     <script type = 'text/javascript' src='scripts/nuva.js'></script>
+    <script type = 'text/javascript' src='scripts/nuvafiles.js'></script>	
 </head>
 <body>
 <nav class="sidebar">
@@ -14,6 +15,7 @@
     <li><a href="index.html">Usage</a></li>
     <li><a href="vaccines.html">Vaccines</a></li>
     <li><a href="valences.html">Valences</a></li>
+    <li><a href="files.html">Files</a></li>		
   </ul>
 
  <div style = "height:20%">
@@ -32,31 +34,46 @@
 </nav>
 
 <main class="content">
-<h1>Vaccines</h1> 
+  <h1>Vaccines</h1>
+  <button class='add' onclick=addVaccine()>Add a vaccine</button>
+  
+  <table>
+	<thead>
+        <tr><th>Code</th><th>Name</th><th align="left">Valences</th></tr>
+	</thead>
+	<tbody	id=lvac></tbody>
+   </table>
 
-    <table id=tvaccines>
-        <tr><th>Code</th><th>Name</th><th>Valences</th></tr>
-    </table>
+</main>
+<div id = edit class = "edit" style = "display:none">
+	<table>
+	<tr><td>Code</td><td><input id = "vcode" type = "text" style="width:20%" maxlength=7></input></td></tr>
+	<tr><td>Abstract</td><td><input id = "vabstract" type = "checkbox"></input></td></tr>
+	<tr><td>Name</td><td><input id = "vlabel" type = "text" style="width:95%"></input></td></tr>
+	<tr><td>Comment</td><td><input id = "vcomment" type = "text" style="width:95%"></input></td></tr>
+	<tr><td>Valences</td><td id='vvalences'></td></tr>
+	</table>
+	<button onclick = setVaccineValues()>Save values</button>
+	<button onclick = setVaccineValences()>Assign selected valences</button>
+	<button onclick = resetVaccine()>Reset to default</button>
+	<button onclick = closeVaccineEdit()>Close</button>
+</div>
 
-    <dialog id=edit closedby=any>
-    <h2 id = "vid"></h2>
-    <form id="editform">
-    <label>Label</label>
-    <input id = "vlabel" type = "text">
-    </form>
-    </dialog>
+<div id='alertbox' class="alert" onclick = ackAlert()>
+<p id='alertmsg' valign='center' align='center'>Mon message</p>
+</div>
 
 <script type = "text/javascript">
 
 window.onload = function () {
+  document.page="Vaccines"
   initContext()
+  showSelected()
+  showFilter()  
   table = document.getElementById("tvaccines")
   showVaccines(table)
 }
 </script>
-
-
-</main>
 
 </body>
 </html>

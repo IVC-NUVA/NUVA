@@ -3,9 +3,6 @@
 <head>
     <title>NUVA editor</title>
     <link href = "style/styles.css" rel="stylesheet">
-    <script type = 'text/javascript' src='scripts/vaccines.js'></script>
-    <script type = 'text/javascript' src='scripts/valences.js'></script>
-    <script type = 'text/javascript' src='scripts/nuva.js'></script>
 </head>
 <body>
 <nav class="sidebar">
@@ -14,6 +11,7 @@
     <li><a href="index.html">Usage</a></li>
     <li><a href="vaccines.html">Vaccines</a></li>
     <li><a href="valences.html">Valences</a></li>
+    <li><a href="files.html">Files</a></li>	
   </ul>
 
 </nav>
@@ -25,11 +23,13 @@
 <h2>Vaccines view</h2>
 <p>The <a href="vaccines.html">Vaccines view</a> presents all the NUVA vaccine concepts, with for each vaccine the list of its valences.</p>
 <p>Valences are represented with the usual shorthand notation. You can see more detail by hovering over the valence tag.</p>
+<p>Vaccines can be edited or created. Modified vaccines are presented in bold.</p>
 
 <h2>Valences view</h2>
 <p>The <a href = "valences.html">Valences view</a> presents the hierarchy of valences.</p>
 <p>The terminal (most precise) valences are displayed in green.</p>
 <p>The aggregated valences are displayed in black. You can fold or unfold them by clicking on their description.</p>
+<p>Valences can be edited or created. Modified valences are presented in bold.</p>
 
 <h2>Selection</h2>
 <p>You can include a valence in the selection:</p>
@@ -45,6 +45,10 @@
 <li>Only vaccines with ALL of the selected valences (or a more precise version of the selected ones) are displayed</li>
 <li>Only valences with ANY of the selected valences, their parents and children, are displayed</li>
 </ul>
+<h2>Files view</h2>
+<p>The current modifications are kept only while the browser is open. They can be saved to a backup file and restored later.<p>
+<p>New unit files can be generated for modified Valences and Vaccines. These files can then be submitted to the NUVA Github in order to be incorporated into a next release.</p>
+
 </main>
 
 </body>

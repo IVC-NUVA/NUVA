@@ -178,27 +178,28 @@ full.serialize(destination="Release/NUVA/nuva_full.ttl")
 print("Creating the JavaScript files")
 jsonVaccines = {}
 for code,data in Vaccines.items():
-    jsonVaccines[code] = {'label': data['label'], 'valences': data['valences'].copy(), 'implicit': data['valences'].copy()}
-    for valence in data['valences']:
-        curvalence = Valences[valence]['parent']
-        while curvalence != 'Valence':
-            jsonVaccines[code]['implicit'].append(curvalence)
-            curvalence = Valences[curvalence]['parent']
-with open('docs/scripts/vaccines.js','w',encoding='utf-8-sig') as f:
-    f.write("defaultVaccines="+json.dumps(jsonVaccines,ensure_ascii=False))
+    jsonVaccines[code] = {
+        'abstract': data['abstract'],
+        'label': data['label'],
+        'created': data ['created'],
+        'modified': data['modified'],
+        'comment': data['comment'],
+        'valences': data['valences'].copy()}
 
-jsonValences = {'Valence': {'shorthand': 'VAL', 'label': 'Valence', 'parent': 'Valence', 'children': [], 'lineage': []}}
+with open('docs/scripts/vaccines.js','w',encoding='utf-8-sig') as f:
+    f.write("const defaultVaccines="+json.dumps(jsonVaccines,ensure_ascii=False))
+
+jsonValences = {'Valence': {'shorthand': 'VAL', 'label': 'Valence', 'parent': 'Valence'}}
 for code,data in Valences.items():
-    jsonValences[code]={'shorthand': data['shorthand'], 'label': data['label'], 'parent': data['parent'], 'children': [], 'lineage': []}
-    curparent = data['parent']
-    while curparent != 'Valence':
-        jsonValences[code]['lineage'].append(curparent)
-        curparent = Valences[curparent]['parent']
-for code,data in Valences.items():
-    jsonValences[data['parent']]['children'].append(code)
+    jsonValences[code]={
+        'created': data['created'],
+        'modified': data['modified'],
+        'shorthand': data['shorthand'],
+        'label': data['label'],
+        'parent': data['parent']}
 
 with open('docs/scripts/valences.js','w',encoding='utf-8-sig') as f:
-    f.write("defaultValences="+json.dumps(jsonValences,ensure_ascii=False))
+    f.write("const defaultValences="+json.dumps(jsonValences,ensure_ascii=False))
 
 print ('Creating the language RDF files')
 for lang in langgraphs:
