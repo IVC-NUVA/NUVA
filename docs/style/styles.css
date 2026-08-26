@@ -54,12 +54,12 @@ body {
   width: calc(100% - 250px);
 }
 
-.content li:hover {
-  background-color: #F0F0F0;
+.content li span:hover {
+  background-color: #E0E0E0;
 }
 
 .content tr:hover {
-  background-color: #F0F0F0;
+  background-color: #E0E0E0;
 }
 
 .box {

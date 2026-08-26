@@ -27,7 +27,7 @@ function restore(restVaccines, restValences) {
 	saveToSession('valences',valences)
 	saveToSession('selected',[])
 	saveToSession('filter',[])	
-	rebaseValences()
+	rebuildValences()
 }
 
 function reset()
@@ -39,7 +39,7 @@ function reset()
 function initContext() {
     vaccines = loadFromSession('vaccines',defaultVaccines)
     valences = loadFromSession('valences',defaultValences)
-	rebaseValences()
+	rebuildValences()
     selected_valences = new Set(loadFromSession('selected',[]))
     filter = loadFromSession('filter',[])
 	if (logTimer) {
