@@ -1,7 +1,9 @@
-spacer = "  "
-EOL = "\n"
-loglines = []
+const spacer = "  "
+const EOL = "\n"
+const idRoot = "Valence"
+var loglines = []
 var logTimer = null
+
 /* Keep context in session storage*/
 function loadFromSession(key,value) {
   json = sessionStorage.getItem(key)
@@ -35,7 +37,7 @@ function reset()
 	doLog("All vaccines and valences were reset to their default values.")	
 }
 
-function initContext() {
+function initContext() {	
     vaccines = loadFromSession('vaccines',defaultVaccines)
     valences = loadFromSession('valences',defaultValences)
 	rebuildValences()
@@ -77,11 +79,10 @@ function initLog() {
   logTimer = setInterval(refreshLog,10)
 }
 
-// Work files functions
+// Backup functions
 function today() {
 	return(new Date().toISOString().substring(0,10))
 }
-
 function saveBackup() {
 	
 	backup = {
