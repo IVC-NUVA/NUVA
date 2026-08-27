@@ -1,8 +1,12 @@
 /* Display utilities, common to Vaccines and Valences
+- showAlert shows the alert box when an error message is needed.
+- ackAlert removes the alert box when it is clicked.
+- lockVCode and unlockVCode serve both the Vaccine and Valence boxes.
+- refresh is a common refresh function for Vaccines and Valences
  */
 function showAlert(message) {
     document.getElementById("alertmsg").innerHTML = message
-        document.getElementById("alertbox").style.display = 'block'
+	document.getElementById("alertbox").style.display = 'block'
 }
 
 function ackAlert() {
@@ -11,22 +15,18 @@ function ackAlert() {
 
 function lockVCode() {
     elem = document.getElementById("vcode")
-        elem.readOnly = true
-        elem.style.backgroundColor = "#D0D0D0"
+	elem.readOnly = true
+	elem.style.backgroundColor = "#D0D0D0"
 }
 function unlockVCode() {
     elem = document.getElementById("vcode")
-        elem.readOnly = false
-        elem.style.backgroundColor = ""
+	elem.readOnly = false
+	elem.style.backgroundColor = ""
 }
 
 function refresh() {
-    if (document.page == "Vaccines") {
-        showVaccines()
-    }
-    if (document.page == "Valences") {
-        showValences()
-    }
+	if (document.page == "Vaccines") showVaccines()   
+    if (document.page == "Valences") showValences()   
 }
 
 /* Valence Tag
@@ -35,35 +35,60 @@ When clicked, it toggles its presence in the selected valences.
  */
 function valenceTag(idval) {
     valtag = document.createElement("span")
-        valtag.className = "valence"
-        valtag.id = idval
-        valtag.onclick = function () {
-        idval = this.id
-            if (selected_valences.has(idval)) {
-                selected_valences.delete(idval)
-            } else {
-                selected_valences.add(idval)
-            }
-            showSelected()
-            refresh()
+	valtag.className = "valence"
+	valtag.id = idval
+	valtag.onclick = function () {
+		toggleSelection(this.id)
+		showVaccines()
     }
     valtag.title = valences[idval]['label']
-        valtag.innerHTML = valences[idval]['shorthand']
-        return valtag
+	valtag.innerHTML = valences[idval]['shorthand']
+	return valtag
 }
 
-/* Selected Valences zone */
+/* Selected Valences 
+- toggleSelection is triggered either from a valence tag (vaccines view)
+  or a valence checkbox (valences view).
+  It inserts or remove the valence in the selected valences.
+  When a valence is inserted, both its parents and children are removed.
+- unselectChildren is a recursive function for toggleSelection
+- showSelected displays the selection in the sidebar and saves it to the session context
+- clearSelected empties the selected valences
+
+ */
+function toggleSelection (idval) {
+	if (selected_valences.has(idval)) {
+		selected_valences.delete(idval)
+	} else {
+		selected_valences.add(idval)
+		parent = valences[idval].parent 
+		while (parent != idRoot) {
+				selected_valences.delete(parent)
+				parent = valences[parent].parent
+			}
+		unselectChildren(idval)
+	}
+	showSelected()
+}
+
+function unselectChildren(idval) {
+    for (child of valences[idval].children) {
+        selected_valences.delete(child)
+        unselectChildren(child)
+    }
+}
+	
 
 function showSelected() {
     selplace = document.getElementById("selected")
-        selplace.innerHTML = ""
-        for (doubled of selected_valences.entries()) {
-            idval = doubled[0]
-                item = document.createElement('li')
-                item.appendChild(valenceTag(idval))
-                selplace.appendChild(item)
-        }
-        saveToSession('selected', Array.from(selected_valences))
+	selplace.innerHTML = ""
+	for (doubled of selected_valences.entries()) {
+		idval = doubled[0]
+		item = document.createElement('li')
+		item.appendChild(valenceTag(idval))
+		selplace.appendChild(item)
+	}
+	saveToSession('selected', Array.from(selected_valences))
 }
 
 function clearSelected() {
@@ -72,11 +97,18 @@ function clearSelected() {
     refresh()
 }
 
-/* Filter zone */
+/* Filter
+- setFilter is the button action that copies the selected valences to the filter
+- clearFilter is the button action that empties the filter list
+- showFilter presents the filter content in the sidebar and saves it to the session context
+- clearBoth clears silently the filter and the selected valences. 
+  It is needed when a valence is deleted.
+
+ */
 function setFilter() {
     filter = Array.from(selected_valences)
-        showFilter()
-        refresh()
+	showFilter()
+	refresh()
 }
 
 function clearFilter() {
@@ -87,57 +119,71 @@ function clearFilter() {
 
 function showFilter() {
     filplace = document.getElementById("filter")
-        filplace.innerHTML = ""
-        for (idval of filter) {
-            item = document.createElement('li')
-                item.innerHTML = valences[idval]['shorthand']
-                filplace.appendChild(item)
-        }
-        saveToSession('filter', filter)
+	filplace.innerHTML = ""
+	for (idval of filter) {
+		item = document.createElement('li')
+		item.innerHTML = valences[idval]['shorthand']
+		filplace.appendChild(item)
+	}
+	saveToSession('filter', filter)
 }
 
-/* Vaccines page
-- Visualisation
-- Edition
-- Propagation
- */
-const reVac = new RegExp("VAC\\d{4}")
+function clearBoth() {
+	// Needed when a valence is deleted
+	selected_valences.clear()
+	filter = []
+	showSelected()
+	showFilter()
+}
 
-    /* Vaccines visualisation */
+
+/* Vaccines page  */
+
+/* Vaccines visualisation 
+- showVaccine creates the vaccines table, taking into account the filter.
+*/
 
 function showVaccines() {
     table = document.getElementById("lvac")
-        table.innerHTML = ""
-        vloop: for (idvac in vaccines) {
-            vaccine = vaccines[idvac]
-                for (filterval of filter) {
-                    if (!(vaccine['implicit'].includes(filterval)))
-                        continue vloop
-                }
-                row = table.insertRow(-1)
-                codeCell = row.insertCell(-1)
-                codeCell.id = "C" + idvac
-                codeCell.innerHTML = idvac
-                codeCell.onclick = editVaccine
+	table.innerHTML = ""
+	vloop: for (idvac in vaccines) {
+		vaccine = vaccines[idvac]
+		for (filterval of filter) {
+			if (!(vaccine['implicit'].includes(filterval)))
+				continue vloop
+		}
+		row = table.insertRow(-1)
+		codeCell = row.insertCell(-1)
+		codeCell.id = "C" + idvac
+		codeCell.innerHTML = idvac
+		codeCell.onclick = editVaccine
 
-                labelCell = row.insertCell(-1)
-                labelCell.id = 'L' + idvac
-                labelCell.innerHTML = vaccine['label']
-                if (vaccine['changed']) {
-                    labelCell.style.fontWeight = "bold"
-                }
-                labelCell.onclick = editVaccine
-                valcell = row.insertCell(-1)
-                for (idval of vaccine['valences']) {
-                    valcell.appendChild(valenceTag(idval))
-                }
-        }
+		labelCell = row.insertCell(-1)
+		labelCell.id = 'L' + idvac
+		labelCell.innerHTML = vaccine['label']
+		if (vaccine['changed']) {
+			labelCell.style.fontWeight = "bold"
+		}
+		labelCell.onclick = editVaccine
+		valcell = row.insertCell(-1)
+		for (idval of vaccine['valences']) {
+			valcell.appendChild(valenceTag(idval))
+		}
+	}
 }
 
-/* Vaccines edition
-
-
- */
+/* Vaccines edition 
+- editVaccine and addVaccine invoke viewEditVaccine, with the code field locked or unlocked.
+- viewEditVaccine presents the vaccine edition box
+- closeEditVaccine hides the vaccine edition box
+- setVaccineValues checks and sets the values entered in the form
+- setVaccineValences assign to the vaccines the valences in the selection.
+  Implicit valences are recomputed with rebuildVaccine.
+- resetVaccine restores the value from the defaultVaccines if they existed,
+  or delete the vaccine if it was a new one. In the first case the implicit
+  valences are recomputed with rebuildVaccines.
+*/
+const reVac = new RegExp("VAC\\d{4}")
 
 function editVaccine() {
     lockVCode()
@@ -162,96 +208,92 @@ function viewEditVaccine(idvac) {
         }
     }
     document.getElementById("vcode").value = idvac
-        document.getElementById("vabstract").checked = vaccine['abstract']
-        document.getElementById("vlabel").value = vaccine['label']
-        document.getElementById("vcomment").value = vaccine['comment']
-        vtext = ""
-        for (idval of vaccine['valences']) {
-            vtext += valences[idval]['shorthand'] + " "
-        }
-        document.getElementById("vvalences").innerHTML = vtext
-        document.getElementById("edit").style = "display:block"
+	document.getElementById("vabstract").checked = vaccine['abstract']
+	document.getElementById("vlabel").value = vaccine['label']
+	document.getElementById("vcomment").value = vaccine['comment']
+	vtext = ""
+	for (idval of vaccine['valences']) {
+		vtext += valences[idval]['shorthand'] + " "
+	}
+	document.getElementById("vvalences").innerHTML = vtext
+	document.getElementById("edit").style = "display:block"
 }
 
 function closeVaccineEdit() {
     document.getElementById("vcode").value = ""
-        document.getElementById("edit").style = "display:none"
+	document.getElementById("edit").style = "display:none"
 }
 
 function setVaccineValues() {
     e_vcode = document.getElementById("vcode")
-        idvac = e_vcode.value
-        if (e_vcode.readOnly == false) {
-            // Vaccine creation mode
-            if (!reVac.exec(idvac)) {
-                showAlert("Invalid vaccine code")
-                return
-            }
-            if (idvac in vaccines) {
-                showAlert("Vaccine code already used")
-                return
-            }
-            vaccines[idvac] = {
-                "valences": []
-            }
-            lockVCode()
-        }
-        vaccine = vaccines[idvac]
-        vaccine['abstract'] = document.getElementById('vabstract').checked
-        vaccine.label = document.getElementById('vlabel').value
-        vaccine['comment'] = document.getElementById('vcomment').value
-        vaccine["changed"] = true
-        saveToSession("vaccines", vaccines)
-        showVaccines()
+	idvac = e_vcode.value
+	if (e_vcode.readOnly == false) {
+		// Vaccine creation mode
+		if (!reVac.exec(idvac)) {
+			showAlert("Vaccine code should be VAC followed by 4 digits")
+			return
+		}
+		if (idvac in vaccines) {
+			showAlert("Vaccine code already used")
+			return
+		}
+		vaccines[idvac] = {"valences": []}
+		lockVCode()
+	}
+	vaccine = vaccines[idvac]
+	vaccine['abstract'] = document.getElementById('vabstract').checked
+	vaccine.label = document.getElementById('vlabel').value
+	vaccine['comment'] = document.getElementById('vcomment').value
+	vaccine["changed"] = true
+	saveToSession("vaccines", vaccines)
+	showVaccines()
 }
 
 function setVaccineValences() {
     idvac = document.getElementById("vcode").value
-        if (!(idvac in vaccines)) {
-            showAlert("Save vaccine before assigning valences.")
-            return
-        }
-        vaccine = vaccines[idvac]
-        vaccine['valences'] = Array.from(selected_valences)
-        vaccine["changed"] = true
-        rebuildVaccine(idvac)
-        viewEditVaccine(idvac)
-        saveToSession("vaccines", vaccines)
-        showVaccines()
+	if (!(idvac in vaccines)) {
+		showAlert("Save vaccine before assigning valences.")
+		return
+	}
+	vaccine = vaccines[idvac]
+	vaccine['valences'] = Array.from(selected_valences)
+	vaccine["changed"] = true
+	rebuildVaccine(idvac)
+	viewEditVaccine(idvac)
+	saveToSession("vaccines", vaccines)
+	showVaccines()
 }
 
 function resetVaccine() {
     idvac = document.getElementById("vcode").value
-        if (!(idvac in defaultVaccines)) {
-            delete vaccines[idvac]
-            closeVaccineEdit()
-        } else {
-            Object.assign(vaccines[idvac], defaultVaccines[idvac])
-            vaccines[idvac].changed = false
-                rebuildVaccine(idvac)
-                viewEditVaccine(idvac)
-        }
-        saveToSession("vaccines", vaccines)
-        showVaccines()
+	if (!(idvac in defaultVaccines)) {
+		delete vaccines[idvac]
+		closeVaccineEdit()
+	} else {
+		Object.assign(vaccines[idvac], defaultVaccines[idvac])
+		vaccines[idvac].changed = false
+		rebuildVaccine(idvac)
+		viewEditVaccine(idvac)
+	}
+	saveToSession("vaccines", vaccines)
+	showVaccines()
 }
-
-/* Vaccines propagation */
 
 function rebuildVaccine(idvac) {
     vaccine = vaccines[idvac]
-        vaccine.implicit = []
-        for (index in vaccine.valences) {
-            idval = vaccine.valences[index]
-                if (!(idval in valences)) {
-                    // Valence was deleted
-                    vaccine.valences.splice(index, 1)
-                    continue
-                }
-                vaccine.implicit.push(idval)
-                for (parent of valences[idval].lineage) {
-                    vaccine.implicit.push(parent)
-                }
-        }
+	vaccine.implicit = []
+	for (index in vaccine.valences) {
+		idval = vaccine.valences[index]
+		if (!(idval in valences)) {
+			// Valence was deleted
+			vaccine.valences.splice(index, 1)
+			continue
+		}
+		vaccine.implicit.push(idval)
+		for (parent of valences[idval].lineage) {
+			vaccine.implicit.push(parent)
+		}
+	}
 }
 
 /* Valences page
@@ -266,71 +308,71 @@ function rebuildVaccine(idvac) {
 - showChildren is the recursive function used by showValences.
 Valences that are not compatible with the filter are hidden.
 
-- unfold toggles the folded/unfolded lists when a valence line is clicked
+- toggleFold toggles the folded/unfolded lists when a valence line is clicked
  */
 function showValences() {
     lpos = document.getElementById('lval')
-        lpos.innerHTML = ""
-        list = showChildren(valences["Valence"])
-        lval.appendChild(list)
-        updateTicks()
+	lpos.innerHTML = ""
+	list = showChildren(valences[idRoot])
+	lval.appendChild(list)
+	updateTicks()
 }
 
 function showChildren(valence) {
     var list = document.createElement("ul")
-        var children = valence.children
+	var children = valence.children
 
-        children.sort(function (a, b) {
-        return valences[a].shorthand.localeCompare(valences[b].shorthand)
+	children.sort(function (a, b) {
+	return valences[a].shorthand.localeCompare(valences[b].shorthand)
     })
 
-        for (child of children) {
-            var vchild = valences[child]
-                var hidden = false
-                if (filter.length != 0) {
-                    hidden = true
-                        for (filterval of filter) {
-                            if ((filterval == child) ||
-                                (valences[filterval].lineage.includes(child)) ||
-                                (valences[child].lineage.includes(filterval))) {
-                                hidden = false
-                            }
-                        }
-                }
-                var item = document.createElement("li")
-                var s1 = document.createElement("span")
-                s1.id = child
-                s1.innerHTML = vchild.shorthand + '(' + child + ')-' + vchild.label
-                if (vchild.changed) {
-                    s1.style.fontWeight = 'bold'
-                }
-                item.appendChild(s1)
-                var select = document.createElement('input')
-                select.type = 'checkbox'
-                select.id = "tick" + child
-                select.onclick = tickValence
-                var s2 = document.createElement("span")
-                s2.appendChild(select)
-                item.appendChild(s2)
-                if (vchild.children.length == 0) {
-                    s1.className = 'final'
-                        s1.onclick = editValence
-                } else {
-                    s1.className = 'folded'
-                        s1.onclick = unfold
-                        item.appendChild(showChildren(vchild))
-                }
-                list.appendChild(item)
-                if (hidden) {
-                    item.style.display = 'none'
-                } else {
-                    item.style.display = 'block'
-                }
-        }
-        return list
+	for (child of children) {
+		var vchild = valences[child]
+		var hidden = false
+		if (filter.length != 0) {
+			hidden = true
+			for (filterval of filter) {
+				if ((filterval == child) ||
+					(valences[filterval].lineage.includes(child)) ||
+					(valences[child].lineage.includes(filterval))) {
+					hidden = false
+				}
+			}
+		}
+		var item = document.createElement("li")
+		var s1 = document.createElement("span")
+		s1.id = child
+		s1.innerHTML = vchild.shorthand + '(' + child + ')-' + vchild.label
+		if (vchild.changed) {
+			s1.style.fontWeight = 'bold'
+		}
+		item.appendChild(s1)
+		var select = document.createElement('input')
+		select.type = 'checkbox'
+		select.id = "tick" + child
+		select.onclick = tickValence
+		var s2 = document.createElement("span")
+		s2.appendChild(select)
+		item.appendChild(s2)
+		if (vchild.children.length == 0) {
+			s1.className = 'final'
+			s1.onclick = editValence
+		} else {
+			s1.className = 'folded'
+			s1.onclick = toggleFold
+			item.appendChild(showChildren(vchild))
+		}
+		list.appendChild(item)
+		if (hidden) {
+			item.style.display = 'none'
+		} else {
+			item.style.display = 'block'
+		}
+	}
+	return list
 }
 
-function unfold() {
+function toggleFold() {
     var ul = this.parentElement.querySelectorAll('ul')[0];
     if (ul.style.display == 'block') {
         ul.style.display = 'none';
@@ -338,14 +380,14 @@ function unfold() {
     } else {
         ul.style.display = 'block';
         this.className = 'unfolded'
-            var children = ul.querySelectorAll('li');
+		var children = ul.querySelectorAll('li');
         for (child of children) {
             item = child.querySelectorAll('span')[0]
-                if (item.className == 'unfolded') {
-                    item.className = 'folded';
-                    ul2 = child.querySelectorAll('ul')[0]
-                        ul2.style.display = 'none'
-                }
+			if (item.className == 'unfolded') {
+				item.className = 'folded';
+				ul2 = child.querySelectorAll('ul')[0]
+				ul2.style.display = 'none'
+			}
         }
     }
     var ul = this.parentElement.querySelectorAll('ul')[0];
@@ -357,55 +399,34 @@ function unfold() {
 /* Valences selection
 - tickValence is the function called when a valence checkbox is clicked.
 When a valence is added to the selection, its parents and children are removed.
-- unselectChildren is a recursive function used by tickValence
 - updateTicks set the valence checkboxes according the current selected_valences.
 It is used on a new tick and each time the valences page is refreshed.
 The parents for a selected valence are also ticked, but greyed out.
  */
 
 function tickValence() {
-    idval = this.id.substring(4)
-        if (selected_valences.has(idval)) {
-            selected_valences.delete(idval)
-        } else {
-            selected_valences.add(idval)
-            parent = valences[idval].parent 
-			while (parent != "Valence") {
-                    selected_valences.delete(parent)
-                    parent = valences[parent].parent
-                }
-                unselectChildren(idval)
-        }
-        updateTicks()
-        showSelected()
-}
-
-function unselectChildren(idval) {
-    for (child of valences[idval].children) {
-        selected_valences.delete(child)
-        unselectChildren(child)
-    }
+	toggleSelection(this.id.substring(4))
+    updateTicks()
 }
 
 function updateTicks() {
     for (idval in valences) {
-        if (idval == 'Valence')
-            continue
-            tickbox = document.getElementById('tick' + idval)
-                tickbox.checked = false
-                tickbox.style = 'accent-color:blue'
+        if (idval == 'Valence') continue
+		tickbox = document.getElementById('tick' + idval)
+		tickbox.checked = false
+		tickbox.style = 'accent-color:blue'
     }
 
     for (doubled of selected_valences.entries()) {
         idval = doubled[0]
-            tickbox = document.getElementById('tick' + idval)
-            tickbox.checked = true
-            tickbox.style = 'accent-color:blue'
-            for (idparent of valences[idval].lineage) {
-                tickbox = document.getElementById('tick' + idparent)
-                    tickbox.checked = true
-                    tickbox.style = 'accent-color:grey'
-            }
+		tickbox = document.getElementById('tick' + idval)
+		tickbox.checked = true
+		tickbox.style = 'accent-color:blue'
+		for (idparent of valences[idval].lineage) {
+			tickbox = document.getElementById('tick' + idparent)
+			tickbox.checked = true
+			tickbox.style = 'accent-color:grey'
+		}
     }
 }
 
@@ -442,42 +463,42 @@ function viewEditValence(idval) {
         valence = valences[idval]
     }
     document.getElementById("vcode").value = idval
-        document.getElementById("vshorthand").value = valence['shorthand']
-        document.getElementById("vlabel").value = valence['label']
-        document.getElementById("vparent").innerHTML = valences[valence['parent']]['shorthand']
-        document.getElementById("edit").style = "display:block"
+	document.getElementById("vshorthand").value = valence['shorthand']
+	document.getElementById("vlabel").value = valence['label']
+	document.getElementById("vparent").innerHTML = valences[valence['parent']]['shorthand']
+	document.getElementById("edit").style = "display:block"
 }
+
 function closeValenceEdit() {
     document.getElementById("vcode").value = ""
-        document.getElementById("edit").style = "display:none"
+	document.getElementById("edit").style = "display:none"
 }
 function setValenceValues() {
     e_vcode = document.getElementById("vcode")
-        idval = e_vcode.value
-        if (e_vcode.readOnly == false) {
-            // Valence creation mode
-            if (!reVal.exec(idval)) {
-                showAlert("Valence code must be VAL followed by 3 digits")
-                return
-            }
-            if (idval in valences) {
-                showAlert("Valence code already used")
-                return
-            }
-            lockVCode()
-            valences[idval] = {
-                "parent": ["Valence"]
-            }
-            rebuildValences()
-        }
-        valence = valences[idval]
-        valence.shorthand = document.getElementById("vshorthand").value
-        valence.label = document.getElementById("vlabel").value
-        valence.changed = true
-        viewEditValence(idval)
-        saveToSession("valences", valences)
-        showValences()
+	idval = e_vcode.value
+	if (e_vcode.readOnly == false) {
+		// Valence creation mode
+		if (!reVal.exec(idval)) {
+			showAlert("Valence code must be VAL followed by 3 digits")
+			return
+		}
+		if (idval in valences) {
+			showAlert("Valence code already used")
+			return
+		}
+		lockVCode()
+		valences[idval] = {"parent": [idRoot]}
+		rebuildValences()
+	}
+	valence = valences[idval]
+	valence.shorthand = document.getElementById("vshorthand").value
+	valence.label = document.getElementById("vlabel").value
+	valence.changed = true
+	viewEditValence(idval)
+	saveToSession("valences", valences)
+	showValences()
 }
+
 function setParent() {
     idval = document.getElementById("vcode").value
 	if (!(idval in valences)) {
@@ -486,7 +507,7 @@ function setParent() {
 	}
 	valence = valences[idval]
 	if (selected_valences.size == 0) {
-		valence.parent = "Valence"
+		valence.parent = idRoot
 	} else {
 		valence.parent = Array.from(selected_valences)[0]
 	}
@@ -501,13 +522,11 @@ function resetValence() {
 	if (!(idval in defaultValences)) {
 		delete valences[idval]
 		closeValenceEdit()
-		// Just in case the deleted valence would be selected
-		clearSelected()
-		clearFilter()
+		clearBoth()
 	} else {
 		Object.assign(valences[idval], defaultValences[idval])
 		valences[idval].changed = false
-			viewEditValence(idval)
+		viewEditValence(idval)
 	}
 	rebuildValences()
 	saveToSession("valences", valences)
@@ -519,13 +538,19 @@ function resetValence() {
 function rebuildValences() {
     for (idval in valences) {
         valence = valences[idval]
-            valence.lineage = []
-            curval = valence.parent 
-			while (curval != 'Valence') {
-                valence.lineage.push(curval)
-                curval = valences[curval].parent
-            }
-            valence.children = []
+		valence.lineage = []
+		curval = valence.parent
+		if (!(curval in valences)) {
+			// Parent was deleted, reassign to root valence
+			valence.parent = idRoot
+			valence.changed = true
+			curval = idRoot
+		}
+		while (curval != idRoot) {
+			valence.lineage.push(curval)
+			curval = valences[curval].parent
+		}
+		valence.children = []
     }
     for (idval in valences) {
         if (idval == 'Valence') continue
