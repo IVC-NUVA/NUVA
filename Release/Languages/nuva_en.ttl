@@ -1307,6 +1307,27 @@
 <http://ivci.org/NUVA/VAC1503> rdfs:label "COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant"@en ;
     rdfs:comment "COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant"@en .
 
+<http://ivci.org/NUVA/VAC1521> rdfs:label "COVID-19 mRNA vaccine, subvariant Omicron XFG, 10 micrograms, paediatric dose (5-11 years)"@en ;
+    rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron XFG, 10 micrograms, paediatric dose (5-11 years)"@en .
+
+<http://ivci.org/NUVA/VAC1522> rdfs:label "COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 30 micrograms, adult (+ 12 years)"@en ;
+    rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron XFG, 30 micrograms, adult (+ 12 years)"@en .
+
+<http://ivci.org/NUVA/VAC1524> rdfs:label "Melanoma vaccine, messenger RNA, individualized neoantigens"@en ;
+    rdfs:comment "Melanoma vaccine, messenger RNA, individualized neoantigens"@en .
+
+<http://ivci.org/NUVA/VAC1527> rdfs:label "COVID-19 protein subunit vaccine, recombinant spike protein (RBD domain), with adjuvant (SQBA), Omicron XFG.1.1 subvariant."@en ;
+    rdfs:comment "COVID-19 protein subunit vaccine, recombinant spike protein (RBD domain), with adjuvant (SQBA), Omicron XFG.1.1 subvariant."@en .
+
+<http://ivci.org/NUVA/VAC1528> rdfs:label "COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles, with adjuvant (Matrix M), Omicron XFG subvariant"@en ;
+    rdfs:comment "COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles, with adjuvant (Matrix M), Omicron XFG subvariant"@en .
+
+<http://ivci.org/NUVA/VAC1531> rdfs:label "COVID-19 mRNA vaccine, subvariant Omicron XFG, 50 micrograms"@en ;
+    rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron XFG, 50 micrograms"@en .
+
+<http://ivci.org/NUVA/VAC1532> rdfs:label "COVID-19 mRNA vaccine, subvariant Omicron XFG, 25 micrograms"@en ;
+    rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron XFG, 25 micrograms"@en .
+
 <http://ivci.org/NUVA/VAL001> rdfs:label "Influenza valence, trivalent, live attenuated, standard dose"@en ;
     skos:altLabel "INF-L3"@en .
 
@@ -1661,8 +1682,8 @@
 <http://ivci.org/NUVA/VAL118> rdfs:label "Meningococcal B valence, unspecified"@en ;
     skos:altLabel "MenB"@en .
 
-<http://ivci.org/NUVA/VAL119> rdfs:label "Meningococcal valence, monovalent, unconjugated polysaccharide"@en ;
-    skos:altLabel "MPV-mono"@en .
+<http://ivci.org/NUVA/VAL119> rdfs:label "COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms"@en ;
+    skos:altLabel "Covid-ARNm-S-OMI-XFG-50"@en .
 
 <http://ivci.org/NUVA/VAL120> rdfs:label "Meningococcal valence, polyvalent, unconjugated polysaccharide"@en ;
     skos:altLabel "MPV-poly"@en .
@@ -1841,8 +1862,8 @@
 <http://ivci.org/NUVA/VAL178> rdfs:label "COVID-19 valence, Omicron variant BA.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms"@en ;
     skos:altLabel "COVID-mRNA-S-OMI-BA.1-25"@en .
 
-<http://ivci.org/NUVA/VAL179> rdfs:label "Meningococcal  valence, monovalent, conjugate"@en ;
-    skos:altLabel "MCV-mono"@en .
+<http://ivci.org/NUVA/VAL179> rdfs:label "COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms"@en ;
+    skos:altLabel "Covid-ARNm-S-OMI-XFG-25"@en .
 
 <http://ivci.org/NUVA/VAL180> rdfs:label "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 100 micrograms"@en ;
     skos:altLabel "COVID-mRNA-S-ORI-100"@en .
@@ -2620,4 +2641,22 @@
 
 <http://ivci.org/NUVA/VAL438> rdfs:label "Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-4"@en ;
     skos:altLabel "DENV4rCH"@en .
+
+<http://ivci.org/NUVA/VAL439> rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein"@en ;
+    skos:altLabel "Covid-ARNm-S-OMI-XFG"@en .
+
+<http://ivci.org/NUVA/VAL440> rdfs:label "COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms"@en ;
+    skos:altLabel "Covid-ARNm-S-OMI-XFG-10"@en .
+
+<http://ivci.org/NUVA/VAL441> rdfs:label "COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms"@en ;
+    skos:altLabel "Covid-ARNm-S-OMI-XFG-30"@en .
+
+<http://ivci.org/NUVA/VAL442> rdfs:label "Melanoma valence, messenger RNA, individualized neoantigens"@en ;
+    skos:altLabel "MEL-ARNI"@en .
+
+<http://ivci.org/NUVA/VAL443> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein in nanoparticles, sub-variant Omicron XFG"@en ;
+    skos:altLabel "Covid-SP-rSnp-XFG"@en .
+
+<http://ivci.org/NUVA/VAL444> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron XFG subvariant"@en ;
+    skos:altLabel "Covid-SP-rRBD-XFG"@en .
 

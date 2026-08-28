@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "1.3.36"^^xsd:string .
+    owl:versionInfo "1.3.37"^^xsd:string .
 
 nuva:AIC a owl:Class ;
     rdfs:label "AIC"^^xsd:string ;
@@ -4090,7 +4090,7 @@ nuva:VAC0130 a owl:Class ;
     rdfs:label "MMR vaccine, unspecified"@de,
         "MMR vaccine, unspecified"@el,
         "MMR Measles-Mumps-Rubella Vaccine, live attenuated, unspecified"@en,
-        "Vaccin ROR, sans précision"@fr,
+        "Vaccin ROR Rougeole-Oreillons-Rubéole, sans précision"@fr,
         "MMR vaccine, unspecified"@lv,
         "MMR vaccine, unspecified"@pl,
         "MMR vaccine, unspecified"@pt ;
@@ -16309,10 +16309,10 @@ nuva:VAC0809 a owl:Class ;
         "Meningococcal monovalent polysaccharide vaccine, unspecified"@lv,
         "Meningococcal monovalent polysaccharide vaccine, unspecified"@pl,
         "Meningococcal monovalent polysaccharide vaccine, unspecified"@pt ;
-    nuvs:containsValence nuva:VAL119 ;
+    nuvs:containsValence nuva:VAL234 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-10-26"^^xsd:date ;
-    dcterms:modified "2025-04-15"^^xsd:date ;
+    dcterms:modified "2026-08-28"^^xsd:date ;
     rdfs:comment "Monovalenter Meningokokken-Impfstoff, Konjugat oder nicht konjugiertes Polysaccharid"@de,
         "Μηνιγγιτιδοκοκκικό μονοδύναμο εμβόλιο, συζευγμένο ή μη συζευγμένο πολυσακχαρίτη"@el,
         "Meningococcal monovalent vaccine, conjugate or unconjugated polysaccharide"@en,
@@ -16335,10 +16335,10 @@ nuva:VAC0810 a owl:Class ;
         "Meningococcal polyvalent polysaccharide vaccine, unspecified"@lv,
         "Meningococcal polyvalent polysaccharide vaccine, unspecified"@pl,
         "Meningococcal polyvalent polysaccharide vaccine, unspecified"@pt ;
-    nuvs:containsValence nuva:VAL120 ;
+    nuvs:containsValence nuva:VAL234 ;
     nuvs:isAbstract true ;
     dcterms:created "2021-10-26"^^xsd:date ;
-    dcterms:modified "2025-05-20"^^xsd:date ;
+    dcterms:modified "2026-08-28"^^xsd:date ;
     rdfs:comment "Polyvalenter nicht konjugierter Polysaccharidimpfstoff gegen Meningokokken"@de,
         "Πολυδύναμο μη συζευγμένο πολυσακχαριδικό εμβόλιο κατά του μηνιγγιτιδόκοκκου"@el,
         "Meningococcal polyvalent unconjugated polysaccharide vaccine"@en,
@@ -25216,7 +25216,7 @@ nuva:VAC1267 a owl:Class ;
     nuvs:containsValence nuva:VAL391 ;
     nuvs:isAbstract false ;
     dcterms:created "2025-02-18"^^xsd:date ;
-    dcterms:modified "2026-06-04"^^xsd:date ;
+    dcterms:modified "2026-08-14"^^xsd:date ;
     rdfs:comment "Chikungunya VLP vaccine (recombinant, adsorbed)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "052011"^^nuva:AIC,
@@ -27629,10 +27629,10 @@ nuva:VAC1436 a owl:Class ;
 nuva:VAC1437 a owl:Class ;
     rdfs:label "Meningococcal vaccine, monovalent, conjugate"@en,
         "Vaccin méningocoque, monovalent, polyosidique conjugué"@fr ;
-    nuvs:containsValence nuva:VAL179 ;
+    nuvs:containsValence nuva:VAL234 ;
     nuvs:isAbstract true ;
     dcterms:created "2025-05-22"^^xsd:date ;
-    dcterms:modified "2026-05-19"^^xsd:date ;
+    dcterms:modified "2026-08-28"^^xsd:date ;
     rdfs:comment "Meningococcal vaccine, monovalent, conjugate"@en,
         "Vaccin méningocoque, monovalent, polyosidique conjugué"@fr ;
     rdfs:subClassOf nuva:Vaccine ;
@@ -27655,10 +27655,10 @@ nuva:VAC1438 a owl:Class ;
 nuva:VAC1439 a owl:Class ;
     rdfs:label "Meningococcal vaccine, polyvalent, conjugate polysaccharide"@en,
         "Vaccin méningocoque, polyvalent, polyosidique conjugué"@fr ;
-    nuvs:containsValence nuva:VAL235 ;
+    nuvs:containsValence nuva:VAL234 ;
     nuvs:isAbstract true ;
     dcterms:created "2025-05-22"^^xsd:date ;
-    dcterms:modified "2025-05-22"^^xsd:date ;
+    dcterms:modified "2026-08-28"^^xsd:date ;
     rdfs:comment "Meningococcal vaccine, polyvalent, conjugate polysaccharide"@en,
         "Vaccin méningocoque, polyvalent, polyosidique conjugué"@fr ;
     rdfs:subClassOf nuva:Vaccine ;
@@ -28033,11 +28033,11 @@ nuva:VAC1467 a owl:Class ;
         "VAC1467"^^xsd:string .
 
 nuva:VAC1468 a owl:Class ;
-    rdfs:label "COMIRNATY LP.8.1 10 µg 5-11 ans"^^xsd:string ;
+    rdfs:label "COMIRNATY LP.8.1 10 µg"^^xsd:string ;
     nuvs:containsValence nuva:VAL425 ;
     nuvs:isAbstract false ;
     dcterms:created "2025-08-28"^^xsd:date ;
-    dcterms:modified "2026-04-23"^^xsd:date ;
+    dcterms:modified "2026-08-24"^^xsd:date ;
     rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 10 micrograms, paediatric dose (5-11 years)"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "3400930325544"^^nuva:CIP,
@@ -28714,6 +28714,202 @@ nuva:VAC1518 a owl:Class ;
     skos:notation "['1518']"^^nuva:NUVACode,
         "VAC1518"^^xsd:string .
 
+nuva:VAC1519 a owl:Class ;
+    rdfs:label "COMIRNATY XFG 10 µg"^^xsd:string ;
+    nuvs:containsValence nuva:VAL440 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-08-25"^^xsd:date ;
+    dcterms:modified "2026-08-25"^^xsd:date ;
+    rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron XFG, 10 micrograms, paediatric dose (5-11 years)"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1519']"^^nuva:NUVACode,
+        "VAC1519"^^xsd:string .
+
+nuva:VAC1520 a owl:Class ;
+    rdfs:label "COMIRNATY XFG 30 µg"^^xsd:string ;
+    nuvs:containsValence nuva:VAL441 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-08-25"^^xsd:date ;
+    dcterms:modified "2026-08-28"^^xsd:date ;
+    rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron XFG, 30 micrograms, adult (+ 12 years)"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1520']"^^nuva:NUVACode,
+        "VAC1520"^^xsd:string .
+
+nuva:VAC1521 a owl:Class ;
+    rdfs:label "COVID-19 mRNA vaccine, subvariant Omicron XFG, 10 micrograms, paediatric dose (5-11 years)"@en ;
+    nuvs:containsValence nuva:VAL440 ;
+    nuvs:isAbstract true ;
+    dcterms:created "2026-08-25"^^xsd:date ;
+    dcterms:modified "2026-08-25"^^xsd:date ;
+    rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron XFG, 10 micrograms, paediatric dose (5-11 years)"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1521']"^^nuva:NUVACode,
+        "VAC1521"^^xsd:string .
+
+nuva:VAC1522 a owl:Class ;
+    rdfs:label "COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 30 micrograms, adult (+ 12 years)"@en ;
+    nuvs:containsValence nuva:VAL441 ;
+    nuvs:isAbstract true ;
+    dcterms:created "2026-08-25"^^xsd:date ;
+    dcterms:modified "2026-08-28"^^xsd:date ;
+    rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron XFG, 30 micrograms, adult (+ 12 years)"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1522']"^^nuva:NUVACode,
+        "VAC1522"^^xsd:string .
+
+nuva:VAC1523 a owl:Class ;
+    rdfs:label "KEYTRUDA"^^xsd:string ;
+    nuvs:containsValence nuva:VAL442 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-08-25"^^xsd:date ;
+    dcterms:modified "2026-08-25"^^xsd:date ;
+    rdfs:comment "Melanoma vaccine, messenger RNA, individualized neoantigens"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1523']"^^nuva:NUVACode,
+        "VAC1523"^^xsd:string .
+
+nuva:VAC1524 a owl:Class ;
+    rdfs:label "Melanoma vaccine, messenger RNA, individualized neoantigens"@en ;
+    nuvs:containsValence nuva:VAL442 ;
+    nuvs:isAbstract true ;
+    dcterms:created "2026-08-25"^^xsd:date ;
+    dcterms:modified "2026-08-25"^^xsd:date ;
+    rdfs:comment "Melanoma vaccine, messenger RNA, individualized neoantigens"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1524']"^^nuva:NUVACode,
+        "VAC1524"^^xsd:string .
+
+nuva:VAC1525 a owl:Class ;
+    rdfs:label "NUVAXOVID XFG"^^xsd:string ;
+    nuvs:containsValence nuva:VAL443 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-08-25"^^xsd:date ;
+    dcterms:modified "2026-08-25"^^xsd:date ;
+    rdfs:comment "COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles, with adjuvant (Matrix M), Omicron XFG subvariant"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1525']"^^nuva:NUVACode,
+        "VAC1525"^^xsd:string .
+
+nuva:VAC1526 a owl:Class ;
+    rdfs:label "BIMERVAX XFG.1.1"^^xsd:string ;
+    nuvs:containsValence nuva:VAL444 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-08-25"^^xsd:date ;
+    dcterms:modified "2026-08-25"^^xsd:date ;
+    rdfs:comment "COVID-19 protein subunit vaccine, recombinant spike protein (RBD domain), with adjuvant (SQBA), Omicron XFG.1.1 subvariant."@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1526']"^^nuva:NUVACode,
+        "VAC1526"^^xsd:string .
+
+nuva:VAC1527 a owl:Class ;
+    rdfs:label "COVID-19 protein subunit vaccine, recombinant spike protein (RBD domain), with adjuvant (SQBA), Omicron XFG.1.1 subvariant."@en ;
+    nuvs:containsValence nuva:VAL444 ;
+    nuvs:isAbstract true ;
+    dcterms:created "2026-08-26"^^xsd:date ;
+    dcterms:modified "2026-08-26"^^xsd:date ;
+    rdfs:comment "COVID-19 protein subunit vaccine, recombinant spike protein (RBD domain), with adjuvant (SQBA), Omicron XFG.1.1 subvariant."@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1527']"^^nuva:NUVACode,
+        "VAC1527"^^xsd:string .
+
+nuva:VAC1528 a owl:Class ;
+    rdfs:label "COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles, with adjuvant (Matrix M), Omicron XFG subvariant"@en ;
+    nuvs:containsValence nuva:VAL443 ;
+    nuvs:isAbstract true ;
+    dcterms:created "2026-08-26"^^xsd:date ;
+    dcterms:modified "2026-08-26"^^xsd:date ;
+    rdfs:comment "COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles, with adjuvant (Matrix M), Omicron XFG subvariant"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1528']"^^nuva:NUVACode,
+        "VAC1528"^^xsd:string .
+
+nuva:VAC1529 a owl:Class ;
+    rdfs:label "SPIKEVAX XFG 25 µg"^^xsd:string ;
+    nuvs:containsValence nuva:VAL179 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-08-28"^^xsd:date ;
+    dcterms:modified "2026-08-28"^^xsd:date ;
+    rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron XFG, 25 micrograms"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1529']"^^nuva:NUVACode,
+        "VAC1529"^^xsd:string .
+
+nuva:VAC1530 a owl:Class ;
+    rdfs:label "SPIKEVAX XFG 50 µg"^^xsd:string ;
+    nuvs:containsValence nuva:VAL119 ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-08-28"^^xsd:date ;
+    dcterms:modified "2026-08-28"^^xsd:date ;
+    rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron XFG, 50 micrograms"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1530']"^^nuva:NUVACode,
+        "VAC1530"^^xsd:string .
+
+nuva:VAC1531 a owl:Class ;
+    rdfs:label "COVID-19 mRNA vaccine, subvariant Omicron XFG, 50 micrograms"@en ;
+    nuvs:containsValence nuva:VAL119 ;
+    nuvs:isAbstract true ;
+    dcterms:created "2026-08-28"^^xsd:date ;
+    dcterms:modified "2026-08-28"^^xsd:date ;
+    rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron XFG, 50 micrograms"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1531']"^^nuva:NUVACode,
+        "VAC1531"^^xsd:string .
+
+nuva:VAC1532 a owl:Class ;
+    rdfs:label "COVID-19 mRNA vaccine, subvariant Omicron XFG, 25 micrograms"@en ;
+    nuvs:containsValence nuva:VAL179 ;
+    nuvs:isAbstract true ;
+    dcterms:created "2026-08-28"^^xsd:date ;
+    dcterms:modified "2026-08-28"^^xsd:date ;
+    rdfs:comment "COVID-19 mRNA vaccine, subvariant Omicron XFG, 25 micrograms"@en ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "['1532']"^^nuva:NUVACode,
+        "VAC1532"^^xsd:string .
+
+nuva:VAL120 a owl:Class ;
+    rdfs:label "Meningokokken, nicht konjugiertes Polysaccharid, polyvalent"@de,
+        "Μηνιγγιτιδοκοκκικός μη συζευγμένος πολυσακχαρίτης, πολυδύναμο"@el,
+        "Meningococcal valence, polyvalent, unconjugated polysaccharide"@en,
+        "Valence méningocoque, polyvalent, polyoside non conjugué"@fr,
+        "Meningokoka nekonjugēts polisaharīds, polivalents"@lv,
+        "Nieskoniugowany polisacharyd meningokokowy, poliwalentny"@pl,
+        "Polissacarídeo não conjugado meningocócico, polivalente"@pt ;
+    nuvs:prevents nuva:DIS048 ;
+    dcterms:created "2021-10-26"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL234 ;
+    skos:altLabel "MPV-poly"@de,
+        "MPV-poly"@el,
+        "MPV-poly"@en,
+        "MPV-poly"@fr,
+        "MPV-poly"@lv,
+        "MPV-poly"@pl,
+        "MPV-poly"@pt ;
+    skos:notation "VAL120"^^xsd:string .
+
+nuva:VAL235 a owl:Class ;
+    rdfs:label "Meningokokken-Konjugat-Polysaccharid-Impfstoff, polyvalent"@de,
+        "Μηνιγγιτιδοκοκκικό συζευγμένο πολυσακχαριδικό εμβόλιο, πολυδύναμο"@el,
+        "Meningococcal valence, polyvalent, conjugate polysaccharide"@en,
+        "Valence méningocoque, polyvalent, polyosidique conjugué"@fr,
+        "Meningokoku konjugētā polisaharīdu polisaharīdu vakcīna, polivalenta"@lv,
+        "Polisacharydowa szczepionka skoniugowana przeciwko meningokokom, poliwalentna"@pl,
+        "Vacina de polissacarídeo conjugado meningocócico, polivalente"@pt ;
+    nuvs:prevents nuva:DIS048 ;
+    dcterms:created "2022-03-29"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL234 ;
+    skos:altLabel "MCV-poly"@de,
+        "MCV-poly"@el,
+        "MCV-poly"@en,
+        "MCV-poly"@fr,
+        "MCV-poly"@lv,
+        "MCV-poly"@pl,
+        "MCV-poly"@pt ;
+    skos:notation "VAL235"^^xsd:string .
+
 nuvs:containedInVaccine a owl:ObjectProperty ;
     owl:inverseOf nuvs:containsValence .
 
@@ -28910,18 +29106,6 @@ nuva:DIS072 a owl:Class ;
     dcterms:modified "2025-03-03"^^xsd:date ;
     rdfs:subClassOf nuva:Disease .
 
-nuva:DIS073 a owl:Class ;
-    rdfs:label "Melanom"@de,
-        "Μελάνωμα"@el,
-        "Melanoma"@en,
-        "Mélanome"@fr,
-        "Melanoma"@lv,
-        "Czerniak"@pl,
-        "Melanoma"@pt ;
-    dcterms:created "2024-03-18"^^xsd:date ;
-    dcterms:modified "2024-03-25"^^xsd:date ;
-    rdfs:subClassOf nuva:Disease .
-
 nuva:DIS074 a owl:Class ;
     rdfs:label "Streptococcus pyogenes"@de,
         "Streptococcus pyogenes"@el,
@@ -28997,48 +29181,6 @@ nuva:VAL046 a owl:Class ;
         "Typhus"@pl,
         "Typhus"@pt ;
     skos:notation "VAL046"^^xsd:string .
-
-nuva:VAL119 a owl:Class ;
-    rdfs:label "Monovalenter, polyosider, nicht konjugierter Meningokokken-Impfstoff"@de,
-        "Μηνιγγιτιδοκοκκικό μονοδύναμο μη συζευγμένο πολυσακχαριδικό εμβόλιο"@el,
-        "Meningococcal valence, monovalent, unconjugated polysaccharide"@en,
-        "Valence méningocoque, monovalent, polyosidique non conjugué"@fr,
-        "Meningokoku monovalentā nekonjugētā polisaharīdu vakcīna"@lv,
-        "Meningokokowa monowalentna nieskoniugowana szczepionka polisacharydowa"@pl,
-        "Vacina monovalente não conjugada de polissacarídeo meningocócica"@pt ;
-    nuvs:prevents nuva:DIS048 ;
-    dcterms:created "2021-10-26"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL234 ;
-    skos:altLabel "MPV-mono"@de,
-        "MPV-mono"@el,
-        "MPV-mono"@en,
-        "MPV-mono"@fr,
-        "MPV-mono"@lv,
-        "MPV-mono"@pl,
-        "MPV-mono"@pt ;
-    skos:notation "VAL119"^^xsd:string .
-
-nuva:VAL120 a owl:Class ;
-    rdfs:label "Meningokokken, nicht konjugiertes Polysaccharid, polyvalent"@de,
-        "Μηνιγγιτιδοκοκκικός μη συζευγμένος πολυσακχαρίτης, πολυδύναμο"@el,
-        "Meningococcal valence, polyvalent, unconjugated polysaccharide"@en,
-        "Valence méningocoque, polyvalent, polyoside non conjugué"@fr,
-        "Meningokoka nekonjugēts polisaharīds, polivalents"@lv,
-        "Nieskoniugowany polisacharyd meningokokowy, poliwalentny"@pl,
-        "Polissacarídeo não conjugado meningocócico, polivalente"@pt ;
-    nuvs:prevents nuva:DIS048 ;
-    dcterms:created "2021-10-26"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL234 ;
-    skos:altLabel "MPV-poly"@de,
-        "MPV-poly"@el,
-        "MPV-poly"@en,
-        "MPV-poly"@fr,
-        "MPV-poly"@lv,
-        "MPV-poly"@pl,
-        "MPV-poly"@pt ;
-    skos:notation "VAL120"^^xsd:string .
 
 nuva:VAL129 a owl:Class ;
     rdfs:label "Herpes-Simplex-Valenz, ohne Spezifikation"@de,
@@ -29209,48 +29351,6 @@ nuva:VAL178 a owl:Class ;
         "COVID-mRNA-S-OMI-BA.1-25"@pt ;
     skos:notation "VAL178"^^xsd:string .
 
-nuva:VAL179 a owl:Class ;
-    rdfs:label "Meningokokken-Konjugatimpfstoff, monovalent"@de,
-        "Εμβόλιο κατά του μηνιγγιτιδόκοκκου, μονοδύναμο"@el,
-        "Meningococcal  valence, monovalent, conjugate"@en,
-        "Valence méningocoque, monovalent, polyosidique conjugué"@fr,
-        "Meningokoka konjugētā vakcīna, monovalenta"@lv,
-        "Skoniugowana szczepionka meningokokowa, monowalentna"@pl,
-        "Vacina conjugada meningocócica, monovalente"@pt ;
-    nuvs:prevents nuva:DIS048 ;
-    dcterms:created "2022-03-26"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL234 ;
-    skos:altLabel "MCV-mono"@de,
-        "MCV-mono"@el,
-        "MCV-mono"@en,
-        "MCV-mono"@fr,
-        "MCV-mono"@lv,
-        "MCV-mono"@pl,
-        "MCV-mono"@pt ;
-    skos:notation "VAL179"^^xsd:string .
-
-nuva:VAL235 a owl:Class ;
-    rdfs:label "Meningokokken-Konjugat-Polysaccharid-Impfstoff, polyvalent"@de,
-        "Μηνιγγιτιδοκοκκικό συζευγμένο πολυσακχαριδικό εμβόλιο, πολυδύναμο"@el,
-        "Meningococcal valence, polyvalent, conjugate polysaccharide"@en,
-        "Valence méningocoque, polyvalent, polyosidique conjugué"@fr,
-        "Meningokoku konjugētā polisaharīdu polisaharīdu vakcīna, polivalenta"@lv,
-        "Polisacharydowa szczepionka skoniugowana przeciwko meningokokom, poliwalentna"@pl,
-        "Vacina de polissacarídeo conjugado meningocócico, polivalente"@pt ;
-    nuvs:prevents nuva:DIS048 ;
-    dcterms:created "2022-03-29"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL234 ;
-    skos:altLabel "MCV-poly"@de,
-        "MCV-poly"@el,
-        "MCV-poly"@en,
-        "MCV-poly"@fr,
-        "MCV-poly"@lv,
-        "MCV-poly"@pl,
-        "MCV-poly"@pt ;
-    skos:notation "VAL235"^^xsd:string .
-
 nuva:VAL254 a owl:Class ;
     rdfs:label "Inaktivierter Tollwut-Vollvirusimpfstoff, Typ Semple, hergestellt aus mit Tollwutvirus infiziertem Ziegen- oder Schafshirngewebe, enthält Myelin"@de,
         "Αδρανοποιημένο εμβόλιο κατά της λύσσας, τύπου Semple, παρασκευασμένο από εγκεφαλικό ιστό αίγας ή προβάτου μολυσμένο με τον ιό της λύσσας, περιέχει μυελίνη"@el,
@@ -29356,22 +29456,6 @@ nuva:VAL263 a owl:Class ;
         "Rab-I-PDEV"@pt ;
     skos:notation "VAL263"^^xsd:string .
 
-nuva:VAL278 a owl:Class ;
-    rdfs:label "Adenovirus valence, live attenuated, oral route, unspecified"@en,
-        "Valence Adénovirus, vivant atténué, voie orale, sans précision"@fr ;
-    nuvs:prevents nuva:DIS063 ;
-    dcterms:created "2022-04-06"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:Valence ;
-    skos:altLabel "Adeno-LAV"@de,
-        "Adeno-LAV"@el,
-        "AD-LA"@en,
-        "Adeno-VVA"@fr,
-        "Adeno-LAV"@lv,
-        "Adeno-LAV"@pl,
-        "Adeno-LAV"@pt ;
-    skos:notation "VAL278"^^xsd:string .
-
 nuva:VAL280 a owl:Class ;
     rdfs:label "Botulinumtoxin"@de,
         "Τοξικοειδές της αλλαντοτοξίνης"@el,
@@ -29456,17 +29540,6 @@ nuva:VAL333 a owl:Class ;
     skos:altLabel "HIV"@en,
         "VIH"@fr ;
     skos:notation "VAL333"^^xsd:string .
-
-nuva:VAL334 a owl:Class ;
-    rdfs:label "Melanoma valence, unspecified"@en,
-        "Valence mélanome, sans précision"@fr ;
-    nuvs:prevents nuva:DIS073 ;
-    dcterms:created "2024-03-18"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:Valence ;
-    skos:altLabel "MEL"@en,
-        "MEL"@fr ;
-    skos:notation "VAL334"^^xsd:string .
 
 nuva:VAL335 a owl:Class ;
     rdfs:label "Streptococcus pyogenes valence, unspecified"@en,
@@ -29608,8 +29681,8 @@ nuva:VAL403 a owl:Class ;
         "Valence méningocoque X, sans précision"@fr ;
     nuvs:prevents nuva:DIS080 ;
     dcterms:created "2025-03-13"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:Valence ;
+    dcterms:modified "2026-08-28"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL234 ;
     skos:altLabel "MenX"@en,
         "MenX"@fr ;
     skos:notation "VAL403"^^xsd:string .
@@ -29775,6 +29848,18 @@ nuva:DIS062 a owl:Class ;
         "febre hemorrágica argentina"@pt ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2022-12-12"^^xsd:date ;
+    rdfs:subClassOf nuva:Disease .
+
+nuva:DIS073 a owl:Class ;
+    rdfs:label "Melanom"@de,
+        "Μελάνωμα"@el,
+        "Melanoma"@en,
+        "Mélanome"@fr,
+        "Melanoma"@lv,
+        "Czerniak"@pl,
+        "Melanoma"@pt ;
+    dcterms:created "2024-03-18"^^xsd:date ;
+    dcterms:modified "2024-03-25"^^xsd:date ;
     rdfs:subClassOf nuva:Disease .
 
 nuva:DIS080 a owl:Class ;
@@ -30274,6 +30359,27 @@ nuva:VAL111 a owl:Class ;
         "Bant"@pt ;
     skos:notation "VAL111"^^xsd:string .
 
+nuva:VAL119 a owl:Class ;
+    rdfs:label "Monovalenter, polyosider, nicht konjugierter Meningokokken-Impfstoff"@de,
+        "Μηνιγγιτιδοκοκκικό μονοδύναμο μη συζευγμένο πολυσακχαριδικό εμβόλιο"@el,
+        "COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms"@en,
+        "Valence méningocoque, monovalent, polyosidique non conjugué"@fr,
+        "Meningokoku monovalentā nekonjugētā polisaharīdu vakcīna"@lv,
+        "Meningokokowa monowalentna nieskoniugowana szczepionka polisacharydowa"@pl,
+        "Vacina monovalente não conjugada de polissacarídeo meningocócica"@pt ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2021-10-26"^^xsd:date ;
+    dcterms:modified "2026-08-28"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL439 ;
+    skos:altLabel "MPV-mono"@de,
+        "MPV-mono"@el,
+        "Covid-ARNm-S-OMI-XFG-50"@en,
+        "MPV-mono"@fr,
+        "MPV-mono"@lv,
+        "MPV-mono"@pl,
+        "MPV-mono"@pt ;
+    skos:notation "VAL119"^^xsd:string .
+
 nuva:VAL121 a owl:Class ;
     rdfs:label "Inaktivierter dreiwertiger oraler Polio-Ganzkörperimpfstoff"@de,
         "Από του στόματος τρισθενές αδρανοποιημένο εμβόλιο ολικής πολιομυελίτιδας"@el,
@@ -30590,6 +30696,27 @@ nuva:VAL177 a owl:Class ;
         "Hib"@pt ;
     skos:notation "VAL177"^^xsd:string .
 
+nuva:VAL179 a owl:Class ;
+    rdfs:label "Meningokokken-Konjugatimpfstoff, monovalent"@de,
+        "Εμβόλιο κατά του μηνιγγιτιδόκοκκου, μονοδύναμο"@el,
+        "COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms"@en,
+        "Valence méningocoque, monovalent, polyosidique conjugué"@fr,
+        "Meningokoka konjugētā vakcīna, monovalenta"@lv,
+        "Skoniugowana szczepionka meningokokowa, monowalentna"@pl,
+        "Vacina conjugada meningocócica, monovalente"@pt ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2022-03-26"^^xsd:date ;
+    dcterms:modified "2026-08-28"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL439 ;
+    skos:altLabel "MCV-mono"@de,
+        "MCV-mono"@el,
+        "Covid-ARNm-S-OMI-XFG-25"@en,
+        "MCV-mono"@fr,
+        "MCV-mono"@lv,
+        "MCV-mono"@pl,
+        "MCV-mono"@pt ;
+    skos:notation "VAL179"^^xsd:string .
+
 nuva:VAL180 a owl:Class ;
     rdfs:label "COVID-19-Impfstoff, mRNA, die für das SARS-CoV-2-Spike-Protein kodiert, 100 Mikrogramm"@de,
         "Εμβόλιο COVID-19, mRNA που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2, 100 μικρογραμμάρια"@el,
@@ -30764,8 +30891,8 @@ nuva:VAL281 a owl:Class ;
         "Valence Adénovirus de type 7, vivant atténué, voie orale, sans précision"@fr ;
     nuvs:prevents nuva:DIS063 ;
     dcterms:created "2022-04-29"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:Valence ;
+    dcterms:modified "2026-08-27"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL278 ;
     skos:altLabel "Adeno-7"@de,
         "Adeno-7"@el,
         "AD7-LA"@en,
@@ -30780,8 +30907,8 @@ nuva:VAL282 a owl:Class ;
         "Valence Adénovirus de type 4, vivant atténué, voie orale, sans précision"@fr ;
     nuvs:prevents nuva:DIS063 ;
     dcterms:created "2022-04-29"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:Valence ;
+    dcterms:modified "2026-08-27"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL278 ;
     skos:altLabel "Adeno-4"@de,
         "Adeno-4"@el,
         "AD4-LA"@en,
@@ -30896,8 +31023,8 @@ nuva:VAL298 a owl:Class ;
         "Vacina meningocócica C, não especificada"@pt ;
     nuvs:prevents nuva:DIS043 ;
     dcterms:created "2022-07-25"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:Valence ;
+    dcterms:modified "2026-08-28"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL234 ;
     skos:altLabel "MenC"@de,
         "MenC"@el,
         "MenC"@en,
@@ -30917,8 +31044,8 @@ nuva:VAL299 a owl:Class ;
         "Vacina meningocócica Y, não especificada"@pt ;
     nuvs:prevents nuva:DIS047 ;
     dcterms:created "2022-07-25"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:Valence ;
+    dcterms:modified "2026-08-28"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL234 ;
     skos:altLabel "MenY"@de,
         "MenY"@el,
         "MenY"@en,
@@ -30938,8 +31065,8 @@ nuva:VAL300 a owl:Class ;
         "Vacina meningocócica W, não especificada"@pt ;
     nuvs:prevents nuva:DIS046 ;
     dcterms:created "2022-07-25"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:Valence ;
+    dcterms:modified "2026-08-28"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL234 ;
     skos:altLabel "MenW"@de,
         "MenW"@el,
         "MenW"@en,
@@ -31298,6 +31425,17 @@ nuva:VAL331 a owl:Class ;
         "CMV-Ig"@pl,
         "CMV-Ig"@pt ;
     skos:notation "VAL331"^^xsd:string .
+
+nuva:VAL334 a owl:Class ;
+    rdfs:label "Melanoma valence, unspecified"@en,
+        "Valence mélanome, sans précision"@fr ;
+    nuvs:prevents nuva:DIS073 ;
+    dcterms:created "2024-03-18"^^xsd:date ;
+    dcterms:modified "2026-08-25"^^xsd:date ;
+    rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "MEL"@en,
+        "MEL"@fr ;
+    skos:notation "VAL334"^^xsd:string .
 
 nuva:VAL339 a owl:Class ;
     rdfs:label "Borrelia burgdorferi valence, unspecified"@en,
@@ -32058,6 +32196,51 @@ nuva:VAL434 a owl:Class ;
         "Covid-SP-rRBD-LP.8.1"@fr ;
     skos:notation "VAL434"^^xsd:string .
 
+nuva:VAL440 a owl:Class ;
+    rdfs:label "COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms"@en ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2026-08-25"^^xsd:date ;
+    dcterms:modified "2026-08-25"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL439 ;
+    skos:altLabel "Covid-ARNm-S-OMI-XFG-10"@en ;
+    skos:notation "VAL440"^^xsd:string .
+
+nuva:VAL441 a owl:Class ;
+    rdfs:label "COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms"@en ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2026-08-25"^^xsd:date ;
+    dcterms:modified "2026-08-25"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL439 ;
+    skos:altLabel "Covid-ARNm-S-OMI-XFG-30"@en ;
+    skos:notation "VAL441"^^xsd:string .
+
+nuva:VAL442 a owl:Class ;
+    rdfs:label "Melanoma valence, messenger RNA, individualized neoantigens"@en ;
+    nuvs:prevents nuva:DIS073 ;
+    dcterms:created "2026-08-25"^^xsd:date ;
+    dcterms:modified "2026-08-25"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL334 ;
+    skos:altLabel "MEL-ARNI"@en ;
+    skos:notation "VAL442"^^xsd:string .
+
+nuva:VAL443 a owl:Class ;
+    rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein in nanoparticles, sub-variant Omicron XFG"@en ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2026-08-25"^^xsd:date ;
+    dcterms:modified "2026-08-25"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL107 ;
+    skos:altLabel "Covid-SP-rSnp-XFG"@en ;
+    skos:notation "VAL443"^^xsd:string .
+
+nuva:VAL444 a owl:Class ;
+    rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron XFG subvariant"@en ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2026-08-25"^^xsd:date ;
+    dcterms:modified "2026-08-25"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL011 ;
+    skos:altLabel "Covid-SP-rRBD-XFG"@en ;
+    skos:notation "VAL444"^^xsd:string .
+
 nuva:DIS009 a owl:Class ;
     rdfs:label "Mumps"@de,
         "Παρωτίτιδα"@el,
@@ -32116,6 +32299,18 @@ nuva:DIS041 a owl:Class ;
         "Brucelose"@pt ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2022-12-12"^^xsd:date ;
+    rdfs:subClassOf nuva:Disease .
+
+nuva:DIS048 a owl:Class ;
+    rdfs:label "Meningokokken"@de,
+        "Μηνιγγιτιδόκοκκος"@el,
+        "Meningococcus"@en,
+        "Méningocoques"@fr,
+        "Meningokoku"@lv,
+        "Meningokok"@pl,
+        "Meningococo"@pt ;
+    dcterms:created "2022-07-25"^^xsd:date ;
+    dcterms:modified "2026-03-03"^^xsd:date ;
     rdfs:subClassOf nuva:Disease .
 
 nuva:DIS056 a owl:Class ;
@@ -33127,6 +33322,22 @@ nuva:VAL275 a owl:Class ;
         "MCV-Y-CRM"@pt ;
     skos:notation "VAL275"^^xsd:string .
 
+nuva:VAL278 a owl:Class ;
+    rdfs:label "Adenovirus valence, live attenuated, oral route, unspecified"@en,
+        "Valence Adénovirus, vivant atténué, voie orale, sans précision"@fr ;
+    nuvs:prevents nuva:DIS063 ;
+    dcterms:created "2022-04-06"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Adeno-LAV"@de,
+        "Adeno-LAV"@el,
+        "AD-LA"@en,
+        "Adeno-VVA"@fr,
+        "Adeno-LAV"@lv,
+        "Adeno-LAV"@pl,
+        "Adeno-LAV"@pt ;
+    skos:notation "VAL278"^^xsd:string .
+
 nuva:VAL283 a owl:Class ;
     rdfs:label "Ganze inaktivierte Hepatitis-A-Valenz, pädiatrische Dosis, ohne Spezifikation"@de,
         "Ολόκληρη αδρανοποιημένη βαλεντία της ηπατίτιδας Α, παιδιατρική δόση, χωρίς διευκρίνιση"@el,
@@ -33216,8 +33427,8 @@ nuva:VAL297 a owl:Class ;
         "Vacina meningocócica A, não especificada"@pt ;
     nuvs:prevents nuva:DIS044 ;
     dcterms:created "2022-07-25"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:Valence ;
+    dcterms:modified "2026-08-28"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL234 ;
     skos:altLabel "MenA"@de,
         "MenA"@el,
         "MenA"@en,
@@ -33428,17 +33639,6 @@ nuva:VAL406 a owl:Class ;
     skos:altLabel "COVID-mRNA-S-OMI-KP.2"@en,
         "Covid-ARNm-S-OMI-KP.2"@fr ;
     skos:notation "VAL406"^^xsd:string .
-
-nuva:VAL417 a owl:Class ;
-    rdfs:label "COVID-19 valence, Omicron BA.2 variant, mRNA encoding the SARS-CoV-2 spike protein"@en,
-        "Valence covid 19, variant Omicron BA.2, ARNm codant la protéine de pointe du SARS-CoV-2"@fr ;
-    nuvs:prevents nuva:DIS057 ;
-    dcterms:created "2025-04-23"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL149 ;
-    skos:altLabel "COVID-mRNA-S-OMI-BA.2"@en,
-        "Covid-ARNm-S-OMI-BA.2"@fr ;
-    skos:notation "VAL417"^^xsd:string .
 
 nuva:DIS008 a owl:Class ;
     rdfs:label "Masern"@de,
@@ -33705,8 +33905,8 @@ nuva:VAL118 a owl:Class ;
         "Vacina meningocócica B, não especificada"@pt ;
     nuvs:prevents nuva:DIS045 ;
     dcterms:created "2021-10-26"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:Valence ;
+    dcterms:modified "2026-08-28"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL234 ;
     skos:altLabel "MenB"@de,
         "MenB"@el,
         "MenB"@en,
@@ -34080,6 +34280,26 @@ nuva:VAL398 a owl:Class ;
         "Covid-VVr-S"@fr ;
     skos:notation "VAL398"^^xsd:string .
 
+nuva:VAL417 a owl:Class ;
+    rdfs:label "COVID-19 valence, Omicron BA.2 variant, mRNA encoding the SARS-CoV-2 spike protein"@en,
+        "Valence covid 19, variant Omicron BA.2, ARNm codant la protéine de pointe du SARS-CoV-2"@fr ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2025-04-23"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL149 ;
+    skos:altLabel "COVID-mRNA-S-OMI-BA.2"@en,
+        "Covid-ARNm-S-OMI-BA.2"@fr ;
+    skos:notation "VAL417"^^xsd:string .
+
+nuva:VAL439 a owl:Class ;
+    rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein"@en ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2026-08-25"^^xsd:date ;
+    dcterms:modified "2026-08-25"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL417 ;
+    skos:altLabel "Covid-ARNm-S-OMI-XFG"@en ;
+    skos:notation "VAL439"^^xsd:string .
+
 nuva:DIS001 a owl:Class ;
     rdfs:label "Diphtherie"@de,
         "Διφθερίτιδα"@el,
@@ -34114,18 +34334,6 @@ nuva:DIS045 a owl:Class ;
         "Meningococo B"@pt ;
     dcterms:created "2022-05-08"^^xsd:date ;
     dcterms:modified "2022-12-12"^^xsd:date ;
-    rdfs:subClassOf nuva:Disease .
-
-nuva:DIS048 a owl:Class ;
-    rdfs:label "Meningokokken"@de,
-        "Μηνιγγιτιδόκοκκος"@el,
-        "Meningococcus"@en,
-        "Méningocoques"@fr,
-        "Meningokoku"@lv,
-        "Meningokok"@pl,
-        "Meningococo"@pt ;
-    dcterms:created "2022-07-25"^^xsd:date ;
-    dcterms:modified "2026-03-03"^^xsd:date ;
     rdfs:subClassOf nuva:Disease .
 
 nuva:DIS052 a owl:Class ;
@@ -34419,27 +34627,6 @@ nuva:VAL170 a owl:Class ;
         "rHepB-05"@pl,
         "rHepB-05"@pt ;
     skos:notation "VAL170"^^xsd:string .
-
-nuva:VAL234 a owl:Class ;
-    rdfs:label "Meningokokken-Impfstoff, nicht spezifiziert"@de,
-        "Εμβόλιο μηνιγγιτιδοκόκκου, απροσδιόριστο"@el,
-        "Meningococcal valence, unspecified"@en,
-        "Valence méningocoque, sans précision"@fr,
-        "Meningokoka vakcīna, neprecizēta"@lv,
-        "Szczepionka meningokokowa, nieokreślona"@pl,
-        "Vacina meningocócica, não especificada"@pt ;
-    nuvs:prevents nuva:DIS048 ;
-    dcterms:created "2022-03-29"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:Valence ;
-    skos:altLabel "Men"@de,
-        "Men"@el,
-        "Men"@en,
-        "Men"@fr,
-        "Men"@lv,
-        "Men"@pl,
-        "Men"@pt ;
-    skos:notation "VAL234"^^xsd:string .
 
 nuva:VAL250 a owl:Class ;
     rdfs:label "Japanische-Enzephalitis-Valenz, ganze inaktivierte, hergestellt auf murinem Gehirngewebe"@de,
@@ -34807,22 +34994,6 @@ nuva:VAL069 a owl:Class ;
         "COVID-VVnr-S-ChAdOx1"@pt ;
     skos:notation "VAL069"^^xsd:string .
 
-nuva:VAL107 a owl:Class ;
-    rdfs:label "COVID-19-Impfstoff, Protein-Untereinheit, rekombinante Spike-Protein-Nanopartikel"@de,
-        "Εμβόλιο COVID-19, πρωτεϊνική υπομονάδα, ανασυνδυασμένα νανοσωματίδια πρωτεΐνης αιχμής"@el,
-        "COVID-19 valence, protein subunit, recombinant spike protein nanoparticles"@en,
-        "Valence covid 19, sous-unité protéique, protéine de pointe recombinante dans des nanoparticules"@fr,
-        "COVID-19 vakcīna, proteīna apakšvienība, rekombinantās smaiļveida proteīna nanodaļiņas"@lv,
-        "Szczepionka COVID-19, podjednostka białkowa, rekombinowane nanocząstki białka kolczastego"@pl,
-        "Vacina COVID-19, subunidade de proteína, nanopartículas de proteína recombinante de espigão"@pt ;
-    nuvs:prevents nuva:DIS057 ;
-    dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL104 ;
-    skos:altLabel "COVID-PS-rSnp"@en,
-        "Covid-SP-rSnp"@fr ;
-    skos:notation "VAL107"^^xsd:string .
-
 nuva:VAL139 a owl:Class ;
     rdfs:label "Meningokokken-Impfstoff Y, nicht konjugiertes Polyosid"@de,
         "Εμβόλιο μηνιγγιτιδοκόκκου Y, μη συζευγμένος πολυσακχαρίτης"@el,
@@ -35029,6 +35200,22 @@ nuva:VAL106 a owl:Class ;
         "Rota"@pl,
         "Rota"@pt ;
     skos:notation "VAL106"^^xsd:string .
+
+nuva:VAL107 a owl:Class ;
+    rdfs:label "COVID-19-Impfstoff, Protein-Untereinheit, rekombinante Spike-Protein-Nanopartikel"@de,
+        "Εμβόλιο COVID-19, πρωτεϊνική υπομονάδα, ανασυνδυασμένα νανοσωματίδια πρωτεΐνης αιχμής"@el,
+        "COVID-19 valence, protein subunit, recombinant spike protein nanoparticles"@en,
+        "Valence covid 19, sous-unité protéique, protéine de pointe recombinante dans des nanoparticules"@fr,
+        "COVID-19 vakcīna, proteīna apakšvienība, rekombinantās smaiļveida proteīna nanodaļiņas"@lv,
+        "Szczepionka COVID-19, podjednostka białkowa, rekombinowane nanocząstki białka kolczastego"@pl,
+        "Vacina COVID-19, subunidade de proteína, nanopartículas de proteína recombinante de espigão"@pt ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2021-07-19"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL104 ;
+    skos:altLabel "COVID-PS-rSnp"@en,
+        "Covid-SP-rSnp"@fr ;
+    skos:notation "VAL107"^^xsd:string .
 
 nuva:VAL136 a owl:Class ;
     rdfs:label "Meningokokken-Impfstoff W, Polyosid-Konjugat"@de,
@@ -35274,7 +35461,7 @@ nuva:VAL041 a owl:Class ;
         "Meningocócica A, vacina conjugada de polissacarídeos"@pt ;
     nuvs:prevents nuva:DIS044 ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-08-28"^^xsd:date ;
     rdfs:subClassOf nuva:VAL297 ;
     skos:altLabel "MCV-A"@de,
         "MCV-A"@el,
@@ -36201,6 +36388,27 @@ nuva:VAL222 a owl:Class ;
         "PPSV-17F"@pt ;
     skos:notation "VAL222"^^xsd:string .
 
+nuva:VAL234 a owl:Class ;
+    rdfs:label "Meningokokken-Impfstoff, nicht spezifiziert"@de,
+        "Εμβόλιο μηνιγγιτιδοκόκκου, απροσδιόριστο"@el,
+        "Meningococcal valence, unspecified"@en,
+        "Valence méningocoque, sans précision"@fr,
+        "Meningokoka vakcīna, neprecizēta"@lv,
+        "Szczepionka meningokokowa, nieokreślona"@pl,
+        "Vacina meningocócica, não especificada"@pt ;
+    nuvs:prevents nuva:DIS048 ;
+    dcterms:created "2022-03-29"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Men"@de,
+        "Men"@el,
+        "Men"@en,
+        "Men"@fr,
+        "Men"@lv,
+        "Men"@pl,
+        "Men"@pt ;
+    skos:notation "VAL234"^^xsd:string .
+
 nuva:DIS030 a owl:Class ;
     rdfs:label "Tollwut"@de,
         "Οργή"@el,
@@ -36908,27 +37116,6 @@ nuva:VAL204 a owl:Class ;
         "PCV-23F"@pt ;
     skos:notation "VAL204"^^xsd:string .
 
-nuva:VAL011 a owl:Class ;
-    rdfs:label "COVID-19-Impfstoff, Proteinuntereinheit, rekombinantes Spike-Protein (RBD)"@de,
-        "Εμβόλιο COVID-19, πρωτεϊνική υπομονάδα, ανασυνδυασμένη πρωτεΐνη αιχμής (RBD)"@el,
-        "COVID-19 valence, protein subunit, recombinant spike protein (RBD)"@en,
-        "Valence covid 19, sous-unité protéique, protéine de pointe recombinante (domaine RBD)"@fr,
-        "COVID-19 vakcīna, proteīna apakšvienība, rekombinantais smailes proteīns (RBD)"@lv,
-        "Szczepionka COVID-19, podjednostka białkowa, rekombinowane białko szpiku (RBD)"@pl,
-        "Vacina COVID-19, subunidade de proteína, proteína recombinante do espigão (RBD)"@pt ;
-    nuvs:prevents nuva:DIS057 ;
-    dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL104 ;
-    skos:altLabel "COVID-PS-rRBD"@de,
-        "COVID-PS-rRBD"@el,
-        "COVID-PS-rRBD"@en,
-        "Covid-SP-rRBD"@fr,
-        "COVID-PS-rRBD"@lv,
-        "COVID-PS-rRBD"@pl,
-        "COVID-PS-rRBD"@pt ;
-    skos:notation "VAL011"^^xsd:string .
-
 nuva:VAL033 a owl:Class ;
     rdfs:label "Monovalenter oraler attenuierter Lebendimpfstoff gegen Poliomyelitis Typ 2"@de,
         "Μονοδύναμο ζωντανό εξασθενημένο από του στόματος εμβόλιο πολιομυελίτιδας τύπου 2"@el,
@@ -36960,7 +37147,7 @@ nuva:VAL037 a owl:Class ;
         "Vacina meningocócica A, polissacarídeo não conjugado"@pt ;
     nuvs:prevents nuva:DIS044 ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-08-28"^^xsd:date ;
     rdfs:subClassOf nuva:VAL297 ;
     skos:altLabel "MPV-A"@de,
         "MPV-A"@el,
@@ -36970,6 +37157,27 @@ nuva:VAL037 a owl:Class ;
         "MPV-A"@pl,
         "MPV-A"@pt ;
     skos:notation "VAL037"^^xsd:string .
+
+nuva:VAL011 a owl:Class ;
+    rdfs:label "COVID-19-Impfstoff, Proteinuntereinheit, rekombinantes Spike-Protein (RBD)"@de,
+        "Εμβόλιο COVID-19, πρωτεϊνική υπομονάδα, ανασυνδυασμένη πρωτεΐνη αιχμής (RBD)"@el,
+        "COVID-19 valence, protein subunit, recombinant spike protein (RBD)"@en,
+        "Valence covid 19, sous-unité protéique, protéine de pointe recombinante (domaine RBD)"@fr,
+        "COVID-19 vakcīna, proteīna apakšvienība, rekombinantais smailes proteīns (RBD)"@lv,
+        "Szczepionka COVID-19, podjednostka białkowa, rekombinowane białko szpiku (RBD)"@pl,
+        "Vacina COVID-19, subunidade de proteína, proteína recombinante do espigão (RBD)"@pt ;
+    nuvs:prevents nuva:DIS057 ;
+    dcterms:created "2021-07-19"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL104 ;
+    skos:altLabel "COVID-PS-rRBD"@de,
+        "COVID-PS-rRBD"@el,
+        "COVID-PS-rRBD"@en,
+        "Covid-SP-rRBD"@fr,
+        "COVID-PS-rRBD"@lv,
+        "COVID-PS-rRBD"@pl,
+        "COVID-PS-rRBD"@pt ;
+    skos:notation "VAL011"^^xsd:string .
 
 nuva:VAL017 a owl:Class ;
     rdfs:label "Azelluläre Pertussis-Valenz, reduzierte Dosis"@de,
@@ -37332,6 +37540,9 @@ nuva:VAL079 a owl:Class ;
         "Rub-LAV"@pt ;
     skos:notation "VAL079"^^xsd:string .
 
+nuva:Valence a owl:Class ;
+    rdfs:label "Valence"@en .
+
 nuva:VAL005 a owl:Class ;
     rdfs:label "Measles valence, live attenuated"@en,
         "Valence rougeole, vivante atténuée"@fr ;
@@ -37368,9 +37579,6 @@ nuva:VAL010 a owl:Class ;
         "wP"@pl,
         "wP"@pt ;
     skos:notation "VAL010"^^xsd:string .
-
-nuva:Valence a owl:Class ;
-    rdfs:label "Valence"@en .
 
 nuva:DIS057 a owl:Class ;
     rdfs:label "COVID-19"@de,

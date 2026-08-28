@@ -24,10 +24,13 @@ VAC0016,INFLUVAC,False,AIC-028851,INFLUVAC,True,1,2
 VAC0016,INFLUVAC,False,AIC-051260,INFLUVAC,True,1,2
 VAC0017,M-M-RVAXPRO,False,AIC-037172,M-M-RVAXPRO,True,1,1
 VAC0018,MENCEVAX ACWY,False,AIC-038504,MENCEVAX ACWY,True,1,1
+VAC0018,MENCEVAX ACWY,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",False,,
 VAC0019,MENINGITEC,False,AIC-035438,MENINGITEC,True,1,1
-VAC0020,MENJUGATEKIT 10 µg,False,,,,,
+VAC0019,MENINGITEC,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",False,,
+VAC0020,MENJUGATEKIT 10 µg,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC0021,MUTAGRIP,False,AIC-027278,MUTAGRIP,True,1,1
 VAC0022,NEISVAC,False,AIC-035602,NEISVAC,True,1,1
+VAC0022,NEISVAC,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",False,,
 VAC0023,PENTAVAC,False,AIC-034126,PENTAVAC,True,1,1
 VAC0024,PNEUMO 23,False,AIC-027644,PNEUMO 23,True,1,1
 VAC0025,PREVENAR,False,AIC-035053,PREVENAR,True,1,1
@@ -67,7 +70,7 @@ VAC0050,"HAVRIX 720 U/0,5 mL",False,AIC-028725,"Inactivated hepatitis A vaccine,
 VAC0050,"HAVRIX 720 U/0,5 mL",False,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,15,0
 VAC0050,"HAVRIX 720 U/0,5 mL",False,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,15,0
 VAC0051,INFANRIXTETRA,False,,,,,
-VAC0052,VACCIN MENINGOCOCCIQUE A+C,False,,,,,
+VAC0052,VACCIN MENINGOCOCCIQUE A+C,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC0053,PRIORIX,False,AIC-034199,PRIORIX,True,1,1
 VAC0054,VACCIN RABIQUE PASTEUR,False,,,,,
 VAC0056,VACCIN TETANIQUE PASTEUR,False,,,,,
@@ -86,6 +89,7 @@ VAC0067,HAVRIX 360 U,False,AIC-033247,"Inactivated hepatitis A vaccine, unspecif
 VAC0067,HAVRIX 360 U,False,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,15,0
 VAC0068,MONOVAX,False,,,,,
 VAC0069,MENOMUNE,False,AIC-029196,MENOMUNE,True,1,1
+VAC0069,MENOMUNE,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",False,,
 VAC0070,DT BIS,False,,,,,
 VAC0071,D.T. BIS - RUDIVAX,False,,,,,
 VAC0072,JE-VAX,False,,,,,
@@ -96,7 +100,7 @@ VAC0077,IMOVAX OREILLONS,False,AIC-026757,IMOVAX OREILLONS,True,1,1
 VAC0078,RUDI-ROUVAX,False,AIC-026771,RUDI-ROUVAX,True,1,1
 VAC0079,ENCEPUR,False,AIC-036515,"Tick-borne encephalitis vaccine, unspecified",True,11,0
 VAC0080,BCG PASTEUR,False,,,,,
-VAC0082,MENBVAC,False,,,,,
+VAC0082,MENBVAC,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC0083,SYNFLORIX,False,AIC-039104,SYNFLORIX,True,1,1
 VAC0084,"H5N1 pre-pandemic influenza vaccine, unspecified",True,AIC-039230,"H5N1 pre-pandemic influenza vaccine, unspecified",True,11,1
 VAC0085,T POLIO MERIEUX,False,,,,,
@@ -113,12 +117,13 @@ VAC0096,VACCIN GRIPPAL RONCHESE (VGR),False,,,,,
 VAC0097,VACCIN LEPTOSPIRES ICTEROHEMORRAGIAE PASTEUR,False,,,,,
 VAC0098,HEXAVAC,False,AIC-034948,HEXAVAC,True,1,1
 VAC0099,MENINVACT,False,AIC-035437,MENINVACT,True,1,1
+VAC0099,MENINVACT,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",False,,
 VAC0101,"Hepatitis B vaccine, recombinant, unspecified",True,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,2
 VAC0101,"Hepatitis B vaccine, recombinant, unspecified",True,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,2
 VAC0102,"Inactivated hepatitis A vaccine, unspecified",True,AIC-028725,"Inactivated hepatitis A vaccine, unspecified",True,15,3
 VAC0102,"Inactivated hepatitis A vaccine, unspecified",True,AIC-033247,"Inactivated hepatitis A vaccine, unspecified",True,15,3
 VAC0102,"Inactivated hepatitis A vaccine, unspecified",True,AIC-033317,"Inactivated hepatitis A vaccine, unspecified",True,15,3
-VAC0103,MENACTRA,False,,,,,
+VAC0103,MENACTRA,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC0104,HUMENZA,False,,,,,
 VAC0105,PANENZA,False,AIC-039464,PANENZA,True,1,1
 VAC0106,Q-Pan H1N1,False,,,,,
@@ -158,16 +163,17 @@ VAC0138,"Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified",True,,,,,
 VAC0139,PENT-HIBEST,False,,,,,
 VAC0140,INTANZA,False,AIC-039425,INTANZA,True,1,1
 VAC0141,MENVEO,False,AIC-039766,MENVEO,True,1,1
+VAC0141,MENVEO,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",False,,
 VAC0143,"Haemophilus influenzae B (or Hib) vaccine, unspecified",True,,,,,
 VAC0144,"Cholera vaccine, unspecified",True,,,,,
 VAC0145,"Tick-borne encephalitis vaccine, unspecified",True,AIC-036515,"Tick-borne encephalitis vaccine, unspecified",True,11,1
 VAC0146,"Live attenuated Japanese Encephalitis vaccine 14-14-2 strain, unspecified",True,,,,,
 VAC0147,"Influenza A(H1N1)2009 vaccine, unspecified",True,,,,,
 VAC0148,"Leptospirosis vaccine, unspecified",True,,,,,
-VAC0149,"Meningococcal B:14:P1.7,16 vaccine, unspecified",True,,,,,
-VAC0150,"Meningococcal conjugate vaccine C, unspecified",True,,,,,
-VAC0151,"Meningococcal A + C vaccine, unspecified",True,,,,,
-VAC0152,"Unconjugated meningococcal vaccine ACWY, unspecified",True,,,,,
+VAC0149,"Meningococcal B:14:P1.7,16 vaccine, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
+VAC0150,"Meningococcal conjugate vaccine C, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
+VAC0151,"Meningococcal A + C vaccine, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
+VAC0152,"Unconjugated meningococcal vaccine ACWY, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC0153,"Mumps vaccine, unspecified",True,,,,,
 VAC0154,"Malaria vaccine, unspecified",True,,,,,
 VAC0155,"Dengue vaccine, unspecified",True,,,,,
@@ -196,7 +202,7 @@ VAC0173,FLUENZ,False,AIC-051223,FLUENZ,True,1,1
 VAC0174,PROQUAD,False,AIC-036893,PROQUAD,True,1,1
 VAC0175,A.D.T. BOOSTER,False,,,,,
 VAC0176,A.K.D.S.,False,,,,,
-VAC0177,AC VAX,False,,,,,
+VAC0177,AC VAX,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC0178,ACEL-IMUNE,False,,,,,
 VAC0179,ACELLULAR D.P.T. KOVAX,False,,,,,
 VAC0180,ACTACEL,False,,,,,
@@ -313,11 +319,11 @@ VAC0289,M-VAX PFIZER,False,,,,,
 VAC0290,MASERN-IMPFSTOFF SSW,False,,,,,
 VAC0291,MEASLES VACCINE AIK-C STRAIN POLYVAC,False,,,,,
 VAC0292,MEASLES VACCINE DK3,False,,,,,
-VAC0293,MENAFRIVAC,False,,,,,
-VAC0294,MENCEVAX A,False,,,,,
-VAC0295,MENOMUNE-A/C/Y/W-135,False,,,,,
-VAC0296,MENPOVAX 4 A+C+Y+W135,False,,,,,
-VAC0297,MENPOVAX A+C,False,,,,,
+VAC0293,MENAFRIVAC,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
+VAC0294,MENCEVAX A,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
+VAC0295,MENOMUNE-A/C/Y/W-135,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
+VAC0296,MENPOVAX 4 A+C+Y+W135,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
+VAC0297,MENPOVAX A+C,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC0298,MERUVAX,False,,,,,
 VAC0299,MERUVAX II,False,AIC-022602,MERUVAX II,True,1,1
 VAC0300,MEVILIN-L,False,,,,,
@@ -441,7 +447,7 @@ VAC0424,"Live attenuated oral typhoid vaccine, unspecified",True,,,,,
 VAC0425,TYNE,False,,,,,
 VAC0426,TYPHOID VACCINE WYETH,False,,,,,
 VAC0427,TYPHOID-KOVAX,False,,,,,
-VAC0428,VA-MENGOC-BC,False,,,,,
+VAC0428,VA-MENGOC-BC,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC0429,VACCIN COMBINAT DIFTERO-TETANIC,False,,,,,
 VAC0430,VACCIN DIFTERIC ADSORBIT,False,,,,,
 VAC0431,VACCINUM MORBILLORUM VIVUM,False,,,,,
@@ -474,7 +480,7 @@ VAC0458,ZAANTIDE antitoxin,False,,,,,
 VAC0459,ZAANTITE,False,,,,,
 VAC0460,ZADITEADVAX,False,,,,,
 VAC0461,ZADITEVAX,False,,,,,
-VAC0462,ZAMEVAX A+C,False,,,,,
+VAC0462,ZAMEVAX A+C,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC0463,ZAMOVAX,False,,,,,
 VAC0464,ZAMRUVAX,False,,,,,
 VAC0465,ZARUVAX,False,,,,,
@@ -504,6 +510,7 @@ VAC0483,FLUAD PAEDIATRICS,False,,,,,
 VAC0484,RABIVAX-S,False,,,,,
 VAC0485,TETAGAM P (immunoglobuline),False,,,,,
 VAC0486,NIMENRIX,False,AIC-042040,NIMENRIX,True,1,1
+VAC0486,NIMENRIX,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",False,,
 VAC0487,MENHIBRIX,False,,,,,
 VAC0488,PENTAXIM,False,,,,,
 VAC0489,TRIMOVAX,False,AIC-026918,TRIMOVAX,True,1,1
@@ -512,6 +519,7 @@ VAC0491,TENIVAC,False,,,,,
 VAC0492,AFLURIA,False,AIC-043216,AFLURIA,True,1,1
 VAC0494,TRITANRIX HepB,False,AIC-030694,TRITANRIX HepB,True,1,1
 VAC0495,BEXSERO,False,AIC-042687,BEXSERO,True,1,1
+VAC0495,BEXSERO,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",False,,
 VAC0496,GAMMATETANOS (immunoglobuline),False,,,,,
 VAC0497,"Tetanus immunoglobulin, unspecified",True,,,,,
 VAC0498,IMOGAM RAGE,False,,,,,
@@ -548,6 +556,7 @@ VAC0530,TETANOL PUR,False,,,,,
 VAC0531,TETANOS ADSORBE MERIEUX,False,,,,,
 VAC0532,TETANUS VACCIN,False,,,,,
 VAC0534,MENJUGATE 10 µg,False,AIC-035436,MENJUGATE 10 µg,True,1,1
+VAC0534,MENJUGATE 10 µg,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",False,,
 VAC0535,VAXELIS,False,AIC-044721,VAXELIS,True,1,1
 VAC0538,VACCIN BCG BIOMED-LUBLIN,False,,,,,
 VAC0539,DENGVAXIA,False,AIC-047528,DENGVAXIA,True,1,1
@@ -585,6 +594,7 @@ VAC0578,INFANRIX-HIB,False,,,,,
 VAC0579,CLAIRYG 50 mg/mL,False,,,,,
 VAC0580,CLAIRYG,False,,,,,
 VAC0582,TRUMENBA,False,AIC-045429,TRUMENBA,True,1,1
+VAC0582,TRUMENBA,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",False,,
 VAC0585,"TdapIPV - Diphtheria-Tetanus-Pertussis-Polio vaccine, low dose, unspecified",True,,,,,
 VAC0586,ERVEBO,False,AIC-048364,ERVEBO,True,1,1
 VAC0590,VACCIN BCG AJVACCINES,False,,,,,
@@ -592,6 +602,7 @@ VAC0591,VIVAXIM,False,,,,,
 VAC0592,SPEEDA,False,,,,,
 VAC0593,VERORAB,False,AIC-050684,VERORAB,True,1,1
 VAC0594,MENQUADFI,False,AIC-049225,MENQUADFI,True,1,1
+VAC0594,MENQUADFI,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",False,,
 VAC0595,FLUCELVAX TETRA,False,AIC-047475,FLUCELVAX TETRA,True,1,1
 VAC0596,"DTaPHibHepB pentavalent vaccine, unspecified",True,,,,,
 VAC0598,"DTwPHibHepB pentavalent vaccine, unspecified",True,,,,,
@@ -607,7 +618,7 @@ VAC0613,BORYUNG DTap VACCINE,False,,,,,
 VAC0614,TDAPBOOSTER AJ VACCINES,False,,,,,
 VAC0615,VACCIN T.P. PASTEUR,False,,,,,
 VAC0620,IXCHIQ,False,AIC-051357,IXCHIQ,True,1,1
-VAC0621,MENC VACCINE FUNED,False,,,,,
+VAC0621,MENC VACCINE FUNED,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC0622,EOLARIX,False,,,,,
 VAC0623,"Measles-mumps vaccine, unspecified",True,,,,,
 VAC0624,M-M-Vax,False,,,,,
@@ -615,7 +626,7 @@ VAC0625,MORATEN,False,AIC-026983,MORATEN,True,1,1
 VAC0626,MoRu Viraten,False,AIC-027978,MoRu Viraten,True,1,1
 VAC0627,MORUMAN,False,,,,,
 VAC0628,Immravax,False,,,,,
-VAC0631,MENINVACTKIT,False,,,,,
+VAC0631,MENINVACTKIT,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC0632,OPVERO,False,,,,,
 VAC0633,ZABDENO,False,AIC-048911,ZABDENO,True,1,1
 VAC0634,MVABEA,False,AIC-048914,MVABEA,True,1,1
@@ -627,7 +638,7 @@ VAC0639,ADACEL POLIO,False,,,,,
 VAC0640,TRITANRIX HepB+Hib,False,,,,,
 VAC0641,GLOBORIX,False,,,,,
 VAC0642,FLUZONE HIGH-DOSE QUADRIVALENT,False,,,,,
-VAC0643,"Meningococcal ACWY conjugate vaccine, unspecified",True,,,,,
+VAC0643,"Meningococcal ACWY conjugate vaccine, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC0644,QDENGA,False,AIC-050458,QDENGA,True,1,1
 VAC0645,IMMU ORR,False,,,,,
 VAC0646,CECOLIN,False,,,,,
@@ -786,9 +797,9 @@ VAC0805,"Whole-cell inactivated cholera vaccine, unspecified",True,,,,,
 VAC0806,"Live attenuated cholera vaccine, unspecified",True,,,,,
 VAC0807,"Cholera-Typhoid inactivated vaccine, unspecified",True,,,,,
 VAC0808,"Hib-MenCY, unspecified",True,,,,,
-VAC0809,"Meningococcal monovalent polysaccharide vaccine, unspecified",True,,,,,
-VAC0810,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,1,1
-VAC0811,"Meningococcal B vaccine, unspecified",True,,,,,
+VAC0809,"Meningococcal monovalent polysaccharide vaccine, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
+VAC0810,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,1
+VAC0811,"Meningococcal B vaccine, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC0812,"Inactivated whole plague vaccine, unspecified",True,,,,,
 VAC0813,"Pneumococcal unconjugated polysaccharide vaccine, unspecified",True,,,,,
 VAC0814,"Pneumococcal conjugate vaccine, serotypes unspecified",True,,,,,
@@ -828,7 +839,7 @@ VAC0846,VACCIN POLIOMYELITIQUE ORAL BIVALENT TYPES 1 et 3,False,AIC-041165,"OPV 
 VAC0847,VACCIN PNEUMOCOCCIQUE SARBACH,False,,,,,
 VAC0848,VACCIN BCG INSTITUT MERIEUX,False,,,,,
 VAC0849,"Tularemia vaccine, unspecified",True,,,,,
-VAC0850,NEISVAC-C,False,,,,,
+VAC0850,NEISVAC-C,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC0851,POLIO SABIN MONO TWO (ORAL) GSK,False,,,,,
 VAC0852,"mOPV2 Sabin monovalent oral polio vaccine type 2, unspecified",True,,,,,
 VAC0853,"mOPV1 Sabin monovalent oral polio vaccine type 1, unspecified",True,,,,,
@@ -839,15 +850,15 @@ VAC0857,"Diphtheria-Tetanus-Pertussis-Hepatitis B vaccine, unspecified",True,,,,
 VAC0858,"HPV vaccine bivalent, unspecified",True,,,,,
 VAC0859,"HPV vaccine quadrivalent, unspecified",True,,,,,
 VAC0860,"HPV vaccine nonavalent, unspecified",True,,,,,
-VAC0861,"Multicomponent meningococcal B vaccine, unspecified",True,,,,,
+VAC0861,"Multicomponent meningococcal B vaccine, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC0862,"Measles immunoglobulin, unspecified",True,,,,,
 VAC0863,"Hepatitis B immunoglobulin, unspecified",True,,,,,
 VAC0864,"Varicella-Zoster immunoglobulin, unspecified",True,,,,,
-VAC0865,"Polysaccharide meningococcal A vaccine, unspecified",True,,,,,
-VAC0866,"Meningococcal conjugate vaccine A, unspecified",True,,,,,
+VAC0865,"Polysaccharide meningococcal A vaccine, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
+VAC0866,"Meningococcal conjugate vaccine A, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC0867,"Diphtheria antitoxin, unspecified",True,,,,,
-VAC0868,MENPOVAX A,False,,,,,
-VAC0869,MENPOVAX C,False,,,,,
+VAC0868,MENPOVAX A,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
+VAC0869,MENPOVAX C,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC0870,TYPBAR,False,,,,,
 VAC0871,SUPEMTEK TETRA,False,AIC-049227,SUPEMTEK TETRA,True,1,1
 VAC0872,INFLUPOZZI SUBUNITA,False,AIC-025984,INFLUPOZZI SUBUNITA,True,1,1
@@ -880,7 +891,7 @@ VAC0897,"Hantavirus vaccine, unspecified",True,,,,,
 VAC0898,"Leishmaniasis vaccine, unspecified",True,,,,,
 VAC0899,"Human Parainfluenza Virus Vaccine, unspecified",True,,,,,
 VAC0900,PREVENAR 20,False,AIC-049965,PREVENAR 20,True,1,1
-VAC0901,MENCEVAX ACW,False,,,,,
+VAC0901,MENCEVAX ACW,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC0902,"Rabies vaccine Semple type, unspecified",True,,,,,
 VAC0903,"Rabies vaccine Fuenzalida type, unspecified",True,,,,,
 VAC0904,"Rabies duck embryo vaccine, unspecified",True,,,,,
@@ -933,7 +944,7 @@ VAC0941,"Immunoglobulin against anthrax, unspecified",True,,,,,
 VAC0942,"Chicken embryo rabies vaccine, unspecified",True,,,,,
 VAC0943,"Rabies vaccine diploid cells, unspecified",True,,,,,
 VAC0944,"Inactivated whole virion oral cholera vaccine, unspecified",True,,,,,
-VAC0945,"Meningococcal vaccine serogroup unknown, unspecified",True,,,,,
+VAC0945,"Meningococcal vaccine serogroup unknown, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC0946,TYPHIDRALL,False,,,,,
 VAC0947,IMMU-PHILUS,False,,,,,
 VAC0948,BACITHRAX,False,,,,,
@@ -964,7 +975,7 @@ VAC0970,TETATOX,False,,,,,
 VAC0971,VACCINO ANTIVAIOLOSO LANCY,False,,,,,
 VAC0972,VIROFLUSOMA,False,,,,,
 VAC0973,VIROFLU,False,,,,,
-VAC0974,MENCEVAX AC,False,,,,,
+VAC0974,MENCEVAX AC,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC0975,PERTURIX,False,,,,,
 VAC0976,VACCINO ANTICOLERICO ISI,False,,,,,
 VAC0977,ENTEROVACCINO ISI,False,,,,,
@@ -978,7 +989,7 @@ VAC0984,VACCINO ANTIVAIOLOSO ISI,False,,,,,
 VAC0985,VACCINO TAB TE ISI,False,,,,,
 VAC0986,H ATETAL ISI,False,,,,,
 VAC0987,TANRIX,False,,,,,
-VAC0988,VACCINO MENINGOCOCCICO POLISACCARIDICO TETRAVALENTE GSK,False,,,,,
+VAC0988,VACCINO MENINGOCOCCICO POLISACCARIDICO TETRAVALENTE GSK,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC0989,HANTAVAX,False,,,,,
 VAC0990,ALPHARIX,False,,,,,
 VAC0991,FLULAVAL QUADRIVALENT,False,,,,,
@@ -1059,7 +1070,7 @@ VAC1057,ENGERIX B JUNIOR,False,AIC-035262,"Hepatitis B vaccine, recombinant, uns
 VAC1058,"SPIKEVAX XBB.1.5 0,1 mg/mL dose 50 µg MODERNA",False,,,,,
 VAC1059,"SPIKEVAX XBB.1.5 0,1 mg/mL dose 25 µg MODERNA",False,,,,,
 VAC1060,SPIKEVAX XBB.1.5 50 µg MODERNA,False,,,,,
-VAC1061,PENBRAYA,False,,,,,
+VAC1061,PENBRAYA,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC1062,CMV immune globulin,True,,,,,
 VAC1063,"Hepatitis C vaccine, unspecified",True,,,,,
 VAC1064,"HIV vaccine, unspecified",True,,,,,
@@ -1088,7 +1099,7 @@ VAC1086,PNEUMUNE,False,,,,,
 VAC1087,HYPERTET,False,,,,,
 VAC1088,HYPERRAB,False,,,,,
 VAC1089,HYPERHEP B,False,,,,,
-VAC1090,MENZB,False,,,,,
+VAC1090,MENZB,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC1091,VARIZIG,False,,,,,
 VAC1092,KAMRAB,False,,,,,
 VAC1093,HEPAGAM,False,,,,,
@@ -1107,8 +1118,8 @@ VAC1105,BAT EMERGENT BIOSOLUTIONS,False,,,,,
 VAC1106,"COVID-19 VLP vaccine, unspecified",True,,,,,
 VAC1107,"Whole inactivated Cholera vaccine, unspecified",True,,,,,
 VAC1108,"COVID-19 bivalent mRNA vaccine, original virus + Omicron BA.1 variant, unspecified",True,,,,,
-VAC1109,"ACW unconjugated meningococcal vaccine, unspecified",True,,,,,
-VAC1110,"Meningococcal C vaccine unconjugated, unspecified",True,,,,,
+VAC1109,"ACW unconjugated meningococcal vaccine, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
+VAC1110,"Meningococcal C vaccine unconjugated, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC1111,"Japanese Encephalitis Vaccine, whole inactivated, prepared on Vero cells, unspecified",True,,,,,
 VAC1112,"Live attenuated quadrivalent influenza vaccine, unspecified",True,,,,,
 VAC1113,"COVID-19 protein subunit vaccine, recombinant spike protein, unspecified",True,,,,,
@@ -1131,7 +1142,7 @@ VAC1129,"COVID-19 protein subunit vaccine, recombinant spike protein in nanopart
 VAC1130,"Trivalent inactivated seasonal influenza vaccine and tetanus toxoid, unspecified",True,,,,,
 VAC1131,"17-valent unconjugated pneumococcal vaccine, unspecified",True,,,,,
 VAC1132,"COVID-19 bivalent mRNA vaccine, original virus + Omicron BA.4/5 variant, 1.5 micrograms, unspecified",True,,,,,
-VAC1133,"Meningococcal ACWY polysaccharide conjugate vaccine, unspecified",True,,,,,
+VAC1133,"Meningococcal ACWY polysaccharide conjugate vaccine, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC1134,"Live attenuated vaccine against Argentine hemorrhagic fever, Junin virus, unspecified",True,,,,,
 VAC1135,"COVID-19 Plasmid DNA vaccine with non-replicating viral vector, adenovirus encoding the spike protein of SARS-CoV-2, by inhalation, unspecified",True,,,,,
 VAC1136,"23-valent Pneumococcus conjugate vaccine, unspecified",True,,,,,
@@ -1150,8 +1161,8 @@ VAC1148,"Haemophilus influenzae type b vaccine, unconjugated polysaccharide, uns
 VAC1149,"Oral live attenuated cholera vaccine, unspecified",True,,,,,
 VAC1150,"COVID-19 mRNA vaccine encoding the spike protein of SARS-CoV-2, original virus, 30 micrograms, unspecified",True,,,,,
 VAC1151,"Quadrivalent DTPeP vaccine - Diphtheria-Tetanus-Pertussis-Polio, unspecified",True,,,,,
-VAC1152,"Meningococcal B vaccine containing fHbp of subfamilies A and B, unspecified",True,,,,,
-VAC1153,"Quadrivalent meningococcal ACWY vaccine, diphtheria toxoid conjugate, unspecified",True,,,,,
+VAC1152,"Meningococcal B vaccine containing fHbp of subfamilies A and B, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
+VAC1153,"Quadrivalent meningococcal ACWY vaccine, diphtheria toxoid conjugate, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC1154,"Whole inactivated mumps vaccine, unspecified",True,,,,,
 VAC1155,"Plasma hepatitis B vaccine, unspecified",True,,,,,
 VAC1156,"Immunoglobulin against botulism, unspecified",True,,,,,
@@ -1180,9 +1191,9 @@ VAC1178,"Tetravalent Dengue vaccine, live attenuated chimeric recombinant, unspe
 VAC1179,"Cholera and typhoid vaccine, injectable, unspecified",True,,,,,
 VAC1180,"Recombinant Lyme disease vaccine, unspecified",True,,,,,
 VAC1181,"Pentavalent vaccine DTPeHibHepB - Diphtheria-Tetanus-Pertussis-Hib PRP-HepatitisB 10µg, unspecified",True,,,,,
-VAC1182,"Meningococcal ACWY polysaccharide vaccine conjugated to tetanus toxoid, unspecified",True,,,,,
+VAC1182,"Meningococcal ACWY polysaccharide vaccine conjugated to tetanus toxoid, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC1183,"Non-replicating viral vector Ebola vaccine, unspecified",True,,,,,
-VAC1184,"Meningococcal C polysaccharide vaccine conjugated to tetanus toxoid, unspecified",True,,,,,
+VAC1184,"Meningococcal C polysaccharide vaccine conjugated to tetanus toxoid, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC1185,"COVID-19 vaccine with non-replicating viral vector, adenovirus 26 encoding the spike protein of SARS-CoV-2, unspecified",True,,,,,
 VAC1186,"COVID-19 vaccine with replicative viral vector with antigen-presenting cells, unspecified",True,,,,,
 VAC1187,"COVID-19 vaccine with replicative viral vector, measles virus encoding the SARS-CoV-2 spike protein, unspecified",True,,,,,
@@ -1209,14 +1220,14 @@ VAC1207,"COVID-19 vaccine with replicative viral vector, Newcastle disease virus
 VAC1208,"Quadrivalent DTPeHepB vaccine - Diphtheria-Tetanus-Pertussis-HepatitisB 10µg, unspecified",True,,,,,
 VAC1209,"Measles vaccine, whole inactivated, unspecified",True,,,,,
 VAC1210,"COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, original virus, 100 micrograms, unspecified",True,,,,,
-VAC1211,"Meningococcal C polysaccharide vaccine conjugated to CRM197 protein, unspecified",True,,,,,
+VAC1211,"Meningococcal C polysaccharide vaccine conjugated to CRM197 protein, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC1212,"Trivalent Poliomyelitis vaccine, whole inactivated oral, unspecified",True,,,,,
 VAC1213,"Cholera vaccine containing recombinant cholera toxin B subunit and inactivated whole V. cholerae O1 bacteria, unspecified",True,,,,,
 VAC1214,"COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, against the Omicron XBB.1.5 variant, 10µg, unspecified",True,,,,,
 VAC1215,"Hexavalent vaccine DTPaHibPHepB - Diphtheria-Tetanus-Pertussis-Hib OMP-Polio-Hepatitis B 10µg, unspecified",True,,,,,
 VAC1216,"Quadrivalent DTPaHepB vaccine - Diphtheria-Tetanus-Pertussis-Hepatitis B 10µg, unspecified",True,,,,,
 VAC1217,"Vaccine against hepatitis B and Haemophilus influenzae type b, unspecified",True,,,,,
-VAC1218,"Meningococcal A polysaccharide vaccine conjugated to tetanus toxoid, unspecified",True,,,,,
+VAC1218,"Meningococcal A polysaccharide vaccine conjugated to tetanus toxoid, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC1219,"Hexavalent vaccine DTPeHibMCV-A-C-T - Diphtheria-Tetanus-Pertussis-Hib PRP-Meningococcus A and C, conjugated with tetanus toxoid, unspecified",True,,,,,
 VAC1220,"Meningococcal CY and anti-Haemophilus influenzae type b vaccine, conjugated with tetanus toxoid, unspecified",True,,,,,
 VAC1221,"Trivalent vaccine against diphtheria, tetanus and rubella, unspecified",True,,,,,
@@ -1228,7 +1239,7 @@ VAC1226,"Combined hepatitis A and B vaccine, pediatric dose, unspecified",True,A
 VAC1227,"Recombinant hepatitis B vaccine, pediatric dose, unspecified",True,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC1227,"Recombinant hepatitis B vaccine, pediatric dose, unspecified",True,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC1228,"Respiratory syncytial virus (RSV) vaccine, recombinant, F protein-derived RSVPreF3 antigen, unspecified",True,,,,,
-VAC1229,Vaccine against meningococcal serogroups B (outer membrane vesicle proteins) and C,True,,,,,
+VAC1229,Vaccine against meningococcal serogroups B (outer membrane vesicle proteins) and C,True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC1230,"Meningococcal C and anti-Haemophilus influenzae type b vaccine, conjugated with tetanus toxoid, unspecified",True,,,,,
 VAC1231,"Pentavalent vaccine DTPaHibHepB- Diphtheria-Tetanus-Pertussis-Hib PRP-Hepatitis B 10μg, unspecified",True,,,,,
 VAC1232,"Acellular pertussis vaccine, reduced dose, unspecified",True,,,,,
@@ -1239,12 +1250,12 @@ VAC1236,"COVID-19 protein subunit vaccine, recombinant spike protein in nanopart
 VAC1237,"Pre-erythrocytic malaria vaccine, unspecified",True,,,,,
 VAC1238,"Vaccine against hepatitis B and malaria, unspecified",True,,,,,
 VAC1239,"15-valent Pneumococcus conjugate vaccine, unspecified",True,,,,,
-VAC1240,"4-component meningococcal B vaccine, unspecified",True,,,,,
+VAC1240,"4-component meningococcal B vaccine, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC1241,"Shingles vaccine, varicella-zoster virus (VZV) surface glycoprotein E (gE), unspecified",True,,,,,
 VAC1242,"COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron XBB.1.5 variant, 25 micrograms",True,,,,,
 VAC1243,"COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron XBB.1.5 variant, 50 micrograms",True,,,,,
 VAC1244,"COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron XBB.1.5 variant, 30 micrograms",True,,,,,
-VAC1245,"ABCWY meningococcal vaccine, unspecified",True,,,,,
+VAC1245,"ABCWY meningococcal vaccine, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC1246,MCOMBRIAX,False,,,,,
 VAC1247,"Hepatitis A vaccine, unspecified",True,,,,,
 VAC1248,"Influenza/Covid 19 mRNA vaccine, unspecified",True,,,,,
@@ -1265,7 +1276,7 @@ VAC1262,MRESVIA,False,AIC-051452,MRESVIA,True,1,1
 VAC1263,"COVID-19 mRNA vaccine encoding the SARS-COV-2 spike protein, authorized",True,,,,,
 VAC1264,"A(H5) avian influenza vaccine, unspecified",True,,,,,
 VAC1265,CLODIVAC,False,,,,,
-VAC1266,PENMENVY,False,,,,,
+VAC1266,PENMENVY,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC1267,VIMKUNYA,False,AIC-052011,VIMKUNYA,True,1,1
 VAC1268,SPIKEVAX JN.1 50 µg,False,,,,,
 VAC1269,"SPIKEVAX JN.1 0,1 mg/mL dose 25 µg",False,,,,,
@@ -1313,7 +1324,7 @@ VAC1307,JEEV 6 µg,False,,,,,
 VAC1308,DT BIOLOGICAL E LTD,False,,,,,
 VAC1309,NOVEL ORAL (nOPV) TYPE 2 BIOLOGICAL E. LTD,False,,,,,
 VAC1310,SII TD-VAC,False,,,,,
-VAC1311,"Meningococcal ACWXY conjugate vaccine, unspecified",True,,,,,
+VAC1311,"Meningococcal ACWXY conjugate vaccine, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC1312,TT SII,False,,,,,
 VAC1313,BCG SII,False,,,,,
 VAC1314,MEASLES SII,False,,,,,
@@ -1325,7 +1336,7 @@ VAC1319,"DIPHTHERIA, TETANUS, PERTUSSIS AND HAEMOPHILUS INFLUENZAE B SII",False,
 VAC1320,"DIPHTHERIA, TETANUS, PERTUSSIS, HEPATITIS B AND HAEMOPHILUS INFLUENZAE B SII",False,,,,,
 VAC1321,HAEMOPHILUS INFLUENZAE B SII,False,,,,,
 VAC1322,PNEUMOSIL,False,,,,,
-VAC1323,MENFIVE,False,,,,,
+VAC1323,MENFIVE,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC1324,NASOVAC-S,False,,,,,
 VAC1325,GENEVAC-B 10 µg,False,AIC-026653,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
 VAC1325,GENEVAC-B 10 µg,False,AIC-035262,"Hepatitis B vaccine, recombinant, unspecified",True,42,0
@@ -1450,12 +1461,12 @@ VAC1430,"COVID-19 bivalent mRNA vaccine against the original virus and the Omicr
 VAC1431,"RSV vaccine, unspecified",True,,,,,
 VAC1432,"Argentine hemorrhagic fever vaccine, Junin virus, unspecified",True,,,,,
 VAC1433,"Plague vaccine, unspecified",True,,,,,
-VAC1434,"Meningococcal A vaccine, unspecified",True,,,,,
+VAC1434,"Meningococcal A vaccine, unspecified",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC1435,"Rabies vaccine, inactivated, whole virion, cell culture-based, unspecified",True,,,,,
 VAC1436,"Rabies vaccine, inactivated, whole virion, prepared from animal brain tissue infected with rabies virus, unspecified",True,,,,,
-VAC1437,"Meningococcal vaccine, monovalent, conjugate",True,,,,,
+VAC1437,"Meningococcal vaccine, monovalent, conjugate",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC1438,"Influenza vaccine, trivalent, inactivated, fractionated or subunit, adjuvanted",True,,,,,
-VAC1439,"Meningococcal vaccine, polyvalent, conjugate polysaccharide",True,,,,,
+VAC1439,"Meningococcal vaccine, polyvalent, conjugate polysaccharide",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC1440,"Influenza vaccine, quadrivalent, inactivated, fractionated or subunit, adjuvanted, normal dose",True,,,,,
 VAC1441,"Influenza vaccine, quadrivalent, inactivated, split or subunit, intradermal route, unspecified",True,,,,,
 VAC1442,"Influenza vaccine, quadrivalent, virosomal, unspecified",True,,,,,
@@ -1472,7 +1483,7 @@ VAC1451,CHIROFLU,False,,,,,
 VAC1452,SCI-B-VAC,False,,,,,
 VAC1453,INVIVAC,False,,,,,
 VAC1454,PRIMAVAX,False,,,,,
-VAC1455,MENGIVAC A + C,False,,,,,
+VAC1455,MENGIVAC A + C,False,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC1456,WYVAC,False,,,,,
 VAC1457,TETRA-SOLGEN,False,,,,,
 VAC1458,TRIDIPIGEN,False,,,,,
@@ -1485,7 +1496,7 @@ VAC1464,FLUBRON VACCINE,False,,,,,
 VAC1465,PERDIPIGEN,False,,,,,
 VAC1466,COMIRNATY LP.8.1 30 µg,False,,,,,
 VAC1467,COMIRNATY LP.8.1 3 µg 6 MOIS-4 ANS,False,,,,,
-VAC1468,COMIRNATY LP.8.1 10 µg 5-11 ans,False,,,,,
+VAC1468,COMIRNATY LP.8.1 10 µg,False,,,,,
 VAC1469,mNEXSPIKE,False,,,,,
 VAC1470,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 3 micrograms, paediatric dose (6 months-4 years)",True,,,,,
 VAC1471,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 30 micrograms, adult (+ 12 years)",True,,,,,
@@ -1493,7 +1504,7 @@ VAC1472,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 10 micrograms, paedia
 VAC1473,"COVID-19 mRNA vaccine, encoding a fragment of the SARS-CoV-2 spike protein, Omicron LP.8.1 subvariant",True,,,,,
 VAC1474,ENFLONSIA (CLESROVIMAB),False,,,,,
 VAC1475,"Human monoclonal antibody against respiratory syncytial virus (RSV), clesrovimab, unspecified",True,,,,,
-VAC1476,"Meningococcal vaccine against A, C, W, Y (conjugated polysaccharide) and B",True,,,,,
+VAC1476,"Meningococcal vaccine against A, C, W, Y (conjugated polysaccharide) and B",True,AIC-024489,"Meningococcal polyvalent polysaccharide vaccine, unspecified",True,54,0
 VAC1477,ENCEPUR N ENFANT,False,AIC-036515,"Tick-borne encephalitis vaccine, unspecified",True,11,0
 VAC1478,SYNAGIS 50 mg (PALIZIVUMAB),False,,,,,
 VAC1479,VACPERTAGEN,False,,,,,
@@ -1542,3 +1553,17 @@ VAC1515,BUTANTAN RAGE,False,,,,,
 VAC1516,BUTANTAN INFLUENZA,False,,,,,
 VAC1517,AUJEMFLU,False,,,,,
 VAC1518,MFLUSIVA,False,,,,,
+VAC1519,COMIRNATY XFG 10 µg,False,,,,,
+VAC1520,COMIRNATY XFG 30 µg,False,,,,,
+VAC1521,"COVID-19 mRNA vaccine, subvariant Omicron XFG, 10 micrograms, paediatric dose (5-11 years)",True,,,,,
+VAC1522,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 30 micrograms, adult (+ 12 years)",True,,,,,
+VAC1523,KEYTRUDA,False,,,,,
+VAC1524,"Melanoma vaccine, messenger RNA, individualized neoantigens",True,,,,,
+VAC1525,NUVAXOVID XFG,False,,,,,
+VAC1526,BIMERVAX XFG.1.1,False,,,,,
+VAC1527,"COVID-19 protein subunit vaccine, recombinant spike protein (RBD domain), with adjuvant (SQBA), Omicron XFG.1.1 subvariant.",True,,,,,
+VAC1528,"COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles, with adjuvant (Matrix M), Omicron XFG subvariant",True,,,,,
+VAC1529,SPIKEVAX XFG 25 µg,False,,,,,
+VAC1530,SPIKEVAX XFG 50 µg,False,,,,,
+VAC1531,"COVID-19 mRNA vaccine, subvariant Omicron XFG, 50 micrograms",True,,,,,
+VAC1532,"COVID-19 mRNA vaccine, subvariant Omicron XFG, 25 micrograms",True,,,,,

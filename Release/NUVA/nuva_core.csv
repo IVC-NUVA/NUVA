@@ -1390,7 +1390,7 @@ VAC1464,FLUBRON VACCINE,"Seasonal influenza vaccine, whole inactivated",False
 VAC1465,PERDIPIGEN,"Paediatric diphtheria vaccine (toxoid, standard dose) and pertussis (whole-cell inactivated)",False
 VAC1466,COMIRNATY LP.8.1 30 µg,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 30 micrograms, adult (+ 12 years)",False
 VAC1467,COMIRNATY LP.8.1 3 µg 6 MOIS-4 ANS,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 3 micrograms, paediatric dose (6 months-4 years)",False
-VAC1468,COMIRNATY LP.8.1 10 µg 5-11 ans,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 10 micrograms, paediatric dose (5-11 years)",False
+VAC1468,COMIRNATY LP.8.1 10 µg,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 10 micrograms, paediatric dose (5-11 years)",False
 VAC1469,mNEXSPIKE,"COVID-19 mRNA vaccine, encoding fragments (NTD and RBD) of the SARS-CoV-2 spike protein, Omicron LP.8.1 subvariant",False
 VAC1470,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 3 micrograms, paediatric dose (6 months-4 years)","COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 3 micrograms, paediatric dose (6 months-4 years)",True
 VAC1471,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 30 micrograms, adult (+ 12 years)","COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 30 micrograms, adult (+ 12 years)",True
@@ -1441,3 +1441,17 @@ VAC1515,BUTANTAN RAGE,"Whole virion inactivated rabies vaccine, cultured on Vero
 VAC1516,BUTANTAN INFLUENZA,"Trivalent inactivated seasonal influenza vaccine, split virion",False
 VAC1517,AUJEMFLU,"Influenza vaccine, trivalent, inactivated, fractionated or subunit, adjuvanted",False
 VAC1518,MFLUSIVA,"Influenza vaccine, trivalent, messenger RNA",False
+VAC1519,COMIRNATY XFG 10 µg,"COVID-19 mRNA vaccine, subvariant Omicron XFG, 10 micrograms, paediatric dose (5-11 years)",False
+VAC1520,COMIRNATY XFG 30 µg,"COVID-19 mRNA vaccine, subvariant Omicron XFG, 30 micrograms, adult (+ 12 years)",False
+VAC1521,"COVID-19 mRNA vaccine, subvariant Omicron XFG, 10 micrograms, paediatric dose (5-11 years)","COVID-19 mRNA vaccine, subvariant Omicron XFG, 10 micrograms, paediatric dose (5-11 years)",True
+VAC1522,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 30 micrograms, adult (+ 12 years)","COVID-19 mRNA vaccine, subvariant Omicron XFG, 30 micrograms, adult (+ 12 years)",True
+VAC1523,KEYTRUDA,"Melanoma vaccine, messenger RNA, individualized neoantigens",False
+VAC1524,"Melanoma vaccine, messenger RNA, individualized neoantigens","Melanoma vaccine, messenger RNA, individualized neoantigens",True
+VAC1525,NUVAXOVID XFG,"COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles, with adjuvant (Matrix M), Omicron XFG subvariant",False
+VAC1526,BIMERVAX XFG.1.1,"COVID-19 protein subunit vaccine, recombinant spike protein (RBD domain), with adjuvant (SQBA), Omicron XFG.1.1 subvariant.",False
+VAC1527,"COVID-19 protein subunit vaccine, recombinant spike protein (RBD domain), with adjuvant (SQBA), Omicron XFG.1.1 subvariant.","COVID-19 protein subunit vaccine, recombinant spike protein (RBD domain), with adjuvant (SQBA), Omicron XFG.1.1 subvariant.",True
+VAC1528,"COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles, with adjuvant (Matrix M), Omicron XFG subvariant","COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles, with adjuvant (Matrix M), Omicron XFG subvariant",True
+VAC1529,SPIKEVAX XFG 25 µg,"COVID-19 mRNA vaccine, subvariant Omicron XFG, 25 micrograms",False
+VAC1530,SPIKEVAX XFG 50 µg,"COVID-19 mRNA vaccine, subvariant Omicron XFG, 50 micrograms",False
+VAC1531,"COVID-19 mRNA vaccine, subvariant Omicron XFG, 50 micrograms","COVID-19 mRNA vaccine, subvariant Omicron XFG, 50 micrograms",True
+VAC1532,"COVID-19 mRNA vaccine, subvariant Omicron XFG, 25 micrograms","COVID-19 mRNA vaccine, subvariant Omicron XFG, 25 micrograms",True
