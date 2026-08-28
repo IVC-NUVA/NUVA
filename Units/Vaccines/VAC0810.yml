@@ -2,7 +2,7 @@ abstract: true
 label: Meningococcal polyvalent polysaccharide vaccine, unspecified
 comment: Meningococcal polyvalent unconjugated polysaccharide vaccine
 created: '2021-10-26'
-modified: '2025-05-20'
+modified: '2026-08-28'
 codes:
   AIC:
   - 024489
@@ -19,4 +19,4 @@ codes:
   SNOMED-CT:
   - '1061000221102'
 valences:
-- VAL120
+- VAL234

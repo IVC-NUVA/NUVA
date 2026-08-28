@@ -1192,6 +1192,28 @@ en:
       Omicron LP.8.1 subvariant
     VAC1503L: COVID-19 vaccine, protein subunit, recombinant spike protein (RBD),
       Omicron LP.8.1 subvariant
+    VAC1521C: COVID-19 mRNA vaccine, subvariant Omicron XFG, 10 micrograms, paediatric
+      dose (5-11 years)
+    VAC1521L: COVID-19 mRNA vaccine, subvariant Omicron XFG, 10 micrograms, paediatric
+      dose (5-11 years)
+    VAC1522C: COVID-19 mRNA vaccine, subvariant Omicron XFG, 30 micrograms, adult
+      (+ 12 years)
+    VAC1522L: COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 30 micrograms, adult
+      (+ 12 years)
+    VAC1524C: Melanoma vaccine, messenger RNA, individualized neoantigens
+    VAC1524L: Melanoma vaccine, messenger RNA, individualized neoantigens
+    VAC1527C: COVID-19 protein subunit vaccine, recombinant spike protein (RBD domain),
+      with adjuvant (SQBA), Omicron XFG.1.1 subvariant.
+    VAC1527L: COVID-19 protein subunit vaccine, recombinant spike protein (RBD domain),
+      with adjuvant (SQBA), Omicron XFG.1.1 subvariant.
+    VAC1528C: COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles,
+      with adjuvant (Matrix M), Omicron XFG subvariant
+    VAC1528L: COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles,
+      with adjuvant (Matrix M), Omicron XFG subvariant
+    VAC1531C: COVID-19 mRNA vaccine, subvariant Omicron XFG, 50 micrograms
+    VAC1531L: COVID-19 mRNA vaccine, subvariant Omicron XFG, 50 micrograms
+    VAC1532C: COVID-19 mRNA vaccine, subvariant Omicron XFG, 25 micrograms
+    VAC1532L: COVID-19 mRNA vaccine, subvariant Omicron XFG, 25 micrograms
   valence:
     VAL001L: Influenza valence, trivalent, live attenuated, standard dose
     VAL001S: INF-L3
@@ -1457,8 +1479,9 @@ en:
     VAL117S: Acel
     VAL118L: Meningococcal B valence, unspecified
     VAL118S: MenB
-    VAL119L: Meningococcal valence, monovalent, unconjugated polysaccharide
-    VAL119S: MPV-mono
+    VAL119L: COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike
+      protein, 50 micrograms
+    VAL119S: Covid-ARNm-S-OMI-XFG-50
     VAL120L: Meningococcal valence, polyvalent, unconjugated polysaccharide
     VAL120S: MPV-poly
     VAL121L: Polio valence, trivalent, inactivated, whole-virus, oral
@@ -1590,8 +1613,9 @@ en:
     VAL178L: COVID-19 valence, Omicron variant BA.1, mRNA encoding the SARS-CoV-2
       spike protein, 25 micrograms
     VAL178S: COVID-mRNA-S-OMI-BA.1-25
-    VAL179L: Meningococcal  valence, monovalent, conjugate
-    VAL179S: MCV-mono
+    VAL179L: COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike
+      protein, 25 micrograms
+    VAL179S: Covid-ARNm-S-OMI-XFG-25
     VAL180L: COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike
       protein, 100 micrograms
     VAL180S: COVID-mRNA-S-ORI-100
@@ -2193,3 +2217,20 @@ en:
     VAL437S: DENV3rCH
     VAL438L: Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-4
     VAL438S: DENV4rCH
+    VAL439L: COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2
+      spike protein
+    VAL439S: Covid-ARNm-S-OMI-XFG
+    VAL440L: COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike
+      protein, 10 micrograms
+    VAL440S: Covid-ARNm-S-OMI-XFG-10
+    VAL441L: COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike
+      protein, 30 micrograms
+    VAL441S: Covid-ARNm-S-OMI-XFG-30
+    VAL442L: Melanoma valence, messenger RNA, individualized neoantigens
+    VAL442S: MEL-ARNI
+    VAL443L: COVID-19 valence, protein subunit, recombinant spike protein in nanoparticles,
+      sub-variant Omicron XFG
+    VAL443S: Covid-SP-rSnp-XFG
+    VAL444L: COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron
+      XFG subvariant
+    VAL444S: Covid-SP-rRBD-XFG
