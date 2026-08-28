@@ -186,7 +186,7 @@ for code,data in Vaccines.items():
         'comment': data['comment'],
         'valences': data['valences'].copy()}
 
-with open('docs/scripts/vaccines.js','w',encoding='utf-8-sig') as f:
+with open('docs/data/vaccines.js','w',encoding='utf-8-sig') as f:
     f.write("const defaultVaccines="+json.dumps(jsonVaccines,ensure_ascii=False))
 
 jsonValences = {'Valence': {'shorthand': 'VAL', 'label': 'Valence', 'parent': 'Valence'}}
@@ -198,7 +198,7 @@ for code,data in Valences.items():
         'label': data['label'],
         'parent': data['parent']}
 
-with open('docs/scripts/valences.js','w',encoding='utf-8-sig') as f:
+with open('docs/data/valences.js','w',encoding='utf-8-sig') as f:
     f.write("const defaultValences="+json.dumps(jsonValences,ensure_ascii=False))
 
 print ('Creating the language RDF files')
