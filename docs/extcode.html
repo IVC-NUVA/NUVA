@@ -7,6 +7,8 @@
     <script type = 'text/javascript' src='https://nuva.ivci.org/data/valences.js'></script>	
     <script type = 'text/javascript' src='scripts/nuva.js'></script>
     <script type = 'text/javascript' src='scripts/nuvafiles.js'></script>
+    <script type = 'text/javascript' src='scripts/extcode.js'></script>
+	
 </head>
 <body>
 <nav class="sidebar">
@@ -16,7 +18,7 @@
     <li><a href="vaccines.html">Vaccines</a></li>
     <li><a href="valences.html">Valences</a></li>
     <li><a href="families.html">Families</a></li>	
-    <li><a href="files.html">Files</a></li>
+    <li><a href="files.html">Files</a></li>		
     <li><a href="extcode.html">Alignment</a></li>	
   </ul>
 
@@ -25,19 +27,9 @@
 <main class="content">
 <h2>Work files</h2>
 <div class = "box">
-<p>Upload or download the current work status.</p>
-<p>All current changes can be deleted with "Reset to default".</p>
-<button onclick="saveBackup()">Save</button>
-<button onclick="selectFile()">Restore</button>
-<input id="backup" type='file' accept='.json' style = "display:none" onchange='restoreBackup()'></input>
-
-<button style = "color:white; background-color:red; float:right" onclick="reset()">Reset to default</button>
-</div>
-<h2>Unit files</h2>
-<div class = "box">
-<p>Check and build the Unit files for submission.</p>
-<button onclick="CheckAll()">Check only</button>
-<button onclick="Unitsdl()">Download</button>
+<p>Upload CSV file</p>
+<button onclick="selectCSV()">Upload</button>
+<input id="alignment" type='file' accept='.csv' style = "display:none" onchange='uploadCSV()'></input>
 </div>
 <h2>Execution log</h2>
 <div id = "log" class="scrollbox">

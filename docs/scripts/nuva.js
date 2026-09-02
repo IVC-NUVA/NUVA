@@ -27,6 +27,7 @@ function unlockVCode() {
 function refresh() {
 	if (document.page == "Vaccines") showVaccines()   
     if (document.page == "Valences") showValences()   
+    if (document.page == "Families") showFamilies()   
 }
 
 /* Valence Tag
@@ -39,7 +40,7 @@ function valenceTag(idval) {
 	valtag.id = idval
 	valtag.onclick = function () {
 		toggleSelection(this.id)
-		showVaccines()
+		refresh()
     }
     valtag.title = valences[idval]['label']
 	valtag.innerHTML = valences[idval]['shorthand']
@@ -243,8 +244,8 @@ function setVaccineValues() {
 	vaccine = vaccines[idvac]
 	vaccine['abstract'] = document.getElementById('vabstract').checked
 	vaccine.label = document.getElementById('vlabel').value
-	vaccine['comment'] = document.getElementById('vcomment').value
-	vaccine["changed"] = true
+	vaccine.comment = document.getElementById('vcomment').value
+	vaccine.changed = true
 	saveToSession("vaccines", vaccines)
 	showVaccines()
 }
@@ -256,8 +257,8 @@ function setVaccineValences() {
 		return
 	}
 	vaccine = vaccines[idvac]
-	vaccine['valences'] = Array.from(selected_valences)
-	vaccine["changed"] = true
+	vaccine.valences = Array.from(selected_valences)
+	vaccine.changed = true
 	rebuildVaccine(idvac)
 	viewEditVaccine(idvac)
 	saveToSession("vaccines", vaccines)
@@ -373,7 +374,8 @@ function showChildren(valence) {
 }
 
 function toggleFold() {
-    var ul = this.parentElement.querySelectorAll('ul')[0];
+    var ul = this.parentElement.querySelectorAll('ul')[0]
+	
     if (ul.style.display == 'block') {
         ul.style.display = 'none';
         this.className = 'folded';
@@ -392,8 +394,31 @@ function toggleFold() {
     }
     var ul = this.parentElement.querySelectorAll('ul')[0];
     // Not only unfold, but also open the edit window.
-    lockVCode()
-    viewEditValence(this.id)
+	lockVCode()
+	viewEditValence(this.id)	
+}
+
+expand = true
+function toggleAll()
+{
+	if (expand)
+	{
+		foldedList = [...document.getElementsByClassName('folded')]
+		for (folded of foldedList) {
+			folded.className = 'unfolded'
+			ul = folded.parentElement.querySelectorAll('ul')[0]
+			ul.style.display = 'block'
+		}		
+	expand = false
+	} else {
+		unfoldedList = [...document.getElementsByClassName('unfolded')]
+		for (unfolded of unfoldedList) {
+			unfolded.className = 'folded'
+			ul = unfolded.parentElement.querySelectorAll('ul')[0]
+			ul.style.display = 'none'
+		}	
+		expand = true
+	}
 }
 
 /* Valences selection
@@ -564,3 +589,175 @@ function rebuildValences() {
     }
     saveToSession("vaccines", vaccines)
 }
+
+function getValencesKey(idvac) {
+	return vaccines[idvac].valences.sort().join("-")
+}
+
+/* Visualisation per family */
+
+function computeFamilies()
+{
+	families = {}
+	
+	// First create a table of vaccines per set of valences
+	for (idvac in vaccines) {
+		vaccine = vaccines[idvac]
+		valences_key = getValencesKey(idvac)
+		if (!(valences_key in families)) {
+			families[valences_key] = {'abstractVaccine': null, realVaccines:[], 'lineage':[], descendants: 0}			
+		}
+		if (vaccine.abstract) {
+			if (families[valences_key].abstractVaccine) {
+				//doLog(families[valences_key].abstractVaccine+" and "+
+				//idvac+" are abstract with the same valences.")
+				//showAlert("Duplicate abstract vaccines, see log.")
+			} else {
+				families[valences_key].abstractVaccine = idvac
+			}
+		} else {
+			families[valences_key].realVaccines.push(idvac)
+		}
+	}
+	// Check if all vaccines have an abstract vaccine
+	for (valences_key in families) {
+		family = families[valences_key]
+		if (!family.abstractVaccine) {
+			//doLog("Missing abstract vaccine for "+ family.realVaccines.join(" "))
+			family.abstractVaccine = family.realVaccines[0]
+		}
+	}
+	// Then for each family, explore all the potential ascendants.
+	
+	 for (valences_key in families) {
+		family = families[valences_key]
+
+		idvals = valences_key.split("-")
+		done = false
+		scrollvals = [...idvals]
+
+		for (i = 0; i < idvals.length; i++) {
+			for (parent of valences[scrollvals[i]].lineage) {
+				scrollvals[i] = parent				
+				// Remove duplicates or children of a common ancestor
+				cleanscroll= []
+				for (idval of scrollvals) {
+					if ((!cleanscroll.includes(idval)) &&
+					(valences[idval].lineage.filter(value=>cleanscroll.includes(value)).length == 0)) {
+						cleanscroll.push(idval)
+					}
+				}
+				scroll_key = cleanscroll.sort().join("-")
+				if (scroll_key in families) {
+					scrollFamily = families[scroll_key]
+					if (scrollFamily.abstractVaccine) {						
+						if (!family.lineage.includes(scroll_key)) {
+							family.lineage.push(scroll_key)
+							scrollFamily.descendants += family.realVaccines.length + 1
+						}
+					}					
+				}
+			}
+		}
+
+	}
+	// Sort the lineages by ascending number of descendants
+	for (valences_key in families)
+	{
+		family = families[valences_key]
+		family.lineage.sort(function(a,b) { return (families[a].descendants > families[b].descendants)})
+		
+		comment = (family.lineage.length == 0 ? " has no ascendants": " is a")		
+
+		doLog(vaccines[family.abstractVaccine].label+comment)
+		for (parent of family.lineage) {
+		doLog("  - "+vaccines[families[parent].abstractVaccine].label+ " ("+families[parent].descendants+")")
+		}
+	}
+	// Finally sort by abstract vaccine name
+	familiesArray = Object.entries(families)
+	familiesArray.sort(function(a,b){ 
+	return vaccines[a[1].abstractVaccine].label > vaccines[b[1].abstractVaccine].label})
+	families = Object.fromEntries(familiesArray)	
+}
+
+
+function toggleFoldFamily() {
+    var ul = this.parentElement.querySelectorAll('ul')[0]
+	console.log(ul)
+	var sublist = ul.querySelectorAll('ul')[0]
+	console.log(sublist)
+	
+    if (ul.style.display == 'block') {
+        ul.style.display = 'none';
+        this.className = 'folded';
+    } else {
+        ul.style.display = 'block';
+        this.className = 'unfolded'
+    }
+}
+
+function tickFamily()
+{
+	idvac = this.id.substring(4)
+	console.log(idvac)
+	selected_valences = new Set([...vaccines[idvac].valences])
+	showSelected()	
+}
+
+function showFamilies() {
+	computeFamilies()
+    lpos = document.getElementById('lval')
+	lpos.innerHTML = ""
+	list = document.createElement('ul')
+	lpos.appendChild(list)
+
+	for (valences_key in families)
+	{
+		family = families[valences_key]
+		idvac = family.abstractVaccine
+		hidden = false		
+		if (filter.length != 0)
+		{
+			for (filval of filter) {
+				if (!(vaccines[idvac].implicit.includes(filval))) hidden = true
+			}
+		}
+		item = document.createElement("li")
+		s1 = document.createElement("span")
+		s1.id = idvac
+		s1.innerHTML = idvac+" - "+ vaccines[idvac].label
+		item.appendChild(s1)
+		
+		select = document.createElement("button")	
+		select.className = "round"
+		select.onclick = tickFamily
+		select.id = "tick" + idvac
+		select.onclick = tickFamily
+		select.innerHTML="select"
+		var s2 = document.createElement("span")
+		s2.appendChild(select)
+		item.appendChild(s2)
+		
+		item.style.display= (hidden? "none":"block")
+		
+		if (family.realVaccines.length == 0) {
+			s1.className = 'final'
+		} else {
+			s1.className = 'folded'
+			s1.onclick = toggleFoldFamily
+			sublist = document.createElement("ul")
+			sublist.display = "none"
+			for (idvac2 of family.realVaccines) {
+				item2 = document.createElement('li')			
+				item2.innerHTML = idvac2+" - "+ vaccines[idvac2].label
+				item2.style.display = 'block'
+				item2.className = 'final'
+				sublist.append(item2)
+			}
+			item.append(sublist)			
+		}
+		list.append(item)
+	}	
+}
+

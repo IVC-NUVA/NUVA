@@ -122,6 +122,13 @@ body {
   width: 100%
 }
 
+.round {
+	background-color: green;
+	color:white;
+	border-radius: 50%;
+	margin-left: 10px;
+}
+
 table {
   border-collapse: collapse; 
   width: 95%

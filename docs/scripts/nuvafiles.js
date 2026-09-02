@@ -120,6 +120,34 @@ function restoreBackup() {
     reader.readAsText(file);
 }
 
+// Alignment file functions
+function selectCSV() {
+	doLog("Select alignment file to analyze")
+    selector = document.getElementById("alignment")
+	selector.value = ""
+	selector.style.display = "inline"
+}
+function uploadCSV() {
+    selector = document.getElementById("alignment")
+	selector.style.display = "none"
+
+	file = document.getElementById("alignment").files[0]
+	if (!file) {
+		showAlert("Please select a file")
+	}
+
+	reader = new FileReader()
+	reader.onload = function () {	
+		doLog("Uploaded CSV file, now computing")
+		analyseCSV(reader.result)
+    };
+    reader.onerror = function () {
+		showAlert("Cannot read the file")
+    };
+    reader.readAsText(file);	
+	
+}
+
 // Units functions
 function newList(key, depth) {
     return (spacer.repeat(depth) + key + ":" + EOL)
