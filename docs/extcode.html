@@ -19,13 +19,13 @@
     <li><a href="valences.html">Valences</a></li>
     <li><a href="families.html">Families</a></li>	
     <li><a href="files.html">Files</a></li>		
-    <li><a href="extcode.html">Alignment</a></li>	
+    <li><a href="extcode.html">Code Systems</a></li>	
   </ul>
 
 </nav>
 
 <main class="content">
-<h2>Alignment</h2>
+<h2>Code Systems</h2>
 <div class = "box">
 <p>Upload here a CSV file with the external code and NUVA code as first two columns, optionally a label in third column.</p>
 <p>A reverse map file with the best options for all NUVA codes will be generated</p>
@@ -35,7 +35,7 @@
 CVX,NUVA,label</p>
 <p>Each subsequent row has a structure such as:<br>
 CVX-35,VAC0132,"Tetanus vaccine, unspecified"</p>
-
+<p>For countries where Excel uses a semicolon for CSV, use LibreOffice instead.</p>
 </div>
 <button onclick="selectCSV()">Upload</button>
 <input id="alignment" type='file' accept='.csv' style = "display:none" onchange='uploadCSV()'></input>

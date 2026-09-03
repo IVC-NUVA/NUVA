@@ -14,7 +14,7 @@ function reverseRows(idvac, rev_key, bestBlur) {
 				idvac,                      	  // NUVA code
 				'"'+vaccines[idvac].label+'"',    // NUVA label
 				vaccines[idvac].abstract,         // Abstract
-				prefix+extcode,                   // External code
+				extcode,                          // External code
 				codeLabels[extcode],              // External code label
 				(blur == bestBlur),               // Best code
 				blur,                             // Blur
@@ -27,7 +27,10 @@ function reverseRows(idvac, rev_key, bestBlur) {
 function analyseCSV(text)
 {
 	doLog("Extracting")
-	reCSV = new RegExp('(".*?"|[^",\s]+)(?=\s*,|\s*$)','g')
+	reCSV = new RegExp('(".*?"|[^",]+)(?=\s*,|\s*$)','g')
+	reNUVA = new RegExp("^VAC\\d{4}")
+	extcodes = codeLabels = {}
+
 	const rows = text.split("\r\n")
 	for(i in rows) {
 		reCSV.lastIndex = 0
@@ -37,29 +40,35 @@ function analyseCSV(text)
 		extCode=(codeField?codeField[1]:null)
 		nuvaCode=(nuvaField?nuvaField[1]:null)
 		label=(labelField?labelField[1]:null)
+		console.log(extCode+nuvaCode+label)
+		
+		
+		if ((!extCode) || (!nuvaCode))
+			continue
 		
 		if (i == 0) {
 			CSID = extCode
-			prefix = CSID+"-"
-			reCode = new RegExp("^"+prefix+"(.*)")			
+			reCode = new RegExp("^"+CSID+"-.*")			
 		}
 		else
 		{	
 			result = reCode.exec(extCode)
-			if (result) {
-				extCode = result[1]
-				// There may be several external codes for a same NUVA code
-				if (!(nuvaCode in extcodes)) {
-					extcodes[nuvaCode] = [extCode]
-				} else {
-					extcodes[nuvaCode].push(extCode)
-				}
-				if (!(extCode in codeLabels))
-				{
-					if (!label) label = '"'+vaccines[nuvaCode].label+'"'
-					codeLabels[extCode] = label
-				}
+			if (result) {extCode = result[0] }else continue
+			result = reNUVA.exec(nuvaCode)
+			if (result) {nuvaCode = result[0]} else continue
+			
+			// There may be several external codes for a same NUVA code
+			if (!(nuvaCode in extcodes)) {
+				extcodes[nuvaCode] = [extCode]
+			} else {
+				extcodes[nuvaCode].push(extCode)
 			}
+			if (!(extCode in codeLabels))
+			{
+				if (!label) label = '"'+vaccines[nuvaCode].label+'"'
+				codeLabels[extCode] = label
+			}
+
 		}
 	}
 	computeFamilies()
@@ -77,7 +86,7 @@ function analyseCSV(text)
 				idvac,                            // NUVA code
 				'"'+vaccines[idvac].label+'"',    // NUVA label
 				vaccines[idvac].abstract,         // Abstract
-				prefix+extcode,                   // External code
+				extcode,                   // External code
 				codeLabels[extcode],    // External code NUVA label
 				true,                             // Best code
 				1,                                // Blur
@@ -107,7 +116,7 @@ function analyseCSV(text)
 			mapped++
 		}	
 	}
-	doLog(`The ${CSID} code systems contains ${Object.keys(codeLabels).length} codes`)
+	doLog(`The ${CSID} code system contains ${Object.keys(codeLabels).length} codes`)
 	doLog(`It may represent ${mapped} NUVA concepts out of ${Object.keys(vaccines).length}.`)
 	
 	reverseFileContent = '\ufeff'  // BOM marker for UTF-8
