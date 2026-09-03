@@ -343,7 +343,7 @@ function showChildren(valence) {
 		var item = document.createElement("li")
 		var s1 = document.createElement("span")
 		s1.id = child
-		s1.innerHTML = vchild.shorthand + '(' + child + ')-' + vchild.label
+		s1.innerHTML = `${vchild.shorthand} (${child})-${vchild.label}`
 		if (vchild.changed) {
 			s1.style.fontWeight = 'bold'
 		}
@@ -594,8 +594,6 @@ function getValencesKey(idvac) {
 	return vaccines[idvac].valences.sort().join("-")
 }
 
-/* Visualisation per family */
-
 function computeFamilies()
 {
 	families = {}
@@ -609,8 +607,8 @@ function computeFamilies()
 		}
 		if (vaccine.abstract) {
 			if (families[valences_key].abstractVaccine) {
-				//doLog(families[valences_key].abstractVaccine+" and "+
-				//idvac+" are abstract with the same valences.")
+				doLog(families[valences_key].abstractVaccine+" and "+
+				idvac+" are abstract with the same valences.")
 				//showAlert("Duplicate abstract vaccines, see log.")
 			} else {
 				families[valences_key].abstractVaccine = idvac
@@ -622,71 +620,76 @@ function computeFamilies()
 	// Check if all vaccines have an abstract vaccine
 	for (valences_key in families) {
 		family = families[valences_key]
+		family.descendants = family.realVaccines.length +1
 		if (!family.abstractVaccine) {
-			//doLog("Missing abstract vaccine for "+ family.realVaccines.join(" "))
+			if (family.realVaccines.length > 1)
+			{
+				doLog("Missing abstract vaccine for "+ family.realVaccines.join(" "))
+			}
 			family.abstractVaccine = family.realVaccines[0]
 		}
 	}
-	// Then for each family, explore all the potential ascendants.
 	
-	 for (valences_key in families) {
-		family = families[valences_key]
-
-		idvals = valences_key.split("-")
-		done = false
-		scrollvals = [...idvals]
-
-		for (i = 0; i < idvals.length; i++) {
-			for (parent of valences[scrollvals[i]].lineage) {
-				scrollvals[i] = parent				
-				// Remove duplicates or children of a common ancestor
-				cleanscroll= []
-				for (idval of scrollvals) {
-					if ((!cleanscroll.includes(idval)) &&
-					(valences[idval].lineage.filter(value=>cleanscroll.includes(value)).length == 0)) {
-						cleanscroll.push(idval)
+	for (vkey1 in families) {		
+		family1 = families[vkey1]
+		idvac1= family1.abstractVaccine
+		if (!vaccines[idvac1].abstract) continue
+		valences1 = vaccines[idvac1].valences
+		
+		fam2:for (vkey2 in families) {
+			if (vkey2 == vkey1) continue
+			family2 = families[vkey2]
+			idvac2 = family2.abstractVaccine
+			valences2 = vaccines[idvac2].valences
+				
+			// Vaccine 2 is a descendant of vaccine 1 if:
+			// - all valences of vaccine1 have a descendant in vaccine 2
+			// - no valence of vaccine2 has no ascendant in vaccine 1			
+			fail = false
+			loop1: for (idval1 of valences1) {
+				found = false
+				for (idval2 of valences2) {
+					if ((idval2 == idval1)||(valences[idval2].lineage.includes(idval1))) {
+						continue loop1
 					}
 				}
-				scroll_key = cleanscroll.sort().join("-")
-				if (scroll_key in families) {
-					scrollFamily = families[scroll_key]
-					if (scrollFamily.abstractVaccine) {						
-						if (!family.lineage.includes(scroll_key)) {
-							family.lineage.push(scroll_key)
-							scrollFamily.descendants += family.realVaccines.length + 1
-						}
-					}					
-				}
+				fail = true
+				
+			if (fail) continue fam2			
 			}
+			loop2: for (idval2 of valences2) {
+				found = false
+				for (idval1 of valences1) {
+					if ((idval1 == idval2) ||(valences[idval2].lineage.includes(idval1))) {
+						continue loop2
+					}
+				}
+				fail = true								
+			}
+			if (!fail) {				
+				if (!family2.lineage.includes(vkey1)) {
+					family2.lineage.push(vkey1)
+					family1.descendants += family2.realVaccines.length+1
+				}
+			}			
 		}
-
 	}
 	// Sort the lineages by ascending number of descendants
 	for (valences_key in families)
 	{
 		family = families[valences_key]
 		family.lineage.sort(function(a,b) { return (families[a].descendants > families[b].descendants)})
-		
-		comment = (family.lineage.length == 0 ? " has no ascendants": " is a")		
-
-		doLog(vaccines[family.abstractVaccine].label+comment)
-		for (parent of family.lineage) {
-		doLog("  - "+vaccines[families[parent].abstractVaccine].label+ " ("+families[parent].descendants+")")
-		}
 	}
 	// Finally sort by abstract vaccine name
 	familiesArray = Object.entries(families)
 	familiesArray.sort(function(a,b){ 
 	return vaccines[a[1].abstractVaccine].label > vaccines[b[1].abstractVaccine].label})
-	families = Object.fromEntries(familiesArray)	
+	families = Object.fromEntries(familiesArray)
 }
-
 
 function toggleFoldFamily() {
     var ul = this.parentElement.querySelectorAll('ul')[0]
-	console.log(ul)
 	var sublist = ul.querySelectorAll('ul')[0]
-	console.log(sublist)
 	
     if (ul.style.display == 'block') {
         ul.style.display = 'none';
@@ -700,7 +703,6 @@ function toggleFoldFamily() {
 function tickFamily()
 {
 	idvac = this.id.substring(4)
-	console.log(idvac)
 	selected_valences = new Set([...vaccines[idvac].valences])
 	showSelected()	
 }
@@ -726,7 +728,7 @@ function showFamilies() {
 		item = document.createElement("li")
 		s1 = document.createElement("span")
 		s1.id = idvac
-		s1.innerHTML = idvac+" - "+ vaccines[idvac].label
+		s1.innerHTML = `${idvac} - ${vaccines[idvac].label}`
 		item.appendChild(s1)
 		
 		select = document.createElement("button")	
@@ -750,7 +752,7 @@ function showFamilies() {
 			sublist.display = "none"
 			for (idvac2 of family.realVaccines) {
 				item2 = document.createElement('li')			
-				item2.innerHTML = idvac2+" - "+ vaccines[idvac2].label
+				item2.innerHTML = `${idvac2} - ${vaccines[idvac2].label}`				
 				item2.style.display = 'block'
 				item2.className = 'final'
 				sublist.append(item2)

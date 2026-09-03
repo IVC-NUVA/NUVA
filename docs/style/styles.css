@@ -68,6 +68,9 @@ body {
 	border-radius: 4px;
 	margin-bottom: 15px;
 }
+.details {
+	font-style: italic;
+}
 .alert {
 	width: 50%;
 	height: 100px;

@@ -25,9 +25,18 @@
 </nav>
 
 <main class="content">
-<h2>Work files</h2>
+<h2>Alignment</h2>
 <div class = "box">
-<p>Upload CSV file</p>
+<p>Upload here a CSV file with the external code and NUVA code as first two columns, optionally a label in third column.</p>
+<p>A reverse map file with the best options for all NUVA codes will be generated</p>
+<div class = "details">
+<p >To avoid unwanted conversions for numbers, the external code must be prefixed with the code system name. </p>
+<p>The first row contains titles with column 1 being the code system name:<br>
+CVX,NUVA,label</p>
+<p>Each subsequent row has a structure such as:<br>
+CVX-35,VAC0132,"Tetanus vaccine, unspecified"</p>
+
+</div>
 <button onclick="selectCSV()">Upload</button>
 <input id="alignment" type='file' accept='.csv' style = "display:none" onchange='uploadCSV()'></input>
 </div>
