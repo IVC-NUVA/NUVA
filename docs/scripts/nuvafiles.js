@@ -144,8 +144,33 @@ function uploadCSV() {
     reader.onerror = function () {
 		showAlert("Cannot read the file")
     };
-    reader.readAsText(file);	
-	
+    reader.readAsText(file);		
+}
+
+function selectCSV2() {
+	doLog("Select alignment file to analyze")
+    selector = document.getElementById("alignment2")
+	selector.value = ""
+	selector.style.display = "inline"
+}
+function uploadCSV2() {
+    selector = document.getElementById("alignment2")
+	selector.style.display = "none"
+
+	file = document.getElementById("alignment2").files[0]
+	if (!file) {
+		showAlert("Please select a file")
+	}
+
+	reader = new FileReader()
+	reader.onload = function () {	
+		doLog("Uploaded CSV file, now computing")
+		mapCSV2(reader.result)
+    };
+    reader.onerror = function () {
+		showAlert("Cannot read the file")
+    };
+    reader.readAsText(file);		
 }
 
 // Units functions

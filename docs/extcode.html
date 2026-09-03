@@ -25,7 +25,7 @@
 </nav>
 
 <main class="content">
-<h2>Code Systems</h2>
+<h2>Reverse map</h2>
 <div class = "box">
 <p>Upload here a CSV file with the external code and NUVA code as first two columns, optionally a label in third column.</p>
 <p>A reverse map file with the best options for all NUVA codes will be generated</p>
@@ -40,6 +40,13 @@ CVX-35,VAC0132,"Tetanus vaccine, unspecified"</p>
 <button onclick="selectCSV()">Upload</button>
 <input id="alignment" type='file' accept='.csv' style = "display:none" onchange='uploadCSV()'></input>
 </div>
+<h2>Transcription map</h2>
+<div class ="box">
+<p>Generate a map from another code system to the reversed one.</p>
+<button id='transcription' onclick="selectCSV2()" disabled>Upload</button>
+<input id="alignment2" type='file' accept='.csv' style = "display:none" onchange='uploadCSV2()'></input>
+</div>
+
 <h2>Execution log</h2>
 <div id = "log" class="scrollbox">
 </div>
