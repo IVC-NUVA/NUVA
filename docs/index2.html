@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NUVA editor</title>
+    <link href = "style/styles.css" rel="stylesheet">
+</head>
+<body>
+<nav class="sidebar">
+  <h1>NUVA</h1>
+  <ul>
+    <li><a href="index2.html">Usage</a></li>
+    <li><a href="vaccines2.html">Vaccines</a></li>
+    <li><a href="valences2.html">Valences</a></li>
+    <li><a href="files2.html">Files</a></li>	
+    <li><a href="extcode2.html">Code Systems</a></li>		
+  </ul>
+
+</nav>
+
+<main class="content">
+<h1>NUVA browser usage</h1>
+<p> This site presents the current core content of the NUVA terminology.<p>
+<p>It is automatically updated on each NUVA update in the <a href = 'https://github.com/IVC-NUVA/NUVA'>GitHub repository</a>.<p>
+<h2>Vaccines view</h2>
+<p>The <a href="vaccines.html">Vaccines view</a> presents all the NUVA vaccine concepts, with for each vaccine the list of its valences.</p>
+<p>Valences are represented with the usual shorthand notation. You can see more detail by hovering over the valence tag.</p>
+<p>Vaccines can be edited or created. Modified vaccines are presented in bold.</p>
+
+<h2>Valences view</h2>
+<p>The <a href = "valences.html">Valences view</a> presents the hierarchy of valences.</p>
+<p>The terminal (most precise) valences are displayed in green.</p>
+<p>The aggregated valences are displayed in black. You can fold or unfold them by clicking on their description.</p>
+<p>Valences can be edited or created. Modified valences are presented in bold.</p>
+
+<h2>Families view</h2>
+Families presents the abstract vaccines, and each abstract vaccine can be unfolded to the matching real vaccines.
+<h2>Selection</h2>
+<p>You can include a valence in the selection:</p>
+<ul>
+<li>By clicking on a valence tag in the Vaccines view</li>
+<li>By ticking the checkbox for a valence in the Valences view</li>
+<li>By clicking the select button for a family in the Family view (the family valences will be selected)</li>
+</ul>
+<p>The selected valences are visible in the Selected section of the left side menu and as checkboxes in the valences tree. The parents valences for a selected valence are also checked, but with a greyed checkbox.</p>
+<h2>Filtering</h2>
+<p>Once valences have been selected, they can be assigned to the filter.<p>
+<p>The filter has impact in views:<p>
+<ul>
+<li>Only vaccines with ALL of the selected valences (or a more precise version of the selected ones) are displayed</li>
+<li>Only valences with ANY of the selected valences, their parents and children, are displayed</li>
+<li>Only families will ALL of the selected valences (or a more precise version) are displayed</li>
+</ul>
+<h2>Files view</h2>
+<p>The current modifications are kept only while the browser is open. They can be saved to a backup file and restored later.<p>
+<p>New unit files can be generated for modified Valences and Vaccines. These files can then be submitted to the NUVA Github in order to be incorporated into a next release.</p>
+
+</main>
+
+</body>
+</html>

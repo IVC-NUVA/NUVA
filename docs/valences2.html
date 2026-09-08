@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NUVA editor</title>
+    <link href = "style/styles.css" rel="stylesheet">
+    <script type = 'text/javascript' src='data/nuvadata.js'></script>
+    <script type = 'text/javascript' src='scripts/nuva2.js'></script>
+    <script type = 'text/javascript' src='scripts/nuvafiles2.js'></script>
+</head>
+<body>
+<nav class="sidebar">
+  <h1>NUVA</h1>
+  <ul>
+    <li><a href="index2.html">Usage</a></li>
+    <li><a href="vaccines2.html">Vaccines</a></li>
+    <li><a href="valences2.html">Valences</a></li>
+    <li><a href="files2.html">Files</a></li>	
+    <li><a href="extcode2.html">Code Systems</a></li>		
+  </ul>
+
+ <div style = "height:20%">
+ <h3>Filter (any)</h3>
+ <ul id=filter></ul>
+
+ <button onclick = 'clearFilter()'>Clear filter</button>
+ </div>
+ <div style = height:20%>
+ <h3>Selected</h3>
+<ul id=selected></ul>
+
+  <button onclick="setFilter()">Use as filter</button>
+  <button onclick = "clearSelected()">Clear</button>
+ </div>
+</nav>
+
+<main class="content">
+<h1>Valences</h1>
+  <button class='add' onclick=addValence()>Add a valence</button>
+  <button onclick=toggleAll()>Toggle all</button>
+<div id=lval> </div>
+</main>
+<div id = edit class = "edit" style = "display:none">
+	<table>
+	<tr><td>Code</td><td><input id = "vcode" type = "text" style="width:20%" maxlength=6></input></td></tr>	
+	<tr><td>Notation</td><td><input id = "vshorthand" type = "text" style="width:95%"></input></td></tr>
+	<tr><td>Label</td><td><input id = "vlabel" type = "text" style="width:95%"></input></td></tr>
+	<tr><td>Class</td><td><select id = "vclass">
+	<!-- A faire - Réduire la liste des options selon le parent -->
+	<option value = "0">0-Undefined</option>
+	<option value = "1">1-Live vaccines</option>
+	<option value = "1.1">1.1. Live attenuated pathogen vaccines</option>
+	<option value = "1.1.1">1.1.1. Live attenuated bacterial vaccines</option>
+	<option value = "1.1.2">1.1.2. Live attenuated viral vaccines</option>
+	<option value = "1.2">1.2. Live recombinant viral vector vaccines</option>
+	<option value = "1.2.1">1.2.1. Replicating viral vector vaccines</option>
+	<option value = "1.2.2">1.2.2. Non-replicating viral vector vaccines</option>
+	<option value = "2">2 Non-live vaccines</option>	
+	<option value = "2.1">2.1. Whole inactivated pathogen vaccines</option>
+	<option value = "2.1.1">2.1.1. Inactivated whole-cell bacterial vaccines</option>
+	<option value = "2.1.2">2.1.2. Inactivated whole-virion viral vaccines</option>
+	<option value = "2.2">2.2. Split or disrupted pathogen vaccines</option>
+	<option value = "2.2.1">2.2.1. Split-virion viral vaccines</option>
+	<option value = "2.2.2">2.2.2. Other disrupted pathogen vaccines</option>
+	<option value = "2.3">2.3. Subunit vaccines</option>
+	<option value = "2.3.1">2.3.1. Polysaccharide-based vaccines</option>
+	<option value = "2.3.1.1">2.3.1.1. Unconjugated polysaccharide vaccines</option>
+	<option value = "2.3.1.2">2.3.1.2. Conjugated polysaccharide vaccines</option>
+	<option value = "2.3.2">2.3.2. Protein-based vaccines</option>
+	<option value = "2.3.2.1">2.3.2.1. Toxoid vaccines</option>
+	<option value = "2.3.2.2">2.3.2.2. Purified native protein vaccines</option>
+	<option value = "2.3.2.3">2.3.2.3. Recombinant protein vaccines</option>
+	<option value = "2.3.2.4">2.3.2.4. Virus-like particle (VLP) vaccines</option>
+	<option value = "2.3.3">2.3.3. Membrane vesicle-based vaccines</option>
+	<option value = "2.3.3.1">2.3.3.1. Outer membrane vesicle (OMV) vaccines</option>
+	<option value = "2.4">2.4. Nucleic acid vaccines</option>
+	<option value = "2.4.1">2.4.1. DNA vaccines</option>
+	<option value = "2.4.2">2.4.2. RNA vaccines</option>
+	<option value = "2.4.2.1">2.4.2.1. Conventional mRNA vaccines</option>
+	<option value = " 2.4.2.2">2.4.2.2. Self-amplifying RNA vaccines</option>
+	
+	
+	</select></td></tr>
+	<tr><td>Parent</td><td id='vparent'></td></tr>
+	</table>
+	<button onclick = setValenceValues()>Save values</button>
+	<button onclick = setParent()>Use selected as Parent</button>
+	<button onclick = resetValence()>Reset to default</button>
+	<button onclick = closeValenceEdit()>Close</button>	
+</div>
+
+<div id='alertbox' class="alert" onclick = ackAlert()>
+<p id='alertmsg' valign='center' align='center'>Mon message</p>
+</div>
+
+<script type = "text/javascript">
+
+window.onload = function () {
+  document.page = "Valences"
+  initContext()
+  showSelected()
+  showFilter()  
+  showValences()
+  updateTicks()
+}
+</script>
+
+
+</body>
+</html>

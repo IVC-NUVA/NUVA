@@ -114,6 +114,26 @@ body {
   display: inline-block;
 }
 
+.abstract {
+  text-align: center;
+  background-color: green;
+  color: white;
+  padding: 2px;
+  border-radius: 12px;
+  border:solid;
+  display: inline-block;
+}
+
+.vaccine {
+  text-align: center;
+  background-color: blue;
+  color: white;
+  padding: 2px;
+  border-radius: 12px;
+  border:solid;
+  display: inline-block;
+}
+
 .valencetext {
   visibility:hidden;
   width: 0px;
