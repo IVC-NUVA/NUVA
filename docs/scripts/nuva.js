@@ -513,7 +513,7 @@ function showChildren(idval) {
 		var s2 = document.createElement("span")
 		s2.appendChild(select)
 		item.appendChild(s2)
-		if (extvalences[idval].children.length == 0) {
+		if (extvalences[child].children.length == 0) {
 			s1.className = 'final'
 			s1.onclick = editValence
 		} else {
