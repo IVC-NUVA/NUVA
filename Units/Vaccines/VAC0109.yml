@@ -1,28 +1,7 @@
 abstract: false
+status: active
 label: FOCETRIA (unidose)
-comment: Pandemic influenza A(H1N1)pdm09 vaccine, inactivated, egg-based, surface
-  antigen, with adjuvant
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  AIC:
-  - 039396
-  CIP:
-  - '3400939886091'
-  - '3400939886152'
-  CIS:
-  - '64566840'
-  EU-NUMBER:
-  - EU-1-07-385-002
-  INFARMED:
-  - '5045232'
-  - '5045240'
-  - '5045851'
-  NUVACode:
-  - 0109
-  SCT_NUVA:
-  - '2031002000100'
-  SWISSLEGACY:
-  - '137'
-valences:
-- VAL099
+instanceOf: VAC0147

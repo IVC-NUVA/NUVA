@@ -1,13 +1,7 @@
 abstract: false
-label: V590 (COVID-19)
-comment: COVID-19 vaccine, replicating vesicular stomatitis virus vector encoding
-  the SARS-CoV-2 spike protein
+status: active
+label: V590 (COVID-19 Vaccine)
+comment: ''
 created: '2021-07-19'
-modified: '2023-05-15'
-codes:
-  NUVACode:
-  - 0697
-  SCT_NUVA:
-  - '8401002000103'
-valences:
-- VAL084
+modified: '2026-09-10'
+instanceOf: VAC1190

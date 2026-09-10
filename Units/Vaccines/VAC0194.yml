@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: B-CAPSA
-comment: Haemophilus influenzae type b non-conjugated polysaccharide vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  NUVACode:
-  - 0194
-  SCT_NUVA:
-  - '3091002000106'
-valences:
-- VAL049
+instanceOf: VAC1148

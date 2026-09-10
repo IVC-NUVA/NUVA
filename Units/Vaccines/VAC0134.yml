@@ -1,30 +1,8 @@
 abstract: true
+status: active
 label: BCG vaccine, unspecified
 comment: Tuberculosis vaccine
 created: '2021-07-19'
 modified: '2026-07-28'
-codes:
-  ATC:
-  - J07AN01
-  CPT:
-  - '90585'
-  - '90728'
-  CVC:
-  - '418268006'
-  CVX:
-  - '19'
-  ICD11:
-  - XM4639
-  - XM8142
-  NUVACode:
-  - '0134'
-  SCT_NUVA:
-  - '2321002000100'
-  SNOMED-CT:
-  - '1861000221106'
-  - '319941000221104'
-  - '836402002'
-  SWISSLEGACY:
-  - '48'
 valences:
 - VAL096

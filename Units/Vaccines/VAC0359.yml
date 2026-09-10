@@ -1,25 +1,7 @@
 abstract: false
+status: active
 label: RIMEVAX
-comment: Live attenuated measles vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  AIC:
-  - 025821
-  CNK:
-  - 0128603
-  INFARMED:
-  - '8591404'
-  - '8591412'
-  - '8591420'
-  - '8591438'
-  NUVACode:
-  - 0359
-  SCT_NUVA:
-  - '4821002000103'
-  SWISSMEDIC:
-  - '483'
-  THL:
-  - '110'
-valences:
-- VAL005
+instanceOf: VAC0114

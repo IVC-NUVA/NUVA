@@ -1,24 +1,7 @@
 abstract: false
+status: active
 label: INFLEXAL V
-comment: Trivalent inactivated seasonal influenza vaccine, virosome
+comment: ''
 created: '2022-06-13'
 modified: '2025-03-28'
-codes:
-  CNK:
-  - '2228104'
-  - '2493260'
-  - '2585727'
-  - '2798379'
-  - '2852788'
-  - '3040474'
-  NUVACode:
-  - 0968
-  SCT_NUVA:
-  - '11671002000101'
-  SWISSMEDIC:
-  - '614'
-  THL:
-  - '23'
-  - '58'
-valences:
-- VAL015
+instanceOf: VAC0925

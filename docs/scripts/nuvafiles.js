@@ -168,7 +168,7 @@ function listItem(item, depth) {
     return (spacer.repeat(1+depth) + "-" + item + EOL)
 }
 function attribute(item, value, depth) {
-    return (spacer.repeat(depth) + item + ": " + value + EOL)
+    return (spacer.repeat(depth) + item + " : \""+ value +"\"" + EOL)
 }
 
 function Unitsdl() {
@@ -180,6 +180,7 @@ function Unitsdl() {
 			vaccine = vaccines[idvac]
 			unit = attribute("abstract", vaccine.abstract, 0)
 			unit += attribute("label", vaccine.label, 0)
+			unit += attribute("status", vaccine.status, 0)			
 			unit += attribute("created", vaccine.created, 0)
 			unit += attribute("comment", vaccine.comment, 0)
 			unit += attribute("modified", modified, 0)
@@ -202,9 +203,10 @@ function Unitsdl() {
 	for (idval in valences) {
 		if (extvalences[idval]['changed']) {
 			unit = attribute("label", valences[idval].label, 0)
-			unit += attribute("created", valences[idval].created, 0)
-			unit += attribute("modified", modified, 0)
+			unit += attribute("created", String(valences[idval].created), 0)
+			unit += attribute("modified", String(modified), 0)
 			unit += attribute("shorthand", valences[idval].shorthand, 0)
+			unit += attribute("vtype", String(valences[idval].vtype), 0)
 			unit += attribute("parent", valences[idval].parent, 0)
 			doLog("Downloading unit file for " + valences[idval].label)
 			download(idval + ".yml", unit)

@@ -1,28 +1,7 @@
 abstract: false
+status: active
 label: MVABEA
-comment: Ebola virus vaccine with non-replicating viral vector
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-26'
-codes:
-  AIC:
-  - 048914
-  CIP:
-  - '3400955076704'
-  CIS:
-  - '67848058'
-  CODE_NATIONAL_SPAIN:
-  - '731055'
-  CTI:
-  - '567253'
-  CTI-EXTEND:
-  - 567253-01
-  EU-NUMBER:
-  - EU-1-20-1445-001
-  INFARMED:
-  - '5798228'
-  NUVACode:
-  - '0634'
-  SCT_NUVA:
-  - '7511002000100'
-valences:
-- VAL109
+instanceOf: VAC1183

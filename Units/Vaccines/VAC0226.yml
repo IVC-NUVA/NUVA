@@ -1,15 +1,7 @@
 abstract: false
+status: active
 label: Diptheria, Tetanus and Acellular Pertussis Combined Walvax vaccine
-comment: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (multicomponent
-  acellular, standard dose) pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-11-02'
-codes:
-  NUVACode:
-  - '0226'
-  SCT_NUVA:
-  - '3421002000103'
-valences:
-- VAL008
-- VAL067
-- VAL097
+instanceOf: VAC0602

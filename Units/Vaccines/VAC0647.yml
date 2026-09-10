@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: ROTASIIL
-comment: Rotavirus vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-03-13'
-codes:
-  NUVACode:
-  - '0647'
-  SCT_NUVA:
-  - '7691002000107'
-valences:
-- VAL106
+instanceOf: VAC0158

@@ -1,38 +1,7 @@
 abstract: false
-label: COMIRNATY JN.1 3 µg
-comment: COVID-19 mRNA vaccine, subvariant Omicron JN.1, 3 micrograms, dose (6 months-4
-  years)
+status: active
+label: COMIRNATY JN.1 3 µg CHILDREN (6 MONTHS-4 YEARS)
+comment: ''
 created: '2024-08-23'
-modified: '2025-04-25'
-codes:
-  CIP:
-  - '3400928099488'
-  - '3400930299777'
-  CIS:
-  - '65290793'
-  CNK:
-  - '4855144'
-  CODE_NATIONAL_SPAIN:
-  - '765445'
-  CTI:
-  - '662873'
-  - '662874'
-  CTI-EXTEND:
-  - 662873-01
-  - 662874-01
-  ELGA:
-  - '5541947'
-  EU-NUMBER:
-  - EU-1-20-1528-035
-  - EU-1-20-1528-036
-  INFARMED:
-  - '5884663'
-  - '5884671'
-  NUVACode:
-  - '1260'
-  SCT_NUVA:
-  - '15341002000101'
-  SWISSMEDIC:
-  - '69913'
-valences:
-- VAL381
+modified: '2026-09-10'
+instanceOf: VAC1413

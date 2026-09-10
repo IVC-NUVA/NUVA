@@ -1,36 +1,7 @@
 abstract: false
-label: ERVEBO
-comment: Ebola Zaire vaccine (rVSVΔG-ZEBOV-GP, live)
+status: active
+label: Ervebo
+comment: ''
 created: '2021-07-19'
-modified: '2025-09-25'
-codes:
-  AIC:
-  - 048364
-  CIP:
-  - '3400955070689'
-  CIS:
-  - '62614126'
-  CPT:
-  - '90758'
-  CTI:
-  - '552080'
-  CTI-EXTEND:
-  - 552080-01
-  CVC:
-  - '45411000087107'
-  CVX:
-  - '204'
-  EU-NUMBER:
-  - EU-1-19-1392-001
-  ICD11:
-  - XM4P37
-  NDC:
-  - 0006-4293
-  NUVACode:
-  - 0586
-  SCT_NUVA:
-  - '7161002000109'
-  SWISSMEDIC:
-  - '68358'
-valences:
-- VAL007
+modified: '2026-09-10'
+instanceOf: VAC1199

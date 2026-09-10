@@ -1,20 +1,7 @@
 abstract: false
+status: active
 label: QUADRACEL/HIBEST
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
-  acellular, 5 components, standard dose), Haemophilus influenzae type b (conjugated
-  to tetanus toxoid) and inactivated polio (trivalent) pediatric vaccine, adsorbed
+comment: ''
 created: '2021-07-19'
 modified: '2023-11-02'
-codes:
-  NUVACode:
-  - 0348
-  SCT_NUVA:
-  - '4691002000100'
-  UPC:
-  - '349281564154'
-valences:
-- VAL008
-- VAL056
-- VAL067
-- VAL097
-- VAL156
+instanceOf: VAC1115

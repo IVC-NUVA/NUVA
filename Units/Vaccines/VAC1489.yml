@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: CELTURA
-comment: Pandemic influenza A(H1N1)pdm09 vaccine, inactivated
+comment: ''
 created: '2026-01-07'
 modified: '2026-01-08'
-codes:
-  NUVACode:
-  - '1489'
-  SWISSLEGACY:
-  - '136'
-valences:
-- VAL099
+instanceOf: VAC0147

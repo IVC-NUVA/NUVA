@@ -1,13 +1,7 @@
 abstract: false
+status: active
 label: NOVEL ORAL (nOPV) TYPE 2 BIOLOGICAL E. LTD
-comment: Polio vaccine (live attenuated, monovalent) against polioviruses type 2,
-  oral
+comment: ''
 created: '2025-03-12'
 modified: '2025-04-18'
-codes:
-  NUVACode:
-  - '1309'
-  SCT_NUVA:
-  - '15941002000102'
-valences:
-- VAL033
+instanceOf: VAC0852

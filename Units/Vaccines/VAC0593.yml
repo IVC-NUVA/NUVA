@@ -1,46 +1,7 @@
 abstract: false
+status: active
 label: VERORAB
-comment: Whole virion inactivated rabies vaccine, WISTAR PM/WI 38-1503-3M strain,
-  cultured on Vero cells, inactivated with ß-propiolactone
+comment: ''
 created: '2021-07-19'
 modified: '2026-08-03'
-codes:
-  AIC:
-  - 050684
-  CIP:
-  - '3400930152096'
-  - '3400930265628'
-  - '3400933660499'
-  - '3400933660550'
-  - '3400933660611'
-  - '3400935881236'
-  CIS:
-  - '62198717'
-  - '65583006'
-  - '65724720'
-  CNK:
-  - '4867487'
-  CODE_NATIONAL_SPAIN:
-  - '763203'
-  CTI:
-  - '661685'
-  CTI-EXTEND:
-  - 661685-01
-  - 661685-02
-  ELGA:
-  - '5523808'
-  NTIN:
-  - '3400933048877'
-  - '5909990002412'
-  - '7501895115907'
-  - '7897965402061'
-  - '8699625960398'
-  - '8964001484073'
-  NUVACode:
-  - 0593
-  SCT_NUVA:
-  - '7201002000100'
-  THL:
-  - '121'
-valences:
-- VAL260
+instanceOf: VAC1116

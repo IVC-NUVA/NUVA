@@ -1,24 +1,7 @@
 abstract: false
+status: active
 label: ENGERIX B JUNIOR
-comment: Hepatitis B recombinant vaccine, pediatric dose
+comment: ''
 created: '2024-01-16'
 modified: '2024-04-08'
-codes:
-  CTI:
-  - '252716'
-  - '252725'
-  CTI-EXTEND:
-  - 252716-01
-  - 252716-02
-  - 252725-01
-  - 252725-03
-  - 252725-04
-  - 252725-06
-  NUVACode:
-  - '1057'
-  SCT_NUVA:
-  - '12841002000104'
-  SWISSMEDIC:
-  - '551'
-valences:
-- VAL114
+instanceOf: VAC0914

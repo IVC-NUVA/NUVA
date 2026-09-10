@@ -1,12 +1,7 @@
 abstract: false
-label: CHINESE-IMB-INACTIVATED-COVID
-comment: COVID-19 vaccine, whole virion inactivated
+status: active
+label: Chinese-IMB-Inactivated-Covid
+comment: ''
 created: '2021-07-19'
-modified: '2024-06-04'
-codes:
-  NUVACode:
-  - '0660'
-  SCT_NUVA:
-  - '7901002000105'
-valences:
-- VAL265
+modified: '2026-09-10'
+instanceOf: VAC1124

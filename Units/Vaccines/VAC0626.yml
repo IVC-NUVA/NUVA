@@ -1,17 +1,7 @@
 abstract: false
+status: active
 label: MoRu Viraten
-comment: Live attenuated measles and rubella vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2026-03-05'
-codes:
-  AIC:
-  - 027978
-  NUVACode:
-  - '0626'
-  SCT_NUVA:
-  - '7431002000105'
-  SWISSLEGACY:
-  - '14'
-valences:
-- VAL005
-- VAL079
+instanceOf: VAC0550

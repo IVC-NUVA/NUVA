@@ -1,19 +1,7 @@
 abstract: false
+status: active
 label: ZIFIVAX ANHUI COVID-19 VACCINE
-comment: COVID-19 vaccine, protein subunit
+comment: ''
 created: '2021-07-19'
 modified: '2023-07-25'
-codes:
-  CVC:
-  - '33471000087102'
-  CVX:
-  - '507'
-  - '513'
-  ICD11:
-  - XM3CT4
-  NUVACode:
-  - 0659
-  SCT_NUVA:
-  - '7891002000106'
-valences:
-- VAL011
+instanceOf: VAC1138

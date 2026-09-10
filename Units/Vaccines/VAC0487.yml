@@ -1,22 +1,7 @@
 abstract: false
+status: active
 label: MENHIBRIX
-comment: Haemophilus influenzae type b and meningococcal conjugate vaccine, serogroup
-  A and C (conjugated to tetanus toxoid)
+comment: ''
 created: '2021-07-19'
 modified: '2025-02-25'
-codes:
-  CPT:
-  - '90644'
-  CVC:
-  - '20851000087103'
-  NDC:
-  - 58160-0801
-  - 58160-0809
-  NUVACode:
-  - 0487
-  SCT_NUVA:
-  - '6131002000100'
-valences:
-- VAL156
-- VAL266
-- VAL276
+instanceOf: VAC1220

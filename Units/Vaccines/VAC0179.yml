@@ -1,15 +1,7 @@
 abstract: false
+status: active
 label: ACELLULAR D.P.T. KOVAX
-comment: Diphtheria toxoid (standard dose), tetanus toxoid and inactivated polio (trivalent)
-  pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  NUVACode:
-  - 0179
-  SCT_NUVA:
-  - '2931002000101'
-valences:
-- VAL056
-- VAL067
-- VAL097
+instanceOf: VAC0088

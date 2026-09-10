@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: ZYVAC TCV
-comment: Typhoid conjugate vaccine, Vi polysaccharide linked to tetanus toxoid protein
+comment: ''
 created: '2025-04-07'
 modified: '2025-04-07'
-codes:
-  NUVACode:
-  - '1380'
-  SCT_NUVA:
-  - '16741002000105'
-valences:
-- VAL399
+instanceOf: VAC0711

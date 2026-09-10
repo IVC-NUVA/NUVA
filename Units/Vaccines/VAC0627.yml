@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: MORUMAN
-comment: Live attenuated measles vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-03-15'
-codes:
-  NUVACode:
-  - '0627'
-  SCT_NUVA:
-  - '7441002000102'
-  SWISSLEGACY:
-  - '120'
-valences:
-- VAL005
+instanceOf: VAC0114

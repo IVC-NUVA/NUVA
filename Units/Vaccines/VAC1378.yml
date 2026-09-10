@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: VACTYPH
-comment: Polysaccharide typhoid vaccine (Vi capsular antigen)
+comment: ''
 created: '2025-04-07'
 modified: '2025-04-07'
-codes:
-  NUVACode:
-  - '1378'
-  SCT_NUVA:
-  - '16721002000100'
-valences:
-- VAL032
+instanceOf: VAC0713

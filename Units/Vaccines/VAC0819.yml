@@ -1,23 +1,8 @@
 abstract: true
-label: Inactivated Japanese Encephalitis vaccine, unspecified
+status: active
+label: Japanese Encephalitis inactivated vaccine, unspecified
 comment: Whole virion inactivated japanese encephalitis vaccine
 created: '2021-10-26'
-modified: '2025-05-20'
-codes:
-  ATC:
-  - J07BA02
-  CPT:
-  - '90735'
-  CVX:
-  - '39'
-  ICD11:
-  - XM0LB5
-  NUVACode:
-  - 0819
-  SCT_NUVA:
-  - '9781002000108'
-  SNOMED-CT:
-  - '871725009'
-  - '871825001'
+modified: '2026-09-10'
 valences:
 - VAL089

@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: GENEVAC-B 10 µg
-comment: Recombinant hepatitis B vaccine with thiomersal, pediatric dose
+comment: ''
 created: '2025-03-14'
 modified: '2025-03-14'
-codes:
-  NUVACode:
-  - '1325'
-  SCT_NUVA:
-  - '16121002000101'
-valences:
-- VAL114
+instanceOf: VAC0914

@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: TYPHOID-KOVAX
-comment: Polysaccharide typhoid vaccine (Vi capsular antigen)
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  NUVACode:
-  - '0427'
-  SCT_NUVA:
-  - '5511002000106'
-valences:
-- VAL032
+instanceOf: VAC0713

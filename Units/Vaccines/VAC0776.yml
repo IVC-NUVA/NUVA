@@ -1,16 +1,7 @@
 abstract: false
+status: active
 label: TETRABIK
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
-  acellular, standard dose) and inactivated polio (trivalent) pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-11-02'
-codes:
-  NUVACode:
-  - '0776'
-  SCT_NUVA:
-  - '9171002000109'
-valences:
-- VAL008
-- VAL056
-- VAL067
-- VAL097
+instanceOf: VAC0551

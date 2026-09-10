@@ -1,25 +1,7 @@
 abstract: false
-label: COMIRNATY KP.2 3 µg
-comment: COVID-19 mRNA vaccine, subvariant Omicron KP.2, 3 micrograms, paediatric
-  dose (6 months-4 years)
+status: active
+label: COMIRNATY KP.2 3 µg CHILDREN (6 MONTHS-4 YEARS)
+comment: ''
 created: '2025-03-25'
-modified: '2025-06-03'
-codes:
-  CODE_NATIONAL_SPAIN:
-  - '765864'
-  CTI:
-  - '663376'
-  CTI-EXTEND:
-  - 663376-01
-  ELGA:
-  - '6051346'
-  EU-NUMBER:
-  - EU-1-20-1528-042
-  INFARMED:
-  - '5890546'
-  NUVACode:
-  - '1332'
-  SCT_NUVA:
-  - '16201002000101'
-valences:
-- VAL407
+modified: '2026-09-10'
+instanceOf: VAC1416

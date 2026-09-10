@@ -1,22 +1,7 @@
 abstract: false
+status: active
 label: Vaccin D.T.P. Pasteur
-comment: Diphtheria toxoid (standard dose), tetanus toxoid and inactivated polio (trivalent)
-  pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  CIP:
-  - '3400931921356'
-  - '3400955212355'
-  - '3400955212416'
-  - '3400955589655'
-  CIS:
-  - '66045366'
-  NUVACode:
-  - '0542'
-  SCT_NUVA:
-  - '6791002000100'
-valences:
-- VAL056
-- VAL067
-- VAL097
+instanceOf: VAC0088

@@ -1,21 +1,8 @@
 abstract: true
+status: active
 label: Polio vaccine, unspecified
 comment: Polio vaccine, live or inactivated (unspecified)
 created: '2021-07-19'
 modified: '2026-07-28'
-codes:
-  CVC:
-  - '111164008'
-  CVX:
-  - '89'
-  ICD11:
-  - XM0N50
-  NUVACode:
-  - '0135'
-  SCT_NUVA:
-  - '2341002000105'
-  SNOMED-CT:
-  - '1031000221108'
-  - '871739009'
 valences:
 - VAL042

@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: POLIO SINOVAC VACCINE
-comment: Inactivated polio (trivalent) vaccine
+comment: ''
 created: '2025-04-08'
 modified: '2025-04-08'
-codes:
-  NUVACode:
-  - '1394'
-  SCT_NUVA:
-  - '16891002000107'
-valences:
-- VAL056
+instanceOf: VAC0270

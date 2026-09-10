@@ -1,14 +1,7 @@
 abstract: false
-label: INACTIVATED SARS-COV-2 VACCINE FAKHRAVAC (MIVAC)
-comment: COVID-19 vaccine, whole virion inactivated
+status: active
+label: Inactivated SARS-CoV-2 vaccine FAKHRAVAC (MIVAC)
+comment: ''
 created: '2021-07-19'
-modified: '2024-06-04'
-codes:
-  ICD11:
-  - XM0J98
-  NUVACode:
-  - '0753'
-  SCT_NUVA:
-  - '8911002000107'
-valences:
-- VAL265
+modified: '2026-09-10'
+instanceOf: VAC1124

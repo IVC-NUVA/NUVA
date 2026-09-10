@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: MERUVAX
-comment: Live attenuated rubella vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-08-15'
-codes:
-  NUVACode:
-  - 0298
-  SCT_NUVA:
-  - '4181002000106'
-  SWISSLEGACY:
-  - '56'
-valences:
-- VAL079
+instanceOf: VAC0113

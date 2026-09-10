@@ -1,44 +1,7 @@
 abstract: false
+status: active
 label: INFANRIX PENTA
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
-  acellular, standard dose), inactivated polio (trivalent) and hepatitis B (recombinant)
-  pediatric vaccine, adsorbed
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  AIC:
-  - 034961
-  EU-NUMBER:
-  - EU-1-00-153-001
-  - EU-1-00-153-002
-  - EU-1-00-153-003
-  - EU-1-00-153-004
-  - EU-1-00-153-005
-  - EU-1-00-153-006
-  - EU-1-00-153-007
-  - EU-1-00-153-008
-  - EU-1-00-153-009
-  - EU-1-00-153-010
-  INFARMED:
-  - '3438181'
-  - '3438280'
-  - '3438389'
-  - '3438488'
-  - '3438587'
-  - '3704087'
-  - '3704186'
-  - '3704285'
-  - '3890886'
-  - '3890985'
-  NUVACode:
-  - '0525'
-  SCT_NUVA:
-  - '6621002000108'
-  SWISSLEGACY:
-  - '39'
-valences:
-- VAL008
-- VAL056
-- VAL067
-- VAL097
-- VAL114
+instanceOf: VAC1174

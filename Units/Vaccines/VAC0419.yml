@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: SHANTT
-comment: Tetanus toxoid vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-03-15'
-codes:
-  NUVACode:
-  - 0419
-  SCT_NUVA:
-  - '5431002000101'
-valences:
-- VAL067
+instanceOf: VAC0132

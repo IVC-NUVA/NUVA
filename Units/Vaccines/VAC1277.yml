@@ -1,17 +1,8 @@
 abstract: true
-label: Vaccine against chikungunya, unspecified
-comment: Vaccine against chikungunya, unspecified
+status: active
+label: Chikungunya vaccine, unspecified
+comment: Chikungunya vaccine, unspecified
 created: '2025-02-20'
-modified: '2026-06-04'
-codes:
-  ATC:
-  - J07BP
-  NUVACode:
-  - '1277'
-  SCT_NUVA:
-  - '15601002000107'
-  SNOMED-CT:
-  - '1345042009'
-  - '1345202008'
+modified: '2026-09-07'
 valences:
 - VAL390

@@ -1,59 +1,7 @@
 abstract: false
+status: active
 label: SHINGRIX
-comment: Shingles vaccine (recombinant, with adjuvant)
+comment: ''
 created: '2021-07-19'
 modified: '2026-03-23'
-codes:
-  AIC:
-  - '046337'
-  CIP:
-  - '3400930141861'
-  - '3400955053361'
-  CIS:
-  - '62887096'
-  CNK:
-  - '4185344'
-  - '4280798'
-  CODE_NATIONAL_SPAIN:
-  - '607370'
-  - '729304'
-  CTI:
-  - '529093'
-  - '529191'
-  CTI-EXTEND:
-  - 529093-01
-  - 529093-02
-  - 529191-01
-  CVC:
-  - '23011000087103'
-  CVX:
-  - '187'
-  DIN:
-  - 02468425
-  ELGA:
-  - '4983502'
-  - '4985398'
-  EU-NUMBER:
-  - EU-1-18-1272-001
-  INFARMED:
-  - '5745849'
-  NDC:
-  - 50090-3372
-  - 50090-5147
-  - 58160-0819
-  - 58160-0823
-  - 58160-823
-  - 58160-849
-  NUVACode:
-  - '0567'
-  PZN:
-  - '13715870'
-  - '13715887'
-  SCT_NUVA:
-  - '7001002000109'
-  SWISSMEDIC:
-  - '67987'
-  THL:
-  - '143'
-valences:
-- VAL013
+instanceOf: VAC1241

@@ -1,55 +1,7 @@
 abstract: false
+status: active
 label: DENGVAXIA
-comment: Live attenuated, chimeric recombinant, quadrivalent vaccine against the four
-  serotypes (1, 2, 3 and 4) of dengue virus (based on yellow fever vaccine 17D)
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  AIC:
-  - 047528
-  CIP:
-  - '3400930198599'
-  - '3400930198605'
-  - '3400930198643'
-  - '3400930198650'
-  CIS:
-  - '69536790'
-  CTI:
-  - '538284'
-  - '538417'
-  - '538426'
-  - '538435'
-  - '538444'
-  CTI-EXTEND:
-  - 538284-01
-  - 538417-01
-  - 538426-01
-  - 538435-01
-  - 538444-01
-  EU-NUMBER:
-  - EU-1-18-1338-001
-  - EU-1-18-1338-002
-  - EU-1-18-1338-003
-  - EU-1-18-1338-004
-  - EU-1-18-1338-005
-  INFARMED:
-  - '5772926'
-  NDC:
-  - 49281-0605
-  - 49281-605
-  NTIN:
-  - '3400930198599'
-  - '3660053323760'
-  - '7501895115020'
-  - '7798015781160'
-  - '7891058022891'
-  - '7891058022990'
-  - '7891058999643'
-  NUVACode:
-  - 0539
-  SCT_NUVA:
-  - '6761002000106'
-  UPC:
-  - '349281605017'
-valences:
-- VAL087
+instanceOf: VAC1201

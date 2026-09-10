@@ -1,16 +1,7 @@
 abstract: false
+status: active
 label: TDVAX
-comment: Diphtheria toxoid (low dose) and tetanus toxoid vaccine
+comment: ''
 created: '2023-08-17'
 modified: '2025-03-15'
-codes:
-  INFARMED:
-  - '4261780'
-  - '4261889'
-  NUVACode:
-  - '1049'
-  SCT_NUVA:
-  - '12691002000107'
-valences:
-- VAL034
-- VAL067
+instanceOf: VAC0920

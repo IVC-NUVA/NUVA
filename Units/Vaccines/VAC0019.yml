@@ -1,49 +1,7 @@
 abstract: false
+status: active
 label: MENINGITEC
-comment: Meningococcal conjugate vaccine, serogroup C (conjugated to CRM197 Protein)
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  AIC:
-  - 035438
-  CIP:
-  - '3400935777577'
-  - '3400935777638'
-  - '3400935777867'
-  - '3400938150100'
-  - '3400938150278'
-  - '3400938150339'
-  - '3400938150568'
-  - '3400949317127'
-  CIS:
-  - '67503845'
-  - '69391124'
-  CNK:
-  - '1549278'
-  - '1658376'
-  - '2445344'
-  CODE_NATIONAL_SPAIN:
-  - '602687'
-  - '659966'
-  CP-NRONATIDENT:
-  - '0462506'
-  CVC:
-  - '7061000087103'
-  DIN:
-  - 02248649
-  INFARMED:
-  - '3287984'
-  - '3288081'
-  - '3816386'
-  - '5070016'
-  - '5070024'
-  - '5070032'
-  - '5070040'
-  NUVACode:
-  - 0019
-  SCT_NUVA:
-  - '471002000100'
-  SWISSMEDIC:
-  - '654'
-valences:
-- VAL268
+instanceOf: VAC1211

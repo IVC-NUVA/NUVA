@@ -1,12 +1,7 @@
 abstract: false
-label: ADIMRSC-2F
-comment: COVID-19 vaccine, protein subunit, aluminium-adjuvanted and non-aluminium-adjuvanted
+status: active
+label: AdimrSC-2f
+comment: ''
 created: '2021-07-19'
-modified: '2024-06-04'
-codes:
-  NUVACode:
-  - '0721'
-  SCT_NUVA:
-  - '8641002000104'
-valences:
-- VAL011
+modified: '2026-09-10'
+instanceOf: VAC1138

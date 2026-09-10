@@ -1,15 +1,7 @@
 abstract: false
+status: active
 label: mNEXSPIKE
-comment: COVID-19 mRNA vaccine, encoding fragments (NTD and RBD) of the SARS-CoV-2
-  spike protein, Omicron LP.8.1 subvariant
+comment: ''
 created: '2025-09-10'
 modified: '2025-09-12'
-codes:
-  CVX:
-  - '334'
-  NDC:
-  - 80777-400
-  NUVACode:
-  - '1469'
-valences:
-- VAL428
+instanceOf: VAC1473

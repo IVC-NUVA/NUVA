@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: PERTAGEN
-comment: Pertussis (multicomponent acellular, low dose) vaccine
+comment: ''
 created: '2021-10-26'
 modified: '2023-11-02'
-codes:
-  NUVACode:
-  - 0784
-  SCT_NUVA:
-  - '9281002000101'
-valences:
-- VAL017
+instanceOf: VAC1232

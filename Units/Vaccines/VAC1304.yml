@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: BERAB
-comment: Whole virion inactivated rabies vaccine, cultured on Vero cells
+comment: ''
 created: '2025-03-12'
 modified: '2026-03-19'
-codes:
-  NUVACode:
-  - '1304'
-  SCT_NUVA:
-  - '15871002000104'
-valences:
-- VAL260
+instanceOf: VAC1116

@@ -1,15 +1,7 @@
 abstract: false
+status: active
 label: PROCOMVAX
-comment: Hepatitis B and Haemophilus influenzae type b vaccine (OMP conjugate)
+comment: ''
 created: '2022-05-25'
 modified: '2024-08-19'
-codes:
-  INFARMED:
-  - '2919488'
-  NUVACode:
-  - 0953
-  SCT_NUVA:
-  - '11521002000101'
-valences:
-- VAL114
-- VAL155
+instanceOf: VAC1217

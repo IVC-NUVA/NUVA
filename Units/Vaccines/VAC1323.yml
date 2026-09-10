@@ -1,17 +1,7 @@
 abstract: false
+status: active
 label: MENFIVE
-comment: Quadrivalent meningococcal polysaccharide conjugate vaccine, serogroups A,
-  C, W, X and Y
+comment: ''
 created: '2025-03-13'
 modified: '2026-04-02'
-codes:
-  NUVACode:
-  - '1323'
-  SCT_NUVA:
-  - '16091002000100'
-valences:
-- VAL041
-- VAL057
-- VAL078
-- VAL136
-- VAL404
+instanceOf: VAC1311

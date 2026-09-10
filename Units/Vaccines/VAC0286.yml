@@ -1,29 +1,7 @@
 abstract: false
+status: active
 label: M-M-R II
-comment: Live attenuated measles, mumps and rubella vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-08-15'
-codes:
-  AIC:
-  - '026265'
-  CVC:
-  - '7161000087102'
-  DIN:
-  - 00466085
-  NDC:
-  - 00006-4681
-  - 0006-4681
-  - 50090-1860
-  - 54868-0980
-  NUVACode:
-  - 0286
-  SCT_NUVA:
-  - '4051002000104'
-  SWISSMEDIC:
-  - '268'
-  THL:
-  - '88'
-valences:
-- VAL005
-- VAL077
-- VAL079
+instanceOf: VAC0130

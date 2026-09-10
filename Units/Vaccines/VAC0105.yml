@@ -1,21 +1,7 @@
 abstract: false
+status: active
 label: PANENZA
-comment: Pandemic influenza A(H1N1)pdm09 vaccine, inactivated
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  AIC:
-  - 039464
-  CIP:
-  - '3400939925745'
-  - '3400939925806'
-  - '3400939925974'
-  CIS:
-  - '66304783'
-  - '68229315'
-  NUVACode:
-  - '0105'
-  SCT_NUVA:
-  - '1991002000109'
-valences:
-- VAL099
+instanceOf: VAC0147

@@ -1,17 +1,9 @@
 abstract: true
-label: PRP-OMP Hib vaccine, unspecified
+status: active
+label: Haemophilus influenzae type b PRP-OMP vaccine, unspecified
 comment: Haemophilus influenzae type b conjugate vaccine composed of PRP (polyribosylribitol
   phosphate) conjugated with OMP (Neisseria meningitidis outer-membrane protein)
 created: '2021-07-19'
-modified: '2024-07-04'
-codes:
-  CPT:
-  - '90647'
-  CVX:
-  - '49'
-  NUVACode:
-  - '0344'
-  SCT_NUVA:
-  - '4651002000109'
+modified: '2026-09-10'
 valences:
 - VAL155

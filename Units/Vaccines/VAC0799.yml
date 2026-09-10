@@ -1,16 +1,10 @@
 abstract: true
+status: active
 label: DT-Hib vaccine, unspecified
 comment: Diphtheria toxoid (standard dose), tetanus toxoid and Haemophilus influenzae
   type b (conjugated unspecified) pediatric vaccine
 created: '2021-10-26'
 modified: '2023-10-31'
-codes:
-  ICD11:
-  - XM7F70
-  NUVACode:
-  - 0799
-  SCT_NUVA:
-  - '9491002000104'
 valences:
 - VAL067
 - VAL097

@@ -1,16 +1,7 @@
 abstract: false
+status: active
 label: PANDEMIC INFLUENZA VACCINE H5N1 ASTRAZENECA
-comment: Pre-pandemic influenza A(H5N1) vaccine, live attenuated, nasal
+comment: ''
 created: '2022-03-26'
 modified: '2024-04-23'
-codes:
-  AIC:
-  - 044890
-  CODE_NATIONAL_SPAIN:
-  - '718751'
-  NUVACode:
-  - 0875
-  SCT_NUVA:
-  - '10441002000101'
-valences:
-- VAL051
+instanceOf: VAC0084

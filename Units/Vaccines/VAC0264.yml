@@ -1,36 +1,7 @@
 abstract: false
+status: active
 label: INFANRIX
-comment: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (multicomponent
-  acellular, standard dose) pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-11-02'
-codes:
-  AIC:
-  - 029244
-  CNK:
-  - '1177682'
-  CODE_NATIONAL_SPAIN:
-  - '664052'
-  CTI:
-  - '169303'
-  CTI-EXTEND:
-  - 169303-01
-  - 169303-02
-  INFARMED:
-  - '2392587'
-  NDC:
-  - 50090-2883
-  - 58160-0810
-  - 58160-810
-  NUVACode:
-  - '0264'
-  PZN:
-  - 08706113
-  SCT_NUVA:
-  - '3841002000106'
-  SWISSLEGACY:
-  - '166'
-valences:
-- VAL008
-- VAL067
-- VAL097
+instanceOf: VAC0602

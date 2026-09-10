@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: PROVARIX
-comment: Live attenuated chickenpox vaccine
+comment: ''
 created: '2025-04-08'
 modified: '2025-04-08'
-codes:
-  NUVACode:
-  - '1393'
-  SCT_NUVA:
-  - '16881002000109'
-valences:
-- VAL044
+instanceOf: VAC0159

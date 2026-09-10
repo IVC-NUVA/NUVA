@@ -1,76 +1,7 @@
 abstract: false
+status: active
 label: GARDASIL 9
-comment: Human Papillomavirus vaccine, based on VLP (Virus Like Particles), nonavalent
-  (types 6, 11, 16, 18, 31, 33, 45, 52, and 58), recombinant, adsorbed
+comment: ''
 created: '2021-07-19'
 modified: '2026-04-23'
-codes:
-  AIC:
-  - 044268
-  CIP:
-  - '3400930056196'
-  - '3400930056202'
-  - '3400955020011'
-  CIS:
-  - '61429103'
-  - '65017887'
-  CNK:
-  - '3402799'
-  CODE_NATIONAL_SPAIN:
-  - '707342'
-  - '758339'
-  CP-NRONATIDENT:
-  - 0822743
-  CTI:
-  - '475946'
-  - '476186'
-  - '476195'
-  - '581235'
-  CTI-EXTEND:
-  - 475946-01
-  - 476186-01
-  - 476195-01
-  - 581235-01
-  CVC:
-  - '20871000087109'
-  DIN:
-  - 02437058
-  ELGA:
-  - '4224707'
-  - '4475131'
-  - '5502433'
-  EU-NUMBER:
-  - EU-1-15-1007-001
-  - EU-1-15-1007-002
-  - EU-1-15-1007-003
-  - EU-1-15-1007-004
-  INFARMED:
-  - '5658828'
-  NDC:
-  - 00006-4119
-  - 00006-4121
-  - 0006-4119
-  - 0006-4121
-  - 50090-4958
-  NUVACode:
-  - '0523'
-  PZN:
-  - '11228953'
-  - '11228976'
-  SCT_NUVA:
-  - '6601002000100'
-  SWISSMEDIC:
-  - '65387'
-  THL:
-  - '188'
-valences:
-- VAL036
-- VAL238
-- VAL239
-- VAL240
-- VAL241
-- VAL242
-- VAL243
-- VAL244
-- VAL245
-- VAL246
+instanceOf: VAC0860

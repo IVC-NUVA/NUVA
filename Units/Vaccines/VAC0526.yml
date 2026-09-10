@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: HECOLIN
-comment: Recombinant Hepatitis E Peptide vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-04-08'
-codes:
-  NUVACode:
-  - '0526'
-  SCT_NUVA:
-  - '6641002000103'
-valences:
-- VAL102
+instanceOf: VAC0917

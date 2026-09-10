@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: VIROFLUSOMA
-comment: Trivalent inactivated seasonal influenza vaccine, surface antigen
+comment: ''
 created: '2022-06-13'
 modified: '2024-04-16'
-codes:
-  NUVACode:
-  - 0972
-  SCT_NUVA:
-  - '11711002000102'
-valences:
-- VAL015
+instanceOf: VAC0925

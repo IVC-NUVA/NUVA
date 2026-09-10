@@ -1,22 +1,7 @@
 abstract: false
+status: active
 label: TRIMOVAX
-comment: Live attenuated measles, mumps and rubella vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-08-15'
-codes:
-  AIC:
-  - 026918
-  CIP:
-  - '3400933158569'
-  CNK:
-  - 0288415
-  NUVACode:
-  - 0489
-  SCT_NUVA:
-  - '6151002000105'
-  SWISSLEGACY:
-  - '123'
-valences:
-- VAL005
-- VAL077
-- VAL079
+instanceOf: VAC0130

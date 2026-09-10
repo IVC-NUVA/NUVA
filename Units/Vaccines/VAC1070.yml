@@ -1,14 +1,7 @@
 abstract: false
-label: FLUZONE HIGH-DOSE QUADRIVALENT SOUTHERN HEMISPHERE
-comment: Quadrivalent inactivated influenza vaccine, split or subunit, high-dose
+status: active
+label: Fluzone High-Dose Quadrivalent Southern Hemisphere
+comment: ''
 created: '2024-03-18'
-modified: '2024-04-03'
-codes:
-  NDC:
-  - 49281-935
-  NUVACode:
-  - '1070'
-  SCT_NUVA:
-  - '13071002000108'
-valences:
-- VAL074
+modified: '2026-09-10'
+instanceOf: VAC1146

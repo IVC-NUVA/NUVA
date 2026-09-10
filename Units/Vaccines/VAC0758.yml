@@ -1,13 +1,7 @@
 abstract: false
-label: SPFN COVID 19 VACCINE + AFLQ
-comment: 'COVID-19 vaccine, protein subunit, recombinant spike protein, with adjuvant
-  (AFKQ: liposomal containing saponin QS21)'
+status: active
+label: SpFN COVID 19 vaccine + AFLQ
+comment: ''
 created: '2021-07-19'
-modified: '2024-06-04'
-codes:
-  NUVACode:
-  - 0758
-  SCT_NUVA:
-  - '8961002000105'
-valences:
-- VAL104
+modified: '2026-09-10'
+instanceOf: VAC1113

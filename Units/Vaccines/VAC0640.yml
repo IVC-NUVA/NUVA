@@ -1,18 +1,7 @@
 abstract: false
+status: active
 label: TRITANRIX HepB+Hib
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell
-  inactivated), Haemophilus influenzae type b (conjugated to tetanus toxoid) and hepatitis
-  B (recombinant) pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-11-02'
-codes:
-  NUVACode:
-  - '0640'
-  SCT_NUVA:
-  - '7571002000107'
-valences:
-- VAL010
-- VAL067
-- VAL097
-- VAL114
-- VAL156
+instanceOf: VAC1181

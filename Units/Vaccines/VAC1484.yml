@@ -1,12 +1,7 @@
 abstract: false
-label: HEPRECOMB ENFANT
-comment: Recombinant hepatitis B vaccine, pediatric dose
+status: active
+label: HEPRECOMB CHILDREN
+comment: ''
 created: '2025-12-12'
-modified: '2025-12-12'
-codes:
-  NUVACode:
-  - '1484'
-  SWISSMEDIC:
-  - '642'
-valences:
-- VAL170
+modified: '2026-09-10'
+instanceOf: VAC1227

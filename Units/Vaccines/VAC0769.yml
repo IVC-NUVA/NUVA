@@ -1,13 +1,7 @@
 abstract: false
+status: active
 label: SC-Ad6-1
-comment: COVID-19 vaccine, non-replicating adenoviral 6 vector encoding the SARS-CoV-2
-  spike protein
+comment: ''
 created: '2021-07-19'
 modified: '2023-07-20'
-codes:
-  NUVACode:
-  - 0769
-  SCT_NUVA:
-  - '9091002000109'
-valences:
-- VAL070
+instanceOf: VAC1143

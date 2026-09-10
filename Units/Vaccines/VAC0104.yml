@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: HUMENZA
-comment: Pandemic influenza A(H1N1)pdm09 vaccine, inactivated
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  EU-NUMBER:
-  - EU-1-10-629-001
-  NUVACode:
-  - '0104'
-  SCT_NUVA:
-  - '1981002000106'
-valences:
-- VAL099
+instanceOf: VAC0147

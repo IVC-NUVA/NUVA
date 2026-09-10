@@ -1,21 +1,7 @@
 abstract: false
+status: active
 label: BATREVAC
-comment: Trivalent inactivated seasonal influenza vaccine, surface antigen
+comment: ''
 created: '2021-10-26'
 modified: '2025-09-11'
-codes:
-  AIC:
-  - 035619
-  CIP:
-  - '3400935493309'
-  - '3400935493477'
-  - '3400939497563'
-  - '3400939497624'
-  CIS:
-  - '63060594'
-  NUVACode:
-  - 0779
-  SCT_NUVA:
-  - '9211002000106'
-valences:
-- VAL015
+instanceOf: VAC0925

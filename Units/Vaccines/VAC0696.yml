@@ -1,18 +1,7 @@
 abstract: false
+status: active
 label: KCONVAC MINHAI COVID-19 VACCINE
-comment: COVID-19 vaccine, whole virion inactivated (Vero cell culture)
+comment: ''
 created: '2021-07-19'
 modified: '2026-01-08'
-codes:
-  CVC:
-  - '33431000087104'
-  CVX:
-  - '516'
-  ICD11:
-  - XM9TQ1
-  NUVACode:
-  - 0696
-  SCT_NUVA:
-  - '8381002000103'
-valences:
-- VAL265
+instanceOf: VAC1124

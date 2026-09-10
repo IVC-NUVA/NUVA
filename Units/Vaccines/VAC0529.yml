@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: IMOVAX TETANO
-comment: Tetanus toxoid vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  AIC:
-  - '026171'
-  NUVACode:
-  - 0529
-  SCT_NUVA:
-  - '6681002000107'
-valences:
-- VAL067
+instanceOf: VAC0132

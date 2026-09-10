@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: VARICELLON
-comment: Immunoglobulin against chickenpox virus
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  NUVACode:
-  - '0442'
-  SCT_NUVA:
-  - '5661002000105'
-valences:
-- VAL088
+instanceOf: VAC0864

@@ -1,21 +1,7 @@
 abstract: false
+status: active
 label: MMR
-comment: Live attenuated measles, mumps and rubella vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-07-25'
-codes:
-  CNK:
-  - 0830091
-  INFARMED:
-  - '2993780'
-  - '4020087'
-  NUVACode:
-  - '0301'
-  SCT_NUVA:
-  - '4211002000105'
-  SWISSLEGACY:
-  - '119'
-valences:
-- VAL005
-- VAL077
-- VAL079
+instanceOf: VAC0130

@@ -1,26 +1,7 @@
 abstract: false
+status: active
 label: COVILO SINOPHARM COVID-19 VACCINE
-comment: 'COVID-19 vaccine, whole virion inactivated, Vero cell-cultured - Other names
-  : SINOPHARM BBIBP-CorV COVID-19 ; COVID-19 Vaccine BIBP ; Hayat-vax'
+comment: ''
 created: '2021-07-19'
 modified: '2026-01-08'
-codes:
-  CVC:
-  - '31301000087101'
-  CVX:
-  - '510'
-  ELGA:
-  - AUSL_000006
-  - AUSL_000015
-  ICD11:
-  - XM8866
-  - XM9FQ7
-  NUVACode:
-  - 0680
-  SCT_NUVA:
-  - '8191002000102'
-  THL:
-  - '138'
-  - '150'
-valences:
-- VAL264
+instanceOf: VAC1119

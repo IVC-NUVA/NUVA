@@ -1,14 +1,10 @@
 abstract: true
-label: Non-replicating vector COVID-19 vaccine, modified Ankara vaccine encoding the
+status: active
+label: COVID-19 non-replicating vector vaccine, modified Ankara vaccine encoding the
   SARS-CoV-2 spike protein, unspecified
-comment: Non-replicating vector anti-covid 19 vaccine, modified Ankara vaccine encoding
+comment: COVID-19 non-replicating vector vaccine, modified Ankara vaccine encoding
   the SARS-CoV-2 spike protein, unspecified
 created: '2024-06-05'
-modified: '2025-03-27'
-codes:
-  NUVACode:
-  - '1189'
-  SCT_NUVA:
-  - '14481002000104'
+modified: '2026-09-09'
 valences:
 - VAL054

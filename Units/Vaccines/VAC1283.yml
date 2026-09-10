@@ -1,15 +1,7 @@
 abstract: false
+status: active
 label: INDOVAC
-comment: COVID-19 protein subunit vaccine, recombinant spike protein, intramuscular
-  route
+comment: ''
 created: '2025-03-04'
 modified: '2025-04-04'
-codes:
-  ICD11:
-  - XM7E37
-  NUVACode:
-  - '1283'
-  SCT_NUVA:
-  - '15661002000108'
-valences:
-- VAL011
+instanceOf: VAC1138

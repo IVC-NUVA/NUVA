@@ -1,24 +1,9 @@
 abstract: true
-label: Combined hepatitis A and hepatitis B vaccine, unspecified
+status: active
+label: Hepatitis A and hepatitis B combined vaccine, unspecified
 comment: Combined hepatitis A and B vaccine
 created: '2021-10-26'
-modified: '2025-05-20'
-codes:
-  AIC:
-  - '033014'
-  ATC:
-  - J07BC20
-  CPT:
-  - '90636'
-  CVX:
-  - '104'
-  NUVACode:
-  - 0825
-  SCT_NUVA:
-  - '9871002000103'
-  SNOMED-CT:
-  - '121000221105'
-  - '871803007'
+modified: '2026-09-10'
 valences:
 - VAL068
 - VAL125

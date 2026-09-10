@@ -1,18 +1,7 @@
 abstract: false
+status: active
 label: DITEBOOSTER
-comment: Diphtheria toxoid (low dose) and tetanus toxoid vaccine
+comment: ''
 created: '2026-01-08'
 modified: '2026-01-08'
-codes:
-  CODE_NATIONAL_SPAIN:
-  - '606901'
-  - '658681'
-  - '658684'
-  - '658685'
-  NUVACode:
-  - '1494'
-  THL:
-  - '4'
-valences:
-- VAL034
-- VAL067
+instanceOf: VAC0920

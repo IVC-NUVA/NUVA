@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: MUMPS inactivated
-comment: Whole virion Inactivated mumps vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-04-08'
-codes:
-  NUVACode:
-  - '0313'
-  SCT_NUVA:
-  - '4371002000105'
-valences:
-- VAL048
+instanceOf: VAC1154

@@ -1,18 +1,8 @@
 abstract: true
+status: active
 label: Hepatitis B vaccine, unspecified
 comment: Hepatitis B vaccine, unspecified
 created: '2024-06-05'
 modified: '2026-01-09'
-codes:
-  ICD11:
-  - XM9V38
-  NUVACode:
-  - '1125'
-  SCT_NUVA:
-  - '13831002000101'
-  SNOMED-CT:
-  - '836374004'
-  - '871822003'
-  - '871925000'
 valences:
 - VAL068

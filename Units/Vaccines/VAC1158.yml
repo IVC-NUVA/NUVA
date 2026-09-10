@@ -1,13 +1,9 @@
 abstract: true
+status: active
 label: COVID-19 mRNA vaccine against the Omicron XBB.1.5 variant, 3 micrograms, unspecified
 comment: COVID-19 mRNA vaccine encoding the SARS-CoV-2 spike protein, Omicron XBB.1.5
   variant, 3 micrograms
 created: '2024-06-05'
 modified: '2025-03-27'
-codes:
-  NUVACode:
-  - '1158'
-  SCT_NUVA:
-  - '14171002000106'
 valences:
 - VAL325

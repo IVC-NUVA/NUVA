@@ -1,22 +1,7 @@
 abstract: false
+status: active
 label: RUDI-ROUVAX
-comment: Live attenuated measles and rubella vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  AIC:
-  - '026771'
-  CIP:
-  - '3400932498697'
-  - '3400932498758'
-  - '3400932498819'
-  - '3400932498987'
-  CIS:
-  - '66653055'
-  NUVACode:
-  - 0078
-  SCT_NUVA:
-  - '1551002000105'
-valences:
-- VAL005
-- VAL079
+instanceOf: VAC0550

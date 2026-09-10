@@ -1,15 +1,11 @@
 abstract: true
-label: 10-valent pneumococcal polysaccharide conjugate vaccine, serotypes 1, 5, 6A,
+status: active
+label: Pneumococcal 10-valent polysaccharide conjugate vaccine, serotypes 1, 5, 6A,
   6B, 7F, 9V, 14, 19A, 19F and 23F
-comment: 10-valent pneumococcal polysaccharide conjugate vaccine, serotypes 1, 5,
+comment: Pneumococcal 10-valent polysaccharide conjugate vaccine, serotypes 1, 5,
   6A, 6B, 7F, 9V, 14, 19A, 19F and 23F
 created: '2025-04-14'
-modified: '2025-04-15'
-codes:
-  NUVACode:
-  - '1424'
-  SCT_NUVA:
-  - '17191002000101'
+modified: '2026-09-08'
 valences:
 - VAL186
 - VAL189

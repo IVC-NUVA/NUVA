@@ -1,12 +1,7 @@
 abstract: false
-label: SKYVARICELLA INJ
-comment: Live attenuated chickenpox vaccine (SK Bioscience laboratory)
+status: active
+label: SKY Varicella Inj
+comment: ''
 created: '2021-07-19'
-modified: '2025-04-07'
-codes:
-  NUVACode:
-  - '0441'
-  SCT_NUVA:
-  - '5641002000106'
-valences:
-- VAL044
+modified: '2026-09-10'
+instanceOf: VAC0159

@@ -1,13 +1,7 @@
 abstract: false
-label: COV2 SAM (LNP) VACCINE
-comment: COVID-19 vaccine, self-amplifying mRNA (SAM) lipid nanoparticle (LNP) encoding
-  the SARS-CoV-2 spike protein, ongoing clinical trial
+status: active
+label: CoV2 SAM (LNP) vaccine
+comment: ''
 created: '2021-07-19'
-modified: '2024-06-05'
-codes:
-  NUVACode:
-  - '0762'
-  SCT_NUVA:
-  - '9011002000101'
-valences:
-- VAL169
+modified: '2026-09-10'
+instanceOf: VAC1206

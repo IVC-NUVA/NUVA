@@ -1,18 +1,10 @@
 abstract: true
+status: active
 label: dTIPV - Diphtheria-Tetanus-Polio, low dose, unspecified
 comment: Diphtheria toxoid (low dose), tetanus toxoid and inactivated polio (trivalent)
   vaccine
 created: '2021-07-19'
 modified: '2025-05-20'
-codes:
-  CVC:
-  - '7911000087101'
-  NUVACode:
-  - 0549
-  SCT_NUVA:
-  - '6841002000102'
-  SNOMED-CT:
-  - '871838009'
 valences:
 - VAL034
 - VAL056

@@ -1,60 +1,7 @@
 abstract: false
+status: active
 label: PNEUMO 23
-comment: Unconjgated pneumococcal polysaccharide vaccine, 23-valent, serotypes 1,
-  2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F,
-  23F and 33F
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  AIC:
-  - '027644'
-  CIP:
-  - '3400932434824'
-  - '3400934233272'
-  - '3400936873452'
-  CIS:
-  - '65861879'
-  - '68819650'
-  CNK:
-  - '1185685'
-  CODE_NATIONAL_SPAIN:
-  - '650617'
-  CVC:
-  - '7631000087101'
-  DIN:
-  - 02231259
-  INFARMED:
-  - '2828184'
-  - '2828283'
-  NTIN:
-  - '7591044000222'
-  NUVACode:
-  - '0024'
-  SCT_NUVA:
-  - '761002000100'
-  THL:
-  - '91'
-valences:
-- VAL206
-- VAL207
-- VAL208
-- VAL209
-- VAL210
-- VAL211
-- VAL212
-- VAL213
-- VAL214
-- VAL215
-- VAL216
-- VAL217
-- VAL218
-- VAL219
-- VAL220
-- VAL222
-- VAL223
-- VAL224
-- VAL225
-- VAL226
-- VAL227
-- VAL228
-- VAL229
+instanceOf: VAC0339

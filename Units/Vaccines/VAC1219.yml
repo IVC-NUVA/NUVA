@@ -1,16 +1,13 @@
 abstract: true
-label: Hexavalent vaccine DTPeHibMCV-A-C-T - Diphtheria-Tetanus-Pertussis-Hib PRP-Meningococcus
-  A and C, conjugated with tetanus toxoid, unspecified
-comment: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis
-  (whole inactivated), Haemophilus influenzae type b (tetanus toxoid conjugated) and
-  meningococcal serogroups A and C (toxoid conjugate) vaccine tetanus)
+status: active
+label: Diphtheria (standard dose), tetanus, pertussis (whole inactivated), Haemophilus
+  influenzae type b (tetanus toxoid conjugated) and meningococcal serogroups A and
+  C (toxoid conjugate) vaccine, pediatric
+comment: Diphtheria (standard dose), tetanus, pertussis (whole inactivated), Haemophilus
+  influenzae type b (tetanus toxoid conjugated) and meningococcal serogroups A and
+  C (toxoid conjugate) vaccine, pediatric
 created: '2024-06-05'
-modified: '2024-07-04'
-codes:
-  NUVACode:
-  - '1219'
-  SCT_NUVA:
-  - '14791002000108'
+modified: '2026-09-09'
 valences:
 - VAL010
 - VAL067

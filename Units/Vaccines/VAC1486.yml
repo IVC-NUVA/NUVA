@@ -1,13 +1,7 @@
 abstract: false
-label: GEN H-B-VAX 10
-comment: Recombinant hepatitis B vaccine with 10 micrograms of HBs antigen for use
-  from the age of 11 years
+status: active
+label: GEN H-B-Vax 10
+comment: ''
 created: '2025-12-12'
-modified: '2025-12-12'
-codes:
-  NUVACode:
-  - '1486'
-  SWISSMEDIC:
-  - '528'
-valences:
-- VAL114
+modified: '2026-09-10'
+instanceOf: VAC0914

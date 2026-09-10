@@ -1,10 +1,7 @@
 abstract: false
+status: active
 label: CHIROFLU
-comment: Trivalent inactivated seasonal influenza vaccine, split virion
+comment: ''
 created: '2025-07-28'
 modified: '2025-07-28'
-codes:
-  NUVACode:
-  - '1451'
-valences:
-- VAL015
+instanceOf: VAC0925

@@ -1,24 +1,7 @@
 abstract: false
+status: active
 label: RABAVERT
-comment: Whole virion inactivated rabies vaccine, Flury LEP strain, purified chick
-  embryo cell vaccine (PCECV), inactivated with ß-propiolactone
+comment: ''
 created: '2021-07-19'
 modified: '2023-11-02'
-codes:
-  CVC:
-  - '33231000087100'
-  - '7391000087108'
-  DIN:
-  - '02267667'
-  NDC:
-  - 50090-3096
-  - 50632-0010
-  - 50632-010
-  - 58160-0964
-  - 63851-0501
-  NUVACode:
-  - '0355'
-  SCT_NUVA:
-  - '4761002000104'
-valences:
-- VAL259
+instanceOf: VAC0942

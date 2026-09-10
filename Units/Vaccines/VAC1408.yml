@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: ENIVACHB
-comment: Recombinant hepatitis B vaccine, pediatric dose
+comment: ''
 created: '2025-04-10'
 modified: '2025-04-10'
-codes:
-  NUVACode:
-  - '1408'
-  SCT_NUVA:
-  - '17031002000101'
-valences:
-- VAL114
+instanceOf: VAC0914

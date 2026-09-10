@@ -1,18 +1,7 @@
 abstract: false
-label: COMBACT-HIB
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell
-  inactivated), Haemophilus influenzae type b (conjugated to tetanus toxoid) and inactivated
-  polio (trivalent) pediatric vaccine, adsorbed
+status: active
+label: CombAct-HIB
+comment: ''
 created: '2021-07-19'
-modified: '2024-06-04'
-codes:
-  NUVACode:
-  - '0555'
-  SCT_NUVA:
-  - '6901002000108'
-valences:
-- VAL010
-- VAL056
-- VAL067
-- VAL097
-- VAL156
+modified: '2026-09-10'
+instanceOf: VAC1126

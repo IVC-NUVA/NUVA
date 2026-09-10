@@ -17,7 +17,7 @@
    "status": "active",
    "label": "ACT-HIB",
    "created": "2021-07-19",
-   "modified": "2025-06-03",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0345"
   },
@@ -150,9 +150,9 @@
   "VAC0016": {
    "abstract": false,
    "status": "active",
-   "label": "INFLUVAC",
+   "label": "INFLUVAC 0,5 mL",
    "created": "2021-07-19",
-   "modified": "2025-11-24",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0925"
   },
@@ -168,9 +168,9 @@
   "VAC0018": {
    "abstract": false,
    "status": "active",
-   "label": "MENCEVAX ACWY",
+   "label": "MENCEVAX",
    "created": "2021-07-19",
-   "modified": "2025-09-25",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0152"
   },
@@ -672,9 +672,9 @@
   "VAC0077": {
    "abstract": false,
    "status": "active",
-   "label": "IMOVAX OREILLONS",
+   "label": "IMOVAX Mumps",
    "created": "2021-07-19",
-   "modified": "2025-09-25",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0153"
   },
@@ -692,7 +692,7 @@
    "status": "active",
    "label": "ENCEPUR",
    "created": "2021-07-19",
-   "modified": "2026-04-28",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -708,9 +708,9 @@
   "VAC0082": {
    "abstract": false,
    "status": "active",
-   "label": "MENBVAC",
+   "label": "MenBvac",
    "created": "2021-07-19",
-   "modified": "2025-10-22",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0149"
   },
@@ -726,9 +726,9 @@
   "VAC0084": {
    "abstract": true,
    "status": "active",
-   "label": "H5N1 pre-pandemic influenza vaccine, unspecified",
+   "label": "Influenza H5N1 pre-pandemic vaccine, unspecified",
    "created": "2021-07-19",
-   "modified": "2025-05-21",
+   "modified": "2026-09-10",
    "comment": "Influenza A(H5N1) vaccine",
    "valences": [
     "VAL051"
@@ -813,9 +813,9 @@
   "VAC0094": {
    "abstract": false,
    "status": "active",
-   "label": "VACCIN SABIN POLIOVAC MERIEUX",
+   "label": "VACCIN SABIN POLIO ORAL",
    "created": "2021-07-19",
-   "modified": "2026-01-08",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0320"
   },
@@ -878,9 +878,9 @@
   "VAC0102": {
    "abstract": true,
    "status": "active",
-   "label": "Inactivated hepatitis A vaccine, unspecified",
+   "label": "Hepatitis A inactivated vaccine, unspecified",
    "created": "2021-07-19",
-   "modified": "2025-03-03",
+   "modified": "2026-09-10",
    "comment": "Inactivated hepatitis A vaccine, pediatric or adult dose",
    "valences": [
     "VAL125"
@@ -996,9 +996,9 @@
   "VAC0114": {
    "abstract": true,
    "status": "active",
-   "label": "Live attenuated measles vaccine, unspecified",
+   "label": "Measles live attenuated vaccine, unspecified",
    "created": "2021-07-19",
-   "modified": "2025-05-20",
+   "modified": "2026-09-10",
    "comment": "Live attenuated measles vaccine",
    "valences": [
     "VAL005"
@@ -1007,9 +1007,9 @@
   "VAC0115": {
    "abstract": false,
    "status": "active",
-   "label": "AVAXIM 80 U PEDIATRIQUE",
+   "label": "AVAXIM 80 U",
    "created": "2021-07-19",
-   "modified": "2025-09-25",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0911"
   },
@@ -1273,9 +1273,9 @@
   "VAC0146": {
    "abstract": true,
    "status": "active",
-   "label": "Live attenuated Japanese Encephalitis vaccine 14-14-2 strain, unspecified",
+   "label": "Japanese Encephalitis live attenuated vaccine 14-14-2 strain, unspecified",
    "created": "2021-07-19",
-   "modified": "2022-10-28",
+   "modified": "2026-09-10",
    "comment": "Live attenuated Japanese encephalitis vaccine, 14-14-2 strain",
    "valences": [
     "VAL100"
@@ -1340,9 +1340,9 @@
   "VAC0152": {
    "abstract": true,
    "status": "active",
-   "label": "Unconjugated meningococcal vaccine ACWY, unspecified",
+   "label": "Meningococcal ACWY unconjugated vaccine, unspecified",
    "created": "2021-07-19",
-   "modified": "2026-01-09",
+   "modified": "2026-09-10",
    "comment": "Unconjugated meningococcal polysaccharide vaccine, serogroups A, C, W and Y",
    "valences": [
     "VAL037",
@@ -1431,9 +1431,9 @@
   "VAC0160": {
    "abstract": true,
    "status": "active",
-   "label": "Live attenuated shingles vaccine, unspecified",
+   "label": "Shingles live attenuated vaccine, unspecified",
    "created": "2021-07-19",
-   "modified": "2025-04-11",
+   "modified": "2026-09-10",
    "comment": "Live attenuated shingles vaccine",
    "valences": [
     "VAL020"
@@ -1462,9 +1462,9 @@
   "VAC0163": {
    "abstract": true,
    "status": "active",
-   "label": "Whole-cell inactivated pertussis vaccine, unspecified",
+   "label": "Pertussis whole-cell inactivated vaccine, unspecified",
    "created": "2021-07-19",
-   "modified": "2026-01-21",
+   "modified": "2026-09-10",
    "comment": "Pertussis (whole-cell inactivated) vaccine",
    "valences": [
     "VAL010"
@@ -1959,9 +1959,9 @@
   "VAC0222": {
    "abstract": false,
    "status": "active",
-   "label": "TRIPVAC",
+   "label": "DTwP, unspecified",
    "created": "2021-07-19",
-   "modified": "2023-11-02",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0136"
   },
@@ -2085,9 +2085,9 @@
   "VAC0236": {
    "abstract": false,
    "status": "active",
-   "label": "FLUZONE HIGH-DOSE",
+   "label": "Fluzone High-Dose",
    "created": "2021-07-19",
-   "modified": "2025-03-03",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1171"
   },
@@ -2204,7 +2204,7 @@
    "status": "active",
    "label": "VAXIGRIP ENFANTS",
    "created": "2021-07-19",
-   "modified": "2025-04-23",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -2283,9 +2283,9 @@
   "VAC0261": {
    "abstract": false,
    "status": "active",
-   "label": "IMOVAX RAGE",
+   "label": "IMOVAX Rabies I.M.",
    "created": "2021-07-19",
-   "modified": "2022-10-28",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0131"
   },
@@ -2355,9 +2355,9 @@
   "VAC0270": {
    "abstract": true,
    "status": "active",
-   "label": "Inactivated Polio vaccine, unspecified",
+   "label": "Poliomyelitis inactivated vaccine, unspecified",
    "created": "2021-07-19",
-   "modified": "2026-01-09",
+   "modified": "2026-09-10",
    "comment": "Inactivated polio (trivalent) vaccine",
    "valences": [
     "VAL056"
@@ -2519,9 +2519,9 @@
   "VAC0289": {
    "abstract": false,
    "status": "active",
-   "label": "M-VAX PFIZER",
+   "label": "M-VAX",
    "created": "2021-07-19",
-   "modified": "2023-08-15",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0114"
   },
@@ -2771,9 +2771,9 @@
   "VAC0320": {
    "abstract": true,
    "status": "active",
-   "label": "OPV 1-2-3, unspecified",
+   "label": "Poliomyelitis trivalent vaccine, live attenuated",
    "created": "2021-07-19",
-   "modified": "2025-04-16",
+   "modified": "2026-09-10",
    "comment": "Polio vaccine (live attenuated, trivalent) against polioviruses 1, 2 and 3, oral",
    "valences": [
     "VAL033",
@@ -2882,18 +2882,18 @@
   "VAC0333": {
    "abstract": false,
    "status": "active",
-   "label": "PFIZER VAX-MEASLES K INACTIVATED",
+   "label": "PFIZER VAX-MEASLES K",
    "created": "2021-07-19",
-   "modified": "2024-06-05",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1209"
   },
   "VAC0334": {
    "abstract": false,
    "status": "active",
-   "label": "PFIZER VAX-MEASLES L",
+   "label": "PFIZER-VAX MEASLES-L",
    "created": "2021-07-19",
-   "modified": "2025-03-15",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0114"
   },
@@ -2978,18 +2978,18 @@
   "VAC0343": {
    "abstract": false,
    "status": "active",
-   "label": "ProHIBiT",
+   "label": "PROHIBIT",
    "created": "2021-07-19",
-   "modified": "2022-10-28",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0918"
   },
   "VAC0344": {
    "abstract": true,
    "status": "active",
-   "label": "PRP-OMP Hib vaccine, unspecified",
+   "label": "Haemophilus influenzae type b PRP-OMP vaccine, unspecified",
    "created": "2021-07-19",
-   "modified": "2024-07-04",
+   "modified": "2026-09-10",
    "comment": "Haemophilus influenzae type b conjugate vaccine composed of PRP (polyribosylribitol phosphate) conjugated with OMP (Neisseria meningitidis outer-membrane protein)",
    "valences": [
     "VAL155"
@@ -2998,9 +2998,9 @@
   "VAC0345": {
    "abstract": true,
    "status": "active",
-   "label": "Hib PRP-T conjugated vaccine, unspecified",
+   "label": "Haemophilus influenzae type b (PRP-T) conjugated to tetanus toxoid vaccine, unspecified",
    "created": "2021-07-19",
-   "modified": "2024-07-04",
+   "modified": "2026-09-10",
    "comment": "Haemophilus influenzae type b conjugate vaccine composed of PRP (polyribosylribitol phosphate) conjugated to tetanus toxoid",
    "valences": [
     "VAL156"
@@ -3099,9 +3099,9 @@
   "VAC0356": {
    "abstract": false,
    "status": "active",
-   "label": "RECOMBIVAX HB PÉDIATRIQUE",
+   "label": "RECOMBIVAX HB",
    "created": "2021-07-19",
-   "modified": "2022-10-28",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1125"
   },
@@ -3236,9 +3236,9 @@
   "VAC0371": {
    "abstract": false,
    "status": "active",
-   "label": "POLIO SABIN GSK",
+   "label": "SABIN",
    "created": "2021-07-19",
-   "modified": "2023-08-15",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0320"
   },
@@ -3281,9 +3281,9 @@
   "VAC0376": {
    "abstract": false,
    "status": "active",
-   "label": "SHANCHOL",
+   "label": "SHANCOL",
    "created": "2021-07-19",
-   "modified": "2024-07-29",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1257"
   },
@@ -3467,9 +3467,9 @@
   "VAC0397": {
    "abstract": false,
    "status": "active",
-   "label": "TRESIVAC LYOPHILIZED",
+   "label": "TRESIVAC LYOPHOLIZED",
    "created": "2021-07-19",
-   "modified": "2022-10-28",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0130"
   },
@@ -3620,9 +3620,9 @@
   "VAC0416": {
    "abstract": false,
    "status": "active",
-   "label": "TRIVIRATEN",
+   "label": "Triviraten",
    "created": "2021-07-19",
-   "modified": "2023-08-15",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0130"
   },
@@ -3656,9 +3656,9 @@
   "VAC0420": {
    "abstract": false,
    "status": "active",
-   "label": "BIO-TT",
+   "label": "BIO-TT Vaccine",
    "created": "2021-07-19",
-   "modified": "2025-03-05",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0132"
   },
@@ -3683,9 +3683,9 @@
   "VAC0424": {
    "abstract": true,
    "status": "active",
-   "label": "Live attenuated oral typhoid vaccine, unspecified",
+   "label": "Typhoid live attenuated oral vaccine, unspecified",
    "created": "2021-07-19",
-   "modified": "2025-04-14",
+   "modified": "2026-09-10",
    "comment": "Live attenuated typhoid vaccine, strain Ty21a, oral",
    "valences": [
     "VAL091"
@@ -3829,9 +3829,9 @@
   "VAC0441": {
    "abstract": false,
    "status": "active",
-   "label": "SKYVARICELLA INJ",
+   "label": "SKY Varicella Inj",
    "created": "2021-07-19",
-   "modified": "2025-04-07",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0159"
   },
@@ -3847,9 +3847,9 @@
   "VAC0443": {
    "abstract": false,
    "status": "active",
-   "label": "SEVAC VARIE",
+   "label": "VARIE",
    "created": "2021-07-19",
-   "modified": "2022-10-28",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1122"
   },
@@ -3946,9 +3946,9 @@
   "VAC0454": {
    "abstract": false,
    "status": "active",
-   "label": "VVR CANTACUZINO",
+   "label": "VVR",
    "created": "2021-07-19",
-   "modified": "2022-10-28",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0114"
   },
@@ -4135,9 +4135,9 @@
   "VAC0476": {
    "abstract": false,
    "status": "active",
-   "label": "PANDEMIC INFLUENZA VACCINE H5N1 BAXTER",
+   "label": "Pandemic Influenza Vaccine H5N1 Baxter",
    "created": "2021-07-19",
-   "modified": "2023-08-15",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0084"
   },
@@ -4306,9 +4306,9 @@
   "VAC0496": {
    "abstract": false,
    "status": "active",
-   "label": "GAMMATETANOS (immunoglobuline)",
+   "label": "GAMMATETANOS (immunoglobulines)",
    "created": "2021-07-19",
-   "modified": "2025-09-10",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0497"
   },
@@ -4335,9 +4335,9 @@
   "VAC0499": {
    "abstract": false,
    "status": "active",
-   "label": "BERIRAB (immunoglobuline)",
+   "label": "BERIRAB",
    "created": "2021-07-19",
-   "modified": "2026-04-27",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0358"
   },
@@ -4384,9 +4384,9 @@
   "VAC0504": {
    "abstract": false,
    "status": "active",
-   "label": "INFANRIX POLIO HIB NOURRISSONS",
+   "label": "INFANRIX Polio HIB Nourrissons",
    "created": "2021-07-19",
-   "modified": "2024-06-05",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1115"
   },
@@ -4491,9 +4491,9 @@
   "VAC0515": {
    "abstract": false,
    "status": "active",
-   "label": "INFANRIX-POLIO",
+   "label": "INFANRIX POLIO",
    "created": "2021-07-19",
-   "modified": "2025-04-09",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0551"
   },
@@ -4747,9 +4747,9 @@
   "VAC0550": {
    "abstract": true,
    "status": "active",
-   "label": "Measles-Rubella vaccine, unspecified",
+   "label": "Measles and rubella live attenuated vaccine, unspecified",
    "created": "2021-07-19",
-   "modified": "2025-05-20",
+   "modified": "2026-09-10",
    "comment": "Live attenuated measles and rubella vaccine",
    "valences": [
     "VAL005",
@@ -4789,9 +4789,9 @@
   "VAC0553": {
    "abstract": true,
    "status": "active",
-   "label": "Pentavalent DTwPHibIPV vaccine, unspecified",
+   "label": "Diphtheria (standard dose), tetanus, pertussis (whole-cell inactivated), Haemophilus influenzae type b (conjugated) and inactivated polio (trivalent) vaccine (DTwPHibIPV), pediatric",
    "created": "2021-07-19",
-   "modified": "2026-01-08",
+   "modified": "2026-09-10",
    "comment": "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell inactivated), Haemophilus influenzae type b (conjugated, unspecified) and inactivated polio (trivalent) pediatric vaccine",
    "valences": [
     "VAL010",
@@ -4813,9 +4813,9 @@
   "VAC0555": {
    "abstract": false,
    "status": "active",
-   "label": "COMBACT-HIB",
+   "label": "CombAct-HIB",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1126"
   },
@@ -5007,9 +5007,9 @@
   "VAC0586": {
    "abstract": false,
    "status": "active",
-   "label": "ERVEBO",
+   "label": "Ervebo",
    "created": "2021-07-19",
-   "modified": "2025-09-25",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1199"
   },
@@ -5052,9 +5052,9 @@
   "VAC0594": {
    "abstract": false,
    "status": "active",
-   "label": "MENQUADFI",
+   "label": "MenQuadfi",
    "created": "2021-07-19",
-   "modified": "2025-09-25",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1182"
   },
@@ -5115,9 +5115,9 @@
   "VAC0600": {
    "abstract": true,
    "status": "active",
-   "label": "OPV bivalent 1-3, unspecified",
+   "label": "Poliomyelitis OPV bivalent 1-3, unspecified",
    "created": "2021-07-19",
-   "modified": "2025-04-16",
+   "modified": "2026-09-10",
    "comment": "Polio vaccine (live attenuated, bivalent) against poliovirus types 1 and 3, oral",
    "valences": [
     "VAL085",
@@ -5153,9 +5153,9 @@
   "VAC0603": {
    "abstract": false,
    "status": "active",
-   "label": "COMVAC3",
+   "label": "ComVac3",
    "created": "2021-07-19",
-   "modified": "2025-04-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0136"
   },
@@ -5229,9 +5229,9 @@
   "VAC0621": {
    "abstract": false,
    "status": "active",
-   "label": "MENC VACCINE FUNED",
+   "label": "MenC, unspecified",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1184"
   },
@@ -5349,9 +5349,9 @@
   "VAC0636": {
    "abstract": false,
    "status": "active",
-   "label": "FLUMIST QUADRIVALENT",
+   "label": "FluMist Quadrivalent",
    "created": "2021-07-19",
-   "modified": "2025-02-25",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1112"
   },
@@ -5403,9 +5403,9 @@
   "VAC0642": {
    "abstract": false,
    "status": "active",
-   "label": "FLUZONE HIGH-DOSE QUADRIVALENT",
+   "label": "Fluzone High-Dose Quadrivalent",
    "created": "2021-07-19",
-   "modified": "2025-02-26",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1146"
   },
@@ -5491,9 +5491,9 @@
   "VAC0651": {
    "abstract": false,
    "status": "active",
-   "label": "CORONAVAC COVID-19 VACCINE",
+   "label": "CORONAVAC SINOVAC COVID-19 VACCINE",
    "created": "2021-07-19",
-   "modified": "2025-04-08",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1119"
   },
@@ -5553,9 +5553,9 @@
   "VAC0657": {
    "abstract": false,
    "status": "active",
-   "label": "SINOPHARM WUHAN COVID-19 VACCINE",
+   "label": "Chinese-WIBP-Vero-Inactivated-Covid",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1124"
   },
@@ -5580,36 +5580,36 @@
   "VAC0660": {
    "abstract": false,
    "status": "active",
-   "label": "CHINESE-IMB-INACTIVATED-COVID",
+   "label": "Chinese-IMB-Inactivated-Covid",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1124"
   },
   "VAC0661": {
    "abstract": false,
    "status": "active",
-   "label": "INOVIO-DNA-COVID",
+   "label": "Inovio-DNA-Covid",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1128"
   },
   "VAC0662": {
    "abstract": false,
    "status": "active",
-   "label": "OSAKA-DNA-COVID / AG0301-COVID19",
+   "label": "Osaka-DNA-covid / AG0301-COVID19",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1128"
   },
   "VAC0663": {
    "abstract": false,
    "status": "active",
-   "label": "CADILA-DNA-COVID",
+   "label": "Cadila-DNA-covid",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1128"
   },
@@ -5634,9 +5634,9 @@
   "VAC0666": {
    "abstract": false,
    "status": "active",
-   "label": "JCOVDEN (ancien nom : JANSSEN COVID-19 VACCINE)",
+   "label": "JCOVDEN (former name: JANSSEN COVID-19 VACCINE)",
    "created": "2021-07-19",
-   "modified": "2025-11-06",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1185"
   },
@@ -5652,18 +5652,18 @@
   "VAC0668": {
    "abstract": false,
    "status": "active",
-   "label": "KENTUCKY-RBD-COVID",
+   "label": "Kentucky-RBD-Covid",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1138"
   },
   "VAC0669": {
    "abstract": false,
    "status": "active",
-   "label": "ARCTURUS-RNA-COVID",
+   "label": "Arcturus-RNA-Covid",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1166"
   },
@@ -5679,63 +5679,63 @@
   "VAC0671": {
    "abstract": false,
    "status": "active",
-   "label": "CLOVER-SPIKE-SCB-2019-COVID",
+   "label": "Clover-Spike-SCB-2019-Covid",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1113"
   },
   "VAC0672": {
    "abstract": false,
    "status": "active",
-   "label": "VAXINE-SPIKE-COVID",
+   "label": "Vaxine-Spike-Covid",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1113"
   },
   "VAC0673": {
    "abstract": false,
    "status": "active",
-   "label": "QUEENSLAND-SPIKE-MF59-COVID",
+   "label": "Queensland-Spike-MF59-Covid",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1113"
   },
   "VAC0674": {
    "abstract": false,
    "status": "active",
-   "label": "PASTEUR-MSD MEASLES VECTOR COVID",
+   "label": "Pasteur-MSD Measles vector Covid",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1187"
   },
   "VAC0675": {
    "abstract": false,
    "status": "active",
-   "label": "IMPERIAL-COLLEGE-RNA-COVID",
+   "label": "Imperial-College-RNA-Covid",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1166"
   },
   "VAC0676": {
    "abstract": false,
    "status": "active",
-   "label": "CUREVAC-RNA-COVID",
+   "label": "Curevac-RNA-Covid",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1166"
   },
   "VAC0677": {
    "abstract": false,
    "status": "active",
-   "label": "CHINESE-PLA-ARN-Covid",
+   "label": "Chinese-PLA-ARN-Covid",
    "created": "2021-07-19",
-   "modified": "2024-06-05",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1166"
   },
@@ -5769,9 +5769,9 @@
   "VAC0681": {
    "abstract": false,
    "status": "active",
-   "label": "GRAD-COV2 COVID-19 VACCINE REITHERA",
+   "label": "GRAd-COV2 COVID-19 Vaccine ReiThera",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1143"
   },
@@ -5796,9 +5796,9 @@
   "VAC0684": {
    "abstract": false,
    "status": "active",
-   "label": "QAZVAC",
+   "label": "QazVac",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1124"
   },
@@ -5832,9 +5832,9 @@
   "VAC0688": {
    "abstract": false,
    "status": "active",
-   "label": "INTRANASAL FLU-BASED RBD DelNS1-2019-nCoV-RBD-OPT1 COVID-19 Vaccine",
+   "label": "Chinese-Influenza-intranasal-covid",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1173"
   },
@@ -5850,9 +5850,9 @@
   "VAC0690": {
    "abstract": false,
    "status": "active",
-   "label": "CHINESE-AD5-NCOV-COVID",
+   "label": "Chinese-Ad5-nCoV-covid",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1176"
   },
@@ -5877,18 +5877,18 @@
   "VAC0693": {
    "abstract": false,
    "status": "active",
-   "label": "VXA-COV2-1-COVID",
+   "label": "VXA-CoV2-1-Covid",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1176"
   },
   "VAC0694": {
    "abstract": false,
    "status": "active",
-   "label": "LMU-MVA-SARS-2-S-COVID",
+   "label": "LMU-MVA-SARS-2-S-Covid",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1189"
   },
@@ -5913,9 +5913,9 @@
   "VAC0697": {
    "abstract": false,
    "status": "active",
-   "label": "V590 (COVID-19)",
+   "label": "V590 (COVID-19 Vaccine)",
    "created": "2021-07-19",
-   "modified": "2023-05-15",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1190"
   },
@@ -5940,27 +5940,27 @@
   "VAC0701": {
    "abstract": false,
    "status": "active",
-   "label": "BACTRL-SPIKE",
+   "label": "bacTRL-Spike",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1128"
   },
   "VAC0702": {
    "abstract": false,
    "status": "active",
-   "label": "RRBD PRODUCED IN CHO-CELL CHEMICALLY CONJUGATE TO TETANUS TOXOID",
+   "label": "rRBD produced in CHO-cell chemically conjugate to tetanus toxoid",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1138"
   },
   "VAC0703": {
    "abstract": false,
    "status": "active",
-   "label": "ADJUVANTED PROTEIN SUBUNIT (RBD)",
+   "label": "Adjuvanted protein subunit (RBD)",
    "created": "2021-07-19",
-   "modified": "2025-02-27",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1138"
   },
@@ -5985,18 +5985,18 @@
   "VAC0707": {
    "abstract": false,
    "status": "active",
-   "label": "CORONAVIRUS SARS-CoV-2 INACTIVÉ",
+   "label": "Coronavirus SARS-CoV-2 inactivé",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1124"
   },
   "VAC0708": {
    "abstract": false,
    "status": "active",
-   "label": "CORVAX12",
+   "label": "CORVax12",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1128"
   },
@@ -6012,9 +6012,9 @@
   "VAC0710": {
    "abstract": false,
    "status": "active",
-   "label": "COVID-19 mRNA VACCINE BNT162b2",
+   "label": "COVID-19 mRNA Vaccine BNT162b2",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1150"
   },
@@ -6055,9 +6055,9 @@
   "VAC0714": {
    "abstract": false,
    "status": "active",
-   "label": "VACCIN CONTRE LA COVID-19 (INACTIVE, AVEC ADJUVANT) VALNEVA",
+   "label": "COVID-19 VACCINE (INACTIVATED, ADJUVANTED) VALNEVA",
    "created": "2021-07-19",
-   "modified": "2022-11-09",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1119"
   },
@@ -6073,9 +6073,9 @@
   "VAC0716": {
    "abstract": false,
    "status": "active",
-   "label": "SARS-COV-2-RBD-FC FUSION PROTEIN",
+   "label": "SARS-CoV-2-RBD-Fc fusion protein",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1138"
   },
@@ -6118,18 +6118,18 @@
   "VAC0721": {
    "abstract": false,
    "status": "active",
-   "label": "ADIMRSC-2F",
+   "label": "AdimrSC-2f",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1138"
   },
   "VAC0722": {
    "abstract": false,
    "status": "active",
-   "label": "COVIGENIX VAX-001",
+   "label": "Covigenix VAX-001",
    "created": "2021-07-19",
-   "modified": "2024-06-05",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1128"
   },
@@ -6145,9 +6145,9 @@
   "VAC0724": {
    "abstract": false,
    "status": "active",
-   "label": "CHULACOV19",
+   "label": "ChulaCov19",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1166"
   },
@@ -6163,27 +6163,27 @@
   "VAC0726": {
    "abstract": false,
    "status": "active",
-   "label": "ADCOVID",
+   "label": "AdCOVID",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1143"
   },
   "VAC0727": {
    "abstract": false,
    "status": "active",
-   "label": "ADCLD-COV19",
+   "label": "AdCLD-CoV19",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1176"
   },
   "VAC0728": {
    "abstract": false,
    "status": "active",
-   "label": "aAPC COVID-19 VACCINE",
+   "label": "Covid-19/aAPC",
    "created": "2021-07-19",
-   "modified": "2024-06-05",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1186"
   },
@@ -6199,9 +6199,9 @@
   "VAC0730": {
    "abstract": false,
    "status": "active",
-   "label": "DENDRITIC CELL AV-COVID-19 VACCINE",
+   "label": "Dendritic cell AV-COVID-19",
    "created": "2021-07-19",
-   "modified": "2025-04-25",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1186"
   },
@@ -6271,9 +6271,9 @@
   "VAC0739": {
    "abstract": false,
    "status": "active",
-   "label": "RAZI COV PARS",
+   "label": "RAZI Cov Pars",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1113"
   },
@@ -6289,9 +6289,9 @@
   "VAC0741": {
    "abstract": false,
    "status": "active",
-   "label": "COVID-EVAX",
+   "label": "COVID-eVax",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1128"
   },
@@ -6316,18 +6316,18 @@
   "VAC0744": {
    "abstract": false,
    "status": "active",
-   "label": "COVID-19 INACTIVATED VACCINE",
+   "label": "COVID-19 inactivated vaccine",
    "created": "2021-07-19",
-   "modified": "2024-06-05",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1124"
   },
   "VAC0745": {
    "abstract": false,
    "status": "active",
-   "label": "MF59 ADJUVANTED SARS-CoV-2 SCLAMP VACCINE",
+   "label": "MF59 adjuvanted SARS-CoV-2 Sclamp vaccine",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1113"
   },
@@ -6343,27 +6343,27 @@
   "VAC0753": {
    "abstract": false,
    "status": "active",
-   "label": "INACTIVATED SARS-COV-2 VACCINE FAKHRAVAC (MIVAC)",
+   "label": "Inactivated SARS-CoV-2 vaccine FAKHRAVAC (MIVAC)",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1124"
   },
   "VAC0754": {
    "abstract": false,
    "status": "active",
-   "label": "INACTIVATED KOCAK-19 INAKTIF ADJUVANT COVID-19 VACCINE",
+   "label": "Inactivated Koçak-19 Inaktif Adjuvant COVID-19 Vaccine",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1124"
   },
   "VAC0755": {
    "abstract": false,
    "status": "active",
-   "label": "ADJUVANTED INACTIVATED VACCINE AGAINST SARS-CoV-2",
+   "label": "Adjuvanted inactivated vaccine against SARS-CoV-2",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1124"
   },
@@ -6388,27 +6388,27 @@
   "VAC0758": {
    "abstract": false,
    "status": "active",
-   "label": "SPFN COVID 19 VACCINE + AFLQ",
+   "label": "SpFN COVID 19 vaccine + AFLQ",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1113"
   },
   "VAC0759": {
    "abstract": false,
    "status": "active",
-   "label": "EUCORVAC-19",
+   "label": "EuCorVac-19",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1113"
   },
   "VAC0760": {
    "abstract": false,
    "status": "active",
-   "label": "RECOV",
+   "label": "ReCOV",
    "created": "2021-07-19",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -6424,9 +6424,9 @@
   "VAC0762": {
    "abstract": false,
    "status": "active",
-   "label": "COV2 SAM (LNP) VACCINE",
+   "label": "CoV2 SAM (LNP) vaccine",
    "created": "2021-07-19",
-   "modified": "2024-06-05",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1206"
   },
@@ -6541,9 +6541,9 @@
   "VAC0775": {
    "abstract": true,
    "status": "active",
-   "label": "DTwPHib, unspecified",
+   "label": "Diphtheria (standard dose), tetanus, pertussis (whole-cell inactivated) and Haemophilus influenzae type b (conjugated) vaccine (DTwPHib), pediatric",
    "created": "2021-07-19",
-   "modified": "2025-05-20",
+   "modified": "2026-09-10",
    "comment": "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell inactivated) and Haemophilus influenzae type b (conjugated, unspecified) pediatric vaccine",
    "valences": [
     "VAL010",
@@ -6667,9 +6667,9 @@
   "VAC0788": {
    "abstract": true,
    "status": "active",
-   "label": "Hib-IPV, unspecified",
+   "label": "Haemophilus influenzae type b (conjugated, unspecified) and inactivated polio (trivalent) vaccine (Hib-IPV), unspecified",
    "created": "2021-10-26",
-   "modified": "2025-04-16",
+   "modified": "2026-09-10",
    "comment": "Haemophilus influenzae type b (conjugated, unspecified) and inactivated polio (trivalent) vaccine",
    "valences": [
     "VAL056",
@@ -6688,9 +6688,9 @@
   "VAC0790": {
    "abstract": true,
    "status": "active",
-   "label": "Diphtheria-Tetanus-Hepatitis B vaccine, unspecified",
+   "label": "Diphtheria, tetanus and hepatitis B (recombinant) vaccine, unspecified",
    "created": "2021-10-26",
-   "modified": "2025-05-15",
+   "modified": "2026-09-10",
    "comment": "Diphtheria toxoid (unspecified dose), tetanus toxoid and hepatitis B (recombinant) vaccine",
    "valences": [
     "VAL067",
@@ -6701,9 +6701,9 @@
   "VAC0791": {
    "abstract": true,
    "status": "active",
-   "label": "Hexavalent vaccine DTPerHibPHepB - Diphtheria-Tetanus-Pertussis-Polio-Hib-Hepatitis B vaccine, unspecified",
+   "label": "Diphtheria (standard dose), tetanus, pertussis (whole or acellular, unspecified dose), inactivated polio (whole, trivalent), Haemophilus influenzae type b (conjugate, unspecified) and hepatitis B (recombinant) hexavalent DTPerHibPHepB vaccine, pediatric",
    "created": "2021-10-26",
-   "modified": "2025-02-11",
+   "modified": "2026-09-10",
    "comment": "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole or acellular, unspecified dose), inactivated polio (whole, trivalent), Haemophilus influenzae type b (conjugate, unspecified) and hepatitis B (recombinant) pediatric vaccine",
    "valences": [
     "VAL003",
@@ -6732,9 +6732,9 @@
   "VAC0793": {
    "abstract": false,
    "status": "active",
-   "label": "TETADIF",
+   "label": "Diph-T, unspecified",
    "created": "2021-10-26",
-   "modified": "2022-10-28",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0920"
   },
@@ -6827,9 +6827,9 @@
   "VAC0801": {
    "abstract": true,
    "status": "active",
-   "label": "HepB-Hib, unspecified",
+   "label": "Haemophilus influenzae type b and hepatitis B vaccine, unspecified",
    "created": "2021-10-26",
-   "modified": "2025-04-16",
+   "modified": "2026-09-10",
    "comment": "Haemophilus influenzae type b and hepatitis B vaccine",
    "valences": [
     "VAL103",
@@ -6839,9 +6839,9 @@
   "VAC0802": {
    "abstract": true,
    "status": "active",
-   "label": "Monovalent oral polio vaccine - type unknown, unspecified",
+   "label": "Poliomyelitis live attenuated monovalent oral vaccine, unspecified",
    "created": "2021-10-26",
-   "modified": "2024-07-05",
+   "modified": "2026-09-10",
    "comment": "Polio vaccine (live attenuated, monovalent), oral",
    "valences": [
     "VAL133"
@@ -6870,9 +6870,9 @@
   "VAC0805": {
    "abstract": true,
    "status": "active",
-   "label": "Whole-cell inactivated cholera vaccine, unspecified",
+   "label": "Cholera whole-cell inactivated vaccine, unspecified",
    "created": "2021-10-26",
-   "modified": "2024-07-05",
+   "modified": "2026-09-10",
    "comment": "Inactivated whole-cell cholera vaccine for injection",
    "valences": [
     "VAL004"
@@ -6881,9 +6881,9 @@
   "VAC0806": {
    "abstract": true,
    "status": "active",
-   "label": "Live attenuated cholera vaccine, unspecified",
+   "label": "Cholera live attenuated vaccine, unspecified",
    "created": "2021-10-26",
-   "modified": "2025-04-14",
+   "modified": "2026-09-10",
    "comment": "Live attenuated cholera vaccine",
    "valences": [
     "VAL124"
@@ -6904,9 +6904,9 @@
   "VAC0808": {
    "abstract": true,
    "status": "active",
-   "label": "Hib-MenCY, unspecified",
+   "label": "Haemophilus influenzae type b and meningococcal conjugate (serogroups C and Y) vaccine, unspecified",
    "created": "2021-10-26",
-   "modified": "2025-05-20",
+   "modified": "2026-09-10",
    "comment": "Haemophilus influenzae type b and meningococcal conjugate vaccine, serogroups C and Y",
    "valences": [
     "VAL057",
@@ -6950,9 +6950,9 @@
   "VAC0812": {
    "abstract": true,
    "status": "active",
-   "label": "Inactivated whole plague vaccine, unspecified",
+   "label": "Plague inactivated whole vaccine, unspecified",
    "created": "2021-10-26",
-   "modified": "2025-10-09",
+   "modified": "2026-09-10",
    "comment": "Plague (whole-cell inactivated) vaccine",
    "valences": [
     "VAL131"
@@ -7004,9 +7004,9 @@
   "VAC0817": {
    "abstract": true,
    "status": "active",
-   "label": "Inactivated Typhoid vaccine, unspecified",
+   "label": "Typhoid inactivated vaccine, unspecified",
    "created": "2021-10-26",
-   "modified": "2025-02-28",
+   "modified": "2026-09-10",
    "comment": "Whole-cell inactivated typhoid vaccine",
    "valences": [
     "VAL071"
@@ -7027,9 +7027,9 @@
   "VAC0819": {
    "abstract": true,
    "status": "active",
-   "label": "Inactivated Japanese Encephalitis vaccine, unspecified",
+   "label": "Japanese Encephalitis inactivated vaccine, unspecified",
    "created": "2021-10-26",
-   "modified": "2025-05-20",
+   "modified": "2026-09-10",
    "comment": "Whole virion inactivated japanese encephalitis vaccine",
    "valences": [
     "VAL089"
@@ -7038,9 +7038,9 @@
   "VAC0820": {
    "abstract": true,
    "status": "active",
-   "label": "Inactivated whole influenza vaccine, unspecified",
+   "label": "Influenza inactivated whole vaccine, unspecified",
    "created": "2021-10-26",
-   "modified": "2025-02-24",
+   "modified": "2026-09-10",
    "comment": "Whole virion inactivated seasonal influenza vaccine",
    "valences": [
     "VAL152"
@@ -7049,9 +7049,9 @@
   "VAC0821": {
    "abstract": true,
    "status": "active",
-   "label": "Inactivated influenza vaccine, split or subunit, unspecified",
+   "label": "Influenza inactivated vaccine, split or subunit, unspecified",
    "created": "2021-10-26",
-   "modified": "2022-10-28",
+   "modified": "2026-09-10",
    "comment": "Inactivated seasonal influenza vaccine",
    "valences": [
     "VAL058"
@@ -7071,9 +7071,9 @@
   "VAC0823": {
    "abstract": true,
    "status": "active",
-   "label": "VLP influenza vaccine, unspecified",
+   "label": "Influenza VLP vaccine, unspecified",
    "created": "2021-10-26",
-   "modified": "2022-10-28",
+   "modified": "2026-09-10",
    "comment": "Virus-Like Particle (VLP) seasonal influenza vaccine",
    "valences": [
     "VAL029"
@@ -7093,9 +7093,9 @@
   "VAC0825": {
    "abstract": true,
    "status": "active",
-   "label": "Combined hepatitis A and hepatitis B vaccine, unspecified",
+   "label": "Hepatitis A and hepatitis B combined vaccine, unspecified",
    "created": "2021-10-26",
-   "modified": "2025-05-20",
+   "modified": "2026-09-10",
    "comment": "Combined hepatitis A and B vaccine",
    "valences": [
     "VAL068",
@@ -7114,9 +7114,9 @@
   "VAC0827": {
    "abstract": true,
    "status": "active",
-   "label": "MMRV - Measles-Mumps-Rubella-Varicella vaccine, unspecified",
+   "label": "Measles, mumps, rubella and varicella (MMRV) live attenuated vaccine, unspecified",
    "created": "2021-10-26",
-   "modified": "2025-05-19",
+   "modified": "2026-09-10",
    "comment": "Live attenuated measles, mumps, rubella and chickenpox vaccine",
    "valences": [
     "VAL005",
@@ -7151,9 +7151,9 @@
   "VAC0830": {
    "abstract": true,
    "status": "active",
-   "label": "Subunit shingles vaccine, unspecified",
+   "label": "Shingles subunit vaccine, unspecified",
    "created": "2021-10-26",
-   "modified": "2022-11-03",
+   "modified": "2026-09-10",
    "comment": "Subunit shingles vaccine (currently corresponds to glycoprotein E)",
    "valences": [
     "VAL159"
@@ -7184,9 +7184,9 @@
   "VAC0833": {
    "abstract": false,
    "status": "active",
-   "label": "COMIRNATY 10 µg BIONTECH-PFIZER",
+   "label": "COMIRNATY 10 µg  BIONTECH-PFIZER",
    "created": "2021-12-16",
-   "modified": "2025-04-09",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0927"
   },
@@ -7229,9 +7229,9 @@
   "VAC0839": {
    "abstract": true,
    "status": "active",
-   "label": "Inactivated whole-cell brucella vaccine, unspecified",
+   "label": "Brucella inactivated whole-cell vaccine, unspecified",
    "created": "2022-02-21",
-   "modified": "2025-05-15",
+   "modified": "2026-09-10",
    "comment": "Whole-cell inactivated brucellosis vaccine",
    "valences": [
     "VAL146"
@@ -7285,9 +7285,9 @@
   "VAC0845": {
    "abstract": false,
    "status": "active",
-   "label": "VACCIN POLIOMYELITIQUE ORAL PRODUIT SUR CELLULES VERO MERIEUX",
+   "label": "ORAL POLIO VACCINE PRODUCED ON VERO MERIEUX CELLS",
    "created": "2022-02-26",
-   "modified": "2025-03-31",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1212"
   },
@@ -7350,9 +7350,9 @@
   "VAC0852": {
    "abstract": true,
    "status": "active",
-   "label": "mOPV2 Sabin monovalent oral polio vaccine type 2, unspecified",
+   "label": "Poliomyelitis mOPV2 Sabin monovalent oral vaccine type 2, unspecified",
    "created": "2022-03-03",
-   "modified": "2024-07-04",
+   "modified": "2026-09-10",
    "comment": "Polio vaccine (live attenuated, monovalent) against polioviruses type 2, oral",
    "valences": [
     "VAL033"
@@ -7361,9 +7361,9 @@
   "VAC0853": {
    "abstract": true,
    "status": "active",
-   "label": "mOPV1 Sabin monovalent oral polio vaccine type 1, unspecified",
+   "label": "Poliomyelitis mOPV1 Sabin monovalent oral vaccine type 1, unspecified",
    "created": "2022-03-03",
-   "modified": "2024-07-04",
+   "modified": "2026-09-10",
    "comment": "Polio vaccine (live attenuated, monovalent) against poliovirus type 1, oral",
    "valences": [
     "VAL132"
@@ -7372,9 +7372,9 @@
   "VAC0854": {
    "abstract": true,
    "status": "active",
-   "label": "mOPV3 Sabin monovalent oral polio vaccine type 3, unspecified",
+   "label": "Poliomyelitis mOPV3 Sabin monovalent oral vaccine type 3, unspecified",
    "created": "2022-03-03",
-   "modified": "2024-07-04",
+   "modified": "2026-09-10",
    "comment": "Polio vaccine (live attenuated, monovalent) against poliovirus types 3, oral",
    "valences": [
     "VAL085"
@@ -7383,9 +7383,9 @@
   "VAC0855": {
    "abstract": true,
    "status": "active",
-   "label": "Diphtheria-Tetanus-Polio vaccine, unspecified",
+   "label": "Diphtheria (unspecified dose), tetanus and inactivated polio (trivalent) vaccine, adsorbed",
    "created": "2022-03-08",
-   "modified": "2024-04-24",
+   "modified": "2026-09-10",
    "comment": "Diphtheria toxoid (unspecified dose), tetanus toxoid and inactivated polio (trivalent) vaccine, adsorbed",
    "valences": [
     "VAL056",
@@ -7396,9 +7396,9 @@
   "VAC0856": {
    "abstract": true,
    "status": "active",
-   "label": "DTaPHib vaccine, unspecified",
+   "label": "Diphtheria (standard dose), tetanus and pertussis (multicomponent acellular, standard dose) and Haemophilus influenzae type b (conjugated, unspecified) DTaPHib vaccine, pediatric",
    "created": "2022-03-08",
-   "modified": "2024-04-24",
+   "modified": "2026-09-10",
    "comment": "Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (multicomponent acellular, standard dose) and Haemophilus influenzae type b (conjugated, unspecified) pediatric vaccine",
    "valences": [
     "VAL008",
@@ -7410,9 +7410,9 @@
   "VAC0857": {
    "abstract": true,
    "status": "active",
-   "label": "Diphtheria-Tetanus-Pertussis-Hepatitis B vaccine, unspecified",
+   "label": "Diphtheria (standard dose), tetanus, pertussis (acellular standard dose or whole-inactivated) and hepatitis B (recombinant) vaccine, pediatric",
    "created": "2022-03-08",
-   "modified": "2024-04-24",
+   "modified": "2026-09-10",
    "comment": "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (acellular standard dose or whole-inactivated) and hepatitis B (recombinant) pediatric vaccine",
    "valences": [
     "VAL003",
@@ -7472,9 +7472,9 @@
   "VAC0861": {
    "abstract": true,
    "status": "active",
-   "label": "Multicomponent meningococcal B vaccine, unspecified",
+   "label": "Meningococcal B multicomponent vaccine, unspecified",
    "created": "2022-03-11",
-   "modified": "2024-07-04",
+   "modified": "2026-09-10",
    "comment": "Meningococcal vaccine, serogroup B (multicomponent - multiple proteins)",
    "valences": [
     "VAL161"
@@ -7516,9 +7516,9 @@
   "VAC0865": {
    "abstract": true,
    "status": "active",
-   "label": "Polysaccharide meningococcal A vaccine, unspecified",
+   "label": "Meningococcal A unconjugated polysaccharide vaccine, unspecified",
    "created": "2022-03-15",
-   "modified": "2024-04-24",
+   "modified": "2026-09-10",
    "comment": "Unconjugated meningococcal polysaccharide vaccine, serogroup A",
    "valences": [
     "VAL037"
@@ -7527,9 +7527,9 @@
   "VAC0866": {
    "abstract": true,
    "status": "active",
-   "label": "Meningococcal conjugate vaccine A, unspecified",
+   "label": "Meningococcal A conjugate polysaccharide vaccine, unspecified",
    "created": "2022-03-15",
-   "modified": "2024-04-23",
+   "modified": "2026-09-10",
    "comment": "Meningococcal polysaccharide conjugate vaccine, serogroup A",
    "valences": [
     "VAL041"
@@ -7657,9 +7657,9 @@
   "VAC0880": {
    "abstract": true,
    "status": "active",
-   "label": "Pentavalent Diphtheria-Tetanus-Pertussis-Hib-Polio (DTPerHibIPV) vaccine, unspecified",
+   "label": "Diphtheria (standard dose), tetanus, pertussis, Haemophilus influenzae type b (conjugated) and inactivated polio (trivalent) pentavalent DTPerHibIPV vaccine, adsorbed, pediatric",
    "created": "2022-03-28",
-   "modified": "2024-04-22",
+   "modified": "2026-09-10",
    "comment": "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (unspecified), conjugate Haemophilus influenzae type b (conjugated, unspecified) and inactivated polio (trivalent) pediatric vaccine, adsorbed",
    "valences": [
     "VAL003",
@@ -7672,9 +7672,9 @@
   "VAC0881": {
    "abstract": true,
    "status": "active",
-   "label": "Live attenuated Japanese Encephalitis vaccine, unspecified",
+   "label": "Japanese Encephalitis live attenuated vaccine, unspecified",
    "created": "2022-03-29",
-   "modified": "2024-04-22",
+   "modified": "2026-09-10",
    "comment": "Live attenuated Japanese encephalitis vaccine, strain and production platform not specified",
    "valences": [
     "VAL248"
@@ -7857,9 +7857,9 @@
   "VAC0900": {
    "abstract": false,
    "status": "active",
-   "label": "PREVENAR 20",
+   "label": "PREVENAR 20 (previously APEXXNAR)",
    "created": "2022-04-13",
-   "modified": "2024-10-21",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1163"
   },
@@ -7930,9 +7930,9 @@
   "VAC0907": {
    "abstract": true,
    "status": "active",
-   "label": "Vaccine against adenovirus type 4, unspecified",
+   "label": "Adenovirus type 4 vaccine, unspecified",
    "created": "2022-04-29",
-   "modified": "2024-07-04",
+   "modified": "2026-09-10",
    "comment": "Adenovirus type 4 vaccine",
    "valences": [
     "VAL282"
@@ -7941,9 +7941,9 @@
   "VAC0908": {
    "abstract": true,
    "status": "active",
-   "label": "Vaccine against adenovirus type 7, unspecified",
+   "label": "Adenovirus type 7 vaccine, unspecified",
    "created": "2022-05-02",
-   "modified": "2024-07-04",
+   "modified": "2026-09-10",
    "comment": "Adenovirus type 7 vaccine",
    "valences": [
     "VAL281"
@@ -7963,9 +7963,9 @@
   "VAC0910": {
    "abstract": true,
    "status": "active",
-   "label": "Inactivated hepatitis A vaccine, adult dose, unspecified",
+   "label": "Hepatitis A inactivated vaccine, adult dose, unspecified",
    "created": "2022-05-02",
-   "modified": "2024-07-04",
+   "modified": "2026-09-10",
    "comment": "Inactivated hepatitis A vaccine, adult dose",
    "valences": [
     "VAL144"
@@ -8094,9 +8094,9 @@
   "VAC0922": {
    "abstract": true,
    "status": "active",
-   "label": "Live attenuated adenovirus vaccine, type 4 and type 7, oral",
+   "label": "Adenovirus live attenuated vaccine, type 4 and type 7, oral",
    "created": "2022-05-03",
-   "modified": "2024-07-04",
+   "modified": "2026-09-10",
    "comment": "Adenovirus type 7 and 4 vaccine",
    "valences": [
     "VAL281",
@@ -8126,9 +8126,9 @@
   "VAC0925": {
    "abstract": true,
    "status": "active",
-   "label": "Trivalent inactivated influenza vaccine, unspecified",
+   "label": "Influenza trivalent inactivated vaccine, unspecified",
    "created": "2022-05-06",
-   "modified": "2024-04-18",
+   "modified": "2026-09-10",
    "comment": "Trivalent inactivated seasonal influenza vaccine, split or subunit, standard dose",
    "valences": [
     "VAL015"
@@ -8157,9 +8157,9 @@
   "VAC0928": {
    "abstract": true,
    "status": "active",
-   "label": "Live attenuated Hepatitis A vaccine, unspecified",
+   "label": "Hepatitis A live attenuated vaccine, unspecified",
    "created": "2022-05-06",
-   "modified": "2024-04-18",
+   "modified": "2026-09-10",
    "comment": "Live attenuated hepatitis A vaccine",
    "valences": [
     "VAL286"
@@ -8179,9 +8179,9 @@
   "VAC0930": {
    "abstract": false,
    "status": "active",
-   "label": "AD5-NCOV COVID-19 INHALATION VACCINE",
+   "label": "Ad5-nCoV COVID-19 INHALATION VACCINE",
    "created": "2022-05-06",
-   "modified": "2024-06-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1135"
   },
@@ -8197,9 +8197,9 @@
   "VAC0932": {
    "abstract": true,
    "status": "active",
-   "label": "Quadrivalent recombinant influenza vaccine, unspecified",
+   "label": "Influenza quadrivalent recombinant vaccine, unspecified",
    "created": "2022-05-16",
-   "modified": "2024-07-05",
+   "modified": "2026-09-10",
    "comment": "Quadrivalent recombinant seasonal influenza vaccine",
    "valences": [
     "VAL287"
@@ -8255,9 +8255,9 @@
   "VAC0938": {
    "abstract": true,
    "status": "active",
-   "label": "Quadrivalent influenza vaccine, unspecified",
+   "label": "Influenza quadrivalent vaccine, unspecified",
    "created": "2022-05-17",
-   "modified": "2024-07-05",
+   "modified": "2026-09-10",
    "comment": "Quadrivalent inactivated seasonal influenza vaccine, split virion or surface antigen vaccine",
    "valences": [
     "VAL040"
@@ -8284,9 +8284,9 @@
   "VAC0941": {
    "abstract": true,
    "status": "active",
-   "label": "Immunoglobulin against anthrax, unspecified",
+   "label": "Anthrax immunoglobulin, unspecified",
    "created": "2022-05-18",
-   "modified": "2024-07-04",
+   "modified": "2026-09-10",
    "comment": "Anthrax immunoglobuline",
    "valences": [
     "VAL293"
@@ -8317,9 +8317,9 @@
   "VAC0944": {
    "abstract": true,
    "status": "active",
-   "label": "Inactivated whole virion oral cholera vaccine, unspecified",
+   "label": "Cholera inactivated whole virion oral vaccine, unspecified",
    "created": "2022-05-18",
-   "modified": "2024-07-04",
+   "modified": "2026-09-10",
    "comment": "Oral Inactivated whole-cell cholera vaccine",
    "valences": [
     "VAL021"
@@ -8992,9 +8992,9 @@
   "VAC1017": {
    "abstract": false,
    "status": "active",
-   "label": "SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.1 (50 µg/50 µg)/mL MULTIDOSE MODERNA",
+   "label": "SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.1 (50 µg/50 µg)/mL MODERNA",
    "created": "2022-08-16",
-   "modified": "2025-04-25",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -9019,9 +9019,9 @@
   "VAC1020": {
    "abstract": false,
    "status": "active",
-   "label": "VACCIN HEPATITE A AVENTIS PASTEUR MSD",
+   "label": "Hepatitis A vaccine aventis pasteur MSD",
    "created": "2022-08-28",
-   "modified": "2024-04-12",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0910"
   },
@@ -9037,9 +9037,9 @@
   "VAC1022": {
    "abstract": false,
    "status": "active",
-   "label": "COMIRNATY 3 µg 6 MOIS-4 ANS BIONTECH-PFIZER",
+   "label": "COMIRNATY 3 µg INFANTS AND CHILDREN BIONTECH-PFIZER",
    "created": "2022-09-10",
-   "modified": "2024-04-12",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1188"
   },
@@ -9082,18 +9082,18 @@
   "VAC1027": {
    "abstract": false,
    "status": "active",
-   "label": "KOVIVAC CHUMAKOV COVID-19 VACCINE",
+   "label": "COVIVAC CHUMAKOV COVID-19 VACCINE",
    "created": "2022-10-11",
-   "modified": "2025-04-25",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1044"
   },
   "VAC1028": {
    "abstract": false,
    "status": "active",
-   "label": "RECOMBIVAX HB DIALYSÉ",
+   "label": "RECOMBIVAX HB DIALYSIS",
    "created": "2022-10-11",
-   "modified": "2024-04-12",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0916"
   },
@@ -9129,7 +9129,7 @@
    "status": "active",
    "label": "SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.1 (25 µg/25 µg) MODERNA",
    "created": "2022-10-31",
-   "modified": "2025-04-25",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -9258,18 +9258,18 @@
   "VAC1045": {
    "abstract": false,
    "status": "active",
-   "label": "INFANRIX-IPV/HIB",
+   "label": "INFANRIX-IPV/Hib",
    "created": "2023-06-29",
-   "modified": "2024-04-10",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1115"
   },
   "VAC1046": {
    "abstract": false,
    "status": "active",
-   "label": "BEYFORTUS 50 MG (NIRSEVIMAB)",
+   "label": "BEYFORTUS 50 mg (nirsevimab)",
    "created": "2023-07-22",
-   "modified": "2025-11-17",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1147"
   },
@@ -9303,36 +9303,36 @@
   "VAC1050": {
    "abstract": false,
    "status": "active",
-   "label": "BEYFORTUS 100 MG (NIRSEVIMAB)",
+   "label": "BEYFORTUS 100 mg (nirsevimab)",
    "created": "2023-09-04",
-   "modified": "2025-11-17",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1147"
   },
   "VAC1051": {
    "abstract": false,
    "status": "active",
-   "label": "PFIZER COMIRNATY-30 XBB.1.5",
+   "label": "COMIRNATY OMICRON XBB.1.5 30 µg",
    "created": "2023-09-16",
-   "modified": "2025-04-25",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1244"
   },
   "VAC1052": {
    "abstract": false,
    "status": "active",
-   "label": "PFIZER COMIRNATY-10 XBB.1.5",
+   "label": "COMIRNATY OMICRON XBB.1.5 10 µg",
    "created": "2023-09-16",
-   "modified": "2025-04-25",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1214"
   },
   "VAC1053": {
    "abstract": false,
    "status": "active",
-   "label": "PFIZER COMIRNATY-3 XBB.1.5",
+   "label": "COMIRNATY OMICRON XBB.1.5 3 µg",
    "created": "2023-09-16",
-   "modified": "2025-04-25",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1158"
   },
@@ -9375,9 +9375,9 @@
   "VAC1058": {
    "abstract": false,
    "status": "active",
-   "label": "SPIKEVAX XBB.1.5 0,1 mg/mL dose 50 µg MODERNA",
+   "label": "SPIKEVAX XBB.1.5 0.1 mg/mL dose 50 µg MODERNA",
    "created": "2024-02-29",
-   "modified": "2025-04-25",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1243"
   },
@@ -9411,9 +9411,9 @@
   "VAC1062": {
    "abstract": true,
    "status": "active",
-   "label": "CMV immune globulin",
+   "label": "Cytomegalovirus immune globulin",
    "created": "2024-03-18",
-   "modified": "2024-07-04",
+   "modified": "2026-09-10",
    "comment": "Cytomegalovirus immune globulin, intravenous",
    "valences": [
     "VAL331"
@@ -9499,9 +9499,9 @@
   "VAC1070": {
    "abstract": false,
    "status": "active",
-   "label": "FLUZONE HIGH-DOSE QUADRIVALENT SOUTHERN HEMISPHERE",
+   "label": "Fluzone High-Dose Quadrivalent Southern Hemisphere",
    "created": "2024-03-18",
-   "modified": "2024-04-03",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1146"
   },
@@ -9550,9 +9550,9 @@
   "VAC1075": {
    "abstract": true,
    "status": "active",
-   "label": "Acellular anthrax vaccine, unspecified",
+   "label": "Anthrax acellular vaccine, unspecified",
    "created": "2024-03-26",
-   "modified": "2024-07-04",
+   "modified": "2026-09-10",
    "comment": "Acellular anthrax vaccine, unspecified",
    "valences": [
     "VAL111"
@@ -9678,9 +9678,9 @@
   "VAC1089": {
    "abstract": false,
    "status": "active",
-   "label": "HYPERHEP B",
+   "label": "HYPERHEB B",
    "created": "2024-05-15",
-   "modified": "2025-04-16",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0863"
   },
@@ -9842,9 +9842,9 @@
   "VAC1107": {
    "abstract": true,
    "status": "active",
-   "label": "Whole inactivated Cholera vaccine, unspecified",
+   "label": "Cholera whole inactivated vaccine, unspecified",
    "created": "2024-05-28",
-   "modified": "2025-10-09",
+   "modified": "2026-09-10",
    "comment": "Whole inactivated Cholera vaccine, unspecified",
    "valences": [
     "VAL359"
@@ -9865,9 +9865,9 @@
   "VAC1109": {
    "abstract": true,
    "status": "active",
-   "label": "ACW unconjugated meningococcal vaccine, unspecified",
+   "label": "Meningococcal ACW unconjugated vaccine, unspecified",
    "created": "2024-06-05",
-   "modified": "2024-07-04",
+   "modified": "2026-09-10",
    "comment": "Non-conjugated polysaccharide vaccine against meningococci serogroups A, C and W",
    "valences": [
     "VAL037",
@@ -9900,9 +9900,9 @@
   "VAC1112": {
    "abstract": true,
    "status": "active",
-   "label": "Live attenuated quadrivalent influenza vaccine, unspecified",
+   "label": "Influenza live attenuated quadrivalent vaccine, unspecified",
    "created": "2024-06-05",
-   "modified": "2025-02-25",
+   "modified": "2026-09-10",
    "comment": "Live attenuated quadrivalent seasonal influenza vaccine, nasal",
    "valences": [
     "VAL059"
@@ -9922,9 +9922,9 @@
   "VAC1114": {
    "abstract": true,
    "status": "active",
-   "label": "Vaccine against typhoid fever and hepatitis A, unspecified",
+   "label": "Typhoid fever and hepatitis A vaccine, unspecified",
    "created": "2024-06-05",
-   "modified": "2025-04-16",
+   "modified": "2026-09-10",
    "comment": "Typhoid vaccine combined with hepatitis A vaccine",
    "valences": [
     "VAL032",
@@ -9934,10 +9934,10 @@
   "VAC1115": {
    "abstract": true,
    "status": "active",
-   "label": "Pentavalent vaccine DTPaHibP - Diphtheria-Tetanus-Pertussis-Hib PRP-Polio, unspecified",
+   "label": "Diphtheria (standard dose), tetanus, pertussis (multicomponent acellular, standard dose), Haemophilus influenzae type b (tetanus toxoid conjugated) and polio (whole inactivated, trivalent) pentavalent DTPaHibP vaccine, adsorbed, pediatric",
    "created": "2024-06-05",
-   "modified": "2024-06-06",
-   "comment": "Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis (multicomponent acellular, standard dose), Haemophilus influenzae type b (tetanus toxoid conjugated) and polio (whole inactivated, trivalent) vaccine, adsorbed",
+   "modified": "2026-09-10",
+   "comment": "Diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis (multicomponent acellular, standard dose), Haemophilus influenzae type b (tetanus toxoid conjugated) and polio (whole inactivated, trivalent) vaccine, adsorbed, pediatric",
    "valences": [
     "VAL008",
     "VAL056",
@@ -9994,9 +9994,9 @@
   "VAC1120": {
    "abstract": true,
    "status": "active",
-   "label": "Trivalent leptospirosis vaccine, unspecified",
+   "label": "Leptospirosis trivalent vaccine, unspecified",
    "created": "2024-06-05",
-   "modified": "2024-07-05",
+   "modified": "2026-09-10",
    "comment": "Trivalent vaccine against leptospirosis caused by Canicola serovar canicola, Icterohaemorrhagiae serovar copenhageni and Pomona serovar mozdok",
    "valences": [
     "VAL075",
@@ -10007,10 +10007,10 @@
   "VAC1121": {
    "abstract": true,
    "status": "active",
-   "label": "Hexavalent vaccine DTPaHibPHepB - Diphtheria-Tetanus-Pertussis-Hib-Polio-Hepatitis B 10µg, unspecified",
+   "label": "Diphtheria (standard dose), tetanus, pertussis (acellular multicomponent, standard dose, Haemophilus influenzae type b (conjugated with tetanus toxoid), poliomyelitis (whole inactivated, trivalent) and hepatitis B (recombinant) hexavalent DTPaHibPHepB vaccine, pediatric",
    "created": "2024-06-05",
-   "modified": "2024-08-05",
-   "comment": "Pediatric vaccine diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis (acellular multicomponent, standard dose, 3 components), anti-Haemophilus influenzae type b (conjugated with tetanus toxoid), poliomyelitis (whole inactivated, trivalent) and hepatitis B (recombinant), unspecified",
+   "modified": "2026-09-10",
+   "comment": "Diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis (acellular multicomponent, standard dose, 3 components), anti-Haemophilus influenzae type b (conjugated with tetanus toxoid), poliomyelitis (whole inactivated, trivalent) and hepatitis B (recombinant), pediatric",
    "valences": [
     "VAL008",
     "VAL056",
@@ -10023,9 +10023,9 @@
   "VAC1122": {
    "abstract": true,
    "status": "active",
-   "label": "1st generation live smallpox vaccine, unspecified",
+   "label": "Smallpox 1st generation live vaccine, unspecified",
    "created": "2024-06-05",
-   "modified": "2024-06-06",
+   "modified": "2026-09-10",
    "comment": "First generation smallpox vaccine, live vaccinia virus",
    "valences": [
     "VAL294"
@@ -10034,9 +10034,9 @@
   "VAC1123": {
    "abstract": true,
    "status": "active",
-   "label": "Live attenuated trivalent influenza vaccine, unspecified",
+   "label": "Influenza trivalent live attenuated vaccine, unspecified",
    "created": "2024-06-05",
-   "modified": "2025-10-08",
+   "modified": "2026-09-10",
    "comment": "Live attenuated trivalent seasonal influenza vaccine, nasal",
    "valences": [
     "VAL001"
@@ -10045,9 +10045,9 @@
   "VAC1124": {
    "abstract": true,
    "status": "active",
-   "label": "Inactivated whole virus COVID-19 vaccine, in clinical trial, unspecified",
+   "label": "COVID-19 inactivated vaccine, whole virus, in clinical trial, unspecified",
    "created": "2024-06-05",
-   "modified": "2025-04-25",
+   "modified": "2026-09-10",
    "comment": "COVID-19 inactivated vaccine, whole virus, in clinical trial, unspecified",
    "valences": [
     "VAL265"
@@ -10067,10 +10067,10 @@
   "VAC1126": {
    "abstract": true,
    "status": "active",
-   "label": "Pentavalent DTP Hib vaccine - Diphtheria-Tetanus-Pertussis-Hib PRP-Polio, unspecified",
+   "label": "Diphtheria (standard dose), tetanus, pertussis (whole inactivated), anti-Haemophilus influenzae type b (conjugated with tetanus toxoid) and polio (whole inactivated, trivalent) pentavalent DTP Hib vaccine, pediatric",
    "created": "2024-06-05",
-   "modified": "2024-06-06",
-   "comment": "Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis (whole inactivated), anti-Haemophilus influenzae type b (conjugated with tetanus toxoid) and polio (whole inactivated, trivalent) vaccine, unspecified",
+   "modified": "2026-09-10",
+   "comment": "Diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis (whole inactivated), anti-Haemophilus influenzae type b (conjugated with tetanus toxoid) and polio (whole inactivated, trivalent) vaccine, pediatric",
    "valences": [
     "VAL010",
     "VAL056",
@@ -10082,9 +10082,9 @@
   "VAC1127": {
    "abstract": true,
    "status": "active",
-   "label": "Immunoglobulin against hepatitis A, measles, chickenpox and rubella, unspecified",
+   "label": "Hepatitis A, measles, chickenpox and rubella immunoglobulin, unspecified",
    "created": "2024-06-05",
-   "modified": "2024-07-04",
+   "modified": "2026-09-10",
    "comment": "Immunoglobulin against hepatitis A, measles, chickenpox and rubella, unspecified",
    "valences": [
     "VAL044",
@@ -10118,9 +10118,9 @@
   "VAC1130": {
    "abstract": true,
    "status": "active",
-   "label": "Trivalent inactivated seasonal influenza vaccine and tetanus toxoid, unspecified",
+   "label": "Influenza trivalent inactivated and tetanus toxoid vaccine, unspecified",
    "created": "2024-06-05",
-   "modified": "2024-07-04",
+   "modified": "2026-09-10",
    "comment": "Trivalent inactivated seasonal influenza vaccine, split virion and tetanus (toxoid)",
    "valences": [
     "VAL015",
@@ -10130,9 +10130,9 @@
   "VAC1131": {
    "abstract": true,
    "status": "active",
-   "label": "17-valent unconjugated pneumococcal vaccine, unspecified",
+   "label": "Pneumococcal 17-valent unconjugated vaccine, unspecified",
    "created": "2024-06-05",
-   "modified": "2024-06-06",
+   "modified": "2026-09-10",
    "comment": "Unconjugated pneumococcal polysaccharide vaccine, 17-valent, serotypes 1, 2, 3, 4, 6A, 7F, 8, 9N, 11A, 12F, 14, 15F, 17F, 18C, 19F, 23F and 25",
    "valences": [
     "VAL206",
@@ -10183,9 +10183,9 @@
   "VAC1134": {
    "abstract": true,
    "status": "active",
-   "label": "Live attenuated vaccine against Argentine hemorrhagic fever, Junin virus, unspecified",
+   "label": "Argentine hemorrhagic fever live attenuated vaccine against, Junin virus, unspecified",
    "created": "2024-06-05",
-   "modified": "2025-05-20",
+   "modified": "2026-09-10",
    "comment": "Live attenuated vaccine against Argentine hemorrhagic fever, Junin virus, unspecified",
    "valences": [
     "VAL173"
@@ -10205,9 +10205,9 @@
   "VAC1136": {
    "abstract": true,
    "status": "active",
-   "label": "23-valent Pneumococcus conjugate vaccine, unspecified",
+   "label": "Pneumococcus 23-valent conjugate vaccine, unspecified",
    "created": "2024-06-05",
-   "modified": "2025-02-10",
+   "modified": "2026-09-10",
    "comment": "Pneumococcal polysaccharide conjugate vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F",
    "valences": [
     "VAL186",
@@ -10238,9 +10238,9 @@
   "VAC1137": {
    "abstract": true,
    "status": "active",
-   "label": "Whole inactivated tick-borne encephalitis vaccine, strain K23, unspecified",
+   "label": "Tick-borne encephalitis whole inactivated vaccine, strain K23, unspecified",
    "created": "2024-06-05",
-   "modified": "2026-07-29",
+   "modified": "2026-09-10",
    "comment": "Whole inactivated tick-borne encephalitis vaccine, strain K23, unspecified",
    "valences": [
     "VAL312"
@@ -10327,9 +10327,9 @@
   "VAC1145": {
    "abstract": true,
    "status": "active",
-   "label": "Recombinant hepatitis B vaccine, three antigens, unspecified",
+   "label": "Hepatitis B recombinant vaccine, three antigens, unspecified",
    "created": "2024-06-05",
-   "modified": "2025-05-20",
+   "modified": "2026-09-10",
    "comment": "Recombinant hepatitis B vaccine, three antigens (HbS, pre-S1 and pre-S2)",
    "valences": [
     "VAL291"
@@ -10338,9 +10338,9 @@
   "VAC1146": {
    "abstract": true,
    "status": "active",
-   "label": "Inactivated quadrivalent influenza vaccine, high dose, unspecified",
+   "label": "Influenza inactivated quadrivalent vaccine, high dose, unspecified",
    "created": "2024-06-05",
-   "modified": "2025-02-27",
+   "modified": "2026-09-10",
    "comment": "Inactivated quadrivalent influenza vaccine, split or subunit, high dose",
    "valences": [
     "VAL074"
@@ -10349,9 +10349,9 @@
   "VAC1147": {
    "abstract": true,
    "status": "active",
-   "label": "Human monoclonal antibody against respiratory syncytial virus (RSV), nirsevimab, unspecified",
+   "label": "Respiratory syncytial virus (RSV) human monoclonal antibody, nirsevimab, unspecified",
    "created": "2024-06-05",
-   "modified": "2024-07-04",
+   "modified": "2026-09-10",
    "comment": "Human monoclonal antibody against respiratory syncytial virus (RSV), nirsevimab, unspecified",
    "valences": [
     "VAL321"
@@ -10371,9 +10371,9 @@
   "VAC1149": {
    "abstract": true,
    "status": "active",
-   "label": "Oral live attenuated cholera vaccine, unspecified",
+   "label": "Cholera oral live attenuated vaccine, unspecified",
    "created": "2024-06-05",
-   "modified": "2025-05-20",
+   "modified": "2026-09-10",
    "comment": "Oral live attenuated cholera vaccine, unspecified",
    "valences": [
     "VAL357"
@@ -10393,10 +10393,10 @@
   "VAC1151": {
    "abstract": true,
    "status": "active",
-   "label": "Quadrivalent DTPeP vaccine - Diphtheria-Tetanus-Pertussis-Polio, unspecified",
+   "label": "Diphtheria (standard dose), tetanus, pertussis (whole inactivated), and polio (whole inactivated, trivalent) quadrivalent DTPeP vaccine, pediatric",
    "created": "2024-06-05",
-   "modified": "2024-06-06",
-   "comment": "Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis (whole inactivated), and polio (whole inactivated, trivalent) vaccine",
+   "modified": "2026-09-10",
+   "comment": "Diphtheria (standard dose), tetanus (toxoid), pertussis (whole inactivated), and polio (whole inactivated, trivalent) vaccine, pediatric",
    "valences": [
     "VAL010",
     "VAL056",
@@ -10418,9 +10418,9 @@
   "VAC1153": {
    "abstract": true,
    "status": "active",
-   "label": "Quadrivalent meningococcal ACWY vaccine, diphtheria toxoid conjugate, unspecified",
+   "label": "Meningococcal ACWY vaccine, diphtheria toxoid conjugate, unspecified",
    "created": "2024-06-05",
-   "modified": "2024-07-05",
+   "modified": "2026-09-10",
    "comment": "Quadrivalent meningococcal polysaccharide conjugate vaccine against serogroups A, C, W and Y (diphtheria toxoid conjugate)",
    "valences": [
     "VAL267",
@@ -10432,9 +10432,9 @@
   "VAC1154": {
    "abstract": true,
    "status": "active",
-   "label": "Whole inactivated mumps vaccine, unspecified",
+   "label": "Mumps whole inactivated vaccine, unspecified",
    "created": "2024-06-05",
-   "modified": "2024-07-04",
+   "modified": "2026-09-10",
    "comment": "Whole inactivated mumps vaccine, unspecified",
    "valences": [
     "VAL048"
@@ -10443,9 +10443,9 @@
   "VAC1155": {
    "abstract": true,
    "status": "active",
-   "label": "Plasma hepatitis B vaccine, unspecified",
+   "label": "Hepatitis B plasma vaccine, unspecified",
    "created": "2024-06-05",
-   "modified": "2024-07-04",
+   "modified": "2026-09-10",
    "comment": "Plasma hepatitis B vaccine, unspecified",
    "valences": [
     "VAL158"
@@ -10454,9 +10454,9 @@
   "VAC1156": {
    "abstract": true,
    "status": "active",
-   "label": "Immunoglobulin against botulism, unspecified",
+   "label": "Botulism immunoglobulin, unspecified",
    "created": "2024-06-05",
-   "modified": "2024-07-04",
+   "modified": "2026-09-10",
    "comment": "Intravenous human immunoglobulin against infant botulism types A and B",
    "valences": [
     "VAL358"
@@ -10465,9 +10465,9 @@
   "VAC1157": {
    "abstract": true,
    "status": "active",
-   "label": "3rd generation smallpox vaccine, modified Ankara vaccinia virus, unspecified",
+   "label": "Smallpox 3rd generation vaccine, modified Ankara vaccinia virus, unspecified",
    "created": "2024-06-05",
-   "modified": "2025-05-21",
+   "modified": "2026-09-10",
    "comment": "Third generation smallpox vaccine, modified vaccinia Ankara virus, non-replicating",
    "valences": [
     "VAL296"
@@ -10487,9 +10487,9 @@
   "VAC1159": {
    "abstract": true,
    "status": "active",
-   "label": "Recombinant trivalent influenza vaccine, unspecified",
+   "label": "Influenza trivalent recombinant vaccine, unspecified",
    "created": "2024-06-05",
-   "modified": "2024-07-05",
+   "modified": "2026-09-10",
    "comment": "Trivalent Recombinant Seasonal Influenza Vaccine",
    "valences": [
     "VAL301"
@@ -10498,9 +10498,9 @@
   "VAC1160": {
    "abstract": true,
    "status": "active",
-   "label": "2nd generation live smallpox vaccine, unspecified",
+   "label": "Smallpox 2nd generation live vaccine, unspecified",
    "created": "2024-06-05",
-   "modified": "2024-06-06",
+   "modified": "2026-09-10",
    "comment": "Second generation smallpox vaccine, vaccinia virus obtained by cell culture",
    "valences": [
     "VAL295"
@@ -10509,10 +10509,10 @@
   "VAC1161": {
    "abstract": true,
    "status": "active",
-   "label": "Quadrivalent DTPeP vaccine - Diphtheria-Tetanus-Pertussis-Hib PRP, unspecified",
+   "label": "Diphtheria (standard dose), tetanus, pertussis (whole inactivated) and Haemophilus influenzae type b (tetanus toxoid conjugated) quadrivalent DTPeP vaccine, pediatric",
    "created": "2024-06-05",
-   "modified": "2024-06-06",
-   "comment": "Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis (whole inactivated) and Haemophilus influenzae type b (tetanus toxoid conjugated) vaccine",
+   "modified": "2026-09-10",
+   "comment": "Diphtheria (standard dose), tetanus, pertussis (whole inactivated) and Haemophilus influenzae type b (tetanus toxoid conjugated) vaccine, pediatric",
    "valences": [
     "VAL010",
     "VAL067",
@@ -10535,9 +10535,9 @@
   "VAC1163": {
    "abstract": true,
    "status": "active",
-   "label": "20-valent Pneumococcus conjugate vaccine, unspecified",
+   "label": "Pneumococcus 20-valent conjugate vaccine, unspecified",
    "created": "2024-06-05",
-   "modified": "2025-02-10",
+   "modified": "2026-09-10",
    "comment": "Pneumococcal polysaccharide conjugate vaccine, 20-valent, adsorbed, serotypes 1, 3, 4, 5, 6A, 6B, 7F, 8, 9V, 10A, 11A, 12F, 14, 15B, 18C, 19A, 19F, 22F, 23F and 33F",
    "valences": [
     "VAL186",
@@ -10565,10 +10565,10 @@
   "VAC1164": {
    "abstract": true,
    "status": "active",
-   "label": "Quadrivalent DTPaHib- Diphtheria-Tetanus-Pertussis-Hib PRP vaccine, unspecified",
+   "label": "Diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis (acellular multicomponent, standard dose) and Haemophilus influenzae type b (tetanus toxoid conjugate) quadrivalent vaccine DTPaHib, pediatric",
    "created": "2024-06-05",
-   "modified": "2024-06-06",
-   "comment": "Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis (acellular multicomponent, standard dose) and Haemophilus influenzae type b (tetanus toxoid conjugate) vaccine",
+   "modified": "2026-09-10",
+   "comment": "Diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis (acellular multicomponent, standard dose) and Haemophilus influenzae type b (tetanus toxoid conjugate) vaccine, pediatric",
    "valences": [
     "VAL008",
     "VAL067",
@@ -10601,9 +10601,9 @@
   "VAC1167": {
    "abstract": true,
    "status": "active",
-   "label": "Acellular Pertussis Vaccine, unspecified",
+   "label": "Pertussis acellular vaccine, unspecified",
    "created": "2024-06-05",
-   "modified": "2024-07-05",
+   "modified": "2026-09-10",
    "comment": "Acellular pertussis vaccine, standard dose",
    "valences": [
     "VAL008"
@@ -10612,10 +10612,10 @@
   "VAC1168": {
    "abstract": true,
    "status": "active",
-   "label": "Quadrivalent DTPeHib- Diphtheria-Tetanus-Pertussis-Hib OC vaccine, unspecified",
+   "label": "Diphtheria (standard dose), tetanus, pertussis (whole inactivated) and Haemophilus influenzae type b (diphtheria toxoid conjugate) vaccine (DTPeHib), pediatric",
    "created": "2024-06-05",
-   "modified": "2024-06-06",
-   "comment": "Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis (whole inactivated) and Haemophilus influenzae type b (diphtheria toxoid conjugate) vaccine",
+   "modified": "2026-09-10",
+   "comment": "Diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis (whole inactivated) and Haemophilus influenzae type b (diphtheria toxoid conjugate) vaccine, pediatric",
    "valences": [
     "VAL010",
     "VAL067",
@@ -10638,9 +10638,9 @@
   "VAC1170": {
    "abstract": true,
    "status": "active",
-   "label": "Non-replicating viral vector COVID-19 vaccine, chimpanzee adenovirus ChadOx1 encoding the SARS-CoV-2 spike protein",
+   "label": "COVID-19 non-replicating viral vector vaccine, chimpanzee adenovirus ChadOx1 encoding the SARS-CoV-2 spike protein",
    "created": "2024-06-05",
-   "modified": "2025-03-27",
+   "modified": "2026-09-10",
    "comment": "Non-replicating viral vector anti-covid 19 vaccine, chimpanzee adenovirus ChadOx1 encoding the SARS-CoV-2 spike protein",
    "valences": [
     "VAL069"
@@ -10649,9 +10649,9 @@
   "VAC1171": {
    "abstract": true,
    "status": "active",
-   "label": "Inactivated trivalent influenza vaccine, high dose, unspecified",
+   "label": "Influenza trivalent vaccine, inactivated, split or subunit, high dose, unspecified",
    "created": "2024-06-05",
-   "modified": "2025-02-25",
+   "modified": "2026-09-10",
    "comment": "Trivalent inactivated influenza vaccine, split or subunit, high dose",
    "valences": [
     "VAL094"
@@ -10682,10 +10682,10 @@
   "VAC1174": {
    "abstract": true,
    "status": "active",
-   "label": "Pentavalent DTPaPHepB vaccine - Diphtheria-Tetanus-Pertussis-Polio-Hepatitis B 10µg, unspecified",
+   "label": "Diphtheria (standard dose), tetanus, pertussis (multicomponent acellular, standard dose), polio (whole inactivated, trivalent) and hepatitis B (recombinant) vaccine (DTPaPHepB), pediatric",
    "created": "2024-06-05",
-   "modified": "2024-06-06",
-   "comment": "Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis (multicomponent acellular, standard dose), polio (whole inactivated, trivalent) and hepatitis B (recombinant) vaccine",
+   "modified": "2026-09-10",
+   "comment": "Diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis (multicomponent acellular, standard dose), polio (whole inactivated, trivalent) and hepatitis B (recombinant) vaccine, pediatric",
    "valences": [
     "VAL008",
     "VAL056",
@@ -11614,7 +11614,7 @@
    "status": "active",
    "label": "EUVICHOL-S",
    "created": "2024-07-29",
-   "modified": "2024-07-29",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -11703,18 +11703,18 @@
   "VAC1259": {
    "abstract": false,
    "status": "active",
-   "label": "COMIRNATY JN.1 10 µg",
+   "label": "COMIRNATY JN.1 10 µg CHILDREN (5-11 YEARS)",
    "created": "2024-08-23",
-   "modified": "2025-04-25",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1412"
   },
   "VAC1260": {
    "abstract": false,
    "status": "active",
-   "label": "COMIRNATY JN.1 3 µg",
+   "label": "COMIRNATY JN.1 3 µg CHILDREN (6 MONTHS-4 YEARS)",
    "created": "2024-08-23",
-   "modified": "2025-04-25",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1413"
   },
@@ -11772,7 +11772,7 @@
    "status": "active",
    "label": "PENMENVY",
    "created": "2025-02-17",
-   "modified": "2025-02-18",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -11817,7 +11817,7 @@
    "status": "active",
    "label": "TYT BIOMED",
    "created": "2025-02-19",
-   "modified": "2025-02-19",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -11968,9 +11968,9 @@
   "VAC1285": {
    "abstract": false,
    "status": "active",
-   "label": "NOPV2 BIO FARMA",
+   "label": "NOPV2",
    "created": "2025-03-04",
-   "modified": "2025-03-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0852"
   },
@@ -12130,9 +12130,9 @@
   "VAC1303": {
    "abstract": false,
    "status": "active",
-   "label": "VLA15",
+   "label": "TRIPVAC",
    "created": "2025-03-12",
-   "modified": "2025-03-15",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1180"
   },
@@ -12280,9 +12280,9 @@
   "VAC1319": {
    "abstract": false,
    "status": "active",
-   "label": "DIPHTHERIA, TETANUS, PERTUSSIS AND HAEMOPHILUS INFLUENZAE B SII",
+   "label": "DIPHTERIA, TETANUS, PERTUSSIS AND HAEMOPHILUS INFLUENZAE B SII",
    "created": "2025-03-13",
-   "modified": "2025-03-15",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1161"
   },
@@ -12397,27 +12397,27 @@
   "VAC1332": {
    "abstract": false,
    "status": "active",
-   "label": "COMIRNATY KP.2 3 µg",
+   "label": "COMIRNATY KP.2 3 µg CHILDREN (6 MONTHS-4 YEARS)",
    "created": "2025-03-25",
-   "modified": "2025-06-03",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1416"
   },
   "VAC1333": {
    "abstract": false,
    "status": "active",
-   "label": "COMIRNATY KP.2 10 µg",
+   "label": "COMIRNATY KP.2 10 µg CHILDREN (5-11 YEARS)",
    "created": "2025-03-25",
-   "modified": "2025-06-03",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1417"
   },
   "VAC1334": {
    "abstract": false,
    "status": "active",
-   "label": "COMIRNATY KP.2 30 µg",
+   "label": "COMIRNATY KP.2 30 µg ADULT (+ 12 YEARS)",
    "created": "2025-03-25",
-   "modified": "2025-06-03",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1418"
   },
@@ -12471,7 +12471,7 @@
    "status": "active",
    "label": "SPIKEVAX BA.1 0,1 mg/mL dose 50 µg",
    "created": "2025-03-27",
-   "modified": "2025-04-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -12707,7 +12707,7 @@
    "status": "active",
    "label": "HILLCHOL",
    "created": "2025-04-04",
-   "modified": "2025-04-04",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -12806,7 +12806,7 @@
    "status": "active",
    "label": "VAXIFLU-4",
    "created": "2025-04-07",
-   "modified": "2025-04-07",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -12851,7 +12851,7 @@
    "status": "active",
    "label": "SKYTYPHOID",
    "created": "2025-04-07",
-   "modified": "2025-04-17",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -12860,7 +12860,7 @@
    "status": "active",
    "label": "CYVAC",
    "created": "2025-04-07",
-   "modified": "2025-04-07",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -12878,7 +12878,7 @@
    "status": "active",
    "label": "GC FLU QUADRIVALENT",
    "created": "2025-04-07",
-   "modified": "2025-04-07",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -13031,7 +13031,7 @@
    "status": "active",
    "label": "EASYSIX",
    "created": "2025-04-09",
-   "modified": "2025-04-09",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -13584,7 +13584,7 @@
    "status": "active",
    "label": "PRIMAVAX",
    "created": "2025-07-29",
-   "modified": "2025-07-29",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -13656,7 +13656,7 @@
    "status": "active",
    "label": "PNU-IMUNE 14",
    "created": "2025-07-30",
-   "modified": "2025-07-31",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -13683,7 +13683,7 @@
    "status": "active",
    "label": "PERDIPIGEN",
    "created": "2025-07-30",
-   "modified": "2025-07-30",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -13699,9 +13699,9 @@
   "VAC1467": {
    "abstract": false,
    "status": "active",
-   "label": "COMIRNATY LP.8.1 3 µg 6 MOIS-4 ANS",
+   "label": "COMIRNATY LP.8.1 3 µg",
    "created": "2025-08-28",
-   "modified": "2026-04-23",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1470"
   },
@@ -13770,9 +13770,9 @@
   "VAC1474": {
    "abstract": false,
    "status": "active",
-   "label": "ENFLONSIA (CLESROVIMAB)",
+   "label": "ENFLONSIA (clesrovimab)",
    "created": "2025-10-08",
-   "modified": "2025-11-17",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1475"
   },
@@ -13805,9 +13805,9 @@
   "VAC1477": {
    "abstract": false,
    "status": "active",
-   "label": "ENCEPUR N ENFANT",
+   "label": "ENCEPUR N CHILDREN",
    "created": "2025-11-14",
-   "modified": "2025-12-12",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -13861,34 +13861,34 @@
    "status": "active",
    "label": "ENCEPUR N",
    "created": "2025-12-12",
-   "modified": "2025-12-12",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
   "VAC1484": {
    "abstract": false,
    "status": "active",
-   "label": "HEPRECOMB ENFANT",
+   "label": "HEPRECOMB CHILDREN",
    "created": "2025-12-12",
-   "modified": "2025-12-12",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1227"
   },
   "VAC1485": {
    "abstract": false,
    "status": "active",
-   "label": "GEN H-B-VAX 5",
+   "label": "GEN H-B-Vax 5",
    "created": "2025-12-12",
-   "modified": "2025-12-12",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1227"
   },
   "VAC1486": {
    "abstract": false,
    "status": "active",
-   "label": "GEN H-B-VAX 10",
+   "label": "GEN H-B-Vax 10",
    "created": "2025-12-12",
-   "modified": "2025-12-12",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0914"
   },
@@ -13940,9 +13940,9 @@
   "VAC1492": {
    "abstract": false,
    "status": "active",
-   "label": "POLIOMYELITIS IMPFSTOFF BERNA",
+   "label": "POLYOMYELITIS IMPFSTOFF BERNA",
    "created": "2026-01-07",
-   "modified": "2026-01-08",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0270"
   },
@@ -14012,9 +14012,9 @@
   "VAC1500": {
    "abstract": false,
    "status": "active",
-   "label": "SPIKEVAX LP.8.1 50 µg",
+   "label": "COMIRNATY LP.8.1 50 µg",
    "created": "2026-01-20",
-   "modified": "2026-01-20",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -14023,7 +14023,7 @@
    "status": "active",
    "label": "SPIKEVAX LP.8.1 25 µg",
    "created": "2026-01-20",
-   "modified": "2026-01-20",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -14070,7 +14070,7 @@
    "status": "active",
    "label": "STROVAC",
    "created": "2026-03-10",
-   "modified": "2026-03-10",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -14079,7 +14079,7 @@
    "status": "active",
    "label": "BUTANTAN-DV",
    "created": "2026-03-17",
-   "modified": "2026-03-18",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -14122,9 +14122,9 @@
   "VAC1512": {
    "abstract": false,
    "status": "active",
-   "label": "BUTANTAN DT ADULTE",
+   "label": "BUTANTAN DT ADULT",
    "created": "2026-03-18",
-   "modified": "2026-03-19",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0920"
   },
@@ -14149,9 +14149,9 @@
   "VAC1515": {
    "abstract": false,
    "status": "active",
-   "label": "BUTANTAN RAGE",
+   "label": "BUTANTAN RABIES",
    "created": "2026-03-19",
-   "modified": "2026-03-19",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC1116"
   },
@@ -14178,7 +14178,7 @@
    "status": "active",
    "label": "MFLUSIVA",
    "created": "2026-08-07",
-   "modified": "2026-08-07",
+   "modified": "2026-09-10",
    "comment": "",
    "instanceOf": "VAC0000"
   },
@@ -14334,7 +14334,7 @@
    "modified": "2026-09-10",
    "shorthand": "ZZZ",
    "label": "Parent for deprecated valences",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL001": {
@@ -14342,15 +14342,15 @@
    "modified": "2025-04-29",
    "shorthand": "INF-L3",
    "label": "Influenza valence, trivalent, live attenuated, standard dose",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL140"
   },
   "VAL002": {
    "created": "2021-07-19",
-   "modified": "2025-04-29",
+   "modified": "2026-09-10",
    "shorthand": "Ty-ViC",
    "label": "Typhoid valence, conjugated, Vi polysaccharide antigen linked to a carrier protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL014"
   },
   "VAL003": {
@@ -14358,7 +14358,7 @@
    "modified": "2025-04-29",
    "shorthand": "Per",
    "label": "Pertussis valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL004": {
@@ -14366,7 +14366,7 @@
    "modified": "2025-04-29",
    "shorthand": "CHOL-I-I",
    "label": "Cholera valence, inactivated, whole-cell, injectable",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL359"
   },
   "VAL005": {
@@ -14374,7 +14374,7 @@
    "modified": "2025-04-29",
    "shorthand": "MEAS-LA",
    "label": "Measles valence, live attenuated",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL182"
   },
   "VAL006": {
@@ -14382,7 +14382,7 @@
    "modified": "2025-04-29",
    "shorthand": "Bruc",
    "label": "Brucella valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL007": {
@@ -14390,7 +14390,7 @@
    "modified": "2025-04-29",
    "shorthand": "rVSVdG-ZEBOV-GP",
    "label": "Ebola valence, replicating vector, recombinant vesicular stomatitis virus (rVSV) - EBOV GP glycoprotein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL126"
   },
   "VAL008": {
@@ -14398,7 +14398,7 @@
    "modified": "2025-04-29",
    "shorthand": "aP",
    "label": "Pertussis  valence, acellular, standard dose",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL117"
   },
   "VAL009": {
@@ -14406,7 +14406,7 @@
    "modified": "2025-04-29",
    "shorthand": "Mala-SPO",
    "label": "Malaria valence, sporozoite surface protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL025"
   },
   "VAL010": {
@@ -14414,7 +14414,7 @@
    "modified": "2025-04-29",
    "shorthand": "wP",
    "label": "Pertussis valence, inactivated, whole-cell",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL003"
   },
   "VAL011": {
@@ -14422,7 +14422,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-PS-rRBD",
    "label": "COVID-19 valence, protein subunit, recombinant spike protein (RBD)",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL104"
   },
   "VAL012": {
@@ -14430,7 +14430,7 @@
    "modified": "2025-07-29",
    "shorthand": "rHBsAg-40",
    "label": "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 40 micrograms (dialysis patient dosage)",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL090"
   },
   "VAL013": {
@@ -14438,7 +14438,7 @@
    "modified": "2025-04-29",
    "shorthand": "Shingles-gE",
    "label": "Shingles valence, varicella zoster virus (VZV) surface glycoprotein E (gE)",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL159"
   },
   "VAL014": {
@@ -14446,7 +14446,7 @@
    "modified": "2025-04-29",
    "shorthand": "Ty",
    "label": "Typhoid valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL015": {
@@ -14454,7 +14454,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-SUnd3",
    "label": "Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL122"
   },
   "VAL016": {
@@ -14462,7 +14462,7 @@
    "modified": "2025-04-29",
    "shorthand": "RIG",
    "label": "Rabies valence, immunoglobulin, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL017": {
@@ -14470,7 +14470,7 @@
    "modified": "2025-04-29",
    "shorthand": "ap",
    "label": "Pertussis valence, acellular, reduced dose",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL117"
   },
   "VAL018": {
@@ -14478,7 +14478,7 @@
    "modified": "2025-04-29",
    "shorthand": "POX-3G-LC16",
    "label": "Smallpox valence, third generation, minimally replicating live vaccinia virus",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL028"
   },
   "VAL019": {
@@ -14486,7 +14486,7 @@
    "modified": "2025-04-29",
    "shorthand": "DATx",
    "label": "Diphtheria valence, antitoxin",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL414"
   },
   "VAL020": {
@@ -14494,7 +14494,7 @@
    "modified": "2025-04-29",
    "shorthand": "Shingles-LA",
    "label": "Herpes zoster valence, live attenuated",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL160"
   },
   "VAL021": {
@@ -14502,7 +14502,7 @@
    "modified": "2025-04-29",
    "shorthand": "CHOL-I-O",
    "label": "Cholera valence, inactivated, whole-cell, oral",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL359"
   },
   "VAL022": {
@@ -14510,7 +14510,7 @@
    "modified": "2025-04-29",
    "shorthand": "POX-LA",
    "label": "Smallpox valence, live attenuated, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL418"
   },
   "VAL023": {
@@ -14518,7 +14518,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-SUid3",
    "label": "Influenza valence, trivalent, inactivated, split or subunit, intradermal route, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL024"
   },
   "VAL024": {
@@ -14526,7 +14526,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-SU3",
    "label": "Influenza valence, trivalent, inactivated, split or subunit, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL058"
   },
   "VAL025": {
@@ -14534,7 +14534,7 @@
    "modified": "2025-04-29",
    "shorthand": "Mala",
    "label": "Malaria valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL026": {
@@ -14542,7 +14542,7 @@
    "modified": "2025-04-29",
    "shorthand": "MenB-OMP",
    "label": "Meningococcal valence B:14:P1.7,16 outer membrane vesicle proteins",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL118"
   },
   "VAL027": {
@@ -14550,7 +14550,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-VVnr-S-Ad26",
    "label": "COVID-19 valence, non-replicating adenovirus 26 vector encoding the SARS-CoV-2 spike protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL070"
   },
   "VAL028": {
@@ -14558,7 +14558,7 @@
    "modified": "2025-04-29",
    "shorthand": "POX-3G",
    "label": "Smallpox valence, third-generation, live attenuated",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL022"
   },
   "VAL029": {
@@ -14566,7 +14566,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-VLP",
    "label": "Influenza valence, VLP, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL364"
   },
   "VAL030": {
@@ -14574,7 +14574,7 @@
    "modified": "2025-04-29",
    "shorthand": "Lyme-OspA",
    "label": "Borrelia burgdorferi valence, recombinant, outer surface protein A (OspA)",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL339"
   },
   "VAL031": {
@@ -14582,7 +14582,7 @@
    "modified": "2025-04-29",
    "shorthand": "TBE",
    "label": "Tick-borne encephalitis valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL032": {
@@ -14590,7 +14590,7 @@
    "modified": "2025-04-29",
    "shorthand": "Ty-ViPS",
    "label": "Typhoid valence, unconjugated Vi polysaccharide antigen",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL014"
   },
   "VAL033": {
@@ -14598,7 +14598,7 @@
    "modified": "2025-04-29",
    "shorthand": "mOPV2",
    "label": "Polio type 2 valence, monovalent, live attenuated, oral",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL133"
   },
   "VAL034": {
@@ -14606,7 +14606,7 @@
    "modified": "2025-05-05",
    "shorthand": "d",
    "label": "Diphtheria valence, toxoid, reduced dose",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL083"
   },
   "VAL035": {
@@ -14614,7 +14614,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-DNA-S",
    "label": "COVID-19 valence, plasmid DNA encoding the SARS-CoV-2 spike protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL164"
   },
   "VAL036": {
@@ -14622,7 +14622,7 @@
    "modified": "2025-04-29",
    "shorthand": "HPV-09-valent",
    "label": "Human Papillomavirus valence, VLP nonavalent, types 6, 11, 16, 18, 31, 33, 45, 52, 58",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL237"
   },
   "VAL037": {
@@ -14630,7 +14630,7 @@
    "modified": "2026-08-28",
    "shorthand": "MPV-A",
    "label": "Meningococcal A valence, unconjugated polysaccharide",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL297"
   },
   "VAL038": {
@@ -14638,7 +14638,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-VVr-S-Meas",
    "label": "COVID-19 valence, replicating measles virus vector encoding the SARS-CoV-2 spike protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL398"
   },
   "VAL039": {
@@ -14646,7 +14646,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-VLP-rS",
    "label": "COVID-19 valence, VLP, recombinant spike protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL164"
   },
   "VAL040": {
@@ -14654,7 +14654,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-SUnd4",
    "label": "Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL064"
   },
   "VAL041": {
@@ -14662,7 +14662,7 @@
    "modified": "2026-08-28",
    "shorthand": "MCV-A",
    "label": "Meningococcal A valence, polysaccharide conjugate",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL297"
   },
   "VAL042": {
@@ -14670,7 +14670,7 @@
    "modified": "2025-04-29",
    "shorthand": "POLIO",
    "label": "Polio valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL043": {
@@ -14678,7 +14678,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S",
    "label": "COVID-19 valence, mRNA encoding the SARS-CoV-2 spike protein, authorized",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL168"
   },
   "VAL044": {
@@ -14686,7 +14686,7 @@
    "modified": "2025-04-29",
    "shorthand": "VZV-LA",
    "label": "Varicella valence, live attenuated, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL045": {
@@ -14694,7 +14694,7 @@
    "modified": "2025-04-29",
    "shorthand": "pTy-I",
    "label": "Paratyphoid fever valence, inactivated, whole-cell",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL014"
   },
   "VAL046": {
@@ -14702,7 +14702,7 @@
    "modified": "2025-04-29",
    "shorthand": "Typhus",
    "label": "Typhus valence",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL047": {
@@ -14710,7 +14710,7 @@
    "modified": "2025-04-29",
    "shorthand": "IgHepB",
    "label": "Hepatitis B valence, immunoglobulin",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL048": {
@@ -14718,7 +14718,7 @@
    "modified": "2025-04-29",
    "shorthand": "MUMPS-I",
    "label": "Mumps valence, inactivated, whole-virus",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL183"
   },
   "VAL049": {
@@ -14726,7 +14726,7 @@
    "modified": "2025-04-29",
    "shorthand": "Hib-PS",
    "label": "Haemophilus influenzae type b valence, unconjugated PRP",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL177"
   },
   "VAL050": {
@@ -14734,7 +14734,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-VVnr-S-Ad5",
    "label": "COVID-19 valence, non-replicating adenovirus 5 vector encoding the SARS-CoV-2 spike protein, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL070"
   },
   "VAL051": {
@@ -14742,7 +14742,7 @@
    "modified": "2025-04-29",
    "shorthand": "AH5N1",
    "label": "Avian influenza A(H5N1) valence",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL386"
   },
   "VAL052": {
@@ -14750,7 +14750,7 @@
    "modified": "2025-04-29",
    "shorthand": "HPV-04-valent",
    "label": "Human Papillomavirus valence, VLP quadrivalent, types 6, 11, 16 and 18",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL237"
   },
   "VAL053": {
@@ -14758,7 +14758,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-PS",
    "label": "COVID-19 valence, protein subunit, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL164"
   },
   "VAL054": {
@@ -14766,7 +14766,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-VVnr-S-MVA",
    "label": "COVID-19 valence, non-replicating modified Ankara vaccine vector encoding the SARS-CoV-2 spike protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL397"
   },
   "VAL055": {
@@ -14774,7 +14774,7 @@
    "modified": "2025-04-29",
    "shorthand": "MEAS-Ig",
    "label": "Measles valence, immunoglobulin",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL056": {
@@ -14782,7 +14782,7 @@
    "modified": "2025-05-04",
    "shorthand": "IPV",
    "label": "Polio valence, trivalent, inactivated, whole-virus, injectable",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL042"
   },
   "VAL057": {
@@ -14790,7 +14790,7 @@
    "modified": "2025-05-20",
    "shorthand": "MCV-C",
    "label": "Meningococcal C valence, polysaccharide conjugate",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL298"
   },
   "VAL058": {
@@ -14798,7 +14798,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-SU",
    "label": "Influenza valence, Inactivated, split or subunit, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL365"
   },
   "VAL059": {
@@ -14806,7 +14806,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-L4",
    "label": "Influenza valence, quadrivalent, live attenuated, standard dose",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL140"
   },
   "VAL060": {
@@ -14814,7 +14814,7 @@
    "modified": "2025-04-29",
    "shorthand": "CHIK-LA",
    "label": "Chikungunya virus valence, live attenuated",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL390"
   },
   "VAL061": {
@@ -14822,7 +14822,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-PS-CpG1018",
    "label": "COVID-19 valence, protein subunit, recombinant spike protein, S-2P and CpG1018",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL104"
   },
   "VAL062": {
@@ -14830,7 +14830,7 @@
    "modified": "2025-04-29",
    "shorthand": "CHOL-SU-rCTB-O",
    "label": "Cholera valence, protein subunit, recombinant cholera toxin subunit B (rCTB)",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL021"
   },
   "VAL063": {
@@ -14838,7 +14838,7 @@
    "modified": "2025-04-29",
    "shorthand": "BAT",
    "label": "Botulism valence, antitoxin",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL420"
   },
   "VAL064": {
@@ -14846,7 +14846,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-SUNA4",
    "label": "Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL127"
   },
   "VAL065": {
@@ -14854,7 +14854,7 @@
    "modified": "2025-04-29",
    "shorthand": "RC-TDV",
    "label": "Dengue valence, live attenuated, tetravalent recombinant chimeric ",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL150"
   },
   "VAL066": {
@@ -14862,7 +14862,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-VVr-S-Influ",
    "label": "COVID-19 valence, replicating influenza virus vector encoding the SARS-CoV-2 spike protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL398"
   },
   "VAL067": {
@@ -14870,7 +14870,7 @@
    "modified": "2025-04-29",
    "shorthand": "T",
    "label": "Tetanus valence, toxoid",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL068": {
@@ -14878,7 +14878,7 @@
    "modified": "2025-04-29",
    "shorthand": "HepB",
    "label": "Hepatitis B valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL069": {
@@ -14886,7 +14886,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-VVnr-S-ChAdOx1",
    "label": "COVID-19 valence, non-replicating chimpanzee adenoviral vector ChAdOx1 encoding the SARS-CoV-2 spike protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL397"
   },
   "VAL070": {
@@ -14894,7 +14894,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-VVnr-S-Ad",
    "label": "COVID-19 valence, non-replicating adenoviral vector encoding the SARS-CoV-2 spike protein, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL397"
   },
   "VAL071": {
@@ -14902,7 +14902,7 @@
    "modified": "2025-04-29",
    "shorthand": "Ty-I",
    "label": "Typhoid valence, inactivated, whole-cell",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL014"
   },
   "VAL072": {
@@ -14910,7 +14910,7 @@
    "modified": "2025-04-29",
    "shorthand": "MenB-fHbpAB",
    "label": "Meningococcal B valence, containing fHbp of subfamilies A and B",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL161"
   },
   "VAL073": {
@@ -14918,7 +14918,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-VVr+APC",
    "label": "COVID-19 valence, replicating viral vector, antigen presenting cells",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL162"
   },
   "VAL074": {
@@ -14926,7 +14926,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-SUhd4",
    "label": "Influenza valence, quadrivalent, inactivated, split or subunit, high-dose",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL064"
   },
   "VAL075": {
@@ -14934,7 +14934,7 @@
    "modified": "2025-04-29",
    "shorthand": "Lepto-wI",
    "label": "Leptospira icterohaemorrhagiae valence, inactivated, whole-cell",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL076": {
@@ -14942,7 +14942,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-IV",
    "label": "COVID-19 valence, inactivated, whole-virion, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL164"
   },
   "VAL077": {
@@ -14950,7 +14950,7 @@
    "modified": "2025-04-29",
    "shorthand": "MUMPS-LA",
    "label": "Mumps valence, live attenuated",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL183"
   },
   "VAL078": {
@@ -14958,7 +14958,7 @@
    "modified": "2025-04-29",
    "shorthand": "MCV-Y",
    "label": "Meningococcal Y valence, polysaccharide conjugate",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL299"
   },
   "VAL079": {
@@ -14966,7 +14966,7 @@
    "modified": "2025-04-29",
    "shorthand": "Rub-LA",
    "label": "Rubella valence, live attenuated",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL080": {
@@ -14974,7 +14974,7 @@
    "modified": "2025-04-29",
    "shorthand": "Rab-I",
    "label": "Rabies valence, inactivated, whole virion, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL081": {
@@ -14982,7 +14982,7 @@
    "modified": "2025-04-29",
    "shorthand": "CHOL",
    "label": "Cholera valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL082": {
@@ -14990,7 +14990,7 @@
    "modified": "2025-04-29",
    "shorthand": "HPV",
    "label": "Human Papillomavirus valence, types unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL083": {
@@ -14998,7 +14998,7 @@
    "modified": "2025-04-29",
    "shorthand": "D-d",
    "label": "Diphtheria valence, toxoid, dose unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL414"
   },
   "VAL084": {
@@ -15006,7 +15006,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-VVr-S-VSV",
    "label": "COVID-19 valence, replicating vesicular stomatitis virus vector encoding the SARS-CoV-2 spike protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL398"
   },
   "VAL085": {
@@ -15014,7 +15014,7 @@
    "modified": "2025-04-29",
    "shorthand": "mOPV3",
    "label": "Polio type 3 valence, monovalent, live attenuated, oral",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL133"
   },
   "VAL086": {
@@ -15022,7 +15022,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-LA",
    "label": "COVID-19 valence, live attenuated, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL165"
   },
   "VAL087": {
@@ -15030,7 +15030,7 @@
    "modified": "2025-04-29",
    "shorthand": "CYD-TDV",
    "label": "Dengue valence, live attenuated, tetravalent chimeric recombinant based on the yellow fever 17D vaccine",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL150"
   },
   "VAL088": {
@@ -15038,7 +15038,7 @@
    "modified": "2025-04-29",
    "shorthand": "VZV-Ig",
    "label": "Varicella valence, immunoglobulin",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL089": {
@@ -15046,7 +15046,7 @@
    "modified": "2025-04-28",
    "shorthand": "JE-I",
    "label": "Japanese encephalitis valence, inactivated, whole-virus, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL249"
   },
   "VAL090": {
@@ -15054,7 +15054,7 @@
    "modified": "2025-07-29",
    "shorthand": "rHBsAg",
    "label": "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), dose unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL068"
   },
   "VAL091": {
@@ -15062,7 +15062,7 @@
    "modified": "2025-04-29",
    "shorthand": "Ty-LA-O",
    "label": "Typhoid valence, live attenuated, strain Ty21a, oral",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL014"
   },
   "VAL092": {
@@ -15070,7 +15070,7 @@
    "modified": "2025-04-29",
    "shorthand": "YF",
    "label": "Yellow fever valence, live attenuated",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL093": {
@@ -15078,7 +15078,7 @@
    "modified": "2025-04-29",
    "shorthand": "MEAS-I",
    "label": "Measles valence, inactivated, whole-virus",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL182"
   },
   "VAL094": {
@@ -15086,7 +15086,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-SUhd3",
    "label": "Influenza valence, trivalent, inactivated, fractionated or subunit, intramuscular or subcutaneous, non-adjuvanted, high dose",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL122"
   },
   "VAL095": {
@@ -15094,7 +15094,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-VVr-S-Nv",
    "label": "COVID-19 valence, replicating Newcastle disease virus vector encoding the SARS-CoV-2 spike protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL398"
   },
   "VAL096": {
@@ -15102,7 +15102,7 @@
    "modified": "2025-04-25",
    "shorthand": "BCG",
    "label": "BCG valence",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL097": {
@@ -15110,7 +15110,7 @@
    "modified": "2025-04-29",
    "shorthand": "D",
    "label": "Diphtheria valence, toxoid, standard dose",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL083"
   },
   "VAL098": {
@@ -15118,7 +15118,7 @@
    "modified": "2025-04-29",
    "shorthand": "4CMenB",
    "label": "Meningococcal B valence, four-component",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL161"
   },
   "VAL099": {
@@ -15126,7 +15126,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-pdm09",
    "label": "Influenza valence, inactivated, pandemic influenza H1N1 2009 ",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL058"
   },
   "VAL100": {
@@ -15134,7 +15134,7 @@
    "modified": "2025-04-29",
    "shorthand": "JE-LA-14-14-2",
    "label": "Japanese encephalitis valence, live attenuated virus, strain 14-14-2",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL248"
   },
   "VAL101": {
@@ -15142,7 +15142,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-VVnr-S-Nv",
    "label": "COVID-19 valence, non-replicating Newcastle disease virus vector encoding the SARS-CoV-2 spike protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL397"
   },
   "VAL102": {
@@ -15150,7 +15150,7 @@
    "modified": "2025-04-29",
    "shorthand": "HepE",
    "label": "Hepatitis E valence, recombinant peptide",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL103": {
@@ -15158,7 +15158,7 @@
    "modified": "2025-04-29",
    "shorthand": "Hib-C",
    "label": "Haemophilus influenzae type b valence, PRP-conjugated, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL177"
   },
   "VAL104": {
@@ -15166,7 +15166,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-PS-rS",
    "label": "COVID-19 valence, protein subunit, recombinant spike protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL053"
   },
   "VAL105": {
@@ -15174,7 +15174,7 @@
    "modified": "2025-04-29",
    "shorthand": "Pneumo",
    "label": "Pneumococcal valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL106": {
@@ -15182,7 +15182,7 @@
    "modified": "2025-04-29",
    "shorthand": "ROTA-LA",
    "label": "Rotavirus valence, live attenuated, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL107": {
@@ -15190,7 +15190,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-PS-rSnp",
    "label": "COVID-19 valence, protein subunit, recombinant spike protein nanoparticles",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL104"
   },
   "VAL108": {
@@ -15198,7 +15198,7 @@
    "modified": "2025-04-29",
    "shorthand": "ZebovVRnrAd26",
    "label": "Ebola valence, non-replicating viral vector, Ad26.ZEBOV",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL126"
   },
   "VAL109": {
@@ -15206,7 +15206,7 @@
    "modified": "2025-04-29",
    "shorthand": "Ebola-MVA-BN-Filo",
    "label": "Ebola valence, non-replicating viral vector, Modified Ankara vaccine ",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL126"
   },
   "VAL110": {
@@ -15214,7 +15214,7 @@
    "modified": "2025-04-29",
    "shorthand": "T-Ig",
    "label": "Tetanus valence, immunoglobulin",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL111": {
@@ -15222,7 +15222,7 @@
    "modified": "2025-04-29",
    "shorthand": "Bant",
    "label": "Anthrax valence, acellular",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL340"
   },
   "VAL112": {
@@ -15230,7 +15230,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-CC4",
    "label": "Influenza valence, quadrivalent, inactivated, obtained from cell culture, split or subunit, standard dose",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL360"
   },
   "VAL113": {
@@ -15238,7 +15238,7 @@
    "modified": "2025-04-29",
    "shorthand": "HPV-02-valent",
    "label": "Human Papillomavirus valence, VLP bivalent, types 16 and 18",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL237"
   },
   "VAL114": {
@@ -15246,7 +15246,7 @@
    "modified": "2025-07-29",
    "shorthand": "rHBsAg-10",
    "label": "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 10 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL090"
   },
   "VAL115": {
@@ -15254,7 +15254,7 @@
    "modified": "2025-07-29",
    "shorthand": "rHBsAg-20",
    "label": "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 20 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL090"
   },
   "VAL116": {
@@ -15262,7 +15262,7 @@
    "modified": "2025-04-29",
    "shorthand": "RSV-mAb-pal",
    "label": "RSV valence, monoclonal antibody, palivizumab",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL320"
   },
   "VAL117": {
@@ -15270,7 +15270,7 @@
    "modified": "2025-04-29",
    "shorthand": "Acel",
    "label": "Pertussis valence, acellular, dose unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL003"
   },
   "VAL118": {
@@ -15278,7 +15278,7 @@
    "modified": "2026-08-28",
    "shorthand": "MenB",
    "label": "Meningococcal B valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL234"
   },
   "VAL119": {
@@ -15286,7 +15286,7 @@
    "modified": "2026-08-28",
    "shorthand": "Covid-ARNm-S-OMI-XFG-50",
    "label": "COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL439"
   },
   "VAL120": {
@@ -15294,7 +15294,7 @@
    "modified": "2025-04-29",
    "shorthand": "MPV-poly",
    "label": "Meningococcal valence, polyvalent, unconjugated polysaccharide",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL234"
   },
   "VAL121": {
@@ -15302,7 +15302,7 @@
    "modified": "2025-05-06",
    "shorthand": "IPV-O",
    "label": "Polio valence, trivalent, inactivated, whole-virus, oral",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL042"
   },
   "VAL122": {
@@ -15310,7 +15310,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-SUNA3",
    "label": "Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL231"
   },
   "VAL123": {
@@ -15318,7 +15318,7 @@
    "modified": "2025-04-29",
    "shorthand": "Rota5-L",
    "label": "Rotavirus valence, pentavalent, live attenuated virus",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL106"
   },
   "VAL124": {
@@ -15326,7 +15326,7 @@
    "modified": "2025-04-29",
    "shorthand": "CHOL-LA",
    "label": "Cholera valence, live attenuated, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL081"
   },
   "VAL125": {
@@ -15334,7 +15334,7 @@
    "modified": "2025-04-29",
    "shorthand": "HepA-I",
    "label": "Hepatitis A valence, inactivated, whole-virus, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL288"
   },
   "VAL126": {
@@ -15342,7 +15342,7 @@
    "modified": "2025-04-29",
    "shorthand": "Ebola",
    "label": "Ebola valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL127": {
@@ -15350,7 +15350,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-SUimsc4",
    "label": "Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL230"
   },
   "VAL128": {
@@ -15358,7 +15358,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF",
    "label": "Influenza valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL129": {
@@ -15366,7 +15366,7 @@
    "modified": "2025-04-29",
    "shorthand": "HSV",
    "label": "Herpes simplex valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL130": {
@@ -15374,7 +15374,7 @@
    "modified": "2025-04-29",
    "shorthand": "HepA-VLP",
    "label": "Hepatitis A valence, virosome",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL125"
   },
   "VAL131": {
@@ -15382,7 +15382,7 @@
    "modified": "2025-05-21",
    "shorthand": "Yp-I",
    "label": "Plague valence, inactivated, whole-cell",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL422"
   },
   "VAL132": {
@@ -15390,7 +15390,7 @@
    "modified": "2025-04-29",
    "shorthand": "mOPV1",
    "label": "Polio type 1 valence, monovalent, live attenuated, oral",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL133"
   },
   "VAL133": {
@@ -15398,7 +15398,7 @@
    "modified": "2025-04-29",
    "shorthand": "mOPV",
    "label": "Polio valence, monovalent, live attenuated, oral, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL042"
   },
   "VAL134": {
@@ -15406,7 +15406,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-SUid4",
    "label": "Influenza valence, quadrivalent, inactivated, split or subunit, intradermal route, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL230"
   },
   "VAL135": {
@@ -15414,7 +15414,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-CT",
    "label": "COVID-19 valence, mRNA encoding the SARS-CoV-2 spike protein, in clinical trials ",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL303"
   },
   "VAL136": {
@@ -15422,7 +15422,7 @@
    "modified": "2025-04-29",
    "shorthand": "MCV-W",
    "label": "Meningococcal W valence, polysaccharide conjugate",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL300"
   },
   "VAL137": {
@@ -15430,7 +15430,7 @@
    "modified": "2025-04-29",
    "shorthand": "MPV-C",
    "label": "Meningococcal C valence, unconjugated",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL298"
   },
   "VAL138": {
@@ -15438,7 +15438,7 @@
    "modified": "2025-04-29",
    "shorthand": "MPV-W",
    "label": "Meningococcal W valence, unconjugated",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL300"
   },
   "VAL139": {
@@ -15446,7 +15446,7 @@
    "modified": "2025-04-29",
    "shorthand": "MPV-Y",
    "label": "Meningococcal Y valence, unconjugated polysaccharide",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL299"
   },
   "VAL140": {
@@ -15454,7 +15454,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-L",
    "label": "Influenza valence, live attenuated, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL128"
   },
   "VAL141": {
@@ -15462,7 +15462,7 @@
    "modified": "2025-04-29",
    "shorthand": "ROTA-LA-mv-RIX4414",
    "label": "Rotavirus valence, live attenuated, RIX4414 monovalent",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL106"
   },
   "VAL142": {
@@ -15470,7 +15470,7 @@
    "modified": "2025-04-29",
    "shorthand": "HepA-mv-PED",
    "label": "Hepatitis A valence, monovalent, inactivated, whole-virus, paediatric dose",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL283"
   },
   "VAL143": {
@@ -15478,7 +15478,7 @@
    "modified": "2025-04-29",
    "shorthand": "HepA-bv-PED",
    "label": "Hepatitis A valence, bivalent (hepatitis A and B), inactivated, whole-virus, paediatric dose",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL283"
   },
   "VAL144": {
@@ -15486,7 +15486,7 @@
    "modified": "2025-04-29",
    "shorthand": "HepA-mv-ADU",
    "label": "Hepatitis A valence, monovalent, inactivated, whole-virus, adult dose",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL284"
   },
   "VAL145": {
@@ -15494,7 +15494,7 @@
    "modified": "2025-04-29",
    "shorthand": "HepA-bv-ADU",
    "label": "Hepatitis A valence, bivalent (hepatitis A and B), inactivated, whole-virus, adult dose",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL284"
   },
   "VAL146": {
@@ -15502,7 +15502,7 @@
    "modified": "2025-04-29",
    "shorthand": "Bruc-I",
    "label": "Brucella valence, inactivated, whole-cell",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL006"
   },
   "VAL147": {
@@ -15510,7 +15510,7 @@
    "modified": "2025-04-29",
    "shorthand": "Bruc-IP",
    "label": "Brucella valence, protein subunit, antigen P.I. (phenol-insoluble)",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL006"
   },
   "VAL148": {
@@ -15518,7 +15518,7 @@
    "modified": "2025-04-29",
    "shorthand": "RSV-IG",
    "label": "RSV valence, immunoglobulin",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL317"
   },
   "VAL149": {
@@ -15526,7 +15526,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI",
    "label": "COVID-19 valence, Omicron variant, mRNA encoding the SARS-CoV-2 spike protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL043"
   },
   "VAL150": {
@@ -15534,7 +15534,7 @@
    "modified": "2025-04-29",
    "shorthand": "Den",
    "label": "Dengue valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL151": {
@@ -15542,7 +15542,7 @@
    "modified": "2025-04-29",
    "shorthand": "Tular",
    "label": "Tularemia valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL152": {
@@ -15550,7 +15550,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-I",
    "label": "Influenza valence, inactivated, whole-virus, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL365"
   },
   "VAL153": {
@@ -15558,7 +15558,7 @@
    "modified": "2025-04-29",
    "shorthand": "PRP-D",
    "label": "Haemophilus influenzae type b valence, PRP conjugated to diphtheria toxoid",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL103"
   },
   "VAL154": {
@@ -15566,7 +15566,7 @@
    "modified": "2025-04-25",
    "shorthand": "HbOC",
    "label": "Haemophilus influenzae type b valence, PRP conjugated to mutant diphtheria toxin CRM197",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL103"
   },
   "VAL155": {
@@ -15574,7 +15574,7 @@
    "modified": "2025-04-29",
    "shorthand": "PRP-OMP",
    "label": "Haemophilus influenzae type b valence, PRP conjugated to outer membrane protein of Neisseria meningitidis serogroup B",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL103"
   },
   "VAL156": {
@@ -15582,7 +15582,7 @@
    "modified": "2025-04-29",
    "shorthand": "PRP-T",
    "label": "Haemophilus influenzae type b valence, PRP conjugated to tetanus toxoid",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL103"
   },
   "VAL157": {
@@ -15590,7 +15590,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID",
    "label": "COVID-19 valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL158": {
@@ -15598,7 +15598,7 @@
    "modified": "2025-04-29",
    "shorthand": "pHBsAg",
    "label": "Hepatitis B valence, plasma derived",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL068"
   },
   "VAL159": {
@@ -15606,7 +15606,7 @@
    "modified": "2025-04-29",
    "shorthand": "Shingles-SU",
    "label": "Shingles valence, subunit",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL160"
   },
   "VAL160": {
@@ -15614,7 +15614,7 @@
    "modified": "2025-04-29",
    "shorthand": "Shingles",
    "label": "Shingles valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL161": {
@@ -15622,7 +15622,7 @@
    "modified": "2025-04-29",
    "shorthand": "MenB-mc",
    "label": "Meningococcus B valence, multicomponent, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL118"
   },
   "VAL162": {
@@ -15630,7 +15630,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-VVr",
    "label": "COVID-19 valence, replicating virus vector, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL165"
   },
   "VAL163": {
@@ -15638,7 +15638,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-VVnr",
    "label": "COVID-19 valence, non-replicating viral vector, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL165"
   },
   "VAL164": {
@@ -15646,7 +15646,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-non-live",
    "label": "COVID-19 valence, non live, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL157"
   },
   "VAL165": {
@@ -15654,7 +15654,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-live",
    "label": "COVID-19 valence, live, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL157"
   },
   "VAL166": {
@@ -15662,7 +15662,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-SUped3",
    "label": "Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, pediatric dose",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL122"
   },
   "VAL167": {
@@ -15670,7 +15670,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-VVnr+APC",
    "label": "COVID-19 valence, non-replicating viral vector, antigen presenting cells",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL163"
   },
   "VAL168": {
@@ -15678,7 +15678,7 @@
    "modified": "2025-05-07",
    "shorthand": "COVID-mRNA",
    "label": "COVID-19 valence, mRNA, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL164"
   },
   "VAL169": {
@@ -15686,7 +15686,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-SAM",
    "label": "COVID-19 valence, self-amplifying mRNA (SAM)",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL303"
   },
   "VAL170": {
@@ -15694,7 +15694,7 @@
    "modified": "2025-07-29",
    "shorthand": "rHepB-05",
    "label": "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 5 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL090"
   },
   "VAL171": {
@@ -15702,7 +15702,7 @@
    "modified": "2025-04-29",
    "shorthand": "VEE",
    "label": "Venezuelan equine encephalitis valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL172": {
@@ -15710,7 +15710,7 @@
    "modified": "2025-04-29",
    "shorthand": "Cbur",
    "label": "Q fever (Coxiella burnetii) valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL173": {
@@ -15718,7 +15718,7 @@
    "modified": "2025-05-20",
    "shorthand": "Junin-LA",
    "label": "Argentine hemorrhagic fever valence, Junin virus, live attenuated",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL421"
   },
   "VAL174": {
@@ -15726,7 +15726,7 @@
    "modified": "2025-04-29",
    "shorthand": "HAN",
    "label": "Hantavirus valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL175": {
@@ -15734,7 +15734,7 @@
    "modified": "2025-04-29",
    "shorthand": "Leish",
    "label": "Leishmaniasis valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL176": {
@@ -15742,7 +15742,7 @@
    "modified": "2025-04-29",
    "shorthand": "HPIVs",
    "label": "Human parainfluenza viruses valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL177": {
@@ -15750,7 +15750,7 @@
    "modified": "2025-04-29",
    "shorthand": "Hib",
    "label": "Haemophilus influenzae type b valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL178": {
@@ -15758,7 +15758,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-BA.1-25",
    "label": "COVID-19 valence, Omicron variant BA.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL393"
   },
   "VAL179": {
@@ -15766,7 +15766,7 @@
    "modified": "2026-08-28",
    "shorthand": "Covid-ARNm-S-OMI-XFG-25",
    "label": "COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL439"
   },
   "VAL180": {
@@ -15774,7 +15774,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-ORI-100",
    "label": "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 100 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL303"
   },
   "VAL181": {
@@ -15782,7 +15782,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-ORI-25",
    "label": "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL303"
   },
   "VAL182": {
@@ -15790,7 +15790,7 @@
    "modified": "2025-04-29",
    "shorthand": "MEAS",
    "label": "Measles valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL183": {
@@ -15798,7 +15798,7 @@
    "modified": "2025-04-29",
    "shorthand": "MUMPS",
    "label": "Mumps valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL184": {
@@ -15806,7 +15806,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV",
    "label": "Pneumococcus valence, conjugated polysaccharide, monovalent",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL105"
   },
   "VAL185": {
@@ -15814,7 +15814,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV",
    "label": "Pneumococcal valence, polysaccharide unconjugated, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL105"
   },
   "VAL186": {
@@ -15822,7 +15822,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-01",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 1",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL187": {
@@ -15830,7 +15830,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-03",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 3",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL188": {
@@ -15838,7 +15838,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-04",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 4",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL189": {
@@ -15846,7 +15846,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-05",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 5",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL190": {
@@ -15854,7 +15854,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-06A",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 6A",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL191": {
@@ -15862,7 +15862,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-06B",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 6B",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL192": {
@@ -15870,7 +15870,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-07F",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 7F",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL193": {
@@ -15878,7 +15878,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-08",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 8",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL194": {
@@ -15886,7 +15886,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-09V",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 9V",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL195": {
@@ -15894,7 +15894,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-10A",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 10A",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL196": {
@@ -15902,7 +15902,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-11A",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 11A",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL197": {
@@ -15910,7 +15910,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-12F",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 12F",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL198": {
@@ -15918,7 +15918,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-14",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 14",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL199": {
@@ -15926,7 +15926,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-15B",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 15B",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL200": {
@@ -15934,7 +15934,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-18C",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 18C",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL201": {
@@ -15942,7 +15942,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-19A",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 19A",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL202": {
@@ -15950,7 +15950,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-19F",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 19F",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL203": {
@@ -15958,7 +15958,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-22F",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 22F",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL204": {
@@ -15966,7 +15966,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-23F",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 23F",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL205": {
@@ -15974,7 +15974,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-33F",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 33F",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL206": {
@@ -15982,7 +15982,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-01",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 1",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL207": {
@@ -15990,7 +15990,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-02",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 2",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL208": {
@@ -15998,7 +15998,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-03",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 3",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL209": {
@@ -16006,7 +16006,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-04",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 4",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL210": {
@@ -16014,7 +16014,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-05",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 5",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL211": {
@@ -16022,7 +16022,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-06B",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 6B",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL212": {
@@ -16030,7 +16030,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-07F",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 7F",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL213": {
@@ -16038,7 +16038,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-08",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 8",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL214": {
@@ -16046,7 +16046,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-09N",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 9N",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL215": {
@@ -16054,7 +16054,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-09V",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 9V",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL216": {
@@ -16062,7 +16062,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-10A",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 10A",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL217": {
@@ -16070,7 +16070,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-11A",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 11A",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL218": {
@@ -16078,7 +16078,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-12F",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 12F",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL219": {
@@ -16086,7 +16086,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-14",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 14",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL220": {
@@ -16094,7 +16094,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-15B",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 15B",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL221": {
@@ -16102,7 +16102,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-15F",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 15F",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL222": {
@@ -16110,7 +16110,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-17F",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 17F",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL223": {
@@ -16118,7 +16118,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-18C",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 18C",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL224": {
@@ -16126,7 +16126,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-19A",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 19A",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL225": {
@@ -16134,7 +16134,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-19F",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 19F",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL226": {
@@ -16142,7 +16142,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-20",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 20",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL227": {
@@ -16150,7 +16150,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-22F",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 22F",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL228": {
@@ -16158,7 +16158,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-23F",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 23F",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL229": {
@@ -16166,7 +16166,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-33F",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 33F",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL230": {
@@ -16174,7 +16174,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-SU4",
    "label": "Influenza valence, quadrivalent, inactivated, split or subunit, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL058"
   },
   "VAL231": {
@@ -16182,7 +16182,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-SUimsc3",
    "label": "Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL024"
   },
   "VAL232": {
@@ -16190,7 +16190,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-06A",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 6A",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL233": {
@@ -16198,7 +16198,7 @@
    "modified": "2025-04-29",
    "shorthand": "PPSV-25",
    "label": "Pneumococcal valence, polysaccharide unconjugated, serotype 25",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL185"
   },
   "VAL234": {
@@ -16206,7 +16206,7 @@
    "modified": "2025-04-29",
    "shorthand": "Men",
    "label": "Meningococcal valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL235": {
@@ -16214,7 +16214,7 @@
    "modified": "2025-04-29",
    "shorthand": "MCV-poly",
    "label": "Meningococcal valence, polyvalent, conjugate polysaccharide",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL234"
   },
   "VAL236": {
@@ -16222,7 +16222,7 @@
    "modified": "2025-04-29",
    "shorthand": "HPV-mono",
    "label": "Human Papillomavirus valence, VLP monovalent",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL082"
   },
   "VAL237": {
@@ -16230,7 +16230,7 @@
    "modified": "2025-04-29",
    "shorthand": "HPV-poly",
    "label": "Human Papillomavirus valence, VLP polyvalent",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL082"
   },
   "VAL238": {
@@ -16238,7 +16238,7 @@
    "modified": "2025-04-29",
    "shorthand": "HPV-06",
    "label": "Human Papillomavirus valence, VLP, type 6",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL236"
   },
   "VAL239": {
@@ -16246,7 +16246,7 @@
    "modified": "2025-04-29",
    "shorthand": "HPV-11",
    "label": "Human Papillomavirus valence, VLP , type 11",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL236"
   },
   "VAL240": {
@@ -16254,7 +16254,7 @@
    "modified": "2025-04-29",
    "shorthand": "HPV-16",
    "label": "Human Papillomavirus valence, VLP, type 16",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL236"
   },
   "VAL241": {
@@ -16262,7 +16262,7 @@
    "modified": "2025-04-29",
    "shorthand": "HPV-18",
    "label": "Human Papillomavirus valence, VLP, type 18",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL236"
   },
   "VAL242": {
@@ -16270,7 +16270,7 @@
    "modified": "2025-04-29",
    "shorthand": "HPV-31",
    "label": "Human Papillomavirus valence, VLP, type 31",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL236"
   },
   "VAL243": {
@@ -16278,7 +16278,7 @@
    "modified": "2025-04-29",
    "shorthand": "HPV-33",
    "label": "Human Papillomavirus valence, VLP, type 33",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL236"
   },
   "VAL244": {
@@ -16286,7 +16286,7 @@
    "modified": "2025-04-29",
    "shorthand": "HPV-58",
    "label": "Human Papillomavirus valence, VLP, type 58",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL236"
   },
   "VAL245": {
@@ -16294,7 +16294,7 @@
    "modified": "2025-04-29",
    "shorthand": "HPV-52",
    "label": "Human Papillomavirus valence, VLP, type 52",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL236"
   },
   "VAL246": {
@@ -16302,7 +16302,7 @@
    "modified": "2025-04-29",
    "shorthand": "HPV-45",
    "label": "Human Papillomavirus valence, VLP, type 45",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL236"
   },
   "VAL247": {
@@ -16310,7 +16310,7 @@
    "modified": "2025-04-25",
    "shorthand": "JE-LAR",
    "label": "Japanese encephalitis valence, live attenuated chimeric virus",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL248"
   },
   "VAL248": {
@@ -16318,7 +16318,7 @@
    "modified": "2025-04-29",
    "shorthand": "JE-LA",
    "label": "Japanese encephalitis valence, live attenuated virus, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL249"
   },
   "VAL249": {
@@ -16326,7 +16326,7 @@
    "modified": "2025-04-25",
    "shorthand": "JE",
    "label": "Japanese encephalitis valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL250": {
@@ -16334,7 +16334,7 @@
    "modified": "2025-04-29",
    "shorthand": "JE-I-mb",
    "label": "Japanese encephalitis valence, inactivated, whole-virus, prepared on murine brain tissue",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL089"
   },
   "VAL251": {
@@ -16342,7 +16342,7 @@
    "modified": "2025-04-28",
    "shorthand": "JE-I-Vero",
    "label": "Japanese encephalitis valence, inactivated, whole-virus, derived from Vero cells",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL089"
   },
   "VAL252": {
@@ -16350,7 +16350,7 @@
    "modified": "2025-04-29",
    "shorthand": "RIG-hu",
    "label": "Rabies immunoglobulin, human origin",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL016"
   },
   "VAL253": {
@@ -16358,7 +16358,7 @@
    "modified": "2025-04-29",
    "shorthand": "eRIG",
    "label": "Rabies immunoglobulin valence, equine origin",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL016"
   },
   "VAL254": {
@@ -16366,7 +16366,7 @@
    "modified": "2025-04-29",
    "shorthand": "Rab-I-Semple",
    "label": "Rabies valence, inactivated, whole virion, semple type, prepared from goat or sheep brain tissue infected with rabies virus, contains myelin",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL256"
   },
   "VAL255": {
@@ -16374,7 +16374,7 @@
    "modified": "2025-04-29",
    "shorthand": "Rab-I-Fuenzalida",
    "label": "Rabies valence, inactivated, whole virion, Fuenzalida type, prepared from suckling mouse brain tissue infected with rabies virus, decreased myelin content",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL256"
   },
   "VAL256": {
@@ -16382,7 +16382,7 @@
    "modified": "2025-04-29",
    "shorthand": "Rab-I-NervousTissue",
    "label": "Rabies valence, inactivated, whole virion, prepared from animal brain tissue infected with rabies virus, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL080"
   },
   "VAL257": {
@@ -16390,7 +16390,7 @@
    "modified": "2025-04-29",
    "shorthand": "Rab-I-CC",
    "label": "Rabies valence, inactivated, whole virion, cell culture-based, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL080"
   },
   "VAL258": {
@@ -16398,7 +16398,7 @@
    "modified": "2025-04-29",
    "shorthand": "Rab-I-HDCV",
    "label": "Rabies valence, inactivated, whole virion, cell culture-based, human diploid cell vaccine (HDCV) MRC-5, inactivation with ß-propiolactone",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL257"
   },
   "VAL259": {
@@ -16406,7 +16406,7 @@
    "modified": "2025-04-29",
    "shorthand": "Rab-I-PCEC",
    "label": "Rabies valence, inactivated, whole virion, purified chick embryo cell vaccine (PCECV), obtained by growing the fixed rabies virus strain Flury LEP-25 in primary cultures of chick fibroblasts, virus inactivated with ß-propiolactone",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL257"
   },
   "VAL260": {
@@ -16414,7 +16414,7 @@
    "modified": "2025-04-29",
    "shorthand": "Rab-I-PVRV",
    "label": "Rabies valence, inactivated, whole virion, cell culture-based, purified Vero cell rabies vaccine (PVRV), Wistar strain, inactivation with ß-propiolactone",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL257"
   },
   "VAL261": {
@@ -16422,7 +16422,7 @@
    "modified": "2025-04-29",
    "shorthand": "Rab-I-PHKCV",
    "label": "Rabies valence, inactivated, whole virion, cell culture-based, primary hamster kidney cell vaccine (PHKCV), Beijing strain, inactivation with formalin",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL257"
   },
   "VAL262": {
@@ -16430,7 +16430,7 @@
    "modified": "2025-04-29",
    "shorthand": "Rab-I-EEV",
    "label": "Rabies valence, inactivated, whole virion, embryonated egg-based vaccine (EEV), unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL080"
   },
   "VAL263": {
@@ -16438,7 +16438,7 @@
    "modified": "2025-04-29",
    "shorthand": "Rab-I-PDEV",
    "label": "Rabies valence, inactivated, whole virion, purified duck embryo vaccine (PDEV), inactivation by ß-propiolactone",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL262"
   },
   "VAL264": {
@@ -16446,7 +16446,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-IV-Auth",
    "label": "COVID-19 valence, inactivated, whole-virion, authorized",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL076"
   },
   "VAL265": {
@@ -16454,7 +16454,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-IV-CT",
    "label": "COVID-19 valence, inactivated, whole-virion, clinical trial",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL076"
   },
   "VAL266": {
@@ -16462,7 +16462,7 @@
    "modified": "2025-04-29",
    "shorthand": "MCV-C-T",
    "label": "Meningococcal C valence, polysaccharide tetanus toxoid conjugated",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL057"
   },
   "VAL267": {
@@ -16470,7 +16470,7 @@
    "modified": "2025-04-29",
    "shorthand": "MCV-C-D",
    "label": "Meningococcal C valence, polysaccharide diphtheria toxoid conjugated",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL057"
   },
   "VAL268": {
@@ -16478,7 +16478,7 @@
    "modified": "2025-04-29",
    "shorthand": "MCV-C-CRM",
    "label": "Meningococcal C valence, polysaccharide conjugated to CRM197 protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL057"
   },
   "VAL269": {
@@ -16486,7 +16486,7 @@
    "modified": "2025-04-29",
    "shorthand": "MCV-A-CRM",
    "label": "Meningococcal A valence, polysaccharide conjugated to CRM197 Protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL041"
   },
   "VAL270": {
@@ -16494,7 +16494,7 @@
    "modified": "2025-04-29",
    "shorthand": "MCV-A-D",
    "label": "Meningococcal A valence, polysaccharide diphtheria toxoid conjugated",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL041"
   },
   "VAL271": {
@@ -16502,7 +16502,7 @@
    "modified": "2025-04-29",
    "shorthand": "MCV-A-T",
    "label": "Meningococcal A valence, polysaccharide conjugate valence to tetanus toxoid",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL041"
   },
   "VAL272": {
@@ -16510,7 +16510,7 @@
    "modified": "2025-04-29",
    "shorthand": "MCV-W-T",
    "label": "Meningococcal W valence, polysaccharide tetanus toxoid conjugated",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL136"
   },
   "VAL273": {
@@ -16518,7 +16518,7 @@
    "modified": "2025-04-29",
    "shorthand": "MCV-W-D",
    "label": "Meningococcal W valence, polysaccharide diphtheria toxoid conjugated",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL136"
   },
   "VAL274": {
@@ -16526,7 +16526,7 @@
    "modified": "2025-04-29",
    "shorthand": "MCV-W-CRM",
    "label": "Meningococcal W valence, polysaccharide conjugated to CRM197 protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL136"
   },
   "VAL275": {
@@ -16534,7 +16534,7 @@
    "modified": "2025-04-29",
    "shorthand": "MCV-Y-CRM",
    "label": "Meningococcal Y valence, polysaccharide conjugated to CRM197 protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL078"
   },
   "VAL276": {
@@ -16542,7 +16542,7 @@
    "modified": "2025-04-29",
    "shorthand": "MCV-Y-T",
    "label": "Meningococcal Y valence, polysaccharide tetanus toxoid conjugated",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL078"
   },
   "VAL277": {
@@ -16550,15 +16550,15 @@
    "modified": "2025-04-29",
    "shorthand": "MCV-Y-D",
    "label": "Meningococcal Y valence, polysaccharide diphtheria toxoid conjugated",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL078"
   },
   "VAL278": {
-   "created": "2022-04-06",
-   "modified": "2025-04-29",
-   "shorthand": "AD-LA",
-   "label": "Adenovirus valence, live attenuated, oral route, unspecified",
-   "class": "0",
+   "created": " 2022-04-06",
+   "modified": "2026-09-10",
+   "shorthand": " AD-LA",
+   "label": " Adenovirus valence, live attenuated, oral route, unspecified",
+   "vtype": "2.4.2",
    "parent": "Valence"
   },
   "VAL279": {
@@ -16566,7 +16566,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-SUped4",
    "label": "Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, pediatric dose",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL064"
   },
   "VAL280": {
@@ -16574,7 +16574,7 @@
    "modified": "2025-04-29",
    "shorthand": "BT",
    "label": "Botulism valence, toxoid",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL419"
   },
   "VAL281": {
@@ -16582,7 +16582,7 @@
    "modified": "2026-08-27",
    "shorthand": "AD7-LA",
    "label": "Adenovirus type 7 valence, live attenuated, oral route",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL278"
   },
   "VAL282": {
@@ -16590,7 +16590,7 @@
    "modified": "2026-08-27",
    "shorthand": "AD4-LA",
    "label": "Adenovirus type 4 valence, live attenuated, oral route",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL278"
   },
   "VAL283": {
@@ -16598,7 +16598,7 @@
    "modified": "2025-04-29",
    "shorthand": "HepA-PED",
    "label": "Hepatitis A valence, inactivated, whole-virus, paediatric dose, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL125"
   },
   "VAL284": {
@@ -16606,7 +16606,7 @@
    "modified": "2025-04-29",
    "shorthand": "HepA-ADU",
    "label": "Hepatitis A valence, inactivated, whole-virus, adult dose, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL125"
   },
   "VAL285": {
@@ -16614,7 +16614,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-CC3",
    "label": "Influenza valence, trivalent, inactivated, obtained from cell culture, split or subunit, standard dose",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL360"
   },
   "VAL286": {
@@ -16622,7 +16622,7 @@
    "modified": "2025-04-29",
    "shorthand": "HepA-LA",
    "label": "Hepatitis A valence, live attenuated, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL288"
   },
   "VAL287": {
@@ -16630,7 +16630,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-R4",
    "label": "Influenza valence, quadrivalent, recombinant",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL361"
   },
   "VAL288": {
@@ -16638,7 +16638,7 @@
    "modified": "2025-04-29",
    "shorthand": "HepA",
    "label": "Hepatitis A valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL289": {
@@ -16646,7 +16646,7 @@
    "modified": "2025-04-29",
    "shorthand": " COVID-mRNA-S-ORI-10",
    "label": "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL303"
   },
   "VAL290": {
@@ -16654,7 +16654,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-ORI-30",
    "label": "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL303"
   },
   "VAL291": {
@@ -16662,7 +16662,7 @@
    "modified": "2025-07-29",
    "shorthand": "HBs-r-3Ag",
    "label": "Hepatitis B valence, Recombinant, three antigens (HbS Ag, pre-S1, and pre-S2)",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL068"
   },
   "VAL292": {
@@ -16670,7 +16670,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-VVnr-S-Ad26-CT",
    "label": "COVID-19 valence, non-replicating adenovirus 26 vector encoding the SARS-CoV-2 spike protein, in clinical trials",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL070"
   },
   "VAL293": {
@@ -16678,7 +16678,7 @@
    "modified": "2025-04-29",
    "shorthand": "Anthrax-Ig",
    "label": "Anthrax immunoglobulin valence",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL294": {
@@ -16686,7 +16686,7 @@
    "modified": "2025-04-29",
    "shorthand": "POX-1G",
    "label": "Smallpox valence, first-generation, live attenuated",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL022"
   },
   "VAL295": {
@@ -16694,7 +16694,7 @@
    "modified": "2025-04-29",
    "shorthand": "POX-2G",
    "label": "Smallpox valence, second-generation, live attenuated",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL022"
   },
   "VAL296": {
@@ -16702,7 +16702,7 @@
    "modified": "2025-04-29",
    "shorthand": "POX-3G-MVA",
    "label": "Smallpox valence, non-replicating, third-generation, Modified Ankara vaccine",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL028"
   },
   "VAL297": {
@@ -16710,7 +16710,7 @@
    "modified": "2026-08-28",
    "shorthand": "MenA",
    "label": "Meningococcal A valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL234"
   },
   "VAL298": {
@@ -16718,7 +16718,7 @@
    "modified": "2026-08-28",
    "shorthand": "MenC",
    "label": "Meningococcal C valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL234"
   },
   "VAL299": {
@@ -16726,7 +16726,7 @@
    "modified": "2026-08-28",
    "shorthand": "MenY",
    "label": "Meningococcal Y valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL234"
   },
   "VAL300": {
@@ -16734,7 +16734,7 @@
    "modified": "2026-08-28",
    "shorthand": "MenW",
    "label": "Meningococcal W valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL234"
   },
   "VAL301": {
@@ -16742,7 +16742,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-R3",
    "label": "Influenza valence, trivalent, recombinant",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL361"
   },
   "VAL302": {
@@ -16750,7 +16750,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-ORI-50",
    "label": "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL303"
   },
   "VAL303": {
@@ -16758,7 +16758,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-ORI",
    "label": "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL043"
   },
   "VAL304": {
@@ -16766,7 +16766,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-ORI-15",
    "label": "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 15 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL303"
   },
   "VAL305": {
@@ -16774,7 +16774,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-BA.1-15",
    "label": "COVID-19 valence, Omicron variant BA.1, mRNA encoding the SARS-CoV-2 spike protein, 15 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL393"
   },
   "VAL306": {
@@ -16782,7 +16782,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-ORI-3",
    "label": "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL303"
   },
   "VAL307": {
@@ -16790,7 +16790,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-BA.4/5-15",
    "label": "COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2 spike protein,15 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL394"
   },
   "VAL308": {
@@ -16798,7 +16798,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-BA.4/5-25",
    "label": "COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL394"
   },
   "VAL309": {
@@ -16806,7 +16806,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-BA.4/5-5",
    "label": "COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2 spike protein, 5 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL394"
   },
   "VAL310": {
@@ -16814,7 +16814,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-ORI-5",
    "label": "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 5 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL303"
   },
   "VAL311": {
@@ -16822,7 +16822,7 @@
    "modified": "2025-04-29",
    "shorthand": "R21/Matrix-M",
    "label": "Malaria valence, R21/Matrix-M pre-erythrocytic",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL025"
   },
   "VAL312": {
@@ -16830,7 +16830,7 @@
    "modified": "2025-04-29",
    "shorthand": "TBE-K23",
    "label": "Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL031"
   },
   "VAL313": {
@@ -16838,7 +16838,7 @@
    "modified": "2025-04-29",
    "shorthand": "TBE-Neudorfl",
    "label": "Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl strain, dose not specified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL031"
   },
   "VAL314": {
@@ -16846,7 +16846,7 @@
    "modified": "2025-04-29",
    "shorthand": "TBE-Neudorfl-ADU",
    "label": "Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl strain, adult dose",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL313"
   },
   "VAL315": {
@@ -16854,7 +16854,7 @@
    "modified": "2025-04-29",
    "shorthand": "TBE-Neudorfl-PED",
    "label": "Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl strain, paediatric dose",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL313"
   },
   "VAL316": {
@@ -16862,7 +16862,7 @@
    "modified": "2025-04-29",
    "shorthand": "RSV-PreF3",
    "label": "RSV valence, protein subunit, recombinant, RSVPreF3 antigen derived from F protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL318"
   },
   "VAL317": {
@@ -16870,7 +16870,7 @@
    "modified": "2025-04-29",
    "shorthand": "RSV-Ab",
    "label": "RSV valence, antibody, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL338"
   },
   "VAL318": {
@@ -16878,7 +16878,7 @@
    "modified": "2025-04-28",
    "shorthand": "RSV-V",
    "label": "RSV valence, vaccine, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL338"
   },
   "VAL319": {
@@ -16886,7 +16886,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-VVnr-S-INH",
    "label": "COVID-19 valence, non-replicating adenoviral vector encoding the SARS-CoV-2 spike protein, inhalation vaccine, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL397"
   },
   "VAL320": {
@@ -16894,7 +16894,7 @@
    "modified": "2025-04-29",
    "shorthand": "RSV-mAb",
    "label": "RSV valence, monoclonal antibody, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL317"
   },
   "VAL321": {
@@ -16902,7 +16902,7 @@
    "modified": "2025-04-29",
    "shorthand": "VRS-mAb-nir",
    "label": "RSV valence, monoclonal antibody, nirsevimab",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL320"
   },
   "VAL322": {
@@ -16910,7 +16910,7 @@
    "modified": "2025-04-29",
    "shorthand": "RSV-PreFAB",
    "label": "RSV valence, protein subunit, recombinant, glycoprotein F subtypes A and B",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL318"
   },
   "VAL323": {
@@ -16918,7 +16918,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-XBB.1.5-30",
    "label": "COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL396"
   },
   "VAL324": {
@@ -16926,7 +16926,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-XBB.1.5-10",
    "label": "COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL396"
   },
   "VAL325": {
@@ -16934,7 +16934,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-XBB.1.5-3",
    "label": "COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL396"
   },
   "VAL326": {
@@ -16942,7 +16942,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-BA.4/5-1.5",
    "label": "COVID-19 valence, Omicron BA.4/BA.5 variant, SARS-CoV-2 spike protein mRNA 19, 1.5 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL394"
   },
   "VAL327": {
@@ -16950,7 +16950,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-ORI-1.5",
    "label": "COVID-19 valence, original virus, SARS-CoV-2 peak protein-encoding mRNA, 1.5 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL303"
   },
   "VAL328": {
@@ -16958,7 +16958,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-PS-rSnp-XBB",
    "label": "COVID-19 valence, protein subunit, recombinant spike protein nanoparticles, Omicron XBB.1.5 subvariant",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL107"
   },
   "VAL329": {
@@ -16966,7 +16966,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-XBB.1.5-50",
    "label": "COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL396"
   },
   "VAL330": {
@@ -16974,7 +16974,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-XBB.1.5-25",
    "label": "COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL396"
   },
   "VAL331": {
@@ -16982,7 +16982,7 @@
    "modified": "2025-04-29",
    "shorthand": "CMV-Ig",
    "label": "CMV valence, immunoglobulin",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL332": {
@@ -16990,7 +16990,7 @@
    "modified": "2025-04-29",
    "shorthand": "HepC",
    "label": "Hepatitis C valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL333": {
@@ -16998,7 +16998,7 @@
    "modified": "2025-04-29",
    "shorthand": "HIV",
    "label": "HIV valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL334": {
@@ -17006,7 +17006,7 @@
    "modified": "2026-08-25",
    "shorthand": "MEL",
    "label": "Melanoma valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL335": {
@@ -17014,7 +17014,7 @@
    "modified": "2025-02-12",
    "shorthand": "SPYO",
    "label": "Streptococcus pyogenes valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL336": {
@@ -17022,7 +17022,7 @@
    "modified": "2025-04-29",
    "shorthand": "RVF",
    "label": "Rift Valley Fever valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL337": {
@@ -17030,7 +17030,7 @@
    "modified": "2025-04-29",
    "shorthand": "POX-Ig",
    "label": "Smallpox valence, immunoglobulin",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL418"
   },
   "VAL338": {
@@ -17038,7 +17038,7 @@
    "modified": "2025-04-29",
    "shorthand": "RSV",
    "label": "RSV valence, antibody or vaccine, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL339": {
@@ -17046,7 +17046,7 @@
    "modified": "2025-04-29",
    "shorthand": "Lyme",
    "label": "Borrelia burgdorferi valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL340": {
@@ -17054,7 +17054,7 @@
    "modified": "2025-04-29",
    "shorthand": "Anthrax",
    "label": "Anthrax valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL341": {
@@ -17062,7 +17062,7 @@
    "modified": "2025-04-29",
    "shorthand": "Eco",
    "label": "Escherichia coli valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL345"
   },
   "VAL342": {
@@ -17070,7 +17070,7 @@
    "modified": "2025-04-29",
    "shorthand": "Kpn",
    "label": "Klebsiella pneumoniæ valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL345"
   },
   "VAL343": {
@@ -17078,7 +17078,7 @@
    "modified": "2025-04-29",
    "shorthand": "Efa",
    "label": "Enterococcus faecalis valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL345"
   },
   "VAL344": {
@@ -17086,7 +17086,7 @@
    "modified": "2025-04-29",
    "shorthand": "Pvu",
    "label": "Proteus vulgaris valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL345"
   },
   "VAL345": {
@@ -17094,7 +17094,7 @@
    "modified": "2025-04-29",
    "shorthand": "UTI",
    "label": "Urinary tract infections valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL346": {
@@ -17102,7 +17102,7 @@
    "modified": "2025-04-29",
    "shorthand": "EV71",
    "label": "Enterovirus A71 valence",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL347": {
@@ -17110,7 +17110,7 @@
    "modified": "2025-04-29",
    "shorthand": "Lepto-ca",
    "label": "Leptospira canicola valence, inactivated, whole-cell",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL348": {
@@ -17118,7 +17118,7 @@
    "modified": "2025-04-29",
    "shorthand": "Lepto-po",
    "label": "Leptospira pomona valence, inactivated whole-cell",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL349": {
@@ -17126,7 +17126,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-SUAnd3",
    "label": "Influenza valence, trivalent, inactivated, fractionated or subunit, adjuvanted",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL231"
   },
   "VAL350": {
@@ -17134,7 +17134,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-SUAnd4",
    "label": "Influenza valence, quadrivalent, inactivated, fractionated or subunit, adjuvanted, normal dose",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL127"
   },
   "VAL351": {
@@ -17142,7 +17142,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-V3",
    "label": "Influenza valence, trivalent, virosomal, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL362"
   },
   "VAL352": {
@@ -17150,7 +17150,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-V4",
    "label": "Influenza valence, quadrivalent, virosomal, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL362"
   },
   "VAL353": {
@@ -17158,7 +17158,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-02",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 2",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL354": {
@@ -17166,7 +17166,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-9N",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 9N",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL355": {
@@ -17174,7 +17174,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-17F",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 17F",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL356": {
@@ -17182,7 +17182,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-20",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 20",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL357": {
@@ -17190,7 +17190,7 @@
    "modified": "2025-04-29",
    "shorthand": "CHOL-LA-O",
    "label": "Cholera valence, live attenuated, oral",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL124"
   },
   "VAL358": {
@@ -17198,7 +17198,7 @@
    "modified": "2025-04-29",
    "shorthand": "BIG",
    "label": "Botulism valence, immunoglobulin",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL420"
   },
   "VAL359": {
@@ -17206,7 +17206,7 @@
    "modified": "2025-04-29",
    "shorthand": "CHOL-I",
    "label": "Cholera valence, inactivated, whole-cell, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL081"
   },
   "VAL360": {
@@ -17214,7 +17214,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-CC",
    "label": "Influenza valence, inactivated, obtained from cell culture, split or subunit, standard dose, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL364"
   },
   "VAL361": {
@@ -17222,7 +17222,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-R",
    "label": "Influenza valence, recombinant, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL364"
   },
   "VAL362": {
@@ -17230,7 +17230,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-V",
    "label": "Influenza valence, virosomal, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL364"
   },
   "VAL363": {
@@ -17238,7 +17238,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-VLP3",
    "label": "Influenza valence, trivalent, VLP, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL029"
   },
   "VAL364": {
@@ -17246,7 +17246,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-NL",
    "label": "Influenza valence, non-live, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL128"
   },
   "VAL365": {
@@ -17254,7 +17254,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-E",
    "label": "Influenza valence, non-live, obtained from egg culture, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL364"
   },
   "VAL366": {
@@ -17262,7 +17262,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-RNA",
    "label": "Influenza valence, RNA-based, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL128"
   },
   "VAL367": {
@@ -17270,7 +17270,7 @@
    "modified": "2025-04-29",
    "shorthand": "CHOL-I-O1-O",
    "label": "Cholera valence, V. cholerae O1, inactivated, whole-cell, oral",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL021"
   },
   "VAL368": {
@@ -17278,7 +17278,7 @@
    "modified": "2025-04-29",
    "shorthand": "CHOL-I-O139-O",
    "label": "Cholera valence, V. cholerae O139, inactivated, whole-cell, oral",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL021"
   },
   "VAL369": {
@@ -17286,7 +17286,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-15A",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 15A",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL370": {
@@ -17294,7 +17294,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-15C",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 15C",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL371": {
@@ -17302,7 +17302,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-16F",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 16C",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL372": {
@@ -17310,7 +17310,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-20A",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 20A",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL373": {
@@ -17318,7 +17318,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-23A",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 23A",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL374": {
@@ -17326,7 +17326,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-23B",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 23B",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL375": {
@@ -17334,7 +17334,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-24F",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 24F",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL376": {
@@ -17342,7 +17342,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-31",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 31",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL377": {
@@ -17350,7 +17350,7 @@
    "modified": "2025-04-29",
    "shorthand": "PCV-35B",
    "label": "Pneumococcal valence, polysaccharide conjugate, serotype 35B",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL184"
   },
   "VAL378": {
@@ -17358,7 +17358,7 @@
    "modified": "2025-07-29",
    "shorthand": "rHBsAg-15",
    "label": "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 15 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL090"
   },
   "VAL379": {
@@ -17366,7 +17366,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-JN.1-30",
    "label": "COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL395"
   },
   "VAL380": {
@@ -17374,7 +17374,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-JN.1-10",
    "label": "COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL395"
   },
   "VAL381": {
@@ -17382,7 +17382,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-JN.1-3",
    "label": "COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL395"
   },
   "VAL382": {
@@ -17390,7 +17390,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-PS-rSnp-JN.1",
    "label": "COVID-19 valence, protein subunit, recombinant spike protein in nanoparticles, sub-variant Omicron JN.1",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL107"
   },
   "VAL383": {
@@ -17398,7 +17398,7 @@
    "modified": "2025-04-29",
    "shorthand": "mRSV",
    "label": "RSV valence, Single-stranded 5' capped mRNA encoding the RSV glycoprotein F stabilized in the prefusion conformation",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL318"
   },
   "VAL384": {
@@ -17406,7 +17406,7 @@
    "modified": "2025-04-29",
    "shorthand": "LEP",
    "label": "Leprosy valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL385": {
@@ -17414,7 +17414,7 @@
    "modified": "2025-04-29",
    "shorthand": "AH5N8",
    "label": "Avian influenza A(H5N8) valence",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL386"
   },
   "VAL386": {
@@ -17422,7 +17422,7 @@
    "modified": "2025-04-29",
    "shorthand": "AH5",
    "label": "Avian influenza A(H5) valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL387": {
@@ -17430,7 +17430,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-JN.1-25",
    "label": "COVID-19 valence,  Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL395"
   },
   "VAL388": {
@@ -17438,7 +17438,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-JN.1-50",
    "label": "COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL395"
   },
   "VAL389": {
@@ -17446,7 +17446,7 @@
    "modified": "2025-04-29",
    "shorthand": "PAER7",
    "label": "Pseudomonas aeruginosa valence, 7 immunotypes",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL390": {
@@ -17454,7 +17454,7 @@
    "modified": "2025-04-29",
    "shorthand": "CHIK",
    "label": "Chikungunya virus valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL391": {
@@ -17462,7 +17462,7 @@
    "modified": "2025-04-29",
    "shorthand": "Chik-VLP",
    "label": "Chikungunya virus valence, VLP",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL390"
   },
   "VAL392": {
@@ -17470,7 +17470,7 @@
    "modified": "2025-04-29",
    "shorthand": "AH5N1-RNA",
    "label": "Avian influenza valence, mRNA",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL051"
   },
   "VAL393": {
@@ -17478,7 +17478,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-BA.1",
    "label": "COVID-19 valence, Omicron BA.1 variant, mRNA encoding the SARS-CoV-2 spike protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL149"
   },
   "VAL394": {
@@ -17486,7 +17486,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-BA.4/5",
    "label": "COVID-19 valence, Omicron variant BA.4/BA.5, mRNA encoding the SARS-CoV-2 spike protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL149"
   },
   "VAL395": {
@@ -17494,7 +17494,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-JN.1",
    "label": "COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL417"
   },
   "VAL396": {
@@ -17502,7 +17502,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-XBB.1.5",
    "label": "COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL417"
   },
   "VAL397": {
@@ -17510,7 +17510,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-VVnr-S",
    "label": "COVID-19 valence, non-replicating viral vector encoding the peak protein of SARS-CoV-2, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL163"
   },
   "VAL398": {
@@ -17518,7 +17518,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-VVr-S",
    "label": "COVID-19 valence, replicating viral vector, virus encoding the spike protein of SARS-CoV-2",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL162"
   },
   "VAL399": {
@@ -17526,7 +17526,7 @@
    "modified": "2025-04-29",
    "shorthand": "Ty-ViC-T",
    "label": "Typhoid valence, Vi antigen conjugated to tetanus toxoid",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL002"
   },
   "VAL400": {
@@ -17534,7 +17534,7 @@
    "modified": "2025-04-29",
    "shorthand": "Ty-ViC-CRM",
    "label": "Typhoid valence, Vi antigen conjugated to CRM197 protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL002"
   },
   "VAL401": {
@@ -17542,7 +17542,7 @@
    "modified": "2025-05-22",
    "shorthand": "EJ-I-Vero-3",
    "label": "Japanese encephalitis valence, inactivated, whole-virus, derived from Vero cells, 3 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL251"
   },
   "VAL402": {
@@ -17550,7 +17550,7 @@
    "modified": "2025-05-13",
    "shorthand": "EJ-I-Vero-6",
    "label": "Japanese encephalitis valence, inactivated, whole-virus, derived from Vero cells, 6 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL251"
   },
   "VAL403": {
@@ -17558,7 +17558,7 @@
    "modified": "2026-08-28",
    "shorthand": "MenX",
    "label": "Meningococcal X valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL234"
   },
   "VAL404": {
@@ -17566,7 +17566,7 @@
    "modified": "2025-04-29",
    "shorthand": "MCV-X",
    "label": "Meningococcal X valence, polysaccharide conjugate",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL403"
   },
   "VAL405": {
@@ -17574,7 +17574,7 @@
    "modified": "2025-04-29",
    "shorthand": "INF-pdm09-V",
    "label": "Influenza valence, live attenuated, pandemic influenza H1N1 2009",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL058"
   },
   "VAL406": {
@@ -17582,7 +17582,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-KP.2",
    "label": "COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL395"
   },
   "VAL407": {
@@ -17590,7 +17590,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-KP.2-3",
    "label": "COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL406"
   },
   "VAL408": {
@@ -17598,7 +17598,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-KP.2-10",
    "label": "COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL406"
   },
   "VAL409": {
@@ -17606,7 +17606,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-KP.2-30",
    "label": "COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL406"
   },
   "VAL410": {
@@ -17614,7 +17614,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-PS-rN",
    "label": "COVID-19 valence, protein subunit, recombinant N protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL053"
   },
   "VAL411": {
@@ -17622,7 +17622,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-BA.4/5-50",
    "label": "COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL394"
   },
   "VAL412": {
@@ -17630,7 +17630,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-BA.1-50",
    "label": "COVID-19 valence, Omicron variant BA.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL393"
   },
   "VAL413": {
@@ -17638,7 +17638,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-PS-rRBD-XBB.1.16",
    "label": "COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron XBB.1.16 subvariant",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL011"
   },
   "VAL414": {
@@ -17646,7 +17646,7 @@
    "modified": "2025-04-25",
    "shorthand": "DIPH",
    "label": "Diphtheria valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL415": {
@@ -17654,7 +17654,7 @@
    "modified": "2025-04-29",
    "shorthand": "BantAdj",
    "label": "Anthrax valence, acellular, adjuvanted",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL111"
   },
   "VAL416": {
@@ -17662,7 +17662,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-PS-rS-A",
    "label": "COVID-19 valence, protein subunit, recombinant spike protein, adjuvanted",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL104"
   },
   "VAL417": {
@@ -17670,7 +17670,7 @@
    "modified": "2025-04-29",
    "shorthand": "COVID-mRNA-S-OMI-BA.2",
    "label": "COVID-19 valence, Omicron BA.2 variant, mRNA encoding the SARS-CoV-2 spike protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL149"
   },
   "VAL418": {
@@ -17678,7 +17678,7 @@
    "modified": "2025-04-29",
    "shorthand": "POX",
    "label": "Smallpox valence, active or passive immunization products",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL419": {
@@ -17686,7 +17686,7 @@
    "modified": "2025-04-29",
    "shorthand": "BOT",
    "label": "Botulism valence, active or passive immunization products",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL420": {
@@ -17694,7 +17694,7 @@
    "modified": "2025-04-29",
    "shorthand": "BOT-passive",
    "label": "Botulism valence, passive immunization products",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL419"
   },
   "VAL421": {
@@ -17702,7 +17702,7 @@
    "modified": "2025-05-20",
    "shorthand": "Junin",
    "label": "Argentine hemorrhagic fever valence, Junin virus, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL422": {
@@ -17710,7 +17710,7 @@
    "modified": "2025-05-21",
    "shorthand": "Yp",
    "label": "Plague valence, unspecified",
-   "class": "0",
+   "vtype": "0",
    "parent": "Valence"
   },
   "VAL423": {
@@ -17718,7 +17718,7 @@
    "modified": "2025-08-28",
    "shorthand": "Covid-ARNm-S-OMI-LP.8.1",
    "label": "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL417"
   },
   "VAL424": {
@@ -17726,7 +17726,7 @@
    "modified": "2025-08-28",
    "shorthand": "Covid-ARNm-S-OMI-LP.8.1-30",
    "label": "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL423"
   },
   "VAL425": {
@@ -17734,7 +17734,7 @@
    "modified": "2025-08-28",
    "shorthand": "Covid-ARNm-S-OMI-LP.8.1-10",
    "label": "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL423"
   },
   "VAL426": {
@@ -17742,7 +17742,7 @@
    "modified": "2025-09-11",
    "shorthand": "Covid-ARNm-S-OMI-LP.8.1-3",
    "label": "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL423"
   },
   "VAL427": {
@@ -17750,7 +17750,7 @@
    "modified": "2025-09-11",
    "shorthand": "Covid-ARNm-S-frag",
    "label": "COVID-19 valence, mRNA encoding a fragment of the SARS-CoV-2 spike protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL043"
   },
   "VAL428": {
@@ -17758,7 +17758,7 @@
    "modified": "2025-09-12",
    "shorthand": "Covid-ARNm-S-frag-OMI-LP.8.1",
    "label": "Valence COVID-19, mRNA encoding the NTD and RBD fragments of the spike protein, Omicron LP.8.1 variant",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL427"
   },
   "VAL429": {
@@ -17766,7 +17766,7 @@
    "modified": "2025-10-08",
    "shorthand": "VRS-mAb-cle",
    "label": "RSV valence, monoclonal antibody, clesrovimab",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL320"
   },
   "VAL430": {
@@ -17774,7 +17774,7 @@
    "modified": "2025-11-14",
    "shorthand": "TBE-K23-25",
    "label": "Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain, 0,25 mL",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL312"
   },
   "VAL431": {
@@ -17782,7 +17782,7 @@
    "modified": "2025-11-14",
    "shorthand": "TBE-K23-50",
    "label": "Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain, 0,50 mL",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL312"
   },
   "VAL432": {
@@ -17790,7 +17790,7 @@
    "modified": "2026-01-20",
    "shorthand": "Covid-ARNm-S-OMI-LP.8.1-25",
    "label": "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL423"
   },
   "VAL433": {
@@ -17798,7 +17798,7 @@
    "modified": "2026-08-13",
    "shorthand": "Covid-ARNm-S-OMI-LP.8.1-50",
    "label": "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms.",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL423"
   },
   "VAL434": {
@@ -17806,7 +17806,7 @@
    "modified": "2026-01-28",
    "shorthand": "Covid-SP-rRBD-LP.8.1",
    "label": "COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL011"
   },
   "VAL435": {
@@ -17814,7 +17814,7 @@
    "modified": "2026-03-17",
    "shorthand": "DENV2LAV",
    "label": "Dengue valence, native attenuated strain",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL150"
   },
   "VAL436": {
@@ -17822,7 +17822,7 @@
    "modified": "2026-03-17",
    "shorthand": "DENV1rCH",
    "label": "Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-1",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL150"
   },
   "VAL437": {
@@ -17830,7 +17830,7 @@
    "modified": "2026-03-17",
    "shorthand": "DENV3rCH",
    "label": "Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-3",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL150"
   },
   "VAL438": {
@@ -17838,7 +17838,7 @@
    "modified": "2026-08-13",
    "shorthand": "DENV4rCH",
    "label": "Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-4",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL150"
   },
   "VAL439": {
@@ -17846,7 +17846,7 @@
    "modified": "2026-08-25",
    "shorthand": "Covid-ARNm-S-OMI-XFG",
    "label": "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL417"
   },
   "VAL440": {
@@ -17854,7 +17854,7 @@
    "modified": "2026-08-25",
    "shorthand": "Covid-ARNm-S-OMI-XFG-10",
    "label": "COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL439"
   },
   "VAL441": {
@@ -17862,7 +17862,7 @@
    "modified": "2026-08-25",
    "shorthand": "Covid-ARNm-S-OMI-XFG-30",
    "label": "COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL439"
   },
   "VAL442": {
@@ -17870,7 +17870,7 @@
    "modified": "2026-08-25",
    "shorthand": "MEL-ARNI",
    "label": "Melanoma valence, messenger RNA, individualized neoantigens",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL334"
   },
   "VAL443": {
@@ -17878,7 +17878,7 @@
    "modified": "2026-08-25",
    "shorthand": "Covid-SP-rSnp-XFG",
    "label": "COVID-19 valence, protein subunit, recombinant spike protein in nanoparticles, sub-variant Omicron XFG",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL107"
   },
   "VAL444": {
@@ -17886,7 +17886,7 @@
    "modified": "2026-08-25",
    "shorthand": "Covid-SP-rRBD-XFG",
    "label": "COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron XFG subvariant",
-   "class": "0",
+   "vtype": "0",
    "parent": "VAL011"
   }
  }

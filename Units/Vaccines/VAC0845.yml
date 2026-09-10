@@ -1,19 +1,7 @@
 abstract: false
-label: VACCIN POLIOMYELITIQUE ORAL PRODUIT SUR CELLULES VERO MERIEUX
-comment: Inactivated polio (trivalent) vaccine, oral
+status: active
+label: ORAL POLIO VACCINE PRODUCED ON VERO MERIEUX CELLS
+comment: ''
 created: '2022-02-26'
-modified: '2025-03-31'
-codes:
-  CIP:
-  - '3400933125271'
-  - '3400933125332'
-  - '3400933973636'
-  - '3400933973865'
-  CIS:
-  - '60111635'
-  NUVACode:
-  - 0845
-  SCT_NUVA:
-  - '10121002000104'
-valences:
-- VAL121
+modified: '2026-09-10'
+instanceOf: VAC1212

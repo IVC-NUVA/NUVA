@@ -1,13 +1,7 @@
 abstract: false
+status: active
 label: QUIMI-HIB
-comment: Haemophilus influenzae type b vaccine, capsular polysaccharide (polyribosylribitol
-  phosphate, PRP) conjugated to tetanus toxoid
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  NUVACode:
-  - 0188
-  SCT_NUVA:
-  - '3011002000103'
-valences:
-- VAL156
+instanceOf: VAC0345

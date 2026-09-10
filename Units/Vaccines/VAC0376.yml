@@ -1,13 +1,7 @@
 abstract: false
-label: SHANCHOL
-comment: Oral Inactivated whole-cell cholera vaccine
+status: active
+label: SHANCOL
+comment: ''
 created: '2021-07-19'
-modified: '2024-07-29'
-codes:
-  NUVACode:
-  - '0376'
-  SCT_NUVA:
-  - '5011002000104'
-valences:
-- VAL367
-- VAL368
+modified: '2026-09-10'
+instanceOf: VAC1257

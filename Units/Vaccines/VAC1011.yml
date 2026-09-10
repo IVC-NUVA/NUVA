@@ -1,17 +1,7 @@
 abstract: false
+status: active
 label: DITEKIBOOSTER
-comment: Diphtheria toxoid (low dose), tetanus toxoid and pertussis toxoid (acellular,
-  low dose) vaccine
+comment: ''
 created: '2022-08-09'
 modified: '2024-04-15'
-codes:
-  NUVACode:
-  - '1011'
-  SCT_NUVA:
-  - '12121002000100'
-  THL:
-  - '127'
-valences:
-- VAL017
-- VAL034
-- VAL067
+instanceOf: VAC0610

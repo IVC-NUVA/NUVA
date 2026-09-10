@@ -1,15 +1,8 @@
 abstract: true
-label: Adjuvanted adsorbed anthrax vaccine
-comment: Adjuvanted adsorbed anthrax cell vaccine
+status: active
+label: Anthrax vaccine, adjuvanted adsorbed
+comment: Anthrax vaccine, adjuvanted adsorbed
 created: '2025-02-27'
-modified: '2025-04-11'
-codes:
-  CVX:
-  - '24'
-  - '318'
-  NUVACode:
-  - '1279'
-  SCT_NUVA:
-  - '15621002000104'
+modified: '2026-09-07'
 valences:
 - VAL415

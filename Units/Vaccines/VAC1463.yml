@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: FREEZE-DRIED BCG VACCINE JAPAN
-comment: Tuberculosis vaccine
+comment: ''
 created: '2025-07-30'
 modified: '2025-07-30'
-codes:
-  NUVACode:
-  - '1463'
-  THL:
-  - '115'
-valences:
-- VAL096
+instanceOf: VAC0134

@@ -1,18 +1,7 @@
 abstract: false
+status: active
 label: EASYFOURPOL
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
-  acellular, standard dose), Haemophilus influenzae type b (conjugated to tetanus
-  toxoid) and inactivated polio (trivalent) pediatric vaccine, adsorbed
+comment: ''
 created: '2025-04-09'
 modified: '2025-04-09'
-codes:
-  NUVACode:
-  - '1405'
-  SCT_NUVA:
-  - '17001002000107'
-valences:
-- VAL010
-- VAL056
-- VAL067
-- VAL097
-- VAL156
+instanceOf: VAC1126

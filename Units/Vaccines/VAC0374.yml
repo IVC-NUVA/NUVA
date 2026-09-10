@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: SANDOVAC
-comment: Trivalent inactivated seasonal influenza vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-08-15'
-codes:
-  ELGA:
-  - '1079021'
-  NUVACode:
-  - '0374'
-  SCT_NUVA:
-  - '4971002000106'
-valences:
-- VAL015
+instanceOf: VAC0925

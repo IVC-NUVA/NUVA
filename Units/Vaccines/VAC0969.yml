@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: LYSSAVAC N BERNA
-comment: Whole virion inactivated rabies vaccine, cultured on Vero cells
+comment: ''
 created: '2022-06-13'
 modified: '2024-04-16'
-codes:
-  NUVACode:
-  - 0969
-  SCT_NUVA:
-  - '11681002000103'
-  SWISSLEGACY:
-  - '94'
-valences:
-- VAL260
+instanceOf: VAC1116

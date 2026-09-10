@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: VAKSIN CACAR
-comment: Smallpox vaccine, first-generation, live vaccinia virus
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  NUVACode:
-  - '0435'
-  SCT_NUVA:
-  - '5591002000103'
-valences:
-- VAL294
+instanceOf: VAC1122

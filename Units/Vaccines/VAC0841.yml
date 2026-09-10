@@ -1,22 +1,7 @@
 abstract: false
+status: active
 label: INFLUVAC 0,25 mL
-comment: Trivalent inactivated seasonal influenza vaccine, surface antigen, paediatric
-  dose
+comment: ''
 created: '2022-02-26'
 modified: '2025-04-09'
-codes:
-  CIP:
-  - '3400927561856'
-  - '3400927561917'
-  - '3400927562167'
-  - '3400927562228'
-  CIS:
-  - '66481278'
-  INFARMED:
-  - '5571211'
-  NUVACode:
-  - 0841
-  SCT_NUVA:
-  - '10071002000104'
-valences:
-- VAL015
+instanceOf: VAC0925

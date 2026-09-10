@@ -1,21 +1,7 @@
 abstract: false
+status: active
 label: KINRIX
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
-  acellular, standard dose) and inactivated polio (trivalent) pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-11-02'
-codes:
-  CVC:
-  - '22691000087106'
-  NDC:
-  - 58160-0812
-  - 58160-812
-  NUVACode:
-  - 0490
-  SCT_NUVA:
-  - '6161002000107'
-valences:
-- VAL008
-- VAL056
-- VAL067
-- VAL097
+instanceOf: VAC0551

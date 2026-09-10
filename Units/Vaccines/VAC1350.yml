@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: T SIS BIOMED
-comment: Tetanus toxoid vaccine
+comment: ''
 created: '2025-04-02'
 modified: '2025-04-02'
-codes:
-  NUVACode:
-  - '1350'
-  SCT_NUVA:
-  - '16431002000106'
-valences:
-- VAL067
+instanceOf: VAC0132

@@ -1,40 +1,7 @@
 abstract: false
-label: RECOMBIVAX HB PÉDIATRIQUE
-comment: Hepatitis B vaccine (Paediatric and adult dosage at 10 µg and dosage for
-  dialysis patients at 40 µg)
+status: active
+label: RECOMBIVAX HB
+comment: ''
 created: '2021-07-19'
-modified: '2022-10-28'
-codes:
-  AIC:
-  - '026710'
-  CVC:
-  - '6941000087103'
-  - '6951000087100'
-  DIN:
-  - 01934023
-  - '02243676'
-  - 02245977
-  INFARMED:
-  - '8559518'
-  - '8559526'
-  - '8559542'
-  - '8559559'
-  NDC:
-  - 00006-4093
-  - 00006-4094
-  - 00006-4980
-  - 00006-4981
-  - 00006-4992
-  - 00006-4995
-  - 0006-4093
-  - 0006-4094
-  - 0006-4981
-  - 0006-4992
-  - 0006-4995
-  - 54868-2219
-  NUVACode:
-  - '0356'
-  SCT_NUVA:
-  - '4771002000109'
-valences:
-- VAL068
+modified: '2026-09-10'
+instanceOf: VAC1125

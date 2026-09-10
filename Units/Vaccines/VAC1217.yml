@@ -1,15 +1,11 @@
 abstract: true
-label: Vaccine against hepatitis B and Haemophilus influenzae type b, unspecified
+status: active
+label: Hepatitis B and Haemophilus influenzae type b vaccine, unspecified
 comment: Hepatitis B and Haemophilus influenzae type b vaccine, capsular polysaccharide
   (polyribosylribitol phosphate, PRP) conjugated to the outer membrane protein of
   Neisseria meningitidis serogroup B
 created: '2024-06-05'
-modified: '2024-07-04'
-codes:
-  NUVACode:
-  - '1217'
-  SCT_NUVA:
-  - '14771002000107'
+modified: '2026-09-09'
 valences:
 - VAL114
 - VAL155

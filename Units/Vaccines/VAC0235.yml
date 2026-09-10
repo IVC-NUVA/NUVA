@@ -1,41 +1,7 @@
 abstract: false
+status: active
 label: FLUVIRIN
-comment: Trivalent inactivated seasonal influenza vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-06-06'
-codes:
-  AIC:
-  - 028372
-  CNK:
-  - '1103514'
-  - '1262666'
-  - '1320985'
-  - '1391853'
-  - '1451806'
-  - '1540418'
-  - '1619212'
-  - '1703248'
-  - '1789445'
-  INFARMED:
-  - '2214989'
-  - '4735494'
-  - '4735593'
-  - '4735692'
-  NDC:
-  - 66521-0112
-  - 66521-0113
-  - 66521-0114
-  - 66521-0115
-  - 66521-0116
-  - 66521-0117
-  - 66521-0118
-  - 70461-0119
-  - 70461-0120
-  NUVACode:
-  - '0235'
-  SCT_NUVA:
-  - '3531002000101'
-  THL:
-  - '64'
-valences:
-- VAL015
+instanceOf: VAC0925

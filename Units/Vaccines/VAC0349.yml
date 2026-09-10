@@ -1,16 +1,7 @@
 abstract: false
+status: active
 label: QUADRIGEN
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell
-  inactivated) and inactivated polio (trivalent) pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-11-02'
-codes:
-  NUVACode:
-  - 0349
-  SCT_NUVA:
-  - '4701002000100'
-valences:
-- VAL010
-- VAL056
-- VAL067
-- VAL097
+instanceOf: VAC1151

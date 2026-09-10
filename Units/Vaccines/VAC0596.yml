@@ -1,19 +1,11 @@
 abstract: true
+status: active
 label: DTaPHibHepB pentavalent vaccine, unspecified
 comment: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (multicomponent
   acellular, standard dose), Haemophilus influenzae type b (conjugated, unspecified)
   and hepatitis B (recombinant) pediatric vaccine
 created: '2021-07-19'
 modified: '2025-05-20'
-codes:
-  CVC:
-  - '20591000087106'
-  NUVACode:
-  - 0596
-  SCT_NUVA:
-  - '7231002000106'
-  SNOMED-CT:
-  - '2081000221102'
 valences:
 - VAL008
 - VAL067

@@ -1,55 +1,7 @@
 abstract: false
+status: active
 label: VARILRIX
-comment: Live attenuated chickenpox vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2026-03-01'
-codes:
-  AIC:
-  - 028427
-  CIP:
-  - '3400930128381'
-  - '3400936277229'
-  CIS:
-  - '62521070'
-  CNK:
-  - '0064527'
-  CODE_NATIONAL_SPAIN:
-  - '668822'
-  CP-NRONATIDENT:
-  - '0125022'
-  CTI:
-  - '129026'
-  - '588000'
-  CTI-EXTEND:
-  - 129026-01
-  - 129026-03
-  - 129026-04
-  - 129026-05
-  - 129026-06
-  - 129026-07
-  - 588000-01
-  CVC:
-  - '31541000087105'
-  - '7231000087104'
-  DIN:
-  - '02241047'
-  ELGA:
-  - '1316018'
-  INFARMED:
-  - '4800686'
-  - '4801080'
-  - '5571922'
-  - '8596403'
-  NUVACode:
-  - '0060'
-  PZN:
-  - 03709242
-  - 06955421
-  SCT_NUVA:
-  - '1361002000102'
-  SWISSMEDIC:
-  - '585'
-  THL:
-  - '46'
-valences:
-- VAL044
+instanceOf: VAC0159

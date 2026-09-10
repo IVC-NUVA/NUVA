@@ -1,10 +1,8 @@
 abstract: true
+status: deprecated
 label: Meningococcal vaccine, polyvalent, conjugate polysaccharide
 comment: Meningococcal vaccine, polyvalent, conjugate polysaccharide
 created: '2025-05-22'
 modified: '2026-08-28'
-codes:
-  NUVACode:
-  - '1439'
 valences:
 - VAL234

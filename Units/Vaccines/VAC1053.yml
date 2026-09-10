@@ -1,39 +1,7 @@
 abstract: false
-label: PFIZER COMIRNATY-3 XBB.1.5
-comment: COVID-19 mRNA vaccine, subvariant Omicron XBB.1.5, 3 micrograms, paediatric
-  dose (6 months-4 years)
+status: active
+label: COMIRNATY OMICRON XBB.1.5 3 µg
+comment: ''
 created: '2023-09-16'
-modified: '2025-04-25'
-codes:
-  CIP:
-  - '3400928099549'
-  - '3400930279076'
-  - '3400930295953'
-  CIS:
-  - '64995124'
-  CNK:
-  - '4741435'
-  CODE_NATIONAL_SPAIN:
-  - '763335'
-  CTI:
-  - '661740'
-  - '662701'
-  CTI-EXTEND:
-  - 661740-01
-  - 662701-01
-  ELGA:
-  - '5516984'
-  - '5528289'
-  EU-NUMBER:
-  - EU-1-20-1258-024
-  - EU-1-20-1258-026
-  INFARMED:
-  - '5862842'
-  NUVACode:
-  - '1053'
-  SCT_NUVA:
-  - '12761002000108'
-  SWISSMEDIC:
-  - '69815'
-valences:
-- VAL325
+modified: '2026-09-10'
+instanceOf: VAC1158

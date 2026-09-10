@@ -1,19 +1,7 @@
 abstract: false
-label: CUREVAC-RNA-COVID
-comment: COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, ongoing clinical
-  trial
+status: active
+label: Curevac-RNA-Covid
+comment: ''
 created: '2021-07-19'
-modified: '2024-06-04'
-codes:
-  CVC:
-  - '33221000087102'
-  ELGA:
-  - AUSL_000001
-  NUVACode:
-  - '0676'
-  SCT_NUVA:
-  - '8131002000101'
-  THL:
-  - '133'
-valences:
-- VAL135
+modified: '2026-09-10'
+instanceOf: VAC1166

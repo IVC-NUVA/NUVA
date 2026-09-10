@@ -1,26 +1,7 @@
 abstract: false
+status: active
 label: BOOSTRIXTETRA
-comment: Diphtheria toxoid (low dose), tetanus toxoid, pertussis (multicomponent acellular,
-  5 components, low dose) and inactivated polio (trivalent) vaccine, adsorbed
+comment: ''
 created: '2021-07-19'
 modified: '2025-10-22'
-codes:
-  CIP:
-  - '3400936773646'
-  - '3400936773707'
-  - '3400936773875'
-  - '3400936773936'
-  - '3400936774018'
-  - '3400936774186'
-  CIS:
-  - '62404793'
-  - '62996633'
-  NUVACode:
-  - '0043'
-  SCT_NUVA:
-  - '1131002000107'
-valences:
-- VAL017
-- VAL034
-- VAL056
-- VAL067
+instanceOf: VAC0585

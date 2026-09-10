@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: TT BIO FARMA
-comment: Tetanus vaccine (toxoid)
+comment: ''
 created: '2025-03-05'
 modified: '2025-03-05'
-codes:
-  NUVACode:
-  - '1297'
-  SCT_NUVA:
-  - '15801002000108'
-valences:
-- VAL067
+instanceOf: VAC0132

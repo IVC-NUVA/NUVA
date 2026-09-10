@@ -1,14 +1,10 @@
 abstract: true
-label: Trivalent vaccine against diphtheria, tetanus and rubella, unspecified
+status: active
+label: Diphtheria (standard dose), tetanus and rubella vaccine, unspecified
 comment: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid) and rubella
   vaccine (live attenuated)
 created: '2024-06-05'
-modified: '2024-07-04'
-codes:
-  NUVACode:
-  - '1221'
-  SCT_NUVA:
-  - '14811002000107'
+modified: '2026-09-02'
 valences:
 - VAL067
 - VAL079

@@ -1,15 +1,10 @@
 abstract: true
-label: Flu vaccine, trivalent inactivated, high dose, intradermal use, unspecified
-comment: Trivalent inactivated influenza vaccine, split or subunit, intradermal route,
+status: active
+label: Influenza vaccine, trivalent inactivated, split or subunit, intradermal route,
+  unspecified
+comment: Influenza vaccine, trivalent inactivated, split or subunit, intradermal route,
   unspecified
 created: '2024-07-15'
-modified: '2025-02-28'
-codes:
-  CVX:
-  - '144'
-  NUVACode:
-  - '1249'
-  SCT_NUVA:
-  - '15101002000101'
+modified: '2026-09-07'
 valences:
 - VAL023

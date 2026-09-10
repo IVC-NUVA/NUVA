@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: MORCVAX
-comment: Oral Inactivated whole-cell cholera vaccine
+comment: ''
 created: '2024-05-16'
 modified: '2024-05-16'
-codes:
-  NUVACode:
-  - '1096'
-  SCT_NUVA:
-  - '13501002000105'
-valences:
-- VAL021
+instanceOf: VAC0944

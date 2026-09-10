@@ -1,13 +1,7 @@
 abstract: false
+status: active
 label: VAC.DIFTO TETANO ISI
-comment: Diphtheria toxoid (unspecified dose) and tetanus toxoid vaccine
+comment: ''
 created: '2022-06-17'
 modified: '2024-04-15'
-codes:
-  NUVACode:
-  - 0978
-  SCT_NUVA:
-  - '11771002000109'
-valences:
-- VAL067
-- VAL083
+instanceOf: VAC0382

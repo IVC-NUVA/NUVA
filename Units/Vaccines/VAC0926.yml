@@ -1,51 +1,7 @@
 abstract: false
+status: active
 label: FLUCELVAX
-comment: Trivalent inactivated seasonal influenza vaccine, produced in cell culture
+comment: ''
 created: '2022-05-06'
 modified: '2025-09-11'
-codes:
-  AIC:
-  - '051752'
-  CIP:
-  - '3400930304662'
-  - '3400930304686'
-  - '3400930304693'
-  - '3400930304709'
-  CIS:
-  - '62752472'
-  CODE_NATIONAL_SPAIN:
-  - '766362'
-  - '766363'
-  - '766364'
-  - '766365'
-  CPT:
-  - '90661'
-  CTI:
-  - '663552'
-  - '663568'
-  - '663569'
-  - '663570'
-  CTI-EXTEND:
-  - 663552-01
-  - 663568-01
-  - 663569-01
-  - 663570-01
-  ELGA:
-  - '6054592'
-  EU-NUMBER:
-  - EU-1-24-1879-001
-  - EU-1-24-1879-002
-  - EU-1-24-1879-003
-  - EU-1-24-1879-004
-  NDC:
-  - 63851-0612
-  - 70461-555
-  - 70461-655
-  NUVACode:
-  - 0926
-  SCT_NUVA:
-  - '11151002000100'
-  SWISSMEDIC:
-  - '70144'
-valences:
-- VAL285
+instanceOf: VAC1175

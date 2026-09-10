@@ -1,16 +1,7 @@
 abstract: false
+status: active
 label: MENPOVAX 4 A+C+Y+W135
-comment: Unconjugated meningococcal polysaccharide vaccine, serogroups A, C, W and
-  Y
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  NUVACode:
-  - 0296
-  SCT_NUVA:
-  - '4161002000103'
-valences:
-- VAL037
-- VAL137
-- VAL138
-- VAL139
+instanceOf: VAC0152

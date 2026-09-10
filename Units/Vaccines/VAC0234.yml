@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: FLUOGEN
-comment: Trivalent whole virion inactivated seasonal influenza vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  NUVACode:
-  - '0234'
-  SCT_NUVA:
-  - '3521002000104'
-valences:
-- VAL152
+instanceOf: VAC0820

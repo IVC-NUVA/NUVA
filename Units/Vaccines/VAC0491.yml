@@ -1,24 +1,7 @@
 abstract: false
+status: active
 label: TENIVAC
-comment: Diphtheria toxoid (low dose) and tetanus toxoid vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  NDC:
-  - 49281-0215
-  - 49281-215
-  - 50090-2062
-  NTIN:
-  - '4150013581174'
-  - '4150013583246'
-  NUVACode:
-  - 0491
-  SCT_NUVA:
-  - '6171002000102'
-  UPC:
-  - '349281215100'
-  - '349281215155'
-  - '697177004285'
-valences:
-- VAL034
-- VAL067
+instanceOf: VAC0920

@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: MENZB
-comment: Meningococcal vaccine with outer membrane vesicle proteins
+comment: ''
 created: '2024-05-15'
 modified: '2024-06-06'
-codes:
-  NUVACode:
-  - '1090'
-  SCT_NUVA:
-  - '13431002000103'
-valences:
-- VAL026
+instanceOf: VAC0149

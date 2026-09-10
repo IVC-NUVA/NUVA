@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: MENPOVAX A
-comment: Unconjugated meningococcal polysaccharide vaccine, serogroup A
+comment: ''
 created: '2022-03-19'
 modified: '2024-04-23'
-codes:
-  NUVACode:
-  - 0868
-  SCT_NUVA:
-  - '10371002000101'
-valences:
-- VAL037
+instanceOf: VAC0865

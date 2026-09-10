@@ -1,14 +1,8 @@
 abstract: true
-label: Acellular anthrax vaccine, unspecified
+status: active
+label: Anthrax acellular vaccine, unspecified
 comment: Acellular anthrax vaccine, unspecified
 created: '2024-03-26'
-modified: '2024-07-04'
-codes:
-  NUVACode:
-  - '1075'
-  SCT_NUVA:
-  - '13151002000101'
-  SNOMED-CT:
-  - '860818003'
+modified: '2026-09-10'
 valences:
 - VAL111

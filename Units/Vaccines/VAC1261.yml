@@ -1,35 +1,7 @@
 abstract: false
+status: active
 label: NUVAXOVID JN.1
-comment: COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles,
-  with adjuvant (Matrix M), Omicron JN.1 subvariant
+comment: ''
 created: '2024-10-13'
 modified: '2025-11-16'
-codes:
-  AIC:
-  - '051560'
-  CIP:
-  - '3400930297841'
-  - '3400930297858'
-  - '3400930297865'
-  - '3400930297872'
-  CIS:
-  - '67954296'
-  CODE_NATIONAL_SPAIN:
-  - '764833'
-  - '764834'
-  CTI:
-  - '663772'
-  - '663773'
-  CTI-EXTEND:
-  - 663772-01
-  - 663773-01
-  ELGA:
-  - '5540089'
-  ICD11:
-  - XM6YA9
-  NUVACode:
-  - '1261'
-  SCT_NUVA:
-  - '15361002000102'
-valences:
-- VAL382
+instanceOf: VAC1414

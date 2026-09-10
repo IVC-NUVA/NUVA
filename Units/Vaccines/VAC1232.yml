@@ -1,12 +1,8 @@
 abstract: true
-label: Acellular pertussis vaccine, reduced dose, unspecified
-comment: Acellular pertussis vaccine, reduced dose
+status: active
+label: Pertussis acellular vaccine, reduced dose, unspecified
+comment: Pertussis acellular vaccine, reduced dose, unspecified
 created: '2024-06-05'
-modified: '2024-06-06'
-codes:
-  NUVACode:
-  - '1232'
-  SCT_NUVA:
-  - '14921002000108'
+modified: '2026-09-07'
 valences:
 - VAL017

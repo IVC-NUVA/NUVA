@@ -1,18 +1,7 @@
 abstract: false
+status: active
 label: COMBE FIVE
-comment: Paediatric vaccine for diphtheria (toxoid, standard dose), tetanus (toxoid),
-  whooping cough (whole, standard dose), hepatitis B and Haemophilus influenzae type
-  b (conjugated with tetanus toxoid).
+comment: ''
 created: '2025-03-11'
 modified: '2025-03-28'
-codes:
-  NUVACode:
-  - '1302'
-  SCT_NUVA:
-  - '15851002000107'
-valences:
-- VAL010
-- VAL067
-- VAL097
-- VAL114
-- VAL156
+instanceOf: VAC1181

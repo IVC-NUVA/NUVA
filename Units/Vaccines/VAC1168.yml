@@ -1,15 +1,11 @@
 abstract: true
-label: Quadrivalent DTPeHib- Diphtheria-Tetanus-Pertussis-Hib OC vaccine, unspecified
-comment: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis
-  (whole inactivated) and Haemophilus influenzae type b (diphtheria toxoid conjugate)
-  vaccine
+status: active
+label: Diphtheria (standard dose), tetanus, pertussis (whole inactivated) and Haemophilus
+  influenzae type b (diphtheria toxoid conjugate) vaccine (DTPeHib), pediatric
+comment: Diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis (whole inactivated)
+  and Haemophilus influenzae type b (diphtheria toxoid conjugate) vaccine, pediatric
 created: '2024-06-05'
-modified: '2024-06-06'
-codes:
-  NUVACode:
-  - '1168'
-  SCT_NUVA:
-  - '14271002000101'
+modified: '2026-09-10'
 valences:
 - VAL010
 - VAL067

@@ -1,16 +1,7 @@
 abstract: false
+status: active
 label: CERVAVAC
-comment: Human Papillomavirus vaccine, quadrivalent (types 6, 11, 16, and 18), recombinant
+comment: ''
 created: '2025-03-13'
 modified: '2025-03-14'
-codes:
-  NUVACode:
-  - '1317'
-  SCT_NUVA:
-  - '16031002000104'
-valences:
-- VAL052
-- VAL238
-- VAL239
-- VAL240
-- VAL241
+instanceOf: VAC0859

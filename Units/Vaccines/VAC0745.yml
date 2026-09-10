@@ -1,13 +1,7 @@
 abstract: false
-label: MF59 ADJUVANTED SARS-CoV-2 SCLAMP VACCINE
-comment: COVID-19 vaccine, protein subunit, recombinant spike protein, with adjuvant
-  (squalene)
+status: active
+label: MF59 adjuvanted SARS-CoV-2 Sclamp vaccine
+comment: ''
 created: '2021-07-19'
-modified: '2024-06-04'
-codes:
-  NUVACode:
-  - '0745'
-  SCT_NUVA:
-  - '8891002000105'
-valences:
-- VAL104
+modified: '2026-09-10'
+instanceOf: VAC1113

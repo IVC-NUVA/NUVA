@@ -1,17 +1,10 @@
 abstract: true
-label: Hib PRP-T conjugated vaccine, unspecified
+status: active
+label: Haemophilus influenzae type b (PRP-T) conjugated to tetanus toxoid vaccine,
+  unspecified
 comment: Haemophilus influenzae type b conjugate vaccine composed of PRP (polyribosylribitol
   phosphate) conjugated to tetanus toxoid
 created: '2021-07-19'
-modified: '2024-07-04'
-codes:
-  CPT:
-  - '90648'
-  CVX:
-  - '48'
-  NUVACode:
-  - '0345'
-  SCT_NUVA:
-  - '4661002000106'
+modified: '2026-09-10'
 valences:
 - VAL156

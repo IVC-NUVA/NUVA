@@ -1,10 +1,7 @@
 abstract: false
+status: active
 label: SPIKEVAX LP.8.1 25 µg
-comment: COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 25 micrograms
+comment: ''
 created: '2026-01-20'
-modified: '2026-01-20'
-codes:
-  NUVACode:
-  - '1501'
-valences:
-- VAL432
+modified: '2026-09-10'
+instanceOf: VAC0000

@@ -1,14 +1,10 @@
 abstract: true
-label: Single-stranded 5' capped mRNA encoding the Respiratory syncytial virus glycoprotein
-  F stabilized in the prefusion conformation
-comment: Single-stranded 5' capped mRNA encoding the Respiratory syncytial virus glycoprotein
-  F stabilized in the prefusion conformation
+status: active
+label: Respiratory syncytial virus glycoprotein F, stabilized in the prefusion conformation,
+  encoded by a single-stranded 5' capped mRNA
+comment: Respiratory syncytial virus glycoprotein F, stabilized in the prefusion conformation,
+  encoded by a single-stranded 5' capped mRNA
 created: '2025-04-14'
-modified: '2025-04-14'
-codes:
-  NUVACode:
-  - '1420'
-  SCT_NUVA:
-  - '17151002000105'
+modified: '2026-09-07'
 valences:
 - VAL383

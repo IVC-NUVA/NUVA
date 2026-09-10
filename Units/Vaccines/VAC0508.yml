@@ -1,13 +1,7 @@
 abstract: false
+status: active
 label: JEEV 3 µg
-comment: Whole inactivated Japanese encephalitis vaccine, prepared in Vero cells,
-  3 micrograms
+comment: ''
 created: '2021-07-19'
 modified: '2025-03-12'
-codes:
-  NUVACode:
-  - 0508
-  SCT_NUVA:
-  - '6361002000105'
-valences:
-- VAL251
+instanceOf: VAC1111

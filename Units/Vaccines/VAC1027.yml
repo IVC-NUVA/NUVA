@@ -1,14 +1,7 @@
 abstract: false
-label: KOVIVAC CHUMAKOV COVID-19 VACCINE
-comment: 'COVID-19 vaccine, whole virion inactivated; other name: Kovivac'
+status: active
+label: COVIVAC CHUMAKOV COVID-19 VACCINE
+comment: ''
 created: '2022-10-11'
-modified: '2025-04-25'
-codes:
-  ELGA:
-  - AUSL_000013
-  NUVACode:
-  - '1027'
-  SCT_NUVA:
-  - '12371002000102'
-valences:
-- VAL076
+modified: '2026-09-10'
+instanceOf: VAC1044

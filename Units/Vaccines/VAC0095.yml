@@ -1,16 +1,7 @@
 abstract: false
+status: active
 label: VACCIN TAB PASTEUR
-comment: Typhoid and paratyphoid A and B vaccine, whole-cell inactivated
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  CIP:
-  - '3400932421985'
-  - '3400955276579'
-  NUVACode:
-  - 0095
-  SCT_NUVA:
-  - '1841002000105'
-valences:
-- VAL045
-- VAL071
+instanceOf: VAC0818

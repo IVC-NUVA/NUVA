@@ -1,15 +1,7 @@
 abstract: false
+status: active
 label: VAKSIN SERAP
-comment: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (whole-cell
-  inactivated or acellular, unspecified dose) pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-11-02'
-codes:
-  NUVACode:
-  - 0438
-  SCT_NUVA:
-  - '5621002000101'
-valences:
-- VAL003
-- VAL067
-- VAL097
+instanceOf: VAC0601

@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: MEASLES SII
-comment: Live attenuated measles vaccine
+comment: ''
 created: '2025-03-12'
 modified: '2025-03-14'
-codes:
-  NUVACode:
-  - '1314'
-  SCT_NUVA:
-  - '16001002000105'
-valences:
-- VAL005
+instanceOf: VAC0114

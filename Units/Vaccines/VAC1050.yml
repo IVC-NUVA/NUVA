@@ -1,24 +1,7 @@
 abstract: false
-label: BEYFORTUS 100 MG (NIRSEVIMAB)
-comment: Human RSV monoclonal antibody
+status: active
+label: BEYFORTUS 100 mg (nirsevimab)
+comment: ''
 created: '2023-09-04'
-modified: '2025-11-17'
-codes:
-  CIP:
-  - '3400930268636'
-  CNK:
-  - '4803292'
-  CTI:
-  - '66082301'
-  CVX:
-  - '307'
-  ELGA:
-  - '5519126'
-  NUVACode:
-  - '1050'
-  SCT_NUVA:
-  - '12701002000107'
-  THL:
-  - '184'
-valences:
-- VAL321
+modified: '2026-09-10'
+instanceOf: VAC1147

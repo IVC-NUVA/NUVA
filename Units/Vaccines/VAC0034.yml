@@ -1,16 +1,7 @@
 abstract: false
+status: active
 label: SPIROLEPT
-comment: Inactivated whole-cell leptospirosis vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  CIP:
-  - '3400935147165'
-  CIS:
-  - '64175998'
-  NUVACode:
-  - '0034'
-  SCT_NUVA:
-  - '981002000105'
-valences:
-- VAL075
+instanceOf: VAC0148

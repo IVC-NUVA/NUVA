@@ -1,21 +1,13 @@
 abstract: true
-label: Pentavalent Diphtheria-Tetanus-Pertussis-Hib-Polio (DTPerHibIPV) vaccine, unspecified
+status: active
+label: Diphtheria (standard dose), tetanus, pertussis, Haemophilus influenzae type
+  b (conjugated) and inactivated polio (trivalent) pentavalent DTPerHibIPV vaccine,
+  adsorbed, pediatric
 comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (unspecified),
   conjugate Haemophilus influenzae type b (conjugated, unspecified) and inactivated
   polio (trivalent) pediatric vaccine, adsorbed
 created: '2022-03-28'
-modified: '2024-04-22'
-codes:
-  ATC:
-  - J07CA06
-  ICD11:
-  - XM1LX9
-  NUVACode:
-  - 0880
-  SCT_NUVA:
-  - '10491002000108'
-  SNOMED-CT:
-  - '871887006'
+modified: '2026-09-10'
 valences:
 - VAL003
 - VAL056

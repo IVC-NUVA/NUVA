@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: KIKHOSTE-VAKSINE
-comment: Pertussis (whole-cell inactivated) vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-11-02'
-codes:
-  NUVACode:
-  - '0273'
-  SCT_NUVA:
-  - '3921002000108'
-valences:
-- VAL010
+instanceOf: VAC0163

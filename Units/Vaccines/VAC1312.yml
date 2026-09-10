@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: TT SII
-comment: Tetanus vaccine (toxoid)
+comment: ''
 created: '2025-03-12'
 modified: '2025-03-14'
-codes:
-  NUVACode:
-  - '1312'
-  SCT_NUVA:
-  - '15981002000106'
-valences:
-- VAL067
+instanceOf: VAC0132

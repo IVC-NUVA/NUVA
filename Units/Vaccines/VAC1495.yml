@@ -1,17 +1,7 @@
 abstract: false
+status: active
 label: POLIO KOPROWSKI K1-K2-K3
-comment: Polio vaccine (live attenuated, trivalent) against polioviruses 1, 2 and
-  3, oral
+comment: ''
 created: '2026-01-08'
 modified: '2026-01-08'
-codes:
-  NUVACode:
-  - '1495'
-  SWISSLEGACY:
-  - '138'
-  - '139'
-  - '147'
-valences:
-- VAL033
-- VAL085
-- VAL132
+instanceOf: VAC0320

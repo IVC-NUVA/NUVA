@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: SCTV01C
-comment: COVID-19 protein subunit vaccine, recombinant protein
+comment: ''
 created: '2026-01-29'
 modified: '2026-01-29'
-codes:
-  NUVACode:
-  - '1505'
-  THL:
-  - '162'
-valences:
-- VAL104
+instanceOf: VAC1113

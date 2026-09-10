@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: MUMPS SII
-comment: Live attenuated mumps vaccine
+comment: ''
 created: '2025-03-12'
 modified: '2025-04-10'
-codes:
-  NUVACode:
-  - '1315'
-  SCT_NUVA:
-  - '16011002000108'
-valences:
-- VAL077
+instanceOf: VAC0153

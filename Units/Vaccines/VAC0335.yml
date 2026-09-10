@@ -1,18 +1,7 @@
 abstract: false
+status: active
 label: PLUSERIX
-comment: Live attenuated measles, mumps and rubella vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  AIC:
-  - '026444'
-  NUVACode:
-  - '0335'
-  SCT_NUVA:
-  - '4571002000100'
-  SWISSLEGACY:
-  - '75'
-valences:
-- VAL005
-- VAL077
-- VAL079
+instanceOf: VAC0130

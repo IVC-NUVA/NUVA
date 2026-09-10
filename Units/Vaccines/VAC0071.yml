@@ -1,17 +1,7 @@
 abstract: false
+status: active
 label: D.T. BIS - RUDIVAX
-comment: Diphtheria toxoid (standard dose), tetanus toxoid and Rubella (live attenuated)
-  pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  CIP:
-  - '3400931698401'
-  NUVACode:
-  - '0071'
-  SCT_NUVA:
-  - '1471002000101'
-valences:
-- VAL067
-- VAL079
-- VAL097
+instanceOf: VAC1221

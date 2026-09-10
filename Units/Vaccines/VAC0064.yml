@@ -1,30 +1,7 @@
 abstract: false
+status: active
 label: PENTACOQ
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell
-  inactivated), Haemophilus influenzae type b (conjugated to tetanus toxoid) and inactivated
-  polio (trivalent) pediatric vaccine, adsorbed
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  CIP:
-  - '3400933609054'
-  - '3400933952006'
-  - '3400935166616'
-  - '3400955833314'
-  - '3400955902362'
-  CIS:
-  - '60906295'
-  - '66878269'
-  - '69225227'
-  NUVACode:
-  - '0064'
-  SCT_NUVA:
-  - '1411002000108'
-  SWISSLEGACY:
-  - '99'
-valences:
-- VAL010
-- VAL056
-- VAL067
-- VAL097
-- VAL156
+instanceOf: VAC1126

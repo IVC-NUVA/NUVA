@@ -1,15 +1,7 @@
 abstract: false
+status: active
 label: ALDITERPERA
-comment: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (whole-cell
-  inactivated) pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-11-02'
-codes:
-  NUVACode:
-  - 0186
-  SCT_NUVA:
-  - '2991002000102'
-valences:
-- VAL010
-- VAL067
-- VAL097
+instanceOf: VAC0136

@@ -1,13 +1,7 @@
 abstract: false
+status: active
 label: IMOVAX Rabies I.D.
-comment: Whole virion inactivated rabies vaccine, prepared in human diploid cell culture
-  (HDCV), intradermal
+comment: ''
 created: '2021-07-19'
 modified: '2023-11-02'
-codes:
-  NUVACode:
-  - '0260'
-  SCT_NUVA:
-  - '3801002000109'
-valences:
-- VAL258
+instanceOf: VAC0943

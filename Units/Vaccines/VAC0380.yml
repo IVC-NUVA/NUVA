@@ -1,19 +1,9 @@
 abstract: true
+status: active
 label: T.Polio, unspecified
 comment: Tetanus toxoid and inactivated polio (trivalent) vaccine
 created: '2021-07-19'
 modified: '2025-05-20'
-codes:
-  CVC:
-  - '7751000087104'
-  NUVACode:
-  - 0380
-  SCT_NUVA:
-  - '5061002000101'
-  SNOMED-CT:
-  - '871816007'
-  THL:
-  - '96'
 valences:
 - VAL056
 - VAL067

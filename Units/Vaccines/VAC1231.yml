@@ -1,16 +1,13 @@
 abstract: true
-label: Pentavalent vaccine DTPaHibHepB- Diphtheria-Tetanus-Pertussis-Hib PRP-Hepatitis
-  B 10μg, unspecified
-comment: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis
-  (multicomponent acellular, standard dose), hepatitis B and Haemophilus influenzae
-  type b (tetanus toxoid conjugate) vaccine
+status: active
+label: Diphtheria (standard dose), tetanus, pertussis (acellular, standard dose),
+  hepatitis B and Haemophilus influenzae type b (tetanus toxoid conjugate) vaccine,
+  pediatric
+comment: Diphtheria (standard dose), tetanus, pertussis (acellular, standard dose),
+  hepatitis B and Haemophilus influenzae type b (tetanus toxoid conjugate) vaccine,
+  pediatric (10μg)
 created: '2024-06-05'
-modified: '2024-06-06'
-codes:
-  NUVACode:
-  - '1231'
-  SCT_NUVA:
-  - '14911002000102'
+modified: '2026-09-07'
 valences:
 - VAL008
 - VAL067

@@ -1,15 +1,7 @@
 abstract: false
+status: active
 label: BIOPOLIO
-comment: Polio vaccine (live attenuated, trivalent) against polioviruses 1, 2 and
-  3, oral
+comment: ''
 created: '2021-07-19'
 modified: '2024-05-06'
-codes:
-  NUVACode:
-  - 0396
-  SCT_NUVA:
-  - '5221002000103'
-valences:
-- VAL033
-- VAL085
-- VAL132
+instanceOf: VAC0320

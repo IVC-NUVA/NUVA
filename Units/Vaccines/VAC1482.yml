@@ -1,13 +1,7 @@
 abstract: false
+status: active
 label: IMMUNOGLOBULINE HUMAINE DE L'HÉPATITE B LFB
-comment: Hepatitis b immune globulin (human)
+comment: ''
 created: '2025-12-01'
 modified: '2025-12-01'
-codes:
-  CIP:
-  - '3400958157646'
-  - '3400958157707'
-  NUVACode:
-  - '1482'
-valences:
-- VAL047
+instanceOf: VAC0863

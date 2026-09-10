@@ -1,16 +1,8 @@
 abstract: true
+status: active
 label: Venezuelan Equine Encephalitis Vaccine, Unspecified
 comment: Venezuelan equine encephalitis vaccine
 created: '2022-04-06'
 modified: '2024-04-22'
-codes:
-  CVX:
-  - '80'
-  - '81'
-  - '92'
-  NUVACode:
-  - 0895
-  SCT_NUVA:
-  - '10681002000108'
 valences:
 - VAL171

@@ -1,16 +1,7 @@
 abstract: false
+status: active
 label: BAYGAM
-comment: Human immunoglobulin against certain viruses (hepatitis A, measles, chickenpox
-  and rubella)
+comment: ''
 created: '2024-05-14'
 modified: '2024-05-14'
-codes:
-  NUVACode:
-  - '1081'
-  SCT_NUVA:
-  - '13301002000102'
-valences:
-- VAL044
-- VAL079
-- VAL182
-- VAL288
+instanceOf: VAC1127

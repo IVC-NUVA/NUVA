@@ -1,40 +1,7 @@
 abstract: false
-label: AVAXIM 80 U PEDIATRIQUE
-comment: Inactivated hepatitis A vaccine, pediatric dose
+status: active
+label: AVAXIM 80 U
+comment: ''
 created: '2021-07-19'
-modified: '2025-09-25'
-codes:
-  CIP:
-  - '3400922459585'
-  - '3400922459646'
-  - '3400922459707'
-  - '3400935677013'
-  - '3400935677181'
-  - '3400935677242'
-  - '3400935677471'
-  - '3400935677532'
-  - '3400935677761'
-  - '3400935677990'
-  - '3400935678072'
-  CIS:
-  - '63777215'
-  - '63937933'
-  CODE_NATIONAL_SPAIN:
-  - '730370'
-  CVC:
-  - '6861000087105'
-  DIN:
-  - '02243741'
-  NTIN:
-  - '3400935677242'
-  - '5000283662112'
-  - '7501895113910'
-  - '7798015780996'
-  - '7891058022860'
-  - '8806659000314'
-  NUVACode:
-  - '0115'
-  SCT_NUVA:
-  - '2111002000108'
-valences:
-- VAL142
+modified: '2026-09-10'
+instanceOf: VAC0911

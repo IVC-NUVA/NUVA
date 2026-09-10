@@ -1,18 +1,7 @@
 abstract: false
-label: QAZVAC
-comment: COVID-19 vaccine, whole virion inactivated
+status: active
+label: QazVac
+comment: ''
 created: '2021-07-19'
-modified: '2024-06-04'
-codes:
-  CVC:
-  - '33451000087108'
-  CVX:
-  - '501'
-  ICD11:
-  - XM97N6
-  NUVACode:
-  - 0684
-  SCT_NUVA:
-  - '8241002000102'
-valences:
-- VAL265
+modified: '2026-09-10'
+instanceOf: VAC1124

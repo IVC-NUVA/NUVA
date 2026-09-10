@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: FLU-M
-comment: Trivalent inactivated seasonal influenza vaccine, split virion
+comment: ''
 created: '2025-03-24'
 modified: '2025-03-24'
-codes:
-  NUVACode:
-  - '1329'
-  SCT_NUVA:
-  - '16161002000105'
-valences:
-- VAL015
+instanceOf: VAC0925

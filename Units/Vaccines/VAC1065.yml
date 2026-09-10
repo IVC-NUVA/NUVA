@@ -1,14 +1,8 @@
 abstract: true
+status: active
 label: Leprosy vaccine
 comment: Leprosy vaccine, unspecified
 created: '2024-03-18'
 modified: '2024-12-16'
-codes:
-  CVX:
-  - '65'
-  NUVACode:
-  - '1065'
-  SCT_NUVA:
-  - '12981002000103'
 valences:
 - VAL384

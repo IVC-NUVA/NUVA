@@ -1,14 +1,8 @@
 abstract: true
-label: A(H5) avian influenza vaccine, unspecified
-comment: A(H5) avian influenza vaccine, neuraminidase type not specified
+status: active
+label: Avian influenza A(H5) vaccine, unspecified
+comment: Avian influenza A(H5) vaccine, unspecified
 created: '2024-12-16'
-modified: '2024-12-16'
-codes:
-  CVX:
-  - '323'
-  NUVACode:
-  - '1264'
-  SCT_NUVA:
-  - '15421002000102'
+modified: '2026-09-07'
 valences:
 - VAL386

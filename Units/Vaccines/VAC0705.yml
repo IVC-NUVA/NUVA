@@ -1,23 +1,7 @@
 abstract: false
+status: active
 label: INFLUSPLIT TETRA
-comment: Quadrivalent inactivated seasonal influenza vaccine with surface antigens
+comment: ''
 created: '2021-07-19'
 modified: '2023-08-15'
-codes:
-  CIP:
-  - '3400928099846'
-  CVC:
-  - '28591000087108'
-  ELGA:
-  - AWEG_000003
-  NUVACode:
-  - '0705'
-  PZN:
-  - '15571091'
-  - '15571116'
-  - '16037672'
-  - '16037689'
-  SCT_NUVA:
-  - '8461002000102'
-valences:
-- VAL040
+instanceOf: VAC0938

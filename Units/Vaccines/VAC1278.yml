@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: WALRINVAX
-comment: Bivalent recombinant vaccine against human papillomavirus (types 16 and 18)
-  (Pichia pastoris)
+comment: ''
 created: '2025-02-24'
 modified: '2025-02-24'
-codes:
-  NUVACode:
-  - '1278'
-  SCT_NUVA:
-  - '15611002000105'
-valences:
-- VAL240
-- VAL241
+instanceOf: VAC1426

@@ -1,17 +1,8 @@
 abstract: true
+status: active
 label: Brucellosis vaccine, unspecified
 comment: Brucellosis vaccine, unspecified
 created: '2021-07-19'
 modified: '2026-01-19'
-codes:
-  ATC:
-  - J07AD01
-  ICD11:
-  - XM7PB3
-  - XM7RX8
-  NUVACode:
-  - '0162'
-  SCT_NUVA:
-  - '2761002000105'
 valences:
 - VAL006

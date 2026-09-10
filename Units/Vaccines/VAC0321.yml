@@ -1,17 +1,7 @@
 abstract: false
+status: active
 label: ORIMUNE
-comment: Polio vaccine (live attenuated, trivalent) against polioviruses 1, 2 and
-  3, oral
+comment: ''
 created: '2021-07-19'
 modified: '2025-04-16'
-codes:
-  ICD11:
-  - XM4KG4
-  NUVACode:
-  - '0321'
-  SCT_NUVA:
-  - '4441002000105'
-valences:
-- VAL033
-- VAL085
-- VAL132
+instanceOf: VAC0320

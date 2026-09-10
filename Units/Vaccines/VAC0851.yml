@@ -1,18 +1,7 @@
 abstract: false
+status: active
 label: POLIO SABIN MONO TWO (ORAL) GSK
-comment: Polio vaccine (live attenuated, monovalent) against polioviruses type 2,
-  oral
+comment: ''
 created: '2022-03-03'
 modified: '2024-04-24'
-codes:
-  CTI:
-  - '389882'
-  CTI-EXTEND:
-  - 389882-01
-  - 389882-02
-  NUVACode:
-  - 0851
-  SCT_NUVA:
-  - '10191002000102'
-valences:
-- VAL033
+instanceOf: VAC0852

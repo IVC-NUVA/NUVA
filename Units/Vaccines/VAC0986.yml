@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: H ATETAL ISI
-comment: Tetanus toxoid vaccine
+comment: ''
 created: '2022-06-20'
 modified: '2024-04-15'
-codes:
-  NUVACode:
-  - 0986
-  SCT_NUVA:
-  - '11851002000105'
-valences:
-- VAL067
+instanceOf: VAC0132

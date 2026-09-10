@@ -1,25 +1,7 @@
 abstract: false
+status: active
 label: COMIRNATY LP.8.1 10 µg
-comment: COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 10 micrograms, paediatric
-  dose (5-11 years)
+comment: ''
 created: '2025-08-28'
 modified: '2026-08-24'
-codes:
-  CIP:
-  - '3400930325544'
-  CIS:
-  - '67364121'
-  CNK:
-  - '4969622'
-  CODE_NATIONAL_SPAIN:
-  - '768197'
-  CTI-EXTEND:
-  - 664823-01
-  ELGA:
-  - '6062373'
-  NUVACode:
-  - '1468'
-  SWISSMEDIC:
-  - '70400'
-valences:
-- VAL425
+instanceOf: VAC1472

@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: VAXEM-HIB
-comment: Haemophilus influenzae type b (conjugated to diphtheria toxoid) vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-10-30'
-codes:
-  AIC:
-  - 028780
-  NUVACode:
-  - '0444'
-  SCT_NUVA:
-  - '5681002000102'
-valences:
-- VAL154
+instanceOf: VAC0919

@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: PANFLU
-comment: Influenza A(H5N1) vaccine (fragmented virion, inactivated, adjuvanted)
+comment: ''
 created: '2025-04-08'
 modified: '2025-05-15'
-codes:
-  NUVACode:
-  - '1397'
-  SCT_NUVA:
-  - '16921002000103'
-valences:
-- VAL051
+instanceOf: VAC0084

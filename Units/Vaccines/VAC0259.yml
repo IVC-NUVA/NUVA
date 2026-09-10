@@ -1,33 +1,7 @@
 abstract: false
+status: active
 label: IMOVAX Rabies
-comment: Whole virion inactivated rabies vaccine, prepared in MRC5 cells
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-16'
-codes:
-  CVC:
-  - '7381000087106'
-  DIN:
-  - 01908286
-  NDC:
-  - 49281-0250
-  - 49281-0252
-  - 49281-252
-  NTIN:
-  - '5000283661665'
-  - '7680004170027'
-  - '8470006539798'
-  - '8712172866378'
-  - '9329670200758'
-  NUVACode:
-  - 0259
-  SCT_NUVA:
-  - '3791002000108'
-  THL:
-  - '37'
-  UPC:
-  - '349281250514'
-  - '349281252518'
-  - '697177004261'
-  - '697177005329'
-valences:
-- VAL258
+instanceOf: VAC0943

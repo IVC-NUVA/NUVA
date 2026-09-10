@@ -1,19 +1,7 @@
 abstract: false
+status: active
 label: HAVRIX 360 U
-comment: Inactivated hepatitis A vaccine, pediatric dose
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  CIP:
-  - '3400933689308'
-  - '3400955824619'
-  CNK:
-  - '1097369'
-  NUVACode:
-  - '0067'
-  SCT_NUVA:
-  - '1431002000104'
-  SWISSLEGACY:
-  - '115'
-valences:
-- VAL142
+instanceOf: VAC0911

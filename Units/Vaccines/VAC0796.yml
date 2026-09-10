@@ -1,22 +1,8 @@
 abstract: true
+status: active
 label: Pertussis vaccine, unspecified
 comment: Pertussis vaccine (acellular or whole-cell inactivated)
 created: '2021-10-26'
 modified: '2026-07-29'
-codes:
-  CVC:
-  - '61602008'
-  CVX:
-  - '11'
-  ICD11:
-  - XM43M9
-  NUVACode:
-  - 0796
-  SCT_NUVA:
-  - '9461002000105'
-  SNOMED-CT:
-  - '601000221108'
-  - '871758000'
-  - '871759008'
 valences:
 - VAL003

@@ -1,22 +1,7 @@
 abstract: false
+status: active
 label: D.T. POLIO MERIEUX
-comment: Diphtheria toxoid (standard dose), tetanus toxoid and inactivated polio (trivalent)
-  pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  CIP:
-  - '3400931354338'
-  - '3400955372073'
-  CIS:
-  - '60737692'
-  NUVACode:
-  - '0004'
-  SCT_NUVA:
-  - '141002000103'
-  THL:
-  - '78'
-valences:
-- VAL056
-- VAL067
-- VAL097
+instanceOf: VAC0088

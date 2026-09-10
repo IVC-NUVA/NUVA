@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: MYCOBAX
-comment: Live, attenuated tuberculosis vaccine
+comment: ''
 created: '2024-05-15'
 modified: '2024-05-15'
-codes:
-  NUVACode:
-  - '1085'
-  SCT_NUVA:
-  - '13341002000100'
-valences:
-- VAL096
+instanceOf: VAC0134

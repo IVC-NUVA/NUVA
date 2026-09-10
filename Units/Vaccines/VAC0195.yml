@@ -1,16 +1,7 @@
 abstract: false
+status: active
 label: BEGRIVAC
-comment: Trivalent inactivated seasonal influenza vaccine, split virion
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  AIC:
-  - '022143'
-  NUVACode:
-  - 0195
-  SCT_NUVA:
-  - '3101002000102'
-  THL:
-  - '53'
-valences:
-- VAL015
+instanceOf: VAC0925

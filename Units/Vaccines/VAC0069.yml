@@ -1,24 +1,7 @@
 abstract: false
+status: active
 label: MENOMUNE
-comment: Unconjugated meningococcal polysaccharide vaccine, serogroups A, C, W and
-  Y
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  AIC:
-  - 029196
-  CIP:
-  - '3400935963871'
-  - '3400958916762'
-  - '3400958916991'
-  CIS:
-  - '61286406'
-  NUVACode:
-  - 0069
-  SCT_NUVA:
-  - '1451002000109'
-valences:
-- VAL037
-- VAL137
-- VAL138
-- VAL139
+instanceOf: VAC0152

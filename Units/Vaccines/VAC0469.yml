@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: ZATRIVAX
-comment: Live attenuated measles, mumps and rubella vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  NUVACode:
-  - 0469
-  SCT_NUVA:
-  - '5931002000107'
-valences:
-- VAL005
-- VAL077
-- VAL079
+instanceOf: VAC0130

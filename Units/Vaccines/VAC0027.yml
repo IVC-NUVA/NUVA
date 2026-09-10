@@ -1,19 +1,7 @@
 abstract: false
+status: active
 label: R.O.R. VAX
-comment: Live attenuated measles, mumps and rubella vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  CIP:
-  - '3400933673628'
-  - '3400935965363'
-  CIS:
-  - '67723510'
-  NUVACode:
-  - '0027'
-  SCT_NUVA:
-  - '861002000108'
-valences:
-- VAL005
-- VAL077
-- VAL079
+instanceOf: VAC0130

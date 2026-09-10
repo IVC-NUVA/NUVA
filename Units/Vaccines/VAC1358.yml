@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: SKYCELLFLU QUADRIVALENT
-comment: Quadrivalent inactivated seasonal influenza vaccine, cell-based
+comment: ''
 created: '2025-04-03'
 modified: '2025-04-03'
-codes:
-  NUVACode:
-  - '1358'
-  SCT_NUVA:
-  - '16511002000101'
-valences:
-- VAL112
+instanceOf: VAC1200

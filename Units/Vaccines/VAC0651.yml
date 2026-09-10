@@ -1,25 +1,7 @@
 abstract: false
-label: CORONAVAC COVID-19 VACCINE
-comment: 'COVID-19 vaccine, whole virion inactivated, adjuvanted (adjuvant: aluminium
-  hydroxide)'
+status: active
+label: CORONAVAC SINOVAC COVID-19 VACCINE
+comment: ''
 created: '2021-07-19'
-modified: '2025-04-08'
-codes:
-  CVC:
-  - '31311000087104'
-  CVX:
-  - '511'
-  ELGA:
-  - AUSL_000007
-  - AUSL_000008
-  - AUSL_000024
-  ICD11:
-  - XM7HT3
-  NUVACode:
-  - '0651'
-  SCT_NUVA:
-  - '7761002000108'
-  THL:
-  - '140'
-valences:
-- VAL264
+modified: '2026-09-10'
+instanceOf: VAC1119

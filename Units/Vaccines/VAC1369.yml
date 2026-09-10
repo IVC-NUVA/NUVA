@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: INDIRAB
-comment: Whole virion inactivated rabies vaccine, cultured on Vero cells
+comment: ''
 created: '2025-04-04'
 modified: '2025-04-04'
-codes:
-  NUVACode:
-  - '1369'
-  SCT_NUVA:
-  - '16621002000106'
-valences:
-- VAL260
+instanceOf: VAC1116

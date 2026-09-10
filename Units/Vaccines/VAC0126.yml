@@ -1,22 +1,7 @@
 abstract: false
+status: active
 label: HEVAC B
-comment: Plasma vaccine against hepatitis B (first French vaccine)
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  AIC:
-  - 024987
-  CIP:
-  - '3400932444878'
-  CNK:
-  - '0045344'
-  INFARMED:
-  - '8578302'
-  NUVACode:
-  - '0126'
-  SCT_NUVA:
-  - '2221002000105'
-  SWISSLEGACY:
-  - '118'
-valences:
-- VAL068
+instanceOf: VAC1125

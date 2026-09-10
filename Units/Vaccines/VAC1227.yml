@@ -1,13 +1,8 @@
 abstract: true
-label: Recombinant hepatitis B vaccine, pediatric dose, unspecified
-comment: Hepatitis B vaccine, recombinant hepatitis B virus surface antigen (HBsAg),
-  5 micrograms
+status: active
+label: Hepatitis B recombinant vaccine, pediatric dose, unspecified
+comment: Hepatitis B recombinant vaccine, pediatric dose, unspecified
 created: '2024-06-05'
-modified: '2024-07-04'
-codes:
-  NUVACode:
-  - '1227'
-  SCT_NUVA:
-  - '14871002000100'
+modified: '2026-09-08'
 valences:
 - VAL170

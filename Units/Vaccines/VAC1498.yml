@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: EPIVACCORONA-N
-comment: COVID-19 protein subunit vaccine, recombinant protein
+comment: ''
 created: '2026-01-20'
 modified: '2026-01-26'
-codes:
-  NUVACode:
-  - '1498'
-  THL:
-  - '157'
-valences:
-- VAL104
+instanceOf: VAC1113

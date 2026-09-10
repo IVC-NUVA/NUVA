@@ -1,16 +1,7 @@
 abstract: false
+status: active
 label: VARIZIG
-comment: Varicella Zoster Immune Globulin (Human)
+comment: ''
 created: '2024-05-15'
 modified: '2025-04-17'
-codes:
-  CVC:
-  - '7991000087107'
-  DIN:
-  - 02442183
-  NUVACode:
-  - '1091'
-  SCT_NUVA:
-  - '13441002000106'
-valences:
-- VAL088
+instanceOf: VAC0864

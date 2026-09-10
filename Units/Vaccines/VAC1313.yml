@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: BCG SII
-comment: Live attenuated tuberculosis vaccine
+comment: ''
 created: '2025-03-12'
 modified: '2025-03-14'
-codes:
-  NUVACode:
-  - '1313'
-  SCT_NUVA:
-  - '15991002000109'
-valences:
-- VAL096
+instanceOf: VAC0134

@@ -1,16 +1,10 @@
 abstract: true
+status: active
 label: Shingles vaccine, varicella-zoster virus (VZV) surface glycoprotein E (gE),
   unspecified
 comment: Shingles vaccine, varicella-zoster virus (VZV) surface glycoprotein E (gE),
   unspecified
 created: '2024-06-05'
 modified: '2026-01-09'
-codes:
-  NUVACode:
-  - '1241'
-  SCT_NUVA:
-  - '15011002000102'
-  SNOMED-CT:
-  - '1156183006'
 valences:
 - VAL013

@@ -1,11 +1,7 @@
 abstract: false
+status: active
 label: BIMERVAX XFG.1.1
-comment: COVID-19 protein subunit vaccine, recombinant spike protein (RBD domain),
-  with adjuvant (SQBA), Omicron XFG.1.1 subvariant.
+comment: ''
 created: '2026-08-25'
 modified: '2026-08-25'
-codes:
-  NUVACode:
-  - '1526'
-valences:
-- VAL444
+instanceOf: VAC1527

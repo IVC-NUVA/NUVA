@@ -1,18 +1,7 @@
 abstract: false
+status: active
 label: PREHEVBRIO
-comment: Recombinant hepatitis B vaccine, three antigens (HbS, pre-S1 and pre-S2)
+comment: ''
 created: '2022-05-17'
 modified: '2024-04-17'
-codes:
-  CNK:
-  - '4719902'
-  EU-NUMBER:
-  - EU-1-22-1641-001
-  NDC:
-  - 75052-0001
-  NUVACode:
-  - 0939
-  SCT_NUVA:
-  - '11341002000104'
-valences:
-- VAL291
+instanceOf: VAC1145

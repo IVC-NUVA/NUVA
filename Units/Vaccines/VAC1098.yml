@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: XANAFLU
-comment: Trivalent inactivated influenza vaccine
+comment: ''
 created: '2024-05-16'
 modified: '2024-05-16'
-codes:
-  CVC:
-  - '19291000087108'
-  NUVACode:
-  - '1098'
-  SCT_NUVA:
-  - '13521002000102'
-valences:
-- VAL015
+instanceOf: VAC0925

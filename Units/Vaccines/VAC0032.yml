@@ -1,26 +1,7 @@
 abstract: false
+status: active
 label: ROUVAX
-comment: Live attenuated measles vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  AIC:
-  - '026526'
-  CIP:
-  - '3400930926758'
-  - '3400932859313'
-  - '3400932859481'
-  - '3400932859542'
-  - '3400939211374'
-  - '3400955372424'
-  CIS:
-  - '60043248'
-  - '65318260'
-  INFARMED:
-  - '8794107'
-  NUVACode:
-  - '0032'
-  SCT_NUVA:
-  - '951002000104'
-valences:
-- VAL005
+instanceOf: VAC0114

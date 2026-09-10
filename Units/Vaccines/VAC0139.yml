@@ -1,26 +1,7 @@
 abstract: false
+status: active
 label: PENT-HIBEST
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell
-  inactivated), Haemophilus influenzae type b (conjugated to tetanus toxoid) and inactivated
-  polio (trivalent) pediatric vaccine, adsorbed
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  CIP:
-  - '3400933623531'
-  - '3400933952174'
-  - '3400955809999'
-  - '3400955902423'
-  CIS:
-  - '65581667'
-  - '69510030'
-  NUVACode:
-  - 0139
-  SCT_NUVA:
-  - '2401002000101'
-valences:
-- VAL010
-- VAL056
-- VAL067
-- VAL097
-- VAL156
+instanceOf: VAC1126

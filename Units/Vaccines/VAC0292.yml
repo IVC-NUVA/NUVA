@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: MEASLES VACCINE DK3
-comment: Live attenuated measles vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-08-15'
-codes:
-  NUVACode:
-  - 0292
-  SCT_NUVA:
-  - '4111002000101'
-valences:
-- VAL005
+instanceOf: VAC0114

@@ -1,12 +1,7 @@
 abstract: false
-label: BERIRAB (immunoglobuline)
-comment: Rabies immunoglobulin, human origin
+status: active
+label: BERIRAB
+comment: ''
 created: '2021-07-19'
-modified: '2026-04-27'
-codes:
-  NUVACode:
-  - 0499
-  SCT_NUVA:
-  - '6251002000104'
-valences:
-- VAL252
+modified: '2026-09-10'
+instanceOf: VAC0358

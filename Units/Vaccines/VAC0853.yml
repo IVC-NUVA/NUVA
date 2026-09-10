@@ -1,14 +1,8 @@
 abstract: true
-label: mOPV1 Sabin monovalent oral polio vaccine type 1, unspecified
+status: active
+label: Poliomyelitis mOPV1 Sabin monovalent oral vaccine type 1, unspecified
 comment: Polio vaccine (live attenuated, monovalent) against poliovirus type 1, oral
 created: '2022-03-03'
-modified: '2024-07-04'
-codes:
-  ICD11:
-  - XM0VX8
-  NUVACode:
-  - 0853
-  SCT_NUVA:
-  - '10211002000101'
+modified: '2026-09-10'
 valences:
 - VAL132

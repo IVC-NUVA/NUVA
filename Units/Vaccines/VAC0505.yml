@@ -1,17 +1,7 @@
 abstract: false
+status: active
 label: HIBEST
-comment: Haemophilus influenzae type b vaccine, capsular polysaccharide (polyribosylribitol
-  phosphate, PRP) conjugated to tetanus toxoid
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  CIP:
-  - '3400933471934'
-  CIS:
-  - '68979473'
-  NUVACode:
-  - '0505'
-  SCT_NUVA:
-  - '6331002000103'
-valences:
-- VAL156
+instanceOf: VAC0345

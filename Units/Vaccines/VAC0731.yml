@@ -1,22 +1,7 @@
 abstract: false
+status: active
 label: DITANRIX
-comment: Diphtheria vaccine (toxoid, reduced dose) and tetanus vaccine (toxoid), adult
-  dose
+comment: ''
 created: '2021-07-19'
 modified: '2025-04-09'
-codes:
-  AIC:
-  - 020967
-  CODE_NATIONAL_SPAIN:
-  - '656829'
-  INFARMED:
-  - '2374189'
-  NUVACode:
-  - '0731'
-  SCT_NUVA:
-  - '8761002000107'
-  SWISSMEDIC:
-  - '567'
-valences:
-- VAL034
-- VAL067
+instanceOf: VAC0920

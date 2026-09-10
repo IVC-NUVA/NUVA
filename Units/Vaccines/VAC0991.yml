@@ -1,32 +1,7 @@
 abstract: false
+status: active
 label: FLULAVAL QUADRIVALENT
-comment: Quadrivalent inactivated seasonal influenza vaccine with surface antigens
+comment: ''
 created: '2022-06-20'
 modified: '2024-04-15'
-codes:
-  CVC:
-  - '20811000087102'
-  DIN:
-  - 02420783
-  NDC:
-  - 19515-0816
-  - 19515-0818
-  - 19515-0891
-  - 19515-0894
-  - 19515-0895
-  - 19515-0896
-  - 19515-0897
-  - 19515-0898
-  - 19515-0900
-  - 19515-0901
-  - 19515-0903
-  - 19515-0906
-  - 19515-0908
-  - 19515-0909
-  - 19515-0912
-  NUVACode:
-  - 0991
-  SCT_NUVA:
-  - '11901002000102'
-valences:
-- VAL040
+instanceOf: VAC0938

@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: GUNEVAX
-comment: Live attenuated rubella vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-08-15'
-codes:
-  AIC:
-  - 023318
-  NUVACode:
-  - '0240'
-  SCT_NUVA:
-  - '3571002000103'
-valences:
-- VAL079
+instanceOf: VAC0113

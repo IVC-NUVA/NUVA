@@ -1,10 +1,7 @@
 abstract: false
+status: active
 label: STROVAC
-comment: Urinary tract infections vaccine, unspecified
+comment: ''
 created: '2026-03-10'
-modified: '2026-03-10'
-codes:
-  NUVACode:
-  - '1506'
-valences:
-- VAL345
+modified: '2026-09-10'
+instanceOf: VAC0000

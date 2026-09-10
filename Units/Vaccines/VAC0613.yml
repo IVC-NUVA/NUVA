@@ -1,15 +1,7 @@
 abstract: false
+status: active
 label: BORYUNG DTap VACCINE
-comment: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (multicomponent
-  acellular, standard dose) pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-03-28'
-codes:
-  NUVACode:
-  - '0613'
-  SCT_NUVA:
-  - '7331002000100'
-valences:
-- VAL008
-- VAL067
-- VAL097
+instanceOf: VAC0602

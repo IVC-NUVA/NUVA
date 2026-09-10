@@ -1,19 +1,9 @@
 abstract: true
+status: active
 label: Rubella-Mumps vaccine, unspecified
 comment: Live attenuated rubella and mumps vaccine
 created: '2021-10-26'
 modified: '2024-07-04'
-codes:
-  ATC:
-  - J07BJ51
-  CVX:
-  - '38'
-  ICD11:
-  - XM3B09
-  NUVACode:
-  - 0829
-  SCT_NUVA:
-  - '9911002000100'
 valences:
 - VAL077
 - VAL079

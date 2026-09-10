@@ -1,17 +1,9 @@
 abstract: true
+status: active
 label: PRP-D Hib vaccine, unspecified
 comment: Hemophilus influenzae type b conjugate vaccine composed of PRP (polyribosylribitol
   phosphate) conjugated to diphtheria toxoid
 created: '2022-05-03'
 modified: '2024-07-04'
-codes:
-  CPT:
-  - '90646'
-  CVX:
-  - '46'
-  NUVACode:
-  - 0918
-  SCT_NUVA:
-  - '11031002000109'
 valences:
 - VAL153

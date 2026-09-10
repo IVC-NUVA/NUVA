@@ -1,18 +1,7 @@
 abstract: false
+status: active
 label: COVAXIN BHARAT BIOTECH COVID-19 VACCINE
-comment: 'COVID-19 vaccine, whole virion inactivated, adjuvated (adjuvant : TLR 7
-  and 8 agonist imidazoquinoline molecule adsorbed on aluminium hydroxide). Other
-  names: BBV152, Bharat Inactivated Covid Vaccine'
+comment: ''
 created: '2021-07-19'
 modified: '2023-05-15'
-codes:
-  CVC:
-  - '33211000087105'
-  CVX:
-  - '502'
-  NUVACode:
-  - '0665'
-  SCT_NUVA:
-  - '7961002000106'
-valences:
-- VAL264
+instanceOf: VAC1119

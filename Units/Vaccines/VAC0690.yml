@@ -1,13 +1,7 @@
 abstract: false
-label: CHINESE-AD5-NCOV-COVID
-comment: COVID-19 vaccine, non-replicating adenovirus 5 vector encoding the SARS-CoV-2
-  spike protein
+status: active
+label: Chinese-Ad5-nCoV-covid
+comment: ''
 created: '2021-07-19'
-modified: '2024-06-04'
-codes:
-  NUVACode:
-  - 0690
-  SCT_NUVA:
-  - '8311002000108'
-valences:
-- VAL050
+modified: '2026-09-10'
+instanceOf: VAC1176

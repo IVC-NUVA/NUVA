@@ -1,16 +1,8 @@
 abstract: true
+status: active
 label: COVID-19 plasmid DNA vaccine, unspecified
 comment: Plasmid DNA anti-covid 19 vaccine, unspecified
 created: '2024-06-05'
 modified: '2025-05-21'
-codes:
-  ICD11:
-  - XM6AT1
-  NUVACode:
-  - '1128'
-  SCT_NUVA:
-  - '13861002000108'
-  SNOMED-CT:
-  - '1187593009'
 valences:
 - VAL035

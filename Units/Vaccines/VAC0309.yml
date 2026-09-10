@@ -1,16 +1,7 @@
 abstract: false
+status: active
 label: MORUPAR
-comment: Live attenuated measles, mumps and rubella vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  AIC:
-  - '027506'
-  NUVACode:
-  - 0309
-  SCT_NUVA:
-  - '4321002000109'
-valences:
-- VAL005
-- VAL077
-- VAL079
+instanceOf: VAC0130

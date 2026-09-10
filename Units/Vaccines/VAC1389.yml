@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: INLIVE
-comment: Whole inactivated enterovirus A71 vaccine
+comment: ''
 created: '2025-04-08'
 modified: '2025-04-08'
-codes:
-  NUVACode:
-  - '1389'
-  SCT_NUVA:
-  - '16841002000100'
-valences:
-- VAL346
+instanceOf: VAC1118

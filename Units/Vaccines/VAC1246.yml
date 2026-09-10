@@ -1,13 +1,7 @@
 abstract: false
+status: active
 label: MCOMBRIAX
-comment: Combined influenza/Covid 19 mRNA vaccine in clinical trial
+comment: ''
 created: '2024-07-08'
 modified: '2026-03-03'
-codes:
-  NUVACode:
-  - '1246'
-  SCT_NUVA:
-  - '15071002000109'
-valences:
-- VAL168
-- VAL366
+instanceOf: VAC1248

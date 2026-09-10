@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: TY BIOMED
-comment: Whole-cell inactivated typhoid vaccine
+comment: ''
 created: '2025-04-02'
 modified: '2025-04-02'
-codes:
-  NUVACode:
-  - '1349'
-  SCT_NUVA:
-  - '16421002000108'
-valences:
-- VAL071
+instanceOf: VAC0817

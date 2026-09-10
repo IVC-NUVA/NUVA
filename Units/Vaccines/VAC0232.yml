@@ -1,19 +1,7 @@
 abstract: false
+status: active
 label: FLULAVAL
-comment: Trivalent inactivated seasonal influenza vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  NDC:
-  - 19515-0845
-  - 19515-0850
-  - 19515-0889
-  - 19515-0890
-  - 19515-0893
-  - 19515-904
-  NUVACode:
-  - '0232'
-  SCT_NUVA:
-  - '3491002000101'
-valences:
-- VAL015
+instanceOf: VAC0925

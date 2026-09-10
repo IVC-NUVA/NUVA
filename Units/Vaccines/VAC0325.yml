@@ -1,24 +1,7 @@
 abstract: false
+status: active
 label: PEDIARIX
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
-  acellular, standard dose), inactivated polio (trivalent) and hepatitis B (recombinant)
-  pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-11-02'
-codes:
-  CVC:
-  - '20841000087101'
-  NDC:
-  - 50090-7541
-  - 58160-0811
-  - 58160-811
-  NUVACode:
-  - '0325'
-  SCT_NUVA:
-  - '4481002000101'
-valences:
-- VAL008
-- VAL056
-- VAL067
-- VAL097
-- VAL114
+instanceOf: VAC1174

@@ -1,16 +1,7 @@
 abstract: false
+status: active
 label: COMVAC4
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell
-  inactivated) and hepatitis B (recombinant) pediatric vaccine
+comment: ''
 created: '2021-10-26'
 modified: '2025-03-15'
-codes:
-  NUVACode:
-  - 0789
-  SCT_NUVA:
-  - '9381002000109'
-valences:
-- VAL010
-- VAL067
-- VAL097
-- VAL114
+instanceOf: VAC1208

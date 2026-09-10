@@ -1,12 +1,7 @@
 abstract: false
-label: PFIZER VAX-MEASLES L
-comment: Live attenuated measles vaccine
+status: active
+label: PFIZER-VAX MEASLES-L
+comment: ''
 created: '2021-07-19'
-modified: '2025-03-15'
-codes:
-  NUVACode:
-  - '0334'
-  SCT_NUVA:
-  - '4561002000105'
-valences:
-- VAL005
+modified: '2026-09-10'
+instanceOf: VAC0114

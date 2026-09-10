@@ -1,13 +1,7 @@
 abstract: false
+status: active
 label: HAEMOPHILUS INFLUENZAE B SII
-comment: Haemophilus influenzae type b vaccine, capsular polysaccharide (polyribosylribitol
-  phosphate, PRP) conjugated to tetanus toxoid
+comment: ''
 created: '2025-03-13'
 modified: '2025-03-14'
-codes:
-  NUVACode:
-  - '1321'
-  SCT_NUVA:
-  - '16071002000101'
-valences:
-- VAL156
+instanceOf: VAC0345

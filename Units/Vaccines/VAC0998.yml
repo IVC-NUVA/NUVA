@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: LC16
-comment: Smallpox vaccine, third generation (cell cultured vaccinia virus)
+comment: ''
 created: '2022-07-28'
 modified: '2024-04-15'
-codes:
-  ICD11:
-  - XM3ZY6
-  NUVACode:
-  - 0998
-  SCT_NUVA:
-  - '11991002000107'
-valences:
-- VAL018
+instanceOf: VAC1177

@@ -1,19 +1,7 @@
 abstract: false
+status: active
 label: PREFLUCEL
-comment: Trivalent inactivated seasonal influenza vaccine, purified antigens
+comment: ''
 created: '2021-07-19'
 modified: '2023-08-15'
-codes:
-  AIC:
-  - 040490
-  INFARMED:
-  - '5380407'
-  - '5380415'
-  NUVACode:
-  - '0635'
-  SCT_NUVA:
-  - '7521002000106'
-  THL:
-  - '59'
-valences:
-- VAL015
+instanceOf: VAC0925

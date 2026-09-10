@@ -1,19 +1,12 @@
 abstract: true
-label: DTwPHib, unspecified
+status: active
+label: Diphtheria (standard dose), tetanus, pertussis (whole-cell inactivated) and
+  Haemophilus influenzae type b (conjugated) vaccine (DTwPHib), pediatric
 comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell
   inactivated) and Haemophilus influenzae type b (conjugated, unspecified) pediatric
   vaccine
 created: '2021-07-19'
-modified: '2025-05-20'
-codes:
-  ATC:
-  - J07AG51
-  NUVACode:
-  - '0775'
-  SCT_NUVA:
-  - '9161002000104'
-  SNOMED-CT:
-  - '2071000221100'
+modified: '2026-09-10'
 valences:
 - VAL010
 - VAL067

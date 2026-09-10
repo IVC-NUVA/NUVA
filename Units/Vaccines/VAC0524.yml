@@ -1,15 +1,7 @@
 abstract: false
+status: active
 label: TEVAX
-comment: Tetanus toxoid vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-08-15'
-codes:
-  CNK:
-  - 0135418
-  - '1075704'
-  NUVACode:
-  - '0524'
-  SCT_NUVA:
-  - '6611002000102'
-valences:
-- VAL067
+instanceOf: VAC0132

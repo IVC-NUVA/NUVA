@@ -1,32 +1,7 @@
 abstract: false
+status: active
 label: AFLURIA QUADRIVALENT
-comment: Quadrivalent inactivated seasonal influenza vaccine with surface antigens
+comment: ''
 created: '2022-06-20'
 modified: '2024-04-15'
-codes:
-  CVC:
-  - '24381000087107'
-  DIN:
-  - 02473283
-  NDC:
-  - 33332-0219
-  - 33332-0220
-  - 33332-0221
-  - 33332-0316
-  - 33332-0317
-  - 33332-0318
-  - 33332-0319
-  - 33332-0320
-  - 33332-0321
-  - 33332-0416
-  - 33332-0417
-  - 33332-0418
-  - 33332-0419
-  - 33332-0420
-  - 33332-0421
-  NUVACode:
-  - 0992
-  SCT_NUVA:
-  - '11911002000104'
-valences:
-- VAL040
+instanceOf: VAC0938

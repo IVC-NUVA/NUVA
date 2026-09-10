@@ -1,12 +1,8 @@
 abstract: true
-label: Live attenuated influenza A(H1N1)pdm09 pandemic vaccine
-comment: Live attenuated influenza A(H1N1)pdm09 pandemic vaccine
+status: active
+label: Influenza vaccine A(H1N1)pdm09 pandemic, live attenuated
+comment: Influenza vaccine A(H1N1)pdm09 pandemic, live attenuated
 created: '2025-04-14'
-modified: '2025-04-14'
-codes:
-  NUVACode:
-  - '1423'
-  SCT_NUVA:
-  - '17181002000104'
+modified: '2026-09-07'
 valences:
 - VAL405

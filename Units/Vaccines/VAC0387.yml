@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: TETANOL
-comment: Tetanus toxoid vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  ELGA:
-  - 0056489
-  NUVACode:
-  - 0387
-  SCT_NUVA:
-  - '5121002000106'
-valences:
-- VAL067
+instanceOf: VAC0132

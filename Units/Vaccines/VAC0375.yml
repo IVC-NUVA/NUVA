@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: SEROBACTERIN
-comment: Inactivated whole-cell cholera vaccine for injection combined with polysaccharide
-  typhoid vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-10-31'
-codes:
-  NUVACode:
-  - '0375'
-  SCT_NUVA:
-  - '4981002000109'
-valences:
-- VAL004
-- VAL032
+instanceOf: VAC1179

@@ -1,15 +1,8 @@
 abstract: true
+status: active
 label: RSV antibody or vaccine, unspecified
 comment: RSV antibody or vaccine, unspecified
 created: '2024-03-18'
 modified: '2024-07-04'
-codes:
-  CVX:
-  - '304'
-  - '314'
-  NUVACode:
-  - '1071'
-  SCT_NUVA:
-  - '13091002000109'
 valences:
 - VAL338

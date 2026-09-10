@@ -1,60 +1,7 @@
 abstract: false
+status: active
 label: PENTAVAC
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
-  acellular, 5 components, standard dose), Haemophilus influenzae type b (conjugated
-  to tetanus toxoid) and inactivated polio (trivalent) pediatric vaccine, adsorbed
+comment: ''
 created: '2021-07-19'
 modified: '2026-08-02'
-codes:
-  AIC:
-  - '034126'
-  CIP:
-  - '3400934774416'
-  - '3400934821981'
-  - '3400935166784'
-  - '3400936064188'
-  - '3400936064249'
-  - '3400936064300'
-  - '3400936874114'
-  - '3400936874282'
-  - '3400936874343'
-  - '3400936874404'
-  CIS:
-  - '69811279'
-  CODE_NATIONAL_SPAIN:
-  - '651501'
-  CP-NRONATIDENT:
-  - 0434594
-  CTI:
-  - '196131'
-  CTI-EXTEND:
-  - 196131-01
-  - 196131-02
-  CVC:
-  - '22181000087103'
-  INFARMED:
-  - '5459284'
-  NTIN:
-  - '3400936874343'
-  - '4150084192187'
-  - '4150084192248'
-  - '7680006130012'
-  - '7680006130029'
-  NUVACode:
-  - '0023'
-  PZN:
-  - 08419218
-  - 08419224
-  - 08419230
-  SCT_NUVA:
-  - '521002000102'
-  SWISSMEDIC:
-  - '613'
-  THL:
-  - '7'
-valences:
-- VAL008
-- VAL056
-- VAL067
-- VAL097
-- VAL156
+instanceOf: VAC1115

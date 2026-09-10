@@ -1,33 +1,7 @@
 abstract: false
+status: active
 label: TETRACOQ
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell
-  inactivated) and inactivated polio (trivalent) pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  CIP:
-  - '3400932779147'
-  - '3400933725297'
-  - '3400933725358'
-  - '3400933725419'
-  CIS:
-  - '62224329'
-  - '69960198'
-  CNK:
-  - '1303387'
-  INFARMED:
-  - '3475589'
-  - '3475688'
-  - '3475787'
-  - '3475886'
-  NUVACode:
-  - '0063'
-  SCT_NUVA:
-  - '1401002000105'
-  SWISSLEGACY:
-  - '106'
-valences:
-- VAL010
-- VAL056
-- VAL067
-- VAL097
+instanceOf: VAC1151

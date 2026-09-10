@@ -1,26 +1,8 @@
 abstract: true
+status: active
 label: Hepatitis B vaccine, recombinant, unspecified
 comment: Recombinant Hepatitis B vaccine, unspecified dose
 created: '2021-07-19'
 modified: '2026-01-09'
-codes:
-  AIC:
-  - '026653'
-  - '035262'
-  ATC:
-  - J07BC01
-  CPT:
-  - '90731'
-  CVC:
-  - '34689006'
-  CVX:
-  - '45'
-  NUVACode:
-  - '0101'
-  SCT_NUVA:
-  - '1901002000104'
-  SNOMED-CT:
-  - '1296676008'
-  - '1304283008'
 valences:
 - VAL090

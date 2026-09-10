@@ -1,16 +1,10 @@
 abstract: true
-label: Inactivated trivalent influenza vaccine cell culture, normal dose, unspecified
+status: active
+label: Influenza trivalent vaccine, inactivated cell culture, split or subunit, normal
+  dose
 comment: Trivalent inactivated cell culture influenza vaccine, split or subunit, normal
   dose
 created: '2024-06-05'
-modified: '2025-02-28'
-codes:
-  CVX:
-  - '140'
-  - '141'
-  NUVACode:
-  - '1175'
-  SCT_NUVA:
-  - '14341002000102'
+modified: '2026-09-09'
 valences:
 - VAL285

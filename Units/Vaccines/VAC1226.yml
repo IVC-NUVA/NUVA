@@ -1,13 +1,9 @@
 abstract: true
-label: Combined hepatitis A and B vaccine, pediatric dose, unspecified
-comment: Combined hepatitis A and B vaccine, pediatric dose, unspecified
+status: active
+label: Hepatitis A and B combined vaccine, pediatric dose, unspecified
+comment: Hepatitis A and B combined vaccine, pediatric dose, unspecified
 created: '2024-06-05'
-modified: '2024-07-04'
-codes:
-  NUVACode:
-  - '1226'
-  SCT_NUVA:
-  - '14861002000105'
+modified: '2026-09-08'
 valences:
 - VAL115
 - VAL143

@@ -1,44 +1,7 @@
 abstract: false
+status: active
 label: SPIKEVAX XBB.1.5 50 µg MODERNA
-comment: COVID-19 mRNA vaccine, subvariant Omicron XBB.1.5, 50 micrograms per dose
+comment: ''
 created: '2024-02-29'
 modified: '2024-04-08'
-codes:
-  CIP:
-  - '3400930275597'
-  - '3400930275610'
-  - '3400930275627'
-  - '3400930275634'
-  CIS:
-  - '60914655'
-  - '61906476'
-  CODE_NATIONAL_SPAIN:
-  - '762834'
-  CTI:
-  - '661767'
-  - '661768'
-  - '661769'
-  - '661770'
-  - '662861'
-  - '662862'
-  CTI-EXTEND:
-  - 661767-01
-  - 661768-01
-  - 661769-01
-  - 661770-01
-  - 662861-01
-  - 662862-01
-  EU-NUMBER:
-  - EU-1-20-1507-015
-  - EU-1-20-1507-016
-  - EU-1-20-1507-017
-  - EU-1-20-1507-018
-  INFARMED:
-  - '5858410'
-  - '5858428'
-  NUVACode:
-  - '1060'
-  SCT_NUVA:
-  - '12891002000106'
-valences:
-- VAL329
+instanceOf: VAC1243

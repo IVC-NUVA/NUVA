@@ -1,11 +1,7 @@
 abstract: false
+status: active
 label: FLUVACCINOL
-comment: Trivalent inactivated seasonal influenza vaccine, surface antigen, adult
-  dose
+comment: ''
 created: '2025-11-30'
 modified: '2025-11-30'
-codes:
-  NUVACode:
-  - '1481'
-valences:
-- VAL015
+instanceOf: VAC0925

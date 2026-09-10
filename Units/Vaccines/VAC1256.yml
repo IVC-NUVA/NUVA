@@ -1,16 +1,13 @@
 abstract: true
-label: Hexavalent vaccine DTwPHibPHepB - Diphtheria-Tetanus-Pertussis-Hib-Polio-Hepatitis
-  B 15µg, unspecified
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole cell),
-  Haemophilus influenzae type b (conjugated to tetanus toxoid), inactivated polio
-  (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed
+status: active
+label: Diphtheria (standard dose), tetanus, pertussis (whole cell), Haemophilus influenzae
+  type b (conjugated to tetanus toxoid), inactivated polio (trivalent) and hepatitis
+  B (recombinant) pediatric vaccine, adsorbed
+comment: Diphtheria (standard dose), tetanus, pertussis (whole cell), Haemophilus
+  influenzae type b (conjugated to tetanus toxoid), inactivated polio (trivalent)
+  and hepatitis B (recombinant) pediatric vaccine, adsorbed
 created: '2024-08-05'
-modified: '2024-08-05'
-codes:
-  NUVACode:
-  - '1256'
-  SCT_NUVA:
-  - '15271002000100'
+modified: '2026-09-07'
 valences:
 - VAL010
 - VAL056

@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: HNVAC
-comment: Pandemic influenza A(H1N1)pdm09 vaccine, inactivated
+comment: ''
 created: '2025-04-04'
 modified: '2025-04-08'
-codes:
-  NUVACode:
-  - '1367'
-  SCT_NUVA:
-  - '16601002000103'
-valences:
-- VAL099
+instanceOf: VAC0147

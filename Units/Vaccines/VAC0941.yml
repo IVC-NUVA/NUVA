@@ -1,14 +1,8 @@
 abstract: true
-label: Immunoglobulin against anthrax, unspecified
+status: active
+label: Anthrax immunoglobulin, unspecified
 comment: Anthrax immunoglobuline
 created: '2022-05-18'
-modified: '2024-07-04'
-codes:
-  CVX:
-  - '181'
-  NUVACode:
-  - 0941
-  SCT_NUVA:
-  - '11381002000108'
+modified: '2026-09-10'
 valences:
 - VAL293

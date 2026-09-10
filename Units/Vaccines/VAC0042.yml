@@ -1,17 +1,7 @@
 abstract: false
+status: active
 label: VACCIN BCG SSI
-comment: Tuberculosis vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  NUVACode:
-  - '0042'
-  SCT_NUVA:
-  - '1121002000109'
-  SWISSMEDIC:
-  - '696'
-  THL:
-  - '1'
-  - '83'
-valences:
-- VAL096
+instanceOf: VAC0134

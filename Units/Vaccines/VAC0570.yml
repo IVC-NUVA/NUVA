@@ -1,48 +1,7 @@
 abstract: false
+status: active
 label: HIBERIX
-comment: Haemophilus influenzae type b conjugate vaccine (tetanus protein conjugate)
+comment: ''
 created: '2021-07-19'
 modified: '2025-06-04'
-codes:
-  AIC:
-  - 031902
-  CIP:
-  - '3400934377082'
-  - '3400934377143'
-  CIS:
-  - '62216574'
-  CNK:
-  - '1340884'
-  CODE_NATIONAL_SPAIN:
-  - '605428'
-  - '664730'
-  CTI:
-  - '230151'
-  CTI-EXTEND:
-  - 230151-03
-  - 230151-04
-  - 230151-05
-  - 230151-06
-  CVC:
-  - '7041000087104'
-  DIN:
-  - 02239200
-  INFARMED:
-  - '2751881'
-  - '5571914'
-  NDC:
-  - 58160-0806
-  - 58160-0816
-  - 58160-0818
-  - 58160-726
-  - 58160-818
-  NUVACode:
-  - '0570'
-  SCT_NUVA:
-  - '7031002000103'
-  SWISSMEDIC:
-  - '603'
-  THL:
-  - '16'
-valences:
-- VAL156
+instanceOf: VAC0345

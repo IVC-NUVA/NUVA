@@ -1,27 +1,7 @@
 abstract: false
-label: VACCIN CONTRE LA COVID-19 (INACTIVE, AVEC ADJUVANT) VALNEVA
-comment: 'COVID-19 vaccine, whole virion inactivated, adjuvanted with CpG 10183 !
-  (cytosine phospho-guanine) a) in combination with aluminium hydroxide - Other name:
-  Valneva VLA2001'
+status: active
+label: COVID-19 VACCINE (INACTIVATED, ADJUVANTED) VALNEVA
+comment: ''
 created: '2021-07-19'
-modified: '2022-11-09'
-codes:
-  CVX:
-  - '518'
-  ELGA:
-  - '5506431'
-  - AUSL_000021
-  EU-NUMBER:
-  - EU-1-21-1624-001
-  ICD11:
-  - XM42N8
-  INFARMED:
-  - '5839840'
-  NUVACode:
-  - '0714'
-  SCT_NUVA:
-  - '8571002000106'
-  THL:
-  - '155'
-valences:
-- VAL264
+modified: '2026-09-10'
+instanceOf: VAC1119

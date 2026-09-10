@@ -1,15 +1,7 @@
 abstract: false
+status: active
 label: UROMUNE (MV 140)
-comment: Vaccine to prevent urinary tract infections in women
+comment: ''
 created: '2024-04-19'
 modified: '2025-02-28'
-codes:
-  NUVACode:
-  - '1076'
-  SCT_NUVA:
-  - '13201002000108'
-valences:
-- VAL341
-- VAL342
-- VAL343
-- VAL344
+instanceOf: VAC1191

@@ -1,29 +1,7 @@
 abstract: false
+status: active
 label: MONIARIX
-comment: Unconjugated pneumococcal polysaccharide vaccine, 17-valent, serotypes 1,
-  2, 3, 4, 6A, 7F, 8, 9N, 11A, 12F, 14, 15F, 17F, 18C, 19F, 23F and 25
+comment: ''
 created: '2021-07-19'
 modified: '2023-11-02'
-codes:
-  NUVACode:
-  - '0303'
-  SCT_NUVA:
-  - '4251002000106'
-valences:
-- VAL206
-- VAL207
-- VAL208
-- VAL209
-- VAL212
-- VAL213
-- VAL214
-- VAL217
-- VAL218
-- VAL219
-- VAL221
-- VAL222
-- VAL223
-- VAL225
-- VAL228
-- VAL232
-- VAL233
+instanceOf: VAC1131

@@ -1,11 +1,7 @@
 abstract: false
+status: active
 label: COMIRNATY XFG 30 µg
-comment: COVID-19 mRNA vaccine, subvariant Omicron XFG, 30 micrograms, adult (+ 12
-  years)
+comment: ''
 created: '2026-08-25'
 modified: '2026-08-28'
-codes:
-  NUVACode:
-  - '1520'
-valences:
-- VAL441
+instanceOf: VAC1522

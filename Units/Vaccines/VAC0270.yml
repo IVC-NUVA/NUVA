@@ -1,25 +1,8 @@
 abstract: true
-label: Inactivated Polio vaccine, unspecified
+status: active
+label: Poliomyelitis inactivated vaccine, unspecified
 comment: Inactivated polio (trivalent) vaccine
 created: '2021-07-19'
-modified: '2026-01-09'
-codes:
-  ATC:
-  - J07BF03
-  CPT:
-  - '90713'
-  CVC:
-  - '125688000'
-  CVX:
-  - '10'
-  - '324'
-  ICD11:
-  - XM5V19
-  NUVACode:
-  - '0270'
-  SCT_NUVA:
-  - '3891002000104'
-  SNOMED-CT:
-  - '871740006'
+modified: '2026-09-10'
 valences:
 - VAL056

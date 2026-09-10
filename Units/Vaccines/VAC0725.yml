@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: COH04S1
-comment: COVID-19 vaccine, non-replicating modified Vaccinia Virus Ankara vector encoding
-  the SARS-CoV-2 spike protein, containing DNA fragments encoding the spike protein
-  and the nucleocapsid of SARS-CoV-2
+comment: ''
 created: '2021-07-19'
 modified: '2023-05-15'
-codes:
-  NUVACode:
-  - '0725'
-  SCT_NUVA:
-  - '8681002000108'
-valences:
-- VAL054
+instanceOf: VAC1189

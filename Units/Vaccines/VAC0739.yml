@@ -1,15 +1,7 @@
 abstract: false
-label: RAZI COV PARS
-comment: COVID-19 vaccine, protein subunit, recombinant spike protein, with adjuvant
-  unspecidfied
+status: active
+label: RAZI Cov Pars
+comment: ''
 created: '2021-07-19'
-modified: '2024-06-04'
-codes:
-  ICD11:
-  - XM9N08
-  NUVACode:
-  - 0739
-  SCT_NUVA:
-  - '8831002000106'
-valences:
-- VAL104
+modified: '2026-09-10'
+instanceOf: VAC1113

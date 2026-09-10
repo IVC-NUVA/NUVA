@@ -1,14 +1,10 @@
 abstract: true
-label: Quadrivalent meningococcal ACWY vaccine, diphtheria toxoid conjugate, unspecified
+status: active
+label: Meningococcal ACWY vaccine, diphtheria toxoid conjugate, unspecified
 comment: Quadrivalent meningococcal polysaccharide conjugate vaccine against serogroups
   A, C, W and Y (diphtheria toxoid conjugate)
 created: '2024-06-05'
-modified: '2024-07-05'
-codes:
-  NUVACode:
-  - '1153'
-  SCT_NUVA:
-  - '14121002000105'
+modified: '2026-09-10'
 valences:
 - VAL267
 - VAL270

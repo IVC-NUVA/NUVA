@@ -1,13 +1,7 @@
 abstract: false
+status: active
 label: SPUTNIK V
-comment: COVID-19 vaccine, non-replicating adenoviral 6 vector encoding the SARS-CoV-2
-  spike protein
+comment: ''
 created: '2025-04-10'
 modified: '2025-04-10'
-codes:
-  NUVACode:
-  - '1406'
-  SCT_NUVA:
-  - '17011002000105'
-valences:
-- VAL070
+instanceOf: VAC1143

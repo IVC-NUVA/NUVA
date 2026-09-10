@@ -1,21 +1,7 @@
 abstract: false
+status: active
 label: TETRAMUNE
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell
-  inactivated) and Haemophilus influenzae type b (conjugated to diphtheria toxoid)
-  pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-11-02'
-codes:
-  NUVACode:
-  - 0391
-  SCT_NUVA:
-  - '5161002000102'
-  SWISSLEGACY:
-  - '107'
-  THL:
-  - '100'
-valences:
-- VAL010
-- VAL067
-- VAL097
-- VAL154
+instanceOf: VAC1168

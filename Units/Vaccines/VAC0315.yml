@@ -1,18 +1,7 @@
 abstract: false
+status: active
 label: MUMPSVAX
-comment: Live attenuated mumps vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-04-10'
-codes:
-  AIC:
-  - 023279
-  CNK:
-  - 0058032
-  NUVACode:
-  - '0315'
-  SCT_NUVA:
-  - '4381002000108'
-  SWISSMEDIC:
-  - '247'
-valences:
-- VAL077
+instanceOf: VAC0153

@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: TETANUS VACCIN
-comment: Tetanus toxoid vaccine, marketed in Holland by Bilthoven Biologicals
+comment: ''
 created: '2021-07-19'
 modified: '2023-05-29'
-codes:
-  NUVACode:
-  - '0532'
-  SCT_NUVA:
-  - '6711002000108'
-valences:
-- VAL067
+instanceOf: VAC0132

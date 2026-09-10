@@ -1,12 +1,8 @@
 abstract: true
+status: active
 label: Measles vaccine, whole inactivated, unspecified
 comment: Whole inactivated measles vaccine (historical)
 created: '2024-06-05'
 modified: '2024-06-06'
-codes:
-  NUVACode:
-  - '1209'
-  SCT_NUVA:
-  - '14691002000103'
 valences:
 - VAL093

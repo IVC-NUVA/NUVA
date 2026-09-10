@@ -1,56 +1,7 @@
 abstract: false
+status: active
 label: IXIARO
-comment: Whole virion inactivated Japanese encephalitis vaccine, Vero cell-derived,
-  adsorbed
+comment: ''
 created: '2021-07-19'
 modified: '2026-01-23'
-codes:
-  AIC:
-  - 039220
-  CIP:
-  - '3400939395807'
-  - '3400939395975'
-  CIS:
-  - '62816512'
-  CNK:
-  - '2765469'
-  CODE_NATIONAL_SPAIN:
-  - '663059'
-  CP-NRONATIDENT:
-  - 0521638
-  CTI:
-  - '340067'
-  - '340076'
-  CTI-EXTEND:
-  - 340067-01
-  - 340076-01
-  CVC:
-  - '21771000087109'
-  - '7151000087100'
-  DIN:
-  - 02333279
-  ELGA:
-  - '3537551'
-  EU-NUMBER:
-  - EU-1-08-501-001
-  - EU-1-08-501-002
-  INFARMED:
-  - '5268271'
-  NDC:
-  - 42515-0001
-  - 42515-0002
-  - 42515-002
-  - 62195-0051
-  - 62195-051
-  NUVACode:
-  - '0073'
-  PZN:
-  - 07299522
-  SCT_NUVA:
-  - '1511002000109'
-  SWISSMEDIC:
-  - '59147'
-  THL:
-  - '48'
-valences:
-- VAL251
+instanceOf: VAC1111

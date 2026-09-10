@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: FLUBIO INFLUENZA HA
-comment: Inactivated trivalent seasonal influenza vaccine with surface antigen
+comment: ''
 created: '2025-03-04'
 modified: '2025-03-04'
-codes:
-  NUVACode:
-  - '1282'
-  SCT_NUVA:
-  - '15651002000106'
-valences:
-- VAL015
+instanceOf: VAC0925

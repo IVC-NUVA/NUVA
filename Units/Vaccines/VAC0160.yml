@@ -1,24 +1,8 @@
 abstract: true
-label: Live attenuated shingles vaccine, unspecified
+status: active
+label: Shingles live attenuated vaccine, unspecified
 comment: Live attenuated shingles vaccine
 created: '2021-07-19'
-modified: '2025-04-11'
-codes:
-  ATC:
-  - J07BK02
-  CPT:
-  - '90736'
-  CVC:
-  - '407746005'
-  CVX:
-  - '121'
-  ICD11:
-  - XM1SS1
-  NUVACode:
-  - '0160'
-  SCT_NUVA:
-  - '2731002000103'
-  SNOMED-CT:
-  - '2221000221107'
+modified: '2026-09-10'
 valences:
 - VAL020

@@ -1,49 +1,7 @@
 abstract: false
+status: active
 label: FLUARIXTETRA
-comment: Quadrivalent inactivated seasonal influenza vaccine, split virion
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  AIC:
-  - '043132'
-  CIP:
-  - '3400927442599'
-  - '3400927442650'
-  - '3400930029169'
-  - '3400930029190'
-  - '3400930029220'
-  CIS:
-  - '62464573'
-  CODE_NATIONAL_SPAIN:
-  - '606408'
-  - '701798'
-  - '708993'
-  - '708994'
-  - '708995'
-  - '708996'
-  ELGA:
-  - '4205785'
-  - '5801495'
-  INFARMED:
-  - '5751078'
-  - '5836671'
-  NDC:
-  - 58160-0885
-  - 58160-0887
-  - 58160-0896
-  - 58160-0898
-  - 58160-0900
-  - 58160-0901
-  - 58160-0903
-  - 58160-0905
-  - 58160-0907
-  NUVACode:
-  - '0517'
-  SCT_NUVA:
-  - '6481002000109'
-  SWISSMEDIC:
-  - '62961'
-  THL:
-  - '151'
-valences:
-- VAL040
+instanceOf: VAC0938

@@ -1,18 +1,7 @@
 abstract: false
+status: active
 label: COMVAC5
-comment: Paediatric vaccine for diphtheria (toxoid, standard dose), tetanus (toxoid),
-  whooping cough (whole, standard dose), hepatitis B and Haemophilus influenzae type
-  b (conjugated with tetanus toxoid).
+comment: ''
 created: '2025-04-04'
 modified: '2025-04-04'
-codes:
-  NUVACode:
-  - '1365'
-  SCT_NUVA:
-  - '16581002000106'
-valences:
-- VAL010
-- VAL067
-- VAL097
-- VAL114
-- VAL156
+instanceOf: VAC1181

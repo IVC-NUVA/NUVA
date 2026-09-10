@@ -1,34 +1,7 @@
 abstract: false
+status: active
 label: VIDPREVTYN BETA
-comment: 'COVID-19 vaccine, protein subunit, recombinant spike protein, with ASO3
-  adjuvant. Other name: Sanofi-GSK Recombinant COVID-19 Vaccine.'
+comment: ''
 created: '2021-07-19'
 modified: '2022-12-15'
-codes:
-  CIP:
-  - '3400930264157'
-  CIS:
-  - '67734275'
-  CPT:
-  - '91310'
-  CVC:
-  - '45391000087107'
-  CVX:
-  - '521'
-  ELGA:
-  - '5517908'
-  - AUSL_000020
-  EU-NUMBER:
-  - EU-1-21-1580-001
-  ICD11:
-  - XM9ZB6
-  INFARMED:
-  - '5848155'
-  NUVACode:
-  - 0685
-  SCT_NUVA:
-  - '8251002000100'
-  THL:
-  - '154'
-valences:
-- VAL053
+instanceOf: VAC1043

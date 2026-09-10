@@ -1,17 +1,15 @@
 abstract: true
-label: Hexavalent vaccine DTPaHibPHepB - Diphtheria-Tetanus-Pertussis-Hib OMP-Polio-Hepatitis
-  B 10µg, unspecified
-comment: Pediatric vaccine diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis
-  (multicomponent acellular, standard dose), anti-Haemophilus influenzae type b (conjugated
-  to the outer membrane protein of Neisseria meningitidis serogroup B), poliomyelitis
-  (whole inactivated, trivalent) and hepatitis B (recombinant), adsorbed
+status: active
+label: Diphtheria (standard dose), tetanus, pertussis (multicomponent acellular, standard
+  dose), anti-Haemophilus influenzae type b (conjugated to the outer membrane protein
+  of Neisseria meningitidis serogroup B), poliomyelitis (whole inactivated, trivalent)
+  and hepatitis B (recombinant) vaccine, adsorbed, pediatric
+comment: Diphtheria (standard dose), tetanus, pertussis (multicomponent acellular,
+  standard dose), anti-Haemophilus influenzae type b (conjugated to the outer membrane
+  protein of Neisseria meningitidis serogroup B), poliomyelitis (whole inactivated,
+  trivalent) and hepatitis B (recombinant) vaccine, adsorbed, pediatric
 created: '2024-06-05'
-modified: '2024-06-06'
-codes:
-  NUVACode:
-  - '1215'
-  SCT_NUVA:
-  - '14751002000104'
+modified: '2026-09-09'
 valences:
 - VAL008
 - VAL056

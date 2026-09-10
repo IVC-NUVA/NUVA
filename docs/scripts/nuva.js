@@ -651,10 +651,10 @@ function viewEditValence(idval) {
         }			
     } 
     document.getElementById("vcode").value = idval
-	document.getElementById("vshorthand").value = valence['shorthand']
-	document.getElementById("vlabel").value = valence['label']
-	document.getElementById("vclass").value = valence.class
-	document.getElementById("vparent").innerHTML = valences[valence['parent']]['shorthand']
+	document.getElementById("vshorthand").value = valence.shorthand
+	document.getElementById("vlabel").value = valence.label
+	document.getElementById("vtype").value = valence.vtype
+	document.getElementById("vparent").innerHTML = valences[valence.parent].shorthand
 	document.getElementById("edit").style = "display:block"
 }
 
@@ -681,7 +681,7 @@ function setValenceValues() {
 	valence = valences[idval]
 	valence.shorthand = document.getElementById("vshorthand").value
 	valence.label = document.getElementById("vlabel").value
-	valence.class = document.getElementById("vclass").value
+	valence.vtype = document.getElementById("vtype").value
 	viewEditValence(idval)
 	saveToSession("valences", valences)
 	showValences()
@@ -753,7 +753,7 @@ function valenceChanged(idval) {
 	return (
 		(valence.shorthand != ref.shorthand) ||
 		(valence.label != ref.label) ||
-		(valence.class != ref.class) ||
+		(valence.vtype != ref.vtype) ||
 		(valence.parent != ref.parent)
 	)
 }

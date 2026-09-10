@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: VACCINO ANTICOLERICO SCLAVO
-comment: Cholera vaccine, unspecified
+comment: ''
 created: '2022-04-04'
 modified: '2024-04-22'
-codes:
-  AIC:
-  - 014486
-  NUVACode:
-  - 0893
-  SCT_NUVA:
-  - '10641002000104'
-valences:
-- VAL081
+instanceOf: VAC0144

@@ -1,18 +1,7 @@
 abstract: false
+status: active
 label: POLIO BOOSTRIX
-comment: Diphtheria toxoid (low dose), tetanus toxoid, pertussis (multicomponent acellular,
-  5 components, low dose) and inactivated polio (trivalent) vaccine, adsorbed
+comment: ''
 created: '2021-07-19'
 modified: '2023-11-02'
-codes:
-  AIC:
-  - '036752'
-  NUVACode:
-  - '0734'
-  SCT_NUVA:
-  - '8791002000101'
-valences:
-- VAL017
-- VAL034
-- VAL056
-- VAL067
+instanceOf: VAC0585

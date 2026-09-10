@@ -1,18 +1,13 @@
 abstract: true
-label: Hexavalent vaccine DTPerHibPHepB - Diphtheria-Tetanus-Pertussis-Polio-Hib-Hepatitis
-  B vaccine, unspecified
+status: active
+label: Diphtheria (standard dose), tetanus, pertussis (whole or acellular, unspecified
+  dose), inactivated polio (whole, trivalent), Haemophilus influenzae type b (conjugate,
+  unspecified) and hepatitis B (recombinant) hexavalent DTPerHibPHepB vaccine, pediatric
 comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole or acellular,
   unspecified dose), inactivated polio (whole, trivalent), Haemophilus influenzae
   type b (conjugate, unspecified) and hepatitis B (recombinant) pediatric vaccine
 created: '2021-10-26'
-modified: '2025-02-11'
-codes:
-  NUVACode:
-  - 0791
-  SCT_NUVA:
-  - '9401002000109'
-  SNOMED-CT:
-  - '871895005'
+modified: '2026-09-10'
 valences:
 - VAL003
 - VAL056

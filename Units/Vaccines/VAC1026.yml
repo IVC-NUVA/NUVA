@@ -1,21 +1,7 @@
 abstract: false
+status: active
 label: SOBERANA 02 FINLAY-FR-2 COVID-19 VACCINE
-comment: COVID-19 vaccine, protein subunit, recombinant spike protein (RBD domain
-  conjugated to tetanus toxoid + adjuvant)
+comment: ''
 created: '2022-10-11'
 modified: '2025-04-25'
-codes:
-  CVC:
-  - '34591000087100'
-  ELGA:
-  - AUSL_000030
-  ICD11:
-  - XM3PG0
-  NUVACode:
-  - '1026'
-  SCT_NUVA:
-  - '12351002000105'
-  THL:
-  - '165'
-valences:
-- VAL011
+instanceOf: VAC1138

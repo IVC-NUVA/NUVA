@@ -1,27 +1,7 @@
 abstract: false
+status: active
 label: VACCIN RABIQUE PASTEUR
-comment: Whole virion inactivated rabies vaccine, Wistar virus strain PM1503-3M, cultured
-  on Vero cells
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  CIP:
-  - '3400930152119'
-  - '3400933048877'
-  - '3400955604136'
-  - '3400955604365'
-  CIS:
-  - '63461516'
-  - '67498113'
-  - '67718545'
-  CNK:
-  - 0825786
-  - '2231967'
-  NUVACode:
-  - '0054'
-  SCT_NUVA:
-  - '1281002000102'
-  THL:
-  - '62'
-valences:
-- VAL260
+instanceOf: VAC1116

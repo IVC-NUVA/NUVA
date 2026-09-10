@@ -1,16 +1,7 @@
 abstract: false
+status: active
 label: VACCINO MENINGOCOCCICO POLISACCARIDICO TETRAVALENTE GSK
-comment: Unconjugated meningococcal polysaccharide vaccine, serogroups A, C, W and
-  Y
+comment: ''
 created: '2022-06-20'
 modified: '2024-04-15'
-codes:
-  NUVACode:
-  - 0988
-  SCT_NUVA:
-  - '11871002000102'
-valences:
-- VAL037
-- VAL137
-- VAL138
-- VAL139
+instanceOf: VAC0152

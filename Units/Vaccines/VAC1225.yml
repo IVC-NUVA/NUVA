@@ -1,14 +1,11 @@
 abstract: true
-label: DT-TAB Diphtheria, tetanus, typhoid and paratypoid A and B vaccines, unspecified
-comment: Diphtheria, tetanus (toxoid), typhoid (whole inactivated) and paratyphoid
-  A and B (whole inactivated) vaccines
+status: active
+label: Diphtheria (standard dose), tetanus, typhoid (whole inactivated) and paratypoid
+  A and B (whole inactivated) vaccines, unspecified
+comment: Diphtheria (standard dose), tetanus, typhoid (whole inactivated) and paratypoid
+  A and B (whole inactivated) vaccines, unspecified
 created: '2024-06-05'
-modified: '2025-06-18'
-codes:
-  NUVACode:
-  - '1225'
-  SCT_NUVA:
-  - '14851002000108'
+modified: '2026-09-08'
 valences:
 - VAL045
 - VAL067

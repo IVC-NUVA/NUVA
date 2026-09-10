@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: BVAC
-comment: Antitoxin against botulism
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  NUVACode:
-  - '0202'
-  SCT_NUVA:
-  - '3181002000109'
-valences:
-- VAL063
+instanceOf: VAC0909

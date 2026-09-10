@@ -1,24 +1,7 @@
 abstract: false
+status: active
 label: SPOUTNIK V
-comment: COVID-19 vaccine, non-replicating adenoviral vector encoding the SARS-CoV-2
-  spike protein
+comment: ''
 created: '2021-07-19'
 modified: '2022-11-23'
-codes:
-  CVC:
-  - '31341000087103'
-  CVX:
-  - '505'
-  ELGA:
-  - AUSL_000003
-  ICD11:
-  - XM4PM4
-  - XM6Z24
-  NUVACode:
-  - '0670'
-  SCT_NUVA:
-  - '8051002000107'
-  THL:
-  - '135'
-valences:
-- VAL070
+instanceOf: VAC1143

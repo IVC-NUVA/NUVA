@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: Q-VAX
-comment: Inactivated Q fever vaccine
+comment: ''
 created: '2022-07-29'
 modified: '2024-04-15'
-codes:
-  NUVACode:
-  - '1002'
-  SCT_NUVA:
-  - '12031002000103'
-valences:
-- VAL172
+instanceOf: VAC0896

@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: HIB-IMMUNE
-comment: Haemophilus influenzae type b non-conjugated polysaccharide vaccine
+comment: ''
 created: '2024-05-20'
 modified: '2024-05-20'
-codes:
-  NUVACode:
-  - '1102'
-  SCT_NUVA:
-  - '13571002000101'
-valences:
-- VAL049
+instanceOf: VAC1148

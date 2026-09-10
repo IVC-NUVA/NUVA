@@ -1,13 +1,7 @@
 abstract: false
+status: active
 label: RVA RABIES VACCINE ABSORBED BIOPORT
-comment: Whole virion inactivated rabies vaccine, adsorbed on aluminium phosphate
-  from BioPort laboratory
+comment: ''
 created: '2021-07-19'
 modified: '2025-03-31'
-codes:
-  NUVACode:
-  - '0370'
-  SCT_NUVA:
-  - '4931002000108'
-valences:
-- VAL080
+instanceOf: VAC0131

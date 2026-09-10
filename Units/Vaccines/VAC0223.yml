@@ -1,13 +1,7 @@
 abstract: false
+status: active
 label: DUAL ANTIGEN SII
-comment: Diphtheria toxoid (standard dose) and tetanus toxoid pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-03-14'
-codes:
-  NUVACode:
-  - '0223'
-  SCT_NUVA:
-  - '3391002000109'
-valences:
-- VAL067
-- VAL097
+instanceOf: VAC0137

@@ -1,16 +1,7 @@
 abstract: false
+status: active
 label: CYTOGAM
-comment: Human intravenous anti-CMV immunoglobulin
+comment: ''
 created: '2024-05-16'
 modified: '2024-06-06'
-codes:
-  CVC:
-  - '19331000087104'
-  DIN:
-  - 02231962
-  NUVACode:
-  - '1097'
-  SCT_NUVA:
-  - '13511002000108'
-valences:
-- VAL331
+instanceOf: VAC1062

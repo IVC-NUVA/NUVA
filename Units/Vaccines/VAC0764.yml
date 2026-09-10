@@ -1,13 +1,7 @@
 abstract: false
+status: active
 label: MRT5500
-comment: COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, ongoing clinical
-  trial
+comment: ''
 created: '2021-07-19'
 modified: '2023-07-20'
-codes:
-  NUVACode:
-  - '0764'
-  SCT_NUVA:
-  - '9031002000105'
-valences:
-- VAL135
+instanceOf: VAC1166

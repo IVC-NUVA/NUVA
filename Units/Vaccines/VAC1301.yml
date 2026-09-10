@@ -1,13 +1,7 @@
 abstract: false
+status: active
 label: BE Td
-comment: Diphtheria vaccine (toxoid, reduced dose) and tetanus vaccine (toxoid)
+comment: ''
 created: '2025-03-11'
 modified: '2025-05-22'
-codes:
-  NUVACode:
-  - '1301'
-  SCT_NUVA:
-  - '15841002000105'
-valences:
-- VAL034
-- VAL067
+instanceOf: VAC0920

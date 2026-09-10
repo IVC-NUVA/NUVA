@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: VAXIPAR
-comment: Live mumps vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-04-10'
-codes:
-  AIC:
-  - '027504'
-  NUVACode:
-  - '0445'
-  SCT_NUVA:
-  - '5691002000104'
-valences:
-- VAL077
+instanceOf: VAC0153

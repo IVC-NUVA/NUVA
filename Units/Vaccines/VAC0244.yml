@@ -1,15 +1,7 @@
 abstract: false
+status: active
 label: HEPRECOMB
-comment: Recombinant hepatitis B vaccine with 10 micrograms of HBs antigen for use
-  from the age of 11 years
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  NUVACode:
-  - '0244'
-  SCT_NUVA:
-  - '3611002000106'
-  SWISSMEDIC:
-  - '544'
-valences:
-- VAL114
+instanceOf: VAC0914

@@ -1,14 +1,7 @@
 abstract: false
-label: TRESIVAC LYOPHILIZED
-comment: Live attenuated measles, mumps and rubella vaccine
+status: active
+label: TRESIVAC LYOPHOLIZED
+comment: ''
 created: '2021-07-19'
-modified: '2022-10-28'
-codes:
-  NUVACode:
-  - 0397
-  SCT_NUVA:
-  - '5231002000100'
-valences:
-- VAL005
-- VAL077
-- VAL079
+modified: '2026-09-10'
+instanceOf: VAC0130

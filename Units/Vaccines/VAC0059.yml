@@ -1,38 +1,7 @@
 abstract: false
+status: active
 label: TYPHERIX
-comment: Polysaccharide typhoid vaccine (Vi capsular antigen)
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  AIC:
-  - '034461'
-  CIP:
-  - '3400935080356'
-  - '3400935080417'
-  - '3400935080585'
-  - '3400935080646'
-  CIS:
-  - '69107862'
-  CNK:
-  - '1460369'
-  CODE_NATIONAL_SPAIN:
-  - '811836'
-  CVC:
-  - '7301000087104'
-  DIN:
-  - '02242727'
-  ELGA:
-  - '1333991'
-  INFARMED:
-  - '2894582'
-  - '2894681'
-  - '2894780'
-  - '2894889'
-  NUVACode:
-  - 0059
-  SCT_NUVA:
-  - '1341002000101'
-  THL:
-  - '44'
-valences:
-- VAL032
+instanceOf: VAC0713

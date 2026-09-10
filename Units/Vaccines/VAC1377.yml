@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: VAXIFLU-4
-comment: Quadrivalent inactivated seasonal influenza vaccine, split or subunit, unspecified
+comment: ''
 created: '2025-04-07'
-modified: '2025-04-07'
-codes:
-  NUVACode:
-  - '1377'
-  SCT_NUVA:
-  - '16711002000106'
-valences:
-- VAL230
+modified: '2026-09-10'
+instanceOf: VAC0000

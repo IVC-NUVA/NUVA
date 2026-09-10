@@ -1,28 +1,7 @@
 abstract: false
+status: active
 label: TRITANRIX HepB
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell
-  inactivated) and hepatitis B (recombinant) pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-11-02'
-codes:
-  AIC:
-  - 030694
-  CODE_NATIONAL_SPAIN:
-  - '676122'
-  EU-NUMBER:
-  - EU-1-96-014-001
-  - EU-1-96-014-002
-  - EU-1-96-014-003
-  INFARMED:
-  - '2425882'
-  - '2425981'
-  - '3750585'
-  NUVACode:
-  - 0494
-  SCT_NUVA:
-  - '6191002000101'
-valences:
-- VAL010
-- VAL067
-- VAL097
-- VAL114
+instanceOf: VAC1208

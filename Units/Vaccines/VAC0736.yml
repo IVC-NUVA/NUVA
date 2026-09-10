@@ -1,33 +1,7 @@
 abstract: false
+status: active
 label: TRIAXIS POLIO
-comment: Diphtheria toxoid (low dose), tetanus toxoid, pertussis (multicomponent acellular,
-  5 components, low dose) and inactivated polio (trivalent) vaccine, adsorbed
+comment: ''
 created: '2021-07-19'
 modified: '2025-10-17'
-codes:
-  AIC:
-  - 048290
-  CNK:
-  - '4237939'
-  CODE_NATIONAL_SPAIN:
-  - '728007'
-  - '728008'
-  CP-NRONATIDENT:
-  - '0433017'
-  CTI:
-  - '241096'
-  CTI-EXTEND:
-  - 241096-01
-  - 241096-02
-  - 241096-03
-  NTIN:
-  - '8470007280071'
-  NUVACode:
-  - '0736'
-  SCT_NUVA:
-  - '8811002000102'
-valences:
-- VAL017
-- VAL034
-- VAL056
-- VAL067
+instanceOf: VAC0585

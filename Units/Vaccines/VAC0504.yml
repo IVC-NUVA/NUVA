@@ -1,24 +1,7 @@
 abstract: false
-label: INFANRIX POLIO HIB NOURRISSONS
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
-  acellular, standard dose), Haemophilus influenzae type b (conjugated to tetanus
-  toxoid) and inactivated polio (trivalent) pediatric vaccine, adsorbed
+status: active
+label: INFANRIX Polio HIB Nourrissons
+comment: ''
 created: '2021-07-19'
-modified: '2024-06-05'
-codes:
-  CODE_NATIONAL_SPAIN:
-  - '841320'
-  NUVACode:
-  - '0504'
-  PZN:
-  - 00278474
-  - 08627715
-  - 08627721
-  SCT_NUVA:
-  - '6321002000101'
-valences:
-- VAL008
-- VAL056
-- VAL067
-- VAL097
-- VAL156
+modified: '2026-09-10'
+instanceOf: VAC1115

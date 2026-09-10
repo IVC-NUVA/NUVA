@@ -1,15 +1,7 @@
 abstract: false
+status: active
 label: BIKEN
-comment: 'Whole virion inactivated Japanese encephalitis vaccine, mouse brain-derived,
-  Nakayama strain - Other name: JEVAX'
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  NUVACode:
-  - 0509
-  SCT_NUVA:
-  - '6371002000100'
-  THL:
-  - '103'
-valences:
-- VAL250
+instanceOf: VAC1196

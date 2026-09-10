@@ -1,25 +1,7 @@
 abstract: false
+status: active
 label: VACCIN BCG AJVACCINES
-comment: Tuberculosis vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  CIP:
-  - '3400936466074'
-  - '3400936466135'
-  - '3400936466364'
-  - '3400936466425'
-  CIS:
-  - '61077869'
-  CODE_NATIONAL_SPAIN:
-  - '758854'
-  INFARMED:
-  - '4472189'
-  NUVACode:
-  - 0590
-  SCT_NUVA:
-  - '7171002000104'
-  THL:
-  - '189'
-valences:
-- VAL096
+instanceOf: VAC0134

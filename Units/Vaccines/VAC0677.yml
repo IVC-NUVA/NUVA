@@ -1,13 +1,7 @@
 abstract: false
-label: CHINESE-PLA-ARN-Covid
-comment: COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, ongoing clinical
-  trial
+status: active
+label: Chinese-PLA-ARN-Covid
+comment: ''
 created: '2021-07-19'
-modified: '2024-06-05'
-codes:
-  NUVACode:
-  - '0677'
-  SCT_NUVA:
-  - '8141002000109'
-valences:
-- VAL135
+modified: '2026-09-10'
+instanceOf: VAC1166

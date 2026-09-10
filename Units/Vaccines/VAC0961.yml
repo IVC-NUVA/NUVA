@@ -1,16 +1,7 @@
 abstract: false
+status: active
 label: ANATOXAL TE N
-comment: Tetanus vaccine vaccine
+comment: ''
 created: '2022-05-30'
 modified: '2024-04-16'
-codes:
-  NUVACode:
-  - 0961
-  SCT_NUVA:
-  - '11601002000105'
-  SWISSLEGACY:
-  - '84'
-  SWISSMEDIC:
-  - '689'
-valences:
-- VAL067
+instanceOf: VAC0132

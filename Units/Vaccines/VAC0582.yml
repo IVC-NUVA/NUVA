@@ -1,61 +1,7 @@
 abstract: false
+status: active
 label: TRUMENBA
-comment: Meningococcal vaccine, serogroup B (recombinant, adsorbed)
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  AIC:
-  - 045429
-  CIP:
-  - '3400930096376'
-  CIS:
-  - '65802140'
-  CNK:
-  - '3598034'
-  CODE_NATIONAL_SPAIN:
-  - '716598'
-  CP-NRONATIDENT:
-  - 0843516
-  CTI:
-  - '519484'
-  - '51991'
-  - '519982'
-  - '520000'
-  - '520017'
-  - '520026'
-  CTI-EXTEND:
-  - 519484-01
-  - 519982-01
-  - 519991-01
-  - 520000-01
-  - 520017-01
-  - 520026-01
-  CVC:
-  - '23031000087108'
-  DIN:
-  - 02468751
-  ELGA:
-  - '4466942'
-  EU-NUMBER:
-  - EU-1-17-1187-001
-  - EU-1-17-1187-002
-  - EU-1-17-1187-003
-  - EU-1-17-1187-004
-  - EU-1-17-1187-005
-  - EU-1-17-1187-006
-  INFARMED:
-  - '5717251'
-  NDC:
-  - 00005-0100
-  - 0005-0100
-  NUVACode:
-  - 0582
-  PZN:
-  - '12521744'
-  - '12521750'
-  SCT_NUVA:
-  - '7131002000102'
-  THL:
-  - '125'
-valences:
-- VAL072
+instanceOf: VAC1152

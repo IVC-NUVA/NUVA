@@ -1,13 +1,7 @@
 abstract: false
-label: TETADIF
-comment: Diphtheria toxoid (low dose) and tetanus toxoid vaccine
+status: active
+label: Diph-T, unspecified
+comment: ''
 created: '2021-10-26'
-modified: '2022-10-28'
-codes:
-  NUVACode:
-  - 0793
-  SCT_NUVA:
-  - '9421002000101'
-valences:
-- VAL034
-- VAL067
+modified: '2026-09-10'
+instanceOf: VAC0920

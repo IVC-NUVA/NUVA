@@ -1,50 +1,7 @@
 abstract: false
+status: active
 label: EFLUELDA
-comment: High-dose, trivalent inactivated seasonal influenza vaccine, split-virion
+comment: ''
 created: '2025-04-02'
 modified: '2025-07-01'
-codes:
-  AIC:
-  - '051634'
-  CIP:
-  - '3400930304983'
-  - '3400930304990'
-  - '3400930305003'
-  - '3400930305010'
-  - '3400930305027'
-  - '3400930305034'
-  - '3400930305058'
-  - '3400930305065'
-  CIS:
-  - '62048742'
-  CNK:
-  - '4891487'
-  CODE_NATIONAL_SPAIN:
-  - '766173'
-  - '766174'
-  - '766175'
-  CTI:
-  - '663606'
-  CTI-EXTEND:
-  - 663606-01
-  - 663606-02
-  - 663606-03
-  - 663606-04
-  - 663606-05
-  - 663606-06
-  - 663606-10
-  ELGA:
-  - '6050128'
-  - AWEG_000001
-  INFARMED:
-  - '5892716'
-  NUVACode:
-  - '1347'
-  SCT_NUVA:
-  - '16401002000100'
-  SWISSMEDIC:
-  - 69863-01
-  THL:
-  - '173'
-valences:
-- VAL094
+instanceOf: VAC1171

@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: ZYVAC MMR
-comment: Live attenuated measles, mumps and rubella vaccine
+comment: ''
 created: '2025-04-07'
 modified: '2025-04-07'
-codes:
-  NUVACode:
-  - '1379'
-  SCT_NUVA:
-  - '16731002000102'
-valences:
-- VAL005
-- VAL077
-- VAL079
+instanceOf: VAC0130

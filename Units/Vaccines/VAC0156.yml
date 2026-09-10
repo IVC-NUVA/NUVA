@@ -1,21 +1,8 @@
 abstract: true
+status: active
 label: HPV Vaccine
 comment: Human Papillomavirus vaccine, unspecified
 created: '2021-07-19'
 modified: '2025-02-11'
-codes:
-  CVC:
-  - '424519000'
-  CVX:
-  - '137'
-  ICD11:
-  - XM9QP0
-  NUVACode:
-  - '0156'
-  SCT_NUVA:
-  - '2671002000108'
-  SNOMED-CT:
-  - '836379009'
-  - '911000221103'
 valences:
 - VAL082

@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: BABYBIG
-comment: Intravenous human immunoglobulin against infant botulism types A and B
+comment: ''
 created: '2024-05-16'
 modified: '2024-05-17'
-codes:
-  NUVACode:
-  - '1099'
-  SCT_NUVA:
-  - '13541002000107'
-valences:
-- VAL358
+instanceOf: VAC1156

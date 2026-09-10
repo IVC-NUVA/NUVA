@@ -1,19 +1,7 @@
 abstract: false
+status: active
 label: GLOBORIX
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell
-  inactivated), Haemophilus influenzae type b (conjugated to tetanus toxoid) and meningococcal
-  pediatric vaccine, serogroup A and C
+comment: ''
 created: '2021-07-19'
 modified: '2023-11-02'
-codes:
-  NUVACode:
-  - '0641'
-  SCT_NUVA:
-  - '7581002000105'
-valences:
-- VAL010
-- VAL067
-- VAL097
-- VAL156
-- VAL266
-- VAL271
+instanceOf: VAC1219

@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: HINKUYS KAROKOE
-comment: Pertussis (whole-cell inactivated) vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-11-02'
-codes:
-  NUVACode:
-  - 0248
-  SCT_NUVA:
-  - '3671002000104'
-  THL:
-  - '107'
-valences:
-- VAL010
+instanceOf: VAC0163

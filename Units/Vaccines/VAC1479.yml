@@ -1,10 +1,7 @@
 abstract: false
+status: active
 label: VACPERTAGEN
-comment: Pertussis vaccine (recombinant, acellular, reduced-dose, bivalent, adsorbed).
+comment: ''
 created: '2025-11-17'
 modified: '2026-05-27'
-codes:
-  NUVACode:
-  - '1479'
-valences:
-- VAL017
+instanceOf: VAC1232

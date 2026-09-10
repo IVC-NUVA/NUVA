@@ -1,66 +1,7 @@
 abstract: false
+status: active
 label: ABRYSVO
-comment: Respiratory Syncytial Virus (RSV) vaccine, recombinant prefusion F glycoproteins
-  of RSV, bivalent (subtypes A and B), non-adjuvanted
+comment: ''
 created: '2023-07-23'
 modified: '2024-11-28'
-codes:
-  AIC:
-  - 050831
-  CIP:
-  - '3400930275573'
-  - '3400930281512'
-  - '3400930281529'
-  CIS:
-  - '60990140'
-  CNK:
-  - '4736807'
-  CODE_NATIONAL_SPAIN:
-  - '607692'
-  - '607832'
-  - '762989'
-  CTI:
-  - '661771'
-  - '66177101'
-  - '661772'
-  - '661773'
-  - '661774'
-  - '661775'
-  - '661776'
-  - '662412'
-  - '663041'
-  CTI-EXTEND:
-  - 661771-01
-  - 661772-01
-  - 661773-01
-  - 661774-01
-  - 661775-01
-  - 661776-01
-  - 662412-01
-  - 663041-01
-  CVC:
-  - '55351000087104'
-  ELGA:
-  - '5525687'
-  EU-NUMBER:
-  - EU-1-23-1752-001
-  - EU-1-23-1752-002
-  - EU-1-23-1752-003
-  - EU-1-23-1752-004
-  - EU-1-23-1752-005
-  - EU-1-23-1752-006
-  INFARMED:
-  - '5861471'
-  NDC:
-  - 0069-0344
-  - 0069-2465
-  NUVACode:
-  - '1047'
-  SCT_NUVA:
-  - '12671002000106'
-  SWISSMEDIC:
-  - '69691'
-  THL:
-  - '178'
-valences:
-- VAL322
+instanceOf: VAC1224

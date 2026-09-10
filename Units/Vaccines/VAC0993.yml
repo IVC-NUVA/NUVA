@@ -1,26 +1,7 @@
 abstract: false
+status: active
 label: TD ADSORBED
-comment: Diphtheria toxoid (reduced dose) and tetanus toxoid vaccine
+comment: ''
 created: '2022-06-20'
 modified: '2025-03-15'
-codes:
-  CVC:
-  - '7371000087109'
-  DIN:
-  - '00514462'
-  ELGA:
-  - '1290520'
-  - '2228368'
-  - '2228374'
-  - '4989947'
-  NDC:
-  - 49281-225
-  NUVACode:
-  - 0993
-  SCT_NUVA:
-  - '11921002000105'
-  SWISSMEDIC:
-  - '702'
-valences:
-- VAL034
-- VAL067
+instanceOf: VAC0920

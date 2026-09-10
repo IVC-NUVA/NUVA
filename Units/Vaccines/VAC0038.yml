@@ -1,33 +1,7 @@
 abstract: false
+status: active
 label: TICOVAC 0,5 mL
-comment: Tick-borne encephalitis vaccine, whole-virus inactivated, Neudörfl strain,
-  adult dose
+comment: ''
 created: '2021-07-19'
 modified: '2025-04-09'
-codes:
-  AIC:
-  - 034409
-  CIP:
-  - '3400927841705'
-  - '3400927841873'
-  - '3400936467606'
-  - '3400936467835'
-  - '3400936468085'
-  - '3400936774766'
-  CIS:
-  - '69663909'
-  CPT:
-  - '90627'
-  NDC:
-  - 00069-0411
-  NUVACode:
-  - 0038
-  PZN:
-  - '10259495'
-  - '10259503'
-  SCT_NUVA:
-  - '1041002000103'
-  THL:
-  - '33'
-valences:
-- VAL314
+instanceOf: VAC1038

@@ -1,36 +1,7 @@
 abstract: false
-label: MENCEVAX ACWY
-comment: Unconjugated meningococcal polysaccharide vaccine, serogroups A, C, W and
-  Y
+status: active
+label: MENCEVAX
+comment: ''
 created: '2021-07-19'
-modified: '2025-09-25'
-codes:
-  AIC:
-  - 038504
-  CIP:
-  - '3400938588354'
-  - '3400938588415'
-  - '3400938588583'
-  - '3400938588644'
-  - '3400938588705'
-  - '3400938588873'
-  CIS:
-  - '61145626'
-  - '62429031'
-  - '64234891'
-  CNK:
-  - 00305847
-  - '2473809'
-  NUVACode:
-  - 0018
-  SCT_NUVA:
-  - '451002000108'
-  SWISSMEDIC:
-  - '652'
-  THL:
-  - '28'
-valences:
-- VAL037
-- VAL137
-- VAL138
-- VAL139
+modified: '2026-09-10'
+instanceOf: VAC0152

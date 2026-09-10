@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: ANATETALL
-comment: Tetanus toxoid vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  AIC:
-  - 002238
-  NUVACode:
-  - 0190
-  SCT_NUVA:
-  - '3031002000107'
-valences:
-- VAL067
+instanceOf: VAC0132

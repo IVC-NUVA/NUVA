@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: VACCINO ANTITETANICO ISI
-comment: Tetanus toxoid vaccine
+comment: ''
 created: '2022-06-17'
 modified: '2024-04-15'
-codes:
-  NUVACode:
-  - 0979
-  SCT_NUVA:
-  - '11781002000107'
-valences:
-- VAL067
+instanceOf: VAC0132

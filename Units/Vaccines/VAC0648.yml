@@ -1,22 +1,8 @@
 abstract: true
+status: active
 label: COVID-19 vaccine, unspecified
 comment: COVID-19 vaccine
 created: '2021-07-19'
 modified: '2026-07-31'
-codes:
-  CVC:
-  - '28531000087107'
-  CVX:
-  - '213'
-  - '500'
-  ICD11:
-  - XM68M6
-  NUVACode:
-  - 0648
-  SCT_NUVA:
-  - '7711002000105'
-  SNOMED-CT:
-  - '1119305005'
-  - '28531000087107'
 valences:
 - VAL157

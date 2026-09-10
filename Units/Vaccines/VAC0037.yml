@@ -1,69 +1,7 @@
 abstract: false
+status: active
 label: TETRAVAC-ACELLULAIRE
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
-  acellular, standard dose) and inactivated polio (trivalent) pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  AIC:
-  - '034127'
-  CIP:
-  - '3400934822124'
-  - '3400934822353'
-  - '3400935166845'
-  - '3400936064478'
-  - '3400936064539'
-  - '3400936064768'
-  - '3400936874633'
-  - '3400936874862'
-  - '3400936874923'
-  - '3400936875005'
-  CIS:
-  - '66543281'
-  CNK:
-  - '1498062'
-  - '2231868'
-  CP-NRONATIDENT:
-  - 0253876
-  CTI:
-  - '196122'
-  CTI-EXTEND:
-  - 196122-01
-  - 196122-02
-  - 196122-03
-  - 196122-04
-  - 196122-05
-  - 196122-06
-  CVC:
-  - '23721000087109'
-  ELGA:
-  - '2467794'
-  INFARMED:
-  - '2782480'
-  - '2782589'
-  - '5376389'
-  - '5376488'
-  - '5458484'
-  - '5458583'
-  - '5458682'
-  - '5458781'
-  NTIN:
-  - '3400934822353'
-  - '3400936874923'
-  - '5000283661771'
-  - '7680006120013'
-  NUVACode:
-  - '0037'
-  PZN:
-  - 02699659
-  SCT_NUVA:
-  - '1021002000108'
-  SWISSMEDIC:
-  - '612'
-  THL:
-  - '9'
-valences:
-- VAL008
-- VAL056
-- VAL067
-- VAL097
+instanceOf: VAC0551

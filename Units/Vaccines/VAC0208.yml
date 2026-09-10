@@ -1,15 +1,7 @@
 abstract: false
+status: active
 label: CERTIVA
-comment: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (multicomponent
-  acellular, standard dose) pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-11-02'
-codes:
-  NUVACode:
-  - 0208
-  SCT_NUVA:
-  - '3241002000107'
-valences:
-- VAL008
-- VAL067
-- VAL097
+instanceOf: VAC0602

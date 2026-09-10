@@ -1,44 +1,7 @@
 abstract: false
+status: active
 label: INTANZA
-comment: Trivalent inactivated seasonal influenza vaccine, split virion, intradermal
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  AIC:
-  - 039425
-  CIP:
-  - '3400939522210'
-  - '3400957541231'
-  - '3400957541460'
-  CIS:
-  - '69532557'
-  CNK:
-  - '2706661'
-  - '2807063'
-  - '2936789'
-  - '3038031'
-  - '3147469'
-  CODE_NATIONAL_SPAIN:
-  - '662769'
-  CVC:
-  - '7611000087106'
-  DIN:
-  - 02348756
-  - 02348764
-  ELGA:
-  - '3539969'
-  EU-NUMBER:
-  - EU-1-08-505-004
-  - EU-1-08-505-005
-  - EU-1-08-505-006
-  INFARMED:
-  - '5187463'
-  - '5187471'
-  NUVACode:
-  - '0140'
-  SCT_NUVA:
-  - '2411002000103'
-  THL:
-  - '56'
-valences:
-- VAL015
+instanceOf: VAC0925

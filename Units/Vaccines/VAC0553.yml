@@ -1,15 +1,13 @@
 abstract: true
-label: Pentavalent DTwPHibIPV vaccine, unspecified
+status: active
+label: Diphtheria (standard dose), tetanus, pertussis (whole-cell inactivated), Haemophilus
+  influenzae type b (conjugated) and inactivated polio (trivalent) vaccine (DTwPHibIPV),
+  pediatric
 comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell
   inactivated), Haemophilus influenzae type b (conjugated, unspecified) and inactivated
   polio (trivalent) pediatric vaccine
 created: '2021-07-19'
-modified: '2026-01-08'
-codes:
-  NUVACode:
-  - '0553'
-  SCT_NUVA:
-  - '6881002000106'
+modified: '2026-09-10'
 valences:
 - VAL010
 - VAL056

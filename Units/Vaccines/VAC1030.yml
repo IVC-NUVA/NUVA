@@ -1,15 +1,7 @@
 abstract: false
+status: active
 label: GEMCOVAC-19
-comment: COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, ongoing clinical
-  trial
+comment: ''
 created: '2022-10-12'
 modified: '2024-04-12'
-codes:
-  ICD11:
-  - XM3X29
-  NUVACode:
-  - '1030'
-  SCT_NUVA:
-  - '12401002000104'
-valences:
-- VAL135
+instanceOf: VAC1166

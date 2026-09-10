@@ -1,16 +1,8 @@
 abstract: true
-label: Vaccine against adenovirus type 4, unspecified
+status: active
+label: Adenovirus type 4 vaccine, unspecified
 comment: Adenovirus type 4 vaccine
 created: '2022-04-29'
-modified: '2024-07-04'
-codes:
-  CPT:
-  - '90476'
-  CVX:
-  - '54'
-  NUVACode:
-  - 0907
-  SCT_NUVA:
-  - '10901002000109'
+modified: '2026-09-10'
 valences:
 - VAL282

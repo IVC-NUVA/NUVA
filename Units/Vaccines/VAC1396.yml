@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: ANFLU
-comment: Trivalent inactivated seasonal influenza vaccine, split virion
+comment: ''
 created: '2025-04-08'
 modified: '2025-04-08'
-codes:
-  NUVACode:
-  - '1396'
-  SCT_NUVA:
-  - '16911002000109'
-valences:
-- VAL015
+instanceOf: VAC0925

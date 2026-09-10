@@ -1,34 +1,7 @@
 abstract: false
+status: active
 label: INFANRIXTETRA
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
-  acellular, standard dose) and inactivated polio (trivalent) pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2026-01-09'
-codes:
-  CIP:
-  - '3400934167584'
-  - '3400934167645'
-  - '3400934167706'
-  - '3400935524676'
-  CIS:
-  - '61294723'
-  - '69777706'
-  INFARMED:
-  - '5267356'
-  - '5621081'
-  - '5621180'
-  - '5835236'
-  - '5835244'
-  NUVACode:
-  - '0051'
-  SCT_NUVA:
-  - '1241002000106'
-  SWISSLEGACY:
-  - '35'
-  SWISSMEDIC:
-  - '636'
-valences:
-- VAL008
-- VAL056
-- VAL067
-- VAL097
+instanceOf: VAC0551

@@ -1,50 +1,7 @@
 abstract: false
+status: active
 label: FLUENZ TETRA
-comment: Live attenuated quadrivalent seasonal influenza vaccine, nasal
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  AIC:
-  - '043173'
-  CIP:
-  - '3400927937439'
-  - '3400927937668'
-  - '3400928099853'
-  - '3400930011171'
-  - '3400930011188'
-  CIS:
-  - '62818082'
-  CODE_NATIONAL_SPAIN:
-  - '705694'
-  - '705696'
-  CP-NRONATIDENT:
-  - 0784995
-  CTI:
-  - '482791'
-  - '482800'
-  CTI-EXTEND:
-  - 482791-01
-  - 482800-01
-  ELGA:
-  - '4202025'
-  - '4202031'
-  - '5801354'
-  EU-NUMBER:
-  - EU-1-13-887-003
-  - EU-1-13-887-004
-  INFARMED:
-  - '5816061'
-  - '5816079'
-  NUVACode:
-  - '0521'
-  PZN:
-  - '10323247'
-  - '10323253'
-  SCT_NUVA:
-  - '6531002000107'
-  SWISSMEDIC:
-  - '68462'
-  THL:
-  - '116'
-valences:
-- VAL059
+instanceOf: VAC1112

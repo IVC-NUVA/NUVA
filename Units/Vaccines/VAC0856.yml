@@ -1,23 +1,13 @@
 abstract: true
-label: DTaPHib vaccine, unspecified
+status: active
+label: Diphtheria (standard dose), tetanus and pertussis (multicomponent acellular,
+  standard dose) and Haemophilus influenzae type b (conjugated, unspecified) DTaPHib
+  vaccine, pediatric
 comment: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (multicomponent
   acellular, standard dose) and Haemophilus influenzae type b (conjugated, unspecified)
   pediatric vaccine
 created: '2022-03-08'
-modified: '2024-04-24'
-codes:
-  CPT:
-  - '90721'
-  CVC:
-  - '8211000087108'
-  CVX:
-  - '50'
-  NUVACode:
-  - 0856
-  SCT_NUVA:
-  - '10241002000102'
-  SNOMED-CT:
-  - '318341000221109'
+modified: '2026-09-10'
 valences:
 - VAL008
 - VAL067

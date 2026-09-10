@@ -1,21 +1,8 @@
 abstract: true
-label: Monovalent oral polio vaccine - type unknown, unspecified
+status: active
+label: Poliomyelitis live attenuated monovalent oral vaccine, unspecified
 comment: Polio vaccine (live attenuated, monovalent), oral
 created: '2021-10-26'
-modified: '2024-07-05'
-codes:
-  ATC:
-  - J07BF01
-  CPT:
-  - '90712'
-  CVC:
-  - '125690004'
-  CVX:
-  - '179'
-  - '182'
-  NUVACode:
-  - 0802
-  SCT_NUVA:
-  - '9531002000104'
+modified: '2026-09-10'
 valences:
 - VAL133

@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: ACELLUVAX
-comment: Pertussis (multicomponent acelullar, 3 components, standard dose) vaccine
+comment: ''
 created: '2022-03-26'
 modified: '2024-04-22'
-codes:
-  AIC:
-  - 028274
-  NUVACode:
-  - 0879
-  SCT_NUVA:
-  - '10481002000105'
-valences:
-- VAL008
+instanceOf: VAC1167

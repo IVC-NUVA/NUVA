@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: MUMPS SINOVAC VACCINE
-comment: Live attenuated mumps vaccine
+comment: ''
 created: '2025-04-08'
 modified: '2025-04-08'
-codes:
-  NUVACode:
-  - '1395'
-  SCT_NUVA:
-  - '16901002000106'
-valences:
-- VAL077
+instanceOf: VAC0153

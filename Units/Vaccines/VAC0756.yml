@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: MV-014-212
-comment: COVID-19 vaccine, live attenuated, expressing the SARS-CoV-2 spike protein
+comment: ''
 created: '2021-07-19'
 modified: '2023-05-15'
-codes:
-  NUVACode:
-  - '0756'
-  SCT_NUVA:
-  - '8941002000106'
-valences:
-- VAL086
+instanceOf: VAC1202

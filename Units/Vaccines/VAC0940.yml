@@ -1,23 +1,7 @@
 abstract: false
+status: active
 label: SPUTNIK-LIGHT
-comment: COVID-19 vaccine with non-replicating viral vector, adenovirus encoding the
-  peak protein of SARS-CoV-2
+comment: ''
 created: '2022-05-18'
 modified: '2025-04-25'
-codes:
-  CVC:
-  - '33461000087106'
-  CVX:
-  - '504'
-  ELGA:
-  - AUSL_000014
-  ICD11:
-  - XM5QM6
-  NUVACode:
-  - 0940
-  SCT_NUVA:
-  - '11361002000100'
-  THL:
-  - '149'
-valences:
-- VAL292
+instanceOf: VAC1195

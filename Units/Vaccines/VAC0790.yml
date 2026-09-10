@@ -1,20 +1,10 @@
 abstract: true
-label: Diphtheria-Tetanus-Hepatitis B vaccine, unspecified
+status: active
+label: Diphtheria, tetanus and hepatitis B (recombinant) vaccine, unspecified
 comment: Diphtheria toxoid (unspecified dose), tetanus toxoid and hepatitis B (recombinant)
   vaccine
 created: '2021-10-26'
-modified: '2025-05-15'
-codes:
-  ATC:
-  - J07CA07
-  ICD11:
-  - XM3G68
-  NUVACode:
-  - 0790
-  SCT_NUVA:
-  - '9391002000107'
-  SNOMED-CT:
-  - '871929006'
+modified: '2026-09-10'
 valences:
 - VAL067
 - VAL083

@@ -1,10 +1,7 @@
 abstract: false
+status: active
 label: FLUBRON VACCINE
-comment: Seasonal influenza vaccine, whole inactivated
+comment: ''
 created: '2025-07-30'
 modified: '2025-07-31'
-codes:
-  NUVACode:
-  - '1464'
-valences:
-- VAL152
+instanceOf: VAC0820

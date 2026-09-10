@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: VAXICOQ
-comment: Pertussis (whole-cell inactivated) vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  CIP:
-  - '3400931116745'
-  NUVACode:
-  - 0087
-  SCT_NUVA:
-  - '1691002000102'
-valences:
-- VAL010
+instanceOf: VAC0163

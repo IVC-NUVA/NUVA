@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: IMOVAX PAROTIDITIS
-comment: Live attenuated mumps vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-04-10'
-codes:
-  NUVACode:
-  - '0257'
-  SCT_NUVA:
-  - '3761002000102'
-valences:
-- VAL077
+instanceOf: VAC0153

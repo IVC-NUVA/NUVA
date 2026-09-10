@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: HEPAVAX-GENE B 20 µg
-comment: Recombinant hepatitis B vaccine, adult dose
+comment: ''
 created: '2021-07-19'
 modified: '2025-04-03'
-codes:
-  NUVACode:
-  - '0471'
-  SCT_NUVA:
-  - '5951002000102'
-  SWISSLEGACY:
-  - '172'
-valences:
-- VAL115
+instanceOf: VAC0915

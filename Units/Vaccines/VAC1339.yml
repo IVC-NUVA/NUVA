@@ -1,21 +1,7 @@
 abstract: false
+status: active
 label: BIMERVAX XBB.1.16
-comment: COVID-19 vaccine, protein subunit, recombinant homodimeric RBD protein, Omicron
-  variant XBB.1.16, with adjuvant (SQBA)
+comment: ''
 created: '2025-03-27'
 modified: '2026-01-28'
-codes:
-  AIC:
-  - 051848
-  EU-NUMBER:
-  - EU-1-22-1709-005
-  - EU-1-22-1709-006
-  - EU-1-22-1709-007
-  INFARMED:
-  - '5892344'
-  NUVACode:
-  - '1339'
-  SCT_NUVA:
-  - '16311002000105'
-valences:
-- VAL413
+instanceOf: VAC1428

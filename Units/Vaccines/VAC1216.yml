@@ -1,15 +1,11 @@
 abstract: true
-label: Quadrivalent DTPaHepB vaccine - Diphtheria-Tetanus-Pertussis-Hepatitis B 10µg,
-  unspecified
-comment: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis
-  (multicomponent acellular, standard dose) and hepatitis B (recombinant) vaccine
+status: active
+label: Diphtheria (standard dose), tetanus, pertussis (multicomponent acellular, standard
+  dose) and hepatitis B (recombinant) vaccine, pediatric
+comment: Diphtheria (standard dose), tetanus, pertussis (multicomponent acellular,
+  standard dose) and hepatitis B (recombinant) vaccine, pediatric
 created: '2024-06-05'
-modified: '2024-06-06'
-codes:
-  NUVACode:
-  - '1216'
-  SCT_NUVA:
-  - '14761002000102'
+modified: '2026-09-09'
 valences:
 - VAL008
 - VAL067

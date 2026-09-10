@@ -1,27 +1,8 @@
 abstract: true
+status: active
 label: Haemophilus influenzae B (or Hib) vaccine, unspecified
 comment: Haemophilus influenzae type b conjugate vaccine
 created: '2021-07-19'
 modified: '2026-01-28'
-codes:
-  ATC:
-  - J07AG01
-  CPT:
-  - '90737'
-  CVC:
-  - '333680004'
-  CVX:
-  - '17'
-  ICD11:
-  - XM11V3
-  - XM6RG9
-  NUVACode:
-  - '0143'
-  SCT_NUVA:
-  - '2471002000105'
-  SNOMED-CT:
-  - '2041000221105'
-  - '836380007'
-  - '871764007'
 valences:
 - VAL103

@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: TETANA PRO
-comment: Tetanus toxoid vaccine
+comment: ''
 created: '2025-04-02'
 modified: '2025-04-02'
-codes:
-  NUVACode:
-  - '1351'
-  SCT_NUVA:
-  - '16441002000103'
-valences:
-- VAL067
+instanceOf: VAC0132

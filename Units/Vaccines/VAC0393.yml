@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: TICE BCG
-comment: Tuberculosis vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  NUVACode:
-  - 0393
-  SCT_NUVA:
-  - '5181002000105'
-valences:
-- VAL096
+instanceOf: VAC0134

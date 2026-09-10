@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: VIROVAC MASSLING, PEROTID, RUBELLA
-comment: Live attenuated measles, mumps and rubella vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  NUVACode:
-  - '0450'
-  SCT_NUVA:
-  - '5741002000102'
-valences:
-- VAL005
-- VAL077
-- VAL079
+instanceOf: VAC0130

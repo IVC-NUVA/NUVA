@@ -1,16 +1,8 @@
 abstract: true
+status: active
 label: COVID-19 mRNA vaccine, original virus, 50 µg, unspecified
 comment: COVID-19 mRNA vaccine, original virus, 50 micrograms per dose
 created: '2023-03-17'
 modified: '2024-04-11'
-codes:
-  CVX:
-  - '221'
-  - '227'
-  - '312'
-  NUVACode:
-  - '1039'
-  SCT_NUVA:
-  - '12541002000101'
 valences:
 - VAL302

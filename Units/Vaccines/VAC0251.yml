@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: HUMOTET-ANTI TETANUS
-comment: Tetanus toxoid vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  NUVACode:
-  - '0251'
-  SCT_NUVA:
-  - '3691002000103'
-valences:
-- VAL067
+instanceOf: VAC0132

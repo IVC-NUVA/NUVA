@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: VACCIN BRUCELLIQUE P.I. à usage humain
-comment: Protein (P.I. antigen) brucellosis vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  CIP:
-  - '3400932481958'
-  NUVACode:
-  - 0090
-  SCT_NUVA:
-  - '1721002000105'
-valences:
-- VAL147
+instanceOf: VAC1203

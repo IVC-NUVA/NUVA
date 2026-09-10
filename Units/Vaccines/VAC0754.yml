@@ -1,12 +1,7 @@
 abstract: false
-label: INACTIVATED KOCAK-19 INAKTIF ADJUVANT COVID-19 VACCINE
-comment: COVID-19 vaccine, whole virion inactivated, adjuvanted (adjuvant unspecified)
+status: active
+label: Inactivated Koçak-19 Inaktif Adjuvant COVID-19 Vaccine
+comment: ''
 created: '2021-07-19'
-modified: '2024-06-04'
-codes:
-  NUVACode:
-  - '0754'
-  SCT_NUVA:
-  - '8921002000101'
-valences:
-- VAL265
+modified: '2026-09-10'
+instanceOf: VAC1124

@@ -1,26 +1,9 @@
 abstract: true
-label: Quadrivalent influenza vaccine, unspecified
+status: active
+label: Influenza quadrivalent vaccine, unspecified
 comment: Quadrivalent inactivated seasonal influenza vaccine, split virion or surface
   antigen vaccine
 created: '2022-05-17'
-modified: '2024-07-05'
-codes:
-  CPT:
-  - '90630'
-  - '90686'
-  - '90687'
-  - '90688'
-  - '90694'
-  CVC:
-  - '19401000087100'
-  CVX:
-  - '150'
-  - '158'
-  - '166'
-  - '205'
-  NUVACode:
-  - 0938
-  SCT_NUVA:
-  - '11321002000109'
+modified: '2026-09-10'
 valences:
 - VAL040

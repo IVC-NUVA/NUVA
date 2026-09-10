@@ -1,27 +1,8 @@
 abstract: true
+status: active
 label: Anthrax vaccine, unspecified
 comment: Anthrax vaccine
 created: '2021-10-26'
 modified: '2025-04-15'
-codes:
-  ATC:
-  - J07AC01
-  CPT:
-  - '90581'
-  CVC:
-  - '333521006'
-  CVX:
-  - '319'
-  ICD11:
-  - XM2C05
-  - XM8NU9
-  NUVACode:
-  - 0804
-  SCT_NUVA:
-  - '9561002000106'
-  SNOMED-CT:
-  - '836384003'
-  THL:
-  - '74'
 valences:
 - VAL340

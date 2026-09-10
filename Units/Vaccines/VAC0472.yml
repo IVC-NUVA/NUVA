@@ -1,20 +1,7 @@
 abstract: false
+status: active
 label: PREPANDRIX
-comment: Influenza A(H5N1) vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-08-15'
-codes:
-  AIC:
-  - 038772
-  CTI-EXTEND:
-  - 350962-01
-  EU-NUMBER:
-  - EU-1-08-453-002
-  INFARMED:
-  - '5118138'
-  NUVACode:
-  - '0472'
-  SCT_NUVA:
-  - '5961002000100'
-valences:
-- VAL051
+instanceOf: VAC0084

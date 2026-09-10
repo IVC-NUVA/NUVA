@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: BAYHEP B
-comment: Hepatitis b immune globulin (human)
+comment: ''
 created: '2024-05-14'
 modified: '2024-05-14'
-codes:
-  NUVACode:
-  - '1082'
-  SCT_NUVA:
-  - '13311002000104'
-valences:
-- VAL047
+instanceOf: VAC0863

@@ -1,24 +1,7 @@
 abstract: false
+status: active
 label: FLUMIST
-comment: Seasonal influenza vaccine, trivalent, live attenuated, nasal
+comment: ''
 created: '2021-07-19'
 modified: '2023-10-31'
-codes:
-  CVC:
-  - '20741000087105'
-  - '7571000087100'
-  DIN:
-  - '02352621'
-  - '02426544'
-  NDC:
-  - 66019-0107
-  - 66019-0108
-  - 66019-0109
-  - 66019-0110
-  - 66019-112
-  NUVACode:
-  - '0233'
-  SCT_NUVA:
-  - '3501002000107'
-valences:
-- VAL001
+instanceOf: VAC1123

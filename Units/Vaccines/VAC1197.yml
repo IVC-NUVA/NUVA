@@ -1,4 +1,5 @@
 abstract: true
+status: active
 label: COVID-19 vaccine with chimpanzee adenovirus and self-amplifying mRNA, unspecified
 comment: 'COVID-19 vaccine with chimpanzee adenovirus and self-amplifying mRNA: 1.
   A non-replicating viral vector, chimpanzee adenovirus, serotype 68 (ChAdV68), encoding
@@ -9,11 +10,6 @@ comment: 'COVID-19 vaccine with chimpanzee adenovirus and self-amplifying mRNA: 
   SAM vector based on Venezuelan equine encephalitis virus (VEEV)'
 created: '2024-06-05'
 modified: '2025-04-25'
-codes:
-  NUVACode:
-  - '1197'
-  SCT_NUVA:
-  - '14561002000108'
 valences:
 - VAL070
 - VAL169

@@ -1,14 +1,8 @@
 abstract: true
+status: active
 label: COVID-19 vaccine with live attenuated virus, unspecified
 comment: Anti-covid 19 vaccine with live attenuated virus, unspecified
 created: '2024-06-05'
 modified: '2025-03-27'
-codes:
-  ICD11:
-  - XM5DF6
-  NUVACode:
-  - '1202'
-  SCT_NUVA:
-  - '14611002000106'
 valences:
 - VAL086

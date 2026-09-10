@@ -1,18 +1,7 @@
 abstract: false
+status: active
 label: PENTABIO
-comment: Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine),
-  coquelucheux (entier, dose standard), hépatite B et anti-Haemophilus influenzae
-  type b (conjugué à l'anatoxine tétanique)
+comment: ''
 created: '2025-03-03'
 modified: '2025-03-04'
-codes:
-  NUVACode:
-  - '1281'
-  SCT_NUVA:
-  - '15641002000109'
-valences:
-- VAL010
-- VAL067
-- VAL097
-- VAL114
-- VAL156
+instanceOf: VAC1181

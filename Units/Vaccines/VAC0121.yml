@@ -1,61 +1,7 @@
 abstract: false
+status: active
 label: PRIORIX-TETRA
-comment: Live attenuated measles, mumps, rubella and chickenpox vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-06-06'
-codes:
-  AIC:
-  - 038200
-  CIP:
-  - '3400938263671'
-  - '3400938263732'
-  - '3400938263961'
-  - '3400938264043'
-  - '3400938264104'
-  - '3400938264272'
-  - '3400938264333'
-  - '3400938264562'
-  - '3400938264623'
-  - '3400938310320'
-  - '3400938310498'
-  - '3400938310559'
-  CIS:
-  - '66718236'
-  - '67106701'
-  CNK:
-  - '2469567'
-  CODE_NATIONAL_SPAIN:
-  - '606606'
-  - '606609'
-  - '705706'
-  - '705708'
-  CP-NRONATIDENT:
-  - '0742107'
-  CTI-EXTEND:
-  - 303852-01
-  - 303852-02
-  - 303852-03
-  - 303852-04
-  CVC:
-  - '7181000087108'
-  DIN:
-  - 02297884
-  ELGA:
-  - '3762986'
-  INFARMED:
-  - '5053962'
-  NUVACode:
-  - '0121'
-  PZN:
-  - '03754567'
-  - '03754656'
-  - '03754662'
-  SCT_NUVA:
-  - '2141002000107'
-  SWISSMEDIC:
-  - '58158'
-valences:
-- VAL005
-- VAL044
-- VAL077
-- VAL079
+instanceOf: VAC0827

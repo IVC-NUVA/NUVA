@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: SYNAGIS 50 mg (PALIZIVUMAB)
-comment: hRSV monoclonal antibody
+comment: ''
 created: '2025-11-17'
 modified: '2026-05-27'
-codes:
-  CIP:
-  - '3400930072318'
-  NUVACode:
-  - '1478'
-valences:
-- VAL116
+instanceOf: VAC1222

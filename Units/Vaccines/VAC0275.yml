@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: LAVANTUU TIROKOTE
-comment: Typhoid vaccine, unspecified
+comment: ''
 created: '2021-07-19'
 modified: '2023-10-31'
-codes:
-  NUVACode:
-  - '0275'
-  SCT_NUVA:
-  - '3941002000103'
-  THL:
-  - '87'
-valences:
-- VAL014
+instanceOf: VAC0112

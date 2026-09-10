@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: NOORA VACCINE
-comment: COVID-19 vaccine, recombinant protein subunit
+comment: ''
 created: '2022-08-19'
 modified: '2025-04-25'
-codes:
-  ICD11:
-  - XM7P85
-  NUVACode:
-  - '1018'
-  SCT_NUVA:
-  - '12221002000108'
-valences:
-- VAL011
+instanceOf: VAC1138

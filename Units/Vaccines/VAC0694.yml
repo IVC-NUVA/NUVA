@@ -1,13 +1,7 @@
 abstract: false
-label: LMU-MVA-SARS-2-S-COVID
-comment: COVID-19 vaccine, non-replicating modified Vaccinia Virus Ankara vector encoding
-  the SARS-CoV-2 spike protein
+status: active
+label: LMU-MVA-SARS-2-S-Covid
+comment: ''
 created: '2021-07-19'
-modified: '2024-06-04'
-codes:
-  NUVACode:
-  - 0694
-  SCT_NUVA:
-  - '8361002000106'
-valences:
-- VAL054
+modified: '2026-09-10'
+instanceOf: VAC1189

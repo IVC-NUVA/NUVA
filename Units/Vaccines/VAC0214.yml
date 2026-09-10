@@ -1,15 +1,7 @@
 abstract: false
+status: active
 label: DIF-TET-ALL
-comment: Diphtheria toxoid (standard dose) and tetanus toxoid pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2022-10-28'
-codes:
-  AIC:
-  - '003671'
-  NUVACode:
-  - '0214'
-  SCT_NUVA:
-  - '3311002000101'
-valences:
-- VAL067
-- VAL097
+instanceOf: VAC0137

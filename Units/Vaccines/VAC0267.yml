@@ -1,13 +1,7 @@
 abstract: false
+status: active
 label: IPAD TP
-comment: Tetanus toxoid and inactivated polio (trivalent) vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  NUVACode:
-  - '0267'
-  SCT_NUVA:
-  - '3871002000100'
-valences:
-- VAL056
-- VAL067
+instanceOf: VAC0380

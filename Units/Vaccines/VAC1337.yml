@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: CONVACELL
-comment: COVID-19 protein subunit vaccine, recombinant N protein
+comment: ''
 created: '2025-03-25'
 modified: '2025-04-04'
-codes:
-  ICD11:
-  - XM5TF6
-  NUVACode:
-  - '1337'
-  SCT_NUVA:
-  - '16281002000108'
-valences:
-- VAL410
+instanceOf: VAC1422

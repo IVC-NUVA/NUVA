@@ -1,18 +1,7 @@
 abstract: false
+status: active
 label: POLIOINFANRIX
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
-  acellular, standard dose) and inactivated polio (trivalent) pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-11-02'
-codes:
-  AIC:
-  - '037157'
-  NUVACode:
-  - '0735'
-  SCT_NUVA:
-  - '8801002000100'
-valences:
-- VAL008
-- VAL056
-- VAL067
-- VAL097
+instanceOf: VAC0551

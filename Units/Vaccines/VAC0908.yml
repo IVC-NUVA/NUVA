@@ -1,16 +1,8 @@
 abstract: true
-label: Vaccine against adenovirus type 7, unspecified
+status: active
+label: Adenovirus type 7 vaccine, unspecified
 comment: Adenovirus type 7 vaccine
 created: '2022-05-02'
-modified: '2024-07-04'
-codes:
-  CPT:
-  - '90477'
-  CVX:
-  - '55'
-  NUVACode:
-  - 0908
-  SCT_NUVA:
-  - '10921002000101'
+modified: '2026-09-10'
 valences:
 - VAL281

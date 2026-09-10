@@ -1,20 +1,7 @@
 abstract: false
+status: active
 label: Medicago-VLP-Covid
-comment: COVID-19 vaccine, VLP, recombinant spike protein, with adjuvant
+comment: ''
 created: '2021-07-19'
 modified: '2023-05-15'
-codes:
-  CVC:
-  - '30151000087105'
-  CVX:
-  - '512'
-  ICD11:
-  - XM0BS6
-  NUVACode:
-  - 0678
-  SCT_NUVA:
-  - '8161002000108'
-  THL:
-  - '163'
-valences:
-- VAL039
+instanceOf: VAC1106

@@ -1,4 +1,5 @@
 abstract: true
+status: active
 label: Meningococcal CY and anti-Haemophilus influenzae type b vaccine, conjugated
   with tetanus toxoid, unspecified
 comment: Conjugate vaccine against Haemophilus influenzae type b (conjugated with
@@ -6,13 +7,6 @@ comment: Conjugate vaccine against Haemophilus influenzae type b (conjugated wit
   toxoid)
 created: '2024-06-05'
 modified: '2025-02-25'
-codes:
-  CVX:
-  - '148'
-  NUVACode:
-  - '1220'
-  SCT_NUVA:
-  - '14801002000109'
 valences:
 - VAL156
 - VAL266

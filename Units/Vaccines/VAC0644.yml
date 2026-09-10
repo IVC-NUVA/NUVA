@@ -1,56 +1,7 @@
 abstract: false
+status: active
 label: QDENGA
-comment: 'Live attenuated, chimeric recombinant, quadrivalent vaccine against the
-  four serotypes (1, 2, 3 and 4) of dengue virus
-
-  Other names: TAK-003; DENVAX'
+comment: ''
 created: '2021-07-19'
 modified: '2025-04-15'
-codes:
-  AIC:
-  - 050458
-  CIP:
-  - '3400930266274'
-  - '3400930266281'
-  - '3400930266458'
-  CIS:
-  - '69091949'
-  CNK:
-  - '4642039'
-  CODE_NATIONAL_SPAIN:
-  - '758837'
-  CTI:
-  - '660937'
-  - '660959'
-  - '660960'
-  - '660961'
-  - '660962'
-  - '660963'
-  CTI-EXTEND:
-  - 660937-01
-  - 660959-01
-  - 660960-01
-  - 660961-01
-  - 660962-01
-  - 660963-01
-  ELGA:
-  - '5518670'
-  EU-NUMBER:
-  - EU-1-22-1699-001
-  - EU-1-22-1699-002
-  - EU-1-22-1699-003
-  - EU-1-22-1699-004
-  - EU-1-22-1699-005
-  - EU-1-22-1699-006
-  INFARMED:
-  - '5850243'
-  NUVACode:
-  - '0644'
-  SCT_NUVA:
-  - '7661002000101'
-  SWISSMEDIC:
-  - '69403'
-  THL:
-  - '176'
-valences:
-- VAL065
+instanceOf: VAC1178

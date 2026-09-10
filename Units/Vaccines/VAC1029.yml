@@ -1,20 +1,7 @@
 abstract: false
+status: active
 label: QUINTANRIX
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell
-  inactivated, standard dose), Haemophilus influenzae type b (conjugated to tetanus
-  toxoid)  and hepatitis B (recombinant) pediatric vaccine
+comment: ''
 created: '2022-10-12'
 modified: '2024-04-12'
-codes:
-  INFARMED:
-  - '5361787'
-  NUVACode:
-  - '1029'
-  SCT_NUVA:
-  - '12391002000101'
-valences:
-- VAL010
-- VAL067
-- VAL097
-- VAL114
-- VAL156
+instanceOf: VAC1181

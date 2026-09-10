@@ -1,17 +1,7 @@
 abstract: false
+status: active
 label: R-COVI
-comment: COVID-19 vaccine, non-replicating chimpanzee adenoviral vector ChAdOx1 encoding
-  the SARS-CoV-2 spike protein
+comment: ''
 created: '2021-10-26'
 modified: '2022-11-23'
-codes:
-  ELGA:
-  - AUSL_000012
-  NUVACode:
-  - 0783
-  SCT_NUVA:
-  - '9271002000104'
-  THL:
-  - '147'
-valences:
-- VAL069
+instanceOf: VAC1170

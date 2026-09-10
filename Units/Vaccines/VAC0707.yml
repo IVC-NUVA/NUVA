@@ -1,12 +1,7 @@
 abstract: false
-label: CORONAVIRUS SARS-CoV-2 INACTIVÉ
-comment: COVID-19 vaccine, whole virion inactivated (Vero cell culture)
+status: active
+label: Coronavirus SARS-CoV-2 inactivé
+comment: ''
 created: '2021-07-19'
-modified: '2024-06-04'
-codes:
-  NUVACode:
-  - '0707'
-  SCT_NUVA:
-  - '8481002000105'
-valences:
-- VAL265
+modified: '2026-09-10'
+instanceOf: VAC1124

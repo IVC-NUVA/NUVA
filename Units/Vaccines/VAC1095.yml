@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: MVA85A
-comment: Experimental tuberculosis vaccine
+comment: ''
 created: '2024-05-16'
 modified: '2025-03-27'
-codes:
-  NUVACode:
-  - '1095'
-  SCT_NUVA:
-  - '13491002000104'
-valences:
-- VAL096
+instanceOf: VAC0134

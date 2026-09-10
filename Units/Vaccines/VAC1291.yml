@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: MOPV2 BIO FARMA
-comment: Polio vaccine (live attenuated, monovalent) against poliovirus 2, orally
+comment: ''
 created: '2025-03-04'
 modified: '2025-03-04'
-codes:
-  NUVACode:
-  - '1291'
-  SCT_NUVA:
-  - '15741002000100'
-valences:
-- VAL033
+instanceOf: VAC0852

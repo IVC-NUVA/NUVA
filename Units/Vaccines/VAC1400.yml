@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: SHANIPV
-comment: Inactivated polio (trivalent) vaccine
+comment: ''
 created: '2025-04-08'
 modified: '2025-04-08'
-codes:
-  NUVACode:
-  - '1400'
-  SCT_NUVA:
-  - '16951002000105'
-valences:
-- VAL056
+instanceOf: VAC0270

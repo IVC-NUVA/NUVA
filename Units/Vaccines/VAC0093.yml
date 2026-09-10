@@ -1,19 +1,7 @@
 abstract: false
+status: active
 label: VACCIN DT TAB PASTEUR
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, typhoid (whole-cell inactivated)
-  and paratyphoid A and B (whole-cell inactivated) pediatric vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  CIP:
-  - '3400932381852'
-  - '3400955275169'
-  NUVACode:
-  - 0093
-  SCT_NUVA:
-  - '1791002000107'
-valences:
-- VAL045
-- VAL067
-- VAL071
-- VAL097
+instanceOf: VAC1225

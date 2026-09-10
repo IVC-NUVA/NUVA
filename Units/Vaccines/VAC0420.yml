@@ -1,12 +1,7 @@
 abstract: false
-label: BIO-TT
-comment: Tetanus toxoid vaccine
+status: active
+label: BIO-TT Vaccine
+comment: ''
 created: '2021-07-19'
-modified: '2025-03-05'
-codes:
-  NUVACode:
-  - '0420'
-  SCT_NUVA:
-  - '5441002000109'
-valences:
-- VAL067
+modified: '2026-09-10'
+instanceOf: VAC0132

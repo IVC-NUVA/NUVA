@@ -1,22 +1,7 @@
 abstract: false
+status: active
 label: VAXIGRIP ENFANTS
-comment: Trivalent inactivated seasonal influenza vaccine, split virion, pediatric
-  form
+comment: ''
 created: '2021-07-19'
-modified: '2025-04-23'
-codes:
-  CIP:
-  - '3400934591471'
-  - '3400934904479'
-  - '3400934904530'
-  - '3400934904769'
-  - '3400934919329'
-  - '3400934919497'
-  CIS:
-  - '62687284'
-  NUVACode:
-  - '0252'
-  SCT_NUVA:
-  - '3711002000100'
-valences:
-- VAL166
+modified: '2026-09-10'
+instanceOf: VAC0000

@@ -1,15 +1,13 @@
 abstract: true
-label: Pentavalent DTP Hib vaccine - Diphtheria-Tetanus-Pertussis-Hib PRP-Polio, unspecified
-comment: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis
-  (whole inactivated), anti-Haemophilus influenzae type b (conjugated with tetanus
-  toxoid) and polio (whole inactivated, trivalent) vaccine, unspecified
+status: active
+label: Diphtheria (standard dose), tetanus, pertussis (whole inactivated), anti-Haemophilus
+  influenzae type b (conjugated with tetanus toxoid) and polio (whole inactivated,
+  trivalent) pentavalent DTP Hib vaccine, pediatric
+comment: Diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis (whole inactivated),
+  anti-Haemophilus influenzae type b (conjugated with tetanus toxoid) and polio (whole
+  inactivated, trivalent) vaccine, pediatric
 created: '2024-06-05'
-modified: '2024-06-06'
-codes:
-  NUVACode:
-  - '1126'
-  SCT_NUVA:
-  - '13841002000109'
+modified: '2026-09-10'
 valences:
 - VAL010
 - VAL056

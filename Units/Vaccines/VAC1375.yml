@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: TWINRAB
-comment: Rabies immunoglobulin, unspecified
+comment: ''
 created: '2025-04-07'
 modified: '2025-04-07'
-codes:
-  NUVACode:
-  - '1375'
-  SCT_NUVA:
-  - '16681002000105'
-valences:
-- VAL016
+instanceOf: VAC0502

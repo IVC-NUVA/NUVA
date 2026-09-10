@@ -1,55 +1,7 @@
 abstract: false
+status: active
 label: CAPVAXIVE
-comment: Pneumococcal polysaccharide conjugate vaccine, 21-valent, adsorbed, serotypes
-  3, 6A, 7F, 8, 9N, 10A, 11A, 12F, 15A, 15B, 15C, 16F, 17F, 19A, 20A, 22F, 23A, 23B,
-  24F, 31, 33F, 35B
+comment: ''
 created: '2024-08-01'
 modified: '2025-02-09'
-codes:
-  AIC:
-  - '052027'
-  CIP:
-  - '3400930311462'
-  - '3400930311479'
-  CIS:
-  - '69077052'
-  CODE_NATIONAL_SPAIN:
-  - '767366'
-  - '767367'
-  ELGA:
-  - '6057900'
-  INFARMED:
-  - '5903471'
-  NDC:
-  - 0006-4347
-  NUVACode:
-  - '1254'
-  SCT_NUVA:
-  - '15241002000106'
-  SWISSMEDIC:
-  - '69781'
-  THL:
-  - '197'
-valences:
-- VAL187
-- VAL190
-- VAL192
-- VAL193
-- VAL195
-- VAL196
-- VAL197
-- VAL199
-- VAL201
-- VAL203
-- VAL205
-- VAL354
-- VAL355
-- VAL369
-- VAL370
-- VAL371
-- VAL372
-- VAL373
-- VAL374
-- VAL375
-- VAL376
-- VAL377
+instanceOf: VAC1280

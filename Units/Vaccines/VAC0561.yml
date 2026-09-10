@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: IMOJEV
-comment: Live attenuated Japanese encephalitis vaccine, recombinant chimeric
+comment: ''
 created: '2021-07-19'
 modified: '2024-07-29'
-codes:
-  NTIN:
-  - '8806659002011'
-  NUVACode:
-  - '0561'
-  SCT_NUVA:
-  - '6951002000107'
-valences:
-- VAL247
+instanceOf: VAC1193

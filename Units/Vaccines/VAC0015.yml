@@ -1,31 +1,7 @@
 abstract: false
+status: active
 label: INFANRIXQUINTA
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
-  acellular, 3 components, standard dose), Haemophilus influenzae type b (conjugated
-  to tetanus toxoid) and inactivated polio (trivalent) pediatric vaccine, adsorbed
+comment: ''
 created: '2021-07-19'
 modified: '2026-01-09'
-codes:
-  CIP:
-  - '3400930095720'
-  - '3400934376771'
-  - '3400934376832'
-  - '3400935524737'
-  CIS:
-  - '69543678'
-  CVC:
-  - '7501000087105'
-  DIN:
-  - '02257122'
-  NUVACode:
-  - '0015'
-  SCT_NUVA:
-  - '351002000103'
-  THL:
-  - '8'
-valences:
-- VAL008
-- VAL056
-- VAL067
-- VAL097
-- VAL156
+instanceOf: VAC1115

@@ -1,21 +1,7 @@
 abstract: false
+status: active
 label: COVOVAX SII
-comment: 'COVID-19 vaccine, protein subunit, recombinant spike protein nanoparticles,
-  with adjuvant (Matrix M) - Other name: NOVAVAX NVX-CoV2373 COVID-19 Vaccine'
+comment: ''
 created: '2022-01-21'
 modified: '2025-03-14'
-codes:
-  CVC:
-  - '34921000087108'
-  ELGA:
-  - AUSL_000019
-  ICD11:
-  - XM85Q5
-  NUVACode:
-  - 0837
-  SCT_NUVA:
-  - '10021002000100'
-  THL:
-  - '153'
-valences:
-- VAL107
+instanceOf: VAC1129

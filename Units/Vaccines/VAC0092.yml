@@ -1,15 +1,7 @@
 abstract: false
+status: active
 label: VACCIN CHOLERIQUE PASTEUR
-comment: Inactivated whole-cell cholera vaccine for injection
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  CIP:
-  - '3400931901716'
-  - '3400932176397'
-  NUVACode:
-  - 0092
-  SCT_NUVA:
-  - '1761002000101'
-valences:
-- VAL004
+instanceOf: VAC0805

@@ -1,23 +1,8 @@
 abstract: true
-label: H5N1 pre-pandemic influenza vaccine, unspecified
+status: active
+label: Influenza H5N1 pre-pandemic vaccine, unspecified
 comment: Influenza A(H5N1) vaccine
 created: '2021-07-19'
-modified: '2025-05-21'
-codes:
-  AIC:
-  - 039230
-  CVC:
-  - '1003499009'
-  CVX:
-  - '123'
-  - '160'
-  NUVACode:
-  - 0084
-  SCT_NUVA:
-  - '1661002000108'
-  SNOMED-CT:
-  - '1003499009'
-  - '1119279002'
-  - '1162629006'
+modified: '2026-09-10'
 valences:
 - VAL051

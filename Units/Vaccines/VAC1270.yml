@@ -1,26 +1,7 @@
 abstract: false
+status: active
 label: SPIKEVAX JN.1 0,1 mg/mL dose 50 µg
-comment: COVID-19 mRNA vaccine, subvariant Omicron JN.1, 50 micrograms per dose, multidose
-  vial
+comment: ''
 created: '2025-02-19'
 modified: '2025-04-25'
-codes:
-  CTI:
-  - '663259'
-  - '663260'
-  CTI-EXTEND:
-  - 663259-01
-  - 663260-01
-  EU-NUMBER:
-  - EU-1-20-1507-019
-  - EU-1-20-1507-20
-  - EU-1-20-1507-21
-  - EU-1-20-1507-22
-  NUVACode:
-  - '1270'
-  SCT_NUVA:
-  - '15511002000109'
-  SWISSMEDIC:
-  - '69788'
-valences:
-- VAL388
+instanceOf: VAC1409

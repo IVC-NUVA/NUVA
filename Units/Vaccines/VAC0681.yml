@@ -1,13 +1,7 @@
 abstract: false
-label: GRAD-COV2 COVID-19 VACCINE REITHERA
-comment: COVID-19 vaccine, non-replicating adenoviral vector encoding the SARS-CoV-2
-  spike protein
+status: active
+label: GRAd-COV2 COVID-19 Vaccine ReiThera
+comment: ''
 created: '2021-07-19'
-modified: '2024-06-04'
-codes:
-  NUVACode:
-  - 0681
-  SCT_NUVA:
-  - '8201002000104'
-valences:
-- VAL070
+modified: '2026-09-10'
+instanceOf: VAC1143

@@ -1,35 +1,7 @@
 abstract: false
+status: active
 label: INFANRIX HEPB
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
-  acellular, standard dose) and hepatitis B pediatric vaccine, adsorbed
+comment: ''
 created: '2022-03-26'
 modified: '2024-04-22'
-codes:
-  AIC:
-  - '033342'
-  INFARMED:
-  - '2558187'
-  - '2558286'
-  - '2558385'
-  - '2558484'
-  - '2558583'
-  - '2558682'
-  - '2558781'
-  - '2558880'
-  - '2558989'
-  - '2559086'
-  - '2559185'
-  - '2559284'
-  - '3910080'
-  - '3910189'
-  NUVACode:
-  - 0877
-  SCT_NUVA:
-  - '10461002000102'
-  SWISSLEGACY:
-  - '93'
-valences:
-- VAL008
-- VAL067
-- VAL097
-- VAL114
+instanceOf: VAC1216

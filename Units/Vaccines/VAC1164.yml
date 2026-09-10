@@ -1,15 +1,13 @@
 abstract: true
-label: Quadrivalent DTPaHib- Diphtheria-Tetanus-Pertussis-Hib PRP vaccine, unspecified
-comment: Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis
-  (acellular multicomponent, standard dose) and Haemophilus influenzae type b (tetanus
-  toxoid conjugate) vaccine
+status: active
+label: Diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis (acellular
+  multicomponent, standard dose) and Haemophilus influenzae type b (tetanus toxoid
+  conjugate) quadrivalent vaccine DTPaHib, pediatric
+comment: Diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis (acellular
+  multicomponent, standard dose) and Haemophilus influenzae type b (tetanus toxoid
+  conjugate) vaccine, pediatric
 created: '2024-06-05'
-modified: '2024-06-06'
-codes:
-  NUVACode:
-  - '1164'
-  SCT_NUVA:
-  - '14231002000104'
+modified: '2026-09-10'
 valences:
 - VAL008
 - VAL067

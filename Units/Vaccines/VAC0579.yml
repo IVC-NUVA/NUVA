@@ -1,20 +1,7 @@
 abstract: false
+status: active
 label: CLAIRYG 50 mg/mL
-comment: Measles immunoglobulin, human origin
+comment: ''
 created: '2021-07-19'
 modified: '2025-04-09'
-codes:
-  CIP:
-  - '3400957618674'
-  - '3400957618735'
-  - '3400957618964'
-  - '3400957619046'
-  - '3400957619107'
-  CIS:
-  - '60730566'
-  NUVACode:
-  - 0579
-  SCT_NUVA:
-  - '7101002000108'
-valences:
-- VAL055
+instanceOf: VAC0862

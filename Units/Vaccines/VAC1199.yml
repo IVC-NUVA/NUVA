@@ -1,16 +1,10 @@
 abstract: true
-label: Recombinant vesicular stomatitis replicative viral vector Ebola vaccine (rVSV)
+status: active
+label: Ebola, recombinant vesicular stomatitis replicative viral vector vaccine (rVSV)
   - EBOV GP glycoprotein, unspecified
-comment: Recombinant vesicular stomatitis replicative viral vector Ebola vaccine (rVSV)
-  - EBOV GP glycoprotein, unspecified
+comment: Ebola, recombinant vesicular stomatitis replicative viral vector vaccine
+  (rVSV) - EBOV GP glycoprotein, unspecified
 created: '2024-06-05'
-modified: '2025-05-20'
-codes:
-  ICD11:
-  - XM4P37
-  NUVACode:
-  - '1199'
-  SCT_NUVA:
-  - '14581002000100'
+modified: '2026-09-09'
 valences:
 - VAL007

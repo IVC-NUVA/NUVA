@@ -1,17 +1,7 @@
 abstract: false
+status: active
 label: TRIHIBIT
-comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
-  acellular, standard dose) and Haemophilus influenzae type b (conjugated to tetanus
-  toxoid) vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-11-02'
-codes:
-  NUVACode:
-  - '0401'
-  SCT_NUVA:
-  - '5271002000102'
-valences:
-- VAL008
-- VAL067
-- VAL097
-- VAL156
+instanceOf: VAC1164

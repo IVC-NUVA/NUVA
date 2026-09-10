@@ -1,26 +1,7 @@
 abstract: false
+status: active
 label: PANDEMRIX
-comment: Pandemic influenza A(H1N1)pdm09 vaccine, inactivated
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  AIC:
-  - 039228
-  CIP:
-  - '3400938654851'
-  CIS:
-  - '63343973'
-  EU-NUMBER:
-  - EU-1-08-452-001
-  INFARMED:
-  - '5118146'
-  NUVACode:
-  - 0108
-  SCT_NUVA:
-  - '2021002000103'
-  SWISSLEGACY:
-  - '141'
-  THL:
-  - '32'
-valences:
-- VAL099
+instanceOf: VAC0147

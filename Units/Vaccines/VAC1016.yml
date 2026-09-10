@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: IDFLU
-comment: Trivalent inactivated seasonal influenza vaccine, surface antigen
+comment: ''
 created: '2022-08-10'
 modified: '2024-04-12'
-codes:
-  NUVACode:
-  - '1016'
-  SCT_NUVA:
-  - '12181002000101'
-valences:
-- VAL015
+instanceOf: VAC0925

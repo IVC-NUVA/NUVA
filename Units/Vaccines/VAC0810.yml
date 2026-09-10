@@ -1,22 +1,8 @@
 abstract: true
+status: deprecated
 label: Meningococcal polyvalent polysaccharide vaccine, unspecified
 comment: Meningococcal polyvalent unconjugated polysaccharide vaccine
 created: '2021-10-26'
 modified: '2026-08-28'
-codes:
-  AIC:
-  - 024489
-  ATC:
-  - J07AH05
-  CVC:
-  - '8241000087109'
-  ICD11:
-  - XM5LC2
-  NUVACode:
-  - 0810
-  SCT_NUVA:
-  - '9641002000108'
-  SNOMED-CT:
-  - '1061000221102'
 valences:
 - VAL234

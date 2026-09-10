@@ -1,23 +1,7 @@
 abstract: false
+status: active
 label: TANRIX
-comment: Tetanus toxoid vaccine
+comment: ''
 created: '2022-06-20'
 modified: '2024-04-15'
-codes:
-  INFARMED:
-  - '2371987'
-  - '2372084'
-  - '2372183'
-  - '3088887'
-  - '3088986'
-  - '3089083'
-  - '3089182'
-  - '3089281'
-  NUVACode:
-  - 0987
-  SCT_NUVA:
-  - '11861002000107'
-  SWISSLEGACY:
-  - '168'
-valences:
-- VAL067
+instanceOf: VAC0132

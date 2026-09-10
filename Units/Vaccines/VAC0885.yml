@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: INFLUPOZZI ZONALE
-comment: Trivalent inactivated seasonal influenza vaccine, egg-based, surface antigen
+comment: ''
 created: '2022-04-04'
 modified: '2024-04-22'
-codes:
-  AIC:
-  - 008646
-  NUVACode:
-  - 0885
-  SCT_NUVA:
-  - '10561002000101'
-valences:
-- VAL015
+instanceOf: VAC0925

@@ -1,14 +1,7 @@
 abstract: false
+status: active
 label: POLIORIX
-comment: Inactivated polio (trivalent) vaccine
+comment: ''
 created: '2026-01-05'
 modified: '2026-01-05'
-codes:
-  NUVACode:
-  - '1488'
-  SWISSMEDIC:
-  - '669'
-  THL:
-  - '71'
-valences:
-- VAL056
+instanceOf: VAC0270

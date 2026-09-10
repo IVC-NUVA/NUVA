@@ -1,23 +1,7 @@
 abstract: false
+status: active
 label: AFLUNOV
-comment: Influenza A(H5N1) vaccine (surface antigen, inactivated, adjuvanted)
+comment: ''
 created: '2021-07-19'
 modified: '2025-09-25'
-codes:
-  CTI:
-  - '385646'
-  - '385655'
-  CTI-EXTEND:
-  - 385646-01
-  - 385655-01
-  EU-NUMBER:
-  - EU-1-10-658-001
-  - EU-1-10-658-002
-  NUVACode:
-  - '0170'
-  SCT_NUVA:
-  - '2831002000109'
-  THL:
-  - '124'
-valences:
-- VAL051
+instanceOf: VAC0084

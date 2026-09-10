@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: IPAD T
-comment: Tetanus toxoid vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2023-08-15'
-codes:
-  NUVACode:
-  - '0540'
-  SCT_NUVA:
-  - '6771002000101'
-valences:
-- VAL067
+instanceOf: VAC0132

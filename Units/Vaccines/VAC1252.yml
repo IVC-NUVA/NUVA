@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: JE-CV
-comment: Live attenuated Japanese encephalitis vaccine, recombinant chimeric
+comment: ''
 created: '2024-07-29'
 modified: '2024-07-29'
-codes:
-  NUVACode:
-  - '1252'
-  SCT_NUVA:
-  - '15131002000107'
-valences:
-- VAL247
+instanceOf: VAC1193

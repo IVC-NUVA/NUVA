@@ -1,15 +1,7 @@
 abstract: false
+status: active
 label: CD.JEVAX
-comment: Live attenuated Japanese encephalitis vaccine, prepared in primary hamster
-  kidney cell (PHK) culture from the SA 14-14-2 strain
+comment: ''
 created: '2021-07-19'
 modified: '2025-04-17'
-codes:
-  CIP:
-  - '3400959014986'
-  NUVACode:
-  - '0205'
-  SCT_NUVA:
-  - '3211002000108'
-valences:
-- VAL100
+instanceOf: VAC0146

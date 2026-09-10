@@ -1,22 +1,11 @@
 abstract: true
-label: Diphtheria-Tetanus-Pertussis-Hepatitis B vaccine, unspecified
+status: active
+label: Diphtheria (standard dose), tetanus, pertussis (acellular standard dose or
+  whole-inactivated) and hepatitis B (recombinant) vaccine, pediatric
 comment: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (acellular standard
   dose or whole-inactivated) and hepatitis B (recombinant) pediatric vaccine
 created: '2022-03-08'
-modified: '2024-04-24'
-codes:
-  ATC:
-  - J07CA05
-  CVC:
-  - '20601000087103'
-  ICD11:
-  - XM41N3
-  NUVACode:
-  - 0857
-  SCT_NUVA:
-  - '10251002000100'
-  SNOMED-CT:
-  - '1156879008'
+modified: '2026-09-10'
 valences:
 - VAL003
 - VAL067

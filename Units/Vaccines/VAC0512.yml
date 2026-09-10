@@ -1,21 +1,8 @@
 abstract: true
+status: active
 label: Typhus vaccine, unspecified
 comment: Vaccine against epidemic typhus (epidemic lice typhus)
 created: '2021-07-19'
 modified: '2022-12-01'
-codes:
-  ATC:
-  - J07AR01
-  CVX:
-  - '131'
-  ICD11:
-  - XM3JJ2
-  NUVACode:
-  - '0512'
-  SCT_NUVA:
-  - '6411002000104'
-  SNOMED-CT:
-  - '37146000'
-  - '871918007'
 valences:
 - VAL046

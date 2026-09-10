@@ -1,12 +1,7 @@
 abstract: false
+status: active
 label: VACCIN BCG BIOMED-LUBLIN
-comment: Tuberculosis vaccine
+comment: ''
 created: '2021-07-19'
 modified: '2025-06-27'
-codes:
-  NUVACode:
-  - 0538
-  SCT_NUVA:
-  - '6741002000107'
-valences:
-- VAL096
+instanceOf: VAC0134

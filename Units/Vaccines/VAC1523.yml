@@ -1,10 +1,7 @@
 abstract: false
+status: active
 label: KEYTRUDA
-comment: Melanoma vaccine, messenger RNA, individualized neoantigens
+comment: ''
 created: '2026-08-25'
 modified: '2026-08-25'
-codes:
-  NUVACode:
-  - '1523'
-valences:
-- VAL442
+instanceOf: VAC1524
