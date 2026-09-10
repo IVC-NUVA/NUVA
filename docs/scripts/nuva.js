@@ -4,6 +4,15 @@
 - lockVCode and unlockVCode serve both the Vaccine and Valence boxes.
 - refresh is a common refresh function for Vaccines and Valences
  */
+var vaccines = {}
+var valences = {}
+var extvaccines = {}
+var extvalences = {}
+var abstractVaccines = {}
+
+var selectedValences
+var selectedAbstract = null
+
 function showAlert(message) {
     document.getElementById("alertmsg").innerHTML = message
 	document.getElementById("alertbox").style.display = 'block'
@@ -13,21 +22,9 @@ function ackAlert() {
     document.getElementById("alertbox").style.display = 'none'
 }
 
-function lockVCode() {
-    elem = document.getElementById("vcode")
-	elem.readOnly = true
-	elem.style.backgroundColor = "#D0D0D0"
-}
-function unlockVCode() {
-    elem = document.getElementById("vcode")
-	elem.readOnly = false
-	elem.style.backgroundColor = ""
-}
-
 function refresh() {
 	if (document.page == "Vaccines") showVaccines()   
     if (document.page == "Valences") showValences()   
-    if (document.page == "Families") showFamilies()   
 }
 
 /* Valence Tag
@@ -47,6 +44,20 @@ function valenceTag(idval) {
 	return valtag
 }
 
+function vaccineTag(idvac,prefix='T') {
+	vactag = document.createElement("span")
+	vactag.className = (vaccines[idvac].abstract?"abstract":"vaccine")
+	vactag.innerHTML = idvac
+	vactag.id = prefix+idvac
+	vactag.title = vaccines[idvac].label
+	vactag.onclick = editVaccine
+	if (vaccines[idvac].status == 'deprecated') {
+		vactag.style.fontStyle = "italic"
+		vactag.style.backgroundColor=(vaccines[idvac].abstract?'lightgreen':'lightblue')
+		}
+	return vactag
+}
+
 /* Selected Valences 
 - toggleSelection is triggered either from a valence tag (vaccines view)
   or a valence checkbox (valences view).
@@ -58,13 +69,13 @@ function valenceTag(idval) {
 
  */
 function toggleSelection (idval) {
-	if (selected_valences.has(idval)) {
-		selected_valences.delete(idval)
+	if (selectedValences.has(idval)) {
+		selectedValences.delete(idval)
 	} else {
-		selected_valences.add(idval)
+		selectedValences.add(idval)
 		parent = valences[idval].parent 
 		while (parent != idRoot) {
-				selected_valences.delete(parent)
+				selectedValences.delete(parent)
 				parent = valences[parent].parent
 			}
 		unselectChildren(idval)
@@ -73,29 +84,35 @@ function toggleSelection (idval) {
 }
 
 function unselectChildren(idval) {
-    for (child of valences[idval].children) {
-        selected_valences.delete(child)
+    for (child of extvalences[idval].children) {
+        selectedValences.delete(child)
         unselectChildren(child)
     }
 }
 	
-
 function showSelected() {
     selplace = document.getElementById("selected")
 	selplace.innerHTML = ""
-	for (doubled of selected_valences.entries()) {
+	for (doubled of selectedValences.entries()) {
 		idval = doubled[0]
 		item = document.createElement('li')
 		item.appendChild(valenceTag(idval))
 		selplace.appendChild(item)
 	}
-	saveToSession('selected', Array.from(selected_valences))
+	saveToSession('selected', Array.from(selectedValences))
 }
 
 function clearSelected() {
-    selected_valences.clear()
+    selectedValences.clear()
+	selectedAbstract = null
     showSelected()
     refresh()
+}
+
+function showSelectedAbstract() {
+	selplace = document.getElementById("selClass")
+	selplace.innerHTML = ""
+	selplace.appendChild(vaccineTag(selectedAbstract,'S'))
 }
 
 /* Filter
@@ -107,7 +124,7 @@ function clearSelected() {
 
  */
 function setFilter() {
-    filter = Array.from(selected_valences)
+    filter = Array.from(selectedValences)
 	showFilter()
 	refresh()
 }
@@ -131,46 +148,11 @@ function showFilter() {
 
 function clearBoth() {
 	// Needed when a valence is deleted
-	selected_valences.clear()
+	selectedValences.clear()
+	selectedAbstract = null
 	filter = []
 	showSelected()
 	showFilter()
-}
-
-
-/* Vaccines page  */
-
-/* Vaccines visualisation 
-- showVaccine creates the vaccines table, taking into account the filter.
-*/
-
-function showVaccines() {
-    table = document.getElementById("lvac")
-	table.innerHTML = ""
-	vloop: for (idvac in vaccines) {
-		vaccine = vaccines[idvac]
-		for (filterval of filter) {
-			if (!(vaccine['implicit'].includes(filterval)))
-				continue vloop
-		}
-		row = table.insertRow(-1)
-		codeCell = row.insertCell(-1)
-		codeCell.id = "C" + idvac
-		codeCell.innerHTML = idvac
-		codeCell.onclick = editVaccine
-
-		labelCell = row.insertCell(-1)
-		labelCell.id = 'L' + idvac
-		labelCell.innerHTML = vaccine['label']
-		if (vaccine['changed']) {
-			labelCell.style.fontWeight = "bold"
-		}
-		labelCell.onclick = editVaccine
-		valcell = row.insertCell(-1)
-		for (idval of vaccine['valences']) {
-			valcell.appendChild(valenceTag(idval))
-		}
-	}
 }
 
 /* Vaccines edition 
@@ -179,45 +161,194 @@ function showVaccines() {
 - closeEditVaccine hides the vaccine edition box
 - setVaccineValues checks and sets the values entered in the form
 - setVaccineValences assign to the vaccines the valences in the selection.
-  Implicit valences are recomputed with rebuildVaccine.
+  Implicit valences are recomputed with rebuildImplicit.
 - resetVaccine restores the value from the defaultVaccines if they existed,
   or delete the vaccine if it was a new one. In the first case the implicit
-  valences are recomputed with rebuildVaccines.
+  valences are recomputed with rebuildImplicit.
 */
 const reVac = new RegExp("VAC\\d{4}")
+var extvaccines = {}
+
+function valencesKey(vaccine) {
+	return vaccine.valences.sort(sortByValShortHand).join("-")
+}
+
+function vacFocus() {
+	idvac = document.getElementById('vcode').value
+	if ((!idvac) || (!reVac.exec(idvac)) )return
+	target = document.getElementById('T'+idvac).parentElement.parentElement
+	topView = document.documentElement.scrollTop
+	windowHeight = window.innerHeight
+	editHeight = document.getElementById('edit').offsetHeight
+	bottomView = topView+windowHeight-editHeight
+	if ((target.offsetTop<= topView) || (target.offsetTop >= bottomView)) {
+		target.scrollIntoView()					
+	}
+}
+
+function showVaccines() {
+	rebuildAll()
+
+	table = document.getElementById("tvac")
+	table.innerHTML = ""
+	br = document.createElement('br')
+	
+	classes = Object.values(abstractVaccines).sort(sortByVacLabel)
+	
+	loopvac:for (idvac of classes) {	
+		hidden = false
+		if (filter.length != 0)
+		{
+			for (filval of filter) {
+				if (!(extvaccines[idvac].implicit.includes(filval))) hidden = true
+			}
+		}
+		vaccine = vaccines[idvac]
+		extvaccine = extvaccines[idvac]
+		row = table.insertRow(-1)
+		classCell = row.insertCell(-1)
+		classCell.appendChild(vaccineTag(idvac))
+		classLabel = document.createElement('span')	
+		classLabel.innerHTML = vaccine.label
+		classCell.appendChild(classLabel)			
+		classCell.id = "C" + idvac
+		// classCell.onclick = editVaccine
+		if (extvaccine.changed) classLabel.style.fontWeight = 'bold'
+
+		valCell = row.insertCell(-1)
+		valCell.id = "V"+idvac
+		for (idval of vaccine.valences.sort(sortByValShortHand)) {
+			val = document.createElement('div')
+			val.appendChild(valenceTag(idval))
+			valCell.appendChild(val)
+		}
+
+		instancesCell = row.insertCell(-1)		
+		for (idchild of extvaccines[idvac].instances.sort(sortByVacLabel)) {
+			vdesc = document.createElement('div')	
+			vdesc.appendChild(vaccineTag(idchild))
+			childLabel = document.createElement('span')
+			childLabel.innerHTML = vaccines[idchild].label
+			if (extvaccines[idchild].changed)
+				childLabel.style.fontWeight = 'bold'
+			vdesc.appendChild(childLabel)
+			instancesCell.appendChild(vdesc)			
+		}
+			row.style.display = (hidden?'none':'table-row')
+	
+	}
+	vacFocus()
+}
 
 function editVaccine() {
-    lockVCode()
-    viewEditVaccine(this.id.substring(1))
+    viewEditVaccine(this.id.substring(1),false)
 }
 
-function addVaccine() {
-    unlockVCode()
-    viewEditVaccine("VACxxxx")
+function addAbstractVaccine() {
+    viewEditVaccine("VACxxxx", true)
 }
 
-function viewEditVaccine(idvac) {
-    if (idvac in vaccines) {
+function addRealVaccine() {
+	idvac = document.getElementById('vcode').value
+    viewEditVaccine("VACxxxx", false, idvac)
+}
+
+function toggleVacDeprecated() {
+	idvac = document.getElementById('vcode').value
+	if (vaccines[idvac].status == 'deprecated') {
+		vaccines[idvac].status = 'active'
+	} else {
+		vaccines[idvac].status = 'deprecated'
+	}
+	showVaccines()  // A revoir, on veut seulement évaluer changed
+	viewEditVaccine(idvac)
+}
+
+voidAbstract = {
+	"abstract": true,
+	"label": "To be completed",
+	"comment": "To be completed",
+	"valences": []
+}
+
+voidReal = {
+	"abstract": false,
+	"label" : "To be completed",
+	"comment": "To be completed",
+	"instanceOf": null	
+}
+
+function viewEditVaccine(idvac,isAbstract, vclass) {
+	editWindow = document.getElementById("edit")
+	assignButton = document.getElementById("assign")
+	instanceButton = document.getElementById("addInstance")
+	resetButton = document.getElementById("resetVac")
+	deprecateButton = document.getElementById("deprecate")
+	codeField = document.getElementById("vcode")
+    
+	if (idvac in vaccines) {
+		codeField.readOnly = true
+		codeField.style.backgroundColor = "#D0D0D0"		
         vaccine = vaccines[idvac]
-    } else {
-        vaccine = {
-            "abstract": false,
-            "label": "To be completed",
-            "comment": "To be completed",
-            "valences": [],
-            "implicit": []
-        }
-    }
+		isAbstract = vaccine.abstract	
+		if (isAbstract) {
+			selectedAbstract = idvac
+			showSelectedAbstract()
+			instanceButton.style.display = "inline"
+		}
+		else {
+			vclass = (vaccine.instanceOf?vaccine.instanceOf:"VAC0000")	
+		}
+		assignButton.style.display = "inline"
+		resetButton.style.display = (extvaccines[idvac].changed?'inline':'none')
+		deprecateButton.style.display = "inline"
+    } else {          // New vaccine
+		codeField.readOnly = false
+		codeField.style.backgroundColor = ""		
+		vaccine = (isAbstract? voidAbstract: voidReal)
+		assignButton.style.display = 'none'
+		instanceButton.style.display = 'none'
+		resetButton.style.display = 'none'
+	}
+	
+	deprecateButton.innerHTML = (vaccine.status == 'deprecated'?'Restore':'Deprecate')
+   
+    document.getElementById("vabstract").checked = isAbstract
     document.getElementById("vcode").value = idvac
-	document.getElementById("vabstract").checked = vaccine['abstract']
 	document.getElementById("vlabel").value = vaccine['label']
 	document.getElementById("vcomment").value = vaccine['comment']
-	vtext = ""
-	for (idval of vaccine['valences']) {
-		vtext += valences[idval]['shorthand'] + " "
+
+	editWindow.style = "display:block"
+	
+	if (isAbstract) {
+		editWindow.style.backgroundColor="lightgreen"
+		document.getElementById("rowValences").style.display = "table-row"
+		document.getElementById("rowInstanceOf").style.display = "none"				
+		vtext = ""
+		for (idval of vaccine['valences']) {
+			vtext += valences[idval]['shorthand'] + " "
+		}
+		document.getElementById("vvalences").innerHTML = vtext
+		document.getElementById("classLabel").innerHTML = ""
+		assignButton.innerHTML = "Assign selected valences"
+		assignButton.onclick = setVaccineValences
+	} else {	
+		editWindow.style.backgroundColor="lightblue"
+		document.getElementById("rowInstanceOf").style.display = "table-row"
+		document.getElementById("rowValences").style.display = "none"					
+		vaccine.instanceOf = vclass
+		document.getElementById("vvalences").innerHTML = ""
+		document.getElementById("vclass").value = vclass
+		document.getElementById("classLabel").innerHTML = vaccines[vclass].label
+		instanceButton.style.display = 'none'
+		if (selectedAbstract) {
+			assignButton.innerHTML = "Assign to selected abstract"
+			assignButton.onclick = setVaccineClass
+		} else {
+			assignButton.style.display = "none"
+		}
 	}
-	document.getElementById("vvalences").innerHTML = vtext
-	document.getElementById("edit").style = "display:block"
+	showVaccines()
 }
 
 function closeVaccineEdit() {
@@ -228,6 +359,8 @@ function closeVaccineEdit() {
 function setVaccineValues() {
     e_vcode = document.getElementById("vcode")
 	idvac = e_vcode.value
+	isAbstract = document.getElementById('vabstract').checked
+	
 	if (e_vcode.readOnly == false) {
 		// Vaccine creation mode
 		if (!reVac.exec(idvac)) {
@@ -238,16 +371,19 @@ function setVaccineValues() {
 			showAlert("Vaccine code already used")
 			return
 		}
-		vaccines[idvac] = {"valences": []}
-		lockVCode()
+		vaccines[idvac] = (isAbstract?voidAbstract:voidReal)
+		vaccines[idvac].created = today()
 	}
 	vaccine = vaccines[idvac]
-	vaccine['abstract'] = document.getElementById('vabstract').checked
+	vaccine['abstract'] = isAbstract
 	vaccine.label = document.getElementById('vlabel').value
 	vaccine.comment = document.getElementById('vcomment').value
-	vaccine.changed = true
+	if (!isAbstract) {
+		vaccine.instanceOf = document.getElementById('vclass').value
+	}
 	saveToSession("vaccines", vaccines)
 	showVaccines()
+	viewEditVaccine(idvac)
 }
 
 function setVaccineValences() {
@@ -256,45 +392,62 @@ function setVaccineValences() {
 		showAlert("Save vaccine before assigning valences.")
 		return
 	}
+	
+	vlist = Array.from(selectedValences)
+	vkey = vlist.sort(sortByValShortHand).join("-")
+	if (vkey in abstractVaccines) {
+		showAlert (`An abstract vaccine with these valences already exists : ${abstractVaccines[vkey]}`)
+		return
+	}
+	
 	vaccine = vaccines[idvac]
-	vaccine.valences = Array.from(selected_valences)
-	vaccine.changed = true
-	rebuildVaccine(idvac)
-	viewEditVaccine(idvac)
+	vaccine.valences = vlist
+	
 	saveToSession("vaccines", vaccines)
 	showVaccines()
+	viewEditVaccine(idvac)	
+}
+
+function setVaccineClass () {
+	idvac = document.getElementById("vcode").value
+	if (!(idvac in vaccines)) {
+		showAlert("Save vaccine before assigning valences.")
+		return
+	}
+	if (!selectedAbstract) {
+		showAlert("No abstract vaccine selected")
+		return
+	}	
+	vaccine=vaccines[idvac]
+	vaccine.instanceOf = selectedAbstract
+	saveToSession("vaccines",vaccines)
+	showVaccines()
+	viewEditVaccine(idvac)		
 }
 
 function resetVaccine() {
     idvac = document.getElementById("vcode").value
-	if (!(idvac in defaultVaccines)) {
+	if (!(idvac in defaultData['vaccines'])) {
+		if (vaccines[idvac].abstract) {
+			for (instance of extvaccines[idvac].instances)
+			{
+				delete vaccines[instance]		
+			}
+			// delete abstractVaccines[idvac]
+			if (selectedAbstract == idvac) {
+				selectedAbstract = null
+			}
+		}
 		delete vaccines[idvac]
 		closeVaccineEdit()
 	} else {
-		Object.assign(vaccines[idvac], defaultVaccines[idvac])
-		vaccines[idvac].changed = false
-		rebuildVaccine(idvac)
+		vaccine = vaccines[idvac]
+		Object.assign(vaccine, defaultData['vaccines'][idvac])
 		viewEditVaccine(idvac)
 	}
 	saveToSession("vaccines", vaccines)
 	showVaccines()
-}
-
-function rebuildVaccine(idvac) {
-    vaccine = vaccines[idvac]
-	vaccine.implicit = []
-	for (index in vaccine.valences) {
-		idval = vaccine.valences[index]
-		if (!(idval in valences)) {
-			// Valence was deleted
-			vaccine.valences.splice(index, 1)
-			continue
-		}
-		vaccine.implicit.push(idval)
-		for (parent of valences[idval].lineage) {
-			vaccine.implicit.push(parent)
-		}
-	}
+	viewEditVaccine(idvac)	
 }
 
 /* Valences page
@@ -311,21 +464,26 @@ Valences that are not compatible with the filter are hidden.
 
 - toggleFold toggles the folded/unfolded lists when a valence line is clicked
  */
+ var extvalences={}
+
+function sortByValShortHand (a,b) {
+	return valences[a].shorthand.localeCompare(valences[b].shorthand)
+}
+	
 function showValences() {
+	rebuildAll()
     lpos = document.getElementById('lval')
 	lpos.innerHTML = ""
-	list = showChildren(valences[idRoot])
+	list = showChildren(idRoot)
 	lval.appendChild(list)
 	updateTicks()
 }
 
-function showChildren(valence) {
+function showChildren(idval) {
     var list = document.createElement("ul")
-	var children = valence.children
+	var children = extvalences[idval].children
 
-	children.sort(function (a, b) {
-	return valences[a].shorthand.localeCompare(valences[b].shorthand)
-    })
+	children.sort(sortByValShortHand)
 
 	for (child of children) {
 		var vchild = valences[child]
@@ -334,8 +492,8 @@ function showChildren(valence) {
 			hidden = true
 			for (filterval of filter) {
 				if ((filterval == child) ||
-					(valences[filterval].lineage.includes(child)) ||
-					(valences[child].lineage.includes(filterval))) {
+					(extvalences[filterval].lineage.includes(child)) ||
+					(extvalences[child].lineage.includes(filterval))) {
 					hidden = false
 				}
 			}
@@ -344,7 +502,7 @@ function showChildren(valence) {
 		var s1 = document.createElement("span")
 		s1.id = child
 		s1.innerHTML = `${vchild.shorthand} (${child})-${vchild.label}`
-		if (vchild.changed) {
+		if (extvalences[child].changed) {
 			s1.style.fontWeight = 'bold'
 		}
 		item.appendChild(s1)
@@ -355,13 +513,13 @@ function showChildren(valence) {
 		var s2 = document.createElement("span")
 		s2.appendChild(select)
 		item.appendChild(s2)
-		if (vchild.children.length == 0) {
+		if (extvalences[idval].children.length == 0) {
 			s1.className = 'final'
 			s1.onclick = editValence
 		} else {
 			s1.className = 'folded'
 			s1.onclick = toggleFold
-			item.appendChild(showChildren(vchild))
+			item.appendChild(showChildren(child))
 		}
 		list.appendChild(item)
 		if (hidden) {
@@ -394,7 +552,6 @@ function toggleFold() {
     }
     var ul = this.parentElement.querySelectorAll('ul')[0];
     // Not only unfold, but also open the edit window.
-	lockVCode()
 	viewEditValence(this.id)	
 }
 
@@ -424,7 +581,7 @@ function toggleAll()
 /* Valences selection
 - tickValence is the function called when a valence checkbox is clicked.
 When a valence is added to the selection, its parents and children are removed.
-- updateTicks set the valence checkboxes according the current selected_valences.
+- updateTicks set the valence checkboxes according the current selectedValences.
 It is used on a new tick and each time the valences page is refreshed.
 The parents for a selected valence are also ticked, but greyed out.
  */
@@ -442,12 +599,12 @@ function updateTicks() {
 		tickbox.style = 'accent-color:blue'
     }
 
-    for (doubled of selected_valences.entries()) {
+    for (doubled of selectedValences.entries()) {
         idval = doubled[0]
 		tickbox = document.getElementById('tick' + idval)
 		tickbox.checked = true
 		tickbox.style = 'accent-color:blue'
-		for (idparent of valences[idval].lineage) {
+		for (idparent of extvalences[idval].lineage) {
 			tickbox = document.getElementById('tick' + idparent)
 			tickbox.checked = true
 			tickbox.style = 'accent-color:grey'
@@ -459,7 +616,7 @@ function updateTicks() {
 - editValence and addValence invoke viewEditValence, with the valence code locked or open.
 - closeValenceEdit hides the edition window
 - setValenceValues checks and sets the values entered in the form
-- setParent assigns the first valence in selected_valences as the parent
+- setParent assigns the first valence in selectedValences as the parent
 - resetValence resumes to the default value, or totally deletes the valence if it was newly created.
 
 setParent and resetValence require to rebuild the valence tree and vaccines implicit valences.
@@ -469,27 +626,34 @@ setParent and resetValence require to rebuild the valence tree and vaccines impl
 const reVal = new RegExp("VAL\\d{3}")
 
 function editValence() {
-    lockVCode()
     viewEditValence(this.id)
 }
 function addValence() {
-    unlockVCode()
     viewEditValence("VALxxx")
 }
 
 function viewEditValence(idval) {
-    if (!(idval in valences)) {
+	codeField = document.getElementById("vcode")
+    if ((idval in valences)) {		
+		codeField.readOnly = true
+		codeField.style.backgroundColor = "#D0D0D0"	
+        valence = valences[idval]		
+	}
+	else
+	{
+		codeField.readOnly = false
+		codeField.style.backgroundColor = ""			
         valence = {
             'shorthand': 'to be completed',
             'label': 'to be completed',
+			'class': '0',
             'parent': 'Valence'
-        }
-    } else {
-        valence = valences[idval]
-    }
+        }			
+    } 
     document.getElementById("vcode").value = idval
 	document.getElementById("vshorthand").value = valence['shorthand']
 	document.getElementById("vlabel").value = valence['label']
+	document.getElementById("vclass").value = valence.class
 	document.getElementById("vparent").innerHTML = valences[valence['parent']]['shorthand']
 	document.getElementById("edit").style = "display:block"
 }
@@ -511,14 +675,13 @@ function setValenceValues() {
 			showAlert("Valence code already used")
 			return
 		}
-		lockVCode()
 		valences[idval] = {"parent": [idRoot]}
-		rebuildValences()
+		valences[idval].created = today()
 	}
 	valence = valences[idval]
 	valence.shorthand = document.getElementById("vshorthand").value
 	valence.label = document.getElementById("vlabel").value
-	valence.changed = true
+	valence.class = document.getElementById("vclass").value
 	viewEditValence(idval)
 	saveToSession("valences", valences)
 	showValences()
@@ -531,235 +694,165 @@ function setParent() {
 		return
 	}
 	valence = valences[idval]
-	if (selected_valences.size == 0) {
+	if (selectedValences.size == 0) {
 		valence.parent = idRoot
 	} else {
-		valence.parent = Array.from(selected_valences)[0]
+		valence.parent = Array.from(selectedValences)[0]
 	}
-	valence.changed = true
 	viewEditValence(idval)
-	rebuildValences()
+	rebuildAll()
 	saveToSession("valences", valences)
 	showValences()
 }
 function resetValence() {
     idval = document.getElementById("vcode").value
-	if (!(idval in defaultValences)) {
+	if (!(idval in defaultData.valences)) {
 		delete valences[idval]
 		closeValenceEdit()
 		clearBoth()
 	} else {
-		Object.assign(valences[idval], defaultValences[idval])
-		valences[idval].changed = false
+		Object.assign(valences[idval], defaultData.valences[idval])
 		viewEditValence(idval)
 	}
-	rebuildValences()
 	saveToSession("valences", valences)
 	showValences()
 }
 
-/* Valences rebuilding */
+/* Rebuilding of temporary data*/
+function abstractVaccineChanged(idvac) {
+	vaccine = vaccines[idvac]
+	if (idvac in defaultData['vaccines']) {
+		ref = defaultData['vaccines'][idvac]
+	} else return true
+	return (
+		(vaccine.label != ref.label) ||
+		(vaccine.comment != ref.comment) ||
+		(vaccine.status != ref.status) ||	
+		(valencesKey(vaccine) != valencesKey(ref))
+	)
+}
 
-function rebuildValences() {
+function realVaccineChanged(idvac) {
+	vaccine = vaccines[idvac]
+	if (idvac in defaultData['vaccines']) {
+		ref = defaultData['vaccines'][idvac]
+	} else return true
+	return (vaccine.label != ref.label) ||
+		(vaccine.comment != ref.comment) ||	
+		(vaccine.status != ref.status) ||		
+		(vaccine.instanceOf != ref.instanceOf)
+}
+
+function valenceChanged(idval) {
+	valence = valences[idval]
+	if (idval in defaultData['valences']) {
+		ref = defaultData['valences'][idval]
+	} else {
+		return true
+	}
+	return (
+		(valence.shorthand != ref.shorthand) ||
+		(valence.label != ref.label) ||
+		(valence.class != ref.class) ||
+		(valence.parent != ref.parent)
+	)
+}
+
+function rebuildAll() {
+	extvalences = {}
     for (idval in valences) {
         valence = valences[idval]
-		valence.lineage = []
+		extvalences[idval] = {'changed': valenceChanged(idval), 'lineage': [], 'children': []}
 		curval = valence.parent
 		if (!(curval in valences)) {
 			// Parent was deleted, reassign to root valence
 			valence.parent = idRoot
-			valence.changed = true
 			curval = idRoot
 		}
 		while (curval != idRoot) {
-			valence.lineage.push(curval)
+			extvalences[idval].lineage.push(curval)
 			curval = valences[curval].parent
 		}
-		valence.children = []
     }
     for (idval in valences) {
         if (idval == 'Valence') continue
 		valence = valences[idval]
-		valences[valence.parent].children.push(idval)
+		extvalences[valence.parent].children.push(idval)
     }
     saveToSession("valences", valences)
+	
+	abstractVaccines = {}
+	extvaccines = {}
+	
+	for (idvac in vaccines) {
+		vaccine = vaccines[idvac]		
+		if (vaccine.abstract) {
+			vkey = valencesKey(vaccine)
+			if ((vkey in abstractVaccines) && (vaccine.status != 'deprecated')) {
+				doLog(`Duplicate abstract vaccine : ${abstractVaccines[vkey]} and ${idvac}`) 
+				
+			} else {
+				if (vaccine.status != 'deprecated')
+					abstractVaccines[vkey] = idvac
+			}
+			extvaccines[idvac]={
+				'changed': abstractVaccineChanged(idvac), 
+				'implicit': [],
+				'instances': []}
+			for (index in vaccine.valences) {
+				idval = vaccine.valences[index]
+				if (!(idval in valences)) {
+					// Valence was deleted
+					vaccine.valences.splice(index, 1)
+					continue
+				}
+				extvaccines[idvac].implicit.push(idval)
+				for (parent of extvalences[idval].lineage) {
+					extvaccines[idvac].implicit.push(parent)
+				}				
+			}
+		}
+		else {
+			extvaccines[idvac] = {'changed': realVaccineChanged(idvac), implicit:[]}
+		}	
+	}
 
-    for (idvac in vaccines) {
-        rebuildVaccine(idvac)
-    }
+	for (idvac in vaccines) {
+		vaccine = vaccines[idvac]
+		if (vaccine.abstract) {
+			if (vaccine.status == 'deprecated') {
+				vkey = valencesKey(vaccine)
+				if (vkey in abstractVaccines) {
+					extvaccines[abstractVaccines[vkey]].instances.push(idvac)
+				} else {
+					extvaccines['VAC0000'].instances.push(idvac)
+				}
+			}
+		}
+		else  // Real vaccine
+		{	
+			instanceOf = (vaccine.instanceOf?vaccine.instanceOf:'VAC0000')
+			if (vaccines[instanceOf].status == 'deprecated') {
+				instanceOf = 'VAC0000'
+			}
+			extvaccines[instanceOf].instances.push(idvac)			
+		}
+	}		
     saveToSession("vaccines", vaccines)
 }
 
-function getValencesKey(idvac) {
-	return vaccines[idvac].valences.sort().join("-")
+function sortByVacLabel(a,b) {
+	if (!vaccines[b]) {console.log(b) }
+	return (vaccines[a].label > vaccines[b].label)
 }
 
-function computeFamilies()
-{
-	families = {}
-	
-	// First create a table of vaccines per set of valences
-	for (idvac in vaccines) {
-		vaccine = vaccines[idvac]
-		valences_key = getValencesKey(idvac)
-		if (!(valences_key in families)) {
-			families[valences_key] = {'abstractVaccine': null, realVaccines:[], 'lineage':[], descendants: 0}			
-		}
-		if (vaccine.abstract) {
-			if (families[valences_key].abstractVaccine) {
-				doLog(families[valences_key].abstractVaccine+" and "+
-				idvac+" are abstract with the same valences.")
-				//showAlert("Duplicate abstract vaccines, see log.")
-			} else {
-				families[valences_key].abstractVaccine = idvac
-			}
-		} else {
-			families[valences_key].realVaccines.push(idvac)
-		}
+
+function initContext() {
+    vaccines = loadFromSession('vaccines', defaultData['vaccines'])
+	valences = loadFromSession('valences', defaultData['valences'])
+	selectedValences = new Set(loadFromSession('selected', []))
+	filter = loadFromSession('filter', [])
+	if (logTimer) {
+		clearInterval(logTimer)
 	}
-	// Check if all vaccines have an abstract vaccine
-	for (valences_key in families) {
-		family = families[valences_key]
-		family.descendants = family.realVaccines.length +1
-		if (!family.abstractVaccine) {
-			if (family.realVaccines.length > 1)
-			{
-				doLog("Missing abstract vaccine for "+ family.realVaccines.join(" "))
-			}
-			family.abstractVaccine = family.realVaccines[0]
-		}
-	}
-	
-	for (vkey1 in families) {		
-		family1 = families[vkey1]
-		idvac1= family1.abstractVaccine
-		if (!vaccines[idvac1].abstract) continue
-		valences1 = vaccines[idvac1].valences
-		
-		fam2:for (vkey2 in families) {
-			if (vkey2 == vkey1) continue
-			family2 = families[vkey2]
-			idvac2 = family2.abstractVaccine
-			valences2 = vaccines[idvac2].valences
-				
-			// Vaccine 2 is a descendant of vaccine 1 if:
-			// - all valences of vaccine1 have a descendant in vaccine 2
-			// - no valence of vaccine2 has no ascendant in vaccine 1			
-			fail = false
-			loop1: for (idval1 of valences1) {
-				found = false
-				for (idval2 of valences2) {
-					if ((idval2 == idval1)||(valences[idval2].lineage.includes(idval1))) {
-						continue loop1
-					}
-				}
-				fail = true
-				
-			if (fail) continue fam2			
-			}
-			loop2: for (idval2 of valences2) {
-				found = false
-				for (idval1 of valences1) {
-					if ((idval1 == idval2) ||(valences[idval2].lineage.includes(idval1))) {
-						continue loop2
-					}
-				}
-				fail = true								
-			}
-			if (!fail) {				
-				if (!family2.lineage.includes(vkey1)) {
-					family2.lineage.push(vkey1)
-					family1.descendants += family2.realVaccines.length+1
-				}
-			}			
-		}
-	}
-	// Sort the lineages by ascending number of descendants
-	for (valences_key in families)
-	{
-		family = families[valences_key]
-		family.lineage.sort(function(a,b) { return (families[a].descendants > families[b].descendants)})
-	}
-	// Finally sort by abstract vaccine name
-	familiesArray = Object.entries(families)
-	familiesArray.sort(function(a,b){ 
-	return vaccines[a[1].abstractVaccine].label > vaccines[b[1].abstractVaccine].label})
-	families = Object.fromEntries(familiesArray)
 }
-
-function toggleFoldFamily() {
-    var ul = this.parentElement.querySelectorAll('ul')[0]
-	var sublist = ul.querySelectorAll('ul')[0]
-	
-    if (ul.style.display == 'block') {
-        ul.style.display = 'none';
-        this.className = 'folded';
-    } else {
-        ul.style.display = 'block';
-        this.className = 'unfolded'
-    }
-}
-
-function tickFamily()
-{
-	idvac = this.id.substring(4)
-	selected_valences = new Set([...vaccines[idvac].valences])
-	showSelected()	
-}
-
-function showFamilies() {
-	computeFamilies()
-    lpos = document.getElementById('lval')
-	lpos.innerHTML = ""
-	list = document.createElement('ul')
-	lpos.appendChild(list)
-
-	for (valences_key in families)
-	{
-		family = families[valences_key]
-		idvac = family.abstractVaccine
-		hidden = false		
-		if (filter.length != 0)
-		{
-			for (filval of filter) {
-				if (!(vaccines[idvac].implicit.includes(filval))) hidden = true
-			}
-		}
-		item = document.createElement("li")
-		s1 = document.createElement("span")
-		s1.id = idvac
-		s1.innerHTML = `${idvac} - ${vaccines[idvac].label}`
-		item.appendChild(s1)
-		
-		select = document.createElement("button")	
-		select.className = "round"
-		select.onclick = tickFamily
-		select.id = "tick" + idvac
-		select.onclick = tickFamily
-		select.innerHTML="select"
-		var s2 = document.createElement("span")
-		s2.appendChild(select)
-		item.appendChild(s2)
-		
-		item.style.display= (hidden? "none":"block")
-		
-		if (family.realVaccines.length == 0) {
-			s1.className = 'final'
-		} else {
-			s1.className = 'folded'
-			s1.onclick = toggleFoldFamily
-			sublist = document.createElement("ul")
-			sublist.display = "none"
-			for (idvac2 of family.realVaccines) {
-				item2 = document.createElement('li')			
-				item2.innerHTML = `${idvac2} - ${vaccines[idvac2].label}`				
-				item2.style.display = 'block'
-				item2.className = 'final'
-				sublist.append(item2)
-			}
-			item.append(sublist)			
-		}
-		list.append(item)
-	}	
-}
-

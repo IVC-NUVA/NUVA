@@ -26,25 +26,11 @@ function restore(restVaccines, restValences) {
     Object.assign(valences, restValences)
     saveToSession('vaccines', vaccines)
     saveToSession('valences', valences)
-    saveToSession('selected', [])
-    saveToSession('filter', [])
-    rebuildValences()
 }
 
 function reset() {
-    restore(defaultVaccines, defaultValences)
+    restore(defaultData['vaccines'], defaultData['valences'])
     doLog("All vaccines and valences were reset to their default values.")
-}
-
-function initContext() {
-    vaccines = loadFromSession('vaccines', defaultVaccines)
-	valences = loadFromSession('valences', defaultValences)
-	rebuildValences()
-	selected_valences = new Set(loadFromSession('selected', []))
-	filter = loadFromSession('filter', [])
-	if (logTimer) {
-		clearInterval(logTimer)
-	}
 }
 
 // Create and activate a download link for a dynamic content
@@ -57,7 +43,6 @@ function download(filename, text) {
     document.body.appendChild(element);
 
     element.click();
-
     document.body.removeChild(element);
 }
 
@@ -83,11 +68,13 @@ function today() {
     return (new Date().toISOString().substring(0, 10))
 }
 function saveBackup() {
+	date = today()
     backup = {
+		"version": "Work "+date,
         "vaccines": vaccines,
         "valences": valences
     }
-    download("NUVA backup " + today() + ".json", JSON.stringify(backup, null, 2))
+    download("nuvadata" + today() + ".json", JSON.stringify(backup, null, 2))
 
     doLog("Downloading backup file to default download folder.")
 }
@@ -178,7 +165,7 @@ function newList(key, depth) {
     return (spacer.repeat(depth) + key + ":" + EOL)
 }
 function listItem(item, depth) {
-    return (spacer.repeat(depth + 1) + "-" + item + EOL)
+    return (spacer.repeat(1+depth) + "-" + item + EOL)
 }
 function attribute(item, value, depth) {
     return (spacer.repeat(depth) + item + ": " + value + EOL)
@@ -189,15 +176,23 @@ function Unitsdl() {
     modified = today()
 	doLog("Checking for modified vaccines.")
 	for (idvac in vaccines) {
-		if (vaccines[idvac]['changed']) {
-			unit = attribute("abstract", false, 0)
-			unit += attribute("label", vaccines[idvac].label, 0)
-			unit += attribute("created", vaccines[idvac].created, 0)
-			unit += attribute("comment", vaccines[idvac].comment, 0)
+		if (extvaccines[idvac]['changed']) {
+			vaccine = vaccines[idvac]
+			unit = attribute("abstract", vaccine.abstract, 0)
+			unit += attribute("label", vaccine.label, 0)
+			unit += attribute("created", vaccine.created, 0)
+			unit += attribute("comment", vaccine.comment, 0)
 			unit += attribute("modified", modified, 0)
-			unit += newList("valences", 0)
-			for (idval of vaccines[idvac]['valences']) {
-				unit += listItem(idval, 0)
+			if (vaccine.abstract)
+			{
+				unit += newList("valences", 0)
+				for (idval of vaccine['valences']) {
+					unit += listItem(idval, 0)	
+				}					
+			}
+			else
+			{
+				unit += attribute("instanceOf", vaccine.instanceOf, 0)			
 			}
 			doLog("Downloading unit file for " + vaccines[idvac].label)
 			download(idvac + ".yml", unit)
@@ -205,13 +200,12 @@ function Unitsdl() {
 	}
 	doLog("Checking for modified valences.")
 	for (idval in valences) {
-		if (valences[idval]['changed']) {
+		if (extvalences[idval]['changed']) {
 			unit = attribute("label", valences[idval].label, 0)
 			unit += attribute("created", valences[idval].created, 0)
 			unit += attribute("modified", modified, 0)
 			unit += attribute("shorthand", valences[idval].shorthand, 0)
 			unit += attribute("parent", valences[idval].parent, 0)
-			unit += attribute("target", valences[idval].target, 0)
 			doLog("Downloading unit file for " + valences[idval].label)
 			download(idval + ".yml", unit)
 		}

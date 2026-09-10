@@ -25,7 +25,7 @@ function parseCSV(text) {
 			reCode = new RegExp("^#?"+myCSID+"-.*")			
 		}
 		else
-		{	
+		{
 			result = reCode.exec(extCode)
 			if (result) {extCode = result[0] }else continue
 			result = reNUVA.exec(nuvaCode)
@@ -48,15 +48,73 @@ function parseCSV(text) {
 	return {"CSID": myCSID, "extcodes": myExtcodes, "codeLabels": myCodeLabels}
 }
 
-function reverseRows(idvac, rev_key, bestBlur) {
+abstractDetails = {}
+
+function structureAbstract() {
+	for (vkey in abstractVaccines) {
+		idvac = abstractVaccines[vkey]
+		abstractDetails[vkey] = {descendants: 1+extvaccines[idvac].instances.length, ascendants:[] }
+	}
+
+	for (vkey1 in abstractVaccines) {
+		idvac1= abstractVaccines[vkey1]
+		valences1 = vaccines[idvac1].valences
+		details1 = abstractDetails[vkey1]
+		
+		loopvac:for (vkey2 in abstractVaccines) {
+			if (vkey2 == vkey1) continue		
+			idvac2 = abstractVaccines[vkey2]
+			valences2 = vaccines[idvac2].valences
+			details2 = abstractDetails[vkey2]			
+		
+				
+			// Vaccine 2 is a descendant of vaccine 1 if:
+			// - all valences of vaccine1 have a descendant in vaccine 2
+			// - no valence of vaccine2 has no ascendant in vaccine 1			
+			fail = false
+			loop1: for (idval1 of valences1) {
+				found = false
+				for (idval2 of valences2) {
+					if ((idval2 == idval1)||(extvalences[idval2].lineage.includes(idval1))) {
+						continue loop1
+					}
+				}
+				fail = true
+				
+			if (fail) continue loopvac
+			}
+			loop2: for (idval2 of valences2) {
+				found = false
+				for (idval1 of valences1) {
+					if ((idval1 == idval2) ||(extvalences[idval2].lineage.includes(idval1))) {
+						continue loop2
+					}
+				}
+				fail = true								
+			}
+			if (!fail) {				
+				if (!details2.ascendants.includes(vkey1)) {
+					details2.ascendants.push(vkey1)
+					details1.descendants += extvaccines[idvac2].instances.length+1
+				}
+			}			
+		}	
+	}
+	// Sort the ascendants by increasing level of descendants
+	for (vkey in abstractDetails) {
+		abstractDetails[vkey].ascendants.sort(function(a,b) { return (abstractDetails[a].descendants > abstractDetails[b].descendants)})
+	}
+}
+
+function reverseRows(idvac, vkey, bestBlur) {
 	res = []
-	idrev = families[rev_key].abstractVaccine
-	blur = families[rev_key].descendants
-	if (idrev in extcodes) {
+	idabstract = abstractVaccines[vkey]
+	blur = abstractDetails[vkey].descendants	
+	if (idabstract in extcodes) {
 		if (!bestBlur) {
 			bestBlur = blur
 		}
-		for (extcode of extcodes[idrev]) {
+		for (extcode of extcodes[idabstract]) {
 			res.push([
 				idvac,                      	  // NUVA code
 				'"'+vaccines[idvac].label+'"',    // NUVA label
@@ -65,7 +123,7 @@ function reverseRows(idvac, rev_key, bestBlur) {
 				codeLabels[extcode],              // External code label
 				(blur == bestBlur),               // Best code
 				blur,                             // Blur
-				extcodes[idrev].length])          // Equivalents
+				extcodes[idabstract].length])     // Equivalents
 		}
 	}
 	return res
@@ -77,15 +135,15 @@ function analyseCSV(text)
 	CSID = parsed.CSID
 	extcodes = parsed.extcodes
 	codeLabels = parsed.codeLabels
-	
-	computeFamilies()
-	
+		
 	reverse = []
 	mapped = 0
 	for (idvac in vaccines)
 	{
 		bestBlur = 0
-		valences_key = getValencesKey(idvac)
+		idabstract = (vaccines[idvac].abstract?idvac:vaccines[idvac].instanceOf)
+		if (!idabstract) continue             // Should not happen, missing an abstract vaccine
+		vkey = valencesKey(vaccines[idabstract])		
 		
 		if (idvac in extcodes){
 			for (extcode of extcodes[idvac]) {
@@ -93,20 +151,20 @@ function analyseCSV(text)
 				idvac,                            // NUVA code
 				'"'+vaccines[idvac].label+'"',    // NUVA label
 				vaccines[idvac].abstract,         // Abstract
-				extcode,                   // External code
-				codeLabels[extcode],    // External code NUVA label
+				extcode,                 		  // External code
+				codeLabels[extcode],    			// External code NUVA label
 				true,                             // Best code
 				1,                                // Blur
 				extcodes[idvac].length])          // Number of equivalents in code system				
 			}
 			bestBlur = 1
 		} else {
-			res = reverseRows(idvac,valences_key,0)
+			res = reverseRows(idvac,vkey,0)
 			reverse.push(...res)
 			if (res.length != 0) bestBlur = res[0][6]
 		}
 		
-		for (parent_key of families[valences_key].lineage)
+		for (parent_key of abstractDetails[vkey].ascendants)
 		{
 			res = reverseRows(idvac,parent_key,bestBlur)
 			reverse.push(...res)

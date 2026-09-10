@@ -3,10 +3,9 @@
 <head>
     <title>NUVA editor</title>
     <link href = "style/styles.css" rel="stylesheet">
-    <script type = 'text/javascript' src='https://nuva.ivci.org/data/vaccines.js'></script>
-    <script type = 'text/javascript' src='https://nuva.ivci.org/data/valences.js'></script>	
+    <script type = 'text/javascript' src='data/nuvadata.js'></script>
     <script type = 'text/javascript' src='scripts/nuva.js'></script>
-    <script type = 'text/javascript' src='scripts/nuvafiles.js'></script>	
+    <script type = 'text/javascript' src='scripts/nuvafiles.js'></script>
 </head>
 <body>
 <nav class="sidebar">
@@ -15,9 +14,8 @@
     <li><a href="index.html">Usage</a></li>
     <li><a href="vaccines.html">Vaccines</a></li>
     <li><a href="valences.html">Valences</a></li>
-    <li><a href="families.html">Families</a></li>	
-    <li><a href="files.html">Files</a></li>		
-    <li><a href="extcode.html">Code Systems</a></li>		
+    <li><a href="files.html">Files</a></li>	
+    <li><a href="extcodes.html">Code Systems</a></li>		
   </ul>
 
  <div style = "height:20%">
@@ -27,39 +25,42 @@
  <button onclick = 'clearFilter()'>Clear filter</button>
  </div>
  <div style = height:20%>
- <h3>Selected</h3>
-<ul id=selected></ul>
-
+ <h3>Selected valences</h3>
+<ul id='selected'></ul>
   <button onclick="setFilter()">Use as filter</button>
   <button onclick = "clearSelected()">Clear</button>
  </div>
+<h3>Selected abstract</h3>
+<div id='selClass'></div> 
 </nav>
 
 <main class="content">
-  <h1>Vaccines</h1>
-  <button class='add' onclick=addVaccine()>Add a vaccine</button>
-  
-  <table>
-	<thead>
-        <tr><th>Code</th><th>Name</th><th align="left">Valences</th></tr>
-	</thead>
-	<tbody	id=lvac></tbody>
-   </table>
-
+<h1>Vaccines</h1>
+  <button class='add' onclick=addAbstractVaccine()>Add an abstract vaccine</button>
+<table>
+<thead><td>Abstract vaccine</td><td>Valences</td><td>Instances</td></thead>
+<tbody id = 'tvac'></tbody>
+</table>
 </main>
-<div id = edit class = "edit" style = "display:none">
+
+<div id = "edit" class = "edit" style = "display:none">
+	<input id = 'vabstract' type = "checkbox" style="display:none" checked = true>
+	<input id = 'vclass' style = "display:none">
 	<table>
 	<tr><td>Code</td><td><input id = "vcode" type = "text" style="width:20%" maxlength=7></input></td></tr>
-	<tr><td>Abstract</td><td><input id = "vabstract" type = "checkbox"></input></td></tr>
-	<tr><td>Name</td><td><input id = "vlabel" type = "text" style="width:95%"></input></td></tr>
-	<tr><td>Comment</td><td><input id = "vcomment" type = "text" style="width:95%"></input></td></tr>
-	<tr><td>Valences</td><td id='vvalences'></td></tr>
+	<tr><td>Name</td><td><input id = "vlabel" type = "text" style="width:95%"></td></tr>
+	<tr><td>Comment</td><td><input id = "vcomment" type = "text" style="width:95%"></td></tr>
+	<tr id="rowValences"><td>Valences</td><td id='vvalences'></td></tr></div>
+	<tr id="rowInstanceOf"><td>Instance of </td><td id = 'classLabel'></td></tr>
 	</table>
 	<button onclick = setVaccineValues()>Save values</button>
-	<button onclick = setVaccineValences()>Assign selected valences</button>
-	<button onclick = resetVaccine()>Reset to default</button>
+	<button id= 'assign' onclick = setVaccineValences()>Assign selected valences</button>
+	<button id ='addInstance' onClick = addRealVaccine()>Create new instance</button>
+	<button id = 'resetVac' onclick = resetVaccine()>Reset to default</button>
+	<button id ='deprecate' onclick = toggleVacDeprecated()>Deprecate</button>
 	<button onclick = closeVaccineEdit()>Close</button>
 </div>
+
 
 <div id='alertbox' class="alert" onclick = ackAlert()>
 <p id='alertmsg' valign='center' align='center'>Mon message</p>
@@ -68,14 +69,14 @@
 <script type = "text/javascript">
 
 window.onload = function () {
-  document.page="Vaccines"
+  document.page = "Vaccines"
   initContext()
   showSelected()
   showFilter()  
-  table = document.getElementById("tvaccines")
-  showVaccines(table)
+  showVaccines()
 }
 </script>
+
 
 </body>
 </html>

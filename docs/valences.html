@@ -3,8 +3,7 @@
 <head>
     <title>NUVA editor</title>
     <link href = "style/styles.css" rel="stylesheet">
-    <script type = 'text/javascript' src='https://nuva.ivci.org/data/vaccines.js'></script>
-    <script type = 'text/javascript' src='https://nuva.ivci.org/data/valences.js'></script>
+    <script type = 'text/javascript' src='data/nuvadata.js'></script>
     <script type = 'text/javascript' src='scripts/nuva.js'></script>
     <script type = 'text/javascript' src='scripts/nuvafiles.js'></script>
 </head>
@@ -12,12 +11,11 @@
 <nav class="sidebar">
   <h1>NUVA</h1>
   <ul>
-    <li><a href="index.html">Usage</a></li>  
+    <li><a href="index.html">Usage</a></li>
     <li><a href="vaccines.html">Vaccines</a></li>
     <li><a href="valences.html">Valences</a></li>
-    <li><a href="families.html">Families</a></li>	
-    <li><a href="files.html">Files</a></li>
-    <li><a href="extcode.html">Code Systems</a></li>	
+    <li><a href="files.html">Files</a></li>	
+    <li><a href="extcodes.html">Code Systems</a></li>		
   </ul>
 
  <div style = "height:20%">
@@ -27,7 +25,7 @@
  <button onclick = 'clearFilter()'>Clear filter</button>
  </div>
  <div style = height:20%>
- <h3>Selected</h3>
+ <h3>Selected valences</h3>
 <ul id=selected></ul>
 
   <button onclick="setFilter()">Use as filter</button>
@@ -46,6 +44,42 @@
 	<tr><td>Code</td><td><input id = "vcode" type = "text" style="width:20%" maxlength=6></input></td></tr>	
 	<tr><td>Notation</td><td><input id = "vshorthand" type = "text" style="width:95%"></input></td></tr>
 	<tr><td>Label</td><td><input id = "vlabel" type = "text" style="width:95%"></input></td></tr>
+	<tr><td>Class</td><td><select id = "vclass">
+	<!-- A faire - Réduire la liste des options selon le parent -->
+	<option value = "0">0-Undefined</option>
+	<option value = "1">1-Live vaccines</option>
+	<option value = "1.1">1.1. Live attenuated pathogen vaccines</option>
+	<option value = "1.1.1">1.1.1. Live attenuated bacterial vaccines</option>
+	<option value = "1.1.2">1.1.2. Live attenuated viral vaccines</option>
+	<option value = "1.2">1.2. Live recombinant viral vector vaccines</option>
+	<option value = "1.2.1">1.2.1. Replicating viral vector vaccines</option>
+	<option value = "1.2.2">1.2.2. Non-replicating viral vector vaccines</option>
+	<option value = "2">2 Non-live vaccines</option>	
+	<option value = "2.1">2.1. Whole inactivated pathogen vaccines</option>
+	<option value = "2.1.1">2.1.1. Inactivated whole-cell bacterial vaccines</option>
+	<option value = "2.1.2">2.1.2. Inactivated whole-virion viral vaccines</option>
+	<option value = "2.2">2.2. Split or disrupted pathogen vaccines</option>
+	<option value = "2.2.1">2.2.1. Split-virion viral vaccines</option>
+	<option value = "2.2.2">2.2.2. Other disrupted pathogen vaccines</option>
+	<option value = "2.3">2.3. Subunit vaccines</option>
+	<option value = "2.3.1">2.3.1. Polysaccharide-based vaccines</option>
+	<option value = "2.3.1.1">2.3.1.1. Unconjugated polysaccharide vaccines</option>
+	<option value = "2.3.1.2">2.3.1.2. Conjugated polysaccharide vaccines</option>
+	<option value = "2.3.2">2.3.2. Protein-based vaccines</option>
+	<option value = "2.3.2.1">2.3.2.1. Toxoid vaccines</option>
+	<option value = "2.3.2.2">2.3.2.2. Purified native protein vaccines</option>
+	<option value = "2.3.2.3">2.3.2.3. Recombinant protein vaccines</option>
+	<option value = "2.3.2.4">2.3.2.4. Virus-like particle (VLP) vaccines</option>
+	<option value = "2.3.3">2.3.3. Membrane vesicle-based vaccines</option>
+	<option value = "2.3.3.1">2.3.3.1. Outer membrane vesicle (OMV) vaccines</option>
+	<option value = "2.4">2.4. Nucleic acid vaccines</option>
+	<option value = "2.4.1">2.4.1. DNA vaccines</option>
+	<option value = "2.4.2">2.4.2. RNA vaccines</option>
+	<option value = "2.4.2.1">2.4.2.1. Conventional mRNA vaccines</option>
+	<option value = " 2.4.2.2">2.4.2.2. Self-amplifying RNA vaccines</option>
+	
+	
+	</select></td></tr>
 	<tr><td>Parent</td><td id='vparent'></td></tr>
 	</table>
 	<button onclick = setValenceValues()>Save values</button>

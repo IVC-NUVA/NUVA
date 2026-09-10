@@ -3,8 +3,7 @@
 <head>
     <title>NUVA editor</title>
     <link href = "style/styles.css" rel="stylesheet">
-    <script type = 'text/javascript' src='https://nuva.ivci.org/data/vaccines.js'></script>
-    <script type = 'text/javascript' src='https://nuva.ivci.org/data/valences.js'></script>	
+    <script type = 'text/javascript' src='data/nuvadata.js'></script>	
     <script type = 'text/javascript' src='scripts/nuva.js'></script>
     <script type = 'text/javascript' src='scripts/nuvafiles.js'></script>
 </head>
@@ -15,9 +14,8 @@
     <li><a href="index.html">Usage</a></li>
     <li><a href="vaccines.html">Vaccines</a></li>
     <li><a href="valences.html">Valences</a></li>
-    <li><a href="families.html">Families</a></li>	
-    <li><a href="files.html">Files</a></li>
-    <li><a href="extcode.html">Code Systems</a></li>	
+    <li><a href="files.html">Files</a></li>	
+    <li><a href="extcodes.html">Code Systems</a></li>		
   </ul>
 
 </nav>
@@ -53,6 +51,7 @@
 
 window.onload = function () {
   initContext()
+  rebuildAll()
   initLog()
 }
 </script>
