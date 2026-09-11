@@ -4,8 +4,8 @@
 - lockVCode and unlockVCode serve both the Vaccine and Valence boxes.
 - refresh is a common refresh function for Vaccines and Valences
  */
-var vaccines = {}
-var valences = {}
+var vaccines
+var valences
 var extvaccines = {}
 var extvalences = {}
 var abstractVaccines = {}
@@ -23,8 +23,20 @@ function ackAlert() {
 }
 
 function refresh() {
-	if (document.page == "Vaccines") showVaccines()   
-    if (document.page == "Valences") showValences()   
+	if (document.page == "Vaccines") { 
+		showVaccines()
+		showSelected()
+		showFilter()
+	}
+    else if (document.page == "Valences") {
+		showValences()   
+		showSelected()
+		showFilter()
+	}
+    else if (document.page == "ExtCodes") {
+		rebuildAll()
+		structureAbstract()
+	}
 }
 
 /* Valence Tag
@@ -171,6 +183,11 @@ var extvaccines = {}
 
 function valencesKey(vaccine) {
 	return vaccine.valences.sort(sortByValShortHand).join("-")
+}
+
+
+function sortByVacLabel(a,b) {
+	return (vaccines[a].label > vaccines[b].label)
 }
 
 function vacFocus() {
@@ -440,14 +457,13 @@ function resetVaccine() {
 		}
 		delete vaccines[idvac]
 		closeVaccineEdit()
+		saveToSession('vaccines',vaccines)
 	} else {
 		vaccine = vaccines[idvac]
 		Object.assign(vaccine, defaultData['vaccines'][idvac])
 		viewEditVaccine(idvac)
 	}
-	saveToSession("vaccines", vaccines)
-	showVaccines()
-	viewEditVaccine(idvac)	
+	refresh()	
 }
 
 /* Valences page
@@ -768,6 +784,7 @@ function rebuildAll() {
 			// Parent was deleted, reassign to root valence
 			valence.parent = idRoot
 			curval = idRoot
+			saveToSession("valences",valences)
 		}
 		while (curval != idRoot) {
 			extvalences[idval].lineage.push(curval)
@@ -779,7 +796,6 @@ function rebuildAll() {
 		valence = valences[idval]
 		extvalences[valence.parent].children.push(idval)
     }
-    saveToSession("valences", valences)
 	
 	abstractVaccines = {}
 	extvaccines = {}
@@ -804,6 +820,7 @@ function rebuildAll() {
 				if (!(idval in valences)) {
 					// Valence was deleted
 					vaccine.valences.splice(index, 1)
+					saveToSession('vaccines',vaccines)
 					continue
 				}
 				extvaccines[idvac].implicit.push(idval)
@@ -838,21 +855,19 @@ function rebuildAll() {
 			extvaccines[instanceOf].instances.push(idvac)			
 		}
 	}		
-    saveToSession("vaccines", vaccines)
 }
 
-function sortByVacLabel(a,b) {
-	if (!vaccines[b]) {console.log(b) }
-	return (vaccines[a].label > vaccines[b].label)
-}
-
-
-function initContext() {
-    vaccines = loadFromSession('vaccines', defaultData['vaccines'])
-	valences = loadFromSession('valences', defaultData['valences'])
-	selectedValences = new Set(loadFromSession('selected', []))
+ function initContext() {
+	fetch ('https://nuva.ivci.org/data/nuvadata.json').then(response => response.json()).then (
+	 function(data){
+		defaultData = data
+		vaccines = loadFromSession('vaccines', defaultData['vaccines'])
+		valences = loadFromSession('valences', defaultData['valences'])
+		refresh()
+	})
+	selectedValences = new Set(loadFromSession('selected', []))	
 	filter = loadFromSession('filter', [])
 	if (logTimer) {
 		clearInterval(logTimer)
-	}
+	}		
 }

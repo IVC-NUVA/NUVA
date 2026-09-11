@@ -1,8 +1,8 @@
 reCSV = new RegExp('(".*?"|[^",]+)(?=\s*,|\s*$)','g')
 reNUVA = new RegExp("^VAC\\d{4}")
 
-extcodes = {}
-codeLabels = {}
+var extcodes
+var codeLabels
 
 function parseCSV(text) {
 	myExtcodes = myCodeLabels = {}

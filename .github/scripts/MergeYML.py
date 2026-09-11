@@ -1,4 +1,3 @@
-from rdflib import *
 from urllib.request import urlopen,urlretrieve
 import yaml, json
 import sys, os
