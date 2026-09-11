@@ -16,7 +16,7 @@ jobs:
           python-version: "3.13"
       - run: pip install PyYAML
       - run: pwd
-      - run: python3 ${{github.workspace}}/.github/scripts/ImportYML.py
+      - run: python3 ${{github.workspace}}/.github/scripts/GenDoc.py
       - run: echo "🍏 This job's status is ${{ job.status }}."
 
       - name: Commit report
