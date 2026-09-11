@@ -39,7 +39,7 @@ if (len(sys.argv)>1):
 else:
     version = "Unknown"
 
-print("Creating the JavaScript files")
+print("Creating the JSON datafile")
 jsonData = {'version': version,
             "vaccines": {},
             "valences": {'Valence': {'shorthand': 'VAL', 'label': 'Valence', 'parent': 'Valence'}}

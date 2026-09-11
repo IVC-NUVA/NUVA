@@ -43,12 +43,12 @@ function refresh() {
 The valence tag appears in the list of vaccines and the selected valences.
 When clicked, it toggles its presence in the selected valences.
  */
-function valenceTag(idval) {
+function valenceTag(idval,prefix = 'T') {
     valtag = document.createElement("span")
 	valtag.className = "valence"
-	valtag.id = idval
+	valtag.id = prefix+idval
 	valtag.onclick = function () {
-		toggleSelection(this.id)
+		toggleSelection(this.id.substring(1))
 		refresh()
     }
     valtag.title = valences[idval]['label']
@@ -108,7 +108,7 @@ function showSelected() {
 	for (doubled of selectedValences.entries()) {
 		idval = doubled[0]
 		item = document.createElement('li')
-		item.appendChild(valenceTag(idval))
+		item.appendChild(valenceTag(idval,'S'))
 		selplace.appendChild(item)
 	}
 	saveToSession('selected', Array.from(selectedValences))
@@ -482,6 +482,22 @@ Valences that are not compatible with the filter are hidden.
  */
  var extvalences={}
 
+
+function valFocus() {
+	idval = document.getElementById('vcode').value
+	if ((!idval) || (!reVal.exec(idval)) )return
+	valUnfold(idval)
+	target = document.getElementById(idval)
+	topView = document.documentElement.scrollTop
+	windowHeight = window.innerHeight
+	editHeight = document.getElementById('edit').offsetHeight
+	bottomView = topView+windowHeight-editHeight
+	if ((target.offsetTop<= topView) || (target.offsetTop >= bottomView)) {
+		target.scrollIntoView()					
+	}
+}
+
+
 function sortByValShortHand (a,b) {
 	return valences[a].shorthand.localeCompare(valences[b].shorthand)
 }
@@ -493,6 +509,7 @@ function showValences() {
 	list = showChildren(idRoot)
 	lval.appendChild(list)
 	updateTicks()
+	valFocus()
 }
 
 function showChildren(idval) {
@@ -545,6 +562,16 @@ function showChildren(idval) {
 		}
 	}
 	return list
+}
+function valUnfold(idval) {
+	curval = valences[idval].parent
+	while(curval != idRoot) {
+		span = document.getElementById(curval)
+		span.className = 'unfolded'
+		ul = span.parentElement.querySelectorAll('ul')[0]
+		 ul.style.display = 'block' 
+		curval = valences[curval].parent
+	}
 }
 
 function toggleFold() {
@@ -715,10 +742,10 @@ function setParent() {
 	} else {
 		valence.parent = Array.from(selectedValences)[0]
 	}
-	viewEditValence(idval)
 	rebuildAll()
 	saveToSession("valences", valences)
 	showValences()
+	viewEditValence(idval)	
 }
 function resetValence() {
     idval = document.getElementById("vcode").value
@@ -775,6 +802,7 @@ function valenceChanged(idval) {
 }
 
 function rebuildAll() {
+	var idval
 	extvalences = {}
     for (idval in valences) {
         valence = valences[idval]
