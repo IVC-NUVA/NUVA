@@ -14484,10 +14484,10 @@
   },
   "VAL003": {
    "created": "2021-07-19",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "Per",
    "label": "Pertussis valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL004": {
@@ -14508,10 +14508,10 @@
   },
   "VAL006": {
    "created": "2021-07-19",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "Bruc",
    "label": "Brucella valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL007": {
@@ -14572,10 +14572,10 @@
   },
   "VAL014": {
    "created": "2021-07-19",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "Ty",
    "label": "Typhoid valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL015": {
@@ -14588,10 +14588,10 @@
   },
   "VAL016": {
    "created": "2021-07-19",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "RIG",
    "label": "Rabies valence, immunoglobulin, unspecified",
-   "vtype": "0",
+   "vtype": "2",
    "parent": "Valence"
   },
   "VAL017": {
@@ -14636,10 +14636,10 @@
   },
   "VAL022": {
    "created": "2021-07-19",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "POX-LA",
    "label": "Smallpox valence, live attenuated, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "VAL418"
   },
   "VAL023": {
@@ -14660,10 +14660,10 @@
   },
   "VAL025": {
    "created": "2021-07-19",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "Mala",
    "label": "Malaria valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL026": {
@@ -14708,10 +14708,10 @@
   },
   "VAL031": {
    "created": "2021-07-19",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "TBE",
    "label": "Tick-borne encephalitis valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL032": {
@@ -14796,10 +14796,10 @@
   },
   "VAL042": {
    "created": "2021-07-19",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "POLIO",
    "label": "Polio valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL043": {
@@ -14828,18 +14828,18 @@
   },
   "VAL046": {
    "created": "2021-07-19",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "Typhus",
    "label": "Typhus valence",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL047": {
    "created": "2021-07-19",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "IgHepB",
    "label": "Hepatitis B valence, immunoglobulin",
-   "vtype": "0",
+   "vtype": "2",
    "parent": "Valence"
   },
   "VAL048": {
@@ -14900,10 +14900,10 @@
   },
   "VAL055": {
    "created": "2021-07-19",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "MEAS-Ig",
    "label": "Measles valence, immunoglobulin",
-   "vtype": "0",
+   "vtype": "2",
    "parent": "Valence"
   },
   "VAL056": {
@@ -14996,18 +14996,18 @@
   },
   "VAL067": {
    "created": "2021-07-19",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "T",
    "label": "Tetanus valence, toxoid",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL068": {
    "created": "2021-07-19",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "HepB",
    "label": "Hepatitis B valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL069": {
@@ -15060,10 +15060,10 @@
   },
   "VAL075": {
    "created": "2021-07-19",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "Lepto-wI",
    "label": "Leptospira icterohaemorrhagiae valence, inactivated, whole-cell",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL076": {
@@ -15092,34 +15092,34 @@
   },
   "VAL079": {
    "created": "2021-07-19",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "Rub-LA",
    "label": "Rubella valence, live attenuated",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL080": {
    "created": "2021-07-19",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "Rab-I",
    "label": "Rabies valence, inactivated, whole virion, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL081": {
    "created": "2021-07-19",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "CHOL",
    "label": "Cholera valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL082": {
    "created": "2021-07-19",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "HPV",
    "label": "Human Papillomavirus valence, types unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL083": {
@@ -15228,10 +15228,10 @@
   },
   "VAL096": {
    "created": "2021-07-19",
-   "modified": "2025-04-25",
+   "modified": "2026-09-12",
    "shorthand": "BCG",
    "label": "BCG valence",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL097": {
@@ -15276,10 +15276,10 @@
   },
   "VAL102": {
    "created": "2021-07-19",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "HepE",
    "label": "Hepatitis E valence, recombinant peptide",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL103": {
@@ -15300,18 +15300,18 @@
   },
   "VAL105": {
    "created": "2021-07-19",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "Pneumo",
    "label": "Pneumococcal valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL106": {
    "created": "2021-07-19",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "ROTA-LA",
    "label": "Rotavirus valence, live attenuated, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL107": {
@@ -15340,10 +15340,10 @@
   },
   "VAL110": {
    "created": "2021-07-19",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "T-Ig",
    "label": "Tetanus valence, immunoglobulin",
-   "vtype": "0",
+   "vtype": "2",
    "parent": "Valence"
   },
   "VAL111": {
@@ -15468,10 +15468,10 @@
   },
   "VAL126": {
    "created": "2021-10-26",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "Ebola",
    "label": "Ebola valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL127": {
@@ -15484,18 +15484,18 @@
   },
   "VAL128": {
    "created": "2021-10-26",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "INF",
    "label": "Influenza valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL129": {
    "created": "2021-10-26",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "HSV",
    "label": "Herpes simplex valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL130": {
@@ -15660,18 +15660,18 @@
   },
   "VAL150": {
    "created": "2022-02-24",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "Den",
    "label": "Dengue valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL151": {
    "created": "2022-02-25",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "Tular",
    "label": "Tularemia valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL152": {
@@ -15716,10 +15716,10 @@
   },
   "VAL157": {
    "created": "2022-03-06",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "COVID",
    "label": "COVID-19 valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL158": {
@@ -15740,10 +15740,10 @@
   },
   "VAL160": {
    "created": "2022-03-10",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "Shingles",
    "label": "Shingles valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL161": {
@@ -15828,18 +15828,18 @@
   },
   "VAL171": {
    "created": "2022-03-21",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "VEE",
    "label": "Venezuelan equine encephalitis valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL172": {
    "created": "2022-03-21",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "Cbur",
    "label": "Q fever (Coxiella burnetii) valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL173": {
@@ -15860,26 +15860,26 @@
   },
   "VAL175": {
    "created": "2022-03-21",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "Leish",
    "label": "Leishmaniasis valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL176": {
    "created": "2022-03-21",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "HPIVs",
    "label": "Human parainfluenza viruses valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL177": {
    "created": "2022-03-22",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "Hib",
    "label": "Haemophilus influenzae type b valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL178": {
@@ -15916,18 +15916,18 @@
   },
   "VAL182": {
    "created": "2022-03-27",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "MEAS",
    "label": "Measles valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL183": {
    "created": "2022-03-27",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "MUMPS",
    "label": "Mumps valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL184": {
@@ -16332,10 +16332,10 @@
   },
   "VAL234": {
    "created": "2022-03-29",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "Men",
    "label": "Meningococcal valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL235": {
@@ -16452,10 +16452,10 @@
   },
   "VAL249": {
    "created": "2022-03-29",
-   "modified": "2025-04-25",
+   "modified": "2026-09-12",
    "shorthand": "JE",
    "label": "Japanese encephalitis valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL250": {
@@ -16684,10 +16684,10 @@
   },
   "VAL278": {
    "created": "2022-04-06",
-   "modified": "2026-09-11",
+   "modified": "2026-09-12",
    "shorthand": "AD-LA",
    "label": "Adenovirus valence, live attenuated, oral route, unspecified",
-   "vtype": "0",
+   "vtype": "1.1.1.2",
    "parent": "Valence"
   },
   "VAL279": {
@@ -16700,10 +16700,10 @@
   },
   "VAL280": {
    "created": "2022-04-27",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "BT",
    "label": "Botulism valence, toxoid",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "VAL419"
   },
   "VAL281": {
@@ -16764,10 +16764,10 @@
   },
   "VAL288": {
    "created": "2022-05-08",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "HepA",
    "label": "Hepatitis A valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL289": {
@@ -16804,10 +16804,10 @@
   },
   "VAL293": {
    "created": "2022-05-18",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "Anthrax-Ig",
    "label": "Anthrax immunoglobulin valence",
-   "vtype": "0",
+   "vtype": "2",
    "parent": "Valence"
   },
   "VAL294": {
@@ -16996,18 +16996,18 @@
   },
   "VAL317": {
    "created": "2023-05-14",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "RSV-Ab",
    "label": "RSV valence, antibody, unspecified",
-   "vtype": "0",
+   "vtype": "2",
    "parent": "VAL338"
   },
   "VAL318": {
    "created": "2023-05-14",
-   "modified": "2025-04-28",
+   "modified": "2026-09-12",
    "shorthand": "RSV-V",
    "label": "RSV valence, vaccine, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "VAL338"
   },
   "VAL319": {
@@ -17108,58 +17108,58 @@
   },
   "VAL331": {
    "created": "2024-03-18",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "CMV-Ig",
    "label": "CMV valence, immunoglobulin",
-   "vtype": "0",
+   "vtype": "2",
    "parent": "Valence"
   },
   "VAL332": {
    "created": "2024-03-18",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "HepC",
    "label": "Hepatitis C valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL333": {
    "created": "2024-03-18",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "HIV",
    "label": "HIV valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL334": {
    "created": "2024-03-18",
-   "modified": "2026-08-25",
+   "modified": "2026-09-12",
    "shorthand": "MEL",
    "label": "Melanoma valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL335": {
    "created": "2024-03-18",
-   "modified": "2025-02-12",
+   "modified": "2026-09-12",
    "shorthand": "SPYO",
    "label": "Streptococcus pyogenes valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL336": {
    "created": "2024-03-18",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "RVF",
    "label": "Rift Valley Fever valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL337": {
    "created": "2024-03-18",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "POX-Ig",
    "label": "Smallpox valence, immunoglobulin",
-   "vtype": "0",
+   "vtype": "2",
    "parent": "VAL418"
   },
   "VAL338": {
@@ -17172,18 +17172,18 @@
   },
   "VAL339": {
    "created": "2024-03-20",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "Lyme",
    "label": "Borrelia burgdorferi valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL340": {
    "created": "2024-03-26",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "Anthrax",
    "label": "Anthrax valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL341": {
@@ -17220,34 +17220,34 @@
   },
   "VAL345": {
    "created": "2024-04-24",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "UTI",
    "label": "Urinary tract infections valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL346": {
    "created": "2024-04-26",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "EV71",
    "label": "Enterovirus A71 valence",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL347": {
    "created": "2024-04-26",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "Lepto-ca",
    "label": "Leptospira canicola valence, inactivated, whole-cell",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL348": {
    "created": "2024-04-26",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "Lepto-po",
    "label": "Leptospira pomona valence, inactivated whole-cell",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL349": {
@@ -17532,10 +17532,10 @@
   },
   "VAL384": {
    "created": "2024-12-16",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "LEP",
    "label": "Leprosy valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL385": {
@@ -17548,10 +17548,10 @@
   },
   "VAL386": {
    "created": "2024-12-16",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "AH5",
    "label": "Avian influenza A(H5) valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL387": {
@@ -17572,18 +17572,18 @@
   },
   "VAL389": {
    "created": "2025-02-20",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "PAER7",
    "label": "Pseudomonas aeruginosa valence, 7 immunotypes",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL390": {
    "created": "2025-02-20",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "CHIK",
    "label": "Chikungunya virus valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL391": {
@@ -17772,10 +17772,10 @@
   },
   "VAL414": {
    "created": "2025-04-04",
-   "modified": "2025-04-25",
+   "modified": "2026-09-12",
    "shorthand": "DIPH",
    "label": "Diphtheria valence, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL415": {
@@ -17820,18 +17820,18 @@
   },
   "VAL420": {
    "created": "2025-04-29",
-   "modified": "2025-04-29",
+   "modified": "2026-09-12",
    "shorthand": "BOT-passive",
    "label": "Botulism valence, passive immunization products",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "VAL419"
   },
   "VAL421": {
    "created": "2025-05-20",
-   "modified": "2025-05-20",
+   "modified": "2026-09-12",
    "shorthand": "Junin",
    "label": "Argentine hemorrhagic fever valence, Junin virus, unspecified",
-   "vtype": "0",
+   "vtype": "1",
    "parent": "Valence"
   },
   "VAL422": {

@@ -73,7 +73,7 @@ for code,data in Valences.items():
         'modified': data['modified'],
         'shorthand': data['shorthand'],
         'label': data['label'],
-        'vtype': '0',
+        'vtype': data['vtype'],
         'parent': data['parent']}
 
 with open('docs/data/nuvadata.json','w',encoding='utf-8-sig') as f:
