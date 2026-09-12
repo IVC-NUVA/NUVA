@@ -173,6 +173,7 @@ function attribute(item, value, depth) {
 
 function Unitsdl() {
     CheckAll()
+	rebuildAll()
     modified = today()
 	doLog("Checking for modified vaccines.")
 	for (idvac in vaccines) {

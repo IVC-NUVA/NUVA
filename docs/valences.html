@@ -44,39 +44,40 @@
 	<tr><td>Notation</td><td><input id = "vshorthand" type = "text" style="width:95%"></input></td></tr>
 	<tr><td>Label</td><td><input id = "vlabel" type = "text" style="width:95%"></input></td></tr>
 	<tr><td>Type</td><td><select id = "vtype">
-	<!-- A faire - Réduire la liste des options selon le parent -->
-	<option value = "0">0-Undefined</option>
-	<option value = "1">1-Live vaccines</option>
-	<option value = "1.1">1.1. Live attenuated pathogen vaccines</option>
-	<option value = "1.1.1">1.1.1. Live attenuated bacterial vaccines</option>
-	<option value = "1.1.2">1.1.2. Live attenuated viral vaccines</option>
-	<option value = "1.2">1.2. Live recombinant viral vector vaccines</option>
-	<option value = "1.2.1">1.2.1. Replicating viral vector vaccines</option>
-	<option value = "1.2.2">1.2.2. Non-replicating viral vector vaccines</option>
-	<option value = "2">2 Non-live vaccines</option>	
-	<option value = "2.1">2.1. Whole inactivated pathogen vaccines</option>
-	<option value = "2.1.1">2.1.1. Inactivated whole-cell bacterial vaccines</option>
-	<option value = "2.1.2">2.1.2. Inactivated whole-virion viral vaccines</option>
-	<option value = "2.2">2.2. Split or disrupted pathogen vaccines</option>
-	<option value = "2.2.1">2.2.1. Split-virion viral vaccines</option>
-	<option value = "2.2.2">2.2.2. Other disrupted pathogen vaccines</option>
-	<option value = "2.3">2.3. Subunit vaccines</option>
-	<option value = "2.3.1">2.3.1. Polysaccharide-based vaccines</option>
-	<option value = "2.3.1.1">2.3.1.1. Unconjugated polysaccharide vaccines</option>
-	<option value = "2.3.1.2">2.3.1.2. Conjugated polysaccharide vaccines</option>
-	<option value = "2.3.2">2.3.2. Protein-based vaccines</option>
-	<option value = "2.3.2.1">2.3.2.1. Toxoid vaccines</option>
-	<option value = "2.3.2.2">2.3.2.2. Purified native protein vaccines</option>
-	<option value = "2.3.2.3">2.3.2.3. Recombinant protein vaccines</option>
-	<option value = "2.3.2.4">2.3.2.4. Virus-like particle (VLP) vaccines</option>
-	<option value = "2.3.3">2.3.3. Membrane vesicle-based vaccines</option>
-	<option value = "2.3.3.1">2.3.3.1. Outer membrane vesicle (OMV) vaccines</option>
-	<option value = "2.4">2.4. Nucleic acid vaccines</option>
-	<option value = "2.4.1">2.4.1. DNA vaccines</option>
-	<option value = "2.4.2">2.4.2. RNA vaccines</option>
-	<option value = "2.4.2.1">2.4.2.1. Conventional mRNA vaccines</option>
-	<option value = " 2.4.2.2">2.4.2.2. Self-amplifying RNA vaccines</option>
-	
+	<!-- A faire - Réduire la liste des options selon le parent et les enfants -->
+	<option value = "0">0-Implicit</option>
+	<option value = "1">1-Antigens</option>
+	<option value = "1.1">1.1-Live vaccines</option>
+	<option value = "1.1.1">1.1.1. Live attenuated pathogen vaccines</option>
+	<option value = "1.1.1.1">1.1.1.1. Live attenuated bacterial vaccines</option>
+	<option value = "1.1.1.2">1.1.1.2. Live attenuated viral vaccines</option>
+	<option value = "1.1.2">1.1.2. Live recombinant viral vector vaccines</option>
+	<option value = "1.1.2.1">1.1.2.1. Replicating viral vector vaccines</option>
+	<option value = "1.1.2.2">1.1.2.2. Non-replicating viral vector vaccines</option>
+	<option value = "1.2">1.2 Non-live vaccines</option>	
+	<option value = "1.2.1">1.2.1. Whole inactivated pathogen vaccines</option>
+	<option value = "1.2.1.1">1.2.1.1. Inactivated whole-cell bacterial vaccines</option>
+	<option value = "1.2.1.2">1.2.1.2. Inactivated whole-virion viral vaccines</option>
+	<option value = "1.2.2">1.2.2. Split or disrupted pathogen vaccines</option>
+	<option value = "1.2.2.1">1.2.2.1. Split-virion viral vaccines</option>
+	<option value = "1.2.2.2">1.2.2.2. Other disrupted pathogen vaccines</option>
+	<option value = "1.2.3">1.2.3. Subunit vaccines</option>
+	<option value = "1.2.3.1">1.2.3.1. Polysaccharide-based vaccines</option>
+	<option value = "1.2.3.1.1">1.2.3.1.1. Unconjugated polysaccharide vaccines</option>
+	<option value = "1.2.3.1.2">1.2.3.1.2. Conjugated polysaccharide vaccines</option>
+	<option value = "1.2.3.2">1.2.3.2. Protein-based vaccines</option>
+	<option value = "1.2.3.2.1">1.2.3.2.1. Toxoid vaccines</option>
+	<option value = "1.2.3.2.2">1.2.3.2.2. Purified native protein vaccines</option>
+	<option value = "1.2.3.2.3">1.2.3.2.3. Recombinant protein vaccines</option>
+	<option value = "1.2.3.2.4">1.2.3.2.4. Virus-like particle (VLP) vaccines</option>
+	<option value = "1.2.3.3">1.2.3.3. Membrane vesicle-based vaccines</option>
+	<option value = "1.2.3.3.1">1.2.3.3.1. Outer membrane vesicle (OMV) vaccines</option>
+	<option value = "1.2.4">1.2.4. Nucleic acid vaccines</option>
+	<option value = "1.2.4.1">1.2.4.1. DNA vaccines</option>
+	<option value = "1.2.4.2">1.2.4.2. RNA vaccines</option>
+	<option value = "1.2.4.2.1">1.2.4.2.1. Conventional mRNA vaccines</option>
+	<option value = "1.2.4.2.2">1.2.4.2.2. Self-amplifying RNA vaccines</option>
+	<option value = "2">2-Antibodies</option>	
 	
 	</select></td></tr>
 	<tr><td>Parent</td><td id='vparent'></td></tr>

@@ -680,7 +680,8 @@ function viewEditValence(idval) {
     if ((idval in valences)) {		
 		codeField.readOnly = true
 		codeField.style.backgroundColor = "#D0D0D0"	
-        valence = valences[idval]		
+        valence = valences[idval]	
+		extvalence = extvalences[idval]
 	}
 	else
 	{
@@ -691,8 +692,22 @@ function viewEditValence(idval) {
             'label': 'to be completed',
 			'class': '0',
             'parent': 'Valence'
-        }			
+        }
+		extvalence = {'minVType': '0'}
     } 
+
+
+	vtlist = document.getElementById('vtype')
+	options = vtlist.querySelectorAll('option')
+	for (option of options) {
+		if (extvalence.minVType != '0') {
+		option.style.display = (option.value.startsWith(extvalence.minVType)?'block':'none')
+		} else {
+			option.style.display = 'block'
+		}
+	}
+	options[0].style.display = 'block'
+
     document.getElementById("vcode").value = idval
 	document.getElementById("vshorthand").value = valence.shorthand
 	document.getElementById("vlabel").value = valence.label
@@ -806,16 +821,21 @@ function rebuildAll() {
 	extvalences = {}
     for (idval in valences) {
         valence = valences[idval]
-		extvalences[idval] = {'changed': valenceChanged(idval), 'lineage': [], 'children': []}
+		extvalences[idval] = {'changed': valenceChanged(idval), 'lineage': [], 'children': [], 'minVType': '0', 'maxVType': '0'}
+		extvalence = extvalences[idval]
 		curval = valence.parent
 		if (!(curval in valences)) {
 			// Parent was deleted, reassign to root valence
 			valence.parent = idRoot
+			valence.vtype = '0'
 			curval = idRoot
 			saveToSession("valences",valences)
 		}
 		while (curval != idRoot) {
 			extvalences[idval].lineage.push(curval)
+			if ((extvalence.minVType == '0') && (valences[curval].vtype != '0')) {
+				extvalence.minVType = valences[curval].vtype
+			}
 			curval = valences[curval].parent
 		}
     }
@@ -826,7 +846,7 @@ function rebuildAll() {
     }
 	
 	abstractVaccines = {}
-	extvaccines = {}
+	extvaccines = {'VAC0000': {'changed': false}}
 	
 	for (idvac in vaccines) {
 		vaccine = vaccines[idvac]		
