@@ -63,7 +63,7 @@ for code,data in Vaccines.items():
             'label': data['label'],
             'created': data['created'],
             'modified': data['modified'],
-            'comment': "",
+            'comment': data['comment'],            
             'instanceOf': data['instanceOf'] or "VAC0000",
         }
 
