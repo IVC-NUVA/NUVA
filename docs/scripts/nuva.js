@@ -1,9 +1,39 @@
-/* Display utilities, common to Vaccines and Valences
-- showAlert shows the alert box when an error message is needed.
-- ackAlert removes the alert box when it is clicked.
-- lockVCode and unlockVCode serve both the Vaccine and Valence boxes.
-- refresh is a common refresh function for Vaccines and Valences
- */
+const VTypeOptions = {
+"0": "0-Implicit",
+"1": "1-Antigens",
+"1.1": "1.1-Live vaccines",
+"1.1.1": "1.1.1. Live attenuated pathogen vaccines",
+"1.1.1.1": "1.1.1.1. Live attenuated bacterial vaccines",
+"1.1.1.2": "1.1.1.2. Live attenuated viral vaccines",
+"1.1.2": "1.1.2. Live recombinant viral vector vaccines",
+"1.1.2.1": "1.1.2.1. Replicating viral vector vaccines",
+"1.1.2.2": "1.1.2.2. Non-replicating viral vector vaccines",
+"1.2": "1.2 Non-live vaccines",	
+"1.2.1": "1.2.1. Whole inactivated pathogen vaccines",
+"1.2.1.1": "1.2.1.1. Inactivated whole-cell bacterial vaccines",
+"1.2.1.2": "1.2.1.2. Inactivated whole-virion viral vaccines",
+"1.2.2": "1.2.2. Split or disrupted pathogen vaccines",
+"1.2.2.1": "1.2.2.1. Split-virion viral vaccines",
+"1.2.2.2": "1.2.2.2. Other disrupted pathogen vaccines",
+"1.2.3": "1.2.3. Subunit vaccines",
+"1.2.3.1": "1.2.3.1. Polysaccharide-based vaccines",
+"1.2.3.1.1": "1.2.3.1.1. Unconjugated polysaccharide vaccines",
+"1.2.3.1.2": "1.2.3.1.2. Conjugated polysaccharide vaccines",
+"1.2.3.2": "1.2.3.2. Protein-based vaccines",
+"1.2.3.2.1": "1.2.3.2.1. Toxoid vaccines",
+"1.2.3.2.2": "1.2.3.2.2. Purified native protein vaccines",
+"1.2.3.2.3": "1.2.3.2.3. Recombinant protein vaccines",
+"1.2.3.2.4": "1.2.3.2.4. Virus-like particle (VLP) vaccines",
+"1.2.3.3": "1.2.3.3. Membrane vesicle-based vaccines",
+"1.2.3.3.1": "1.2.3.3.1. Outer membrane vesicle (OMV) vaccines",
+"1.2.4": "1.2.4. Nucleic acid vaccines",
+"1.2.4.1": "1.2.4.1. DNA vaccines",
+"1.2.4.2": "1.2.4.2. RNA vaccines",
+"1.2.4.2.1": "1.2.4.2.1. Conventional mRNA vaccines",
+"1.2.4.2.2": "1.2.4.2.2. Self-amplifying RNA vaccines",
+"2": "2-Antibodies",		
+}
+
 var vaccines
 var valences
 var extvaccines = {}
@@ -675,6 +705,17 @@ function addValence() {
     viewEditValence("VALxxx")
 }
 
+function vtypeselect() {
+	vtlist = document.getElementById('vtype')
+	idval = document.getElementById('vcode').value
+	if ((vtlist.value == "0") && (idval in valences)){
+		document.getElementById('implicitVType').innerHTML = "=>"+VTypeOptions[extvalences[idval].minVType]
+	}
+	else {
+		document.getElementById('implicitVType').innerHTML = ""
+	}
+}
+
 function viewEditValence(idval) {
 	codeField = document.getElementById("vcode")
     if ((idval in valences)) {		
@@ -690,30 +731,35 @@ function viewEditValence(idval) {
         valence = {
             'shorthand': 'to be completed',
             'label': 'to be completed',
-			'class': '0',
+			'vtype': '0',
             'parent': 'Valence'
         }
-		extvalence = {'minVType': '0'}
+		extvalence = {'minVType': '0', 'maxVType': '0'}
     } 
 
-
 	vtlist = document.getElementById('vtype')
-	options = vtlist.querySelectorAll('option')
-	for (option of options) {
-		if (extvalence.minVType != '0') {
-		option.style.display = (option.value.startsWith(extvalence.minVType)?'block':'none')
-		} else {
-			option.style.display = 'block'
+	vtlist.innerHTML = ""
+	
+	for (option of Object.keys(VTypeOptions).sort()) {
+		skip = false
+		if (option != '0') {
+		if ((extvalence.minVType != '0') && (!option.startsWith(extvalence.minVType))) skip = true
+		if ((extvalence.maxVType != '0') && (!extvalence.maxVType.startsWith(option))) skip = true
+		}
+		if (!skip) {
+			item = document.createElement('option')
+			item.value = option
+			item.innerHTML = VTypeOptions[option]
+			vtlist.appendChild(item)
 		}
 	}
-	options[0].style.display = 'block'
-
     document.getElementById("vcode").value = idval
 	document.getElementById("vshorthand").value = valence.shorthand
 	document.getElementById("vlabel").value = valence.label
-	document.getElementById("vtype").value = valence.vtype
 	document.getElementById("vparent").innerHTML = valences[valence.parent].shorthand
 	document.getElementById("edit").style = "display:block"
+	vtlist.value = valence.vtype	
+	vtypeselect()	
 }
 
 function closeValenceEdit() {
@@ -740,6 +786,7 @@ function setValenceValues() {
 	valence.shorthand = document.getElementById("vshorthand").value
 	valence.label = document.getElementById("vlabel").value
 	valence.vtype = document.getElementById("vtype").value
+	rebuildAll()
 	viewEditValence(idval)
 	saveToSession("valences", valences)
 	showValences()
@@ -748,15 +795,25 @@ function setValenceValues() {
 function setParent() {
     idval = document.getElementById("vcode").value
 	if (!(idval in valences)) {
-		alert("Save valence before assigning parent.")
+		showAlert("Save valence before assigning parent.")
 		return
 	}
 	valence = valences[idval]
 	if (selectedValences.size == 0) {
-		valence.parent = idRoot
+		candidate = idRoot
 	} else {
-		valence.parent = Array.from(selectedValences)[0]
+		candidate = Array.from(selectedValences)[0]
 	}
+	parentType = extvalences[candidate].minVType
+	if (parentType != '0') {
+		if (((valence.vtype != '0') && (!valence.vtype.startsWith(parentType))) ||
+		   ((extvalences[idval].maxVType != '0') && (!extvalences[idval].maxVType.startsWith(parentType))))
+		   {
+			   showAlert("Incompatible valence types")
+				return
+			}
+	}
+	valence.parent = candidate
 	rebuildAll()
 	saveToSession("valences", valences)
 	showValences()
@@ -819,9 +876,16 @@ function valenceChanged(idval) {
 function rebuildAll() {
 	var idval
 	extvalences = {}
+	for (idval in valences) {
+		extvalences[idval] = {
+			'changed': valenceChanged(idval),
+			'lineage': [], 
+			'children': [], 
+			'minVType': valences[idval].vtype, 
+			'maxVType': '0'}
+	}
     for (idval in valences) {
-        valence = valences[idval]
-		extvalences[idval] = {'changed': valenceChanged(idval), 'lineage': [], 'children': [], 'minVType': '0', 'maxVType': '0'}
+        valence = valences[idval]		
 		extvalence = extvalences[idval]
 		curval = valence.parent
 		if (!(curval in valences)) {
@@ -833,9 +897,26 @@ function rebuildAll() {
 		}
 		while (curval != idRoot) {
 			extvalences[idval].lineage.push(curval)
-			if ((extvalence.minVType == '0') && (valences[curval].vtype != '0')) {
+			// MinVType = nearest parent valence type
+			if (extvalence.minVType == '0') {
 				extvalence.minVType = valences[curval].vtype
 			}
+			// Find nearest common ancestor
+			maxVType = extvalences[curval].maxVType	
+			if (maxVType == '0') {			
+				maxVType = valence.vtype
+			} else {
+				if (valence.vtype != '0') {
+				for (i = valence.vtype.length; i>0; i--) {
+					if (valence.vtype.substring(0,i) == maxVType.substring(0,i)) {					
+						maxVType = maxVType.substring(0,i-1)
+						break
+					}
+				}
+				if (maxVType == "") maxVType = "0"
+				}
+			}
+			extvalences[curval].maxVType = maxVType
 			curval = valences[curval].parent
 		}
     }
