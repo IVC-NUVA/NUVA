@@ -39,7 +39,6 @@ var valences
 var extvaccines = {}
 var extvalences = {}
 var abstractVaccines = {}
-
 var selectedValences
 var selectedAbstract = null
 
@@ -962,7 +961,6 @@ function rebuildAll() {
 			extvaccines[idvac] = {'changed': realVaccineChanged(idvac), implicit:[]}
 		}	
 	}
-
 	for (idvac in vaccines) {
 		vaccine = vaccines[idvac]
 		if (vaccine.abstract) {
