@@ -120,13 +120,14 @@ for vaccine in data['vaccines']:
             'abstract': False,
             'status': baseVaccine['status'],
             'label' : label,
-            'comment': "",
+            'comment': vaccine['description']['en'],
             'created': vaccine['created_at'][0:10],
             'modified': baseVaccine['modified'],
             'instanceOf': vaccines_byVKey[valkey]['idvac']
         }
         if (record['label'] != baseVaccine ['label']) or \
             (record['status'] != baseVaccine['status']) or \
+            (record['comment'] != baseVaccine['comment']) or \
             (record['instanceOf'] != baseVaccine['instanceOf']):
             record['modified'] = today
 
