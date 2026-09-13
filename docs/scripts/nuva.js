@@ -239,10 +239,13 @@ function showVaccines() {
 	table.innerHTML = ""
 	br = document.createElement('br')
 	
+	filterLabel = document.getElementById('filterLabel').value.toUpperCase()
+	
 	classes = Object.values(abstractVaccines).sort(sortByVacLabel)
 	
 	loopvac:for (idvac of classes) {	
 		hidden = false
+		foundLabel = false
 		if (filter.length != 0)
 		{
 			for (filval of filter) {
@@ -275,12 +278,14 @@ function showVaccines() {
 			vdesc.appendChild(vaccineTag(idchild))
 			childLabel = document.createElement('span')
 			childLabel.innerHTML = vaccines[idchild].label
+			if (vaccines[idchild].label.toUpperCase().includes(filterLabel)) foundLabel = true
 			if (extvaccines[idchild].changed)
 				childLabel.style.fontWeight = 'bold'
 			vdesc.appendChild(childLabel)
 			instancesCell.appendChild(vdesc)			
 		}
-			row.style.display = (hidden?'none':'table-row')
+		if (!foundLabel) hidden = true
+		row.style.display = (hidden?'none':'table-row')
 	
 	}
 	vacFocus()
