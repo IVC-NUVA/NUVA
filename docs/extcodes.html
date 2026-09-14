@@ -3,7 +3,7 @@
 <head>
     <title>NUVA editor</title>
     <link href = "style/styles.css" rel="stylesheet">
-    <script type = 'text/javascript' src='scripts/nuva.js'></script>
+    <script type = 'text/javascript' src='scripts/common.js'></script>
     <script type = 'text/javascript' src='scripts/nuvafiles.js'></script>
     <script type = 'text/javascript' src='scripts/extcode.js'></script>
 	
@@ -22,18 +22,24 @@
 </nav>
 
 <main class="content">
-<h2>Reverse map</h2>
+<h1>Code systems</h1>
+<h2>Direct maps</h2>
 <div class = "box">
-<p>Upload here a CSV file with the external code and NUVA code as first two columns, optionally a label in third column.</p>
-<p>A reverse map file with the best options for all NUVA codes will be generated</p>
-<div class = "details">
+<p>Direct maps are simple CSV files with the external code and NUVA code as first two columns, optionally a label in third column.</p>
 <p >To avoid unwanted conversions for numbers, the external code must be prefixed with the code system name. </p>
 <p>The first row contains titles with column 1 being the code system name:<br>
+<div class = "details">
+
 CVX,NUVA,label</p>
 <p>Each subsequent row has a structure such as:<br>
 CVX-35,VAC0132,"Tetanus vaccine, unspecified"</p>
 <p>For countries where Excel uses a semicolon for CSV, use LibreOffice instead.</p>
 </div>
+<p>The currently published direct maps can be downloaded from the <a href="https://github.com/IVC-NUVA/NUVA/tree/main/Release/Alignments" target = "_blank">NUVA GitHub repository</a>.
+</div>
+<h2>Reverse map</h2>
+<div class = "box">
+<p>Upload here a direct map. A reverse map file with the best options for all NUVA codes will be generated</p>
 <button onclick="selectCSV()">Upload</button>
 <input id="alignment" type='file' accept='.csv' style = "display:none" onchange='uploadCSV()'></input>
 </div>

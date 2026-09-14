@@ -1,23 +1,6 @@
 const spacer = "  "
 const EOL = "\n"
-const idRoot = "Valence"
-var loglines = []
-var logTimer = null
 
-/* Keep context in session storage*/
-function loadFromSession(key, value) {
-    json = sessionStorage.getItem(key)
-	if (json == null) {
-		json = JSON.stringify(value)
-		sessionStorage.setItem(key, json)
-	}
-	return JSON.parse(json)
-}
-
-function saveToSession(key, value) {
-    json = JSON.stringify(value)
-	sessionStorage.setItem(key, json)
-}
 
 function restore(restVaccines, restValences) {
     vaccines = {}
@@ -44,23 +27,6 @@ function download(filename, text) {
 
     element.click();
     document.body.removeChild(element);
-}
-
-// Log window
-function refreshLog() {
-    if (loglines.length == 0) return
-	logView = document.getElementById("log")
-	line = loglines.shift()
-	logView.innerHTML += line + "<br/>"
-	logView.scrollTop = logView.scrollHeight
-}
-
-function doLog(text) {
-    loglines.push(text)
-}
-
-function initLog() {
-    logTimer = setInterval(refreshLog, 10)
 }
 
 // Backup functions
@@ -172,7 +138,6 @@ function attribute(item, value, depth) {
 }
 
 function Unitsdl() {
-    CheckAll()
 	rebuildAll()
     modified = today()
 	doLog("Checking for modified vaccines.")
@@ -214,9 +179,4 @@ function Unitsdl() {
 		}
 	}
 	doLog("Done.")
-}
-
-// Will be moved to a dedicated Checks file
-function CheckAll() {
-    doLog("Checks not implemented yet.")
 }
