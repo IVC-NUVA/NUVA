@@ -1,6 +1,10 @@
 name: Generate public website
-run-name: Creating files
-on: [workflow_dispatch]
+run-name: Creating data file
+on:
+  push:
+    paths:
+      - Units/**
+  workflow_dispatch:
 jobs:
   Create_Files:
     runs-on: ubuntu-latest
@@ -25,5 +29,5 @@ jobs:
             git config --global user.name 'fkaag71'
             git config --global user.email 'francois.kaag@cardynal.fr'
             git add -A
-            git commit -am "Website generation"
+            git commit -am "Website data generation"
             git push
