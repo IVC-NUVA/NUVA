@@ -72,7 +72,7 @@ fr:
     VAC1145L: Vaccin Hépatite B recombinant, trois antigènes, sans précision
     VAC1149C: Vaccin cholérique vivant atténué oral, sans précision
     VAC1149L: Vaccin Choléra vivant atténué oral, sans précision
-    VAC1158C: Vaccin anti-covid 19 à ARNm contre le variant Omicron XBB.1.5, 3 
+    VAC1158C: Vaccin  anti-covid 19 à ARNm contre le variant Omicron XBB.1.5, 3 
       microgrammes
     VAC1158L: Vaccin Covid 19 à ARNm contre le variant Omicron XBB.1.5, 3 
       microgrammes, sans précision
@@ -88,7 +88,8 @@ fr:
     VAC1179L: Vaccin Choléra et Typhoïde, injectable, sans précision
     VAC1180C: Vaccin recombinant anti-Borrelia burgdorferi, protéine de surface 
       externe A (OspA)
-    VAC1221L: Vaccin trivalent Diphtérie, Tétanos et Rubéole, sans précision
+    VAC1221L: Vaccin Diphtérie (dose standard), Tétanos et Rubéole, sans 
+      précision
     VAC1222L: Anticorps monoclonal humain VRS, palivizumab, sans précision
     VAC1235L: Vaccin Rotavirus monovalent RIX4414, sans précision
     VAC1236C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe 
@@ -283,7 +284,8 @@ fr:
     VAC0713C: Vaccin typhoïdique polyosidique non conjugué (antigène capsulaire 
       Vi)
     VAC0713L: Vaccin Typhoïde polyosidique, sans précision
-    VAC0787L: Vaccin DiphTRub - Diphtérie-Tétanos-Rubéole, sans précision
+    VAC0787L: Vaccin Diphtérie (dose non précisée), Tétanos, Rubéole, sans 
+      précision
     VAC0788C: Vaccin anti-Haemophilus influenzae de type b (conjugué, sans 
       précision) et poliomyélitique (entier inactivé, trivalent)
     VAC0788L: Vaccin Haemophilus influenzae b et Poliomyélite, sans précision
@@ -326,7 +328,7 @@ fr:
     VAC0799L: Vaccin DTHib - Diphtérie-Tétanos-Hib, sans précision
     VAC0800C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
       tétanique (anatoxine), coquelucheux (acellulaire ou entier inactivé, dose 
-      non précisée) et anti-Haemophilus influenzae type b (conjugué, sans 
+      non précisée) et  anti-Haemophilus influenzae type b (conjugué, sans 
       précision)
     VAC0800L: Vaccin DTCoqHib - Diphtérie-Tétanos-Coqueluche-Hib, sans précision
     VAC0801C: Vaccin anti-Haemophilus influenzae type b (conjugué, sans 
@@ -484,7 +486,7 @@ fr:
     VAC0907L: Vaccin Adénovirus de type 4, sans précision
     VAC0908C: Vaccin contre les adénovirus de type 7
     VAC0908L: Vaccin Adénovirus de type 7, sans précision
-    VAC0909C: Antitoxine contre le botulisme
+    VAC0909C: Antitoxine  contre le botulisme
     VAC0909L: Antitoxine Botulisme, sans précision
     VAC0910C: Vaccin entier inactivé contre l'hépatite A, dose adulte
     VAC0910L: Vaccin Hépatite A, entier inactivé, dose adulte, sans précision
@@ -566,8 +568,8 @@ fr:
     VAC1039L: Vaccin Covid 19 à ARNm, virus originel, 50 µg, sans précision
     VAC1041C: Vaccin anti-covid 19 à ARN
     VAC1041L: Vaccin Covid 19 à ARN, sans précision
-    VAC1042C: Vaccin anti-covid 19 à vecteur viral non replicatif
-    VAC1042L: Vaccin Covid 19 à vecteur viral non replicatif, sans précision
+    VAC1042C: Vaccin anti-covid 19 à vecteur viral non réplicatif
+    VAC1042L: Vaccin Covid 19 à vecteur viral non réplicatif, sans précision
     VAC1043C: Vaccin anti-covid 19 à sous-unité protéique
     VAC1043L: Vaccin Covid 19 à sous-unité protéique, sans précision
     VAC1044C: Vaccin anti-covid 19 à virus entier inactivé
@@ -1022,7 +1024,7 @@ fr:
     VAC1412L: Vaccin à ARNm contre la covid 19, subvariant Omicron JN.1, 10 
       microgrammes, dose pédiatrique (5-11 ans)
     VAC1413L: Vaccin à ARNm contre la covid 19, subvariant Omicron JN.1, 3 
-      microgrammes, dose (6 mois-4 ans)
+      microgrammes, dose  (6 mois-4 ans)
     VAC1414L: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe 
       recombinante dans des nanoparticules, avec adjuvant (Matrix M), 
       sous-variant Omicron JN.1
@@ -1032,7 +1034,7 @@ fr:
     VAC1417L: Vaccin à ARNm contre la covid 19, subvariant Omicron KP.2, 10 
       microgrammes, dose pédiatrique (5-11 ans)
     VAC1418L: Vaccin à ARNm contre la covid 19, subvariant Omicron KP.2, 30 
-      microgrammes, adulte (+ 12 ans)
+      microgrammes,  adulte (+ 12 ans)
     VAC1419L: Vaccin Chikungunya à base de VLP (recombinant, adsorbé)
     VAC1420L: ARNm simple brin coiffé en 5' codant la glycoprotéine F du virus 
       respiratoire syncytial stabilisé dans la conformation de préfusion
@@ -1079,7 +1081,7 @@ fr:
     VAC1470L: Vaccin à ARNm contre la covid 19, subvariant Omicron LP.8.1, 3 
       microgrammes, dose pédiatrique (6 mois-4 ans)
     VAC1471L: Vaccin à ARNm contre la covid 19, subvariant Omicron LP.8.1, 30 
-      microgrammes, adulte (+ 12 ans)
+      microgrammes,  adulte (+ 12 ans)
     VAC1472L: Vaccin à ARNm contre la covid 19, subvariant Omicron LP.8.1, 10 
       microgrammes, dose pédiatrique (5-11 ans)
     VAC1473L: Vaccin à ARNm contre la covid 19, codant un fragment de la 
@@ -1091,6 +1093,1949 @@ fr:
       infecté par le virus de la rage, sans précision
     VAC1503L: Vaccin anti-covid 19, sous-variant Omicron LP.8.1, sous-unité 
       protéique, protéine de pointe recombinante (domaine RBD)
+    VAC0001C: Vaccin conjugué anti-Hemophilus influenzae de type b composé du 
+      PRP (polyribosylribitol phosphate) conjugué à l'anatoxine tétanique
+    VAC0002C: Vaccin contre la grippe saisonnière inactivé trivalent, cultivé 
+      sur oeuf, à antigène de surface
+    VAC0003C: Vaccin entier inactivé contre l'hépatite A, dose adulte
+    VAC0004C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et poliomyélitique (entier inactivé, trivalent)
+    VAC0005C: Vaccin cholérique, par voie orale, contenant la sous-unité B de la
+      toxine cholérique recombinante (rTCB) et des bactéries inactivées ayant un
+      rôle adjuvant
+    VAC0006C: Vaccin contre la grippe saisonnière inactivé trivalent, cultivé 
+      sur oeuf, à antigène de surface
+    VAC0007C: Vaccin contre les papillomavirus humains à base de VLP (Virus Like
+      Particles ou pseudo particules virales), quadrivalent (types 6, 11, 16 et 
+      18), recombinant, adsorbé
+    VAC0008C: Vaccin contre la grippe saisonnière inactivé trivalent, cultivé 
+      sur oeuf, à antigène de surface, avec adjuvant
+    VAC0009C: Vaccin recombinant contre l'hépatite B, dose adulte
+    VAC0010C: Vaccin recombinant contre l'hépatite B, dose pour patient dialysé
+    VAC0011C: Vaccin recombinant contre l'hépatite B, dose pédiatrique
+    VAC0012C: Vaccin contre la grippe saisonnière inactivé trivalent, à virion 
+      fragmenté
+    VAC0013C: Vaccin poliomyélitique (entier inactivé, trivalent)
+    VAC0014C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard, 3 composants), anti-Haemophilus influenzae type b (conjugué à 
+      l'anatoxine tétanique), poliomyélitique (entier inactivé, trivalent) et de
+      l’hépatite B (recombinant), adsorbé
+    VAC0015C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard, 3 composants), anti-Haemophilus influenzae type b (conjugué à 
+      l'anatoxine tétanique) et poliomyélitique (entier inactivé, trivalent), 
+      adsorbé
+    VAC0016C: Vaccin contre la grippe saisonnière inactivé trivalent, à antigène
+      de surface
+    VAC0017C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0018C: Vaccin polyosidique non conjugué contre les méningocoques des 
+      sérogroupes A, C, W et Y
+    VAC0019C: Vaccin méningococcique polyosidique conjugué contre le sérogroupe 
+      C
+    VAC0020C: Vaccin méningococcique polyosidique conjugué contre le sérogroupe 
+      C
+    VAC0021C: Vaccin contre la grippe saisonnière inactivé trivalent, à virion 
+      fragmenté
+    VAC0022C: Vaccin méningococcique polyosidique conjugué à l'anatoxine 
+      tétanique contre le sérogroupe C
+    VAC0023C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard, 5 composants), anti-Haemophilus influenzae type b (conjugué à 
+      l'anatoxine tétanique) et poliomyélitique (entier inactivé, trivalent), 
+      adsorbé
+    VAC0024C: Vaccin pneumococcique polyosidique non conjugué, 23-valent, 
+      sérotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 
+      18C, 19A, 19F, 20, 22F, 23F et 33F
+    VAC0025C: Vaccin pneumococcique polyosidique conjugué, 7-valent, adsorbé, 
+      sérotypes 4, 6B, 9V, 14, 18C, 19F et 23F
+    VAC0026C: Vaccin contre la grippe saisonnière inactivé trivalent, à antigène
+      de surface
+    VAC0027C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0028C: Vaccin rabique entier inactivé, cultivé sur cellules d’embryon de 
+      poulet (PCEC), inactivation par la ß-propiolactone
+    VAC0029C: Vaccin diphtérique (anatoxine, dose réduite), tétanique 
+      (anatoxine), coquelucheux (acellulaire multicomposé, 5 composants, dose 
+      réduite) et poliomyélitique (entier inactivé, trivalent), adsorbé
+    VAC0030C: Vaccin diphtérique (anatoxine, dose réduite), tétanique 
+      (anatoxine) et  poliomyélitique (entier inactivé, trivalent), adsorbé
+    VAC0031C: Vaccin vivant atténué pentavalent contre les rotavirus, par voie 
+      orale
+    VAC0032C: Vaccin vivant atténué contre la rougeole
+    VAC0033C: Vaccin vivant atténué contre la rubéole
+    VAC0034C: Vaccin entier inactivé contre la leptospirose
+    VAC0035C: Vaccin vivant atténué contre la fièvre jaune
+    VAC0036C: Vaccin contre la grippe saisonnière inactivé trivalent, à virion 
+      fragmenté et tétanique (anatoxine)
+    VAC0037C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard) et poliomyélitique (entier inactivé, trivalent)
+    VAC0038C: Vaccin entier inactivé contre l'encéphalite à tiques, souche 
+      Neudörfl, dose adulte
+    VAC0039C: Vaccin entier inactivé contre l'encéphalite à tiques, souche 
+      Neudörfl, dose pédiatrique
+    VAC0040C: Vaccin typhoïdique (non conjugué, antigène polyosidique Vi 
+      purifié) combiné au vaccin contre l'hépatite A (entier inactivé, adsorbé)
+    VAC0041C: Vaccin typhoïdique polyosidique non conjugué (antigène capsulaire 
+      Vi)
+    VAC0042C: Vaccin contre la tuberculose (vivant atténué)
+    VAC0043C: Vaccin diphtérique (anatoxine, dose réduite), tétanique 
+      (anatoxine), coquelucheux (acellulaire multicomposé, 5 composants, dose 
+      réduite) et poliomyélitique (entier inactivé, trivalent), adsorbé
+    VAC0044C: Vaccin contre les papillomavirus humains à base de VLP (Virus Like
+      Particles ou pseudo particules virales), bivalent (types 16 et 18), 
+      recombinant, adsorbé
+    VAC0045C: Vaccin recombinant contre l'hépatite B, dose pédiatrique
+    VAC0046C: Vaccin recombinant contre l'hépatite B, dose adulte
+    VAC0047C: Vaccin contre la grippe saisonnière inactivé trivalent, à virion 
+      fragmenté
+    VAC0048C: Vaccin recombinant contre l'hépatite B, 20 µg d'antigène HBs, dose
+      pédiatrique et adulte
+    VAC0049C: Vaccin entier inactivé contre l'hépatite A, dose adulte
+    VAC0050C: Vaccin entier inactivé contre l'hépatite A, dose pédiatrique
+    VAC0051C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard) et poliomyélitique (entier inactivé, trivalent)
+    VAC0052C: Vaccin polyosidique non conjugué contre les méningocoques des 
+      sérogroupes A et C
+    VAC0053C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0054C: Vaccin rabique entier inactivé, souche WISTAR Rabies PM/WI38 
+      1503-3M, cultivé sur cellules Vero, inactivé par la bêta-propiolactone
+    VAC0056C: Vaccin tétanique (anatoxine)
+    VAC0057C: Vaccin combiné contre les hépatites A et B, dose adulte
+    VAC0058C: Vaccin combiné contre les hépatites A et B, dose pédiatrique
+    VAC0059C: Vaccin typhoïdique polyosidique non conjugué (antigène capsulaire 
+      Vi)
+    VAC0060C: Vaccin vivant atténué contre la varicelle
+    VAC0061C: Vaccin vivant atténué contre la varicelle
+    VAC0062C: Vaccin contre la grippe saisonnière inactivé trivalent, à virion 
+      fragmenté
+    VAC0063C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier inactivé) et poliomyélitique 
+      (entier inactivé, trivalent)
+    VAC0064C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus 
+      influenzae type b (conjugué à l'anatoxine tétanique) et poliomyélitique 
+      (entier inactivé, trivalent), adsorbé
+    VAC0066C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard) et poliomyélitique (entier inactivé, trivalent)
+    VAC0067C: Vaccin entier inactivé contre l'hépatite A, dose pédiatrique
+    VAC0068C: Vaccin contre la tuberculose (vivant atténué)
+    VAC0069C: Vaccin polyosidique non conjugué contre les méningocoques des 
+      sérogroupes A, C, W et Y
+    VAC0070C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC0071C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et contre la rubéole (vivant atténué)
+    VAC0072C: |-
+      Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur tissu cérébral murin, souche Nakayama, voie injectable 
+      Autres noms : JEVAX, BIKEN
+    VAC0073C: Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur
+      cellules Vero, adsorbé
+    VAC0074C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC0076C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC0077C: Vaccin vivant atténué contre les oreillons
+    VAC0078C: Vaccin vivant atténué contre la rougeole et la rubéole
+    VAC0080C: Vaccin contre la tuberculose (vivant atténué)
+    VAC0082C: Vaccin contre les méningocoques du sérogroupe B (à protéines de 
+      vésicules de membrane externe B:14:P1.7,16)
+    VAC0083C: Vaccin pneumococcique polyosidique conjugué, 10-valent, séroptypes
+      1, 4, 5, 6B, 7F, 9V, 14, 18C, 19F et 23F
+    VAC0085C: Vaccin tétanique (anatoxine) et poliomyélitique (entier inactivé, 
+      trivalent)
+    VAC0086C: Vaccin tétanique (anatoxine)
+    VAC0087C: Vaccin coquelucheux (entier inactivé)
+    VAC0090C: Vaccin protéique (antigène P.I.) contre la brucellose
+    VAC0091C: Association de bactéries inactivées visant à stimuler le système 
+      immunitaire. CCB = contre les complications bronchiques. Pas vraiment un 
+      vaccin...
+    VAC0092C: Vaccin cholérique entier inactivé, injectable
+    VAC0093C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), typhoïdique (entier inactivé) et paratyphoïdique A 
+      et B (entier inactivé)
+    VAC0094C: Vaccin poliomyélitique (vivant atténué, trivalent) contre les 
+      poliovirus 1, 2 et 3, par voie orale
+    VAC0095C: Vaccin typhoïdique et paratyphoïdique A et B, entier inactivé
+    VAC0096C: Vaccin contre la grippe saisonnière inactivé trivalent, à virion 
+      fragmenté
+    VAC0097C: Vaccin entier inactivé contre la leptospirose
+    VAC0098C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard), anti-Haemophilus influenzae type b (conjugué à l'anatoxine 
+      tétanique), poliomyélitique (entier inactivé, trivalent) et de l’hépatite 
+      B (recombinant), adsorbé
+    VAC0099C: Vaccin méningococcique polyosidique conjugué contre le sérogroupe 
+      C
+    VAC0103C: Vaccin méningococcique polyosidique conjugué quadrivalent contre 
+      les sérogroupes A, C, W et Y (conjugué à l'anatoxine diphtérique)
+    VAC0104C: Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 
+      inactivé
+    VAC0105C: Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 
+      inactivé
+    VAC0106C: Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 
+      inactivé
+    VAC0107C: Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09,
+      à virion entier inactivé
+    VAC0108C: Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 
+      inactivé
+    VAC0109C: Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 
+      inactivé, cultivé sur oeuf, à antigènes de surface, avec adjuvant
+    VAC0115C: Vaccin entier inactivé contre l'hépatite A, dose pédiatrique
+    VAC0116C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0120C: Vaccin vivant atténué contre la varicelle
+    VAC0121C: Vaccin vivant atténué contre la rougeole, la rubéole, les 
+      oreillons et la varicelle
+    VAC0123C: Vaccin pneumococcique polyosidique conjugué, 13-valent, adsorbé, 
+      sérotypes 1, 3, 4 , 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F et 23F
+    VAC0124C: Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 
+      inactivé, cultivé sur oeuf, à antigène de surface, avec adjuvant
+    VAC0125C: Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 
+      inactivé, virion fragmenté
+    VAC0126C: Vaccin plasmatique contre l'hépatite B (premier vaccin français)
+    VAC0127C: Vaccin recombinant contre l'hépatite B, dose pédiatrique
+    VAC0128C: Vaccin recombinant contre l'hépatite B, dosé à 10 microgrammes 
+      d'antigène HBs (bien que dosé à 10 µg, ce vaccin est indiqué à partir de 
+      l'âge de 16 ans)
+    VAC0129C: Vaccin recombinant contre l'hépatite B, dose pour patient dyalisé
+    VAC0139C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus 
+      influenzae type b (conjugué à l'anatoxine tétanique) et poliomyélitique 
+      (entier inactivé, trivalent), adsorbé
+    VAC0140C: Vaccin contre la grippe saisonnière inactivé trivalent, à virion 
+      fragmenté, par voie intradermique
+    VAC0141C: Vaccin méningococcique polyosidique conjugué quadrivalent contre 
+      les sérogroupes A, C, W et Y (conjugué à la protéine CRM 197)
+    VAC0161C: Vaccin vivant atténué contre le zona
+    VAC0164C: Vaccin contre la grippe saisonnière inactivé trivalent, à virion 
+      fragmenté
+    VAC0165C: Vaccin entier inactivé contre l'hépatite A, dose pédiatrique
+    VAC0166C: Vaccin entier inactivé contre l'hépatite A, dose adulte
+    VAC0168C: Vaccin combiné contre les hépatites A et B, dose pédiatrique
+    VAC0169C: Vaccin contre la grippe saisonnière inactivé trivalent, à antigène
+      de surface, préparé sur culture cellulaire
+    VAC0170C: Vaccin contre la grippe A(H5N1) (antigène de surface, inactivé, 
+      avec adjuvant)
+    VAC0171C: Vaccin contre la grippe A(H5N1)
+    VAC0172C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC0173C: Vaccin contre la grippe saisonnière trivalent, vivant atténué, par
+      voie nasale
+    VAC0174C: Vaccin vivant atténué contre la rougeole, la rubéole, les 
+      oreillons et la varicelle
+    VAC0175C: Vaccin diphtérique (anatoxine, dose réduite) et tétanique 
+      (anatoxine) (utilisé pour les rappels vaccinaux)
+    VAC0176C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC0177C: Vaccin polyosidique non conjugué contre les méningocoques des 
+      sérogroupes A et C
+    VAC0178C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (acellulaire multicomposé, dose 
+      standard)
+    VAC0179C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et poliomyélitique (entier inactivé, trivalent)
+    VAC0180C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard, 5 composants) et anti-Haemophilus influenzae type b (conjugué à 
+      l'anatoxine tétanique)
+    VAC0182C: Vaccin diphtérique (anatoxine, dose réduite), tétanique 
+      (anatoxine) et coquelucheux (acellulaire multicomposé, dose réduite)
+    VAC0183C: Vaccin entier inactivé contre l'hépatite A
+    VAC0184C: Vaccin pédiatrique diphtérique (anatoxine, dose standard)
+    VAC0185C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC0186C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC0187C: Vaccin vivant atténué contre la fièvre jaune
+    VAC0188C: Vaccin anti-Haemophilus influenzae type b, polyoside capsulaire 
+      (phosphate de polyribosylribitol, PRP) conjugué à l'anatoxine tétanique
+    VAC0189C: Vaccin pédiatrique diphtérique (anatoxine, dose standard)
+    VAC0190C: Vaccin tétanique (anatoxine)
+    VAC0191C: Vaccin vivant atténué contre la fièvre jaune
+    VAC0192C: Vaccin vivant atténué contre la rougeole
+    VAC0193C: Vaccin acellulaire contre le charbon absorbé, avec adjuvant
+    VAC0194C: Vaccin anti-Haemophilus influenzae type b, polyosidique non 
+      conjugué
+    VAC0195C: Vaccin contre la grippe saisonnière inactivé trivalent, à virion 
+      fragmenté
+    VAC0196C: Vaccin vivant atténué contre la rubéole et les oreillons
+    VAC0197C: Vaccin vivant atténué contre la rubéole et les oreillons
+    VAC0198C: Vaccin recombinant contre l'hépatite B
+    VAC0199C: Vaccin recombinant contre l'hépatite B, dosé à 10 microgrammes 
+      d'antigène HBs pour 0,5 mL (il existe une formulation de 0,25 mL)
+    VAC0200C: Vaccin acellulaire contre le charbon absorbé, avec adjuvant
+    VAC0201C: Vaccin vivant atténué contre la rougeole et les oreillons
+    VAC0202C: Antitoxine  contre le botulisme
+    VAC0203C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC0204C: Vaccin vivant atténué contre la rougeole (souche Tanabe) 5000 - 
+      Labo KMLE Corée du Sud
+    VAC0205C: Vaccin vivant atténué contre l'encéphalite japonaise, préparé sur 
+      culture primaire de cellules rénales de hamster (PHK) à partir de la 
+      souche SA 14-14-2
+    VAC0206C: Vaccin coquelucheux (acellulaire multicomposé, dose standard)
+    VAC0207C: Vaccin vivant atténué contre la rubéole
+    VAC0208C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (acellulaire multicomposé, dose 
+      standard)
+    VAC0209C: Vaccin contre l'hépatite B et anti-Haemophilus influenzae type b, 
+      polyoside capsulaire (phosphate de polyribosylribitol, PRP) conjugué à la 
+      protéine de membrane externe de Neisseria meningitidis sérogroupe B
+    VAC0210C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC0211C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (acellulaire multicomposé, dose 
+      standard)
+    VAC0212C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier inactivé) et poliomyélitique 
+      (entier inactivé, trivalent)
+    VAC0213C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et poliomyélitique (entier inactivé, trivalent)
+    VAC0214C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC0216C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC0217C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC0218C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC0219C: Vaccin contre la variole de première génération, virus vivant de 
+      la vaccine
+    VAC0220C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC0222C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC0223C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC0224C: Vaccin vivant atténué contre la rougeole et la rubéole
+    VAC0225C: Vaccin poliomyélitique (entier inactivé, trivalent)
+    VAC0226C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (acellulaire multicomposé, dose 
+      standard)
+    VAC0227C: Vaccin entier inactivé contre l'hépatite A, virosomal, dose 
+      pédiatrique ou adulte
+    VAC0228C: Vaccin vivant atténué contre la rubéole
+    VAC0229C: Vaccin contre la grippe saisonnière inactivé trivalent
+    VAC0230C: Vaccin contre la grippe saisonnière inactivé trivalent, à antigène
+      de surface, avec adjuvant
+    VAC0231C: Vaccin contre la grippe saisonnière inactivé trivalent
+    VAC0232C: Vaccin contre la grippe saisonnière inactivé trivalent
+    VAC0233C: Vaccin contre la grippe saisonnière trivalent, vivant atténué, par
+      voie nasale
+    VAC0234C: Vaccin contre la grippe saisonnière à virus entier inactivé
+    VAC0235C: Vaccin contre la grippe saisonnière inactivé trivalent
+    VAC0236C: Vaccin contre la grippe saisonnière inactivé trivalent, haute dose
+    VAC0238C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC0240C: Vaccin vivant atténué contre la rubéole
+    VAC0241C: Vaccin anti-Haemophilus influenzae type b, polyoside capsulaire 
+      (phosphate de polyribosylribitol, PRP) conjugué à l'anatoxine tétanique
+    VAC0242C: Vaccin recombinant contre l'hépatite B, dose adulte
+    VAC0243C: Vaccin contre l'hépatite B (Dosage pédiatrique à 10 µg/mL et 
+      dosage adulte à 20 µg/mL)
+    VAC0244C: Vaccin recombinant contre l'hépatite B, dosé à 10 microgrammes 
+      d'antigène HBs, utilisable dès l'âge de 11 ans
+    VAC0245C: Vaccin plasmatique contre l'hépatite B, utilisé aux Etats-Unis de 
+      1981 à 1990
+    VAC0246C: Vaccin tétanique (anatoxine) et contre la grippe saisonnière 
+      (trivalent)
+    VAC0247C: Vaccin anti-Haemophilus influenzae type b, oligosides capsulaires 
+      (phosphate de polyribosylribitol, PRP) conjugué à la toxine diphtérique 
+      mutante CRM197
+    VAC0248C: Vaccin coquelucheux (entier inactivé)
+    VAC0249C: Vaccin vivant atténué contre la rubéole, cultivé sur cellules 
+      embryonnaires de canard (souche HPV-77)
+    VAC0251C: Vaccin tétanique (anatoxine)
+    VAC0253C: Vaccin rabique entier inactivé, cultivé sur cellules d’embryon de 
+      poulet (PCEC), inactivation par la ß-propiolactone
+    VAC0254C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC0255C: Vaccin contre la grippe saisonnière inactivé trivalent
+    VAC0256C: Vaccin vivant atténué contre les oreillons
+    VAC0257C: Vaccin vivant atténué contre les oreillons
+    VAC0258C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0259C: Vaccin rabique entier inactivé, préparé sur culture de cellules 
+      diploïdes humaines (HDCV) MRC-5, inactivation par la ß-propiolactone
+    VAC0260C: Vaccin rabique entier inactivé, préparé sur culture de cellules 
+      diploïdes humaines (HDCV), par voie intradermique
+    VAC0261C: Vaccin rabique entier inactivé, par voie intramusculaire
+    VAC0262C: Vaccin vivant atténué contre la rubéole
+    VAC0263C: Vaccin vivant atténué contre la rougeole
+    VAC0264C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (acellulaire multicomposé, dose 
+      standard)
+    VAC0265C: Vaccin contre la grippe saisonnière inactivé trivalent
+    VAC0266C: Vaccin contre la grippe saisonnière inactivé trivalent
+    VAC0267C: Vaccin tétanique (anatoxine) et poliomyélitique (entier inactivé, 
+      trivalent)
+    VAC0268C: Vaccin poliomyélitique (entier inactivé, trivalent)
+    VAC0271C: Vaccin contre la grippe saisonnière inactivé trivalent
+    VAC0272C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC0273C: Vaccin coquelucheux (entier inactivé)
+    VAC0274C: Vaccin contre la variole de première génération, virus vivant de 
+      la vaccine
+    VAC0276C: Vaccin contre la variole de première génération, virus vivant de 
+      la vaccine
+    VAC0277C: Vaccin vivant atténué contre la rougeole et la rubéole
+    VAC0278C: Vaccin vivant atténué contre la rougeole
+    VAC0280C: Vaccin vivant atténué contre la rougeole et les oreillons
+    VAC0281C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0282C: Vaccin tétanique (anatoxine)
+    VAC0283C: Vaccin recombinant contre la maladie de Lyme dirigé contre la 
+      protéine de surface externe A (OspA)
+    VAC0284C: Vaccin vivant atténué contre la rougeole
+    VAC0285C: Vaccin vivant atténué contre la rubéole
+    VAC0286C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0287C: Vaccin vivant atténué contre la rougeole et la rubéole
+    VAC0288C: Vaccin vivant atténué contre la rougeole et la rubéole
+    VAC0289C: Vaccin vivant atténué contre la rougeole
+    VAC0290C: Vaccin vivant atténué contre la rougeole
+    VAC0291C: Vaccin vivant atténué contre la rougeole
+    VAC0292C: Vaccin vivant atténué contre la rougeole
+    VAC0293C: Vaccin polyosidique conjugué contre les méningocoques du 
+      sérogroupe A (conjugué à l'anatoxine tétanique)
+    VAC0294C: Vaccin polyosidique non conjugué contre les méningocoques du 
+      sérogroupe A
+    VAC0295C: Vaccin polyosidique non conjugué contre les méningocoques des 
+      sérogroupes A, C, W et Y
+    VAC0296C: Vaccin polyosidique non conjugué contre les méningocoques des 
+      sérogroupes A, C, W et Y
+    VAC0297C: Vaccin polyosidique non conjugué contre les méningocoques des 
+      sérogroupes A et C
+    VAC0298C: Vaccin vivant atténué contre la rubéole
+    VAC0299C: Vaccin vivant atténué contre la rubéole
+    VAC0300C: Vaccin vivant atténué contre la rougeole
+    VAC0301C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0303C: Vaccin pneumococcique polyosidique non conjugué, 17-valent, 
+      sérotypes 1, 2, 3, 4, 6A, 7F, 8, 9N, 11A, 12F, 14, 15F, 17F, 18C, 19F, 23F
+      et 25
+    VAC0304C: Vaccin vivant atténué contre la rougeole et les oreillons
+    VAC0305C: Vaccin poliomyélitique (vivant atténué, trivalent) contre les 
+      poliovirus 1, 2 et 3, par voie orale
+    VAC0306C: Vaccin vivant atténué contre la rougeole
+    VAC0307C: Vaccin vivant atténué contre la rougeole et la rubéole
+    VAC0308C: Immunoglobuline contre la rougeole
+    VAC0309C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0310C: Vaccin vivant atténué contre la rougeole
+    VAC0311C: Vaccin vivant atténué contre les oreillons
+    VAC0312C: Vaccin vivant atténué contre les oreillons
+    VAC0313C: Vaccin entier inactivé contre les oreillons
+    VAC0315C: Vaccin vivant atténué contre les oreillons
+    VAC0317C: Immunoglobuline contre l'hépatite B
+    VAC0318C: Vaccin entier inactivé contre l'hépatite A
+    VAC0319C: Vaccin anti-Haemophilus influenzae type b, polyoside capsulaire 
+      (phosphate de polyribosylribitol, PRP) conjugué à l'anatoxine tétanique
+    VAC0321C: Vaccin poliomyélitique (vivant atténué, trivalent) contre les 
+      poliovirus 1, 2 et 3, par voie orale
+    VAC0322C: Vaccin vivant atténué contre les oreillons
+    VAC0323C: Vaccin vivant atténué contre la rougeole
+    VAC0325C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard), poliomyélitique (entier inactivé, trivalent) et de l’hépatite B
+      (recombinant)
+    VAC0326C: Vaccin anti-Haemophilus influenzae type b, polyoside capsulaire 
+      (phosphate de polyribosylribitol, PRP) conjugué à la protéine de membrane 
+      externe de Neisseria meningitidis sérogroupe B
+    VAC0327C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard, 5 composants), anti-Haemophilus influenzae type b (conjugué à 
+      l'anatoxine tétanique) et poliomyélitique (entier inactivé, trivalent), 
+      adsorbé
+    VAC0328C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard, 5 composants), anti-Haemophilus influenzae type b (conjugué à 
+      l'anatoxine tétanique) et poliomyélitique (entier inactivé, trivalent), 
+      adsorbé
+    VAC0330C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus 
+      influenzae  type b (conjugué à l'anatoxine tétanique) et poliomyélitique 
+      (entier inactivé, trivalent), adsorbé
+    VAC0332C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus 
+      influenzae type b (conjugué à l'anatoxine tétanique) et de l’hépatite B 
+      (recombinant)
+    VAC0333C: Vaccin entier inactivé contre la rougeole (historique)
+    VAC0334C: Vaccin vivant atténué contre la rougeole
+    VAC0335C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0336C: Vaccin pneumococcique polyosidique non conjugué, 23-valent, 
+      sérotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 
+      18C, 19A, 19F, 20, 22F, 23F et 33F
+    VAC0337C: Vaccin pneumococcique polyosidique non conjugué, 23-valent, 
+      sérotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 
+      18C, 19A, 19F, 20, 22F, 23F et 33F
+    VAC0338C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard, 5 composants), anti-Haemophilus influenzae type b (conjugué à 
+      l'anatoxine tétanique) et poliomyélitique (entier inactivé, trivalent), 
+      adsorbé
+    VAC0341C: Vaccin pneumococcique polyosidique conjugué, 7-valent, adsorbé, 
+      sérotypes 4, 6B, 9V, 14, 18C, 19F et 23F
+    VAC0343C: Vaccin conjugué anti-Hemophilus influenzae de type b composé du 
+      PRP (polyribosylribitol phosphate) conjugué à l'anatoxine diphtérique
+    VAC0346C: Vaccin poliomyélitique (entier inactivé, trivalent)
+    VAC0347C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard) et poliomyélitique (entier inactivé, trivalent)
+    VAC0348C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard, 5 composants), anti-Haemophilus influenzae type b (conjugué à 
+      l'anatoxine tétanique) et poliomyélitique (entier inactivé, trivalent), 
+      adsorbé
+    VAC0349C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier inactivé) et poliomyélitique 
+      (entier inactivé, trivalent)
+    VAC0350C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard) et poliomyélitique (entier inactivé, trivalent)
+    VAC0351C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard), anti-Haemophilus influenzae type b (conjugué à l'anatoxine 
+      tétanique) et de l’hépatite B (recombinant)
+    VAC0352C: Vaccin recombinant contre l'hépatite B, dose adulte
+    VAC0353C: Vaccin vivant atténué contre la rubéole
+    VAC0354C: Vaccin vivant atténué contre la rubéole
+    VAC0355C: Vaccin rabique entier inactivé, cultivé sur cellules d’embryon de 
+      poulet (PCEC), inactivation par la ß-propiolactone
+    VAC0356C: Vaccin contre l'hépatite B , dosage pédiatrique à 10 µg
+    VAC0357C: Immunoglobuline contre le virus respiratoire syncytial (VRS)
+    VAC0359C: Vaccin vivant atténué contre la rougeole
+    VAC0360C: Vaccin vivant atténué contre la rougeole et les oreillons
+    VAC0361C: Vaccin vivant atténué contre la rougeole et les oreillons
+    VAC0362C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0363C: Vaccin contre les rotavirus (historique)
+    VAC0364C: Vaccin vivant atténué contre la rubéole
+    VAC0365C: Vaccin vivant atténué contre la rubéole
+    VAC0366C: Vaccin vivant atténué contre la rubéole
+    VAC0367C: Vaccin vivant atténué contre la rubéole
+    VAC0368C: Vaccin vivant atténué contre la rubéole
+    VAC0369C: Vaccin vivant atténué contre la rougeole
+    VAC0370C: Vaccin rabique entier inactivé, adsorbé sur phosphate d'aluminium 
+      du laboratoire BioPort
+    VAC0371C: Vaccin poliomyélitique (vivant atténué, trivalent) contre les 
+      poliovirus 1, 2 et 3, par voie orale
+    VAC0372C: Vaccin poliomyélitique (vivant atténué, trivalent) contre les 
+      poliovirus 1, 2 et 3, par voie orale
+    VAC0373C: Vaccin poliomyélitique (entier inactivé, trivalent)
+    VAC0374C: Vaccin contre la grippe saisonnière inactivé trivalent
+    VAC0375C: Vaccin cholérique (entier inactivé) et typhoïdique (non conjugué, 
+      antigène polyosidique Vi purifié), injectable
+    VAC0376C: Vaccin cholérique entier inactivé, par voie orale
+    VAC0377C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC0378C: Anticorps monoclonal contre le virus respiratoire syncytial (VRS)
+    VAC0379C: Vaccin tétanique (anatoxine)
+    VAC0383C: Vaccin tétanique (anatoxine)
+    VAC0384C: Vaccin tétanique (anatoxine) (Yougoslavie)
+    VAC0385C: Vaccin tétanique (anatoxine)
+    VAC0386C: Vaccin tétanique (anatoxine)
+    VAC0387C: Vaccin tétanique (anatoxine)
+    VAC0388C: Vaccin tétanique (anatoxine)
+    VAC0389C: Vaccin tétanique (anatoxine)
+    VAC0390C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier inactivé) et anti-Haemophilus 
+      influenzae type b (conjugué à l'anatoxine tétanique)
+    VAC0391C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier inactivé) et anti-Haemophilus 
+      influenzae type b (conjugué à l'anatoxine diphtérique)
+    VAC0392C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier inactivé) et poliomyélitique 
+      (entier inactivé, trivalent)
+    VAC0393C: Vaccin contre la tuberculose (vivant atténué)
+    VAC0394C: Immunoglobuline anti-tétanique
+    VAC0395C: Vaccin typhoïdique et paratyphoïdique A et B, entier inactivé
+    VAC0396C: Vaccin poliomyélitique (vivant atténué, trivalent) contre les 
+      poliovirus 1, 2 et 3, par voie orale
+    VAC0397C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0398C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC0399C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et poliomyélitique (entier inactivé, trivalent)
+    VAC0400C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (acellulaire multicomposé, dose 
+      standard)
+    VAC0401C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard) et anti-Haemophilus influenzae type b (conjugué à l'anatoxine 
+      tétanique)
+    VAC0403C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC0404C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (acellulaire multicomposé, dose 
+      standard)
+    VAC0405C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (acellulaire multicomposé, dose 
+      standard)
+    VAC0407C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC0408C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC0409C: Vaccin poliomyélitique (vivant atténué, trivalent) contre les 
+      poliovirus 1, 2 et 3, par voie orale
+    VAC0410C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0411C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC0412C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (acellulaire multicomposé, dose 
+      standard)
+    VAC0413C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (acellulaire multicomposé, dose 
+      standard)
+    VAC0414C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard) et anti-Haemophilus influenzae type b (conjugué à l'anatoxine 
+      tétanique)
+    VAC0415C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et poliomyélitique (entier inactivé, trivalent)
+    VAC0416C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0417C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0418C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0419C: Vaccin tétanique (anatoxine)
+    VAC0420C: Vaccin tétanique (anatoxine)
+    VAC0421C: Vaccin coquelucheux (entier inactivé)
+    VAC0423C: Vaccin combiné contre les hépatites A et B, dose pédiatrique
+    VAC0425C: Vaccin contre la tuberculose (vivant atténué)
+    VAC0426C: Vaccin typhoïdique entier inactivé
+    VAC0427C: Vaccin typhoïdique polyosidique non conjugué (antigène capsulaire 
+      Vi)
+    VAC0428C: Vaccin contre les méningocoques des sérogroupes B (à protéines de 
+      vésicules de membrane externe B:14:P1.7,16) et C
+    VAC0429C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC0430C: Vaccin diphtérique (anatoxine, dose non précisée)
+    VAC0431C: Vaccin vivant atténué contre la rougeole
+    VAC0432C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC0433C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (acellulaire ou entier inactivé, 
+      dose non précisée)
+    VAC0434C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0435C: Vaccin contre la variole de première génération, virus vivant de 
+      la vaccine
+    VAC0436C: Vaccin vivant atténué contre la rougeole
+    VAC0437C: Vaccin cholérique (entier inactivé) et typhoïdique (entier 
+      inactivé), injectable
+    VAC0438C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (acellulaire ou entier inactivé, 
+      dose non précisée)
+    VAC0439C: Vaccin vivant atténué contre la rougeole et les oreillons
+    VAC0441C: Vaccin vivant atténué contre la varicelle (laboratoire SK 
+      Bioscience)
+    VAC0442C: Immunoglobuline contre le virus de la varicelle
+    VAC0443C: Vaccin contre la variole de première génération, virus vivant de 
+      la vaccine
+    VAC0444C: Vaccin anti-Haemophilus influenzae type b, oligosides capsulaires 
+      (phosphate de polyribosylribitol, PRP) conjugué à la toxine diphtérique 
+      mutante CRM197
+    VAC0445C: Vaccin vivant atténué contre les oreillons
+    VAC0446C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC0447C: Vaccin pédiatrique diphtérique (anatoxine, dose standard)
+    VAC0448C: Vaccin typhoïdique polyosidique non conjugué (antigène capsulaire 
+      Vi)
+    VAC0449C: Vaccin poliomyélitique (vivant atténué, trivalent) contre les 
+      poliovirus 1, 2 et 3, par voie orale
+    VAC0450C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0451C: Vaccin typhoïdique vivant atténué, souche de Salmonella Typhi 
+      Ty21a, par voie orale
+    VAC0452C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (acellulaire ou entier inactivé, 
+      dose non précisée)
+    VAC0453C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0454C: Vaccin vivant atténué contre la rougeole
+    VAC0456C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (acellulaire ou entier inactivé, 
+      dose non précisée)
+    VAC0457C: Vaccin vivant atténué contre la fièvre jaune
+    VAC0458C: Immunoglobuline anti-toxine diphtérique
+    VAC0459C: Vaccin tétanique (anatoxine)
+    VAC0460C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC0461C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC0462C: Vaccin polyosidique non conjugué contre les méningocoques des 
+      sérogroupes A et C
+    VAC0463C: Vaccin vivant atténué contre la rougeole
+    VAC0464C: Vaccin vivant atténué contre la rougeole et la rubéole
+    VAC0465C: Vaccin vivant atténué contre la rubéole
+    VAC0466C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (acellulaire ou entier inactivé, 
+      dose non précisée)
+    VAC0467C: Vaccin tétanique (anatoxine)
+    VAC0468C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC0469C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0470C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus 
+      influenzae  type b (conjugué à l'anatoxine diphtérique) et de l’hépatite B
+      (recombinant)
+    VAC0471C: Vaccin recombinant contre l'hépatite B, dose adulte
+    VAC0472C: Vaccin contre la grippe A(H5N1)
+    VAC0473C: Vaccin contre la grippe A(H5N1) (fractionné, avec adjuvant)
+    VAC0474C: Vaccin contre la grippe A(H5N1)
+    VAC0475C: Vaccin contre la grippe A(H5N1)
+    VAC0476C: Vaccin contre la grippe A(H5N1) (virion entier, cultivé sur 
+      cellule Vero, inactivé) multidose
+    VAC0477C: Vaccin contre la grippe A(H5N1)
+    VAC0478C: Vaccin diphtérique (anatoxine, dose réduite), tétanique 
+      (anatoxine) et coquelucheux (acellulaire multicomposé, dose réduite)
+    VAC0479C: Vaccin diphtérique (anatoxine, dose réduite), tétanique 
+      (anatoxine) et coquelucheux (acellulaire multicomposé, dose réduite)
+    VAC0480C: Vaccin recombinant contre l'hépatite B, dose pour patient dyalisé
+    VAC0481C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0482C: Vaccin contre la grippe A(H5N1) (virion entier, cultivé sur 
+      cellule Vero, inactivé)
+    VAC0483C: Vaccin contre la grippe saisonnière inactivé trivalent
+    VAC0484C: Vaccin rabique entier inactivé
+    VAC0485C: Immunoglobuline anti-tétanique
+    VAC0486C: Vaccin polyosidique conjugué quadrivalent contre les méningocoques
+      des sérogroupes A, C, W et Y (conjugué à l'anatoxine tétanique)
+    VAC0487C: Vaccin conjugué anti-Haemophilus influenzae type b (conjugué à 
+      l'anatoxine tétanique) et contre les méningocoques des sérogroupes C et Y 
+      (conjugué à l'anatoxine tétanique)
+    VAC0488C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard, 5 composants), anti-Haemophilus influenzae type b (conjugué à 
+      l'anatoxine tétanique) et poliomyélitique (entier inactivé, trivalent), 
+      adsorbé
+    VAC0489C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0490C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard) et poliomyélitique (entier inactivé, trivalent)
+    VAC0491C: Vaccin diphtérique (anatoxine, dose réduite) et tétanique 
+      (anatoxine)
+    VAC0492C: Vaccin contre la grippe saisonnière inactivé trivalent, à virion 
+      fragmenté
+    VAC0494C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier inactivé) et de l’hépatite B 
+      (recombinant), adsorbé
+    VAC0495C: Vaccin contre les méningococciques du sérogroupe B à 4 composants
+    VAC0496C: Immunoglobuline anti-tétanique
+    VAC0498C: Immunoglobuline anti-rabique, origine humaine
+    VAC0499C: Immunoglobuline anti-rabique, origine humaine
+    VAC0500C: Immunoglobuline anti-rabique, origine équine
+    VAC0501C: Immunoglobuline anti-rabique, origine équine
+    VAC0504C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard), anti-Haemophilus influenzae type b (conjugué à l'anatoxine 
+      tétanique) et poliomyélitique (entier inactivé, trivalent), adsorbé
+    VAC0505C: Vaccin conjugué anti-Hemophilus influenzae de type b composé du 
+      PRP (polyribosylribitol phosphate) conjugué à l'anatoxine tétanique
+    VAC0507C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard), anti-Haemophilus influenzae type b (conjugué à l'anatoxine 
+      tétanique), poliomyélitique (entier inactivé, trivalent) et de l’hépatite 
+      B (recombinant), adsorbé
+    VAC0508C: Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur
+      cellules Vero, 3 microgrammes
+    VAC0509C: |-
+      Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur tissu cérébral murin, souche Nakayama, voie injectable 
+      Autre nom : JEVAX
+    VAC0510C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard, 2 composants), anti-Haemophilus influenzae type b (conjugué à 
+      l'anatoxine tétanique), poliomyélitique (entier inactivé, trivalent) et de
+      l’hépatite B (recombinant), adsorbé
+    VAC0511C: Vaccin contre les papillomavirus humains à base de VLP (Virus Like
+      Particles ou pseudo particules virales), quadrivalent (types 6, 11, 16 et 
+      18), recombinant, adsorbé
+    VAC0513C: Vaccin typhoïdique (non conjugué, antigène polyosidique Vi 
+      purifié) combiné au vaccin contre l'hépatite A (entier inactivé)
+    VAC0514C: Vaccin monovalent contre les rotavirus, par voie orale
+    VAC0515C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard) et poliomyélitique (entier inactivé, trivalent), dose 
+      pédiatrique
+    VAC0516C: Vaccin rabique entier inactivé
+    VAC0517C: Vaccin contre la grippe saisonnière inactivé quadrivalent, à 
+      virion fragmenté
+    VAC0518C: Vaccin vivant atténué contre la fièvre jaune
+    VAC0520C: Vaccin contre la variole de troisième génération, virus modifié de
+      la vaccine d'Ankara, non réplicatif
+    VAC0521C: Vaccin contre la grippe saisonnière vivant atténué quadrivalent, 
+      par voie nasale
+    VAC0523C: Vaccin contre les papillomavirus humains à base de VLP (Virus Like
+      Particles ou pseudo particules virales), nonavalent (types 6, 11, 16, 18, 
+      31, 33, 45, 52 et 58), recombinant, adsorbé
+    VAC0524C: Vaccin tétanique (anatoxine)
+    VAC0525C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard), poliomyélitique (entier inactivé, trivalent) et de l’hépatite B
+      (recombinant), adsorbé
+    VAC0526C: Vaccin recombinant peptidique contre l'hépatite E
+    VAC0527C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC0528C: Vaccin contre l'hépatite B et le paludisme
+    VAC0529C: Vaccin tétanique (anatoxine)
+    VAC0530C: Vaccin tétanique (anatoxine)
+    VAC0531C: Vaccin tétanique (anatoxine)
+    VAC0532C: Vaccin tétanique (anatoxine), commercialisé en Hollande par 
+      Bilthoven Biologicals
+    VAC0534C: Vaccin méningococcique polyosidique conjugué contre le sérogroupe 
+      C
+    VAC0535C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard, 5 composants), anti-Haemophilus influenzae type b (conjugué à la
+      protéine de membrane externe de Neisseria meningitidis sérogroupe B), 
+      poliomyélitique (entier inactivé, trivalent) et de l’hépatite B 
+      (recombinant), adsorbé
+    VAC0538C: Vaccin contre la tuberculose (vivant atténué)
+    VAC0539C: Vaccin vivant atténué, chimérique recombinant, quadrivalent 
+      [sérotypes 1, 2, 3 et 4] du virus de la dengue (basé sur le vaccin fièvre 
+      jaune 17D)
+    VAC0540C: Vaccin tétanique (anatoxine)
+    VAC0541C: Vaccin diphtérique (anatoxine, dose réduite), tétanique 
+      (anatoxine) et coquelucheux (acellulaire multicomposé, dose réduite)
+    VAC0542C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et poliomyélitique (entier inactivé, trivalent)
+    VAC0543C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard), anti-Haemophilus influenzae type b (conjugué à l'anatoxine 
+      tétanique), poliomyélitique (entier inactivé, trivalent) et de l’hépatite 
+      B (recombinant), adsorbé
+    VAC0544C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard) et poliomyélitique (entier inactivé, trivalent)
+    VAC0545C: Vaccin recombinant contre l'hépatite B, dose adulte
+    VAC0546C: Vaccin diphtérique (anatoxine, dose réduite), tétanique 
+      (anatoxine) et poliomyélitique (entier inactivé, trivalent), adsorbé
+    VAC0554C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard, 5 composants), anti-Haemophilus influenzae type b (conjugué à 
+      l'anatoxine tétanique) et poliomyélitique (entier inactivé, trivalent), 
+      adsorbé
+    VAC0555C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus 
+      influenzae type b (conjugué à l'anatoxine tétanique) et poliomyélitique 
+      (entier inactivé, trivalent), adsorbé
+    VAC0556C: Vaccin conjugué anti-Haemophilus influenzae type b (conjugué à 
+      l'anatoxine tétanique) et contre les méningocoques du sérogroupe C 
+      (conjugué à l'anatoxine tétanique)
+    VAC0560C: Vaccin contre la grippe saisonnière inactivé quadrivalent, à 
+      virion fragmenté
+    VAC0561C: Vaccin vivant atténué contre l'encéphalite japonaise, recombinant 
+      chimérique
+    VAC0562C: Vaccin contre la grippe saisonnière inactivé quadrivalent, à 
+      antigène de surface
+    VAC0563C: Vaccin contre la grippe saisonnière inactivé quadrivalent, à 
+      virion fragmenté
+    VAC0566C: Vaccin pneumococcique polyosidique non conjugué, 23-valent, 
+      sérotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 
+      18C, 19A, 19F, 20, 22F, 23F et 33F
+    VAC0567C: Vaccin contre le zona (recombinant, avec adjuvant)
+    VAC0568C: Vaccin diphtérique (anatoxine, dose réduite), tétanique 
+      (anatoxine), coquelucheux (acellulaire multicomposé, 5 composants, dose 
+      réduite) et poliomyélitique (entier inactivé, trivalent), adsorbé
+    VAC0569C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard) et poliomyélitique (entier inactivé, trivalent)
+    VAC0570C: Vaccin conjugué anti-Hemophilus influenzae de type b composé du 
+      PRP (polyribosylribitol phosphate) conjugué à l'anatoxine tétanique
+    VAC0573C: Vaccin contre la grippe saisonnière inactivé trivalent, à antigène
+      de surface
+    VAC0574C: Vaccin diphtérique (anatoxine, dose réduite), tétanique 
+      (anatoxine) et poliomyélitique (entier inactivé, trivalent), adsorbé
+    VAC0575C: Vaccin entier inactivé contre l'encéphalite à tiques, souche 
+      Neudörfl, dose adulte
+    VAC0576C: Vaccin contre la grippe saisonnière inactivé trivalent
+    VAC0577C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (acellulaire multicomposé, dose 
+      standard)
+    VAC0578C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard) et anti-Haemophilus influenzae type b (conjugué à l'anatoxine 
+      tétanique)
+    VAC0579C: Immunoglobuline contre la rougeole, origine humaine
+    VAC0580C: Immunoglobuline contre la rougeole, origine humaine
+    VAC0582C: Vaccin contre les méningocoques du sérogroupe B (recombinant, 
+      adsorbé)
+    VAC0586C: Vaccin contre le virus Ebola Zaïre (rVSVΔG-ZEBOV-GP, vivant)
+    VAC0590C: Vaccin contre la tuberculose (vivant atténué)
+    VAC0591C: Vaccin typhoïdique (non conjugué, antigène polyosidique Vi 
+      purifié) combiné au vaccin contre l'hépatite A (entier inactivé), présenté
+      en seringue à deux compartiments
+    VAC0592C: Vaccin rabique entier inactivé, cultivé sur cellules Vero, 
+      inactivé par la bêta-propiolactone
+    VAC0593C: Vaccin rabique entier inactivé, souche WISTAR PM/WI 38-1503-3M, 
+      cultivé sur cellules Vero, inactivé par la bêta-propiolactone
+    VAC0594C: Vaccin polyosidique conjugué quadrivalent contre les méningocoques
+      des sérogroupes A, C, W et Y (conjugué à l'anatoxine tétanique)
+    VAC0595C: Vaccin contre la grippe saisonnière inactivé quadrivalent, produit
+      sur culture cellulaire
+    VAC0603C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC0611C: "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique
+      (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus influenzae type
+      b (conjugué à l'anatoxine tétanique) et de l’hépatite B (recombinant) - Autre
+      nom : Vaccin liquide DTCe-Hep B-Hib"
+    VAC0612C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC0613C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (acellulaire multicomposé, dose 
+      standard)
+    VAC0614C: Vaccin diphtérique (anatoxine, dose réduite), tétanique 
+      (anatoxine) et coquelucheux (acellulaire multicomposé, dose réduite)
+    VAC0615C: Vaccin tétanique (anatoxine) et poliomyélitique (entier inactivé, 
+      trivalent)
+    VAC0620C: 'Vaccin vivant atténué contre le chikungunya. Autre nom : VLA1553.'
+    VAC0621C: Vaccin méningococcique polyosidique conjugué à l'anatoxine 
+      tétanique contre le sérogroupe C (Produit par la "Ezequiel Dias 
+      Foundation")
+    VAC0622C: Vaccin vivant atténué contre la rougeole et la rubéole
+    VAC0624C: Vaccin vivant atténué contre la rougeole et les oreillons
+    VAC0625C: Vaccin vivant atténué contre la rougeole
+    VAC0626C: Vaccin vivant atténué contre la rougeole et la rubéole
+    VAC0627C: Vaccin vivant atténué contre la rougeole
+    VAC0628C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0631C: Vaccin méningococcique polyosidique conjugué contre le sérogroupe 
+      C
+    VAC0632C: Vaccin poliomyélitique (vivant atténué, trivalent) contre les 
+      poliovirus 1, 2 et 3, par voie orale
+    VAC0633C: Vaccin contre le virus Ebola à vecteur viral vivant non réplicatif
+      recombinant
+    VAC0634C: Vaccin contre le virus Ebola à vecteur viral non réplicatif
+    VAC0635C: Vaccin contre la grippe saisonnière inactivé trivalent, à 
+      antigènes purifiés
+    VAC0636C: Vaccin contre la grippe saisonnière vivant atténué quadrivalent, 
+      par voie nasale
+    VAC0637C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC0638C: Vaccin poliomyélitique (entier inactivé, trivalent)
+    VAC0639C: Vaccin diphtérique (anatoxine, dose réduite), tétanique 
+      (anatoxine), coquelucheux (acellulaire multicomposé, 5 composants, dose 
+      réduite) et poliomyélitique (entier inactivé, trivalent), adsorbé
+    VAC0640C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus 
+      influenzae type b (conjugué à l'anatoxine tétanique) et de l’hépatite B 
+      (recombinant)
+    VAC0641C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus 
+      influenzae type b (conjugué à l'anatoxine tétanique) et contre les 
+      méningocoques des sérogroupes A et C (conjugué à l'anatoxine tétanique)
+    VAC0642C: Vaccin contre la grippe saisonnière inactivé quadrivalent, à 
+      virion fragmenté, haute dose
+    VAC0644C: |-
+      Vaccin vivant atténué, chimérique recombinant, quadrivalent contre les quatre sérotypes (1, 2, 3 et 4) du virus de la dengue 
+      Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) TAKEDA
+    VAC0645C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC0646C: Vaccin contre les papillomavirus humains à base de VLP (Virus Like
+      Particles ou pseudo particules virales ), bivalent (types 16 et 18), 
+      recombinant (exprimé par Escherichia coli)
+    VAC0647C: Vaccin contre les rotavirus
+    VAC0649C: Vaccin contre la grippe saisonnière inactivé quadrivalent, à 
+      virion fragmenté, haute dose
+    VAC0650C: Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus de
+      chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2
+    VAC0651C: "Vaccin anti-covid 19 à virus entier inactivé, adjuvé (adjuvant : hydroxyde
+      d'aluminium)"
+    VAC0652C: Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus 5 
+      codant la protéine de pointe du SARS-CoV-2
+    VAC0656C: Vaccin anti-covid 19 à ARNm, dosé à 100 microgrammes
+    VAC0657C: Vaccin anti-covid 19 à virus entier inactivé (culture sur cellules
+      Vero)
+    VAC0658C: Vaccin à ARNm contre la covid 19, à partir de l'âge de 12 ans, 30 
+      microgrammes
+    VAC0659C: Vaccin anti-covid 19 à sous-unité protéique
+    VAC0660C: Vaccin anti-covid 19 à virus entier inactivé (culture sur cellules
+      Vero)
+    VAC0661C: Vaccin anti-covid 19 à ADN plasmidique
+    VAC0662C: Vaccin anti-covid 19 à ADN plasmidique
+    VAC0663C: Vaccin anti-covid 19 à ADN plasmidique
+    VAC0664C: Vaccin anti-covid 19 à ADN plasmidique
+    VAC0665C: 'Vaccin anti-covid 19 à virus entier inactivé, adjuvé (adjuvant : molécule
+      de la classe des imidazoquinoléines agoniste des TLR 7 et 8 adsorbée sur hydroxyde
+      d’aluminium). Autres noms : BBV152, Bharat Inactivated Covid Vaccine'
+    VAC0666C: Vaccin anti-covid 19 à vecteur viral non réplicatif (adénovirus)
+    VAC0667C: 'Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante
+      dans des nanoparticules, avec adjuvant (Matrix M). Autre nom : NOVAVAX NVX-CoV2373
+      COVID-19 Vaccine'
+    VAC0668C: Vaccin anti-covid 19 à sous-unité protéique
+    VAC0669C: Vaccin anti-covid 19 à ARNm codant la protéine de pointe du 
+      SARS-CoV-2, en cours d'essai clinique
+    VAC0670C: Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus 
+      codant la protéine de pointe du SARS-CoV-2
+    VAC0671C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe 
+      recombinante, avec adjuvant sans précision
+    VAC0672C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe 
+      recombinante, avec adjuvant (Advax)
+    VAC0673C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe 
+      recombinante, avec adjuvant (MF59)
+    VAC0674C: Vaccin anti-covid 19 à vecteur viral réplicatif, virus de la 
+      rougeole codant la protéine de pointe du SARS-CoV-2
+    VAC0675C: Vaccin anti-covid 19 à ARNm codant la protéine de pointe du 
+      SARS-CoV-2, en cours d'essai clinique
+    VAC0676C: Vaccin anti-covid 19 à ARNm codant la protéine de pointe du 
+      SARS-CoV-2, en cours d'essai clinique
+    VAC0677C: Vaccin anti-covid 19 à ARNm codant la protéine de pointe du 
+      SARS-CoV-2, en cours d'essai clinique
+    VAC0678C: Vaccin anti-covid 19 à VLP, protéine de pointe recombinante, avec 
+      adjuvant
+    VAC0679C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe du
+      SARS-CoV-2 recombinante, S-2P et CpG1018
+    VAC0680C: 'Vaccin anti-covid 19 à virus entier inactivé, cultivé sur cellules
+      Vero - Autres noms : SINOPHARM BBIBP-CorV COVID-19 ; COVID-19 Vaccine BIBP ;
+      Hayat-vax'
+    VAC0681C: Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus 
+      codant la protéine de pointe du SARS-CoV-2
+    VAC0682C: Vaccin contre la grippe saisonnière inactivé quadrivalent, à 
+      antigène de surface
+    VAC0683C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe du
+      SARS-CoV-2 recombinante
+    VAC0684C: 'Vaccin anti-covid 19 à virus entier inactivé, adjuvé (adjuvant: hydroxyde
+      d’aluminium)'
+    VAC0685C: 'Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe du
+      SARS-CoV-2 recombinante, avec adjuvant ASO3. Autre nom : Sanofi-GSK Recombinant
+      COVID-19 Vaccine.'
+    VAC0686C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe du
+      SARS-CoV-2 recombinante, adaptés aux molécules du complexe majeur 
+      d'histocompatibilité II humain
+    VAC0687C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe du
+      SARS-CoV-2 recombinante (S1 et S2 de la protéine Spike et protéines M et N
+      du SARS-CoV-2)
+    VAC0688C: Vaccin anti-covid 19 à vecteur viral réplicatif (virus influenza),
+      protéine recombinante RBD, par spray intranasal
+    VAC0689C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe du
+      SARS-CoV-2 recombinante, exprimées par Baculovirus cultivés sur cellules 
+      Sf9
+    VAC0690C: Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus 5 
+      codant la protéine de pointe du SARS-CoV-2
+    VAC0691C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe du
+      SARS-CoV-2 recombinante
+    VAC0692C: Vaccin anti-covid 19 à sous-unité protéique
+    VAC0693C: Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus 5 
+      codant la protéine de pointe du SARS-CoV-2), avec adjuvants, en comprimé
+    VAC0694C: Vaccin anti-covid 19 à vecteur non réplicatif, vaccine Ankara 
+      modifiée codant la protéine de pointe du SARS-CoV-2
+    VAC0695C: Vaccin anti-covid 19 à VLP, protéine de pointe recombinante. 
+      L'antigène RBD du SARS-Cov-2 est conjugué à l'antigène HBs du virus de 
+      l'hépatite B
+    VAC0696C: Vaccin anti-covid 19 à virus entier inactivé (culture sur cellules
+      Vero)
+    VAC0697C: Vaccin anti-covid 19 à vecteur viral réplicatif, virus de la 
+      stomatite vésiculaire codant la protéine de pointe du SARS-CoV-2
+    VAC0698C: Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus 5 
+      codant les protéines S et N du SARS-CoV-2
+    VAC0699C: Vaccin anti-covid 19 à vecteur viral réplicatif, virus de la 
+      stomatite vésiculaire codant la protéine de pointe du SARS-CoV-2
+    VAC0701C: Vaccin anti-covid 19 à ADN plasmidique, codant la protéine de 
+      pointe du SARS-CoV-2 véhiculée par Bifidobacterium longum, par voie orale
+    VAC0702C: Vaccin anti-covid 19 à sous-unité protéique, conjuguée à 
+      l'anatoxine tétanique
+    VAC0703C: Vaccin anti-covid 19 à sous-unité protéique, avec adjuvant
+    VAC0705C: Vaccin contre la grippe saisonnière inactivé quadrivalent, à 
+      antigène de surface
+    VAC0706C: Vaccin contre la grippe saisonnière inactivé quadrivalent, à 
+      antigène de surface
+    VAC0707C: Vaccin anti-covid 19 à virus entier inactivé (culture sur cellules
+      Vero)
+    VAC0708C: Vaccin anti-covid 19 à ADN plasmidique, à protéine S avec ou sans 
+      la combinaison du plasmide IL-12p70
+    VAC0709C: Vaccin anti-covid 19 vivant atténué
+    VAC0710C: Vaccin anti-covid 19 à ARNm, nom commercial initial, dosage adulte
+      30 microgrammes
+    VAC0714C: "Vaccin entier inactivé cultivé sur cellules Vero, adjuvé avec CpG 1018
+      (cytosine phospho-guanine) en combinaison avec de l'hydroxyde d'aluminium -
+      Autre nom : Valneva VLA2001"
+    VAC0715C: Vaccin anti-covid 19 à virus entier inactivé
+    VAC0716C: Vaccin anti-covid 19 à sous-unité protéique
+    VAC0717C: Vaccin anti-covid 19 à sous-unité protéique (RBD + antigène de 
+      nucléocapside du virus de l'hépatite B)
+    VAC0718C: Vaccin anti-covid 19 à sous-unité protéique (RBD + antigène de 
+      nucléocapside du virus de l'hépatite B)
+    VAC0719C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe 
+      recombinante, avec adjuvant sans précision
+    VAC0720C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe 
+      recombinante, exprimée par baculovirus
+    VAC0721C: Vaccin anti-covid 19 à sous-unité protéique, adjuvé ou non par 
+      aluminium
+    VAC0722C: Vaccin anti-covid 19 à ADN plasmidique, codant la protéine de la 
+      nucléocapside
+    VAC0723C: Vaccin anti-covid 19 à ADN plasmidique
+    VAC0724C: Vaccin anti-covid 19 à ARNm codant la protéine de pointe du 
+      SARS-CoV-2, en cours d'essai clinique (encapsulé dans une nanoparticule 
+      lipidique)
+    VAC0725C: Vaccin anti-covid 19 à vecteur non réplicatif, vaccine Ankara 
+      modifiée codant la protéine de pointe du SARS-CoV-2, contenant des 
+      fragments d'ADN codant pour la protéine spike et la nucleocapsid du 
+      SARS-CoV-2
+    VAC0726C: Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus 
+      codant la protéine de pointe du SARS-CoV-2
+    VAC0727C: Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus 
+      5/35 codant la protéine de pointe du SARS-CoV-2
+    VAC0728C: Vaccin anti-covid-19 préparé en appliquant une modification du 
+      lentivirus avec des gènes d'immunomodulation et les minigènes viraux aux 
+      cellules présentatrices d'antigènes artificielles (aAPCs)
+    VAC0729C: Vaccin anti-covid 19 à vecteur viral non replicatif avec cellules 
+      présentant l'antigène. Cellules dendritiques modifiées par un lentivirus 
+      exprimant un minigène synthétique basé sur des extraits de protéines 
+      virales du SARS-CoV-2. Ce vaccin est aussi administré avec des lymphocytes
+      T recombinants spécifiques aux antigènes du SARS-CoV-2
+    VAC0730C: Cellules dendritiques autologues incubées en présence de protéine 
+      S(spike) du SARS-CoV-2 avec ou sans GM-CSF
+    VAC0731C: Vaccin diphtérique (anatoxine, dose réduite) et tétanique 
+      (anatoxine), dose adulte
+    VAC0732C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe 
+      recombinante, avec adjuvant (squalène)
+    VAC0733C: Vaccin recombinant contre l'hépatite B, dose adulte
+    VAC0734C: Vaccin diphtérique (anatoxine, dose réduite), tétanique 
+      (anatoxine), coquelucheux (acellulaire multicomposé, 5 composants, dose 
+      réduite) et poliomyélitique (entier inactivé, trivalent), adsorbé
+    VAC0735C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard) et poliomyélitique (entier inactivé, trivalent)
+    VAC0736C: Vaccin diphtérique (anatoxine, dose réduite), tétanique 
+      (anatoxine), coquelucheux (acellulaire multicomposé, 5 composants, dose 
+      réduite) et poliomyélitique (entier inactivé, trivalent), adsorbé
+    VAC0737C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe 
+      recombinante, avec adjuvant (AS03)
+    VAC0739C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe 
+      recombinante, avec adjuvant sans précision
+    VAC0740C: Vaccin anti-covid 19 à ARNm codant la protéine de pointe du 
+      SARS-CoV-2, en cours d'essai clinique
+    VAC0741C: Vaccin anti-covid 19 à ADN plasmidique, codant la protéine de 
+      pointe du SARS-CoV-2
+    VAC0742C: Vaccin anti-covid 19 à ADN plasmidique
+    VAC0743C: Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus 
+      codant la protéine de pointe du SARS-CoV-2
+    VAC0744C: Vaccin anti-covid 19 à virus entier inactivé (culture sur cellules
+      Vero)
+    VAC0745C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe 
+      recombinante, avec adjuvant (squalène)
+    VAC0752C: Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus de
+      chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2
+    VAC0753C: Vaccin anti-covid 19 à virus entier inactivé
+    VAC0754C: Vaccin anti-covid 19 à virus entier inactivé, adjuvé (adjuvant non
+      précisé)
+    VAC0755C: "Vaccin anti-covid 19 à virus entier inactivé, adjuvé (adjuvant : hydroxyde
+      d'aluminium + agoniste du TLR9 (CpG ODN)"
+    VAC0756C: Vaccin anti-covid 19 vivant atténué, exprimant la protéine de 
+      pointe du SARS-CoV-2
+    VAC0757C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe 
+      recombinante, avec adjuvant (hydroxyde d'aluminium)
+    VAC0758C: 'Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante,
+      avec adjuvant (AFKQ : liposomal contenant de la saponine QS21)'
+    VAC0759C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe 
+      recombinante, avec adjuvant sans précision
+    VAC0761C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe 
+      recombinante, protéine de fusion
+    VAC0762C: Vaccin anti-covid 19 à ARNm auto-amplifiant (AAM) encapsulé dans 
+      une nanoparticule lipidique (NPL) et codant la protéine de pointe du 
+      SARS-CoV-2, en cours d'essai clinique
+    VAC0763C: Vaccin anti-covid 19 à ARNm codant la protéine de pointe du 
+      SARS-CoV-2 variant B.1.351, en cours d'essai clinique (encapsulé dans une 
+      nanoparticule lipidique)
+    VAC0764C: Vaccin anti-covid 19 à ARNm codant la protéine de pointe du 
+      SARS-CoV-2, en cours d'essai clinique
+    VAC0765C: Vaccin anti-covid 19 à ARNm codant la protéine de pointe du 
+      SARS-CoV-2, en cours d'essai clinique
+    VAC0766C: Vaccin anti-covid 19 à ARNm codant la protéine de pointe du 
+      SARS-CoV-2, en cours d'essai clinique (encapsulé dans une nanoparticule 
+      lipidique)
+    VAC0767C: |-
+      Vaccins anti-covid 19 à adénovirus de chimpanzé et à ARNm auto-amplifiant : 
+      1. A vecteur viral non réplicatif, adénovirus de chimpanzé, sérotype 68 (ChAdV68), codant la protéine de pointe du SARS-CoV-2 (ChAdV68-S) et/ou la protéine de pointe plus des épitopes supplémentaires du SARS-CoV-2 reconnus par les cellules T (ChAdV68-S-TCE) et 2. A ARNm auto-amplifiant (SAM) dans des nanoparticules lipidiques (SAM-LNP) codant la protéine de pointe du SARS-CoV-2 (SAM-S) et/ou la protéine de pointe plus des épitopes supplémentaires du SARS-CoV-2 reconnus par les cellules T (SAM-S-TCE), vecteur SAM basé sur le virus de l'encéphalite équine du Venezuela (VEEV)
+    VAC0768C: Vaccin anti-covid 19 à vecteur non réplicatif, virus de la maladie
+      de Newcastle codant la protéine de pointe du SARS-CoV-2, avec ou sans 
+      adjuvant CpG 1018
+    VAC0769C: Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus 6 
+      codant la protéine de pointe du SARS-CoV-2
+    VAC0770C: Vaccin anti-covid 19 à vecteur viral réplicatif, virus de la 
+      maladie de Newcastle codant la protéine de pointe du SARS-CoV-2, avec ou 
+      sans adjuvant CpG 1018
+    VAC0771C: Vaccin anti-covid 19 à VLP, protéine de pointe recombinante, avec 
+      adjuvant (phosphate d'aluminium)
+    VAC0772C: Vaccin anti-covid 19 à VLP, protéine de pointe recombinante, sans 
+      précision sur la protéine exprimée du SARS-CoV-2, avec adjuvants 
+      (aluminium de type non précisé + CpGODN-K3, un agoniste des récepteurs de 
+      type TLR9)
+    VAC0773C: Vaccin anti-covid 19 à VLP, protéine de pointe recombinante, avec 
+      ou sans adjuvant MF56 (squalène)
+    VAC0774C: Vaccin entier inactivé contre l'encéphalite à tiques, souche 
+      Neudörfl, dose pédiatrique
+    VAC0776C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard) et poliomyélitique (entier inactivé, trivalent)
+    VAC0777C: Vaccin contre la grippe A(H5N1) (virion fragmenté, inactivé, avec 
+      adjuvant)
+    VAC0778C: Vaccin cholérique vivant atténué (souche atténuée CVD 103-HgR de 
+      V. cholerae produite par une technologie d’ADN recombiné)
+    VAC0779C: Vaccin contre la grippe saisonnière inactivé trivalent, à antigène
+      de surface
+    VAC0780C: Vaccin pneumococcique polyosidique conjugué, 15-valent, adsorbé, 
+      sérotypes 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F et 33F
+    VAC0781C: Vaccin rabique entier inactivé, cultivé sur cellules d’embryon de 
+      poulet (PCEC), inactivation par la ß-propiolactone
+    VAC0782C: Vaccin rabique entier inactivé, cultivé sur cellules d’embryon de 
+      poulet (PCEC), inactivation par la ß-propiolactone
+    VAC0783C: Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus de
+      chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2
+    VAC0784C: Vaccin coquelucheux (acellulaire multicomposé, dose réduite)
+    VAC0785C: Vaccin diphtérique (anatoxine, dose réduite), tétanique 
+      (anatoxine) et coquelucheux (acellulaire multicomposé, dose réduite)
+    VAC0786C: Vaccin pneumococcique polyosidique conjugué, 20-valent, adsorbé, 
+      sérotypes 1, 3, 4, 5, 6A, 6B, 7F, 8, 9V, 10A, 11A, 12F, 14, 15B, 18C, 19A,
+      19F, 22F, 23F et 33F
+    VAC0789C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier inactivé) et de l’hépatite B 
+      (recombinant), adsorbé
+    VAC0793C: Vaccin diphtérique (anatoxine, dose réduite) et tétanique 
+      (anatoxine)
+    VAC0803C: Vaccin poliomyélitique (vivant atténué, bivalent) contre les 
+      poliovirus 1 et 3, par voie orale
+    VAC0816C: Vaccin typhoïdique, antigène Vi conjugué à l'anatoxine tétanique
+    VAC0826C: Vaccin vivant atténué contre la rougeole et la rubéole
+    VAC0833C: Vaccin à ARNm contre la covid 19, 10 microgrammes, dose 
+      pédiatrique 5-11 ans
+    VAC0835C: Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus de
+      chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2
+    VAC0836C: Vaccin contre la grippe saisonnière inactivé quadrivalent, à 
+      antigène de surface
+    VAC0837C: 'Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante
+      dans des nanoparticules, avec adjuvant (Matrix M). Autre nom : NOVAVAX NVX-CoV2373
+      COVID-19 Vaccine'
+    VAC0838C: 'Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante
+      dans des nanoparticules, avec adjuvant (Matrix M). Autre nom : NOVAVAX NVX-CoV2373
+      COVID-19 Vaccine'
+    VAC0840C: Vaccin contre la grippe saisonnière inactivé trivalent, à antigène
+      de surface
+    VAC0841C: Vaccin contre la grippe saisonnière inactivé trivalent, à antigène
+      de surface, dose pédiatrique
+    VAC0842C: Vaccin rabique entier inactivé, souche virale Wistar PM1503-3M, 
+      cultivé sur cellules Vero, inactivé par la bêta-propiolactone
+    VAC0843C: Vaccin rabique entier inactivé, souche WISTAR PM/WI 38-1503-3M, 
+      cultivé sur cellules Vero, inactivé par la bêta-propiolactone
+    VAC0844C: Vaccin rabique entier inactivé, souche WISTAR PM/WI 38-1503-3M, 
+      cultivé sur cellules Vero, inactivé par la bêta-propiolactone
+    VAC0845C: Vaccin poliomyélitique (entier inactivé, trivalent), par voie 
+      orale
+    VAC0846C: Vaccin poliomyélitique (vivant atténué, bivalent) contre les 
+      poliovirus 1 et 3, par voie orale
+    VAC0847C: Vaccin pneumococcique polyosidique non conjugué, 15-valent, 
+      sérotypes 1, 2, 3, 4, 6B, 7F, 8, 9N, 11A, 12F, 14, 15F, 18C, 19F et 23F
+    VAC0848C: Vaccin contre la tuberculose (vivant atténué)
+    VAC0850C: Vaccin méningococcique polyosidique conjugué à l'anatoxine 
+      tétanique contre le sérogroupe C
+    VAC0851C: Vaccin poliomyélitique (vivant atténué, monovalent) contre les 
+      poliovirus 2, par voie orale
+    VAC0868C: Vaccin polyosidique non conjugué contre les méningocoques du 
+      sérogroupe A
+    VAC0869C: Vaccin polyosidique non conjugué contre les méningocoques du 
+      sérogroupe C
+    VAC0870C: Vaccin typhoïdique, antigène Vi conjugué à l'anatoxine tétanique
+    VAC0871C: Vaccin contre la grippe saisonnière inactivé quadrivalent, produit
+      sur culture cellulaire
+    VAC0872C: Vaccin contre la grippe saisonnière inactivé trivalent, cultivé 
+      sur oeuf, à antigène de surface
+    VAC0873C: Vaccin contre la grippe saisonnière inactivé trivalent, cultivé 
+      sur oeuf, à antigène de surface, avec adjuvant MF59C.1
+    VAC0874C: Vaccin contre la grippe saisonnière inactivé trivalent, cultivé 
+      sur oeuf, à antigène de surface, avec adjuvant MF59C.2
+    VAC0875C: Vaccin pré-pandémique contre la grippe A(H5N1) (vivant atténué), 
+      par voie nasale
+    VAC0876C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard), anti-Haemophilus influenzae type b (conjugué à l'anatoxine 
+      tétanique) et poliomyélitique (entier inactivé, trivalent), adsorbé
+    VAC0877C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard) et de l’hépatite B (recombinant)
+    VAC0878C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC0879C: Vaccin coquelucheux (acellulaire multicomposé, 3 composants, dose 
+      standard)
+    VAC0882C: Vaccin vivant atténué contre la fièvre hémorragique d'Argentine, 
+      virus Junin
+    VAC0883C: Vaccin typhoïdique entier inactivé, par voie orale
+    VAC0884C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, 3 
+      composants, dose standard)
+    VAC0885C: Vaccin contre la grippe saisonnière inactivé trivalent, cultivé 
+      sur oeuf, à antigène de surface
+    VAC0886C: Vaccin poliomyélitique (vivant atténué, monovalent) contre les 
+      poliovirus 1, par voie orale
+    VAC0887C: Vaccin poliomyélitique (vivant atténué, trivalent) contre les 
+      poliovirus 1, 2 et 3, par voie orale
+    VAC0888C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus 
+      influenzae type b (conjugué à l'anatoxine diphtérique) et de l’hépatite B 
+      (recombinant)
+    VAC0889C: Vaccin poliomyélitique (vivant atténué, monovalent) contre les 
+      poliovirus 3, par voie orale
+    VAC0890C: Vaccin typhoïdique vivant atténué, souche de Salmonella Typhi 
+      Ty21a, par voie orale
+    VAC0891C: Vaccin pneumococcique polyosidique non conjugué, 23-valent, 
+      sérotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 
+      18C, 19F, 19A, 20, 22F, 23F et 33F
+    VAC0892C: Vaccin poliomyélitique (entier inactivé, trivalent)
+    VAC0900C: 'Vaccin pneumococcique polyosidique conjugué, 20-valent, adsorbé, sérotypes
+      1, 3, 4, 5, 6A, 6B, 7F, 8, 9V, 10A, 11A, 12F, 14, 15B, 18C, 19A, 19F, 22F, 23F
+      et 33F - Nouveau nom depuis le 12/03/2024 (auparavant : APEXXNAR)'
+    VAC0901C: Vaccin polyosidique non conjugué contre les méningocoques des 
+      sérogroupes A, C et W
+    VAC0913C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe 
+      recombinante, hétérodimère de fusion RBD, avec adjuvant
+    VAC0924C: Vaccin contre la grippe saisonnière inactivé trivalent, haute 
+      dose, intradermal
+    VAC0926C: Vaccin contre la grippe saisonnière inactivé trivalent, produit 
+      sur culture cellulaire
+    VAC0930C: Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus de
+      type 5, pour inhalation
+    VAC0931C: Vaccin contre la grippe saisonnière recombinant quadrivalent
+    VAC0933C: Vaccin entier inactivé contre l'encéphalite à tiques, souche 
+      Neudörfl, dose adulte
+    VAC0934C: Vaccin vivant atténué contre les oreillons
+    VAC0935C: Vaccin rabique entier inactivé, souche WISTAR PM/WI 38-1503-3M, 
+      cultivé sur cellules Vero, inactivé par la bêta-propiolactone
+    VAC0936C: Vaccin pneumococcique polyosidique non conjugué, 23-valent, 
+      sérotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 
+      18C, 19A, 19F, 20, 22F, 23F et 33F
+    VAC0939C: Vaccin recombinant contre l'hépatite B, trois antigènes (HbS, 
+      pré-S1 et pré-S2)
+    VAC0940C: Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus 
+      codant la protéine de pointe du SARS-CoV-2
+    VAC0946C: Vaccin typhoïdique et paratyphoïdique A et B, entier inactivé
+    VAC0947C: Vaccin anti-Haemophilus influenzae type b, polyoside capsulaire 
+      (phosphate de polyribosylribitol, PRP) conjugué à la protéine de membrane 
+      externe de Neisseria meningitidis sérogroupe B
+    VAC0948C: Vaccin acellulaire contre le charbon, 50 microgrammes par dose de 
+      0,5 mL, avec adjuvant
+    VAC0949C: Vaccin contre la tuberculose (vivant atténué)
+    VAC0950C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et poliomyélitique (entier inactivé, trivalent)
+    VAC0951C: Vaccin poliomyélitique (vivant atténué, trivalent) contre les 
+      poliovirus 1, 2 et 3, voie orale
+    VAC0952C: Vaccin cholérique entier inactivé, injectable
+    VAC0953C: Vaccin contre l'hépatite B et anti-Haemophilus influenzae type b, 
+      polyoside capsulaire (phosphate de polyribosylribitol, PRP) conjugué à la 
+      protéine de membrane externe de Neisseria meningitidis sérogroupe B
+    VAC0954C: Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur
+      tissu cérébral murin, souche Nakayama, voie injectable, vaccin de la 
+      Korean Green Cross Corporation
+    VAC0955C: Vaccin pneumococcique polyosidique non conjugué, 23-valent, 
+      sérotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 
+      18C, 19A, 19F, 20, 22F, 23F et 33F
+    VAC0956C: Vaccin cholérique entier inactivé, injectable
+    VAC0957C: Vaccin contre la tuberculose (vivant atténué)
+    VAC0958C: Vaccin contre la grippe saisonnière inactivé trivalent, cultivé 
+      sur oeuf, à antigène de surface
+    VAC0959C: Vaccin pneumococcique polyosidique non conjugué, 23-valent, 
+      sérotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 
+      18C, 19F, 19A, 20, 22F, 23F et 33F
+    VAC0960C: Vaccin typhoïdique (non conjugué, antigène polyosidique Vi 
+      purifié) combiné au vaccin contre l'hépatite A (entier inactivé)
+    VAC0961C: Vaccin tétanique (anatoxine)
+    VAC0962C: Vaccin diphtérique (anatoxine, dose réduite) et tétanique 
+      (anatoxine)
+    VAC0963C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC0964C: Vaccin diphtérique (anatoxine, dose réduite)
+    VAC0965C: Vaccin tétanique (anatoxine), typhoïdique (entier inactivé) et 
+      paratyphoïdique A et B (entier inactivé)
+    VAC0966C: Vaccin contre la variole de troisième génération, virus modifié de
+      la vaccine d'Ankara, non réplicatif
+    VAC0967C: Vaccin entier inactivé contre l'hépatite A, virosomal, dose 
+      pédiatrique ou adulte
+    VAC0968C: Vaccin contre la grippe saisonnière inactivé trivalent, à virosome
+    VAC0969C: Vaccin rabique entier inactivé, préparé sur culture de cellules 
+      Vero,  inactivé par la bêta-propiolactone
+    VAC0970C: Vaccin tétanique (anatoxine)
+    VAC0971C: Vaccin contre la variole de première génération, virus vivant de 
+      la vaccine
+    VAC0972C: Vaccin contre la grippe saisonnière inactivé trivalent, à antigène
+      de surface
+    VAC0973C: Vaccin contre la grippe saisonnière inactivé trivalent, à virosome
+    VAC0974C: Vaccin polyosidique non conjugué contre les méningocoques des 
+      sérogroupes A et C
+    VAC0975C: Vaccin coquelucheux (acellulaire multicomposé, dose standard, 3 
+      composants)
+    VAC0977C: Vaccin typhoïdique entier inactivé, voie orale
+    VAC0978C: Vaccin diphtérique (anatoxine, dose non précisée) et tétanique 
+      (anatoxine)
+    VAC0979C: Vaccin tétanique (anatoxine)
+    VAC0980C: Vaccin diphtérique (anatoxine, dose non précisée), tétanique 
+      (anatoxine) et coquelucheux (acellulaire, dose non précisée)
+    VAC0983C: Vaccin poliomyélitique (entier inactivé, trivalent)
+    VAC0984C: Vaccin contre la variole de première génération, virus vivant de 
+      la vaccine
+    VAC0985C: Vaccin tétanique (anatoxine), typhoïdique (entier inactivé) et 
+      paratyphoïdique A et B (entier inactivé)
+    VAC0986C: Vaccin tétanique (anatoxine)
+    VAC0987C: Vaccin tétanique (anatoxine)
+    VAC0988C: Vaccin polyosidique non conjugué contre les méningocoques des 
+      sérogroupes A, C, W et Y
+    VAC0989C: Vaccin entier inactivé contre les fièvres hémorragiques avec 
+      syndrome rénal (FHSR) causées par un hantavirus, sans précision
+    VAC0990C: Vaccin contre la grippe saisonnière inactivé trivalent, à 
+      antigènes purifiés
+    VAC0991C: Vaccin contre la grippe saisonnière inactivé quadrivalent, à 
+      antigène de surface
+    VAC0992C: Vaccin contre la grippe saisonnière inactivé quadrivalent, à 
+      antigène de surface
+    VAC0993C: Vaccin diphtérique (anatoxine, dose réduite) et tétanique 
+      (anatoxine)
+    VAC0994C: Vaccin vivant atténué contre la varicelle
+    VAC0995C: Vaccin contre la variole de troisième génération, virus modifié de
+      la vaccine d'Ankara, non réplicatif
+    VAC0996C: Vaccin contre la variole de seconde génération, virus de la 
+      vaccine obtenu par culture cellulaire
+    VAC0998C: Vaccin contre la variole de troisième génération, obtenu sur 
+      culture cellulaire, virus de la vaccine vivant à réplication minimale
+    VAC0999C: Vaccin contre la variole de première génération, virus vivant de 
+      la vaccine
+    VAC1000C: Vaccin contre la variole de première génération, virus vivant de 
+      la vaccine
+    VAC1001C: Vaccin vivant atténué à ADN contre le virus de l'encéphalite 
+      équine vénézuélienne
+    VAC1002C: Vaccin inactivé contre la fièvre Q
+    VAC1003C: Vaccin diphtérique (anatoxine, dose réduite) et tétanique 
+      (anatoxine)
+    VAC1004C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine), dose pédiatrique
+    VAC1005C: Vaccin recombinant contre l'hépatite B, dose adulte
+    VAC1006C: Vaccin recombinant contre l'hépatite B, 20 µg d'antigène HBs, dose
+      pédiatrique et adulte
+    VAC1007C: Vaccin contre la grippe saisonnière inactivé quadrivalent, à 
+      virion fragmenté
+    VAC1008C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC1009C: Vaccin tétanique (anatoxine)
+    VAC1010C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC1011C: Vaccin diphtérique (anatoxine, dose réduite), tétanique 
+      (anatoxine) et coquelucheux (acellulaire, toxine pertussique, dose 
+      réduite)
+    VAC1012C: Vaccin poliomyélitique (entier inactivé, trivalent)
+    VAC1013C: Vaccin contre la grippe saisonnière recombinant trivalent
+    VAC1014C: Vaccin vivant atténué contre la varicelle
+    VAC1015C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC1016C: Vaccin contre la grippe saisonnière inactivé trivalent, à 
+      antigènes de surface
+    VAC1018C: Vaccin recombinant à protéine RBD contre le SARS-CoV-2 (vaccin 
+      Noora)
+    VAC1019C: Vaccin anti-covid 19 à ARNm, virus originel, dosage à 50 
+      microgrammes
+    VAC1020C: Vaccin entier inactivé contre l'hépatite A, dose adulte
+    VAC1021C: Vaccin à ARNm bivalent contre la covid 19, virus originel + 
+      variant Omicron BA.1, 15 microgrammes chacun
+    VAC1022C: Vaccin à ARNm contre la covid 19, usage pédiatrique (6 mois à 4 
+      ans), 3 microgrammes
+    VAC1023C: Vaccin à ARNm bivalent contre la covid 19, virus originel + 
+      variant Omicron BA.4/5, 15 microgrammes chacun
+    VAC1024C: Vaccin à ARNm bivalent contre la covid 19, virus originel + 
+      variant Omicron BA.4/5, 50 microgrammes chacun
+    VAC1025C: 'Vaccin protéique sous-unitaire contre la covid 19 ; autre nom : BECOV2A'
+    VAC1026C: Vaccin sous-unitaire à protéine recombinante (domaine RBD conjugué
+      à l'anatoxine tétanique + adjuvant)
+    VAC1027C: 'Vaccin entier inactivé contre la covid 19 ; autre nom : Kovivac'
+    VAC1028C: Vaccin recombinant contre l'hépatite B, dose pour patient dialysé
+    VAC1029C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier intactivé), anti-Haemophilus 
+      influenzae type b (conjugué à l'anatoxine tétanique) et de l'hépatite B 
+      (recombinant)
+    VAC1030C: Vaccin anti-covid 19 à ARNm codant la protéine de pointe du 
+      SARS-CoV-2, en cours d'essai clinique
+    VAC1031C: Vaccin anti-covid 19 à ARNm, virus originel, dosage à 50 
+      microgrammes, seringue pré-remplie
+    VAC1033C: Vaccin à ARNm bivalent contre la covid 19, virus originel + 
+      variant Omicron BA.4/5, 5 microgrammes chacun, dose pédiatrique 5-11 ans
+    VAC1034C: Vaccin recombinant contre l'hépatite B, dose pédiatrique
+    VAC1035C: Vaccin recombinant contre l'hépatite B, dose adulte
+    VAC1036C: Vaccin à ARNm bivalent contre la covid 19, virus originel + 
+      variant Omicron BA.4/5, 25 microgrammes chacun
+    VAC1040C: Vaccin contre le virus respiratoire syncytial (VRS), recombinant, 
+      antigène RSVPreF3 dérivé de la protéine F, avec adjuvant
+    VAC1045C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, 3 
+      composants, dose standard), anti-Haemophilus influenzae type b (conjugué à
+      l'anatoxine tétanique) et poliomyélitique (entier inactivé, trivalent), 
+      adsorbé
+    VAC1046C: Anticorps monoclonal humain contre le virus respiratoire syncytial
+      (VRS)
+    VAC1047C: Vaccin contre le virus respiratoire syncytial (VRS), recombinant, 
+      glycoprotéines F (préfusion), bivalent (sous-types A et B du VRS), sans 
+      adjuvant
+    VAC1048C: Vaccin diphtérique (anatoxine, dose réduite) et tétanique 
+      (anatoxine)
+    VAC1049C: Vaccin diphtérique (anatoxine, dose réduite) et tétanique 
+      (anatoxine)
+    VAC1050C: Anticorps monoclonal humain contre le virus respiratoire syncytial
+      (VRS)
+    VAC1051C: Vaccin à ARNm contre la covid 19, subvariant Omicron XBB.1.5, 30 
+      microgrammes, dose adulte (+ 12 ans)
+    VAC1052C: Vaccin à ARNm contre la covid 19, subvariant Omicron XBB.1.5, 10 
+      microgrammes, dose pédiatrique (5-11 ans)
+    VAC1053C: Vaccin à ARNm contre la covid 19, subvariant Omicron XBB.1.5, 3 
+      microgrammes, dose pédiatrique (6 mois-4 ans)
+    VAC1054C: Vaccin à ARNm contre la covid 19, virus originel + variant Omicron
+      BA.4/5, 1,5 microgrammes chacun, dose pédiatrique (6 MOIS-4 ANS)
+    VAC1055C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe 
+      recombinante dans des nanoparticules, avec adjuvant (Matrix M), 
+      sous-variant Omicron XBB.1.5
+    VAC1056C: Vaccin contre le paludisme pré-érythrocytaire
+    VAC1057C: Vaccin recombinant contre l'hépatite B, dose pédiatrique
+    VAC1058C: Vaccin à ARNm contre la covid 19 , subvariant Omicron XBB.1.5, 50 
+      microgrammes par dose, flacon multidose
+    VAC1059C: Vaccin à ARNm contre la covid 19, subvariant Omicron XBB.1.5, 25 
+      microgrammes par dose, flacon multidose
+    VAC1060C: Vaccin anti-covid 19 à ARNm, subvariant Omicron XBB.1.5, dosage à 
+      50 microgrammes
+    VAC1061C: Vaccin méningococcique contre les sérogroupes A, C, W et Y 
+      (polyosidique conjugué à l'anatoxine tétanique), et contre le sérogroupe B
+      (recombinant)
+    VAC1070C: Vaccin quadrivalent inactivé contre l’influenza, fractionné ou 
+      sous-unité, haute dose
+    VAC1074C: Vaccin acellulaire contre le charbon adsorbé, avec adjuvant
+    VAC1076C: Vaccin pour la prévention des infections urinaires chez la femme
+    VAC1077C: Vaccin contre l'entérovirus A71, particules de virus purifié et 
+      inactivé
+    VAC1078C: Vaccin entier inactivé contre l'entérovirus A71
+    VAC1079C: Vaccin trivalent contre la leptospirose causée par Canicola 
+      serovar canicola, Icterohaemorrhagiae serovar copenhageni et Pomona 
+      serovar mozdok
+    VAC1080C: Vaccin à virion entier et inactivé contre le coronavirus 
+      (SRAS-CoV-2)
+    VAC1081C: Immunoglobuline humaine contre certains virus (hépatite A, 
+      rougeole, varicelle et rubéole)
+    VAC1082C: Immunoglobuline humaine contre l'hépatite B
+    VAC1083C: Immunoglobuline humaine antirabique
+    VAC1084C: Immunoglobuline antitétanique humaine traitée au solvant/détergent
+      250 unités
+    VAC1085C: Vaccin vivant atténué contre la tuberculose
+    VAC1086C: Vaccin pneumococcique polyosidique conjugué, 23-valent, sérotypes 
+      1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 
+      19F, 20, 22F, 23F et 33F
+    VAC1087C: Immunoglobuline humaine antitétanique, traitement post-exposition
+    VAC1088C: Immunoglobuline humaine antirabique, traitement post-exposition
+    VAC1089C: Immunoglobuline humaine anti-hépatite B, traitement 
+      post-exposition
+    VAC1090C: Vaccin contre les méningocoques du sérogroupe B (à protéines de 
+      vésicules de membrane externe)
+    VAC1091C: Immunoglobuline humaine contre la virus de la varicelle (VZV)
+    VAC1092C: Immunoglobuline humaine antirabique 150 UI/ml
+    VAC1093C: Immunoglobuline humaine anti-hépatique B injectable
+    VAC1094C: Vaccin oral à virus vivant contre le choléra
+    VAC1095C: Vaccin expérimental contre la tuberculose
+    VAC1096C: Vaccin cholérique entier inactivé, voie orale
+    VAC1097C: Immunoglobuline intraveineuse humaine anti-CMV
+    VAC1098C: Vaccin trivalent inactivé antigrippal
+    VAC1099C: Immunoglobuline humaine intraveineuse contre le botulisme 
+      infantile de type A et B
+    VAC1100C: Antitoxine botulique équine de type A, B et E
+    VAC1101C: Vaccin antigrippal inactivé avec adjuvant MF59
+    VAC1102C: Vaccin anti-Haemophilus influenzae type b, polyosidique non 
+      conjugué
+    VAC1103C: Vaccin anti-Haemophilus influenzae type b, polyosidique non 
+      conjugué
+    VAC1104C: Immunoglobuline anti-toxine diphtérique d'origine équine
+    VAC1105C: Antitoxine heptavalente, d'origine équine, contre le botulisme de 
+      type A, B, C, E, F et G
+    VAC1246C: Vaccin combiné Grippe/Covid 19 à ARNm, en essai clinique
+    VAC1251C: Vaccin cholérique, oral, bivalent constitué de cellules entières 
+      tuées de Vibrio cholerae O1 (classique et El Tor) et O139
+    VAC1252C: Vaccin vivant atténué contre l'encéphalite japonaise, recombinant 
+      chimérique
+    VAC1253C: Vaccin vivant atténué contre l'encéphalite japonaise, recombinant 
+      chimérique
+    VAC1254C: Vaccin pneumococcique polyosidique conjugué, 21-valent, adsorbé, 
+      sérotypes 3, 6A, 7F, 8, 9N, 10A, 11A, 12F, 15A, 15B, 15C, 16F, 17F, 19A, 
+      20A, 22F, 23A, 23B, 24F, 31, 33F, 35B
+    VAC1255C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus 
+      influenzae type b (conjugué à l'anatoxine tétanique), poliomyélitique 
+      (entier inactivé, trivalent) et de l’hépatite B (recombinant), adsorbé
+    VAC1262C: ARNm simple brin coiffé en 5' codant la glycoprotéine F du virus 
+      respiratoire syncytial stabilisé dans la conformation de préfusion
+    VAC1265C: Vaccin diphtérique (anatoxine, dose réduite) et tétanique 
+      (anatoxine)
+    VAC1268C: Vaccin anti-covid 19 à ARNm, subvariant Omicron JN.1, dosage à 50 
+      microgrammes
+    VAC1269C: Vaccin à ARNm contre la covid 19, subvariant Omicron JN.1, 25 
+      microgrammes par dose, flacon multidose
+    VAC1270C: Vaccin à ARNm contre la covid 19 , subvariant Omicron JN.1, 50 
+      microgrammes par dose, flacon multidose
+    VAC1272C: Vaccin polyvalent contre la bactérie Pseudomonas aeruginosa
+    VAC1273C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine), suspension adsorbée pour injection
+    VAC1274C: Vaccin diphtérique (anatoxine, dose réduite)
+    VAC1275C: Vaccin pédiatrique diphtérique (anatoxine, dose standard)
+    VAC1276C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC1278C: Vaccin bivalent recombinant contre le papillomavirus humain (types
+      16 et 18) (Pichia pastoris)
+    VAC1281C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier, dose standard), hépatite B et
+      anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique)
+    VAC1282C: Vaccin contre la grippe saisonnière trivalent inactivé, à antigène
+      de surface
+    VAC1283C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe 
+      recombinante, voie intramusculaire
+    VAC1284C: Vaccin contre les papillomavirus humains à base de VLP (Virus Like
+      Particles ou pseudo particules virales), quadrivalent (types 6, 11, 16 et 
+      18), recombinant, adsorbé
+    VAC1285C: Vaccin poliomyélitique (vivant atténué, monovalent) contre les 
+      poliovirus 2, par voie orale
+    VAC1286C: Vaccin anti-COVID-19 à sous-unité protéique, protéine de pointe 
+      recombinante (domaine RBD), administré par voie intramusculaire.
+    VAC1287C: Vaccin hépatite B, antigène de surface recombinante du virus de 
+      l'hépatite B (Ag HBs), sans précision
+    VAC1288C: Vaccin poliomyélitique (entier inactivé, trivalent)
+    VAC1289C: Vaccin poliomyélitique (vivant atténué, bivalent) contre les 
+      poliovirus 1 et 3, par voie orale
+    VAC1290C: Vaccin poliomyélitique (vivant atténué, monovalent) contre les 
+      poliovirus 1, par voie orale
+    VAC1291C: Vaccin poliomyélitique (vivant atténué, monovalent) contre les 
+      poliovirus 2, par voie orale
+    VAC1292C: Vaccin typhoïdique, antigène Vi conjugué à l’anatoxine tétanique
+    VAC1293C: Vaccin vivant atténué contre la tuberculose
+    VAC1294C: Vaccin diphtérique (anatoxine, dose réduite) et tétanique 
+      (anatoxine)
+    VAC1295C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC1296C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC1297C: Vaccin tétanique (anatoxine)
+    VAC1298C: Vaccin tétanique (anatoxine)
+    VAC1299C: Vaccin recombinant contre l'hépatite B, dose pédiatrique
+    VAC1300C: Vaccin recombinant contre l'hépatite B, dose adulte
+    VAC1301C: Vaccin diphtérique (anatoxine, dose réduite) et tétanique 
+      (anatoxine)
+    VAC1302C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier, dose standard), hépatite B et
+      anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique)
+    VAC1303C: Vaccin contre la maladie de Lyme utilisant une protéine 
+      recombinante dérivée de l'OspA (Outer Surface Protein A) de six sérotypes 
+      de Borrelia burgdorferi
+    VAC1304C: Vaccin rabique entier inactivé, préparé sur culture de cellules 
+      Vero, inactivé par la bêta-propiolactone
+    VAC1305C: Vaccin vivant atténué contre la rougeole et la rubéole
+    VAC1307C: Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur
+      cellules Vero, 6 microgrammes
+    VAC1308C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC1309C: Vaccin poliomyélitique (vivant atténué, monovalent) contre les 
+      poliovirus 2, par voie orale
+    VAC1310C: Vaccin diphtérique (anatoxine, dose réduite) et tétanique 
+      (anatoxine)
+    VAC1312C: Vaccin tétanique (anatoxine)
+    VAC1313C: Vaccin vivant atténué contre la tuberculose
+    VAC1314C: Vaccin vivant atténué contre la rougeole
+    VAC1315C: Vaccin vivant atténué contre les oreillons
+    VAC1316C: Vaccin vivant atténué contre la rubéole
+    VAC1317C: Vaccin contre les papillomavirus humains à base de VLP (Virus Like
+      Particles ou pseudo particules virales), quadrivalent (types 6, 11, 16 et 
+      18), recombinant, adsorbé
+    VAC1318C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier inactivé) et de l’hépatite B 
+      (recombinant), adsorbé
+    VAC1319C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier inactivé) et anti-Haemophilus 
+      influenzae type b (conjugué à l'anatoxine diphtérique)
+    VAC1320C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier, dose standard), hépatite B et
+      anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique)
+    VAC1321C: Vaccin anti-Haemophilus influenzae type b, polyoside capsulaire 
+      (phosphate de polyribosylribitol, PRP) conjugué à l'anatoxine tétanique
+    VAC1322C: Vaccin pneumococcique polyosidique conjugué, 10-valent, séroptypes
+      1, 5, 6A, 6B, 7F, 9V, 14, 19A, 19F et 23F
+    VAC1323C: Vaccin méningococcique polyosidique conjugué quadrivalent contre 
+      les sérogroupes A, C, W, X et Y
+    VAC1324C: Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 
+      vivant atténué
+    VAC1325C: Vaccin recombinant contre l'hépatite B avec thiomersal, dose 
+      pédiatrique
+    VAC1326C: Vaccin recombinant contre l'hépatite B avec thiomersal, dose 
+      adulte
+    VAC1327C: Vaccin recombinant contre l'hépatite B sans thiomersal, dose 
+      adulte et pédiatrique
+    VAC1328C: Vaccin contre la tuberculose, vivant atténué
+    VAC1329C: Vaccin contre la grippe saisonnière inactivé trivalent, à virion 
+      fragmenté
+    VAC1330C: Vaccin contre la grippe saisonnière inactivé quadrivalent, à 
+      virion fragmenté
+    VAC1331C: Vaccin contre la grippe A(H5N1) (virion fragmenté)
+    VAC1335C: Vaccin contre la grippe A(H5N1) (virion fragmenté)
+    VAC1338C: Vaccin contre la grippe A(H5N1) (virion fragmenté, inactivé, avec 
+      adjuvant)
+    VAC1340C: Vaccin à ARNm bivalent contre la covid 19, virus originel + 
+      variant Omicron BA.1, 50 microgrammes par dose, flacon multidose
+    VAC1342C: Vaccin poliomyélitique (entier inactivé, trivalent)
+    VAC1343C: Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur
+      cellules Vero
+    VAC1344C: Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur
+      tissu cérébral murin, souche Nakayama, voie injectable
+    VAC1345C: Vaccin typhoïdique polyosidique non conjugué (antigène capsulaire 
+      Vi)
+    VAC1346C: Vaccin contre la grippe saisonnière inactivé quadrivalent, à 
+      virion fragmenté
+    VAC1347C: Vaccin contre la grippe saisonnière inactivé trivalent, à virion 
+      fragmenté, haute dose
+    VAC1348C: Vaccin tétanique (anatoxine)
+    VAC1349C: Vaccin typhoïdique entier inactivé
+    VAC1350C: Vaccin tétanique (anatoxine)
+    VAC1351C: Vaccin tétanique (anatoxine)
+    VAC1352C: Vaccin contre la grippe saisonnière inactivé quadrivalent, à 
+      virion fragmenté
+    VAC1353C: Vaccin contre la grippe saisonnière inactivé trivalent, à virion 
+      fragmenté
+    VAC1354C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier, dose standard), hépatite B et
+      anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique)
+    VAC1355C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier, dose standard), hépatite B et
+      anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique)
+    VAC1356C: Vaccin recombinant contre l'hépatite B, dose pédiatrique
+    VAC1357C: Vaccin poliomyélitique (entier inactivé, trivalent)
+    VAC1358C: Vaccin contre la grippe saisonnière inactivé quadrivalent, produit
+      sur culture cellulaire
+    VAC1359C: Vaccin contre la grippe saisonnière inactivé trivalent, produit 
+      sur culture cellulaire
+    VAC1360C: Vaccin recombinant contre l'hépatite B, dose pédiatrique
+    VAC1361C: Vaccin recombinant contre l'hépatite B, dose adulte
+    VAC1362C: Vaccin diphtérique (anatoxine, dose réduite) et tétanique 
+      (anatoxine)
+    VAC1363C: Vaccin recombinant contre l'hépatite B, dose pédiatrique
+    VAC1364C: Vaccin conjugué anti-Hemophilus influenzae de type b composé du 
+      PRP (polyribosylribitol phosphate) conjugué à l'anatoxine tétanique
+    VAC1365C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier, dose standard), hépatite B et
+      anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique)
+    VAC1367C: Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 
+      inactivé
+    VAC1368C: Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus de
+      chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2
+    VAC1369C: Vaccin rabique entier inactivé, préparé sur culture de cellules 
+      Vero,  inactivé par la bêta-propiolactone
+    VAC1370C: Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur
+      cellules Vero
+    VAC1371C: Vaccin recombinant contre l'hépatite B, dose pédiatrique
+    VAC1372C: Vaccin contre les rotavirus
+    VAC1373C: Vaccin contre les rotavirus
+    VAC1374C: Vaccin typhoïdique, antigène Vi conjugué à l'anatoxine tétanique
+    VAC1376C: Vaccin anti-covid 19 à ADN plasmidique
+    VAC1378C: Vaccin typhoïdique polyosidique non conjugué (antigène capsulaire 
+      Vi)
+    VAC1379C: Vaccin vivant atténué contre la rougeole, les oreillons et la 
+      rubéole
+    VAC1380C: Vaccin typhoïdique, antigène Vi conjugué à l'anatoxine tétanique
+    VAC1381C: Vaccin vivant atténué contre la rougeole et la rubéole
+    VAC1382C: Vaccin conjugué contre la typhoïde, antigène capsulaire 
+      polyosidique Vi lié à une protéine porteuse (toxine diphtérique)
+    VAC1384C: Vaccin vivant atténué contre la varicelle
+    VAC1385C: Vaccin contre la grippe saisonnière inactivé quadrivalent de la 
+      grippe, fractionnée ou sous-unité, sans précision
+    VAC1386C: Vaccin contre la grippe saisonnière inactivé, quadrivalent, dose 
+      pédiatrique
+    VAC1387C: Vaccin vivant atténué contre la fièvre jaune
+    VAC1388C: Vaccin poliomyélitique (vivant atténué, bivalent) contre les 
+      poliovirus 1 et 3, par voie orale
+    VAC1389C: Vaccin entier inactivé contre l'entérovirus A71
+    VAC1390C: Vaccin entier inactivé contre l'hépatite A
+    VAC1391C: Vaccin combiné contre les hépatites A et B, dose adulte
+    VAC1392C: Vaccin pneumococcique polyosidique non conjugué, 23-valent, 
+      sérotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 
+      18C, 19F, 19A, 20, 22F, 23F et 33F
+    VAC1393C: Vaccin vivant atténué contre la varicelle
+    VAC1394C: Vaccin poliomyélitique (entier inactivé, trivalent)
+    VAC1395C: Vaccin vivant atténué contre les oreillons
+    VAC1396C: Vaccin contre la grippe saisonnière inactivé trivalent, à virion 
+      fragmenté
+    VAC1397C: Vaccin contre la grippe A(H5N1) (virion fragmenté, inactivé, avec 
+      adjuvant)
+    VAC1398C: Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 
+      inactivé
+    VAC1399C: Vaccin contre la grippe saisonnière inactivé quadrivalent, à 
+      virion fragmenté
+    VAC1400C: Vaccin poliomyélitique (entier inactivé, trivalent)
+    VAC1401C: Vaccin contre les papillomavirus humains à base de VLP (Virus Like
+      Particles ou pseudo particules virales), nonavalent (types 6, 11, 16, 18, 
+      31, 33, 45, 52 et 58), recombinant, adsorbé
+    VAC1402C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus 
+      influenzae type b (conjugué à l'anatoxine tétanique), poliomyélitique 
+      (entier inactivé, trivalent) et de l’hépatite B (recombinant), adsorbé
+    VAC1403C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier, dose standard), hépatite B et
+      anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique)
+    VAC1404C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier inactivé) et anti-Haemophilus 
+      influenzae type b (conjugué à l'anatoxine diphtérique)
+    VAC1405C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
+      standard), anti-Haemophilus influenzae type b (conjugué à l'anatoxine 
+      tétanique) et poliomyélitique (entier inactivé, trivalent), adsorbé
+    VAC1406C: Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus 6 
+      codant la protéine de pointe du SARS-CoV-2
+    VAC1407C: Vaccin conjugué anti-Hemophilus influenzae de type b composé du 
+      PRP (polyribosylribitol phosphate) conjugué à l'anatoxine tétanique
+    VAC1408C: Vaccin recombinant contre l'hépatite B, dose pédiatrique
+    VAC1429C: Immunoglobuline anti-tétanique
+    VAC1447C: Vaccin contre la tuberculose (vivant atténué)
+    VAC1448C: Vaccin contre la tuberculose (vivant atténué)
+    VAC1449C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC1450C: Vaccin recombinant contre l'hépatite B, dose adulte
+    VAC1451C: Vaccin contre la grippe saisonnière inactivé trivalent, à virion 
+      fragmenté
+    VAC1452C: Vaccin recombinant contre l'hépatite B, trois antigènes (HbS, 
+      pré-S1 et pré-S2)
+    VAC1454C: Vaccin diphtérique (anatoxine, dose standard), tétanique 
+      (anatoxine) et hépatite B
+    VAC1455C: Vaccin polyosidique non conjugué contre les méningocoques des 
+      sérogroupes A et C
+    VAC1456C: Vaccin rabique entier inactivé, préparé sur culture de cellules 
+      diploïdes humaines (HDCV) MRC-5, inactivation par la ß-propiolactone
+    VAC1457C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine), coquelucheux (entier inactivé) et poliomyélitique 
+      (entier inactivé, trivalent)
+    VAC1458C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC1459C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et poliomyélitique (entier inactivé, trivalent)
+    VAC1460C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC1461C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC1462C: Vaccin pneumococcique polyosidique non conjugué, 23-valent, 
+      sérotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 
+      18C, 19A, 19F, 20, 22F, 23F et 33F
+    VAC1463C: Vaccin contre la tuberculose (vivant atténué)
+    VAC1464C: Vaccin contre la grippe saisonnière à virus entier inactivé
+    VAC1465C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      coquelucheux (entier inactivé)
+    VAC1469C: Vaccin à ARNm contre la covid 19, codant les fragments (NTD et 
+      RBD) de la protéine Spike du SARS-CoV-2, sous-variant Omicron LP.8.1
+    VAC1474C: Anticorps monoclonal humain contre le virus respiratoire syncytial
+      (VRS)
+    VAC1477C: Vaccin entier inactivé contre l'encéphalite à tiques, souche K23, 
+      0,25 mL
+    VAC1478C: Anticorps monoclonal contre le virus respiratoire syncytial (VRS)
+    VAC1479C: Vaccin contre la coqueluche (recombinant, acellulaire, dose 
+      réduite, 2 composants, adsorbé).
+    VAC1480C: Vaccin pneumococcique polyosidique non conjugué, 23-valent, 
+      sérotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 
+      18C, 19A, 19F, 20, 22F, 23F et 33F
+    VAC1481C: Vaccin contre la grippe saisonnière inactivé trivalent, à antigène
+      de surface
+    VAC1482C: Immunoglobuline humaine contre l'hépatite B
+    VAC1484C: Vaccin recombinant contre l'hépatite B, dose pédiatrique
+    VAC1485C: Vaccin recombinant contre l'hépatite B, dose pédiatrique
+    VAC1486C: Vaccin recombinant contre l'hépatite B, dosé à 10 microgrammes 
+      d'antigène HBs, utilisable dès l'âge de 11 ans
+    VAC1487C: Vaccin pneumococcique polyosidique conjugué, 7-valent, adsorbé, 
+      sérotypes 4, 6B, 9V, 14, 18C, 19F et 23F
+    VAC1488C: Vaccin poliomyélitique (entier inactivé, trivalent)
+    VAC1489C: Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 
+      inactivé
+    VAC1490C: Vaccin vivant atténué contre la rubéole
+    VAC1491C: Vaccin vivant atténué contre la rubéole
+    VAC1492C: Vaccin poliomyélitique (entier inactivé, trivalent)
+    VAC1493C: Vaccin coquelucheux acellulaire, dose standard
+    VAC1494C: Vaccin diphtérique (anatoxine, dose réduite) et tétanique 
+      (anatoxine)
+    VAC1495C: Vaccin poliomyélitique (vivant atténué, trivalent) contre les 
+      poliovirus 1, 2 et 3, par voie orale
+    VAC1496C: Vaccin poliomyélitique (entier inactivé, trivalent)
+    VAC1497C: Vaccin diphtérique (anatoxine, dose réduite), tétanique 
+      (anatoxine) et poliomyélitique (entier inactivé, trivalent)
+    VAC1498C: Vaccin anti-covid 19 à sous-unité protéique, protéine recombinante
+    VAC1499C: Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus 6 
+      codant la protéine de pointe du SARS-CoV-2, destiné aux adolescents
+    VAC1500C: Vaccin à ARNm contre la covid 19, subvariant Omicron LP.8.1, 50 
+      microgrammes
+    VAC1501C: Vaccin à ARNm contre la covid 19, subvariant Omicron LP.8.1, 25 
+      microgrammes
+    VAC1504C: Vaccin diphtérique (anatoxine, dose réduite) et tétanique 
+      (anatoxine)
+    VAC1505C: Vaccin anti-covid 19 à sous-unité protéique, protéine recombinante
+    VAC1506C: Vaccin infections urinaires, sans précision
+    VAC1507C: Vaccin vivant atténué, chimérique recombinant, quadrivalent contre
+      les quatre sérotypes (DEN-1, DEN-2, DEN-3 et DEN-4) du virus de la dengue
+    VAC1508C: Vaccin entier inactivé contre l'hépatite A
+    VAC1509C: Vaccin hépatite B, antigène de surface recombinante du virus de 
+      l'hépatite B (Ag HBs), sans précision
+    VAC1510C: Vaccin contre les papillomavirus humains à base de VLP (Virus Like
+      Particles ou pseudo particules virales), quadrivalent (types 6, 11, 16 et 
+      18), recombinant, adsorbé
+    VAC1511C: Vaccin pédiatrique diphtérique (anatoxine, dose standard) et 
+      tétanique (anatoxine)
+    VAC1512C: Vaccin diphtérique (anatoxine, dose réduite) et tétanique 
+      (anatoxine)
+    VAC1513C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
+      tétanique (anatoxine) et coquelucheux (entier inactivé)
+    VAC1514C: Vaccin diphtérique (anatoxine, dose réduite), tétanique 
+      (anatoxine) et coquelucheux (acellulaire, toxine pertussique, dose 
+      réduite)
+    VAC1515C: Vaccin rabique entier inactivé, préparé sur culture de cellules 
+      Vero, inactivé par la bêta-propiolactone
+    VAC1516C: Vaccin contre la grippe saisonnière inactivé trivalent, à virion 
+      fragmenté
+    VAC1518C: Vaccin grippe, trivalent, ARN
+    VAC1520C: Vaccin à ARNm contre la covid 19, subvariant Omicron XFG, 30 
+      microgrammes, adulte (+ 12 ans)
+    VAC1521L: Vaccin à ARNm contre la covid 19, subvariant Omicron XFG, 10 
+      microgrammes, dose pédiatrique (5-11 ans)
+    VAC1522C: Vaccin à ARNm contre la covid 19, subvariant Omicron XFG, 30 
+      microgrammes,  adulte (+ 12 ans)
+    VAC1522L: Vaccin à ARNm contre la covid 19, subvariant Omicron XFG, 30 
+      microgrammes,  adulte (+ 12 ans)
+    VAC1524L: Vaccin mélanome, ARN messager, néoantigène individualisés
+    VAC1527L: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe 
+      recombinante (domaine RBD), avec adjuvant (SQBA), sous-variant Omicron 
+      XFG.1.1.
+    VAC1528L: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe 
+      recombinante dans des nanoparticules, avec adjuvant (Matrix M), 
+      sous-variant Omicron XFG
+    VAC1531L: Vaccin à ARNm contre la covid 19, subvariant Omicron XFG, 50 
+      microgrammes
+    VAC1532L: Vaccin à ARNm contre la covid 19, subvariant Omicron XFG, 25 
+      microgrammes
+    VAC1533L: Vaccin entier inactivé contre l'encéphalite à tiques, souche K23
+    VAC1534L: Vaccin contre la grippe saisonnière inactivé trivalent, à virion 
+      fragmenté, dose pédiatrique
+    VAC1535L: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe 
+      recombinante, avec adjuvant sans précision
+    VAC1536L: Vaccin à ARNm bivalent contre la covid 19, virus originel + 
+      variant Omicron BA.1, 50 microgrammes chacun
+    VAC1537L: Vaccin cholérique, oral, contenant des bactéries V. cholerae O1 
+      entières inactivées par formaline
+    VAC1538L: Vaccin à ARNm bivalent contre la covid 19, virus originel + 
+      variant Omicron BA.1, 25 microgrammes chacun
+    VAC1539L: Vaccin méningococcique à large spectre contre les sérogroupes A, 
+      B, C, W et Y
+    VAC1540L: Vaccin contre la typhoïde et le tétanos, suspension injectable
+    VAC1541L: Vaccin contre la grippe saisonnière inactivé quadrivalent de la 
+      grippe, fractionnée ou sous-unité, sans précision
+    VAC1542L: Vaccin conjugué contre la typhoïde et l'anatoxine diphtérique
+    VAC1543L: Vaccin contre le paludisme
+    VAC0000C: Vaccin abstrait pour les vaccins orphelins
+    VAC0000L: '#Orphelins'
   valence:
     VAL063S: BAT
     VAL064L: Valence grippe, quadrivalente, inactivée, fractionnée ou 
@@ -1110,7 +3055,7 @@ fr:
     VAL074S: Inf-SUhd4
     VAL117S: Acel
     VAL158L: Valence hépatite B, plasmatique
-    VAL179S: MCV-mono
+    VAL179S: Covid-ARNm-S-OMI-XFG-25
     VAL180L: Valence covid 19, virus originel, ARNm codant la protéine de pointe
       du SARS-CoV-2, 100 microgrammes
     VAL180S: Covid-ARNm-S-ORI-100
@@ -1417,8 +3362,9 @@ fr:
     VAL118L: Valence méningocoque B, sans précision
     VAL117L: Valence coqueluche, acellulaire, dose non précisée
     VAL118S: MenB
-    VAL119L: Valence méningocoque, monovalent, polyosidique non conjugué
-    VAL119S: MPV-mono
+    VAL119L: Valence covid 19, variant Omicron XFG, ARNm codant la protéine de 
+      pointe du SARS-CoV-2, 50 microgrammes
+    VAL119S: Covid-ARNm-S-OMI-XFG-50
     VAL120L: Valence méningocoque, polyvalent, polyoside non conjugué
     VAL120S: MPV-poly
     VAL121S: VPI-0
@@ -1554,7 +3500,8 @@ fr:
     VAL178L: Valence covid 19, variant Omicron BA.1, ARNm codant la protéine de 
       pointe du SARS-CoV-2, 25 microgrammes
     VAL178S: Covid-ARNm-S-OMI-BA.1-25
-    VAL179L: Valence méningocoque, monovalent, polyosidique conjugué
+    VAL179L: Valence covid 19, variant Omicron XFG, ARNm codant la protéine de 
+      pointe du SARS-CoV-2, 25 microgrammes
     VAL184S: VPC
     VAL185L: Valence pneumocoque, polyosidique non conjuguée, sans précision
     VAL185S: VPP
@@ -1790,8 +3737,8 @@ fr:
     VAL289L: Valence covid 19, virus originel, ARNm codant la protéine de pointe
       du SARS-CoV-2, 10 microgrammes
     VAL289S: ' Covid-ARNm-S-ORI-10'
-    VAL290L: Valence covid 19, virus originel, ARNm codant la protéine de pointe
-      du SARS-CoV-2, 30 microgrammes
+    VAL290L: Valence covid 19, virus originel,  ARNm codant la protéine de 
+      pointe du SARS-CoV-2, 30 microgrammes
     VAL290S: Covid-ARNm-S-ORI-30
     VAL291L: Valence hépatite B, ant!gène de surface recombinant, trois 
       antigènes (Ag HbS, pré-S1 et pré-S2)
@@ -2127,3 +4074,24 @@ fr:
     VAL438L: Valence dengue, vivant, recombinant, chimère DENV-2 + prM/E de 
       DENV-4
     VAL438S: DENV4rCH
+    VAL439L: Valence covid 19, variant Omicron XFG, ARNm codant la protéine de 
+      pointe du SARS-CoV-2
+    VAL439S: Covid-ARNm-S-OMI-XFG
+    VAL440L: Valence covid 19, variant Omicron XFG, ARNm codant la protéine de 
+      pointe du SARS-CoV-2, 10 microgrammes
+    VAL440S: Covid-ARNm-S-OMI-XFG-10
+    VAL441L: Valence covid 19, variant Omicron XFG, ARNm codant la protéine de 
+      pointe du SARS-CoV-2, 30 microgrammes
+    VAL441S: Covid-ARNm-S-OMI-XFG-30
+    VAL442L: Valence mélanome, ARN messager, néoantigènes individualisés
+    VAL442S: MEL-ARNI
+    VAL443L: Valence covid 19, sous-variant Omicron XFG, sous-unité protéique, 
+      protéine de pointe recombinante dans des nanoparticules
+    VAL443S: Covid-SP-rSnp-XFG
+    VAL444L: Valence covid 19, sous-variant Omicron XFG, sous-unité protéique, 
+      protéine de pointe recombinante (domaine RBD)
+    VAL444S: Covid-SP-rRBD-XFG
+    VAL445L: Valence typhoïde, antigène Vi conjugué à l’anatoxine diphtérique
+    VAL445S: Ty-ViC-D
+    VAL000L: Parent pour les valences dépréciées
+    VAL000S: ZZZ
