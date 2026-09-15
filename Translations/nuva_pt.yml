@@ -1,69 +1,4 @@
 pt:
-  disease:
-    DIS008L: Sarampo
-    DIS009L: Parotidite epidémica
-    DIS028L: Encefalite japonesa
-    DIS044L: Meningococo A
-    DIS045L: Meningococo B
-    DIS046L: Meningococo W
-    DIS051L: Carbúnculo
-    DIS080L: Meningococo X
-    DIS001L: Difteria
-    DIS002L: Tétano
-    DIS003L: Tosse convulsa
-    DIS004L: Poliomielite
-    DIS005L: Haemophilus influenzae b
-    DIS006L: Hepatite B
-    DIS010L: Rubéola
-    DIS011L: Varicela
-    DIS014L: Tuberculose
-    DIS015L: Gripe
-    DIS016L: Hepatite A
-    DIS017L: Febre amarela
-    DIS018L: Febre tifoide
-    DIS025L: Pneumococo
-    DIS027L: Encefalite transmitida por carrapatos
-    DIS029L: Varíola-Monkeypox
-    DIS030L: Raiva
-    DIS031L: Dengue
-    DIS032L: Rotavírus
-    DIS033L: Herpes zoster
-    DIS034L: Leptospirose
-    DIS036L: Cólera
-    DIS038L: Vírus do papiloma humano
-    DIS040L: Malária
-    DIS041L: Brucelose
-    DIS042L: tifo exantematoso
-    DIS043L: Meningococo C
-    DIS047L: Meningococo Y
-    DIS048L: Meningococo
-    DIS050L: Gripe aviária
-    DIS052L: Botulismo
-    DIS053L: Doença de lyme
-    DIS054L: Hepatite E
-    DIS055L: Ébola
-    DIS056L: Chicungunha
-    DIS057L: COVID-19
-    DIS058L: Vírus sincicial respiratório
-    DIS059L: Praga
-    DIS060L: Herpes
-    DIS061L: Tularemia
-    DIS062L: febre hemorrágica argentina
-    DIS063L: Adenovírus
-    DIS064L: Encefalite equina venezuelana
-    DIS065L: febre Q
-    DIS066L: Hantavírus
-    DIS067L: Leishmaniose
-    DIS068L: Vírus da parainfluenza humana
-    DIS070L: Citomegalovírus
-    DIS071L: Hepatite C
-    DIS072L: Infecção pelo VIH
-    DIS073L: Melanoma
-    DIS074L: Streptococcus pyogenes
-    DIS075L: Febre do Vale do Rift
-    DIS076L: Infecção urinária
-    DIS078L: Lepra
-    DIS079L: Pseudomonas aeruginosa
   vaccine:
     VAC0131C: Vacina contra a raiva totalmente inactivada por viriões
     VAC0131L: Rabies vaccine, unspecified
@@ -144,13 +79,8 @@ pt:
     VAC1163C: Vacina pneumocócica conjugada 20-valente, adsorvida, serotipos 1, 
       3, 4, 5, 6A, 6B, 7F, 8, 9V, 10A, 11A, 12F, 14, 15B, 18C, 19A, 19F, 22F, 
       23F e 33F
-    VAC1233C: Vacina conjugada polissacárida pneumocócica, 10-valente, serotipos
-      1, 4, 5, 6B, 7F, 9V, 14, 18C, 19F e 23F
     VAC1233L: Vacina pneumocócica conjugada 10-valente, não especificada
-    VAC1239C: Vacina pneumocócica conjugada 15-valente, adsorvida, serotipos 1, 
-      3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F e 33F
     VAC1239L: Vacina pneumocócica conjugada 15-valente, não especificada
-    VAC1277C: Vacina contra a chikungunya, não especificada
     VAC1341L: SPIKEVAX BA.4-5 0,1 mg/mL dose 50 µg
     VAC0084C: Vacina contra a Influenza A(H5N1)
     VAC0084L: H5N1 pre-pandemic influenza vaccine, unspecified
@@ -165,7 +95,6 @@ pt:
     VAC0110L: Influenza vaccine, unspecified
     VAC0111C: Vacina viva contra a febre amarela atenuada
     VAC0111L: Yellow fever vaccine, unspecified
-    VAC0112C: Vacina contra a febre tifóide
     VAC0112L: Typhoid vaccine, unspecified
     VAC0113C: Vacina de rubéola atenuada ao vivo
     VAC0113L: Rubella vaccine, unspecified
@@ -191,7 +120,6 @@ pt:
     VAC0138L: Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified
     VAC0143C: Vacina Conjugada Haemophilus influenzae tipo b
     VAC0143L: Haemophilus influenzae B (or Hib) vaccine, unspecified
-    VAC0144C: Vacina contra a cólera
     VAC0144L: Cholera vaccine, unspecified
     VAC0145C: Vacina contra a encefalite transmitida por carraças
     VAC0145L: Tick-borne encephalitis vaccine, unspecified
@@ -217,7 +145,6 @@ pt:
     VAC0153L: Mumps vaccine, unspecified
     VAC0154C: Vacina contra a malária (utilizada em ensaios clínicos)
     VAC0154L: Malaria vaccine, unspecified
-    VAC0155C: Vacina contra a dengue, não especificada
     VAC0155L: Dengue vaccine, unspecified
     VAC0156C: Vacina contra o papilomavírus humano, não especificada
     VAC0156L: HPV Vaccine
@@ -230,7 +157,6 @@ pt:
     VAC0159L: Chickenpox vaccine, unspecified
     VAC0160C: Vacina viva atenuada contra o herpes zoster
     VAC0160L: Live attenuated shingles vaccine, unspecified
-    VAC0162C: Vacina contra a brucelose
     VAC0270L: Inactivated Polio vaccine, unspecified
     VAC0320C: Vacina contra a poliomielite (viva atenuada, trivalente) contra os
       poliovírus 1, 2 e 3, oral
@@ -584,26 +510,18 @@ pt:
     VAC1042C: Vacina contra a COVID-19, vetor viral não replicante
     VAC1062C: Imunoglobulina contra citomegalovírus, intravenosa
     VAC1062L: Imunoglobulina CMV
-    VAC1063C: Vacina contra hepatite C, não especificada
     VAC1063L: Vacina contra hepatite C, não especificada
-    VAC1064C: Vacina contra HIV, não especificada
     VAC1064L: Vacina contra HIV, não especificada
     VAC1065C: Vacina contra lepra, não especificada
     VAC1065L: Leprosy vaccine
-    VAC1066C: Vacina contra melanoma, não especificada
     VAC1066L: Vacina contra melanoma, não especificada
-    VAC1067C: Vacina contra Streptococcus pyogenes, não especificada
     VAC1067L: Vacina contra Streptococcus pyogenes, não especificada
-    VAC1068C: Vacina contra a febre do Vale do Rift, não especificada
     VAC1068L: Vacina contra a febre do Vale do Rift, não especificada
-    VAC1069C: Imunoglobulina para vacínia
     VAC1069L: Vaccinia immune globulin
-    VAC1071C: Anticorpo ou vacina contra RSV, não especificado
     VAC1071L: Anticorpo ou vacina contra RSV, não especificado
     VAC1072C: Vacina de mRNA COVID-19, vírus original, 25 microgramas
     VAC1072L: Vacina de mRNA contra COVID-19, vírus original, 25 µg, não 
       especificado
-    VAC1073C: Vacina contra a doença de Lyme, não especificada
     VAC1073L: Vacina contra a doença de Lyme, não especificada
     VAC1075C: Vacina acelular contra antraz, não especificada
     VAC1075L: Vacina acelular contra antraz, não especificada
@@ -612,8 +530,6 @@ pt:
       23F e 33F
     VAC1136L: Vacina pneumocócica conjugada 23-valente, não especificada
     VAC1163L: Vacina pneumocócica conjugada 20-valente, não especificada
-    VAC1263C: Vacina mRNA covid que codifica a proteína spike SARS-COV-2, 
-      autorizada
     VAC1263L: Vacina mRNA covid que codifica a proteína spike SARS-COV-2, 
       autorizada
     VAC1264L: A(H5) avian influenza vaccine, unspecified

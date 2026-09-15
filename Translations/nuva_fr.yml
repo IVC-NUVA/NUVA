@@ -1,75 +1,8 @@
 fr:
-  disease:
-    DIS001L: Diphtérie
-    DIS002L: Tétanos
-    DIS003L: Coqueluche
-    DIS004L: Poliomyélite
-    DIS005L: Haemophilus influenzae b
-    DIS006L: Hépatite B
-    DIS017L: Fièvre jaune
-    DIS018L: Typhoïde
-    DIS025L: Pneumocoque
-    DIS027L: Encéphalite à tiques
-    DIS028L: Encéphalite japonaise
-    DIS029L: Variole-Mpox
-    DIS030L: Rage
-    DIS031L: Dengue
-    DIS032L: Rotavirus
-    DIS033L: Zona
-    DIS034L: Leptospirose
-    DIS036L: Choléra
-    DIS038L: Papillomavirus
-    DIS040L: Paludisme
-    DIS041L: Brucellose
-    DIS008L: Rougeole
-    DIS009L: Oreillons
-    DIS010L: Rubéole
-    DIS011L: Varicelle
-    DIS014L: Tuberculose
-    DIS015L: Grippe saisonnière
-    DIS016L: Hépatite A
-    DIS042L: Typhus exanthématique
-    DIS043L: Méningocoque C
-    DIS044L: Méningocoque A
-    DIS045L: Méningocoque B
-    DIS046L: Méningocoque W
-    DIS047L: Méningocoque Y
-    DIS048L: Méningocoques
-    DIS050L: Grippe aviaire
-    DIS051L: Charbon
-    DIS052L: Botulisme
-    DIS053L: Maladie de Lyme
-    DIS054L: Hépatite E
-    DIS055L: Ebola
-    DIS056L: Chikungunya
-    DIS057L: Covid 19
-    DIS058L: Virus Respiratoire Syncytial
-    DIS059L: Peste
-    DIS060L: Herpès
-    DIS061L: Tularémie
-    DIS062L: Fièvre hémorragique d'Argentine
-    DIS063L: Adénovirus
-    DIS064L: Encéphalite équine vénézuélienne
-    DIS065L: Fièvre Q
-    DIS066L: Hantavirus
-    DIS067L: Leishmaniose
-    DIS068L: Virus parainfluenza humains
-    DIS070L: Cytomégalovirus
-    DIS071L: Hépatite C
-    DIS072L: Infection à VIH
-    DIS073L: Mélanome
-    DIS074L: Streptococcus pyogenes
-    DIS075L: Fièvre de la vallée du Rift
-    DIS076L: Infection urinaire
-    DIS077L: Entérovirus
-    DIS078L: Lèpre
-    DIS079L: Pseudomonas aeruginosa
-    DIS080L: Méningocoque X
   vaccine:
     VAC0110L: Vaccin Grippe, sans précision
     VAC0111C: Vaccin vivant atténué contre la fièvre jaune
     VAC0111L: Vaccin Fièvre jaune, sans précision
-    VAC0112C: Vaccin typhoïdique, sans précision
     VAC0112L: Vaccin Typhoïde, sans précision
     VAC0113C: Vaccin vivant atténué contre la rubéole
     VAC0113L: Vaccin rubéole, vivant atténué, sans précision
@@ -78,7 +11,6 @@ fr:
     VAC0143C: Vaccin anti-Haemophilus influenzae type b (conjugué, sans 
       précision)
     VAC0143L: Vaccin Haemophilus influenzae B, sans précision
-    VAC0144C: Vaccin anti-choléra, sans précision
     VAC0144L: Vaccin Choléra, sans précision
     VAC0145C: Vaccin entier inactivé contre l'encéphalite à tiques, souche non 
       précisée
@@ -88,7 +20,6 @@ fr:
     VAC0147L: Vaccin Grippe A(H1N1)2009, sans précision
     VAC0154C: Vaccin contre le paludisme (utilisé dans des essais cliniques)
     VAC0154L: Vaccin Paludisme, sans précision
-    VAC0155C: Vaccin contre la dengue, sans précision
     VAC0155L: Vaccin Dengue, sans précision
     VAC0156C: Vaccin contre les papillomavirus humains
     VAC0156L: Vaccin HPV, sans précision
@@ -127,22 +58,16 @@ fr:
     VAC0867C: Immunoglobuline anti-toxine diphtérique
     VAC0867L: Antitoxine Diphtérie, sans précision
     VAC1063L: Vaccin Hépatite C, sans précision
-    VAC1064C: Vaccin contre le VIH, sans précision
     VAC1064L: Vaccin VIH, sans précision
     VAC1065C: Vaccin contre la lèpre, sans précision
     VAC1065L: Vaccin Lèpre, sans précision
-    VAC1066C: Vaccin contre le mélanome, sans précision
     VAC1066L: Vaccin Mélanome, sans précision
-    VAC1067C: Vaccin anti-Streptococcus pyogenes, sans précision
     VAC1067L: Vaccin Streptococcus pyogenes, sans précision
-    VAC1068C: Vaccin contre la fièvre de la vallée du Rift, sans précision
     VAC1068L: Vaccin Fièvre de la vallée du Rift, sans précision
-    VAC1069C: Immunoglobulines anti-vaccine
     VAC1140C: Vaccin Covid 19 bivalent à ARNm contre le virus originel et le 
       variant Omicron BA.4/5, 25 microgrammes, sans précision
     VAC1140L: Vaccin Covid 19 bivalent à ARNm contre le virus originel et le 
       variant Omicron BA.4/5, 25 microgrammes, sans précision
-    VAC1141C: Vaccin contre la grippe aviaire H5N8, sans précision
     VAC1141L: Vaccin contre la grippe aviaire H5N8, sans précision
     VAC1145L: Vaccin Hépatite B recombinant, trois antigènes, sans précision
     VAC1149C: Vaccin cholérique vivant atténué oral, sans précision
@@ -164,8 +89,6 @@ fr:
     VAC1180C: Vaccin recombinant anti-Borrelia burgdorferi, protéine de surface 
       externe A (OspA)
     VAC1221L: Vaccin trivalent Diphtérie, Tétanos et Rubéole, sans précision
-    VAC1222C: Anticorps monoclonal humain contre le virus respiratoire syncytial
-      (VRS), palivizumab, sans précision
     VAC1222L: Anticorps monoclonal humain VRS, palivizumab, sans précision
     VAC1235L: Vaccin Rotavirus monovalent RIX4414, sans précision
     VAC1236C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe 
@@ -173,7 +96,6 @@ fr:
     VAC1236L: Vaccin Covid 19 à sous-unité protéique, protéine de pointe 
       recombinante dans des nanoparticules, sous-variant Omicron XBB.1.5, sans 
       précision
-    VAC1237C: Vaccin contre le paludisme pré-érythrocytaire R21/Matrix-M
     VAC1237L: Vaccin Paludisme pré-érythrocytaire, sans précision
     VAC1432L: Vaccin Fièvre hémorragique d'Argentine, virus Junin, sans 
       précision
@@ -241,7 +163,6 @@ fr:
     VAC0159L: Vaccin Varicelle, sans précision
     VAC0160C: Vaccin vivant atténué contre le zona
     VAC0160L: Vaccin Zona vivant atténué, sans précision
-    VAC0162C: Vaccin contre la brucellose
     VAC0162L: Vaccin Brucellose, sans précision
     VAC0163C: Vaccin coquelucheux (entier inactivé)
     VAC0163L: Vaccin Coqueluche entier inactivé, sans précision
@@ -653,14 +574,11 @@ fr:
     VAC1044L: Vaccin Covid 19 à virus entier inactivé, sans précision
     VAC1062C: Immunoglobulines contre le cytomégalovirus, intraveineuse
     VAC1062L: Immunoglobulines CMV, sans précision
-    VAC1063C: Vaccin contre l'hépatite C, sans précision
     VAC1069L: Immunoglobuline Vaccine, sans précision
-    VAC1071C: Anticorps ou vaccin contre le VRS, sans précision
     VAC1071L: Anticorps ou vaccin VRS, sans précision
     VAC1072C: Vaccin anti-covid 19 à ARNm, virus originel, dosage à 25 
       microgrammes
     VAC1072L: Vaccin Covid 19 à ARNm, virus originel, 25 µg, sans précision
-    VAC1073C: Vaccin contre la maladie de Lyme, sans précision
     VAC1073L: Vaccin Maladie de Lyme (anti-Borrelia burgdorferi), sans précision
     VAC1075C: Vaccin acellulaire contre le charbon, sans précision
     VAC1075L: Vaccin Charbon acellulaire, sans précision
@@ -675,7 +593,6 @@ fr:
     VAC1109C: Vaccin polyosidique non conjugué contre les méningocoques des 
       sérogroupes A,C et W
     VAC1109L: Vaccin Méningocoque ACW non conjugué, sans précision
-    VAC1110C: Vaccin Méningocoque C non conjugué, sans précision
     VAC1112C: Vaccin contre la grippe saisonnière quadrivalent à virus vivant 
       atténué, par voie nasale
     VAC1110L: Vaccin Méningocoque C non conjugué, sans précision
@@ -705,10 +622,7 @@ fr:
       le variant Omicron BA.4/5, 5 microgrammes, sans précision
     VAC1117L: Vaccin Covid 19 bivalent à ARNm contre le virus originel et le 
       variant Omicron BA.4/5, 5 microgrammes, sans précision
-    VAC1118C: Vaccin contre l'entérovirus A71, sans précision
     VAC1118L: Vaccin Entérovirus A71, sans précision
-    VAC1119C: Vaccin anti-covid 19 à virus entier inactivé, autorisé, sans 
-      précision
     VAC1119L: Vaccin Covid 19 à virus entier inactivé, autorisé, sans précision
     VAC1120C: Vaccin trivalent contre la leptospirose causée par Canicola 
       serovar canicola, Icterohaemorrhagiae serovar copenhageni et Pomona 
@@ -727,11 +641,8 @@ fr:
     VAC1123C: Vaccin contre la grippe saisonnière trivalent à virus vivant 
       atténué, par voie nasale
     VAC1123L: Vaccin Grippe trivalent, vivant atténué, sans précision
-    VAC1124C: Vaccin anti-covid 19 à virus entier inactivé, en essai clinique, 
-      sans précision
     VAC1124L: Vaccin Covid 19 à virus entier inactivé, en essai clinique, sans 
       précision
-    VAC1125C: Vaccin contre l'hépatite B, sans précision
     VAC1125L: Vaccin Hépatite B, sans précision
     VAC1126C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
       tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus 
@@ -782,12 +693,8 @@ fr:
       précision
     VAC1138C: Vaccin anti-covid 19 à sous-unité protéique recombinante
     VAC1138L: Vaccin Covid 19 à sous-unité protéique recombinante
-    VAC1139C: Vaccin anti-covid 19 à vecteur non réplicatif, virus de la maladie
-      de Newcastle codant la protéine de pointe du SARS-CoV-2, sans précision
     VAC1139L: Vaccin Covid 19 à vecteur non réplicatif, virus de la maladie de 
       Newcastle codant la protéine de pointe du SARS-CoV-2, sans précision
-    VAC1142C: Vaccin anti-covid 19 à vecteur viral non replicatif avec cellules 
-      présentant l'antigène, sans précision
     VAC1142L: Vaccin Covid 19 à vecteur viral non replicatif avec cellules 
       présentant l'antigène, sans précision
     VAC1143C: Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus 
@@ -806,8 +713,6 @@ fr:
     VAC1147C: Anticorps monoclonal humain contre le virus respiratoire syncytial
       (VRS), nirsevimab, sans précision
     VAC1147L: Anticorps monoclonal humain VRS, nirsevimab, sans précision
-    VAC1148C: Vaccin anti-Haemophilus influenzae type b, polyosidique non 
-      conjugué, sans précision
     VAC1148L: Vaccin Haemophilus influenzae type b, polyosidique non conjugué, 
       sans précision
     VAC1150C: Vaccin anti-covid 19 à ARNm codant la protéine de pointe du 
@@ -819,8 +724,6 @@ fr:
       (entier inactivé, trivalent)
     VAC1151L: Vaccin quadrivalent DTCeP - Diphtérie-Tétanos-Coqueluche-Polio, 
       sans précision
-    VAC1152C: Vaccin méningococcique B contenant la fHbp des sous-familles A et 
-      B, sans précision
     VAC1152L: Vaccin Méningocoque B contenant la fHbp des sous-familles A et B, 
       sans précision
     VAC1153C: Vaccin méningococcique polyosidique conjugué quadrivalent contre 
@@ -843,8 +746,6 @@ fr:
       influenzae type b (conjugué à l'anatoxine tétanique)
     VAC1161L: Vaccin quadrivalent DTCeP - Diphtérie-Tétanos-Coqueluche-Hib PRP, 
       sans précision
-    VAC1162C: Vaccin bivalent anti-covid 19 à ARNm contre le virus originel et 
-      le variant Omicron BA.1, 15 microgrammes, sans précision
     VAC1162L: Vaccin Covid 19 bivalent à ARNm contre le virus originel et le 
       variant Omicron BA.1, 15 microgrammes, sans précision
     VAC1163C: Vaccin pneumococcique polyosidique conjugué, 20-valent, adsorbé, 
@@ -909,10 +810,6 @@ fr:
     VAC1178C: Vaccin vivant atténué, chimérique recombinant, quadrivalent contre
       les quatre sérotypes (1, 2, 3 et 4) du virus de la dengue
     VAC1180L: Vaccin Maladie de Lyme, recombinant, sans précision
-    VAC1181C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
-      tétanique (anatoxine), coquelucheux (entier intactivé), anti-Haemophilus 
-      influenzae type b (conjugué à l'anatoxine tétanique) et de l'hépatite B 
-      (recombinant)
     VAC1181L: Vaccin pentavalent DTCeHibHepB - Diphtérie-Tétanos-Coqueluche-Hib 
       PRP-HépatiteB 10µg, sans précision
     VAC1182C: Vaccin polyosidique conjugué quadrivalent contre les méningocoques
@@ -922,8 +819,6 @@ fr:
     VAC1183C: Vaccin anti-Ebola à vecteur viral non réplicatif, Vaccine Ankara 
       modifiée
     VAC1183L: Vaccin Ebola à vecteur viral non réplicatif, sans précision
-    VAC1184C: Vaccin méningococcique polyosidique conjugué à l'anatoxine 
-      tétanique contre le sérogroupe C
     VAC1184L: Vaccin Méningocoque C polyosidique conjugué à l'anatoxine 
       tétanique, sans précision
     VAC1185C: Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus 26
@@ -942,8 +837,6 @@ fr:
       SARS-CoV-2, virus originel, 3 microgrammes, sans précision
     VAC1188L: Vaccin Covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2,
       virus originel, 3 microgrammes, sans précision
-    VAC1189C: Vaccin anti-covid 19 à vecteur non réplicatif, vaccine Ankara 
-      modifiée codant la protéine de pointe du SARS-CoV-2, sans précision
     VAC1189L: Vaccin Covid 19 à vecteur non réplicatif, vaccine Ankara modifiée 
       codant la protéine de pointe du SARS-CoV-2, sans précision
     VAC1190C: Vaccin anti-covid 19 à vecteur viral réplicatif, virus de la 
@@ -990,15 +883,9 @@ fr:
       auto-amplifiant, sans précision
     VAC1198C: Vaccin vivant atténué contre le chikungunya
     VAC1198L: Vaccin Chinkungunya, vivant atténué, sans précision
-    VAC1199C: Vaccin anti-Ebola à vecteur viral réplicatif de la stomatite 
-      vésiculaire recombinant (rVSV) - glycoprotéine GP d'EBOV, sans précision
     VAC1199L: Vaccin Ebola à vecteur viral réplicatif de la stomatite 
       vésiculaire recombinant (rVSV) - glycoprotéine GP d'EBOV, sans précision
-    VAC1200C: Vaccin quadrivalent inactivé contre la grippe obtenu sur culture 
-      cellulaire, fractionné ou sous-unité, dose normale
     VAC1200L: Vaccin Grippe quadrivalent, sur culture cellulaire, sans précision
-    VAC1201C: Vaccin Dengue tétravalent, vivant atténué recombinant chimérique 
-      basé sur le vaccin fièvre jaune 17D, sans précision
     VAC1201L: Vaccin Dengue tétravalent, vivant atténué recombinant chimérique 
       basé sur le vaccin fièvre jaune 17D, sans précision
     VAC1202C: Vaccin anti-covid 19 à virus vivant atténué, sans précision
@@ -1010,15 +897,10 @@ fr:
       recombinante, avec adjuvant, sans précision
     VAC1204L: Vaccin Covid 19 à sous-unité protéique, protéine de pointe 
       recombinante, avec adjuvant, sans précision
-    VAC1205C: Vaccin contre le virus Ebola, vecteur viral vivant non réplicatif 
-      recombinant Ad26.ZEBOV, sans précision
     VAC1205L: Vaccin Ebola, vecteur viral vivant non réplicatif recombinant 
       Ad26.ZEBOV, sans précision
     VAC1206C: Vaccin anti-covid 19 à ARNm auto-amplifiant, sans précision
     VAC1206L: Vaccin Covid 19 à ARNm auto-amplifiant, sans précision
-    VAC1207C: Vaccin anti-covid 19 à vecteur viral réplicatif, virus de la 
-      maladie de Newcastle codant la protéine de pointe du SARS-CoV-2, sans 
-      précision
     VAC1207L: Vaccin Covid 19 à vecteur viral réplicatif, virus de la maladie de
       Newcastle codant la protéine de pointe du SARS-CoV-2, sans précision
     VAC1208C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
@@ -1028,8 +910,6 @@ fr:
       Diphtérie-Tétanos-Coqueluche-HépatiteB 10µg, sans précision
     VAC1209C: Vaccin entier inactivé contre la rougeole (historique)
     VAC1209L: Vaccin Rougeole, entier inactivé, sans précision
-    VAC1210C: Vaccin anti-covid 19 à ARNm codant la protéine de pointe du 
-      SARS-CoV-2, virus original, 100 microgrammes, sans précision
     VAC1210L: Vaccin Covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2,
       virus original, 100 microgrammes, sans précision
     VAC1211C: Vaccin méningococcique C, polyoside conjugué à la protéine CRM197
@@ -1039,9 +919,6 @@ fr:
       orale
     VAC1212L: Vaccin Poliomyélite, trivalent, entier inactivé oral, sans 
       précision
-    VAC1213C: Vaccin cholérique contenant la sous-unité B recombinante de la 
-      toxine cholérique et des bactéries V. cholerae O1 entières inactivées, 
-      sans précision
     VAC1213L: Vaccin Choléra contenant la sous-unité B recombinante de la toxine
       cholérique et des bactéries V. cholerae O1 entières inactivées, sans 
       précision
@@ -1049,16 +926,8 @@ fr:
       SARS-CoV-2, contre le variant Omicron XBB.1.5, 10µg
     VAC1214L: Vaccin Covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2,
       contre le variant Omicron XBB.1.5, 10µg, sans précision
-    VAC1215C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
-      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
-      standard), anti-Haemophilus influenzae type b (conjugué à la protéine de 
-      membrane externe de Neisseria meningitidis sérogroupe B), poliomyélitique 
-      (entier inactivé, trivalent) et de l’hépatite B (recombinant), adsorbé
     VAC1215L: Vaccin hexavalent DTCaHibPHepB - Diphtérie-Tétanos-Coqueluche-Hib 
       OMP-Polio-Hépatite B 10µg, sans précision
-    VAC1216C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
-      tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose 
-      standard) et de l’hépatite B (recombinant)
     VAC1216L: Vaccin quadrivalent DTCaHepB - 
       Diphtérie-Tétanos-Coqueluche-Hépatite B 10µg, sans précision
     VAC1217C: Vaccin contre l'hépatite B et anti-Haemophilus influenzae type b, 
@@ -1069,10 +938,6 @@ fr:
       tétanique contre le sérogroupe A
     VAC1218L: Vaccin Méningocoque A polyosidique conjugué à l'anatoxine 
       tétanique, sans précision
-    VAC1219C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
-      tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus 
-      influenzae type b (conjugué à l'anatoxine tétanique) et contre les 
-      méningocoques des sérogroupes A et C (conjugué à l'anatoxine tétanique)
     VAC1219L: Vaccin hexavalent DTCeHibMCV-A-C-T - 
       Diphtérie-Tétanos-Coqueluche-Hib PRP-Méningocoque A et C, conjugué à 
       l'anatoxine tétanique, sans précision
@@ -1083,26 +948,16 @@ fr:
       à l'anatoxine tétanique, sans précision
     VAC1221C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
       tétanique (anatoxine) et contre la rubéole (vivant atténué)
-    VAC1223C: Immunoglobuline contre le virus respiratoire syncytial (VRS), sans
-      précision
     VAC1223L: Immunoglobuline VRS, sans précision
     VAC1224C: Vaccin contre le virus respiratoire syncytial (VRS), recombinant, 
       glycoprotéines F (préfusion), bivalent (sous-types A et B du VRS), sans 
       précision
     VAC1224L: Vaccin VRS, recombinant, glycoprotéines F (préfusion) des 
       sous-types A et B du VRS, sans précision
-    VAC1225C: Vaccin diphtérique, tétanique (anatoxine), typhoïdique (entier 
-      inactivé) et paratyphoïdique A et B (entier inactivé)
     VAC1225L: DT-TAB - Vaccin Diphtérie, Tétanos, Typhoïde et Paratyphoïde A et 
       B, sans précision
-    VAC1226C: Vaccin combiné contre les hépatites A et B, dose pédiatrique, sans
-      précision
     VAC1226L: Vaccin Hépatites A et B, dose pédiatrique, sans précision
-    VAC1227C: Vaccin contre l'hépatite B, antigène de surface recombinant du 
-      virus de l'hépatite B (Ag HBs), 5 microgrammes
     VAC1227L: Vaccin Hépatite B, dose pédiatrique, sans précision
-    VAC1228C: Vaccin contre le virus respiratoire syncytial (VRS), recombinant, 
-      antigène RSVPreF3 dérivé de la protéine F, sans précision
     VAC1228L: Vaccin VRS, recombinant, antigène RSVPreF3 dérivé de la protéine 
       F, sans précision
     VAC1229C: Vaccin contre les méningocoques des sérogroupes B (à protéines de 
@@ -1120,232 +975,120 @@ fr:
       l'anatoxine tétanique)
     VAC1231L: Vaccin pentavalent DTCaHibHepB- Diphtérie-Tétanos-Coqueluche-Hib 
       PRP-Hepatite B 10μg, sans précision
-    VAC1232C: Vaccin coquelucheux acellulaire, dose réduite
     VAC1232L: Vaccin Coqueluche acellulaire, dose réduite, sans précision
-    VAC1233C: Vaccin pneumococcique polyosidique conjugué, 10-valent, sérotypes 
-      1, 4, 5, 6B, 7F, 9V, 14, 18C, 19F et 23F
     VAC1233L: Vaccin Pneumocoque conjugué 10-valent, sans précision
-    VAC1234C: Vaccin pneumococcique polyosidique non conjugué, 15-valent, 
-      sérotypes 1, 2, 3, 4, 6B, 7F, 8, 9N, 11A, 12F, 14, 15F, 18C, 19F et 23F
     VAC1234L: Vaccin Pneumocoque non conjugué 15-valent, sans précision
-    VAC1235C: Vaccin monovalent RIX4414 contre le rotavirus, sans précision
-    VAC1238C: Vaccin contre l'hépatite B et le paludisme, sans précision
     VAC1238L: Vaccin Hépatite B et Paludisme, sans précision
-    VAC1239C: Vaccin pneumococcique polyosidique conjugué, 15-valent, adsorbé, 
-      sérotypes 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F et 33F
     VAC1239L: Vaccin Pneumocoque conjugué 15-valent, sans précision
-    VAC1240C: Vaccin contre les méningococciques du sérogroupe B à 4 composants
     VAC1240L: Vaccin Méningocoque B à 4 composants, sans précision
-    VAC1241C: Vaccin contre le zona, glycoprotéine E (gE) de surface du virus 
-      varicelle-zona (VZV), sans précision
     VAC1241L: Vaccin Zona, glycoprotéine E (gE) de surface du virus 
       varicelle-zona (VZV), sans précision
-    VAC1242C: Vaccin anti-covid 19 à ARNm codant la protéine de pointe du 
-      SARS-CoV-2, variant Omicron XBB.1.5, 25 microgrammes
     VAC1242L: Vaccin Covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2,
       variant Omicron XBB.1.5, 25 microgrammes, sans précision
-    VAC1243C: Vaccin anti-covid 19 à ARNm codant la protéine de pointe du 
-      SARS-CoV-2, variant Omicron XBB.1.5, 50 microgrammes
     VAC1243L: Vaccin Covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2,
       variant Omicron XBB.1.5, 50 microgrammes, sans précision
-    VAC1244C: Vaccin anti-covid 19 à ARNm codant la protéine de pointe du 
-      SARS-CoV-2, variant Omicron XBB.1.5, 30 microgrammes
     VAC1244L: Vaccin Covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2,
       variant Omicron XBB.1.5, 30 microgrammes, sans précision
-    VAC1245C: Vaccin méningococcique contre les sérogroupes A, C, W et Y 
-      (polyosidique conjugué à l'anatoxine tétanique), et contre le sérogroupe B
-      (recombinant)
     VAC1245L: Vaccin Méningocoque ABCWY, sans précision
-    VAC1247C: Vaccin contre l'hépatite A, sans précision
     VAC1247L: Vaccin Hépatite A, sans précision
     VAC1248C: Vaccin combiné contre la grippe et la Covid 19, à ARNm, sans 
       précision
     VAC1248L: Vaccin Grippe/Covid 19, à ARNm, sans précision
-    VAC1249C: Vaccin trivalent inactivé contre la grippe, fractionné ou 
-      sous-unité, voie intradermique, sans précision
     VAC1249L: Vaccin Grippe, inactivé trivalent, haute dose, voie intradermique,
       sans précision
-    VAC1256C: Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
-      tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus 
-      influenzae type b (conjugué à l'anatoxine tétanique), poliomyélitique 
-      (entier inactivé, trivalent) et de l’hépatite B (recombinant), adsorbé
     VAC1256L: Vaccin hexavalent DTCeHibPHepB - 
       Diphtérie-Tétanos-Coqueluche-Hib-Polio-Hépatite B 15µg, sans précision
     VAC1257C: Vaccin cholérique, oral, bivalent constitué de cellules entières 
       tuées de Vibrio cholerae O1 (classique et El Tor) et O139
     VAC1257L: Vaccin Choléra, entier inactivé oral, bivalent contenant les 
       bactéries V. cholerae O1 et O139 entières inactivées, sans précision
-    VAC1263C: Vaccin anti-covid à ARNm codant la protéine de pointe du 
-      SARS-COV-2, autorisé
     VAC1263L: Vaccin covid à ARNm codant la protéine de pointe du SARS-COV-2, 
       autorisé
-    VAC1264C: Vaccin A(H5) contre la grippe aviaire, type de neuraminidase non 
-      précisé
     VAC1264L: Vaccin A(H5) contre la grippe aviaire, sans précision
-    VAC1277C: Vaccin contre le chikungunya, sans précision
     VAC1277L: Vaccin contre le chikungunya, sans précision
-    VAC1279C: Vaccin accellulaire contre le charbon adsorbé, avec adjuvant
     VAC1279L: Vaccin contre le charbon adsorbé, avec adjuvant
-    VAC1280C: Vaccin pneumococcique polyosidique conjugué, 21-valent, adsorbé, 
-      sérotypes 3, 6A, 7F, 8, 9N, 10A, 11A, 12F, 15A, 15B, 15C, 16F, 17F, 19A, 
-      20A, 22F, 23A, 23B, 24F, 31, 33F, 35B
     VAC1280L: Vaccin Pneumocoque conjugué 21-valent, sans précision
     VAC1311C: Vaccin méningococcique polyosidique conjugué quadrivalent contre 
       les sérogroupes A, C, W, X et Y
     VAC1311L: Vaccin Méningocoques ACWXY conjugué, sans précision
-    VAC1341C: Vaccin anti-covid 19 à ARNm codant la protéine de pointe du 
-      SARS-CoV-2, variant Omicron XBB.1.5, dose non précisée
     VAC1341L: Vaccin Covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2,
       variant Omicron XBB.1.5, dose non précisée
-    VAC1409C: Vaccin à ARNm contre la covid 19 , subvariant Omicron JN.1, 50 
-      microgrammes par dose, flacon multidose
     VAC1409L: Vaccin à ARNm contre la covid 19 , subvariant Omicron JN.1, 50 
       microgrammes par dose, flacon multidose
-    VAC1410C: Vaccin à ARNm contre la covid 19, subvariant Omicron JN.1, 25 
-      microgrammes par dose, flacon multidose
-    VAC1421C: Vaccin anti-covid 19 à ARNm codant la protéine de pointe du 
-      SARS-CoV-2, virus originel
     VAC1410L: Vaccin à ARNm contre la covid 19, subvariant Omicron JN.1, 25 
       microgrammes par dose, flacon multidose
-    VAC1411C: Vaccin à ARNm contre la covid 19, subvariant Omicron JN.1, 30 
-      microgrammes, dose adulte (+ 12 ans)
     VAC1411L: Vaccin à ARNm contre la covid 19, subvariant Omicron JN.1, 30 
       microgrammes, dose adulte (+ 12 ans)
-    VAC1412C: Vaccin à ARNm contre la covid 19, subvariant Omicron JN.1, 10 
-      microgrammes, dose pédiatrique (5-11 ans)
     VAC1412L: Vaccin à ARNm contre la covid 19, subvariant Omicron JN.1, 10 
       microgrammes, dose pédiatrique (5-11 ans)
-    VAC1413C: Vaccin à ARNm contre la covid 19, subvariant Omicron JN.1, 3 
-      microgrammes, dose (6 mois-4 ans)
     VAC1413L: Vaccin à ARNm contre la covid 19, subvariant Omicron JN.1, 3 
       microgrammes, dose (6 mois-4 ans)
-    VAC1414C: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe 
-      recombinante dans des nanoparticules, avec adjuvant (Matrix M), 
-      sous-variant Omicron JN.1
     VAC1414L: Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe 
       recombinante dans des nanoparticules, avec adjuvant (Matrix M), 
       sous-variant Omicron JN.1
-    VAC1415C: Vaccin polyvalent contre la bactérie Pseudomonas aeruginosa
     VAC1415L: Vaccin polyvalent contre la bactérie Pseudomonas aeruginosa
-    VAC1416C: Vaccin à ARNm contre la covid 19, subvariant Omicron KP.2, 3 
-      microgrammes, dose pédiatrique (6 mois-4 ans)
     VAC1416L: Vaccin à ARNm contre la covid 19, subvariant Omicron KP.2, 3 
       microgrammes, dose pédiatrique (6 mois-4 ans)
-    VAC1417C: Vaccin à ARNm contre la covid 19, subvariant Omicron KP.2, 10 
-      microgrammes, dose pédiatrique (5-11 ans)
     VAC1417L: Vaccin à ARNm contre la covid 19, subvariant Omicron KP.2, 10 
       microgrammes, dose pédiatrique (5-11 ans)
-    VAC1418C: Vaccin à ARNm contre la covid 19, subvariant Omicron KP.2, 30 
-      microgrammes, adulte (+ 12 ans)
     VAC1418L: Vaccin à ARNm contre la covid 19, subvariant Omicron KP.2, 30 
       microgrammes, adulte (+ 12 ans)
-    VAC1419C: Vaccin Chikungunya à base de VLP (recombinant, adsorbé)
     VAC1419L: Vaccin Chikungunya à base de VLP (recombinant, adsorbé)
-    VAC1420C: ARNm simple brin coiffé en 5' codant la glycoprotéine F du virus 
-      respiratoire syncytial stabilisé dans la conformation de préfusion
     VAC1420L: ARNm simple brin coiffé en 5' codant la glycoprotéine F du virus 
       respiratoire syncytial stabilisé dans la conformation de préfusion
     VAC1421L: Vaccin anti-covid 19 à ARNm codant la protéine de pointe du 
       SARS-CoV-2, virus originel
-    VAC1422C: Vaccin anti-covid 19 à sous-unité protéique, protéine N 
-      recombinante
     VAC1422L: Vaccin anti-covid 19 à sous-unité protéique, protéine N 
       recombinante
-    VAC1423C: Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 
-      vivant atténué
     VAC1423L: Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 
       vivant atténué
-    VAC1424C: Vaccin pneumococcique polyosidique conjugué, 10-valent, séroptypes
-      1, 5, 6A, 6B, 7F, 9V, 14, 19A, 19F et 23F
     VAC1424L: Vaccin pneumococcique polyosidique conjugué, 10-valent, séroptypes
       1, 5, 6A, 6B, 7F, 9V, 14, 19A, 19F et 23F
-    VAC1425C: Vaccin typhoïdique, antigène Vi conjugué à la protéine CRM197
     VAC1425L: Vaccin typhoïdique, antigène Vi conjugué à la protéine CRM197
     VAC1426L: Vaccin bivalent recombinant contre le papillomavirus humain (types
       16 et 18) (Pichia pastoris)
-    VAC1427C: Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur
-      cellules Vero, 6 microgrammes
-    VAC1426C: Vaccin bivalent recombinant contre le papillomavirus humain (types
-      16 et 18) (Pichia pastoris)
     VAC1427L: Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur
       cellules Vero, 6 microgrammes
-    VAC1430C: Vaccin Covid 19 bivalent à ARNm contre le virus originel et le 
-      variant Omicron BA.4/5, 50 microgrammes, sans précision
     VAC1430L: Vaccin Covid 19 bivalent à ARNm contre le virus originel et le 
       variant Omicron BA.4/5, 50 microgrammes, sans précision
-    VAC1431C: Vaccin VRS vaccin, sans précision
     VAC1431L: Vaccin VRS, sans précision
-    VAC1428C: Vaccin anti-covid 19 à sous-unité protéique, protéine RBD 
-      recombinante homodimérique, variant Omicron XBB.1.16, avec adjuvant (SQBA)
     VAC1428L: Vaccin anti-covid 19 à sous-unité protéique, protéine RBD 
       recombinante homodimérique, variant Omicron XBB.1.16, avec adjuvant (SQBA)
-    VAC1432C: Vaccin Fièvre hémorragique d'Argentine, virus Junin, sans 
-      précision
-    VAC1433C: Vaccin peste, sans précision
     VAC1433L: Vaccin peste, sans précision
-    VAC1434C: Vaccin méningocoque A, sans précision
     VAC1434L: Vaccin méningocoque A, sans précision
     VAC1435C: Vaccin rage, inactivé, entier, préparé sur culture cellulaire, 
       sans précision
     VAC1435L: Vaccin rage, inactivé, entier, préparé sur culture cellulaire, 
       sans précision
-    VAC1437C: Vaccin méningocoque, monovalent, polyosidique conjugué
     VAC1437L: Vaccin méningocoque, monovalent, polyosidique conjugué
-    VAC1438C: Vaccin grippe, trivalent, inactivé, fractionné ou sous-unité, 
-      adjuvant
     VAC1438L: Vaccin grippe, trivalent, inactivé, fractionné ou sous-unité, 
       adjuvant
-    VAC1439C: Vaccin méningocoque, polyvalent, polyosidique conjugué
     VAC1439L: Vaccin méningocoque, polyvalent, polyosidique conjugué
     VAC1440C: Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, 
       adjuvant, dose normale
     VAC1440L: Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, 
       adjuvant, dose normale
-    VAC1441C: Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, 
-      voie intradermique, sans précision
     VAC1441L: Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, 
       voie intradermique, sans précision
-    VAC1442C: Vaccin grippe, quadrivalent, virosomal, sans précision
     VAC1442L: Vaccin grippe, quadrivalent, virosomale, sans précision
-    VAC1443C: Vaccin grippe, trivalent, virosomal, sans précision
     VAC1443L: Vaccin grippe, trivalent, virosomal, sans précision
-    VAC1444C: Vaccin grippe, trivalent, VLP, sans précision
     VAC1444L: Vaccin grippe, trivalent, VLP, sans précision
-    VAC1445C: Vaccin grippe aviaire, A(H5N1), ARNm
     VAC1445L: Vaccin grippe aviaire, A(H5N1), ARNm
-    VAC1446C: Vaccin encéphalite japonaise, inactivé, dérivé de cellules Vero, 3
-      microgrammes
     VAC1446L: Vaccin encéphalite japonaise, inactivé, dérivé de cellules Vero, 3
       microgrammes
-    VAC1470C: Vaccin à ARNm contre la covid 19, subvariant Omicron LP.8.1, 3 
-      microgrammes, dose pédiatrique (6 mois-4 ans)
     VAC1470L: Vaccin à ARNm contre la covid 19, subvariant Omicron LP.8.1, 3 
       microgrammes, dose pédiatrique (6 mois-4 ans)
-    VAC1471C: Vaccin à ARNm contre la covid 19, subvariant Omicron LP.8.1, 30 
-      microgrammes, adulte (+ 12 ans)
     VAC1471L: Vaccin à ARNm contre la covid 19, subvariant Omicron LP.8.1, 30 
       microgrammes, adulte (+ 12 ans)
-    VAC1472C: Vaccin à ARNm contre la covid 19, subvariant Omicron LP.8.1, 10 
-      microgrammes, dose pédiatrique (5-11 ans)
     VAC1472L: Vaccin à ARNm contre la covid 19, subvariant Omicron LP.8.1, 10 
       microgrammes, dose pédiatrique (5-11 ans)
-    VAC1473C: Vaccin à ARNm contre la covid 19, codant un fragment de la 
-      protéine Spike du SARS-CoV-2, sous-variant Omicron LP.8.1
     VAC1473L: Vaccin à ARNm contre la covid 19, codant un fragment de la 
       protéine Spike du SARS-CoV-2, sous-variant Omicron LP.8.1
-    VAC1475C: Anticorps monoclonal humain contre le virus respiratoire syncytial
-      (VRS), clesrovimab, sans précision
     VAC1475L: Anticorps monoclonal humain VRS, clesrovimab, sans précision
-    VAC1476C: Vaccin méningococcique contre les A, C, W, Y (polyosidique 
-      conjugué) et B
     VAC1476L: Vaccin méningococcique contre les A, C, W, Y (polyosidique 
       conjugué) et B
-    VAC1436C: Vaccin rage, inactivé, entier, préparé sur tissu cérébral animal 
-      infecté par le virus de la rage, sans précision
     VAC1436L: Vaccin rage, inactivé, entier, préparé sur tissu cérébral animal 
       infecté par le virus de la rage, sans précision
-    VAC1503C: Vaccin anti-covid 19, sous-variant Omicron LP.8.1, sous-unité 
-      protéique, protéine de pointe recombinante (domaine RBD)
     VAC1503L: Vaccin anti-covid 19, sous-variant Omicron LP.8.1, sous-unité 
       protéique, protéine de pointe recombinante (domaine RBD)
   valence:

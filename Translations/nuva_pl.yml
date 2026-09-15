@@ -1,74 +1,8 @@
 pl:
-  disease:
-    DIS001L: Błonica
-    DIS002L: Tężec
-    DIS003L: Krztusiec
-    DIS004L: Polio / Choroba Heinego-Medina
-    DIS027L: Kleszczowe zapalenie mózgu
-    DIS028L: Japońskie zapalenie mózgu
-    DIS029L: Ospa-Monkeypox
-    DIS030L: Wścieklizna
-    DIS031L: Denga
-    DIS032L: Rotawirusy
-    DIS033L: Półpasiec
-    DIS034L: Leptospirozy
-    DIS042L: Tyfus wysypkowy
-    DIS043L: Meningokoki C
-    DIS044L: Meningokok A
-    DIS045L: Meningokok B
-    DIS046L: Meningokok W
-    DIS047L: Meningokok Y
-    DIS048L: Meningokok
-    DIS050L: Ptasia grypa
-    DIS051L: Wąglik
-    DIS052L: Zatrucie jadem kiełbasianym
-    DIS053L: Borelioza
-    DIS054L: Wirusowe Zapalenie Wątroby typu E
-    DIS055L: Ebola
-    DIS056L: Chikungunia
-    DIS057L: COVID-19
-    DIS058L: Syncytialny wirus oddechowy
-    DIS059L: Plaga
-    DIS060L: Opryszczka
-    DIS061L: Tularemia
-    DIS062L: Argentyńska gorączka krwotoczna
-    DIS063L: Adenowirus
-    DIS064L: Wenezuelskie zapalenie mózgu koni
-    DIS065L: Gorączka Q
-    DIS066L: Hantawirus
-    DIS067L: Leiszmanioza
-    DIS068L: Wirusy paragrypy ludzkiej
-    DIS070L: Wirus cytomegalii
-    DIS005L: Haemophilus influenzae typu b
-    DIS006L: Wirusowe Zapalenie Wątroby typu B
-    DIS008L: Odra
-    DIS009L: Świnka
-    DIS010L: Różyczka
-    DIS011L: Ospa wietrzna
-    DIS014L: Gruźlica
-    DIS015L: Grypa sezonowa
-    DIS016L: Wirusowe Zapalenie Wątroby typu A
-    DIS017L: Żółta gorączka
-    DIS018L: Dur brzuszny
-    DIS025L: Pneumokoki
-    DIS036L: Cholera
-    DIS038L: Wirus brodawczaka ludzkiego
-    DIS040L: Malaria
-    DIS041L: Bruceloza
-    DIS071L: Wirusowe zapalenie wątroby typu C
-    DIS072L: Zakażenie wirusem HIV
-    DIS073L: Czerniak
-    DIS074L: Streptococcus pyogenes
-    DIS075L: Gorączka Doliny Rift
-    DIS076L: Infekcja dróg moczowych
-    DIS078L: Trąd
-    DIS079L: Pseudomonas aeruginosa
-    DIS080L: Meningokok X
   vaccine:
     VAC0158L: Rotavirus vaccine, unspecified
     VAC0159C: Szczepionka przeciwko ospie wietrznej
     VAC0159L: Chickenpox vaccine, unspecified
-    VAC0162C: Szczepionka przeciwko brucelozie
     VAC0339C: Pneumokokowa polisacharydowa szczepionka nieskoniugowana, 
       23-walentna
     VAC0339L: Pneumococcal polysaccharide vaccine 23-valent, unspecified
@@ -125,11 +59,8 @@ pl:
       nieokreślony
     VAC1062C: Immunoglobulina przeciw wirusowi cytomegalii, dożylna
     VAC1062L: Immunoglobulina CMV
-    VAC1063C: Szczepionka przeciwko wirusowemu zapaleniu wątroby typu C, 
-      nieokreślona
     VAC1063L: Szczepionka przeciwko wirusowemu zapaleniu wątroby typu C, 
       nieokreślona
-    VAC1064C: Szczepionka przeciwko wirusowi HIV, nieokreślona
     VAC1064L: Szczepionka przeciwko wirusowi HIV, nieokreślona
     VAC1065C: Szczepionka na trąd, nieokreślona
     VAC1065L: Leprosy vaccine
@@ -143,8 +74,6 @@ pl:
       nieokreślona
     VAC1233L: 10-walentna skoniugowana szczepionka przeciw pneumokokom, 
       nieokreślona
-    VAC1263C: Zatwierdzona szczepionka mRNA covid, kodująca białko kolczaste 
-      SARS-COV-2
     VAC1263L: Zatwierdzona szczepionka mRNA covid, kodująca białko kolczaste 
       SARS-COV-2
     VAC1341L: SPIKEVAX BA.4-5 0,1 mg/mL dose 50 µg
@@ -245,35 +174,23 @@ pl:
     VAC1037C: Szczepionka na kleszczowe zapalenie mózgu, inaktywowana całym 
       wirusem, szczep Neudörfl, dawka pediatryczna
     VAC1044C: Szczepionka na Covid-19, inaktywowany cały wirion
-    VAC1066C: Szczepionka na czerniaka, nieokreślona
     VAC1066L: Szczepionka na czerniaka, nieokreślona
-    VAC1067C: Szczepionka Streptococcus pyogenes, nieokreślona
     VAC1067L: Szczepionka Streptococcus pyogenes, nieokreślona
-    VAC1068C: Szczepionka na gorączkę Doliny Rift, nieokreślona
     VAC1068L: Szczepionka na gorączkę Doliny Rift, nieokreślona
-    VAC1069C: Globulina immunologiczna przeciwko szczepionce
     VAC1069L: Vaccinia immune globulin
-    VAC1071C: Przeciwciało lub szczepionka przeciwko wirusowi RSV, nieokreślone
     VAC1071L: Przeciwciało lub szczepionka przeciwko wirusowi RSV, nieokreślone
     VAC1072C: Szczepionka mRNA przeciwko COVID-19, oryginalny wirus, 25 
       mikrogramów
     VAC1072L: Szczepionka mRNA przeciwko COVID-19, wirus oryginalny, 25 µg, 
       nieokreślony
-    VAC1073C: Szczepionka na boreliozę, nieokreślona
     VAC1073L: Szczepionka na boreliozę, nieokreślona
     VAC1075C: Bezkomórkowa szczepionka przeciwko wąglikowi, nieokreślona
     VAC1075L: Bezkomórkowa szczepionka przeciwko wąglikowi, nieokreślona
     VAC1136L: 23-walentna skoniugowana szczepionka przeciw pneumokokom, 
       nieokreślona
-    VAC1233C: Skoniugowana polisacharydowa szczepionka przeciw pneumokokom, 
-      10-walentna, serotypy 1, 4, 5, 6B, 7F, 9V, 14, 18C, 19F i 23F
-    VAC1239C: 15-walentna skoniugowana szczepionka przeciw pneumokokom, 
-      adsorbowana, serotypy 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 22F, 
-      23F i 33F
     VAC1239L: 15-walentna skoniugowana szczepionka przeciw pneumokokom, 
       nieokreślona
     VAC1264L: A(H5) avian influenza vaccine, unspecified
-    VAC1277C: Szczepionka przeciwko chikungunya, nieokreślona
     VAC1277L: Szczepionka przeciwko chikungunya, nieokreślona
     VAC0084C: Szczepionka przeciwko grypie A(H5N1)
     VAC0084L: H5N1 pre-pandemic influenza vaccine, unspecified
@@ -292,7 +209,6 @@ pl:
     VAC0110L: Influenza vaccine, unspecified
     VAC0111C: Żywa atenuowana szczepionka przeciwko żółtej gorączce
     VAC0111L: Yellow fever vaccine, unspecified
-    VAC0112C: Szczepionka przeciwko durowi brzusznemu
     VAC0112L: Typhoid vaccine, unspecified
     VAC0113C: Żywa atenuowana szczepionka przeciwko różyczce
     VAC0113L: Rubella vaccine, unspecified
@@ -321,7 +237,6 @@ pl:
     VAC0138L: Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified
     VAC0143C: Szczepionka skoniugowana przeciwko Haemophilus influenzae typu b
     VAC0143L: Haemophilus influenzae B (or Hib) vaccine, unspecified
-    VAC0144C: Szczepionka przeciwko cholerze
     VAC0144L: Cholera vaccine, unspecified
     VAC0145C: Szczepionka przeciwko kleszczowemu zapaleniu mózgu
     VAC0145L: Tick-borne encephalitis vaccine, unspecified
@@ -349,7 +264,6 @@ pl:
     VAC0153L: Mumps vaccine, unspecified
     VAC0154C: Szczepionka przeciwko malarii (stosowana w badaniach klinicznych)
     VAC0154L: Malaria vaccine, unspecified
-    VAC0155C: Szczepionka przeciwko dendze, nieokreślona
     VAC0155L: Dengue vaccine, unspecified
     VAC0156C: Szczepionka przeciwko wirusowi brodawczaka ludzkiego, 
       niespecyfikowana

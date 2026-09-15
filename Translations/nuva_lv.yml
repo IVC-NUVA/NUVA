@@ -710,71 +710,6 @@ lv:
       frakcionēta vai apakšvienība, normāla deva
     VAL113L: Cilvēka papilomas vīrusa VLP divvērtīgā vakcīna, 16. un 18. tips
     VAL113S: HPV-02-valent
-  disease:
-    DIS001L: Difterija
-    DIS002L: Stingumkrampji
-    DIS003L: Gara klepus
-    DIS004L: Poliomielīts
-    DIS005L: Pfeifera nūjiņa
-    DIS006L: B hepatīts
-    DIS008L: Masalas
-    DIS009L: Epidēmiskais parotīts
-    DIS010L: Masaliņas
-    DIS011L: Vējbakas
-    DIS016L: A hepatīts
-    DIS014L: Tuberkuloze
-    DIS017L: Dzeltenais drudzis
-    DIS015L: Gripa
-    DIS018L: Vēdertīfs
-    DIS025L: Pneimokoku
-    DIS027L: Ērču encefalīts
-    DIS028L: Japāņu encefalīts
-    DIS029L: Bakas-Monkeypox
-    DIS033L: Jostas roze
-    DIS034L: Leptospiroze
-    DIS030L: Trakumsērga
-    DIS031L: Tropu drudzis
-    DIS036L: Holera
-    DIS038L: Cilvēka papilomas vīrusa infekcija
-    DIS032L: Rotavīruss
-    DIS040L: Malārija
-    DIS041L: Bruceloze
-    DIS042L: Eksantēmisks tīfs
-    DIS043L: Meningokoks C
-    DIS044L: Meningokoks A
-    DIS051L: Sibīrijas mēris
-    DIS052L: Botulisms
-    DIS053L: Laima slimība
-    DIS054L: E hepatīts
-    DIS055L: Ebolas vīrusslimība
-    DIS045L: Meningokoks B
-    DIS046L: Meningokoku W
-    DIS047L: Meningokoks Y
-    DIS048L: Meningokoku
-    DIS050L: Putnu gripa
-    DIS056L: Čikungunja
-    DIS057L: COVID-19
-    DIS058L: Respiratori sinicitāls vīruss
-    DIS059L: Mēris
-    DIS060L: Herpes
-    DIS061L: Tularēmija
-    DIS062L: Argentīnas hemorāģiskais drudzis
-    DIS063L: Adenovīruss
-    DIS064L: Venecuēlas zirgu encefalīts
-    DIS065L: Q drudzis
-    DIS066L: Hantavīruss
-    DIS067L: Leišmanioze
-    DIS068L: Cilvēka paragripas vīrusi
-    DIS075L: Rifta ielejas drudzis
-    DIS076L: Urīnceļu infekcija
-    DIS070L: Citomegalovīruss
-    DIS071L: C hepatīts
-    DIS072L: HIV infekcija
-    DIS073L: Melanoma
-    DIS074L: Streptococcus pyogenes
-    DIS078L: Lēproze
-    DIS079L: Pseudomonas aeruginosa
-    DIS080L: Meningokoks X
   vaccine:
     VAC0084L: H5N1 pre-pandemic influenza vaccine, unspecified
     VAC0088C: Difterijas toksoīda (standarta deva), stingumkrampju toksoīda un 
@@ -883,21 +818,17 @@ lv:
     VAC1044L: Covid-19 vakcīna, viss virions inaktivēts, neprecizēts
     VAC1062C: Citomegalovīrusa imūnglobulīns, intravenozi
     VAC1062L: CMV imūnglobulīns
-    VAC1063C: C hepatīta vakcīna, neprecizēta
     VAC1063L: C hepatīta vakcīna, neprecizēta
     VAC1075C: Acelulārā Sibīrijas mēra vakcīna, neprecizēta
     VAC1075L: Acelulārā Sibīrijas mēra vakcīna, neprecizēta
     VAC1233L: Pneimokoku 10-valentā konjugētā vakcīna, neprecizēta
-    VAC1263C: Autorizēta mRNS Covid vakcīna, kas kodē SARS-COV-2 smaile proteīnu
     VAC1263L: Autorizēta mRNS Covid vakcīna, kas kodē SARS-COV-2 smaile proteīnu
     VAC1264L: A(H5) avian influenza vaccine, unspecified
-    VAC1277C: Vakcīna pret čikungunju, neprecizēta
     VAC1277L: Vakcīna pret čikungunju, neprecizēta
     VAC1341L: SPIKEVAX BA.4-5 0,1 mg/mL dose 50 µg
     VAC0084C: A(H5N1) gripas vakcīna
     VAC0102C: Inaktivēta A hepatīta vakcīna, bērnu vai pieaugušo deva
     VAC0102L: Nespecificēta inaktivēta A hepatīta vakcīna
-    VAC0112C: Vakcīna pret vēdertīfu
     VAC0112L: Typhoid vaccine, unspecified
     VAC0110C: Sezonas gripas vakcīna
     VAC0113C: Dzīva novājināta masaliņu vakcīna
@@ -924,7 +855,6 @@ lv:
     VAC0137C: Difterijas toksoīda (standarta deva) un stingumkrampju toksoīda 
       pediatriskā vakcīna
     VAC0137L: DT vaccine, unspecified
-    VAC0144C: Holeras vakcīna
     VAC0144L: Cholera vaccine, unspecified
     VAC0145C: Ērču encefalīta vakcīna
     VAC0145L: Tick-borne encephalitis vaccine, unspecified
@@ -949,12 +879,10 @@ lv:
     VAC0153L: Mumps vaccine, unspecified
     VAC0154C: Vakcīna pret malāriju (izmantota klīniskajos pētījumos)
     VAC0154L: Malaria vaccine, unspecified
-    VAC0155C: Denges drudža vakcīna, neprecizēta
     VAC0159C: Vējbaku vakcīna
     VAC0159L: Chickenpox vaccine, unspecified
     VAC0160C: Dzīva novājināta vakcīna pret šinšļiem
     VAC0160L: Live attenuated shingles vaccine, unspecified
-    VAC0162C: Brucelozes vakcīna
     VAC0162L: Brucellosis vaccine, unspecified
     VAC0163C: Pilno šūnu inaktivētā garo klepus klepus vakcīna
     VAC0163L: Whole-cell inactivated pertussis vaccine, unspecified
@@ -1269,7 +1197,6 @@ lv:
     VAC1042C: Covid-19 vakcīna, nereplicējošs vīrusu vektors
     VAC1042L: Covid-19 vakcīna, nereplicējošs vīrusu vektors, nav precizēts
     VAC1043C: Covid-19 vakcīna, proteīna apakšvienība
-    VAC1064C: HIV vakcīna, neprecizēta
     VAC1064L: HIV vakcīna, neprecizēta
     VAC1065C: Vakcīna pret lepru, neprecizēta
     VAC1038C: Vakcīna pret ērču encefalītu, inaktivēts viss vīruss, Neudörfl 
@@ -1277,19 +1204,13 @@ lv:
     VAC1038L: Vakcīna pret ērču encefalītu, Neudörfl celms, pieaugušo deva, 
       neprecizēta
     VAC1065L: Leprosy vaccine
-    VAC1066C: Melanomas vakcīna, neprecizēta
     VAC1066L: Melanomas vakcīna, neprecizēta
-    VAC1067C: Streptococcus pyogenes vakcīna, neprecizēta
     VAC1067L: Streptococcus pyogenes vakcīna, neprecizēta
-    VAC1068C: Rifta ielejas drudža vakcīna, neprecizēta
     VAC1068L: Rifta ielejas drudža vakcīna, neprecizēta
-    VAC1069C: Vaccinia imūnglobulīns
     VAC1069L: Vaccinia immune globulin
-    VAC1071C: RSV antiviela vai vakcīna, neprecizēta
     VAC1071L: RSV antiviela vai vakcīna, neprecizēta
     VAC1072C: Covid-19 mRNS vakcīna, oriģināls vīruss, 25 mikrogrami
     VAC1072L: Covid-19 mRNS vakcīna, oriģināls vīruss, 25 µg, neprecizēts
-    VAC1073C: Vakcīna pret Laima slimību, neprecizēta
     VAC1073L: Vakcīna pret Laima slimību, neprecizēta
     VAC1136L: Pneimokoku 23-valenta konjugētā vakcīna, neprecizēta
     VAC1163C: 20-valenta pneimokoku konjugētā vakcīna, adsorbēta, 1., 3., 4., 

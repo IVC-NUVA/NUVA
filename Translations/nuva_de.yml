@@ -14,7 +14,6 @@ de:
     VAC0138L: Diphtheria-Tetanus-Pertussis-Polio vaccine, unspecified
     VAC0143C: Konjugatimpfstoff gegen Haemophilus influenzae Typ b
     VAC0143L: Haemophilus influenzae B (or Hib) vaccine, unspecified
-    VAC0144C: Impfstoff gegen Cholera
     VAC0144L: Cholera vaccine, unspecified
     VAC0145C: Impfstoff gegen durch Zecken übertragene Enzephalitis
     VAC0145L: Tick-borne encephalitis vaccine, unspecified
@@ -24,7 +23,6 @@ de:
     VAC0149L: Meningococcal B:14:P1.7,16 vaccine, unspecified
     VAC0150C: Meningokokken-C-Konjugatimpfstoff
     VAC0152L: Unconjugated meningococcal vaccine ACWY, unspecified
-    VAC0155C: Dengue-Impfstoff, nicht näher bezeichnet
     VAC0155L: Dengue vaccine, unspecified
     VAC0156C: Humaner Papillomavirus-Impfstoff, nicht spezifiziert
     VAC0156L: HPV Vaccine
@@ -79,7 +77,6 @@ de:
     VAC0110L: Influenza vaccine, unspecified
     VAC0111C: Attenuierter Lebendimpfstoff gegen Gelbfieber
     VAC0111L: Yellow fever vaccine, unspecified
-    VAC0112C: Impfstoff gegen Typhus
     VAC0112L: Typhoid vaccine, unspecified
     VAC0113C: Attenuierter Röteln-Lebendimpfstoff
     VAC0113L: Rubella vaccine, unspecified
@@ -131,7 +128,6 @@ de:
     VAC0320L: OPV 1-2-3, unspecified
     VAC0160C: Abgeschwächter Lebendimpfstoff gegen Gürtelrose
     VAC0160L: Live attenuated shingles vaccine, unspecified
-    VAC0162C: Impfstoff gegen Brucellose
     VAC0162L: Brucellosis vaccine, unspecified
     VAC0163C: Inaktivierter Keuchhusten-Vollzellimpfstoff
     VAC0163L: Whole-cell inactivated pertussis vaccine, unspecified
@@ -509,24 +505,16 @@ de:
     VAC1062C: Zytomegalievirus-Immunglobulin, intravenös
     VAC1062L: CMV-Immunglobulin
     VAC1067L: Impfstoff gegen Streptococcus pyogenes, nicht näher bezeichnet
-    VAC1068C: Impfstoff gegen Rift-Valley-Fieber, nicht näher bezeichnet
     VAC1068L: Impfstoff gegen Rift-Valley-Fieber, nicht näher bezeichnet
-    VAC1063C: Hepatitis-C-Impfstoff, nicht näher bezeichnet
     VAC1063L: Hepatitis-C-Impfstoff, nicht näher bezeichnet
-    VAC1064C: HIV-Impfstoff, nicht näher bezeichnet
     VAC1064L: HIV-Impfstoff, nicht näher bezeichnet
     VAC1065C: Lepraimpfstoff, nicht spezifiziert
     VAC1065L: Leprosy vaccine
-    VAC1066C: Melanom-Impfstoff, nicht näher bezeichnet
     VAC1066L: Melanom-Impfstoff, nicht näher bezeichnet
-    VAC1067C: Impfstoff gegen Streptococcus pyogenes, nicht näher bezeichnet
-    VAC1069C: Vaccinia-Immunglobulin
     VAC1069L: Vaccinia immune globulin
-    VAC1071C: RSV-antistof eller -vaccine, uspecificeret
     VAC1071L: RSV-antistof eller -vaccine, uspecificeret
     VAC1072C: COVID-19-mRNA-Impfstoff, Originalvirus, 25 Mikrogramm
     VAC1072L: COVID-19-mRNA-Impfstoff, Originalvirus, 25 µg, nicht spezifiziert
-    VAC1073C: Impfstoff gegen Lyme-Borreliose, nicht näher bezeichnet
     VAC1073L: Impfstoff gegen Lyme-Borreliose, nicht näher bezeichnet
     VAC1075C: Azellulärer Anthrax-Impfstoff, nicht näher bezeichnet
     VAC1136L: 23-valenter konjugierter Pneumokokken-Impfstoff, nicht näher 
@@ -540,91 +528,17 @@ de:
     VAC1136C: Konjugierter Polyosid-Pneumokokken-Impfstoff, 23-valent, Serotypen
       1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 
       19F, 20, 22F, 23F und 33F
-    VAC1233C: Konjugierter Polyosid-Pneumokokken-Impfstoff, 10-valent, Serotypen
-      1, 4, 5, 6B, 7F, 9V, 14, 18C, 19F und 23F
     VAC1233L: 10-valenter konjugierter Pneumokokken-Impfstoff, nicht näher 
       bezeichnet
-    VAC1239C: Konjugierter, 15-valenter, adsorbierter 
-      Polyosid-Pneumokokken-Impfstoff, Serotypen 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14,
-      18C, 19A, 19F, 22F, 23F und 33F
     VAC1239L: Konjugierter Pneumokokken-Impfstoff, 15-valent, nicht näher 
       bezeichnet
-    VAC1247C: Hepatitis-A-Impfstoff, nicht näher bezeichnet
     VAC1247L: Hepatitis-A-Impfstoff, nicht näher bezeichnet
-    VAC1263C: mRNA-Covid-Impfstoff, der das SARS-COV-2-Spike-Protein kodiert, 
-      zugelassen
     VAC1263L: mRNA-Covid-Impfstoff, der das SARS-COV-2-Spike-Protein kodiert, 
       zugelassen
     VAC1264L: A(H5) avian influenza vaccine, unspecified
-    VAC1277C: Impfstoff gegen Chikungunya, ohne nähere Angaben
     VAC1277L: Impfstoff gegen Chikungunya, ohne nähere Angaben
     VAC1311L: Meningococcal ACWXY conjugate vaccine, unspecified
     VAC1341L: SPIKEVAX BA.4-5 0,1 mg/mL dose 50 µg
-  disease:
-    DIS005L: Haemophilus influenzae b-Infektion
-    DIS006L: Hepatitis B
-    DIS008L: Masern
-    DIS009L: Mumps
-    DIS010L: Röteln
-    DIS011L: Windpocken
-    DIS014L: Tuberkulose
-    DIS015L: Influenza
-    DIS017L: Gelbfieber
-    DIS025L: Pneumokokken
-    DIS029L: Pocken-Monkeypox
-    DIS030L: Tollwut
-    DIS031L: Denguefieber
-    DIS032L: Rotavirus
-    DIS033L: Herpes Zoster
-    DIS034L: Leptospirose
-    DIS036L: Cholera
-    DIS038L: Humane Papillomviren
-    DIS040L: Malaria
-    DIS041L: Brucellose
-    DIS042L: Exanthematischer Typhus
-    DIS043L: Meningococcus C
-    DIS044L: Meningokokken A
-    DIS045L: Meningokokken B
-    DIS046L: Meningokokken W
-    DIS047L: Meningokokken Y
-    DIS050L: Geflügelpest
-    DIS051L: Milzbrand
-    DIS048L: Meningokokken
-    DIS052L: Botulismus
-    DIS053L: Lyme-borreliose
-    DIS054L: Hepatitis E
-    DIS055L: Ebolafieber
-    DIS057L: COVID-19
-    DIS058L: Respiratorisches Syncytial-Virus
-    DIS059L: Pest
-    DIS056L: Chikungunyafieber
-    DIS060L: Herpes
-    DIS061L: Tularämie
-    DIS001L: Diphtherie
-    DIS002L: Tetanus
-    DIS003L: Keuchhusten
-    DIS016L: Hepatitis A
-    DIS018L: Typhus
-    DIS027L: Frühsommer-Meningoenzephalitis
-    DIS028L: Japanische enzephalitis
-    DIS063L: Adenovirus
-    DIS062L: Argentinisches hämorrhagisches Fieber
-    DIS064L: Venezolanische Pferdeenzephalitis
-    DIS065L: Q-Fieber
-    DIS066L: Hantavirus
-    DIS067L: Leishmaniose
-    DIS068L: Menschliche Parainfluenza-Viren
-    DIS070L: Cytomegalovirus
-    DIS071L: Hepatitis C
-    DIS072L: HIV infektion
-    DIS073L: Melanom
-    DIS074L: Streptococcus pyogenes
-    DIS075L: Rift-Valley-Fieber
-    DIS076L: Harnwegsinfektion
-    DIS078L: Lepra
-    DIS079L: Pseudomonas aeruginosa
-    DIS080L: Meningokokken X
-    DIS004L: Poliomyelitis
   valence:
     VAL001S: Inf-L3
     VAL008S: aP
