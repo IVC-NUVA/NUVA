@@ -72,6 +72,9 @@ function showVaccines() {
 		}
 
 		instancesCell = row.insertCell(-1)		
+		
+		if (filterLabel == '') foundLabel = true
+		
 		for (idchild of extvaccines[idvac].instances.sort(sortByVacLabel)) {
 			vdesc = document.createElement('div')	
 			vdesc.appendChild(vaccineTag(idchild))
@@ -83,6 +86,7 @@ function showVaccines() {
 			vdesc.appendChild(childLabel)
 			instancesCell.appendChild(vdesc)			
 		}
+		
 		if (!foundLabel) hidden = true
 		row.style.display = (hidden?'none':'table-row')
 	

@@ -18,7 +18,8 @@ The first 6 digits represent the product, the last 3 being for the presentation.
 ## ATC (Global)
 The Anatomical Therapeutic Chemical Classification (ATC) from WHO is the global reference for the purpose of active substances. Vaccines are classified under J07.
 
-The codes are available from many sources, such as https://atcddd.fhi.no/atc_ddd_index/?code=J07
+The codes used here are fetched from the scraping repositoty at https://github.com/fabkury/atcd
+
 
 ## CIP (France)
 This is the code for packaged products in France, edited by the "Club Inter Pharmaceutique". The legacy 7 digits version (CIP7) has been replaced since 2009 with a 13 digits version CIP13 that is aligned here. The first 4 digits are always 3400.

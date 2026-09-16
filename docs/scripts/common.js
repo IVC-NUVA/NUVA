@@ -11,17 +11,19 @@ var logTimer = null
 
 /* Keep context in local storage*/
 function loadFromSession(key, value) {
-    json = sessionStorage.getItem(key)
+	storage = (window.location.protocol == 'file:'?sessionStorage:localStorage)
+    json = storage.getItem(key)
 	if (json == null) {
 		json = JSON.stringify(value)
-		sessionStorage.setItem(key, json)
+		storage.setItem(key, json)
 	}
 	return JSON.parse(json)
 }
 
 function saveToSession(key, value) {
+	storage = (window.location.protocol == 'file:'?sessionStorage:localStorage)	
     json = JSON.stringify(value)
-	sessionStorage.setItem(key, json)
+	storage.setItem(key, json)
 }
 
 // Alert box
