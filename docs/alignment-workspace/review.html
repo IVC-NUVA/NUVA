@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NUVA editor</title>
+    <link href = "../style/styles.css" rel="stylesheet">
+    <link href = "style/alignment.css" rel="stylesheet">
+    <script type = 'text/javascript' src='../scripts/common.js'></script>
+    <script type = 'text/javascript' src='../scripts/nuvafiles.js'></script>
+    <script type = 'text/javascript' src='scripts/workspace-storage.js'></script>
+    <script type = 'text/javascript' src='scripts/workspace-model.js'></script>
+    <script type = 'text/javascript' src='scripts/workspace-review.js'></script>
+</head>
+<body>
+<nav class="sidebar">
+  <h1>NUVA</h1>
+  <ul>
+    <li><a href="../index.html">Usage</a></li>
+    <li><a href="../vaccines.html">Vaccines</a></li>
+    <li><a href="../valences.html">Valences</a></li>
+    <li><a href="../files.html">Files</a></li>
+    <li><a href="../extcodes.html">Code Systems</a></li>
+    <li><a href="index.html">Alignment Workspace</a></li>
+  </ul>
+  <h2 style="font-size:16px;margin-top:30px;">Alignment Workspace</h2>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="import.html">Import</a></li>
+    <li><a href="review.html">Review</a></li>
+  </ul>
+</nav>
+
+<main class="content">
+<h1>Review alignments</h1>
+<div id="wsHeader" class="box">Loading&hellip;</div>
+
+<div class="ws-columns">
+  <div class="ws-queue">
+    <p>
+    <input id="wsFilter" type="text" placeholder="Search code or label" oninput="wsRenderQueue()">
+    <select id="wsStatusFilter" onchange="wsRenderQueue()">
+      <option value="">All statuses</option>
+      <option value="unreviewed">Unreviewed</option>
+      <option value="in_progress">In progress</option>
+      <option value="aligned">Aligned</option>
+    </select>
+    </p>
+    <div class="scrollbox" style="height:500px">
+    <table>
+      <tr><th>Code</th><th>Label</th><th>Status</th><th>NUVA</th></tr>
+      <tbody id="wsQueueBody"></tbody>
+    </table>
+    </div>
+  </div>
+  <div class="ws-detail" id="wsDetail">
+    <p>Select a code from the work queue.</p>
+  </div>
+</div>
+
+</main>
+
+<div id='alertbox' class="alert" onclick = ackAlert()>
+<p id='alertmsg' valign='center' align='center'>Message</p>
+</div>
+
+<script type="text/javascript">
+window.onload = function () {
+	document.page = "AlignmentWorkspace"
+	wsReviewInit()
+}
+</script>
+
+</body>
+</html>

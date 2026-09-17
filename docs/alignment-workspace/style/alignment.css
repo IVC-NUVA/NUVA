@@ -1,0 +1,45 @@
+/* Alignment Workspace additions, layered on top of ../../style/styles.css.
+   Reuses .box/.sidebar/.content/.scrollbox/table from the core stylesheet;
+   only adds what the workspace needs on top of it. */
+
+.ws-columns {
+	display: flex;
+	gap: 20px;
+	align-items: flex-start;
+}
+
+.ws-queue {
+	flex: 0 0 45%;
+}
+
+.ws-detail {
+	flex: 1;
+	min-width: 0;
+}
+
+.ws-status {
+	padding: 2px 8px;
+	border-radius: 8px;
+	color: white;
+	display: inline-block;
+}
+
+.ws-status-unreviewed { background-color: #888; }
+.ws-status-in_progress { background-color: #e08a00; }
+.ws-status-aligned { background-color: green; }
+
+.ws-form label {
+	display: block;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.ws-form input[type=text] {
+	width: 95%;
+	padding: 4px;
+	margin-top: 2px;
+}
+
+.ws-form textarea {
+	margin-top: 2px;
+}
