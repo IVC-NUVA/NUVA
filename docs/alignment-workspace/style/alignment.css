@@ -2,6 +2,22 @@
    Reuses .box/.sidebar/.content/.scrollbox/table from the core stylesheet;
    only adds what the workspace needs on top of it. */
 
+.sidebar .ws-subnav {
+	display: block;
+	list-style: none;
+	padding-left: 20px;
+	margin: 10px 0 0 0;
+}
+
+.sidebar .ws-subnav li {
+	margin-bottom: 10px;
+}
+
+.sidebar a.ws-current {
+	color: white;
+	font-weight: bold;
+}
+
 .ws-columns {
 	display: flex;
 	gap: 20px;
