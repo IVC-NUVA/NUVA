@@ -9,7 +9,7 @@
     <script type = 'text/javascript' src='scripts/workspace-storage.js'></script>
     <script type = 'text/javascript' src='scripts/workspace-model.js'></script>
     <script type = 'text/javascript' src='scripts/workspace-reconcile.js'></script>
-    <script type = 'text/javascript' src='scripts/workspace-review.js'></script>
+    <script type = 'text/javascript' src='scripts/workspace-requests.js'></script>
 </head>
 <body>
 <nav class="sidebar">
@@ -33,32 +33,34 @@
 </nav>
 
 <main class="content">
-<h1>Review alignments</h1>
-<div id="wsHeader" class="box">Loading&hellip;</div>
+<h1>NUVA requests</h1>
+<div id="wsRequestsBody">
+<p>Provisional requests for NUVA content missing while reviewing alignments (UC-6, UC-7). Resolving a request always requires entering the official NUVA code once it is created in a NUVA release - a suggested match is never applied automatically.</p>
 
 <div class="ws-columns">
   <div class="ws-queue">
-    <p>
-    <input id="wsFilter" type="text" placeholder="Search code or label" oninput="wsRenderQueue()">
-    <select id="wsStatusFilter" onchange="wsRenderQueue()">
-      <option value="">All statuses</option>
-      <option value="unreviewed">Unreviewed</option>
-      <option value="in_progress">In progress</option>
-      <option value="aligned">Aligned</option>
-    </select>
-    </p>
-    <div class="scrollbox" style="height:500px">
+    <h3>Requested valences</h3>
+    <div class="scrollbox" style="height:220px">
     <table>
-      <tr><th>Code</th><th>Label</th><th>Status</th><th>NUVA</th></tr>
-      <tbody id="wsQueueBody"></tbody>
+      <tr><th>ID</th><th>Label</th><th>Status</th><th>Affected codes</th><th>Match</th></tr>
+      <tbody id="wsValReqBody"></tbody>
+    </table>
+    </div>
+
+    <h3>Requested NUVA vaccine combinations</h3>
+    <div class="scrollbox" style="height:220px">
+    <table>
+      <tr><th>ID</th><th>Valences</th><th>Label</th><th>Status</th><th>Affected codes</th><th>Match</th></tr>
+      <tbody id="wsVacReqBody"></tbody>
     </table>
     </div>
   </div>
-  <div class="ws-detail" id="wsDetail">
-    <p>Select a code from the work queue.</p>
+  <div class="ws-detail" id="wsRequestDetail">
+    <p>Select a request to view or resolve it.</p>
   </div>
 </div>
 
+</div>
 </main>
 
 <div id='alertbox' class="alert" onclick = ackAlert()>
@@ -68,7 +70,7 @@
 <script type="text/javascript">
 window.onload = function () {
 	document.page = "AlignmentWorkspace"
-	wsReviewInit()
+	wsRequestsInit()
 }
 </script>
 

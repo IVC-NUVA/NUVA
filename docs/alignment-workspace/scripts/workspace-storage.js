@@ -8,7 +8,27 @@ const WS_DB_NAME = 'nuvaAlignmentWorkspace'
 const WS_DB_VERSION = 1
 const WS_STORE = 'workspace'
 const WS_KEY = 'active'
-const WS_SCHEMA_VERSION = 1
+const WS_SCHEMA_VERSION = 2
+const WS_MIN_SCHEMA_VERSION = 1
+
+// v1 -> v2 added provisional NUVA requests and per-record change tracking.
+// Old bundles are upgraded in place with defaults rather than rejected (FR-39).
+function wsMigrateBundle(data) {
+	if (data.schemaVersion == WS_SCHEMA_VERSION) return data
+	if (!data.valenceRequests) data.valenceRequests = {}
+	if (!data.vaccineRequests) data.vaccineRequests = {}
+	for (code in data.records) {
+		record = data.records[code]
+		if (record.questions === undefined) record.questions = ''
+		if (record.changeFlags === undefined) record.changeFlags = []
+		if (record.pendingSourceUpdate === undefined) record.pendingSourceUpdate = null
+		if (record.requestedValenceIds === undefined) record.requestedValenceIds = []
+		if (record.requestedVaccineId === undefined) record.requestedVaccineId = null
+		if (record.decisionHistory === undefined) record.decisionHistory = []
+	}
+	data.schemaVersion = WS_SCHEMA_VERSION
+	return data
+}
 
 function wsOpenDB() {
 	return new Promise(function (resolve, reject) {
@@ -41,7 +61,7 @@ function wsLoadWorkspace() {
 		return new Promise(function (resolve, reject) {
 			tx = db.transaction(WS_STORE, 'readonly')
 			req = tx.objectStore(WS_STORE).get(WS_KEY)
-			req.onsuccess = function () { resolve(req.result || null) }
+			req.onsuccess = function () { resolve(req.result ? wsMigrateBundle(req.result) : null) }
 			req.onerror = function () { reject(req.error) }
 		})
 	})
@@ -70,8 +90,8 @@ function wsValidateBundle(data) {
 		errors.push('File is not a valid JSON object.')
 		return errors
 	}
-	if (data.schemaVersion != WS_SCHEMA_VERSION) {
-		errors.push(`Unsupported or missing schema version (expected ${WS_SCHEMA_VERSION}).`)
+	if (typeof data.schemaVersion != 'number' || data.schemaVersion < WS_MIN_SCHEMA_VERSION || data.schemaVersion > WS_SCHEMA_VERSION) {
+		errors.push(`Unsupported schema version (got ${data.schemaVersion}, supported ${WS_MIN_SCHEMA_VERSION}-${WS_SCHEMA_VERSION}).`)
 	}
 	if (!data.codeSystem || !data.codeSystem.id) {
 		errors.push('Missing code-system identifier.')
@@ -96,7 +116,7 @@ function wsImportWorkspaceFile(file) {
 			if (errors.length) {
 				reject(errors)
 			} else {
-				resolve(data)
+				resolve(wsMigrateBundle(data))
 			}
 		}
 		reader.onerror = function () { reject(['Cannot read the file.']) }

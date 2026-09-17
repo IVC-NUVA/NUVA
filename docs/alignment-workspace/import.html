@@ -26,6 +26,8 @@
     <li><a href="index.html">Home</a></li>
     <li><a href="import.html">Import</a></li>
     <li><a href="review.html">Review</a></li>
+    <li><a href="requests.html">Requests</a></li>
+    <li><a href="reports.html">Reports</a></li>
   </ul>
 </nav>
 
@@ -40,6 +42,13 @@
 </div>
 
 <div id="wsMapping"></div>
+
+<h2>Start from an existing alignment</h2>
+<div class="box">
+<p>Initialize or extend this workspace from a direct map already used by the Code Systems tools, such as <code>CVX2nuva.csv</code>. The first row is <code>CSID,NUVA,label</code>; each following row is <code>EXTCODE,VACnnnn,"label"</code>. Matching records are created with status <b>imported</b>, their NUVA vaccine retained, and their valences derived from that vaccine - they still need review, but are not treated as newly reviewed.</p>
+<button onclick="wsSelectBaselineFile()">Choose direct-map CSV file</button>
+<input id="wsBaselineFile" type='file' accept='.csv' style="display:none" onchange="wsHandleBaselineFile()">
+</div>
 
 <h2>Execution log</h2>
 <div id="log" class="scrollbox"></div>
@@ -96,7 +105,8 @@ function wsRenderMapping() {
 		}
 		html += '</select></td></tr>'
 	}
-	html += `</table><button onclick="wsRunImport()">Import into workspace</button></div>`
+	html += `<p><label><input type="checkbox" id="wsReconcileMode"> This is an updated version of a source file already imported - reconcile changes instead of skipping existing codes (UC-10)</label></p>`
+	html += `<button onclick="wsRunImport()">Import into workspace</button></div>`
 	el.innerHTML = html
 }
 
@@ -116,6 +126,17 @@ function wsRunImport() {
 		return
 	}
 	rows = wsMapRows(wsParsedCSV, mapping)
+	if (document.getElementById('wsReconcileMode').checked) {
+		result = wsReconcileSourceRows(wsWorkspace, rows)
+		wsSaveWorkspace(wsWorkspace).then(function (saved) {
+			wsWorkspace = saved
+			msg = `Reconciled source file: ${result.added.length} new, ${result.changed.length} changed (flagged for review), ` +
+				`${result.missingFromSource.length} missing from the new file (flagged), ${result.unchanged.length} unchanged.`
+			doLog(msg)
+			showAlert(msg + ' Go to Review to continue.')
+		})
+		return
+	}
 	result = wsAddRecords(wsWorkspace, rows)
 	wsSaveWorkspace(wsWorkspace).then(function (saved) {
 		wsWorkspace = saved
@@ -127,11 +148,47 @@ function wsRunImport() {
 	})
 }
 
+function wsSelectBaselineFile() {
+	selector = document.getElementById('wsBaselineFile')
+	selector.value = ''
+	selector.click()
+}
+
+function wsHandleBaselineFile() {
+	if (!wsWorkspace) {
+		showAlert('No active workspace. Create one from the Home page first.')
+		return
+	}
+	file = document.getElementById('wsBaselineFile').files[0]
+	if (!file) return
+	reader = new FileReader()
+	reader.onload = function () {
+		directMap = wsParseDirectMap(reader.result)
+		if (!directMap.csid) {
+			showAlert('Could not read a code-system column from this file.')
+			return
+		}
+		result = wsImportBaseline(wsWorkspace, directMap)
+		wsSaveWorkspace(wsWorkspace).then(function (saved) {
+			wsWorkspace = saved
+			msg = `Imported ${result.added.length} code(s) from ${directMap.csid}.`
+			if (result.duplicates.length) msg += ` Skipped ${result.duplicates.length} already in the workspace.`
+			if (result.invalid.length) msg += ` Skipped ${result.invalid.length} row(s) referencing a NUVA code that no longer exists.`
+			doLog(msg)
+			showAlert(msg + ' Go to Review to continue.')
+		})
+	}
+	reader.onerror = function () { showAlert('Cannot read the file') }
+	reader.readAsText(file)
+}
+
 window.onload = function () {
 	document.page = "AlignmentWorkspace"
 	initLog()
 	fetch('../data/nuvadata.json').then(function (response) { return response.json() }).then(function (data) {
 		defaultData = data
+		vaccines = data.vaccines
+		valences = data.valences
 		wsLoadWorkspace().then(function (ws) {
 			wsWorkspace = ws
 			if (!wsWorkspace) {

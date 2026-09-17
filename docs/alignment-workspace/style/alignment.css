@@ -25,8 +25,26 @@
 }
 
 .ws-status-unreviewed { background-color: #888; }
+.ws-status-imported { background-color: #6c757d; }
 .ws-status-in_progress { background-color: #e08a00; }
+.ws-status-needs_information { background-color: #c0392b; }
+.ws-status-awaiting_new_valence { background-color: #8e44ad; }
+.ws-status-awaiting_new_vaccine { background-color: #8e44ad; }
+.ws-status-needs_review { background-color: #c0392b; }
 .ws-status-aligned { background-color: green; }
+.ws-status-out_of_scope { background-color: #444; }
+
+.ws-flag {
+	background-color: #c0392b;
+	color: white;
+	border-radius: 8px;
+	padding: 0 6px;
+	font-size: 0.85em;
+}
+
+.ws-warning {
+	background-color: #f5d6a8;
+}
 
 .ws-form label {
 	display: block;
