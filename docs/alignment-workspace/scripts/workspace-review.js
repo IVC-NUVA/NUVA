@@ -75,6 +75,7 @@ function wsRenderQueue() {
 
 function wsSelectRecord(code) {
 	wsActiveCode = code
+	saveToSession('selectedExtCode',wsActiveCode)
 	wsRenderQueue()
 	wsRenderDetail()
 }

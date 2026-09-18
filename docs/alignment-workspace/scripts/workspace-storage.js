@@ -46,6 +46,7 @@ function wsOpenDB() {
 
 function wsSaveWorkspace(workspace) {
 	workspace.modified = today()
+	saveToSession("wsExtCodes",workspace)
 	return wsOpenDB().then(function (db) {
 		return new Promise(function (resolve, reject) {
 			tx = db.transaction(WS_STORE, 'readwrite')
