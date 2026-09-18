@@ -1,0 +1,30 @@
+name: Generate all files
+run-name: Creating files
+on:
+  push:
+    paths:
+      - Units/**
+  workflow_dispatch:
+jobs:
+  Create_Files:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:     
+      - name: Check out repository code
+        uses: actions/checkout@v7   
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install rdflib PyYAML oxigraph oxrdflib pyoxigraph
+      - run: python3 ${{github.workspace}}/.github/scripts/GenDoc.py
+      - run: python3 ${{github.workspace}}/.github/scripts/GenCSV.py
+      - run: python3 ${{github.workspace}}/.github/scripts/GenRDF.py
+      - name: Commit
+        run: |
+            git config --global user.name ${{ github.actor }}
+            git config --global user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"            
+            git add -A
+            git commit -am "Creating all files from Unit files"
+            git push

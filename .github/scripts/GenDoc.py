@@ -1,5 +1,5 @@
 import yaml,json
-import sys,pathlib
+import pathlib
 
 def loadUnits(type):
     print (f'Loading {type} units')

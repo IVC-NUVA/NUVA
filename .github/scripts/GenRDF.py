@@ -1,9 +1,6 @@
 from rdflib import *
-import yaml,csv,json
-import sys, os, pathlib
-from pathlib import Path
-from datetime import datetime
-from lib import nuva_utils as NU
+import yaml,csv
+import pathlib
 
 nuva_void="""
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -75,16 +72,29 @@ def loadUnits(type):
     return dict(sorted(tempdir.items()))
 
 def loadLanguages():
-    files = pathlib.Path(f'Translations').rglob('nuva_*.yml')
+    files = pathlib.Path('Translations').rglob('nuva_*.yml')
     for file in files:
         with open(file, encoding='utf-8') as data:
             langterms = yaml.safe_load(data)
             lang=next(iter(langterms))
-        for theme in ['disease','valence','vaccine']:
+        for theme in ['valence','vaccine']:
             for key,term in langterms[lang][theme].items():
                 if key not in Terms:
                     Terms[key] = {}
                 Terms[key][lang] = term
+
+def loadAlignments():
+    alignments = {}
+    files = pathlib.Path('Alignments').rglob('*2nuva.csv')
+    for file in files:
+        with open(file,encoding='utf-8') as data:
+            reader =  csv.reader(data, delimiter=',')
+            codeSystem = next(reader)[0]
+            alignments[codeSystem] = []
+            for row in reader:
+                alignments[codeSystem].append(row)
+    return alignments
+
 
 def addLanguages(ref,predicate,key):
     if not key in Terms:
@@ -120,139 +130,69 @@ Codes = {}
 
 Vaccines = loadUnits("Vaccines")
 Valences = loadUnits("Valences")
-Targets = loadUnits("Targets")
-CodeSystems = loadUnits("CodeSystems")
 
 loadLanguages()
+alignments = loadAlignments()
 
-for code,data in Targets.items():
-    Target = URIRef(f'{BaseURI}/{code}')
-    addClass(Target,DiseasesParent,data['label'],None, None,data['created'],data['modified'], True)
-    addLanguages(Target,RDFS.label,f'{code}L')
+version = "2000-01-01"
 
-for codeSystem in CodeSystems.keys():
+for codeSystem in alignments.keys():
     Codes[codeSystem] = {}
     uri = URIRef(f'{BaseURI}/{codeSystem}')
     full.add((uri,RDF.type, OWL.Class))
     full.add((uri,RDFS.subClassOf,CodeSystemsParent))
     full.add((uri,RDFS.label,Literal(codeSystem)))
-    full.add((uri,RDFS.comment, Literal(CodeSystems[codeSystem]['description'],lang='en')))
 
 for code,data in Vaccines.items():
     Vaccine=URIRef(f'{BaseURI}/{code}')
-    addClass(Vaccine,VaccinesParent,data['label'],data.get('comment',None),code,data['created'], data['modified'], data['abstract'])
+    if data['abstract']:
+        Parent = VaccinesParent
+    else:
+        if data['instanceOf']:
+            Parent = URIRef(f'{BaseURI}/{data['instanceOf']}')
+        else:
+            Parent = URIRef(f'{BaseURI}/VAC0000')
+
+    addClass(Vaccine,Parent,data['label'],None,code,data['created'], data['modified'], data['abstract'])
     core.add((Vaccine,isAbstract,Literal(data['abstract'],datatype=XSD.boolean)))
-    for valence in data['valences']:
-        core.add((Vaccine,containsValence,URIRef(f'{BaseURI}/{valence}')))
-    NUVACode=data['codes']['NUVACode']
-    core.add((Vaccine,SKOS.notation,Literal(NUVACode,datatype=URIRef(f'{BaseURI}/NUVACode'))))
-    for system,values in data['codes'].items():
-        if system in CodeSystems.keys():
-            for value in values:
-                full.add((Vaccine,SKOS.notation,Literal(value,datatype=URIRef(f'{BaseURI}/{system}'))))
-                Codes[system][value] = {system: f'{system}-{value}', "NUVA": code, "Label": data['label']}
+
+    if data['abstract']:
+        for valence in data['valences']:
+            core.add((Vaccine,containsValence,URIRef(f'{BaseURI}/{valence}')))
+    core.add((Vaccine,SKOS.notation,Literal(code[3:],datatype=URIRef(f'{BaseURI}/NUVACode'))))
     addLanguages(Vaccine,RDFS.label,f'{code}L')
     addLanguages(Vaccine, RDFS.comment, f'{code}C')
+
+    if data['modified']>version: version = data['modified']
 
 for code,data in Valences.items():
     Valence = URIRef(f'{BaseURI}/{code}')
     VParent = URIRef(f'{BaseURI}/{data["parent"]}')
     addClass(Valence,VParent,data['label'],data.get('comment',None),code,data['created'],data['modified'],True)
-    core.add((Valence,prevents,URIRef(f'{BaseURI}/{data["target"]}')))
     core.add((Valence,SKOS.altLabel,Literal(data['shorthand'],lang='en')))
     addLanguages(Valence,RDFS.label,f'{code}L')
     addLanguages(Valence, SKOS.altLabel, f'{code}S')
 
-if (len(sys.argv)>1):
-    version = sys.argv[1]
-else:
-    version = "Unknown"
+    if data['modified']>version: version = data['modified']
+
+for codeSystem,data in alignments.items():
+    skip=len(codeSystem)+1
+    for row in data:
+        Vaccine = URIRef(f'{BaseURI}/{row[1]}')
+        Code = row[0][skip:]
+        full.add((Vaccine, SKOS.notation, Literal(Code, datatype=URIRef(f'{BaseURI}/{codeSystem}'))))
 
 core.add((URIRef(BaseURI),OWL.versionInfo,Literal(version)))
 full += core
 
 print("Creating the RDF files")
-core.serialize(destination="Release/NUVA/nuva_core.ttl")
-full.serialize(destination="Release/NUVA/nuva_full.ttl")
-
-print("Creating the JavaScript files")
-jsonVaccines = {}
-for code,data in Vaccines.items():
-    jsonVaccines[code] = {
-        'abstract': data['abstract'],
-        'label': data['label'],
-        'created': data ['created'],
-        'modified': data['modified'],
-        'comment': data['comment'],
-        'valences': data['valences'].copy()}
-
-with open('docs/data/vaccines.js','w',encoding='utf-8-sig') as f:
-    f.write("const defaultVaccines="+json.dumps(jsonVaccines,ensure_ascii=False))
-
-jsonValences = {'Valence': {'shorthand': 'VAL', 'label': 'Valence', 'parent': 'Valence'}}
-for code,data in Valences.items():
-    jsonValences[code]={
-        'created': data['created'],
-        'modified': data['modified'],
-        'shorthand': data['shorthand'],
-        'label': data['label'],
-        'parent': data['parent']}
-
-with open('docs/data/valences.js','w',encoding='utf-8-sig') as f:
-    f.write("const defaultValences="+json.dumps(jsonValences,ensure_ascii=False))
+core.serialize(destination="RDF/nuva_core.ttl")
+full.serialize(destination="RDF/nuva_full.ttl")
 
 print ('Creating the language RDF files')
 for lang in langgraphs:
-    langgraphs[lang].serialize(destination=f"Release/Languages/nuva_{lang}.ttl")
+    langgraphs[lang].serialize(destination=f"RDF/nuva_{lang}.ttl")
 
-print ("Creating the CSV core file")
-with open('Release/NUVA/nuva_core.csv','w',encoding='utf-8-sig',newline ='') as csvfile:
-    writer = csv.DictWriter(csvfile,fieldnames=['NUVA','label','comment','abstract'],delimiter=',')
-    writer.writeheader()
-    for code,data in Vaccines.items():
-        writer.writerow({'NUVA':code,'label':data['label'],'comment':data['comment'],'abstract':data['abstract']})
-
-
-print("Creating the alignment files")
-for codeSystem in CodeSystems.keys():
-    print (codeSystem)
-    Path(f'Release/Alignments/{codeSystem}').mkdir(exist_ok=True)
-    with open(f'Release/Alignments/{codeSystem}/{codeSystem}2nuva.csv','w',encoding='utf-8-sig',newline='') as csvfile:
-        writer = csv.DictWriter(csvfile,fieldnames=[codeSystem, "NUVA", "Label"],delimiter=',')
-        writer.writeheader()
-        for code in Codes[codeSystem]:
-            writer.writerow(Codes[codeSystem][code])
-    eval_codes=NU.nuva_optimize(full,codeSystem, False)
-    map =eval_codes['map']
-    with open(f'Release/Alignments/{codeSystem}/nuva2{codeSystem}.csv','w',encoding='utf-8-sig',newline='') as mapfile:
-        map_writer = csv.writer(mapfile, delimiter=',')
-        map_writer.writerow(["NUVA","NUVA label","IsAbstract",codeSystem, f"{codeSystem} label", "Best", "Blur", "Equiv"])
-        for nuva_code,nuva_data in sorted(map.items()):
-            label =  nuva_data['label']
-            isAbstract = nuva_data['isAbstract']
-            if len(nuva_data["bestcodes"])==0 :
-                map_writer.writerow([nuva_code,label, isAbstract,"", "", "", "",""])
-            else:        
-                for extcode in sorted( nuva_data["bestcodes"]):
-                    map_writer.writerow([nuva_code, label, isAbstract,
-                                         f"{codeSystem}-{extcode}",
-                                          nuva_data["bestcodes"][extcode],
-                                         True,
-                                          nuva_data["blur"],
-                                          nuva_data["nbequiv"]])
-                for extcode in sorted( nuva_data["othercodes"]):
-                    map_writer.writerow([nuva_code, label, isAbstract,
-                                         f"{codeSystem}-{extcode}",
-                                          nuva_data["othercodes"][extcode],
-                                         False, "", ""])    
-    metrics = eval_codes['metrics']                    
-    with open(f'Release/Alignments/{codeSystem}/metrics_{codeSystem}.txt','w') as f:
-        print (f"NUVA version :{version}", file = f)
-        print (f"Number of NUVA concepts : {metrics['nuvacodes']}", file = f)
-        print ("Completeness: {:.1%}".format(metrics['completeness']), file = f)
-        print (f"Number of aligned codes: {metrics['extcodes']}", file = f)
-        print ("Precision: {:.1%}".format(metrics['precision']), file = f)
-        print ("Redundancy: {:.3}".format(metrics['redundancy']), file = f)
 print("Done")
 
 
