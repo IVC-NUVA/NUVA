@@ -184,7 +184,7 @@ function wsHandleBaselineFile() {
 window.onload = function () {
 	document.page = "AlignmentWorkspace"
 	initLog()
-	fetch('../data/nuvadata.json').then(function (response) { return response.json() }).then(function (data) {
+	fetch('https://nuva.ivci.org/data/nuvadata.json').then(function (response) { return response.json() }).then(function (data) {
 		defaultData = data
 		vaccines = data.vaccines
 		valences = data.valences

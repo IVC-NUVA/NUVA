@@ -129,7 +129,7 @@ function wsDiscardWorkspace() {
 
 window.onload = function () {
 	document.page = "AlignmentWorkspace"
-	fetch('../data/nuvadata.json').then(function (response) { return response.json() }).then(function (data) {
+	fetch('https://nuva.ivci.org/data/nuvadata.json').then(function (response) { return response.json() }).then(function (data) {
 		defaultData = data
 		wsLoadWorkspace().then(function (ws) {
 			wsWorkspace = ws
