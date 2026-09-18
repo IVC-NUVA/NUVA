@@ -59,6 +59,7 @@ function refresh() {
 		showVaccines()
 		showSelected()
 		showFilter()
+		showExtCode()
 	}
     else if (document.page == "Valences") {
 		showValences()   
@@ -100,6 +101,14 @@ function vaccineTag(idvac,prefix='T') {
 		vactag.style.backgroundColor=(vaccines[idvac].abstract?'lightgreen':'lightblue')
 		}
 	return vactag
+}
+
+function extCodeTag(extcode) {
+	extag = document.createElement("span")
+	extag.className = "valence"
+	extag.innerHTML = extcode
+	extag.title = wsExtCodes.records[extcode]
+	return extag
 }
 
 /* Selected Valences 
@@ -144,6 +153,16 @@ function showSelected() {
 		selplace.appendChild(item)
 	}
 	saveToSession('selected', Array.from(selectedValences))
+}
+
+	
+function showExtCode() {
+	if (selectedExtCode) {
+		selplace = document.getElementById("extCode")
+		selplace.innerHTML = ""
+	
+		selplace.appendChild(extCodeTag(selectedExtCode))
+	}
 }
 
 function clearSelected() {
@@ -380,6 +399,9 @@ function rebuildAll()
 	})
 	selectedValences = new Set(loadFromSession('selected', []))	
 	filter = loadFromSession('filter', [])
+	selectedExtCode = loadFromSession('selectedExtCode',null)
+	wsExtCodes = loadFromSession('wsExtCodes', [])
+	console.log(wsExtCodes)
 	if (logTimer) {
 		clearInterval(logTimer)
 	}		

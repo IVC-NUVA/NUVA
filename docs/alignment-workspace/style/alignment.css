@@ -1,0 +1,79 @@
+/* Alignment Workspace additions, layered on top of ../../style/styles.css.
+   Reuses .box/.sidebar/.content/.scrollbox/table from the core stylesheet;
+   only adds what the workspace needs on top of it. */
+
+.sidebar .ws-subnav {
+	display: block;
+	list-style: none;
+	padding-left: 20px;
+	margin: 10px 0 0 0;
+}
+
+.sidebar .ws-subnav li {
+	margin-bottom: 10px;
+}
+
+.sidebar a.ws-current {
+	color: white;
+	font-weight: bold;
+}
+
+.ws-columns {
+	display: flex;
+	gap: 20px;
+	align-items: flex-start;
+}
+
+.ws-queue {
+	flex: 0 0 45%;
+}
+
+.ws-detail {
+	flex: 1;
+	min-width: 0;
+}
+
+.ws-status {
+	padding: 2px 8px;
+	border-radius: 8px;
+	color: white;
+	display: inline-block;
+}
+
+.ws-status-unreviewed { background-color: #888; }
+.ws-status-imported { background-color: #6c757d; }
+.ws-status-in_progress { background-color: #e08a00; }
+.ws-status-needs_information { background-color: #c0392b; }
+.ws-status-awaiting_new_valence { background-color: #8e44ad; }
+.ws-status-awaiting_new_vaccine { background-color: #8e44ad; }
+.ws-status-needs_review { background-color: #c0392b; }
+.ws-status-aligned { background-color: green; }
+.ws-status-out_of_scope { background-color: #444; }
+
+.ws-flag {
+	background-color: #c0392b;
+	color: white;
+	border-radius: 8px;
+	padding: 0 6px;
+	font-size: 0.85em;
+}
+
+.ws-warning {
+	background-color: #f5d6a8;
+}
+
+.ws-form label {
+	display: block;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.ws-form input[type=text] {
+	width: 95%;
+	padding: 4px;
+	margin-top: 2px;
+}
+
+.ws-form textarea {
+	margin-top: 2px;
+}

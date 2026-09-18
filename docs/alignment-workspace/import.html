@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NUVA editor</title>
+    <link href = "../style/styles.css" rel="stylesheet">
+    <link href = "style/alignment.css" rel="stylesheet">
+    <script type = 'text/javascript' src='../scripts/common.js'></script>
+    <script type = 'text/javascript' src='../scripts/nuvafiles.js'></script>
+    <script type = 'text/javascript' src='scripts/workspace-storage.js'></script>
+    <script type = 'text/javascript' src='scripts/workspace-model.js'></script>
+    <script type = 'text/javascript' src='scripts/workspace-import.js'></script>
+</head>
+<body>
+<nav class="sidebar">
+  <h1>NUVA</h1>
+  <ul>
+    <li><a href="../index.html">Usage</a></li>
+    <li><a href="../vaccines.html">Vaccines</a></li>
+    <li><a href="../valences.html">Valences</a></li>
+    <li><a href="../files.html">Files</a></li>
+    <li><a href="../extcodes.html">Code Systems</a></li>
+    <li><a href="index.html">Alignment Workspace</a>
+      <ul class="ws-subnav">
+        <li><a href="import.html" class="ws-current">Import</a></li>
+        <li><a href="review.html">Review</a></li>
+        <li><a href="requests.html">Requests</a></li>
+        <li><a href="reports.html">Reports</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+<main class="content">
+<h1>Import source codes</h1>
+<div id="wsImportBody">
+
+<div class="box">
+<p>Import a CSV file containing the external codes to align. Required fields are Code and Label; Description and Notes are optional. Any other columns are kept with the record.</p>
+<button onclick="wsSelectCSVFile()">Choose CSV file</button>
+<input id="wsSourceFile" type='file' accept='.csv' style="display:none" onchange="wsHandleCSVFile()">
+</div>
+
+<div id="wsMapping"></div>
+
+<h2>Start from an existing alignment</h2>
+<div class="box">
+<p>Initialize or extend this workspace from a direct map already used by the Code Systems tools, such as <code>CVX2nuva.csv</code>. The first row is <code>CSID,NUVA,label</code>; each following row is <code>EXTCODE,VACnnnn,"label"</code>. Matching records are created with status <b>imported</b>, their NUVA vaccine retained, and their valences derived from that vaccine - they still need review, but are not treated as newly reviewed.</p>
+<button onclick="wsSelectBaselineFile()">Choose direct-map CSV file</button>
+<input id="wsBaselineFile" type='file' accept='.csv' style="display:none" onchange="wsHandleBaselineFile()">
+</div>
+
+<h2>Execution log</h2>
+<div id="log" class="scrollbox"></div>
+
+</div>
+</main>
+
+<div id='alertbox' class="alert" onclick = ackAlert()>
+<p id='alertmsg' valign='center' align='center'>Message</p>
+</div>
+
+<script type="text/javascript">
+
+var wsParsedCSV = null
+
+function wsSelectCSVFile() {
+	selector = document.getElementById('wsSourceFile')
+	selector.value = ''
+	selector.click()
+}
+
+function wsHandleCSVFile() {
+	file = document.getElementById('wsSourceFile').files[0]
+	if (!file) return
+	reader = new FileReader()
+	reader.onload = function () {
+		wsParsedCSV = wsParseCSV(reader.result)
+		doLog(`Read ${wsParsedCSV.rows.length} row(s) with columns: ${wsParsedCSV.headers.join(', ')}`)
+		wsRenderMapping()
+	}
+	reader.onerror = function () { showAlert('Cannot read the file') }
+	reader.readAsText(file)
+}
+
+function wsRenderMapping() {
+	el = document.getElementById('wsMapping')
+	if (!wsParsedCSV || wsParsedCSV.headers.length == 0) {
+		el.innerHTML = '<p>No columns found in file.</p>'
+		return
+	}
+	fields = [
+		{ key: 'code', label: 'Code', required: true },
+		{ key: 'label', label: 'Label', required: true },
+		{ key: 'description', label: 'Description', required: false },
+		{ key: 'notes', label: 'Notes', required: false }
+	]
+	html = `<div class="box"><p>${wsParsedCSV.rows.length} row(s) found. Map source columns to workspace fields:</p><table><tr><th>Field</th><th>Source column</th></tr>`
+	for (f of fields) {
+		html += `<tr><td>${f.label}${f.required ? ' *' : ''}</td><td><select id="wsMap_${f.key}">`
+		html += `<option value="">${f.required ? '(select column)' : '(none)'}</option>`
+		for (h of wsParsedCSV.headers) {
+			selected = (h.toLowerCase() == f.key) ? 'selected' : ''
+			html += `<option value="${h}" ${selected}>${h}</option>`
+		}
+		html += '</select></td></tr>'
+	}
+	html += `<p><label><input type="checkbox" id="wsReconcileMode"> This is an updated version of a source file already imported - reconcile changes instead of skipping existing codes (UC-10)</label></p>`
+	html += `<button onclick="wsRunImport()">Import into workspace</button></div>`
+	el.innerHTML = html
+}
+
+function wsRunImport() {
+	if (!wsWorkspace) {
+		showAlert('No active workspace. Create one from the Home page first.')
+		return
+	}
+	mapping = {
+		code: document.getElementById('wsMap_code').value,
+		label: document.getElementById('wsMap_label').value,
+		description: document.getElementById('wsMap_description').value,
+		notes: document.getElementById('wsMap_notes').value
+	}
+	if (!mapping.code || !mapping.label) {
+		showAlert('Code and Label columns are required.')
+		return
+	}
+	rows = wsMapRows(wsParsedCSV, mapping)
+	if (document.getElementById('wsReconcileMode').checked) {
+		result = wsReconcileSourceRows(wsWorkspace, rows)
+		wsSaveWorkspace(wsWorkspace).then(function (saved) {
+			wsWorkspace = saved
+			msg = `Reconciled source file: ${result.added.length} new, ${result.changed.length} changed (flagged for review), ` +
+				`${result.missingFromSource.length} missing from the new file (flagged), ${result.unchanged.length} unchanged.`
+			doLog(msg)
+			showAlert(msg + ' Go to Review to continue.')
+		})
+		return
+	}
+	result = wsAddRecords(wsWorkspace, rows)
+	wsSaveWorkspace(wsWorkspace).then(function (saved) {
+		wsWorkspace = saved
+		msg = `Imported ${result.added} code(s).`
+		if (result.duplicates.length) msg += ` Skipped ${result.duplicates.length} duplicate code(s): ${result.duplicates.join(', ')}.`
+		if (result.missing.length) msg += ` Skipped ${result.missing.length} row(s) missing code or label.`
+		doLog(msg)
+		showAlert(msg + ' Go to Review to continue.')
+	})
+}
+
+function wsSelectBaselineFile() {
+	selector = document.getElementById('wsBaselineFile')
+	selector.value = ''
+	selector.click()
+}
+
+function wsHandleBaselineFile() {
+	if (!wsWorkspace) {
+		showAlert('No active workspace. Create one from the Home page first.')
+		return
+	}
+	file = document.getElementById('wsBaselineFile').files[0]
+	if (!file) return
+	reader = new FileReader()
+	reader.onload = function () {
+		directMap = wsParseDirectMap(reader.result)
+		if (!directMap.csid) {
+			showAlert('Could not read a code-system column from this file.')
+			return
+		}
+		result = wsImportBaseline(wsWorkspace, directMap)
+		wsSaveWorkspace(wsWorkspace).then(function (saved) {
+			wsWorkspace = saved
+			msg = `Imported ${result.added.length} code(s) from ${directMap.csid}.`
+			if (result.duplicates.length) msg += ` Skipped ${result.duplicates.length} already in the workspace.`
+			if (result.invalid.length) msg += ` Skipped ${result.invalid.length} row(s) referencing a NUVA code that no longer exists.`
+			doLog(msg)
+			showAlert(msg + ' Go to Review to continue.')
+		})
+	}
+	reader.onerror = function () { showAlert('Cannot read the file') }
+	reader.readAsText(file)
+}
+
+window.onload = function () {
+	document.page = "AlignmentWorkspace"
+	initLog()
+	fetch('https://nuva.ivci.org/data/nuvadata.json').then(function (response) { return response.json() }).then(function (data) {
+		defaultData = data
+		vaccines = data.vaccines
+		valences = data.valences
+		wsLoadWorkspace().then(function (ws) {
+			wsWorkspace = ws
+			if (!wsWorkspace) {
+				document.getElementById('wsImportBody').innerHTML = '<p>No active workspace. <a href="index.html">Create one first</a>.</p>'
+			}
+		})
+	})
+}
+</script>
+
+</body>
+</html>

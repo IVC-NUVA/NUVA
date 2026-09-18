@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NUVA editor</title>
+    <link href = "../style/styles.css" rel="stylesheet">
+    <link href = "style/alignment.css" rel="stylesheet">
+    <script type = 'text/javascript' src='../scripts/common.js'></script>
+    <script type = 'text/javascript' src='../scripts/nuvafiles.js'></script>
+    <script type = 'text/javascript' src='scripts/workspace-storage.js'></script>
+    <script type = 'text/javascript' src='scripts/workspace-model.js'></script>
+</head>
+<body>
+<nav class="sidebar">
+  <h1>NUVA</h1>
+  <ul>
+    <li><a href="../index.html">Usage</a></li>
+    <li><a href="../vaccines.html">Vaccines</a></li>
+    <li><a href="../valences.html">Valences</a></li>
+    <li><a href="../files.html">Files</a></li>
+    <li><a href="../extcodes.html">Code Systems</a></li>
+    <li><a href="index.html" class="ws-current">Alignment Workspace</a>
+      <ul class="ws-subnav">
+        <li><a href="import.html">Import</a></li>
+        <li><a href="review.html">Review</a></li>
+        <li><a href="requests.html">Requests</a></li>
+        <li><a href="reports.html">Reports</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+<main class="content">
+<h1>Alignment Workspace</h1>
+<p>Build and maintain a mapping between an external vaccine code system and NUVA, one code at a time, before publishing it as a direct map for the existing Code Systems tools.</p>
+
+<h2>Active workspace</h2>
+<div id="wsHomeStatus" class="box">Loading&hellip;</div>
+
+<h2>Create a new workspace</h2>
+<div class="box ws-form">
+<label>Code-system identifier * <input id="wsCSID" type="text" placeholder="e.g. CVX"></label>
+<label>Display name * <input id="wsCSName" type="text" placeholder="e.g. CDC Vaccine Codes"></label>
+<label>Version / publication date <input id="wsCSVersion" type="text"></label>
+<label>Owning organization <input id="wsCSOwner" type="text"></label>
+<label>Jurisdiction / country <input id="wsCSJurisdiction" type="text"></label>
+<label>Source URL <input id="wsCSUrl" type="text"></label>
+<label>Notes <textarea id="wsCSNotes" rows="2" style="width:95%"></textarea></label>
+<p><button onclick="wsCreateWorkspace()">Create workspace</button></p>
+</div>
+
+</main>
+
+<div id='alertbox' class="alert" onclick = ackAlert()>
+<p id='alertmsg' valign='center' align='center'>Message</p>
+</div>
+
+<input id="wsBundleFile" type='file' accept='.json' style="display:none" onchange="wsHandleImportFile()">
+
+<script type="text/javascript">
+
+function wsRenderHome() {
+	el = document.getElementById('wsHomeStatus')
+	if (wsWorkspace) {
+		count = Object.keys(wsWorkspace.records).length
+		el.innerHTML = `<p>Active workspace: <b>${wsWorkspace.codeSystem.name}</b> (${wsWorkspace.codeSystem.id})</p>
+		<p>${count} source code(s) loaded. NUVA version last reviewed against: ${wsWorkspace.nuvaVersion || 'unknown'}.</p>
+		<p><a href="review.html">Continue review</a> &nbsp;|&nbsp; <a href="import.html">Import more codes</a></p>
+		<p>
+		<button onclick="wsExportWorkspace(wsWorkspace)">Download workspace JSON</button>
+		<button onclick="wsSelectImportFile()">Load workspace JSON</button>
+		<button onclick="wsDiscardWorkspace()">Discard and start new</button>
+		</p>`
+	} else {
+		el.innerHTML = '<p>No active workspace yet. Create one below, or load a previously exported workspace JSON.</p>' +
+			'<p><button onclick="wsSelectImportFile()">Load workspace JSON</button></p>'
+	}
+}
+
+function wsCreateWorkspace() {
+	id = document.getElementById('wsCSID').value.trim()
+	name = document.getElementById('wsCSName').value.trim()
+	if (!id || !name) {
+		showAlert('Code-system identifier and name are required.')
+		return
+	}
+	proceed = !wsWorkspace || confirm('This replaces the current active workspace. Export it first from the Active workspace section if you want to keep it. Continue?')
+	if (!proceed) return
+	ws = wsNewWorkspace({
+		id: id,
+		name: name,
+		version: document.getElementById('wsCSVersion').value.trim(),
+		owner: document.getElementById('wsCSOwner').value.trim(),
+		jurisdiction: document.getElementById('wsCSJurisdiction').value.trim(),
+		sourceUrl: document.getElementById('wsCSUrl').value.trim(),
+		notes: document.getElementById('wsCSNotes').value.trim()
+	})
+	wsSaveWorkspace(ws).then(function (saved) {
+		window.location.href = 'import.html'
+	})
+}
+
+function wsSelectImportFile() {
+	selector = document.getElementById('wsBundleFile')
+	selector.value = ''
+	selector.click()
+}
+
+function wsHandleImportFile() {
+	file = document.getElementById('wsBundleFile').files[0]
+	if (!file) return
+	wsImportWorkspaceFile(file).then(function (data) {
+		return wsSaveWorkspace(data)
+	}).then(function (saved) {
+		wsWorkspace = saved
+		wsRenderHome()
+		showAlert('Workspace loaded.')
+	}).catch(function (errors) {
+		showAlert('Could not load workspace: ' + (Array.isArray(errors) ? errors.join('; ') : errors))
+	})
+}
+
+function wsDiscardWorkspace() {
+	if (!confirm('This discards the active workspace from this browser. Make sure you have exported it first if you want to keep it. Continue?')) return
+	wsClearWorkspace().then(function () {
+		wsWorkspace = null
+		wsRenderHome()
+	})
+}
+
+window.onload = function () {
+	document.page = "AlignmentWorkspace"
+	fetch('https://nuva.ivci.org/data/nuvadata.json').then(function (response) { return response.json() }).then(function (data) {
+		defaultData = data
+		wsLoadWorkspace().then(function (ws) {
+			wsWorkspace = ws
+			wsRenderHome()
+		})
+	})
+}
+</script>
+
+</body>
+</html>

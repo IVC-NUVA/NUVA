@@ -279,6 +279,16 @@ function setVaccineClass () {
 	viewEditVaccine(idvac)		
 }
 
+function setExternalCode () {
+	idvac = document.getElementById("vcode").value
+	if (!(idvac in vaccines)) {
+		showAlert("Save vaccine before assigning a code.")
+		return
+	}
+	wsExtCodes.records[selectedExtCode].nuvaVaccine = idvac
+	saveToSession('wsExtCodes',wsExtCodes)
+}
+
 function resetVaccine() {
     idvac = document.getElementById("vcode").value
 	if (!(idvac in defaultData['vaccines'])) {

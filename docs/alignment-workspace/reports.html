@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NUVA editor</title>
+    <link href = "../style/styles.css" rel="stylesheet">
+    <link href = "style/alignment.css" rel="stylesheet">
+    <script type = 'text/javascript' src='../scripts/common.js'></script>
+    <script type = 'text/javascript' src='../scripts/nuvafiles.js'></script>
+    <script type = 'text/javascript' src='scripts/workspace-storage.js'></script>
+    <script type = 'text/javascript' src='scripts/workspace-model.js'></script>
+    <script type = 'text/javascript' src='scripts/workspace-reconcile.js'></script>
+    <script type = 'text/javascript' src='scripts/workspace-export.js'></script>
+</head>
+<body>
+<nav class="sidebar">
+  <h1>NUVA</h1>
+  <ul>
+    <li><a href="../index.html">Usage</a></li>
+    <li><a href="../vaccines.html">Vaccines</a></li>
+    <li><a href="../valences.html">Valences</a></li>
+    <li><a href="../files.html">Files</a></li>
+    <li><a href="../extcodes.html">Code Systems</a></li>
+    <li><a href="index.html">Alignment Workspace</a>
+      <ul class="ws-subnav">
+        <li><a href="import.html">Import</a></li>
+        <li><a href="review.html">Review</a></li>
+        <li><a href="requests.html">Requests</a></li>
+        <li><a href="reports.html" class="ws-current">Reports</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+<main class="content">
+<h1>Reports and exports</h1>
+<div id="wsReportsBody">
+
+<h2>Direct-map CSV</h2>
+<div class="box">
+<p>Export completed alignments in the direct-map CSV format used by the existing Code Systems tools. Only <b>aligned</b> records are included by default.</p>
+<label><input type="checkbox" id="wsIncludeImported"> Also include <b>imported</b> records not yet re-reviewed in this workspace</label><br>
+<button onclick="wsRunExportDirectMap()">Download direct-map CSV</button>
+</div>
+
+<h2>Review and NUVA-request report</h2>
+<div class="box">
+<p>A text report listing unresolved and low-confidence records, records affected by source or NUVA changes, and the requested new valences and vaccine combinations - suitable for discussion with NUVA maintainers.</p>
+<button onclick="wsRunExportReport()">Download report</button>
+</div>
+
+<h2>Summary</h2>
+<div id="wsReportSummary" class="box">Loading&hellip;</div>
+
+</div>
+</main>
+
+<div id='alertbox' class="alert" onclick = ackAlert()>
+<p id='alertmsg' valign='center' align='center'>Message</p>
+</div>
+
+<script type="text/javascript">
+
+function wsRenderReportsPage() {
+	if (!wsWorkspace) {
+		document.getElementById('wsReportsBody').innerHTML = '<p>No active workspace. <a href="index.html">Create or open one</a>.</p>'
+		return
+	}
+	totals = wsProgress(wsWorkspace)
+	valReqCount = Object.keys(wsWorkspace.valenceRequests).length
+	vacReqCount = Object.keys(wsWorkspace.vaccineRequests).length
+	html = `<p>${totals.total} total record(s): ${totals.aligned} aligned, ${totals.imported} imported, ${totals.unreviewed} unreviewed.</p>`
+	html += `<p>${valReqCount} valence request(s), ${vacReqCount} vaccine combination request(s).</p>`
+	document.getElementById('wsReportSummary').innerHTML = html
+}
+
+function wsRunExportDirectMap() {
+	if (!wsWorkspace) { showAlert('No active workspace.'); return }
+	statuses = ['aligned']
+	if (document.getElementById('wsIncludeImported').checked) statuses.push('imported')
+	count = wsExportDirectMap(wsWorkspace, statuses)
+	showAlert(`Exported ${count} mapping(s).`)
+}
+
+function wsRunExportReport() {
+	if (!wsWorkspace) { showAlert('No active workspace.'); return }
+	wsExportReport(wsWorkspace)
+}
+
+window.onload = function () {
+	document.page = "AlignmentWorkspace"
+	fetch('../data/nuvadata.json').then(function (response) { return response.json() }).then(function (data) {
+		defaultData = data
+		vaccines = data.vaccines
+		valences = data.valences
+		wsLoadWorkspace().then(function (ws) {
+			wsWorkspace = ws
+			wsRenderReportsPage()
+		})
+	})
+}
+</script>
+
+</body>
+</html>
