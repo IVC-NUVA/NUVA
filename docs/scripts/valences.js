@@ -84,9 +84,9 @@ function showChildren(idval) {
 	for (child of children) {
 		var vchild = valences[child]
 		var hidden = false
-		if (filter.length != 0) {
+		if (context.filter.length != 0) {
 			hidden = true
-			for (filterval of filter) {
+			for (filterval of context.filter) {
 				if ((filterval == child) ||
 					(extvalences[filterval].lineage.includes(child)) ||
 					(extvalences[child].lineage.includes(filterval))) {
@@ -205,8 +205,7 @@ function updateTicks() {
 		tickbox.style = 'accent-color:blue'
     }
 
-    for (doubled of selectedValences.entries()) {
-        idval = doubled[0]
+    for (idval of context.selectedValences) {
 		tickbox = document.getElementById('tick' + idval)
 		tickbox.checked = true
 		tickbox.style = 'accent-color:blue'
@@ -366,5 +365,13 @@ function resetValence() {
 	showValences()
 }
 
+function showSidebar() {
+	showFilter()
+	showSelected()
+	showCurrentCode()
+}
 
-
+function refresh() {  
+	showSidebar()
+	showValences() 	
+}

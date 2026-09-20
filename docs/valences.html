@@ -18,19 +18,20 @@
     <li><a href="extcodes.html">Code Systems</a></li>		
   </ul>
 
- <div style = "height:20%">
  <h3>Filter (any)</h3>
+  <div style = 'height:10vh; overflow:scroll;'>
  <ul id=filter></ul>
-
+ </div>
  <button onclick = 'clearFilter()'>Clear filter</button>
  </div>
- <div style = height:20%>
  <h3>Selected valences</h3>
-<ul id=selected></ul>
-
+ <div style = 'height:10vh; overflow:scroll;'>
+<ul id='selected'></ul>
+</div>
   <button onclick="setFilter()">Use as filter</button>
-  <button onclick = "clearSelected()">Clear</button>
- </div>
+  <button onclick = "clearSelected()">Clear</button> 
+<h3>Current code</h3>
+<div id='idcode'></div> 
 </nav>
 
 <main class="content">
@@ -47,7 +48,6 @@
 	<tr><td>Notation</td><td><input id = "vshorthand" type = "text" style="width:95%"></input></td></tr>
 	<tr><td>Label</td><td><input id = "vlabel" type = "text" style="width:95%"></input></td></tr>
 	<tr><td>Type</td><td><select id = "vtype" onchange = "vtypeselect()">
-	<!-- A faire - Réduire la liste des options selon le parent et les enfants -->
 	<option value = "0">0-Implicit</option>
 	</select>
 	<label id='implicitVType' style="background-color:#C0C0C0"></label></td></tr>

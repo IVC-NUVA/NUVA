@@ -18,43 +18,49 @@
     <li><a href="files.html">Files</a></li>	
     <li><a href="extcodes.html">Code Systems</a></li>		
   </ul>
-
+<h3>Current vaccine</h3>
+<div id='idvac'></div> 
+<h3>Current code</h3>
+<div id='idcode'></div> 
 </nav>
 
 <main class="content">
 <h1>Code systems</h1>
-<h2>Direct maps</h2>
-<div class = "box">
-<p>Direct maps are simple CSV files with the external code and NUVA code as first two columns, optionally a label in third column.</p>
-<p >To avoid unwanted conversions for numbers, the external code must be prefixed with the code system name. </p>
-<p>The first row contains titles with column 1 being the code system name:<br>
-<div class = "details">
-
-CVX,NUVA,label</p>
-<p>Each subsequent row has a structure such as:<br>
-CVX-35,VAC0132,"Tetanus vaccine, unspecified"</p>
-<p>For countries where Excel uses a semicolon for CSV, use LibreOffice instead.</p>
+<div>
+  <button onclick="selectCSV()">Import from CSV</button>
+  <button onclick="saveCodeSystem()">Save to CSV</button>
+  <button onclick="clearCodeSystem()">Clear</button>
+  <button onclick="reverseCodeSystem()">Create reverse map</button>
+  <button id = "transcription" disabled onclick="selectCSV2()">Create transcription map</button>
 </div>
-<p>The currently published direct maps can be downloaded from the <a href="https://github.com/IVC-NUVA/NUVA/tree/main/Release/Alignments" target = "_blank">NUVA GitHub repository</a>.
+<div style = "height:20px; margin-bottom:5px">  
+  <input id="alignment" type='file' accept='.csv' style = "display:none" onchange='uploadCSV()'></input>
+  <input id="alignment2" type='file' accept='.csv' style = "display:none" onchange='uploadCSV2()'></input>
+ </div>
+<div style = "overflow:scroll; height:80vh">
+<table>
+<thead><th>Code</th><th>Code label</th><th>NUVA</th><th>NUVA label</th></thead>
+<tbody id = 'tcodes'>
+</tbody>
+</table>
 </div>
-<h2>Reverse map</h2>
-<div class = "box">
-<p>Upload here a direct map. A reverse map file with the best options for all NUVA codes will be generated</p>
-<button onclick="selectCSV()">Upload</button>
-<input id="alignment" type='file' accept='.csv' style = "display:none" onchange='uploadCSV()'></input>
-</div>
-<h2>Transcription map</h2>
-<div class ="box">
-<p>Generate a map from another code system to the reversed one.</p>
-<button id='transcription' onclick="selectCSV2()" disabled>Upload</button>
-<input id="alignment2" type='file' accept='.csv' style = "display:none" onchange='uploadCSV2()'></input>
-</div>
-
-<h2>Execution log</h2>
-<div id = "log" class="scrollbox">
-</div>
-
 </main>
+
+<div id = "edit" class = "edit">
+<span id='extcode' ></span>
+<span>
+	<select id = 'actionSelect' onchange="setNuvaCode()">
+	<option value = 'pending' selected>Choose action ...</option>
+	<option value='set'>Map to current vaccine</option>
+	<option value='NA'>Out of scope</option>
+	<option value = 'MISSING'>Vaccine concept missing</option>
+	<option value = 'reset'>Reset to initial value</option>
+	</select>
+</span>
+<span id= 'ecode'></span>
+<span id='action'></span>
+</div>
+
 
 <div id='alertbox' class="alert" onclick = ackAlert()>
 <p id='alertmsg' valign='center' align='center'>Mon message</p>
@@ -65,7 +71,7 @@ CVX-35,VAC0132,"Tetanus vaccine, unspecified"</p>
 window.onload = function () {
   document.page = "ExtCodes"
   initContext()
-  initLog()
+  CSData = loadFromSession("CSData", voidCSData)
 }
 </script>
 

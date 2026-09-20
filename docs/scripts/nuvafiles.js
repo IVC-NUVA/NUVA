@@ -92,7 +92,7 @@ function uploadCSV() {
 	reader = new FileReader()
 	reader.onload = function () {	
 		doLog("Uploaded CSV file, now computing")
-		analyseCSV(reader.result)
+		importCSV(reader.result)
     };
     reader.onerror = function () {
 		showAlert("Cannot read the file")

@@ -1,13 +1,15 @@
 const idRoot = "Valence"
+const voidContext = {'selectedValences': [], 'filter': [], 'selectedAbstract': null, 'currentVaccine': null, 'currentCode': null}
+
 var vaccines
 var valences
 var extvaccines = {}
 var extvalences = {}
 var abstractVaccines = {}
-var selectedValences
-var selectedAbstract = null
+var context = voidContext
 var loglines = []
 var logTimer = null
+
 
 /* Keep context in local storage*/
 function loadFromSession(key, value) {
@@ -22,8 +24,11 @@ function loadFromSession(key, value) {
 
 function saveToSession(key, value) {
 	storage = (window.location.protocol == 'file:'?sessionStorage:localStorage)	
-    json = JSON.stringify(value)
-	storage.setItem(key, json)
+	if (value) {
+		json = JSON.stringify(value)
+		storage.setItem(key, json)
+	}
+	else storage.removeItem(key)
 }
 
 // Alert box
@@ -51,24 +56,6 @@ function doLog(text) {
 
 function initLog() {
     logTimer = setInterval(refreshLog, 10)
-}
-
-// Global refresh
-function refresh() {
-	if (document.page == "Vaccines") { 
-		showVaccines()
-		showSelected()
-		showFilter()
-	}
-    else if (document.page == "Valences") {
-		showValences()   
-		showSelected()
-		showFilter()
-	}
-    else if (document.page == "ExtCodes") {
-		rebuildAll()
-		structureAbstract()
-	}
 }
 
 /* Valence Tag
@@ -101,6 +88,19 @@ function vaccineTag(idvac,prefix='T') {
 		}
 	return vactag
 }
+function codeTag(idcode, prefix='T') {
+	codetag = document.createElement("span")
+	codetag.className = 'code'
+	codetag.innerHTML = idcode
+	codetag.id = prefix+idcode
+	codetag.title = CSData.code2nuva[idcode].label
+	return codetag
+}
+
+function setContext(key,value) {
+	context[key] = value
+	saveToSession('context',context)
+}
 
 /* Selected Valences 
 - toggleSelection is triggered either from a valence tag (vaccines view)
@@ -113,23 +113,24 @@ function vaccineTag(idvac,prefix='T') {
 
  */
 function toggleSelection (idval) {
-	if (selectedValences.has(idval)) {
-		selectedValences.delete(idval)
+	if (context.selectedValences.includes(idval)) {
+		context.selectedValences = context.selectedValences.filter(item=>item != idval)
 	} else {
-		selectedValences.add(idval)
-		parent = valences[idval].parent 
+		context.selectedValences.push(idval)
+		parent = valences[idval].parent
 		while (parent != idRoot) {
-				selectedValences.delete(parent)
+				context.selectedValences = context.selectedValences.filter(item=>item != parent)
 				parent = valences[parent].parent
-			}
+			}		
 		unselectChildren(idval)
 	}
+	setContext("selectedValences",context.selectedValences)
 	showSelected()
 }
 
 function unselectChildren(idval) {
     for (child of extvalences[idval].children) {
-        selectedValences.delete(child)
+        context.selectedValences = context.selectedValences.filter(item=>item != child)
         unselectChildren(child)
     }
 }
@@ -137,18 +138,16 @@ function unselectChildren(idval) {
 function showSelected() {
     selplace = document.getElementById("selected")
 	selplace.innerHTML = ""
-	for (doubled of selectedValences.entries()) {
-		idval = doubled[0]
+	for (idval of context.selectedValences) {
 		item = document.createElement('li')
 		item.appendChild(valenceTag(idval,'S'))
 		selplace.appendChild(item)
 	}
-	saveToSession('selected', Array.from(selectedValences))
 }
 
 function clearSelected() {
-    selectedValences.clear()
-	selectedAbstract = null
+	setContext('selectedValences',[])
+	setContext('selectedAbstract',null)
     showSelected()
     refresh()
 }
@@ -156,7 +155,7 @@ function clearSelected() {
 function showSelectedAbstract() {
 	selplace = document.getElementById("selClass")
 	selplace.innerHTML = ""
-	selplace.appendChild(vaccineTag(selectedAbstract,'S'))
+	if (context.selectedAbstract) selplace.appendChild(vaccineTag(context.selectedAbstract,'S'))
 }
 
 /* Filter
@@ -168,13 +167,13 @@ function showSelectedAbstract() {
 
  */
 function setFilter() {
-    filter = Array.from(selectedValences)
+	setContext('filter',[...context.selectedValences])
 	showFilter()
 	refresh()
 }
 
 function clearFilter() {
-    filter = []
+	setContext('filter',[])
     showFilter()
     refresh()
 }
@@ -182,21 +181,19 @@ function clearFilter() {
 function showFilter() {
     filplace = document.getElementById("filter")
 	filplace.innerHTML = ""
-	for (idval of filter) {
+	for (idval of context.filter) {
 		item = document.createElement('li')
 		item.innerHTML = valences[idval]['shorthand']
 		filplace.appendChild(item)
 	}
-	saveToSession('filter', filter)
 }
 
 function clearBoth() {
 	// Needed when a valence is deleted
-	selectedValences.clear()
-	selectedAbstract = null
-	filter = []
-	showSelected()
-	showFilter()
+	setContext('selectedValences',null)
+	setContext('selectedAbstract',null)
+	setContext('filter',[])
+	showSidebar()
 }
 
 function sortByValShortHand (a,b) {
@@ -207,6 +204,23 @@ function valencesKey(vaccine) {
 	return vaccine.valences.sort(sortByValShortHand).join("-")
 }
 
+
+function showCurrentVaccine()
+{
+  document.getElementById('idvac').innerHTML = ""
+  if (context.currentVaccine) {
+	document.getElementById("idvac").appendChild(vaccineTag(context.currentVaccine))
+  }
+}
+
+function showCurrentCode()
+{
+	document.getElementById('idcode').innerHTML = ""
+	if (context.currentCode) {
+		document.getElementById("idcode").appendChild(codeTag(context.currentCode))
+	}
+
+}
 
 /* Rebuilding of temporary data*/
 function valenceChanged(idval) {
@@ -376,10 +390,10 @@ function rebuildAll()
 		defaultData = data
 		vaccines = loadFromSession('vaccines', defaultData['vaccines'])
 		valences = loadFromSession('valences', defaultData['valences'])
+		CSData = loadFromSession('CSData',{'CSID':null,'code2nuva':{}, 'nuva2code':{}})
+		context = loadFromSession('context', voidContext)
 		refresh()
 	})
-	selectedValences = new Set(loadFromSession('selected', []))	
-	filter = loadFromSession('filter', [])
 	if (logTimer) {
 		clearInterval(logTimer)
 	}		

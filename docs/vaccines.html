@@ -18,21 +18,24 @@
     <li><a href="extcodes.html">Code Systems</a></li>		
   </ul>
 
- <div style = "height:20%">
  <h3>Filter (all)</h3>
  <input id='filterLabel' type = "text" style="margin:6px" oninput="showVaccines()">
+  <div style = 'height:10vh; overflow:scroll;'>
  <ul id=filter></ul>
-
- <button onclick = 'clearFilter()'>Clear valence filter</button>
  </div>
- <div style = height:20%>
+ <button onclick = 'clearFilter()'>Clear valence filter</button>
  <h3>Selected valences</h3>
+ <div style = 'height:10vh; overflow:scroll;'>
 <ul id='selected'></ul>
+</div>
   <button onclick="setFilter()">Use as filter</button>
   <button onclick = "clearSelected()">Clear</button>
- </div>
 <h3>Selected abstract</h3>
-<div id='selClass'></div> 
+<div id='selClass' style="height:20px"></div> 
+<h3>Current vaccine</h3>
+<div id='idvac'></div> 
+<h3>Current code</h3>
+<div id='idcode'></div> 
 </nav>
 
 <main class="content">
