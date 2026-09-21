@@ -118,20 +118,27 @@ function showCodes() {
 	table.innerHTML = ""
 	
 	codes = Object.keys(CSData.code2nuva).sort()
-	
-	loopvac:for (code of codes) {	
+	filterText = document.getElementById('filterText').value.toUpperCase()	
+
+		
+	loopvac:for (code of codes) {
 		row = table.insertRow(-1)
 		row.id = code
+		codeLabel = CSData.code2nuva[code].label
 		if (code == context.currentCode) {row.style.backgroundColor='#95ADC5'}
 		nuvaCode = CSData.code2nuva[code].nuvaCode
 		if (nuvaCode != CSData.refcode2nuva[code]) {row.style.fontWeight = 'bold'}
-		if (nuvaCode in vaccines) {label = vaccines[nuvaCode].label} else {label = ""}
+		if (nuvaCode in vaccines) {nuvaLabel = vaccines[nuvaCode].label} else {nuvaLabel = ""}
 		codeCell = row.insertCell(-1)
 		codeCell.innerHTML = code
-		row.insertCell(-1).innerHTML = CSData.code2nuva[code].label
+		row.insertCell(-1).innerHTML = codeLabel
 		row.insertCell(-1).innerHTML = nuvaCode
-		row.insertCell(-1).innerHTML = label
+		row.insertCell(-1).innerHTML = nuvaLabel
 		row.onclick = editCode
+		foundText = (filterText == '')		
+		if ((code.includes(filterText))|| (codeLabel.toUpperCase().includes(filterText)) ||
+		   (nuvaCode.includes(filterText)) || (nuvaLabel.toUpperCase().includes(filterText))) foundText = true
+		row.style.display = (foundText?'table-row':'none')
 	}
 }
 
@@ -181,7 +188,7 @@ function setNuvaCode()
 {
 	actionMessage = ""
 	action = document.getElementById('actionSelect').value
-	code = document.getElementById('ecode').innerHTML
+	code = context.currentCode
 	if ((action == 'set') && context.currentVaccine) {
 		nuvaCode = context.currentVaccine
 		nuvaLabel = vaccines[nuvaCode].label

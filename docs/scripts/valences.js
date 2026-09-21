@@ -49,21 +49,6 @@ Valences that are not compatible with the filter are hidden.
  */
  var extvalences={}
 
-
-function valFocus() {
-	idval = document.getElementById('vcode').value
-	if ((!idval) || (!reVal.exec(idval)) )return
-	valUnfold(idval)
-	target = document.getElementById(idval)
-	topView = document.documentElement.scrollTop
-	windowHeight = window.innerHeight
-	editHeight = document.getElementById('edit').offsetHeight
-	bottomView = topView+windowHeight-editHeight
-	if ((target.offsetTop<= topView) || (target.offsetTop >= bottomView)) {
-		target.scrollIntoView()					
-	}
-}
-
 	
 function showValences() {
 	rebuildValences()
@@ -72,7 +57,6 @@ function showValences() {
 	list = showChildren(idRoot)
 	lval.appendChild(list)
 	updateTicks()
-	valFocus()
 }
 
 function showChildren(idval) {
@@ -117,12 +101,14 @@ function showChildren(idval) {
 			s1.onclick = toggleFold
 			item.appendChild(showChildren(child))
 		}
+
 		list.appendChild(item)
 		if (hidden) {
 			item.style.display = 'none'
 		} else {
 			item.style.display = 'block'
 		}
+		
 	}
 	return list
 }
@@ -158,7 +144,10 @@ function toggleFold() {
     }
     var ul = this.parentElement.querySelectorAll('ul')[0];
     // Not only unfold, but also open the edit window.
-	viewEditValence(this.id)	
+	downlight(context.currentValence)
+	context.currentValence = this.id
+	highlight(context.currentValence)
+	viewEditValence()	
 }
 
 expand = true
@@ -217,6 +206,19 @@ function updateTicks() {
     }
 }
 
+function highlight(idval) {
+	if (idval) {
+		valUnfold(idval)	
+		document.getElementById(idval).style.backgroundColor='#95ADC5'
+	}
+}
+
+function downlight(idval) {
+	if (idval) {
+		document.getElementById(idval).style.backgroundColor=''
+	}
+}
+
 /* Valences edition
 - editValence and addValence invoke viewEditValence, with the valence code locked or open.
 - closeValenceEdit hides the edition window
@@ -231,16 +233,20 @@ setParent and resetValence require to rebuild the valence tree and vaccines impl
 const reVal = new RegExp("VAL\\d{3}")
 
 function editValence() {
-    viewEditValence(this.id)
+	downlight (context.currentValence)
+	setContext('currentValence',this.id)
+    viewEditValence()
 }
 function addValence() {
-    viewEditValence("VALxxx")
+	downlight (context.currentValence)	
+	setContext('currentValence',null)
+    viewEditValence()
 }
 
 function vtypeselect() {
 	vtlist = document.getElementById('vtype')
-	idval = document.getElementById('vcode').value
-	if ((vtlist.value == "0") && (idval in valences)){
+	idval = context.currentValence
+	if ((vtlist.value == "0") && (idval)){
 		document.getElementById('implicitVType').innerHTML = "=>"+VTypeOptions[extvalences[idval].minVType]
 	}
 	else {
@@ -248,17 +254,21 @@ function vtypeselect() {
 	}
 }
 
-function viewEditValence(idval) {
+function viewEditValence() {
+	idval = context.currentValence
 	codeField = document.getElementById("vcode")
-    if ((idval in valences)) {		
+    if (idval) {		
 		codeField.readOnly = true
+		codeField.value = idval
 		codeField.style.backgroundColor = "#D0D0D0"	
         valence = valences[idval]	
-		extvalence = extvalences[idval]
+		extvalence = extvalences[idval]	
+		highlight(idval)
 	}
 	else
 	{
 		codeField.readOnly = false
+		codeField.value = "VALxxx"
 		codeField.style.backgroundColor = ""			
         valence = {
             'shorthand': 'to be completed',
@@ -285,7 +295,6 @@ function viewEditValence(idval) {
 			vtlist.appendChild(item)
 		}
 	}
-    document.getElementById("vcode").value = idval
 	document.getElementById("vshorthand").value = valence.shorthand
 	document.getElementById("vlabel").value = valence.label
 	document.getElementById("vparent").innerHTML = valences[valence.parent].shorthand
@@ -295,8 +304,10 @@ function viewEditValence(idval) {
 }
 
 function closeValenceEdit() {
-    document.getElementById("vcode").value = ""
+	downlight(context.currentValence)
+	setContext('currentValence',null)
 	document.getElementById("edit").style = "display:none"
+		
 }
 function setValenceValues() {
     e_vcode = document.getElementById("vcode")
@@ -319,22 +330,23 @@ function setValenceValues() {
 	valence.label = document.getElementById("vlabel").value
 	valence.vtype = document.getElementById("vtype").value
 	rebuildValences()
-	viewEditValence(idval)
+	setContext('currentValence',idval)
 	saveToSession("valences", valences)
 	showValences()
+	viewEditValence()	
 }
 
 function setParent() {
-    idval = document.getElementById("vcode").value
-	if (!(idval in valences)) {
+    idval = context.currentValence
+	if (!idval) {
 		showAlert("Save valence before assigning parent.")
 		return
 	}
 	valence = valences[idval]
-	if (selectedValences.size == 0) {
+	if (context.selectedValences.size == 0) {
 		candidate = idRoot
 	} else {
-		candidate = Array.from(selectedValences)[0]
+		candidate = context.selectedValences[0]
 	}
 	parentType = extvalences[candidate].minVType
 	if (parentType != '0') {
@@ -352,7 +364,7 @@ function setParent() {
 	viewEditValence(idval)	
 }
 function resetValence() {
-    idval = document.getElementById("vcode").value
+    idval = context.currentValence
 	if (!(idval in defaultData.valences)) {
 		delete valences[idval]
 		closeValenceEdit()
@@ -373,5 +385,6 @@ function showSidebar() {
 
 function refresh() {  
 	showSidebar()
-	showValences() 	
+	showValences()
+	if (context.currentValence) {viewEditValence()}
 }

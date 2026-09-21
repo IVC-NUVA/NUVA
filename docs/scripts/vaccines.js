@@ -18,19 +18,6 @@ function sortByVacLabel(a,b) {
 	return (vaccines[a].label > vaccines[b].label)
 }
 
-function vacFocus() {
-	idvac = document.getElementById('vcode').value
-	if ((!idvac) || (!reVac.exec(idvac)) )return
-	target = document.getElementById('T'+idvac).parentElement.parentElement
-	topView = document.documentElement.scrollTop
-	windowHeight = window.innerHeight
-	editHeight = document.getElementById('edit').offsetHeight
-	bottomView = topView+windowHeight-editHeight
-	if ((target.offsetTop<= topView) || (target.offsetTop >= bottomView)) {
-		target.scrollIntoView()					
-	}
-}
-
 function showVaccines() {
 	rebuildAll()
 
@@ -38,21 +25,25 @@ function showVaccines() {
 	table.innerHTML = ""
 	br = document.createElement('br')
 	
-	filterLabel = document.getElementById('filterLabel').value.toUpperCase()
+	filterText = document.getElementById('filterText').value.toUpperCase()
 	
 	classes = Object.values(abstractVaccines).sort(sortByVacLabel)
 	
 	loopvac:for (idvac of classes) {	
 		hidden = false
-		foundLabel = false
+		foundText = (filterText == '')
+		
+		if (idvac.includes(filterText)) foundText = true		
+		
 		if (context.filter.length != 0)
 		{
 			for (filval of context.filter) {
 				if (!(extvaccines[idvac].implicit.includes(filval))) hidden = true
 			}
 		}
-		vaccine = vaccines[idvac]
+		vaccine = vaccines[idvac]		
 		extvaccine = extvaccines[idvac]
+		if (vaccine.label.toUpperCase().includes(filterText)) foundText = true
 		row = table.insertRow(-1)
 		classCell = row.insertCell(-1)
 		classCell.appendChild(vaccineTag(idvac))
@@ -62,6 +53,7 @@ function showVaccines() {
 		classCell.id = "C" + idvac
 
 		if (extvaccine.changed) classLabel.style.fontWeight = 'bold'
+		if (idvac == context.currentVaccine) {row.style.backgroundColor='#95ADC5'}
 
 		valCell = row.insertCell(-1)
 		valCell.id = "V"+idvac
@@ -73,48 +65,55 @@ function showVaccines() {
 
 		instancesCell = row.insertCell(-1)		
 		
-		if (filterLabel == '') foundLabel = true
+		if (filterText == '') foundText = true
 		
 		for (idchild of extvaccines[idvac].instances.sort(sortByVacLabel)) {
 			vdesc = document.createElement('div')	
 			vdesc.appendChild(vaccineTag(idchild))
 			childLabel = document.createElement('span')
 			childLabel.innerHTML = vaccines[idchild].label
-			if (vaccines[idchild].label.toUpperCase().includes(filterLabel)) foundLabel = true
+			if (idchild.includes(filterText)) foundText = true
+			if (vaccines[idchild].label.toUpperCase().includes(filterText)) foundText = true
 			if (extvaccines[idchild].changed)
 				childLabel.style.fontWeight = 'bold'
 			vdesc.appendChild(childLabel)
-			instancesCell.appendChild(vdesc)			
+			instancesCell.appendChild(vdesc)
+			if (idchild == context.currentVaccine) {row.style.backgroundColor='#95ADC5'}			
 		}
 		
-		if (!foundLabel) hidden = true
+		if (!foundText) hidden = true
 		row.style.display = (hidden?'none':'table-row')
 	
 	}
-	vacFocus()
+	if (context.currentVaccine) {
+		document.getElementById('T'+context.currentVaccine).scrollIntoView({block:'center'})
+	}
 }
 
 function editVaccine() {
-    viewEditVaccine(this.id.substring(1),false)
+	setContext('currentVaccine',this.id.substring(1))
+    viewEditVaccine(isAbstract=false)
 }
 
 function addAbstractVaccine() {
-    viewEditVaccine("VACxxxx", true)
+	setContext('currentVaccine',null)	
+    viewEditVaccine(isAbstract=true)
 }
 
 function addRealVaccine() {
-	idvac = document.getElementById('vcode').value
-    viewEditVaccine("VACxxxx", false, idvac)
+	abstract = context.currentVaccine
+	setContext('currentVaccine',null)	
+    viewEditVaccine(isAbstract=false, vclass=abstract)
 }
 
 function toggleVacDeprecated() {
-	idvac = document.getElementById('vcode').value
+	idvac = context.currentVaccine
 	if (vaccines[idvac].status == 'deprecated') {
 		vaccines[idvac].status = 'active'
 	} else {
 		vaccines[idvac].status = 'deprecated'
 	}
-	showVaccines()  // A revoir, on veut seulement évaluer changed
+	showVaccines()
 	viewEditVaccine(idvac)
 }
 
@@ -132,7 +131,7 @@ voidReal = {
 	"instanceOf": null	
 }
 
-function viewEditVaccine(idvac,isAbstract, vclass) {
+function viewEditVaccine(isAbstract, vclass) {
 	editWindow = document.getElementById("edit")
 	assignButton = document.getElementById("assign")
 	instanceButton = document.getElementById("addInstance")
@@ -140,10 +139,12 @@ function viewEditVaccine(idvac,isAbstract, vclass) {
 	deprecateButton = document.getElementById("deprecate")
 	codeField = document.getElementById("vcode")
 	
-	if (idvac in vaccines) {
+	idvac = context.currentVaccine
+	
+	if (idvac) {
+		codeField.value = idvac
 		codeField.readOnly = true
 		codeField.style.backgroundColor = "#D0D0D0"		
-		setContext('currentVaccine',idvac)
         vaccine = vaccines[idvac]
 		isAbstract = vaccine.abstract	
 		if (isAbstract) {
@@ -152,14 +153,14 @@ function viewEditVaccine(idvac,isAbstract, vclass) {
 		}
 		else {
 			vclass = (vaccine.instanceOf?vaccine.instanceOf:"VAC0000")	
-		}
-		showSidebar()
-
+		}	
+		//showSidebar()
 		assignButton.style.display = "inline"
 		resetButton.style.display = (extvaccines[idvac].changed?'inline':'none')
 		deprecateButton.style.display = "inline"
     } else {          // New vaccine
 		codeField.readOnly = false
+		codeField.value = 'VACxxxx'
 		codeField.style.backgroundColor = ""		
 		vaccine = (isAbstract? voidAbstract: voidReal)
 		assignButton.style.display = 'none'
@@ -170,7 +171,6 @@ function viewEditVaccine(idvac,isAbstract, vclass) {
 	deprecateButton.innerHTML = (vaccine.status == 'deprecated'?'Restore':'Deprecate')
    
     document.getElementById("vabstract").checked = isAbstract
-    document.getElementById("vcode").value = idvac
 	document.getElementById("vlabel").value = vaccine['label']
 	document.getElementById("vcomment").value = vaccine['comment']
 
@@ -210,7 +210,6 @@ function viewEditVaccine(idvac,isAbstract, vclass) {
 function closeVaccineEdit() {
     document.getElementById("vcode").value = ""
 	document.getElementById("edit").style = "display:none"
-	document.getElementById('idvac').innerHTML = ""	
 	setContext('currentVaccine',null)	
 }
 
@@ -239,14 +238,15 @@ function setVaccineValues() {
 	if (!isAbstract) {
 		vaccine.instanceOf = document.getElementById('vclass').value
 	}
+	setContext("currentVaccine",idvac)
 	saveToSession("vaccines", vaccines)
 	showVaccines()
-	viewEditVaccine(idvac)
+	viewEditVaccine(isAbstract)
 }
 
 function setVaccineValences() {
-    idvac = document.getElementById("vcode").value
-	if (!(idvac in vaccines)) {
+    idvac = context.currentVaccine
+	if (!idvac) {
 		showAlert("Save vaccine before assigning valences.")
 		return
 	}
@@ -267,8 +267,8 @@ function setVaccineValences() {
 }
 
 function setVaccineClass () {
-	idvac = document.getElementById("vcode").value
-	if (!(idvac in vaccines)) {
+	idvac = context.currentVaccine
+	if (!idvac) {
 		showAlert("Save vaccine before assigning valences.")
 		return
 	}
@@ -284,12 +284,12 @@ function setVaccineClass () {
 }
 
 function resetVaccine() {
-    idvac = document.getElementById("vcode").value
+    idvac = context.currentVaccine
 	if (!(idvac in defaultData['vaccines'])) {
 		if (vaccines[idvac].abstract) {
 			for (instance of extvaccines[idvac].instances)
 			{
-				delete vaccines[instance]		
+				vaccines[instance].instanceOf = "VAC0000"	
 			}
 			// delete abstractVaccines[idvac]
 			if (context.selectedAbstract == idvac) {

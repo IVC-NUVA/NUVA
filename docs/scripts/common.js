@@ -1,5 +1,7 @@
 const idRoot = "Valence"
-const voidContext = {'selectedValences': [], 'filter': [], 'selectedAbstract': null, 'currentVaccine': null, 'currentCode': null}
+const voidContext = {
+	'selectedValences': [], 'filter': [], 'selectedAbstract': null, 
+    'currentVaccine': null, 'currentValence': null, 'currentCode': null}
 
 var vaccines
 var valences
@@ -10,6 +12,10 @@ var context = voidContext
 var loglines = []
 var logTimer = null
 
+
+function today() {
+    return (new Date().toISOString().substring(0, 10))
+}
 
 /* Keep context in local storage*/
 function loadFromSession(key, value) {
@@ -100,6 +106,7 @@ function codeTag(idcode, prefix='T') {
 function setContext(key,value) {
 	context[key] = value
 	saveToSession('context',context)
+	showSidebar()
 }
 
 /* Selected Valences 
@@ -190,7 +197,7 @@ function showFilter() {
 
 function clearBoth() {
 	// Needed when a valence is deleted
-	setContext('selectedValences',null)
+	setContext('selectedValences',[])
 	setContext('selectedAbstract',null)
 	setContext('filter',[])
 	showSidebar()
@@ -209,7 +216,7 @@ function showCurrentVaccine()
 {
   document.getElementById('idvac').innerHTML = ""
   if (context.currentVaccine) {
-	document.getElementById("idvac").appendChild(vaccineTag(context.currentVaccine))
+	document.getElementById("idvac").appendChild(vaccineTag(context.currentVaccine,'S'))
   }
 }
 

@@ -13,6 +13,7 @@ function restore(restVaccines, restValences) {
 
 function reset() {
     restore(defaultData['vaccines'], defaultData['valences'])
+	saveToSession('context',voidContext)
     doLog("All vaccines and valences were reset to their default values.")
 }
 
@@ -30,9 +31,6 @@ function download(filename, text) {
 }
 
 // Backup functions
-function today() {
-    return (new Date().toISOString().substring(0, 10))
-}
 function saveBackup() {
 	date = today()
     backup = {
