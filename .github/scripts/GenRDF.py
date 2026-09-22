@@ -54,7 +54,6 @@ core = Graph()
 core.parse(data = nuva_void)
 full = Graph(store="Oxigraph")
 langgraphs = {}
-Terms = {}
 
 NUVS = Namespace("http://ivci.org/NUVA/nuvs#")
 NUVA = Namespace("http://ivci.org/NUVA/") 
@@ -72,6 +71,7 @@ def loadUnits(type):
     return dict(sorted(tempdir.items()))
 
 def loadLanguages():
+    terms = {}
     files = pathlib.Path('Translations').rglob('nuva_*.yml')
     for file in files:
         with open(file, encoding='utf-8') as data:
@@ -79,9 +79,10 @@ def loadLanguages():
             lang=next(iter(langterms))
         for theme in ['valence','vaccine']:
             for key,term in langterms[lang][theme].items():
-                if key not in Terms:
-                    Terms[key] = {}
-                Terms[key][lang] = term
+                if key not in terms:
+                    terms[key] = {}
+                terms[key][lang] = term
+    return terms
 
 def loadAlignments():
     alignments = {}
@@ -131,7 +132,7 @@ Codes = {}
 Vaccines = loadUnits("Vaccines")
 Valences = loadUnits("Valences")
 
-loadLanguages()
+Terms = loadLanguages()
 alignments = loadAlignments()
 
 version = "2000-01-01"
