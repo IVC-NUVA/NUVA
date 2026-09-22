@@ -1,0 +1,447 @@
+﻿NUVA,label,comment,shorthand,parent
+VAL000,Parent for deprecated valences,,ZZZ,Valence
+VAL001,"Trivalenta dzīva novājināta gripas valence, normāla deva",,Inf-L3,VAL140
+VAL002,"Konjugētā vakcīna pret vēdertīfu, Vi polisaharīda antigēns, kas saistīts ar nesējbaltumu",,Ty-ViC,VAL014
+VAL003,"Garā klepus valence, bez precizējuma",,Per,Valence
+VAL004,"Visa inaktivēta holēras valence, injicējama",,I-Chol-I,VAL359
+VAL005,"Measles valence, live attenuated",,Meas-LAV,VAL182
+VAL006,"Anti-Brucella valence, bez precizējuma",,Bruc,Valence
+VAL007,Rekombinants vezikulārā stomatīta vīrusa (rVSV) replikatīvais vektors Ebolas vakcīna - EBOV GP glikoproteīns,,rVSVdG-ZEBOV-GP,VAL126
+VAL008,"Bezšūnu garā klepus valence, standarta deva",,aP,VAL117
+VAL009,Vakcīnas pret sporozoītu virsmas olbaltumvielām,,Mala-SPO,VAL025
+VAL010,Inaktivētas visas garā klepus baktērijas valence,,wP,VAL003
+VAL011,"COVID-19 vakcīna, proteīna apakšvienība, rekombinantais smailes proteīns (RBD)",,COVID-PS-rRBD,VAL104
+VAL012,"Hepatīta B vakcīna, rekombinantā Hepatīta B vīrusa virsmas antigēns (HBsAg), 40 mikrogrami (dializējamo pacientu devas)",,rHBsAg-40,VAL090
+VAL013,Varicella zoster vīrusa (VZV) virsmas glikoproteīns E (gE),,Shingles-gE,VAL159
+VAL014,"Vakcīna pret vēdertīfu, neprecizēta",,Ty,Valence
+VAL015,"Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",,INF-SUnd3,VAL122
+VAL016,"Trakumsērgas imūnglobulīns, neprecizēts",,RIG,Valence
+VAL017,"Bezšūnu garā klepus valence, samazināta deva",,ap,VAL117
+VAL018,"Trešās paaudzes vakcīna pret bakām, minimāli replicējošs dzīvs vakcinācijas vīruss",,Pox-3G-LC16,VAL028
+VAL019,Difterijas antitoksīns,,DATx,VAL414
+VAL020,"Herpes zoster valence, live attenuated",,Shingles-L,VAL160
+VAL021,Perorāla inaktivēta vesela holēras vakcīna,,O-Chol-I,VAL359
+VAL022,"Smallpox valence, live attenuated, unspecified",,Smallpox-L,VAL418
+VAL023,"Influenza valence, trivalent, inactivated, split or subunit, intradermal route, unspecified",,INF-SUid3,VAL024
+VAL024,"Trivalenta inaktivēta gripas valence, frakcionēta vai apakšvienība, bez precizējuma",,INF-SU3,VAL058
+VAL025,"Vakcīna pret malāriju, neprecizēta",,Mala,Valence
+VAL026,"Meningokoku vakcīna B:14:P1.7,16 ar ārējās membrānas vezikulu olbaltumvielām",,MenB-OMP,VAL118
+VAL027,"COVID-19 vakcīna, neatjaunojošs adenovīrusa 26 vektors, kas kodē SARS-CoV-2 smailes proteīnu.",,COVID-VVnr-S-Ad26,VAL070
+VAL028,"Smallpox valence, third-generation, live attenuated",,POX-3G,VAL022
+VAL029,"Sezonas gripas VLP vakcīna, neprecizēta",,Inf-VLP,VAL364
+VAL030,Vakcīna pret Borrelia burgdorferi - ārējās virsmas proteīns A (OspA),,Lyme-OspA,VAL339
+VAL031,Ērču encefalīts,,TBE,Valence
+VAL032,"Tifusa polisaharīdu vakcīna, nekonjugēta Vi polisaharīdu antigēns",,Ty-ViPS,VAL014
+VAL033,Monovalentā dzīvā novājinātā 2. tipa perorālā poliomielīta vakcīna,,mOPV2,VAL133
+VAL034,"Difterijas toksoīds, neliela deva",,d,VAL083
+VAL035,"COVID-19 vakcīna, plazmīdu DNS, kas kodē SARS-CoV-2 smailes proteīnu",,COVID-DNA-S,VAL164
+VAL036,"Cilvēka papilomas vīrusa VLP neavalentā vakcīna, 6., 11., 16., 18., 31., 33., 45., 52., 58. tips",,HPV-09-valent,VAL237
+VAL037,Meningokoka A nekonjugēta polisaharīda vakcīna,,MPV-A,VAL297
+VAL038,"COVID-19 vakcīna, replicējošs masalu vīrusa vektors, kas kodē SARS-CoV-2 smailes proteīnu",,COVID-VVr-S-Meas,VAL398
+VAL039,"COVID-19 vakcīna, VLP, rekombinants smailes proteīns",,COVID-VLP-rS,VAL164
+VAL040,"Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",,INF-SUnd4,VAL064
+VAL041,Meningokoka A polisaharīdu konjugētā vakcīna,,MCV-A,VAL297
+VAL042,"Poliomielīta vakcīna, neprecizēta",,POLIO,Valence
+VAL043,SARS-CoV-2 smaila proteīna mRNS 19 vakcīna,,COVID-mRNA-S,VAL168
+VAL044,Varicella,,VZV-LAV,Valence
+VAL045,Inaktivēta visa paratifa vakcīna,,pTy-I,VAL014
+VAL046,Tifuss,,Typhus,Valence
+VAL047,Hepatīta B imūnglobulīns,,IgHepB,Valence
+VAL048,Inaktivēta vesela vakcīna pret parotītu,,Or-I,VAL183
+VAL049,"Polisaharīdu Haemophilus influenzae b tipa valence, nekonjugēta",,Hib-PS,VAL177
+VAL050,"COVID-19 vakcīna, neatjaunojošs adenovīrusa 5 vektors, kas kodē SARS-CoV-2 smailes proteīnu, neprecizēts",,COVID-VVnr-S-Ad5,VAL070
+VAL051,Pirmspandēmiskā vakcīna pret A(H5N1) gripu,,AH5N1,VAL386
+VAL052,"Cilvēka papilomas vīrusa VLP četrvalenta vakcīna, 6., 11., 16. un 18. tips",,HPV-04-valent,VAL237
+VAL053,"COVID-19 vakcīna, proteīna apakšvienība, rekombinantais smailes proteīns, neprecizēts",,COVID-PS,VAL164
+VAL054,"COVID-19 vakcīna, neatjaunojošs modificēts Vaccinia Virus Ankara vektors, kas kodē SARS-CoV-2 smailes proteīnu.",,COVID-VVnr-S-MVA,VAL397
+VAL055,Masalu imūnglobulīns,,Ig-Measles,Valence
+VAL056,Visa inaktivēta trivalenta poliomielīta vakcīna injekcijām,,POLIO-I,VAL042
+VAL057,Meningokoka C polisaharīdu konjugāta vakcīna,,MCV-C,VAL298
+VAL058,"Inaktivēta gripas valence, frakcionēta vai apakšvienība, bez precizējuma",,INF-SU,VAL365
+VAL059,"Četrvalenta dzīva novājināta gripas valence, normāla deva",,INF-L4,VAL140
+VAL060,"Chikungunya virus valence, live attenuated",,CHIK-LA,VAL390
+VAL061,"COVID-19 vakcīna, proteīna apakšvienība, rekombinants smailes proteīns, S-2P un CpG1018",,COVID-PS-CpG1018,VAL104
+VAL062,"Cholera valence, protein subunit, recombinant cholera toxin subunit B (rCTB)",,O-Chol-rCTB-I,VAL021
+VAL063,Botulīna antitoksīns,,BAT,VAL420
+VAL064,"Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted",,INF-SUNA4,VAL127
+VAL065,Dzīva novājināta rekombinētā himēriskā tetravalentā denges vakcīna ,,RC-TDV,VAL150
+VAL066,"Pretcovid 19 replicatīvā vīrusa vektora vakcīna, gripas vīruss, kas kodē SARS-CoV-2 maksimālo proteīnu",,COVID-VVr-S-Influ,VAL398
+VAL067,Stingumkrampju toksoīds,,T,Valence
+VAL068,"B hepatīta valence, bez precizējuma",,HepB,Valence
+VAL069,"COVID-19 vakcīna, neatjaunojošs šimpanzes adenovīrusu vektors ChAdOx1, kas kodē SARS-CoV-2 smailes proteīnu",,COVID-VVnr-S-ChAdOx1,VAL397
+VAL070,"COVID-19 vakcīna, neatjaunojošs adenovīrusu vektors, kas kodē SARS-CoV-2 smailes proteīnu, neprecizēts",,COVID-VVnr-S-Ad,VAL397
+VAL071,Inaktivēta visa vakcīna pret vēdertīfu,,Ty-I,VAL014
+VAL072,"Meningokoka B vakcīna, kas satur A un B apakšģimenes fHbp",,MenB-fHbpAB,VAL161
+VAL073,"COVID-19 vakcīna, replicējošs vīrusa vektors, ar antigēnu prezentējošām šūnām",,COVID-VVr+APC,VAL162
+VAL074,"Četrivalenta inaktivēta gripas vakcīna, sadalīta vai subvienota, lielas devas",,INF-SUhd4,VAL064
+VAL075,Inaktivēta visa vakcīna pret Leptospira icterohaemorrhagiae,,Lepto-wI,Valence
+VAL076,"COVID-19 vakcīna, inaktivēta ar veselu vīrionu, neprecizēta",,COVID-IV,VAL164
+VAL077,"Mumps valence, live attenuated",,Mumps-LAV,VAL183
+VAL078,Meningokoka Y polisaharīdu konjugāta vakcīna,,MCV-Y,VAL299
+VAL079,"Rubella valence, live attenuated",,Rub-LAV,Valence
+VAL080,"Visa viriona inaktivēta trakumsērgas vakcīna, neprecizēta",,Rab-I,Valence
+VAL081,"Holēras valence, bez precizējuma",,Chol,Valence
+VAL082,"Vakcīna pret cilvēka papilomas vīrusu, veidi nav norādīti",,HPV,Valence
+VAL083,"Difterijas toksoīds, deva nav precizēta",,D-d,VAL414
+VAL084,"COVID-19 vakcīna, replicējošs vezikulārā stomatīta vīrusa vektors, kas kodē SARS-CoV-2 smailes proteīnu",,COVID-VVr-S-VSV,VAL398
+VAL085,Monovalentā dzīvā novājinātā 3. tipa perorālā poliomielīta vakcīna,,mOPV3,VAL133
+VAL086,"COVID-19 vakcīna, dzīvā novājinātā, neprecizēta",,COVID-LA,VAL165
+VAL087,"Denges valence, dzīva novājināta tetravalenta himēriskā rekombinantā, balstīta uz dzeltenā drudža 17D vakcīnu",,CYD-TDV,VAL150
+VAL088,Varicella imūnglobulīns,,VZV-Ig,Valence
+VAL089,"Inaktivēta valence pret Japānas encefalītu, bez precizējuma",,JE-I,VAL249
+VAL090,"Hepatīta B vakcīna, rekombinantais hepatīta B vīrusa virsmas antigēns (HBsAg), deva nav precizēta.",,rHBsAg,VAL068
+VAL091,"Dzīva novājināta tīfa vakcīna, Ty21a celms, perorāla",,Ty-LA,VAL014
+VAL092,Dzeltenais drudzis,,YF,Valence
+VAL093,Inaktivēta vesela masalu vakcīna,,Meas-I,VAL182
+VAL094,"Influenza valence, trivalent, inactivated, fractionated or subunit, intramuscular or subcutaneous, non-adjuvanted, high dose",,INF-SUhd3,VAL122
+VAL095,"COVID-19 vakcīna, replicējošs Ņūkāslas slimības vīrusa vektors, kas kodē SARS-CoV-2 smailes proteīnu",,COVID-VVr-S-Nv,VAL398
+VAL096,BCG valence,,BCG,Valence
+VAL097,"Difterijas toksoīds, standarta deva",,D,VAL083
+VAL098,4 komponentu meningokoka B vakcīna,,4CMenB,VAL161
+VAL099,Inaktivēta pandēmiskās gripas H1N1 2009 valence ,,Inf-pdm09,VAL058
+VAL100,"Japanese encephalitis valence, live attenuated virus, strain 14-14-2",,JE-LAV-14-14-2,VAL248
+VAL101,"COVID-19 vakcīna, nereplikācijas Ņūkāslas slimības vīrusa vektors, kas kodē SARS-CoV-2 smailes proteīnu",,COVID-VVnr-S-Nv,VAL397
+VAL102,Rekombinanta peptīdu E hepatīta valence,,HepE,Valence
+VAL103,"Konjugēta Haemophilus influenzae b tipa valence, bez precizējuma",,Hib-C,VAL177
+VAL104,"COVID-19 vakcīna, proteīna apakšvienība, rekombinants smailes proteīns",,COVID-PS-rS,VAL053
+VAL105,"Pneimokoku vakcīna, neprecizēta",,Pneumo,Valence
+VAL106,"Rotavīrusa vakcīna, neprecizēta",,Rota,Valence
+VAL107,"COVID-19 vakcīna, proteīna apakšvienība, rekombinantās smaiļveida proteīna nanodaļiņas",,COVID-PS-rSnp,VAL104
+VAL108,Dzīva nereplicējoša rekombinantā vīrusu vektora vakcīna Ad26.ZEBOV,,ZebovVRnrAd26,VAL126
+VAL109,"Valence pret ebolu ar nereplicējošu vīrusa vektoru, modificētā Ankaras vakcīna ",,Ebola-MVA-BN-Filo,VAL126
+VAL110,Stingumkrampju imūnglobulīns,,T-Ig,Valence
+VAL111,Acelulārā Sibīrijas mēra vakcīna,,Bant,VAL340
+VAL112,"Četrvalenta inaktivēta gripas valence, iegūta no šūnu kultūras, frakcionēta vai apakšvienība, normāla deva",,INF-CC4,VAL360
+VAL113,"Cilvēka papilomas vīrusa VLP divvērtīgā vakcīna, 16. un 18. tips",,HPV-02-valent,VAL237
+VAL114,"Hepatīta B vakcīna, rekombinantais hepatīta B virsmas antigēns (HBsAg), 10 mikrogrami",,rHBsAg-10,VAL090
+VAL115,"Hepatīta B vakcīna, rekombinants hepatīta B vīrusa virsmas antigēns (HBsAg), 20 mikrogrami",,rHBsAg-20,VAL090
+VAL116,"Monoklonālā antiviela pret RSV, palivizumab",,RSV-mAb-pal,VAL320
+VAL117,"Acelulārā garo klepus klepus vakcīna, deva nav norādīta",,Acel,VAL003
+VAL118,"Meningokoka B tipa vakcīna, neprecizēta",,MenB,VAL234
+VAL119,Meningokoku monovalentā nekonjugētā polisaharīdu vakcīna,,MPV-mono,VAL439
+VAL120,"Meningokoka nekonjugēts polisaharīds, polivalents",,MPV-poly,VAL234
+VAL121,Perorāla trivalenta inaktivēta poliomielīta vakcīna,,POLIO-I-O,VAL042
+VAL122,"Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted",,INF-SUNA3,VAL231
+VAL123,"Rotavirus valence, pentavalent, live attenuated virus",,Rota5-L,VAL106
+VAL124,"Dzīva novājināta holēras valence, bez precizējuma",,Chol-L,VAL081
+VAL125,"Visa inaktivēta A hepatīta valence, bez precizējuma",,HepA-I,VAL288
+VAL126,"Valence pret ebolu, bez precizējuma",,Ebola,Valence
+VAL127,"Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route",,INF-SUimsc4,VAL230
+VAL128,"Gripas valence, bez precizējuma",,Inf,Valence
+VAL129,"Herpes simplex valence, bez precizējuma",,HSV,Valence
+VAL130,A hepatīta virosomu valence,,HepA-VLP,VAL125
+VAL131,Visa inaktivētā mēra vakcīna,,Yp-I,VAL422
+VAL132,Monovalentā dzīvā novājinātā 1. tipa perorālā poliomielīta vakcīna,,mOPV1,VAL133
+VAL133,"Dzīva novājināta monovalentā perorālā poliomielīta vakcīna, neprecizēts tips",,mOPV,VAL042
+VAL134,"Influenza valence, quadrivalent, inactivated, split or subunit, intradermal route, unspecified",,INF-SUid4,VAL230
+VAL135,"COVID-19 valence, mRNA encoding the SARS-CoV-2 spike protein, in clinical trials ",,Covid-ARNm-S-CT,VAL303
+VAL136,"Meningokoka W vakcīna, polisaharīda konjugāts",,MCV-W,VAL300
+VAL137,Meningokoka C nekonjugēta polisaharīda vakcīna,,MPV-C,VAL298
+VAL138,Meningokoka W nekonjugēta polisaharīda vakcīna,,MPV-W,VAL300
+VAL139,Meningokoka Y nekonjugēta polisaharīda vakcīna,,MPV-Y,VAL299
+VAL140,"Influenza valence, live attenuated, unspecified",,Inf-L,VAL128
+VAL141,RIX4414 monovalentā rotavīrusa vakcīna,,Rota-mv-RIX4414,VAL106
+VAL142,"Visa inaktivēta A hepatīta valence, monovalenta, pediatriskā deva",,HepA-mv-PED,VAL283
+VAL143,"Visa inaktivēta A hepatīta valence, bivalenta (A un B hepatīts), pediatriskā deva",,HepA-bv-PED,VAL283
+VAL144,"Visa inaktivēta A hepatīta valence, monovalenta, pieaugušo deva",,HepA-mv-ADU,VAL284
+VAL145,"Visa inaktivēta A hepatīta valence, bivalenta (A un B hepatīts), pieaugušo deva",,HepA-bv-ADU,VAL284
+VAL146,Valence pret visu inaktivēto Brucella,,Bruc-I,VAL006
+VAL147,Valence ar proteīna antigēnu P.I. (fenolā nešķīstošs) pret brucelozi,,Bruc-IP,VAL006
+VAL148,Elpošanas ceļu sincitiālā vīrusa monoklonālā antiviela,,RSV-IG,VAL317
+VAL149,"COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, 25 mikrogrami",,Covid-mRNA-S-25,VAL043
+VAL150,"Valence pret denges drudzi, bez precizējuma",,Den,Valence
+VAL151,"Tularēmijas vakcīna, neprecizēta",,Tular,Valence
+VAL152,"Visa inaktivēta gripas valence, bez precizējuma",,Inf-I,VAL365
+VAL153,"Haemophilus influenzae b tipa polisaharīda PRP vakcīna, konjugēta ar difterijas toksoīdu",,PRP-D,VAL103
+VAL154,"Haemophilus influenzae b tipa valence, PRP oligosaharīdi konjugēti ar mutantu difterijas toksīnu CRM197",,HbOC,VAL103
+VAL155,"Haemophilus influenzae b tipa vakcīna, polisaharīda konjugēta ar Neisseria meningitidis B serogrupas ārējās membrānas proteīnu.",,PRP-OMP,VAL103
+VAL156,"PRP-T Haemophilus influenzae b tipa vakcīna, polisaharīda PRP, konjugēta ar stingumkrampju toksoīdu",,PRP-T,VAL103
+VAL157,"COVID-19 vakcīna, neprecizēta",,COVID,Valence
+VAL158,Hepatīta B plazmas vakcīna,,pHBsAg,VAL068
+VAL159,"Vakcīna pret šinšļiem, apakšvienība, neprecizēta",,Shingles-SU,VAL160
+VAL160,"Vakcīna pret šinšļiem, neprecizēta",,Shingles,Valence
+VAL161,"Meningokoka B daudzkomponentu vakcīna, neprecizēta",,MenB-mc,VAL118
+VAL162,"COVID-19 vakcīna, replicējošs vīrusa vektors, neprecizēts",,COVID-VVr,VAL165
+VAL163,"COVID-19 vakcīna, neatjaunojošs vīrusu vektors, neprecizēts",,COVID-VVnr,VAL165
+VAL164,"COVID-19 vakcīna, nedzīva, neprecizēta",,COVID-non-live,VAL157
+VAL165,"COVID-19 vakcīna, dzīva, neprecizēta",,COVID-live,VAL157
+VAL166,"Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, pediatric dose",,INF-SUped3,VAL122
+VAL167,"COVID-19 vakcīna, neatjaunojošs vīrusa vektors, ar antigēnu prezentējošām šūnām",,COVID-VVnr+APC,VAL163
+VAL168,"RNS vakcīna pret kovīdiem 19, neprecizēta",,COVID-RNA,VAL164
+VAL169,Pašpastiprinoša mRNA (AAA) vakcīna vakcīnai 19,,COVID-mRNA-SAM,VAL303
+VAL170,"Hepatīta B vakcīna, rekombinantais hepatīta B vīrusa virsmas antigēns (HBsAg), 5 mikrogrami.",,rHepB-05,VAL090
+VAL171,"Venecuēlas zirgu encefalīta vakcīna, neprecizēta",,VEE,Valence
+VAL172,"Valence pret Q drudzi (Coxiella burnetii), bez precizējuma",,Cbur,Valence
+VAL173,"Argentine hemorrhagic fever valence, Junin virus, live attenuated",,Junin-LAV,VAL421
+VAL174,"Hantavīrusu valence, bez precizējuma",,HAN,Valence
+VAL175,"Vakcīna pret leišmaniozi, neprecizēta",,Leish,Valence
+VAL176,"Vakcīna pret cilvēka paragripas vīrusiem, neprecizēta",,HPIVs,Valence
+VAL177,"Haemophilus influenzae b tipa valence, bez precizējuma",,Hib,Valence
+VAL178,"COVID-19 vaccine, mRNA coding for SARS-CoV-2 spike protein, Omicron variant BA.1, 25 micrograms",,COVID-mRNA-S-OMI-BA.1-25,VAL393
+VAL179,"Meningokoka konjugētā vakcīna, monovalenta",,MCV-mono,VAL439
+VAL180,"COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, 100 mikrogrami",,COVID-mRNA-S-ORI-100,VAL303
+VAL181,"COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, oriģinālais SARS-CoV-2 vīruss, 25 mikrogrami.",,Covid-mRNA-S-ORI-25,VAL303
+VAL182,"Vakcīna pret masalām, neprecizēta",,Meas,Valence
+VAL183,"Vakcīna pret cūciņām, neprecizēta",,Mumps,Valence
+VAL184,"Pneimokoku polisaharīdu konjugētā vakcīna, monovalentā vakcīna",,PCV,VAL105
+VAL185,"Pneimokoku polisaharīdu nekonjugēta vakcīna, neprecizēta",,PPSV,VAL105
+VAL186,"Pneimokoku polisaharīdu konjugētā vakcīna, 1. serotips",,PCV-01,VAL184
+VAL187,"Pneimokoku polisaharīdu konjugētā vakcīna, 3. serotips",,PCV-03,VAL184
+VAL188,"Pneimokoku polisaharīdu konjugētā vakcīna, 4. serotips",,PCV-04,VAL184
+VAL189,"Pneimokoku polisaharīdu konjugētā vakcīna, 5. serotips",,PCV-05,VAL184
+VAL190,"Pneimokoku polisaharīdu konjugētā vakcīna, 6A serotips",,PCV-06A,VAL184
+VAL191,"Pneimokoku polisaharīdu konjugētā vakcīna, 6B serotips",,PCV-06B,VAL184
+VAL192,"Pneimokoku polisaharīdu konjugētā vakcīna, 7F serotips",,PCV-07F,VAL184
+VAL193,"Pneimokoku polisaharīdu konjugētā vakcīna, 8. serotips",,PCV-08,VAL184
+VAL194,"Pneimokoku polisaharīdu konjugētā vakcīna, 9V serotips",,PCV-09V,VAL184
+VAL195,"Pneimokoku polisaharīdu konjugētā vakcīna, 10A serotips",,PCV-10A,VAL184
+VAL196,"Pneimokoku polisaharīdu konjugētā vakcīna, 11A serotips",,PCV-11A,VAL184
+VAL197,"Pneimokoku polisaharīdu konjugētā vakcīna, serotips 12F",,PCV-12F,VAL184
+VAL198,"Pneimokoku polisaharīdu konjugētā vakcīna, 14. serotips",,PCV-14,VAL184
+VAL199,"Pneimokoku polisaharīdu konjugētā vakcīna, serotips 15B",,PCV-15B,VAL184
+VAL200,"Pneimokoku polisaharīdu konjugētā vakcīna, 18C serotips",,PCV-18C,VAL184
+VAL201,"Pneimokoku polisaharīdu konjugētā vakcīna, 19A serotips",,PCV-19A,VAL184
+VAL202,"Pneimokoku polisaharīdu konjugētā vakcīna, 19F serotips",,PCV-19F,VAL184
+VAL203,"Pneimokoku polisaharīdu konjugētā vakcīna, 22F serotips",,PCV-22F,VAL184
+VAL204,"Pneimokoku polisaharīdu konjugētā vakcīna, serotips 23F",,PCV-23F,VAL184
+VAL205,"Pneimokoku polisaharīdu konjugētā vakcīna, serotips 33F",,PCV-33F,VAL184
+VAL206,"Pneimokoku polisaharīdu nekonjugētā vakcīna, 1. serotips",,PPSV-01,VAL185
+VAL207,"Pneimokoku polisaharīdu nekonjugētā vakcīna, 2. serotips",,PPSV-02,VAL185
+VAL208,"Pneimokoku polisaharīdu nekonjugētā vakcīna, 3. serotips",,PPSV-03,VAL185
+VAL209,"Pneimokoku polisaharīdu nekonjugētā vakcīna, 4. serotips",,PPSV-04,VAL185
+VAL210,"Pneimokoku polisaharīdu nekonjugētā vakcīna, 5. serotips",,PPSV-05,VAL185
+VAL211,"Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 6B",,PPSV-06B,VAL185
+VAL212,"Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 7F",,PPSV-07F,VAL185
+VAL213,"Pneimokoku polisaharīdu nekonjugētā vakcīna, 8. serotips",,PPSV-08,VAL185
+VAL214,"Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 9N",,PPSV-09N,VAL185
+VAL215,"Pneimokoku polisaharīdu nekonjugētā vakcīna, 9V serotips",,PPSV-09V,VAL185
+VAL216,"Pneimokoku polisaharīdu nekonjugēta vakcīna, 10A serotips",,PPSV-10A,VAL185
+VAL217,"Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 11A",,PPSV-11A,VAL185
+VAL218,"Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 12F",,PPSV-12F,VAL185
+VAL219,"Pneimokoku polisaharīdu nekonjugētā vakcīna, 14. serotips",,PPSV-14,VAL185
+VAL220,"Pneimokoku polisaharīdu nekonjugētā vakcīna, 15B serotips",,PPSV-15B,VAL185
+VAL221,"Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 15F",,PPSV-15F,VAL185
+VAL222,"Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 17F",,PPSV-17F,VAL185
+VAL223,"Pneimokoku polisaharīdu nekonjugēta vakcīna, 18C serotips",,PPSV-18C,VAL185
+VAL224,"Pneimokoku polisaharīdu nekonjugētā vakcīna, 19A serotips",,PPSV-19A,VAL185
+VAL225,"Pneimokoku polikonjugētā nekonjugētā vakcīna, 19F serotips",,PPSV-19F,VAL185
+VAL226,"Pneimokoku polisaharīdu nekonjugētā vakcīna, 20. serotips",,PPSV-20,VAL185
+VAL227,"Pneimokoku polisaharīdu nekonjugētā vakcīna, 22F serotips",,PPSV-22F,VAL185
+VAL228,"Pneimokoku polisaharīdu nekonjugēta vakcīna, serotips 23F",,PPSV-23F,VAL185
+VAL229,"Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 33F",,PPSV-33F,VAL185
+VAL230,"Četrvalenta inaktivēta gripas valence, frakcionēta vai apakšvienība, bez precizējuma",,INF-SU4,VAL058
+VAL231,"Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route",,INF-SUimsc3,VAL024
+VAL232,"Pneimokoku polisaharīdu nekonjugētā vakcīna, 6A serotips",,PPSV-06A,VAL185
+VAL233,"Pneimokoku polisaharīdu nekonjugētā vakcīna, 25. serotips",,PPSV-25,VAL185
+VAL234,"Meningokoka vakcīna, neprecizēta",,Men,Valence
+VAL235,"Meningokoku konjugētā polisaharīdu polisaharīdu vakcīna, polivalenta",,MCV-poly,VAL234
+VAL236,"Cilvēka papilomas vīrusa VLP vakcīna, monovalenta",,HPV-mono,VAL082
+VAL237,"Cilvēka papilomas vīrusa VLP vakcīna, polivalenta",,HPV-poly,VAL082
+VAL238,"Cilvēka papilomas vīrusa VLP vakcīna, 6. tips",,HPV-06,VAL236
+VAL239,"Cilvēka papilomas vīrusa VLP vakcīna, 11. tips",,HVP-11,VAL236
+VAL240,16. tipa cilvēka papilomas vīrusa VLP vakcīna,,HVP-16,VAL236
+VAL241,"Cilvēka papilomas vīrusa VLP vakcīna, 18. tips",,HVP-18,VAL236
+VAL242,31. tipa cilvēka papilomas vīrusa VLP vakcīna,,HVP-31,VAL236
+VAL243,33. tipa cilvēka papilomas vīrusa VLP vakcīna,,HPV-33,VAL236
+VAL244,"Cilvēka papilomas vīrusa VLP vakcīna, 58. tips",,HVP-58,VAL236
+VAL245,52. tipa cilvēka papilomas vīrusa VLP vakcīna,,HVP-52,VAL236
+VAL246,45. tipa cilvēka papilomas vīrusa VLP vakcīna,,HVP-45,VAL236
+VAL247,"Japanese encephalitis valence, live attenuated chimeric virus",,JE-LAR,VAL248
+VAL248,"Japanese encephalitis valence, live attenuated virus, unspecified",,JE-LAV,VAL249
+VAL249,"Valence pret Japānas encefalītu, bez precizējuma",,JE,Valence
+VAL250,"Valence pret Japānas encefalītu, visa inaktivēta, sagatavota uz peļu smadzeņu audiem",,JE-I-mb,VAL089
+VAL251,"Japānas encefalīta valence, inaktivēta, iegūta no Vero šūnām",,JE-I-Vero,VAL089
+VAL252,cilvēka izcelsmes imūnglobulīns pret trakumsērgu,,RIG-hu,VAL016
+VAL253,"Trakumsērgas imūnglobulīns, zirgu izcelsmes",,eRIG,VAL016
+VAL254,"Visa vīriona inaktivēta trakumsērgas vakcīna, Semple tipa, sagatavota no kazas vai aitas smadzeņu audiem, kas inficēti ar trakumsērgas vīrusu, satur mielīnu",,Rab-I-Semple,VAL256
+VAL255,"Fuenzalida tipa vakcīna pret trakumsērgu, sagatavota no zīdītājpeļu smadzeņu audiem, kas inficēti ar trakumsērgas vīrusu, ar samazinātu mielīna saturu.",,Rab-I-Fuenzalida,VAL256
+VAL256,"Visa vīriona inaktivēta trakumsērgas vakcīna, sagatavota no dzīvnieku smadzeņu audiem, kas inficēti ar trakumsērgas vīrusu, neprecizēta",,Rab-I-NervousTissue,VAL080
+VAL257,"Visa viriona inaktivēta trakumsērgas vakcīna, uz šūnu kultūru bāzes, nespecificēta",,Rab-I-CC,VAL080
+VAL258,"Visa viriona inaktivēta trakumsērgas vakcīna, šūnu kultūras, cilvēka diploīdo šūnu vakcīna (HDCV) MRC-5, inaktivācija ar ß-propiolaktonu",,Rab-I-HDCV,VAL257
+VAL259,"Visa vīriona inaktivēta trakumsērgas vakcīna, attīrīta cāļu embriju šūnu vakcīna (PCECV), iegūta, audzējot fiksētu trakumsērgas vīrusa celmu Flury LEP-25 primārajās cāļu fibroblastu kultūrās, vīruss inaktivēts ar ß-propiolaktonu",,Rab-I-PCEC,VAL257
+VAL260,"Visa viriona trakumsērgas inaktivēta vakcīna, šūnu kultūras, attīrīta Vero šūnu trakumsērgas vakcīna (PVRV), Wistar celms, inaktivācija ar ß-propiolaktonu",,Rab-I-PVRV,VAL257
+VAL261,"Visa viriona inaktivēta trakumsērgas vakcīna, uz šūnu kultūru bāzes, primārā kāmja nieru šūnu vakcīna (PHKCV), Pekinas celms, inaktivācija ar formalīnu",,Rab-I-PHKCV,VAL257
+VAL262,"Visa viriona inaktivēta trakumsērgas vakcīna, embrionētu olu bāzes vakcīna (EEV), neprecizēta",,Rab-I-EEV,VAL080
+VAL263,"Visa viriona inaktivēta trakumsērgas vakcīna, attīrīta pīļu embriju vakcīna (PDEV), inaktivācija ar ß-propiolaktonu",,Rab-I-PDEV,VAL262
+VAL264,"COVID-19 vakcīna, inaktivēta ar veselu virionu",,COVID-IV-Auth,VAL076
+VAL265,"COVID-19 vakcīna, inaktivēta ar veselu virionu, klīniskajos pētījumos",,COVID-IV-CT,VAL076
+VAL266,"Meningokoka C vakcīna, tetanusa toksoīda konjugāta vakcīna",,MCV-C-T,VAL057
+VAL267,"Meningokoka C polisaharīda vakcīna, konjugēta ar difterijas toksoīdu",,MCV-C-D,VAL057
+VAL268,"Meningokoka C polisaharīda vakcīna, konjugēta ar CRM197",,MCV-C-CRM,VAL057
+VAL269,"Meningokoka A polisaharīda vakcīna, konjugēta ar CRM197",,MCV-A-CRM,VAL041
+VAL270,"Meningokoka A vakcīna, polisaharīda, konjugēta ar difterijas toksoīdu",,MCV-A-D,VAL041
+VAL271,"Meningokoka A polisaharīda vakcīna, konjugēta ar stingumkrampju toksoīdu",,MCV-A-T,VAL041
+VAL272,"Meningokoka W vakcīna, tetanusa toksoīda konjugāts",,MCV-W-T,VAL136
+VAL273,"Meningokoka W vakcīna, polisaharīda, konjugēta ar difterijas toksoīdu",,MCV-W-D,VAL136
+VAL274,"Meningokoka W vakcīna, polisaharīda konjugēta ar CRM197",,MCV-W-CRM,VAL136
+VAL275,"Meningokoka valence Y, poliosīds, konjugēts ar proteīnu CRM197",,MCV-Y-CRM,VAL078
+VAL276,"Vaccin méningococcique W, polysaccharide conjugué au CRM197",,MCV-Y-T,VAL078
+VAL277,"Meningokoka Y vakcīna, polisaharīda, konjugēta ar difterijas toksoīdu",,MCV-Y-D,VAL078
+VAL278,"Adenovirus valence, live attenuated, oral route, unspecified",,Adeno-LAV,Valence
+VAL279,"Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, pediatric dose",,INF-SUped4,VAL064
+VAL280,Botulīna toksoīds,,BT,VAL419
+VAL281,"Adenovirus type 7 valence, live attenuated, oral route",,Adeno-7,VAL278
+VAL282,"Adenovirus type 4 valence, live attenuated, oral route",,Adeno-4,VAL278
+VAL283,"Visa inaktivēta A hepatīta valence, pediatriskā deva, bez precizējuma",,HepA-PED,VAL125
+VAL284,"Visa inaktivēta A hepatīta valence, pieaugušo deva, bez precizējuma",,HepA-ADU,VAL125
+VAL285,"Trivalenta inaktivēta gripas valence, iegūta no šūnu kultūras, frakcionēta vai apakšvienība, normāla deva",,INF-CC3,VAL360
+VAL286,"Hepatitis A valence, live attenuated, unspecified",,HepA-LAV,VAL288
+VAL287,Četrvalenta rekombinanta gripas valence,,INF-R4,VAL361
+VAL288,"A hepatīta valence, bez precizējuma",,HepA,Valence
+VAL289,"COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, 10 mikrogrami",, COVID-mRNA-S-ORI-10,VAL303
+VAL290,"COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, 30 mikrogrami",,COVID-mRNA-S-ORI-30,VAL303
+VAL291,"Rekombinanta B hepatīta valence, trīs antigēni (HbS, pre-S1 un pre-S2)",,HepB-r-3Ag,VAL068
+VAL292,"COVID-19 vakcīna, neatjaunojošs adenovīrusa 26 vektors, kas kodē SARS-CoV-2 smailes proteīnu, klīniskos izmēģinājumos",,Covid-VVnr-S-Ad26-CT,VAL070
+VAL293,Sibīrijas mēra imūnglobulīns,,Anthrax-Ig,Valence
+VAL294,"Dzīvs vakcinācijas vīruss, pirmās paaudzes vakcīna",,Pox-1G,VAL022
+VAL295,"Smallpox valence, second-generation, live attenuated",,Pox-2G,VAL022
+VAL296,"Modificēta vakcīna Ankara, neatkārtojama, trešās paaudzes vakcīna",,Pox-3G-MVA,VAL028
+VAL297,"Meningokoka A vakcīna, neprecizēta",,MenA,VAL234
+VAL298,"Meningokoka C vakcīna, neprecizēta",,MenC,VAL234
+VAL299,"Meningokoka Y vakcīna, neprecizēta",,MenY,VAL234
+VAL300,"Meningokoka W vakcīna, neprecizēta",,MenW,VAL234
+VAL301,Rekombinantā trivalentā gripas vakcīna,,INF-R3,VAL361
+VAL302,"COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, 50 mikrogrami, 50 mikrogrami.",,Covid-mRNA-S-50,VAL303
+VAL303,"Anti-covid 19 mRNS vakcīna, kas kodē sākotnējā vīrusa SARS-CoV-2 smailes proteīnu",,COVID-mRNA-S-ORI,VAL043
+VAL304,"SARS-CoV-2 smaila proteīna mRNS 19 vakcīna, oriģinālais vīruss, 15 mikrogrami",,Covid-ARNm-S-ORI-15,VAL303
+VAL305,"SARS-CoV-2 maksimālā proteīna mRNS 19 vakcīna, Omicron BA.1 variants, 15 mikrogrami",,COVID-mRNA-S-OMI-BA.1-15,VAL393
+VAL306,"SARS-CoV-2 maksimālā proteīna mRNS 19 vakcīna, oriģinālais vīruss, 3 mikrogrami",,COVID-mRNA-S-ORI-3,VAL303
+VAL307,"SARS-CoV-2 maksimālā proteīna mRNS 19 vakcīna, Omicron BA.4/BA.5 variants, 15 mikrogrami",,COVID-mRNA-S-OMI-BA.4/5-15,VAL394
+VAL308,"SARS-CoV-2 smaiļveida proteīna mRNS 19 vakcīna, Omicron BA.4/BA.5 variants, 25 mikrogrami",,COVID-mRNA-S-OMI-BA.4/5-25,VAL394
+VAL309,"SARS-CoV-2 maksimālā proteīna mRNS 19 vakcīna, Omicron BA.4/BA.5 variants, 5 mikrogrami",,Covid-ARNm-S-OMI-BA.4/5-5,VAL394
+VAL310,"Covid-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smaile proteīnu, oriģināls vīruss, 5 mikrogrami",,Covid-mRNA-S-ORI-5,VAL303
+VAL311,"Malaria valence, R21/Matrix-M pre-erythrocytic",,R21/Matrix-M,VAL025
+VAL312,"Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain",,TBE-K23,VAL031
+VAL313,"Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl strain, dose not specified",,TBE-Neudorfl,VAL031
+VAL314,"Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl strain, adult dose",,TBE-Neudorfl-ADU,VAL313
+VAL315,"Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl strain, paediatric dose",,TBE-Neudorfl-PED,VAL313
+VAL316,"RSV valence, protein subunit, recombinant, RSVPreF3 antigen derived from F protein",,RSV-PreF3,VAL318
+VAL317,"RSV valence, antibody, unspecified",,RSV-Ab,VAL338
+VAL318,"RSV valence, vaccine, unspecified",,RSV-V,VAL338
+VAL319,"COVID-19 valence, non-replicating adenoviral vector encoding the SARS-CoV-2 spike protein, inhalation vaccine, unspecified",,COVID-VVnr-S-INH,VAL397
+VAL320,"RSV valence, monoclonal antibody, unspecified",,RSV-mAb,VAL317
+VAL321,"RSV valence, monoclonal antibody, nirsevimab",,VRS-mAb-nir,VAL320
+VAL322,"RSV valence, protein subunit, recombinant, glycoprotein F subtypes A and B",,RSV-PreFAB,VAL318
+VAL323,"COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms",,COVID-mRNA-S-OMI-XBB.1.5-30,VAL396
+VAL324,"COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms",,COVID-mRNA-S-OMI-XBB.1.5-10,VAL396
+VAL325,"COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms",,COVID-mRNA-S-OMI-XBB.1.5-3,VAL396
+VAL326,"COVID-19 valence, Omicron BA.4/BA.5 variant, SARS-CoV-2 spike protein mRNA 19, 1.5 micrograms",,COVID-mRNA-S-OMI-BA.4/5-1.5,VAL394
+VAL327,"COVID-19 valence, original virus, SARS-CoV-2 peak protein-encoding mRNA, 1.5 micrograms",,COVID-mRNA-S-ORI-1.5,VAL303
+VAL328,"COVID-19 valence, protein subunit, recombinant spike protein nanoparticles, Omicron XBB.1.5 subvariant",,COVID-PS-rSnp-XBB,VAL107
+VAL329,"COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms",,Covid-ARNm-S-OMI-XBB.1.5-50,VAL396
+VAL330,"COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms",,COVID-mRNA-S-OMI-XBB.1.5-25,VAL396
+VAL331,CMV immune globulin,,CMV-Ig,Valence
+VAL332,"C hepatīta valence, bez precizējuma",,HepC,Valence
+VAL333,"HIV valence, unspecified",,HIV,Valence
+VAL334,"Melanoma valence, unspecified",,MEL,Valence
+VAL335,"Streptococcus pyogenes valence, unspecified",,SPYO,Valence
+VAL336,"Rifta ielejas drudža valence, bez precizējuma",,RVF,Valence
+VAL337,"Smallpox valence, immunoglobulin",,Bakas-Ig,VAL418
+VAL338,"RSV antiviela vai vakcīna, neprecizēta",,RSV,Valence
+VAL339,"Borrelia burgdorferi valence, unspecified",,Lyme,Valence
+VAL340,"Valence pret Sibīrijas mēri, bez precizējuma",,Sibīrijas mēris,Valence
+VAL341,"Valence pret Escherichia coli, bez precizējuma",,Eco,VAL345
+VAL342,"Klebsiella pneumoniæ valence, unspecified",,Kpn,VAL345
+VAL343,"Valence pret Enterococcus faecalis, bez precizējuma",,Efa,VAL345
+VAL344,"Proteus vulgaris valence, unspecified",,Pvu,VAL345
+VAL345,"Urinary tract infections valence, unspecified",,UTI,Valence
+VAL346,Enterovirus A71 valence,,EV71,Valence
+VAL347,"Leptospira canicola valence, inactivated, whole-cell",,Lepto-ca,Valence
+VAL348,"Leptospira pomona valence, inactivated whole-cell",,Lepto-po,Valence
+VAL349,"Influenza valence, trivalent, inactivated, fractionated or subunit, adjuvanted",,INF-SUAnd3,VAL231
+VAL350,"Influenza valence, quadrivalent, inactivated, fractionated or subunit, adjuvanted, normal dose",,INF-SUAnd4,VAL127
+VAL351,"Influenza valence, trivalent, virosomal, unspecified",,INF-V3,VAL362
+VAL352,"Influenza valence, quadrivalent, virosomal, unspecified",,INF-V4,VAL362
+VAL353,"Pneumococcal valence, polysaccharide conjugate, serotype 2",,PCV-02,VAL184
+VAL354,"Pneumococcal valence, polysaccharide conjugate, serotype 9N",,PCV-9N,VAL184
+VAL355,"Pneumococcal valence, polysaccharide conjugate, serotype 17F",,PCV-17F,VAL184
+VAL356,"Pneumococcal valence, polysaccharide conjugate, serotype 20",,PCV-20,VAL184
+VAL357,"Cholera valence, live attenuated, oral",,CHOL-LA-O,VAL124
+VAL358,"Botulism valence, immunoglobulin",,BIG,VAL420
+VAL359,"Inaktivēta visa holēras valence, bez precizējuma",,CHOL-I,VAL081
+VAL360,"Inaktivēta gripas valence, iegūta no šūnu kultūras, frakcionēta vai apakšvienība, normāla deva, bez precizējuma",,INF-CC,VAL364
+VAL361,"Rekombinanta gripas valence, bez precizējuma",,INF-R,VAL364
+VAL362,"Influenza valence, virosomal, unspecified",,INF-V,VAL364
+VAL363,"Influenza valence, trivalent, VLP, unspecified",,INF-VLP3,VAL029
+VAL364,"Nedzīva gripas valence, bez precizējuma",,INF-NL,VAL128
+VAL365,"Nedzīva gripas valence, iegūta no olu kultūras, bez precizējuma",,INF-E,VAL364
+VAL366,"RNS bāzes gripas valence, bez precizējuma",,INF-RNA,VAL128
+VAL367,"Cholera valence, V. cholerae O1, inactivated, whole-cell, oral",,CHOL-I-O1-O,VAL021
+VAL368,"Cholera valence, V. cholerae O139, inactivated, whole-cell, oral",,CHOL-I-O139-O,VAL021
+VAL369,"Pneumococcal valence, polysaccharide conjugate, serotype 15A",,PCV-15A,VAL184
+VAL370,"Pneumococcal valence, polysaccharide conjugate, serotype 15C",,PCV-15C,VAL184
+VAL371,"Pneumococcal valence, polysaccharide conjugate, serotype 16C",,PCV-16F,VAL184
+VAL372,"Pneumococcal valence, polysaccharide conjugate, serotype 20A",,PCV-20A,VAL184
+VAL373,"Pneumococcal valence, polysaccharide conjugate, serotype 23A",,PCV-23A,VAL184
+VAL374,"Pneumococcal valence, polysaccharide conjugate, serotype 23B",,PCV-23B,VAL184
+VAL375,"Pneumococcal valence, polysaccharide conjugate, serotype 24F",,PCV-24F,VAL184
+VAL376,"Pneumococcal valence, polysaccharide conjugate, serotype 31",,PCV-31,VAL184
+VAL377,"Pneumococcal valence, polysaccharide conjugate, serotype 35B",,PCV-35B,VAL184
+VAL378,"Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 15 micrograms",,rHBsAg-15,VAL090
+VAL379,"COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms",,COVID-mRNA-S-OMI-JN.1-30,VAL395
+VAL380,"COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms",,COVID-mRNA-S-OMI-JN.1-10,VAL395
+VAL381,"COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms",,COVID-mRNA-S-OMI-JN.1-3,VAL395
+VAL382,"COVID-19 valence, protein subunit, recombinant spike protein in nanoparticles, sub-variant Omicron JN.1",,COVID-PS-rSnp-JN.1,VAL107
+VAL383,Single-stranded 5' capped mRNA encoding the Respiratory syncytial virus glycoprotein F stabilized in the prefusion conformation,,mRSV,VAL318
+VAL384,"Leprosy valence, unspecified",,LEP,Valence
+VAL385,Avian influenza A(H5N8) valence,,AH5N8,VAL386
+VAL386,"Avian influenza A(H5) valence, unspecified",,AH5,Valence
+VAL387,"COVID-19 valence,  Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms",,COVID-mRNA-S-OMI-JN.1-25,VAL395
+VAL388,"COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms",,COVID-mRNA-S-OMI-JN.1-50,VAL395
+VAL389,"Valence pret Pseudomonas aeruginosa, 7 imunotipi",,PAER7,Valence
+VAL390,"Čikungunja valence, neprecizēta",,CHIK,Valence
+VAL391,Chikungunya VLP valence,,Chik-VLP,VAL390
+VAL392,"Avian influenza valence, mRNA",,AH5N1-RNA,VAL051
+VAL393,"COVID-19 valence, Omicron BA.1 variant, mRNA encoding the SARS-CoV-2 spike protein",,COVID-mRNA-S-OMI-BA.1,VAL149
+VAL394,"COVID-19 valence, Omicron variant BA.4/BA.5, mRNA encoding the SARS-CoV-2 spike protein",,COVID-mRNA-S-OMI-BA.4/5,VAL149
+VAL395,"COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein",,COVID-mRNA-S-OMI-JN.1,VAL417
+VAL396,"COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein",,COVID-mRNA-S-OMI-XBB.1.5,VAL417
+VAL397,"COVID-19 valence, non-replicating viral vector encoding the peak protein of SARS-CoV-2, unspecified",,COVID-VVnr-S,VAL163
+VAL398,"COVID-19 valence, replicating viral vector, virus encoding the spike protein of SARS-CoV-2",,COVID-VVr-S,VAL162
+VAL399,"Typhoid valence, Vi antigen conjugated to tetanus toxoid",,Ty-ViC-T,VAL002
+VAL400,"Typhoid valence, Vi antigen conjugated to CRM197 protein",,Ty-ViC-CRM,VAL002
+VAL401,"Japanese encephalitis valence, inactivated, whole-virus, derived from Vero cells, 3 micrograms",,EJ-I-Vero-3,VAL251
+VAL402,"Japanese encephalitis valence, inactivated, whole-virus, derived from Vero cells, 6 micrograms",,EJ-I-Vero-6,VAL251
+VAL403,"Meningococcal X valence, unspecified",,MenX,VAL234
+VAL404,"Meningococcal X valence, polysaccharide conjugate",,MCV-X,VAL403
+VAL405,"Influenza valence, live attenuated, pandemic influenza H1N1 2009",,INF-pdm09-V,VAL058
+VAL406,"COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein",,COVID-mRNA-S-OMI-KP.2,VAL395
+VAL407,"COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms",,COVID-mRNA-S-OMI-KP.2-3,VAL406
+VAL408,"COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms",,COVID-mRNA-S-OMI-KP.2-10,VAL406
+VAL409,"COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms",,COVID-mRNA-S-OMI-KP.2-30,VAL406
+VAL410,"COVID-19 valence, protein subunit, recombinant N protein",,COVID-PS-rN,VAL053
+VAL411,"COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms",,COVID-mRNA-S-OMI-BA.4/5-50,VAL394
+VAL412,"COVID-19 valence, Omicron variant BA.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms",,Covid-ARNm-S-OMI-BA.1-50,VAL393
+VAL413,"COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron XBB.1.16 subvariant",,Covid-SP-rRBD-XBB.1.16,VAL011
+VAL414,"Diphtheria valence, unspecified",,DIPH,Valence
+VAL415,"Anthrax valence, acellular, adjuvanted",,BantAdj,VAL111
+VAL416,"COVID-19 valence, protein subunit, recombinant spike protein, adjuvanted",,COVID-PS-rS-A,VAL104
+VAL417,"COVID-19 valence, Omicron BA.2 variant, mRNA encoding the SARS-CoV-2 spike protein",,COVID-mRNA-S-OMI-BA.2,VAL149
+VAL418,"Smallpox valence, active or passive immunization products",,POX,Valence
+VAL419,"Botulism valence, active or passive immunization products",,BOT,Valence
+VAL420,"Botulism valence, passive immunization products",,BOT-passive,VAL419
+VAL421,"Argentine hemorrhagic fever valence, Junin virus, unspecified",,Junin,Valence
+VAL422,"Plague valence, unspecified",,Yp,Valence
+VAL423,"COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein",,Covid-ARNm-S-OMI-LP.8.1,VAL417
+VAL424,"COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms",,Covid-ARNm-S-OMI-LP.8.1-30,VAL423
+VAL425,"COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms",,Covid-ARNm-S-OMI-LP.8.1-10,VAL423
+VAL426,"COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms",,Covid-ARNm-S-OMI-LP.8.1-3,VAL423
+VAL427,"COVID-19 valence, mRNA encoding a fragment of the SARS-CoV-2 spike protein",,Covid-ARNm-S-frag,VAL043
+VAL428,"Valence COVID-19, mRNA encoding the NTD and RBD fragments of the spike protein, Omicron LP.8.1 variant",,Covid-ARNm-S-frag-OMI-LP.8.1,VAL427
+VAL429,"RSV valence, monoclonal antibody, clesrovimab",,VRS-mAb-cle,VAL320
+VAL430,"Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain, 0,25 mL",,TBE-K23-25,VAL312
+VAL431,"Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain, 0,50 mL",,TBE-K23-50,VAL312
+VAL432,"COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms",,Covid-ARNm-S-OMI-LP.8.1-25,VAL423
+VAL433,"COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms.",,Covid-ARNm-S-OMI-LP.8.1-50,VAL423
+VAL434,"COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant",,Covid-SP-rRBD-LP.8.1,VAL011
+VAL435,"Dengue valence, native attenuated strain",,DENV2LAV,VAL150
+VAL436,"Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-1",,DENV1rCH,VAL150
+VAL437,"Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-3",,DENV3rCH,VAL150
+VAL438,"Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-4",,DENV4rCH,VAL150
+VAL439,"COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein",,Covid-ARNm-S-OMI-XFG,VAL417
+VAL440,"COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms",,Covid-ARNm-S-OMI-XFG-10,VAL439
+VAL441,"COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms",,Covid-ARNm-S-OMI-XFG-30,VAL439
+VAL442,"Melanoma valence, messenger RNA, individualized neoantigens",,MEL-ARNI,VAL334
+VAL443,"COVID-19 valence, protein subunit, recombinant spike protein in nanoparticles, sub-variant Omicron XFG",,Covid-SP-rSnp-XFG,VAL107
+VAL444,"COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron XFG subvariant",,Covid-SP-rRBD-XFG,VAL011
+VAL445,"Typhoid valence, Vi antigen conjugated to diphtheria toxoid",,Ty-ViC-D,VAL002
