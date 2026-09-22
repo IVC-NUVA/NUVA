@@ -17,6 +17,19 @@ function today() {
     return (new Date().toISOString().substring(0, 10))
 }
 
+function now() {
+	return new Date().toISOString().substring(0,19).replaceAll(':','')
+}
+
+function focus(elem) {
+	rect = elem.getBoundingClientRect()
+	if ((rect.top < 0) || (rect.left < 0) ||
+	rect.bottom > (window.innerHeight || document.documentElement.clientHeight) ||
+        rect.right > (window.innerWidth || document.documentElement.clientWidth))	     
+	{
+		elem.scrollIntoView({block:'center'})
+	}
+}
 /* Keep context in local storage*/
 function loadFromSession(key, value) {
 	storage = (window.location.protocol == 'file:'?sessionStorage:localStorage)

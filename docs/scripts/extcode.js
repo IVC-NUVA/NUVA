@@ -150,7 +150,8 @@ function viewEditCode(code)
 	showCodes()
 	row = document.getElementById(code)
 	row.style.backgroundColor='#95ADC5'
-	row.scrollIntoView({block:'center'})
+	focus(row)
+	//row.scrollIntoView({block:'center'})
 	
 	document.getElementById('ecode').innerHTML = code
 	document.getElementById('action').innerHTML = ''
@@ -236,7 +237,7 @@ function saveCodeSystem() {
 		}
 		CSFileContent += `${code},${nuvaCode},${codeLabel},${nuvaLabel}\n`
 	}
-	download(`${CSData.CSID}2nuva.csv`, CSFileContent)
+	download(`${CSData.CSID}2nuva-${today()}.csv`, CSFileContent)
 }
 
 function reverseRows(idvac, vkey, bestBlur) {

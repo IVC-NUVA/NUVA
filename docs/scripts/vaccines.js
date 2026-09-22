@@ -86,7 +86,7 @@ function showVaccines() {
 	
 	}
 	if (context.currentVaccine) {
-		document.getElementById('T'+context.currentVaccine).scrollIntoView({block:'center'})
+		focus(document.getElementById('T'+context.currentVaccine))
 	}
 }
 

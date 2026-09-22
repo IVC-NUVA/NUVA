@@ -38,7 +38,7 @@ function saveBackup() {
         "vaccines": vaccines,
         "valences": valences
     }
-    download("nuvadata" + today() + ".json", JSON.stringify(backup, null, 2))
+    download("nuvadata" + now() + ".json", JSON.stringify(backup, null, 2))
 
     doLog("Downloading backup file to default download folder.")
 }
