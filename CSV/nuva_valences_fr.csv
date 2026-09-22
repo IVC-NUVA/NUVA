@@ -1,0 +1,447 @@
+﻿NUVA,label,comment,shorthand,parent
+VAL000,Parent pour les valences dépréciées,,ZZZ,Valence
+VAL001,"Valence grippe, trivalente, vivante atténuée, dose normale",,Inf-L3,VAL140
+VAL002,"Valence typhoïde, conjuguée, antigène capsulaire polyosidique Vi lié à une protéine porteuse",,Ty-ViC,VAL014
+VAL003,"Valence coqueluche, sans précision",,Coq,Valence
+VAL004,"Valence choléra, inactivée, entière, injectable",,I-Chol-I,VAL359
+VAL005,"Valence rougeole, vivante atténuée",,Roug-VVA,VAL182
+VAL006,"Valence brucellose, sans précision",,Bruc,Valence
+VAL007,"Valence Ebola, vecteur réplicatif virus de la stomatite vésiculaire recombinant (rVSV) - glycoprotéine GP d'EBOV",,rVSVdG-ZEBOV-GP,VAL126
+VAL008,"Valence coqueluche, acellulaire, dose standard",,Ca,VAL117
+VAL009,"Valence paludisme, protéine de surface du sporozoïte",,Palu-SPO,VAL025
+VAL010,"Valence coqueluche, inactivée, entière",,Ce,VAL003
+VAL011,"Valence covid 19, sous-unité protéique, protéine de pointe recombinante (domaine RBD)",,Covid-SP-rRBD,VAL104
+VAL012,"Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), 40 microgrammes (dose pour patient dialysé)",,rAgHBs-40,VAL090
+VAL013,"Valence zona, glycoprotéine E (gE) de surface du virus varicelle-zona (VZV)",,Zona-gE,VAL159
+VAL014,"Valence typhoïde, sans précision",,Ty,Valence
+VAL015,"Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant, dose normale",,Inf-SUnd3,VAL122
+VAL016,"Valence rage, immunoglobuline, sans précision",,RIG,Valence
+VAL017,"Valence coqueluche, acellulaire, dose réduite",,ca,VAL117
+VAL018,"Valence variole, troisième génération, virus de la vaccine à réplication minimale",,POX-3G-LC16,VAL028
+VAL019,"Valence diphtérique, antitoxine",,DATx,VAL414
+VAL020,"Valence zona, vivant atténué",,Zona-V,VAL160
+VAL021,"Valence choléra, inactivée, entière, orale",,O-Chol-I,VAL359
+VAL022,"Valence variole, vivant atténué, sans précision",,POX-V,VAL418
+VAL023,"Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intradermique, sans précision",,Inf-SUid3,VAL024
+VAL024,"Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, sans précision",,Inf-SU3,VAL058
+VAL025,"Valence paludisme, sans précision",,Palu,Valence
+VAL026,"Valence méningocoque B, protéines de vésicules de membrane externe",,MenB-OMP,VAL118
+VAL027,"Valence covid 19, vecteur viral non réplicatif, adénovirus 26 codant la protéine de pointe du SARS-CoV-2",,Covid-VVnr-S-Ad26,VAL070
+VAL028,"Valence variole, troisième génération, vivant atténué",,POX-3G,VAL022
+VAL029,"Valence grippe, VLP, sans précision",,Inf-VLP,VAL364
+VAL030,"Valence Borrelia burgdorferi, recombinante, protéine de surface externe A (OspA)",,Lyme-OspA,VAL339
+VAL031,"Valence encéphalite à tiques, sans précision",,TBE,Valence
+VAL032,"Valence typhoïde, non conjuguée, antigène capsulaire polyosidique Vi",,Ty-ViPS,VAL014
+VAL033,"Valence poliomyélite, vivante atténuée, orale, monovalente type 2",,mVPO2,VAL133
+VAL034,"Valence diphtérique, anatoxine, dose réduite",,d,VAL083
+VAL035,"Valence covid 19, ADN plasmidique codant la protéine de pointe du SARS-CoV-2",,Covid-ADN-S,VAL164
+VAL036,"Valence papillomavirus, VLP, nonavalent, types 6, 11, 16, 18, 31, 33, 45, 52 et 58",,VPH-09-valent,VAL237
+VAL037,"Valence méningocoque A, polyoside non conjugué",,MPV-A,VAL297
+VAL038,"Valence covid 19, vecteur viral réplicatif, virus de la rougeole codant la protéine de pointe du SARS-CoV-2",,Covid-VVr-S-Roug,VAL398
+VAL039,"Valence covid 19, VLP, protéine de pointe recombinante",,Covid-VLP-rS,VAL164
+VAL040,"Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant, dose normale",,Inf-SUnd4,VAL064
+VAL041,"Valence méningocoque A, polyoside conjugué",,MCV-A,VAL297
+VAL042,"Valence poliomyélite, sans précision",,POLIO,Valence
+VAL043,"Valence covid 19, ARNm codant la protéine de pointe du SARS-CoV-2, autorisé",,Covid-ARNm-S,VAL168
+VAL044,"Valence varicelle, sans précision",,VZV-VVA,Valence
+VAL045,"Valence paratyphoïde, inactivée, entière",,pTy-I,VAL014
+VAL046,Valence Typhus,,Typhus,Valence
+VAL047,"Valence hépatite B, immunoglobuline",,IgHepB,Valence
+VAL048,"Valence oreillons, inactivée, entière",,Or-I,VAL183
+VAL049,"Valence Haemophilus influenzae type b, polyoside non conjuguée",,Hib-PS,VAL177
+VAL050,"Valence covid 19, vecteur viral non réplicatif, adénovirus 5 codant la protéine de pointe du SARS-CoV-2, sans précision",,Covid-VVnr-S-Ad5,VAL070
+VAL051,"Valence grippe aviaire, A(H5N1)",,AH5N1,VAL386
+VAL052,"Valence papillomavirus, VLP, quadrivalente, types 6, 11, 16 et 18",,VPH-04-valent,VAL237
+VAL053,"Valence covid 19, sous-unité protéique, sans précision",,Covid-SP,VAL164
+VAL054,"Valence covid 19, vecteur non réplicatif, vaccine Ankara modifiée codant la protéine de pointe du SARS-CoV-2",,Covid-VVnr-S-MVA,VAL397
+VAL055,"Valence rougeole, immunoglobuline",,Ig-Rougeole,Valence
+VAL056,"Valence poliomyélite, trivalente, inactivée, entière, injectable",,VPI,VAL042
+VAL057,"Valence méningocoque C, polyoside conjugué",,MCV-C,VAL298
+VAL058,"Valence grippe, inactivée, fractionnée ou sous-unité, sans précision",,Inf-SU,VAL365
+VAL059,"Valence grippe, quadrivalente, vivante atténuée, dose normale",,Inf-L4,VAL140
+VAL060,"Valence chikungunya, vivant atténué",,CHIK-LA,VAL390
+VAL061,"Valence covid 19, sous-unité protéique, protéine de pointe du SARS-CoV-2 recombinante, S-2P et CpG1018",,Covid-SP-CpG1018,VAL104
+VAL062,"Valence choléra, sous-unité, recombinante de la toxine cholérique B (rCTB)",,O-Chol-rTCB-I,VAL021
+VAL063,"Valence botulisme, antitoxine",,BAT,VAL420
+VAL064,"Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant",,Inf-SUNA4,VAL127
+VAL065,"Valence dengue, vivante atténuée, tétravalente, chimérique recombinante ",,RC-TDV,VAL150
+VAL066,"Valence covid 19, vecteur viral réplicatif, virus influenza codant la protéine de pointe du SARS-CoV-2",,Covid-VVr-S-Influ,VAL398
+VAL067,"Valence tétanos, anatoxine",,T,Valence
+VAL068,"Valence hépatite B, sans précision",,HepB,Valence
+VAL069,"Valence covid 19, vecteur viral non réplicatif, adénovirus de chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2",,Covid-VVnr-S-ChAdOx1,VAL397
+VAL070,"Valence covid 19, vecteur viral non réplicatif, adénovirus codant la protéine de pointe du SARS-CoV-2, sans précision",,Covid-VVnr-S-Ad,VAL397
+VAL071,"Valence typhoïde, inactivée, entière",,Ty-I,VAL014
+VAL072,"Valence méningocoque B, contenant la fHbp des sous-familles A et B",,MenB-fHbpAB,VAL161
+VAL073,"Valence covid 19, vecteur viral replicatif avec cellules présentant l'antigène",,Covid-VVr+APC,VAL162
+VAL074,"Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, haute dose",,Inf-SUhd4,VAL064
+VAL075,"Valence Leptospira icterohaemorrhagiae, inactivée, entière",,Lepto-eI,Valence
+VAL076,"Valence covid 19, entier inactivé, sans précision",,Covid-VI,VAL164
+VAL077,"Valence oreillons, vivant atténué",,Or-VVA,VAL183
+VAL078,"Valence méningocoque Y, polyoside conjugué",,MCV-Y,VAL299
+VAL079,"Valence rubéole, vivante atténuée",,Rub-VVA,Valence
+VAL080,"Valence rage, inactivée, entière, sans précision",,Rab-I,Valence
+VAL081,"Valence choléra, sans précision",,Chol,Valence
+VAL082,"Valence papillomavirus, types non précisés",,VPH,Valence
+VAL083,"Valence diphtérique, anatoxine, dose non précisée",,D-d,VAL414
+VAL084,"Valence covid 19, vecteur viral réplicatif, virus de la stomatite vésiculaire codant la protéine de pointe du SARS-CoV-2",,Covid-VVr-S-VSV,VAL398
+VAL085,"Valence poliomyélite, vivante atténuée, orale, monovalente type 3",,mVPO3,VAL133
+VAL086,"Valence covid 19, vivant atténué, sans précision",,Covid-VA,VAL165
+VAL087,"Valence dengue, vivante atténuée, tétravalente, chimérique recombinante basée sur le vaccin contre la fièvre jaune 17D",,CYD-TDV,VAL150
+VAL088,"Valence varicelle, immunoglobuline",,VZV-Ig,Valence
+VAL089,"Valence encéphalite japonaise, inactivée, sans précision",,EJ-I,VAL249
+VAL090,"Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), sans précision",,rAgHBs,VAL068
+VAL091,"Valence typhoïde, vivante atténuée, souche Ty21a, orale",,Ty-VA,VAL014
+VAL092,Valence fièvre jaune,,YF,Valence
+VAL093,"Valence rougeole, inactivée, entière",,Roug-I,VAL182
+VAL094,"Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant, haute dose",,Inf-SUhd3,VAL122
+VAL095,"Valence covid 19, vecteur viral réplicatif, virus de la maladie de Newcastle codant la protéine de pointe du SARS-CoV-2",,Covid-VVr-S-Nv,VAL398
+VAL096,Valence BCG,,BCG,Valence
+VAL097,"Valence diphtérique, anatoxine, dose standard",,D,VAL083
+VAL098,"Valence méningocoque B, 4 composants",,4CMenB,VAL161
+VAL099,"Valence grippe pandémique H1N1 2009, inactivée ",,Inf-pdm09,VAL058
+VAL100,"Valence encéphalite japonaise, vivant atténué, souche 14-14-2",,EJ-VVA-14-14-2,VAL248
+VAL101,"Valence covid 19, vecteur non réplicatif, virus de la maladie de Newcastle codant la protéine de pointe du SARS-CoV-2",,Covid-VVnr-S-Nv,VAL397
+VAL102,"Valence hépatite E, recombinante, peptidique",,HepE,Valence
+VAL103,"Valence Haemophilus influenzae type b, conjuguée, sans précision",,Hib-C,VAL177
+VAL104,"Valence covid 19, sous-unité protéique, protéine de pointe recombinante",,Covid-SP-rS,VAL053
+VAL105,"Valence pneumocoque, sans précision",,Pneumo,Valence
+VAL106,"Valence rotavirus, vivant atténué, sans précision",,Rota,Valence
+VAL107,"Valence covid 19, sous-unité protéique, protéine de pointe recombinante dans des nanoparticules",,Covid-SP-rSnp,VAL104
+VAL108,"Valence Ebola, vecteur viral vivant non réplicatif recombinant Ad26.ZEBOV",,ZebovVRnrAd26,VAL126
+VAL109,"Valence Ebola, vecteur viral non réplicatif, Vaccine Ankara modifiée ",,Ebola-MVA-BN-Filo,VAL126
+VAL110,"Valence tétanos, immunoglobuline",,T-Ig,Valence
+VAL111,"Valence charbon, acellulaire",,Bant,VAL340
+VAL112,"Valence grippe, quadrivalente, inactivée, obtenue sur culture cellulaire, fractionnée ou sous-unité, dose normale",,Inf-CC4,VAL360
+VAL113,"Valence papillomavirus, VLP, bivalent, types 16 et 18",,VPH-02-valent,VAL237
+VAL114,"Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), 10 microgrammes",,rAgHBs-10,VAL090
+VAL115,"Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), 20 microgrammes",,rAgHBs-20,VAL090
+VAL116,"Valence VRS, anticorps monoclonal, palivizumab",,VRS-mAb-pal,VAL320
+VAL117,"Valence coqueluche, acellulaire, dose non précisée",,Acel,VAL003
+VAL118,"Valence méningocoque B, sans précision",,MenB,VAL234
+VAL119,"Valence covid 19, variant Omicron XFG, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes",,Covid-ARNm-S-OMI-XFG-50,VAL439
+VAL120,"Valence méningocoque, polyvalent, polyoside non conjugué",,MPV-poly,VAL234
+VAL121,"Valence poliomyélite, trivalente, inactivée, entière, orale",,VPI-0,VAL042
+VAL122,"Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant",,Inf-SUNA3,VAL231
+VAL123,"Valence rotavirus, vivant atténué, pentavalent",,Rota5-V,VAL106
+VAL124,"Valence choléra, vivante atténuée, sans précision",,Chol-V,VAL081
+VAL125,"Valence hépatite A, inactivée, entière, sans précision",,HepA-I,VAL288
+VAL126,"Valence Ebola, sans précision",,Ebola,Valence
+VAL127,"Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée",,Inf-SUimsc4,VAL230
+VAL128,"Valence grippe, sans précision",,Inf,Valence
+VAL129,"Valence herpes simplex, sans précision",,HSV,Valence
+VAL130,"Valence hépatite A, virosome",,HepA-VLP,VAL125
+VAL131,"Valence peste, inactivée, entière",,Yp-I,VAL422
+VAL132,"Valence poliomyélite, vivante atténuée, orale, monovalente type 1",,mVPO1,VAL133
+VAL133,"Valence poliomyélite, vivante atténuée, orale, monovalente, sans précision",,mVPO,VAL042
+VAL134,"Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intradermique, sans précision",,Inf-SUid4,VAL230
+VAL135,"Valence covid 19, ARNm codant la protéine de pointe du SARS-CoV-2, en essai clinique ",,Covid-ARNm-S-CT,VAL303
+VAL136,"Valence méningocoque W, polyoside conjugué",,MCV-W,VAL300
+VAL137,"Valence méningocoque C, polyoside non conjugué",,MPV-C,VAL298
+VAL138,"Valence méningocoque W, polyoside non conjugué",,MPV-W,VAL300
+VAL139,"Valence méningocoque Y, polyoside non conjugué",,MPV-Y,VAL299
+VAL140,"Valence grippe, vivant atténué, sans précision",,Inf-L,VAL128
+VAL141,"Valence rotavirus, vivant atténué, monovalent RIX4414",,Rota-mv-RIX4414,VAL106
+VAL142,"Valence hépatite A, inactivée, entière, monovalente, dose pédiatrique",,HepA-mv-PED,VAL283
+VAL143,"Valence hépatite A, inactivée, entière, bivalent (hépatites A et B), dose pédiatrique",,HepA-bv-PED,VAL283
+VAL144,"Valence hépatite A, inactivée, entière, monovalente, dose adulte",,HepA-mv-ADU,VAL284
+VAL145,"Valence hépatite A, inactivée, entière, bivalent (hépatites A et B), dose adulte",,HepA-bv-ADU,VAL284
+VAL146,"Valence brucellose, inactivée, entière",,Bruc-I,VAL006
+VAL147,"Valence brucellose, antigène protéique P.I. (phénol-insoluble)",,Bruc-PI,VAL006
+VAL148,"Valence VRS, immunoglobuline",,VRS-Ig,VAL317
+VAL149,"Valence covid 19, variant omicron, ARNm codant la protéine de pointe du SARS-CoV-2",,Covid-ARNm-S-OMI,VAL043
+VAL150,"Valence dengue, sans précision",,Den,Valence
+VAL151,"Valence tularémie, sans précision",,Tular,Valence
+VAL152,"Valence grippe, inactivée, entière, sans précision",,Inf-I,VAL365
+VAL153,"Valence Haemophilus influenzae type b, polyoside de PRP conjugué à l'anatoxine diphtérique",,PRP-D,VAL103
+VAL154,"Valence Haemophilus influenzae type b, oligosides de PRP conjugués à la toxine diphtérique mutante CRM197",,HbOC,VAL103
+VAL155,"Valence Haemophilus influenzae type b, polyoside de PRP conjugué à la protéine de membrane externe de Neisseria meningitidis sérogroupe B",,PRP-OMP,VAL103
+VAL156,"Valence Haemophilus influenzae type b, polyoside de PRP conjugué à l’anatoxine tétanique",,PRP-T,VAL103
+VAL157,"Valence covid 19, sans précision",,Covid,Valence
+VAL158,"Valence hépatite B, plasmatique",,pAgHBs,VAL068
+VAL159,"Valence zona, sous-unitaire",,Zona-SU,VAL160
+VAL160,"Valence zona, sans précision",,Zona,Valence
+VAL161,"Valence méningocoque B, multicomposée, sans précision",,MenB-mc,VAL118
+VAL162,"Valence covid 19, vecteur viral réplicatif, sans précision",,Covid-VVr,VAL165
+VAL163,"Valence covid 19, vecteur viral non replicatif, sans précision",,Covid-VVnr,VAL165
+VAL164,"Valence covid 19, non vivant, sans précision",,Covid-non-vivant,VAL157
+VAL165,"Valence covid 19, vivant, sans précision",,Covid-vivant,VAL157
+VAL166,"Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, dose pédiatrique",,Inf-SUped3,VAL122
+VAL167,"Valence covid 19, vecteur viral non replicatif avec cellules présentant l'antigène",,Covid-VVnr+APC,VAL163
+VAL168,"Valence covid 19, ARN, sans précision",,Covid-ARN,VAL164
+VAL169,"Valence covid 19, ARNm auto-amplifiant (AAA)",,Covid-ARNm-AAA,VAL303
+VAL170,"Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), 5 microgrammes",,rAgHBs-05,VAL090
+VAL171,"Valence encéphalite équine vénézuélienne, sans précision",,VEE,Valence
+VAL172,"Valence fièvre Q (Coxiella burnetii), sans précision",,Cbur,Valence
+VAL173,"Valence fièvre hémorragique d'Argentine, vivant atténué, virus Junin",,Junin-VVA,VAL421
+VAL174,"Valence Hantavirus, sans précision",,HAN,Valence
+VAL175,"Valence leishmaniose, sans précision",,Leish,Valence
+VAL176,"Valence virus parainfluenza humains, sans précision",,VPIH,Valence
+VAL177,"Valence Haemophilus influenzae type b, sans précision",,Hib,Valence
+VAL178,"Valence covid 19, variant Omicron BA.1, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes",,Covid-ARNm-S-OMI-BA.1-25,VAL393
+VAL179,"Valence covid 19, variant Omicron XFG, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes",,Covid-ARNm-S-OMI-XFG-25,VAL439
+VAL180,"Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 100 microgrammes",,Covid-ARNm-S-ORI-100,VAL303
+VAL181,"Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes",,Covid-ARNm-S-ORI-25,VAL303
+VAL182,"Valence rougeole, sans précision",,Roug,Valence
+VAL183,"Valence oreillons, sans précision",,Oreillons,Valence
+VAL184,"Valence pneumocoque, polyosidique conjugué, sans précision",,VPC,VAL105
+VAL185,"Valence pneumocoque, polyosidique non conjuguée, sans précision",,VPP,VAL105
+VAL186,"Valence pneumocoque, polyosidique conjuguée, sérotype 1",,VPC-01,VAL184
+VAL187,"Valence pneumocoque, polyosidique conjuguée, sérotype 3",,VPC-03,VAL184
+VAL188,"Valence pneumocoque, polyosidique conjuguée, sérotype 4",,VPC-04,VAL184
+VAL189,"Valence pneumocoque, polyosidique conjuguée, sérotype 5",,VPC-05,VAL184
+VAL190,"Valence pneumocoque, polyosidique conjuguée, sérotype 6A",,VPC-06A,VAL184
+VAL191,"Valence pneumocoque, polyosidique conjuguée, sérotype 6B",,VPC-06B,VAL184
+VAL192,"Valence pneumocoque, polyosidique conjuguée, sérotype 7F",,VPC-07F,VAL184
+VAL193,"Valence pneumocoque, polyosidique conjuguée, sérotype 8",,VPC-08,VAL184
+VAL194,"Valence pneumocoque, polyosidique conjuguée, sérotype 9V",,VPC-09V,VAL184
+VAL195,"Valence pneumocoque, polyosidique conjuguée, sérotype 10A",,VPC-10A,VAL184
+VAL196,"Valence pneumocoque, polyosidique conjuguée, sérotype 11A",,VPC-11A,VAL184
+VAL197,"Valence pneumocoque, polyosidique conjuguée, sérotype 12F",,VPC-12F,VAL184
+VAL198,"Valence pneumocoque, polyosidique conjuguée, sérotype 14",,VPC-14,VAL184
+VAL199,"Valence pneumocoque, polyosidique conjuguée, sérotype 15B",,VPC-15B,VAL184
+VAL200,"Valence pneumocoque, polyosidique conjuguée, sérotype 18C",,VPC-18C,VAL184
+VAL201,"Valence pneumocoque, polyosidique conjuguée, sérotype 19A",,VPC-19A,VAL184
+VAL202,"Valence pneumocoque, polyosidique conjuguée, sérotype 19F",,VPC-19F,VAL184
+VAL203,"Valence pneumocoque, polyosidique conjuguée, sérotype 22F",,VPC-22F,VAL184
+VAL204,"Valence pneumocoque, polyosidique conjuguée, sérotype 23F",,VPC-23F,VAL184
+VAL205,"Valence pneumocoque, polyosidique conjuguée, sérotype 33F",,VPC-33F,VAL184
+VAL206,"Valence pneumocoque, polyosidique non conjuguée, sérotype 1",,VPP-01,VAL185
+VAL207,"Valence pneumocoque, polyosidique non conjuguée, sérotype 2",,VPP-02,VAL185
+VAL208,"Valence pneumocoque, polyosidique non conjuguée, sérotype 3",,VPP-03,VAL185
+VAL209,"Valence pneumocoque, polyosidique non conjuguée, sérotype 4",,VPP-04,VAL185
+VAL210,"Valence pneumocoque, polyosidique non conjuguée, sérotype 5",,VPP-05,VAL185
+VAL211,"Valence pneumocoque, polyosidique non conjuguée, sérotype 6B",,VPP-06B,VAL185
+VAL212,"Valence pneumocoque, polyosidique non conjuguée, sérotype 7F",,VPP-07F,VAL185
+VAL213,"Valence pneumocoque, polyosidique non conjuguée, sérotype 8",,VPP-08,VAL185
+VAL214,"Valence pneumocoque, polyosidique non conjuguée, sérotype 9N",,VPP-09N,VAL185
+VAL215,"Valence pneumocoque, polyosidique non conjuguée, sérotype 9V",,VPP-09V,VAL185
+VAL216,"Valence pneumocoque, polyosidique non conjuguée, sérotype 10A",,VPP-10A,VAL185
+VAL217,"Valence pneumocoque, polyosidique non conjuguée, sérotype 11A",,VPP-11A,VAL185
+VAL218,"Valence pneumocoque, polyosidique non conjuguée, sérotype 12F",,VPP-12F,VAL185
+VAL219,"Valence pneumocoque, polyosidique non conjuguée, sérotype 14",,VPP-14,VAL185
+VAL220,"Valence pneumocoque, polyosidique non conjuguée, sérotype 15B",,VPP-15B,VAL185
+VAL221,"Valence pneumocoque, polyosidique non conjuguée, sérotype 15F",,VPP-15F,VAL185
+VAL222,"Valence pneumocoque, polyosidique non conjuguée, sérotype 17F",,VPP-17F,VAL185
+VAL223,"Valence pneumocoque, polyosidique non conjuguée, sérotype 18C",,VPP-18C,VAL185
+VAL224,"Valence pneumocoque, polyosidique non conjuguée, sérotype 19A",,VPP-19A,VAL185
+VAL225,"Valence pneumocoque, polyosidique non conjuguée, sérotype 19F",,VPP-19F,VAL185
+VAL226,"Valence pneumocoque, polyosidique non conjuguée, sérotype 20",,VPP-20,VAL185
+VAL227,"Valence pneumocoque, polyosidique non conjuguée, sérotype 22F",,VPP-22F,VAL185
+VAL228,"Valence pneumocoque, polyosidique non conjuguée, sérotype 23F",,VPP-23F,VAL185
+VAL229,"Valence pneumocoque, polyosidique non conjuguée, sérotype 33F",,VPP-33F,VAL185
+VAL230,"Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, sans précision",,Inf-SU4,VAL058
+VAL231,"Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée",,Inf-SUimsc3,VAL024
+VAL232,"Valence pneumocoque, polyosidique non conjuguée, sérotype 6A",,VPP-06A,VAL185
+VAL233,"Valence pneumocoque, polyosidique non conjuguée, sérotype 25",,VPP-25,VAL185
+VAL234,"Valence méningocoque, sans précision",,Men,Valence
+VAL235,"Valence méningocoque, polyvalent, polyosidique conjugué",,MCV-poly,VAL234
+VAL236,"Valence papillomavirus, VLP, monovalent",,VPH-mono,VAL082
+VAL237,"Valence papillomavirus, VLP, polyvalent",,VPH-poly,VAL082
+VAL238,"Valence papillomavirus, VLP, type 6",,VPH-06,VAL236
+VAL239,"Valence papillomavirus, VLP, type 11",,VPH-11,VAL236
+VAL240,"Valence papillomavirus, VLP, type 16",,VPH-16,VAL236
+VAL241,"Valence papillomavirus, VLP, type 18",,VPH-18,VAL236
+VAL242,"Valence papillomavirus, VLP, type 31",,VPH-31,VAL236
+VAL243,"Valence papillomavirus, VLP, type 33",,VPH-33,VAL236
+VAL244,"Valence papillomavirus, VLP, type 58",,VPH-58,VAL236
+VAL245,"Valence papillomavirus, VLP, type 52",,VPH-52,VAL236
+VAL246,"Valence papillomavirus, VLP, type 45",,VPH-45,VAL236
+VAL247,"Valence encéphalite japonaise, virus chimérique vivant atténué",,EJ-VRA,VAL248
+VAL248,"Valence encéphalite japonaise, vivant atténué, sans précision",,EJ-VVA,VAL249
+VAL249,"Valence encéphalite japonaise, sans précision",,EJ,Valence
+VAL250,"Valence encéphalite japonaise, inactivée, entière, préparée sur tissu cérébral murin",,EJ-I-cm,VAL089
+VAL251,"Valence encéphalite japonaise, inactivée, dérivée de cellules Vero",,EJ-I-Vero,VAL089
+VAL252,"Valence rage, immunoglobuline, origine humaine",,hRIG,VAL016
+VAL253,"Valence rage, immunoglobuline, origine équine",,eRIG,VAL016
+VAL254,"Valence rage, inactivée, entière, type Semple, préparée sur tissu cérébral de chèvre ou de mouton infecté par le virus de la rage, inactivé par du phénol ou de la ß-propiolactone, contient de la myéline",,Rab-I-Semple,VAL256
+VAL255,"Valence rage, inactivée, entière, type Fuenzalida, préparée sur tissu cérébral de souriceau à la mamelle infecté par le virus de la rage, teneur moindre en myéline",,Rab-I-Fuenzalida,VAL256
+VAL256,"Valence rage, inactivée, entière, préparée sur tissu cérébral animal infecté par le virus de la rage, sans précision",,Rab-I-TissuNerveux,VAL080
+VAL257,"Valence rage, inactivée, entière, préparée sur culture cellulaire, sans précision",,Rab-I-CC,VAL080
+VAL258,"Valence rage, inactivée, entière, préparée sur culture de cellules diploïdes humaines (HDCV) MRC-5, inactivation par la ß-propiolactone",,Rab-I-HDCV,VAL257
+VAL259,"Valence rage, inactivée, entière, purifiée et préparée sur culture de cellules d’embryon de poulet (PCECV), souche fixe du virus de la rage Flury LEP-25 multipliée sur cultures primaires de fibroblastes de poulet, virus inactivé par la ß-propiolactone",,Rab-I-PCEC,VAL257
+VAL260,"Valence rage, inactivée, entière, préparée sur culture de cellules Vero (PVRV), souche Wistar, inactivation par la ß-propiolactone",,Rab-I-PVRV,VAL257
+VAL261,"Valence rage, inactivée, entière, préparée en culture primaire de cellules rénales de hamster (PHKCV), souche Beijing, inactivation par le formol",,Rab-I-PHKCV,VAL257
+VAL262,"Valence rage, inactivée, entière, préparée sur oeufs embryonnés (VOE), sans précision",,Rab-I-VOE,VAL080
+VAL263,"Valence rage, inactivée, entière, préparée sur cellules d’embryon de canard, inactivation par la ß-propiolactone",,Rab-I-PDEV,VAL262
+VAL264,"Valence covid 19, entier inactivé, autorisé",,Covid-VI-Aut,VAL076
+VAL265,"Valence covid 19, entier inactivé, en essai clinique",,Covid-VI-CT,VAL076
+VAL266,"Valence méningocoque C, polyoside conjugué à l'anatoxine tétanique",,MCV-C-T,VAL057
+VAL267,"Valence méningocoque C, polyoside conjugué à l'anatoxine diphtérique",,MCV-C-D,VAL057
+VAL268,"Valence méningocoque C, polyoside conjugué à la protéine CRM197",,MCV-C-CRM,VAL057
+VAL269,"Valence méningocoque A, polyoside conjugué à la protéine CRM197",,MCV-A-CRM,VAL041
+VAL270,"Valence méningocoque A, polyoside conjugué à l'anatoxine diphtérique",,MCV-A-D,VAL041
+VAL271,"Valence méningocoque A, polyoside conjugué à l'anatoxine tétanique",,MCV-A-T,VAL041
+VAL272,"Valence méningocoque W, polyoside conjugué à l'anatoxine tétanique",,MCV-W-T,VAL136
+VAL273,"Valence méningocoque W, polyoside conjugué à l'anatoxine diphtérique",,MCV-W-D,VAL136
+VAL274,"Valence méningocoque W, polyoside conjugué à la protéine CRM197",,MCV-W-CRM,VAL136
+VAL275,"Valence méningocoque Y, polyoside conjugué à la protéine CRM197",,MCV-Y-CRM,VAL078
+VAL276,"Valence méningocoque Y, polyoside conjugué à l'anatoxine tétanique",,MCV-Y-T,VAL078
+VAL277,"Valence méningocoque Y, polyoside conjugué à l'anatoxine diphtérique",,MCV-Y-D,VAL078
+VAL278,"Valence Adénovirus, vivant atténué, voie orale, sans précision",,Adeno-VVA,Valence
+VAL279,"Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, dose pédiatrique",,Inf-SUped4,VAL064
+VAL280,"Valence botulisme, anatoxine",,BT,VAL419
+VAL281,"Valence Adénovirus de type 7, vivant atténué, voie orale, sans précision",,Adeno-7,VAL278
+VAL282,"Valence Adénovirus de type 4, vivant atténué, voie orale, sans précision",,Adeno-4,VAL278
+VAL283,"Valence hépatite A, inactivée, entière, dose pédiatrique, sans précision",,HepA-PED,VAL125
+VAL284,"Valence hépatite A, inactivée, entière, dose adulte, sans précision",,HepA-ADU,VAL125
+VAL285,"Valence grippe, trivalente, inactivée, obtenue sur culture cellulaire, fractionnée ou sous-unité, dose normale",,Inf-CC3,VAL360
+VAL286,"Valence hépatite A, vivant atténué, sans précision",,HepA-VVA,VAL288
+VAL287,"Valence grippe, quadrivalente, recombinante",,Inf-R4,VAL361
+VAL288,"Valence hépatite A, sans précision",,HepA,Valence
+VAL289,"Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes",, Covid-ARNm-S-ORI-10,VAL303
+VAL290,"Valence covid 19, virus originel,  ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes",,Covid-ARNm-S-ORI-30,VAL303
+VAL291,"Valence hépatite B, ant!gène de surface recombinant, trois antigènes (Ag HbS, pré-S1 et pré-S2)",,HBs-r-3Ag,VAL068
+VAL292,"Valence covid 19, vecteur viral non réplicatif, adénovirus 26 codant la protéine de pointe du SARS-CoV-2, en essai clinique",,Covid-VVnr-S-Ad26-CT,VAL070
+VAL293,"Valence charbon, immunoglobuline",,Charbon-Ig,Valence
+VAL294,"Valence variole, première génération, vivant atténué",,POX-1G,VAL022
+VAL295,"Valence variole, deuxième génération, vivant atténué",,POX-2G,VAL022
+VAL296,"Valence variole, troisième génération, non réplicatif, Virus modifié de la vaccine d'Ankara,",,POX-3G-MVA,VAL028
+VAL297,"Valence méningocoque A, sans précision",,MenA,VAL234
+VAL298,"Valence méningocoque C, sans précision",,MenC,VAL234
+VAL299,"Valence méningocoque Y, sans précision",,MenY,VAL234
+VAL300,"Valence méningocoque W, sans précision",,MenW,VAL234
+VAL301,"Valence grippe, trivalente, recombinante",,Inf-R3,VAL361
+VAL302,"Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes",,Covid-ARNm-S-ORI-50,VAL303
+VAL303,"Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2",,Covid-ARNm-S-ORI,VAL043
+VAL304,"Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 15 microgrammes",,Covid-ARNm-S-ORI-15,VAL303
+VAL305,"Valence covid 19, variant Omicron BA.1, ARNm codant la protéine de pointe du SARS-CoV-2, 15 microgrammes",,Covid-ARNm-S-OMI-BA.1-15,VAL393
+VAL306,"Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 3 microgrammes",,Covid-ARNm-S-ORI-3,VAL303
+VAL307,"Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2, 15 microgrammes",,Covid-ARNm-S-OMI-BA.4/5-15,VAL394
+VAL308,"Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes",,Covid-ARNm-S-OMI-BA.4/5-25,VAL394
+VAL309,"Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2, 5 microgrammes",,Covid-ARNm-S-OMI-BA.4/5-5,VAL394
+VAL310,"Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 5 microgrammes",,Covid-ARNm-S-ORI-5,VAL303
+VAL311,"Valence paludisme, pré-érythrocytaire R21/Matrix-M",,R21/Matrix-M,VAL025
+VAL312,"Valence encéphalite à tiques, inactivée, entière, souche K23",,TBE-K23,VAL031
+VAL313,"Valence encéphalite à tiques, inactivée, entière, souche Neudörfl, dose non précisée",,TBE-Neudorfl,VAL031
+VAL314,"Valence encéphalite à tiques, inactivée, entière, souche Neudörfl, dose adulte",,TBE-Neudorfl-ADU,VAL313
+VAL315,"Valence encéphalite à tiques, entière inactivée, souche Neudörfl, dose pédiatrique",,TBE-Neudorfl-PED,VAL313
+VAL316,"Valence VRS, recombinante, antigène RSVPreF3 dérivé de la protéine F",,VRS-PreF3,VAL318
+VAL317,"Valence VRS, anticorps, sans précision",,VRS-Ab,VAL338
+VAL318,"Valence VRS, vaccin, sans précision",,VRS-V,VAL338
+VAL319,"Valence covid 19, vecteur viral non réplicatif, adénovirus codant la protéine de pointe du SARS-CoV-2, par inhalation",,Covid-VVnr-S-INH,VAL397
+VAL320,"Valence VRS, anticorps monoclonal, sans précision",,VRS-mAb,VAL317
+VAL321,"Valence VRS, anticorps monoclonal, nirsévimab",,VRS-mAb-nir,VAL320
+VAL322,"Valence VRS, recombinante, glycoprotéines F des sous-types A et B",,VRS-PreFAB,VAL318
+VAL323,"Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes",,Covid-ARNm-S-OMI-XBB.1.5-30,VAL396
+VAL324,"Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes",,Covid-ARNm-S-OMI-XBB.1.5-10,VAL396
+VAL325,"Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2, 3 microgrammes",,Covid-ARNm-S-OMI-XBB.1.5-3,VAL396
+VAL326,"Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2, 1,5 microgrammes",,"Covid-ARNm-S-OMI-BA.4/5-1,5",VAL394
+VAL327,"Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 1,5 microgrammes",,"Covid-ARNm-S-ORI-1,5",VAL303
+VAL328,"Valence covid 19, sous-variant Omicron XBB.1.5, sous-unité protéique, protéine de pointe recombinante dans des nanoparticules",,Covid-SP-rSnp-XBB,VAL107
+VAL329,"Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes",,Covid-ARNm-S-OMI-XBB.1.5-50,VAL396
+VAL330,"Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes",,Covid-ARNm-S-OMI-XBB.1.5-25,VAL396
+VAL331,"Valence CMV, immunoglobulines",,CMV-Ig,Valence
+VAL332,"Valence hépatite C, sans précision",,HepC,Valence
+VAL333,"Valence VIH, sans précision",,VIH,Valence
+VAL334,"Valence mélanome, sans précision",,MEL,Valence
+VAL335,"Valence Streptococcus pyogenes, sans précision",,SPYO,Valence
+VAL336,"Valence fièvre de la vallée du Rift, sans précision",,FVR,Valence
+VAL337,"Valence variole, immunoglobuline",,POX-Ig,VAL418
+VAL338,"Valence VRS, anticorps ou vaccin, sans précision",,VRS,Valence
+VAL339,"Valence Borrelia burgdorferi, sans précision",,Lyme,Valence
+VAL340,"Valence charbon, sans précision",,Charbon,Valence
+VAL341,"Valence Escherichia coli, sans précision",,Eco,VAL345
+VAL342,"Valence Klebsiella pneumoniæ, sans précision",,Kpn,VAL345
+VAL343,"Valence Enterococcus fæcalis, sans précision",,Efa,VAL345
+VAL344,"Valence Proteus vulgaris, sans précision",,Pvu,VAL345
+VAL345,"Valence infections urinaires, sans précision",,UTI,Valence
+VAL346,Valence entérovirus A71,,EV71,Valence
+VAL347,"Valence Leptospira canicola, inactivée, entière",,Lepto-ca,Valence
+VAL348,"Valence Leptospira pomona, inactivée, entière",,Lepto-po,Valence
+VAL349,"Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, adjuvant",,Inf-SUAnd3,VAL231
+VAL350,"Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, adjuvant, dose normale",,Inf-SUAnd4,VAL127
+VAL351,"Valence grippe, trivalente, virosomale, sans précision",,Inf-V3,VAL362
+VAL352,"Valence grippe, quadrivalente, virosomale, sans précision",,Inf-V4,VAL362
+VAL353,"Valence pneumocoque, polyosidique conjuguée, sérotype 2",,VPC-02,VAL184
+VAL354,"Valence pneumocoque, polyosidique conjuguée, sérotype 9N",,VPC-09N,VAL184
+VAL355,"Valence pneumocoque, polyosidique conjuguée, sérotype 17F",,VPC-17F,VAL184
+VAL356,"Valence pneumocoque, polyosidique conjuguée, sérotype 20",,VPC-20,VAL184
+VAL357,"Valence choléra, vivante atténuée, orale",,O-Chol-V,VAL124
+VAL358,"Valence botulisme, immunoglobuline",,BIG,VAL420
+VAL359,"Valence choléra, inactivée, entière, sans précision",,Chol-I,VAL081
+VAL360,"Valence grippe, inactivée, obtenue sur culture cellulaire, fractionnée ou sous-unité, dose normale, sans précision",,Inf-CC,VAL364
+VAL361,"Valence grippe, recombinante, sans précision",,Inf-R,VAL364
+VAL362,"Valence grippe, virosomal, sans précision",,Inf-V,VAL364
+VAL363,"Valence grippe, trivalente, VLP, sans précision",,Inf-VLP3,VAL029
+VAL364,"Valence grippe, non vivante, sans précision",,Inf-NL,VAL128
+VAL365,"Valence grippe, non vivante, obtenue sur culture d'œufs, sans précision",,Inf-E,VAL364
+VAL366,"Valence grippe, ARN, sans précision",,INF-ARN,VAL128
+VAL367,"Valence choléra, V. cholerae O1, entière inactivée, orale",,O-Chol-O1-I,VAL021
+VAL368,"Valence choléra, V. cholerae O139, inactivée, entière, orale",,O-Chol-O139-I,VAL021
+VAL369,"Valence pneumocoque, polyosidique conjuguée, sérotype 15A",,VPC-15A,VAL184
+VAL370,"Valence pneumocoque, polyosidique conjuguée, sérotype 15C",,VPC-15C,VAL184
+VAL371,"Valence pneumocoque, polyosidique conjuguée, sérotype 16F",,VPC-16F,VAL184
+VAL372,"Valence pneumocoque, polyosidique conjuguée, sérotype 20A",,VPC-20A,VAL184
+VAL373,"Valence pneumocoque, polyosidique conjuguée, sérotype 23A",,VPC-23A,VAL184
+VAL374,"Valence pneumocoque, polyosidique conjuguée, sérotype 23B",,VPC-23B,VAL184
+VAL375,"Valence pneumocoque, polyosidique conjuguée, sérotype 24F",,VPC-24F,VAL184
+VAL376,"Valence pneumocoque, polyosidique conjuguée, sérotype 31",,VPC-31,VAL184
+VAL377,"Valence pneumocoque, polyosidique conjuguée, sérotype 35B",,VPC-35B,VAL184
+VAL378,"Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), 15 microgrammes",,rAgHBs-15,VAL090
+VAL379,"Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes",,Covid-ARNm-S-OMI-JN.1-30,VAL395
+VAL380,"Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes",,Covid-ARNm-S-OMI-JN.1-10,VAL395
+VAL381,"Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2, 3 microgrammes",,Covid-ARNm-S-OMI-JN.1-3,VAL395
+VAL382,"Valence covid 19, sous-variant Omicron JN.1, sous-unité protéique, protéine de pointe recombinante dans des nanoparticules",,Covid-SP-rSnp-JN.1,VAL107
+VAL383,"Valence VRS, ARNm simple brin coiffé en 5' codant pour la glycoprotéine F, stabilisé dans la conformation de préfusion",,mVRS,VAL318
+VAL384,"Valence lèpre, sans précision",,Lep,Valence
+VAL385,"Valence grippe aviaire, A(H5N8)",,AH5N8,VAL386
+VAL386,"Valence grippe aviaire, A(H5), sans précision",,AH5,Valence
+VAL387,"Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes",,Covid-ARNm-S-OMI-JN.1-25,VAL395
+VAL388,"Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes",,Covid-ARNm-S-OMI-JN.1-50,VAL395
+VAL389,"Valence Pseudomonas aeruginosa, 7 immunotypes",,PAER7,Valence
+VAL390,"Valence chikungunya, sans précision",,CHIK,Valence
+VAL391,"Valence chikungunya, VLP",,Chik-VLP,VAL390
+VAL392,"Valence grippe aviaire, A(H5N1), ARNm",,AH5N1-ARN,VAL051
+VAL393,"Valence covid 19, variant Omicron BA.1, ARNm codant la protéine de pointe du SARS-CoV-2",,Covid-ARNm-S-OMI-BA.1,VAL149
+VAL394,"Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2",,Covid-ARNm-S-OMI-BA.4/5,VAL149
+VAL395,"Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2",,Covid-ARNm-S-OMI-JN.1,VAL417
+VAL396,"Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2",,Covid-ARNm-S-OMI-XBB.1.5,VAL417
+VAL397,"Valence covid 19, vecteur viral non réplicatif codant la protéine de pointe du SARS-CoV-2, sans précision",,Covid-VVnr-S,VAL163
+VAL398,"Valence covid 19, vecteur viral réplicatif, virus codant la protéine de pointe du SARS-CoV-2",,Covid-VVr-S,VAL162
+VAL399,"Valence typhoïde, antigène Vi conjugué à l’anatoxine tétanique",,Ty-ViC-T,VAL002
+VAL400,"Valence typhoïde, antigène Vi conjugué à la protéine CRM197",,Ty-ViC-CRM,VAL002
+VAL401,"Valence encéphalite japonaise, inactivée, dérivée de cellules Vero, 3 microgrammes",,EJ-I-Vero-3,VAL251
+VAL402,"Valence encéphalite japonaise, inactivée, dérivée de cellules Vero, 6 microgrammes",,EJ-I-Vero-6,VAL251
+VAL403,"Valence méningocoque X, sans précision",,MenX,VAL234
+VAL404,"Valence méningocoque X, polyoside conjugué",,MCV-X,VAL403
+VAL405,"Valence grippe pandémique H1N1 2009, vivante atténuée",,Inf-pdm09-V,VAL058
+VAL406,"Valence covid 19, variant Omicron KP.2, ARNm codant la protéine de pointe du SARS-CoV-2",,Covid-ARNm-S-OMI-KP.2,VAL395
+VAL407,"Valence covid 19, variant Omicron KP.2, ARNm codant la protéine de pointe du SARS-CoV-2, 3 microgrammes",,Covid-ARNm-S-OMI-KP.2-3,VAL406
+VAL408,"Valence covid 19, variant Omicron KP.2, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes",,Covid-ARNm-S-OMI-KP.2-10,VAL406
+VAL409,"Valence covid 19, variant Omicron KP.2, ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes",,Covid-ARNm-S-OMI-KP.2-30,VAL406
+VAL410,"Valence covid 19, sous-unité protéique, protéine N recombinante",,Covid-SP-rN,VAL053
+VAL411,"Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes",,Covid-ARNm-S-OMI-BA.4/5-50,VAL394
+VAL412,"Valence covid 19, variant Omicron BA.1, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes",,Covid-ARNm-S-OMI-BA.1-50,VAL393
+VAL413,"Valence covid 19, sous-variant Omicron XBB.1.16 , sous-unité protéique, protéine de pointe recombinante (domaine RBD)",,Covid-SP-rRBD-XBB.1.16,VAL011
+VAL414,"Valence diphtérique, sans précision",,DIPH,Valence
+VAL415,"Valence charbon, acellulaire, absorbé, adjuvant",,BantAdj,VAL111
+VAL416,"Valence covid 19, sous-unité protéique, adjuvant, protéine de pointe recombinante",,Covid-SP-rS-A,VAL104
+VAL417,"Valence covid 19, variant Omicron BA.2, ARNm codant la protéine de pointe du SARS-CoV-2",,Covid-ARNm-S-OMI-BA.2,VAL149
+VAL418,"Valence variole, produits d'immunisation active ou passive",,POX,Valence
+VAL419,"Valence botulisme, produits d'immunisation active ou passive",,BOT,Valence
+VAL420,"Valence botulisme, produits d'immunisation passive",,BOT-passive,VAL419
+VAL421,"Valence fièvre hémorragique d'Argentine, virus Junin, sans précision",,Junin,Valence
+VAL422,"Valence peste, sans précision",,Yp,Valence
+VAL423,"Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2",,Covid-ARNm-S-OMI-LP.8.1,VAL417
+VAL424,"Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes",,Covid-ARNm-S-OMI-LP.8.1-30,VAL423
+VAL425,"Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes",,Covid-ARNm-S-OMI-LP.8.1-10,VAL423
+VAL426,"Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 3 microgrammes",,Covid-ARNm-S-OMI-LP.8.1-3,VAL423
+VAL427,"Valence covid 19, ARNm codant un fragment de la protéine Spike du SARS-CoV-2",,Covid-ARNm-S-frag,VAL043
+VAL428,"Valence covid 19, ARNm codant les fragments NTD et RBD de la protéine Spike, variant Omicron LP.8.1",,Covid-ARNm-S-frag-OMI-LP.8.1,VAL427
+VAL429,"Valence VRS, anticorps monoclonal, clesrovimab",,VRS-mAb-cle,VAL320
+VAL430,"Valence encéphalite à tiques, inactivée, entière, souche K23, 0,25 mL",,TBE-K23-25,VAL312
+VAL431,"Valence encéphalite à tiques, inactivée, entière, souche K23, 0,50 mL",,TBE-K23-50,VAL312
+VAL432,"Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes",,Covid-ARNm-S-OMI-LP.8.1-25,VAL423
+VAL433,"Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes",,Covid-ARNm-S-OMI-LP.8.1-50,VAL423
+VAL434,"Valence covid 19, sous-variant Omicron LP.8.1, sous-unité protéique, protéine de pointe recombinante (domaine RBD)",,Covid-SP-rRBD-LP.8.1,VAL011
+VAL435,"Valence dengue, souche atténuée native",,DENV2-VVA,VAL150
+VAL436,"Valence dengue, vivant, recombinant, chimère DENV-2 + prM/E de DENV-1",,DENV1rCH,VAL150
+VAL437,"Valence dengue, vivant, recombinant, chimère DENV-2 + prM/E de DENV-3",,DENV3rCH,VAL150
+VAL438,"Valence dengue, vivant, recombinant, chimère DENV-2 + prM/E de DENV-4",,DENV4rCH,VAL150
+VAL439,"Valence covid 19, variant Omicron XFG, ARNm codant la protéine de pointe du SARS-CoV-2",,Covid-ARNm-S-OMI-XFG,VAL417
+VAL440,"Valence covid 19, variant Omicron XFG, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes",,Covid-ARNm-S-OMI-XFG-10,VAL439
+VAL441,"Valence covid 19, variant Omicron XFG, ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes",,Covid-ARNm-S-OMI-XFG-30,VAL439
+VAL442,"Valence mélanome, ARN messager, néoantigènes individualisés",,MEL-ARNI,VAL334
+VAL443,"Valence covid 19, sous-variant Omicron XFG, sous-unité protéique, protéine de pointe recombinante dans des nanoparticules",,Covid-SP-rSnp-XFG,VAL107
+VAL444,"Valence covid 19, sous-variant Omicron XFG, sous-unité protéique, protéine de pointe recombinante (domaine RBD)",,Covid-SP-rRBD-XFG,VAL011
+VAL445,"Valence typhoïde, antigène Vi conjugué à l’anatoxine diphtérique",,Ty-ViC-D,VAL002

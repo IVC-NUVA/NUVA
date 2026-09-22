@@ -1,0 +1,447 @@
+﻿NUVA,label,comment,shorthand,parent
+VAL000,Parent for deprecated valences,,ZZZ,Valence
+VAL001,"Τρισθενής ζωντανή εξασθενημένη βαλεντία της γρίπης, κανονική δόση",,Inf-L3,VAL140
+VAL002,"Συζευγμένο εμβόλιο τυφοειδούς, πολυσακχαριδικό αντιγόνο Vi συνδεδεμένο με πρωτεΐνη φορέα",,Ty-ViC,VAL014
+VAL003,"Βαλεντία κοκκύτη, χωρίς διευκρίνιση",,Per,Valence
+VAL004,"Ολόκληρη αδρανοποιημένη βαλεντία της χολέρας, ενέσιμη",,I-Chol-I,VAL359
+VAL005,"Measles valence, live attenuated",,Meas-LAV,VAL182
+VAL006,"Αντι-Brucella βαλεντία, χωρίς διευκρίνιση",,Bruc,Valence
+VAL007,Ανασυνδυασμένος αναπαραγωγικός φορέας του ιού της φυσαλιδώδους στοματίτιδας (rVSV) Εμβόλιο Έμπολα - γλυκοπρωτεΐνη EBOV GP,,rVSVdG-ZEBOV-GP,VAL126
+VAL008,"Ακυτταρική βακτηριακή βαλεντία κοκκύτη, τυπική δόση",,aP,VAL117
+VAL009,Εμβόλια πρωτεϊνών επιφανείας σποροζωιδίων,,Mala-SPO,VAL025
+VAL010,Βαλεντία κατά του αδρανοποιημένου ολοκυτταρικού κοκκύτη,,wP,VAL003
+VAL011,"Εμβόλιο COVID-19, πρωτεϊνική υπομονάδα, ανασυνδυασμένη πρωτεΐνη αιχμής (RBD)",,COVID-PS-rRBD,VAL104
+VAL012,"Εμβόλιο ηπατίτιδας Β, ανασυνδυασμένο αντιγόνο επιφανείας του ιού της ηπατίτιδας Β (HBsAg), 40 μικρογραμμάρια (δοσολογία ασθενούς αιμοκάθαρσης)",,rHBsAg-40,VAL090
+VAL013,Επιφανειακή γλυκοπρωτεΐνη Ε (gE) του ιού Varicella zoster (VZV),,Shingles-gE,VAL159
+VAL014,"Εμβόλιο τυφοειδούς, απροσδιόριστο",,Ty,Valence
+VAL015,"Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",,INF-SUnd3,VAL122
+VAL016,"Λύσσα ανοσοσφαιρίνη, απροσδιόριστη",,RIG,Valence
+VAL017,"Ακυτταρική βακτηριακή βαλεντία κοκκύτη, μειωμένη δόση",,ap,VAL117
+VAL018,"Εμβόλιο ευλογιάς τρίτης γενιάς, ελάχιστα αναπαραγόμενος ζωντανός ιός εμβολιασμού",,Pox-3G-LC16,VAL028
+VAL019,Αντιτοξίνη διφθερίτιδας,,DATx,VAL414
+VAL020,"Herpes zoster valence, live attenuated",,Shingles-L,VAL160
+VAL021,Από του στόματος αδρανοποιημένο εμβόλιο χολέρας,,O-Chol-I,VAL359
+VAL022,"Smallpox valence, live attenuated, unspecified",,Smallpox-L,VAL418
+VAL023,"Influenza valence, trivalent, inactivated, split or subunit, intradermal route, unspecified",,INF-SUid3,VAL024
+VAL024,"Τρισθενής αδρανοποιημένη βαλεντία της γρίπης, κλασματοποιημένη ή υπομονάδα, χωρίς διευκρίνιση",,INF-SU3,VAL058
+VAL025,"Εμβόλιο κατά της ελονοσίας, απροσδιόριστο",,Mala,Valence
+VAL026,"Μηνιγγιτιδοκοκκικό εμβόλιο B:14:P1.7,16 με πρωτεΐνες κυστιδίων εξωτερικής μεμβράνης",,MenB-OMP,VAL118
+VAL027,"Εμβόλιο COVID-19, μη αναπαραγόμενος φορέας αδενοϊού 26 που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2",,COVID-VVnr-S-Ad26,VAL070
+VAL028,"Smallpox valence, third-generation, live attenuated",,POX-3G,VAL022
+VAL029,"Εμβόλιο εποχικής γρίπης VLP, απροσδιόριστο",,Inf-VLP,VAL364
+VAL030,Ανασυνδυασμένο εμβόλιο κατά της Borrelia burgdorferi - πρωτεΐνη εξωτερικής επιφάνειας Α (OspA),,Lyme-OspA,VAL339
+VAL031,Εγκεφαλίτιδα που προκαλείται από τσιμπούρια,,TBE,Valence
+VAL032,"Εμβόλιο πολυσακχαρίτη τυφοειδούς, μη συζευγμένο αντιγόνο πολυσακχαρίτη Vi",,Ty-ViPS,VAL014
+VAL033,Μονοδύναμο ζωντανό εξασθενημένο από του στόματος εμβόλιο πολιομυελίτιδας τύπου 2,,mOPV2,VAL133
+VAL034,"Τοξοειδές διφθερίτιδας, χαμηλή δόση",,d,VAL083
+VAL035,"Εμβόλιο COVID-19, πλασμιδιακό DNA που κωδικοποιεί την πρωτεΐνη SARS-CoV-2 spike",,COVID-DNA-S,VAL164
+VAL036,"Μη στρεπτό εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύποι 6, 11, 16, 18, 31, 33, 45, 52, 58",,HPV-09-valent,VAL237
+VAL037,"Εμβόλιο μηνιγγιτιδοκόκκου Α, μη συζευγμένος πολυσακχαρίτης",,MPV-A,VAL297
+VAL038,"Εμβόλιο COVID-19, πολλαπλασιαστικός φορέας ιού ιλαράς που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2",,COVID-VVr-S-Meas,VAL398
+VAL039,"Εμβόλιο COVID-19, VLP, ανασυνδυασμένη πρωτεΐνη αιχμής",,COVID-VLP-rS,VAL164
+VAL040,"Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",,INF-SUnd4,VAL064
+VAL041,"Μηνιγγιτιδοκοκκικό Α, πολυσακχαριδικό συζευγμένο εμβόλιο",,MCV-A,VAL297
+VAL042,"Εμβόλιο πολιομυελίτιδας, απροσδιόριστο",,POLIO,Valence
+VAL043,Εμβόλιο SARS-CoV-2 spike protein mRNA 19,,COVID-mRNA-S,VAL168
+VAL044,Varicella,,VZV-LAV,Valence
+VAL045,Αδρανοποιημένο ολόκληρο παρατυφοειδές εμβόλιο,,pTy-I,VAL014
+VAL046,Τύφος,,Typhus,Valence
+VAL047,Ανοσοσφαιρίνη ηπατίτιδας Β,,IgHepB,Valence
+VAL048,Αδρανοποιημένο πλήρες εμβόλιο παρωτίτιδας,,Or-I,VAL183
+VAL049,"Πολυσακχαριδική βαλεντία του Haemophilus influenzae τύπου b, μη συζευγμένη",,Hib-PS,VAL177
+VAL050,"Εμβόλιο COVID-19, μη αναπαραγόμενος φορέας αδενοϊού 5 που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2, απροσδιόριστο",,COVID-VVnr-S-Ad5,VAL070
+VAL051,Προπανδημικό εμβόλιο κατά της γρίπης Α(Η5Ν1),,AH5N1,VAL386
+VAL052,"Τετραδύναμο εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύποι 6, 11, 16 και 18",,HPV-04-valent,VAL237
+VAL053,"Εμβόλιο COVID-19, πρωτεϊνική υπομονάδα, ανασυνδυασμένη πρωτεΐνη αιχμής, απροσδιόριστο",,COVID-PS,VAL164
+VAL054,"Εμβόλιο COVID-19, μη αναπαραγόμενος τροποποιημένος φορέας Vaccinia Virus Ankara που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2",,COVID-VVnr-S-MVA,VAL397
+VAL055,Ανοσοσφαιρίνη ιλαράς,,Ig-Measles,Valence
+VAL056,Ολόκληρο αδρανοποιημένο τρισθενές εμβόλιο πολιομυελίτιδας για ένεση,,POLIO-I,VAL042
+VAL057,"Εμβόλιο μηνιγγιτιδοκόκκου C, πολυσακχαριδικό συζευγμένο",,MCV-C,VAL298
+VAL058,"Αδρανοποιημένη βαλεντία της γρίπης, κλασματοποιημένη ή υπομονάδα, χωρίς διευκρίνιση",,INF-SU,VAL365
+VAL059,"Τετρασθενής ζωντανή εξασθενημένη βαλεντία της γρίπης, κανονική δόση",,INF-L4,VAL140
+VAL060,"Chikungunya virus valence, live attenuated",,CHIK-LA,VAL390
+VAL061,"Εμβόλιο COVID-19, πρωτεϊνική υπομονάδα, ανασυνδυασμένη πρωτεΐνη spike, S-2P και CpG1018",,COVID-PS-CpG1018,VAL104
+VAL062,"Cholera valence, protein subunit, recombinant cholera toxin subunit B (rCTB)",,O-Chol-rCTB-I,VAL021
+VAL063,Αντιτοξίνη της αλλαντίασης,,BAT,VAL420
+VAL064,"Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted",,INF-SUNA4,VAL127
+VAL065,Ζωντανό εξασθενημένο ανασυνδυασμένο χιμαιρικό τετραδύναμο εμβόλιο κατά του δάγκειου πυρετού ,,RC-TDV,VAL150
+VAL066,"Εμβόλιο κατά του αναπαραγωγικού φορέα ιού covid 19, ιός γρίπης που κωδικοποιεί την πρωτεΐνη κορυφής του SARS-CoV-2",,COVID-VVr-S-Influ,VAL398
+VAL067,Τοξικοειδές τετάνου,,T,Valence
+VAL068,"Βαλεντία της ηπατίτιδας Β, χωρίς διευκρίνιση",,HepB,Valence
+VAL069,"Εμβόλιο COVID-19, μη αναπαραγόμενος αδενοϊικός φορέας ChAdOx1 χιμπατζή που κωδικοποιεί την πρωτεΐνη SARS-CoV-2 spike",,COVID-VVnr-S-ChAdOx1,VAL397
+VAL070,"Εμβόλιο COVID-19, μη αναπαραγόμενος αδενοϊικός φορέας που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2, απροσδιόριστο",,COVID-VVnr-S-Ad,VAL397
+VAL071,Αδρανοποιημένο πλήρες εμβόλιο τύφου,,Ty-I,VAL014
+VAL072,Εμβόλιο κατά του μηνιγγιτιδόκοκκου Β που περιέχει fHbp των υποοικογενειών Α και Β,,MenB-fHbpAB,VAL161
+VAL073,"Εμβόλιο COVID-19, αναπαραγόμενος ιικός φορέας, με αντιγονοπαρουσιαστικά κύτταρα",,COVID-VVr+APC,VAL162
+VAL074,"Τετραδύναμο αδρανοποιημένο εμβόλιο γρίπης, διαιρεμένο ή υπομονάδα, υψηλής δόσης",,INF-SUhd4,VAL064
+VAL075,Αδρανοποιημένο πλήρες εμβόλιο κατά της Leptospira icterohaemorrhagiae,,Lepto-wI,Valence
+VAL076,"Εμβόλιο COVID-19, αδρανοποιημένο με ολόκληρο τον ιό, απροσδιόριστο",,COVID-IV,VAL164
+VAL077,"Mumps valence, live attenuated",,Mumps-LAV,VAL183
+VAL078,"Εμβόλιο μηνιγγιτιδοκόκκου Y, πολυσακχαριδικό συζευγμένο",,MCV-Y,VAL299
+VAL079,"Rubella valence, live attenuated",,Rub-LAV,Valence
+VAL080,"Αδρανοποιημένο εμβόλιο κατά της λύσσας με ολόκληρο τον ιό, απροσδιόριστο",,Rab-I,Valence
+VAL081,"Χολερική βαλεντία, χωρίς διευκρίνιση",,Chol,Valence
+VAL082,"Εμβόλιο κατά του ιού των ανθρώπινων θηλωμάτων, απροσδιόριστων τύπων",,HPV,Valence
+VAL083,"Τοξοειδές διφθερίτιδας, απροσδιόριστη δόση",,D-d,VAL414
+VAL084,"Εμβόλιο COVID-19, αναπαραγόμενος φορέας του ιού της φυσαλιδώδους στοματίτιδας που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2",,COVID-VVr-S-VSV,VAL398
+VAL085,Μονοδύναμο ζωντανό εξασθενημένο από του στόματος εμβόλιο πολιομυελίτιδας τύπου 3,,mOPV3,VAL133
+VAL086,"Εμβόλιο COVID-19, ζωντανό εξασθενημένο, απροσδιόριστο",,COVID-LA,VAL165
+VAL087,"Βαλεντία δάγκειου πυρετού, ζωντανή εξασθενημένη τετραδύναμη χιμαιρική ανασυνδυασμένη βασισμένη στο εμβόλιο κίτρινου πυρετού 17D",,CYD-TDV,VAL150
+VAL088,Ανοσοσφαιρίνη Varicella,,VZV-Ig,Valence
+VAL089,"Αδρανοποιημένη βαλεντία κατά της Ιαπωνικής εγκεφαλίτιδας, χωρίς διευκρίνιση",,JE-I,VAL249
+VAL090,"Εμβόλιο ηπατίτιδας Β, ανασυνδυασμένο αντιγόνο επιφανείας του ιού της ηπατίτιδας Β (HBsAg), δόση απροσδιόριστη",,rHBsAg,VAL068
+VAL091,"Ζωντανό εξασθενημένο εμβόλιο τύφου, στέλεχος Ty21a, από του στόματος",,Ty-LA,VAL014
+VAL092,Κίτρινος πυρετός,,YF,Valence
+VAL093,Αδρανοποιημένο πλήρες εμβόλιο ιλαράς,,Meas-I,VAL182
+VAL094,"Influenza valence, trivalent, inactivated, fractionated or subunit, intramuscular or subcutaneous, non-adjuvanted, high dose",,INF-SUhd3,VAL122
+VAL095,"Εμβόλιο COVID-19, αναπαραγωγικός φορέας του ιού της νόσου του Newcastle που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2",,COVID-VVr-S-Nv,VAL398
+VAL096,Εμβόλιο BCGΒαλεντία BCG,,BCG,Valence
+VAL097,"Τοξοειδές διφθερίτιδας, τυπική δόση",,D,VAL083
+VAL098,Εμβόλιο κατά του μηνιγγιτιδόκοκκου Β 4 συστατικών,,4CMenB,VAL161
+VAL099,Αδρανοποιημένη βαλεντία της πανδημικής γρίπης H1N1 2009 ,,Inf-pdm09,VAL058
+VAL100,"Japanese encephalitis valence, live attenuated virus, strain 14-14-2",,JE-LAV-14-14-2,VAL248
+VAL101,"Εμβόλιο COVID-19, μη αναπαραγόμενος φορέας του ιού της νόσου του Newcastle που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2",,COVID-VVnr-S-Nv,VAL397
+VAL102,Ανασυνδυασμένη πεπτιδική βαλεντία της ηπατίτιδας Ε,,HepE,Valence
+VAL103,"Συζευγμένη βαλεντία του Haemophilus influenzae τύπου b, χωρίς διευκρίνιση",,Hib-C,VAL177
+VAL104,"Εμβόλιο COVID-19, πρωτεϊνική υπομονάδα, ανασυνδυασμένη πρωτεΐνη αιχμής",,COVID-PS-rS,VAL053
+VAL105,"Πνευμονιοκοκκικό εμβόλιο, απροσδιόριστο",,Pneumo,Valence
+VAL106,"Εμβόλιο κατά του ροταϊού, απροσδιόριστο",,Rota,Valence
+VAL107,"Εμβόλιο COVID-19, πρωτεϊνική υπομονάδα, ανασυνδυασμένα νανοσωματίδια πρωτεΐνης αιχμής",,COVID-PS-rSnp,VAL104
+VAL108,Ζωντανό μη αναπαραγόμενο εμβόλιο ανασυνδυασμένου ιικού φορέα Ad26.ZEBOV,,ZebovVRnrAd26,VAL126
+VAL109,"Βαλεντία κατά του ιού Έμπολα με μη αναδιπλασιαζόμενο ιογενή φορέα, τροποποιημένο εμβόλιο Άγκυρας ",,Ebola-MVA-BN-Filo,VAL126
+VAL110,Ανοσοσφαιρίνη τετάνου,,T-Ig,Valence
+VAL111,Κυτταρικό εμβόλιο κατά του άνθρακα,,Bant,VAL340
+VAL112,"Τετρασθενής αδρανοποιημένη βαλεντία της γρίπης που προέρχεται από κυτταροκαλλιέργεια, κλασματοποιημένη ή υπομονάδα, κανονική δόση",,INF-CC4,VAL360
+VAL113,"Δισθενές εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύποι 16 και 18",,HPV-02-valent,VAL237
+VAL114,"Εμβόλιο ηπατίτιδας Β, ανασυνδυασμένο αντιγόνο επιφανείας ηπατίτιδας Β (HBsAg), 10 μικρογραμμάρια",,rHBsAg-10,VAL090
+VAL115,"Εμβόλιο ηπατίτιδας Β, ανασυνδυασμένο αντιγόνο επιφανείας του ιού της ηπατίτιδας Β (HBsAg), 20 μικρογραμμάρια",,rHBsAg-20,VAL090
+VAL116,"Μονοκλωνικό αντίσωμα στον RSV, palivizumab",,RSV-mAb-pal,VAL320
+VAL117,"Εμβόλιο κατά του κυτταρικού κοκκύτη, απροσδιόριστη δόση",,Acel,VAL003
+VAL118,"Εμβόλιο μηνιγγιτιδοκόκκου Β, απροσδιόριστο",,MenB,VAL234
+VAL119,Μηνιγγιτιδοκοκκικό μονοδύναμο μη συζευγμένο πολυσακχαριδικό εμβόλιο,,MPV-mono,VAL439
+VAL120,"Μηνιγγιτιδοκοκκικός μη συζευγμένος πολυσακχαρίτης, πολυδύναμο",,MPV-poly,VAL234
+VAL121,Από του στόματος τρισθενές αδρανοποιημένο εμβόλιο ολικής πολιομυελίτιδας,,POLIO-I-O,VAL042
+VAL122,"Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted",,INF-SUNA3,VAL231
+VAL123,"Rotavirus valence, pentavalent, live attenuated virus",,Rota5-L,VAL106
+VAL124,"Ζωντανή εξασθενημένη χολερική βαλεντία, χωρίς διευκρίνιση",,Chol-L,VAL081
+VAL125,"Ολόκληρη αδρανοποιημένη βαλεντία της ηπατίτιδας Α, χωρίς διευκρίνιση",,HepA-I,VAL288
+VAL126,"Βαλεντία κατά του ιού Έμπολα, χωρίς διευκρίνιση",,Ebola,Valence
+VAL127,"Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route",,INF-SUimsc4,VAL230
+VAL128,"Βαλεντία της γρίπης, χωρίς διευκρίνιση",,Inf,Valence
+VAL129,"Βαλεντία του έρπητα απλού, χωρίς διευκρίνιση",,HSV,Valence
+VAL130,Βαλεντία ιοσώματος της ηπατίτιδας Α,,HepA-VLP,VAL125
+VAL131,Ολόκληρο αδρανοποιημένο εμβόλιο κατά της πανώλης,,Yp-I,VAL422
+VAL132,Ζωντανό εξασθενημένο μονοδύναμο από του στόματος εμβόλιο κατά της πολιομυελίτιδας τύπου 1,,mOPV1,VAL133
+VAL133,"Ζωντανό εξασθενημένο μονοδύναμο από του στόματος εμβόλιο πολιομυελίτιδας, απροσδιόριστου τύπου",,mOPV,VAL042
+VAL134,"Influenza valence, quadrivalent, inactivated, split or subunit, intradermal route, unspecified",,INF-SUid4,VAL230
+VAL135,"COVID-19 valence, mRNA encoding the SARS-CoV-2 spike protein, in clinical trials ",,Covid-ARNm-S-CT,VAL303
+VAL136,"Εμβόλιο μηνιγγιτιδοκόκκου W, πολυσακχαριδικό συζευγμένο",,MCV-W,VAL300
+VAL137,"Εμβόλιο μηνιγγιτιδοκόκκου C, μη συζευγμένος πολυσακχαρίτης",,MPV-C,VAL298
+VAL138,"Εμβόλιο μηνιγγιτιδοκόκκου W, μη συζευγμένος πολυσακχαρίτης",,MPV-W,VAL300
+VAL139,"Εμβόλιο μηνιγγιτιδοκόκκου Y, μη συζευγμένος πολυσακχαρίτης",,MPV-Y,VAL299
+VAL140,"Influenza valence, live attenuated, unspecified",,Inf-L,VAL128
+VAL141,RIX4414 μονοδύναμο εμβόλιο κατά του ροταϊού,,Rota-mv-RIX4414,VAL106
+VAL142,"Ολόκληρη αδρανοποιημένη βαλεντία της ηπατίτιδας Α, μονοσθενής, παιδιατρική δόση",,HepA-mv-PED,VAL283
+VAL143,"Ολόκληρη αδρανοποιημένη βαλεντία κατά της ηπατίτιδας Α, δισθενής (ηπατίτιδα Α και Β), παιδιατρική δόση",,HepA-bv-PED,VAL283
+VAL144,"Ολόκληρη αδρανοποιημένη βαλεντία της ηπατίτιδας Α, μονοσθενής, δόση για ενήλικες",,HepA-mv-ADU,VAL284
+VAL145,"Ολόκληρη αδρανοποιημένη βαλεντία της ηπατίτιδας Α, δισθενής (ηπατίτιδα Α και Β), δόση για ενήλικες",,HepA-bv-ADU,VAL284
+VAL146,Βαλεντία κατά της ολόκληρης αδρανοποιημένης Brucella,,Bruc-I,VAL006
+VAL147,Βαλεντία με αντιγόνο πρωτεΐνης P.I. (αδιάλυτο σε φαινόλη) κατά της βρουκέλλωσης,,Bruc-IP,VAL006
+VAL148,Μονοκλωνικό αντίσωμα του αναπνευστικού συγκυτιακού ιού,,RSV-IG,VAL317
+VAL149,"Εμβόλιο COVID-19, mRNA που κωδικοποιεί την πρωτεΐνη SARS-CoV-2 spike, 25 μικρογραμμάρια",,Covid-mRNA-S-25,VAL043
+VAL150,"Βαλεντία κατά του δάγκειου πυρετού, χωρίς διευκρίνιση",,Den,Valence
+VAL151,"Εμβόλιο τουλαραιμίας, απροσδιόριστο",,Tular,Valence
+VAL152,"Ολόκληρη αδρανοποιημένη βαλεντία της γρίπης, χωρίς διευκρίνιση",,Inf-I,VAL365
+VAL153,"Εμβόλιο Haemophilus influenzae τύπου β, πολυσακχαρίτης PRP συζευγμένο με τοξοειδές διφθερίτιδας",,PRP-D,VAL103
+VAL154,"Βαλεντία Haemophilus influenzae τύπου b, PRP ολιγοσακχαρίτες συζευγμένοι με μεταλλαγμένη διφθεριτική τοξίνη CRM197",,HbOC,VAL103
+VAL155,"Εμβόλιο Haemophilus influenzae τύπου β, πολυσακχαρίτης συζευγμένος με την πρωτεΐνη της εξωτερικής μεμβράνης της οροομάδας Β της Neisseria meningitidis",,PRP-OMP,VAL103
+VAL156,"PRP-T Εμβόλιο Haemophilus influenzae τύπου b, πολυσακχαρίτης PRP συζευγμένος με τοξοειδές του τετάνου",,PRP-T,VAL103
+VAL157,"Εμβόλιο COVID-19, απροσδιόριστο",,COVID,Valence
+VAL158,Εμβόλιο πλάσματος ηπατίτιδας Β,,pHBsAg,VAL068
+VAL159,"Υπομονάδα εμβολίου κατά του έρπητα ζωστήρα, απροσδιόριστο",,Shingles-SU,VAL160
+VAL160,"Εμβόλιο κατά του έρπητα ζωστήρα, απροσδιόριστο",,Shingles,Valence
+VAL161,"Πολυδύναμο εμβόλιο μηνιγγιτιδοκόκκου Β, απροσδιόριστο",,MenB-mc,VAL118
+VAL162,"Εμβόλιο COVID-19, πολλαπλασιαστικός φορέας ιού, απροσδιόριστο",,COVID-VVr,VAL165
+VAL163,"Εμβόλιο COVID-19, μη αναπαραγόμενος ιικός φορέας, απροσδιόριστο",,COVID-VVnr,VAL165
+VAL164,"Εμβόλιο COVID-19, μη ζωντανό, απροσδιόριστο",,COVID-non-live,VAL157
+VAL165,"Ζωντανό εμβόλιο κατά των κολοβακτηριδίων 19, απροσδιόριστο",,COVID-live,VAL157
+VAL166,"Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, pediatric dose",,INF-SUped3,VAL122
+VAL167,"Εμβόλιο COVID-19, μη αναπαραγόμενος ιικός φορέας, με αντιγονοπαρουσιαστικά κύτταρα",,COVID-VVnr+APC,VAL163
+VAL168,"Εμβόλιο RNA anti-covid 19, απροσδιόριστο",,COVID-RNA,VAL164
+VAL169,"Εμβόλιο COVID-19, αυτοενισχυόμενο mRNA (SAM)",,COVID-mRNA-SAM,VAL303
+VAL170,"Εμβόλιο ηπατίτιδας Β, ανασυνδυασμένο αντιγόνο επιφανείας του ιού της ηπατίτιδας Β (HBsAg), 5 μικρογραμμάρια",,rHepB-05,VAL090
+VAL171,"Εμβόλιο κατά της εγκεφαλίτιδας των ιπποειδών της Βενεζουέλας, απροσδιόριστο",,VEE,Valence
+VAL172,"Βαλεντία κατά του πυρετού Q (Coxiella burnetii), χωρίς διευκρίνιση",,Cbur,Valence
+VAL173,"Argentine hemorrhagic fever valence, Junin virus, live attenuated",,Junin-LAV,VAL421
+VAL174,"Βαλεντία των Χανταϊών ιών, χωρίς διευκρίνιση",,HAN,Valence
+VAL175,"Εμβόλιο κατά της λεϊσμανίασης, απροσδιόριστο",,Leish,Valence
+VAL176,"Εμβόλιο ανθρώπινων ιών της παραϊνφλουέντσας, απροσδιόριστο",,HPIVs,Valence
+VAL177,"Βαλεντία του Haemophilus influenzae τύπου b, χωρίς διευκρίνιση",,Hib,Valence
+VAL178,"COVID-19 vaccine, mRNA coding for SARS-CoV-2 spike protein, Omicron variant BA.1, 25 micrograms",,COVID-mRNA-S-OMI-BA.1-25,VAL393
+VAL179,"Εμβόλιο κατά του μηνιγγιτιδόκοκκου, μονοδύναμο",,MCV-mono,VAL439
+VAL180,"Εμβόλιο COVID-19, mRNA που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2, 100 μικρογραμμάρια",,COVID-mRNA-S-ORI-100,VAL303
+VAL181,"Εμβόλιο COVID-19, mRNA που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2, αρχικός ιός SARS-CoV-2, 25 μικρογραμμάρια",,Covid-mRNA-S-ORI-25,VAL303
+VAL182,"Εμβόλιο ιλαράς, απροσδιόριστο",,Meas,Valence
+VAL183,"Εμβόλιο παρωτίτιδας, απροσδιόριστο",,Mumps,Valence
+VAL184,"Πολυσακχαριδικό συζευγμένο εμβόλιο πνευμονιόκοκκου, μονοδύναμο",,PCV,VAL105
+VAL185,"Πολυσακχαριδικό εμβόλιο πνευμονιόκοκκου μη συζευγμένο, μη προσδιορισμένο",,PPSV,VAL105
+VAL186,"Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 1",,PCV-01,VAL184
+VAL187,"Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 3",,PCV-03,VAL184
+VAL188,"Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 4",,PCV-04,VAL184
+VAL189,"Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 5",,PCV-05,VAL184
+VAL190,"Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 6Α",,PCV-06A,VAL184
+VAL191,"Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 6B",,PCV-06B,VAL184
+VAL192,"Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 7F",,PCV-07F,VAL184
+VAL193,"Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 8",,PCV-08,VAL184
+VAL194,"Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 9V",,PCV-09V,VAL184
+VAL195,"Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 10Α",,PCV-10A,VAL184
+VAL196,"Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 11Α",,PCV-11A,VAL184
+VAL197,"Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 12F",,PCV-12F,VAL184
+VAL198,"Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 14",,PCV-14,VAL184
+VAL199,"Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 15Β",,PCV-15B,VAL184
+VAL200,"Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 18C",,PCV-18C,VAL184
+VAL201,"Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 19Α",,PCV-19A,VAL184
+VAL202,"Πολυσακχαριδικό συζευγμένο εμβόλιο πνευμονιόκοκκου, ορότυπος 19F",,PCV-19F,VAL184
+VAL203,"Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 22F",,PCV-22F,VAL184
+VAL204,"Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 23F",,PCV-23F,VAL184
+VAL205,"Πνευμονιοκοκκικό πολυσακχαριδικό συζευγμένο εμβόλιο, ορότυπος 33F",,PCV-33F,VAL184
+VAL206,"Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 1",,PPSV-01,VAL185
+VAL207,"Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 2",,PPSV-02,VAL185
+VAL208,"Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 3",,PPSV-03,VAL185
+VAL209,"Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 4",,PPSV-04,VAL185
+VAL210,"Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 5",,PPSV-05,VAL185
+VAL211,"Μη συζευγμένο εμβόλιο πολυσακχαρίτη του πνευμονιόκοκκου, ορότυπος 6Β",,PPSV-06B,VAL185
+VAL212,"Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 7F",,PPSV-07F,VAL185
+VAL213,"Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 8",,PPSV-08,VAL185
+VAL214,"Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 9N",,PPSV-09N,VAL185
+VAL215,"Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 9V",,PPSV-09V,VAL185
+VAL216,"Μη συζευγμένο εμβόλιο πολυσακχαριδικού πνευμονιόκοκκου, ορότυπος 10Α",,PPSV-10A,VAL185
+VAL217,"Μη συζευγμένο εμβόλιο πολυσακχαρίτη του πνευμονιόκοκκου, ορότυπος 11Α",,PPSV-11A,VAL185
+VAL218,"Μη συζευγμένο εμβόλιο πολυσακχαριτών του πνευμονιόκοκκου, ορότυπος 12F",,PPSV-12F,VAL185
+VAL219,"Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 14",,PPSV-14,VAL185
+VAL220,"Μη συζευγμένο εμβόλιο πολυσακχαρίτη του πνευμονιόκοκκου, ορότυπος 15Β",,PPSV-15B,VAL185
+VAL221,"Μη συζευγμένο εμβόλιο πολυσακχαρίτη του πνευμονιόκοκκου, ορότυπος 15F",,PPSV-15F,VAL185
+VAL222,"Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 17F",,PPSV-17F,VAL185
+VAL223,"Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 18C",,PPSV-18C,VAL185
+VAL224,"Μη συζευγμένο εμβόλιο πολυσακχαρίτη του πνευμονιόκοκκου, ορότυπος 19A",,PPSV-19A,VAL185
+VAL225,"Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 19F",,PPSV-19F,VAL185
+VAL226,"Μη συζευγμένο εμβόλιο πολυσακχαρίτη του πνευμονιόκοκκου, ορότυπος 20",,PPSV-20,VAL185
+VAL227,"Μη συζευγμένο εμβόλιο πολυσακχαρίτη του πνευμονιόκοκκου, ορότυπος 22F",,PPSV-22F,VAL185
+VAL228,"Μη συζευγμένο εμβόλιο πολυσακχαρίτη πνευμονιόκοκκου, ορότυπος 23F",,PPSV-23F,VAL185
+VAL229,"Πνευμονιοκοκκικό πολυσακχαριδικό μη συζευγμένο εμβόλιο, ορότυπος 33F",,PPSV-33F,VAL185
+VAL230,"Τετρασθενής αδρανοποιημένη βαλεντία της γρίπης, κλασματοποιημένη ή υπομονάδα, χωρίς διευκρίνιση",,INF-SU4,VAL058
+VAL231,"Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route",,INF-SUimsc3,VAL024
+VAL232,"Μη συζευγμένο εμβόλιο πολυσακχαρίτη του πνευμονιόκοκκου, ορότυπος 6Α",,PPSV-06A,VAL185
+VAL233,"Πολυσακχαριδικό εμβόλιο πνευμονιόκοκκου μη συζευγμένο, ορότυπος 25",,PPSV-25,VAL185
+VAL234,"Εμβόλιο μηνιγγιτιδοκόκκου, απροσδιόριστο",,Men,Valence
+VAL235,"Μηνιγγιτιδοκοκκικό συζευγμένο πολυσακχαριδικό εμβόλιο, πολυδύναμο",,MCV-poly,VAL234
+VAL236,"Εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, μονοδύναμο",,HPV-mono,VAL082
+VAL237,"Εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, πολυδύναμο",,HPV-poly,VAL082
+VAL238,"Εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύπου 6",,HPV-06,VAL236
+VAL239,"Εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύπου 11",,HVP-11,VAL236
+VAL240,"Εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύπου 16",,HVP-16,VAL236
+VAL241,"Εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύπου 18",,HVP-18,VAL236
+VAL242,"Εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύπου 31",,HVP-31,VAL236
+VAL243,"Εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύπου 33",,HPV-33,VAL236
+VAL244,"Εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύπου 58",,HVP-58,VAL236
+VAL245,"Εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύπου 52",,HVP-52,VAL236
+VAL246,"Εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύπου 45",,HVP-45,VAL236
+VAL247,"Japanese encephalitis valence, live attenuated chimeric virus",,JE-LAR,VAL248
+VAL248,"Japanese encephalitis valence, live attenuated virus, unspecified",,JE-LAV,VAL249
+VAL249,"Βαλεντία κατά της Ιαπωνικής εγκεφαλίτιδας, χωρίς διευκρίνιση",,JE,Valence
+VAL250,"Βαλεντία κατά της Ιαπωνικής εγκεφαλίτιδας, ολόκληρη αδρανοποιημένη, παρασκευασμένη σε εγκεφαλικό ιστό ποντικιού",,JE-I-mb,VAL089
+VAL251,"αλεντία ιαπωνικής εγκεφαλίτιδας, αδρανοποιημένη, προερχόμενη από κύτταρα Vero",,JE-I-Vero,VAL089
+VAL252,"Ανοσοσφαιρίνη λύσσας, ανθρώπινης προέλευσης",,RIG-hu,VAL016
+VAL253,"Ανοσοσφαιρίνη λύσσας, ιπποειδούς προέλευσης",,eRIG,VAL016
+VAL254,"Αδρανοποιημένο εμβόλιο κατά της λύσσας, τύπου Semple, παρασκευασμένο από εγκεφαλικό ιστό αίγας ή προβάτου μολυσμένο με τον ιό της λύσσας, περιέχει μυελίνη",,Rab-I-Semple,VAL256
+VAL255,"Ολόκληρο αδρανοποιημένο εμβόλιο κατά της λύσσας, τύπου Fuenzalida, παρασκευασμένο από εγκεφαλικό ιστό θηλαστικού ποντικού μολυσμένου με τον ιό της λύσσας, με μειωμένη περιεκτικότητα σε μυελίνη",,Rab-I-Fuenzalida,VAL256
+VAL256,"Αδρανοποιημένο εμβόλιο της λύσσας, παρασκευασμένο από ιστό εγκεφάλου ζώου που έχει μολυνθεί από τον ιό της λύσσας, απροσδιόριστο",,Rab-I-NervousTissue,VAL080
+VAL257,"Ολόκληρο εμβόλιο αδρανοποιημένου ιού λύσσας, βασισμένο σε κυτταρική καλλιέργεια, απροσδιόριστο",,Rab-I-CC,VAL080
+VAL258,"Αδρανοποιημένο εμβόλιο λύσσας με ολόκληρο ιό, με βάση την κυτταρική καλλιέργεια, εμβόλιο ανθρώπινων διπλοειδών κυττάρων (HDCV) MRC-5, αδρανοποίηση με β-προπιολάκτονη",,Rab-I-HDCV,VAL257
+VAL259,"Αδρανοποιημένο εμβόλιο της λύσσας με ολόκληρο τον ιό, εμβόλιο από καθαρισμένα κύτταρα εμβρύου νεοσσού (PCECV), το οποίο λαμβάνεται με την καλλιέργεια του σταθερού στελέχους του ιού της λύσσας Flury LEP-25 σε πρωτογενείς καλλιέργειες ινοβλαστών νεοσσού, ο ιός αδρανοποιείται με β-προπιολάκτον.",,Rab-I-PCEC,VAL257
+VAL260,"Αδρανοποιημένο εμβόλιο για τη λύσσα, με βάση την κυτταροκαλλιέργεια, καθαρισμένο εμβόλιο κατά της λύσσας από κύτταρα Vero (PVRV), στέλεχος Wistar, αδρανοποίηση με ß-προπιολάκτονη",,Rab-I-PVRV,VAL257
+VAL261,"Αδρανοποιημένο εμβόλιο της λύσσας, με βάση την κυτταροκαλλιέργεια, εμβόλιο πρωτογενών νεφρικών κυττάρων χάμστερ (PHKCV), στέλεχος Beijing, αδρανοποίηση με φορμόλη",,Rab-I-PHKCV,VAL257
+VAL262,"Ολόκληρο ιόν αδρανοποιημένο εμβόλιο λύσσας, εμβόλιο με βάση τα εμβρυοποιημένα αυγά (EEV), απροσδιόριστο",,Rab-I-EEV,VAL080
+VAL263,"Αδρανοποιημένο εμβόλιο λύσσας με ολόκληρο τον ιό, καθαρισμένο εμβόλιο εμβρύου πάπιας (PDEV), αδρανοποίηση με ß-προπιολάκτονη",,Rab-I-PDEV,VAL262
+VAL264,"Εμβόλιο COVID-19, ολόκληρο ιό αδρανοποιημένο",,COVID-IV-Auth,VAL076
+VAL265,"Εμβόλιο COVID-19, ολόκληρο ιό αδρανοποιημένο, σε κλινικές δοκιμές",,COVID-IV-CT,VAL076
+VAL266,"Εμβόλιο μηνιγγιτιδοκόκκου C, συζευγμένο τοξοειδές τετάνου",,MCV-C-T,VAL057
+VAL267,"Εμβόλιο μηνιγγιτιδοκόκκου C, πολυσακχαρίτης συζευγμένος με τοξοειδές διφθερίτιδας",,MCV-C-D,VAL057
+VAL268,"Εμβόλιο μηνιγγιτιδοκόκκου C, πολυσακχαρίτης συζευγμένος με CRM197",,MCV-C-CRM,VAL057
+VAL269,"Εμβόλιο μηνιγγιτιδοκόκκου Α, πολυσακχαρίτης συζευγμένος με CRM197",,MCV-A-CRM,VAL041
+VAL270,"Εμβόλιο μηνιγγιτιδοκόκκου Α, πολυσακχαρίτης συζευγμένος με τοξοειδές διφθερίτιδας",,MCV-A-D,VAL041
+VAL271,"Εμβόλιο μηνιγγιτιδοκόκκου Α, πολυσακχαρίτης συζευγμένος με τοξικοειδές τετάνου",,MCV-A-T,VAL041
+VAL272,"Εμβόλιο μηνιγγιτιδοκόκκου W, συζευγμένο τοξοειδές τετάνου",,MCV-W-T,VAL136
+VAL273,"Εμβόλιο μηνιγγιτιδοκόκκου W, πολυσακχαρίτης συζευγμένος με τοξοειδές διφθερίτιδας",,MCV-W-D,VAL136
+VAL274,"Εμβόλιο μηνιγγιτιδοκόκκου W, πολυσακχαρίτης συζευγμένος με CRM197",,MCV-W-CRM,VAL136
+VAL275,"Μηνιγγιτιδοκοκκικό εμβόλιο Y, πολυσακχαρίτης συζευγμένος με CRM197",,MCV-Y-CRM,VAL078
+VAL276,"Εμβόλιο μηνιγγιτιδοκόκκου Y, συζευγμένο τοξοειδές τετάνου",,MCV-Y-T,VAL078
+VAL277,"Εμβόλιο μηνιγγιτιδοκόκκου Y, πολυσακχαρίτης συζευγμένος με τοξοειδές διφθερίτιδας",,MCV-Y-D,VAL078
+VAL278,"Adenovirus valence, live attenuated, oral route, unspecified",,Adeno-LAV,Valence
+VAL279,"Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, pediatric dose",,INF-SUped4,VAL064
+VAL280,Τοξικοειδές της αλλαντοτοξίνης,,BT,VAL419
+VAL281,"Adenovirus type 7 valence, live attenuated, oral route",,Adeno-7,VAL278
+VAL282,"Adenovirus type 4 valence, live attenuated, oral route",,Adeno-4,VAL278
+VAL283,"Ολόκληρη αδρανοποιημένη βαλεντία της ηπατίτιδας Α, παιδιατρική δόση, χωρίς διευκρίνιση",,HepA-PED,VAL125
+VAL284,"Ολόκληρη αδρανοποιημένη βαλεντία της ηπατίτιδας Α, δόση για ενήλικες, χωρίς διευκρίνιση",,HepA-ADU,VAL125
+VAL285,"Τρισθενής αδρανοποιημένη βαλεντία της γρίπης που προέρχεται από κυτταροκαλλιέργεια, κλασματοποιημένη ή υπομονάδα, κανονική δόση",,INF-CC3,VAL360
+VAL286,"Hepatitis A valence, live attenuated, unspecified",,HepA-LAV,VAL288
+VAL287,Tετρασθενής ανασυνδυασμένη βαλεντία της γρίπης,,INF-R4,VAL361
+VAL288,"Βαλεντία της ηπατίτιδας Α, χωρίς διευκρίνιση",,HepA,Valence
+VAL289,"Εμβόλιο COVID-19, mRNA που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2, 10 μικρογραμμάρια",, COVID-mRNA-S-ORI-10,VAL303
+VAL290,"Εμβόλιο COVID-19, mRNA που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2, 30 μικρογραμμάρια",,COVID-mRNA-S-ORI-30,VAL303
+VAL291,"Ανασυνδυασμένη βαλεντία της ηπατίτιδας Β, τρία αντιγόνα (HbS, προ-S1 και προ-S2)",,HepB-r-3Ag,VAL068
+VAL292,"Εμβόλιο COVID-19, μη αναπαραγόμενος φορέας αδενοϊού 26 που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2, σε κλινικές δοκιμές",,Covid-VVnr-S-Ad26-CT,VAL070
+VAL293,Ανοσοσφαιρίνη άνθρακα,,Anthrax-Ig,Valence
+VAL294,"Ζωντανός ιός της εμβολίας, εμβόλιο πρώτης γενιάς",,Pox-1G,VAL022
+VAL295,"Smallpox valence, second-generation, live attenuated",,Pox-2G,VAL022
+VAL296,"Τροποποιημένο εμβόλιο Ankara, μη αναπαραγόμενο, τρίτης γενιάς",,Pox-3G-MVA,VAL028
+VAL297,"Εμβόλιο μηνιγγιτιδοκόκκου Α, απροσδιόριστο",,MenA,VAL234
+VAL298,"Εμβόλιο μηνιγγιτιδοκόκκου C, απροσδιόριστο",,MenC,VAL234
+VAL299,"Εμβόλιο κατά του μηνιγγιτιδόκοκκου Y, απροσδιόριστο",,MenY,VAL234
+VAL300,"Εμβόλιο μηνιγγιτιδοκόκκου W, απροσδιόριστο",,MenW,VAL234
+VAL301,Ανασυνδυασμένο τρισθενές εμβόλιο γρίπης,,INF-R3,VAL361
+VAL302,"Εμβόλιο COVID-19, mRNA που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2, 50 μικρογραμμάρια",,COVID-mRNA-S-ORI-50,VAL303
+VAL303,"Εμβόλιο anti-covid 19 mRNA που κωδικοποιεί την πρωτεΐνη spike του SARS-CoV-2, του αρχικού ιού",,COVID-mRNA-S-ORI,VAL043
+VAL304,"Εμβόλιο SARS-CoV-2 spike protein mRNA 19, αρχικός ιός, 15 μικρογραμμάρια",,Covid-ARNm-S-ORI-15,VAL303
+VAL305,"Εμβόλιο SARS-CoV-2 peak protein mRNA 19, παραλλαγή Omicron BA.1, 15 μικρογραμμάρια",,COVID-mRNA-S-OMI-BA.1-15,VAL393
+VAL306,"Εμβόλιο SARS-CoV-2 peak protein mRNA 19, αρχικός ιός, 3 μικρογραμμάρια",,COVID-mRNA-S-ORI-3,VAL303
+VAL307,"Εμβόλιο SARS-CoV-2 peak protein mRNA 19, παραλλαγή Omicron BA.4/BA.5, 15 μικρογραμμάρια",,COVID-mRNA-S-OMI-BA.4/5-15,VAL394
+VAL308,"Εμβόλιο SARS-CoV-2 spike protein mRNA 19, παραλλαγή Omicron BA.4/BA.5, 25 μικρογραμμάρια",,COVID-mRNA-S-OMI-BA.4/5-25,VAL394
+VAL309,"Εμβόλιο SARS-CoV-2 peak protein mRNA 19, παραλλαγή Omicron BA.4/BA.5, 5 μικρογραμμάρια",,Covid-ARNm-S-OMI-BA.4/5-5,VAL394
+VAL310,"Εμβόλιο COVID-19, mRNA που κωδικοποιεί την πρωτεΐνη ακίδας SARS-CoV-2, αρχικός ιός, 5 μικρογραμμάρια",,Covid-mRNA-S-ORI-5,VAL303
+VAL311,"Malaria valence, R21/Matrix-M pre-erythrocytic",,R21/Matrix-M,VAL025
+VAL312,"Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain",,TBE-K23,VAL031
+VAL313,"Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl strain, dose not specified",,TBE-Neudorfl,VAL031
+VAL314,"Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl strain, adult dose",,TBE-Neudorfl-ADU,VAL313
+VAL315,"Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl strain, paediatric dose",,TBE-Neudorfl-PED,VAL313
+VAL316,"RSV valence, protein subunit, recombinant, RSVPreF3 antigen derived from F protein",,RSV-PreF3,VAL318
+VAL317,"Αντισώματα RSV, απροσδιόριστα",,RSV-Ab,VAL338
+VAL318,"Εμβόλιο RSV, απροσδιόριστο",,RSV-V,VAL338
+VAL319,"COVID-19 valence, non-replicating adenoviral vector encoding the SARS-CoV-2 spike protein, inhalation vaccine, unspecified",,COVID-VVnr-S-INH,VAL397
+VAL320,"RSV valence, monoclonal antibody, unspecified",,RSV-mAb,VAL317
+VAL321,"RSV valence, monoclonal antibody, nirsevimab",,VRS-mAb-nir,VAL320
+VAL322,"RSV valence, protein subunit, recombinant, glycoprotein F subtypes A and B",,RSV-PreFAB,VAL318
+VAL323,"COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms",,COVID-mRNA-S-OMI-XBB.1.5-30,VAL396
+VAL324,"COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms",,COVID-mRNA-S-OMI-XBB.1.5-10,VAL396
+VAL325,"COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms",,COVID-mRNA-S-OMI-XBB.1.5-3,VAL396
+VAL326,"COVID-19 valence, Omicron BA.4/BA.5 variant, SARS-CoV-2 spike protein mRNA 19, 1.5 micrograms",,COVID-mRNA-S-OMI-BA.4/5-1.5,VAL394
+VAL327,"COVID-19 valence, original virus, SARS-CoV-2 peak protein-encoding mRNA, 1.5 micrograms",,COVID-mRNA-S-ORI-1.5,VAL303
+VAL328,"COVID-19 valence, protein subunit, recombinant spike protein nanoparticles, Omicron XBB.1.5 subvariant",,COVID-PS-rSnp-XBB,VAL107
+VAL329,"Εμβόλιο SARS-CoV-2 spike protein mRNA 19, παραλλαγή Omicron XBB.1.5-50 μικρογραμμάρια",,Covid-ARNm-S-OMI-XBB.1.5-50,VAL396
+VAL330,"COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms",,COVID-mRNA-S-OMI-XBB.1.5-25,VAL396
+VAL331,CMV immune globulin,,CMV-Ig,Valence
+VAL332,"Βαλεντία της ηπατίτιδας C, χωρίς διευκρίνιση",,HepC,Valence
+VAL333,"HIV valence, unspecified",,HIV,Valence
+VAL334,"Melanoma valence, unspecified",,MEL,Valence
+VAL335,"Streptococcus pyogenes valence, unspecified",,SPYO,Valence
+VAL336,"Βαλεντία του Πυρετού της Κοιλάδας του Ριφτ, χωρίς διευκρίνιση",,RVF,Valence
+VAL337,"Smallpox valence, immunoglobulin",,Ευλογιά-Ig,VAL418
+VAL338,"Αντίσωμα ή εμβόλιο RSV, απροσδιόριστο",,RSV,Valence
+VAL339,"Borrelia burgdorferi valence, unspecified",,Lyme,Valence
+VAL340,"Βαλεντία κατά του άνθρακα, χωρίς διευκρίνιση",,Άνθρακας,Valence
+VAL341,"Βαλεντία κατά του Escherichia coli, χωρίς διευκρίνιση",,Eco,VAL345
+VAL342,"Klebsiella pneumoniæ valence, unspecified",,Kpn,VAL345
+VAL343,"Βαλεντία κατά του Enterococcus faecalis, χωρίς διευκρίνιση",,Efa,VAL345
+VAL344,"Proteus vulgaris valence, unspecified",,Pvu,VAL345
+VAL345,"Urinary tract infections valence, unspecified",,UTI,Valence
+VAL346,Enterovirus A71 valence,,EV71,Valence
+VAL347,"Leptospira canicola valence, inactivated, whole-cell",,Lepto-ca,Valence
+VAL348,"Leptospira pomona valence, inactivated whole-cell",,Lepto-po,Valence
+VAL349,"Influenza valence, trivalent, inactivated, fractionated or subunit, adjuvanted",,INF-SUAnd3,VAL231
+VAL350,"Influenza valence, quadrivalent, inactivated, fractionated or subunit, adjuvanted, normal dose",,INF-SUAnd4,VAL127
+VAL351,"Influenza valence, trivalent, virosomal, unspecified",,INF-V3,VAL362
+VAL352,"Influenza valence, quadrivalent, virosomal, unspecified",,INF-V4,VAL362
+VAL353,"Pneumococcal valence, polysaccharide conjugate, serotype 2",,PCV-02,VAL184
+VAL354,"Pneumococcal valence, polysaccharide conjugate, serotype 9N",,PCV-9N,VAL184
+VAL355,"Pneumococcal valence, polysaccharide conjugate, serotype 17F",,PCV-17F,VAL184
+VAL356,"Pneumococcal valence, polysaccharide conjugate, serotype 20",,PCV-20,VAL184
+VAL357,"Cholera valence, live attenuated, oral",,CHOL-LA-O,VAL124
+VAL358,"Botulism valence, immunoglobulin",,BIG,VAL420
+VAL359,"Αδρανοποιημένη ολόκληρη χολερική βαλεντία, χωρίς διευκρίνιση",,CHOL-I,VAL081
+VAL360,"Αδρανοποιημένη βαλεντία της γρίπης που προέρχεται από κυτταροκαλλιέργεια, κλασματοποιημένη ή υπομονάδα, κανονική δόση, χωρίς διευκρίνιση",,INF-CC,VAL364
+VAL361,"Aνασυνδυασμένη βαλεντία της γρίπης, χωρίς διευκρίνιση",,INF-R,VAL364
+VAL362,"Influenza valence, virosomal, unspecified",,INF-V,VAL364
+VAL363,"Influenza valence, trivalent, VLP, unspecified",,INF-VLP3,VAL029
+VAL364,"Μη ζωντανή βαλεντία της γρίπης, χωρίς διευκρίνιση",,INF-NL,VAL128
+VAL365,"Μη ζωντανή βαλεντία της γρίπης που προέρχεται από καλλιέργεια σε αυγά, χωρίς διευκρίνιση",,INF-E,VAL364
+VAL366,"Βαλεντία της γρίπης με βάση το RNA, χωρίς διευκρίνιση",,INF-RNA,VAL128
+VAL367,"Cholera valence, V. cholerae O1, inactivated, whole-cell, oral",,CHOL-I-O1-O,VAL021
+VAL368,"Cholera valence, V. cholerae O139, inactivated, whole-cell, oral",,CHOL-I-O139-O,VAL021
+VAL369,"Pneumococcal valence, polysaccharide conjugate, serotype 15A",,PCV-15A,VAL184
+VAL370,"Pneumococcal valence, polysaccharide conjugate, serotype 15C",,PCV-15C,VAL184
+VAL371,"Pneumococcal valence, polysaccharide conjugate, serotype 16C",,PCV-16F,VAL184
+VAL372,"Pneumococcal valence, polysaccharide conjugate, serotype 20A",,PCV-20A,VAL184
+VAL373,"Pneumococcal valence, polysaccharide conjugate, serotype 23A",,PCV-23A,VAL184
+VAL374,"Pneumococcal valence, polysaccharide conjugate, serotype 23B",,PCV-23B,VAL184
+VAL375,"Pneumococcal valence, polysaccharide conjugate, serotype 24F",,PCV-24F,VAL184
+VAL376,"Pneumococcal valence, polysaccharide conjugate, serotype 31",,PCV-31,VAL184
+VAL377,"Pneumococcal valence, polysaccharide conjugate, serotype 35B",,PCV-35B,VAL184
+VAL378,"Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 15 micrograms",,rHBsAg-15,VAL090
+VAL379,"COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms",,COVID-mRNA-S-OMI-JN.1-30,VAL395
+VAL380,"COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms",,COVID-mRNA-S-OMI-JN.1-10,VAL395
+VAL381,"COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms",,COVID-mRNA-S-OMI-JN.1-3,VAL395
+VAL382,"COVID-19 valence, protein subunit, recombinant spike protein in nanoparticles, sub-variant Omicron JN.1",,COVID-PS-rSnp-JN.1,VAL107
+VAL383,Single-stranded 5' capped mRNA encoding the Respiratory syncytial virus glycoprotein F stabilized in the prefusion conformation,,mRSV,VAL318
+VAL384,"Leprosy valence, unspecified",,LEP,Valence
+VAL385,Avian influenza A(H5N8) valence,,AH5N8,VAL386
+VAL386,"Avian influenza A(H5) valence, unspecified",,AH5,Valence
+VAL387,"COVID-19 valence,  Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms",,COVID-mRNA-S-OMI-JN.1-25,VAL395
+VAL388,"COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms",,COVID-mRNA-S-OMI-JN.1-50,VAL395
+VAL389,"Valence contre Pseudomonas aeruginosa, 7 ανοσοτύποι",,PAER7,Valence
+VAL390,"Chikungunya valence, απροσδιόριστη",,CHIK,Valence
+VAL391,Chikungunya VLP valence,,Chik-VLP,VAL390
+VAL392,"Avian influenza valence, mRNA",,AH5N1-RNA,VAL051
+VAL393,"COVID-19 valence, Omicron BA.1 variant, mRNA encoding the SARS-CoV-2 spike protein",,COVID-mRNA-S-OMI-BA.1,VAL149
+VAL394,"COVID-19 valence, Omicron variant BA.4/BA.5, mRNA encoding the SARS-CoV-2 spike protein",,COVID-mRNA-S-OMI-BA.4/5,VAL149
+VAL395,"COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein",,COVID-mRNA-S-OMI-JN.1,VAL417
+VAL396,"COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein",,COVID-mRNA-S-OMI-XBB.1.5,VAL417
+VAL397,"COVID-19 valence, non-replicating viral vector encoding the peak protein of SARS-CoV-2, unspecified",,COVID-VVnr-S,VAL163
+VAL398,"COVID-19 valence, replicating viral vector, virus encoding the spike protein of SARS-CoV-2",,COVID-VVr-S,VAL162
+VAL399,"Typhoid valence, Vi antigen conjugated to tetanus toxoid",,Ty-ViC-T,VAL002
+VAL400,"Typhoid valence, Vi antigen conjugated to CRM197 protein",,Ty-ViC-CRM,VAL002
+VAL401,"Japanese encephalitis valence, inactivated, whole-virus, derived from Vero cells, 3 micrograms",,EJ-I-Vero-3,VAL251
+VAL402,"Japanese encephalitis valence, inactivated, whole-virus, derived from Vero cells, 6 micrograms",,EJ-I-Vero-6,VAL251
+VAL403,"Meningococcal X valence, unspecified",,MenX,VAL234
+VAL404,"Meningococcal X valence, polysaccharide conjugate",,MCV-X,VAL403
+VAL405,"Influenza valence, live attenuated, pandemic influenza H1N1 2009",,INF-pdm09-V,VAL058
+VAL406,"COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein",,COVID-mRNA-S-OMI-KP.2,VAL395
+VAL407,"COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms",,COVID-mRNA-S-OMI-KP.2-3,VAL406
+VAL408,"COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms",,COVID-mRNA-S-OMI-KP.2-10,VAL406
+VAL409,"COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms",,COVID-mRNA-S-OMI-KP.2-30,VAL406
+VAL410,"COVID-19 valence, protein subunit, recombinant N protein",,COVID-PS-rN,VAL053
+VAL411,"COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms",,COVID-mRNA-S-OMI-BA.4/5-50,VAL394
+VAL412,"COVID-19 valence, Omicron variant BA.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms",,Covid-ARNm-S-OMI-BA.1-50,VAL393
+VAL413,"COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron XBB.1.16 subvariant",,Covid-SP-rRBD-XBB.1.16,VAL011
+VAL414,"Diphtheria valence, unspecified",,DIPH,Valence
+VAL415,"Anthrax valence, acellular, adjuvanted",,BantAdj,VAL111
+VAL416,"COVID-19 valence, protein subunit, recombinant spike protein, adjuvanted",,COVID-PS-rS-A,VAL104
+VAL417,"COVID-19 valence, Omicron BA.2 variant, mRNA encoding the SARS-CoV-2 spike protein",,COVID-mRNA-S-OMI-BA.2,VAL149
+VAL418,"Smallpox valence, active or passive immunization products",,POX,Valence
+VAL419,"Botulism valence, active or passive immunization products",,BOT,Valence
+VAL420,"Botulism valence, passive immunization products",,BOT-passive,VAL419
+VAL421,"Argentine hemorrhagic fever valence, Junin virus, unspecified",,Junin,Valence
+VAL422,"Plague valence, unspecified",,Yp,Valence
+VAL423,"COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein",,Covid-ARNm-S-OMI-LP.8.1,VAL417
+VAL424,"COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms",,Covid-ARNm-S-OMI-LP.8.1-30,VAL423
+VAL425,"COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms",,Covid-ARNm-S-OMI-LP.8.1-10,VAL423
+VAL426,"COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms",,Covid-ARNm-S-OMI-LP.8.1-3,VAL423
+VAL427,"COVID-19 valence, mRNA encoding a fragment of the SARS-CoV-2 spike protein",,Covid-ARNm-S-frag,VAL043
+VAL428,"Valence COVID-19, mRNA encoding the NTD and RBD fragments of the spike protein, Omicron LP.8.1 variant",,Covid-ARNm-S-frag-OMI-LP.8.1,VAL427
+VAL429,"RSV valence, monoclonal antibody, clesrovimab",,VRS-mAb-cle,VAL320
+VAL430,"Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain, 0,25 mL",,TBE-K23-25,VAL312
+VAL431,"Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain, 0,50 mL",,TBE-K23-50,VAL312
+VAL432,"COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms",,Covid-ARNm-S-OMI-LP.8.1-25,VAL423
+VAL433,"COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms.",,Covid-ARNm-S-OMI-LP.8.1-50,VAL423
+VAL434,"COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant",,Covid-SP-rRBD-LP.8.1,VAL011
+VAL435,"Dengue valence, native attenuated strain",,DENV2LAV,VAL150
+VAL436,"Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-1",,DENV1rCH,VAL150
+VAL437,"Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-3",,DENV3rCH,VAL150
+VAL438,"Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-4",,DENV4rCH,VAL150
+VAL439,"COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein",,Covid-ARNm-S-OMI-XFG,VAL417
+VAL440,"COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms",,Covid-ARNm-S-OMI-XFG-10,VAL439
+VAL441,"COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms",,Covid-ARNm-S-OMI-XFG-30,VAL439
+VAL442,"Melanoma valence, messenger RNA, individualized neoantigens",,MEL-ARNI,VAL334
+VAL443,"COVID-19 valence, protein subunit, recombinant spike protein in nanoparticles, sub-variant Omicron XFG",,Covid-SP-rSnp-XFG,VAL107
+VAL444,"COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron XFG subvariant",,Covid-SP-rRBD-XFG,VAL011
+VAL445,"Typhoid valence, Vi antigen conjugated to diphtheria toxoid",,Ty-ViC-D,VAL002

@@ -1,0 +1,447 @@
+﻿NUVA,label,comment,shorthand,parent
+VAL000,Parent for deprecated valences,,ZZZ,Valence
+VAL001,"Trójwalentna żywa atenuowana wartość przeciwko grypie, normalna dawka",,Inf-L3,VAL140
+VAL002,"Skoniugowana szczepionka przeciwko durowi brzusznemu, antygen polisacharydowy Vi połączony z białkiem nośnikowym",,Ty-ViC,VAL014
+VAL003,"Wartość przeciwko krztuścowi, bez określenia",,Per,Valence
+VAL004,"Całkowicie inaktywowana wartość przeciwko cholerze, do wstrzykiwania",,I-Chol-I,VAL359
+VAL005,"Measles valence, live attenuated",,Meas-LAV,VAL182
+VAL006,"Wartość przeciwko Brucella, bez określenia",,Bruc,Valence
+VAL007,Rekombinowany wirus pęcherzykowego zapalenia jamy ustnej (rVSV) wektor replikacyjny Szczepionka przeciwko Ebola - glikoproteina GP EBOV,,rVSVdG-ZEBOV-GP,VAL126
+VAL008,"Wartość bezkomórkowej krztuścowej, standardowa dawka",,aP,VAL117
+VAL009,Szczepionki przeciwko białkom powierzchniowym sporozoitów,,Mala-SPO,VAL025
+VAL010,Wartość przeciwko całej inaktywowanej krztuścowej bakterii,,wP,VAL003
+VAL011,"Szczepionka COVID-19, podjednostka białkowa, rekombinowane białko szpiku (RBD)",,COVID-PS-rRBD,VAL104
+VAL012,"Szczepionka przeciwko zapaleniu wątroby typu B, rekombinowany antygen powierzchniowy wirusa zapalenia wątroby typu B (HBsAg), 40 mikrogramów (dawka dla pacjentów dializowanych)",,rHBsAg-40,VAL090
+VAL013,Glikoproteina powierzchniowa E (gE) wirusa Varicella zoster (VZV),,Shingles-gE,VAL159
+VAL014,"Szczepionka przeciw tyfusowi plamistemu, nieokreślona",,Ty,Valence
+VAL015,"Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",,INF-SUnd3,VAL122
+VAL016,"Immunoglobulina przeciwko wściekliźnie, nieokreślona",,RIG,Valence
+VAL017,"Wartość bezkomórkowej krztuścowej, zmniejszona dawka",,ap,VAL117
+VAL018,"Szczepionka przeciwko ospie wietrznej trzeciej generacji, minimalnie replikująca żywy wirus vaccinia",,Pox-3G-LC16,VAL028
+VAL019,Antytoksyna błonicza,,DATx,VAL414
+VAL020,"Herpes zoster valence, live attenuated",,Shingles-L,VAL160
+VAL021,Doustna inaktywowana szczepionka przeciwko całej cholerze,,O-Chol-I,VAL359
+VAL022,"Smallpox valence, live attenuated, unspecified",,Smallpox-L,VAL418
+VAL023,"Influenza valence, trivalent, inactivated, split or subunit, intradermal route, unspecified",,INF-SUid3,VAL024
+VAL024,"Trójwalentna inaktywowana wartość przeciwko grypie, dzielona lub podjednostkowa, bez określenia",,INF-SU3,VAL058
+VAL025,"Szczepionka przeciwko malarii, niespecyfikowana",,Mala,Valence
+VAL026,"Szczepionka meningokokowa B:14:P1.7,16 z białkami pęcherzyków błony zewnętrznej",,MenB-OMP,VAL118
+VAL027,"Szczepionka COVID-19, niereplikujący się wektor adenowirusa 26 kodujący białko szczytowe SARS-CoV-2",,COVID-VVnr-S-Ad26,VAL070
+VAL028,"Smallpox valence, third-generation, live attenuated",,POX-3G,VAL022
+VAL029,"Szczepionka VLP przeciwko grypie sezonowej, nieokreślona",,Inf-VLP,VAL364
+VAL030,Rekombinowana szczepionka przeciwko Borrelia burgdorferi - białko powierzchni zewnętrznej A (OspA),,Lyme-OspA,VAL339
+VAL031,Kleszczowe zapalenie mózgu,,TBE,Valence
+VAL032,"Szczepionka polisacharydowa przeciwko durowi brzusznemu, nieskoniugowany antygen polisacharydowy Vi",,Ty-ViPS,VAL014
+VAL033,Monowalentna żywa atenuowana doustna szczepionka przeciw polio typu 2,,mOPV2,VAL133
+VAL034,"Toksyna błonicza, mała dawka",,d,VAL083
+VAL035,"Szczepionka COVID-19, plazmid DNA kodujący białko kolca SARS-CoV-2",,COVID-DNA-S,VAL164
+VAL036,"Szczepionka niewalentna VLP przeciwko wirusowi brodawczaka ludzkiego, typy 6, 11, 16, 18, 31, 33, 45, 52, 58",,HPV-09-valent,VAL237
+VAL037,"Szczepionka meningokokowa A, nieskoniugowana polisacharydowa",,MPV-A,VAL297
+VAL038,"Szczepionka COVID-19, replikujący wektor wirusa odry kodujący białko kolca SARS-CoV-2",,COVID-VVr-S-Meas,VAL398
+VAL039,"Szczepionka COVID-19, VLP, rekombinowane białko kolca",,COVID-VLP-rS,VAL164
+VAL040,"Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",,INF-SUnd4,VAL064
+VAL041,"Meningokok A, polisacharydowa szczepionka skoniugowana",,MCV-A,VAL297
+VAL042,"Szczepionka przeciwko polio, nieokreślona",,POLIO,Valence
+VAL043,Szczepionka SARS-CoV-2 spike protein mRNA 19,,COVID-mRNA-S,VAL168
+VAL044,Varicella,,VZV-LAV,Valence
+VAL045,Inaktywowana cała szczepionka przeciwko paratyfusowi,,pTy-I,VAL014
+VAL046,Tyfus,,Typhus,Valence
+VAL047,Immunoglobulina zapalenia wątroby typu B,,IgHepB,Valence
+VAL048,Inaktywowana cała szczepionka przeciwko śwince,,Or-I,VAL183
+VAL049,"Polisacharydowa wartość przeciwko Haemophilus influenzae typu b, niesprzężona",,Hib-PS,VAL177
+VAL050,"Szczepionka COVID-19, niereplikujący się wektor adenowirusowy 5 kodujący białko kolca SARS-CoV-2, niespecyfikowany",,COVID-VVnr-S-Ad5,VAL070
+VAL051,Szczepionka przedpandemiczna przeciwko grypie A(H5N1),,AH5N1,VAL386
+VAL052,"Czterowalentna szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typy 6, 11, 16 i 18",,HPV-04-valent,VAL237
+VAL053,"Szczepionka COVID-19, podjednostka białkowa, rekombinowane białko kolczaste, niespecyfikowana",,COVID-PS,VAL164
+VAL054,"Szczepionka COVID-19, niereplikujący się zmodyfikowany wektor Vaccinia Virus Ankara kodujący białko kolca SARS-CoV-2",,COVID-VVnr-S-MVA,VAL397
+VAL055,Immunoglobulina przeciwko gorączce,,Ig-Measles,Valence
+VAL056,Cała inaktywowana trójwalentna szczepionka przeciwko polio do wstrzykiwań,,POLIO-I,VAL042
+VAL057,"Szczepionka meningokokowa C, polisacharydowa skoniugowana",,MCV-C,VAL298
+VAL058,"Inaktywowana wartość przeciwko grypie, dzielona lub podjednostkowa, bez określenia",,INF-SU,VAL365
+VAL059,"Czterowalentna żywa atenuowana wartość przeciwko grypie, normalna dawka",,INF-L4,VAL140
+VAL060,"Chikungunya virus valence, live attenuated",,CHIK-LA,VAL390
+VAL061,"Szczepionka COVID-19, podjednostka białkowa, rekombinowane białko kolca, S-2P i CpG1018",,COVID-PS-CpG1018,VAL104
+VAL062,"Cholera valence, protein subunit, recombinant cholera toxin subunit B (rCTB)",,O-Chol-rCTB-I,VAL021
+VAL063,Antytoksyna botulinowa,,BAT,VAL420
+VAL064,"Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted",,INF-SUNA4,VAL127
+VAL065,Żywa atenuowana rekombinowana chimeryczna tetrawalentna szczepionka przeciwko dendze ,,RC-TDV,VAL150
+VAL066,"Szczepionka przeciwko wirusowi replikującemu SARS-CoV-2, wirusowi grypy kodującemu białko szczytowe SARS-CoV-2",,COVID-VVr-S-Influ,VAL398
+VAL067,Toksyna tężcowa,,T,Valence
+VAL068,"Wartość przeciwko wirusowemu zapaleniu wątroby typu B, bez określenia",,HepB,Valence
+VAL069,"Szczepionka COVID-19, niereplikujący się szympansi wektor adenowirusowy ChAdOx1 kodujący białko kolca SARS-CoV-2",,COVID-VVnr-S-ChAdOx1,VAL397
+VAL070,"Szczepionka COVID-19, niereplikujący się wektor adenowirusowy kodujący białko kolczaste SARS-CoV-2, niespecyfikowana",,COVID-VVnr-S-Ad,VAL397
+VAL071,Inaktywowana cała szczepionka przeciwko durowi brzusznemu,,Ty-I,VAL014
+VAL072,Szczepionka przeciwko meningokokom B zawierająca fHbp z podrodzin A i B,,MenB-fHbpAB,VAL161
+VAL073,"Szczepionka COVID-19, replikujący wektor wirusowy, z komórkami prezentującymi antygen",,COVID-VVr+APC,VAL162
+VAL074,"Inaktywowana czterowalentna szczepionka przeciwko grypie, podzielona lub podjednostkowa, wysokodawkowa",,INF-SUhd4,VAL064
+VAL075,Inaktywowana cała szczepionka przeciwko Leptospira icterohaemorrhagiae,,Lepto-wI,Valence
+VAL076,"Szczepionka COVID-19, inaktywowana całymi wirusami, nieokreślona",,COVID-IV,VAL164
+VAL077,"Mumps valence, live attenuated",,Mumps-LAV,VAL183
+VAL078,"Szczepionka przeciwko meningokokom Y, polisacharydowa skoniugowana",,MCV-Y,VAL299
+VAL079,"Rubella valence, live attenuated",,Rub-LAV,Valence
+VAL080,"Inaktywowana w całości szczepionka przeciwko wściekliźnie, nieokreślona",,Rab-I,Valence
+VAL081,"Wartość przeciwko cholerze, bez określenia",,Chol,Valence
+VAL082,"Szczepionka przeciwko wirusowi brodawczaka ludzkiego, typy nieokreślone",,HPV,Valence
+VAL083,"Toksoid błoniczy, dawka nieokreślona",,D-d,VAL414
+VAL084,"Szczepionka COVID-19, replikujący wektor wirusa pęcherzykowego zapalenia jamy ustnej kodujący białko kolca SARS-CoV-2",,COVID-VVr-S-VSV,VAL398
+VAL085,Monowalentna żywa atenuowana doustna szczepionka przeciwko polio typu 3,,mOPV3,VAL133
+VAL086,"Szczepionka COVID-19, żywa, atenuowana, nieokreślona",,COVID-LA,VAL165
+VAL087,"Wartość dengi, żywa atenuowana tetrwalentna chimeryczna rekombinowana oparta na szczepionce przeciw żółtej febrze 17D",,CYD-TDV,VAL150
+VAL088,Immunoglobulina Varicella,,VZV-Ig,Valence
+VAL089,"Wartość inaktywowana przeciwko japońskiemu zapaleniu mózgu, bez określenia",,JE-I,VAL249
+VAL090,"Szczepionka przeciwko zapaleniu wątroby typu B, rekombinowany antygen powierzchniowy wirusa zapalenia wątroby typu B (HBsAg), dawka nieokreślona",,rHBsAg,VAL068
+VAL091,"Żywa atenuowana szczepionka przeciwko durowi brzusznemu, szczep Ty21a, doustna",,Ty-LA,VAL014
+VAL092,Żółta gorączka,,YF,Valence
+VAL093,Inaktywowana cała szczepionka przeciwko odrze,,Meas-I,VAL182
+VAL094,"Influenza valence, trivalent, inactivated, fractionated or subunit, intramuscular or subcutaneous, non-adjuvanted, high dose",,INF-SUhd3,VAL122
+VAL095,"Szczepionka COVID-19, replikujący wektor wirusa rzekomego pomoru drobiu kodujący białko kolczaste SARS-CoV-2",,COVID-VVr-S-Nv,VAL398
+VAL096,Wartość BCG,,BCG,Valence
+VAL097,"Toksoid błoniczy, dawka standardowa",,D,VAL083
+VAL098,4-komponentowa szczepionka przeciwko meningokokom typu B,,4CMenB,VAL161
+VAL099,Wartość inaktywowana przeciwko pandemicznej grypie H1N1 2009 ,,Inf-pdm09,VAL058
+VAL100,"Japanese encephalitis valence, live attenuated virus, strain 14-14-2",,JE-LAV-14-14-2,VAL248
+VAL101,"Szczepionka COVID-19, niereplikujący się wektor wirusa rzekomego pomoru drobiu kodujący białko kolca SARS-CoV-2",,COVID-VVnr-S-Nv,VAL397
+VAL102,Rekombinowana peptydowa wartość przeciwko wirusowemu zapaleniu wątroby typu E,,HepE,Valence
+VAL103,"Sprzężona wartość przeciwko Haemophilus influenzae typu b, bez określenia",,Hib-C,VAL177
+VAL104,"Szczepionka COVID-19, podjednostka białkowa, rekombinowane białko kolca",,COVID-PS-rS,VAL053
+VAL105,"Szczepionka przeciw pneumokokom, niespecyfikowana",,Pneumo,Valence
+VAL106,"Szczepionka przeciwko rotawirusom, nieokreślona",,Rota,Valence
+VAL107,"Szczepionka COVID-19, podjednostka białkowa, rekombinowane nanocząstki białka kolczastego",,COVID-PS-rSnp,VAL104
+VAL108,Żywa niereplikująca się rekombinowana szczepionka wektorowa Ad26.ZEBOV,,ZebovVRnrAd26,VAL126
+VAL109,"Wartość przeciwko eboli z niereplikującym się wektorem wirusowym, zmodyfikowana szczepionka Ankara ",,Ebola-MVA-BN-Filo,VAL126
+VAL110,Immunoglobulina tężcowa,,T-Ig,Valence
+VAL111,Bezkomórkowa szczepionka przeciw wąglikowi,,Bant,VAL340
+VAL112,"Czterowalentna inaktywowana wartość przeciwko grypie uzyskana z hodowli komórkowej, dzielona lub podjednostkowa, normalna dawka",,INF-CC4,VAL360
+VAL113,"Dwuwalentna szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typy 16 i 18",,HPV-02-valent,VAL237
+VAL114,"Szczepionka przeciwko wirusowemu zapaleniu wątroby typu B, rekombinowany antygen powierzchniowy zapalenia wątroby typu B (HBsAg), 10 mikrogramów",,rHBsAg-10,VAL090
+VAL115,"Szczepionka przeciwko wirusowemu zapaleniu wątroby typu B, rekombinowany antygen powierzchniowy wirusa zapalenia wątroby typu B (HBsAg), 20 mikrogramów",,rHBsAg-20,VAL090
+VAL116,"Przeciwciało monoklonalne przeciwko RSV, palivizumab",,RSV-mAb-pal,VAL320
+VAL117,"Szczepionka acelularna przeciwko krztuścowi, dawka nieokreślona",,Acel,VAL003
+VAL118,"Szczepionka meningokokowa typu B, niespecyfikowana",,MenB,VAL234
+VAL119,Meningokokowa monowalentna nieskoniugowana szczepionka polisacharydowa,,MPV-mono,VAL439
+VAL120,"Nieskoniugowany polisacharyd meningokokowy, poliwalentny",,MPV-poly,VAL234
+VAL121,Doustna trójwalentna inaktywowana całkowita szczepionka przeciw polio,,POLIO-I-O,VAL042
+VAL122,"Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted",,INF-SUNA3,VAL231
+VAL123,"Rotavirus valence, pentavalent, live attenuated virus",,Rota5-L,VAL106
+VAL124,"Wartość żywa atenuowana przeciwko cholerze, bez określenia",,Chol-L,VAL081
+VAL125,"Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu wątroby typu A, bez określenia",,HepA-I,VAL288
+VAL126,"Wartość przeciwko eboli, bez określenia",,Ebola,Valence
+VAL127,"Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route",,INF-SUimsc4,VAL230
+VAL128,"Wartość przeciwko grypie, bez określenia",,Inf,Valence
+VAL129,"Wartość przeciwko wirusowi opryszczki pospolitej, bez określenia",,HSV,Valence
+VAL130,Wartość wirusomowa przeciwko wirusowemu zapaleniu wątroby typu A,,HepA-VLP,VAL125
+VAL131,Cała inaktywowana szczepionka przeciwko dżumie,,Yp-I,VAL422
+VAL132,Monowalentna żywa atenuowana doustna szczepionka przeciw polio typu 1,,mOPV1,VAL133
+VAL133,"Żywa atenuowana monowalentna doustna szczepionka przeciwko polio, typ nieokreślony",,mOPV,VAL042
+VAL134,"Influenza valence, quadrivalent, inactivated, split or subunit, intradermal route, unspecified",,INF-SUid4,VAL230
+VAL135,"COVID-19 valence, mRNA encoding the SARS-CoV-2 spike protein, in clinical trials ",,Covid-ARNm-S-CT,VAL303
+VAL136,"Szczepionka meningokokowa W, polisacharydowa skoniugowana",,MCV-W,VAL300
+VAL137,"Szczepionka meningokokowa C, nieskoniugowana polisacharydowa",,MPV-C,VAL298
+VAL138,"Szczepionka meningokokowa W, nieskoniugowana polisacharydowa",,MPV-W,VAL300
+VAL139,"Szczepionka przeciwko meningokokom Y, nieskoniugowana polisacharydowa",,MPV-Y,VAL299
+VAL140,"Influenza valence, live attenuated, unspecified",,Inf-L,VAL128
+VAL141,RIX4414 monowalentna szczepionka przeciw rotawirusom,,Rota-mv-RIX4414,VAL106
+VAL142,"Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu wątroby typu A, monowalentna, dawka pediatryczna",,HepA-mv-PED,VAL283
+VAL143,"Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu wątroby typu A, bivalentna (zapalenie wątroby typu A i B), dawka pediatryczna",,HepA-bv-PED,VAL283
+VAL144,"Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu wątroby typu A, monowalentna, dawka dla dorosłych",,HepA-mv-ADU,VAL284
+VAL145,"Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu wątroby typu A, bivalentna (zapalenie wątroby typu A i B), dawka dla dorosłych",,HepA-bv-ADU,VAL284
+VAL146,Wartość przeciwko całej inaktywowanej Brucella,,Bruc-I,VAL006
+VAL147,Wartość z antygenem białkowym P.I. (fenol-nierozpuszczalny) przeciwko brucelozie,,Bruc-IP,VAL006
+VAL148,Przeciwciało monoklonalne przeciwko wirusowi syncytialnemu układu oddechowego,,RSV-IG,VAL317
+VAL149,"Szczepionka COVID-19, mRNA kodujący białko kolca SARS-CoV-2, 25 mikrogramów",,Covid-mRNA-S-25,VAL043
+VAL150,"Wartość przeciwko dendze, bez określenia",,Den,Valence
+VAL151,"Szczepionka przeciwko tularemii, nieokreślona",,Tular,Valence
+VAL152,"Valência vacinal inteira inativada contra a gripe, sem especificação",,Inf-I,VAL365
+VAL153,"Szczepionka przeciwko Haemophilus influenzae typu b, polisacharyd PRP skoniugowany z toksoidem błoniczym",,PRP-D,VAL103
+VAL154,"Wartość Haemophilus influenzae typu b, oligosacharydy PRP sprzężone z mutantem toksyny błoniczej CRM197",,HbOC,VAL103
+VAL155,"Szczepionka przeciwko Haemophilus influenzae typu b, polisacharyd skoniugowany z białkiem błony zewnętrznej Neisseria meningitidis serogrupy B",,PRP-OMP,VAL103
+VAL156,"PRP-T Szczepionka Haemophilus influenzae typu b, polisacharyd PRP sprzężony z toksoidem tężcowym",,PRP-T,VAL103
+VAL157,"Szczepionka COVID-19, niespecyfikowana",,COVID,Valence
+VAL158,Szczepionka plazmowa przeciwko wirusowemu zapaleniu wątroby typu B,,pHBsAg,VAL068
+VAL159,"Podjednostkowa szczepionka przeciwko półpaścowi, nieokreślona",,Shingles-SU,VAL160
+VAL160,"Szczepionka przeciwko półpaścowi, nieokreślona",,Shingles,Valence
+VAL161,"Szczepionka wieloskładnikowa meningokokowa B, nieokreślona",,MenB-mc,VAL118
+VAL162,"Szczepionka COVID-19, wektor replikujący wirusa, nieokreślony",,COVID-VVr,VAL165
+VAL163,"Szczepionka COVID-19, niereplikujący się wektor wirusowy, niespecyfikowana",,COVID-VVnr,VAL165
+VAL164,"Szczepionka COVID-19, nieżywa, nieokreślona",,COVID-non-live,VAL157
+VAL165,"Żywa szczepionka przeciw krowom 19, nieokreślona",,COVID-live,VAL157
+VAL166,"Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, pediatric dose",,INF-SUped3,VAL122
+VAL167,"Szczepionka COVID-19, niereplikujący się wektor wirusowy, z komórkami prezentującymi antygen",,COVID-VVnr+APC,VAL163
+VAL168,"Szczepionka COVID-19, RNA, nieokreślona",,COVID-RNA,VAL164
+VAL169,Samodzielnie amplifikujące się mRNA (AAA) szczepionka dla Szczepionka 19,,COVID-mRNA-SAM,VAL303
+VAL170,"Szczepionka przeciwko zapaleniu wątroby typu B, rekombinowany antygen powierzchniowy wirusa zapalenia wątroby typu B (HBsAg), 5 mikrogramów",,rHepB-05,VAL090
+VAL171,"Szczepionka przeciwko wenezuelskiemu zapaleniu mózgu koni, nieokreślona",,VEE,Valence
+VAL172,"Wartość przeciwko gorączce Q (Coxiella burnetii), bez określenia",,Cbur,Valence
+VAL173,"Argentine hemorrhagic fever valence, Junin virus, live attenuated",,Junin-LAV,VAL421
+VAL174,"Wartość hantawirusowa, bez określenia",,HAN,Valence
+VAL175,"Szczepionka przeciwko leiszmaniozie, nieokreślona",,Leish,Valence
+VAL176,"Szczepionka przeciwko ludzkim wirusom parainfluenzy, niespecyfikowana",,HPIVs,Valence
+VAL177,"Wartość przeciwko Haemophilus influenzae typu b, bez określenia",,Hib,Valence
+VAL178,"COVID-19 vaccine, mRNA coding for SARS-CoV-2 spike protein, Omicron variant BA.1, 25 micrograms",,COVID-mRNA-S-OMI-BA.1-25,VAL393
+VAL179,"Skoniugowana szczepionka meningokokowa, monowalentna",,MCV-mono,VAL439
+VAL180,"Szczepionka COVID-19, mRNA kodujący białko kolca SARS-CoV-2, 100 mikrogramów",,COVID-mRNA-S-ORI-100,VAL303
+VAL181,"Szczepionka COVID-19, mRNA kodujący białko kolca SARS-CoV-2, oryginalny wirus SARS-CoV-2, 25 mikrogramów",,Covid-mRNA-S-ORI-25,VAL303
+VAL182,"Szczepionka przeciwko boreliozie, nieokreślona",,Meas,Valence
+VAL183,"Szczepionka przeciwko śwince, nieokreślona",,Mumps,Valence
+VAL184,"Polisacharydowa szczepionka skoniugowana przeciwko pneumokokom, monowalentna",,PCV,VAL105
+VAL185,"Szczepionka pneumokokowa polisacharydowa nieskoniugowana, nieokreślona",,PPSV,VAL105
+VAL186,"Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 1",,PCV-01,VAL184
+VAL187,"Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 3",,PCV-03,VAL184
+VAL188,"Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 4",,PCV-04,VAL184
+VAL189,"Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 5",,PCV-05,VAL184
+VAL190,"Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 6A",,PCV-06A,VAL184
+VAL191,"Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 6B",,PCV-06B,VAL184
+VAL192,"Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 7F",,PCV-07F,VAL184
+VAL193,"Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 8",,PCV-08,VAL184
+VAL194,"Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 9V",,PCV-09V,VAL184
+VAL195,"Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 10A",,PCV-10A,VAL184
+VAL196,"Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 11A",,PCV-11A,VAL184
+VAL197,"Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 12F",,PCV-12F,VAL184
+VAL198,"Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 14",,PCV-14,VAL184
+VAL199,"Pneumokokowa szczepionka polisacharydowa skoniugowana, serotyp 15B",,PCV-15B,VAL184
+VAL200,"Szczepionka pneumokokowa polisacharydowa skoniugowana, serotyp 18C",,PCV-18C,VAL184
+VAL201,"Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 19A",,PCV-19A,VAL184
+VAL202,"Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 19F",,PCV-19F,VAL184
+VAL203,"Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 22F",,PCV-22F,VAL184
+VAL204,"Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 23F",,PCV-23F,VAL184
+VAL205,"Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 33F",,PCV-33F,VAL184
+VAL206,"Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 1",,PPSV-01,VAL185
+VAL207,"Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 2",,PPSV-02,VAL185
+VAL208,"Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 3",,PPSV-03,VAL185
+VAL209,"Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, serotyp 4",,PPSV-04,VAL185
+VAL210,"Pneumokokowa polisacharydowa szczepionka nieskoniugowana, serotyp 5",,PPSV-05,VAL185
+VAL211,"Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 6B",,PPSV-06B,VAL185
+VAL212,"Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 7F",,PPSV-07F,VAL185
+VAL213,"Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, serotyp 8",,PPSV-08,VAL185
+VAL214,"Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 9N",,PPSV-09N,VAL185
+VAL215,"Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 9V",,PPSV-09V,VAL185
+VAL216,"Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 10A",,PPSV-10A,VAL185
+VAL217,"Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, serotyp 11A",,PPSV-11A,VAL185
+VAL218,"Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, serotyp 12F",,PPSV-12F,VAL185
+VAL219,"Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 14",,PPSV-14,VAL185
+VAL220,"Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 15B",,PPSV-15B,VAL185
+VAL221,"Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 15F",,PPSV-15F,VAL185
+VAL222,"Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 17F",,PPSV-17F,VAL185
+VAL223,"Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 18C",,PPSV-18C,VAL185
+VAL224,"Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 19A",,PPSV-19A,VAL185
+VAL225,"Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 19F",,PPSV-19F,VAL185
+VAL226,"Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, serotyp 20",,PPSV-20,VAL185
+VAL227,"Nieskoniugowana szczepionka zawierająca polisacharyd pneumokokowy, serotyp 22F",,PPSV-22F,VAL185
+VAL228,"Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 23F",,PPSV-23F,VAL185
+VAL229,"Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 33F",,PPSV-33F,VAL185
+VAL230,"Czterowalentna inaktywowana wartość przeciwko grypie, dzielona lub podjednostkowa, bez określenia",,INF-SU4,VAL058
+VAL231,"Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route",,INF-SUimsc3,VAL024
+VAL232,"Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 6A",,PPSV-06A,VAL185
+VAL233,"Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, serotyp 25",,PPSV-25,VAL185
+VAL234,"Szczepionka meningokokowa, nieokreślona",,Men,Valence
+VAL235,"Polisacharydowa szczepionka skoniugowana przeciwko meningokokom, poliwalentna",,MCV-poly,VAL234
+VAL236,"Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, monowalentna",,HPV-mono,VAL082
+VAL237,"Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, poliwalentna",,HPV-poly,VAL082
+VAL238,"Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 6",,HPV-06,VAL236
+VAL239,"Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 11",,HVP-11,VAL236
+VAL240,"Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 16",,HVP-16,VAL236
+VAL241,"Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 18",,HVP-18,VAL236
+VAL242,"Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 31",,HVP-31,VAL236
+VAL243,"Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 33",,HPV-33,VAL236
+VAL244,"Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 58",,HVP-58,VAL236
+VAL245,"Szczepionka VLP wirusa brodawczaka ludzkiego, typ 52",,HVP-52,VAL236
+VAL246,"Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 45",,HVP-45,VAL236
+VAL247,"Japanese encephalitis valence, live attenuated chimeric virus",,JE-LAR,VAL248
+VAL248,"Japanese encephalitis valence, live attenuated virus, unspecified",,JE-LAV,VAL249
+VAL249,"Wartość przeciwko japońskiemu zapaleniu mózgu, bez określenia",,JE,Valence
+VAL250,"Wartość przeciwko japońskiemu zapaleniu mózgu, całkowicie inaktywowana, przygotowana na tkance mózgowej myszy",,JE-I-mb,VAL089
+VAL251,"Wartość japońskiego zapalenia mózgu, inaktywowana, pochodząca z komórek Vero",,JE-I-Vero,VAL089
+VAL252,"Immunoglobulina wścieklizny, pochodzenia ludzkiego",,RIG-hu,VAL016
+VAL253,"Immunoglobulina przeciwko wściekliźnie, pochodzenia końskiego",,eRIG,VAL016
+VAL254,"Inaktywowana w całości szczepionka przeciwko wściekliźnie, typu Semple, przygotowana z koziej lub owczej tkanki mózgowej zakażonej wirusem wścieklizny, zawierająca mielinę",,Rab-I-Semple,VAL256
+VAL255,"Szczepionka przeciwko wściekliźnie, inaktywowana w całości, typu Fuenzalida, przygotowana z tkanki mózgowej myszy zakażonej wirusem wścieklizny, o zmniejszonej zawartości mieliny",,Rab-I-Fuenzalida,VAL256
+VAL256,"Inaktywowana całymi wirusami szczepionka przeciwko wściekliźnie, przygotowana ze zwierzęcej tkanki mózgowej zakażonej wirusem wścieklizny, niespecyfikowana",,Rab-I-NervousTissue,VAL080
+VAL257,"Szczepionka inaktywowana w całości przeciwko wściekliźnie, oparta na kulturach komórkowych, nieokreślona",,Rab-I-CC,VAL080
+VAL258,"Inaktywowana całymi wirusami szczepionka przeciwko wściekliźnie, oparta na kulturach komórkowych, szczepionka z ludzkich komórek diploidalnych (HDCV) MRC-5, inaktywacja ß-propiolaktonem",,Rab-I-HDCV,VAL257
+VAL259,"Szczepionka zawierająca całe wirusy wścieklizny, oczyszczona szczepionka z komórek zarodkowych kurcząt (PCECV), otrzymana przez hodowlę utrwalonego szczepu wirusa wścieklizny Flury LEP-25 w pierwotnych hodowlach fibroblastów kurcząt, wirus inaktywowany ß-propiolaktonem",,Rab-I-PCEC,VAL257
+VAL260,"Inaktywowana cała wirionowa szczepionka przeciwko wściekliźnie, oparta na hodowli komórkowej, oczyszczona szczepionka przeciwko wściekliźnie z komórek Vero (PVRV), szczep Wistar, inaktywacja ß-propiolaktonem",,Rab-I-PVRV,VAL257
+VAL261,"Inaktywowana cała wirionowa szczepionka przeciwko wściekliźnie, oparta na kulturach komórkowych, szczep z pierwotnych komórek nerkowych chomika (PHKCV), szczep pekiński, inaktywacja formaliną",,Rab-I-PHKCV,VAL257
+VAL262,"Inaktywowana całymi wirusami szczepionka przeciwko wściekliźnie, oparta na jajach zarodkowych (EEV), nieokreślona",,Rab-I-EEV,VAL080
+VAL263,"Szczepionka przeciwko wściekliźnie inaktywowana całym wirusem, oczyszczona szczepionka z zarodka kaczki (PDEV), inaktywacja ß-propiolaktonem",,Rab-I-PDEV,VAL262
+VAL264,"Szczepionka COVID-19, inaktywowany cały wirus",,COVID-IV-Auth,VAL076
+VAL265,"Szczepionka COVID-19, inaktywowany cały wirion, w badaniach klinicznych",,COVID-IV-CT,VAL076
+VAL266,"Szczepionka meningokokowa C, skoniugowana z toksoidem tężcowym",,MCV-C-T,VAL057
+VAL267,"Szczepionka przeciwko meningokokom C, polisacharydowa, skoniugowana z toksoidem błoniczym",,MCV-C-D,VAL057
+VAL268,"Szczepionka meningokokowa C, polisacharydowa skoniugowana z CRM197",,MCV-C-CRM,VAL057
+VAL269,"Szczepionka meningokokowa A, polisacharydowa skoniugowana z CRM197",,MCV-A-CRM,VAL041
+VAL270,"Szczepionka przeciwko meningokokom A, polisacharydowa, skoniugowana z toksoidem błoniczym",,MCV-A-D,VAL041
+VAL271,"Szczepionka meningokokowa A, polisacharydowa skoniugowana z toksoidem tężcowym",,MCV-A-T,VAL041
+VAL272,"Szczepionka meningokokowa W, skoniugowana z toksoidem tężcowym",,MCV-W-T,VAL136
+VAL273,"Szczepionka meningokokowa W, polisacharydowa skoniugowana z toksoidem błoniczym",,MCV-W-D,VAL136
+VAL274,"Szczepionka meningokokowa W, polisacharydowa skoniugowana z CRM197",,MCV-W-CRM,VAL136
+VAL275,"Szczepionka meningokokowa Y, polisacharydowa skoniugowana z CRM197",,MCV-Y-CRM,VAL078
+VAL276,"Szczepionka przeciwko meningokokom Y, skoniugowana z toksoidem tężcowym",,MCV-Y-T,VAL078
+VAL277,"Szczepionka przeciwko meningokokom Y, polisacharydowa, skoniugowana z toksoidem błoniczym",,MCV-Y-D,VAL078
+VAL278,"Adenovirus valence, live attenuated, oral route, unspecified",,Adeno-LAV,Valence
+VAL279,"Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, pediatric dose",,INF-SUped4,VAL064
+VAL280,Toksyna botulinowa,,BT,VAL419
+VAL281,"Adenovirus type 7 valence, live attenuated, oral route",,Adeno-7,VAL278
+VAL282,"Adenovirus type 4 valence, live attenuated, oral route",,Adeno-4,VAL278
+VAL283,"Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu wątroby typu A, dawka pediatryczna, bez określenia",,HepA-PED,VAL125
+VAL284,"Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu wątroby typu A, dawka dla dorosłych, bez określenia",,HepA-ADU,VAL125
+VAL285,"Trójwalentna inaktywowana wartość przeciwko grypie uzyskana z hodowli komórkowej, dzielona lub podjednostkowa, normalna dawka",,INF-CC3,VAL360
+VAL286,"Hepatitis A valence, live attenuated, unspecified",,HepA-LAV,VAL288
+VAL287,Czterowalentna rekombinowana wartość przeciwko grypie,,INF-R4,VAL361
+VAL288,"Wartość przeciwko wirusowemu zapaleniu wątroby typu A, bez określenia",,HepA,Valence
+VAL289,"Szczepionka COVID-19, mRNA kodujący białko kolca SARS-CoV-2, 10 mikrogramów",, COVID-mRNA-S-ORI-10,VAL303
+VAL290,"Szczepionka COVID-19, mRNA kodujący białko kolca SARS-CoV-2, 30 mikrogramów",,COVID-mRNA-S-ORI-30,VAL303
+VAL291,"Rekombinowana wartość przeciwko wirusowemu zapaleniu wątroby typu B, trzy antygeny (HbS, pre-S1 i pre-S2)",,HepB-r-3Ag,VAL068
+VAL292,"Szczepionka COVID-19, niereplikujący się wektor adenowirusowy 26 kodujący białko kolca SARS-CoV-2, w badaniach klinicznych",,Covid-VVnr-S-Ad26-CT,VAL070
+VAL293,Immunoglobulina wąglika,,Anthrax-Ig,Valence
+VAL294,"Żywy wirus szczepionki, szczepionka pierwszej generacji",,Pox-1G,VAL022
+VAL295,"Smallpox valence, second-generation, live attenuated",,Pox-2G,VAL022
+VAL296,"Zmodyfikowana szczepionka vaccinia Ankara, niereplikująca, szczepionka trzeciej generacji",,Pox-3G-MVA,VAL028
+VAL297,"Szczepionka meningokokowa A, nieokreślona",,MenA,VAL234
+VAL298,"Szczepionka meningokokowa C, nieokreślona",,MenC,VAL234
+VAL299,"Szczepionka meningokokowa Y, nieokreślona",,MenY,VAL234
+VAL300,"Szczepionka meningokokowa W, nieokreślona",,MenW,VAL234
+VAL301,Rekombinowana trójwartościowa szczepionka przeciw grypie,,INF-R3,VAL361
+VAL302,"Szczepionka COVID-19, mRNA kodujący białko kolcowe SARS-CoV-2, 50 mikrogramów",,Covid-mRNA-S-50,VAL303
+VAL303,"Szczepionka przeciw kowdowi 19 mRNA kodujący białko kolca wirusa SARS-CoV-2, pierwotnego wirusa",,COVID-mRNA-S-ORI,VAL043
+VAL304,"Szczepionka SARS-CoV-2 spike protein mRNA 19, oryginalny wirus, 15 mikrogramów",,Covid-ARNm-S-ORI-15,VAL303
+VAL305,"Szczepionka SARS-CoV-2 peak protein mRNA 19, wariant Omicron BA.1, 15 mikrogramów",,Covid-ARNm-S-OMI-BA.1-15,VAL393
+VAL306,"Szczepionka SARS-CoV-2 peak protein mRNA 19, oryginalny wirus, 3 mikrogramy",,COVID-mRNA-S-ORI-3,VAL303
+VAL307,"Szczepionka SARS-CoV-2 peak protein mRNA 19, wariant Omicron BA.4/BA.5, 15 mikrogramów",,COVID-mRNA-S-OMI-BA.4/5-15,VAL394
+VAL308,"Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, variant Omicron BA.4/BA.5, 25 microgrammes",,COVID-mRNA-S-OMI-BA.4/5-25,VAL394
+VAL309,"Szczepionka SARS-CoV-2 peak protein mRNA 19, wariant Omicron BA.4/BA.5, 5 mikrogramów",,Covid-ARNm-S-OMI-BA.4/5-5,VAL394
+VAL310,"Szczepionka COVID-19, mRNA kodujący białko szczytowe SARS-CoV-2, oryginalny wirus, 5 mikrogramów",,Covid-mRNA-S-ORI-5,VAL303
+VAL311,"Malaria valence, R21/Matrix-M pre-erythrocytic",,R21/Matrix-M,VAL025
+VAL312,"Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain",,TBE-K23,VAL031
+VAL313,"Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl strain, dose not specified",,TBE-Neudorfl,VAL031
+VAL314,"Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl strain, adult dose",,TBE-Neudorfl-ADU,VAL313
+VAL315,"Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl strain, paediatric dose",,TBE-Neudorfl-PED,VAL313
+VAL316,"RSV valence, protein subunit, recombinant, RSVPreF3 antigen derived from F protein",,RSV-PreF3,VAL318
+VAL317,"RSV valence, antibody, unspecified",,RSV-Ab,VAL338
+VAL318,"RSV valence, vaccine, unspecified",,RSV-V,VAL338
+VAL319,"COVID-19 valence, non-replicating adenoviral vector encoding the SARS-CoV-2 spike protein, inhalation vaccine, unspecified",,COVID-VVnr-S-INH,VAL397
+VAL320,"RSV valence, monoclonal antibody, unspecified",,RSV-mAb,VAL317
+VAL321,"RSV valence, monoclonal antibody, nirsevimab",,VRS-mAb-nir,VAL320
+VAL322,"RSV valence, protein subunit, recombinant, glycoprotein F subtypes A and B",,RSV-PreFAB,VAL318
+VAL323,"COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms",,COVID-mRNA-S-OMI-XBB.1.5-30,VAL396
+VAL324,"COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms",,COVID-mRNA-S-OMI-XBB.1.5-10,VAL396
+VAL325,"COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms",,COVID-mRNA-S-OMI-XBB.1.5-3,VAL396
+VAL326,"COVID-19 valence, Omicron BA.4/BA.5 variant, SARS-CoV-2 spike protein mRNA 19, 1.5 micrograms",,COVID-mRNA-S-OMI-BA.4/5-1.5,VAL394
+VAL327,"COVID-19 valence, original virus, SARS-CoV-2 peak protein-encoding mRNA, 1.5 micrograms",,COVID-mRNA-S-ORI-1.5,VAL303
+VAL328,"COVID-19 valence, protein subunit, recombinant spike protein nanoparticles, Omicron XBB.1.5 subvariant",,COVID-PS-rSnp-XBB,VAL107
+VAL329,"COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms",,Covid-ARNm-S-OMI-XBB.1.5-50,VAL396
+VAL330,"Anty-covid 19 mRNA kodujący białko kolca SARS-CoV-2, wariant Omicron XBB.1.5-25 mikrogramów",,COVID-mRNA-S-OMI-XBB.1.5-25,VAL396
+VAL331,CMV immune globulin,,CMV-Ig,Valence
+VAL332,"Wartość przeciwko wirusowemu zapaleniu wątroby typu C, bez określenia",,HepC,Valence
+VAL333,"HIV valence, unspecified",,HIV,Valence
+VAL334,"Melanoma valence, unspecified",,MEL,Valence
+VAL335,"Streptococcus pyogenes valence, unspecified",,SPYO,Valence
+VAL336,"Wartość przeciwko gorączce Doliny Ryftowej, bez określenia",,RVF,Valence
+VAL337,"Smallpox valence, immunoglobulin",,Ospa-Ig,VAL418
+VAL338,"Przeciwciało lub szczepionka przeciwko wirusowi RSV, nieokreślone",,RSV,Valence
+VAL339,"Borrelia burgdorferi valence, unspecified",,Lyme,Valence
+VAL340,"Wartość przeciwko wąglikowi, bez określenia",,Wąglik,Valence
+VAL341,"Wartość przeciwko Escherichia coli, bez określenia",,Eco,VAL345
+VAL342,"Klebsiella pneumoniæ valence, unspecified",,Kpn,VAL345
+VAL343,"Wartość przeciwko Enterococcus faecalis, bez określenia",,Efa,VAL345
+VAL344,"Proteus vulgaris valence, unspecified",,Pvu,VAL345
+VAL345,"Urinary tract infections valence, unspecified",,UTI,Valence
+VAL346,Enterovirus A71 valence,,EV71,Valence
+VAL347,"Leptospira canicola valence, inactivated, whole-cell",,Lepto-ca,Valence
+VAL348,"Leptospira pomona valence, inactivated whole-cell",,Lepto-po,Valence
+VAL349,"Influenza valence, trivalent, inactivated, fractionated or subunit, adjuvanted",,INF-SUAnd3,VAL231
+VAL350,"Influenza valence, quadrivalent, inactivated, fractionated or subunit, adjuvanted, normal dose",,INF-SUAnd4,VAL127
+VAL351,"Influenza valence, trivalent, virosomal, unspecified",,INF-V3,VAL362
+VAL352,"Influenza valence, quadrivalent, virosomal, unspecified",,INF-V4,VAL362
+VAL353,"Pneumococcal valence, polysaccharide conjugate, serotype 2",,PCV-02,VAL184
+VAL354,"Pneumococcal valence, polysaccharide conjugate, serotype 9N",,PCV-9N,VAL184
+VAL355,"Pneumococcal valence, polysaccharide conjugate, serotype 17F",,PCV-17F,VAL184
+VAL356,"Pneumococcal valence, polysaccharide conjugate, serotype 20",,PCV-20,VAL184
+VAL357,"Cholera valence, live attenuated, oral",,CHOL-LA-O,VAL124
+VAL358,"Botulism valence, immunoglobulin",,BIG,VAL420
+VAL359,"Wartość całkowicie inaktywowana przeciwko cholerze, bez określenia",,CHOL-I,VAL081
+VAL360,"Wartość inaktywowana przeciwko grypie uzyskana z hodowli komórkowej, dzielona lub podjednostkowa, normalna dawka, bez określenia",,INF-CC,VAL364
+VAL361,"Rekombinowana wartość przeciwko grypie, bez określenia",,INF-R,VAL364
+VAL362,"Influenza valence, virosomal, unspecified",,INF-V,VAL364
+VAL363,"Influenza valence, trivalent, VLP, unspecified",,INF-VLP3,VAL029
+VAL364,"Nieżywa wartość przeciwko grypie, bez określenia",,INF-NL,VAL128
+VAL365,"Nieżywa wartość przeciwko grypie uzyskana z hodowli na jajach, bez określenia",,INF-E,VAL364
+VAL366,"Wartość przeciwko grypie oparta na RNA, bez określenia",,INF-RNA,VAL128
+VAL367,"Cholera valence, V. cholerae O1, inactivated, whole-cell, oral",,CHOL-I-O1-O,VAL021
+VAL368,"Cholera valence, V. cholerae O139, inactivated, whole-cell, oral",,CHOL-I-O139-O,VAL021
+VAL369,"Pneumococcal valence, polysaccharide conjugate, serotype 15A",,PCV-15A,VAL184
+VAL370,"Pneumococcal valence, polysaccharide conjugate, serotype 15C",,PCV-15C,VAL184
+VAL371,"Pneumococcal valence, polysaccharide conjugate, serotype 16C",,PCV-16F,VAL184
+VAL372,"Pneumococcal valence, polysaccharide conjugate, serotype 20A",,PCV-20A,VAL184
+VAL373,"Pneumococcal valence, polysaccharide conjugate, serotype 23A",,PCV-23A,VAL184
+VAL374,"Pneumococcal valence, polysaccharide conjugate, serotype 23B",,PCV-23B,VAL184
+VAL375,"Pneumococcal valence, polysaccharide conjugate, serotype 24F",,PCV-24F,VAL184
+VAL376,"Pneumococcal valence, polysaccharide conjugate, serotype 31",,PCV-31,VAL184
+VAL377,"Pneumococcal valence, polysaccharide conjugate, serotype 35B",,PCV-35B,VAL184
+VAL378,"Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 15 micrograms",,rHBsAg-15,VAL090
+VAL379,"COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms",,COVID-mRNA-S-OMI-JN.1-30,VAL395
+VAL380,"COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms",,COVID-mRNA-S-OMI-JN.1-10,VAL395
+VAL381,"COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms",,COVID-mRNA-S-OMI-JN.1-3,VAL395
+VAL382,"COVID-19 valence, protein subunit, recombinant spike protein in nanoparticles, sub-variant Omicron JN.1",,COVID-PS-rSnp-JN.1,VAL107
+VAL383,Single-stranded 5' capped mRNA encoding the Respiratory syncytial virus glycoprotein F stabilized in the prefusion conformation,,mRSV,VAL318
+VAL384,"Leprosy valence, unspecified",,LEP,Valence
+VAL385,Avian influenza A(H5N8) valence,,AH5N8,VAL386
+VAL386,"Avian influenza A(H5) valence, unspecified",,AH5,Valence
+VAL387,"Anty-covid valence 19 mRNA kodujący białko kolca SARS-CoV-2, wariant Omicron JN.1-25 mikrogramów",,Covid-ARNm-S-OMI-JN.1-25,VAL395
+VAL388,"Anty-covid 19 mRNA kodujący białko kolca SARS-CoV-2, wariant Omicron JN.1-50 mikrogramów",,Covid-ARNm-S-OMI-JN.1-50,VAL395
+VAL389,"Walencja przeciwko Pseudomonas aeruginosa, 7 immunotypów",,PAER7,Valence
+VAL390,"Chikungunya walencja, nieokreślona",,CHIK,Valence
+VAL391,Walencja VLP Chikungunya,,Chik-VLP,VAL390
+VAL392,"Avian influenza valence, mRNA",,AH5N1-RNA,VAL051
+VAL393,"COVID-19 valence, Omicron BA.1 variant, mRNA encoding the SARS-CoV-2 spike protein",,COVID-mRNA-S-OMI-BA.1,VAL149
+VAL394,"COVID-19 valence, Omicron variant BA.4/BA.5, mRNA encoding the SARS-CoV-2 spike protein",,COVID-mRNA-S-OMI-BA.4/5,VAL149
+VAL395,"COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein",,COVID-mRNA-S-OMI-JN.1,VAL417
+VAL396,"COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein",,COVID-mRNA-S-OMI-XBB.1.5,VAL417
+VAL397,"COVID-19 valence, non-replicating viral vector encoding the peak protein of SARS-CoV-2, unspecified",,COVID-VVnr-S,VAL163
+VAL398,"COVID-19 valence, replicating viral vector, virus encoding the spike protein of SARS-CoV-2",,COVID-VVr-S,VAL162
+VAL399,"Typhoid valence, Vi antigen conjugated to tetanus toxoid",,Ty-ViC-T,VAL002
+VAL400,"Typhoid valence, Vi antigen conjugated to CRM197 protein",,Ty-ViC-CRM,VAL002
+VAL401,"Japanese encephalitis valence, inactivated, whole-virus, derived from Vero cells, 3 micrograms",,EJ-I-Vero-3,VAL251
+VAL402,"Japanese encephalitis valence, inactivated, whole-virus, derived from Vero cells, 6 micrograms",,EJ-I-Vero-6,VAL251
+VAL403,"Meningococcal X valence, unspecified",,MenX,VAL234
+VAL404,"Meningococcal X valence, polysaccharide conjugate",,MCV-X,VAL403
+VAL405,"Influenza valence, live attenuated, pandemic influenza H1N1 2009",,INF-pdm09-V,VAL058
+VAL406,"COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein",,COVID-mRNA-S-OMI-KP.2,VAL395
+VAL407,"COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms",,COVID-mRNA-S-OMI-KP.2-3,VAL406
+VAL408,"COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms",,COVID-mRNA-S-OMI-KP.2-10,VAL406
+VAL409,"COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms",,COVID-mRNA-S-OMI-KP.2-30,VAL406
+VAL410,"COVID-19 valence, protein subunit, recombinant N protein",,COVID-PS-rN,VAL053
+VAL411,"COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms",,COVID-mRNA-S-OMI-BA.4/5-50,VAL394
+VAL412,"COVID-19 valence, Omicron variant BA.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms",,Covid-ARNm-S-OMI-BA.1-50,VAL393
+VAL413,"COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron XBB.1.16 subvariant",,Covid-SP-rRBD-XBB.1.16,VAL011
+VAL414,Walencja błonicza,,DIPH,Valence
+VAL415,"Anthrax valence, acellular, adjuvanted",,BantAdj,VAL111
+VAL416,"COVID-19 valence, protein subunit, recombinant spike protein, adjuvanted",,COVID-PS-rS-A,VAL104
+VAL417,"COVID-19 valence, Omicron BA.2 variant, mRNA encoding the SARS-CoV-2 spike protein",,COVID-mRNA-S-OMI-BA.2,VAL149
+VAL418,"Smallpox valence, active or passive immunization products",,POX,Valence
+VAL419,"Botulism valence, active or passive immunization products",,BOT,Valence
+VAL420,"Botulism valence, passive immunization products",,BOT-passive,VAL419
+VAL421,"Argentine hemorrhagic fever valence, Junin virus, unspecified",,Junin,Valence
+VAL422,"Plague valence, unspecified",,Yp,Valence
+VAL423,"COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein",,Covid-ARNm-S-OMI-LP.8.1,VAL417
+VAL424,"COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms",,Covid-ARNm-S-OMI-LP.8.1-30,VAL423
+VAL425,"COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms",,Covid-ARNm-S-OMI-LP.8.1-10,VAL423
+VAL426,"COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms",,Covid-ARNm-S-OMI-LP.8.1-3,VAL423
+VAL427,"COVID-19 valence, mRNA encoding a fragment of the SARS-CoV-2 spike protein",,Covid-ARNm-S-frag,VAL043
+VAL428,"Valence COVID-19, mRNA encoding the NTD and RBD fragments of the spike protein, Omicron LP.8.1 variant",,Covid-ARNm-S-frag-OMI-LP.8.1,VAL427
+VAL429,"RSV valence, monoclonal antibody, clesrovimab",,VRS-mAb-cle,VAL320
+VAL430,"Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain, 0,25 mL",,TBE-K23-25,VAL312
+VAL431,"Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain, 0,50 mL",,TBE-K23-50,VAL312
+VAL432,"COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms",,Covid-ARNm-S-OMI-LP.8.1-25,VAL423
+VAL433,"COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms.",,Covid-ARNm-S-OMI-LP.8.1-50,VAL423
+VAL434,"COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant",,Covid-SP-rRBD-LP.8.1,VAL011
+VAL435,"Dengue valence, native attenuated strain",,DENV2LAV,VAL150
+VAL436,"Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-1",,DENV1rCH,VAL150
+VAL437,"Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-3",,DENV3rCH,VAL150
+VAL438,"Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-4",,DENV4rCH,VAL150
+VAL439,"COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein",,Covid-ARNm-S-OMI-XFG,VAL417
+VAL440,"COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms",,Covid-ARNm-S-OMI-XFG-10,VAL439
+VAL441,"COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms",,Covid-ARNm-S-OMI-XFG-30,VAL439
+VAL442,"Melanoma valence, messenger RNA, individualized neoantigens",,MEL-ARNI,VAL334
+VAL443,"COVID-19 valence, protein subunit, recombinant spike protein in nanoparticles, sub-variant Omicron XFG",,Covid-SP-rSnp-XFG,VAL107
+VAL444,"COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron XFG subvariant",,Covid-SP-rRBD-XFG,VAL011
+VAL445,"Typhoid valence, Vi antigen conjugated to diphtheria toxoid",,Ty-ViC-D,VAL002
