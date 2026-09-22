@@ -175,6 +175,7 @@ function clearCodeSystem()
 {
 	CSData = voidCSData
 	saveToSession("CSData",CSData)
+	setContext('currentCode',null)
 	document.getElementById('ecode').innerHTML=""
 	document.getElementById('action').innerHTML=""
 	showCodes()
