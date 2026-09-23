@@ -31,6 +31,10 @@ This is the 8 digits speciality code in France, independently of their packaging
 The full database of specialities can be downloaded from:
 https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt
 
+With historical data:
+https://agence-prd.ansm.sante.fr/php/ecodex/telecharger/telecharger.php
+
+
 ## CNK (Belgium)
 The CNK is a code for packaged products distributed in Belgium, attributed by the Belgian Pharmaceutical Association (APB).
 

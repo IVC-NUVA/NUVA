@@ -1,4 +1,6 @@
 reCSV = new RegExp('(".*?"|[^",]+)(?=\s*,|\s*$)','g')
+reLabel = new RegExp('^(?:(?:"((?:""|[^"])+)"|([^,]*))(?:$|,))+$')
+
 reNUVA = new RegExp("(^VAC\\d{4}|#NA|#MISS)")
 
 const voidCSData = {'CSID': null, code2nuva:{}, nuva2code: {}, refcode2nuva: {}}
@@ -73,11 +75,11 @@ function parseCSV(text) {
 
 	const rows = text.split("\n")
 	for(i in rows) {
-		console.log(rows[i])
 		reCSV.lastIndex = 0
-		codeField =reCSV.exec(rows[i])
-		nuvaField = reCSV.exec(rows[i])
-		labelField = reCSV.exec(rows[i])
+		text = rows[i].trim()
+		codeField =reCSV.exec(text)
+		nuvaField = reCSV.exec(text)
+		labelField = reCSV.exec(text)
 		extCode=(codeField?codeField[1]:null)
 		nuvaCode=(nuvaField?nuvaField[1]:null)
 		label=(labelField?labelField[1].replaceAll('"',''):null)
@@ -92,7 +94,6 @@ function parseCSV(text) {
 		else
 		{
 			result = reCode.exec(extCode)
-			console.log(result)
 			if (result) {extCode = result[0] }else continue
 			result = reNUVA.exec(nuvaCode)
 			if (result) {nuvaCode = result[0]} 
