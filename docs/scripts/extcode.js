@@ -71,8 +71,9 @@ function parseCSV(text) {
 	nuva2code = {}
 	refcode2nuva = {}
 
-	const rows = text.split("\r\n")
+	const rows = text.split("\n")
 	for(i in rows) {
+		console.log(rows[i])
 		reCSV.lastIndex = 0
 		codeField =reCSV.exec(rows[i])
 		nuvaField = reCSV.exec(rows[i])
@@ -91,6 +92,7 @@ function parseCSV(text) {
 		else
 		{
 			result = reCode.exec(extCode)
+			console.log(result)
 			if (result) {extCode = result[0] }else continue
 			result = reNUVA.exec(nuvaCode)
 			if (result) {nuvaCode = result[0]} 
