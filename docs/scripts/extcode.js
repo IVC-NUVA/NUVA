@@ -81,12 +81,12 @@ function parseCSV(text) {
 		nuvaCode=(nuvaField?nuvaField[1]:null)
 		label=(labelField?labelField[1].replaceAll('"',''):null)
 		
-		if ((!extCode) || (!nuvaCode))
+		if (!extCode)
 			continue
 		
 		if (i == 0) {
 			myCSID = extCode
-			reCode = new RegExp("^#?"+myCSID+"-.*")			
+			reCode = new RegExp(myCSID+"-.*")			
 		}
 		else
 		{
