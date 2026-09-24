@@ -1328,7 +1328,7 @@ VAC1398,PANFLU.1,Vaccin contre la grippe pandémique à virus influenza A(H1N1)p
 VAC1399,TERTRANFLU,"Vaccin contre la grippe saisonnière inactivé quadrivalent, à virion fragmenté",False,VAC0938
 VAC1400,SHANIPV,"Vaccin poliomyélitique (entier inactivé, trivalent)",False,VAC0270
 VAC1401,9-VALENT HPV VACCINE INNOVAX,"Vaccin contre les papillomavirus humains à base de VLP (Virus Like Particles ou pseudo particules virales), nonavalent (types 6, 11, 16, 18, 31, 33, 45, 52 et 58), recombinant, adsorbé",False,VAC0860
-VAC1402,EASYSIX,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique), poliomyélitique (entier inactivé, trivalent) et de l’hépatite B (recombinant), adsorbé",False,VAC1547
+VAC1402,EASYSIX,"Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole cell), Haemophilus influenzae type b (conjugated to tetanus toxoid), inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed",False,VAC1547
 VAC1403,EASYFIVE-TT,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier, dose standard), hépatite B et anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique)",False,VAC1181
 VAC1404,EASYFOUR-TT,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé) et anti-Haemophilus influenzae type b (conjugué à l'anatoxine diphtérique)",False,VAC1161
 VAC1405,EASYFOURPOL,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique) et poliomyélitique (entier inactivé, trivalent), adsorbé",False,VAC1126
@@ -1380,7 +1380,7 @@ VAC1450,HEPACARE,"Vaccin recombinant contre l'hépatite B, dose adulte",False,VA
 VAC1451,CHIROFLU,"Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté",False,VAC0925
 VAC1452,SCI-B-VAC,"Vaccin recombinant contre l'hépatite B, trois antigènes (HbS, pré-S1 et pré-S2)",False,VAC1145
 VAC1453,INVIVAC,"Influenza vaccine, trivalent, virosomal, unspecified",False,VAC1443
-VAC1454,PRIMAVAX,"Vaccin diphtérique (anatoxine, dose standard), tétanique (anatoxine) et hépatite B",False,VAC1552
+VAC1454,PRIMAVAX,"Diphtheria vaccine (anatoxin, standard dose), tetanus vaccine (anatoxin) and hepatitis B vaccine",False,VAC1552
 VAC1455,MENGIVAC A + C,Vaccin polyosidique non conjugué contre les méningocoques des sérogroupes A et C,False,VAC0151
 VAC1456,WYVAC,"Vaccin rabique entier inactivé, préparé sur culture de cellules diploïdes humaines (HDCV) MRC-5, inactivation par la ß-propiolactone",False,VAC0943
 VAC1457,TETRA-SOLGEN,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé) et poliomyélitique (entier inactivé, trivalent)",False,VAC1151
@@ -1388,7 +1388,7 @@ VAC1458,TRIDIPIGEN,"Vaccin pédiatrique diphtérique (anatoxine, dose standard),
 VAC1459,TRINFAGEN N0.1,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine) et poliomyélitique (entier inactivé, trivalent)",False,VAC0088
 VAC1460,SOLGEN,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine) et coquelucheux (entier inactivé)",False,VAC0136
 VAC1461,DIFTET,"Vaccin pédiatrique diphtérique (anatoxine, dose standard) et tétanique (anatoxine)",False,VAC0137
-VAC1462,PNU-IMUNE 14,"Vaccin pneumococcique polyosidique non conjugué, 23-valent, sérotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F et 33F",False,VAC1551
+VAC1462,PNU-IMUNE 14,"Pneumococcal unconjugated polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F",False,VAC1551
 VAC1463,FREEZE-DRIED BCG VACCINE JAPAN,Vaccin contre la tuberculose (vivant atténué),False,VAC0134
 VAC1464,FLUBRON VACCINE,Vaccin contre la grippe saisonnière à virus entier inactivé,False,VAC0820
 VAC1465,PERDIPIGEN,"Vaccin pédiatrique diphtérique (anatoxine, dose standard) et coquelucheux (entier inactivé)",False,VAC1549
@@ -1403,7 +1403,7 @@ VAC1473,"Vaccin à ARNm contre la covid 19, codant un fragment de la protéine S
 VAC1474,ENFLONSIA (clesrovimab),Anticorps monoclonal humain contre le virus respiratoire syncytial (VRS),False,VAC1475
 VAC1475,"Anticorps monoclonal humain VRS, clesrovimab, sans précision","Human monoclonal antibody against respiratory syncytial virus (RSV), clesrovimab, unspecified",True,
 VAC1476,"Vaccin méningococcique contre les A, C, W, Y (polyosidique conjugué) et B","Meningococcal vaccine against A, C, W, Y (conjugated polysaccharide) and B",True,
-VAC1477,ENCEPUR N CHILDREN,"Vaccin entier inactivé contre l'encéphalite à tiques, souche K23, 0,25 mL",False,VAC1550
+VAC1477,ENCEPUR N CHILDREN,"Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain, 0,25 mL",False,VAC1550
 VAC1478,SYNAGIS 50 mg (PALIZIVUMAB),Anticorps monoclonal contre le virus respiratoire syncytial (VRS),False,VAC1222
 VAC1479,VACPERTAGEN,"Vaccin contre la coqueluche (recombinant, acellulaire, dose réduite, 2 composants, adsorbé).",False,VAC1232
 VAC1480,PNEUMOVAX 23,"Vaccin pneumococcique polyosidique non conjugué, 23-valent, sérotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F et 33F",False,VAC0339
@@ -1432,7 +1432,7 @@ VAC1502,BIMERVAX LP.8.1,"COVID-19 vaccine, protein subunit, recombinant spike pr
 VAC1503,"Vaccin anti-covid 19, sous-variant Omicron LP.8.1, sous-unité protéique, protéine de pointe recombinante (domaine RBD)","COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant",True,
 VAC1504,TD-PUR,"Vaccin diphtérique (anatoxine, dose réduite) et tétanique (anatoxine)",False,VAC0920
 VAC1505,SCTV01C,"Vaccin anti-covid 19 à sous-unité protéique, protéine recombinante",False,VAC1113
-VAC1506,STROVAC,"Vaccin infections urinaires, sans précision",False,VAC0000
+VAC1506,STROVAC,"Vaccin infections urinaires, sans précision",False,VAC1553
 VAC1507,BUTANTAN-DV,"Vaccin vivant atténué, chimérique recombinant, quadrivalent contre les quatre sérotypes (DEN-1, DEN-2, DEN-3 et DEN-4) du virus de la dengue",False,VAC1544
 VAC1508,BUTANTAN HEP A,Vaccin entier inactivé contre l'hépatite A,False,VAC0102
 VAC1509,BUTANTAN HEP B,"Vaccin hépatite B, antigène de surface recombinante du virus de l'hépatite B (Ag HBs), sans précision",False,VAC0101
@@ -1479,3 +1479,7 @@ VAC1549,"Diphtheria vaccine (toxoid, standard dose) and pertussis (whole-cell in
 VAC1550,"Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain, 0,25 mL","Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain, 0,25 mL",True,
 VAC1551,"Pneumococcal unconjugated polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F","Pneumococcal unconjugated polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F",True,
 VAC1552,"Diphtheria vaccine (anatoxin, standard dose), tetanus vaccine (anatoxin) and hepatitis B vaccine","Diphtheria vaccine (anatoxin, standard dose), tetanus vaccine (anatoxin) and hepatitis B vaccine",True,
+VAC1553,"Urinary tract infections vaccine, Escherichia coli, Klebsiella pneumoniæ, Enterococcus fæcalis, Morganella morganii, Proteus mirabilis","Urinary tract infections vaccine, Escherichia coli, Klebsiella pneumoniæ, Enterococcus fæcalis, Morganella morganii, Proteus mirabilis",True,
+VAC1554,VAXRABEO,"Whole inactivated rabies vaccine, prepared in Vero cell culture (PVRV), Wistar strain, inactivation by ß-propiolactone",False,VAC1116
+VAC1555,"Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified","Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified",True,
+VAC1556,TG4050,"Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified",False,VAC1555

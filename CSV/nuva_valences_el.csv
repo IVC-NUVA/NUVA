@@ -54,7 +54,7 @@ VAL051,Προπανδημικό εμβόλιο κατά της γρίπης Α(�
 VAL052,"Τετραδύναμο εμβόλιο VLP του ιού των ανθρώπινων θηλωμάτων, τύποι 6, 11, 16 και 18",,HPV-04-valent,VAL237
 VAL053,"Εμβόλιο COVID-19, πρωτεϊνική υπομονάδα, ανασυνδυασμένη πρωτεΐνη αιχμής, απροσδιόριστο",,COVID-PS,VAL164
 VAL054,"Εμβόλιο COVID-19, μη αναπαραγόμενος τροποποιημένος φορέας Vaccinia Virus Ankara που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2",,COVID-VVnr-S-MVA,VAL397
-VAL055,Ανοσοσφαιρίνη ιλαράς,,Ig-Measles,Valence
+VAL055,Ανοσοσφαιρίνη ιλαράς,,Ig-Measles,VAL447
 VAL056,Ολόκληρο αδρανοποιημένο τρισθενές εμβόλιο πολιομυελίτιδας για ένεση,,POLIO-I,VAL042
 VAL057,"Εμβόλιο μηνιγγιτιδοκόκκου C, πολυσακχαριδικό συζευγμένο",,MCV-C,VAL298
 VAL058,"Αδρανοποιημένη βαλεντία της γρίπης, κλασματοποιημένη ή υπομονάδα, χωρίς διευκρίνιση",,INF-SU,VAL365
@@ -74,7 +74,7 @@ VAL071,Αδρανοποιημένο πλήρες εμβόλιο τύφου,,Ty-I
 VAL072,Εμβόλιο κατά του μηνιγγιτιδόκοκκου Β που περιέχει fHbp των υποοικογενειών Α και Β,,MenB-fHbpAB,VAL161
 VAL073,"Εμβόλιο COVID-19, αναπαραγόμενος ιικός φορέας, με αντιγονοπαρουσιαστικά κύτταρα",,COVID-VVr+APC,VAL162
 VAL074,"Τετραδύναμο αδρανοποιημένο εμβόλιο γρίπης, διαιρεμένο ή υπομονάδα, υψηλής δόσης",,INF-SUhd4,VAL064
-VAL075,Αδρανοποιημένο πλήρες εμβόλιο κατά της Leptospira icterohaemorrhagiae,,Lepto-wI,Valence
+VAL075,Αδρανοποιημένο πλήρες εμβόλιο κατά της Leptospira icterohaemorrhagiae,,Lepto-wI,VAL448
 VAL076,"Εμβόλιο COVID-19, αδρανοποιημένο με ολόκληρο τον ιό, απροσδιόριστο",,COVID-IV,VAL164
 VAL077,"Mumps valence, live attenuated",,Mumps-LAV,VAL183
 VAL078,"Εμβόλιο μηνιγγιτιδοκόκκου Y, πολυσακχαριδικό συζευγμένο",,MCV-Y,VAL299
@@ -147,7 +147,7 @@ VAL144,"Ολόκληρη αδρανοποιημένη βαλεντία της η
 VAL145,"Ολόκληρη αδρανοποιημένη βαλεντία της ηπατίτιδας Α, δισθενής (ηπατίτιδα Α και Β), δόση για ενήλικες",,HepA-bv-ADU,VAL284
 VAL146,Βαλεντία κατά της ολόκληρης αδρανοποιημένης Brucella,,Bruc-I,VAL006
 VAL147,Βαλεντία με αντιγόνο πρωτεΐνης P.I. (αδιάλυτο σε φαινόλη) κατά της βρουκέλλωσης,,Bruc-IP,VAL006
-VAL148,Μονοκλωνικό αντίσωμα του αναπνευστικού συγκυτιακού ιού,,RSV-IG,VAL317
+VAL148,Μονοκλωνικό αντίσωμα του αναπνευστικού συγκυτιακού ιού,,RSV-IG,VAL338
 VAL149,"Εμβόλιο COVID-19, mRNA που κωδικοποιεί την πρωτεΐνη SARS-CoV-2 spike, 25 μικρογραμμάρια",,Covid-mRNA-S-25,VAL043
 VAL150,"Βαλεντία κατά του δάγκειου πυρετού, χωρίς διευκρίνιση",,Den,Valence
 VAL151,"Εμβόλιο τουλαραιμίας, απροσδιόριστο",,Tular,Valence
@@ -292,7 +292,7 @@ VAL289,"Εμβόλιο COVID-19, mRNA που κωδικοποιεί την πρ�
 VAL290,"Εμβόλιο COVID-19, mRNA που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2, 30 μικρογραμμάρια",,COVID-mRNA-S-ORI-30,VAL303
 VAL291,"Ανασυνδυασμένη βαλεντία της ηπατίτιδας Β, τρία αντιγόνα (HbS, προ-S1 και προ-S2)",,HepB-r-3Ag,VAL068
 VAL292,"Εμβόλιο COVID-19, μη αναπαραγόμενος φορέας αδενοϊού 26 που κωδικοποιεί την πρωτεΐνη αιχμής SARS-CoV-2, σε κλινικές δοκιμές",,Covid-VVnr-S-Ad26-CT,VAL070
-VAL293,Ανοσοσφαιρίνη άνθρακα,,Anthrax-Ig,Valence
+VAL293,Ανοσοσφαιρίνη άνθρακα,,Anthrax-Ig,VAL340
 VAL294,"Ζωντανός ιός της εμβολίας, εμβόλιο πρώτης γενιάς",,Pox-1G,VAL022
 VAL295,"Smallpox valence, second-generation, live attenuated",,Pox-2G,VAL022
 VAL296,"Τροποποιημένο εμβόλιο Ankara, μη αναπαραγόμενο, τρίτης γενιάς",,Pox-3G-MVA,VAL028
@@ -316,7 +316,7 @@ VAL313,"Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl str
 VAL314,"Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl strain, adult dose",,TBE-Neudorfl-ADU,VAL313
 VAL315,"Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl strain, paediatric dose",,TBE-Neudorfl-PED,VAL313
 VAL316,"RSV valence, protein subunit, recombinant, RSVPreF3 antigen derived from F protein",,RSV-PreF3,VAL318
-VAL317,"Αντισώματα RSV, απροσδιόριστα",,RSV-Ab,VAL338
+VAL317,"Αντισώματα RSV, απροσδιόριστα",,RSV-Ab,VAL447
 VAL318,"Εμβόλιο RSV, απροσδιόριστο",,RSV-V,VAL338
 VAL319,"COVID-19 valence, non-replicating adenoviral vector encoding the SARS-CoV-2 spike protein, inhalation vaccine, unspecified",,COVID-VVnr-S-INH,VAL397
 VAL320,"RSV valence, monoclonal antibody, unspecified",,RSV-mAb,VAL317
@@ -346,8 +346,8 @@ VAL343,"Βαλεντία κατά του Enterococcus faecalis, χωρίς δι�
 VAL344,"Proteus vulgaris valence, unspecified",,Pvu,VAL345
 VAL345,"Urinary tract infections valence, unspecified",,UTI,Valence
 VAL346,Enterovirus A71 valence,,EV71,Valence
-VAL347,"Leptospira canicola valence, inactivated, whole-cell",,Lepto-ca,Valence
-VAL348,"Leptospira pomona valence, inactivated whole-cell",,Lepto-po,Valence
+VAL347,"Leptospira canicola valence, inactivated, whole-cell",,Lepto-ca,VAL448
+VAL348,"Leptospira pomona valence, inactivated whole-cell",,Lepto-po,VAL448
 VAL349,"Influenza valence, trivalent, inactivated, fractionated or subunit, adjuvanted",,INF-SUAnd3,VAL231
 VAL350,"Influenza valence, quadrivalent, inactivated, fractionated or subunit, adjuvanted, normal dose",,INF-SUAnd4,VAL127
 VAL351,"Influenza valence, trivalent, virosomal, unspecified",,INF-V3,VAL362
@@ -417,8 +417,8 @@ VAL414,"Diphtheria valence, unspecified",,DIPH,Valence
 VAL415,"Anthrax valence, acellular, adjuvanted",,BantAdj,VAL111
 VAL416,"COVID-19 valence, protein subunit, recombinant spike protein, adjuvanted",,COVID-PS-rS-A,VAL104
 VAL417,"COVID-19 valence, Omicron BA.2 variant, mRNA encoding the SARS-CoV-2 spike protein",,COVID-mRNA-S-OMI-BA.2,VAL149
-VAL418,"Smallpox valence, active or passive immunization products",,POX,Valence
-VAL419,"Botulism valence, active or passive immunization products",,BOT,Valence
+VAL418,"Smallpox valence, unspecified",,POX,Valence
+VAL419,"Botulism valence, unspecified",,BOT,Valence
 VAL420,"Botulism valence, passive immunization products",,BOT-passive,VAL419
 VAL421,"Argentine hemorrhagic fever valence, Junin virus, unspecified",,Junin,Valence
 VAL422,"Plague valence, unspecified",,Yp,Valence
@@ -445,3 +445,8 @@ VAL442,"Melanoma valence, messenger RNA, individualized neoantigens",,MEL-ARNI,V
 VAL443,"COVID-19 valence, protein subunit, recombinant spike protein in nanoparticles, sub-variant Omicron XFG",,Covid-SP-rSnp-XFG,VAL107
 VAL444,"COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron XFG subvariant",,Covid-SP-rRBD-XFG,VAL011
 VAL445,"Typhoid valence, Vi antigen conjugated to diphtheria toxoid",,Ty-ViC-D,VAL002
+VAL446,"Morganella morganii valence, unspecified",,Mmo,VAL345
+VAL447,"Proteus mirabilis valence, unspecified",,Pmi,VAL345
+VAL448,"Leptospira valence, unspecified",,Lepto,Valence
+VAL449,"Influenza valence, RNA-based, trivalent, unspecified",,Inf-RNA3,VAL366
+VAL450,"Non-HPV-related squamous cell carcinomas of the head and neck valence, unspecified",,HNSCC-HPVneg,Valence

@@ -1429,7 +1429,7 @@ VAC1502,BIMERVAX LP.8.1,"COVID-19 vaccine, protein subunit, recombinant spike pr
 VAC1503,"COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant","COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant",True,
 VAC1504,TD-PUR,Diphtheria toxoid (low dose) and tetanus toxoid vaccine,False,VAC0920
 VAC1505,SCTV01C,"COVID-19 protein subunit vaccine, recombinant protein",False,VAC1113
-VAC1506,STROVAC,"Urinary tract infections vaccine, unspecified",False,VAC0000
+VAC1506,STROVAC,"Urinary tract infections vaccine, Escherichia coli, Klebsiella pneumoniæ, Enterococcus fæcalis, Morganella morganii, Proteus mirabilis",False,VAC1553
 VAC1507,BUTANTAN-DV,"Live-attenuated, recombinant chimeric, quadrivalent vaccine against the four serotypes (DEN-1, DEN-2, DEN-3 and DEN-4) of the dengue virus",False,VAC1544
 VAC1508,BUTANTAN HEP A,Inactivated hepatitis A vaccine,False,VAC0102
 VAC1509,BUTANTAN HEP B,"Hepatitis B vaccine, recombinant hepatitis B surface antigen (HBsAg), unspecified",False,VAC0101
@@ -1476,3 +1476,7 @@ VAC1549,"Diphtheria vaccine (toxoid, standard dose) and pertussis (whole-cell in
 VAC1550,"Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain, 0,25 mL","Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain, 0,25 mL",True,
 VAC1551,"Pneumococcal unconjugated polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F","Pneumococcal unconjugated polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F",True,
 VAC1552,"Diphtheria vaccine (anatoxin, standard dose), tetanus vaccine (anatoxin) and hepatitis B vaccine","Diphtheria vaccine (anatoxin, standard dose), tetanus vaccine (anatoxin) and hepatitis B vaccine",True,
+VAC1553,"Urinary tract infections vaccine, Escherichia coli, Klebsiella pneumoniæ, Enterococcus fæcalis, Morganella morganii, Proteus mirabilis","Urinary tract infections vaccine, Escherichia coli, Klebsiella pneumoniæ, Enterococcus fæcalis, Morganella morganii, Proteus mirabilis",True,
+VAC1554,VAXRABEO,"Whole inactivated rabies vaccine, prepared in Vero cell culture (PVRV), Wistar strain, inactivation by ß-propiolactone",False,VAC1116
+VAC1555,"Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified","Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified",True,
+VAC1556,TG4050,"Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified",False,VAC1555

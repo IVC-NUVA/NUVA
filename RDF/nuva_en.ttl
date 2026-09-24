@@ -3069,8 +3069,6 @@ Other names: TAK-003; DENVAX"""@en .
 
 <http://ivci.org/NUVA/VAC1505> rdfs:comment "COVID-19 protein subunit vaccine, recombinant protein"@en .
 
-<http://ivci.org/NUVA/VAC1506> rdfs:comment "Urinary tract infections vaccine, unspecified"@en .
-
 <http://ivci.org/NUVA/VAC1507> rdfs:comment "Live-attenuated, recombinant chimeric, quadrivalent vaccine against the four serotypes (DEN-1, DEN-2, DEN-3 and DEN-4) of the dengue virus"@en .
 
 <http://ivci.org/NUVA/VAC1508> rdfs:comment "Inactivated hepatitis A vaccine"@en .
@@ -3149,6 +3147,12 @@ Other names: TAK-003; DENVAX"""@en .
 <http://ivci.org/NUVA/VAC1551> rdfs:label "Pneumococcal unconjugated polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F"@en .
 
 <http://ivci.org/NUVA/VAC1552> rdfs:label "Diphtheria vaccine (anatoxin, standard dose), tetanus vaccine (anatoxin) and hepatitis B vaccine"@en .
+
+<http://ivci.org/NUVA/VAC1553> rdfs:label "Urinary tract infections vaccine, Escherichia coli, Klebsiella pneumoniæ, Enterococcus fæcalis, Morganella morganii, Proteus mirabilis"@en .
+
+<http://ivci.org/NUVA/VAC1554> rdfs:comment "Whole inactivated rabies vaccine, prepared in Vero cell culture (PVRV), Wistar strain, inactivation by ß-propiolactone"@en .
+
+<http://ivci.org/NUVA/VAC1555> rdfs:label "Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified"@en .
 
 <http://ivci.org/NUVA/VAL000> rdfs:label "Parent for deprecated valences"@en ;
     skos:altLabel "ZZZ"@en .
@@ -4164,7 +4168,7 @@ Other names: TAK-003; DENVAX"""@en .
 <http://ivci.org/NUVA/VAL337> rdfs:label "Smallpox valence, immunoglobulin"@en ;
     skos:altLabel "POX-Ig"@en .
 
-<http://ivci.org/NUVA/VAL338> rdfs:label "RSV valence, antibody or vaccine, unspecified"@en ;
+<http://ivci.org/NUVA/VAL338> rdfs:label "RSV valence, unspecified"@en ;
     skos:altLabel "RSV"@en .
 
 <http://ivci.org/NUVA/VAL339> rdfs:label "Borrelia burgdorferi valence, unspecified"@en ;
@@ -4404,10 +4408,10 @@ Other names: TAK-003; DENVAX"""@en .
 <http://ivci.org/NUVA/VAL417> rdfs:label "COVID-19 valence, Omicron BA.2 variant, mRNA encoding the SARS-CoV-2 spike protein"@en ;
     skos:altLabel "COVID-mRNA-S-OMI-BA.2"@en .
 
-<http://ivci.org/NUVA/VAL418> rdfs:label "Smallpox valence, active or passive immunization products"@en ;
+<http://ivci.org/NUVA/VAL418> rdfs:label "Smallpox valence, unspecified"@en ;
     skos:altLabel "POX"@en .
 
-<http://ivci.org/NUVA/VAL419> rdfs:label "Botulism valence, active or passive immunization products"@en ;
+<http://ivci.org/NUVA/VAL419> rdfs:label "Botulism valence, unspecified"@en ;
     skos:altLabel "BOT"@en .
 
 <http://ivci.org/NUVA/VAL420> rdfs:label "Botulism valence, passive immunization products"@en ;
@@ -4487,4 +4491,19 @@ Other names: TAK-003; DENVAX"""@en .
 
 <http://ivci.org/NUVA/VAL445> rdfs:label "Typhoid valence, Vi antigen conjugated to diphtheria toxoid"@en ;
     skos:altLabel "Ty-ViC-D"@en .
+
+<http://ivci.org/NUVA/VAL446> rdfs:label "Morganella morganii valence, unspecified"@en ;
+    skos:altLabel "Mmo"@en .
+
+<http://ivci.org/NUVA/VAL447> rdfs:label "Proteus mirabilis valence, unspecified"@en ;
+    skos:altLabel "Pmi"@en .
+
+<http://ivci.org/NUVA/VAL448> rdfs:label "Leptospira valence, unspecified"@en ;
+    skos:altLabel "Lepto"@en .
+
+<http://ivci.org/NUVA/VAL449> rdfs:label "Influenza valence, RNA-based, trivalent, unspecified"@en ;
+    skos:altLabel "Inf-RNA3"@en .
+
+<http://ivci.org/NUVA/VAL450> rdfs:label "Non-HPV-related squamous cell carcinomas of the head and neck valence, unspecified"@en ;
+    skos:altLabel "HNSCC-HPVneg"@en .
 

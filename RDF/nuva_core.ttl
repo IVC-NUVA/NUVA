@@ -14,6 +14,16 @@ nuva:NUVACode a owl:Class ;
     rdfs:comment "The numeric value for a NUVA vaccine concept"@en ;
     rdfs:subClassOf nuva:Code .
 
+nuva:VAC0000 a owl:Class ;
+    rdfs:label "#Orphans"@en ;
+    nuvs:containsValence nuva:VAL000 ;
+    nuvs:isAbstract true ;
+    dcterms:created "2026-09-10"^^xsd:date ;
+    dcterms:modified "2026-09-10"^^xsd:date ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "0000"^^nuva:NUVACode,
+        "VAC0000"^^xsd:string .
+
 nuva:VAC0001 a owl:Class ;
     rdfs:label "ACT-HIB" ;
     nuvs:isAbstract false ;
@@ -10571,8 +10581,8 @@ nuva:VAC1506 a owl:Class ;
     rdfs:label "STROVAC" ;
     nuvs:isAbstract false ;
     dcterms:created "2026-03-10"^^xsd:date ;
-    dcterms:modified "2026-09-13"^^xsd:date ;
-    rdfs:subClassOf nuva:VAC0000 ;
+    dcterms:modified "2026-09-24"^^xsd:date ;
+    rdfs:subClassOf nuva:VAC1553 ;
     skos:notation "1506"^^nuva:NUVACode,
         "VAC1506"^^xsd:string .
 
@@ -10747,6 +10757,24 @@ nuva:VAC1530 a owl:Class ;
     skos:notation "1530"^^nuva:NUVACode,
         "VAC1530"^^xsd:string .
 
+nuva:VAC1554 a owl:Class ;
+    rdfs:label "VAXRABEO" ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-09-23"^^xsd:date ;
+    dcterms:modified "2026-09-24"^^xsd:date ;
+    rdfs:subClassOf nuva:VAC1116 ;
+    skos:notation "1554"^^nuva:NUVACode,
+        "VAC1554"^^xsd:string .
+
+nuva:VAC1556 a owl:Class ;
+    rdfs:label "TG4050" ;
+    nuvs:isAbstract false ;
+    dcterms:created "2026-09-23"^^xsd:date ;
+    dcterms:modified "2026-09-24"^^xsd:date ;
+    rdfs:subClassOf nuva:VAC1555 ;
+    skos:notation "1556"^^nuva:NUVACode,
+        "VAC1556"^^xsd:string .
+
 nuva:VAL120 a owl:Class ;
     rdfs:label "Meningococcal valence, polyvalent, unconjugated polysaccharide"@en ;
     dcterms:created "2021-10-26"^^xsd:date ;
@@ -10778,16 +10806,6 @@ nuva:Code a owl:Class ;
     owl:disjointWith nuva:Disease,
         nuva:Vaccine,
         nuva:Valence .
-
-nuva:VAC0000 a owl:Class ;
-    rdfs:label "#Orphans"@en ;
-    nuvs:containsValence nuva:VAL000 ;
-    nuvs:isAbstract true ;
-    dcterms:created "2026-09-10"^^xsd:date ;
-    dcterms:modified "2026-09-10"^^xsd:date ;
-    rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "0000"^^nuva:NUVACode,
-        "VAC0000"^^xsd:string .
 
 nuva:VAC0146 a owl:Class ;
     rdfs:label "Japanese Encephalitis live attenuated vaccine 14-14-2 strain, unspecified"@en ;
@@ -12571,6 +12589,30 @@ nuva:VAC1552 a owl:Class ;
     skos:notation "1552"^^nuva:NUVACode,
         "VAC1552"^^xsd:string .
 
+nuva:VAC1553 a owl:Class ;
+    rdfs:label "Urinary tract infections vaccine, Escherichia coli, Klebsiella pneumoniæ, Enterococcus fæcalis, Morganella morganii, Proteus mirabilis"@en ;
+    nuvs:containsValence nuva:VAL341,
+        nuva:VAL342,
+        nuva:VAL343,
+        nuva:VAL446,
+        nuva:VAL447 ;
+    nuvs:isAbstract true ;
+    dcterms:created "2026-09-23"^^xsd:date ;
+    dcterms:modified "2026-09-24"^^xsd:date ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "1553"^^nuva:NUVACode,
+        "VAC1553"^^xsd:string .
+
+nuva:VAC1555 a owl:Class ;
+    rdfs:label "Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified"@en ;
+    nuvs:containsValence nuva:VAL450 ;
+    nuvs:isAbstract true ;
+    dcterms:created "2026-09-23"^^xsd:date ;
+    dcterms:modified "2026-09-24"^^xsd:date ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "1555"^^nuva:NUVACode,
+        "VAC1555"^^xsd:string .
+
 nuva:VAL000 a owl:Class ;
     rdfs:label "Parent for deprecated valences"@en ;
     dcterms:created "2026-09-10"^^xsd:date ;
@@ -12758,8 +12800,8 @@ nuva:VAL054 a owl:Class ;
 nuva:VAL055 a owl:Class ;
     rdfs:label "Measles valence, immunoglobulin"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2026-09-12"^^xsd:date ;
-    rdfs:subClassOf nuva:Valence ;
+    dcterms:modified "2026-09-24"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL447 ;
     skos:altLabel "MEAS-Ig"@en ;
     skos:notation "VAL055"^^xsd:string .
 
@@ -13118,8 +13160,8 @@ nuva:VAL147 a owl:Class ;
 nuva:VAL148 a owl:Class ;
     rdfs:label "RSV valence, immunoglobulin"@en ;
     dcterms:created "2022-02-23"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL317 ;
+    dcterms:modified "2026-09-24"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL338 ;
     skos:altLabel "RSV-IG"@en ;
     skos:notation "VAL148"^^xsd:string .
 
@@ -13574,8 +13616,8 @@ nuva:VAL292 a owl:Class ;
 nuva:VAL293 a owl:Class ;
     rdfs:label "Anthrax immunoglobulin valence"@en ;
     dcterms:created "2022-05-18"^^xsd:date ;
-    dcterms:modified "2026-09-12"^^xsd:date ;
-    rdfs:subClassOf nuva:Valence ;
+    dcterms:modified "2026-09-24"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL340 ;
     skos:altLabel "Anthrax-Ig"@en ;
     skos:notation "VAL293"^^xsd:string .
 
@@ -13690,6 +13732,14 @@ nuva:VAL316 a owl:Class ;
     rdfs:subClassOf nuva:VAL318 ;
     skos:altLabel "RSV-PreF3"@en ;
     skos:notation "VAL316"^^xsd:string .
+
+nuva:VAL317 a owl:Class ;
+    rdfs:label "RSV valence, antibody, unspecified"@en ;
+    dcterms:created "2023-05-14"^^xsd:date ;
+    dcterms:modified "2026-09-24"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL447 ;
+    skos:altLabel "RSV-Ab"@en ;
+    skos:notation "VAL317"^^xsd:string .
 
 nuva:VAL319 a owl:Class ;
     rdfs:label "COVID-19 valence, non-replicating adenoviral vector encoding the SARS-CoV-2 spike protein, inhalation vaccine, unspecified"@en ;
@@ -13827,30 +13877,6 @@ nuva:VAL337 a owl:Class ;
     skos:altLabel "POX-Ig"@en ;
     skos:notation "VAL337"^^xsd:string .
 
-nuva:VAL341 a owl:Class ;
-    rdfs:label "Escherichia coli valence, unspecified"@en ;
-    dcterms:created "2024-04-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL345 ;
-    skos:altLabel "Eco"@en ;
-    skos:notation "VAL341"^^xsd:string .
-
-nuva:VAL342 a owl:Class ;
-    rdfs:label "Klebsiella pneumoniæ valence, unspecified"@en ;
-    dcterms:created "2024-04-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL345 ;
-    skos:altLabel "Kpn"@en ;
-    skos:notation "VAL342"^^xsd:string .
-
-nuva:VAL343 a owl:Class ;
-    rdfs:label "Enterococcus faecalis valence, unspecified"@en ;
-    dcterms:created "2024-04-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL345 ;
-    skos:altLabel "Efa"@en ;
-    skos:notation "VAL343"^^xsd:string .
-
 nuva:VAL344 a owl:Class ;
     rdfs:label "Proteus vulgaris valence, unspecified"@en ;
     dcterms:created "2024-04-19"^^xsd:date ;
@@ -13870,16 +13896,16 @@ nuva:VAL346 a owl:Class ;
 nuva:VAL347 a owl:Class ;
     rdfs:label "Leptospira canicola valence, inactivated, whole-cell"@en ;
     dcterms:created "2024-04-26"^^xsd:date ;
-    dcterms:modified "2026-09-12"^^xsd:date ;
-    rdfs:subClassOf nuva:Valence ;
+    dcterms:modified "2026-09-24"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL448 ;
     skos:altLabel "Lepto-ca"@en ;
     skos:notation "VAL347"^^xsd:string .
 
 nuva:VAL348 a owl:Class ;
     rdfs:label "Leptospira pomona valence, inactivated whole-cell"@en ;
     dcterms:created "2024-04-26"^^xsd:date ;
-    dcterms:modified "2026-09-12"^^xsd:date ;
-    rdfs:subClassOf nuva:Valence ;
+    dcterms:modified "2026-09-24"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL448 ;
     skos:altLabel "Lepto-po"@en ;
     skos:notation "VAL348"^^xsd:string .
 
@@ -13954,14 +13980,6 @@ nuva:VAL363 a owl:Class ;
     rdfs:subClassOf nuva:VAL029 ;
     skos:altLabel "INF-VLP3"@en ;
     skos:notation "VAL363"^^xsd:string .
-
-nuva:VAL366 a owl:Class ;
-    rdfs:label "Influenza valence, RNA-based, unspecified"@en ;
-    dcterms:created "2024-07-08"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL128 ;
-    skos:altLabel "INF-RNA"@en ;
-    skos:notation "VAL366"^^xsd:string .
 
 nuva:VAL368 a owl:Class ;
     rdfs:label "Cholera valence, V. cholerae O139, inactivated, whole-cell, oral"@en ;
@@ -14442,6 +14460,30 @@ nuva:VAL445 a owl:Class ;
     rdfs:subClassOf nuva:VAL002 ;
     skos:altLabel "Ty-ViC-D"@en ;
     skos:notation "VAL445"^^xsd:string .
+
+nuva:VAL446 a owl:Class ;
+    rdfs:label "Morganella morganii valence, unspecified"@en ;
+    dcterms:created "2026-09-15"^^xsd:date ;
+    dcterms:modified "2026-09-24"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL345 ;
+    skos:altLabel "Mmo"@en ;
+    skos:notation "VAL446"^^xsd:string .
+
+nuva:VAL449 a owl:Class ;
+    rdfs:label "Influenza valence, RNA-based, trivalent, unspecified"@en ;
+    dcterms:created "2026-09-22"^^xsd:date ;
+    dcterms:modified "2026-09-24"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL366 ;
+    skos:altLabel "Inf-RNA3"@en ;
+    skos:notation "VAL449"^^xsd:string .
+
+nuva:VAL450 a owl:Class ;
+    rdfs:label "Non-HPV-related squamous cell carcinomas of the head and neck valence, unspecified"@en ;
+    dcterms:created "2026-09-23"^^xsd:date ;
+    dcterms:modified "2026-09-24"^^xsd:date ;
+    rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "HNSCC-HPVneg"@en ;
+    skos:notation "VAL450"^^xsd:string .
 
 nuvs:containsValence a owl:ObjectProperty ;
     rdfs:domain nuva:Vaccine ;
@@ -15100,8 +15142,8 @@ nuva:VAL072 a owl:Class ;
 nuva:VAL075 a owl:Class ;
     rdfs:label "Leptospira icterohaemorrhagiae valence, inactivated, whole-cell"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2026-09-12"^^xsd:date ;
-    rdfs:subClassOf nuva:Valence ;
+    dcterms:modified "2026-09-24"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL448 ;
     skos:altLabel "Lepto-wI"@en ;
     skos:notation "VAL075"^^xsd:string .
 
@@ -15353,14 +15395,6 @@ nuva:VAL313 a owl:Class ;
     skos:altLabel "TBE-Neudorfl"@en ;
     skos:notation "VAL313"^^xsd:string .
 
-nuva:VAL317 a owl:Class ;
-    rdfs:label "RSV valence, antibody, unspecified"@en ;
-    dcterms:created "2023-05-14"^^xsd:date ;
-    dcterms:modified "2026-09-12"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL338 ;
-    skos:altLabel "RSV-Ab"@en ;
-    skos:notation "VAL317"^^xsd:string .
-
 nuva:VAL334 a owl:Class ;
     rdfs:label "Melanoma valence, unspecified"@en ;
     dcterms:created "2024-03-18"^^xsd:date ;
@@ -15377,13 +15411,29 @@ nuva:VAL339 a owl:Class ;
     skos:altLabel "Lyme"@en ;
     skos:notation "VAL339"^^xsd:string .
 
-nuva:VAL340 a owl:Class ;
-    rdfs:label "Anthrax valence, unspecified"@en ;
-    dcterms:created "2024-03-26"^^xsd:date ;
-    dcterms:modified "2026-09-12"^^xsd:date ;
-    rdfs:subClassOf nuva:Valence ;
-    skos:altLabel "Anthrax"@en ;
-    skos:notation "VAL340"^^xsd:string .
+nuva:VAL341 a owl:Class ;
+    rdfs:label "Escherichia coli valence, unspecified"@en ;
+    dcterms:created "2024-04-19"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL345 ;
+    skos:altLabel "Eco"@en ;
+    skos:notation "VAL341"^^xsd:string .
+
+nuva:VAL342 a owl:Class ;
+    rdfs:label "Klebsiella pneumoniæ valence, unspecified"@en ;
+    dcterms:created "2024-04-19"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL345 ;
+    skos:altLabel "Kpn"@en ;
+    skos:notation "VAL342"^^xsd:string .
+
+nuva:VAL343 a owl:Class ;
+    rdfs:label "Enterococcus faecalis valence, unspecified"@en ;
+    dcterms:created "2024-04-19"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL345 ;
+    skos:altLabel "Efa"@en ;
+    skos:notation "VAL343"^^xsd:string .
 
 nuva:VAL354 a owl:Class ;
     rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 9N"@en ;
@@ -15433,6 +15483,14 @@ nuva:VAL365 a owl:Class ;
     skos:altLabel "INF-E"@en ;
     skos:notation "VAL365"^^xsd:string .
 
+nuva:VAL366 a owl:Class ;
+    rdfs:label "Influenza valence, RNA-based, unspecified"@en ;
+    dcterms:created "2024-07-08"^^xsd:date ;
+    dcterms:modified "2025-04-29"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL128 ;
+    skos:altLabel "INF-RNA"@en ;
+    skos:notation "VAL366"^^xsd:string .
+
 nuva:VAL367 a owl:Class ;
     rdfs:label "Cholera valence, V. cholerae O1, inactivated, whole-cell, oral"@en ;
     dcterms:created "2024-07-29"^^xsd:date ;
@@ -15450,17 +15508,17 @@ nuva:VAL414 a owl:Class ;
     skos:notation "VAL414"^^xsd:string .
 
 nuva:VAL418 a owl:Class ;
-    rdfs:label "Smallpox valence, active or passive immunization products"@en ;
+    rdfs:label "Smallpox valence, unspecified"@en ;
     dcterms:created "2025-04-29"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-09-24"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
     skos:altLabel "POX"@en ;
     skos:notation "VAL418"^^xsd:string .
 
 nuva:VAL419 a owl:Class ;
-    rdfs:label "Botulism valence, active or passive immunization products"@en ;
+    rdfs:label "Botulism valence, unspecified"@en ;
     dcterms:created "2025-04-29"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-09-24"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
     skos:altLabel "BOT"@en ;
     skos:notation "VAL419"^^xsd:string .
@@ -16126,12 +16184,20 @@ nuva:VAL312 a owl:Class ;
     skos:notation "VAL312"^^xsd:string .
 
 nuva:VAL338 a owl:Class ;
-    rdfs:label "RSV valence, antibody or vaccine, unspecified"@en ;
+    rdfs:label "RSV valence, unspecified"@en ;
     dcterms:created "2024-03-18"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-09-24"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
     skos:altLabel "RSV"@en ;
     skos:notation "VAL338"^^xsd:string .
+
+nuva:VAL340 a owl:Class ;
+    rdfs:label "Anthrax valence, unspecified"@en ;
+    dcterms:created "2024-03-26"^^xsd:date ;
+    dcterms:modified "2026-09-12"^^xsd:date ;
+    rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Anthrax"@en ;
+    skos:notation "VAL340"^^xsd:string .
 
 nuva:VAL359 a owl:Class ;
     rdfs:label "Cholera valence, inactivated, whole-cell, unspecified"@en ;
@@ -16164,6 +16230,22 @@ nuva:VAL406 a owl:Class ;
     rdfs:subClassOf nuva:VAL395 ;
     skos:altLabel "COVID-mRNA-S-OMI-KP.2"@en ;
     skos:notation "VAL406"^^xsd:string .
+
+nuva:VAL447 a owl:Class ;
+    rdfs:label "Proteus mirabilis valence, unspecified"@en ;
+    dcterms:created "2026-09-15"^^xsd:date ;
+    dcterms:modified "2026-09-24"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL345 ;
+    skos:altLabel "Pmi"@en ;
+    skos:notation "VAL447"^^xsd:string .
+
+nuva:VAL448 a owl:Class ;
+    rdfs:label "Leptospira valence, unspecified"@en ;
+    dcterms:created "2026-09-16"^^xsd:date ;
+    dcterms:modified "2026-09-24"^^xsd:date ;
+    rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "Lepto"@en ;
+    skos:notation "VAL448"^^xsd:string .
 
 nuva:VAC0102 a owl:Class ;
     rdfs:label "Hepatitis A inactivated vaccine, unspecified"@en ;
@@ -16638,14 +16720,6 @@ nuva:VAL320 a owl:Class ;
     skos:altLabel "RSV-mAb"@en ;
     skos:notation "VAL320"^^xsd:string .
 
-nuva:VAL345 a owl:Class ;
-    rdfs:label "Urinary tract infections valence, unspecified"@en ;
-    dcterms:created "2024-04-24"^^xsd:date ;
-    dcterms:modified "2026-09-12"^^xsd:date ;
-    rdfs:subClassOf nuva:Valence ;
-    skos:altLabel "UTI"@en ;
-    skos:notation "VAL345"^^xsd:string .
-
 nuva:VAL393 a owl:Class ;
     rdfs:label "COVID-19 valence, Omicron BA.1 variant, mRNA encoding the SARS-CoV-2 spike protein"@en ;
     dcterms:created "2025-02-28"^^xsd:date ;
@@ -17103,6 +17177,14 @@ nuva:VAL266 a owl:Class ;
     skos:altLabel "MCV-C-T"@en ;
     skos:notation "VAL266"^^xsd:string .
 
+nuva:VAL345 a owl:Class ;
+    rdfs:label "Urinary tract infections valence, unspecified"@en ;
+    dcterms:created "2024-04-24"^^xsd:date ;
+    dcterms:modified "2026-09-12"^^xsd:date ;
+    rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "UTI"@en ;
+    skos:notation "VAL345"^^xsd:string .
+
 nuva:VAL395 a owl:Class ;
     rdfs:label "COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein"@en ;
     dcterms:created "2025-02-28"^^xsd:date ;
@@ -17412,16 +17494,6 @@ nuva:VAC1115 a owl:Class ;
     skos:notation "1115"^^nuva:NUVACode,
         "VAC1115"^^xsd:string .
 
-nuva:VAC1116 a owl:Class ;
-    rdfs:label "Rabies vaccine, whole inactivated, prepared in Vero cell culture, unspecified"@en ;
-    nuvs:containsValence nuva:VAL260 ;
-    nuvs:isAbstract true ;
-    dcterms:created "2024-06-05"^^xsd:date ;
-    dcterms:modified "2024-06-06"^^xsd:date ;
-    rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "1116"^^nuva:NUVACode,
-        "VAC1116"^^xsd:string .
-
 nuva:VAC1124 a owl:Class ;
     rdfs:label "COVID-19 inactivated vaccine, whole virus, in clinical trial, unspecified"@en ;
     nuvs:containsValence nuva:VAL265 ;
@@ -17485,6 +17557,16 @@ nuva:VAC0320 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "0320"^^nuva:NUVACode,
         "VAC0320"^^xsd:string .
+
+nuva:VAC1116 a owl:Class ;
+    rdfs:label "Rabies vaccine, whole inactivated, prepared in Vero cell culture, unspecified"@en ;
+    nuvs:containsValence nuva:VAL260 ;
+    nuvs:isAbstract true ;
+    dcterms:created "2024-06-05"^^xsd:date ;
+    dcterms:modified "2024-06-06"^^xsd:date ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "1116"^^nuva:NUVACode,
+        "VAC1116"^^xsd:string .
 
 nuva:VAC0602 a owl:Class ;
     rdfs:label "DTaP - Diphtheria-Tetanus-Pertussis vaccine, standard dose, unspecified"@en ;
