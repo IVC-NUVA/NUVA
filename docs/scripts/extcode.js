@@ -112,9 +112,6 @@ function parseCSV(text) {
 	return {"CSID": myCSID, "code2nuva": code2nuva, "nuva2code": nuva2code, "refcode2nuva": refcode2nuva}
 }
 
-function codeChanged(idcode){
-	return (CSData.code2nuva[idcode].nuvaCode != CSData.refcode2nuva[idcode])
-}
 function showCodes() {
 	table = document.getElementById("tcodes")
 	table.innerHTML = ""
@@ -129,7 +126,11 @@ function showCodes() {
 		codeLabel = CSData.code2nuva[code].label
 		if (code == context.currentCode) {row.style.backgroundColor='#95ADC5'}
 		nuvaCode = CSData.code2nuva[code].nuvaCode
-		if (nuvaCode != CSData.refcode2nuva[code]) {row.style.fontWeight = 'bold'}
+		if (nuvaCode != CSData.refcode2nuva[code]) {
+			changed = true
+			row.style.fontWeight = 'bold'
+			} else changed = false
+			
 		if (nuvaCode in vaccines) {nuvaLabel = vaccines[nuvaCode].label} else {nuvaLabel = ""}
 		codeCell = row.insertCell(-1)
 		codeCell.innerHTML = code
@@ -140,7 +141,8 @@ function showCodes() {
 		foundText = (filterText == '')		
 		if ((code.includes(filterText))|| (codeLabel.toUpperCase().includes(filterText)) ||
 		   (nuvaCode.includes(filterText)) || (nuvaLabel.toUpperCase().includes(filterText))) foundText = true
-		row.style.display = (foundText?'table-row':'none')
+	   if (context.changedOnly == false) changed = true	   
+		row.style.display = (foundText && changed ?'table-row':'none')
 	}
 }
 

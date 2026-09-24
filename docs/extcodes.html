@@ -19,7 +19,10 @@
     <li><a href="files.html">Files</a></li>	
   </ul>
  <h3>Filter</h3>
- <input id='filterText' type = "text" style="margin:6px" oninput="showCodes()">  
+ <input id='filterText' type = "text" oninput="showCodes()">  
+ <div class='item'>Changed only: 
+ <input type='checkbox' id='changedOnly' onchange='setChangedOnly()'>
+ </div> 
 <h3>Current vaccine</h3>
 <div id='idvac'></div> 
 <h3>Current code</h3>
