@@ -1,6 +1,5 @@
-reCSV = new RegExp('(".*?"|[^",]+)(?=\s*,|\s*$)','g')
-reLabel = new RegExp('^(?:(?:"((?:""|[^"])+)"|([^,]*))(?:$|,))+$')
 
+reCSV = new RegExp('(".*?"|[^",]+)(?=\s*,|\s*$)','g')
 reNUVA = new RegExp("(^VAC\\d{4}|#NA|#MISS)")
 
 const voidCSData = {'CSID': null, code2nuva:{}, nuva2code: {}, refcode2nuva: {}}

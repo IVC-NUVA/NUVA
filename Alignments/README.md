@@ -43,6 +43,9 @@ https://basededonneesdesmedicaments.be/download/human/packs
 
 Rows without a CNK correspond to products that are not distributed in Belgium, but are identified with a CTI Extended code.
 
+Source Authentique des Médicaments (SAM)
+https://www.vas.ehealth.fgov.be/websamcivics/samcivics/
+
 ## CODE_NATIONAL_SPAIN (Spain)
 This is the national pharmaceutical code for products authorized in Spain,managed by the Spanish Agency for Medications and Health Products (AEMPS). 
 

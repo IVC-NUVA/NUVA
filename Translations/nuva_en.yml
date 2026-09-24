@@ -1520,7 +1520,7 @@
     VAC0957C: Live attenuated tuberculosis vaccine
     VAC0958C: Trivalent inactivated seasonal influenza vaccine, egg-based, surface
       antigen
-    VAC0959C: Unconjugated pneumococcal polysaccharide vaccine, 23-valent, serotypes
+    VAC0959C: Pneumococcal unconjugated polysaccharide vaccine, 23-valent, serotypes
       1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F,
       20, 22F, 23F and 33F
     VAC0960C: Hepatitis A (inactivated, adsorbed) and typhoid vaccine (polysaccharide)
@@ -2343,9 +2343,6 @@
     VAC1400C: Inactivated polio (trivalent) vaccine
     VAC1401C: Human Papillomavirus vaccine, nonavalent (types 6, 11, 16, 18, 31, 33,
       45, 52, and 58), recombinant
-    VAC1402C: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole
-      cell), Haemophilus influenzae type b (conjugated to tetanus toxoid), inactivated
-      polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed
     VAC1403C: "Vaccin p\xE9diatrique dipht\xE9rique (anatoxine, dose standard), t\xE9\
       tanique (anatoxine), coquelucheux (entier, dose standard), h\xE9patite B et\
       \ anti-Haemophilus influenzae type b (conjugu\xE9 \xE0 l'anatoxine t\xE9tanique)"
@@ -2429,8 +2426,6 @@
     VAC1450C: Recombinant hepatitis B vaccine, adult dose
     VAC1451C: Trivalent inactivated seasonal influenza vaccine, split virion
     VAC1452C: Recombinant hepatitis B vaccine, three antigens (HbS, pre-S1 and pre-S2)
-    VAC1454C: Diphtheria vaccine (anatoxin, standard dose), tetanus vaccine (anatoxin)
-      and hepatitis B vaccine
     VAC1455C: Unconjugated meningococcal polysaccharide vaccine, serogroups A and
       C
     VAC1456C: Whole virion inactivated rabies vaccine, prepared in MRC5 cells
@@ -2444,9 +2439,6 @@
       (toxoid) and pertussis vaccine (whole inactivated)
     VAC1461C: Paediatric diphtheria vaccine (toxoid, standard dose) and tetanus vaccine
       (toxoid)
-    VAC1462C: Unconjugated pneumococcal polysaccharide vaccine, 23-valent, serotypes
-      1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F,
-      20, 22F, 23F and 33F
     VAC1463C: Tuberculosis vaccine
     VAC1464C: Seasonal influenza vaccine, whole inactivated
     VAC1465C: Paediatric diphtheria vaccine (toxoid, standard dose) and pertussis
@@ -2466,8 +2458,6 @@
       clesrovimab, unspecified
     VAC1476L: Meningococcal vaccine against A, C, W, Y (conjugated polysaccharide)
       and B
-    VAC1477C: Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain,
-      0,25 mL
     VAC1478C: hRSV monoclonal antibody
     VAC1479C: Pertussis vaccine (recombinant, acellular, reduced-dose, bivalent, adsorbed).
     VAC1480C: Unconjugated pneumococcal polysaccharide vaccine, 23-valent, serotypes
@@ -2553,6 +2543,25 @@
     VAC1541L: Influenza quadrivalent inactivated vaccine, split or subunit, unspecified
     VAC1542L: Typhoid conjugate to diphtheria toxoid vaccine, unspecified
     VAC1543L: Malaria vaccine
+    VAC1544L: Dengue vaccine, live-attenuated, recombinant chimeric, quadrivalent
+      against the four serotypes (DEN-1, DEN-2, DEN-3 and DEN-4)
+    VAC1545L: COVID-19 vaccine, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2
+      spike protein, 25 micrograms
+    VAC1546L: COVID-19 vaccine, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2
+      spike protein, 50 micrograms.
+    VAC1547L: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole
+      cell), Haemophilus influenzae type b (conjugated to tetanus toxoid), inactivated
+      polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed
+    VAC1548L: Influenza vaccine, RNA-based, trivalent, unspecified
+    VAC1549L: Diphtheria vaccine (toxoid, standard dose) and pertussis (whole-cell
+      inactivated), paediatric
+    VAC1550L: Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain,
+      0,25 mL
+    VAC1551L: Pneumococcal unconjugated polysaccharide vaccine, 23-valent, serotypes
+      1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F,
+      20, 22F, 23F and 33F
+    VAC1552L: Diphtheria vaccine (anatoxin, standard dose), tetanus vaccine (anatoxin)
+      and hepatitis B vaccine
   valence:
     VAL000L: Parent for deprecated valences
     VAL000S: ZZZ
