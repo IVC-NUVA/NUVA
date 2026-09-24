@@ -48,12 +48,15 @@ Valences that are not compatible with the filter are hidden.
 - toggleFold toggles the folded/unfolded lists when a valence line is clicked
  */
 var extvalences={}
+var filterText = ""
 
 	
 function showValences() {
 	rebuildValences()
     lpos = document.getElementById('lval')
 	lpos.innerHTML = ""
+	filterText = document.getElementById('filterText').value.toUpperCase()
+	matches = []
 	list = showChildren(idRoot,false)
 	lval.appendChild(list.lines)
 	updateTicks()
@@ -61,6 +64,10 @@ function showValences() {
 
 function filterMatch (idval) {
 	if (context.changedOnly && ! extvalences[idval].changed) return false
+	if (!(idval.includes(filterText)) &&
+	    !(valences[idval].shorthand.toUpperCase().includes(filterText)) &&
+		!(valences[idval].label.toUpperCase().includes(filterText))) return false
+		
 	if (context.filter.length == 0) return true
 	return context.filter.includes (idval)
 }
