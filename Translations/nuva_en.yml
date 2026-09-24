@@ -2493,7 +2493,6 @@
       Omicron LP.8.1 subvariant
     VAC1504C: Diphtheria toxoid (low dose) and tetanus toxoid vaccine
     VAC1505C: COVID-19 protein subunit vaccine, recombinant protein
-    VAC1506C: Urinary tract infections vaccine, unspecified
     VAC1507C: Live-attenuated, recombinant chimeric, quadrivalent vaccine against
       the four serotypes (DEN-1, DEN-2, DEN-3 and DEN-4) of the dengue virus
     VAC1508C: Inactivated hepatitis A vaccine
@@ -2562,6 +2561,12 @@
       20, 22F, 23F and 33F
     VAC1552L: Diphtheria vaccine (anatoxin, standard dose), tetanus vaccine (anatoxin)
       and hepatitis B vaccine
+    VAC1553L: "Urinary tract infections vaccine, Escherichia coli, Klebsiella pneumoni\xE6\
+      , Enterococcus f\xE6calis, Morganella morganii, Proteus mirabilis"
+    VAC1554C: "Whole inactivated rabies vaccine, prepared in Vero cell culture (PVRV),\
+      \ Wistar strain, inactivation by \xDF-propiolactone"
+    VAC1555L: Non-HPV-related squamous cell carcinomas of the head and neck vaccine,
+      unspecified
   valence:
     VAL000L: Parent for deprecated valences
     VAL000S: ZZZ
@@ -3329,7 +3334,7 @@
     VAL336S: RVF
     VAL337L: Smallpox valence, immunoglobulin
     VAL337S: POX-Ig
-    VAL338L: RSV valence, antibody or vaccine, unspecified
+    VAL338L: RSV valence, unspecified
     VAL338S: RSV
     VAL339L: Borrelia burgdorferi valence, unspecified
     VAL339S: Lyme
@@ -3515,9 +3520,9 @@
     VAL417L: COVID-19 valence, Omicron BA.2 variant, mRNA encoding the SARS-CoV-2
       spike protein
     VAL417S: COVID-mRNA-S-OMI-BA.2
-    VAL418L: Smallpox valence, active or passive immunization products
+    VAL418L: Smallpox valence, unspecified
     VAL418S: POX
-    VAL419L: Botulism valence, active or passive immunization products
+    VAL419L: Botulism valence, unspecified
     VAL419S: BOT
     VAL420L: Botulism valence, passive immunization products
     VAL420S: BOT-passive
@@ -3586,3 +3591,14 @@
     VAL444S: Covid-SP-rRBD-XFG
     VAL445L: Typhoid valence, Vi antigen conjugated to diphtheria toxoid
     VAL445S: Ty-ViC-D
+    VAL446L: Morganella morganii valence, unspecified
+    VAL446S: Vaccine
+    VAL447L: Proteus mirabilis valence, unspecified
+    VAL447S: Pmi
+    VAL448L: Leptospira valence, unspecified
+    VAL448S: Lepto
+    VAL449L: Influenza valence, RNA-based, trivalent, unspecified
+    VAL449S: Inf-RNA3
+    VAL450L: Non-HPV-related squamous cell carcinomas of the head and neck valence,
+      unspecified
+    VAL450S: HNSCC-HPVneg

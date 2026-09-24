@@ -1,6 +1,7 @@
 const idRoot = "Valence"
 const voidContext = {
-	'version': null, 'selectedValences': [], 'filter': [], 'selectedAbstract': null, 
+	'version': null, 'selectedValences': [], 'filter': [], 'changedOnly': false,
+	'selectedAbstract': null, 
     'currentVaccine': null, 'currentValence': null, 'currentCode': null}
 
 var vaccines
@@ -12,13 +13,18 @@ var context = voidContext
 var loglines = []
 var logTimer = null
 
-
-function today() {
-    return (new Date().toISOString().substring(0, 10))
+function now() {	
+	date = new(Date)
+	year = date.getFullYear()
+	month = (date.getMonth()+1).toString().padStart(2,'0')
+	day = date.getDate().toString().padStart(2,'0')
+	hour = date.getHours().toString().padStart(2,'0')
+	min = date.getMinutes().toString().padStart(2,'0')
+	return year+'-'+month+'-'+day+'-'+hour+min
 }
 
-function now() {
-	return new Date().toISOString().substring(0,19).replaceAll(':','')
+function today() {
+    return now().substring(0, 10)
 }
 
 function focus(elem) {
@@ -122,6 +128,11 @@ function setContext(key,value) {
 	showSidebar()
 }
 
+function setChangedOnly() {
+	setContext('changedOnly',document.getElementById('changedOnly').checked)
+	refresh()
+}
+
 /* Selected Valences 
 - toggleSelection is triggered either from a valence tag (vaccines view)
   or a valence checkbox (valences view).
@@ -199,6 +210,7 @@ function clearFilter() {
 }
 
 function showFilter() {
+	document.getElementById('changedOnly').checked = context.changedOnly	
     filplace = document.getElementById("filter")
 	filplace.innerHTML = ""
 	for (idval of context.filter) {

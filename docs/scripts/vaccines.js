@@ -30,8 +30,9 @@ function showVaccines() {
 	classes = Object.values(abstractVaccines).sort(sortByVacLabel)
 	
 	loopvac:for (idvac of classes) {	
-		hidden = false
-		foundText = (filterText == '')
+		var hidden = false
+		var foundText = (filterText == '')
+		var foundChange = (context.changedOnly == false)
 		
 		if (idvac.includes(filterText)) foundText = true		
 		
@@ -41,6 +42,8 @@ function showVaccines() {
 				if (!(extvaccines[idvac].implicit.includes(filval))) hidden = true
 			}
 		}
+		if (extvaccines[idvac].changed) foundChange = true
+		
 		vaccine = vaccines[idvac]		
 		extvaccine = extvaccines[idvac]
 		if (vaccine.label.toUpperCase().includes(filterText)) foundText = true
@@ -74,14 +77,17 @@ function showVaccines() {
 			childLabel.innerHTML = vaccines[idchild].label
 			if (idchild.includes(filterText)) foundText = true
 			if (vaccines[idchild].label.toUpperCase().includes(filterText)) foundText = true
-			if (extvaccines[idchild].changed)
+			if (extvaccines[idchild].changed) {
 				childLabel.style.fontWeight = 'bold'
+				foundChange = true
+			}
 			vdesc.appendChild(childLabel)
 			instancesCell.appendChild(vdesc)
 			if (idchild == context.currentVaccine) {row.style.backgroundColor='#95ADC5'}			
 		}
 		
 		if (!foundText) hidden = true
+		if (!foundChange) hidden = true
 		row.style.display = (hidden?'none':'table-row')
 	
 	}

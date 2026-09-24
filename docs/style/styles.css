@@ -47,7 +47,12 @@ body {
   color: white;
 }
 
-.version {
+.sidebar .item {
+  color: #bdc3c7;	
+  margin-bottom: 5px;	
+}
+
+.sidebar .version {
 	color: #bdc3c7;
 	font-style: italic;
 	position: absolute;

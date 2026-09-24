@@ -16,8 +16,11 @@
     <li><a href="extcodes.html">Code Systems</a></li>		
     <li><a href="files.html">Files</a></li>	
   </ul>
- <h3>Filter</h3>
- <input id='filterText' type = "text" style="margin:6px" oninput="showVaccines()">
+ <h3>Filter</h3> 
+ <input id='filterText' oninput="showVaccines()">
+ <div class='item'>Changed only: 
+ <input type='checkbox' id='changedOnly' onchange='setChangedOnly()'>
+ </div> 
   <div style = 'height:10vh; overflow:scroll;'>
  <ul id=filter></ul>
  </div>

@@ -47,37 +47,42 @@ Valences that are not compatible with the filter are hidden.
 
 - toggleFold toggles the folded/unfolded lists when a valence line is clicked
  */
- var extvalences={}
+var extvalences={}
 
 	
 function showValences() {
 	rebuildValences()
     lpos = document.getElementById('lval')
 	lpos.innerHTML = ""
-	list = showChildren(idRoot)
-	lval.appendChild(list)
+	list = showChildren(idRoot,false)
+	lval.appendChild(list.lines)
 	updateTicks()
 }
 
-function showChildren(idval) {
+function filterMatch (idval) {
+	if (context.changedOnly && ! extvalences[idval].changed) return false
+	if (context.filter.length == 0) return true
+	return context.filter.includes (idval)
+}
+
+function showChildren(idval, parentMatch) {
     var list = document.createElement("ul")
 	var children = extvalences[idval].children
 
 	children.sort(sortByValShortHand)
+	var anyMatch = false
 
-	for (child of children) {
+	for (var child of children) {
 		var vchild = valences[child]
-		var hidden = false
-		if (context.filter.length != 0) {
-			hidden = true
-			for (filterval of context.filter) {
-				if ((filterval == child) ||
-					(extvalences[filterval].lineage.includes(child)) ||
-					(extvalences[child].lineage.includes(filterval))) {
-					hidden = false
-				}
-			}
-		}
+
+		var valMatch = false
+		/* A valence is presented if:
+		   - it matches the filters OR
+		   - one if its ascendants matches the filters OR
+		   - one of its descendants matches the filter
+		*/
+		if (filterMatch(child)) { anyMatch = true; valMatch = true}
+				
 		var item = document.createElement("li")
 		var s1 = document.createElement("span")
 		s1.id = child
@@ -99,19 +104,24 @@ function showChildren(idval) {
 		} else {
 			s1.className = 'folded'
 			s1.onclick = toggleFold
-			item.appendChild(showChildren(child))
+			subChildren = showChildren(child, valMatch||parentMatch)
+			item.appendChild(subChildren.lines)
+			// A descendant matches the filter ?
+			if (subChildren.match) { anyMatch = true; valMatch = true }
 		}
 
 		list.appendChild(item)
-		if (hidden) {
-			item.style.display = 'none'
-		} else {
+
+		if (valMatch ||parentMatch ) {
 			item.style.display = 'block'
+		} else {
+			item.style.display = 'none'
 		}
 		
 	}
-	return list
+	return {'lines': list, 'match': anyMatch }
 }
+
 function valUnfold(idval) {
 	curval = valences[idval].parent
 	while(curval != idRoot) {
