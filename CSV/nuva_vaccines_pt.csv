@@ -882,7 +882,7 @@ VAC0955,PULMOVAX,"Unconjugated pneumococcal polysaccharide vaccine, 23-valent, s
 VAC0956,VACCINO COLERICO BERNA,Inactivated whole-cell cholera vaccine for injection,False,VAC0805
 VAC0957,VACCINO BCG BERNA,Live attenuated tuberculosis vaccine,False,VAC0134
 VAC0958,ADIUGRIP,"Trivalent inactivated seasonal influenza vaccine, egg-based, surface antigen",False,VAC0925
-VAC0959,STREPTOPUR,"Unconjugated pneumococcal polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F",False,VAC0339
+VAC0959,STREPTOPUR,"Pneumococcal unconjugated polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F",False,VAC0339
 VAC0960,VIATIM,"Hepatitis A (inactivated, adsorbed) and typhoid vaccine (polysaccharide)",False,VAC1114
 VAC0961,ANATOXAL TE N,Tetanus vaccine vaccine,False,VAC0132
 VAC0962,ANATOXAL DI TE N ADULT,Diphtheria toxoid (low dose) and tetanus toxoid vaccine,False,VAC0920
@@ -1325,7 +1325,7 @@ VAC1398,PANFLU.1,"Pandemic influenza A(H1N1)pdm09 vaccine, inactivated",False,VA
 VAC1399,TERTRANFLU,"Quadrivalent inactivated seasonal influenza vaccine, split virion",False,VAC0938
 VAC1400,SHANIPV,Inactivated polio (trivalent) vaccine,False,VAC0270
 VAC1401,9-VALENT HPV VACCINE INNOVAX,"Human Papillomavirus vaccine, nonavalent (types 6, 11, 16, 18, 31, 33, 45, 52, and 58), recombinant",False,VAC0860
-VAC1402,EASYSIX,"Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole cell), Haemophilus influenzae type b (conjugated to tetanus toxoid), inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed",False,VAC0000
+VAC1402,EASYSIX,"Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole cell), Haemophilus influenzae type b (conjugated to tetanus toxoid), inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed",False,VAC1547
 VAC1403,EASYFIVE-TT,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier, dose standard), hépatite B et anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique)",False,VAC1181
 VAC1404,EASYFOUR-TT,"Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell inactivated) and Haemophilus influenzae type b (conjugated to diphtheria toxoid) pediatric vaccine",False,VAC1161
 VAC1405,EASYFOURPOL,"Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, standard dose), Haemophilus influenzae type b (conjugated to tetanus toxoid) and inactivated polio (trivalent) pediatric vaccine, adsorbed",False,VAC1126
@@ -1377,7 +1377,7 @@ VAC1450,HEPACARE,"Recombinant hepatitis B vaccine, adult dose",False,VAC0915
 VAC1451,CHIROFLU,"Trivalent inactivated seasonal influenza vaccine, split virion",False,VAC0925
 VAC1452,SCI-B-VAC,"Recombinant hepatitis B vaccine, three antigens (HbS, pre-S1 and pre-S2)",False,VAC1145
 VAC1453,INVIVAC,"Influenza vaccine, trivalent, virosomal, unspecified",False,VAC1443
-VAC1454,PRIMAVAX,"Diphtheria vaccine (anatoxin, standard dose), tetanus vaccine (anatoxin) and hepatitis B vaccine",False,VAC0000
+VAC1454,PRIMAVAX,"Diphtheria vaccine (anatoxin, standard dose), tetanus vaccine (anatoxin) and hepatitis B vaccine",False,VAC1552
 VAC1455,MENGIVAC A + C,"Unconjugated meningococcal polysaccharide vaccine, serogroups A and C",False,VAC0151
 VAC1456,WYVAC,"Whole virion inactivated rabies vaccine, prepared in MRC5 cells",False,VAC0943
 VAC1457,TETRA-SOLGEN,"Pediatric diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis (whole inactivated), and polio (whole inactivated, trivalent) vaccine",False,VAC1151
@@ -1385,10 +1385,10 @@ VAC1458,TRIDIPIGEN,"Paediatric diphtheria vaccine (toxoid, standard dose), tetan
 VAC1459,TRINFAGEN N0.1,"Diphtheria toxoid (standard dose), tetanus toxoid and inactivated polio (trivalent) pediatric vaccine",False,VAC0088
 VAC1460,SOLGEN,"Paediatric diphtheria vaccine (toxoid, standard dose), tetanus vaccine (toxoid) and pertussis vaccine (whole inactivated)",False,VAC0136
 VAC1461,DIFTET,"Paediatric diphtheria vaccine (toxoid, standard dose) and tetanus vaccine (toxoid)",False,VAC0137
-VAC1462,PNU-IMUNE 14,"Unconjugated pneumococcal polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F",False,VAC0000
+VAC1462,PNU-IMUNE 14,"Pneumococcal unconjugated polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F",False,VAC1551
 VAC1463,FREEZE-DRIED BCG VACCINE JAPAN,Tuberculosis vaccine,False,VAC0134
 VAC1464,FLUBRON VACCINE,"Seasonal influenza vaccine, whole inactivated",False,VAC0820
-VAC1465,PERDIPIGEN,"Paediatric diphtheria vaccine (toxoid, standard dose) and pertussis (whole-cell inactivated)",False,VAC0000
+VAC1465,PERDIPIGEN,"Paediatric diphtheria vaccine (toxoid, standard dose) and pertussis (whole-cell inactivated)",False,VAC1549
 VAC1466,COMIRNATY LP.8.1 30 µg,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 30 micrograms, adult (+ 12 years)",False,VAC1471
 VAC1467,COMIRNATY LP.8.1 3 µg,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 3 micrograms, paediatric dose (6 months-4 years)",False,VAC1470
 VAC1468,COMIRNATY LP.8.1 10 µg,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 10 micrograms, paediatric dose (5-11 years)",False,VAC1472
@@ -1400,7 +1400,7 @@ VAC1473,"COVID-19 mRNA vaccine, encoding a fragment of the SARS-CoV-2 spike prot
 VAC1474,ENFLONSIA (clesrovimab),Human RSV monoclonal antibody,False,VAC1475
 VAC1475,"Human monoclonal antibody against respiratory syncytial virus (RSV), clesrovimab, unspecified","Human monoclonal antibody against respiratory syncytial virus (RSV), clesrovimab, unspecified",True,
 VAC1476,"Meningococcal vaccine against A, C, W, Y (conjugated polysaccharide) and B","Meningococcal vaccine against A, C, W, Y (conjugated polysaccharide) and B",True,
-VAC1477,ENCEPUR N CHILDREN,"Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain, 0,25 mL",False,VAC0000
+VAC1477,ENCEPUR N CHILDREN,"Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain, 0,25 mL",False,VAC1550
 VAC1478,SYNAGIS 50 mg (PALIZIVUMAB),hRSV monoclonal antibody,False,VAC1222
 VAC1479,VACPERTAGEN,"Pertussis vaccine (recombinant, acellular, reduced-dose, bivalent, adsorbed).",False,VAC1232
 VAC1480,PNEUMOVAX 23,"Unconjugated pneumococcal polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F",False,VAC0339
@@ -1423,14 +1423,14 @@ VAC1496,POLIO LILLY,Inactivated polio (trivalent) vaccine,False,VAC0270
 VAC1497,TD-VIRELON,"Diphtheria toxoid (low dose), tetanus toxoid and inactivated polio (trivalent) vaccine",False,VAC0549
 VAC1498,EPIVACCORONA-N,"COVID-19 protein subunit vaccine, recombinant protein",False,VAC1113
 VAC1499,SPUTNIK-M,"COVID-19 vaccine, non-replicating viral vector, adenovirus 6 encoding the SARS-CoV-2 spike protein, intended for adolescents",False,VAC1143
-VAC1500,COMIRNATY LP.8.1 50 µg,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 50 micrograms",False,VAC0000
-VAC1501,SPIKEVAX LP.8.1 25 µg,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 25 micrograms",False,VAC0000
+VAC1500,COMIRNATY LP.8.1 50 µg,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 50 micrograms",False,VAC1546
+VAC1501,SPIKEVAX LP.8.1 25 µg,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 25 micrograms",False,VAC1545
 VAC1502,BIMERVAX LP.8.1,"COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant",False,VAC1503
 VAC1503,"COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant","COVID-19 vaccine, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant",True,
 VAC1504,TD-PUR,Diphtheria toxoid (low dose) and tetanus toxoid vaccine,False,VAC0920
 VAC1505,SCTV01C,"COVID-19 protein subunit vaccine, recombinant protein",False,VAC1113
 VAC1506,STROVAC,"Urinary tract infections vaccine, unspecified",False,VAC0000
-VAC1507,BUTANTAN-DV,"Live-attenuated, recombinant chimeric, quadrivalent vaccine against the four serotypes (DEN-1, DEN-2, DEN-3 and DEN-4) of the dengue virus",False,VAC0000
+VAC1507,BUTANTAN-DV,"Live-attenuated, recombinant chimeric, quadrivalent vaccine against the four serotypes (DEN-1, DEN-2, DEN-3 and DEN-4) of the dengue virus",False,VAC1544
 VAC1508,BUTANTAN HEP A,Inactivated hepatitis A vaccine,False,VAC0102
 VAC1509,BUTANTAN HEP B,"Hepatitis B vaccine, recombinant hepatitis B surface antigen (HBsAg), unspecified",False,VAC0101
 VAC1510,BUTANTAN HPV,"Human Papillomavirus vaccine, quadrivalent (types 6, 11, 16, and 18), recombinant",False,VAC0859
@@ -1441,7 +1441,7 @@ VAC1514,BUTANTAN DTAP,"Diphtheria toxoid (low dose), tetanus toxoid and pertussi
 VAC1515,BUTANTAN RABIES,"Whole virion inactivated rabies vaccine, cultured on Vero cells",False,VAC1116
 VAC1516,BUTANTAN INFLUENZA,"Trivalent inactivated seasonal influenza vaccine, split virion",False,VAC0925
 VAC1517,AUJEMFLU,"Influenza vaccine, trivalent, inactivated, fractionated or subunit, adjuvanted",False,VAC1438
-VAC1518,MFLUSIVA,"Influenza vaccine, trivalent, messenger RNA",False,VAC0000
+VAC1518,MFLUSIVA,"Influenza vaccine, trivalent, messenger RNA",False,VAC1548
 VAC1519,COMIRNATY XFG 10 µg,"COVID-19 mRNA vaccine, subvariant Omicron XFG, 10 micrograms, paediatric dose (5-11 years)",False,VAC1521
 VAC1520,COMIRNATY XFG 30 µg,"COVID-19 mRNA vaccine, subvariant Omicron XFG, 30 micrograms, adult (+ 12 years)",False,VAC1522
 VAC1521,"COVID-19 mRNA vaccine, subvariant Omicron XFG, 10 micrograms, paediatric dose (5-11 years)","COVID-19 mRNA vaccine, subvariant Omicron XFG, 10 micrograms, paediatric dose (5-11 years)",True,
@@ -1467,3 +1467,12 @@ VAC1540,"Typhoid and tetanus vaccine, injectable suspension","Typhoid and tetanu
 VAC1541,"Influenza quadrivalent inactivated vaccine, split or subunit, unspecified","Influenza quadrivalent inactivated vaccine, split or subunit, unspecified",True,
 VAC1542,"Typhoid conjugate to diphtheria toxoid vaccine, unspecified","Typhoid conjugate to diphtheria toxoid vaccine, unspecified",True,
 VAC1543,Malaria vaccine,Malaria vaccine,True,
+VAC1544,"Dengue vaccine, live-attenuated, recombinant chimeric, quadrivalent against the four serotypes (DEN-1, DEN-2, DEN-3 and DEN-4)","Dengue vaccine, live-attenuated, recombinant chimeric, quadrivalent against the four serotypes (DEN-1, DEN-2, DEN-3 and DEN-4)",True,
+VAC1545,"COVID-19 vaccine, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms","COVID-19 vaccine, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms",True,
+VAC1546,"COVID-19 vaccine, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms.","COVID-19 vaccine, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms.",True,
+VAC1547,"Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole cell), Haemophilus influenzae type b (conjugated to tetanus toxoid), inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed","Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole cell), Haemophilus influenzae type b (conjugated to tetanus toxoid), inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed",True,
+VAC1548,"Influenza vaccine, RNA-based, trivalent, unspecified","Influenza vaccine, RNA-based, trivalent, unspecified",True,
+VAC1549,"Diphtheria vaccine (toxoid, standard dose) and pertussis (whole-cell inactivated), paediatric","Diphtheria vaccine (toxoid, standard dose) and pertussis (whole-cell inactivated), paediatric",True,
+VAC1550,"Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain, 0,25 mL","Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain, 0,25 mL",True,
+VAC1551,"Pneumococcal unconjugated polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F","Pneumococcal unconjugated polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F",True,
+VAC1552,"Diphtheria vaccine (anatoxin, standard dose), tetanus vaccine (anatoxin) and hepatitis B vaccine","Diphtheria vaccine (anatoxin, standard dose), tetanus vaccine (anatoxin) and hepatitis B vaccine",True,

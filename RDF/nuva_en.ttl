@@ -1929,7 +1929,7 @@ Other names: TAK-003; DENVAX"""@en .
 
 <http://ivci.org/NUVA/VAC0958> rdfs:comment "Trivalent inactivated seasonal influenza vaccine, egg-based, surface antigen"@en .
 
-<http://ivci.org/NUVA/VAC0959> rdfs:comment "Unconjugated pneumococcal polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F"@en .
+<http://ivci.org/NUVA/VAC0959> rdfs:comment "Pneumococcal unconjugated polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F"@en .
 
 <http://ivci.org/NUVA/VAC0960> rdfs:comment "Hepatitis A (inactivated, adsorbed) and typhoid vaccine (polysaccharide)"@en .
 
@@ -2879,8 +2879,6 @@ Other names: TAK-003; DENVAX"""@en .
 
 <http://ivci.org/NUVA/VAC1401> rdfs:comment "Human Papillomavirus vaccine, nonavalent (types 6, 11, 16, 18, 31, 33, 45, 52, and 58), recombinant"@en .
 
-<http://ivci.org/NUVA/VAC1402> rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole cell), Haemophilus influenzae type b (conjugated to tetanus toxoid), inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed"@en .
-
 <http://ivci.org/NUVA/VAC1403> rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier, dose standard), hépatite B et anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique)"@en .
 
 <http://ivci.org/NUVA/VAC1404> rdfs:comment "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell inactivated) and Haemophilus influenzae type b (conjugated to diphtheria toxoid) pediatric vaccine"@en .
@@ -2983,8 +2981,6 @@ Other names: TAK-003; DENVAX"""@en .
 
 <http://ivci.org/NUVA/VAC1452> rdfs:comment "Recombinant hepatitis B vaccine, three antigens (HbS, pre-S1 and pre-S2)"@en .
 
-<http://ivci.org/NUVA/VAC1454> rdfs:comment "Diphtheria vaccine (anatoxin, standard dose), tetanus vaccine (anatoxin) and hepatitis B vaccine"@en .
-
 <http://ivci.org/NUVA/VAC1455> rdfs:comment "Unconjugated meningococcal polysaccharide vaccine, serogroups A and C"@en .
 
 <http://ivci.org/NUVA/VAC1456> rdfs:comment "Whole virion inactivated rabies vaccine, prepared in MRC5 cells"@en .
@@ -2998,8 +2994,6 @@ Other names: TAK-003; DENVAX"""@en .
 <http://ivci.org/NUVA/VAC1460> rdfs:comment "Paediatric diphtheria vaccine (toxoid, standard dose), tetanus vaccine (toxoid) and pertussis vaccine (whole inactivated)"@en .
 
 <http://ivci.org/NUVA/VAC1461> rdfs:comment "Paediatric diphtheria vaccine (toxoid, standard dose) and tetanus vaccine (toxoid)"@en .
-
-<http://ivci.org/NUVA/VAC1462> rdfs:comment "Unconjugated pneumococcal polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F"@en .
 
 <http://ivci.org/NUVA/VAC1463> rdfs:comment "Tuberculosis vaccine"@en .
 
@@ -3022,8 +3016,6 @@ Other names: TAK-003; DENVAX"""@en .
 <http://ivci.org/NUVA/VAC1475> rdfs:label "Human monoclonal antibody against respiratory syncytial virus (RSV), clesrovimab, unspecified"@en .
 
 <http://ivci.org/NUVA/VAC1476> rdfs:label "Meningococcal vaccine against A, C, W, Y (conjugated polysaccharide) and B"@en .
-
-<http://ivci.org/NUVA/VAC1477> rdfs:comment "Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain, 0,25 mL"@en .
 
 <http://ivci.org/NUVA/VAC1478> rdfs:comment "hRSV monoclonal antibody"@en .
 
@@ -3139,6 +3131,24 @@ Other names: TAK-003; DENVAX"""@en .
 <http://ivci.org/NUVA/VAC1542> rdfs:label "Typhoid conjugate to diphtheria toxoid vaccine, unspecified"@en .
 
 <http://ivci.org/NUVA/VAC1543> rdfs:label "Malaria vaccine"@en .
+
+<http://ivci.org/NUVA/VAC1544> rdfs:label "Dengue vaccine, live-attenuated, recombinant chimeric, quadrivalent against the four serotypes (DEN-1, DEN-2, DEN-3 and DEN-4)"@en .
+
+<http://ivci.org/NUVA/VAC1545> rdfs:label "COVID-19 vaccine, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms"@en .
+
+<http://ivci.org/NUVA/VAC1546> rdfs:label "COVID-19 vaccine, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms."@en .
+
+<http://ivci.org/NUVA/VAC1547> rdfs:label "Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole cell), Haemophilus influenzae type b (conjugated to tetanus toxoid), inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed"@en .
+
+<http://ivci.org/NUVA/VAC1548> rdfs:label "Influenza vaccine, RNA-based, trivalent, unspecified"@en .
+
+<http://ivci.org/NUVA/VAC1549> rdfs:label "Diphtheria vaccine (toxoid, standard dose) and pertussis (whole-cell inactivated), paediatric"@en .
+
+<http://ivci.org/NUVA/VAC1550> rdfs:label "Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain, 0,25 mL"@en .
+
+<http://ivci.org/NUVA/VAC1551> rdfs:label "Pneumococcal unconjugated polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F"@en .
+
+<http://ivci.org/NUVA/VAC1552> rdfs:label "Diphtheria vaccine (anatoxin, standard dose), tetanus vaccine (anatoxin) and hepatitis B vaccine"@en .
 
 <http://ivci.org/NUVA/VAL000> rdfs:label "Parent for deprecated valences"@en ;
     skos:altLabel "ZZZ"@en .
