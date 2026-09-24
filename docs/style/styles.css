@@ -47,6 +47,13 @@ body {
   color: white;
 }
 
+.version {
+	color: #bdc3c7;
+	font-style: italic;
+	position: absolute;
+	bottom:0
+}
+
 /* Décalage du contenu principal pour ne pas être caché par le menu */
 .content {
   margin-left: 250px;

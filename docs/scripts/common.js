@@ -1,6 +1,6 @@
 const idRoot = "Valence"
 const voidContext = {
-	'selectedValences': [], 'filter': [], 'selectedAbstract': null, 
+	'version': null, 'selectedValences': [], 'filter': [], 'selectedAbstract': null, 
     'currentVaccine': null, 'currentValence': null, 'currentCode': null}
 
 var vaccines
@@ -242,6 +242,11 @@ function showCurrentCode()
 
 }
 
+function setVersions(curVer,defVer) {
+	document.getElementById("curVer").innerHTML = curVer
+	document.getElementById("defVer").innerHTML = defVer	
+}
+
 /* Rebuilding of temporary data*/
 function valenceChanged(idval) {
 	valence = valences[idval]
@@ -412,6 +417,8 @@ function rebuildAll()
 		valences = loadFromSession('valences', defaultData['valences'])
 		CSData = loadFromSession('CSData',{'CSID':null,'code2nuva':{}, 'nuva2code':{}})
 		context = loadFromSession('context', voidContext)
+		if (!context.version) {context.version = defaultData.version+'/WORK'}
+		setVersions(context.version, defaultData.version)
 		refresh()
 	})
 	if (logTimer) {

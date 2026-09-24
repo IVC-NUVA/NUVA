@@ -2,18 +2,21 @@ const spacer = "  "
 const EOL = "\n"
 
 
-function restore(restVaccines, restValences) {
-    vaccines = {}
+function restore(version, restVaccines, restValences) {
+    context = voidContext
+	vaccines = {}
     valences = {}
+	context.version = version
     Object.assign(vaccines, restVaccines)
     Object.assign(valences, restValences)
+    saveToSession('context', context)
     saveToSession('vaccines', vaccines)
     saveToSession('valences', valences)
+	setVersions(context.version, defaultData.version)	
 }
 
 function reset() {
-    restore(defaultData['vaccines'], defaultData['valences'])
-	saveToSession('context',voidContext)
+    restore(defaultData.version+'/WORK', defaultData.vaccines, defaultData.valences)
     doLog("All vaccines and valences were reset to their default values.")
 }
 
@@ -34,7 +37,7 @@ function download(filename, text) {
 function saveBackup() {
 	date = today()
     backup = {
-		"version": "Work "+date,
+		"version": context.version,
         "vaccines": vaccines,
         "valences": valences
     }
@@ -62,7 +65,7 @@ function restoreBackup() {
 	reader = new FileReader()
 	reader.onload = function () {
 		backup = JSON.parse(reader.result)
-		restore(backup.vaccines, backup.valences)
+		restore(backup.version, backup.vaccines, backup.valences)
 		doLog("Restored from backup")
     };
     reader.onerror = function () {
