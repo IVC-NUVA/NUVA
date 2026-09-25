@@ -1,3 +1,9 @@
+---
+title: Editorial rules
+layout: default
+parent: Legacy
+---
+
 # NUVA editorial rules #
 These rules apply to all contributors. Whenever possible, they are checked automatically by the publication tools.
 ## Obligations ##

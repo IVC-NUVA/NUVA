@@ -1,3 +1,9 @@
+---
+title: Concepts
+layout: default
+parent: Legacy
+---
+
 # NUVA concepts #
 ## Core concepts ##
 The NUVA terminology consists of valences and vaccines, complemented with aligned code systems.

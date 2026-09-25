@@ -1,3 +1,8 @@
+---
+title: Processus
+layout: default
+parent: Legacy
+---
 # NUVA management processes #
 ## Organization ##
 ### Core team ###

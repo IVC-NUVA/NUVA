@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NUVA editor</title>
+    <link href = "style/styles.css" rel="stylesheet">
+    <script type = 'text/javascript' src='scripts/common.js'></script>
+    <script type = 'text/javascript' src='scripts/valences.js'></script>
+</head>
+<body>
+<nav class="sidebar">
+  <h1>NUVA</h1>
+  <ul>
+    <li><a href="index.html">Usage</a></li>
+    <li><a href="vaccines.html">Vaccines</a></li>
+    <li><a href="valences.html">Valences</a></li>
+    <li><a href="extcodes.html">Code Systems</a></li>
+    <li><a href="files.html">Files</a></li>			
+  </ul>
+
+ <h3>Filter (any)</h3>
+  <input id='filterText' oninput="showValences()">
+ <div class='item'>Changed only: 
+ <input type='checkbox' id='changedOnly' onchange='setChangedOnly()'>
+ </div>
+  <div style = 'height:10vh; overflow:scroll;'>
+ <ul id=filter></ul>
+ </div>
+ <button onclick = 'clearFilter()'>Clear filter</button>
+ </div>
+ <h3>Selected valences</h3>
+ <div style = 'height:10vh; overflow:scroll;'>
+<ul id='selected'></ul>
+</div>
+  <button onclick="setFilter()">Use as filter</button>
+  <button onclick = "clearSelected()">Clear</button> 
+<h3>Current code</h3>
+<div id='idcode'></div> 
+<div class='version'>
+  <div><span>Version:</span><span id='curVer'></span></div>
+  <div><span>Default:</span><span id='defVer'></span></div>
+  </div>
+</nav>
+
+<main class="content">
+<h1>Valences</h1>
+  <button class='add' onclick=addValence()>Add a valence</button>
+  <button onclick=toggleAll()>Toggle all</button>
+<div style = "overflow:scroll; height:80vh">
+<div id=lval> </div>
+</div>
+</main>
+<div id = edit class = "edit" style = "display:none">
+	<table>
+	<tr><td>Code</td><td><input id = "vcode" type = "text" style="width:20%" maxlength=6></input></td></tr>	
+	<tr><td>Notation</td><td><input id = "vshorthand" type = "text" style="width:95%"></input></td></tr>
+	<tr><td>Label</td><td><input id = "vlabel" type = "text" style="width:95%"></input></td></tr>
+	<tr><td>Type</td><td><select id = "vtype" onchange = "vtypeselect()">
+	<option value = "0">0-Implicit</option>
+	</select>
+	<label id='implicitVType' style="background-color:#C0C0C0"></label></td></tr>
+	<tr><td>Parent</td><td id='vparent'></td></tr>
+	</table>
+	<button onclick = setValenceValues()>Save values</button>
+	<button onclick = setParent()>Use selected as Parent</button>
+	<button onclick = resetValence()>Reset to default</button>
+	<button onclick = closeValenceEdit()>Close</button>	
+</div>
+
+<div id='alertbox' class="alert" onclick = ackAlert()>
+<p id='alertmsg' valign='center' align='center'>Mon message</p>
+</div>
+
+<script type = "text/javascript">
+
+window.onload = function () {
+  document.page = "Valences"
+  initContext()  
+}
+</script>
+
+
+</body>
+</html>

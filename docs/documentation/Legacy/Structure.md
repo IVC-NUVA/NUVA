@@ -1,8 +1,15 @@
+---
+title: Structure
+layout: default
+parent: Legacy
+---
+
 # Structure of resources #
 This document exposes the structure of the RDF resources composing the NUVA.
 
 ## Vaccine resource ##
 ### Structure ###
+
 | Predicate | Card. | Object | Object type |  Meaning |
 | ---       | ---   | ---    | ---         | ---      |
 |rdf:type | 1 | owl:Class | Resource | Structural |
