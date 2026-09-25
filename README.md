@@ -4,4 +4,4 @@ The Unified Nomenclature of Vaccines (NUVA) is a common ontology of administered
 
 It is provided under the [Creative Commons CC-BY license](https://creativecommons.org/licenses/by/4.0/).
 
-See its [documentation](/documentation) for details.
+See its [documentation](https://nuva.ivci.org/documentation) for details.
