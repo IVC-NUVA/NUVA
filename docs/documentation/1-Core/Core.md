@@ -1,6 +1,5 @@
 ---
-title: Product
+title: NUVA core
 layout: default
 nav_order: 10
 ---
-# Template #

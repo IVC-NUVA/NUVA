@@ -1,7 +1,7 @@
 ---
-title: Template
+title: Workflows
 layout: default
 parent: Organisation
-nav-order: 100
+nav_order: 20
 ---
 # Template #

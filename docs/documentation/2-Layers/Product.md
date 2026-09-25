@@ -1,7 +1,5 @@
 ---
-title: Usage
+title: Layers
 layout: default
-parent: 
 nav_order: 20
 ---
-# Template #
