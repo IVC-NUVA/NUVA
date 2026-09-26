@@ -32,6 +32,9 @@ plugins:
   - jekyll-include-cache
   - jekyll-sitemap  
 
+mermaid:
+  version: "12.0.0"
+  
 relative-links:
   enabled: true
   collections: true
