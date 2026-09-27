@@ -328,7 +328,7 @@ function reverseCodeSystem()
 	for (row of reverse) {
 		reverseFileContent += row.join(",")+"\n"
 	}
-	download(`nuva2${CSID}.csv`, reverseFileContent)
+	download(`nuva2${CSID}_${today()}.csv`, reverseFileContent)
 	document.getElementById("transcription").disabled = false
 }
 function mapCSV2(text)
@@ -339,16 +339,16 @@ function mapCSV2(text)
 	//ext2codes = Object.keys(parsed.code2nuva)
 	
 	reverseFileContent = '\ufeff'  // BOM marker for UTF-8
-	reverseFileContent += `${CSID2},${CSID2}label, ${CSID}, ${CSID} label, Best, Blur, Equiv\n`	
+	reverseFileContent += `${CSID2},${CSID2}label, NUVA, NUVA label, isAbstract, ${CSID}, ${CSID} label, Best, Blur, Equiv\n`	
 	for (row of reverse) {
 		if (!(row[0] in parsed.nuva2code)) continue
 		for (ext2code of nuva2code[row[0]]) {
 			label2 = '"'+code2nuva[ext2code].label+'"'
 			reverseFileContent += 
-			`${ext2code},${label2},${row[3]},${row[4]},${row[5]},${row[6]},${row[7]}\n`
+			`${ext2code},${label2},${row[0]},${row[1]},${row[2]},${row[3]},${row[4]},${row[5]},${row[6]},${row[7]}\n`
 		}
 	}
-	download(`${CSID2}2${CSID}.csv`, reverseFileContent)
+	download(`${CSID2}2${CSID}_${today()}.csv`, reverseFileContent)
 }
 
 function showSidebar() {
