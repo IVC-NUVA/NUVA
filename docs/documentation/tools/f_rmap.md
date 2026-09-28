@@ -5,7 +5,7 @@ parent: File formats
 nav_order: 40
 ---
 # Reverse maps #
-Once an [alignment file](f_alignment.html) for a code system has been imported, the [editor](editor.md) allows to create a reverse map for the same code system.
+Once an [alignment file](f_alignment.md) for a code system has been imported, the [editor](editor.md) allows to create a reverse map for the same code system.
 
 A reverse map expresses, for each vaccine concept in NUVA, what are the possible options in the code system for representing it.
 
@@ -30,7 +30,7 @@ In the case where the NUVA code is part of the alignment map, there is only one 
 
 Int the case where no code in the code system is suitable for the NUVA concept, this column is empty, as well as all the next ones.
 ### Label in code system ###
-This is the optional label that was provided in the [alignment file](alignment.md).
+This is the optional label that was provided in the [alignment file](f_alignment.md).
 ### Best ###
 This boolean is True if the given code is among the best possible options (the ones with the least blur value) for the NUVA vaccine concept.
 ### Blur ###

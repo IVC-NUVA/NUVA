@@ -18,7 +18,7 @@ The alignment file has 2 to 4 columns:
   
 Only columns 1 and 2 are required when importing an alignment table into the editor.
 
-If column 3 is present, it will be reused in the [code system reverse map](f_rmap.html).
+If column 3 is present, it will be reused in the [code system reverse map](f_rmap.md).
 
 Column 4 is automatically filled by the editor when exporting an alignment table.
 
@@ -34,7 +34,7 @@ THe first row in the table contains titles. The title in the first column is use
     - a correctly formed vaccine code `VACxxxx` (VAC followed by 4 digits).
 	- `#NA` if the concept in the original code system does not belong to the NUVA domain (e.g. `CVX-98` is a tuberculin skin test, that is not a vaccine nor an antibody).
 	- `#MIS` if the concept should belong to NUVA, but is missing for now.
-  - When exported from [the editor](editor.html), the alignment file is named *ident2nuva_YYYY-MM-DD.csv*, where *ident* stands for the code system identifier found in the header and *YYYY-MM-DD* is the day of the export.
+  - When exported from [the editor](editor.md), the alignment file is named *ident2nuva_YYYY-MM-DD.csv*, where *ident* stands for the code system identifier found in the header and *YYYY-MM-DD* is the day of the export.
 	
 ## Example
 This is an excerpt of the *cvx2nuva.csv* alignment file.

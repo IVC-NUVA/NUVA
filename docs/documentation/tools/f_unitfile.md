@@ -9,7 +9,7 @@ Unit files are the reference for the published version of NUVA.
 
 There is one Unit file for each NUVA concept of vaccine or valence, allowing for individual tracking of their changes in the GitHub history of files.
 
-All other representations of NUVA are derived from the [Unit files](f_unitfile.md) by the [GitHub automated processes](GitHub_actions.md). When needed, they also fetch information from the  [language files](f_langfile.md) and [alignment files](f_alignment.md).
+All other representations of NUVA are derived from the [Unit files](f_unitfile.md) by the [GitHub automated processes](github_actions.md). When needed, they also fetch information from the  [language files](f_langfile.md) and [alignment files](f_alignment.md).
 
 Unit files are using the YAML format, intended to be easily interpreted both by humans and by machines. THey are named *VACxxxx.yml* for Vaccine units or *VALxxx.yml* for Valence units.
 

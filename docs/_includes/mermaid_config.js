@@ -1,1 +1,1 @@
-{}
+{'layout': 'tidy-tree'}
