@@ -155,7 +155,6 @@ for code,data in Vaccines.items():
             Parent = URIRef(f'{BaseURI}/VAC0000')
 
     addClass(Vaccine,Parent,data['label'],None,code,data['created'], data['modified'], data['abstract'])
-    core.add((Vaccine,isAbstract,Literal(data['abstract'],datatype=XSD.boolean)))
 
     if data['abstract']:
         for valence in data['valences']:
