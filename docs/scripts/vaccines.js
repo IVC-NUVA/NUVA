@@ -160,6 +160,13 @@ function viewEditVaccine(isAbstract, vclass) {
 		else {
 			vclass = (vaccine.instanceOf?vaccine.instanceOf:"VAC0000")	
 		}	
+		if (idvac in CSData.nuva2code) {
+			codes = CSData.nuva2code[idvac].sort().join(',')
+			document.getElementById("vcodes").innerHTML = codes
+			document.getElementById('rowCodes').style.display = 'table-row'
+		} else {
+			document.getElementById('rowCodes').style.display = 'none'
+		}
 		//showSidebar()
 		assignButton.style.display = "inline"
 		resetButton.style.display = (extvaccines[idvac].changed?'inline':'none')
