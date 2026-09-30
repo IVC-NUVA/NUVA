@@ -144,6 +144,7 @@ function showCodes() {
 	   if (context.changedOnly == false) changed = true	   
 		row.style.display = (foundText && changed ?'table-row':'none')
 	}
+	document.getElementById('edit').style.display = (context.currentCode?'block':'none')
 }
 
 function viewEditCode(code)
@@ -195,34 +196,44 @@ function setNuvaCode()
 	actionMessage = ""
 	action = document.getElementById('actionSelect').value
 	code = context.currentCode
+	prevNuva = CSData.code2nuva[code].nuvaCode
+	if (prevNuva in CSData.nuva2code) {
+		CSData.nuva2code[prevNuva] = CSData.nuva2code[prevNuva].filter(item => item != code)
+	}
+		
 	if ((action == 'set') && context.currentVaccine) {
 		nuvaCode = context.currentVaccine
 		nuvaLabel = vaccines[nuvaCode].label
 		actionMessage = `assigned to NUVA ${nuvaCode}`
 	}
-	else
-	{
-		prevCode = CSData.code2nuva[code].nuvaCode
-		if (prevCode in CSData.nuva2code) {
-			CSData.nuva2code[prevCode] = CSData.nuva2code[prevCode].filter(item => item != code)
-		}
-		if (action == 'NA') {
-			nuvaCode = '#NA'
-			nuvaLabel = ''
-			actionMessage = "is not a NUVA concept"
-		}
-		
-		else if (action == 'MISSING') {
-			nuvaCode = '#MISS'
-			nuvaLabel = ''
-			actionMessage = "misses a NUVA concept"
-		}
-		else if (action == 'reset') {
-			nuvaCode = CSData.refcode2nuva[code]
-			actionMessage = `reset to NUVA ${nuvaCode}`
-		}
+	else if (action == 'NA') {
+		nuvaCode = '#NA'
+		nuvaLabel = ''
+		actionMessage = "is not a NUVA concept"
 	}
+		
+	else if (action == 'MISSING') {
+		nuvaCode = '#MISS'
+		nuvaLabel = ''
+		actionMessage = "misses a NUVA concept"
+	}
+	else if (action == 'reset') {
+		nuvaCode = CSData.refcode2nuva[code]
+		actionMessage = `reset to NUVA ${nuvaCode}`
+		
+	}
+	else if (action == 'close') {
+		nuvaCode = prevNuva
+		setContext('currentCode',null)
+		actionMessage = ``
+	}	
+	
 	CSData.code2nuva[code].nuvaCode = nuvaCode
+	if (nuvaCode in CSData.nuva2code) {
+		CSData.nuva2code[nuvaCode].push(code)
+	} else {
+		CSData.nuva2code[nuvaCode] = [code]
+	}
 	document.getElementById('action').innerHTML = actionMessage
 	saveToSession("CSData",CSData)
 	showCodes()

@@ -180,6 +180,7 @@ function viewEditVaccine(isAbstract, vclass) {
 		instanceButton.style.display = 'none'
 		resetButton.style.display = 'none'
 	}
+	document.getElementById('assignCode').style.display = (context.currentCode?'inline':'none')
 	
 	deprecateButton.innerHTML = (vaccine.status == 'deprecated'?'Restore':'Deprecate')
    
@@ -189,6 +190,7 @@ function viewEditVaccine(isAbstract, vclass) {
 
 	editWindow.style = "display:block"
 	
+
 	if (isAbstract) {
 		editWindow.style.backgroundColor="lightgreen"
 		document.getElementById("rowValences").style.display = "table-row"
@@ -277,6 +279,23 @@ function setVaccineValences() {
 	saveToSession("vaccines", vaccines)
 	showVaccines()
 	viewEditVaccine(idvac)	
+}
+
+function addVaccineCode () {
+	code = context.currentCode
+	nuvaCode = context.currentVaccine
+	prevNuva = CSData.code2nuva[code].nuvaCode
+	if (prevNuva in CSData.nuva2code) {
+		CSData.nuva2code[prevNuva] = CSData.nuva2code[prevNuva].filter(item => item != code)
+	}
+	CSData.code2nuva[code].nuvaCode = nuvaCode
+	if (nuvaCode in CSData.nuva2code) {
+		CSData.nuva2code[nuvaCode].push(code)
+	} else {
+		CSData.nuva2code[nuvaCode] = [code]
+	}
+	saveToSession("CSData",CSData)
+	refresh()		
 }
 
 function setVaccineClass () {

@@ -119,6 +119,10 @@ function codeTag(idcode, prefix='T') {
 	codetag.innerHTML = idcode
 	codetag.id = prefix+idcode
 	codetag.title = CSData.code2nuva[idcode].label
+	codetag.onclick = function () {
+		setContext('currentCode',null)		
+		refresh()
+    }	
 	return codetag
 }
 
