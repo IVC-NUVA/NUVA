@@ -186,12 +186,12 @@ core.add((URIRef(BaseURI),OWL.versionInfo,Literal(version)))
 full += core
 
 print("Creating the RDF files")
-core.serialize(destination="RDF/nuva_core.ttl")
-full.serialize(destination="RDF/nuva_full.ttl")
+core.serialize(destination="Exports/RDF/nuva_core.ttl")
+full.serialize(destination="Exports/RDF/nuva_full.ttl")
 
 print ('Creating the language RDF files')
 for lang in langgraphs:
-    langgraphs[lang].serialize(destination=f"RDF/nuva_{lang}.ttl")
+    langgraphs[lang].serialize(destination=f"Exports/RDF/nuva_{lang}.ttl")
 
 print("Done")
 

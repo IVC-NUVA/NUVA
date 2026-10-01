@@ -47,7 +47,7 @@ Langs = listLanguages()
 Terms = loadLanguages()
 
 for lang in Langs:
-    with open(f'CSV/nuva_vaccines_{lang}.csv','w',encoding='utf-8-sig',newline ='') as csvfile:
+    with open(f'Exports/CSV/nuva_vaccines_{lang}.csv','w',encoding='utf-8-sig',newline ='') as csvfile:
         writer = csv.DictWriter(csvfile,fieldnames=['NUVA','label','comment','abstract','instanceOf'],delimiter=',')
         writer.writeheader()
         for code,data in Vaccines.items():
@@ -56,7 +56,7 @@ for lang in Langs:
             writer.writerow({'NUVA':code,'label': label,'comment': comment,'abstract':data['abstract'],
                              'instanceOf': data.get('instanceOf',None)})
 
-    with open(f'CSV/nuva_valences_{lang}.csv','w',encoding='utf-8-sig',newline ='') as csvfile:
+    with open(f'Exports/CSV/nuva_valences_{lang}.csv','w',encoding='utf-8-sig',newline ='') as csvfile:
         writer = csv.DictWriter(csvfile,fieldnames=['NUVA','label','comment','shorthand', 'parent'],delimiter=',')
         writer.writeheader()
         for code,data in Valences.items():
