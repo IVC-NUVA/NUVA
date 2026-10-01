@@ -3,6 +3,8 @@ title: Work files
 layout: default
 parent: File formats
 nav_order: 20
+status: Submitted
+assignee: NB
 ---
 # Work files #
 Workfiles gather in a single file all the information from the Unit files. They are used as an intermediate format by the [editor](editor) to :

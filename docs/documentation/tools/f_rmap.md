@@ -3,6 +3,8 @@ title: Reverse maps
 layout: default
 parent: File formats
 nav_order: 40
+status: Submitted
+assignee: NB
 ---
 # Reverse maps #
 Once an [alignment file](f_alignment.md) for a code system has been imported, the [editor](editor.md) allows to create a reverse map for the same code system.

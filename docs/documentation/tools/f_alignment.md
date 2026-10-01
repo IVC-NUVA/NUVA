@@ -3,6 +3,8 @@ title: Alignment files
 layout: default
 parent: File formats
 nav_order: 30
+status: Submitted
+assignee: NB
 ---
 # Alignment files #
 Alignment files are elaborated by code system owners. They are simple CSV file, with commas as column separators.

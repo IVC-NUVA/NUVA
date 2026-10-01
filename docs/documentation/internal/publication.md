@@ -2,6 +2,8 @@
 title: Publication path
 layout: default
 parent: Internal
+status: Submitted
+assignee: NB
 ---
 # Publication path #
 ### Earlier publication path

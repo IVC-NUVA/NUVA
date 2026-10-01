@@ -3,9 +3,9 @@ title: Valences
 layout: default
 parent: NUVA core
 nav_order: 20
+status: Draft
+assignee: FK
 ---
-> Obsolete, to update.
-
 # Valences
 The valence is the minimal functional unit to characterize a vaccine. The most explicit ones represent a combination of antigens for a same target disease and a dose. For example, for pertussis, you will have the valences:
 

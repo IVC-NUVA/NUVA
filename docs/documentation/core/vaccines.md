@@ -3,9 +3,9 @@ title: Vaccines
 layout: default
 parent: NUVA core
 nav_order: 10
+status: Draft
+assignee: FK
 ---
-> To be revised.
-
 # Vaccines #
 Vaccine codes represent the vaccination trails at their best precision level:
 - A fully qualified product (BOOSTRIXTETRA)

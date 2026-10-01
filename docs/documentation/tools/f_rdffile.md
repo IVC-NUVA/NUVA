@@ -3,6 +3,8 @@ title: RDF graphs
 layout: default
 parent: File formats
 nav_order: 70
+status: Submitted
+assignee: NB
 ---
 
 # RDF graphs #
