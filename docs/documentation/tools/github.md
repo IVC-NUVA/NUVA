@@ -47,7 +47,7 @@ Exports/        ## Artefacts produced from the sources
 ### Unit files
 The [unit files](f_unitfile.md) describe individual concepts for vaccines and valences. 
 
-They are published by the NUVA core curator.
+They are published by the NUVA core maintener.
 
 Having a dedicated file for each concept allows to retrieve the history of changes on this specific concept using the GitHub `History` button.
 
