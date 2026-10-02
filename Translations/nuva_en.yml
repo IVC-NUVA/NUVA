@@ -742,7 +742,6 @@
       pediatric vaccine, adsorbed
     VAC0526C: Recombinant Hepatitis E Peptide vaccine
     VAC0527C: Diphtheria toxoid (standard dose) and tetanus toxoid pediatric vaccine
-    VAC0528C: Hepatitis B and malaria vaccine
     VAC0529C: Tetanus toxoid vaccine
     VAC0530C: Tetanus toxoid vaccine
     VAC0531C: Tetanus toxoid vaccine
@@ -2124,7 +2123,7 @@
     VAC1236L: COVID-19 protein subunit vaccine, recombinant spike protein in nanoparticles,
       Omicron subvariant XBB.1.5, unspecified
     VAC1237L: Malaria vaccine pre-erythrocytic R21/Matrix-M
-    VAC1238L: Hepatitis B and malaria vaccine, unspecified
+    VAC1238L: Hepatitis B and malaria (sporozoite surface protein) vaccine, unspecified
     VAC1239L: Pneumococcal 15-valent polysaccharide conjugate vaccine, adsorbed, serotypes
       1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F and 33F
     VAC1240L: Meningococcal B vaccine, 4-component, unspecified
@@ -2541,7 +2540,7 @@
     VAC1540L: Typhoid and tetanus vaccine, injectable suspension
     VAC1541L: Influenza quadrivalent inactivated vaccine, split or subunit, unspecified
     VAC1542L: Typhoid conjugate to diphtheria toxoid vaccine, unspecified
-    VAC1543L: Malaria vaccine
+    VAC1543L: Malaria vaccine sporozoite surface protein, unspecified
     VAC1544L: Dengue vaccine, live-attenuated, recombinant chimeric, quadrivalent
       against the four serotypes (DEN-1, DEN-2, DEN-3 and DEN-4)
     VAC1545L: COVID-19 vaccine, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2
@@ -2567,6 +2566,7 @@
       \ Wistar strain, inactivation by \xDF-propiolactone"
     VAC1555L: Non-HPV-related squamous cell carcinomas of the head and neck vaccine,
       unspecified
+    VAC1557L: Influenza vaccine, trivalent, inactivated, split or subunit, unspecified
   valence:
     VAL000L: Parent for deprecated valences
     VAL000S: ZZZ
@@ -2602,9 +2602,9 @@
     VAL013S: Shingles-gE
     VAL014L: Typhoid valence, unspecified
     VAL014S: Ty
-    VAL015L: Influenza valence, trivalent, inactivated, split or subunit, intramuscular
-      or subcutaneous route, non-adjuvanted, normal dose
-    VAL015S: INF-SUnd3
+    VAL015L: Influenza valence, trivalent, non-live, obtained from egg culture, split
+      or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose
+    VAL015S: INF-ESUnd3
     VAL016L: Rabies valence, immunoglobulin, unspecified
     VAL016S: RIG
     VAL017L: Pertussis valence, acellular, reduced dose
@@ -2620,11 +2620,12 @@
     VAL021S: CHOL-I-O
     VAL022L: Smallpox valence, live attenuated, unspecified
     VAL022S: POX-LA
-    VAL023L: Influenza valence, trivalent, inactivated, split or subunit, intradermal
-      route, unspecified
-    VAL023S: INF-SUid3
-    VAL024L: Influenza valence, trivalent, inactivated, split or subunit, unspecified
-    VAL024S: INF-SU3
+    VAL023L: Influenza valence, trivalent, non-live, obtained from egg culture, split
+      or subunit, intradermal route, unspecified
+    VAL023S: INF-ESUid3
+    VAL024L: Influenza valence, trivalent, non-live, obtained from egg culture, split
+      or subunit, unspecified
+    VAL024S: INF-ESU3
     VAL025L: Malaria valence, unspecified
     VAL025S: Mala
     VAL026L: Meningococcal valence B:14:P1.7,16 outer membrane vesicle proteins
@@ -2658,9 +2659,10 @@
     VAL038S: COVID-VVr-S-Meas
     VAL039L: COVID-19 valence, VLP, recombinant spike protein
     VAL039S: COVID-VLP-rS
-    VAL040L: Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular
-      or subcutaneous route, non-adjuvanted, normal dose
-    VAL040S: INF-SUnd4
+    VAL040L: Influenza valence, quadrivalent, non-live, obtained from egg culture,
+      split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal
+      dose
+    VAL040S: INF-ESUnd4
     VAL041L: Meningococcal A valence, polysaccharide conjugate
     VAL041S: MCV-A
     VAL042L: Polio valence, unspecified
@@ -2697,8 +2699,9 @@
     VAL056S: IPV
     VAL057L: Meningococcal C valence, polysaccharide conjugate
     VAL057S: MCV-C
-    VAL058L: Influenza valence, Inactivated, split or subunit, unspecified
-    VAL058S: INF-SU
+    VAL058L: Influenza valence, non-live, obtained from egg culture, split or subunit,
+      unspecified
+    VAL058S: INF-ESU
     VAL059L: Influenza valence, quadrivalent, live attenuated, standard dose
     VAL059S: INF-L4
     VAL060L: Chikungunya virus valence, live attenuated
@@ -2711,9 +2714,9 @@
     VAL062S: CHOL-SU-rCTB-O
     VAL063L: Botulism valence, antitoxin
     VAL063S: BAT
-    VAL064L: Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular
-      or subcutaneous route, non-adjuvanted
-    VAL064S: INF-SUNA4
+    VAL064L: Influenza valence, quadrivalent, non-live, obtained from egg culture,
+      split or subunit, intramuscular or subcutaneous route, non-adjuvanted
+    VAL064S: INF-ESUNA4
     VAL065L: 'Dengue valence, live attenuated, tetravalent recombinant chimeric '
     VAL065S: RC-TDV
     VAL066L: COVID-19 valence, replicating influenza virus vector encoding the SARS-CoV-2
@@ -2735,8 +2738,9 @@
     VAL072S: MenB-fHbpAB
     VAL073L: COVID-19 valence, replicating viral vector, antigen presenting cells
     VAL073S: COVID-VVr+APC
-    VAL074L: Influenza valence, quadrivalent, inactivated, split or subunit, high-dose
-    VAL074S: INF-SUhd4
+    VAL074L: Influenza valence, quadrivalent, non-live, obtained from egg culture,
+      split or subunit, high-dose
+    VAL074S: INF-ESUhd4
     VAL075L: Leptospira icterohaemorrhagiae valence, inactivated, whole-cell
     VAL075S: Lepto-wI
     VAL076L: COVID-19 valence, inactivated, whole-virion, unspecified
@@ -2778,9 +2782,9 @@
     VAL092S: YF
     VAL093L: Measles valence, inactivated, whole-virus
     VAL093S: MEAS-I
-    VAL094L: Influenza valence, trivalent, inactivated, fractionated or subunit, intramuscular
-      or subcutaneous, non-adjuvanted, high dose
-    VAL094S: INF-SUhd3
+    VAL094L: Influenza valence, trivalent, non-live, obtained from egg culture, fractionated
+      or subunit, intramuscular or subcutaneous, non-adjuvanted, high dose
+    VAL094S: INF-ESUhd3
     VAL095L: COVID-19 valence, replicating Newcastle disease virus vector encoding
       the SARS-CoV-2 spike protein
     VAL095S: COVID-VVr-S-Nv
@@ -2790,8 +2794,9 @@
     VAL097S: D
     VAL098L: Meningococcal B valence, four-component
     VAL098S: 4CMenB
-    VAL099L: 'Influenza valence, inactivated, pandemic influenza H1N1 2009 '
-    VAL099S: INF-pdm09
+    VAL099L: 'Influenza valence, non-live, obtained from egg culture, pandemic influenza
+      H1N1 2009 '
+    VAL099S: INF-Epdm09
     VAL100L: Japanese encephalitis valence, live attenuated virus, strain 14-14-2
     VAL100S: JE-LA-14-14-2
     VAL101L: COVID-19 valence, non-replicating Newcastle disease virus vector encoding
@@ -2909,8 +2914,9 @@
     VAL150S: Den
     VAL151L: Tularemia valence, unspecified
     VAL151S: Tular
-    VAL152L: Influenza valence, inactivated, whole-virus, unspecified
-    VAL152S: INF-I
+    VAL152L: Influenza valence, obtained from egg culture, inactivated, whole-virus,
+      unspecified
+    VAL152S: INF-EI
     VAL153L: Haemophilus influenzae type b valence, PRP conjugated to diphtheria toxoid
     VAL153S: PRP-D
     VAL154L: Haemophilus influenzae type b valence, PRP conjugated to mutant diphtheria

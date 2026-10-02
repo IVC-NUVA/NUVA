@@ -14,7 +14,7 @@ VAL011,"Szczepionka COVID-19, podjednostka białkowa, rekombinowane białko szpi
 VAL012,"Szczepionka przeciwko zapaleniu wątroby typu B, rekombinowany antygen powierzchniowy wirusa zapalenia wątroby typu B (HBsAg), 40 mikrogramów (dawka dla pacjentów dializowanych)",,rHBsAg-40,VAL090
 VAL013,Glikoproteina powierzchniowa E (gE) wirusa Varicella zoster (VZV),,Shingles-gE,VAL159
 VAL014,"Szczepionka przeciw tyfusowi plamistemu, nieokreślona",,Ty,Valence
-VAL015,"Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",,INF-SUnd3,VAL122
+VAL015,"Influenza valence, trivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",,INF-ESUnd3,VAL122
 VAL016,"Immunoglobulina przeciwko wściekliźnie, nieokreślona",,RIG,Valence
 VAL017,"Wartość bezkomórkowej krztuścowej, zmniejszona dawka",,ap,VAL117
 VAL018,"Szczepionka przeciwko ospie wietrznej trzeciej generacji, minimalnie replikująca żywy wirus vaccinia",,Pox-3G-LC16,VAL028
@@ -22,8 +22,8 @@ VAL019,Antytoksyna błonicza,,DATx,VAL414
 VAL020,"Herpes zoster valence, live attenuated",,Shingles-L,VAL160
 VAL021,Doustna inaktywowana szczepionka przeciwko całej cholerze,,O-Chol-I,VAL359
 VAL022,"Smallpox valence, live attenuated, unspecified",,Smallpox-L,VAL418
-VAL023,"Influenza valence, trivalent, inactivated, split or subunit, intradermal route, unspecified",,INF-SUid3,VAL024
-VAL024,"Trójwalentna inaktywowana wartość przeciwko grypie, dzielona lub podjednostkowa, bez określenia",,INF-SU3,VAL058
+VAL023,"Influenza valence, trivalent, non-live, obtained from egg culture, split or subunit, intradermal route, unspecified",,INF-ESUid3,VAL024
+VAL024,"Trójwalentna inaktywowana wartość przeciwko grypie, dzielona lub podjednostkowa, bez określenia",,INF-ESU3,VAL058
 VAL025,"Szczepionka przeciwko malarii, niespecyfikowana",,Mala,Valence
 VAL026,"Szczepionka meningokokowa B:14:P1.7,16 z białkami pęcherzyków błony zewnętrznej",,MenB-OMP,VAL118
 VAL027,"Szczepionka COVID-19, niereplikujący się wektor adenowirusa 26 kodujący białko szczytowe SARS-CoV-2",,COVID-VVnr-S-Ad26,VAL070
@@ -39,7 +39,7 @@ VAL036,"Szczepionka niewalentna VLP przeciwko wirusowi brodawczaka ludzkiego, ty
 VAL037,"Szczepionka meningokokowa A, nieskoniugowana polisacharydowa",,MPV-A,VAL297
 VAL038,"Szczepionka COVID-19, replikujący wektor wirusa odry kodujący białko kolca SARS-CoV-2",,COVID-VVr-S-Meas,VAL398
 VAL039,"Szczepionka COVID-19, VLP, rekombinowane białko kolca",,COVID-VLP-rS,VAL164
-VAL040,"Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",,INF-SUnd4,VAL064
+VAL040,"Influenza valence, quadrivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",,INF-ESUnd4,VAL064
 VAL041,"Meningokok A, polisacharydowa szczepionka skoniugowana",,MCV-A,VAL297
 VAL042,"Szczepionka przeciwko polio, nieokreślona",,POLIO,Valence
 VAL043,Szczepionka SARS-CoV-2 spike protein mRNA 19,,COVID-mRNA-S,VAL168
@@ -57,13 +57,13 @@ VAL054,"Szczepionka COVID-19, niereplikujący się zmodyfikowany wektor Vaccinia
 VAL055,Immunoglobulina przeciwko gorączce,,Ig-Measles,VAL447
 VAL056,Cała inaktywowana trójwalentna szczepionka przeciwko polio do wstrzykiwań,,POLIO-I,VAL042
 VAL057,"Szczepionka meningokokowa C, polisacharydowa skoniugowana",,MCV-C,VAL298
-VAL058,"Inaktywowana wartość przeciwko grypie, dzielona lub podjednostkowa, bez określenia",,INF-SU,VAL365
+VAL058,"Inaktywowana wartość przeciwko grypie, dzielona lub podjednostkowa, bez określenia",,INF-ESU,VAL365
 VAL059,"Czterowalentna żywa atenuowana wartość przeciwko grypie, normalna dawka",,INF-L4,VAL140
 VAL060,"Chikungunya virus valence, live attenuated",,CHIK-LA,VAL390
 VAL061,"Szczepionka COVID-19, podjednostka białkowa, rekombinowane białko kolca, S-2P i CpG1018",,COVID-PS-CpG1018,VAL104
 VAL062,"Cholera valence, protein subunit, recombinant cholera toxin subunit B (rCTB)",,O-Chol-rCTB-I,VAL021
 VAL063,Antytoksyna botulinowa,,BAT,VAL420
-VAL064,"Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted",,INF-SUNA4,VAL127
+VAL064,"Influenza valence, quadrivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted",,INF-ESUNA4,VAL127
 VAL065,Żywa atenuowana rekombinowana chimeryczna tetrawalentna szczepionka przeciwko dendze ,,RC-TDV,VAL150
 VAL066,"Szczepionka przeciwko wirusowi replikującemu SARS-CoV-2, wirusowi grypy kodującemu białko szczytowe SARS-CoV-2",,COVID-VVr-S-Influ,VAL398
 VAL067,Toksyna tężcowa,,T,Valence
@@ -73,7 +73,7 @@ VAL070,"Szczepionka COVID-19, niereplikujący się wektor adenowirusowy kodując
 VAL071,Inaktywowana cała szczepionka przeciwko durowi brzusznemu,,Ty-I,VAL014
 VAL072,Szczepionka przeciwko meningokokom B zawierająca fHbp z podrodzin A i B,,MenB-fHbpAB,VAL161
 VAL073,"Szczepionka COVID-19, replikujący wektor wirusowy, z komórkami prezentującymi antygen",,COVID-VVr+APC,VAL162
-VAL074,"Inaktywowana czterowalentna szczepionka przeciwko grypie, podzielona lub podjednostkowa, wysokodawkowa",,INF-SUhd4,VAL064
+VAL074,"Inaktywowana czterowalentna szczepionka przeciwko grypie, podzielona lub podjednostkowa, wysokodawkowa",,INF-ESUhd4,VAL064
 VAL075,Inaktywowana cała szczepionka przeciwko Leptospira icterohaemorrhagiae,,Lepto-wI,VAL448
 VAL076,"Szczepionka COVID-19, inaktywowana całymi wirusami, nieokreślona",,COVID-IV,VAL164
 VAL077,"Mumps valence, live attenuated",,Mumps-LAV,VAL183
@@ -93,7 +93,7 @@ VAL090,"Szczepionka przeciwko zapaleniu wątroby typu B, rekombinowany antygen p
 VAL091,"Żywa atenuowana szczepionka przeciwko durowi brzusznemu, szczep Ty21a, doustna",,Ty-LA,VAL014
 VAL092,Żółta gorączka,,YF,Valence
 VAL093,Inaktywowana cała szczepionka przeciwko odrze,,Meas-I,VAL182
-VAL094,"Influenza valence, trivalent, inactivated, fractionated or subunit, intramuscular or subcutaneous, non-adjuvanted, high dose",,INF-SUhd3,VAL122
+VAL094,"Influenza valence, trivalent, non-live, obtained from egg culture, fractionated or subunit, intramuscular or subcutaneous, non-adjuvanted, high dose",,INF-ESUhd3,VAL122
 VAL095,"Szczepionka COVID-19, replikujący wektor wirusa rzekomego pomoru drobiu kodujący białko kolczaste SARS-CoV-2",,COVID-VVr-S-Nv,VAL398
 VAL096,Wartość BCG,,BCG,Valence
 VAL097,"Toksoid błoniczy, dawka standardowa",,D,VAL083

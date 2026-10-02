@@ -613,7 +613,7 @@ VAC0674,Pasteur-MSD Measles vector Covid,"Vaccin anti-covid 19 à vecteur viral 
 VAC0675,Imperial-College-RNA-Covid,"Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, en cours d'essai clinique",False,VAC1166
 VAC0676,Curevac-RNA-Covid,"Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, en cours d'essai clinique",False,VAC1166
 VAC0677,Chinese-PLA-ARN-Covid,"Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, en cours d'essai clinique",False,VAC1166
-VAC0678,Medicago-VLP-Covid,"Vaccin anti-covid 19 à VLP, protéine de pointe recombinante, avec adjuvant",False,VAC1106
+VAC0678,COVIFENZ,"Vaccin anti-covid 19 à VLP, protéine de pointe recombinante, avec adjuvant",False,VAC1106
 VAC0679,MEDIGEN-S-2P-CpH1018-COVID,"Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe du SARS-CoV-2 recombinante, S-2P et CpG1018",False,VAC1144
 VAC0680,COVILO SINOPHARM COVID-19 VACCINE,"Vaccin anti-covid 19 à virus entier inactivé, cultivé sur cellules Vero - Autres noms : SINOPHARM BBIBP-CorV COVID-19 ; COVID-19 Vaccine BIBP ; Hayat-vax",False,VAC1119
 VAC0681,GRAd-COV2 COVID-19 Vaccine ReiThera,"Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus codant la protéine de pointe du SARS-CoV-2",False,VAC1143
@@ -1164,7 +1164,7 @@ VAC1234,"Vaccin Pneumocoque non conjugué 15-valent, sans précision","Pneumococ
 VAC1235,"Vaccin Rotavirus monovalent RIX4414, sans précision","Rotavirus RIX4414 monovalent vaccine, unspecified",True,
 VAC1236,"Vaccin Covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, sous-variant Omicron XBB.1.5, sans précision","Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, sous-variant Omicron XBB.1.5",True,
 VAC1237,"Vaccin Paludisme pré-érythrocytaire, sans précision",Malaria vaccine pre-erythrocytic R21/Matrix-M,True,
-VAC1238,"Vaccin Hépatite B et Paludisme, sans précision","Hepatitis B and malaria vaccine, unspecified",True,
+VAC1238,"Vaccin Hépatite B et Paludisme, sans précision","Hepatitis B and malaria (sporozoite surface protein) vaccine, unspecified",True,
 VAC1239,"Vaccin Pneumocoque conjugué 15-valent, sans précision","Pneumococcal 15-valent polysaccharide conjugate vaccine, adsorbed, serotypes 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F and 33F",True,
 VAC1240,"Vaccin Méningocoque B à 4 composants, sans précision","Meningococcal B vaccine, 4-component, unspecified",True,
 VAC1241,"Vaccin Zona, glycoprotéine E (gE) de surface du virus varicelle-zona (VZV), sans précision","Shingles vaccine, varicella-zoster virus (VZV) surface glycoprotein E (gE), unspecified",True,
@@ -1309,7 +1309,7 @@ VAC1379,ZYVAC MMR,"Vaccin vivant atténué contre la rougeole, les oreillons et 
 VAC1380,ZYVAC TCV,"Vaccin typhoïdique, antigène Vi conjugué à l'anatoxine tétanique",False,VAC0711
 VAC1381,MEASLES AND RUBELLA VACCINE ZYDUS,Vaccin vivant atténué contre la rougeole et la rubéole,False,VAC0623
 VAC1382,SKYTYPHOID,"Vaccin conjugué contre la typhoïde, antigène capsulaire polyosidique Vi lié à une protéine porteuse (toxine diphtérique)",False,VAC1542
-VAC1383,CYVAC,Malaria vaccine,False,VAC1543
+VAC1383,CYVAC,"Malaria vaccine sporozoite surface protein, unspecified",False,VAC1543
 VAC1384,BARYCELA,Vaccin vivant atténué contre la varicelle,False,VAC0159
 VAC1385,GC FLU QUADRIVALENT,"Vaccin contre la grippe saisonnière inactivé quadrivalent de la grippe, fractionnée ou sous-unité, sans précision",False,VAC1541
 VAC1386,GCFLU,"Vaccin contre la grippe saisonnière inactivé, quadrivalent, dose pédiatrique",False,VAC0929
@@ -1469,7 +1469,7 @@ VAC1539,"Vaccin méningococcique à large spectre contre les sérogroupes A, B, 
 VAC1540,"Vaccin contre la typhoïde et le tétanos, suspension injectable","Typhoid and tetanus vaccine, injectable suspension",True,
 VAC1541,"Vaccin contre la grippe saisonnière inactivé quadrivalent de la grippe, fractionnée ou sous-unité, sans précision","Influenza quadrivalent inactivated vaccine, split or subunit, unspecified",True,
 VAC1542,Vaccin conjugué contre la typhoïde et l'anatoxine diphtérique,"Typhoid conjugate to diphtheria toxoid vaccine, unspecified",True,
-VAC1543,Vaccin contre le paludisme,Malaria vaccine,True,
+VAC1543,Vaccin contre le paludisme,"Malaria vaccine sporozoite surface protein, unspecified",True,
 VAC1544,"Dengue vaccine, live-attenuated, recombinant chimeric, quadrivalent against the four serotypes (DEN-1, DEN-2, DEN-3 and DEN-4)","Dengue vaccine, live-attenuated, recombinant chimeric, quadrivalent against the four serotypes (DEN-1, DEN-2, DEN-3 and DEN-4)",True,
 VAC1545,"COVID-19 vaccine, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms","COVID-19 vaccine, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms",True,
 VAC1546,"COVID-19 vaccine, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms.","COVID-19 vaccine, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms.",True,
@@ -1483,3 +1483,4 @@ VAC1553,"Urinary tract infections vaccine, Escherichia coli, Klebsiella pneumoni
 VAC1554,VAXRABEO,"Whole inactivated rabies vaccine, prepared in Vero cell culture (PVRV), Wistar strain, inactivation by ß-propiolactone",False,VAC1116
 VAC1555,"Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified","Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified",True,
 VAC1556,TG4050,"Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified",False,VAC1555
+VAC1557,"Influenza vaccine, trivalent, inactivated, split or subunit, unspecified","Influenza vaccine, trivalent, inactivated, split or subunit, unspecified",True,
