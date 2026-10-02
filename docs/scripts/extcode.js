@@ -145,6 +145,8 @@ function showCodes() {
 		row.style.display = (foundText && changed ?'table-row':'none')
 	}
 	document.getElementById('edit').style.display = (context.currentCode?'block':'none')
+	document.getElementById('rev_button').disabled = !CSData.CSID
+	
 }
 
 function viewEditCode(code)
