@@ -171,14 +171,15 @@ expand = true
 function toggleAll()
 {
 	if (expand)
-	{
+	{	
 		foldedList = [...document.getElementsByClassName('folded')]
 		for (folded of foldedList) {
 			folded.className = 'unfolded'
 			ul = folded.parentElement.querySelectorAll('ul')[0]
 			ul.style.display = 'block'
-		}		
-	expand = false
+		}
+		expand = false
+		document.getElementById('toggleButton').innerHTML = "Fold all"
 	} else {
 		unfoldedList = [...document.getElementsByClassName('unfolded')]
 		for (unfolded of unfoldedList) {
@@ -187,6 +188,7 @@ function toggleAll()
 			ul.style.display = 'none'
 		}	
 		expand = true
+		document.getElementById('toggleButton').innerHTML = "Unfold all"		
 	}
 }
 
@@ -316,6 +318,7 @@ function viewEditValence() {
 	document.getElementById("vlabel").value = valence.label
 	document.getElementById("vparent").innerHTML = valences[valence.parent].shorthand
 	document.getElementById("edit").style = "display:block"
+	document.getElementById("resetVal").style.display = (extvalences[idval].changed?'inline':'none')	
 	vtlist.value = valence.vtype	
 	vtypeselect()	
 }

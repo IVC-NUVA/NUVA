@@ -17,7 +17,7 @@
     <li><a href="files.html">Files</a></li>			
   </ul>
 
- <h3>Filter (any)</h3>
+ <h3>Filter</h3>
   <input id='filterText' oninput="showValences()">
  <div class='item'>Changed only: 
  <input type='checkbox' id='changedOnly' onchange='setChangedOnly()'>
@@ -44,7 +44,7 @@
 <main class="content">
 <h1>Valences</h1>
   <button class='add' onclick=addValence()>Add a valence</button>
-  <button onclick=toggleAll()>Toggle all</button>
+  <button id='toggleButton'onclick=toggleAll()>Unfold all</button>
 <div style = "overflow:scroll; height:80vh">
 <div id=lval> </div>
 </div>
@@ -62,7 +62,7 @@
 	</table>
 	<button onclick = setValenceValues()>Save values</button>
 	<button onclick = setParent()>Use selected as Parent</button>
-	<button onclick = resetValence()>Reset to default</button>
+	<button id = 'resetVal' onclick = resetValence()>Reset to default</button>
 	<button onclick = closeValenceEdit()>Close</button>	
 </div>
 

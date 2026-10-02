@@ -331,12 +331,12 @@ function resetVaccine() {
 		}
 		delete vaccines[idvac]
 		closeVaccineEdit()
-		saveToSession('vaccines',vaccines)
 	} else {
 		vaccine = vaccines[idvac]
 		Object.assign(vaccine, defaultData['vaccines'][idvac])
 		viewEditVaccine(idvac)
 	}
+	saveToSession('vaccines',vaccines)
 	refresh()	
 }
 function showSidebar() {
