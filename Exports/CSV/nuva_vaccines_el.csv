@@ -491,7 +491,7 @@ VAC0524,TEVAX,Tetanus toxoid vaccine,False,VAC0132
 VAC0525,INFANRIX PENTA,"Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent acellular, standard dose), inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed",False,VAC1174
 VAC0526,HECOLIN,Recombinant Hepatitis E Peptide vaccine,False,VAC0917
 VAC0527,VACCIN DIPHTERIQUE ET TETANIQUE ADSORBE,Diphtheria toxoid (standard dose) and tetanus toxoid pediatric vaccine,False,VAC0137
-VAC0528,MOSQUIRIX,Hepatitis B and malaria vaccine,False,VAC1238
+VAC0528,MOSQUIRIX,"Hepatitis B and malaria (sporozoite surface protein) vaccine, unspecified",False,VAC1238
 VAC0529,IMOVAX TETANO,Tetanus toxoid vaccine,False,VAC0132
 VAC0530,TETANOL PUR,Tetanus toxoid vaccine,False,VAC0132
 VAC0531,TETANOS ADSORBE MERIEUX,Tetanus toxoid vaccine,False,VAC0132
@@ -611,7 +611,7 @@ VAC0674,Pasteur-MSD Measles vector Covid,"COVID-19 vaccine, replicating measles 
 VAC0675,Imperial-College-RNA-Covid,"COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, ongoing clinical trial",False,VAC1166
 VAC0676,Curevac-RNA-Covid,"COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, ongoing clinical trial",False,VAC1166
 VAC0677,Chinese-PLA-ARN-Covid,"COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, ongoing clinical trial",False,VAC1166
-VAC0678,Medicago-VLP-Covid,"COVID-19 vaccine, VLP, recombinant spike protein, with adjuvant",False,VAC1106
+VAC0678,COVIFENZ,"COVID-19 vaccine, VLP, recombinant spike protein, with adjuvant",False,VAC1106
 VAC0679,MEDIGEN-S-2P-CpH1018-COVID,"COVID-19 vaccine, protein subunit, recombinant spike protein, S-2P and CpG1018",False,VAC1144
 VAC0680,COVILO SINOPHARM COVID-19 VACCINE,"COVID-19 vaccine, whole virion inactivated, Vero cell-cultured - Other names : SINOPHARM BBIBP-CorV COVID-19 ; COVID-19 Vaccine BIBP ; Hayat-vax",False,VAC1119
 VAC0681,GRAd-COV2 COVID-19 Vaccine ReiThera,"COVID-19 vaccine, non-replicating adenoviral vector encoding the SARS-CoV-2 spike protein",False,VAC1143
@@ -1161,7 +1161,7 @@ VAC1234,"Pneumococcal 15-valent unconjugated polysaccharide vaccine, serotypes 1
 VAC1235,"Rotavirus RIX4414 monovalent vaccine, unspecified","Rotavirus RIX4414 monovalent vaccine, unspecified",True,
 VAC1236,"COVID-19 protein subunit vaccine, recombinant spike protein in nanoparticles, Omicron subvariant XBB.1.5, unspecified","COVID-19 spike protein subunit vaccine, recombinant spike protein in nanoparticles, Omicron subvariant XBB.1.5",True,
 VAC1237,Malaria vaccine pre-erythrocytic R21/Matrix-M,Malaria vaccine pre-erythrocytic R21/Matrix-M,True,
-VAC1238,"Hepatitis B and malaria vaccine, unspecified","Hepatitis B and malaria vaccine, unspecified",True,
+VAC1238,"Hepatitis B and malaria (sporozoite surface protein) vaccine, unspecified","Hepatitis B and malaria (sporozoite surface protein) vaccine, unspecified",True,
 VAC1239,"Πνευμονιοκοκκικό 15-δύναμο συζευγμένο εμβόλιο, απροσδιόριστο","Pneumococcal 15-valent polysaccharide conjugate vaccine, adsorbed, serotypes 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F and 33F",True,
 VAC1240,"Meningococcal B vaccine, 4-component, unspecified","Meningococcal B vaccine, 4-component, unspecified",True,
 VAC1241,"Shingles vaccine, varicella-zoster virus (VZV) surface glycoprotein E (gE), unspecified","Shingles vaccine, varicella-zoster virus (VZV) surface glycoprotein E (gE), unspecified",True,
@@ -1306,7 +1306,7 @@ VAC1379,ZYVAC MMR,"Live attenuated measles, mumps and rubella vaccine",False,VAC
 VAC1380,ZYVAC TCV,"Typhoid conjugate vaccine, Vi polysaccharide linked to tetanus toxoid protein",False,VAC0711
 VAC1381,MEASLES AND RUBELLA VACCINE ZYDUS,Live attenuated measles and rubella vaccine,False,VAC0623
 VAC1382,SKYTYPHOID,"Typhoid conjugate vaccine, Vi polysaccharide capsular antigen linked to a carrier protein (diphtheria toxin)",False,VAC1542
-VAC1383,CYVAC,Malaria vaccine,False,VAC1543
+VAC1383,CYVAC,"Malaria vaccine sporozoite surface protein, unspecified",False,VAC1543
 VAC1384,BARYCELA,Live attenuated chickenpox vaccine,False,VAC0159
 VAC1385,GC FLU QUADRIVALENT,"Quadrivalent inactivated seasonal influenza vaccine, split or subunit, unspecified",False,VAC1541
 VAC1386,GCFLU,"Quadrivalent inactivated seasonal influenza vaccine, pediatric dose",False,VAC0929
@@ -1466,7 +1466,7 @@ VAC1539,"Meningococcal broad-spectrum vaccine against serogroups A, B, C, W and 
 VAC1540,"Typhoid and tetanus vaccine, injectable suspension","Typhoid and tetanus vaccine, injectable suspension",True,
 VAC1541,"Influenza quadrivalent inactivated vaccine, split or subunit, unspecified","Influenza quadrivalent inactivated vaccine, split or subunit, unspecified",True,
 VAC1542,"Typhoid conjugate to diphtheria toxoid vaccine, unspecified","Typhoid conjugate to diphtheria toxoid vaccine, unspecified",True,
-VAC1543,Malaria vaccine,Malaria vaccine,True,
+VAC1543,"Malaria vaccine sporozoite surface protein, unspecified","Malaria vaccine sporozoite surface protein, unspecified",True,
 VAC1544,"Dengue vaccine, live-attenuated, recombinant chimeric, quadrivalent against the four serotypes (DEN-1, DEN-2, DEN-3 and DEN-4)","Dengue vaccine, live-attenuated, recombinant chimeric, quadrivalent against the four serotypes (DEN-1, DEN-2, DEN-3 and DEN-4)",True,
 VAC1545,"COVID-19 vaccine, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms","COVID-19 vaccine, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms",True,
 VAC1546,"COVID-19 vaccine, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms.","COVID-19 vaccine, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms.",True,
@@ -1480,3 +1480,4 @@ VAC1553,"Urinary tract infections vaccine, Escherichia coli, Klebsiella pneumoni
 VAC1554,VAXRABEO,"Whole inactivated rabies vaccine, prepared in Vero cell culture (PVRV), Wistar strain, inactivation by ß-propiolactone",False,VAC1116
 VAC1555,"Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified","Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified",True,
 VAC1556,TG4050,"Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified",False,VAC1555
+VAC1557,"Influenza vaccine, trivalent, inactivated, split or subunit, unspecified","Influenza vaccine, trivalent, inactivated, split or subunit, unspecified",True,

@@ -14,7 +14,7 @@ VAL011,"Vacina COVID-19, subunidade de proteína, proteína recombinante do espi
 VAL012,"Vacina contra a hepatite B, antigénio de superfície recombinante do vírus da hepatite B (HBsAg), 40 microgramas (dosagem do doente por diálise)",,rHBsAg-40,VAL090
 VAL013,Varicella zoster virus (VZV) glicoproteína de superfície E (gE),,Shingles-gE,VAL159
 VAL014,"Vacina contra a febre tifóide, não especificada",,Ty,Valence
-VAL015,"Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",,INF-SUnd3,VAL122
+VAL015,"Influenza valence, trivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",,INF-ESUnd3,VAL122
 VAL016,"Imunoglobulina da raiva, não especificada",,RIG,Valence
 VAL017,"Valência acelular contra a coqueluche, dose reduzida",,ap,VAL117
 VAL018,"Vacina contra a varíola de terceira geração, replicando minimamente o vírus da vacina viva",,Pox-3G-LC16,VAL028
@@ -22,8 +22,8 @@ VAL019,Difteria antitoxina,,DATx,VAL414
 VAL020,"Herpes zoster valence, live attenuated",,Shingles-L,VAL160
 VAL021,Vacina oral inactivada contra a cólera inteira,,O-Chol-I,VAL359
 VAL022,"Smallpox valence, live attenuated, unspecified",,Smallpox-L,VAL418
-VAL023,"Influenza valence, trivalent, inactivated, split or subunit, intradermal route, unspecified",,INF-SUid3,VAL024
-VAL024,"Valência vacinal trivalente inativada da gripe, fracionada ou de subunidade, sem especificação",,INF-SU3,VAL058
+VAL023,"Influenza valence, trivalent, non-live, obtained from egg culture, split or subunit, intradermal route, unspecified",,INF-ESUid3,VAL024
+VAL024,"Valência vacinal trivalente inativada da gripe, fracionada ou de subunidade, sem especificação",,INF-ESU3,VAL058
 VAL025,"Vacina contra a malária, não especificada",,Mala,Valence
 VAL026,"Vacina meningocócica B:14:P1.7,16 com proteínas da membrana externa da vesícula",,MenB-OMP,VAL118
 VAL027,"Vacina COVID-19, adenovírus 26 vector não replicador que codifica a proteína do espigão da SRA-CoV-2",,COVID-VVnr-S-Ad26,VAL070
@@ -39,7 +39,7 @@ VAL036,"Vacina VLP não-valente contra o papilomavírus humano, tipos 6, 11, 16,
 VAL037,"Vacina meningocócica A, polissacarídeo não conjugado",,MPV-A,VAL297
 VAL038,"Vacina COVID-19, replicando o vector do vírus do sarampo que codifica a proteína do espigão SRA-CoV-2",,COVID-VVr-S-Meas,VAL398
 VAL039,"Vacina COVID-19, VLP, proteína de espiga recombinante",,COVID-VLP-rS,VAL164
-VAL040,"Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",,INF-SUnd4,VAL064
+VAL040,"Influenza valence, quadrivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",,INF-ESUnd4,VAL064
 VAL041,"Meningocócica A, vacina conjugada de polissacarídeos",,MCV-A,VAL297
 VAL042,"Vacina contra a poliomielite, não especificada",,POLIO,Valence
 VAL043,SRA-CoV-2 vacina contra o pico da proteína mRNA 19,,COVID-mRNA-S,VAL168
@@ -57,13 +57,13 @@ VAL054,"Vacina COVID-19, Vaccinia Virus Ankara modificado não replicável codif
 VAL055,Imunoglobulina do sarampo,,Ig-Measles,VAL447
 VAL056,Vacina trivalente inactivada completa contra a poliomielite para injecção,,POLIO-I,VAL042
 VAL057,"Vacina meningocócica C, conjugado de polissacarídeo",,MCV-C,VAL298
-VAL058,"Valência vacinal inativada da gripe, fracionada ou de subunidade, sem especificação",,INF-SU,VAL365
+VAL058,"Valência vacinal inativada da gripe, fracionada ou de subunidade, sem especificação",,INF-ESU,VAL365
 VAL059,"Valência vacinal tetravalente viva atenuada contra a gripe, dose normal",,INF-L4,VAL140
 VAL060,"Chikungunya virus valence, live attenuated",,CHIK-LA,VAL390
 VAL061,"Vacina COVID-19, subunidade de proteína, proteína de pico recombinante, S-2P e CpG1018",,COVID-PS-CpG1018,VAL104
 VAL062,"Cholera valence, protein subunit, recombinant cholera toxin subunit B (rCTB)",,O-Chol-rCTB-I,VAL021
 VAL063,Botulinum antitoxina,,BAT,VAL420
-VAL064,"Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted",,INF-SUNA4,VAL127
+VAL064,"Influenza valence, quadrivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted",,INF-ESUNA4,VAL127
 VAL065,Vacina contra a dengue quimérica tetravalente atenuada e recombinante ao vivo ,,RC-TDV,VAL150
 VAL066,"Vacina anti-vírus replicadora 19 anti-covido, vírus influenza que codifica a proteína de pico da SRA-CoV-2",,COVID-VVr-S-Influ,VAL398
 VAL067,Tetanus toxoid,,T,Valence
@@ -73,7 +73,7 @@ VAL070,"Vacina COVID-19, vector adenoviral não replicante que codifica a prote�
 VAL071,Vacina contra a febre tifóide total inactivada,,Ty-I,VAL014
 VAL072,Vacina meningocócica B contendo fHbp das subfamílias A e B,,MenB-fHbpAB,VAL161
 VAL073,"Vacina COVID-19, replicando o vector viral, com células que apresentam antigénio",,COVID-VVr+APC,VAL162
-VAL074,"Vacina quadrivalente contra a gripe inactivada, fenda ou subunidade, dose alta",,INF-SUhd4,VAL064
+VAL074,"Vacina quadrivalente contra a gripe inactivada, fenda ou subunidade, dose alta",,INF-ESUhd4,VAL064
 VAL075,Inactivação da vacina completa contra Leptospira icterohaemorrhagiae,,Lepto-wI,VAL448
 VAL076,"Vacina COVID-19, virião inteiro inactivado, não especificada",,COVID-IV,VAL164
 VAL077,"Mumps valence, live attenuated",,Mumps-LAV,VAL183
@@ -93,7 +93,7 @@ VAL090,"Vacina contra a hepatite B, antigénio de superfície recombinante do v�
 VAL091,"Vacina viva atenuada contra a febre tifóide, estirpe Ty21a, oral",,Ty-LA,VAL014
 VAL092,Febre amarela,,YF,Valence
 VAL093,Vacina inactivada contra o sarampo inteiro,,Meas-I,VAL182
-VAL094,"Influenza valence, trivalent, inactivated, fractionated or subunit, intramuscular or subcutaneous, non-adjuvanted, high dose",,INF-SUhd3,VAL122
+VAL094,"Influenza valence, trivalent, non-live, obtained from egg culture, fractionated or subunit, intramuscular or subcutaneous, non-adjuvanted, high dose",,INF-ESUhd3,VAL122
 VAL095,"Vacina COVID-19, replicando o vector do vírus da doença de Newcastle que codifica a proteína do espigão SRA-CoV-2",,COVID-VVr-S-Nv,VAL398
 VAL096,Valência BCG,,BCG,Valence
 VAL097,"Difteria toxoídica, dose padrão",,D,VAL083

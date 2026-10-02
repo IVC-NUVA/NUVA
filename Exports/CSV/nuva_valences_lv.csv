@@ -14,7 +14,7 @@ VAL011,"COVID-19 vakcīna, proteīna apakšvienība, rekombinantais smailes prot
 VAL012,"Hepatīta B vakcīna, rekombinantā Hepatīta B vīrusa virsmas antigēns (HBsAg), 40 mikrogrami (dializējamo pacientu devas)",,rHBsAg-40,VAL090
 VAL013,Varicella zoster vīrusa (VZV) virsmas glikoproteīns E (gE),,Shingles-gE,VAL159
 VAL014,"Vakcīna pret vēdertīfu, neprecizēta",,Ty,Valence
-VAL015,"Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",,INF-SUnd3,VAL122
+VAL015,"Influenza valence, trivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",,INF-ESUnd3,VAL122
 VAL016,"Trakumsērgas imūnglobulīns, neprecizēts",,RIG,Valence
 VAL017,"Bezšūnu garā klepus valence, samazināta deva",,ap,VAL117
 VAL018,"Trešās paaudzes vakcīna pret bakām, minimāli replicējošs dzīvs vakcinācijas vīruss",,Pox-3G-LC16,VAL028
@@ -22,8 +22,8 @@ VAL019,Difterijas antitoksīns,,DATx,VAL414
 VAL020,"Herpes zoster valence, live attenuated",,Shingles-L,VAL160
 VAL021,Perorāla inaktivēta vesela holēras vakcīna,,O-Chol-I,VAL359
 VAL022,"Smallpox valence, live attenuated, unspecified",,Smallpox-L,VAL418
-VAL023,"Influenza valence, trivalent, inactivated, split or subunit, intradermal route, unspecified",,INF-SUid3,VAL024
-VAL024,"Trivalenta inaktivēta gripas valence, frakcionēta vai apakšvienība, bez precizējuma",,INF-SU3,VAL058
+VAL023,"Influenza valence, trivalent, non-live, obtained from egg culture, split or subunit, intradermal route, unspecified",,INF-ESUid3,VAL024
+VAL024,"Trivalenta inaktivēta gripas valence, frakcionēta vai apakšvienība, bez precizējuma",,INF-ESU3,VAL058
 VAL025,"Vakcīna pret malāriju, neprecizēta",,Mala,Valence
 VAL026,"Meningokoku vakcīna B:14:P1.7,16 ar ārējās membrānas vezikulu olbaltumvielām",,MenB-OMP,VAL118
 VAL027,"COVID-19 vakcīna, neatjaunojošs adenovīrusa 26 vektors, kas kodē SARS-CoV-2 smailes proteīnu.",,COVID-VVnr-S-Ad26,VAL070
@@ -39,7 +39,7 @@ VAL036,"Cilvēka papilomas vīrusa VLP neavalentā vakcīna, 6., 11., 16., 18., 
 VAL037,Meningokoka A nekonjugēta polisaharīda vakcīna,,MPV-A,VAL297
 VAL038,"COVID-19 vakcīna, replicējošs masalu vīrusa vektors, kas kodē SARS-CoV-2 smailes proteīnu",,COVID-VVr-S-Meas,VAL398
 VAL039,"COVID-19 vakcīna, VLP, rekombinants smailes proteīns",,COVID-VLP-rS,VAL164
-VAL040,"Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",,INF-SUnd4,VAL064
+VAL040,"Influenza valence, quadrivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",,INF-ESUnd4,VAL064
 VAL041,Meningokoka A polisaharīdu konjugētā vakcīna,,MCV-A,VAL297
 VAL042,"Poliomielīta vakcīna, neprecizēta",,POLIO,Valence
 VAL043,SARS-CoV-2 smaila proteīna mRNS 19 vakcīna,,COVID-mRNA-S,VAL168
@@ -57,13 +57,13 @@ VAL054,"COVID-19 vakcīna, neatjaunojošs modificēts Vaccinia Virus Ankara vekt
 VAL055,Masalu imūnglobulīns,,Ig-Measles,VAL447
 VAL056,Visa inaktivēta trivalenta poliomielīta vakcīna injekcijām,,POLIO-I,VAL042
 VAL057,Meningokoka C polisaharīdu konjugāta vakcīna,,MCV-C,VAL298
-VAL058,"Inaktivēta gripas valence, frakcionēta vai apakšvienība, bez precizējuma",,INF-SU,VAL365
+VAL058,"Inaktivēta gripas valence, frakcionēta vai apakšvienība, bez precizējuma",,INF-ESU,VAL365
 VAL059,"Četrvalenta dzīva novājināta gripas valence, normāla deva",,INF-L4,VAL140
 VAL060,"Chikungunya virus valence, live attenuated",,CHIK-LA,VAL390
 VAL061,"COVID-19 vakcīna, proteīna apakšvienība, rekombinants smailes proteīns, S-2P un CpG1018",,COVID-PS-CpG1018,VAL104
 VAL062,"Cholera valence, protein subunit, recombinant cholera toxin subunit B (rCTB)",,O-Chol-rCTB-I,VAL021
 VAL063,Botulīna antitoksīns,,BAT,VAL420
-VAL064,"Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted",,INF-SUNA4,VAL127
+VAL064,"Influenza valence, quadrivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted",,INF-ESUNA4,VAL127
 VAL065,Dzīva novājināta rekombinētā himēriskā tetravalentā denges vakcīna ,,RC-TDV,VAL150
 VAL066,"Pretcovid 19 replicatīvā vīrusa vektora vakcīna, gripas vīruss, kas kodē SARS-CoV-2 maksimālo proteīnu",,COVID-VVr-S-Influ,VAL398
 VAL067,Stingumkrampju toksoīds,,T,Valence
@@ -73,7 +73,7 @@ VAL070,"COVID-19 vakcīna, neatjaunojošs adenovīrusu vektors, kas kodē SARS-C
 VAL071,Inaktivēta visa vakcīna pret vēdertīfu,,Ty-I,VAL014
 VAL072,"Meningokoka B vakcīna, kas satur A un B apakšģimenes fHbp",,MenB-fHbpAB,VAL161
 VAL073,"COVID-19 vakcīna, replicējošs vīrusa vektors, ar antigēnu prezentējošām šūnām",,COVID-VVr+APC,VAL162
-VAL074,"Četrivalenta inaktivēta gripas vakcīna, sadalīta vai subvienota, lielas devas",,INF-SUhd4,VAL064
+VAL074,"Četrivalenta inaktivēta gripas vakcīna, sadalīta vai subvienota, lielas devas",,INF-ESUhd4,VAL064
 VAL075,Inaktivēta visa vakcīna pret Leptospira icterohaemorrhagiae,,Lepto-wI,VAL448
 VAL076,"COVID-19 vakcīna, inaktivēta ar veselu vīrionu, neprecizēta",,COVID-IV,VAL164
 VAL077,"Mumps valence, live attenuated",,Mumps-LAV,VAL183
@@ -93,7 +93,7 @@ VAL090,"Hepatīta B vakcīna, rekombinantais hepatīta B vīrusa virsmas antigē
 VAL091,"Dzīva novājināta tīfa vakcīna, Ty21a celms, perorāla",,Ty-LA,VAL014
 VAL092,Dzeltenais drudzis,,YF,Valence
 VAL093,Inaktivēta vesela masalu vakcīna,,Meas-I,VAL182
-VAL094,"Influenza valence, trivalent, inactivated, fractionated or subunit, intramuscular or subcutaneous, non-adjuvanted, high dose",,INF-SUhd3,VAL122
+VAL094,"Influenza valence, trivalent, non-live, obtained from egg culture, fractionated or subunit, intramuscular or subcutaneous, non-adjuvanted, high dose",,INF-ESUhd3,VAL122
 VAL095,"COVID-19 vakcīna, replicējošs Ņūkāslas slimības vīrusa vektors, kas kodē SARS-CoV-2 smailes proteīnu",,COVID-VVr-S-Nv,VAL398
 VAL096,BCG valence,,BCG,Valence
 VAL097,"Difterijas toksoīds, standarta deva",,D,VAL083

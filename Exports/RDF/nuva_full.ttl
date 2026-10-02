@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "2026-09-24"^^xsd:string .
+    owl:versionInfo "2026-10-02"^^xsd:string .
 
 <http://ivci.org/NUVA/#MISS> skos:notation "07"^^<http://ivci.org/NUVA/﻿ATC>,
         "07A"^^<http://ivci.org/NUVA/﻿ATC>,
@@ -5812,9 +5812,8 @@ nuva:VAC0527 a owl:Class ;
 nuva:VAC0528 a owl:Class ;
     rdfs:label "MOSQUIRIX"^^xsd:string ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2026-09-13"^^xsd:date ;
-    rdfs:comment "Hepatitis B and malaria vaccine"@en,
-        "Vaccin contre l'hépatite B et le paludisme"@fr ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
+    rdfs:comment "Vaccin contre l'hépatite B et le paludisme"@fr ;
     rdfs:subClassOf nuva:VAC1238 ;
     skos:notation "0528"^^nuva:NUVACode,
         "VAC0528"^^xsd:string .
@@ -7136,9 +7135,9 @@ nuva:VAC0677 a owl:Class ;
         "VAC0677"^^xsd:string .
 
 nuva:VAC0678 a owl:Class ;
-    rdfs:label "Medicago-VLP-Covid"^^xsd:string ;
+    rdfs:label "COVIFENZ"^^xsd:string ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2026-09-13"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:comment "COVID-19 vaccine, VLP, recombinant spike protein, with adjuvant"@en,
         "Vaccin anti-covid 19 à VLP, protéine de pointe recombinante, avec adjuvant"@fr ;
     rdfs:subClassOf nuva:VAC1106 ;
@@ -13251,7 +13250,7 @@ nuva:VAC1382 a owl:Class ;
 nuva:VAC1383 a owl:Class ;
     rdfs:label "CYVAC"^^xsd:string ;
     dcterms:created "2025-04-07"^^xsd:date ;
-    dcterms:modified "2026-09-13"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAC1543 ;
     skos:notation "1383"^^nuva:NUVACode,
         "VAC1383"^^xsd:string .
@@ -14388,6 +14387,15 @@ nuva:VAC1556 a owl:Class ;
     rdfs:subClassOf nuva:VAC1555 ;
     skos:notation "1556"^^nuva:NUVACode,
         "VAC1556"^^xsd:string .
+
+nuva:VAC1557 a owl:Class ;
+    rdfs:label "Influenza vaccine, trivalent, inactivated, split or subunit, unspecified"@en ;
+    nuvs:containsValence nuva:VAL024 ;
+    dcterms:created "2026-10-01"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "1557"^^nuva:NUVACode,
+        "VAC1557"^^xsd:string .
 
 nuva:VAL120 a owl:Class ;
     rdfs:label "Meningokokken, nicht konjugiertes Polysaccharid, polyvalent"@de,
@@ -16017,12 +16025,12 @@ nuva:VAC1237 a owl:Class ;
         "VAC1237"^^xsd:string .
 
 nuva:VAC1238 a owl:Class ;
-    rdfs:label "Hepatitis B and malaria vaccine, unspecified"@en,
+    rdfs:label "Hepatitis B and malaria (sporozoite surface protein) vaccine, unspecified"@en,
         "Vaccin Hépatite B et Paludisme, sans précision"@fr ;
     nuvs:containsValence nuva:VAL009,
         nuva:VAL114 ;
     dcterms:created "2024-06-05"^^xsd:date ;
-    dcterms:modified "2026-09-07"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "1238"^^nuva:NUVACode,
         "VAC1238"^^xsd:string .
@@ -16629,11 +16637,11 @@ nuva:VAC1542 a owl:Class ;
         "VAC1542"^^xsd:string .
 
 nuva:VAC1543 a owl:Class ;
-    rdfs:label "Malaria vaccine"@en,
+    rdfs:label "Malaria vaccine sporozoite surface protein, unspecified"@en,
         "Vaccin contre le paludisme"@fr ;
     nuvs:containsValence nuva:VAL009 ;
     dcterms:created "2026-09-10"^^xsd:date ;
-    dcterms:modified "2026-09-11"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "1543"^^nuva:NUVACode,
         "VAC1543"^^xsd:string .
@@ -16911,12 +16919,12 @@ nuva:VAL020 a owl:Class ;
     skos:notation "VAL020"^^xsd:string .
 
 nuva:VAL023 a owl:Class ;
-    rdfs:label "Influenza valence, trivalent, inactivated, split or subunit, intradermal route, unspecified"@en,
+    rdfs:label "Influenza valence, trivalent, non-live, obtained from egg culture, split or subunit, intradermal route, unspecified"@en,
         "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intradermique, sans précision"@fr ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL024 ;
-    skos:altLabel "INF-SUid3"@en,
+    skos:altLabel "INF-ESUid3"@en,
         "Inf-SUid3"@fr ;
     skos:notation "VAL023"^^xsd:string .
 
@@ -17041,12 +17049,12 @@ nuva:VAL039 a owl:Class ;
     skos:notation "VAL039"^^xsd:string .
 
 nuva:VAL040 a owl:Class ;
-    rdfs:label "Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose"@en,
+    rdfs:label "Influenza valence, quadrivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose"@en,
         "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant, dose normale"@fr ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL064 ;
-    skos:altLabel "INF-SUnd4"@en,
+    skos:altLabel "INF-ESUnd4"@en,
         "Inf-SUnd4"@fr ;
     skos:notation "VAL040"^^xsd:string .
 
@@ -17378,15 +17386,15 @@ nuva:VAL073 a owl:Class ;
 nuva:VAL074 a owl:Class ;
     rdfs:label "Vierwertiger inaktivierter Influenza-Impfstoff, Split oder Subunit, hochdosiert"@de,
         "Τετραδύναμο αδρανοποιημένο εμβόλιο γρίπης, διαιρεμένο ή υπομονάδα, υψηλής δόσης"@el,
-        "Influenza valence, quadrivalent, inactivated, split or subunit, high-dose"@en,
+        "Influenza valence, quadrivalent, non-live, obtained from egg culture, split or subunit, high-dose"@en,
         "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, haute dose"@fr,
         "Četrivalenta inaktivēta gripas vakcīna, sadalīta vai subvienota, lielas devas"@lv,
         "Inaktywowana czterowalentna szczepionka przeciwko grypie, podzielona lub podjednostkowa, wysokodawkowa"@pl,
         "Vacina quadrivalente contra a gripe inactivada, fenda ou subunidade, dose alta"@pt ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL064 ;
-    skos:altLabel "INF-SUhd4"@en,
+    skos:altLabel "INF-ESUhd4"@en,
         "Inf-SUhd4"@fr ;
     skos:notation "VAL074"^^xsd:string .
 
@@ -17531,12 +17539,12 @@ nuva:VAL093 a owl:Class ;
     skos:notation "VAL093"^^xsd:string .
 
 nuva:VAL094 a owl:Class ;
-    rdfs:label "Influenza valence, trivalent, inactivated, fractionated or subunit, intramuscular or subcutaneous, non-adjuvanted, high dose"@en,
+    rdfs:label "Influenza valence, trivalent, non-live, obtained from egg culture, fractionated or subunit, intramuscular or subcutaneous, non-adjuvanted, high dose"@en,
         "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant, haute dose"@fr ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL122 ;
-    skos:altLabel "INF-SUhd3"@en,
+    skos:altLabel "INF-ESUhd3"@en,
         "Inf-SUhd3"@fr ;
     skos:notation "VAL094"^^xsd:string .
 
@@ -17583,17 +17591,17 @@ nuva:VAL096 a owl:Class ;
 nuva:VAL099 a owl:Class ;
     rdfs:label "Inaktivierte pandemische Influenza-H1N1-2009-Valenz "@de,
         "Αδρανοποιημένη βαλεντία της πανδημικής γρίπης H1N1 2009 "@el,
-        "Influenza valence, inactivated, pandemic influenza H1N1 2009 "@en,
+        "Influenza valence, non-live, obtained from egg culture, pandemic influenza H1N1 2009 "@en,
         "Valence grippe pandémique H1N1 2009, inactivée "@fr,
         "Inaktivēta pandēmiskās gripas H1N1 2009 valence "@lv,
         "Wartość inaktywowana przeciwko pandemicznej grypie H1N1 2009 "@pl,
         "Valência vacinal inativada da gripe pandémica H1N1 2009 "@pt ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL058 ;
     skos:altLabel "Inf-pdm09"@de,
         "Inf-pdm09"@el,
-        "INF-pdm09"@en,
+        "INF-Epdm09"@en,
         "Inf-pdm09"@fr,
         "Inf-pdm09"@lv,
         "Inf-pdm09"@pl,
@@ -18073,17 +18081,17 @@ nuva:VAL151 a owl:Class ;
 nuva:VAL152 a owl:Class ;
     rdfs:label "Ganze inaktivierte Influenza-Valenz, ohne Spezifikation"@de,
         "Ολόκληρη αδρανοποιημένη βαλεντία της γρίπης, χωρίς διευκρίνιση"@el,
-        "Influenza valence, inactivated, whole-virus, unspecified"@en,
+        "Influenza valence, obtained from egg culture, inactivated, whole-virus, unspecified"@en,
         "Valence grippe, inactivée, entière, sans précision"@fr,
         "Visa inaktivēta gripas valence, bez precizējuma"@lv,
         "Valência vacinal inteira inativada contra a gripe, sem especificação"@pl,
         "Vacina contra a gripe virional inactivada, não especificada"@pt ;
     dcterms:created "2022-03-03"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL365 ;
     skos:altLabel "Inf-I"@de,
         "Inf-I"@el,
-        "INF-I"@en,
+        "INF-EI"@en,
         "Inf-I"@fr,
         "Inf-I"@lv,
         "Inf-I"@pl,
@@ -21426,29 +21434,14 @@ nuva:VAL009 a owl:Class ;
     skos:notation "VAL009"^^xsd:string .
 
 nuva:VAL015 a owl:Class ;
-    rdfs:label "Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose"@en,
+    rdfs:label "Influenza valence, trivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose"@en,
         "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant, dose normale"@fr ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL122 ;
-    skos:altLabel "INF-SUnd3"@en,
+    skos:altLabel "INF-ESUnd3"@en,
         "Inf-SUnd3"@fr ;
     skos:notation "VAL015"^^xsd:string .
-
-nuva:VAL024 a owl:Class ;
-    rdfs:label "Trivalente inaktivierte Influenza-Valenz, Spalt- oder Untereinheit, ohne Spezifikation"@de,
-        "Τρισθενής αδρανοποιημένη βαλεντία της γρίπης, κλασματοποιημένη ή υπομονάδα, χωρίς διευκρίνιση"@el,
-        "Influenza valence, trivalent, inactivated, split or subunit, unspecified"@en,
-        "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, sans précision"@fr,
-        "Trivalenta inaktivēta gripas valence, frakcionēta vai apakšvienība, bez precizējuma"@lv,
-        "Trójwalentna inaktywowana wartość przeciwko grypie, dzielona lub podjednostkowa, bez określenia"@pl,
-        "Valência vacinal trivalente inativada da gripe, fracionada ou de subunidade, sem especificação"@pt ;
-    dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL058 ;
-    skos:altLabel "INF-SU3"@en,
-        "Inf-SU3"@fr ;
-    skos:notation "VAL024"^^xsd:string .
 
 nuva:VAL026 a owl:Class ;
     rdfs:label "Meningokokken-Impfstoff B:14:P1.7,16 mit Vesikelproteinen der äußeren Membran"@de,
@@ -22855,6 +22848,21 @@ nuva:VAL017 a owl:Class ;
         "ap"@pt ;
     skos:notation "VAL017"^^xsd:string .
 
+nuva:VAL024 a owl:Class ;
+    rdfs:label "Trivalente inaktivierte Influenza-Valenz, Spalt- oder Untereinheit, ohne Spezifikation"@de,
+        "Τρισθενής αδρανοποιημένη βαλεντία της γρίπης, κλασματοποιημένη ή υπομονάδα, χωρίς διευκρίνιση"@el,
+        "Influenza valence, trivalent, non-live, obtained from egg culture, split or subunit, unspecified"@en,
+        "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, sans précision"@fr,
+        "Trivalenta inaktivēta gripas valence, frakcionēta vai apakšvienība, bez precizējuma"@lv,
+        "Trójwalentna inaktywowana wartość przeciwko grypie, dzielona lub podjednostkowa, bez określenia"@pl,
+        "Valência vacinal trivalente inativada da gripe, fracionada ou de subunidade, sem especificação"@pt ;
+    dcterms:created "2021-07-19"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL058 ;
+    skos:altLabel "INF-ESU3"@en,
+        "Inf-SU3"@fr ;
+    skos:notation "VAL024"^^xsd:string .
+
 nuva:VAL025 a owl:Class ;
     rdfs:label "Malaria-Impfstoff, nicht spezifiziert"@de,
         "Εμβόλιο κατά της ελονοσίας, απροσδιόριστο"@el,
@@ -22976,12 +22984,12 @@ nuva:VAL053 a owl:Class ;
     skos:notation "VAL053"^^xsd:string .
 
 nuva:VAL064 a owl:Class ;
-    rdfs:label "Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted"@en,
+    rdfs:label "Influenza valence, quadrivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted"@en,
         "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant"@fr ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL127 ;
-    skos:altLabel "INF-SUNA4"@en,
+    skos:altLabel "INF-ESUNA4"@en,
         "Inf-SUNA4"@fr ;
     skos:notation "VAL064"^^xsd:string .
 
@@ -25278,15 +25286,15 @@ nuva:VAL034 a owl:Class ;
 nuva:VAL058 a owl:Class ;
     rdfs:label "Inaktivierte Influenza-Valenz, Spalt- oder Untereinheit, ohne Spezifikation"@de,
         "Αδρανοποιημένη βαλεντία της γρίπης, κλασματοποιημένη ή υπομονάδα, χωρίς διευκρίνιση"@el,
-        "Influenza valence, Inactivated, split or subunit, unspecified"@en,
+        "Influenza valence, non-live, obtained from egg culture, split or subunit, unspecified"@en,
         "Valence grippe, inactivée, fractionnée ou sous-unité, sans précision"@fr,
         "Inaktivēta gripas valence, frakcionēta vai apakšvienība, bez precizējuma"@lv,
         "Inaktywowana wartość przeciwko grypie, dzielona lub podjednostkowa, bez określenia"@pl,
         "Valência vacinal inativada da gripe, fracionada ou de subunidade, sem especificação"@pt ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL365 ;
-    skos:altLabel "INF-SU"@en,
+    skos:altLabel "INF-ESU"@en,
         "Inf-SU"@fr ;
     skos:notation "VAL058"^^xsd:string .
 

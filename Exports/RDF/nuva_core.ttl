@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "2026-09-24" .
+    owl:versionInfo "2026-10-02" .
 
 nuva:NUVACode a owl:Class ;
     rdfs:label "NUVA Code" ;
@@ -3654,7 +3654,7 @@ nuva:VAC0527 a owl:Class ;
 nuva:VAC0528 a owl:Class ;
     rdfs:label "MOSQUIRIX" ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2026-09-13"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAC1238 ;
     skos:notation "0528"^^nuva:NUVACode,
         "VAC0528"^^xsd:string .
@@ -4539,9 +4539,9 @@ nuva:VAC0677 a owl:Class ;
         "VAC0677"^^xsd:string .
 
 nuva:VAC0678 a owl:Class ;
-    rdfs:label "Medicago-VLP-Covid" ;
+    rdfs:label "COVIFENZ" ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2026-09-13"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAC1106 ;
     skos:notation "0678"^^nuva:NUVACode,
         "VAC0678"^^xsd:string .
@@ -8657,7 +8657,7 @@ nuva:VAC1382 a owl:Class ;
 nuva:VAC1383 a owl:Class ;
     rdfs:label "CYVAC" ;
     dcterms:created "2025-04-07"^^xsd:date ;
-    dcterms:modified "2026-09-13"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAC1543 ;
     skos:notation "1383"^^nuva:NUVACode,
         "VAC1383"^^xsd:string .
@@ -9600,6 +9600,15 @@ nuva:VAC1556 a owl:Class ;
     rdfs:subClassOf nuva:VAC1555 ;
     skos:notation "1556"^^nuva:NUVACode,
         "VAC1556"^^xsd:string .
+
+nuva:VAC1557 a owl:Class ;
+    rdfs:label "Influenza vaccine, trivalent, inactivated, split or subunit, unspecified"@en ;
+    nuvs:containsValence nuva:VAL024 ;
+    dcterms:created "2026-10-01"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "1557"^^nuva:NUVACode,
+        "VAC1557"^^xsd:string .
 
 nuva:VAL120 a owl:Class ;
     rdfs:label "Meningococcal valence, polyvalent, unconjugated polysaccharide"@en ;
@@ -10610,11 +10619,11 @@ nuva:VAC1237 a owl:Class ;
         "VAC1237"^^xsd:string .
 
 nuva:VAC1238 a owl:Class ;
-    rdfs:label "Hepatitis B and malaria vaccine, unspecified"@en ;
+    rdfs:label "Hepatitis B and malaria (sporozoite surface protein) vaccine, unspecified"@en ;
     nuvs:containsValence nuva:VAL009,
         nuva:VAL114 ;
     dcterms:created "2024-06-05"^^xsd:date ;
-    dcterms:modified "2026-09-07"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "1238"^^nuva:NUVACode,
         "VAC1238"^^xsd:string .
@@ -11146,10 +11155,10 @@ nuva:VAC1542 a owl:Class ;
         "VAC1542"^^xsd:string .
 
 nuva:VAC1543 a owl:Class ;
-    rdfs:label "Malaria vaccine"@en ;
+    rdfs:label "Malaria vaccine sporozoite surface protein, unspecified"@en ;
     nuvs:containsValence nuva:VAL009 ;
     dcterms:created "2026-09-10"^^xsd:date ;
-    dcterms:modified "2026-09-11"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "1543"^^nuva:NUVACode,
         "VAC1543"^^xsd:string .
@@ -11346,11 +11355,11 @@ nuva:VAL020 a owl:Class ;
     skos:notation "VAL020"^^xsd:string .
 
 nuva:VAL023 a owl:Class ;
-    rdfs:label "Influenza valence, trivalent, inactivated, split or subunit, intradermal route, unspecified"@en ;
+    rdfs:label "Influenza valence, trivalent, non-live, obtained from egg culture, split or subunit, intradermal route, unspecified"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL024 ;
-    skos:altLabel "INF-SUid3"@en ;
+    skos:altLabel "INF-ESUid3"@en ;
     skos:notation "VAL023"^^xsd:string .
 
 nuva:VAL027 a owl:Class ;
@@ -11402,11 +11411,11 @@ nuva:VAL039 a owl:Class ;
     skos:notation "VAL039"^^xsd:string .
 
 nuva:VAL040 a owl:Class ;
-    rdfs:label "Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose"@en ;
+    rdfs:label "Influenza valence, quadrivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL064 ;
-    skos:altLabel "INF-SUnd4"@en ;
+    skos:altLabel "INF-ESUnd4"@en ;
     skos:notation "VAL040"^^xsd:string .
 
 nuva:VAL046 a owl:Class ;
@@ -11546,11 +11555,11 @@ nuva:VAL073 a owl:Class ;
     skos:notation "VAL073"^^xsd:string .
 
 nuva:VAL074 a owl:Class ;
-    rdfs:label "Influenza valence, quadrivalent, inactivated, split or subunit, high-dose"@en ;
+    rdfs:label "Influenza valence, quadrivalent, non-live, obtained from egg culture, split or subunit, high-dose"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL064 ;
-    skos:altLabel "INF-SUhd4"@en ;
+    skos:altLabel "INF-ESUhd4"@en ;
     skos:notation "VAL074"^^xsd:string .
 
 nuva:VAL084 a owl:Class ;
@@ -11610,11 +11619,11 @@ nuva:VAL093 a owl:Class ;
     skos:notation "VAL093"^^xsd:string .
 
 nuva:VAL094 a owl:Class ;
-    rdfs:label "Influenza valence, trivalent, inactivated, fractionated or subunit, intramuscular or subcutaneous, non-adjuvanted, high dose"@en ;
+    rdfs:label "Influenza valence, trivalent, non-live, obtained from egg culture, fractionated or subunit, intramuscular or subcutaneous, non-adjuvanted, high dose"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL122 ;
-    skos:altLabel "INF-SUhd3"@en ;
+    skos:altLabel "INF-ESUhd3"@en ;
     skos:notation "VAL094"^^xsd:string .
 
 nuva:VAL095 a owl:Class ;
@@ -11634,11 +11643,11 @@ nuva:VAL096 a owl:Class ;
     skos:notation "VAL096"^^xsd:string .
 
 nuva:VAL099 a owl:Class ;
-    rdfs:label "Influenza valence, inactivated, pandemic influenza H1N1 2009 "@en ;
+    rdfs:label "Influenza valence, non-live, obtained from egg culture, pandemic influenza H1N1 2009 "@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL058 ;
-    skos:altLabel "INF-pdm09"@en ;
+    skos:altLabel "INF-Epdm09"@en ;
     skos:notation "VAL099"^^xsd:string .
 
 nuva:VAL100 a owl:Class ;
@@ -11842,11 +11851,11 @@ nuva:VAL151 a owl:Class ;
     skos:notation "VAL151"^^xsd:string .
 
 nuva:VAL152 a owl:Class ;
-    rdfs:label "Influenza valence, inactivated, whole-virus, unspecified"@en ;
+    rdfs:label "Influenza valence, obtained from egg culture, inactivated, whole-virus, unspecified"@en ;
     dcterms:created "2022-03-03"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL365 ;
-    skos:altLabel "INF-I"@en ;
+    skos:altLabel "INF-EI"@en ;
     skos:notation "VAL152"^^xsd:string .
 
 nuva:VAL153 a owl:Class ;
@@ -13692,20 +13701,12 @@ nuva:VAL009 a owl:Class ;
     skos:notation "VAL009"^^xsd:string .
 
 nuva:VAL015 a owl:Class ;
-    rdfs:label "Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose"@en ;
+    rdfs:label "Influenza valence, trivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL122 ;
-    skos:altLabel "INF-SUnd3"@en ;
+    skos:altLabel "INF-ESUnd3"@en ;
     skos:notation "VAL015"^^xsd:string .
-
-nuva:VAL024 a owl:Class ;
-    rdfs:label "Influenza valence, trivalent, inactivated, split or subunit, unspecified"@en ;
-    dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL058 ;
-    skos:altLabel "INF-SU3"@en ;
-    skos:notation "VAL024"^^xsd:string .
 
 nuva:VAL026 a owl:Class ;
     rdfs:label "Meningococcal valence B:14:P1.7,16 outer membrane vesicle proteins"@en ;
@@ -14388,6 +14389,14 @@ nuva:VAL017 a owl:Class ;
     skos:altLabel "ap"@en ;
     skos:notation "VAL017"^^xsd:string .
 
+nuva:VAL024 a owl:Class ;
+    rdfs:label "Influenza valence, trivalent, non-live, obtained from egg culture, split or subunit, unspecified"@en ;
+    dcterms:created "2021-07-19"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL058 ;
+    skos:altLabel "INF-ESU3"@en ;
+    skos:notation "VAL024"^^xsd:string .
+
 nuva:VAL025 a owl:Class ;
     rdfs:label "Malaria valence, unspecified"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
@@ -14437,11 +14446,11 @@ nuva:VAL053 a owl:Class ;
     skos:notation "VAL053"^^xsd:string .
 
 nuva:VAL064 a owl:Class ;
-    rdfs:label "Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted"@en ;
+    rdfs:label "Influenza valence, quadrivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL127 ;
-    skos:altLabel "INF-SUNA4"@en ;
+    skos:altLabel "INF-ESUNA4"@en ;
     skos:notation "VAL064"^^xsd:string .
 
 nuva:VAL076 a owl:Class ;
@@ -15500,11 +15509,11 @@ nuva:VAL034 a owl:Class ;
     skos:notation "VAL034"^^xsd:string .
 
 nuva:VAL058 a owl:Class ;
-    rdfs:label "Influenza valence, Inactivated, split or subunit, unspecified"@en ;
+    rdfs:label "Influenza valence, non-live, obtained from egg culture, split or subunit, unspecified"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-10-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL365 ;
-    skos:altLabel "INF-SU"@en ;
+    skos:altLabel "INF-ESU"@en ;
     skos:notation "VAL058"^^xsd:string .
 
 nuva:VAL068 a owl:Class ;

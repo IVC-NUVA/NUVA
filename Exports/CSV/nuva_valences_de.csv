@@ -14,7 +14,7 @@ VAL011,"COVID-19-Impfstoff, Proteinuntereinheit, rekombinantes Spike-Protein (RB
 VAL012,"Hepatitis-B-Impfstoff, rekombinantes Hepatitis-B-Virus-Oberflächenantigen (HBsAg), 40 Mikrogramm (Dosierung für Dialysepatienten)",,rHBsAg-40,VAL090
 VAL013,Glykoprotein E (gE) auf der Oberfläche des Varizella-Zoster-Virus (VZV),,Shingles-gE,VAL159
 VAL014,"Typhusimpfstoff, nicht spezifiziert",,Ty,Valence
-VAL015,"Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",,INF-SUnd3,VAL122
+VAL015,"Influenza valence, trivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",,INF-ESUnd3,VAL122
 VAL016,"Tollwut-Immunglobulin, nicht spezifiziert",,RIG,Valence
 VAL017,"Azelluläre Pertussis-Valenz, reduzierte Dosis",,ap,VAL117
 VAL018,"Pockenimpfstoff der dritten Generation, minimal replizierendes Lebendvacciniavirus",,Pox-3G-LC16,VAL028
@@ -22,8 +22,8 @@ VAL019,Diphtherie-Antitoxin,,DATx,VAL414
 VAL020,"Herpes zoster valence, live attenuated",,Shingles-L,VAL160
 VAL021,Inaktivierter ganzer oraler Cholera-Impfstoff,,O-Chol-I,VAL359
 VAL022,"Smallpox valence, live attenuated, unspecified",,Smallpox-L,VAL418
-VAL023,"Influenza valence, trivalent, inactivated, split or subunit, intradermal route, unspecified",,INF-SUid3,VAL024
-VAL024,"Trivalente inaktivierte Influenza-Valenz, Spalt- oder Untereinheit, ohne Spezifikation",,INF-SU3,VAL058
+VAL023,"Influenza valence, trivalent, non-live, obtained from egg culture, split or subunit, intradermal route, unspecified",,INF-ESUid3,VAL024
+VAL024,"Trivalente inaktivierte Influenza-Valenz, Spalt- oder Untereinheit, ohne Spezifikation",,INF-ESU3,VAL058
 VAL025,"Malaria-Impfstoff, nicht spezifiziert",,Mala,Valence
 VAL026,"Meningokokken-Impfstoff B:14:P1.7,16 mit Vesikelproteinen der äußeren Membran",,MenB-OMP,VAL118
 VAL027,"COVID-19-Impfstoff, nicht-replizierender Adenovirus-26-Vektor, der für das SARS-CoV-2-Spike-Protein kodiert",,COVID-VVnr-S-Ad26,VAL070
@@ -39,7 +39,7 @@ VAL036,"Humaner Papillomavirus-VLP-Impfstoff, nicht-avalent, Typen 6, 11, 16, 18
 VAL037,"Meningokokken-Impfstoff A, nicht konjugiertes Polyosid",,MPV-A,VAL297
 VAL038,"COVID-19-Impfstoff, replizierender Masernvirus-Vektor, der für das SARS-CoV-2-Spike-Protein kodiert",,COVID-VVr-S-Meas,VAL398
 VAL039,"COVID-19-Impfstoff, VLP, rekombinantes Spike-Protein",,COVID-VLP-rS,VAL164
-VAL040,"Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",,INF-SUnd4,VAL064
+VAL040,"Influenza valence, quadrivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose",,INF-ESUnd4,VAL064
 VAL041,"Meningokokken-Impfstoff A, Polyosid-Konjugat",,MCV-A,VAL297
 VAL042,"Polio-Impfstoff, nicht spezifiziert",,POLIO,Valence
 VAL043,"Anti-Covid-19-Impfstoff mit mRNA, die das Spitzenprotein von SARS-CoV-2 kodiert",,COVID-mRNA-S,VAL168
@@ -57,13 +57,13 @@ VAL054,"COVID-19-Impfstoff, nicht-replizierender modifizierter Vaccinia-Virus-An
 VAL055,Immunoglobulin gegen Masern,,Ig-Measles,VAL447
 VAL056,Inaktivierter dreiwertiger Polio-Ganzkörperimpfstoff zur Injektion,,POLIO-I,VAL042
 VAL057,"Meningokokken-Impfstoff C, Polyosid-Konjugat",,MCV-C,VAL298
-VAL058,"Inaktivierte Influenza-Valenz, Spalt- oder Untereinheit, ohne Spezifikation",,INF-SU,VAL365
+VAL058,"Inaktivierte Influenza-Valenz, Spalt- oder Untereinheit, ohne Spezifikation",,INF-ESU,VAL365
 VAL059,"Quadrivalente lebend-attenuierte Influenza-Valenz, normale Dosis",,INF-L4,VAL140
 VAL060,"Chikungunya virus valence, live attenuated",,CHIK-LA,VAL390
 VAL061,"COVID-19-Impfstoff, Proteinuntereinheit, rekombinantes Spike-Protein, S-2P und CpG1018",,COVID-PS-CpG1018,VAL104
 VAL062,"Cholera valence, protein subunit, recombinant cholera toxin subunit B (rCTB)",,O-Chol-rCTB-I,VAL021
 VAL063,Botulinum-Antitoxin,,BAT,VAL420
-VAL064,"Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted",,INF-SUNA4,VAL127
+VAL064,"Influenza valence, quadrivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted",,INF-ESUNA4,VAL127
 VAL065,"Abgeschwächter, rekombinanter, chimärer, tetravalenter Dengue-Lebendimpfstoff ",,RC-TDV,VAL150
 VAL066,"Anti-Kovid-19-Impfstoff mit replikativem viralem Vektor, Influenzavirus, das für das SARS-CoV-2-Spitzenprotein kodiert.",,COVID-VVr-S-Influ,VAL398
 VAL067,Tetanus-Toxoid,,T,Valence
@@ -73,7 +73,7 @@ VAL070,"COVID-19-Impfstoff, nicht-replizierender adenoviraler Vektor, der für d
 VAL071,Inaktivierter Typhus-Ganzkeimimpfstoff,,Ty-I,VAL014
 VAL072,"Meningokokken-B-Impfstoff, der fHbp der Unterfamilien A und B enthält",,MenB-fHbpAB,VAL161
 VAL073,"COVID-19-Impfstoff, replizierender viraler Vektor, mit antigenpräsentierenden Zellen",,COVID-VVr+APC,VAL162
-VAL074,"Vierwertiger inaktivierter Influenza-Impfstoff, Split oder Subunit, hochdosiert",,INF-SUhd4,VAL064
+VAL074,"Vierwertiger inaktivierter Influenza-Impfstoff, Split oder Subunit, hochdosiert",,INF-ESUhd4,VAL064
 VAL075,Inaktivierter Ganzkörperimpfstoff gegen Leptospira icterohaemorrhagiae,,Lepto-wI,VAL448
 VAL076,"COVID-19-Impfstoff, inaktiviertes Vollvirus, nicht spezifiziert",,COVID-IV,VAL164
 VAL077,"Mumps valence, live attenuated",,Mumps-LAV,VAL183
@@ -93,7 +93,7 @@ VAL090,"Hepatitis-B-Impfstoff, rekombinantes Hepatitis-B-Virus-Oberflächenantig
 VAL091,"Attenuierter Typhus-Lebendimpfstoff, Stamm Ty21a, zum Einnehmen",,Ty-LA,VAL014
 VAL092,Gelbfieber,,YF,Valence
 VAL093,Inaktivierter Masern-Ganzkeimimpfstoff,,Meas-I,VAL182
-VAL094,"Influenza valence, trivalent, inactivated, fractionated or subunit, intramuscular or subcutaneous, non-adjuvanted, high dose",,INF-SUhd3,VAL122
+VAL094,"Influenza valence, trivalent, non-live, obtained from egg culture, fractionated or subunit, intramuscular or subcutaneous, non-adjuvanted, high dose",,INF-ESUhd3,VAL122
 VAL095,"COVID-19-Impfstoff, replizierender Newcastle-Disease-Virus-Vektor, der für das SARS-CoV-2-Spike-Protein kodiert",,COVID-VVr-S-Nv,VAL398
 VAL096,BCG-Valenz,,BCG,Valence
 VAL097,"Diphtherie-Toxoid, Standarddosis",,D,VAL083
