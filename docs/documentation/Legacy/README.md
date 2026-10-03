@@ -1,5 +1,5 @@
 ---
 title: Legacy
 layout: default
-nav_order: 100
+nav_exclude: true
 ---

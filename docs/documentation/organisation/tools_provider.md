@@ -1,12 +1,12 @@
 ---
-title: Core maintener
+title: Tools provider
 layout: default
 parent: Organisation
-nav_order: 20
+nav_order: 50
 status: Void
-assignee: FK
+assignee: NB
 ---
-# Core maintener
+# Tools provider
 ## Role
 ## Assignment
 ## Actions

@@ -1,14 +1,14 @@
 ---
-title: Importing
+title: Consuming
 layout: default
 parent: Usage
-nav_order: 20
+nav_order: 30
 status: Void
 assignee: FK
 ---
-# Importing
-## Importing the core NUVA
+# Consuming
+## Consuming the core NUVA
 Delivery points, formats, SNOMED extension
-## Importing an alignment
+## Consuming an alignment
 Directory of alignments
-## Importing a translation
+## Consuming a translation

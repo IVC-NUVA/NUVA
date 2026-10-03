@@ -3,8 +3,8 @@ title: The NUVA editor
 layout: default
 parent: Tools
 nav_order: 20
-status: Void
-assignee: FK
+status: Submitted
+assignee: NB
 ---
 # The NUVA editor #
 The NUVA editor is a tool proposed to the core maintener and the contributors to:

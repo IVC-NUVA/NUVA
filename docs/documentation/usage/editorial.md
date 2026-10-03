@@ -1,7 +1,8 @@
 ---
 title: Editorial rules
 layout: default
-parent: Legacy
+parent: Editing core concepts
+nav_order: 10
 ---
 
 # NUVA editorial rules #

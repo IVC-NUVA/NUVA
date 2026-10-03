@@ -1,8 +1,8 @@
 ---
-title: Translating to another language
+title: Translating
 layout: default
 parent: Usage
-nav_order: 40
+nav_order: 50
 status: Void
 assignee: FK
 ---
