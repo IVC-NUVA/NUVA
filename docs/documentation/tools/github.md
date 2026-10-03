@@ -34,7 +34,7 @@ docs/           ## Sources for https://nuva.ivci.org
     nuvadata.json ## Export of consolidated core data
   documentation/ ## Detailed NUVA documentation
 Exports/        ## Artefacts produced from the sources
-  CSV/          ## Tables
+  CSV/          ## Flat files
     nuva_vaccines_xx.csv
     nuva_valences_xx.csv	
   RDF/          ## RDF graphs
@@ -69,7 +69,7 @@ The [GitHub actions](github_actions.md) generates a reference [workfile](f_worf
 
 ### Exports
 Further exports are generated when the source files are changed: 
-  - [CSV tables](f_labeltable.md) of labels per language.
+  - [Flat files](f_flatfile.md) of vaccines and valences, per language.
   - [RDF graphs](f_rdffile.md).
 
 > To be discussed - Include also here the SNOMED Extension publication.
