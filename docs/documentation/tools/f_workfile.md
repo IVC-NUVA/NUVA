@@ -19,16 +19,15 @@ The workfile is a JSON file with the following structure.
 treeView-beta
 	version ## see below
 	vaccines *
-		abstract ## true|false
-		status ## active|deprecated
+		type ## abstract|real|deprecated
 		label ## text
 		comment ## text
 		valences ## Only if abstract
-			- VALxxx: ##valence identifier
-		instanceOf ## Only if real, vaccine identifier
+			- VALxxx * ##valence identifier
+		instanceOf ## Only if real or deprecated, vaccine identifier
 		created ## date in format YYYY-MM-DD
 		modified ## date in format YYYY-MM-DD
-	valences *
+	valences * 
 		label ## text
 		shorthand ## text
 		vtype: ## text

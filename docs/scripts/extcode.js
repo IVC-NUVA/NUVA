@@ -270,7 +270,7 @@ function reverseRows(idvac, vkey, bestBlur) {
 			res.push([
 				idvac,                      	  // NUVA code
 				'"'+vaccines[idvac].label+'"',    // NUVA label
-				vaccines[idvac].abstract,         // Abstract
+				vaccines[idvac].type,             // Type
 				extcode,                          // External code
 				'"'+code2nuva[extcode].label+'"', // External code label
 				(blur == bestBlur),               // Best code
@@ -302,7 +302,7 @@ function reverseCodeSystem()
 				reverse.push([
 				idvac,                            // NUVA code
 				'"'+vaccines[idvac].label+'"',    // NUVA label
-				vaccines[idvac].abstract,         // Abstract
+				vaccines[idvac].type,             // Type
 				extcode,                 		  // External code
 				'"'+code2nuva[extcode].label+'"', // External code label
 				true,                             // Best code
@@ -326,7 +326,7 @@ function reverseCodeSystem()
 		if (bestBlur == 0) {
 			// No ext code found in parents					
 			reverse.push([
-			idvac,'"'+vaccines[idvac].label+'"',vaccines[idvac].abstract,
+			idvac,'"'+vaccines[idvac].label+'"',vaccines[idvac].type,
 			"","","","",""])
 		}
 		else {
@@ -337,7 +337,7 @@ function reverseCodeSystem()
 	doLog(`It may represent ${mapped} NUVA concepts out of ${Object.keys(vaccines).length}.`)
 	
 	reverseFileContent = '\ufeff'  // BOM marker for UTF-8
-	reverseFileContent += `NUVA,NUVA label, IsAbstract,${CSID}, ${CSID} label, Best, Blur, Equiv\n`
+	reverseFileContent += `NUVA,NUVA label, Type,${CSID}, ${CSID} label, Best, Blur, Equiv\n`
 	for (row of reverse) {
 		reverseFileContent += row.join(",")+"\n"
 	}
@@ -352,7 +352,7 @@ function mapCSV2(text)
 	//ext2codes = Object.keys(parsed.code2nuva)
 	
 	reverseFileContent = '\ufeff'  // BOM marker for UTF-8
-	reverseFileContent += `${CSID2},${CSID2}label, NUVA, NUVA label, isAbstract, ${CSID}, ${CSID} label, Best, Blur, Equiv\n`	
+	reverseFileContent += `${CSID2},${CSID2}label, NUVA, NUVA label, Type, ${CSID}, ${CSID} label, Best, Blur, Equiv\n`	
 	for (row of reverse) {
 		if (!(row[0] in parsed.nuva2code)) continue
 		for (ext2code of nuva2code[row[0]]) {

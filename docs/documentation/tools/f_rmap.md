@@ -23,8 +23,8 @@ After a reverse map has been created for a given code system, the [editor](edito
 There is at least one row for each existing code in NUVA.
 ### NUVA label ###
 This is the label for NUVA concept.
-### IsAbstract ###
-This boolean allows to filter the reverse map in the case of only the completion of the code system towards abstract vaccines is of interest.
+### Type ###
+This is the type of NUVA concept: abstract, real, or deprecated. It allows to filter the reverse map in the case of only the completion of the code system towards abstract vaccines is of interest.
 ### Code in code system ###
 This is a candidate code that is adapted to represent the given NUVA concept.
 
@@ -49,26 +49,26 @@ The transcription map has exactly the same columns as the reverse maps, plus two
 Only the rows that correspond to codes in the transcribed code system are presented.
 
 ## Conventions ##
-The reverse map file is named *nuva2ident_YYYY-MM-DD.csv*, where ident is the identifier for the reversed code system and YYYY-MM-DD the date of reversion.
+The reverse map file is named *nuva2ident_YYYY-MM-DD.csv*, where *ident* is the identifier for the reversed code system and *YYYY-MM-DD* the date of reversion.
 
-The transcription file is named *transcribed2ident_YYYY-MM-DD.csv*, where trans is the identifier of the transcribed code systemn ident  the identifier of the target code system and YYYY-MM-DD the date of reversion.
+The transcription file is named *trans2ident_YYYY-MM-DD.csv*, where *trans* is the identifier of the transcribed code system, *ident* the identifier of the target code system, and *YYYY-MM-DD* the date of reversion.
 
 ## Limitations ##
 The information that is not relevant for NUVA is lost in the alignment process. The transcription maps can thus propose transcriptions that are not valid, because the transcribed and the target code system use a notion that is lost in the alignment process. The transcription outputs are helpers for code system owners, but using them in automated process must be considered with care.
 ## Examples ##
 ### CVX reverse map ###
 ```
-NUVA,NUVA label, IsAbstract,CVX, CVX label, Best, Blur, Equiv
-VAC0002,"AGRIPPAL",false,CVX-168,"Influenza, adjuvanted, inactivated, trivalent, injectable, preservative free",true,51,2
-VAC0002,"AGRIPPAL",false,CVX-331,"Influenza, seasonal, Southern Hemisphere, trivalent, 0.5 mL dose, preservative free",true,51,2
-VAC0002,"AGRIPPAL",false,CVX-#15,"influenza virus vaccine, split virus (incl. purified surface antigen)-retired CODE",false,102,1
-VAC0002,"AGRIPPAL",false,CVX-88,"influenza virus vaccine, unspecified formulation",false,132,1
+NUVA,NUVA label, Type,CVX, CVX label, Best, Blur, Equiv
+VAC0002,"AGRIPPAL",real,CVX-168,"Influenza, adjuvanted, inactivated, trivalent, injectable, preservative free",true,51,2
+VAC0002,"AGRIPPAL",real,CVX-331,"Influenza, seasonal, Southern Hemisphere, trivalent, 0.5 mL dose, preservative free",true,51,2
+VAC0002,"AGRIPPAL",real,CVX-#15,"influenza virus vaccine, split virus (incl. purified surface antigen)-retired CODE",false,102,1
+VAC0002,"AGRIPPAL",real,CVX-88,"influenza virus vaccine, unspecified formulation",false,132,1
 ```
 ### CIS to CVX transcription map ###
 ```
-CIS,CISlabel, NUVA, NUVA label, isAbstract, CVX, CVX label, Best, Blur, Equiv
-CIS-61921204,"AGRIPPAL, suspension injectable en seringue préremplie. Vaccin grippal inactivé (antigènes de surface)",VAC0002,"AGRIPPAL",false,CVX-168,"Influenza, adjuvanted, inactivated, trivalent, injectable, preservative free",true,51,2
-CIS-61921204,"AGRIPPAL, suspension injectable en seringue préremplie. Vaccin grippal inactivé (antigènes de surface)",VAC0002,"AGRIPPAL",false,CVX-331,"Influenza, seasonal, Southern Hemisphere, trivalent, 0.5 mL dose, preservative free",true,51,2
-CIS-61921204,"AGRIPPAL, suspension injectable en seringue préremplie. Vaccin grippal inactivé (antigènes de surface)",VAC0002,"AGRIPPAL",false,CVX-#15,"influenza virus vaccine, split virus (incl. purified surface antigen)-retired CODE",false,102,1
-CIS-61921204,"AGRIPPAL, suspension injectable en seringue préremplie. Vaccin grippal inactivé (antigènes de surface)",VAC0002,"AGRIPPAL",false,CVX-88,"influenza virus vaccine, unspecified formulation",false,132,1
+CIS,CISlabel, NUVA, NUVA label, Type, CVX, CVX label, Best, Blur, Equiv
+CIS-61921204,"AGRIPPAL, suspension injectable en seringue préremplie. Vaccin grippal inactivé (antigènes de surface)",VAC0002,"AGRIPPAL",real,CVX-168,"Influenza, adjuvanted, inactivated, trivalent, injectable, preservative free",true,51,2
+CIS-61921204,"AGRIPPAL, suspension injectable en seringue préremplie. Vaccin grippal inactivé (antigènes de surface)",VAC0002,"AGRIPPAL",real,CVX-331,"Influenza, seasonal, Southern Hemisphere, trivalent, 0.5 mL dose, preservative free",true,51,2
+CIS-61921204,"AGRIPPAL, suspension injectable en seringue préremplie. Vaccin grippal inactivé (antigènes de surface)",VAC0002,"AGRIPPAL",real,CVX-#15,"influenza virus vaccine, split virus (incl. purified surface antigen)-retired CODE",false,102,1
+CIS-61921204,"AGRIPPAL, suspension injectable en seringue préremplie. Vaccin grippal inactivé (antigènes de surface)",VAC0002,"AGRIPPAL",real,CVX-88,"influenza virus vaccine, unspecified formulation",false,132,1
 ```

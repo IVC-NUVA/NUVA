@@ -21,6 +21,6 @@ Their production is done using the [Weblate](../tools/weblate.md) to provide loc
 The source format for a language layer is a [structured file](../tools/f_langfile.md) binding a key for the text and the corresponding translation.
 
 For simpler use by consuming systems, language layers are also:
-  - exported in tabular lists of vaccines and valences.
+  - exported in [flat files](../tools/f_flatfile.md) of vaccines and valences.
   - included into the [full RDF graph](../tools/f_rdffile.md).
 

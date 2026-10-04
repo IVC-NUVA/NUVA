@@ -16,11 +16,10 @@ All other representations of NUVA are derived from the [Unit files](f_unitfile.m
 Unit files are using the YAML format, intended to be easily interpreted both by humans and by machines. THey are named *VACxxxx.yml* for Vaccine units or *VALxxx.yml* for Valence units.
 
 ## Vaccine units
-Vaccine units exist with two structures, depending upon whether they correspond to abstract vaccines, that are described by enumerating their valences, or to real vaccines, that are described as an instance of a given abstract vaccine.
+Vaccine units exist with two structures, depending upon whether they correspond to abstract vaccines, that are described by enumerating their valences, or to real and deprecated vaccines, that are described as an instance of a given abstract vaccine.
 ### Abstract vaccines
 Abstract vaccines are characterized by:
-  - A boolean `abstract` set to True.
-  - A concept `status`, that is either 'active' or 'deprecated'
+  - A `type` set to 'abstract'.
   - A `label` describing the concept.
   - An optional `comment` for further information.
   - A list `valences` of the identifiers of the included valences.
@@ -28,8 +27,7 @@ Abstract vaccines are characterized by:
 
 **Example**: `VAC0610.yml`
 ```
-abstract: true
-status: active
+type: abstract
 label: Tdap - Diphtheria-Tetanus-Pertussis vaccine, low dose, unspecified
 comment: Diphtheria toxoid (low dose), tetanus toxoid and pertussis (multicomponent
   acellular, low dose) vaccine
@@ -40,10 +38,9 @@ valences:
 - VAL034
 - VAL067
 ```
-### Real vaccines
+### Real and deprecated vaccines
 Real vaccines are characterized by:
-  - A boolean `abstract` set to False.
-  - A concept 'status', that is either 'active' or 'deprecated'  
+  - A `type` set to 'real' or 'deprecated'.
   - A `label` corresponding to the brand name.
   - An optional `comment` for further information.
   - An `instanceOf` attribute expressing to which abstract vaccine is associated this real one.
@@ -51,8 +48,7 @@ Real vaccines are characterized by:
 
 **Example**: `VAC0182.yml`
 ```
-abstract: false
-status: active
+type: real
 label: ADACEL
 created: '2021-07-19'
 modified: '2026-09-13'

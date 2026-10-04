@@ -13,8 +13,7 @@ The main view presents the list of abstract vaccines, their valences, and all th
 It can be filtered according to the criteria set in the Filter zone on the sidebar.
 
 Vaccines codes are presented with a vaccine tag, obeying the following conventions:
-  - Abstract vaccines tags are green, real vaccines tags are blue.
-  - If a vaccine concept is noted as Deprecated, its vaccine tag will be in light green or light blue.
+  - Abstract vaccines tags are green, real vaccines tags are blue, deprecated vaccines are light blue.
   - If a vaccine has an equivalent in the code system loaded in the [Code Systems tab](ed_codes.md), its code is marked with a trailing *.
 
 Clicking on a vaccine tag opens the Edition zone for this vaccine.
