@@ -1550,11 +1550,9 @@ Other names: TAK-003; DENVAX"""@en .
 <http://ivci.org/NUVA/VAC0808> rdfs:label "Haemophilus influenzae type b and meningococcal conjugate (serogroups C and Y) vaccine, unspecified"@en ;
     rdfs:comment "Haemophilus influenzae type b and meningococcal conjugate vaccine, serogroups C and Y"@en .
 
-<http://ivci.org/NUVA/VAC0809> rdfs:label "Meningococcal monovalent polysaccharide vaccine, unspecified"@en ;
-    rdfs:comment "Meningococcal monovalent vaccine, conjugate or unconjugated polysaccharide"@en .
+<http://ivci.org/NUVA/VAC0809> rdfs:comment "Meningococcal monovalent vaccine, conjugate or unconjugated polysaccharide"@en .
 
-<http://ivci.org/NUVA/VAC0810> rdfs:label "Meningococcal polyvalent polysaccharide vaccine, unspecified"@en ;
-    rdfs:comment "Meningococcal polyvalent unconjugated polysaccharide vaccine"@en .
+<http://ivci.org/NUVA/VAC0810> rdfs:comment "Meningococcal polyvalent unconjugated polysaccharide vaccine"@en .
 
 <http://ivci.org/NUVA/VAC0811> rdfs:label "Meningococcal B vaccine, unspecified"@en ;
     rdfs:comment "Meningococcal vaccine, serogroup B, type of vaccine unspecified"@en .
@@ -2946,11 +2944,11 @@ Other names: TAK-003; DENVAX"""@en .
 
 <http://ivci.org/NUVA/VAC1436> rdfs:label "Rabies vaccine, inactivated, whole virion, prepared from animal brain tissue infected with rabies virus, unspecified"@en .
 
-<http://ivci.org/NUVA/VAC1437> rdfs:label "Meningococcal vaccine, monovalent, conjugate"@en .
+<http://ivci.org/NUVA/VAC1437> rdfs:comment "Meningococcal vaccine, monovalent, conjugate"@en .
 
 <http://ivci.org/NUVA/VAC1438> rdfs:label "Influenza vaccine, trivalent, inactivated, fractionated or subunit, adjuvanted"@en .
 
-<http://ivci.org/NUVA/VAC1439> rdfs:label "Meningococcal vaccine, polyvalent, conjugate polysaccharide"@en .
+<http://ivci.org/NUVA/VAC1439> rdfs:comment "Meningococcal vaccine, polyvalent, conjugate polysaccharide"@en .
 
 <http://ivci.org/NUVA/VAC1440> rdfs:label "Influenza vaccine, quadrivalent, inactivated, fractionated or subunit, adjuvanted, normal dose"@en ;
     rdfs:comment "Influenza valence, quadrivalent, inactivated, fractionated or subunit, adjuvanted, normal dose"@en .
