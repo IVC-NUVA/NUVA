@@ -414,8 +414,7 @@ function rebuildAll()
 }
 
  function initContext() {
-	fetch ('http://localhost:4000/data/nuvadata.json').then(response => response.json()).then (
-//	fetch ('https://nuva.ivci.org/data/nuvadata.json').then(response => response.json()).then (
+	fetch ('https://nuva.ivci.org/data/nuvadata.json').then(response => response.json()).then (
 	 function(data){
 		defaultData = data
 		vaccines = loadFromSession('vaccines', defaultData['vaccines'])
