@@ -1,10 +1,9 @@
-abstract: false
-status: active
+type: real
 label: LV-SMENP-DC vaccine
 comment: COVID-19 vaccine, non-replicating viral vector, with antigen presenting cells.
   Lentivirus-modified dendritic cells expressing a synthetic minigene based on SARS-CoV-2
   viral protein extracts. This vaccine is also administered with recombinant T cells
   specific for SARS-CoV-2 antigens
 created: '2021-07-19'
-modified: '2026-09-13'
+modified: '2026-09-18'
 instanceOf: VAC1142

@@ -1,5 +1,4 @@
-abstract: false
-status: active
+type: real
 label: ChAdV68 SAM-LNP rS-TCE GRITSTONE ONCOLOGY COVID-19 VACCINE
 comment: 'COVID-19 vaccine with chimpanzee adenovirus and self-amplifying mRNA: 1.
   A non-replicating viral vector, chimpanzee adenovirus, serotype 68 (ChAdV68), encoding
@@ -9,5 +8,5 @@ comment: 'COVID-19 vaccine with chimpanzee adenovirus and self-amplifying mRNA: 
   and/or spike protein plus additional SARS-CoV-2 epitopes recognized by T cells (SAM-S-TCE),
   SAM vector based on Venezuelan equine encephalitis virus (VEEV)'
 created: '2021-07-19'
-modified: '2026-09-13'
+modified: '2026-09-18'
 instanceOf: VAC1197

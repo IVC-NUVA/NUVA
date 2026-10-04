@@ -102,14 +102,13 @@ function valenceTag(idval,prefix = 'T') {
 
 function vaccineTag(idvac,prefix='T') {
 	vactag = document.createElement("span")
-	vactag.className = (vaccines[idvac].abstract?"abstract":"vaccine")
+	vactag.className = (vaccines[idvac].type == 'abstract'?"abstract":"vaccine")
 	vactag.innerHTML = idvac+(((CSData.nuva2code[idvac]??"").length >0 )?'*':'')
 	vactag.id = prefix+idvac
 	vactag.title = vaccines[idvac].label
 	vactag.onclick = editVaccine
-	if (vaccines[idvac].status == 'deprecated') {
-		vactag.style.fontStyle = "italic"
-		vactag.style.backgroundColor=(vaccines[idvac].abstract?'lightgreen':'lightblue')
+	if (vaccines[idvac].type == 'deprecated') {
+		vactag.style.backgroundColor= "lightblue"
 		}
 	return vactag
 }
@@ -285,9 +284,9 @@ function abstractVaccineChanged(idvac) {
 		ref = defaultData['vaccines'][idvac]
 	} else return true
 	return (
+		(vaccine.type != ref.type) ||	
 		(vaccine.label != ref.label) ||
 		(vaccine.comment != ref.comment) ||
-		(vaccine.status != ref.status) ||	
 		(valencesKey(vaccine) != valencesKey(ref))
 	)
 }
@@ -297,9 +296,9 @@ function realVaccineChanged(idvac) {
 	if (idvac in defaultData['vaccines']) {
 		ref = defaultData['vaccines'][idvac]
 	} else return true
-	return (vaccine.label != ref.label) ||
+	return (vaccine.type != ref.type) ||
+	    (vaccine.label != ref.label) ||
 		(vaccine.comment != ref.comment) ||	
-		(vaccine.status != ref.status) ||		
 		(vaccine.instanceOf != ref.instanceOf)
 }
 
@@ -362,13 +361,12 @@ function rebuildVaccines() {
 	
 	for (idvac in vaccines) {
 		vaccine = vaccines[idvac]		
-		if (vaccine.abstract) {
+		if (vaccine.type == 'abstract') {
 			vkey = valencesKey(vaccine)
-			if ((vkey in abstractVaccines) && (vaccine.status != 'deprecated')) {
+			if (vkey in abstractVaccines) {
 				doLog(`Duplicate abstract vaccine : ${abstractVaccines[vkey]} and ${idvac}`) 
 				
 			} else {
-				if (vaccine.status != 'deprecated')
 					abstractVaccines[vkey] = idvac
 			}
 			extvaccines[idvac]={
@@ -398,20 +396,10 @@ function rebuildVaccines() {
 	}
 	for (idvac in vaccines) {
 		vaccine = vaccines[idvac]
-		if (vaccine.abstract) {
-			if (vaccine.status == 'deprecated') {
-				vkey = valencesKey(vaccine)
-				if (vkey in abstractVaccines) {
-					extvaccines[abstractVaccines[vkey]].instances.push(idvac)
-				} else {
-					extvaccines['VAC0000'].instances.push(idvac)
-				}
-			}
-		}
-		else  // Real vaccine
+		if (vaccine.type != 'abstract')
 		{	
 			instanceOf = (vaccine.instanceOf?vaccine.instanceOf:'VAC0000')
-			if (vaccines[instanceOf].status == 'deprecated') {
+			if (vaccines[instanceOf].type == 'deprecated') {
 				instanceOf = 'VAC0000'
 			}
 			extvaccines[instanceOf].instances.push(idvac)			
@@ -426,7 +414,8 @@ function rebuildAll()
 }
 
  function initContext() {
-	fetch ('https://nuva.ivci.org/data/nuvadata.json').then(response => response.json()).then (
+	fetch ('http://localhost:4000/data/nuvadata.json').then(response => response.json()).then (
+//	fetch ('https://nuva.ivci.org/data/nuvadata.json').then(response => response.json()).then (
 	 function(data){
 		defaultData = data
 		vaccines = loadFromSession('vaccines', defaultData['vaccines'])

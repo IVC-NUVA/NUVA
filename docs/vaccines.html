@@ -55,7 +55,7 @@
 </main>
 
 <div id = "edit" class = "edit" style = "display:none">
-	<input id = 'vabstract' type = "checkbox" style="display:none" checked = true>
+	<input id = 'vtype' type = "text" style="display:none">
 	<input id = 'vclass' style = "display:none">
 	<table>
 	<tr><td>Code</td><td><input id = "vcode" type = "text" style="width:20%" maxlength=7></input></td></tr>
@@ -70,7 +70,7 @@
 	<button id= 'assignCode' onclick = addVaccineCode()>Assign current code</button>	
 	<button id ='addInstance' onClick = addRealVaccine()>Create new instance</button>
 	<button id = 'resetVac' onclick = resetVaccine()>Reset to default</button>
-	<button id ='deprecate' onclick = toggleVacDeprecated()>Deprecate</button>
+	<button id ='deprecate' onclick = deprecateVaccine()>Deprecate</button>
 	<button onclick = closeVaccineEdit()>Close</button>
 </div>
 

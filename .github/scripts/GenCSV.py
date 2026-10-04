@@ -48,18 +48,18 @@ Terms = loadLanguages()
 
 for lang in Langs:
     with open(f'Exports/CSV/nuva_vaccines_{lang}.csv','w',encoding='utf-8-sig',newline ='') as csvfile:
-        writer = csv.DictWriter(csvfile,fieldnames=['NUVA','label','comment','abstract','instanceOf', 'valences'],delimiter=',')
+        writer = csv.DictWriter(csvfile,fieldnames=['NUVA','label','comment','type','instanceOf', 'valences'],delimiter=',')
         writer.writeheader()
         for code,data in Vaccines.items():
             label = getTerm(f'{code}L',lang,data['label'])
             comment = getTerm (f'{code}C',lang,data['comment'])
             valnotations = []
-            if data['abstract']:
+            if data['type'] == 'abstract':
                 for idval in data['valences']:
                     if (idval != 'VAL000'):
                         valnotations.append(getTerm(f'{idval}S',lang,Valences[idval]['shorthand']))
 
-            writer.writerow({'NUVA':code,'label': label,'comment': comment,'abstract':data['abstract'],
+            writer.writerow({'NUVA':code,'label': label,'comment': comment,'type':data['type'],
                              'instanceOf': data.get('instanceOf',""), 'valences': '|'.join(valnotations)})
 
     with open(f'Exports/CSV/nuva_valences_{lang}.csv','w',encoding='utf-8-sig',newline ='') as csvfile:

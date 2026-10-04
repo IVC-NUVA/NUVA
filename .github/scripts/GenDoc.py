@@ -28,11 +28,10 @@ jsonData = {'version': None,
 for code,data in Vaccines.items():
     version = data['modified'] if data['modified']>version else version
 
-    if data['abstract']:
+    if data['type'] == 'abstract':
         comment = "" if data['comment']==data['label'] else data['comment']
         jsonData['vaccines'][code] = {
-            'abstract' : True,
-            'status': data['status'],
+            'type' : 'abstract',
             'label': data['label'],
             'created': data['created'],
             'modified': data['modified'],
@@ -47,8 +46,7 @@ for code,data in Vaccines.items():
         instanceOf = data['instanceOf'] if data['instanceOf'] else 'VAC0000'
         comment = "" if data['comment']== Vaccines[instanceOf]['label'] else data['comment']
         jsonData['vaccines'][code] = {
-            'abstract' : False,
-            'status': data['status'],
+            'type' : data['type'],
             'label': data['label'],
             'created': data['created'],
             'modified': data['modified'],

@@ -1,8 +1,6 @@
-abstract: true
-status: deprecated
+type: deprecated
 label: Meningococcal vaccine, monovalent, conjugate
 comment: Meningococcal vaccine, monovalent, conjugate
 created: '2025-05-22'
 modified: '2026-08-28'
-valences:
-- VAL234
+instanceOf: VAC0945

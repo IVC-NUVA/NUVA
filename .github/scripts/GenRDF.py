@@ -146,7 +146,9 @@ for codeSystem in alignments.keys():
 
 for code,data in Vaccines.items():
     Vaccine=URIRef(f'{BaseURI}/{code}')
-    if data['abstract']:
+    isAbstract = (data['type'] == 'abstract')
+
+    if isAbstract:
         Parent = VaccinesParent
     else:
         if data['instanceOf']:
@@ -154,9 +156,9 @@ for code,data in Vaccines.items():
         else:
             Parent = URIRef(f'{BaseURI}/VAC0000')
 
-    addClass(Vaccine,Parent,data['label'],None,code,data['created'], data['modified'], data['abstract'])
+    addClass(Vaccine,Parent,data['label'],None,code,data['created'], data['modified'], isAbstract)
 
-    if data['abstract']:
+    if isAbstract:
         for valence in data['valences']:
             core.add((Vaccine,containsValence,URIRef(f'{BaseURI}/{valence}')))
     core.add((Vaccine,SKOS.notation,Literal(code[3:],datatype=URIRef(f'{BaseURI}/NUVACode'))))

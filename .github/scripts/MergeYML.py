@@ -5,7 +5,7 @@ from datetime import datetime
 
 valences_byUUID = {}
 vaccines = {'VAC0000': {
-    'abstract': True, 'status': 'active', 'label': '#Orphans',
+    'type': 'abstract', 'label': '#Orphans',
     'comment': 'Abstract for orphan vaccines', 'created': '2026-09-10', 'modified': '2026-09-10',
     'valences': ['VAL000']}}
 vaccines_byVKey= {'VAL000': {'idvac': 'VAC0000', 'label': '#Orphans'}}
@@ -72,23 +72,23 @@ for valence in data['valences']:
         with open(f'Units/Valences/{idval}.yml', 'w', encoding='utf-8') as ymlfile:
             yaml.dump(record, ymlfile, allow_unicode=True, sort_keys=False)
 
+# Round 1 - Abstract vaccines, not deprecated
 for vaccine in data['vaccines']:
     if vaccine['generic']:
         idvac = f'VAC{vaccine['code']:04d}'
         baseVaccine = getbaseVaccine(idvac)
         vacvalences = getValences(vaccine)
         valkey = '-'.join(vacvalences)
-        deprecated = (baseVaccine['status'] == 'deprecated')
+        if baseVaccine['type'] == 'deprecated':
+            continue
+
         if valkey in vaccines_byVKey:
-            if not deprecated:
                 print (f"Duplicate abstract vaccines: {idvac} and {vaccines_byVKey[valkey]} ")
         else:
-            if not deprecated:
                 vaccines_byVKey[valkey] = { 'idvac': idvac, 'label': vaccine['name']['en'] }
 
         record = {
-            'abstract': True,
-            'status': baseVaccine['status'],
+            'type': 'abstract',
             'label' : vaccine['name']['en'],
             'comment': vaccine['description']['en'],
             'created': vaccine['created_at'][0:10],
@@ -96,7 +96,6 @@ for vaccine in data['vaccines']:
             'valences': vacvalences
         }
         if (record['label'] != baseVaccine ['label']) or  \
-            (record['status'] != baseVaccine ['status']) or \
             (record['comment'] != baseVaccine ['comment']) or \
             (valkey != '-'.join(baseVaccine['valences'])):
             record['modified'] = today
@@ -104,31 +103,35 @@ for vaccine in data['vaccines']:
             with open (f'Units/Vaccines/{idvac}.yml','w',encoding='utf-8') as ymlfile:
                 yaml.dump(record,ymlfile,allow_unicode = True, sort_keys = False)
 
+# Round 2 - Real or deprecated vaccines
+
 for vaccine in data['vaccines']:
-    if not vaccine['generic']:
-        idvac = f'VAC{vaccine['code']:04d}'
-        baseVaccine = getbaseVaccine(idvac)
+    idvac = f'VAC{vaccine['code']:04d}'
+    baseVaccine = getbaseVaccine(idvac)
+    deprecated = (baseVaccine['type'] == 'deprecated')
+
+    if deprecated or not vaccine['generic']:
         vacvalences = getValences(vaccine)
         valkey = '-'.join(vacvalences)
-        deprecated = (baseVaccine['status'] == 'deprecated')
         label = vaccine['name']['en'] if ('en' in vaccine['name']) else vaccine['name']['fr']
         # Orphan vaccines are bound to abstract VAC0000
         if not valkey in vaccines_byVKey:
             valkey = 'VAL000'
 
+        type = 'deprecated' if deprecated else 'real'
+
         record = {
-            'abstract': False,
-            'status': baseVaccine['status'],
+            'type': type,
             'label' : label,
             'comment': vaccine['description']['en'],
             'created': vaccine['created_at'][0:10],
             'modified': baseVaccine['modified'],
             'instanceOf': vaccines_byVKey[valkey]['idvac']
         }
-        if (record['label'] != baseVaccine ['label']) or \
-            (record['status'] != baseVaccine['status']) or \
+        if (record['type'] != baseVaccine ['type']) or \
+            (record['label'] != baseVaccine['label']) or \
             (record['comment'] != baseVaccine['comment']) or \
-            (record['instanceOf'] != baseVaccine['instanceOf']):
+            (record['instanceOf'] != (baseVaccine['instanceOf'] or "")):
             record['modified'] = today
 
             with open (f'Units/Vaccines/{idvac}.yml','w',encoding='utf-8') as ymlfile:

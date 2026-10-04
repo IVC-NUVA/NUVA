@@ -1,8 +1,6 @@
-abstract: true
-status: deprecated
+type: deprecated
 label: Meningococcal polyvalent polysaccharide vaccine, unspecified
 comment: Meningococcal polyvalent unconjugated polysaccharide vaccine
 created: '2021-10-26'
 modified: '2026-08-28'
-valences:
-- VAL234
+instanceOf: VAC0945

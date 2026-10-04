@@ -145,13 +145,12 @@ function Unitsdl() {
 	for (idvac in vaccines) {
 		if (extvaccines[idvac]['changed']) {
 			vaccine = vaccines[idvac]
-			unit = attribute("abstract", vaccine.abstract, 0)
-			unit += attribute("label", vaccine.label, 0)
-			unit += attribute("status", vaccine.status, 0)			
+			unit = attribute("type", vaccine.type, 0)
+			unit += attribute("label", vaccine.label, 0)	
 			unit += attribute("created", vaccine.created, 0)
 			unit += attribute("comment", vaccine.comment, 0)
 			unit += attribute("modified", modified, 0)
-			if (vaccine.abstract)
+			if (vaccine.type == 'abstract')
 			{
 				unit += newList("valences", 0)
 				for (idval of vaccine['valences']) {

@@ -112,26 +112,27 @@ function addRealVaccine() {
     viewEditVaccine(isAbstract=false, vclass=abstract)
 }
 
-function toggleVacDeprecated() {
+function deprecateVaccine() {
 	idvac = context.currentVaccine
-	if (vaccines[idvac].status == 'deprecated') {
-		vaccines[idvac].status = 'active'
-	} else {
-		vaccines[idvac].status = 'deprecated'
+	if (vaccines[idvac].type == 'abstract') {
+		vaccines[idvac].instanceOf = 'VAC0000'
+		delete vaccines[idvac].valences
 	}
+	vaccines[idvac].type = 'deprecated'
+	saveToSession("vaccines", vaccines)	
 	showVaccines()
-	viewEditVaccine(idvac)
+	viewEditVaccine()
 }
 
 voidAbstract = {
-	"abstract": true,
+	"type": "abstract",
 	"label": "To be completed",
 	"comment": "To be completed",
 	"valences": []
 }
 
 voidReal = {
-	"abstract": false,
+	"type": "real",
 	"label" : "To be completed",
 	"comment": "To be completed",
 	"instanceOf": null	
@@ -152,7 +153,7 @@ function viewEditVaccine(isAbstract, vclass) {
 		codeField.readOnly = true
 		codeField.style.backgroundColor = "#D0D0D0"		
         vaccine = vaccines[idvac]
-		isAbstract = vaccine.abstract	
+		isAbstract = (vaccine.type == 'abstract')
 		if (isAbstract) {
 			setContext('selectedAbstract',idvac)
 			instanceButton.style.display = "inline"
@@ -166,11 +167,9 @@ function viewEditVaccine(isAbstract, vclass) {
 			document.getElementById('rowCodes').style.display = 'table-row'
 		} else {
 			document.getElementById('rowCodes').style.display = 'none'
-		}
-		//showSidebar()
+		}	
 		assignButton.style.display = "inline"
 		resetButton.style.display = (extvaccines[idvac].changed?'inline':'none')
-		deprecateButton.style.display = "inline"
     } else {          // New vaccine
 		codeField.readOnly = false
 		codeField.value = 'VACxxxx'
@@ -180,11 +179,10 @@ function viewEditVaccine(isAbstract, vclass) {
 		instanceButton.style.display = 'none'
 		resetButton.style.display = 'none'
 	}
-	document.getElementById('assignCode').style.display = (context.currentCode?'inline':'none')
+	deprecateButton.style.display = (vaccine.type == 'deprecated'?"none":"inline")
 	
-	deprecateButton.innerHTML = (vaccine.status == 'deprecated'?'Restore':'Deprecate')
-   
-    document.getElementById("vabstract").checked = isAbstract
+	document.getElementById('assignCode').style.display = (context.currentCode?'inline':'none')   
+    document.getElementById("vtype").value = vaccine['type']
 	document.getElementById("vlabel").value = vaccine['label']
 	document.getElementById("vcomment").value = vaccine['comment']
 
@@ -231,7 +229,7 @@ function closeVaccineEdit() {
 function setVaccineValues() {
     e_vcode = document.getElementById("vcode")
 	idvac = e_vcode.value
-	isAbstract = document.getElementById('vabstract').checked
+	isAbstract = (document.getElementById('vtype').value == 'abstract')
 	
 	if (e_vcode.readOnly == false) {
 		// Vaccine creation mode
@@ -247,7 +245,7 @@ function setVaccineValues() {
 		vaccines[idvac].created = today()
 	}
 	vaccine = vaccines[idvac]
-	vaccine['abstract'] = isAbstract
+	vaccine['type'] = document.getElementById('vtype').value
 	vaccine.label = document.getElementById('vlabel').value
 	vaccine.comment = document.getElementById('vcomment').value
 	if (!isAbstract) {
@@ -318,12 +316,11 @@ function setVaccineClass () {
 function resetVaccine() {
     idvac = context.currentVaccine
 	if (!(idvac in defaultData['vaccines'])) {
-		if (vaccines[idvac].abstract) {
+		if (vaccines[idvac].type == 'abstract') {
 			for (instance of extvaccines[idvac].instances)
 			{
 				vaccines[instance].instanceOf = "VAC0000"	
 			}
-			// delete abstractVaccines[idvac]
 			if (context.selectedAbstract == idvac) {
 				setContext('selectedAbstract',null)
 				showSidebar()
