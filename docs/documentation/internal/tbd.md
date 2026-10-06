@@ -6,7 +6,7 @@ parent: Internal
 # To be done #
 Apart of the work on writing the documentation pages.
 
-## SYADEM scientific team
+## SYADEM medical team
 - Review comments for all vaccines, remove the ones that are just restating the description of the abstract vaccine (reduces drastically the number of translations).
 
 ## SYADEM technical team
@@ -17,9 +17,11 @@ Apart of the work on writing the documentation pages.
 - Create in the Files view a report of differences between the work and reference core concepts.
 - Find a RDF predicate for deprecated concepts (probably in Dublin Core)
 
+## Jean-Louis
+- Propose members for the scientific committee (9 or 12, 1/3 from EMEA, 1/3 from Americas, 1/3 from APAC)
+
 ## IVCI
-- Define a structured description for alignments (owner, description, references and links, revision date, etc.)
-- Organize the scientific committee, identify potential members.
+- Define a structured description for alignments (owner, description, references and links, revision date, etc.).
 - Mandate owners for alignment files.
 
 ## Open questions
