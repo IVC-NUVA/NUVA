@@ -1,6 +1,5 @@
-
-reCSV = new RegExp('(".*?"|[^",]+)(?=\s*,|\s*$)','g')
-reNUVA = new RegExp("(^VAC\\d{4}|#NA|#MISS)")
+const reCSV = new RegExp('(".*?"|[^",]+)(?=\s*,|\s*$)','g')
+const reNUVA = new RegExp("(^VAC\\d{4}|#NA|#MISS)")
 
 const voidCSData = {'CSID': null, code2nuva:{}, nuva2code: {}, refcode2nuva: {}}
 
@@ -158,7 +157,6 @@ function viewEditCode(code)
 	row = document.getElementById(code)
 	row.style.backgroundColor='#95ADC5'
 	focus(row)
-	//row.scrollIntoView({block:'center'})
 	
 	document.getElementById('ecode').innerHTML = code
 	document.getElementById('action').innerHTML = ''
@@ -174,8 +172,9 @@ function importCSV(input)
 {
 	CSData = parseCSV(input)
 	saveToSession("CSData",CSData)
-	showCodes()
-	document.getElementById("transcription").disabled = true	
+	setContext("currentCode",null)
+	refresh()
+	document.getElementById("transcription").disabled = true
 }
 
 function clearCodeSystem()
@@ -185,7 +184,7 @@ function clearCodeSystem()
 	setContext('currentCode',null)
 	document.getElementById('ecode').innerHTML=""
 	document.getElementById('action').innerHTML=""
-	showCodes()
+	refresh()
 }
 
 function editVaccine()
@@ -195,10 +194,12 @@ function editVaccine()
 
 function setNuvaCode()
 {
-	actionMessage = ""
-	action = document.getElementById('actionSelect').value
-	code = context.currentCode
-	prevNuva = CSData.code2nuva[code].nuvaCode
+	var actionMessage = ""
+	var action = document.getElementById('actionSelect').value
+	var code = context.currentCode
+	var prevNuva = CSData.code2nuva[code].nuvaCode
+	var nuvaCode = prevNuva
+	
 	if (prevNuva in CSData.nuva2code) {
 		CSData.nuva2code[prevNuva] = CSData.nuva2code[prevNuva].filter(item => item != code)
 	}
@@ -283,7 +284,6 @@ function reverseRows(idvac, vkey, bestBlur) {
 
 function reverseCodeSystem()
 {
-	console.log("Start reverse")
 	CSID = CSData.CSID
 	nuva2code = CSData.nuva2code
 	code2nuva = CSData.code2nuva
