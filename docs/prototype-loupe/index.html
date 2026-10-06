@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Loupe - NUVA alignment prototype</title>
+  <link href="loupe.css" rel="stylesheet">
+  <script src="loupe.js" defer></script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">Loupe <span class="brand-sub">prototype &middot; one screen per code</span></div>
+  <div id="summary" class="summary"></div>
+  <div class="topbar-actions">
+    <button id="btnImport" type="button">Import alignment CSV</button>
+    <button id="btnExport" type="button" class="primary" disabled>Export alignment CSV</button>
+    <input id="fileInput" type="file" accept=".csv,text/csv" hidden>
+  </div>
+  <div id="dataVersion" class="data-version"></div>
+</header>
+
+<div class="layout">
+
+  <!-- Column 1: the codes being aligned -->
+  <section class="pane codes-pane" aria-label="Codes">
+    <div class="pane-head">
+      <input id="codeFilter" type="search" placeholder="Filter codes, labels, NUVA codes">
+      <div id="codeViews" class="views"></div>
+    </div>
+    <div id="codeList" class="code-list" tabindex="-1"></div>
+  </section>
+
+  <!-- Column 2: the code under the loupe, its candidate, and the decision -->
+  <section class="pane bench" aria-label="Workbench">
+    <div id="bench"></div>
+  </section>
+
+  <!-- Column 3: the valence tree, short (differential) descriptions -->
+  <section class="pane tree-pane" aria-label="Valences">
+    <div class="pane-head">
+      <div class="tree-title">Valences
+        <span class="hint" title="The short text on each line is derived automatically from how this valence's label differs from its parent's label. Hover a line for the full description.">short form = how it differs from its parent &#9432;</span>
+      </div>
+      <input id="valFilter" type="search" placeholder="Find valences (shorthand, code, words)">
+    </div>
+    <div id="tree" class="tree"></div>
+  </section>
+</div>
+
+<div id="toast" class="toast" hidden></div>
+
+<div id="dialog" class="overlay" hidden>
+  <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="dialogMsg">
+    <p id="dialogMsg"></p>
+    <div class="dialog-actions">
+      <button type="button" value="cancel">Cancel</button>
+      <button type="button" value="ok" class="primary" id="dialogOk">OK</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
