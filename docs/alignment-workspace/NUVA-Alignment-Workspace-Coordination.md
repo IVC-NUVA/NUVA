@@ -13,6 +13,21 @@ François has built his own, separate in-editor code-system alignment feature di
 
 His Sept 20 email says this directly: he sees the tool as "a commodity to create files, neutral towards the processes, like a word processor or a spreadsheet," and that Nathan "tried a different angle." That's the crux to resolve in the meeting: are these two complementary (Workspace handles the messier *earlier* research/triage work; his Code Systems view handles direct, lightweight editing once you basically know the mapping), or is one of them redundant?
 
+## Known issues (noted for the record - not being fixed or recommended yet)
+
+Big-picture tracking only. Kept **by location** - a bug on the `alignment-workspace` branch is not evidence of the same bug on `main`, and vice versa; they're different code at this point, just descended from the same files.
+
+### On the `alignment-workspace` branch
+
+Both introduced by François's two commits here (`34e86aad`, `550e7c79`) - full detail in "What François changed on this branch" below:
+- Fetch-URL inconsistency: only `import.html`/`index.html` were switched to fetch NUVA data from the live site; `review.html`/`requests.html`/`reports.html` still fetch the local file.
+- `setExternalCode()` in `vaccines.js` writes a code-to-vaccine assignment only to a `localStorage` mirror, never to the IndexedDB store the Workspace's own pages read from - likely why he marked that commit "(partial)" and dropped the approach.
+
+### On `main`
+
+- **"Map to current vaccine" silently writes the wrong NUVA code when no current vaccine is set**, confirmed live (2026-10-06) by reproducing it on the deployed `extcodes.html`. Repro: import an alignment CSV, select a code row *without* first setting a "Current vaccine" (via the Vaccines tab), choose "Map to current vaccine." No error, no no-op - instead the row silently gets mapped to an unrelated NUVA code. Confirmed root cause by inspecting the live page state: in `setNuvaCode()` (`docs/scripts/extcode.js`), the `action == 'set'` branch requires `context.currentVaccine` to be truthy; when it isn't, no branch assigns `nuvaCode`/`nuvaLabel` - but those variables aren't declared with `var`/`let`, so the function falls through to whatever `showCodes()`'s per-row rendering loop last left in that same global variable name (the NUVA code of the alphabetically-last row in the table). Reproduced exactly: with `NDC2nuva.csv` loaded, mapping `NDC-00005-0100` (TRUMENBA) with no current vaccine produced `VAC0642` ("Fluzone High-Dose Quadrivalent") - which is `CSData.code2nuva['NDC-83703-044']`, the last row in the sorted table. Recoverable via "Reset to initial value" on the affected row.
+- **Open question, not confirmed:** the branch bug above and this one share a root cause pattern - implicit (non-`var`/`let`) globals reused across functions, which is pervasive throughout `common.js`/`extcode.js`/`vaccines.js` (true of the pre-existing code too, not just François's new additions). Worth being alert to similar silent-fallthrough bugs elsewhere in the Code Systems/Vaccines/Valences tabs on `main`, but nothing else has actually been found or tested yet - this is a risk flag, not a finding.
+
 ## Branch state as of 2026-10-06
 
 - Branch: `alignment-workspace`, PR #1 (draft) against `main`.
