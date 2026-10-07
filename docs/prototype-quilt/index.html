@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quilt - NUVA alignment prototype</title>
+  <link href="quilt.css?v=3" rel="stylesheet">
+  <script src="quilt.js?v=3" defer></script>
+</head>
+<body>
+
+<header class="selvedge">
+  <div class="brand">
+    <span class="brand-name">Quilt</span>
+    <span class="brand-sub">the whole code system at a glance &middot; most common first</span>
+  </div>
+  <div class="header-actions">
+    <button id="btnImport" type="button"><span class="plain">Import CSV</span><span class="theme">bring fabric</span></button>
+    <button id="btnRequests" type="button" disabled><span class="plain">Requests for NUVA <b id="reqCount"></b></span><span class="theme">fabric order</span></button>
+    <button id="btnExport" type="button" class="primary" disabled><span class="plain">Export files</span><span class="theme">take it off the frame</span></button>
+    <input id="fileInput" type="file" accept=".csv,text/csv" hidden>
+  </div>
+  <div id="dataVersion" class="data-version"></div>
+</header>
+
+<section id="progress" class="progress" hidden></section>
+
+<section id="toolbar" class="toolbar" hidden>
+  <input id="search" type="search" placeholder="Find codes: words, code, or VAC code" aria-label="Find codes">
+  <div id="tierChips" class="chips" aria-label="Priority"></div>
+  <div id="statusChips" class="chips" aria-label="Status"></div>
+  <label class="toggle"><input id="hideDone" type="checkbox"> Hide finished blocks</label>
+</section>
+
+<main id="quilt" class="quilt"></main>
+
+<aside id="table" class="table" hidden aria-label="Sewing table: align one code"></aside>
+
+<div id="sheet" class="sheet-wrap" hidden><div class="sheet" id="sheetBody"></div></div>
+<div id="dialog" class="sheet-wrap" hidden>
+  <div class="sheet small">
+    <p id="dialogMsg"></p>
+    <p class="row-end"><button type="button" value="cancel">Cancel</button> <button type="button" class="primary" value="ok" id="dialogOk">Go ahead</button></p>
+  </div>
+</div>
+<div id="toast" class="toast" hidden role="status"></div>
+
+</body>
+</html>
