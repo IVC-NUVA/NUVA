@@ -104,7 +104,7 @@ The first prototype (`docs/prototype-loupe/` on branch `prototype-loupe`, draft 
 
 **Commits**
 - One commit (or a few) for the prototype, touching only `docs/prototype-<codename>/` and the launcher page. Then a separate commit for the report and the doc updates in `alignment-requirements/`. End commit messages with the agent's co-author trailer.
-- No per-prototype pull request. If the demos are shown to François as a PR, it's one PR for the whole `prototypes` branch, and Nathan decides when. It keeps the framing of the earlier PRs: one of several demonstrations, not a proposal to adopt, not meant to be merged.
+- No pull requests. `prototypes` is a workspace for demonstrations and is not expected to ever be merged into `main`.
 - Push only after Nathan has given his reaction and the report is written (steps 7-9 above).
 
 ## What "done" looks like for one prototype
