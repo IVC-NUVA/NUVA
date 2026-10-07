@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Passport Control - NUVA alignment prototype</title>
+  <link href="passport.css" rel="stylesheet">
+  <script src="passport.js" defer></script>
+</head>
+<body>
+
+<header class="post">
+  <button type="button" class="emblem" data-go="hall" title="Back to the hall">
+    <span class="crest" aria-hidden="true">&#10026;</span>
+    <span class="post-name">Passport Control<small>NUVA border &middot; prototype</small></span>
+  </button>
+  <nav class="post-nav" id="nav"></nav>
+  <div class="post-meta" id="postMeta"></div>
+  <input id="fileInput" type="file" accept=".csv,.json,text/csv,application/json" hidden>
+</header>
+
+<main id="main" class="hall"></main>
+
+<div id="tray" class="tray" hidden></div>
+
+<div id="toast" class="toast" hidden></div>
+
+<div id="overlay" class="overlay" hidden>
+  <div class="sheet" role="dialog" aria-modal="true" id="sheet"></div>
+</div>
+
+</body>
+</html>
