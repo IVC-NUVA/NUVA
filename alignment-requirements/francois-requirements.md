@@ -2,7 +2,7 @@
 
 What his code, his documentation site, and his emails reveal he actually needs and believes, organized by area. Each item notes **what**, **why** (when stated or inferable), and flags an **open question / inconsistency** where one exists. Distilled 2026-10-06 from `main` at commit `02b1c87a`; see `README.md` for exact source locations.
 
-A section at the bottom is reserved for what he says directly in the 2026-10-06 call - kept separate from what's inferred from code/docs, since those are different kinds of evidence.
+Sections 8 and 9 at the bottom hold what he said directly (the 2026-10-06 call, and his 2026-10-07 email reaction to the prototypes) - kept separate from what's inferred from code/docs, since those are different kinds of evidence.
 
 ## 1. Core architecture
 
@@ -106,3 +106,33 @@ The NUVA application's purpose is **only** to support alignment *to* NUVA - expl
 ### Where this leaves the demo-prototype plan
 
 Told him about the plan to build a few demonstration prototypes for him to react to - he liked it. Confirmed path forward: finish documenting requirements, then build.
+
+## 9. His reaction to the first two prototypes (email, 2026-10-07)
+
+Summarized from his email reply after trying Loupe and Passport Control, not quoted. Like section 8, this is what he said directly, kept apart from what's inferred from code.
+
+### On the two demos
+
+- **He prefers Loupe**, because it constrains the alignment process less. The user can start wherever suits the code and their own knowledge: from valences, from the vaccine, from a brand name. How coarse the external code is and what the user already knows decide the entry point, not the tool.
+- **Both lack filtering** that would reduce the attention load. (Both prototypes do have status and text filters on the code list, so he likely means something else. See `open-questions.md`.)
+- **In Passport he likes marking a mapping as certain, probable, or erroneous.** This is the confidence idea, and the first sign he's open to some process-like state in the tool.
+- **In Passport he misses going straight to the codes not aligned yet**, and declaring a concept **out of scope** (his example: `CVX-801`, AS03 Adjuvant, currently `#MISS` in `CVX2nuva.csv`). Passport does have both, a "Queue" lane and a "Turned away" (`#NA`) stamp, but he didn't find them. That's a discoverability problem with its passport vocabulary, not a missing feature. See `demo-reports/passport.md`.
+
+### On stepping through codes one by one
+
+He finds stepping through every code in order discouraging, in both demos. His own strategy instead:
+1. Start with **everything as `#MISS`**.
+2. Release codes progressively, **starting with the most common vaccines and diseases**, before digging into obscure ones (his examples: anthrax, Argentine hemorrhagic fever).
+3. Show a **global visual indicator of the percentage of codes not aligned yet.** He'd find that more helpful than a per-code walk.
+
+This is a prioritization or triage way of working: get the important part right first, and let the long tail wait. Neither demo supports it today.
+
+### "We don't have to choose"
+
+He suggests not picking a winner at all, since every prototype revolves around **the same mapping files**. Code-system owners with their own tooling will end up integrating alignment into those tools anyway, whichever prototype they start from. So the **invariants are the file formats, and possibly a structured request for creating a new NUVA code.** The tools themselves can vary.
+
+This is consistent with his "neutral tool" stance (section 5), but goes further: he's describing the files, not any one editor, as the real product. It also makes a structured NUVA code request (what Passport calls a petition) a candidate standard rather than a tool feature. He refers to "all three realizations"; with two demos, the third is presumably his own editor (unconfirmed).
+
+### Reverse maps as a publishable intermediate
+
+The reverse-map function could easily be reproduced in other tools too. His code first builds a **NUVA-to-NUVA reverse map**, then filters out target concepts that have no code in the code system. **If that intermediate NUVA2NUVA map were published**, other tools could produce reverse maps for any code system without reimplementing the logic. (Compare the "Create reverse map" defect in `francois-system-detailed-inventory.md`, which drops abstract vaccines at this stage.)

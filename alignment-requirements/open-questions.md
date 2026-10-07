@@ -8,6 +8,8 @@ Consolidated from `francois-requirements.md` and `nathan-requirements.md` so the
 - [ ] What does he actually picture for the Organisation section of the documentation site (`end_user.md`, `ivc.md`, `tools_provider.md`, `alignment_contributor.md`)? It's the closest thing he's sketched to governance/roles, but it's still unwritten (status Void).
 - [ ] Is NUVA-as-a-program-under-a-broader-IVC-web-presence a direction he'd be receptive to, or does he see NUVA and IVC as effectively the same thing right now?
 
+- [ ] **(2026-10-07, from his prototype feedback)** If "the file formats are the invariants" and tools can vary (`francois-requirements.md` section 9), what exactly is in the invariant set? The alignment CSV, the reverse/transcription maps, a structured NUVA code request, a published NUVA2NUVA map, structured alignment metadata? Who defines and versions each one? This may be the most useful thing to settle with him next, since it decides what any tool, prototype or not, has to honor.
+
 ## Process / workflow
 
 - [ ] Who's actually accountable for defining the structured alignment metadata (owner, description, references, revision date) and mandating owners for alignment files? Currently an unowned item under "IVCI" in his TBD list - natural thing for Nathan to volunteer for directly, now that the repo question (below) is settled.
@@ -16,7 +18,14 @@ Consolidated from `francois-requirements.md` and `nathan-requirements.md` so the
 - [ ] What's the actual status/timeline of NUVA's publishing authority moving from SYADEM to this project? Affects how much the "Unit files as source of truth" architecture can be relied on as complete today.
 - [ ] How does the valence technology-type hierarchy (separate from the valence parent/child hierarchy) actually factor into matching during an alignment - is it used as a cross-check, or mainly descriptive/informational?
 
+- [ ] **(2026-10-07)** What would a structured request for a new NUVA code look like as a file, his "possibly" invariant? Passport's petitions are one sketch. What fields, where it's submitted, and how it relates to `#MISS` in the alignment file are all open.
+- [ ] **(2026-10-07)** For his "start everything as `#MISS`, release the most common first" strategy: what defines "most common"? Usage data, a disease priority list, or the code system's own ordering? And is the progress indicator per code, or weighted by importance?
+
 ## Tool / implementation
+
+- [ ] **(2026-10-07)** "Filtering that reduces the attention load", missing in both demos. Both already filter the code list by status and text. Does he mean filtering by disease or vaccine family, narrowing the valence tree to what's relevant to the current code, hiding already-settled codes, or something else?
+- [ ] **(2026-10-07)** He referred to "all three realizations" when only two demos had been built. Is the third his own editor, the original Alignment Workspace branch, or something else?
+- [ ] **(2026-10-07)** Publishing the intermediate NUVA2NUVA reverse map: in which format and where (alongside `nuvadata.json` in `docs/data/`, in `Release/`)? Should it be regenerated with every NUVA build? Fixing the abstract-vaccine reverse-map defect first would matter, since that defect sits exactly at this stage.
 
 - [ ] `context` (current vaccine/code) persists indefinitely in `localStorage` with no expiry or visible staleness indicator - is this a known, accepted tradeoff, or has he not hit the failure mode yet? (It's exactly how the "Map to current vaccine" bug surfaced in testing.)
 - [ ] His Sept 20 email calls the Code Systems workflow "a bit clumsy" even describing the version he'd just finished building. What specifically still feels clumsy to him, after the shared-context addition (built the same day)? Don't assume that change fully addressed his own concern.

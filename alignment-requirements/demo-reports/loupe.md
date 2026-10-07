@@ -36,6 +36,17 @@ It deliberately left out process (statuses, confidence, tracked requests), autom
 - It's a **big-screen activity**. Everything has to be laid out at once on a large monitor, and there's a lot to look at simultaneously.
 - He asked for other directions to be explored besides a three-column layout.
 
+## Reviewer reaction (François, by email, 2026-10-07)
+
+Summarized, not quoted. The full summary across both demos is in `francois-requirements.md` section 9.
+
+**What worked**
+- He prefers Loupe of the two, because it constrains the process less: the user can start from valences, the vaccine, or a brand name, depending on the code and on what the user knows.
+
+**What didn't**
+- Not enough filtering to reduce the attention load (this applies to both demos; what kind of filtering he means is open).
+- Stepping through the codes one by one is discouraging. He'd rather start with everything as `#MISS`, release the most common vaccines and diseases first, and see a global percentage of codes not aligned yet.
+
 ## Builder's notes
 
 What's worth reusing, as mechanics rather than layout:

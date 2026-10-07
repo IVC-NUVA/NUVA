@@ -30,7 +30,8 @@
   - [x] 1 of 3: `loupe` (direction A, single screen) - built and reviewed 2026-10-06, draft PR #2 opened 2026-10-07. Conventions it set are recorded in `prototype-plan.md` so the next ones match.
   - [x] 2 of 3: `passport` (Passport Control, direction C, guided with tracked status) - built and reviewed 2026-10-07, draft PR #3.
   - [x] 2026-10-07: changed the process. Created the `prototypes` branch (off `origin/main`, with `prototype-loupe` and `prototype-passport` merged in, plus a launcher page at `docs/prototypes/index.html`), and moved this folder into it as `alignment-requirements/`. Future prototypes are committed and pushed straight to `prototypes`, with no per-prototype branch or PR. `prototype-plan.md` and `agent-prompt.md` are updated to match.
-  - [ ] 3 of 3: next direction (B, or a stronger idea) - `agent-prompt.md` is updated for this.
+  - [x] 2026-10-07: François's email reaction to Loupe and Passport, summarized into `francois-requirements.md` section 9, both demo reports, `open-questions.md` (five new items), and `prototype-plan.md` (his feedback in short, plus a new direction D, triage the whole code system, drawn from it).
+  - [ ] 3 of 3: next direction (B, D, or a stronger idea).
 - [x] 2026-10-07: closed draft PRs #2 and #3 unmerged, each with a comment that the work continues on `prototypes`, a branch not expected to ever be merged into `main`.
 - [ ] Bring the prototypes back to François as things to react to, not a single proposal to agree or disagree with.
 

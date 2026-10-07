@@ -43,6 +43,22 @@ Deliberately left out: automatic matching, multi-user or real submission ("sent 
 - The first version of the antigen step: "The antigens are really hard for me to navigate. I love the search, it's very good, but I find the listing of each to be very difficult to sort out." Many items are in a tree, "but they are all jumbled together and the relationship between them is not clear." He asked for it to be reworked before shipping (it was; see above).
 - Before he saw the rework, he wasn't sure he liked the antigen selection better than Loupe's tree, and wanted to keep both for comparison.
 
+## Reviewer reaction (François, by email, 2026-10-07)
+
+Summarized, not quoted. The full summary across both demos is in `francois-requirements.md` section 9.
+
+**What worked**
+- He likes marking a mapping as certain, probable or erroneous (Passport's confidence).
+
+**What didn't**
+- He prefers Loupe, because Passport's guided path constrains how the user approaches a code.
+- He missed being able to go straight to the codes not aligned yet.
+- He missed being able to declare a concept out of scope (his example: `CVX-801`).
+- Not enough filtering to reduce the attention load (applies to both demos).
+- Stepping through the codes one by one is discouraging. He'd rather start with everything as `#MISS`, release the most common vaccines and diseases first, and see a global percentage of codes not aligned yet.
+
+**Builder's note on this reaction:** two of the gaps he names exist in Passport, but he didn't find them. The "Queue" lane holds the codes with no decision yet, and the "Turned away" stamp writes `#NA` (out of scope). The passport metaphor hid them: nothing said "unaligned" or "out of scope" in the terms he uses. Themed wording needs the plain term next to it. Also, his "certain / probable / erroneous" is not quite Passport's "Sure / Probably / Hunch". "Erroneous" marks an existing mapping as wrong, which Passport has no word for (the nearest is "Held").
+
 ## Builder's notes
 
 What's worth reusing, as mechanics:
