@@ -6,6 +6,7 @@ One short report per prototype demo, so each new demo can see what the others tr
 |---|---|---|
 | Loupe | A - single screen, three columns | [loupe.md](loupe.md) |
 | Passport Control | C - guided, tracked status, one step at a time | [passport.md](passport.md) |
+| Quilt | D - triage the whole code system, disease blocks, most common first | [quilt.md](quilt.md) |
 
 ## Format
 
