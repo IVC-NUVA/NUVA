@@ -59,7 +59,7 @@ const S = {
   desk: null,          // persisted: { csid, fileName, importedAt, inspector, rows, petitions, nextPetition, view, lane, cur }
   view: 'hall', lane: 'queue', hallFilter: '',
   cur: null, step: 1,
-  picked: [], browse: ROOT, valSearch: '', candidate: null, vacSearch: '', showAllCands: false,
+  picked: [], open: new Set(), valSearch: '', candidate: null, vacSearch: '', showAllCands: false,
   confidence: 'sure', note: '',
   undo: null, busy: false
 };
@@ -378,7 +378,7 @@ function openCode(code, step = 1) {
   // Everything in the booth is rebuilt from this code alone - nothing carried over from the last one.
   S.candidate = S.vaccines[r.current] ? r.current : null;
   S.picked = S.candidate ? [...valencesOf(S.candidate)] : [];
-  S.browse = ROOT; S.valSearch = ''; S.vacSearch = ''; S.showAllCands = false;
+  S.open = new Set(); revealPicked(); S.valSearch = ''; S.vacSearch = ''; S.showAllCands = false;
   S.confidence = r.confidence || 'sure';
   S.note = '';
   persist();
@@ -474,6 +474,7 @@ function pick(id) {
     // Same rule as the main editor: one coherent point per branch, so picking drops ancestors and descendants.
     S.picked = S.picked.filter(x => !(S.lineage[id] || []).includes(x) && !(S.lineage[x] || []).includes(id));
     S.picked.push(id);
+    for (const a of S.lineage[id] || []) S.open.add(a);
   }
   const c = candidatesFromPicked();
   S.candidate = c.length && c[0].exact ? c[0].id : (S.candidate && c.some(x => x.id === abstractOf(S.candidate)) ? S.candidate : null);
@@ -789,51 +790,76 @@ function stepPapers(r) {
     </div>`;
 }
 
-function valRow(id, opts = {}) {
-  const v = S.valences[id];
-  const d = S.diff[id];
-  const kids = S.children[id] || [];
-  const isPicked = S.picked.includes(id);
-  const path = opts.path ? [...S.lineage[id]].reverse().map(a => S.valences[a].shorthand).join(' › ') : '';
-  const used = S.usage[id] || 0;
-  return `<li class="vrow ${isPicked ? 'picked' : ''} ${id === 'VAL000' ? 'dim' : ''}">
-      <button type="button" class="vpick" data-pick="${id}" aria-pressed="${isPicked}" title="${isPicked ? 'Unpick' : 'Pick this antigen'}">${isPicked ? '&#10003;' : '+'}</button>
-      <div class="vtext" title="${esc(id)} - ${esc(norm(v.label))}${techType(id) ? '\nTechnology: ' + esc(techType(id)) : ''}">
-        <span class="sh">${esc(v.shorthand)}</span> <span class="dd ${d.derived ? 'derived' : ''}">${esc(d.text)}</span>
-        ${path ? `<span class="path">under ${esc(path)}</span>` : ''}
+// The antigen tree is always drawn as a tree - indented under its parent, with guide lines - never as a flat list.
+// Browsing: the pathogen families, each folding open in place. Searching: every match is shown inside its own
+// branch, with its ancestors as muted context, and can itself be folded open to see what is more specific.
+function antigenTree() {
+  const words = S.valSearch.toLowerCase().split(/\s+/).filter(Boolean);
+  let hits = null, show = null;
+  if (words.length) {
+    hits = new Set(valenceSearch());
+    show = new Set();
+    for (const id of hits) { show.add(id); for (const a of S.lineage[id]) show.add(a) }
+  }
+  const re = words.length ? new RegExp(`(${words.map(w => esc(w).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})`, 'gi') : null;
+  const mark = s => re ? esc(s).replace(re, '<mark>$1</mark>') : esc(s);
+  const candVals = new Set(S.candidate ? valencesOf(S.candidate) : []);
+
+  // forced: the parent was opened by hand, so every child shows even when it doesn't match the search.
+  const node = (id, depth, forced) => {
+    if (show && !forced && !show.has(id)) return '';
+    const v = S.valences[id];
+    const d = S.diff[id];
+    const kids = S.children[id] || [];
+    const isOpen = S.open.has(id);
+    const shown = (isOpen ? kids.map(k => node(k, depth + 1, true))
+      : show ? kids.filter(k => show.has(k)).map(k => node(k, depth + 1, false)) : []).filter(Boolean);
+    const isPicked = S.picked.includes(id);
+    const cls = [depth === 0 ? 'family' : '', isPicked ? 'picked' : '', hits?.has(id) ? 'hit' : '',
+      show && !hits.has(id) && !forced ? 'ctx' : '', candVals.has(id) ? 'incand' : '', id === 'VAL000' ? 'dim' : ''].join(' ');
+    const caret = kids.length
+      ? `<button type="button" class="fold" data-fold="${id}" aria-expanded="${isOpen}" title="${isOpen ? 'Fold' : `Show all ${S.descendants[id]} more specific`}">${isOpen || shown.length ? '&#9662;' : '&#9656;'}</button>`
+      : '<span class="fold leaf">&middot;</span>';
+    return `<li>
+      <div class="vnode ${cls}">
+        ${caret}
+        <button type="button" class="vpick" data-pick="${id}" aria-pressed="${isPicked}" title="${isPicked ? 'Unpick' : 'Pick this antigen'}">${isPicked ? '&#10003;' : '+'}</button>
+        <div class="vtext" title="${esc(id)} - ${esc(norm(v.label))}${techType(id) ? '\nTechnology: ' + esc(techType(id)) : ''}">
+          <span class="sh">${mark(v.shorthand)}</span> <span class="dd ${d.derived ? 'derived' : ''}">${mark(d.text)}</span>
+          ${kids.length && !isOpen && !shown.length ? `<button type="button" class="more" data-fold="${id}">${S.descendants[id]} more specific</button>` : ''}
+        </div>
+        <span class="used" title="Abstract vaccines carrying this antigen or a more specific one">${S.usage[id] || ''}</span>
       </div>
-      <span class="used" title="Abstract vaccines carrying this antigen or a more specific one">${used || ''}</span>
-      ${kids.length ? `<button type="button" class="vdown" data-browse="${id}" title="Show the ${S.descendants[id]} more specific antigens">${S.descendants[id]} &#9656;</button>` : '<span class="vdown none"></span>'}
+      ${shown.length ? `<ul>${shown.join('')}</ul>` : ''}
     </li>`;
+  };
+  const html = (S.children[ROOT] || []).map(id => node(id, 0, false)).join('');
+  const head = hits
+    ? `${hits.size} antigen(s) match “${esc(S.valSearch)}”, shown in their branches`
+    : `${(S.children[ROOT] || []).length} pathogen families - open one to see its branch`;
+  return `<div class="tree-head"><span class="sub">${head}</span>${S.open.size ? '<button type="button" class="ghost small" data-act="fold-all">Fold all</button>' : ''}</div>
+    <ul class="vtree">${html || '<li class="empty">No antigen matches. Try fewer words.</li>'}</ul>`;
+}
+
+// Keep every picked antigen's branch open, so it's visible where it sits.
+function revealPicked() {
+  for (const v of S.picked) for (const a of S.lineage[v] || []) S.open.add(a);
 }
 
 function stepAntigens(r) {
   const chips = S.picked.map(v => `<span class="chip" title="${esc(norm(S.valences[v]?.label))}">${esc(S.valences[v]?.shorthand || v)}
       <button type="button" data-pick="${esc(v)}" aria-label="Unpick">&times;</button></span>`).join('');
-  let list;
-  if (S.valSearch.trim()) {
-    const hits = valenceSearch();
-    list = `<div class="crumbs"><span class="sub">${hits.length} antigen(s) matching “${esc(S.valSearch)}”</span></div>
-      <ul class="vlist">${hits.slice(0, 60).map(id => valRow(id, { path: true })).join('') || '<li class="empty">No antigen matches. Try fewer words.</li>'}</ul>`;
-  } else {
-    const trail = S.browse === ROOT ? [] : [...S.lineage[S.browse]].reverse().concat(S.browse);
-    const crumbs = `<button type="button" data-browse="${ROOT}" class="${S.browse === ROOT ? 'on' : ''}">All antigens</button>` +
-      trail.map(id => ` › <button type="button" data-browse="${id}" class="${S.browse === id ? 'on' : ''}" title="${esc(norm(S.valences[id].label))}">${esc(S.valences[id].shorthand)}</button>`).join('');
-    const here = S.browse !== ROOT ? `<div class="here">${valRow(S.browse)}</div>` : '';
-    list = `<div class="crumbs">${crumbs}</div>${here}
-      <ul class="vlist ${S.browse !== ROOT ? 'nested' : ''}">${(S.children[S.browse] || []).map(id => valRow(id)).join('')}</ul>`;
-  }
   const c = candidatesFromPicked();
   const exact = c.filter(x => x.exact);
   return `
     <div class="picked-row"><span class="pp-k">Picked antigens</span> ${chips || '<span class="sub">none yet - pick one antigen per pathogen</span>'}</div>
-    <input id="valSearch" type="search" placeholder="Search antigens: words, shorthand or VAL code" value="${esc(S.valSearch)}">
-    <p class="sub legend">Short text = how an antigen differs from its parent (auto-derived from the labels; hover for the full description). Number = vaccines carrying it.</p>
-    ${list}
-    <div class="step-next sticky-sum">
+    <div class="step-next sum-top">
       <span>${!S.picked.length ? 'Pick antigens to narrow the visa classes.' : exact.length ? `Exact visa class: ${vacTag(exact[0].id)} ${esc(S.vaccines[exact[0].id].label)}` : `${c.length} close visa class(es), no exact one.`}</span>
       <button type="button" class="primary" data-step="3">Next: verdict &#9656;</button>
-    </div>`;
+    </div>
+    <input id="valSearch" type="search" placeholder="Search antigens: words, shorthand or VAL code" value="${esc(S.valSearch)}">
+    <p class="sub legend">Each antigen sits under its parent, and its text says only how it differs from that parent (auto-derived from the labels; hover for the full description). The number on the right = vaccines carrying it.</p>
+    ${antigenTree()}`;
 }
 
 function stepVerdict(r) {
@@ -1008,7 +1034,7 @@ function wire() {
   };
 
   document.addEventListener('click', e => {
-    const el = e.target.closest('[data-go],[data-lane],[data-code],[data-code-link],[data-step],[data-pick],[data-browse],[data-word],[data-cand],[data-conf],[data-sample],[data-sheet],[data-ask],[data-pet],[data-resolve],[data-act]');
+    const el = e.target.closest('[data-go],[data-lane],[data-code],[data-code-link],[data-step],[data-pick],[data-fold],[data-word],[data-cand],[data-conf],[data-sample],[data-sheet],[data-ask],[data-pet],[data-resolve],[data-act]');
     if (!el) { if (e.target === $('overlay')) closeSheet(); return }
     const d = el.dataset;
     if (el.tagName === 'A') e.preventDefault();
@@ -1020,7 +1046,7 @@ function wire() {
     if (d.code) { openCode(d.code); return }
     if (d.step) { setStep(+d.step); return }
     if (d.pick) { pick(d.pick); return }
-    if (d.browse) { S.browse = d.browse; S.valSearch = ''; render(); return }
+    if (d.fold) { S.open.has(d.fold) ? S.open.delete(d.fold) : S.open.add(d.fold); render(); return }
     if (d.word) { S.valSearch = (S.valSearch.split(/\s+/).includes(d.word) ? S.valSearch : `${S.valSearch} ${d.word}`).trim(); setStep(2); return }
     if (d.cand) { S.candidate = d.cand; render(); return }
     if (d.conf) { S.confidence = d.conf; render(); return }
@@ -1057,6 +1083,7 @@ async function act(a) {
   switch (a) {
     case 'import': $('fileInput').click(); return;
     case 'undo': doUndo(); return;
+    case 'fold-all': S.open = new Set(); render(); return;
     case 'call': { const n = laneRows()[0]; if (n) openCode(n.code); return }
     case 'export-csv': { const c = buildCSV(S.desk); download(c.name, c.text, 'text/csv;charset=utf-8'); toast(`Downloaded ${c.name}`); return }
     case 'export-log': download(`${S.desk.csid}-passport-logbook_${today()}.json`, JSON.stringify(logbook(), null, 1), 'application/json'); return;
@@ -1075,8 +1102,8 @@ async function act(a) {
       if (n && n.code !== r.code) openCode(n.code);
       return;
     }
-    case 'verify': S.candidate = r.current; S.picked = [...valencesOf(r.current)]; setStep(3); return;
-    case 'try-suggest': S.candidate = r.suggest; S.picked = [...valencesOf(r.suggest)]; setStep(3); return;
+    case 'verify': S.candidate = r.current; S.picked = [...valencesOf(r.current)]; revealPicked(); setStep(3); return;
+    case 'try-suggest': S.candidate = r.suggest; S.picked = [...valencesOf(r.suggest)]; revealPicked(); setStep(3); return;
     case 'more': S.showAllCands = !S.showAllCands; render(); return;
     case 'confirm': stamp(r.current); return;
     case 'admit': { const v = S.vaccines[S.candidate]; if (v && v.type !== 'deprecated' && S.step === 3) stamp(S.candidate); return }
