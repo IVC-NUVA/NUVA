@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NUVA Alignment Prototypes</title>
+<style>
+  :root { --bg: #f7f5f0; --fg: #222; --muted: #666; --card: #fff; --line: #ddd; --accent: #2a6f97; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1b1b1d; --fg: #eee; --muted: #aaa; --card: #26262a; --line: #3a3a3f; --accent: #7cc0e8; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.5 system-ui, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px; }
+  h1 { margin: 0 0 4px; font-size: 1.6rem; }
+  p.lede { color: var(--muted); margin: 0 0 24px; }
+  a.card { display: block; background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+           padding: 16px 18px; margin-bottom: 12px; color: inherit; text-decoration: none; }
+  a.card:hover { border-color: var(--accent); }
+  .card h2 { margin: 0; font-size: 1.15rem; color: var(--accent); }
+  .card .dir { font-size: .85rem; color: var(--muted); }
+  .card p { margin: 6px 0 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>NUVA alignment prototypes</h1>
+  <p class="lede">Several deliberately different explorations of the code-system alignment workflow, built to be clicked through and reacted to. None of them is a recommendation. Each one keeps its own work in browser storage, separate from the others and from the main editor.</p>
+
+  <a class="card" href="../prototype-loupe/">
+    <h2>Loupe</h2>
+    <div class="dir">Direction A: single screen, no tab-switching</div>
+    <p>Everything needed to align one code on one screen: the code, the candidate vaccine and its valences side by side.</p>
+  </a>
+
+  <a class="card" href="../prototype-passport/">
+    <h2>Passport Control</h2>
+    <div class="dir">Direction C: guided, with tracked status</div>
+    <p>One step at a time on a laptop-width screen, with per-code status, confidence and petitions for missing NUVA content.</p>
+  </a>
+</main>
+</body>
+</html>
