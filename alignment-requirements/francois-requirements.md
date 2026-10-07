@@ -131,7 +131,7 @@ This is a prioritization or triage way of working: get the important part right 
 
 He suggests not picking a winner at all, since every prototype revolves around **the same mapping files**. Code-system owners with their own tooling will end up integrating alignment into those tools anyway, whichever prototype they start from. So the **invariants are the file formats, and possibly a structured request for creating a new NUVA code.** The tools themselves can vary.
 
-This is consistent with his "neutral tool" stance (section 5), but goes further: he's describing the files, not any one editor, as the real product. It also makes a structured NUVA code request (what Passport calls a petition) a candidate standard rather than a tool feature. He refers to "all three realizations"; with two demos, the third is presumably his own editor (unconfirmed).
+This is consistent with his "neutral tool" stance (section 5), but goes further: he's describing the files, not any one editor, as the real product. It also makes a structured NUVA code request (what Passport calls a petition) a candidate standard rather than a tool feature. He refers to "all three realizations": "réalisation" is French for *implementation*, so he means three implementations, his own editor plus the two demos (Nathan's reading, 2026-10-07).
 
 ### Reverse maps as a publishable intermediate
 

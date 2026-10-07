@@ -51,6 +51,13 @@ Don't default to re-skinning the current UI. Each prototype should take a genuin
 
 **François's feedback on A and C, in short** (details in `francois-requirements.md` section 9 and the two demo reports): he prefers the less constraining Loupe; both need more filtering; he likes certain / probable / erroneous on a mapping; he missed jumping to unaligned codes and declaring out-of-scope (`#NA`) in Passport, both of which exist there but were hidden by its themed wording. So give every themed control its plain term too. He also suggests not choosing between tools at all: **the file formats are the invariants**, possibly with a structured request for a new NUVA code. Any prototype should honor those files exactly. One that treats a NUVA code request, or a published NUVA2NUVA reverse map, as a file other tools could consume is in line with where he's heading.
 
+**Nathan's answers to the open questions, in short** (2026-10-07; details in `nathan-requirements.md` section 11 and `open-questions.md`). Whatever direction you take, these are the design targets:
+- **The main use case:** align local codes to NUVA, and make what's **missing from NUVA** clear to the NUVA maintainers.
+- **Output artifacts, not workflow.** The tool helps people prepare for governance; governance happens elsewhere. Someone should be able to work privately, then save a file they can choose to upload or email to IVC. No central tracking is needed.
+- **A formal package of requests for new NUVA content** is a design target, and its format is open. Different prototypes may create requests differently, as long as they produce that kind of package. Proposing its format is welcome, documented in the prototype's README.
+- **New or richer files are allowed** (request packages, alignment metadata), as long as the existing core files (the alignment CSV, `nuvadata.json`) keep working exactly as the hard constraints below say.
+- If a prototype models time, keep **"was active then"** (a valid historical code) apart from **"deprecated: never use"**.
+
 Each prototype's own README (see below) should state plainly which axis it's taking a position on and what it's deliberately not trying to be.
 
 ## Mechanics - how each prototype gets delivered
