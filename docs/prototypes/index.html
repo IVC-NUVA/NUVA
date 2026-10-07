@@ -3,40 +3,135 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>NUVA Alignment Prototypes</title>
+<title>NUVA Prototype Sketchbook</title>
 <style>
-  :root { --bg: #f7f5f0; --fg: #222; --muted: #666; --card: #fff; --line: #ddd; --accent: #2a6f97; }
-  @media (prefers-color-scheme: dark) {
-    :root { --bg: #1b1b1d; --fg: #eee; --muted: #aaa; --card: #26262a; --line: #3a3a3f; --accent: #7cc0e8; }
+  :root {
+    --bg: #f6f3ec; --fg: #23211d; --muted: #6b665c; --card: #fffdf8; --line: #ddd6c6;
+    --accent: #2a6f97; --real: #2e7d4f; --real-bg: #e9f4ec; --note-bg: #fff4d6; --note-line: #e6c869;
   }
-  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.5 system-ui, sans-serif; }
-  main { max-width: 760px; margin: 0 auto; padding: 32px 16px; }
-  h1 { margin: 0 0 4px; font-size: 1.6rem; }
-  p.lede { color: var(--muted); margin: 0 0 24px; }
-  a.card { display: block; background: var(--card); border: 1px solid var(--line); border-radius: 10px;
-           padding: 16px 18px; margin-bottom: 12px; color: inherit; text-decoration: none; }
-  a.card:hover { border-color: var(--accent); }
-  .card h2 { margin: 0; font-size: 1.15rem; color: var(--accent); }
-  .card .dir { font-size: .85rem; color: var(--muted); }
-  .card p { margin: 6px 0 0; }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1b19; --fg: #ece8df; --muted: #a8a294; --card: #262521; --line: #3d3a33;
+      --accent: #7cc0e8; --real: #7fd19c; --real-bg: #1f2e24; --note-bg: #332c16; --note-line: #7a6626;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 system-ui, sans-serif; }
+  main { max-width: 820px; margin: 0 auto; padding: 32px 16px 48px; }
+  h1 { margin: 0; font-size: 1.8rem; }
+  h2 { font-size: 1.15rem; margin: 32px 0 10px; }
+  .sub { color: var(--muted); margin: 2px 0 20px; }
+  a { color: var(--accent); }
+
+  .note { background: var(--note-bg); border: 1px solid var(--note-line); border-radius: 10px; padding: 14px 18px; }
+  .note p { margin: 0 0 8px; } .note p:last-child { margin: 0; }
+
+  .real { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; background: var(--real-bg);
+          border: 1px solid var(--real); border-radius: 10px; padding: 14px 18px; }
+  .real .what { flex: 1 1 320px; }
+  .real strong { color: var(--real); }
+  .real .links { display: flex; gap: 8px; flex-wrap: wrap; }
+  .btn { display: inline-block; padding: 7px 12px; border-radius: 7px; border: 1px solid var(--real);
+         color: var(--real); text-decoration: none; font-weight: 600; font-size: .92rem; }
+  .btn.primary { background: var(--real); color: var(--bg); }
+
+  .proto { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; margin-bottom: 12px; }
+  .proto header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  .proto h3 { margin: 0; font-size: 1.2rem; }
+  .proto h3 a { text-decoration: none; }
+  .proto .dir { font-size: .85rem; color: var(--muted); }
+  .proto p { margin: 8px 0 0; }
+  .proto .q { font-style: italic; }
+  .proto .meta { font-size: .88rem; color: var(--muted); margin-top: 10px; display: flex; gap: 14px; flex-wrap: wrap; }
+  .saved { font-size: .8rem; padding: 1px 8px; border-radius: 99px; border: 1px solid var(--line); color: var(--muted); }
+
+  ul.rules { padding-left: 20px; margin: 0; } ul.rules li { margin-bottom: 4px; }
+  code { font-size: .9em; background: var(--line); padding: 0 4px; border-radius: 4px; }
+  footer { margin-top: 36px; font-size: .88rem; color: var(--muted); }
 </style>
 </head>
 <body>
 <main>
-  <h1>NUVA alignment prototypes</h1>
-  <p class="lede">Several deliberately different explorations of the code-system alignment workflow, built to be clicked through and reacted to. None of them is a recommendation. Each one keeps its own work in browser storage, separate from the others and from the main editor.</p>
+  <h1>NUVA prototype sketchbook</h1>
+  <p class="sub">Throwaway sketches of the code-system alignment workflow, built to generate ideas.</p>
 
-  <a class="card" href="../prototype-loupe/">
-    <h2>Loupe</h2>
-    <div class="dir">Direction A: single screen, no tab-switching</div>
-    <p>Everything needed to align one code on one screen: the code, the candidate vaccine and its valences side by side.</p>
-  </a>
+  <div class="note">
+    <p><strong>These are sketches, not proposals.</strong> Each prototype takes a deliberately different, sometimes exaggerated, position on how aligning an external code system (CVX, SNOMED-CT, ...) to NUVA could work, so there's something concrete to react to. None of them is a recommendation, a replacement for the NUVA editor, or a plan to change it.</p>
+    <p>Good ideas may be brought to the NUVA editor later, through the normal discussion with its maintainer. The prototypes themselves are disposable and live on a separate <code>prototypes</code> branch that is never merged into <code>main</code>.</p>
+  </div>
 
-  <a class="card" href="../prototype-passport/">
-    <h2>Passport Control</h2>
-    <div class="dir">Direction C: guided, with tracked status</div>
-    <p>One step at a time on a laptop-width screen, with per-code status, confidence and petitions for missing NUVA content.</p>
-  </a>
+  <h2>The real NUVA editor</h2>
+  <div class="real">
+    <div class="what">
+      <strong>This is the one in use.</strong> The NUVA browser and editor maintained by François is published from <code>main</code>. Real alignment work happens there.
+    </div>
+    <div class="links">
+      <a class="btn primary" href="https://nuva.ivci.org/" target="_blank" rel="noopener">Open NUVA editor</a>
+      <a class="btn" href="https://nuva.ivci.org/documentation/" target="_blank" rel="noopener">Documentation</a>
+    </div>
+  </div>
+
+  <h2>Prototypes</h2>
+  <div id="protos"></div>
+
+  <h2>How they stay out of the way</h2>
+  <ul class="rules">
+    <li><strong>Separate branch.</strong> Everything here is on <code>prototypes</code>, which is never merged. Nothing here is published to nuva.ivci.org.</li>
+    <li><strong>Separate folders.</strong> Each prototype is self-contained in <code>docs/prototype-&lt;name&gt;/</code>. None of the editor's files are changed.</li>
+    <li><strong>Separate storage.</strong> Each prototype saves work in your browser under its own keys (<code>loupe.*</code>, <code>passport.*</code>, ...). None of them reads or writes the editor's saved work (<code>vaccines</code>, <code>valences</code>, <code>CSData</code>, <code>context</code>).</li>
+    <li><strong>Same files.</strong> They read the published NUVA data and read and write the same alignment CSV format the editor uses, so anything useful can be carried over by hand.</li>
+  </ul>
+
+  <footer>
+    Running locally: <code>python -m http.server 8000</code> in <code>docs/</code>, then open <code>http://localhost:8000/prototypes/</code>.
+    Requirements, plan and demo reports: <a href="https://github.com/IVC-NUVA/NUVA/tree/prototypes/alignment-requirements" target="_blank" rel="noopener"><code>alignment-requirements/</code></a> on the <code>prototypes</code> branch.
+  </footer>
 </main>
+
+<script>
+  // One entry per prototype. Add new ones to the end. `storage` is the localStorage key prefix the prototype uses.
+  const PROTOTYPES = [
+    {
+      name: 'Loupe', folder: 'prototype-loupe', storage: 'loupe.', report: 'loupe.md',
+      direction: 'A: single screen, no tab-switching', built: '2026-10-06',
+      question: 'Does aligning a code get easier if everything needed for the decision is on one screen at once?',
+      summary: 'The code, the candidate vaccine and its valences side by side as full text, with short "differs from parent" valence descriptions. Clear matching flow; needs a big screen.'
+    },
+    {
+      name: 'Passport Control', folder: 'prototype-passport', storage: 'passport.', report: 'passport.md',
+      direction: 'C: guided, with tracked status', built: '2026-10-07',
+      question: 'What if each code goes through a guided, one-thing-at-a-time process with tracked status?',
+      summary: 'Walks one code through antigen selection to a vaccine on a laptop-width screen, with per-code status, confidence, and petitions for missing NUVA content.'
+    }
+  ];
+
+  function hasSavedWork(prefix) {
+    try {
+      for (let i = 0; i < localStorage.length; i++) {
+        if (localStorage.key(i).startsWith(prefix)) return true;
+      }
+    } catch (e) { /* storage unavailable */ }
+    return false;
+  }
+
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const reportBase = 'https://github.com/IVC-NUVA/NUVA/blob/prototypes/alignment-requirements/demo-reports/';
+
+  document.getElementById('protos').innerHTML = PROTOTYPES.map(p => `
+    <article class="proto">
+      <header>
+        <h3><a href="../${esc(p.folder)}/">${esc(p.name)}</a></h3>
+        ${hasSavedWork(p.storage) ? '<span class="saved">you have saved work here</span>' : ''}
+      </header>
+      <div class="dir">Direction ${esc(p.direction)}</div>
+      <p class="q">${esc(p.question)}</p>
+      <p>${esc(p.summary)}</p>
+      <div class="meta">
+        <a href="../${esc(p.folder)}/">Open</a>
+        <a href="${reportBase}${esc(p.report)}" target="_blank" rel="noopener">Demo report</a>
+        <span>Built ${esc(p.built)}</span>
+      </div>
+    </article>`).join('');
+</script>
 </body>
 </html>

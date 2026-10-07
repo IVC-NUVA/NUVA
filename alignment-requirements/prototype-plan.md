@@ -59,7 +59,7 @@ For **each** new prototype:
 2. Pick a short, memorable, evocative one-word codename - not a literal description (e.g. `loupe`, not `single-screen-no-tabs`). Easy to say in conversation and clearly distinct from the others. Codenames used so far: **`loupe`** (prototype A, single screen), **`passport`** (prototype C, guided with tracked status).
 3. All files live under `docs/prototype-<codename>/` - fully self-contained (its own HTML/CSS/JS), deliberately named differently from `docs/alignment-workspace/` so the two are never confused.
 4. Include a short `README.md` inside that folder: what question this prototype is exploring, what it's deliberately not trying to be, and how to run it (static files, no build step). See "Conventions" below for the section layout.
-5. Add a card for it to the launcher page, `docs/prototypes/index.html` (name, direction, one sentence).
+5. Add it to the starting page, `docs/prototypes/index.html`: one entry at the end of the `PROTOTYPES` list in its script (name, folder, storage key prefix, report file, direction, date built, the question it explores, a one-sentence summary).
 6. Commit to `prototypes` and run it (see "Testing and deployment"). Don't push yet.
 7. **Stop and ask Nathan for his reaction.** Tell him how to open it and what to try, then ask what worked and what didn't. Wait for his answer - don't guess it and don't skip this step.
 8. **Write the demo's report** in `alignment-requirements/demo-reports/<codename>.md`, following `demo-reports/README.md`, with his reaction in it (in his words, nothing added), and add it to that README's table. Update `TODO.md` and the direction's entry above. **The report with his reaction is the deliverable** - it's what the next demo learns from.
