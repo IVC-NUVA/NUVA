@@ -9,23 +9,47 @@ var CSData
 
 abstractDetails = {}
 
+function compareBlur(a,b) {
+	if (vaccines[a].type != 'abstract') {
+		if (vaccines[b].type != 'abstract') {
+			// Both are real - Sort by label
+			return (vaccines[a].label < vaccines[b].label ? -1:1)
+		}
+		else {
+			// Priority to the abstract one
+			return 1 
+		}
+	}
+	// a is abstract
+	if (vaccines[b].type != 'abstract') return -1
+	
+	// both are abstract
+	aBlur = abstractDetails[a].descendants.length + abstractDetails[a].instances.length
+	bBlur = abstractDetails[b].descendants.length + abstractDetails[b].instances.length
+	
+	if (aBlur == bBlur) {
+		return (vaccines[a].label < vaccines[b].label?-1:1)
+	}
+	return (aBlur - bBlur)		
+}
+
 function structureAbstract() {
 	rebuildAll()	
 	for (vkey in abstractVaccines) {
 		idvac = abstractVaccines[vkey]
-		abstractDetails[vkey] = {descendants: 1+extvaccines[idvac].instances.length, ascendants:[] }
+		abstractDetails[idvac] = {instances: [...extvaccines[idvac].instances], descendants: [], ascendants:[] }
 	}
 
 	for (vkey1 in abstractVaccines) {
 		idvac1= abstractVaccines[vkey1]
 		valences1 = vaccines[idvac1].valences
-		details1 = abstractDetails[vkey1]
+		details1 = abstractDetails[idvac1]
 		
 		loopvac:for (vkey2 in abstractVaccines) {
 			if (vkey2 == vkey1) continue		
 			idvac2 = abstractVaccines[vkey2]
 			valences2 = vaccines[idvac2].valences
-			details2 = abstractDetails[vkey2]			
+			details2 = abstractDetails[idvac2]			
 		
 				
 			// Vaccine 2 is a descendant of vaccine 1 if:
@@ -53,16 +77,18 @@ function structureAbstract() {
 				fail = true								
 			}
 			if (!fail) {				
-				if (!details2.ascendants.includes(vkey1)) {
-					details2.ascendants.push(vkey1)
-					details1.descendants += extvaccines[idvac2].instances.length+1
+				if (!details2.ascendants.includes(idvac1)) {
+					details2.ascendants.push(idvac1)
+					details1.descendants.push(idvac2)
+					details1.descendants.push(...extvaccines[idvac2].instances)
 				}
 			}			
 		}	
 	}
 	// Sort the ascendants by increasing level of descendants
-	for (vkey in abstractDetails) {
-		abstractDetails[vkey].ascendants.sort(function(a,b) { return (abstractDetails[a].descendants > abstractDetails[b].descendants)})
+	for (idvac in abstractDetails) {
+		abstractDetails[idvac].ascendants.sort(compareBlur)
+		abstractDetails[idvac].descendants.sort(compareBlur)
 	}
 }
 
@@ -259,10 +285,10 @@ function saveCodeSystem() {
 	download(`${CSData.CSID}2nuva-${today()}.csv`, CSFileContent)
 }
 
-function reverseRows(idvac, vkey, bestBlur) {
+function reverseRows(idvac, idabstract, bestBlur) {
 	res = []
-	idabstract = abstractVaccines[vkey]
-	blur = abstractDetails[vkey].descendants	
+	blur = abstractDetails[idabstract].descendants.length+ 
+			abstractDetails[idabstract].instances.length + 1
 	if (idabstract in CSData.nuva2code) {
 		if (!bestBlur) {
 			bestBlur = blur
@@ -295,8 +321,7 @@ function reverseCodeSystem()
 		bestBlur = 0
 		idabstract = (vaccines[idvac].abstract?idvac:vaccines[idvac].instanceOf)
 		if (!idabstract) continue             // Should not happen, missing an abstract vaccine
-		vkey = valencesKey(vaccines[idabstract])		
-		
+				
 		if (idvac in nuva2code){
 			for (extcode of nuva2code[idvac]) {
 				reverse.push([
@@ -311,14 +336,14 @@ function reverseCodeSystem()
 			}
 			bestBlur = 1
 		} else {
-			res = reverseRows(idvac,vkey,0)
+			res = reverseRows(idvac,idabstract,0)
 			reverse.push(...res)
 			if (res.length != 0) bestBlur = res[0][6]
 		}
 		
-		for (parent_key of abstractDetails[vkey].ascendants)
+		for (parent_vac of abstractDetails[idabstract].ascendants)
 		{
-			res = reverseRows(idvac,parent_key,bestBlur)
+			res = reverseRows(idvac,parent_vac,bestBlur)
 			reverse.push(...res)
 			if ((bestBlur==0) &&(res.length != 0)) bestBlur = res[0][6]							
 		}
@@ -344,6 +369,12 @@ function reverseCodeSystem()
 	download(`nuva2${CSID}_${today()}.csv`, reverseFileContent)
 	document.getElementById("transcription").disabled = false
 }
+function abstractMap()
+{
+	sorted = Object.fromEntries(Object.entries(abstractDetails).sort(([a,],[b,]) => compareBlur(a,b)))
+	download(`abstractMap_${today()}.json`, JSON.stringify(sorted,null,2))
+}
+
 function mapCSV2(text)
 {
 	CSID = CSData.CSID
