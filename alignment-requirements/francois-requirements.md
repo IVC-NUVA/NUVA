@@ -2,7 +2,7 @@
 
 What his code, his documentation site, and his emails reveal he actually needs and believes, organized by area. Each item notes **what**, **why** (when stated or inferable), and flags an **open question / inconsistency** where one exists. Distilled 2026-10-06 from `main` at commit `02b1c87a`; see `README.md` for exact source locations.
 
-Sections 8 and 9 at the bottom hold what he said directly (the 2026-10-06 call, and his 2026-10-07 email reaction to the prototypes) - kept separate from what's inferred from code/docs, since those are different kinds of evidence.
+Sections 8 to 10 at the bottom hold what he said directly (the 2026-10-06 call, his 2026-10-07 email reaction to the first two prototypes, and his 2026-10-08 reaction to Quilt) - kept separate from what's inferred from code/docs, since those are different kinds of evidence.
 
 ## 1. Core architecture
 
@@ -136,3 +136,21 @@ This is consistent with his "neutral tool" stance (section 5), but goes further:
 ### Reverse maps as a publishable intermediate
 
 The reverse-map function could easily be reproduced in other tools too. His code first builds a **NUVA-to-NUVA reverse map**, then filters out target concepts that have no code in the code system. **If that intermediate NUVA2NUVA map were published**, other tools could produce reverse maps for any code system without reimplementing the logic. (Compare the "Create reverse map" defect in `francois-system-detailed-inventory.md`, which drops abstract vaccines at this stage.)
+
+## 10. His reaction to Quilt (email, 2026-10-08)
+
+Quoted where short, from his email after trying Quilt. Like sections 8 and 9, this is what he said directly.
+
+### On the prototype
+
+- **"That one (Quilt) really brings something new."** The first of the three demos he singles out this way.
+- **The layout may not carry over to other code systems.** "I do not think the layout would work with other code systems (think of the length of a SNOMED-CT identifier)." Quilt's patches are sized for short codes like CVX. He calls this "only an aspect question", a matter of presentation rather than of the idea.
+- **The editing panel is too crowded.** "There is no benefit in keeping the dashboard of all codes visible once you have selected one." This is the same critique Nathan made (`demo-reports/quilt.md`), and it points the same way: once a code is selected, give the decision the whole screen.
+
+### On combinations, and what "most common" means
+
+- **Combinations shouldn't be one category.** Quilt puts every code that covers more than one disease in a single "Combinations" block. He'd rather see the classical combinations, such as MMR, each get **a block of their own**.
+- **A way to rank and group, from NUVA itself.** He proposes presenting the **abstract vaccines in NUVA that have more than a given threshold of descendants**, and letting the user **drill down progressively by selecting one**. That would answer both the combinations point and the "most common" question (section 9; `open-questions.md`): an abstract vaccine with many descendants is common, and the blocks come from NUVA's own structure, not from a hand-made tier list.
+- This would be built on **the reverse NUVA tree he mentioned the day before**, presumably the NUVA-to-NUVA reverse map from section 9. He said he'd try to create and share it the same afternoon.
+
+This replaces Quilt's fixed disease tiers with a structure derived from the data. Nathan's favourite part of Quilt was the disease tiers (`demo-reports/quilt.md`), so the two ideas will need reconciling: tiers as the top level, drill-down below, or the threshold alone.

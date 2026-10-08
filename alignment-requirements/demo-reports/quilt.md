@@ -38,6 +38,22 @@ Deliberately left out: confidence and per-code workflow status (Passport explore
 - "The right column becomes very cramped. There is a lot of information there and not enough space for it."
 - His suggested improvement (explicitly not to be made now): the align panel "takes much more of the screen real-estate and itself becomes more of a three column process."
 
+## Reviewer reaction (François, by email, 2026-10-08)
+
+The fuller summary, with what it means for "most common", is in `francois-requirements.md` section 10.
+
+**What worked**
+- "That one (Quilt) really brings something new."
+
+**What didn't**
+- "I do not think the layout would work with other code systems (think of the length of a SNOMED-CT identifier) but this is only an aspect question."
+- "The editing window on the right is too crowded. There is no benefit in keeping the dashboard of all codes visible once you have selected one." (Nathan's critique too.)
+- "I would not consider Combinations as a single category. They are several classical combinations, such as MMR, that would deserve a block by themselves."
+
+**His proposal:** present the abstract vaccines in NUVA that have more than a given threshold of descendants, and drill down progressively by selecting one. It would answer the "most common" question as well, and would be based on the reverse NUVA tree he mentioned on 2026-10-07 (he'll try to create and share it).
+
+**Builder's note on this reaction:** both reviewers independently found the slide-in panel too crowded, so a full-screen align view opened from the quilt is now the clear next step. His drill-down from abstract vaccines would replace the hand-made `DISEASES`/`TIERS` lists and the single `combo` block (`placement()` in `quilt.js`) with blocks derived from NUVA. It doesn't by itself keep Nathan's disease tiers, which he wants not to lose.
+
 ## Builder's notes
 
 What's worth reusing, as mechanics:
@@ -62,7 +78,7 @@ Noticed in the real data:
 
 Quilt showed that seeing the whole code system at once, grouped by disease and ordered by importance, makes it easy to see where you are. It did not settle:
 - **Room for the decision.** Can the whole-set view and the per-code decision each get the space they need? For example, the quilt as a home screen with a full-width align view, or Loupe's columns opened from a patch.
-- **What "most common" means.** A fixed tier list, NUVA vaccine counts, real dose volumes from a registry, or the user's own choice? Should the tiers and diseases become a shared, published file, like the other invariants?
+- **What "most common" means.** A fixed tier list, NUVA vaccine counts, real dose volumes from a registry, or the user's own choice? (François, 2026-10-08, proposes abstract vaccines above a threshold of descendants, drilled down progressively; see his reaction above.) Should the tiers and diseases become a shared, published file, like the other invariants?
 - **The request package as a standard.** Quilt's format is a first sketch. Does it fit Passport's petitions, and what would IVC need from it to act?
 
 These are prompts, not requirements.

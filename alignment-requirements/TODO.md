@@ -32,7 +32,9 @@
   - [x] 2026-10-07: changed the process. Created the `prototypes` branch (off `origin/main`, with `prototype-loupe` and `prototype-passport` merged in, plus a launcher page at `docs/prototypes/index.html`), and moved this folder into it as `alignment-requirements/`. Future prototypes are committed and pushed straight to `prototypes`, with no per-prototype branch or PR. `prototype-plan.md` and `agent-prompt.md` are updated to match.
   - [x] 2026-10-07: François's email reaction to Loupe and Passport, summarized into `francois-requirements.md` section 9, both demo reports, `open-questions.md` (five new items), and `prototype-plan.md` (his feedback in short, plus a new direction D, triage the whole code system, drawn from it).
   - [x] 3 of 3: `quilt` (direction D, triage the whole code system) - built and reviewed 2026-10-07, see `demo-reports/quilt.md`. Nathan's favourite so far; keep the disease tiers and "most common first". Its align panel is too cramped (a wider, possibly three-column align view is the suggested next step, not made yet). Also proposes a request-package file format (`nuva-content-request-package` v0.1).
-  - [ ] Send Quilt to François for his reaction, alongside Loupe and Passport.
+  - [x] Send Quilt to François for his reaction, alongside Loupe and Passport.
+  - [x] 2026-10-08: François's email reaction to Quilt, recorded in `francois-requirements.md` section 10, `demo-reports/quilt.md`, `open-questions.md` and `prototype-plan.md`. "Really brings something new"; the editing panel is too crowded (as Nathan found); classical combinations like MMR deserve their own blocks; proposes drilling down from abstract vaccines above a threshold of descendants.
+  - [ ] Get François's reverse NUVA tree (he said he'd try to create and share it on 2026-10-08), and add it to the background docs.
 - [x] 2026-10-07: closed draft PRs #2 and #3 unmerged, each with a comment that the work continues on `prototypes`, a branch not expected to ever be merged into `main`.
 - [ ] Bring the prototypes back to François as things to react to, not a single proposal to agree or disagree with.
 

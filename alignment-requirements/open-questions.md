@@ -27,13 +27,17 @@ Nathan answered what he could on 2026-10-07. His answers are marked **Nathan, 20
   - **Nathan, 2026-10-07:** not sure, and **this is a good thing for the prototypes to work out.** One idea: different prototypes offer different ways of generating requests, and they all end up in one **formal package of requests**. We're free to design it. Passport's petitions are one sketch.
 - [ ] **(2026-10-07)** For François's "start everything as `#MISS`, release the most common first" strategy: what defines "most common", and is progress weighted by importance?
   - **Nathan, 2026-10-07:** this is François's strategy, not his. Nathan's own main use case right now: **align local codes to NUVA, and tell the NUVA maintainers clearly what's missing from NUVA** to complete the alignment. What "most common" means is still one for François.
+  - **François, 2026-10-08 (reacting to Quilt):** a partial answer. Present the abstract vaccines in NUVA that have more than a given threshold of descendants, and drill down progressively by selecting one, based on his reverse NUVA tree (`francois-requirements.md` section 10). Still open: what counts as a descendant, what the threshold is, and whether progress is weighted.
+- [ ] **(2026-10-08, from his Quilt reaction)** How do his drill-down from abstract vaccines and Nathan's disease tiers fit together: tiers as the top level with the drill-down below, the threshold alone, or something else? And how should a whole-set view look for code systems with long identifiers, such as SNOMED-CT?
 
 ## Tool / implementation
 
 - [ ] **(2026-10-07)** "Filtering that reduces the attention load", missing in both demos. Both already filter the code list by status and text. Does he mean filtering by disease or vaccine family, narrowing the valence tree to what's relevant to the current code, hiding already-settled codes, or something else?
   - **Nathan, 2026-10-07:** doesn't know. One for François. (Nathan suggests technology type as a possible future filter, above.)
+  - **François, 2026-10-08:** not answered directly, but his Quilt reaction points at two kinds: hide the dashboard of all codes once one is selected, and narrow by drilling down from abstract vaccines (`francois-requirements.md` section 10).
 - [ ] **(2026-10-07)** Publishing the intermediate NUVA2NUVA reverse map: in which format and where (alongside `nuvadata.json` in `docs/data/`, in `Release/`)? Should it be regenerated with every NUVA build? Fixing the abstract-vaccine reverse-map defect first would matter, since that defect sits exactly at this stage.
   - **Nathan, 2026-10-07:** not sure yet.
+  - **François, 2026-10-08:** he'll try to create the "reverse NUVA tree" and share it, as the basis for drilling down from abstract vaccines. Format and location are still open.
 - [ ] `context` (current vaccine/code) persists indefinitely in `localStorage` with no expiry or visible staleness indicator - is this a known, accepted tradeoff, or has he not hit the failure mode yet? (It's exactly how the "Map to current vaccine" bug surfaced in testing.)
   - **Nathan, 2026-10-07:** might be an issue, but not critical to answer yet.
 - [ ] His Sept 20 email calls the Code Systems workflow "a bit clumsy" even describing the version he'd just finished building. What specifically still feels clumsy to him, after the shared-context addition (built the same day)?
