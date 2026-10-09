@@ -106,7 +106,7 @@ function parseCSV(text) {
 		labelField = reCSV.exec(text)
 		extCode=(codeField?codeField[1]:null)
 		nuvaCode=(nuvaField?nuvaField[1]:null)
-		label=(labelField?labelField[1].replaceAll('"',''):null)
+		label=(labelField?labelField[1].replaceAll('"',''):"")
 		
 		if (!extCode)
 			continue
