@@ -52,7 +52,7 @@ var filterText = ""
 
 	
 function showValences() {
-	rebuildValences()
+	rebuildAll()
     lpos = document.getElementById('lval')
 	lpos.innerHTML = ""
 	filterText = document.getElementById('filterText').value.toUpperCase()
@@ -76,7 +76,7 @@ function showChildren(idval, parentMatch) {
     var list = document.createElement("ul")
 	var children = extvalences[idval].children
 
-	children.sort(sortByValShortHand)
+	children.sort(sortByValUses)
 	var anyMatch = false
 
 	for (var child of children) {

@@ -235,6 +235,13 @@ function sortByValShortHand (a,b) {
 	return valences[a].shorthand.localeCompare(valences[b].shorthand)
 }
 
+function sortByValUses (a,b) {
+	aUses = extvalences[a].vaccines.length
+	bUses = extvalences[b].vaccines.length
+	if (aUses == bUses) return valences[a].shorthand.localeCompare(valences[b].shorthand)
+	else return bUses - aUses
+}
+
 function valencesKey(vaccine) {
 	return vaccine.valences.sort(sortByValShortHand).join("-")
 }
@@ -309,7 +316,8 @@ function rebuildValences() {
 		extvalences[idval] = {
 			'changed': valenceChanged(idval),
 			'lineage': [], 
-			'children': [], 
+			'children': [],
+			'vaccines': [],
 			'minVType': '0', 
 			'maxVType': '0'}
 	}
@@ -382,10 +390,12 @@ function rebuildVaccines() {
 					continue
 				}
 				extvaccines[idvac].implicit.push(idval)
+				if (!extvalences[idval].vaccines.includes(idvac)) extvalences[idval].vaccines.push(idvac)
 				
 				curval = valences[idval].parent
 				while (curval != idRoot){				
 					extvaccines[idvac].implicit.push(curval)
+					if (!extvalences[curval].vaccines.includes(idvac)) extvalences[curval].vaccines.push(idvac)
 					curval = valences[curval].parent
 				}				
 			}
@@ -402,7 +412,10 @@ function rebuildVaccines() {
 			if (vaccines[instanceOf].type == 'deprecated') {
 				instanceOf = 'VAC0000'
 			}
-			extvaccines[instanceOf].instances.push(idvac)			
+			extvaccines[instanceOf].instances.push(idvac)
+			for (idval of extvaccines[instanceOf].implicit) {
+				if (!extvalences[idval].vaccines.includes(idvac)) extvalences[idval].vaccines.push(idvac)
+			}
 		}
 	}		
 }
