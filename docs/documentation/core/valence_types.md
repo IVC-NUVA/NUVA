@@ -34,7 +34,7 @@ A carrier virus (adenovirus, vaccinia, etc.) is engineered so that it cannot cau
 The viral vector kept its ability to replicate, thus reinforcing its  propagation.
 
 ##### 1.1.2.2 - Non-replicating viral vector vaccine
-The ability to replicate of the viral vectos has been inhibited.
+The ability to replicate of the viral vector has been inhibited.
 
 ### 1.2 - Non-live vaccines
 #### 1.2.1 - Whole inactivated pathogen vaccines

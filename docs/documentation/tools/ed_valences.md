@@ -8,7 +8,8 @@ assignee: NB
 ---
 # Valences tab #
 ## Main view
-The main view presents the tree of valences.
+The main view presents the tree of valences, sorted by decreasing frequency of use.
+
 ![](mv_valences.png)
 
 It can be filtered according to the criteria set in the Filter zone of the sidebar. If a valence is accepted by the filter, all its ascendants are presented too.
