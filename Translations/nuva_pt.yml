@@ -532,725 +532,403 @@ pt:
       autorizada
     VAC1264L: A(H5) avian influenza vaccine, unspecified
   valence:
-    VAL001S: Inf-L3
-    VAL039S: COVID-VLP-rS
     VAL041L: Meningocócica A, vacina conjugada de polissacarídeos
-    VAL041S: MCV-A
     VAL042L: Vacina contra a poliomielite, não especificada
-    VAL042S: POLIO
     VAL046L: Typhus
-    VAL046S: Typhus
     VAL047L: Hepatite B imunoglobulina
     VAL061L: Vacina COVID-19, subunidade de proteína, proteína de pico 
       recombinante, S-2P e CpG1018
-    VAL061S: COVID-PS-CpG1018
-    VAL063S: BAT
-    VAL070S: COVID-VVnr-S-Ad
     VAL071L: Vacina contra a febre tifóide total inactivada
-    VAL071S: Ty-I
     VAL072L: Vacina meningocócica B contendo fHbp das subfamílias A e B
-    VAL072S: MenB-fHbpAB
     VAL078L: Vacina meningocócica Y, conjugado de polissacarídeo
-    VAL078S: MCV-Y
-    VAL079S: Rub-LAV
     VAL080L: Vacina anti-rábica totalmente inactivada, não especificada
-    VAL080S: Rab-I
     VAL081L: Valência colérica, sem especificação
-    VAL081S: Chol
     VAL082L: Vacina contra o HPV, tipos não especificados
-    VAL082S: HPV
     VAL083L: Difteria toxoídica, dose não especificada
-    VAL083S: D-d
     VAL086L: Vacina COVID-19, viva atenuada, indeterminada
-    VAL086S: COVID-LA
-    VAL089S: JE-I
     VAL121L: Vacina oral trivalente inactivada contra a poliomielite total
-    VAL121S: POLIO-I-O
-    VAL123S: Rota5-L
-    VAL124S: Chol-L
-    VAL135S: Covid-ARNm-S-CT
     VAL136L: Vacina meningocócica W, conjugado de polissacarídeo
-    VAL141S: Rota-mv-RIX4414
     VAL142L: Valência vacinal inteira inativada da hepatite A, monovalente, dose
       pediátrica
-    VAL142S: HepA-mv-PED
-    VAL143S: HepA-bv-PED
-    VAL151S: Tular
-    VAL156S: PRP-T
     VAL157L: Vacina COVID-19, não especificada
-    VAL157S: COVID
     VAL158L: Vacina contra a Hepatite B de plasma
-    VAL158S: pHBsAg
     VAL159L: Subunidade de vacina de herpes-zóster, não especificada
-    VAL159S: Shingles-SU
     VAL160L: Vacina contra a herpes zóster, não especificada
-    VAL160S: Shingles
-    VAL161S: MenB-mc
-    VAL162S: COVID-VVr
     VAL163L: Vacina COVID-19, vector viral não replicante, não especificada
-    VAL163S: COVID-VVnr
     VAL164L: Vacina COVID-19, não viva, não especificada
-    VAL164S: COVID-non-live
     VAL165L: Vacina viva anti-covida 19, não especificada
-    VAL168S: COVID-RNA
     VAL169L: Vacina auto-amplificadora do mRNA (AAA) para a Vacina 19
-    VAL169S: COVID-mRNA-SAM
     VAL170L: Vacina contra a hepatite B, antigénio de superfície recombinante do
       vírus da hepatite B (HBsAg), 5 microgramas
-    VAL170S: rHepB-05
     VAL171L: Vacina venezuelana contra a encefalite equina, não especificada
-    VAL176S: HPIVs
     VAL177L: Valência vacinal de Haemophilus influenzae tipo b, sem 
       especificação
-    VAL177S: Hib
-    VAL178S: COVID-mRNA-S-OMI-BA.1-25
-    VAL210S: PPSV-05
     VAL211L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 6B
-    VAL211S: PPSV-06B
     VAL212L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 7F
-    VAL212S: PPSV-07F
-    VAL214S: PPSV-09N
     VAL218L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 12F
-    VAL218S: PPSV-12F
-    VAL249S: JE
     VAL250L: Valência contra a encefalite japonesa, inteira inativada, preparada
       em tecido cerebral murino
-    VAL250S: JE-I-mb
     VAL252L: Imunoglobulina da raiva, de origem humana
-    VAL252S: RIG-hu
     VAL253L: Imunoglobulina da raiva, origem equina
     VAL257L: Vacina contra a raiva totalmente inactivada, baseada na cultura de 
       células, não especificada
-    VAL257S: Rab-I-CC
     VAL258L: Vacina contra a raiva virion total inactivada, baseada em cultura 
       celular, vacina contra células diplóides humanas (HDCV) MRC-5, inactivação
       com ß-propiolactona
-    VAL258S: Rab-I-HDCV
     VAL259L: Vacina contra a raiva virion inteira inactivada, vacina purificada 
       de células embrionárias de pinto (PCECV), obtida através do cultivo da 
       estirpe fixa do vírus da raiva Flury LEP-25 em culturas primárias de 
       fibroblastos de pinto, vírus inactivado com ß-propiolactona
-    VAL259S: Rab-I-PCEC
     VAL260L: Vacina contra a raiva virion total inactivada, vacina contra a 
       raiva de células Vero (PVRV) purificada, estirpe Wistar, inactivação com 
       ß-propiolactona
-    VAL260S: Rab-I-PVRV
-    VAL261S: Rab-I-PHKCV
-    VAL272S: MCV-W-T
     VAL280L: Botulinum toxoid
-    VAL280S: BT
-    VAL281S: Adeno-7
-    VAL282S: Adeno-4
     VAL297L: Vacina meningocócica A, não especificada
-    VAL297S: MenA
     VAL298L: Vacina meningocócica C, não especificada
-    VAL298S: MenC
     VAL299L: Vacina meningocócica Y, não especificada
-    VAL299S: MenY
     VAL300L: Vacina meningocócica W, não especificada
-    VAL300S: MenW
     VAL301L: Vacina trivalente contra a gripe recombinante
-    VAL302S: Covid-mRNA-S-50
     VAL331L: CMV immune globulin
-    VAL331S: CMV-Ig
     VAL332L: Valência vacinal da hepatite C, sem especificação
     VAL340L: Valência contra o antraz, sem especificação
-    VAL340S: Antraz
     VAL341L: Valência contra Escherichia coli, sem especificação
-    VAL341S: Eco
-    VAL342S: Kpn
     VAL343L: Valência contra Enterococcus faecalis, sem especificação
-    VAL343S: Efa
     VAL364L: Valência vacinal não viva da gripe, sem especificação
     VAL365L: Valência vacinal não viva da gripe obtida por cultura em ovos, sem 
       especificação
     VAL389L: Valência contra Pseudomonas aeruginosa, 7 imunótipos
-    VAL389S: PAER7
     VAL390L: Valência de Chikungunya, não especificada
-    VAL390S: CHIK
     VAL391L: Chikungunya VLP valência
-    VAL391S: Chik-VLP
-    VAL414S: DIPH
     VAL001L: Valência vacinal trivalente viva atenuada contra a gripe, dose 
       normal
     VAL002L: Vacina conjugada com tifóide, antigénio vi polissacarídeo ligado a 
       uma proteína transportadora
-    VAL002S: Ty-ViC
     VAL003L: Valência contra a coqueluche, sem especificação
-    VAL003S: Per
     VAL004L: Valência vacinal inteira inativada da cólera, injetável
-    VAL004S: I-Chol-I
-    VAL005S: Meas-LAV
     VAL006L: Valência anti-Brucella, sem especificação
-    VAL006S: Bruc
     VAL007L: Vírus da estomatite vesicular recombinante (rVSV) - EBOV GP 
       glicoproteína
-    VAL007S: rVSVdG-ZEBOV-GP
     VAL008L: Valência acelular contra a coqueluche, dose padrão
-    VAL008S: aP
     VAL009L: Sporozoite vacinas de proteínas de superfície
-    VAL009S: Mala-SPO
     VAL010L: Valência contra a coqueluche inteira inativada
-    VAL010S: wP
     VAL011L: Vacina COVID-19, subunidade de proteína, proteína recombinante do 
       espigão (RBD)
-    VAL011S: COVID-PS-rRBD
     VAL012L: Vacina contra a hepatite B, antigénio de superfície recombinante do
       vírus da hepatite B (HBsAg), 40 microgramas (dosagem do doente por 
       diálise)
-    VAL016S: RIG
     VAL017L: Valência acelular contra a coqueluche, dose reduzida
-    VAL012S: rHBsAg-40
     VAL013L: Varicella zoster virus (VZV) glicoproteína de superfície E (gE)
-    VAL013S: Shingles-gE
     VAL014L: Vacina contra a febre tifóide, não especificada
-    VAL014S: Ty
     VAL016L: Imunoglobulina da raiva, não especificada
-    VAL017S: ap
     VAL018L: Vacina contra a varíola de terceira geração, replicando minimamente
       o vírus da vacina viva
-    VAL018S: Pox-3G-LC16
     VAL019L: Difteria antitoxina
-    VAL019S: DATx
-    VAL020S: Shingles-L
     VAL021L: Vacina oral inactivada contra a cólera inteira
-    VAL021S: O-Chol-I
-    VAL022S: Smallpox-L
     VAL024L: Valência vacinal trivalente inativada da gripe, fracionada ou de 
       subunidade, sem especificação
     VAL025L: Vacina contra a malária, não especificada
-    VAL025S: Mala
     VAL026L: Vacina meningocócica B:14:P1.7,16 com proteínas da membrana externa
       da vesícula
-    VAL026S: MenB-OMP
     VAL027L: Vacina COVID-19, adenovírus 26 vector não replicador que codifica a
       proteína do espigão da SRA-CoV-2
-    VAL027S: COVID-VVnr-S-Ad26
-    VAL028S: POX-3G
     VAL029L: Vacina contra a gripe sazonal VLP, não especificada
     VAL032L: Vacina contra o polissacarídeo tifóide, antigénio vi polissacarídeo
       não conjugado
-    VAL029S: Inf-VLP
     VAL030L: Vacina anti-Borrelia burgdorferi recombinante - proteína de 
       superfície externa A (OspA)
-    VAL030S: Lyme-OspA
     VAL031L: Encefalite transmitida por carraças
-    VAL031S: TBE
-    VAL032S: Ty-ViPS
     VAL033L: Vacina oral atenuada monovalente viva contra a poliomielite tipo 2
-    VAL033S: mOPV2
     VAL034L: Difteria toxoídica, dose baixa
-    VAL034S: d
-    VAL035S: COVID-DNA-S
     VAL036L: Vacina VLP não-valente contra o papilomavírus humano, tipos 6, 11, 
       16, 18, 31, 33, 45, 52, 58
     VAL035L: Vacina COVID-19, DNA plasmídeo que codifica a proteína do espigão 
       SRA-CoV-2
-    VAL036S: HPV-09-valent
     VAL037L: Vacina meningocócica A, polissacarídeo não conjugado
-    VAL037S: MPV-A
     VAL038L: Vacina COVID-19, replicando o vector do vírus do sarampo que 
       codifica a proteína do espigão SRA-CoV-2
-    VAL038S: COVID-VVr-S-Meas
     VAL039L: Vacina COVID-19, VLP, proteína de espiga recombinante
     VAL043L: SRA-CoV-2 vacina contra o pico da proteína mRNA 19
-    VAL043S: COVID-mRNA-S
     VAL044L: Varicella
-    VAL044S: VZV-LAV
     VAL045L: Vacina paratifóide total inactivada
-    VAL045S: pTy-I
-    VAL047S: IgHepB
     VAL048L: Inactivada a vacina da papeira inteira
-    VAL048S: Or-I
     VAL049L: Valência vacinal polissacarídica de Haemophilus influenzae tipo b, 
       não conjugada
-    VAL049S: Hib-PS
     VAL050L: Vacina COVID-19, não replicadora do adenovírus 5 que codifica a 
       proteína do pico da SRA-CoV-2, não especificada
-    VAL050S: COVID-VVnr-S-Ad5
     VAL051L: Vacina pré-pandémica contra a gripe A(H5N1)
-    VAL051S: AH5N1
     VAL052L: Vacina quadrivalente VLP do papilomavírus humano, tipos 6, 11, 16 e
       18
-    VAL052S: HPV-04-valent
     VAL053L: Vacina COVID-19, subunidade de proteína, proteína de pico 
       recombinante, não especificada
-    VAL053S: COVID-PS
     VAL054L: Vacina COVID-19, Vaccinia Virus Ankara modificado não replicável 
       codificando a proteína spike SARS-CoV-2
-    VAL054S: COVID-VVnr-S-MVA
     VAL055L: Imunoglobulina do sarampo
-    VAL055S: Ig-Measles
     VAL056L: Vacina trivalente inactivada completa contra a poliomielite para 
       injecção
-    VAL056S: POLIO-I
     VAL057L: Vacina meningocócica C, conjugado de polissacarídeo
-    VAL057S: MCV-C
     VAL058L: Valência vacinal inativada da gripe, fracionada ou de subunidade, 
       sem especificação
     VAL059L: Valência vacinal tetravalente viva atenuada contra a gripe, dose 
       normal
-    VAL060S: CHIK-LA
-    VAL062S: O-Chol-rCTB-I
     VAL063L: Botulinum antitoxina
     VAL065L: 'Vacina contra a dengue quimérica tetravalente atenuada e recombinante
       ao vivo '
-    VAL065S: RC-TDV
     VAL066L: Vacina anti-vírus replicadora 19 anti-covido, vírus influenza que 
       codifica a proteína de pico da SRA-CoV-2
-    VAL066S: COVID-VVr-S-Influ
     VAL067L: Tetanus toxoid
-    VAL067S: T
-    VAL088S: VZV-Ig
     VAL089L: Valência inativada contra a encefalite japonesa, sem especificação
     VAL090L: Vacina contra a hepatite B, antigénio de superfície recombinante do
       vírus da hepatite B (HBsAg), dose não especificada
     VAL068L: Valência vacinal da hepatite B, sem especificação
-    VAL068S: HepB
     VAL069L: Vacina COVID-19, vector adenoviral chimpanzé não replicante ChAdOx1
       que codifica a proteína do espigão SRA-CoV-2
-    VAL069S: COVID-VVnr-S-ChAdOx1
     VAL070L: Vacina COVID-19, vector adenoviral não replicante que codifica a 
       proteína do pico da SRA-CoV-2, não especificada
     VAL073L: Vacina COVID-19, replicando o vector viral, com células que 
       apresentam antigénio
-    VAL073S: COVID-VVr+APC
     VAL074L: Vacina quadrivalente contra a gripe inactivada, fenda ou 
       subunidade, dose alta
     VAL075L: Inactivação da vacina completa contra Leptospira 
       icterohaemorrhagiae
-    VAL075S: Lepto-wI
     VAL076L: Vacina COVID-19, virião inteiro inactivado, não especificada
-    VAL077S: Mumps-LAV
     VAL084L: Vacina COVID-19, replicando o vector do vírus da estomatite 
       vesicular que codifica a proteína do espigão SRA-CoV-2
-    VAL084S: COVID-VVr-S-VSV
     VAL085L: Vacina oral atenuada monovalente viva contra a poliomielite tipo 3
-    VAL085S: mOPV3
     VAL087L: Valência da dengue, viva atenuada tetravalente quimérica 
       recombinante baseada na vacina da febre amarela 17D
-    VAL087S: CYD-TDV
     VAL088L: Varicella imunoglobulina
-    VAL090S: rHBsAg
     VAL091L: Vacina viva atenuada contra a febre tifóide, estirpe Ty21a, oral
-    VAL091S: Ty-LA
     VAL092L: Febre amarela
-    VAL092S: YF
     VAL093L: Vacina inactivada contra o sarampo inteiro
-    VAL093S: Meas-I
     VAL095L: Vacina COVID-19, replicando o vector do vírus da doença de 
       Newcastle que codifica a proteína do espigão SRA-CoV-2
-    VAL095S: COVID-VVr-S-Nv
     VAL096L: Valência BCG
-    VAL096S: BCG
     VAL097L: Difteria toxoídica, dose padrão
-    VAL097S: D
     VAL098L: Vacina meningocócica B de 4 componentes
-    VAL098S: 4CMenB
     VAL099L: 'Valência vacinal inativada da gripe pandémica H1N1 2009 '
-    VAL099S: Inf-pdm09
-    VAL100S: JE-LAV-14-14-2
     VAL101L: Vacina COVID-19, vector não replicante do vírus da doença de 
       Newcastle que codifica a proteína do espigão SRA-CoV-2
-    VAL101S: COVID-VVnr-S-Nv
     VAL102L: Valência vacinal peptídica recombinante da hepatite E
-    VAL110S: T-Ig
-    VAL102S: HepE
     VAL103L: Valência vacinal conjugada de Haemophilus influenzae tipo b, sem 
       especificação
-    VAL103S: Hib-C
     VAL104L: Vacina COVID-19, subunidade de proteína, proteína recombinante do 
       espigão
-    VAL104S: COVID-PS-rS
     VAL105L: Vacina pneumocócica, não especificada
-    VAL105S: Pneumo
     VAL106L: Vacina contra rotavírus, não especificada
-    VAL106S: Rota
     VAL107L: Vacina COVID-19, subunidade de proteína, nanopartículas de proteína
       recombinante de espigão
     VAL108L: Vacina vírica vírica recombinante não replicante ao vivo Ad26.ZEBOV
-    VAL108S: ZebovVRnrAd26
     VAL109L: 'Valência contra o ebola com vetor viral não replicativo, vacina de Ancara
       modificada '
-    VAL109S: Ebola-MVA-BN-Filo
     VAL110L: Imunoglobulina do tétano
     VAL111L: Vacina contra o carbúnculo acelular
-    VAL111S: Bant
     VAL112L: Valência vacinal tetravalente inativada da gripe obtida por cultura
       celular, fracionada ou de subunidade, dose normal
-    VAL116S: RSV-mAb-pal
     VAL113L: Vacina bivalente de papilomavírus humano VLP, tipos 16 e 18
-    VAL113S: HPV-02-valent
     VAL114L: Vacina contra a hepatite B, antigénio de superfície recombinante da
       hepatite B (HBsAg), 10 microgramas
-    VAL114S: rHBsAg-10
     VAL115L: Vacina contra a hepatite B, antigénio de superfície recombinante do
       vírus da hepatite B (HBsAg), 20 microgramas
     VAL116L: Anticorpo monoclonal para RSV, palivizumab
     VAL117L: Vacina de tosse convulsa acelular, dose não especificada
-    VAL117S: Acel
     VAL118L: Vacina meningocócica B, não especificada
-    VAL118S: MenB
     VAL119L: Vacina monovalente não conjugada de polissacarídeo meningocócica
-    VAL119S: MPV-mono
     VAL120L: Polissacarídeo não conjugado meningocócico, polivalente
-    VAL120S: MPV-poly
     VAL124L: Valência colérica viva atenuada, sem especificação
     VAL125L: Valência vacinal inteira inativada da hepatite A, sem especificação
-    VAL125S: HepA-I
-    VAL126S: Ebola
     VAL126L: Valência contra o ebola, sem especificação
     VAL128L: Valência vacinal da gripe, sem especificação
-    VAL128S: Inf
     VAL129L: Valência vacinal do herpes simplex, sem especificação
-    VAL129S: HSV
     VAL130L: Valência vacinal virossômica da hepatite A
-    VAL130S: HepA-VLP
     VAL131L: Vacina contra toda a peste inactivada
-    VAL131S: Yp-I
     VAL132L: Vacina viva atenuada monovalente contra a poliomielite oral tipo 1
-    VAL132S: mOPV1
     VAL133L: Vacina oral monovalente contra a poliomielite atenuada ao vivo, 
       tipo indeterminado
-    VAL133S: mOPV
-    VAL136S: MCV-W
     VAL137L: Vacina meningocócica C, polissacarídeo não conjugado
-    VAL137S: MPV-C
     VAL138L: Vacina Meningocócica W, polissacarídeo não conjugado
-    VAL138S: MPV-W
     VAL139L: Vacina meningocócica Y, polissacarídeo não conjugado
-    VAL139S: MPV-Y
     VAL144L: Valência vacinal inteira inativada da hepatite A, monovalente, dose
       adulta
-    VAL140S: Inf-L
     VAL141L: Vacina contra rotavírus monovalente RIX4414
     VAL143L: Valência vacinal inteira inativada contra a hepatite A, bivalente 
       (hepatites A e B), dose pediátrica
-    VAL144S: HepA-mv-ADU
     VAL145L: Valência vacinal inteira inativada da hepatite A, bivalente 
       (hepatites A e B), dose adulta
-    VAL145S: HepA-bv-ADU
     VAL146L: Valência contra Brucella inteira inativada
-    VAL146S: Bruc-I
     VAL147L: Valência com antígeno proteico P.I. (fenol-insolúvel) contra a 
       brucelose
-    VAL147S: Bruc-IP
     VAL148L: Anticorpo monoclonal do vírus sincítico respiratório
-    VAL148S: RSV-IG
     VAL149L: Vacina COVID-19, codificação do mRNA para a proteína spike 
       SARS-CoV-2, 25 microgramas
-    VAL149S: Covid-mRNA-S-25
     VAL150L: Valência contra a dengue, sem especificação
-    VAL150S: Den
     VAL151L: Vacina contra a tularemia, não especificada
     VAL152L: Vacina contra a gripe virional inactivada, não especificada
-    VAL152S: Inf-I
     VAL153L: Vacina contra Haemophilus influenzae tipo b, polissacarídeo PRP 
       conjugado com difteria toxoídica
-    VAL153S: PRP-D
     VAL154L: Valência vacinal Haemophilus influenzae tipo b, oligossacarídeos de
       PRP conjugados com a toxina diftérica mutante CRM197
-    VAL154S: HbOC
     VAL155L: Vacina Haemophilus influenzae tipo b, polissacarídeo conjugado com 
       proteína da membrana externa da Neisseria meningitidis serogrupo B
-    VAL155S: PRP-OMP
     VAL156L: PRP-T Vacina contra Haemophilus influenzae tipo b, polissacarídeo 
       PRP conjugado com o tétano toxoide
     VAL161L: Vacina Meningocócica B multicomponente, não especificada
     VAL162L: Vacina COVID-19, replicando o vector do vírus, não especificado
-    VAL165S: COVID-live
     VAL167L: Vacina COVID-19, vector viral não replicante, com células que 
       apresentam antigénio
-    VAL167S: COVID-VVnr+APC
     VAL168L: Vacina COVID-19, RNA, não especificada
-    VAL171S: VEE
     VAL175L: Vacina contra a Leishmaniose, não especificada
     VAL172L: Valência contra a febre Q (Coxiella burnetii), sem especificação
-    VAL172S: Cbur
-    VAL173S: Junin-LAV
     VAL174L: Valência vacinal dos hantavírus, sem especificação
-    VAL174S: HAN
-    VAL175S: Leish
     VAL176L: Vacina contra o vírus da parainfluenza humana, não especificada
     VAL178L: COVID-19 vaccine, mRNA coding for SARS-CoV-2 spike protein, Omicron
       variant BA.1, 25 micrograms
     VAL179L: Vacina conjugada meningocócica, monovalente
-    VAL179S: MCV-mono
     VAL180L: Vacina COVID-19, codificação do mRNA para a proteína spike 
       SARS-CoV-2, 100 microgramas
-    VAL180S: COVID-mRNA-S-ORI-100
     VAL181L: Vacina COVID-19, codificação do mRNA para a proteína spike 
       SARS-CoV-2, vírus original SARS-CoV-2, 25 microgramas
-    VAL181S: Covid-mRNA-S-ORI-25
     VAL182L: Vacina contra o sarampo, não especificada
-    VAL182S: Meas
     VAL183L: Vacina contra a papeira, não especificada
-    VAL183S: Mumps
     VAL184L: Vacina conjugada de polissacarídeo de Pneumococcus, monovalente
-    VAL184S: PCV
     VAL185L: Vacina não conjugada de polissacarídeo pneumocócico, não 
       especificada
-    VAL185S: PPSV
     VAL186L: Vacina conjugada de polissacarídeos pneumocócicos, serotipo 1
-    VAL186S: PCV-01
     VAL187L: Vacina conjugada de polissacarídeos pneumocócicos, serotipo 3
-    VAL187S: PCV-03
     VAL188L: Vacina conjugada de polissacarídeos pneumocócicos, serotipo 4
-    VAL188S: PCV-04
     VAL189L: Vacina conjugada de polissacarídeos pneumocócicos, serotipo 5
-    VAL189S: PCV-05
     VAL190L: Vacina conjugada de polissacarídeos pneumocócicos, serotipo 6A
-    VAL190S: PCV-06A
     VAL191L: Vacina conjugada de polissacarídeos pneumocócicos, serotipo 6B
-    VAL191S: PCV-06B
     VAL192L: Vacina conjugada de polissacarídeos pneumocócicos, serotipo 7F
-    VAL192S: PCV-07F
     VAL193L: Vacina conjugada de polissacarídeos pneumocócicos, serotipo 8
-    VAL193S: PCV-08
     VAL194L: Vacina conjugada de polissacarídeos pneumocócicos, serotipo 9V
-    VAL194S: PCV-09V
     VAL195L: Vacina conjugada de polissacarídeos pneumocócicos, serotipo 10A
-    VAL195S: PCV-10A
     VAL196L: Vacina conjugada de polissacarídeos pneumocócicos, serotipo 11A
-    VAL196S: PCV-11A
     VAL197L: Vacina conjugada de polissacarídeos pneumocócicos, serotipo 12F
-    VAL197S: PCV-12F
     VAL198L: Vacina conjugada de polissacarídeos pneumocócicos, serotipo 14
     VAL213L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 8
-    VAL198S: PCV-14
     VAL199L: Vacina conjugada de polissacarídeos pneumocócicos, serotipo 15B
-    VAL199S: PCV-15B
-    VAL213S: PPSV-08
     VAL200L: Vacina conjugada de polissacarídeos pneumocócicos, serotipo 18C
-    VAL200S: PCV-18C
     VAL201L: Vacina conjugada de polissacarídeos pneumocócicos, serotipo 19A
-    VAL201S: PCV-19A
     VAL202L: Vacina conjugada de polissacarídeos pneumocócicos, serotipo 19F
-    VAL202S: PCV-19F
     VAL203L: Vacina conjugada de polissacarídeos pneumocócicos, serotipo 22F
-    VAL203S: PCV-22F
     VAL204L: Vacina conjugada de polissacarídeos pneumocócicos, serotipo 23F
-    VAL204S: PCV-23F
     VAL205L: Vacina conjugada de polissacarídeos pneumocócicos, serotipo 33F
-    VAL205S: PCV-33F
     VAL206L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 1
-    VAL206S: PPSV-01
     VAL207L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 2
-    VAL207S: PPSV-02
     VAL208L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 3
-    VAL208S: PPSV-03
     VAL209L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 4
-    VAL209S: PPSV-04
     VAL210L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 5
     VAL214L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 9N
     VAL215L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 9V
-    VAL215S: PPSV-09V
-    VAL217S: PPSV-11A
     VAL219L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 14
-    VAL219S: PPSV-14
     VAL216L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 10A
-    VAL216S: PPSV-10A
     VAL217L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 11A
     VAL220L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 15B
-    VAL220S: PPSV-15B
     VAL221L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 15F
-    VAL221S: PPSV-15F
     VAL222L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 17F
-    VAL222S: PPSV-17F
     VAL223L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 18C
-    VAL223S: PPSV-18C
     VAL224L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 19A
-    VAL224S: PPSV-19A
     VAL227L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 22F
     VAL225L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 19F
-    VAL225S: PPSV-19F
     VAL226L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 20
-    VAL226S: PPSV-20
-    VAL227S: PPSV-22F
     VAL228L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 23F
-    VAL228S: PPSV-23F
     VAL229L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 33F
-    VAL229S: PPSV-33F
     VAL230L: Valência vacinal tetravalente inativada da gripe, fracionada ou de 
       subunidade, sem especificação
     VAL232L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 6A
-    VAL232S: PPSV-06A
     VAL233L: Vacina não conjugada de polissacarídeo pneumocócico, serotipo 25
-    VAL233S: PPSV-25
     VAL234L: Vacina meningocócica, não especificada
-    VAL236S: HPV-mono
-    VAL234S: Men
     VAL235L: Vacina de polissacarídeo conjugado meningocócico, polivalente
-    VAL235S: MCV-poly
     VAL236L: Vacina contra o papilomavírus humano VLP, monovalente
     VAL237L: Vacina contra o papilomavírus humano VLP, polivalente
-    VAL237S: HPV-poly
     VAL238L: Vacina contra o papilomavírus humano VLP, tipo 6
-    VAL240S: HVP-16
-    VAL238S: HPV-06
     VAL239L: Vacina contra o papilomavírus humano VLP, tipo 11
-    VAL239S: HVP-11
     VAL240L: Vacina contra o papilomavírus humano VLP, tipo 16
     VAL241L: Vacina contra o papilomavírus humano VLP, tipo 18
-    VAL241S: HVP-18
     VAL242L: Vacina contra o papilomavírus humano VLP, tipo 31
-    VAL242S: HVP-31
     VAL243L: Vacina contra o papilomavírus humano VLP, tipo 33
     VAL246L: Vacina contra o papilomavírus humano VLP, tipo 45
-    VAL246S: HVP-45
-    VAL247S: JE-LAR
-    VAL248S: JE-LAV
     VAL249L: Valência contra a encefalite japonesa, sem especificação
-    VAL243S: HPV-33
     VAL244L: Vacina contra o papilomavírus humano VLP, tipo 58
-    VAL244S: HVP-58
     VAL245L: Vacina contra o papilomavírus humano VLP, tipo 52
-    VAL245S: HVP-52
     VAL251L: Valência encefalite japonesa, inativada, derivada de células Vero
-    VAL251S: JE-I-Vero
-    VAL253S: eRIG
     VAL254L: Vacina anti-rábica inactivada de virião inteiro, tipo Semple, 
       preparada a partir de tecido cerebral de cabra ou ovelha infectado com o 
       vírus da raiva, contém mielina
-    VAL254S: Rab-I-Semple
-    VAL265S: COVID-IV-CT
     VAL266L: Vacina Meningocócica C, conjugado do tétano toxoide
     VAL255L: Vacina anti-rábica inactivada de virião inteiro, tipo Fuenzalida, 
       preparada a partir de tecido cerebral de rato em aleitamento infectado com
       o vírus da raiva, diminuiu o conteúdo de mielina
-    VAL255S: Rab-I-Fuenzalida
     VAL256L: Vacina anti-rábica totalmente inactivada, preparada a partir de 
       tecido cerebral animal infectado com o vírus da raiva, não especificada
-    VAL256S: Rab-I-NervousTissue
     VAL261L: Vacina contra a raiva virion total inactivada, baseada em cultura 
       celular, vacina primária contra as células renais de hamster (PHKCV), 
       estirpe de Pequim, inactivação com formalina
     VAL262L: Vacina contra a raiva totalmente inactivada por viriões, vacina 
       baseada em ovos embrionados (EEV), não especificada
-    VAL262S: Rab-I-EEV
     VAL263L: Vacina contra a raiva totalmente inactivada por virião, vacina de 
       embrião de pato purificado (PDEV), inactivação por ß-propiolactona
-    VAL263S: Rab-I-PDEV
     VAL264L: Vacina COVID-19, virião inteiro inactivado
-    VAL264S: COVID-IV-Auth
     VAL265L: Vacina COVID-19, virião inteiro inactivado, em ensaios clínicos
-    VAL266S: MCV-C-T
     VAL267L: Vacina meningocócica C, polissacarídeo conjugado com a difteria 
       toxoide
-    VAL267S: MCV-C-D
-    VAL268S: MCV-C-CRM
     VAL269L: Vacina Meningocócica A, polissacarídeo conjugado com CRM197
     VAL268L: Vacina Meningocócica C, polissacarídeo conjugado com CRM197
-    VAL269S: MCV-A-CRM
     VAL270L: Vacina meningocócica A, polissacarídeo conjugado com a difteria 
       toxoide
-    VAL270S: MCV-A-D
     VAL271L: Vacina meningocócica A, polissacarídeo conjugado com o tétano 
       toxoide
-    VAL271S: MCV-A-T
     VAL272L: Vacina meningocócica W, conjugado do tétano toxoide
-    VAL274S: MCV-W-CRM
     VAL273L: Vacina meningocócica W, polissacarídeo conjugado com a difteria 
       toxoide
-    VAL273S: MCV-W-D
     VAL274L: Vacina Meningocócica W, polissacarídeo conjugado com CRM197
     VAL275L: Vacina meningocócica Y, polissacarídeo conjugado com CRM197
-    VAL275S: MCV-Y-CRM
-    VAL284S: HepA-ADU
     VAL285L: alência vacinal trivalente inativada da gripe obtida por cultura 
       celular, fracionada ou de subunidade, dose normal
-    VAL286S: HepA-LAV
     VAL287L: Valência vacinal tetravalente recombinante contra a gripe
     VAL276L: Vacina meningocócica Y, conjugado do tétano toxoide
-    VAL276S: MCV-Y-T
     VAL277L: Vacina meningocócica Y, polissacarídeo conjugado com a difteria 
       toxoide
-    VAL277S: MCV-Y-D
-    VAL278S: Adeno-LAV
     VAL283L: Valência vacinal inteira inativada da hepatite A, dose pediátrica, 
       sem especificação
-    VAL283S: HepA-PED
     VAL284L: Valência vacinal inteira inativada da hepatite A, dose adulta, sem 
       especificação
     VAL288L: Valência vacinal da hepatite A, sem especificação
-    VAL289S: ' COVID-mRNA-S-ORI-10'
-    VAL288S: HepA
     VAL289L: Vacina COVID-19, codificação do mRNA para a proteína spike 
       SARS-CoV-2, 10 microgramas
     VAL290L: Vacina COVID-19, codificação do mRNA para a proteína spike 
       SARS-CoV-2, 30 microgramas
-    VAL290S: COVID-mRNA-S-ORI-30
     VAL291L: Valência vacinal recombinante da hepatite B, três antígenos (HbS, 
       pre-S1 e pre-S2)
-    VAL291S: HepB-r-3Ag
     VAL292L: Vacina COVID-19, não replicadora do adenovírus 26 vector que 
       codifica a proteína do espigão da SRA-CoV-2, em ensaios clínicos
-    VAL292S: Covid-VVnr-S-Ad26-CT
     VAL293L: Imunoglobulina antrax
-    VAL293S: Anthrax-Ig
     VAL294L: Vírus da vacina viva, vacina de primeira geração
-    VAL294S: Pox-1G
     VAL303L: Vacina anti-covida 19 mRNA que codifica a proteína spike da 
       SRA-CoV-2, o vírus original
-    VAL303S: COVID-mRNA-S-ORI
     VAL304L: SRA-CoV-2, proteína spike mRNA 19 vacina, vírus original, 15 
       microgramas
-    VAL295S: Pox-2G
     VAL296L: Vaccinia Ankara modificada, não replicável, vacina de terceira 
       geração
-    VAL296S: Pox-3G-MVA
     VAL302L: Vacina COVID-19, codificação do mRNA para a proteína spike 
       SARS-CoV-2, 50 microgramas
-    VAL304S: Covid-ARNm-S-ORI-15
-    VAL305S: Covid-ARNm-S-OMI-BA.1-15
     VAL305L: SRA-CoV-2 vacina pico da proteína mRNA 19, variante Omicron BA.1, 
       15 microgramas
     VAL306L: Vaccin contre l'épi de protéine 19 de l'ARNm du SRAS-CoV-2, virus 
       original, 3 microgrammes
-    VAL306S: COVID-mRNA-S-ORI-3
-    VAL309S: Covid-ARNm-S-OMI-BA.4/5-5
     VAL310L: Vacina COVID-19, mRNA que codifica a proteína spike SARS-CoV-2, 
       vírus original, 5 microgramas
     VAL307L: SRA-CoV-2 vacina pico da proteína mRNA 19, variante Omicron 
       BA.4/BA.5, 15 microgramas
-    VAL307S: COVID-mRNA-S-OMI-BA.4/5-15
     VAL308L: SRA-CoV-2, vacina mRNA 19, variante Omicron BA.4/BA.5, 25 
       microgramas
-    VAL308S: COVID-mRNA-S-OMI-BA.4/5-25
     VAL309L: SRA-CoV-2 vacina pico da proteína mRNA 19, variante Omicron 
       BA.4/BA.5, 5 microgramas
-    VAL310S: Covid-mRNA-S-ORI-5
-    VAL311S: R21/Matrix-M
-    VAL312S: TBE-K23
-    VAL314S: TBE-Neudorfl-ADU
-    VAL315S: TBE-Neudorfl-PED
-    VAL313S: TBE-Neudorfl
-    VAL316S: RSV-PreF3
-    VAL317S: RSV-Ab
     VAL318L: Vacina contra o VSR, não especificada
-    VAL318S: RSV-V
-    VAL321S: VRS-mAb-nir
-    VAL322S: RSV-PreFAB
-    VAL326S: COVID-mRNA-S-OMI-BA.4/5-1.5
-    VAL327S: COVID-mRNA-S-ORI-1.5
-    VAL329S: Covid-ARNm-S-OMI-XBB.1.5-50
     VAL336L: Valência vacinal da febre do Vale do Rift, sem especificação
-    VAL336S: FVR
-    VAL337S: Varíola-Ig
     VAL338L: Anticorpo ou vacina contra RSV, não especificado
-    VAL338S: RSV
-    VAL344S: Pvu
-    VAL345S: UTI
     VAL359L: Valência colérica inteira inativada, sem especificação
-    VAL383S: mRSV
-    VAL384S: LEP
-    VAL386S: AH5
-    VAL392S: AH5N1-RNA
-    VAL411S: COVID-mRNA-S-OMI-BA.4/5-50
-    VAL412S: Covid-ARNm-S-OMI-BA.1-50
-    VAL413S: Covid-SP-rRBD-XBB.1.16
     VAL414L: Valência diftérica
-    VAL415S: BantAdj
     VAL360L: Valência vacinal inativada da gripe obtida por cultura celular, 
       fracionada ou de subunidade, dose normal, sem especificação
     VAL361L: Valência vacinal recombinante da gripe, sem especificação

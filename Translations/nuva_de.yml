@@ -538,251 +538,137 @@ de:
     VAC1311L: Meningococcal ACWXY conjugate vaccine, unspecified
     VAC1341L: SPIKEVAX BA.4-5 0,1 mg/mL dose 50 µg
   valence:
-    VAL001S: Inf-L3
-    VAL008S: aP
-    VAL011S: COVID-PS-rRBD
     VAL012L: Hepatitis-B-Impfstoff, rekombinantes 
       Hepatitis-B-Virus-Oberflächenantigen (HBsAg), 40 Mikrogramm (Dosierung für
       Dialysepatienten)
-    VAL012S: rHBsAg-40
-    VAL013S: Shingles-gE
     VAL016L: Tollwut-Immunglobulin, nicht spezifiziert
-    VAL016S: RIG
     VAL017L: Azelluläre Pertussis-Valenz, reduzierte Dosis
-    VAL017S: ap
     VAL026L: Meningokokken-Impfstoff B:14:P1.7,16 mit Vesikelproteinen der 
       äußeren Membran
-    VAL026S: MenB-OMP
     VAL027L: COVID-19-Impfstoff, nicht-replizierender Adenovirus-26-Vektor, der 
       für das SARS-CoV-2-Spike-Protein kodiert
-    VAL027S: COVID-VVnr-S-Ad26
-    VAL028S: POX-3G
     VAL029L: VLP-Impfstoff gegen saisonale Grippe, nicht spezifiziert
-    VAL029S: Inf-VLP
     VAL030L: Rekombinanter Impfstoff gegen Borrelia burgdorferi - Protein der 
       äußeren Oberfläche A (OspA)
-    VAL030S: Lyme-OspA
     VAL031L: Zeckenenzephalitis
-    VAL031S: TBE
     VAL032L: Typhus-Polysaccharid-Impfstoff, nicht konjugiertes 
       Vi-Polysaccharid-Antigen
     VAL033L: Monovalenter oraler attenuierter Lebendimpfstoff gegen 
       Poliomyelitis Typ 2
-    VAL033S: mOPV2
     VAL034L: Diphtherie-Toxoid, niedrige Dosis
-    VAL035S: COVID-DNA-S
     VAL036L: Humaner Papillomavirus-VLP-Impfstoff, nicht-avalent, Typen 6, 11, 
       16, 18, 31, 33, 45, 52, 58
-    VAL036S: HPV-09-valent
     VAL037L: Meningokokken-Impfstoff A, nicht konjugiertes Polyosid
-    VAL037S: MPV-A
     VAL038L: COVID-19-Impfstoff, replizierender Masernvirus-Vektor, der für das 
       SARS-CoV-2-Spike-Protein kodiert
-    VAL038S: COVID-VVr-S-Meas
-    VAL039S: COVID-VLP-rS
-    VAL043S: COVID-mRNA-S
     VAL044L: Varizellen
-    VAL044S: VZV-LAV
     VAL045L: Inaktivierter Paratyphus-Vollimpfstoff
-    VAL045S: pTy-I
     VAL046L: Typhus
-    VAL046S: Typhus
     VAL047L: Immunoglobulin gegen Hepatitis B
-    VAL047S: IgHepB
     VAL048L: Inaktivierter ganzer Impfstoff gegen Mumps
-    VAL048S: Or-I
     VAL049L: Polysaccharid-Haemophilus-influenzae-Typ-b-Valenz, nicht konjugiert
-    VAL049S: Hib-PS
-    VAL070S: COVID-VVnr-S-Ad
     VAL071L: Inaktivierter Typhus-Ganzkeimimpfstoff
-    VAL071S: Ty-I
     VAL072L: Meningokokken-B-Impfstoff, der fHbp der Unterfamilien A und B 
       enthält
-    VAL072S: MenB-fHbpAB
     VAL073L: COVID-19-Impfstoff, replizierender viraler Vektor, mit 
       antigenpräsentierenden Zellen
-    VAL073S: COVID-VVr+APC
     VAL074L: Vierwertiger inaktivierter Influenza-Impfstoff, Split oder Subunit,
       hochdosiert
     VAL075L: Inaktivierter Ganzkörperimpfstoff gegen Leptospira 
       icterohaemorrhagiae
-    VAL075S: Lepto-wI
-    VAL077S: Mumps-LAV
     VAL078L: Meningokokken-Impfstoff Y, konjugiertes Polyosid
-    VAL078S: MCV-Y
-    VAL079S: Rub-LAV
     VAL080L: Inaktivierter Vollvirus-Tollwutimpfstoff, nicht spezifiziert
-    VAL081S: Chol
     VAL082L: Humaner Papillomavirus-Impfstoff, nicht spezifizierte Typen
-    VAL082S: HPV
     VAL083L: Diphtherietoxoid, Dosis nicht spezifiziert
-    VAL083S: D-d
     VAL084L: COVID-19-Impfstoff, replizierender Vesikuläre 
       Stomatitis-Virus-Vektor, der für das SARS-CoV-2-Spike-Protein kodiert
     VAL092L: Gelbfieber
-    VAL092S: YF
-    VAL096S: BCG
     VAL097L: Diphtherie-Toxoid, Standarddosis
-    VAL097S: D
     VAL098L: Meningokokken-B-Impfstoff mit 4 Komponenten
-    VAL098S: 4CMenB
-    VAL099S: Inf-pdm09
     VAL106L: Rotavirus-Impfstoff, nicht spezifiziert
-    VAL106S: Rota
     VAL110L: Tetanus-Immunglobuline
-    VAL110S: T-Ig
     VAL111L: azelluläre Valenz gegen Milzbrand
-    VAL111S: Bant
     VAL112L: Quadrivalente inaktivierte Influenza-Valenz aus Zellkultur, spalt- 
       oder untereinheitlich, normale Dosis
     VAL113L: Bivalenter humaner Papillomavirus-VLP-Impfstoff, Typen 16 und 18
-    VAL113S: HPV-02-valent
     VAL114L: Hepatitis-B-Impfstoff, rekombinantes Oberflächenantigen des 
       Hepatitis-B-Virus (HBsAg), 10 Mikrogramm
-    VAL114S: rHBsAg-10
-    VAL123S: Rota5-L
     VAL124L: Lebend-attenuierte Cholera-Valenz, ohne Spezifikation
-    VAL124S: Chol-L
     VAL125L: Ganze inaktivierte Hepatitis-A-Valenz, ohne Spezifikation
-    VAL143S: HepA-bv-PED
-    VAL144S: HepA-mv-ADU
-    VAL148S: RSV-IG
     VAL150L: Dengue-Valenz, ohne Spezifikation
-    VAL150S: Den
     VAL151L: Tularämie-Impfstoff, nicht spezifiziert
     VAL154L: Haemophilus influenzae Typ b-Valenz, PRP-Oligoside konjugiert mit 
       mutiertem Diphtherietoxin CRM197
-    VAL154S: HbOC
     VAL155L: Impfstoff gegen Haemophilus influenzae Typ b, Polysaccharid, 
       konjugiert mit dem äußeren Membranprotein von Neisseria meningitidis 
       Serogruppe B
-    VAL155S: PRP-OMP
     VAL156L: PRP-T Haemophilus influenzae Typ b-Impfstoff, Polysaccharid PRP 
       konjugiert mit Tetanustoxoid
-    VAL156S: PRP-T
-    VAL158S: pHBsAg
     VAL159L: Subunit-Impfstoff gegen Gürtelrose, nicht spezifiziert
-    VAL159S: Shingles-SU
     VAL160L: Gürtelrose-Impfstoff, nicht spezifiziert
-    VAL160S: Shingles
     VAL161L: Multikomponenten-Impfstoff gegen Meningokokken B, ohne nähere 
       Angaben
-    VAL161S: MenB-mc
-    VAL235S: MCV-poly
     VAL236L: Humaner Papillomavirus-VLP-Impfstoff, monovalent
-    VAL236S: HPV-mono
     VAL237L: Humaner Papillomavirus-VLP-Impfstoff, polyvalent
-    VAL237S: HPV-poly
     VAL238L: Humaner Papillomavirus-VLP-Impfstoff, Typ 6
-    VAL238S: HPV-06
     VAL239L: Humaner Papillomavirus-VLP-Impfstoff, Typ 11
-    VAL239S: HVP-11
     VAL240L: Humaner Papillomavirus-VLP-Impfstoff, Typ 16
-    VAL240S: HVP-16
     VAL241L: Humaner Papillomavirus-VLP-Impfstoff, Typ 18
-    VAL241S: HVP-18
     VAL242L: Humaner Papillomavirus-VLP-Impfstoff, Typ 31
-    VAL242S: HVP-31
     VAL243L: Humaner Papillomavirus-VLP-Impfstoff, Typ 33
-    VAL243S: HPV-33
     VAL244L: Humaner Papillomavirus-VLP-Impfstoff, Typ 58
-    VAL244S: HVP-58
-    VAL269S: MCV-A-CRM
     VAL270L: Vaccin méningococcique A, polyoside conjugué à l'anatoxine 
       diphtérique
-    VAL270S: MCV-A-D
     VAL271L: Meningokokken-Impfstoff A, Polyosid konjugiert mit Tetanustoxoid
-    VAL271S: MCV-A-T
     VAL272L: Meningokokken-Impfstoff W, Polyosid konjugiert mit Tetanustoxoid
-    VAL272S: MCV-W-T
     VAL273L: Meningokokken-Impfstoff W, Polyosid konjugiert mit Diphtherietoxoid
-    VAL273S: MCV-W-D
     VAL274L: Meningokokken-Impfstoff W, Polyosid konjugiert mit dem Protein 
       CRM197
-    VAL274S: MCV-W-CRM
     VAL275L: Meningokokken-Impfstoff Y, Polyosid konjugiert mit dem Protein 
       CRM197
     VAL302L: COVID-19-Impfstoff, mRNA, die für das SARS-CoV-2-Spike-Protein 
       kodiert, 50 Mikrogramm
-    VAL302S: Covid-mRNA-S-50
-    VAL304S: Covid-ARNm-S-ORI-15
     VAL305L: Anti-Covid-19-mRNA-Impfstoff, der für das SARS-CoV-2-Spitzenprotein
       kodiert, Variante Omicron BA.1, 15 Mikrogramm
-    VAL305S: Covid-ARNm-S-OMI-BA.1-15
     VAL306L: Anti-Covid-19-mRNA-Impfstoff, der das Spitzenprotein von SARS-CoV-2
       kodiert, Originalvirus, 3 Mikrogramm
     VAL307L: Anti-Kovid-19-mRNA-Impfstoff, der für das SARS-CoV-2-Spitzenprotein
       kodiert, Variante Omicron BA.4/BA.5, 15 Mikrogramm
-    VAL307S: Covid-ARNm-S-OMI-BA.4/5-15
     VAL308L: Anti-Kovid-19-mRNA-Impfstoff, der für das SARS-CoV-2-Spitzenprotein
       kodiert, Variante Omicron BA.4/BA.5, 25 Mikrogramm
-    VAL315S: TBE-Neudorfl-PED
-    VAL316S: RSV-PreF3
     VAL317L: Antikörper gegen RSV, nicht näher bezeichnet
-    VAL317S: RSV-Ab
     VAL318L: RSV-Impfstoff, nicht spezifiziert
-    VAL318S: RSV-V
     VAL319L: COVID-19-Impfstoff, nicht-replizierender adenoviraler Vektor, der 
       für das SARS-CoV-2-Spike-Protein kodiert, Inhalationsimpfstoff, nicht 
       spezifiziert
-    VAL321S: VRS-mAb-nir
-    VAL322S: RSV-PreFAB
     VAL326L: mRNA-kodierender SARS-CoV-2-Spitzenprotein-Anti-Covid-19-Impfstoff,
       Omicron-Variante BA.4/BA.5, 1,5 Mikrogramm
-    VAL326S: COVID-mRNA-S-OMI-BA.4/5-1.5
     VAL327L: Anti-Covid-19-mRNA-Impfstoff, der das Spitzenprotein des 
       ursprünglichen SARS-CoV-2-Virus kodiert, 1,5 Mikrogramm
-    VAL327S: COVID-mRNA-S-ORI-1.5
     VAL331L: CMV immune globulin
-    VAL331S: CMV-Ig
     VAL332L: Hepatitis-C-Valenz, ohne Spezifikation
     VAL336L: Rift-Valley-Fieber-Valenz, ohne Spezifikation
-    VAL336S: RVF
-    VAL337S: Pocken-Ig
     VAL338L: RSV-Antikörper oder Impfstoff, nicht näher bezeichnet
-    VAL338S: RSV
     VAL383L: Single-stranded 5' capped mRNA encoding the Respiratory syncytial 
       virus glycoprotein F stabilized in the prefusion conformation
-    VAL383S: mRSV
-    VAL384S: LEP
     VAL389L: Wirksamkeit gegen Pseudomonas aeruginosa, 7 Immuntypen
-    VAL389S: PAER7
     VAL391L: Chikungunya VLP-Wertigkeit
-    VAL391S: Chik-VLP
-    VAL392S: AH5N1-RNA
-    VAL411S: COVID-mRNA-S-OMI-BA.4/5-50
-    VAL412S: Covid-ARNm-S-OMI-BA.1-50
-    VAL413S: Covid-SP-rRBD-XBB.1.16
     VAL001L: Trivalente lebend-attenuierte Influenza-Valenz, normale Dosis
     VAL002L: Konjugierter Typhus-Impfstoff, Vi-Polysaccharid-Antigen, gebunden 
       an ein Trägerprotein
-    VAL002S: Ty-ViC
     VAL003L: Pertussis-Valenz, ohne Spezifikation
-    VAL003S: Per
     VAL004L: Ganze inaktivierte Cholera-Valenz, injizierbar
-    VAL004S: I-Chol-I
-    VAL005S: Meas-LAV
     VAL006L: Anti-Brucella-Valenz, ohne Spezifikation
-    VAL006S: Bruc
-    VAL007S: rVSVdG-ZEBOV-GP
     VAL008L: Azelluläre Pertussis-Valenz, Standarddosis
     VAL007L: Replikativer Vektor-Ebola-Impfstoff rekombinantes vesikuläres 
       Stomatitisvirus (rVSV) - Glykoprotein GP von EBOV
     VAL009L: Impfstoffe mit Sporozoiten-Oberflächenprotein
-    VAL009S: Mala-SPO
     VAL010L: Valenz gegen ganze inaktivierte Pertussis
-    VAL010S: wP
     VAL014L: Typhusimpfstoff, nicht spezifiziert
-    VAL014S: Ty
     VAL018L: Pockenimpfstoff der dritten Generation, minimal replizierendes 
       Lebendvacciniavirus
-    VAL018S: Pox-3G-LC16
     VAL019L: Diphtherie-Antitoxin
-    VAL019S: DATx
-    VAL020S: Shingles-L
     VAL021L: Inaktivierter ganzer oraler Cholera-Impfstoff
-    VAL021S: O-Chol-I
-    VAL022S: Smallpox-L
     VAL011L: COVID-19-Impfstoff, Proteinuntereinheit, rekombinantes 
       Spike-Protein (RBD)
     VAL013L: Glykoprotein E (gE) auf der Oberfläche des Varizella-Zoster-Virus 
@@ -790,487 +676,282 @@ de:
     VAL024L: Trivalente inaktivierte Influenza-Valenz, Spalt- oder Untereinheit,
       ohne Spezifikation
     VAL025L: Malaria-Impfstoff, nicht spezifiziert
-    VAL025S: Mala
-    VAL032S: Ty-ViPS
-    VAL034S: d
     VAL035L: COVID-19-Impfstoff, Plasmid-DNA, die für das 
       SARS-CoV-2-Spike-Protein kodiert
     VAL039L: COVID-19-Impfstoff, VLP, rekombinantes Spike-Protein
     VAL041L: Meningokokken-Impfstoff A, Polyosid-Konjugat
-    VAL041S: MCV-A
     VAL042L: Polio-Impfstoff, nicht spezifiziert
-    VAL042S: POLIO
     VAL043L: Anti-Covid-19-Impfstoff mit mRNA, die das Spitzenprotein von 
       SARS-CoV-2 kodiert
     VAL050L: COVID-19-Impfstoff, nicht-replizierender Adenovirus-5-Vektor, der 
       für das SARS-CoV-2-Spike-Protein kodiert, nicht spezifiziert
-    VAL050S: COVID-VVnr-S-Ad5
     VAL051L: Präpandemischer Impfstoff gegen Influenza A(H5N1)
-    VAL051S: AH5N1
     VAL052L: Vierfach-Impfstoff gegen humane Papillomaviren VLP, Typen 6, 11, 16
       und 18
-    VAL052S: HPV-04-valent
     VAL053L: COVID-19-Impfstoff, Proteinuntereinheit, rekombinantes 
       Spike-Protein, nicht spezifiziert
-    VAL053S: COVID-PS
     VAL054L: COVID-19-Impfstoff, nicht-replizierender modifizierter 
       Vaccinia-Virus-Ankara-Vektor, der für das SARS-CoV-2-Spike-Protein kodiert
-    VAL054S: COVID-VVnr-S-MVA
     VAL055L: Immunoglobulin gegen Masern
-    VAL055S: Ig-Measles
     VAL056L: Inaktivierter dreiwertiger Polio-Ganzkörperimpfstoff zur Injektion
-    VAL056S: POLIO-I
     VAL057L: Meningokokken-Impfstoff C, Polyosid-Konjugat
-    VAL057S: MCV-C
     VAL058L: Inaktivierte Influenza-Valenz, Spalt- oder Untereinheit, ohne 
       Spezifikation
     VAL059L: Quadrivalente lebend-attenuierte Influenza-Valenz, normale Dosis
-    VAL060S: CHIK-LA
     VAL061L: COVID-19-Impfstoff, Proteinuntereinheit, rekombinantes 
       Spike-Protein, S-2P und CpG1018
-    VAL061S: COVID-PS-CpG1018
     VAL065L: 'Abgeschwächter, rekombinanter, chimärer, tetravalenter Dengue-Lebendimpfstoff '
-    VAL065S: RC-TDV
     VAL066L: Anti-Kovid-19-Impfstoff mit replikativem viralem Vektor, 
       Influenzavirus, das für das SARS-CoV-2-Spitzenprotein kodiert.
-    VAL066S: COVID-VVr-S-Influ
-    VAL062S: O-Chol-rCTB-I
     VAL063L: Botulinum-Antitoxin
-    VAL063S: BAT
     VAL067L: Tetanus-Toxoid
-    VAL067S: T
     VAL068L: Hepatitis-B-Valenz, ohne Spezifikation
     VAL070L: COVID-19-Impfstoff, nicht-replizierender adenoviraler Vektor, der 
       für das SARS-CoV-2-Spike-Protein kodiert, nicht spezifiziert
     VAL076L: COVID-19-Impfstoff, inaktiviertes Vollvirus, nicht spezifiziert
-    VAL080S: Rab-I
-    VAL068S: HepB
     VAL069L: COVID-19-Impfstoff, nicht replizierender 
       Schimpansen-Adenovirusvektor ChAdOx1, der für das SARS-CoV-2-Spike-Protein
       kodiert
-    VAL069S: COVID-VVnr-S-ChAdOx1
     VAL081L: Cholera-Valenz, ohne Spezifikation
-    VAL084S: COVID-VVr-S-VSV
     VAL085L: Monovalenter oraler attenuierter Lebendimpfstoff gegen 
       Poliomyelitis Typ 3
-    VAL085S: mOPV3
     VAL086L: COVID-19-Impfstoff, abgeschwächter Lebendimpfstoff, nicht 
       spezifiziert
-    VAL086S: COVID-LA
-    VAL087S: CYD-TDV
     VAL088L: Immunoglobuline gegen das Varizellenvirus
-    VAL088S: VZV-Ig
     VAL089L: Inaktivierte Japanische-Enzephalitis-Valenz, ohne Spezifikation
-    VAL089S: JE-I
     VAL090L: Hepatitis-B-Impfstoff, rekombinantes 
       Hepatitis-B-Virus-Oberflächenantigen (HBsAg), Dosis nicht spezifiziert
-    VAL090S: rHBsAg
     VAL091L: Attenuierter Typhus-Lebendimpfstoff, Stamm Ty21a, zum Einnehmen
-    VAL091S: Ty-LA
     VAL093L: Inaktivierter Masern-Ganzkeimimpfstoff
-    VAL093S: Meas-I
     VAL095L: COVID-19-Impfstoff, replizierender Newcastle-Disease-Virus-Vektor, 
       der für das SARS-CoV-2-Spike-Protein kodiert
-    VAL095S: COVID-VVr-S-Nv
     VAL096L: BCG-Valenz
     VAL099L: 'Inaktivierte pandemische Influenza-H1N1-2009-Valenz '
     VAL087L: Dengue-Valenz, lebend-attenuierte tetravalente chimäre 
       rekombinante, basierend auf dem Gelbfieber-17D-Impfstoff
-    VAL100S: JE-LAV-14-14-2
     VAL101L: COVID-19-Impfstoff, nicht replizierender 
       Newcastle-Disease-Virus-Vektor, der für das SARS-CoV-2-Spike-Protein 
       kodiert
-    VAL101S: COVID-VVnr-S-Nv
     VAL102L: Rekombinante peptidische Hepatitis-E-Valenz
-    VAL102S: HepE
     VAL103L: Konjugierte Haemophilus-influenzae-Typ-b-Valenz, ohne Spezifikation
-    VAL103S: Hib-C
     VAL104L: COVID-19-Impfstoff, Proteinuntereinheit, rekombinantes 
       Spike-Protein
-    VAL104S: COVID-PS-rS
     VAL105L: Pneumokokken-Impfstoff, nicht spezifiziert
-    VAL105S: Pneumo
     VAL107L: COVID-19-Impfstoff, Protein-Untereinheit, rekombinante 
       Spike-Protein-Nanopartikel
     VAL108L: Rekombinanter, nicht replizierender, lebender, viraler 
       Vektorimpfstoff Ad26.ZEBOV
-    VAL108S: ZebovVRnrAd26
     VAL109L: 'Ebola-Valenz mit nicht-replikativem viralen Vektor, modifizierter Ankara-Impfstoff '
-    VAL109S: Ebola-MVA-BN-Filo
     VAL115L: Hepatitis-B-Impfstoff, rekombinantes 
       Hepatitis-B-Virus-Oberflächenantigen (HBsAg), 20 Mikrogramm
     VAL116L: Monoklonaler Antikörper gegen RSV, palivizumab
-    VAL116S: RSV-mAb-pal
-    VAL118S: MenB
     VAL119L: Monovalenter, polyosider, nicht konjugierter 
       Meningokokken-Impfstoff
-    VAL119S: MPV-mono
     VAL120L: Meningokokken, nicht konjugiertes Polysaccharid, polyvalent
     VAL117L: Impfstoff gegen azelluläre Pertussis, Dosis nicht spezifiziert
-    VAL117S: Acel
     VAL118L: Meningokokken-B-Impfstoff, nicht spezifiziert
-    VAL120S: MPV-poly
     VAL121L: Inaktivierter dreiwertiger oraler Polio-Ganzkörperimpfstoff
-    VAL121S: POLIO-I-O
-    VAL125S: HepA-I
     VAL126L: Ebola-Valenz, ohne Spezifikation
-    VAL126S: Ebola
     VAL128L: Influenza-Valenz, ohne Spezifikation
-    VAL128S: Inf
     VAL129L: Herpes-Simplex-Valenz, ohne Spezifikation
     VAL130L: Hepatitis-A-Virosom-Valenz
-    VAL130S: HepA-VLP
     VAL131L: Inaktivierter ganzer Impfstoff gegen die Pest
-    VAL131S: Yp-I
     VAL132L: Poliomyelitische Lebendvalenz abgeschwächt oral einwertig Typ 1
-    VAL132S: mOPV1
-    VAL129S: HSV
     VAL133L: Attenuierter monovalenter oraler Polio-Lebendimpfstoff, Typ nicht 
       spezifiziert
-    VAL133S: mOPV
-    VAL135S: Covid-ARNm-S-CT
     VAL136L: Meningokokken-Impfstoff W, Polyosid-Konjugat
-    VAL136S: MCV-W
     VAL137L: Meningokokken-Impfstoff C, nicht konjugiertes Polyosid
-    VAL137S: MPV-C
     VAL138L: Inaktivierter Ganzvirus-Impfstoff gegen Covid 19
-    VAL138S: MPV-W
     VAL139L: Meningokokken-Impfstoff Y, nicht konjugiertes Polyosid
-    VAL139S: MPV-Y
-    VAL140S: Inf-L
     VAL141L: Monovalenter Impfstoff RIX4414 gegen Rotavirus
-    VAL141S: Rota-mv-RIX4414
     VAL142L: Ganze inaktivierte Hepatitis-A-Valenz, monovalent, pädiatrische 
       Dosis
-    VAL142S: HepA-mv-PED
     VAL143L: Ganze inaktivierte Hepatitis-A-Valenz, bivalent (Hepatitis A und 
       B), pädiatrische Dosis
     VAL144L: Ganze inaktivierte Hepatitis-A-Valenz, monovalent, Erwachsenendosis
     VAL145L: Ganze inaktivierte Hepatitis-A-Valenz, bivalent (Hepatitis A und 
       B), Erwachsenendosis
-    VAL145S: HepA-bv-ADU
     VAL146L: Valenz gegen ganze inaktivierte Brucella
-    VAL146S: Bruc-I
     VAL149L: COVID-19-Impfstoff, mRNA kodierend für SARS-CoV-2-Spike-Protein, 25
       Mikrogramm
-    VAL149S: Covid-mRNA-S-25
     VAL147L: Valenz mit Proteinantigen P.I. (phenolunlöslich) gegen Brucellose
-    VAL147S: Bruc-IP
     VAL148L: Monoklonaler Antikörper gegen das Respiratorische Synzytialvirus
-    VAL151S: Tular
     VAL152L: Ganze inaktivierte Influenza-Valenz, ohne Spezifikation
-    VAL152S: Inf-I
     VAL153L: Impfstoff gegen Haemophilus influenzae Typ b, Polysaccharid PRP, 
       konjugiert mit Diphtherietoxoid
-    VAL153S: PRP-D
     VAL157L: COVID-19-Impfstoff, nicht spezifiziert
-    VAL157S: COVID
     VAL158L: Plasma-Impfstoff gegen Hepatitis B
     VAL162L: COVID-19-Impfstoff, replizierender Virusvektor, nicht spezifiziert
-    VAL162S: COVID-VVr
     VAL163L: COVID-19-Impfstoff, nicht-replizierender viraler Vektor, nicht 
       spezifiziert
-    VAL163S: COVID-VVnr
     VAL164L: COVID-19-Impfstoff, nicht lebend, nicht spezifiziert
-    VAL164S: COVID-non-live
     VAL165L: Levend vaccin tegen covidae 19, niet gespecificeerd
-    VAL165S: COVID-live
     VAL167L: COVID-19-Impfstoff, nicht replizierender viraler Vektor, mit 
       antigenpräsentierenden Zellen
-    VAL167S: COVID-VVnr+APC
     VAL168L: COVID-19-Impfstoff, RNA, nicht spezifiziert
-    VAL168S: COVID-RNA
     VAL169L: Zelfversterkend mRNA-vaccin (AAA) voor vaccin 19
-    VAL169S: COVID-mRNA-SAM
     VAL170L: Hepatitis-B-Impfstoff, rekombinantes 
       Hepatitis-B-Virus-Oberflächenantigen (HBsAg), 5 Mikrogramm
-    VAL170S: rHepB-05
     VAL171L: Impfstoff gegen venezolanische Pferdeenzephalitis, nicht 
       spezifiziert
-    VAL171S: VEE
     VAL172L: Valenz gegen Q-Fieber (Coxiella burnetii), ohne Spezifikation
-    VAL172S: Cbur
-    VAL173S: Junin-LAV
     VAL174L: Hantavirus-Valenz, ohne Spezifikation
-    VAL174S: HAN
     VAL175L: Leishmaniose-Impfstoff, nicht spezifiziert
-    VAL175S: Leish
     VAL176L: Impfstoff gegen humane Parainfluenzaviren, nicht spezifiziert
-    VAL176S: HPIVs
     VAL177L: Haemophilus-influenzae-Typ-b-Valenz, ohne Spezifikation
-    VAL178S: Covid-mRNA-S-OMI-25
     VAL179L: Meningokokken-Konjugatimpfstoff, monovalent
-    VAL177S: Hib
     VAL178L: COVID-19-Impfstoff, mRNA, die für das SARS-CoV-2-Spike-Protein 
       kodiert, Omicron-Variante, 25 Mikrogramm
-    VAL179S: MCV-mono
     VAL180L: COVID-19-Impfstoff, mRNA, die für das SARS-CoV-2-Spike-Protein 
       kodiert, 100 Mikrogramm
-    VAL183S: Mumps
     VAL184L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, monovalent
-    VAL184S: PCV
     VAL185L: Pneumokokken-Polysaccharid-Impfstoff, nicht konjugiert, nicht 
       spezifiziert
-    VAL185S: PPSV
     VAL186L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 1
-    VAL180S: Covid-mRNA-S-100
     VAL181L: COVID-19-Impfstoff, mRNA, die für das Spike-Protein von SARS-CoV-2 
       kodiert, Original-SARS-CoV-2-Virus, 25 Mikrogramm
-    VAL181S: Covid-mRNA-S-ORI-25
     VAL182L: Masern-Impfstoff, nicht näher bezeichnet
-    VAL182S: Meas
-    VAL186S: PCV-01
     VAL183L: Mumps-Impfstoff, nicht spezifiziert
     VAL187L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 3
-    VAL187S: PCV-03
     VAL188L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 4
-    VAL188S: PCV-04
     VAL189L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 5
-    VAL189S: PCV-05
     VAL190L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 6A
     VAL199L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 15B
-    VAL190S: PCV-06A
     VAL191L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 6B
-    VAL191S: PCV-06B
     VAL192L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 7F
-    VAL192S: PCV-07F
     VAL193L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 8
-    VAL193S: PCV-08
     VAL194L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 9V
-    VAL194S: PCV-09V
     VAL195L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 10A
-    VAL195S: PCV-10A
     VAL196L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 11A
-    VAL196S: PCV-11A
     VAL197L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 12F
-    VAL197S: PCV-12F
     VAL198L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 14
-    VAL198S: PCV-14
-    VAL199S: PCV-15B
     VAL200L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 18C
-    VAL200S: PCV-18C
     VAL201L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 19A
-    VAL201S: PCV-19A
     VAL202L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 19F
-    VAL202S: PCV-19F
     VAL203L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 22F
-    VAL203S: PCV-22F
     VAL204L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 23F
-    VAL204S: PCV-23F
     VAL205L: Pneumokokken-Polysaccharid-Konjugatimpfstoff, Serotyp 33F
-    VAL205S: PCV-33F
     VAL206L: Pneumokokken-Polysaccharid-Impfstoff, nicht konjugiert, Serotyp 1
-    VAL206S: PPSV-01
     VAL207L: Pneumokokken-Polysaccharid-Impfstoff, nicht konjugiert, Serotyp 2
-    VAL207S: PPSV-02
     VAL208L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 3
-    VAL208S: PPSV-03
     VAL209L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 4
-    VAL209S: PPSV-04
     VAL210L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 5
-    VAL210S: PPSV-05
     VAL211L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 6B
-    VAL211S: PPSV-06B
     VAL212L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 7F
-    VAL212S: PPSV-07F
     VAL213L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 8
-    VAL213S: PPSV-08
     VAL214L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 9N
-    VAL214S: PPSV-09N
     VAL215L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 9V
-    VAL215S: PPSV-09V
     VAL216L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 10A
-    VAL216S: PPSV-10A
     VAL217L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 11A
-    VAL217S: PPSV-11A
-    VAL219S: PPSV-14
     VAL218L: Pneumokokken-Polysaccharid-Impfstoff, nicht konjugiert, Serotyp 12F
-    VAL218S: PPSV-12F
     VAL219L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 14
     VAL220L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 15B
-    VAL220S: PPSV-15B
     VAL221L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 15F
-    VAL221S: PPSV-15F
-    VAL223S: PPSV-18C
     VAL224L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 19A
     VAL222L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 17F
-    VAL222S: PPSV-17F
     VAL223L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 18C
-    VAL224S: PPSV-19A
     VAL225L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 19F
-    VAL225S: PPSV-19F
     VAL226L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 20
-    VAL226S: PPSV-20
-    VAL228S: PPSV-23F
     VAL229L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 33F
-    VAL229S: PPSV-33F
     VAL227L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 22F
-    VAL227S: PPSV-22F
     VAL228L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 23F
     VAL230L: Quadrivalente inaktivierte Influenza-Valenz, Spalt- oder 
       Untereinheit, ohne Spezifikation
     VAL232L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 6A
-    VAL232S: PPSV-06A
     VAL233L: Pneumokokken-Polysaccharid-Impfstoff, unkonjugiert, Serotyp 25
-    VAL233S: PPSV-25
-    VAL245S: HVP-52
     VAL246L: Humaner Papillomavirus-VLP-Impfstoff, Typ 45
-    VAL246S: HVP-45
-    VAL247S: JE-LAR
     VAL234L: Meningokokken-Impfstoff, nicht spezifiziert
-    VAL234S: Men
     VAL235L: Meningokokken-Konjugat-Polysaccharid-Impfstoff, polyvalent
     VAL245L: Humaner Papillomavirus-VLP-Impfstoff, Typ 52
     VAL248L: Lebend-attenuierte Japanische-Enzephalitis-Valenz, ohne 
       Spezifikation
-    VAL248S: JE-LAV
     VAL249L: Japanische-Enzephalitis-Valenz, ohne Spezifikation
     VAL252L: Tollwut-Immunglobulin, menschlichen Ursprungs
-    VAL252S: RIG-hu
     VAL253L: Tollwut-Immunglobulin, equinen Ursprungs
-    VAL253S: eRIG
     VAL254L: Inaktivierter Tollwut-Vollvirusimpfstoff, Typ Semple, hergestellt 
       aus mit Tollwutvirus infiziertem Ziegen- oder Schafshirngewebe, enthält 
       Myelin
-    VAL254S: Rab-I-Semple
-    VAL249S: JE
     VAL250L: Japanische-Enzephalitis-Valenz, ganze inaktivierte, hergestellt auf
       murinem Gehirngewebe
-    VAL250S: JE-I-mb
     VAL251L: Japanische-Enzephalitis-Valenz, inaktiviert, aus Vero-Zellen 
       gewonnen
-    VAL251S: JE-I-Vero
     VAL255L: Inaktivierter Tollwut-Vollvirusimpfstoff, Typ Fuenzalida, 
       hergestellt aus mit dem Tollwutvirus infiziertem Gehirngewebe von 
       Saugmäusen, mit vermindertem Myelingehalt
-    VAL255S: Rab-I-Fuenzalida
     VAL256L: Inaktivierter Vollvirus-Tollwutimpfstoff, hergestellt aus mit 
       Tollwutvirus infiziertem tierischem Hirngewebe, nicht spezifiziert
-    VAL256S: Rab-I-NervousTissue
     VAL257L: Inaktivierter Vollvirus-Tollwutimpfstoff, auf Zellkulturbasis, 
       nicht spezifiziert
-    VAL257S: Rab-I-CC
     VAL258L: Inaktivierter Tollwut-Vollvirusimpfstoff auf Zellkulturbasis, 
       humaner diploider Zellimpfstoff (HDCV) MRC-5, Inaktivierung mit 
       ß-Propiolacton
-    VAL258S: Rab-I-HDCV
     VAL259L: Inaktivierter Ganzvirus-Tollwutimpfstoff, gereinigter Impfstoff aus
       Hühnerembryozellen (PCECV), gewonnen durch Züchtung des fixierten 
       Tollwutvirusstammes Flury LEP-25 in Primärkulturen von Hühnerfibroblasten,
       Virusinaktivierung mit ß-Propiolacton
-    VAL259S: Rab-I-PCEC
     VAL260L: Inaktivierter Tollwut-Vollvirusimpfstoff auf Zellkulturbasis, 
       gereinigter Tollwutimpfstoff aus Vero-Zellen (PVRV), Wistar-Stamm, 
       Inaktivierung mit ß-Propiolacton
-    VAL260S: Rab-I-PVRV
     VAL261L: Inaktivierter Tollwut-Vollvirusimpfstoff auf Zellkulturbasis, 
       primärer Hamsternierenzellimpfstoff (PHKCV), Stamm Beijing, Inaktivierung 
       mit Formalin
-    VAL261S: Rab-I-PHKCV
     VAL262L: Inaktivierter Vollvirus-Tollwutimpfstoff, Impfstoff auf Basis von 
       embryonierten Eiern (EEV), nicht spezifiziert
-    VAL262S: Rab-I-EEV
     VAL263L: Inaktivierter Tollwut-Vollvirusimpfstoff, gereinigter 
       Entenembryo-Impfstoff (PDEV), Inaktivierung durch ß-Propiolacton
-    VAL263S: Rab-I-PDEV
     VAL264L: COVID-19-Impfstoff, ganzes Virion, inaktiviert
-    VAL264S: COVID-IV
     VAL265L: COVID-19-Impfstoff, ganzes Virion inaktiviert, in klinischen 
       Versuchen
-    VAL265S: COVID-IV-CT
     VAL266L: Meningokokken-Impfstoff C, Polyosid konjugiert mit Tetanustoxoid
-    VAL266S: MCV-C-T
     VAL267L: Meningokokken-Impfstoff C, Polyosid konjugiert mit 
       Diphtherie-Toxoid
-    VAL267S: MCV-C-D
     VAL268L: Meningokokken-C-Impfstoff, Polyosid, konjugiert mit dem 
       CRM197-Protein
-    VAL268S: MCV-C-CRM
     VAL269L: Meningokokken-A-Impfstoff, Polyosid, konjugiert mit dem 
       CRM197-Protein
-    VAL275S: MCV-Y-CRM
-    VAL282S: Adeno-4
     VAL283L: Ganze inaktivierte Hepatitis-A-Valenz, pädiatrische Dosis, ohne 
       Spezifikation
-    VAL283S: HepA-PED
     VAL276L: Meningokokken-Impfstoff Y, Polyosid konjugiert mit Tetanustoxoid
-    VAL276S: MCV-Y-T
     VAL277L: Meningokokken-Impfstoff Y, Polyosid konjugiert mit Diphtherietoxoid
-    VAL277S: MCV-Y-D
-    VAL278S: Adeno-LAV
     VAL280L: Botulinumtoxin
-    VAL280S: BT
-    VAL281S: Adeno-7
     VAL284L: Ganze inaktivierte Hepatitis-A-Valenz, Erwachsenendosis, ohne 
       Spezifikation
-    VAL284S: HepA-ADU
-    VAL286S: HepA-LAV
     VAL287L: Quadrivalente rekombinante Influenza-Valenz
     VAL288L: Hepatitis-A-Valenz, ohne Spezifikation
     VAL285L: Trivalente inaktivierte Influenza-Valenz aus Zellkultur, spalt- 
       oder untereinheitlich, normale Dosis
-    VAL288S: HepA
     VAL289L: COVID-19-Impfstoff, mRNA kodierend für SARS-CoV-2-Spike-Protein, 10
       Mikrogramm
-    VAL289S: ' COVID-mRNA-S-10'
     VAL290L: COVID-19-Impfstoff, mRNA kodierend für SARS-CoV-2-Spike-Protein, 30
       Mikrogramm
-    VAL290S: COVID-mRNA-S-30
     VAL291L: Rekombinante Hepatitis-B-Valenz, drei Antigene (HbS, Prä-S1 und 
       Prä-S2)
-    VAL291S: HepB-r-3Ag
     VAL292L: COVID-19-Impfstoff, nicht-replizierender Adenovirus-26-Vektor, der 
       für das SARS-CoV-2-Spike-Protein kodiert, in klinischen Studien
-    VAL292S: Covid-VVnr-S-Ad26-CT
     VAL293L: Immunoglobulin gegen Anthrax
-    VAL293S: Anthrax-Ig
     VAL294L: Lebendimpfstoff aus Vacciniaviren, Impfstoff der ersten Generation
-    VAL294S: Pox-1G
-    VAL295S: Pox-2G
     VAL296L: Modifizierter Vacciniavakzine Ankara, nicht replizierender 
       Impfstoff der dritten Generation
-    VAL296S: Pox-3G-MVA
     VAL297L: Meningokokken-A-Impfstoff, nicht spezifiziert
-    VAL297S: MenA
     VAL298L: Meningokokken-C-Impfstoff, nicht spezifiziert
-    VAL298S: MenC
     VAL299L: Meningokokken-Y-Impfstoff, nicht spezifiziert
-    VAL299S: MenY
     VAL300L: Meningokokken-W-Impfstoff, nicht spezifiziert
-    VAL300S: MenW
     VAL301L: Rekombinanter trivalenter Impfstoff gegen Influenza
     VAL303L: Anti-Covid-19-Impfstoff mit mRNA, die für das Spitzenprotein des 
       ursprünglichen SARS-CoV-2-Virus kodiert.
-    VAL303S: Covid-ARNm-S-ORI
     VAL304L: Anti-Covid-19-mRNA-Impfstoff, der das Spitzenprotein des 
       ursprünglichen SARS-CoV-2-Virus kodiert, 15 Mikrogramm
-    VAL306S: Covid-ARNm-S-ORI-3
-    VAL308S: Covid-ARNm-S-OMI-BA.4/5-25
     VAL309L: Anti-Kovid-19-mRNA-Impfstoff, der für das SARS-CoV-2-Spitzenprotein
       kodiert, Variante Omicron BA.4/BA.5, 5 Mikrogramm
-    VAL309S: Covid-ARNm-S-OMI-BA.4/5-5
     VAL310L: COVID-19-Impfstoff, mRNA, die das SARS-CoV-2-Spike-Protein codiert,
       Originalvirus, 5 Mikrogramm
-    VAL310S: Covid-mRNA-S-ORI-5
-    VAL311S: R21/Matrix-M
-    VAL312S: TBE-K23
-    VAL313S: TBE-Neudorfl
-    VAL314S: TBE-Neudorfl-ADU
     VAL328L: COVID-19-Impfstoff, Proteinuntereinheit, rekombinante 
       Spike-Protein-Nanopartikel, Omicron XBB.1.5
-    VAL328S: COVID-SP-rSnp-XBB
     VAL329L: SARS-CoV-2 Spike-Protein mRNA 19-Impfstoff, Omicron XBB.1.5-50 
       Mikrogramm Variante
-    VAL329S: Covid-ARNm-S-OMI-XBB.1.5-50
     VAL340L: Valenz gegen Milzbrand, ohne Spezifikation
-    VAL340S: Milzbrand
     VAL341L: Escherichia coli-Valenz, ohne Spezifikation
-    VAL341S: Eco
-    VAL342S: Kpn
     VAL343L: Enterococcus faecalis-Valenz, ohne Spezifikation
-    VAL343S: Efa
-    VAL344S: Pvu
-    VAL345S: UTI
     VAL359L: Inaktivierte Ganzzell-Cholera-Valenz, ohne Spezifikation
     VAL360L: Inaktivierte Influenza-Valenz aus Zellkultur, spalt- oder 
       untereinheitlich, normale Dosis, ohne Spezifikation
@@ -1278,9 +959,5 @@ de:
     VAL365L: Nicht-lebende Influenza-Valenz aus Eikultur, ohne Spezifikation
     VAL364L: Nicht-lebende Influenza-Valenz, ohne Spezifikation
     VAL366L: RNA-basierte Influenza-Valenz, ohne Spezifikation
-    VAL386S: AH5
     VAL390L: Chikungunya Valenz, nicht spezifiziert
-    VAL390S: CHIK
     VAL414L: Diphtherie-Valenz
-    VAL414S: DIPH
-    VAL415S: BantAdj

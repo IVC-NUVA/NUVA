@@ -599,135 +599,79 @@ pl:
     VAC0903L: Szczepionka przeciwko wściekliźnie typu Fuenzalida, nieokreślona
   valence:
     VAL202L: Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 19F
-    VAL202S: PCV-19F
     VAL203L: Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 22F
-    VAL203S: PCV-22F
     VAL204L: Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 23F
-    VAL204S: PCV-23F
     VAL205L: Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 33F
-    VAL206S: PPSV-01
     VAL207L: Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 2
-    VAL207S: PPSV-02
-    VAL205S: PCV-33F
     VAL206L: Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 1
     VAL208L: Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 3
-    VAL208S: PPSV-03
     VAL001L: Trójwalentna żywa atenuowana wartość przeciwko grypie, normalna 
       dawka
-    VAL001S: Inf-L3
-    VAL002S: Ty-ViC
     VAL209L: Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, 
       serotyp 4
     VAL008L: Wartość bezkomórkowej krztuścowej, standardowa dawka
-    VAL008S: aP
     VAL009L: Szczepionki przeciwko białkom powierzchniowym sporozoitów
-    VAL009S: Mala-SPO
-    VAL012S: rHBsAg-40
     VAL026L: Szczepionka meningokokowa B:14:P1.7,16 z białkami pęcherzyków błony
       zewnętrznej
-    VAL026S: MenB-OMP
-    VAL033S: mOPV2
     VAL044L: Varicella
-    VAL044S: VZV-LAV
     VAL045L: Inaktywowana cała szczepionka przeciwko paratyfusowi
-    VAL210S: PPSV-05
     VAL056L: Cała inaktywowana trójwalentna szczepionka przeciwko polio do 
       wstrzykiwań
-    VAL056S: POLIO-I
     VAL057L: Szczepionka meningokokowa C, polisacharydowa skoniugowana
-    VAL057S: MCV-C
-    VAL062S: O-Chol-rCTB-I
     VAL069L: Szczepionka COVID-19, niereplikujący się szympansi wektor 
       adenowirusowy ChAdOx1 kodujący białko kolca SARS-CoV-2
-    VAL069S: COVID-VVnr-S-ChAdOx1
     VAL070L: Szczepionka COVID-19, niereplikujący się wektor adenowirusowy 
       kodujący białko kolczaste SARS-CoV-2, niespecyfikowana
-    VAL070S: COVID-VVnr-S-Ad
     VAL071L: Inaktywowana cała szczepionka przeciwko durowi brzusznemu
-    VAL071S: Ty-I
     VAL072L: Szczepionka przeciwko meningokokom B zawierająca fHbp z podrodzin A
       i B
-    VAL072S: MenB-fHbpAB
     VAL073L: Szczepionka COVID-19, replikujący wektor wirusowy, z komórkami 
       prezentującymi antygen
-    VAL073S: COVID-VVr+APC
     VAL074L: Inaktywowana czterowalentna szczepionka przeciwko grypie, 
       podzielona lub podjednostkowa, wysokodawkowa
     VAL075L: Inaktywowana cała szczepionka przeciwko Leptospira 
       icterohaemorrhagiae
-    VAL075S: Lepto-wI
     VAL076L: Szczepionka COVID-19, inaktywowana całymi wirusami, nieokreślona
     VAL080L: Inaktywowana w całości szczepionka przeciwko wściekliźnie, 
       nieokreślona
-    VAL080S: Rab-I
     VAL081L: Wartość przeciwko cholerze, bez określenia
     VAL084L: Szczepionka COVID-19, replikujący wektor wirusa pęcherzykowego 
       zapalenia jamy ustnej kodujący białko kolca SARS-CoV-2
-    VAL084S: COVID-VVr-S-VSV
-    VAL085S: mOPV3
     VAL089L: Wartość inaktywowana przeciwko japońskiemu zapaleniu mózgu, bez 
       określenia
-    VAL089S: JE-I
     VAL090L: Szczepionka przeciwko zapaleniu wątroby typu B, rekombinowany 
       antygen powierzchniowy wirusa zapalenia wątroby typu B (HBsAg), dawka 
       nieokreślona
-    VAL090S: rHBsAg
-    VAL092S: YF
-    VAL109S: Ebola-MVA-BN-Filo
     VAL110L: Immunoglobulina tężcowa
-    VAL110S: T-Ig
     VAL111L: Bezkomórkowa szczepionka przeciw wąglikowi
-    VAL111S: Bant
     VAL112L: Czterowalentna inaktywowana wartość przeciwko grypie uzyskana z 
       hodowli komórkowej, dzielona lub podjednostkowa, normalna dawka
     VAL113L: Dwuwalentna szczepionka VLP przeciwko wirusowi brodawczaka 
       ludzkiego, typy 16 i 18
-    VAL113S: HPV-02-valent
     VAL114L: Szczepionka przeciwko wirusowemu zapaleniu wątroby typu B, 
       rekombinowany antygen powierzchniowy zapalenia wątroby typu B (HBsAg), 10 
       mikrogramów
-    VAL114S: rHBsAg-10
     VAL116L: Przeciwciało monoklonalne przeciwko RSV, palivizumab
-    VAL123S: Rota5-L
     VAL124L: Wartość żywa atenuowana przeciwko cholerze, bez określenia
     VAL125L: Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu 
       wątroby typu A, bez określenia
-    VAL125S: HepA-I
     VAL126L: Wartość przeciwko eboli, bez określenia
-    VAL126S: Ebola
     VAL128L: Wartość przeciwko grypie, bez określenia
-    VAL128S: Inf
     VAL129L: Wartość przeciwko wirusowi opryszczki pospolitej, bez określenia
-    VAL129S: HSV
     VAL130L: Wartość wirusomowa przeciwko wirusowemu zapaleniu wątroby typu A
-    VAL130S: HepA-VLP
-    VAL131S: Yp-I
-    VAL163S: COVID-VVnr
     VAL164L: Szczepionka COVID-19, nieżywa, nieokreślona
-    VAL164S: COVID-non-live
     VAL165L: Żywa szczepionka przeciw krowom 19, nieokreślona
-    VAL165S: COVID-live
     VAL167L: Szczepionka COVID-19, niereplikujący się wektor wirusowy, z 
       komórkami prezentującymi antygen
-    VAL167S: COVID-VVnr+APC
     VAL168L: Szczepionka COVID-19, RNA, nieokreślona
-    VAL168S: COVID-RNA
     VAL169L: Samodzielnie amplifikujące się mRNA (AAA) szczepionka dla 
       Szczepionka 19
-    VAL169S: COVID-mRNA-SAM
     VAL170L: Szczepionka przeciwko zapaleniu wątroby typu B, rekombinowany 
       antygen powierzchniowy wirusa zapalenia wątroby typu B (HBsAg), 5 
       mikrogramów
-    VAL170S: rHepB-05
-    VAL196S: PCV-11A
     VAL197L: Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 12F
-    VAL197S: PCV-12F
     VAL198L: Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 14
-    VAL198S: PCV-14
     VAL199L: Pneumokokowa szczepionka polisacharydowa skoniugowana, serotyp 15B
-    VAL199S: PCV-15B
-    VAL200S: PCV-18C
-    VAL209S: PPSV-04
     VAL210L: Pneumokokowa polisacharydowa szczepionka nieskoniugowana, serotyp 5
     VAL230L: Czterowalentna inaktywowana wartość przeciwko grypie, dzielona lub 
       podjednostkowa, bez określenia
@@ -735,383 +679,233 @@ pl:
       6A
     VAL250L: Wartość przeciwko japońskiemu zapaleniu mózgu, całkowicie 
       inaktywowana, przygotowana na tkance mózgowej myszy
-    VAL250S: JE-I-mb
-    VAL251S: JE-I-Vero
-    VAL311S: R21/Matrix-M
     VAL331L: CMV immune globulin
-    VAL331S: CMV-Ig
     VAL332L: Wartość przeciwko wirusowemu zapaleniu wątroby typu C, bez 
       określenia
-    VAL345S: UTI
     VAL361L: Rekombinowana wartość przeciwko grypie, bez określenia
     VAL364L: Nieżywa wartość przeciwko grypie, bez określenia
     VAL365L: Nieżywa wartość przeciwko grypie uzyskana z hodowli na jajach, bez 
       określenia
     VAL366L: Wartość przeciwko grypie oparta na RNA, bez określenia
-    VAL383S: mRSV
-    VAL384S: LEP
     VAL211L: Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 
       6B
-    VAL211S: PPSV-06B
     VAL212L: Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 
       7F
-    VAL212S: PPSV-07F
     VAL213L: Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, 
       serotyp 8
-    VAL213S: PPSV-08
     VAL214L: Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 
       9N
-    VAL214S: PPSV-09N
     VAL215L: Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 
       9V
-    VAL215S: PPSV-09V
     VAL216L: Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 
       10A
-    VAL216S: PPSV-10A
     VAL217L: Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, 
       serotyp 11A
-    VAL217S: PPSV-11A
     VAL218L: Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, 
       serotyp 12F
-    VAL218S: PPSV-12F
     VAL219L: Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 
       14
-    VAL219S: PPSV-14
     VAL220L: Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 
       15B
-    VAL220S: PPSV-15B
     VAL221L: Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 
       15F
-    VAL221S: PPSV-15F
     VAL222L: Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 
       17F
-    VAL222S: PPSV-17F
     VAL223L: Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 
       18C
-    VAL223S: PPSV-18C
     VAL143L: Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu 
       wątroby typu A, bivalentna (zapalenie wątroby typu A i B), dawka 
       pediatryczna
-    VAL143S: HepA-bv-PED
     VAL144L: Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu 
       wątroby typu A, monowalentna, dawka dla dorosłych
-    VAL144S: HepA-mv-ADU
     VAL145L: Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu 
       wątroby typu A, bivalentna (zapalenie wątroby typu A i B), dawka dla 
       dorosłych
-    VAL145S: HepA-bv-ADU
     VAL146L: Wartość przeciwko całej inaktywowanej Brucella
-    VAL146S: Bruc-I
     VAL147L: Wartość z antygenem białkowym P.I. (fenol-nierozpuszczalny) 
       przeciwko brucelozie
-    VAL147S: Bruc-IP
     VAL148L: Przeciwciało monoklonalne przeciwko wirusowi syncytialnemu układu 
       oddechowego
-    VAL148S: RSV-IG
     VAL149L: Szczepionka COVID-19, mRNA kodujący białko kolca SARS-CoV-2, 25 
       mikrogramów
-    VAL149S: Covid-mRNA-S-25
     VAL150L: Wartość przeciwko dendze, bez określenia
-    VAL150S: Den
     VAL151L: Szczepionka przeciwko tularemii, nieokreślona
-    VAL151S: Tular
     VAL152L: Valência vacinal inteira inativada contra a gripe, sem 
       especificação
-    VAL152S: Inf-I
     VAL153L: Szczepionka przeciwko Haemophilus influenzae typu b, polisacharyd 
       PRP skoniugowany z toksoidem błoniczym
-    VAL153S: PRP-D
     VAL154L: Wartość Haemophilus influenzae typu b, oligosacharydy PRP sprzężone
       z mutantem toksyny błoniczej CRM197
-    VAL154S: HbOC
     VAL224L: Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 
       19A
-    VAL224S: PPSV-19A
     VAL225L: Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 
       19F
-    VAL225S: PPSV-19F
     VAL226L: Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, 
       serotyp 20
-    VAL226S: PPSV-20
     VAL227L: Nieskoniugowana szczepionka zawierająca polisacharyd pneumokokowy, 
       serotyp 22F
-    VAL227S: PPSV-22F
     VAL228L: Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 
       23F
-    VAL228S: PPSV-23F
     VAL229L: Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 
       33F
-    VAL229S: PPSV-33F
-    VAL232S: PPSV-06A
     VAL233L: Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, 
       serotyp 25
-    VAL233S: PPSV-25
     VAL234L: Szczepionka meningokokowa, nieokreślona
-    VAL234S: Men
     VAL235L: Polisacharydowa szczepionka skoniugowana przeciwko meningokokom, 
       poliwalentna
-    VAL235S: MCV-poly
     VAL236L: Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, 
       monowalentna
-    VAL236S: HPV-mono
     VAL237L: Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, 
       poliwalentna
-    VAL237S: HPV-poly
     VAL238L: Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 6
-    VAL238S: HPV-06
     VAL239L: Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 11
-    VAL239S: HVP-11
     VAL240L: Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 16
-    VAL240S: HVP-16
     VAL241L: Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 18
-    VAL241S: HVP-18
     VAL242L: Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 31
-    VAL242S: HVP-31
     VAL243L: Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 33
-    VAL243S: HPV-33
     VAL244L: Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 58
-    VAL244S: HVP-58
     VAL245L: Szczepionka VLP wirusa brodawczaka ludzkiego, typ 52
-    VAL245S: HVP-52
     VAL246L: Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 45
-    VAL246S: HVP-45
-    VAL247S: JE-LAR
-    VAL248S: JE-LAV
     VAL249L: Wartość przeciwko japońskiemu zapaleniu mózgu, bez określenia
-    VAL249S: JE
     VAL251L: Wartość japońskiego zapalenia mózgu, inaktywowana, pochodząca z 
       komórek Vero
     VAL252L: Immunoglobulina wścieklizny, pochodzenia ludzkiego
-    VAL252S: RIG-hu
     VAL253L: Immunoglobulina przeciwko wściekliźnie, pochodzenia końskiego
-    VAL253S: eRIG
     VAL155L: Szczepionka przeciwko Haemophilus influenzae typu b, polisacharyd 
       skoniugowany z białkiem błony zewnętrznej Neisseria meningitidis serogrupy
       B
-    VAL155S: PRP-OMP
     VAL156L: PRP-T Szczepionka Haemophilus influenzae typu b, polisacharyd PRP 
       sprzężony z toksoidem tężcowym
-    VAL156S: PRP-T
     VAL157L: Szczepionka COVID-19, niespecyfikowana
-    VAL157S: COVID
     VAL158L: Szczepionka plazmowa przeciwko wirusowemu zapaleniu wątroby typu B
-    VAL158S: pHBsAg
     VAL159L: Podjednostkowa szczepionka przeciwko półpaścowi, nieokreślona
-    VAL159S: Shingles-SU
     VAL160L: Szczepionka przeciwko półpaścowi, nieokreślona
-    VAL160S: Shingles
     VAL161L: Szczepionka wieloskładnikowa meningokokowa B, nieokreślona
-    VAL161S: MenB-mc
     VAL162L: Szczepionka COVID-19, wektor replikujący wirusa, nieokreślony
-    VAL162S: COVID-VVr
     VAL163L: Szczepionka COVID-19, niereplikujący się wektor wirusowy, 
       niespecyfikowana
     VAL171L: Szczepionka przeciwko wenezuelskiemu zapaleniu mózgu koni, 
       nieokreślona
-    VAL171S: VEE
     VAL172L: Wartość przeciwko gorączce Q (Coxiella burnetii), bez określenia
-    VAL172S: Cbur
-    VAL173S: Junin-LAV
     VAL174L: Wartość hantawirusowa, bez określenia
-    VAL174S: HAN
     VAL175L: Szczepionka przeciwko leiszmaniozie, nieokreślona
-    VAL175S: Leish
     VAL176L: Szczepionka przeciwko ludzkim wirusom parainfluenzy, 
       niespecyfikowana
-    VAL176S: HPIVs
     VAL177L: Wartość przeciwko Haemophilus influenzae typu b, bez określenia
-    VAL177S: Hib
     VAL002L: Skoniugowana szczepionka przeciwko durowi brzusznemu, antygen 
       polisacharydowy Vi połączony z białkiem nośnikowym
     VAL003L: Wartość przeciwko krztuścowi, bez określenia
-    VAL003S: Per
     VAL004L: Całkowicie inaktywowana wartość przeciwko cholerze, do 
       wstrzykiwania
-    VAL004S: I-Chol-I
-    VAL005S: Meas-LAV
     VAL006L: Wartość przeciwko Brucella, bez określenia
-    VAL006S: Bruc
     VAL007L: Rekombinowany wirus pęcherzykowego zapalenia jamy ustnej (rVSV) 
       wektor replikacyjny Szczepionka przeciwko Ebola - glikoproteina GP EBOV
-    VAL007S: rVSVdG-ZEBOV-GP
     VAL010L: Wartość przeciwko całej inaktywowanej krztuścowej bakterii
     VAL011L: Szczepionka COVID-19, podjednostka białkowa, rekombinowane białko 
       szpiku (RBD)
-    VAL010S: wP
-    VAL011S: COVID-PS-rRBD
     VAL012L: Szczepionka przeciwko zapaleniu wątroby typu B, rekombinowany 
       antygen powierzchniowy wirusa zapalenia wątroby typu B (HBsAg), 40 
       mikrogramów (dawka dla pacjentów dializowanych)
     VAL013L: Glikoproteina powierzchniowa E (gE) wirusa Varicella zoster (VZV)
-    VAL013S: Shingles-gE
-    VAL014S: Ty
     VAL014L: Szczepionka przeciw tyfusowi plamistemu, nieokreślona
     VAL016L: Immunoglobulina przeciwko wściekliźnie, nieokreślona
-    VAL016S: RIG
     VAL017L: Wartość bezkomórkowej krztuścowej, zmniejszona dawka
-    VAL017S: ap
-    VAL018S: Pox-3G-LC16
     VAL019L: Antytoksyna błonicza
-    VAL019S: DATx
-    VAL020S: Shingles-L
     VAL018L: Szczepionka przeciwko ospie wietrznej trzeciej generacji, 
       minimalnie replikująca żywy wirus vaccinia
     VAL021L: Doustna inaktywowana szczepionka przeciwko całej cholerze
-    VAL021S: O-Chol-I
-    VAL022S: Smallpox-L
     VAL024L: Trójwalentna inaktywowana wartość przeciwko grypie, dzielona lub 
       podjednostkowa, bez określenia
     VAL025L: Szczepionka przeciwko malarii, niespecyfikowana
-    VAL025S: Mala
     VAL027L: Szczepionka COVID-19, niereplikujący się wektor adenowirusa 26 
       kodujący białko szczytowe SARS-CoV-2
-    VAL027S: COVID-VVnr-S-Ad26
-    VAL028S: POX-3G
     VAL029L: Szczepionka VLP przeciwko grypie sezonowej, nieokreślona
-    VAL029S: Inf-VLP
     VAL030L: Rekombinowana szczepionka przeciwko Borrelia burgdorferi - białko 
       powierzchni zewnętrznej A (OspA)
-    VAL030S: Lyme-OspA
     VAL031L: Kleszczowe zapalenie mózgu
-    VAL031S: TBE
     VAL032L: Szczepionka polisacharydowa przeciwko durowi brzusznemu, 
       nieskoniugowany antygen polisacharydowy Vi
-    VAL032S: Ty-ViPS
     VAL033L: Monowalentna żywa atenuowana doustna szczepionka przeciw polio typu
       2
     VAL034L: Toksyna błonicza, mała dawka
-    VAL034S: d
     VAL035L: Szczepionka COVID-19, plazmid DNA kodujący białko kolca SARS-CoV-2
-    VAL035S: COVID-DNA-S
     VAL036L: Szczepionka niewalentna VLP przeciwko wirusowi brodawczaka 
       ludzkiego, typy 6, 11, 16, 18, 31, 33, 45, 52, 58
-    VAL036S: HPV-09-valent
     VAL037L: Szczepionka meningokokowa A, nieskoniugowana polisacharydowa
-    VAL037S: MPV-A
     VAL038L: Szczepionka COVID-19, replikujący wektor wirusa odry kodujący 
       białko kolca SARS-CoV-2
-    VAL038S: COVID-VVr-S-Meas
     VAL039L: Szczepionka COVID-19, VLP, rekombinowane białko kolca
-    VAL039S: COVID-VLP-rS
     VAL041L: Meningokok A, polisacharydowa szczepionka skoniugowana
-    VAL041S: MCV-A
     VAL042L: Szczepionka przeciwko polio, nieokreślona
-    VAL042S: POLIO
     VAL043L: Szczepionka SARS-CoV-2 spike protein mRNA 19
-    VAL043S: COVID-mRNA-S
-    VAL045S: pTy-I
     VAL046L: Tyfus
-    VAL046S: Typhus
     VAL047L: Immunoglobulina zapalenia wątroby typu B
-    VAL047S: IgHepB
     VAL048L: Inaktywowana cała szczepionka przeciwko śwince
-    VAL048S: Or-I
     VAL049L: Polisacharydowa wartość przeciwko Haemophilus influenzae typu b, 
       niesprzężona
-    VAL049S: Hib-PS
     VAL178L: COVID-19 vaccine, mRNA coding for SARS-CoV-2 spike protein, Omicron
       variant BA.1, 25 micrograms
     VAL050L: Szczepionka COVID-19, niereplikujący się wektor adenowirusowy 5 
       kodujący białko kolca SARS-CoV-2, niespecyfikowany
-    VAL050S: COVID-VVnr-S-Ad5
     VAL051L: Szczepionka przedpandemiczna przeciwko grypie A(H5N1)
-    VAL051S: AH5N1
     VAL052L: Czterowalentna szczepionka VLP przeciwko wirusowi brodawczaka 
       ludzkiego, typy 6, 11, 16 i 18
-    VAL052S: HPV-04-valent
     VAL053L: Szczepionka COVID-19, podjednostka białkowa, rekombinowane białko 
       kolczaste, niespecyfikowana
-    VAL053S: COVID-PS
     VAL054L: Szczepionka COVID-19, niereplikujący się zmodyfikowany wektor 
       Vaccinia Virus Ankara kodujący białko kolca SARS-CoV-2
-    VAL054S: COVID-VVnr-S-MVA
     VAL055L: Immunoglobulina przeciwko gorączce
-    VAL055S: Ig-Measles
     VAL058L: Inaktywowana wartość przeciwko grypie, dzielona lub podjednostkowa,
       bez określenia
     VAL059L: Czterowalentna żywa atenuowana wartość przeciwko grypie, normalna 
       dawka
-    VAL060S: CHIK-LA
-    VAL178S: COVID-mRNA-S-OMI-BA.1-25
     VAL061L: Szczepionka COVID-19, podjednostka białkowa, rekombinowane białko 
       kolca, S-2P i CpG1018
-    VAL061S: COVID-PS-CpG1018
     VAL063L: Antytoksyna botulinowa
-    VAL063S: BAT
     VAL065L: 'Żywa atenuowana rekombinowana chimeryczna tetrawalentna szczepionka
       przeciwko dendze '
-    VAL065S: RC-TDV
     VAL066L: Szczepionka przeciwko wirusowi replikującemu SARS-CoV-2, wirusowi 
       grypy kodującemu białko szczytowe SARS-CoV-2
-    VAL066S: COVID-VVr-S-Influ
     VAL067L: Toksyna tężcowa
-    VAL067S: T
     VAL068L: Wartość przeciwko wirusowemu zapaleniu wątroby typu B, bez 
       określenia
-    VAL068S: HepB
-    VAL077S: Mumps-LAV
-    VAL078S: MCV-Y
     VAL078L: Szczepionka przeciwko meningokokom Y, polisacharydowa skoniugowana
-    VAL079S: Rub-LAV
-    VAL081S: Chol
     VAL082L: Szczepionka przeciwko wirusowi brodawczaka ludzkiego, typy 
       nieokreślone
-    VAL082S: HPV
     VAL083L: Toksoid błoniczy, dawka nieokreślona
-    VAL083S: D-d
     VAL085L: Monowalentna żywa atenuowana doustna szczepionka przeciwko polio 
       typu 3
     VAL086L: Szczepionka COVID-19, żywa, atenuowana, nieokreślona
-    VAL086S: COVID-LA
     VAL087L: Wartość dengi, żywa atenuowana tetrwalentna chimeryczna 
       rekombinowana oparta na szczepionce przeciw żółtej febrze 17D
-    VAL087S: CYD-TDV
     VAL088L: Immunoglobulina Varicella
-    VAL088S: VZV-Ig
     VAL091L: Żywa atenuowana szczepionka przeciwko durowi brzusznemu, szczep 
       Ty21a, doustna
-    VAL091S: Ty-LA
     VAL092L: Żółta gorączka
     VAL093L: Inaktywowana cała szczepionka przeciwko odrze
-    VAL093S: Meas-I
     VAL095L: Szczepionka COVID-19, replikujący wektor wirusa rzekomego pomoru 
       drobiu kodujący białko kolczaste SARS-CoV-2
-    VAL095S: COVID-VVr-S-Nv
     VAL096L: Wartość BCG
-    VAL096S: BCG
     VAL097L: Toksoid błoniczy, dawka standardowa
-    VAL097S: D
     VAL098L: 4-komponentowa szczepionka przeciwko meningokokom typu B
-    VAL098S: 4CMenB
     VAL099L: 'Wartość inaktywowana przeciwko pandemicznej grypie H1N1 2009 '
-    VAL099S: Inf-pdm09
-    VAL100S: JE-LAV-14-14-2
     VAL101L: Szczepionka COVID-19, niereplikujący się wektor wirusa rzekomego 
       pomoru drobiu kodujący białko kolca SARS-CoV-2
-    VAL101S: COVID-VVnr-S-Nv
     VAL102L: Rekombinowana peptydowa wartość przeciwko wirusowemu zapaleniu 
       wątroby typu E
-    VAL102S: HepE
     VAL103L: Sprzężona wartość przeciwko Haemophilus influenzae typu b, bez 
       określenia
-    VAL103S: Hib-C
     VAL104L: Szczepionka COVID-19, podjednostka białkowa, rekombinowane białko 
       kolca
-    VAL104S: COVID-PS-rS
     VAL105L: Szczepionka przeciw pneumokokom, niespecyfikowana
-    VAL105S: Pneumo
     VAL106L: Szczepionka przeciwko rotawirusom, nieokreślona
-    VAL106S: Rota
     VAL179L: Skoniugowana szczepionka meningokokowa, monowalentna
-    VAL179S: MCV-mono
     VAL180L: Szczepionka COVID-19, mRNA kodujący białko kolca SARS-CoV-2, 100 
       mikrogramów
-    VAL180S: COVID-mRNA-S-ORI-100
     VAL107L: Szczepionka COVID-19, podjednostka białkowa, rekombinowane 
       nanocząstki białka kolczastego
     VAL108L: Żywa niereplikująca się rekombinowana szczepionka wektorowa 
       Ad26.ZEBOV
-    VAL108S: ZebovVRnrAd26
     VAL109L: 'Wartość przeciwko eboli z niereplikującym się wektorem wirusowym, zmodyfikowana
       szczepionka Ankara '
     VAL181L: Szczepionka COVID-19, mRNA kodujący białko kolca SARS-CoV-2, 
@@ -1119,277 +913,158 @@ pl:
     VAL115L: Szczepionka przeciwko wirusowemu zapaleniu wątroby typu B, 
       rekombinowany antygen powierzchniowy wirusa zapalenia wątroby typu B 
       (HBsAg), 20 mikrogramów
-    VAL116S: RSV-mAb-pal
     VAL117L: Szczepionka acelularna przeciwko krztuścowi, dawka nieokreślona
-    VAL117S: Acel
     VAL118L: Szczepionka meningokokowa typu B, niespecyfikowana
-    VAL118S: MenB
     VAL119L: Meningokokowa monowalentna nieskoniugowana szczepionka 
       polisacharydowa
-    VAL119S: MPV-mono
     VAL120L: Nieskoniugowany polisacharyd meningokokowy, poliwalentny
-    VAL120S: MPV-poly
     VAL121L: Doustna trójwalentna inaktywowana całkowita szczepionka przeciw 
       polio
-    VAL121S: POLIO-I-O
-    VAL124S: Chol-L
     VAL131L: Cała inaktywowana szczepionka przeciwko dżumie
-    VAL181S: Covid-mRNA-S-ORI-25
     VAL182L: Szczepionka przeciwko boreliozie, nieokreślona
-    VAL182S: Meas
     VAL132L: Monowalentna żywa atenuowana doustna szczepionka przeciw polio typu
       1
-    VAL132S: mOPV1
     VAL133L: Żywa atenuowana monowalentna doustna szczepionka przeciwko polio, 
       typ nieokreślony
-    VAL133S: mOPV
-    VAL135S: Covid-ARNm-S-CT
     VAL136L: Szczepionka meningokokowa W, polisacharydowa skoniugowana
-    VAL136S: MCV-W
     VAL137L: Szczepionka meningokokowa C, nieskoniugowana polisacharydowa
-    VAL137S: MPV-C
     VAL138L: Szczepionka meningokokowa W, nieskoniugowana polisacharydowa
-    VAL138S: MPV-W
     VAL139L: Szczepionka przeciwko meningokokom Y, nieskoniugowana 
       polisacharydowa
-    VAL139S: MPV-Y
-    VAL140S: Inf-L
     VAL183L: Szczepionka przeciwko śwince, nieokreślona
-    VAL183S: Mumps
     VAL184L: Polisacharydowa szczepionka skoniugowana przeciwko pneumokokom, 
       monowalentna
-    VAL184S: PCV
     VAL185L: Szczepionka pneumokokowa polisacharydowa nieskoniugowana, 
       nieokreślona
-    VAL185S: PPSV
     VAL186L: Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 1
-    VAL186S: PCV-01
     VAL187L: Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 3
-    VAL187S: PCV-03
     VAL188L: Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 4
-    VAL188S: PCV-04
     VAL189L: Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 5
-    VAL189S: PCV-05
     VAL141L: RIX4414 monowalentna szczepionka przeciw rotawirusom
-    VAL141S: Rota-mv-RIX4414
     VAL142L: Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu 
       wątroby typu A, monowalentna, dawka pediatryczna
-    VAL142S: HepA-mv-PED
     VAL190L: Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 6A
-    VAL190S: PCV-06A
     VAL191L: Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 6B
-    VAL191S: PCV-06B
     VAL192L: Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 7F
-    VAL192S: PCV-07F
     VAL193L: Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 8
-    VAL193S: PCV-08
     VAL194L: Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 9V
-    VAL194S: PCV-09V
     VAL195L: Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 10A
-    VAL195S: PCV-10A
     VAL196L: Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 11A
     VAL200L: Szczepionka pneumokokowa polisacharydowa skoniugowana, serotyp 18C
     VAL201L: Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 19A
-    VAL201S: PCV-19A
     VAL254L: Inaktywowana w całości szczepionka przeciwko wściekliźnie, typu 
       Semple, przygotowana z koziej lub owczej tkanki mózgowej zakażonej wirusem
       wścieklizny, zawierająca mielinę
-    VAL254S: Rab-I-Semple
     VAL255L: Szczepionka przeciwko wściekliźnie, inaktywowana w całości, typu 
       Fuenzalida, przygotowana z tkanki mózgowej myszy zakażonej wirusem 
       wścieklizny, o zmniejszonej zawartości mieliny
-    VAL255S: Rab-I-Fuenzalida
     VAL256L: Inaktywowana całymi wirusami szczepionka przeciwko wściekliźnie, 
       przygotowana ze zwierzęcej tkanki mózgowej zakażonej wirusem wścieklizny, 
       niespecyfikowana
-    VAL256S: Rab-I-NervousTissue
     VAL257L: Szczepionka inaktywowana w całości przeciwko wściekliźnie, oparta 
       na kulturach komórkowych, nieokreślona
-    VAL257S: Rab-I-CC
     VAL258L: Inaktywowana całymi wirusami szczepionka przeciwko wściekliźnie, 
       oparta na kulturach komórkowych, szczepionka z ludzkich komórek 
       diploidalnych (HDCV) MRC-5, inaktywacja ß-propiolaktonem
-    VAL258S: Rab-I-HDCV
     VAL259L: Szczepionka zawierająca całe wirusy wścieklizny, oczyszczona 
       szczepionka z komórek zarodkowych kurcząt (PCECV), otrzymana przez hodowlę
       utrwalonego szczepu wirusa wścieklizny Flury LEP-25 w pierwotnych 
       hodowlach fibroblastów kurcząt, wirus inaktywowany ß-propiolaktonem
-    VAL259S: Rab-I-PCEC
     VAL260L: Inaktywowana cała wirionowa szczepionka przeciwko wściekliźnie, 
       oparta na hodowli komórkowej, oczyszczona szczepionka przeciwko 
       wściekliźnie z komórek Vero (PVRV), szczep Wistar, inaktywacja 
       ß-propiolaktonem
-    VAL260S: Rab-I-PVRV
     VAL261L: Inaktywowana cała wirionowa szczepionka przeciwko wściekliźnie, 
       oparta na kulturach komórkowych, szczep z pierwotnych komórek nerkowych 
       chomika (PHKCV), szczep pekiński, inaktywacja formaliną
-    VAL261S: Rab-I-PHKCV
     VAL262L: Inaktywowana całymi wirusami szczepionka przeciwko wściekliźnie, 
       oparta na jajach zarodkowych (EEV), nieokreślona
-    VAL262S: Rab-I-EEV
     VAL263L: Szczepionka przeciwko wściekliźnie inaktywowana całym wirusem, 
       oczyszczona szczepionka z zarodka kaczki (PDEV), inaktywacja 
       ß-propiolaktonem
-    VAL263S: Rab-I-PDEV
     VAL264L: Szczepionka COVID-19, inaktywowany cały wirus
-    VAL264S: COVID-IV-Auth
     VAL265L: Szczepionka COVID-19, inaktywowany cały wirion, w badaniach 
       klinicznych
-    VAL265S: COVID-IV-CT
     VAL266L: Szczepionka meningokokowa C, skoniugowana z toksoidem tężcowym
-    VAL266S: MCV-C-T
     VAL267L: Szczepionka przeciwko meningokokom C, polisacharydowa, skoniugowana
       z toksoidem błoniczym
-    VAL267S: MCV-C-D
     VAL268L: Szczepionka meningokokowa C, polisacharydowa skoniugowana z CRM197
-    VAL268S: MCV-C-CRM
     VAL269L: Szczepionka meningokokowa A, polisacharydowa skoniugowana z CRM197
-    VAL269S: MCV-A-CRM
     VAL270L: Szczepionka przeciwko meningokokom A, polisacharydowa, skoniugowana
       z toksoidem błoniczym
-    VAL270S: MCV-A-D
     VAL271L: Szczepionka meningokokowa A, polisacharydowa skoniugowana z 
       toksoidem tężcowym
-    VAL271S: MCV-A-T
     VAL272L: Szczepionka meningokokowa W, skoniugowana z toksoidem tężcowym
-    VAL272S: MCV-W-T
     VAL273L: Szczepionka meningokokowa W, polisacharydowa skoniugowana z 
       toksoidem błoniczym
-    VAL273S: MCV-W-D
     VAL274L: Szczepionka meningokokowa W, polisacharydowa skoniugowana z CRM197
-    VAL274S: MCV-W-CRM
     VAL275L: Szczepionka meningokokowa Y, polisacharydowa skoniugowana z CRM197
-    VAL275S: MCV-Y-CRM
     VAL276L: Szczepionka przeciwko meningokokom Y, skoniugowana z toksoidem 
       tężcowym
-    VAL276S: MCV-Y-T
     VAL277L: Szczepionka przeciwko meningokokom Y, polisacharydowa, skoniugowana
       z toksoidem błoniczym
-    VAL277S: MCV-Y-D
-    VAL278S: Adeno-LAV
     VAL280L: Toksyna botulinowa
-    VAL284S: HepA-ADU
-    VAL280S: BT
-    VAL281S: Adeno-7
-    VAL282S: Adeno-4
     VAL283L: Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu 
       wątroby typu A, dawka pediatryczna, bez określenia
-    VAL283S: HepA-PED
     VAL284L: Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu 
       wątroby typu A, dawka dla dorosłych, bez określenia
     VAL285L: Trójwalentna inaktywowana wartość przeciwko grypie uzyskana z 
       hodowli komórkowej, dzielona lub podjednostkowa, normalna dawka
-    VAL286S: HepA-LAV
     VAL287L: Czterowalentna rekombinowana wartość przeciwko grypie
     VAL288L: Wartość przeciwko wirusowemu zapaleniu wątroby typu A, bez 
       określenia
-    VAL288S: HepA
     VAL289L: Szczepionka COVID-19, mRNA kodujący białko kolca SARS-CoV-2, 10 
       mikrogramów
-    VAL289S: ' COVID-mRNA-S-ORI-10'
     VAL290L: Szczepionka COVID-19, mRNA kodujący białko kolca SARS-CoV-2, 30 
       mikrogramów
-    VAL290S: COVID-mRNA-S-ORI-30
     VAL291L: Rekombinowana wartość przeciwko wirusowemu zapaleniu wątroby typu 
       B, trzy antygeny (HbS, pre-S1 i pre-S2)
-    VAL291S: HepB-r-3Ag
     VAL292L: Szczepionka COVID-19, niereplikujący się wektor adenowirusowy 26 
       kodujący białko kolca SARS-CoV-2, w badaniach klinicznych
-    VAL292S: Covid-VVnr-S-Ad26-CT
     VAL293L: Immunoglobulina wąglika
-    VAL293S: Anthrax-Ig
     VAL294L: Żywy wirus szczepionki, szczepionka pierwszej generacji
-    VAL294S: Pox-1G
-    VAL295S: Pox-2G
     VAL296L: Zmodyfikowana szczepionka vaccinia Ankara, niereplikująca, 
       szczepionka trzeciej generacji
-    VAL296S: Pox-3G-MVA
     VAL297L: Szczepionka meningokokowa A, nieokreślona
-    VAL297S: MenA
     VAL298L: Szczepionka meningokokowa C, nieokreślona
-    VAL298S: MenC
-    VAL304S: Covid-ARNm-S-ORI-15
     VAL299L: Szczepionka meningokokowa Y, nieokreślona
-    VAL299S: MenY
     VAL300L: Szczepionka meningokokowa W, nieokreślona
-    VAL300S: MenW
     VAL301L: Rekombinowana trójwartościowa szczepionka przeciw grypie
     VAL302L: Szczepionka COVID-19, mRNA kodujący białko kolcowe SARS-CoV-2, 50 
       mikrogramów
-    VAL302S: Covid-mRNA-S-50
     VAL303L: Szczepionka przeciw kowdowi 19 mRNA kodujący białko kolca wirusa 
       SARS-CoV-2, pierwotnego wirusa
-    VAL303S: COVID-mRNA-S-ORI
     VAL304L: Szczepionka SARS-CoV-2 spike protein mRNA 19, oryginalny wirus, 15 
       mikrogramów
     VAL305L: Szczepionka SARS-CoV-2 peak protein mRNA 19, wariant Omicron BA.1, 
       15 mikrogramów
-    VAL305S: Covid-ARNm-S-OMI-BA.1-15
     VAL306L: Szczepionka SARS-CoV-2 peak protein mRNA 19, oryginalny wirus, 3 
       mikrogramy
-    VAL306S: COVID-mRNA-S-ORI-3
     VAL307L: Szczepionka SARS-CoV-2 peak protein mRNA 19, wariant Omicron 
       BA.4/BA.5, 15 mikrogramów
-    VAL307S: COVID-mRNA-S-OMI-BA.4/5-15
     VAL309L: Szczepionka SARS-CoV-2 peak protein mRNA 19, wariant Omicron 
       BA.4/BA.5, 5 mikrogramów
     VAL308L: Vaccin anti-covid 19 à ARNm codant la protéine de pointe du 
       SARS-CoV-2, variant Omicron BA.4/BA.5, 25 microgrammes
-    VAL308S: COVID-mRNA-S-OMI-BA.4/5-25
-    VAL309S: Covid-ARNm-S-OMI-BA.4/5-5
     VAL310L: Szczepionka COVID-19, mRNA kodujący białko szczytowe SARS-CoV-2, 
       oryginalny wirus, 5 mikrogramów
-    VAL310S: Covid-mRNA-S-ORI-5
-    VAL312S: TBE-K23
-    VAL313S: TBE-Neudorfl
-    VAL314S: TBE-Neudorfl-ADU
-    VAL315S: TBE-Neudorfl-PED
-    VAL316S: RSV-PreF3
-    VAL317S: RSV-Ab
-    VAL318S: RSV-V
-    VAL321S: VRS-mAb-nir
-    VAL322S: RSV-PreFAB
-    VAL326S: COVID-mRNA-S-OMI-BA.4/5-1.5
-    VAL327S: COVID-mRNA-S-ORI-1.5
-    VAL329S: Covid-ARNm-S-OMI-XBB.1.5-50
     VAL330L: Anty-covid 19 mRNA kodujący białko kolca SARS-CoV-2, wariant 
       Omicron XBB.1.5-25 mikrogramów
-    VAL330S: COVID-mRNA-S-OMI-XBB.1.5-25
     VAL336L: Wartość przeciwko gorączce Doliny Ryftowej, bez określenia
-    VAL336S: RVF
-    VAL337S: Ospa-Ig
     VAL338L: Przeciwciało lub szczepionka przeciwko wirusowi RSV, nieokreślone
-    VAL338S: RSV
     VAL340L: Wartość przeciwko wąglikowi, bez określenia
-    VAL340S: Wąglik
     VAL341L: Wartość przeciwko Escherichia coli, bez określenia
-    VAL341S: Eco
-    VAL342S: Kpn
     VAL343L: Wartość przeciwko Enterococcus faecalis, bez określenia
-    VAL343S: Efa
-    VAL344S: Pvu
     VAL359L: Wartość całkowicie inaktywowana przeciwko cholerze, bez określenia
     VAL360L: Wartość inaktywowana przeciwko grypie uzyskana z hodowli 
       komórkowej, dzielona lub podjednostkowa, normalna dawka, bez określenia
     VAL383L: Single-stranded 5' capped mRNA encoding the Respiratory syncytial 
       virus glycoprotein F stabilized in the prefusion conformation
-    VAL386S: AH5
     VAL387L: Anty-covid valence 19 mRNA kodujący białko kolca SARS-CoV-2, 
       wariant Omicron JN.1-25 mikrogramów
-    VAL387S: Covid-ARNm-S-OMI-JN.1-25
     VAL388L: Anty-covid 19 mRNA kodujący białko kolca SARS-CoV-2, wariant 
       Omicron JN.1-50 mikrogramów
-    VAL388S: Covid-ARNm-S-OMI-JN.1-50
     VAL389L: Walencja przeciwko Pseudomonas aeruginosa, 7 immunotypów
-    VAL389S: PAER7
     VAL390L: Chikungunya walencja, nieokreślona
-    VAL390S: CHIK
     VAL391L: Walencja VLP Chikungunya
-    VAL391S: Chik-VLP
-    VAL392S: AH5N1-RNA
-    VAL411S: COVID-mRNA-S-OMI-BA.4/5-50
-    VAL412S: Covid-ARNm-S-OMI-BA.1-50
-    VAL413S: Covid-SP-rRBD-XBB.1.16
     VAL414L: Walencja błonicza
-    VAL414S: DIPH
-    VAL415S: BantAdj
