@@ -2567,1042 +2567,591 @@
     VAC1557L: Influenza vaccine, trivalent, inactivated, split or subunit, unspecified
   valence:
     VAL000L: Parent for deprecated valences
-    VAL000S: ZZZ
     VAL001L: Influenza valence, trivalent, live attenuated, standard dose
-    VAL001S: INF-L3
     VAL002L: Typhoid valence, conjugated, Vi polysaccharide antigen linked to a carrier
       protein
-    VAL002S: Ty-ViC
     VAL003L: Pertussis valence, unspecified
-    VAL003S: Per
     VAL004L: Cholera valence, inactivated, whole-cell, injectable
-    VAL004S: CHOL-I-I
     VAL005L: Measles valence, live attenuated
-    VAL005S: MEAS-LA
     VAL006L: Brucella valence, unspecified
-    VAL006S: Bruc
     VAL007L: Ebola valence, replicating vector, recombinant vesicular stomatitis virus
       (rVSV) - EBOV GP glycoprotein
-    VAL007S: rVSVdG-ZEBOV-GP
     VAL008L: Pertussis  valence, acellular, standard dose
-    VAL008S: aP
     VAL009L: Malaria valence, sporozoite surface protein
-    VAL009S: Mala-SPO
     VAL010L: Pertussis valence, inactivated, whole-cell
-    VAL010S: wP
     VAL011L: COVID-19 valence, protein subunit, recombinant spike protein (RBD)
-    VAL011S: COVID-PS-rRBD
     VAL012L: Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg),
       40 micrograms (dialysis patient dosage)
-    VAL012S: rHBsAg-40
     VAL013L: Shingles valence, varicella zoster virus (VZV) surface glycoprotein E
       (gE)
-    VAL013S: Shingles-gE
     VAL014L: Typhoid valence, unspecified
-    VAL014S: Ty
     VAL015L: Influenza valence, trivalent, non-live, obtained from egg culture, split
       or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose
-    VAL015S: INF-ESUnd3
     VAL016L: Rabies valence, immunoglobulin, unspecified
-    VAL016S: RIG
     VAL017L: Pertussis valence, acellular, reduced dose
-    VAL017S: ap
     VAL018L: Smallpox valence, third generation, minimally replicating live vaccinia
       virus
-    VAL018S: POX-3G-LC16
     VAL019L: Diphtheria valence, antitoxin
-    VAL019S: DATx
     VAL020L: Herpes zoster valence, live attenuated
-    VAL020S: Shingles-LA
     VAL021L: Cholera valence, inactivated, whole-cell, oral
-    VAL021S: CHOL-I-O
     VAL022L: Smallpox valence, live attenuated, unspecified
-    VAL022S: POX-LA
     VAL023L: Influenza valence, trivalent, non-live, obtained from egg culture, split
       or subunit, intradermal route, unspecified
-    VAL023S: INF-ESUid3
     VAL024L: Influenza valence, trivalent, non-live, obtained from egg culture, split
       or subunit, unspecified
-    VAL024S: INF-ESU3
     VAL025L: Malaria valence, unspecified
-    VAL025S: Mala
     VAL026L: Meningococcal valence B:14:P1.7,16 outer membrane vesicle proteins
-    VAL026S: MenB-OMP
     VAL027L: COVID-19 valence, non-replicating adenovirus 26 vector encoding the SARS-CoV-2
       spike protein
-    VAL027S: COVID-VVnr-S-Ad26
     VAL028L: Smallpox valence, third-generation, live attenuated
-    VAL028S: POX-3G
     VAL029L: Influenza valence, VLP, unspecified
-    VAL029S: INF-VLP
     VAL030L: Borrelia burgdorferi valence, recombinant, outer surface protein A (OspA)
-    VAL030S: Lyme-OspA
     VAL031L: Tick-borne encephalitis valence, unspecified
-    VAL031S: TBE
     VAL032L: Typhoid valence, unconjugated Vi polysaccharide antigen
-    VAL032S: Ty-ViPS
     VAL033L: Polio type 2 valence, monovalent, live attenuated, oral
-    VAL033S: mOPV2
     VAL034L: Diphtheria valence, toxoid, reduced dose
-    VAL034S: d
     VAL035L: COVID-19 valence, plasmid DNA encoding the SARS-CoV-2 spike protein
-    VAL035S: COVID-DNA-S
     VAL036L: Human Papillomavirus valence, VLP nonavalent, types 6, 11, 16, 18, 31,
       33, 45, 52, 58
-    VAL036S: HPV-09-valent
     VAL037L: Meningococcal A valence, unconjugated polysaccharide
-    VAL037S: MPV-A
     VAL038L: COVID-19 valence, replicating measles virus vector encoding the SARS-CoV-2
       spike protein
-    VAL038S: COVID-VVr-S-Meas
     VAL039L: COVID-19 valence, VLP, recombinant spike protein
-    VAL039S: COVID-VLP-rS
     VAL040L: Influenza valence, quadrivalent, non-live, obtained from egg culture,
       split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal
       dose
-    VAL040S: INF-ESUnd4
     VAL041L: Meningococcal A valence, polysaccharide conjugate
-    VAL041S: MCV-A
     VAL042L: Polio valence, unspecified
-    VAL042S: POLIO
     VAL043L: COVID-19 valence, mRNA encoding the SARS-CoV-2 spike protein, authorized
-    VAL043S: COVID-mRNA-S
     VAL044L: Varicella valence, live attenuated, unspecified
-    VAL044S: VZV-LA
     VAL045L: Paratyphoid fever valence, inactivated, whole-cell
-    VAL045S: pTy-I
     VAL046L: Typhus valence
-    VAL046S: Typhus
     VAL047L: Hepatitis B valence, immunoglobulin
-    VAL047S: IgHepB
     VAL048L: Mumps valence, inactivated, whole-virus
-    VAL048S: MUMPS-I
     VAL049L: Haemophilus influenzae type b valence, unconjugated PRP
-    VAL049S: Hib-PS
     VAL050L: COVID-19 valence, non-replicating adenovirus 5 vector encoding the SARS-CoV-2
       spike protein, unspecified
-    VAL050S: COVID-VVnr-S-Ad5
     VAL051L: Avian influenza A(H5N1) valence
-    VAL051S: AH5N1
     VAL052L: Human Papillomavirus valence, VLP quadrivalent, types 6, 11, 16 and 18
-    VAL052S: HPV-04-valent
     VAL053L: COVID-19 valence, protein subunit, unspecified
-    VAL053S: COVID-PS
     VAL054L: COVID-19 valence, non-replicating modified Ankara vaccine vector encoding
       the SARS-CoV-2 spike protein
-    VAL054S: COVID-VVnr-S-MVA
     VAL055L: Measles valence, immunoglobulin
-    VAL055S: MEAS-Ig
     VAL056L: Polio valence, trivalent, inactivated, whole-virus, injectable
-    VAL056S: IPV
     VAL057L: Meningococcal C valence, polysaccharide conjugate
-    VAL057S: MCV-C
     VAL058L: Influenza valence, non-live, obtained from egg culture, split or subunit,
       unspecified
-    VAL058S: INF-ESU
     VAL059L: Influenza valence, quadrivalent, live attenuated, standard dose
-    VAL059S: INF-L4
     VAL060L: Chikungunya virus valence, live attenuated
-    VAL060S: CHIK-LA
     VAL061L: COVID-19 valence, protein subunit, recombinant spike protein, S-2P and
       CpG1018
-    VAL061S: COVID-PS-CpG1018
     VAL062L: Cholera valence, protein subunit, recombinant cholera toxin subunit B
       (rCTB)
-    VAL062S: CHOL-SU-rCTB-O
     VAL063L: Botulism valence, antitoxin
-    VAL063S: BAT
     VAL064L: Influenza valence, quadrivalent, non-live, obtained from egg culture,
       split or subunit, intramuscular or subcutaneous route, non-adjuvanted
-    VAL064S: INF-ESUNA4
     VAL065L: 'Dengue valence, live attenuated, tetravalent recombinant chimeric '
-    VAL065S: RC-TDV
     VAL066L: COVID-19 valence, replicating influenza virus vector encoding the SARS-CoV-2
       spike protein
-    VAL066S: COVID-VVr-S-Influ
     VAL067L: Tetanus valence, toxoid
-    VAL067S: T
     VAL068L: Hepatitis B valence, unspecified
-    VAL068S: HepB
     VAL069L: COVID-19 valence, non-replicating chimpanzee adenoviral vector ChAdOx1
       encoding the SARS-CoV-2 spike protein
-    VAL069S: COVID-VVnr-S-ChAdOx1
     VAL070L: COVID-19 valence, non-replicating adenoviral vector encoding the SARS-CoV-2
       spike protein, unspecified
-    VAL070S: COVID-VVnr-S-Ad
     VAL071L: Typhoid valence, inactivated, whole-cell
-    VAL071S: Ty-I
     VAL072L: Meningococcal B valence, containing fHbp of subfamilies A and B
-    VAL072S: MenB-fHbpAB
     VAL073L: COVID-19 valence, replicating viral vector, antigen presenting cells
-    VAL073S: COVID-VVr+APC
     VAL074L: Influenza valence, quadrivalent, non-live, obtained from egg culture,
       split or subunit, high-dose
-    VAL074S: INF-ESUhd4
     VAL075L: Leptospira icterohaemorrhagiae valence, inactivated, whole-cell
-    VAL075S: Lepto-wI
     VAL076L: COVID-19 valence, inactivated, whole-virion, unspecified
-    VAL076S: COVID-IV
     VAL077L: Mumps valence, live attenuated
-    VAL077S: MUMPS-LA
     VAL078L: Meningococcal Y valence, polysaccharide conjugate
-    VAL078S: MCV-Y
     VAL079L: Rubella valence, live attenuated
-    VAL079S: Rub-LA
     VAL080L: Rabies valence, inactivated, whole virion, unspecified
-    VAL080S: Rab-I
     VAL081L: Cholera valence, unspecified
-    VAL081S: CHOL
     VAL082L: Human Papillomavirus valence, types unspecified
-    VAL082S: HPV
     VAL083L: Diphtheria valence, toxoid, dose unspecified
-    VAL083S: D-d
     VAL084L: COVID-19 valence, replicating vesicular stomatitis virus vector encoding
       the SARS-CoV-2 spike protein
-    VAL084S: COVID-VVr-S-VSV
     VAL085L: Polio type 3 valence, monovalent, live attenuated, oral
-    VAL085S: mOPV3
     VAL086L: COVID-19 valence, live attenuated, unspecified
-    VAL086S: COVID-LA
     VAL087L: Dengue valence, live attenuated, tetravalent chimeric recombinant based
       on the yellow fever 17D vaccine
-    VAL087S: CYD-TDV
     VAL088L: Varicella valence, immunoglobulin
-    VAL088S: VZV-Ig
     VAL089L: Japanese encephalitis valence, inactivated, whole-virus, unspecified
-    VAL089S: JE-I
     VAL090L: Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg),
       dose unspecified
-    VAL090S: rHBsAg
     VAL091L: Typhoid valence, live attenuated, strain Ty21a, oral
-    VAL091S: Ty-LA-O
     VAL092L: Yellow fever valence, live attenuated
-    VAL092S: YF
     VAL093L: Measles valence, inactivated, whole-virus
-    VAL093S: MEAS-I
     VAL094L: Influenza valence, trivalent, non-live, obtained from egg culture, fractionated
       or subunit, intramuscular or subcutaneous, non-adjuvanted, high dose
-    VAL094S: INF-ESUhd3
     VAL095L: COVID-19 valence, replicating Newcastle disease virus vector encoding
       the SARS-CoV-2 spike protein
-    VAL095S: COVID-VVr-S-Nv
     VAL096L: BCG valence
-    VAL096S: BCG
     VAL097L: Diphtheria valence, toxoid, standard dose
-    VAL097S: D
     VAL098L: Meningococcal B valence, four-component
-    VAL098S: 4CMenB
     VAL099L: 'Influenza valence, non-live, obtained from egg culture, pandemic influenza
       H1N1 2009 '
-    VAL099S: INF-Epdm09
     VAL100L: Japanese encephalitis valence, live attenuated virus, strain 14-14-2
-    VAL100S: JE-LA-14-14-2
     VAL101L: COVID-19 valence, non-replicating Newcastle disease virus vector encoding
       the SARS-CoV-2 spike protein
-    VAL101S: COVID-VVnr-S-Nv
     VAL102L: Hepatitis E valence, recombinant peptide
-    VAL102S: HepE
     VAL103L: Haemophilus influenzae type b valence, PRP-conjugated, unspecified
-    VAL103S: Hib-C
     VAL104L: COVID-19 valence, protein subunit, recombinant spike protein
-    VAL104S: COVID-PS-rS
     VAL105L: Pneumococcal valence, unspecified
-    VAL105S: Pneumo
     VAL106L: Rotavirus valence, live attenuated, unspecified
-    VAL106S: ROTA-LA
     VAL107L: COVID-19 valence, protein subunit, recombinant spike protein nanoparticles
-    VAL107S: COVID-PS-rSnp
     VAL108L: Ebola valence, non-replicating viral vector, Ad26.ZEBOV
-    VAL108S: ZebovVRnrAd26
     VAL109L: 'Ebola valence, non-replicating viral vector, Modified Ankara vaccine '
-    VAL109S: Ebola-MVA-BN-Filo
     VAL110L: Tetanus valence, immunoglobulin
-    VAL110S: T-Ig
     VAL111L: Anthrax valence, acellular
-    VAL111S: Bant
     VAL112L: Influenza valence, quadrivalent, inactivated, obtained from cell culture,
       split or subunit, standard dose
-    VAL112S: INF-CC4
     VAL113L: Human Papillomavirus valence, VLP bivalent, types 16 and 18
-    VAL113S: HPV-02-valent
     VAL114L: Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg),
       10 micrograms
-    VAL114S: rHBsAg-10
     VAL115L: Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg),
       20 micrograms
-    VAL115S: rHBsAg-20
     VAL116L: RSV valence, monoclonal antibody, palivizumab
-    VAL116S: RSV-mAb-pal
     VAL117L: Pertussis valence, acellular, dose unspecified
-    VAL117S: Acel
     VAL118L: Meningococcal B valence, unspecified
-    VAL118S: MenB
     VAL119L: COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike
       protein, 50 micrograms
-    VAL119S: Covid-ARNm-S-OMI-XFG-50
     VAL120L: Meningococcal valence, polyvalent, unconjugated polysaccharide
-    VAL120S: MPV-poly
     VAL121L: Polio valence, trivalent, inactivated, whole-virus, oral
-    VAL121S: IPV-O
     VAL122L: Influenza valence, trivalent, inactivated, split or subunit, intramuscular
       or subcutaneous route, non-adjuvanted
-    VAL122S: INF-SUNA3
     VAL123L: Rotavirus valence, pentavalent, live attenuated virus
-    VAL123S: Rota5-L
     VAL124L: Cholera valence, live attenuated, unspecified
-    VAL124S: CHOL-LA
     VAL125L: Hepatitis A valence, inactivated, whole-virus, unspecified
-    VAL125S: HepA-I
     VAL126L: Ebola valence, unspecified
-    VAL126S: Ebola
     VAL127L: Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular
       or subcutaneous route
-    VAL127S: INF-SUimsc4
     VAL128L: Influenza valence, unspecified
-    VAL128S: INF
     VAL129L: Herpes simplex valence, unspecified
-    VAL129S: HSV
     VAL130L: Hepatitis A valence, virosome
-    VAL130S: HepA-VLP
     VAL131L: Plague valence, inactivated, whole-cell
-    VAL131S: Yp-I
     VAL132L: Polio type 1 valence, monovalent, live attenuated, oral
-    VAL132S: mOPV1
     VAL133L: Polio valence, monovalent, live attenuated, oral, unspecified
-    VAL133S: mOPV
     VAL134L: Influenza valence, quadrivalent, inactivated, split or subunit, intradermal
       route, unspecified
-    VAL134S: INF-SUid4
     VAL135L: 'COVID-19 valence, mRNA encoding the SARS-CoV-2 spike protein, in clinical
       trials '
-    VAL135S: COVID-mRNA-S-CT
     VAL136L: Meningococcal W valence, polysaccharide conjugate
-    VAL136S: MCV-W
     VAL137L: Meningococcal C valence, unconjugated
-    VAL137S: MPV-C
     VAL138L: Meningococcal W valence, unconjugated
-    VAL138S: MPV-W
     VAL139L: Meningococcal Y valence, unconjugated polysaccharide
-    VAL139S: MPV-Y
     VAL140L: Influenza valence, live attenuated, unspecified
-    VAL140S: INF-L
     VAL141L: Rotavirus valence, live attenuated, RIX4414 monovalent
-    VAL141S: ROTA-LA-mv-RIX4414
     VAL142L: Hepatitis A valence, monovalent, inactivated, whole-virus, paediatric
       dose
-    VAL142S: HepA-mv-PED
     VAL143L: Hepatitis A valence, bivalent (hepatitis A and B), inactivated, whole-virus,
       paediatric dose
-    VAL143S: HepA-bv-PED
     VAL144L: Hepatitis A valence, monovalent, inactivated, whole-virus, adult dose
-    VAL144S: HepA-mv-ADU
     VAL145L: Hepatitis A valence, bivalent (hepatitis A and B), inactivated, whole-virus,
       adult dose
-    VAL145S: HepA-bv-ADU
     VAL146L: Brucella valence, inactivated, whole-cell
-    VAL146S: Bruc-I
     VAL147L: Brucella valence, protein subunit, antigen P.I. (phenol-insoluble)
-    VAL147S: Bruc-IP
     VAL148L: RSV valence, immunoglobulin
-    VAL148S: RSV-IG
     VAL149L: COVID-19 valence, Omicron variant, mRNA encoding the SARS-CoV-2 spike
       protein
-    VAL149S: COVID-mRNA-S-OMI
     VAL150L: Dengue valence, unspecified
-    VAL150S: Den
     VAL151L: Tularemia valence, unspecified
-    VAL151S: Tular
     VAL152L: Influenza valence, obtained from egg culture, inactivated, whole-virus,
       unspecified
-    VAL152S: INF-EI
     VAL153L: Haemophilus influenzae type b valence, PRP conjugated to diphtheria toxoid
-    VAL153S: PRP-D
     VAL154L: Haemophilus influenzae type b valence, PRP conjugated to mutant diphtheria
       toxin CRM197
-    VAL154S: HbOC
     VAL155L: Haemophilus influenzae type b valence, PRP conjugated to outer membrane
       protein of Neisseria meningitidis serogroup B
-    VAL155S: PRP-OMP
     VAL156L: Haemophilus influenzae type b valence, PRP conjugated to tetanus toxoid
-    VAL156S: PRP-T
     VAL157L: COVID-19 valence, unspecified
-    VAL157S: COVID
     VAL158L: Hepatitis B valence, plasma derived
-    VAL158S: pHBsAg
     VAL159L: Shingles valence, subunit
-    VAL159S: Shingles-SU
     VAL160L: Shingles valence, unspecified
-    VAL160S: Shingles
     VAL161L: Meningococcus B valence, multicomponent, unspecified
-    VAL161S: MenB-mc
     VAL162L: COVID-19 valence, replicating virus vector, unspecified
-    VAL162S: COVID-VVr
     VAL163L: COVID-19 valence, non-replicating viral vector, unspecified
-    VAL163S: COVID-VVnr
     VAL164L: COVID-19 valence, non live, unspecified
-    VAL164S: COVID-non-live
     VAL165L: COVID-19 valence, live, unspecified
-    VAL165S: COVID-live
     VAL166L: Influenza valence, trivalent, inactivated, split or subunit, intramuscular
       or subcutaneous route, pediatric dose
-    VAL166S: INF-SUped3
     VAL167L: COVID-19 valence, non-replicating viral vector, antigen presenting cells
-    VAL167S: COVID-VVnr+APC
     VAL168L: COVID-19 valence, mRNA, unspecified
-    VAL168S: COVID-mRNA
     VAL169L: COVID-19 valence, self-amplifying mRNA (SAM)
-    VAL169S: COVID-mRNA-SAM
     VAL170L: Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg),
       5 micrograms
-    VAL170S: rHepB-05
     VAL171L: Venezuelan equine encephalitis valence, unspecified
-    VAL171S: VEE
     VAL172L: Q fever (Coxiella burnetii) valence, unspecified
-    VAL172S: Cbur
     VAL173L: Argentine hemorrhagic fever valence, Junin virus, live attenuated
-    VAL173S: Junin-LA
     VAL174L: Hantavirus valence, unspecified
-    VAL174S: HAN
     VAL175L: Leishmaniasis valence, unspecified
-    VAL175S: Leish
     VAL176L: Human parainfluenza viruses valence, unspecified
-    VAL176S: HPIVs
     VAL177L: Haemophilus influenzae type b valence, unspecified
-    VAL177S: Hib
     VAL178L: COVID-19 valence, Omicron variant BA.1, mRNA encoding the SARS-CoV-2
       spike protein, 25 micrograms
-    VAL178S: COVID-mRNA-S-OMI-BA.1-25
     VAL179L: COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike
       protein, 25 micrograms
-    VAL179S: Covid-ARNm-S-OMI-XFG-25
     VAL180L: COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike
       protein, 100 micrograms
-    VAL180S: COVID-mRNA-S-ORI-100
     VAL181L: COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike
       protein, 25 micrograms
-    VAL181S: COVID-mRNA-S-ORI-25
     VAL182L: Measles valence, unspecified
-    VAL182S: MEAS
     VAL183L: Mumps valence, unspecified
-    VAL183S: MUMPS
     VAL184L: Pneumococcus valence, conjugated polysaccharide, monovalent
-    VAL184S: PCV
     VAL185L: Pneumococcal valence, polysaccharide unconjugated, unspecified
-    VAL185S: PPSV
     VAL186L: Pneumococcal valence, polysaccharide conjugate, serotype 1
-    VAL186S: PCV-01
     VAL187L: Pneumococcal valence, polysaccharide conjugate, serotype 3
-    VAL187S: PCV-03
     VAL188L: Pneumococcal valence, polysaccharide conjugate, serotype 4
-    VAL188S: PCV-04
     VAL189L: Pneumococcal valence, polysaccharide conjugate, serotype 5
-    VAL189S: PCV-05
     VAL190L: Pneumococcal valence, polysaccharide conjugate, serotype 6A
-    VAL190S: PCV-06A
     VAL191L: Pneumococcal valence, polysaccharide conjugate, serotype 6B
-    VAL191S: PCV-06B
     VAL192L: Pneumococcal valence, polysaccharide conjugate, serotype 7F
-    VAL192S: PCV-07F
     VAL193L: Pneumococcal valence, polysaccharide conjugate, serotype 8
-    VAL193S: PCV-08
     VAL194L: Pneumococcal valence, polysaccharide conjugate, serotype 9V
-    VAL194S: PCV-09V
     VAL195L: Pneumococcal valence, polysaccharide conjugate, serotype 10A
-    VAL195S: PCV-10A
     VAL196L: Pneumococcal valence, polysaccharide conjugate, serotype 11A
-    VAL196S: PCV-11A
     VAL197L: Pneumococcal valence, polysaccharide conjugate, serotype 12F
-    VAL197S: PCV-12F
     VAL198L: Pneumococcal valence, polysaccharide conjugate, serotype 14
-    VAL198S: PCV-14
     VAL199L: Pneumococcal valence, polysaccharide conjugate, serotype 15B
-    VAL199S: PCV-15B
     VAL200L: Pneumococcal valence, polysaccharide conjugate, serotype 18C
-    VAL200S: PCV-18C
     VAL201L: Pneumococcal valence, polysaccharide conjugate, serotype 19A
-    VAL201S: PCV-19A
     VAL202L: Pneumococcal valence, polysaccharide conjugate, serotype 19F
-    VAL202S: PCV-19F
     VAL203L: Pneumococcal valence, polysaccharide conjugate, serotype 22F
-    VAL203S: PCV-22F
     VAL204L: Pneumococcal valence, polysaccharide conjugate, serotype 23F
-    VAL204S: PCV-23F
     VAL205L: Pneumococcal valence, polysaccharide conjugate, serotype 33F
-    VAL205S: PCV-33F
     VAL206L: Pneumococcal valence, polysaccharide unconjugated, serotype 1
-    VAL206S: PPSV-01
     VAL207L: Pneumococcal valence, polysaccharide unconjugated, serotype 2
-    VAL207S: PPSV-02
     VAL208L: Pneumococcal valence, polysaccharide unconjugated, serotype 3
-    VAL208S: PPSV-03
     VAL209L: Pneumococcal valence, polysaccharide unconjugated, serotype 4
-    VAL209S: PPSV-04
     VAL210L: Pneumococcal valence, polysaccharide unconjugated, serotype 5
-    VAL210S: PPSV-05
     VAL211L: Pneumococcal valence, polysaccharide unconjugated, serotype 6B
-    VAL211S: PPSV-06B
     VAL212L: Pneumococcal valence, polysaccharide unconjugated, serotype 7F
-    VAL212S: PPSV-07F
     VAL213L: Pneumococcal valence, polysaccharide unconjugated, serotype 8
-    VAL213S: PPSV-08
     VAL214L: Pneumococcal valence, polysaccharide unconjugated, serotype 9N
-    VAL214S: PPSV-09N
     VAL215L: Pneumococcal valence, polysaccharide unconjugated, serotype 9V
-    VAL215S: PPSV-09V
     VAL216L: Pneumococcal valence, polysaccharide unconjugated, serotype 10A
-    VAL216S: PPSV-10A
     VAL217L: Pneumococcal valence, polysaccharide unconjugated, serotype 11A
-    VAL217S: PPSV-11A
     VAL218L: Pneumococcal valence, polysaccharide unconjugated, serotype 12F
-    VAL218S: PPSV-12F
     VAL219L: Pneumococcal valence, polysaccharide unconjugated, serotype 14
-    VAL219S: PPSV-14
     VAL220L: Pneumococcal valence, polysaccharide unconjugated, serotype 15B
-    VAL220S: PPSV-15B
     VAL221L: Pneumococcal valence, polysaccharide unconjugated, serotype 15F
-    VAL221S: PPSV-15F
     VAL222L: Pneumococcal valence, polysaccharide unconjugated, serotype 17F
-    VAL222S: PPSV-17F
     VAL223L: Pneumococcal valence, polysaccharide unconjugated, serotype 18C
-    VAL223S: PPSV-18C
     VAL224L: Pneumococcal valence, polysaccharide unconjugated, serotype 19A
-    VAL224S: PPSV-19A
     VAL225L: Pneumococcal valence, polysaccharide unconjugated, serotype 19F
-    VAL225S: PPSV-19F
     VAL226L: Pneumococcal valence, polysaccharide unconjugated, serotype 20
-    VAL226S: PPSV-20
     VAL227L: Pneumococcal valence, polysaccharide unconjugated, serotype 22F
-    VAL227S: PPSV-22F
     VAL228L: Pneumococcal valence, polysaccharide unconjugated, serotype 23F
-    VAL228S: PPSV-23F
     VAL229L: Pneumococcal valence, polysaccharide unconjugated, serotype 33F
-    VAL229S: PPSV-33F
     VAL230L: Influenza valence, quadrivalent, inactivated, split or subunit, unspecified
-    VAL230S: INF-SU4
     VAL231L: Influenza valence, trivalent, inactivated, split or subunit, intramuscular
       or subcutaneous route
-    VAL231S: INF-SUimsc3
     VAL232L: Pneumococcal valence, polysaccharide unconjugated, serotype 6A
-    VAL232S: PPSV-06A
     VAL233L: Pneumococcal valence, polysaccharide unconjugated, serotype 25
-    VAL233S: PPSV-25
     VAL234L: Meningococcal valence, unspecified
-    VAL234S: Men
     VAL235L: Meningococcal valence, polyvalent, conjugate polysaccharide
-    VAL235S: MCV-poly
     VAL236L: Human Papillomavirus valence, VLP monovalent
-    VAL236S: HPV-mono
     VAL237L: Human Papillomavirus valence, VLP polyvalent
-    VAL237S: HPV-poly
     VAL238L: Human Papillomavirus valence, VLP, type 6
-    VAL238S: HPV-06
     VAL239L: Human Papillomavirus valence, VLP , type 11
-    VAL239S: HPV-11
     VAL240L: Human Papillomavirus valence, VLP, type 16
-    VAL240S: HPV-16
     VAL241L: Human Papillomavirus valence, VLP, type 18
-    VAL241S: HPV-18
     VAL242L: Human Papillomavirus valence, VLP, type 31
-    VAL242S: HPV-31
     VAL243L: Human Papillomavirus valence, VLP, type 33
-    VAL243S: HPV-33
     VAL244L: Human Papillomavirus valence, VLP, type 58
-    VAL244S: HPV-58
     VAL245L: Human Papillomavirus valence, VLP, type 52
-    VAL245S: HPV-52
     VAL246L: Human Papillomavirus valence, VLP, type 45
-    VAL246S: HPV-45
     VAL247L: Japanese encephalitis valence, live attenuated chimeric virus
-    VAL247S: JE-LAR
     VAL248L: Japanese encephalitis valence, live attenuated virus, unspecified
-    VAL248S: JE-LA
     VAL249L: Japanese encephalitis valence, unspecified
-    VAL249S: JE
     VAL250L: Japanese encephalitis valence, inactivated, whole-virus, prepared on
       murine brain tissue
-    VAL250S: JE-I-mb
     VAL251L: Japanese encephalitis valence, inactivated, whole-virus, derived from
       Vero cells
-    VAL251S: JE-I-Vero
     VAL252L: Rabies immunoglobulin, human origin
-    VAL252S: RIG-hu
     VAL253L: Rabies immunoglobulin valence, equine origin
-    VAL253S: eRIG
     VAL254L: Rabies valence, inactivated, whole virion, semple type, prepared from
       goat or sheep brain tissue infected with rabies virus, contains myelin
-    VAL254S: Rab-I-Semple
     VAL255L: Rabies valence, inactivated, whole virion, Fuenzalida type, prepared
       from suckling mouse brain tissue infected with rabies virus, decreased myelin
       content
-    VAL255S: Rab-I-Fuenzalida
     VAL256L: Rabies valence, inactivated, whole virion, prepared from animal brain
       tissue infected with rabies virus, unspecified
-    VAL256S: Rab-I-NervousTissue
     VAL257L: Rabies valence, inactivated, whole virion, cell culture-based, unspecified
-    VAL257S: Rab-I-CC
     VAL258L: "Rabies valence, inactivated, whole virion, cell culture-based, human\
       \ diploid cell vaccine (HDCV) MRC-5, inactivation with \xDF-propiolactone"
-    VAL258S: Rab-I-HDCV
     VAL259L: "Rabies valence, inactivated, whole virion, purified chick embryo cell\
       \ vaccine (PCECV), obtained by growing the fixed rabies virus strain Flury LEP-25\
       \ in primary cultures of chick fibroblasts, virus inactivated with \xDF-propiolactone"
-    VAL259S: Rab-I-PCEC
     VAL260L: "Rabies valence, inactivated, whole virion, cell culture-based, purified\
       \ Vero cell rabies vaccine (PVRV), Wistar strain, inactivation with \xDF-propiolactone"
-    VAL260S: Rab-I-PVRV
     VAL261L: Rabies valence, inactivated, whole virion, cell culture-based, primary
       hamster kidney cell vaccine (PHKCV), Beijing strain, inactivation with formalin
-    VAL261S: Rab-I-PHKCV
     VAL262L: Rabies valence, inactivated, whole virion, embryonated egg-based vaccine
       (EEV), unspecified
-    VAL262S: Rab-I-EEV
     VAL263L: "Rabies valence, inactivated, whole virion, purified duck embryo vaccine\
       \ (PDEV), inactivation by \xDF-propiolactone"
-    VAL263S: Rab-I-PDEV
     VAL264L: COVID-19 valence, inactivated, whole-virion, authorized
-    VAL264S: COVID-IV-Auth
     VAL265L: COVID-19 valence, inactivated, whole-virion, clinical trial
-    VAL265S: COVID-IV-CT
     VAL266L: Meningococcal C valence, polysaccharide tetanus toxoid conjugated
-    VAL266S: MCV-C-T
     VAL267L: Meningococcal C valence, polysaccharide diphtheria toxoid conjugated
-    VAL267S: MCV-C-D
     VAL268L: Meningococcal C valence, polysaccharide conjugated to CRM197 protein
-    VAL268S: MCV-C-CRM
     VAL269L: Meningococcal A valence, polysaccharide conjugated to CRM197 Protein
-    VAL269S: MCV-A-CRM
     VAL270L: Meningococcal A valence, polysaccharide diphtheria toxoid conjugated
-    VAL270S: MCV-A-D
     VAL271L: Meningococcal A valence, polysaccharide conjugate valence to tetanus
       toxoid
-    VAL271S: MCV-A-T
     VAL272L: Meningococcal W valence, polysaccharide tetanus toxoid conjugated
-    VAL272S: MCV-W-T
     VAL273L: Meningococcal W valence, polysaccharide diphtheria toxoid conjugated
-    VAL273S: MCV-W-D
     VAL274L: Meningococcal W valence, polysaccharide conjugated to CRM197 protein
-    VAL274S: MCV-W-CRM
     VAL275L: Meningococcal Y valence, polysaccharide conjugated to CRM197 protein
-    VAL275S: MCV-Y-CRM
     VAL276L: Meningococcal Y valence, polysaccharide tetanus toxoid conjugated
-    VAL276S: MCV-Y-T
     VAL277L: Meningococcal Y valence, polysaccharide diphtheria toxoid conjugated
-    VAL277S: MCV-Y-D
     VAL278L: Adenovirus valence, live attenuated, oral route, unspecified
-    VAL278S: AD-LA
     VAL279L: Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular
       or subcutaneous route, pediatric dose
-    VAL279S: INF-SUped4
     VAL280L: Botulism valence, toxoid
-    VAL280S: BT
     VAL281L: Adenovirus type 7 valence, live attenuated, oral route
-    VAL281S: AD7-LA
     VAL282L: Adenovirus type 4 valence, live attenuated, oral route
-    VAL282S: AD4-LA
     VAL283L: Hepatitis A valence, inactivated, whole-virus, paediatric dose, unspecified
-    VAL283S: HepA-PED
     VAL284L: Hepatitis A valence, inactivated, whole-virus, adult dose, unspecified
-    VAL284S: HepA-ADU
     VAL285L: Influenza valence, trivalent, inactivated, obtained from cell culture,
       split or subunit, standard dose
-    VAL285S: INF-CC3
     VAL286L: Hepatitis A valence, live attenuated, unspecified
-    VAL286S: HepA-LA
     VAL287L: Influenza valence, quadrivalent, recombinant
-    VAL287S: INF-R4
     VAL288L: Hepatitis A valence, unspecified
-    VAL288S: HepA
     VAL289L: COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike
       protein, 10 micrograms
-    VAL289S: ' COVID-mRNA-S-ORI-10'
     VAL290L: COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike
       protein, 30 micrograms
-    VAL290S: COVID-mRNA-S-ORI-30
     VAL291L: Hepatitis B valence, Recombinant, three antigens (HbS Ag, pre-S1, and
       pre-S2)
-    VAL291S: HBs-r-3Ag
     VAL292L: COVID-19 valence, non-replicating adenovirus 26 vector encoding the SARS-CoV-2
       spike protein, in clinical trials
-    VAL292S: COVID-VVnr-S-Ad26-CT
     VAL293L: Anthrax immunoglobulin valence
-    VAL293S: Anthrax-Ig
     VAL294L: Smallpox valence, first-generation, live attenuated
-    VAL294S: POX-1G
     VAL295L: Smallpox valence, second-generation, live attenuated
-    VAL295S: POX-2G
     VAL296L: Smallpox valence, non-replicating, third-generation, Modified Ankara
       vaccine
-    VAL296S: POX-3G-MVA
     VAL297L: Meningococcal A valence, unspecified
-    VAL297S: MenA
     VAL298L: Meningococcal C valence, unspecified
-    VAL298S: MenC
     VAL299L: Meningococcal Y valence, unspecified
-    VAL299S: MenY
     VAL300L: Meningococcal W valence, unspecified
-    VAL300S: MenW
     VAL301L: Influenza valence, trivalent, recombinant
-    VAL301S: INF-R3
     VAL302L: COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike
       protein, 50 micrograms
-    VAL302S: COVID-mRNA-S-ORI-50
     VAL303L: COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike
       protein
-    VAL303S: COVID-mRNA-S-ORI
     VAL304L: COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike
       protein, 15 micrograms
-    VAL304S: COVID-mRNA-S-ORI-15
     VAL305L: COVID-19 valence, Omicron variant BA.1, mRNA encoding the SARS-CoV-2
       spike protein, 15 micrograms
-    VAL305S: COVID-mRNA-S-OMI-BA.1-15
     VAL306L: COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike
       protein, 3 micrograms
-    VAL306S: COVID-mRNA-S-ORI-3
     VAL307L: COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2
       spike protein,15 micrograms
-    VAL307S: COVID-mRNA-S-OMI-BA.4/5-15
     VAL308L: COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2
       spike protein, 25 micrograms
-    VAL308S: COVID-mRNA-S-OMI-BA.4/5-25
     VAL309L: COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2
       spike protein, 5 micrograms
-    VAL309S: COVID-mRNA-S-OMI-BA.4/5-5
     VAL310L: COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike
       protein, 5 micrograms
-    VAL310S: COVID-mRNA-S-ORI-5
     VAL311L: Malaria valence, R21/Matrix-M pre-erythrocytic
-    VAL311S: R21/Matrix-M
     VAL312L: Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain
-    VAL312S: TBE-K23
     VAL313L: "Tick-borne encephalitis valence, inactivated, whole-virus, Neud\xF6\
       rfl strain, dose not specified"
-    VAL313S: TBE-Neudorfl
     VAL314L: "Tick-borne encephalitis valence, inactivated, whole-virus, Neud\xF6\
       rfl strain, adult dose"
-    VAL314S: TBE-Neudorfl-ADU
     VAL315L: "Tick-borne encephalitis valence, inactivated, whole-virus, Neud\xF6\
       rfl strain, paediatric dose"
-    VAL315S: TBE-Neudorfl-PED
     VAL316L: RSV valence, protein subunit, recombinant, RSVPreF3 antigen derived from
       F protein
-    VAL316S: RSV-PreF3
     VAL317L: RSV valence, antibody, unspecified
-    VAL317S: RSV-Ab
     VAL318L: RSV valence, vaccine, unspecified
-    VAL318S: RSV-V
     VAL319L: COVID-19 valence, non-replicating adenoviral vector encoding the SARS-CoV-2
       spike protein, inhalation vaccine, unspecified
-    VAL319S: COVID-VVnr-S-INH
     VAL320L: RSV valence, monoclonal antibody, unspecified
-    VAL320S: RSV-mAb
     VAL321L: RSV valence, monoclonal antibody, nirsevimab
-    VAL321S: VRS-mAb-nir
     VAL322L: RSV valence, protein subunit, recombinant, glycoprotein F subtypes A
       and B
-    VAL322S: RSV-PreFAB
     VAL323L: COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2
       spike protein, 30 micrograms
-    VAL323S: COVID-mRNA-S-OMI-XBB.1.5-30
     VAL324L: COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2
       spike protein, 10 micrograms
-    VAL324S: COVID-mRNA-S-OMI-XBB.1.5-10
     VAL325L: COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2
       spike protein, 3 micrograms
-    VAL325S: COVID-mRNA-S-OMI-XBB.1.5-3
     VAL326L: COVID-19 valence, Omicron BA.4/BA.5 variant, SARS-CoV-2 spike protein
       mRNA 19, 1.5 micrograms
-    VAL326S: COVID-mRNA-S-OMI-BA.4/5-1.5
     VAL327L: COVID-19 valence, original virus, SARS-CoV-2 peak protein-encoding mRNA,
       1.5 micrograms
-    VAL327S: COVID-mRNA-S-ORI-1.5
     VAL328L: COVID-19 valence, protein subunit, recombinant spike protein nanoparticles,
       Omicron XBB.1.5 subvariant
-    VAL328S: COVID-PS-rSnp-XBB
     VAL329L: COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2
       spike protein, 50 micrograms
-    VAL329S: COVID-mRNA-S-OMI-XBB.1.5-50
     VAL330L: COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2
       spike protein, 25 micrograms
-    VAL330S: COVID-mRNA-S-OMI-XBB.1.5-25
     VAL331L: CMV valence, immunoglobulin
-    VAL331S: CMV-Ig
     VAL332L: Hepatitis C valence, unspecified
-    VAL332S: HepC
     VAL333L: HIV valence, unspecified
-    VAL333S: HIV
     VAL334L: Melanoma valence, unspecified
-    VAL334S: MEL
     VAL335L: Streptococcus pyogenes valence, unspecified
-    VAL335S: SPYO
     VAL336L: Rift Valley Fever valence, unspecified
-    VAL336S: RVF
     VAL337L: Smallpox valence, immunoglobulin
-    VAL337S: POX-Ig
     VAL338L: RSV valence, unspecified
-    VAL338S: RSV
     VAL339L: Borrelia burgdorferi valence, unspecified
-    VAL339S: Lyme
     VAL340L: Anthrax valence, unspecified
-    VAL340S: Anthrax
     VAL341L: Escherichia coli valence, unspecified
-    VAL341S: Eco
     VAL342L: "Klebsiella pneumoni\xE6 valence, unspecified"
-    VAL342S: Kpn
     VAL343L: Enterococcus faecalis valence, unspecified
-    VAL343S: Efa
     VAL344L: Proteus vulgaris valence, unspecified
-    VAL344S: Pvu
     VAL345L: Urinary tract infections valence, unspecified
-    VAL345S: UTI
     VAL346L: Enterovirus A71 valence
-    VAL346S: EV71
     VAL347L: Leptospira canicola valence, inactivated, whole-cell
-    VAL347S: Lepto-ca
     VAL348L: Leptospira pomona valence, inactivated whole-cell
-    VAL348S: Lepto-po
     VAL349L: Influenza valence, trivalent, inactivated, fractionated or subunit, adjuvanted
-    VAL349S: INF-SUAnd3
     VAL350L: Influenza valence, quadrivalent, inactivated, fractionated or subunit,
       adjuvanted, normal dose
-    VAL350S: INF-SUAnd4
     VAL351L: Influenza valence, trivalent, virosomal, unspecified
-    VAL351S: INF-V3
     VAL352L: Influenza valence, quadrivalent, virosomal, unspecified
-    VAL352S: INF-V4
     VAL353L: Pneumococcal valence, polysaccharide conjugate, serotype 2
-    VAL353S: PCV-02
     VAL354L: Pneumococcal valence, polysaccharide conjugate, serotype 9N
-    VAL354S: PCV-9N
     VAL355L: Pneumococcal valence, polysaccharide conjugate, serotype 17F
-    VAL355S: PCV-17F
     VAL356L: Pneumococcal valence, polysaccharide conjugate, serotype 20
-    VAL356S: PCV-20
     VAL357L: Cholera valence, live attenuated, oral
-    VAL357S: CHOL-LA-O
     VAL358L: Botulism valence, immunoglobulin
-    VAL358S: BIG
     VAL359L: Cholera valence, inactivated, whole-cell, unspecified
-    VAL359S: CHOL-I
     VAL360L: Influenza valence, inactivated, obtained from cell culture, split or
       subunit, standard dose, unspecified
-    VAL360S: INF-CC
     VAL361L: Influenza valence, recombinant, unspecified
-    VAL361S: INF-R
     VAL362L: Influenza valence, virosomal, unspecified
-    VAL362S: INF-V
     VAL363L: Influenza valence, trivalent, VLP, unspecified
-    VAL363S: INF-VLP3
     VAL364L: Influenza valence, non-live, unspecified
-    VAL364S: INF-NL
     VAL365L: Influenza valence, non-live, obtained from egg culture, unspecified
-    VAL365S: INF-E
     VAL366L: Influenza valence, RNA-based, unspecified
-    VAL366S: INF-RNA
     VAL367L: Cholera valence, V. cholerae O1, inactivated, whole-cell, oral
-    VAL367S: CHOL-I-O1-O
     VAL368L: Cholera valence, V. cholerae O139, inactivated, whole-cell, oral
-    VAL368S: CHOL-I-O139-O
     VAL369L: Pneumococcal valence, polysaccharide conjugate, serotype 15A
-    VAL369S: PCV-15A
     VAL370L: Pneumococcal valence, polysaccharide conjugate, serotype 15C
-    VAL370S: PCV-15C
     VAL371L: Pneumococcal valence, polysaccharide conjugate, serotype 16C
-    VAL371S: PCV-16F
     VAL372L: Pneumococcal valence, polysaccharide conjugate, serotype 20A
-    VAL372S: PCV-20A
     VAL373L: Pneumococcal valence, polysaccharide conjugate, serotype 23A
-    VAL373S: PCV-23A
     VAL374L: Pneumococcal valence, polysaccharide conjugate, serotype 23B
-    VAL374S: PCV-23B
     VAL375L: Pneumococcal valence, polysaccharide conjugate, serotype 24F
-    VAL375S: PCV-24F
     VAL376L: Pneumococcal valence, polysaccharide conjugate, serotype 31
-    VAL376S: PCV-31
     VAL377L: Pneumococcal valence, polysaccharide conjugate, serotype 35B
-    VAL377S: PCV-35B
     VAL378L: Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg),
       15 micrograms
-    VAL378S: rHBsAg-15
     VAL379L: COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2
       spike protein, 30 micrograms
-    VAL379S: COVID-mRNA-S-OMI-JN.1-30
     VAL380L: COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2
       spike protein, 10 micrograms
-    VAL380S: COVID-mRNA-S-OMI-JN.1-10
     VAL381L: COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2
       spike protein, 3 micrograms
-    VAL381S: COVID-mRNA-S-OMI-JN.1-3
     VAL382L: COVID-19 valence, protein subunit, recombinant spike protein in nanoparticles,
       sub-variant Omicron JN.1
-    VAL382S: COVID-PS-rSnp-JN.1
     VAL383L: RSV valence, Single-stranded 5' capped mRNA encoding the RSV glycoprotein
       F stabilized in the prefusion conformation
-    VAL383S: mRSV
     VAL384L: Leprosy valence, unspecified
-    VAL384S: LEP
     VAL385L: Avian influenza A(H5N8) valence
-    VAL385S: AH5N8
     VAL386L: Avian influenza A(H5) valence, unspecified
-    VAL386S: AH5
     VAL387L: COVID-19 valence,  Omicron variant JN.1, mRNA encoding the SARS-CoV-2
       spike protein, 25 micrograms
-    VAL387S: COVID-mRNA-S-OMI-JN.1-25
     VAL388L: COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2
       spike protein, 50 micrograms
-    VAL388S: COVID-mRNA-S-OMI-JN.1-50
     VAL389L: Pseudomonas aeruginosa valence, 7 immunotypes
-    VAL389S: PAER7
     VAL390L: Chikungunya virus valence, unspecified
-    VAL390S: CHIK
     VAL391L: Chikungunya virus valence, VLP
-    VAL391S: Chik-VLP
     VAL392L: Avian influenza valence, mRNA
-    VAL392S: AH5N1-RNA
     VAL393L: COVID-19 valence, Omicron BA.1 variant, mRNA encoding the SARS-CoV-2
       spike protein
-    VAL393S: COVID-mRNA-S-OMI-BA.1
     VAL394L: COVID-19 valence, Omicron variant BA.4/BA.5, mRNA encoding the SARS-CoV-2
       spike protein
-    VAL394S: COVID-mRNA-S-OMI-BA.4/5
     VAL395L: COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2
       spike protein
-    VAL395S: COVID-mRNA-S-OMI-JN.1
     VAL396L: COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2
       spike protein
-    VAL396S: COVID-mRNA-S-OMI-XBB.1.5
     VAL397L: COVID-19 valence, non-replicating viral vector encoding the peak protein
       of SARS-CoV-2, unspecified
-    VAL397S: COVID-VVnr-S
     VAL398L: COVID-19 valence, replicating viral vector, virus encoding the spike
       protein of SARS-CoV-2
-    VAL398S: COVID-VVr-S
     VAL399L: Typhoid valence, Vi antigen conjugated to tetanus toxoid
-    VAL399S: Ty-ViC-T
     VAL400L: Typhoid valence, Vi antigen conjugated to CRM197 protein
-    VAL400S: Ty-ViC-CRM
     VAL401L: Japanese encephalitis valence, inactivated, whole-virus, derived from
       Vero cells, 3 micrograms
-    VAL401S: EJ-I-Vero-3
     VAL402L: Japanese encephalitis valence, inactivated, whole-virus, derived from
       Vero cells, 6 micrograms
-    VAL402S: EJ-I-Vero-6
     VAL403L: Meningococcal X valence, unspecified
-    VAL403S: MenX
     VAL404L: Meningococcal X valence, polysaccharide conjugate
-    VAL404S: MCV-X
     VAL405L: Influenza valence, live attenuated, pandemic influenza H1N1 2009
-    VAL405S: INF-pdm09-V
     VAL406L: COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2
       spike protein
-    VAL406S: COVID-mRNA-S-OMI-KP.2
     VAL407L: COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2
       spike protein, 3 micrograms
-    VAL407S: COVID-mRNA-S-OMI-KP.2-3
     VAL408L: COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2
       spike protein, 10 micrograms
-    VAL408S: COVID-mRNA-S-OMI-KP.2-10
     VAL409L: COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2
       spike protein, 30 micrograms
-    VAL409S: COVID-mRNA-S-OMI-KP.2-30
     VAL410L: COVID-19 valence, protein subunit, recombinant N protein
-    VAL410S: COVID-PS-rN
     VAL411L: COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2
       spike protein, 50 micrograms
-    VAL411S: COVID-mRNA-S-OMI-BA.4/5-50
     VAL412L: COVID-19 valence, Omicron variant BA.1, mRNA encoding the SARS-CoV-2
       spike protein, 50 micrograms
-    VAL412S: COVID-mRNA-S-OMI-BA.1-50
     VAL413L: COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron
       XBB.1.16 subvariant
-    VAL413S: COVID-PS-rRBD-XBB.1.16
     VAL414L: Diphtheria valence, unspecified
-    VAL414S: DIPH
     VAL415L: Anthrax valence, acellular, adjuvanted
-    VAL415S: BantAdj
     VAL416L: COVID-19 valence, protein subunit, recombinant spike protein, adjuvanted
-    VAL416S: COVID-PS-rS-A
     VAL417L: COVID-19 valence, Omicron BA.2 variant, mRNA encoding the SARS-CoV-2
       spike protein
-    VAL417S: COVID-mRNA-S-OMI-BA.2
     VAL418L: Smallpox valence, unspecified
-    VAL418S: POX
     VAL419L: Botulism valence, unspecified
-    VAL419S: BOT
     VAL420L: Botulism valence, passive immunization products
-    VAL420S: BOT-passive
     VAL421L: Argentine hemorrhagic fever valence, Junin virus, unspecified
-    VAL421S: Junin
     VAL422L: Plague valence, unspecified
-    VAL422S: Yp
     VAL423L: COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2
       spike protein
-    VAL423S: Covid-ARNm-S-OMI-LP.8.1
     VAL424L: COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2
       spike protein, 30 micrograms
-    VAL424S: Covid-ARNm-S-OMI-LP.8.1-30
     VAL425L: COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2
       spike protein, 10 micrograms
-    VAL425S: Covid-ARNm-S-OMI-LP.8.1-10
     VAL426L: COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2
       spike protein, 3 micrograms
-    VAL426S: Covid-ARNm-S-OMI-LP.8.1-3
     VAL427L: COVID-19 valence, mRNA encoding a fragment of the SARS-CoV-2 spike protein
-    VAL427S: Covid-ARNm-S-frag
     VAL428L: Valence COVID-19, mRNA encoding the NTD and RBD fragments of the spike
       protein, Omicron LP.8.1 variant
-    VAL428S: Covid-ARNm-S-frag-OMI-LP.8.1
     VAL429L: RSV valence, monoclonal antibody, clesrovimab
-    VAL429S: VRS-mAb-cle
     VAL430L: Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain,
       0,25 mL
-    VAL430S: TBE-K23-25
     VAL431L: Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain,
       0,50 mL
-    VAL431S: TBE-K23-50
     VAL432L: COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2
       spike protein, 25 micrograms
-    VAL432S: Covid-ARNm-S-OMI-LP.8.1-25
     VAL433L: COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2
       spike protein, 50 micrograms.
-    VAL433S: Covid-ARNm-S-OMI-LP.8.1-50
     VAL434L: COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron
       LP.8.1 subvariant
-    VAL434S: Covid-SP-rRBD-LP.8.1
     VAL435L: Dengue valence, native attenuated strain
-    VAL435S: DENV2LAV
     VAL436L: Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-1
-    VAL436S: DENV1rCH
     VAL437L: Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-3
-    VAL437S: DENV3rCH
     VAL438L: Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-4
-    VAL438S: DENV4rCH
     VAL439L: COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2
       spike protein
-    VAL439S: Covid-ARNm-S-OMI-XFG
     VAL440L: COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike
       protein, 10 micrograms
-    VAL440S: Covid-ARNm-S-OMI-XFG-10
     VAL441L: COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike
       protein, 30 micrograms
-    VAL441S: Covid-ARNm-S-OMI-XFG-30
     VAL442L: Melanoma valence, messenger RNA, individualized neoantigens
-    VAL442S: MEL-ARNI
     VAL443L: COVID-19 valence, protein subunit, recombinant spike protein in nanoparticles,
       sub-variant Omicron XFG
-    VAL443S: Covid-SP-rSnp-XFG
     VAL444L: COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron
       XFG subvariant
-    VAL444S: Covid-SP-rRBD-XFG
     VAL445L: Typhoid valence, Vi antigen conjugated to diphtheria toxoid
-    VAL445S: Ty-ViC-D
     VAL446L: Morganella morganii valence, unspecified
-    VAL446S: Mmo
     VAL447L: Proteus mirabilis valence, unspecified
-    VAL447S: Pmi
     VAL448L: Leptospira valence, unspecified
-    VAL448S: Lepto
     VAL449L: Influenza valence, RNA-based, trivalent, unspecified
-    VAL449S: Inf-RNA3
     VAL450L: Non-HPV-related squamous cell carcinomas of the head and neck valence,
       unspecified
-    VAL450S: HNSCC-HPVneg

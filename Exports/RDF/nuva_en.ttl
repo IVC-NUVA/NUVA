@@ -1,5 +1,4 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <http://ivci.org/NUVA/VAC0000> rdfs:label "#Orphans"@en ;
     rdfs:comment "Abstract for orphan vaccines"@en .
@@ -3152,1356 +3151,905 @@ Other names: TAK-003; DENVAX"""@en .
 
 <http://ivci.org/NUVA/VAC1557> rdfs:label "Influenza vaccine, trivalent, inactivated, split or subunit, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL000> rdfs:label "Parent for deprecated valences"@en ;
-    skos:altLabel "ZZZ"@en .
+<http://ivci.org/NUVA/VAL000> rdfs:label "Parent for deprecated valences"@en .
 
-<http://ivci.org/NUVA/VAL001> rdfs:label "Influenza valence, trivalent, live attenuated, standard dose"@en ;
-    skos:altLabel "INF-L3"@en .
+<http://ivci.org/NUVA/VAL001> rdfs:label "Influenza valence, trivalent, live attenuated, standard dose"@en .
 
-<http://ivci.org/NUVA/VAL002> rdfs:label "Typhoid valence, conjugated, Vi polysaccharide antigen linked to a carrier protein"@en ;
-    skos:altLabel "Ty-ViC"@en .
+<http://ivci.org/NUVA/VAL002> rdfs:label "Typhoid valence, conjugated, Vi polysaccharide antigen linked to a carrier protein"@en .
 
-<http://ivci.org/NUVA/VAL003> rdfs:label "Pertussis valence, unspecified"@en ;
-    skos:altLabel "Per"@en .
+<http://ivci.org/NUVA/VAL003> rdfs:label "Pertussis valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL004> rdfs:label "Cholera valence, inactivated, whole-cell, injectable"@en ;
-    skos:altLabel "CHOL-I-I"@en .
+<http://ivci.org/NUVA/VAL004> rdfs:label "Cholera valence, inactivated, whole-cell, injectable"@en .
 
-<http://ivci.org/NUVA/VAL005> rdfs:label "Measles valence, live attenuated"@en ;
-    skos:altLabel "MEAS-LA"@en .
+<http://ivci.org/NUVA/VAL005> rdfs:label "Measles valence, live attenuated"@en .
 
-<http://ivci.org/NUVA/VAL006> rdfs:label "Brucella valence, unspecified"@en ;
-    skos:altLabel "Bruc"@en .
+<http://ivci.org/NUVA/VAL006> rdfs:label "Brucella valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL007> rdfs:label "Ebola valence, replicating vector, recombinant vesicular stomatitis virus (rVSV) - EBOV GP glycoprotein"@en ;
-    skos:altLabel "rVSVdG-ZEBOV-GP"@en .
+<http://ivci.org/NUVA/VAL007> rdfs:label "Ebola valence, replicating vector, recombinant vesicular stomatitis virus (rVSV) - EBOV GP glycoprotein"@en .
 
-<http://ivci.org/NUVA/VAL008> rdfs:label "Pertussis  valence, acellular, standard dose"@en ;
-    skos:altLabel "aP"@en .
+<http://ivci.org/NUVA/VAL008> rdfs:label "Pertussis  valence, acellular, standard dose"@en .
 
-<http://ivci.org/NUVA/VAL009> rdfs:label "Malaria valence, sporozoite surface protein"@en ;
-    skos:altLabel "Mala-SPO"@en .
+<http://ivci.org/NUVA/VAL009> rdfs:label "Malaria valence, sporozoite surface protein"@en .
 
-<http://ivci.org/NUVA/VAL010> rdfs:label "Pertussis valence, inactivated, whole-cell"@en ;
-    skos:altLabel "wP"@en .
+<http://ivci.org/NUVA/VAL010> rdfs:label "Pertussis valence, inactivated, whole-cell"@en .
 
-<http://ivci.org/NUVA/VAL011> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein (RBD)"@en ;
-    skos:altLabel "COVID-PS-rRBD"@en .
+<http://ivci.org/NUVA/VAL011> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein (RBD)"@en .
 
-<http://ivci.org/NUVA/VAL012> rdfs:label "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 40 micrograms (dialysis patient dosage)"@en ;
-    skos:altLabel "rHBsAg-40"@en .
+<http://ivci.org/NUVA/VAL012> rdfs:label "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 40 micrograms (dialysis patient dosage)"@en .
 
-<http://ivci.org/NUVA/VAL013> rdfs:label "Shingles valence, varicella zoster virus (VZV) surface glycoprotein E (gE)"@en ;
-    skos:altLabel "Shingles-gE"@en .
+<http://ivci.org/NUVA/VAL013> rdfs:label "Shingles valence, varicella zoster virus (VZV) surface glycoprotein E (gE)"@en .
 
-<http://ivci.org/NUVA/VAL014> rdfs:label "Typhoid valence, unspecified"@en ;
-    skos:altLabel "Ty"@en .
+<http://ivci.org/NUVA/VAL014> rdfs:label "Typhoid valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL015> rdfs:label "Influenza valence, trivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose"@en ;
-    skos:altLabel "INF-ESUnd3"@en .
+<http://ivci.org/NUVA/VAL015> rdfs:label "Influenza valence, trivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose"@en .
 
-<http://ivci.org/NUVA/VAL016> rdfs:label "Rabies valence, immunoglobulin, unspecified"@en ;
-    skos:altLabel "RIG"@en .
+<http://ivci.org/NUVA/VAL016> rdfs:label "Rabies valence, immunoglobulin, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL017> rdfs:label "Pertussis valence, acellular, reduced dose"@en ;
-    skos:altLabel "ap"@en .
+<http://ivci.org/NUVA/VAL017> rdfs:label "Pertussis valence, acellular, reduced dose"@en .
 
-<http://ivci.org/NUVA/VAL018> rdfs:label "Smallpox valence, third generation, minimally replicating live vaccinia virus"@en ;
-    skos:altLabel "POX-3G-LC16"@en .
+<http://ivci.org/NUVA/VAL018> rdfs:label "Smallpox valence, third generation, minimally replicating live vaccinia virus"@en .
 
-<http://ivci.org/NUVA/VAL019> rdfs:label "Diphtheria valence, antitoxin"@en ;
-    skos:altLabel "DATx"@en .
+<http://ivci.org/NUVA/VAL019> rdfs:label "Diphtheria valence, antitoxin"@en .
 
-<http://ivci.org/NUVA/VAL020> rdfs:label "Herpes zoster valence, live attenuated"@en ;
-    skos:altLabel "Shingles-LA"@en .
+<http://ivci.org/NUVA/VAL020> rdfs:label "Herpes zoster valence, live attenuated"@en .
 
-<http://ivci.org/NUVA/VAL021> rdfs:label "Cholera valence, inactivated, whole-cell, oral"@en ;
-    skos:altLabel "CHOL-I-O"@en .
+<http://ivci.org/NUVA/VAL021> rdfs:label "Cholera valence, inactivated, whole-cell, oral"@en .
 
-<http://ivci.org/NUVA/VAL022> rdfs:label "Smallpox valence, live attenuated, unspecified"@en ;
-    skos:altLabel "POX-LA"@en .
+<http://ivci.org/NUVA/VAL022> rdfs:label "Smallpox valence, live attenuated, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL023> rdfs:label "Influenza valence, trivalent, non-live, obtained from egg culture, split or subunit, intradermal route, unspecified"@en ;
-    skos:altLabel "INF-ESUid3"@en .
+<http://ivci.org/NUVA/VAL023> rdfs:label "Influenza valence, trivalent, non-live, obtained from egg culture, split or subunit, intradermal route, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL024> rdfs:label "Influenza valence, trivalent, non-live, obtained from egg culture, split or subunit, unspecified"@en ;
-    skos:altLabel "INF-ESU3"@en .
+<http://ivci.org/NUVA/VAL024> rdfs:label "Influenza valence, trivalent, non-live, obtained from egg culture, split or subunit, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL025> rdfs:label "Malaria valence, unspecified"@en ;
-    skos:altLabel "Mala"@en .
+<http://ivci.org/NUVA/VAL025> rdfs:label "Malaria valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL026> rdfs:label "Meningococcal valence B:14:P1.7,16 outer membrane vesicle proteins"@en ;
-    skos:altLabel "MenB-OMP"@en .
+<http://ivci.org/NUVA/VAL026> rdfs:label "Meningococcal valence B:14:P1.7,16 outer membrane vesicle proteins"@en .
 
-<http://ivci.org/NUVA/VAL027> rdfs:label "COVID-19 valence, non-replicating adenovirus 26 vector encoding the SARS-CoV-2 spike protein"@en ;
-    skos:altLabel "COVID-VVnr-S-Ad26"@en .
+<http://ivci.org/NUVA/VAL027> rdfs:label "COVID-19 valence, non-replicating adenovirus 26 vector encoding the SARS-CoV-2 spike protein"@en .
 
-<http://ivci.org/NUVA/VAL028> rdfs:label "Smallpox valence, third-generation, live attenuated"@en ;
-    skos:altLabel "POX-3G"@en .
+<http://ivci.org/NUVA/VAL028> rdfs:label "Smallpox valence, third-generation, live attenuated"@en .
 
-<http://ivci.org/NUVA/VAL029> rdfs:label "Influenza valence, VLP, unspecified"@en ;
-    skos:altLabel "INF-VLP"@en .
+<http://ivci.org/NUVA/VAL029> rdfs:label "Influenza valence, VLP, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL030> rdfs:label "Borrelia burgdorferi valence, recombinant, outer surface protein A (OspA)"@en ;
-    skos:altLabel "Lyme-OspA"@en .
+<http://ivci.org/NUVA/VAL030> rdfs:label "Borrelia burgdorferi valence, recombinant, outer surface protein A (OspA)"@en .
 
-<http://ivci.org/NUVA/VAL031> rdfs:label "Tick-borne encephalitis valence, unspecified"@en ;
-    skos:altLabel "TBE"@en .
+<http://ivci.org/NUVA/VAL031> rdfs:label "Tick-borne encephalitis valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL032> rdfs:label "Typhoid valence, unconjugated Vi polysaccharide antigen"@en ;
-    skos:altLabel "Ty-ViPS"@en .
+<http://ivci.org/NUVA/VAL032> rdfs:label "Typhoid valence, unconjugated Vi polysaccharide antigen"@en .
 
-<http://ivci.org/NUVA/VAL033> rdfs:label "Polio type 2 valence, monovalent, live attenuated, oral"@en ;
-    skos:altLabel "mOPV2"@en .
+<http://ivci.org/NUVA/VAL033> rdfs:label "Polio type 2 valence, monovalent, live attenuated, oral"@en .
 
-<http://ivci.org/NUVA/VAL034> rdfs:label "Diphtheria valence, toxoid, reduced dose"@en ;
-    skos:altLabel "d"@en .
+<http://ivci.org/NUVA/VAL034> rdfs:label "Diphtheria valence, toxoid, reduced dose"@en .
 
-<http://ivci.org/NUVA/VAL035> rdfs:label "COVID-19 valence, plasmid DNA encoding the SARS-CoV-2 spike protein"@en ;
-    skos:altLabel "COVID-DNA-S"@en .
+<http://ivci.org/NUVA/VAL035> rdfs:label "COVID-19 valence, plasmid DNA encoding the SARS-CoV-2 spike protein"@en .
 
-<http://ivci.org/NUVA/VAL036> rdfs:label "Human Papillomavirus valence, VLP nonavalent, types 6, 11, 16, 18, 31, 33, 45, 52, 58"@en ;
-    skos:altLabel "HPV-09-valent"@en .
+<http://ivci.org/NUVA/VAL036> rdfs:label "Human Papillomavirus valence, VLP nonavalent, types 6, 11, 16, 18, 31, 33, 45, 52, 58"@en .
 
-<http://ivci.org/NUVA/VAL037> rdfs:label "Meningococcal A valence, unconjugated polysaccharide"@en ;
-    skos:altLabel "MPV-A"@en .
+<http://ivci.org/NUVA/VAL037> rdfs:label "Meningococcal A valence, unconjugated polysaccharide"@en .
 
-<http://ivci.org/NUVA/VAL038> rdfs:label "COVID-19 valence, replicating measles virus vector encoding the SARS-CoV-2 spike protein"@en ;
-    skos:altLabel "COVID-VVr-S-Meas"@en .
+<http://ivci.org/NUVA/VAL038> rdfs:label "COVID-19 valence, replicating measles virus vector encoding the SARS-CoV-2 spike protein"@en .
 
-<http://ivci.org/NUVA/VAL039> rdfs:label "COVID-19 valence, VLP, recombinant spike protein"@en ;
-    skos:altLabel "COVID-VLP-rS"@en .
+<http://ivci.org/NUVA/VAL039> rdfs:label "COVID-19 valence, VLP, recombinant spike protein"@en .
 
-<http://ivci.org/NUVA/VAL040> rdfs:label "Influenza valence, quadrivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose"@en ;
-    skos:altLabel "INF-ESUnd4"@en .
+<http://ivci.org/NUVA/VAL040> rdfs:label "Influenza valence, quadrivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted, normal dose"@en .
 
-<http://ivci.org/NUVA/VAL041> rdfs:label "Meningococcal A valence, polysaccharide conjugate"@en ;
-    skos:altLabel "MCV-A"@en .
+<http://ivci.org/NUVA/VAL041> rdfs:label "Meningococcal A valence, polysaccharide conjugate"@en .
 
-<http://ivci.org/NUVA/VAL042> rdfs:label "Polio valence, unspecified"@en ;
-    skos:altLabel "POLIO"@en .
+<http://ivci.org/NUVA/VAL042> rdfs:label "Polio valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL043> rdfs:label "COVID-19 valence, mRNA encoding the SARS-CoV-2 spike protein, authorized"@en ;
-    skos:altLabel "COVID-mRNA-S"@en .
+<http://ivci.org/NUVA/VAL043> rdfs:label "COVID-19 valence, mRNA encoding the SARS-CoV-2 spike protein, authorized"@en .
 
-<http://ivci.org/NUVA/VAL044> rdfs:label "Varicella valence, live attenuated, unspecified"@en ;
-    skos:altLabel "VZV-LA"@en .
+<http://ivci.org/NUVA/VAL044> rdfs:label "Varicella valence, live attenuated, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL045> rdfs:label "Paratyphoid fever valence, inactivated, whole-cell"@en ;
-    skos:altLabel "pTy-I"@en .
+<http://ivci.org/NUVA/VAL045> rdfs:label "Paratyphoid fever valence, inactivated, whole-cell"@en .
 
-<http://ivci.org/NUVA/VAL046> rdfs:label "Typhus valence"@en ;
-    skos:altLabel "Typhus"@en .
+<http://ivci.org/NUVA/VAL046> rdfs:label "Typhus valence"@en .
 
-<http://ivci.org/NUVA/VAL047> rdfs:label "Hepatitis B valence, immunoglobulin"@en ;
-    skos:altLabel "IgHepB"@en .
+<http://ivci.org/NUVA/VAL047> rdfs:label "Hepatitis B valence, immunoglobulin"@en .
 
-<http://ivci.org/NUVA/VAL048> rdfs:label "Mumps valence, inactivated, whole-virus"@en ;
-    skos:altLabel "MUMPS-I"@en .
+<http://ivci.org/NUVA/VAL048> rdfs:label "Mumps valence, inactivated, whole-virus"@en .
 
-<http://ivci.org/NUVA/VAL049> rdfs:label "Haemophilus influenzae type b valence, unconjugated PRP"@en ;
-    skos:altLabel "Hib-PS"@en .
+<http://ivci.org/NUVA/VAL049> rdfs:label "Haemophilus influenzae type b valence, unconjugated PRP"@en .
 
-<http://ivci.org/NUVA/VAL050> rdfs:label "COVID-19 valence, non-replicating adenovirus 5 vector encoding the SARS-CoV-2 spike protein, unspecified"@en ;
-    skos:altLabel "COVID-VVnr-S-Ad5"@en .
+<http://ivci.org/NUVA/VAL050> rdfs:label "COVID-19 valence, non-replicating adenovirus 5 vector encoding the SARS-CoV-2 spike protein, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL051> rdfs:label "Avian influenza A(H5N1) valence"@en ;
-    skos:altLabel "AH5N1"@en .
+<http://ivci.org/NUVA/VAL051> rdfs:label "Avian influenza A(H5N1) valence"@en .
 
-<http://ivci.org/NUVA/VAL052> rdfs:label "Human Papillomavirus valence, VLP quadrivalent, types 6, 11, 16 and 18"@en ;
-    skos:altLabel "HPV-04-valent"@en .
+<http://ivci.org/NUVA/VAL052> rdfs:label "Human Papillomavirus valence, VLP quadrivalent, types 6, 11, 16 and 18"@en .
 
-<http://ivci.org/NUVA/VAL053> rdfs:label "COVID-19 valence, protein subunit, unspecified"@en ;
-    skos:altLabel "COVID-PS"@en .
+<http://ivci.org/NUVA/VAL053> rdfs:label "COVID-19 valence, protein subunit, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL054> rdfs:label "COVID-19 valence, non-replicating modified Ankara vaccine vector encoding the SARS-CoV-2 spike protein"@en ;
-    skos:altLabel "COVID-VVnr-S-MVA"@en .
+<http://ivci.org/NUVA/VAL054> rdfs:label "COVID-19 valence, non-replicating modified Ankara vaccine vector encoding the SARS-CoV-2 spike protein"@en .
 
-<http://ivci.org/NUVA/VAL055> rdfs:label "Measles valence, immunoglobulin"@en ;
-    skos:altLabel "MEAS-Ig"@en .
+<http://ivci.org/NUVA/VAL055> rdfs:label "Measles valence, immunoglobulin"@en .
 
-<http://ivci.org/NUVA/VAL056> rdfs:label "Polio valence, trivalent, inactivated, whole-virus, injectable"@en ;
-    skos:altLabel "IPV"@en .
+<http://ivci.org/NUVA/VAL056> rdfs:label "Polio valence, trivalent, inactivated, whole-virus, injectable"@en .
 
-<http://ivci.org/NUVA/VAL057> rdfs:label "Meningococcal C valence, polysaccharide conjugate"@en ;
-    skos:altLabel "MCV-C"@en .
+<http://ivci.org/NUVA/VAL057> rdfs:label "Meningococcal C valence, polysaccharide conjugate"@en .
 
-<http://ivci.org/NUVA/VAL058> rdfs:label "Influenza valence, non-live, obtained from egg culture, split or subunit, unspecified"@en ;
-    skos:altLabel "INF-ESU"@en .
+<http://ivci.org/NUVA/VAL058> rdfs:label "Influenza valence, non-live, obtained from egg culture, split or subunit, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL059> rdfs:label "Influenza valence, quadrivalent, live attenuated, standard dose"@en ;
-    skos:altLabel "INF-L4"@en .
+<http://ivci.org/NUVA/VAL059> rdfs:label "Influenza valence, quadrivalent, live attenuated, standard dose"@en .
 
-<http://ivci.org/NUVA/VAL060> rdfs:label "Chikungunya virus valence, live attenuated"@en ;
-    skos:altLabel "CHIK-LA"@en .
+<http://ivci.org/NUVA/VAL060> rdfs:label "Chikungunya virus valence, live attenuated"@en .
 
-<http://ivci.org/NUVA/VAL061> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein, S-2P and CpG1018"@en ;
-    skos:altLabel "COVID-PS-CpG1018"@en .
+<http://ivci.org/NUVA/VAL061> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein, S-2P and CpG1018"@en .
 
-<http://ivci.org/NUVA/VAL062> rdfs:label "Cholera valence, protein subunit, recombinant cholera toxin subunit B (rCTB)"@en ;
-    skos:altLabel "CHOL-SU-rCTB-O"@en .
+<http://ivci.org/NUVA/VAL062> rdfs:label "Cholera valence, protein subunit, recombinant cholera toxin subunit B (rCTB)"@en .
 
-<http://ivci.org/NUVA/VAL063> rdfs:label "Botulism valence, antitoxin"@en ;
-    skos:altLabel "BAT"@en .
+<http://ivci.org/NUVA/VAL063> rdfs:label "Botulism valence, antitoxin"@en .
 
-<http://ivci.org/NUVA/VAL064> rdfs:label "Influenza valence, quadrivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted"@en ;
-    skos:altLabel "INF-ESUNA4"@en .
+<http://ivci.org/NUVA/VAL064> rdfs:label "Influenza valence, quadrivalent, non-live, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted"@en .
 
-<http://ivci.org/NUVA/VAL065> rdfs:label "Dengue valence, live attenuated, tetravalent recombinant chimeric "@en ;
-    skos:altLabel "RC-TDV"@en .
+<http://ivci.org/NUVA/VAL065> rdfs:label "Dengue valence, live attenuated, tetravalent recombinant chimeric "@en .
 
-<http://ivci.org/NUVA/VAL066> rdfs:label "COVID-19 valence, replicating influenza virus vector encoding the SARS-CoV-2 spike protein"@en ;
-    skos:altLabel "COVID-VVr-S-Influ"@en .
+<http://ivci.org/NUVA/VAL066> rdfs:label "COVID-19 valence, replicating influenza virus vector encoding the SARS-CoV-2 spike protein"@en .
 
-<http://ivci.org/NUVA/VAL067> rdfs:label "Tetanus valence, toxoid"@en ;
-    skos:altLabel "T"@en .
+<http://ivci.org/NUVA/VAL067> rdfs:label "Tetanus valence, toxoid"@en .
 
-<http://ivci.org/NUVA/VAL068> rdfs:label "Hepatitis B valence, unspecified"@en ;
-    skos:altLabel "HepB"@en .
+<http://ivci.org/NUVA/VAL068> rdfs:label "Hepatitis B valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL069> rdfs:label "COVID-19 valence, non-replicating chimpanzee adenoviral vector ChAdOx1 encoding the SARS-CoV-2 spike protein"@en ;
-    skos:altLabel "COVID-VVnr-S-ChAdOx1"@en .
+<http://ivci.org/NUVA/VAL069> rdfs:label "COVID-19 valence, non-replicating chimpanzee adenoviral vector ChAdOx1 encoding the SARS-CoV-2 spike protein"@en .
 
-<http://ivci.org/NUVA/VAL070> rdfs:label "COVID-19 valence, non-replicating adenoviral vector encoding the SARS-CoV-2 spike protein, unspecified"@en ;
-    skos:altLabel "COVID-VVnr-S-Ad"@en .
+<http://ivci.org/NUVA/VAL070> rdfs:label "COVID-19 valence, non-replicating adenoviral vector encoding the SARS-CoV-2 spike protein, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL071> rdfs:label "Typhoid valence, inactivated, whole-cell"@en ;
-    skos:altLabel "Ty-I"@en .
+<http://ivci.org/NUVA/VAL071> rdfs:label "Typhoid valence, inactivated, whole-cell"@en .
 
-<http://ivci.org/NUVA/VAL072> rdfs:label "Meningococcal B valence, containing fHbp of subfamilies A and B"@en ;
-    skos:altLabel "MenB-fHbpAB"@en .
+<http://ivci.org/NUVA/VAL072> rdfs:label "Meningococcal B valence, containing fHbp of subfamilies A and B"@en .
 
-<http://ivci.org/NUVA/VAL073> rdfs:label "COVID-19 valence, replicating viral vector, antigen presenting cells"@en ;
-    skos:altLabel "COVID-VVr+APC"@en .
+<http://ivci.org/NUVA/VAL073> rdfs:label "COVID-19 valence, replicating viral vector, antigen presenting cells"@en .
 
-<http://ivci.org/NUVA/VAL074> rdfs:label "Influenza valence, quadrivalent, non-live, obtained from egg culture, split or subunit, high-dose"@en ;
-    skos:altLabel "INF-ESUhd4"@en .
+<http://ivci.org/NUVA/VAL074> rdfs:label "Influenza valence, quadrivalent, non-live, obtained from egg culture, split or subunit, high-dose"@en .
 
-<http://ivci.org/NUVA/VAL075> rdfs:label "Leptospira icterohaemorrhagiae valence, inactivated, whole-cell"@en ;
-    skos:altLabel "Lepto-wI"@en .
+<http://ivci.org/NUVA/VAL075> rdfs:label "Leptospira icterohaemorrhagiae valence, inactivated, whole-cell"@en .
 
-<http://ivci.org/NUVA/VAL076> rdfs:label "COVID-19 valence, inactivated, whole-virion, unspecified"@en ;
-    skos:altLabel "COVID-IV"@en .
+<http://ivci.org/NUVA/VAL076> rdfs:label "COVID-19 valence, inactivated, whole-virion, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL077> rdfs:label "Mumps valence, live attenuated"@en ;
-    skos:altLabel "MUMPS-LA"@en .
+<http://ivci.org/NUVA/VAL077> rdfs:label "Mumps valence, live attenuated"@en .
 
-<http://ivci.org/NUVA/VAL078> rdfs:label "Meningococcal Y valence, polysaccharide conjugate"@en ;
-    skos:altLabel "MCV-Y"@en .
+<http://ivci.org/NUVA/VAL078> rdfs:label "Meningococcal Y valence, polysaccharide conjugate"@en .
 
-<http://ivci.org/NUVA/VAL079> rdfs:label "Rubella valence, live attenuated"@en ;
-    skos:altLabel "Rub-LA"@en .
+<http://ivci.org/NUVA/VAL079> rdfs:label "Rubella valence, live attenuated"@en .
 
-<http://ivci.org/NUVA/VAL080> rdfs:label "Rabies valence, inactivated, whole virion, unspecified"@en ;
-    skos:altLabel "Rab-I"@en .
+<http://ivci.org/NUVA/VAL080> rdfs:label "Rabies valence, inactivated, whole virion, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL081> rdfs:label "Cholera valence, unspecified"@en ;
-    skos:altLabel "CHOL"@en .
+<http://ivci.org/NUVA/VAL081> rdfs:label "Cholera valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL082> rdfs:label "Human Papillomavirus valence, types unspecified"@en ;
-    skos:altLabel "HPV"@en .
+<http://ivci.org/NUVA/VAL082> rdfs:label "Human Papillomavirus valence, types unspecified"@en .
 
-<http://ivci.org/NUVA/VAL083> rdfs:label "Diphtheria valence, toxoid, dose unspecified"@en ;
-    skos:altLabel "D-d"@en .
+<http://ivci.org/NUVA/VAL083> rdfs:label "Diphtheria valence, toxoid, dose unspecified"@en .
 
-<http://ivci.org/NUVA/VAL084> rdfs:label "COVID-19 valence, replicating vesicular stomatitis virus vector encoding the SARS-CoV-2 spike protein"@en ;
-    skos:altLabel "COVID-VVr-S-VSV"@en .
+<http://ivci.org/NUVA/VAL084> rdfs:label "COVID-19 valence, replicating vesicular stomatitis virus vector encoding the SARS-CoV-2 spike protein"@en .
 
-<http://ivci.org/NUVA/VAL085> rdfs:label "Polio type 3 valence, monovalent, live attenuated, oral"@en ;
-    skos:altLabel "mOPV3"@en .
+<http://ivci.org/NUVA/VAL085> rdfs:label "Polio type 3 valence, monovalent, live attenuated, oral"@en .
 
-<http://ivci.org/NUVA/VAL086> rdfs:label "COVID-19 valence, live attenuated, unspecified"@en ;
-    skos:altLabel "COVID-LA"@en .
+<http://ivci.org/NUVA/VAL086> rdfs:label "COVID-19 valence, live attenuated, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL087> rdfs:label "Dengue valence, live attenuated, tetravalent chimeric recombinant based on the yellow fever 17D vaccine"@en ;
-    skos:altLabel "CYD-TDV"@en .
+<http://ivci.org/NUVA/VAL087> rdfs:label "Dengue valence, live attenuated, tetravalent chimeric recombinant based on the yellow fever 17D vaccine"@en .
 
-<http://ivci.org/NUVA/VAL088> rdfs:label "Varicella valence, immunoglobulin"@en ;
-    skos:altLabel "VZV-Ig"@en .
+<http://ivci.org/NUVA/VAL088> rdfs:label "Varicella valence, immunoglobulin"@en .
 
-<http://ivci.org/NUVA/VAL089> rdfs:label "Japanese encephalitis valence, inactivated, whole-virus, unspecified"@en ;
-    skos:altLabel "JE-I"@en .
+<http://ivci.org/NUVA/VAL089> rdfs:label "Japanese encephalitis valence, inactivated, whole-virus, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL090> rdfs:label "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), dose unspecified"@en ;
-    skos:altLabel "rHBsAg"@en .
+<http://ivci.org/NUVA/VAL090> rdfs:label "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), dose unspecified"@en .
 
-<http://ivci.org/NUVA/VAL091> rdfs:label "Typhoid valence, live attenuated, strain Ty21a, oral"@en ;
-    skos:altLabel "Ty-LA-O"@en .
+<http://ivci.org/NUVA/VAL091> rdfs:label "Typhoid valence, live attenuated, strain Ty21a, oral"@en .
 
-<http://ivci.org/NUVA/VAL092> rdfs:label "Yellow fever valence, live attenuated"@en ;
-    skos:altLabel "YF"@en .
+<http://ivci.org/NUVA/VAL092> rdfs:label "Yellow fever valence, live attenuated"@en .
 
-<http://ivci.org/NUVA/VAL093> rdfs:label "Measles valence, inactivated, whole-virus"@en ;
-    skos:altLabel "MEAS-I"@en .
+<http://ivci.org/NUVA/VAL093> rdfs:label "Measles valence, inactivated, whole-virus"@en .
 
-<http://ivci.org/NUVA/VAL094> rdfs:label "Influenza valence, trivalent, non-live, obtained from egg culture, fractionated or subunit, intramuscular or subcutaneous, non-adjuvanted, high dose"@en ;
-    skos:altLabel "INF-ESUhd3"@en .
+<http://ivci.org/NUVA/VAL094> rdfs:label "Influenza valence, trivalent, non-live, obtained from egg culture, fractionated or subunit, intramuscular or subcutaneous, non-adjuvanted, high dose"@en .
 
-<http://ivci.org/NUVA/VAL095> rdfs:label "COVID-19 valence, replicating Newcastle disease virus vector encoding the SARS-CoV-2 spike protein"@en ;
-    skos:altLabel "COVID-VVr-S-Nv"@en .
+<http://ivci.org/NUVA/VAL095> rdfs:label "COVID-19 valence, replicating Newcastle disease virus vector encoding the SARS-CoV-2 spike protein"@en .
 
-<http://ivci.org/NUVA/VAL096> rdfs:label "BCG valence"@en ;
-    skos:altLabel "BCG"@en .
+<http://ivci.org/NUVA/VAL096> rdfs:label "BCG valence"@en .
 
-<http://ivci.org/NUVA/VAL097> rdfs:label "Diphtheria valence, toxoid, standard dose"@en ;
-    skos:altLabel "D"@en .
+<http://ivci.org/NUVA/VAL097> rdfs:label "Diphtheria valence, toxoid, standard dose"@en .
 
-<http://ivci.org/NUVA/VAL098> rdfs:label "Meningococcal B valence, four-component"@en ;
-    skos:altLabel "4CMenB"@en .
+<http://ivci.org/NUVA/VAL098> rdfs:label "Meningococcal B valence, four-component"@en .
 
-<http://ivci.org/NUVA/VAL099> rdfs:label "Influenza valence, non-live, obtained from egg culture, pandemic influenza H1N1 2009 "@en ;
-    skos:altLabel "INF-Epdm09"@en .
+<http://ivci.org/NUVA/VAL099> rdfs:label "Influenza valence, non-live, obtained from egg culture, pandemic influenza H1N1 2009 "@en .
 
-<http://ivci.org/NUVA/VAL100> rdfs:label "Japanese encephalitis valence, live attenuated virus, strain 14-14-2"@en ;
-    skos:altLabel "JE-LA-14-14-2"@en .
+<http://ivci.org/NUVA/VAL100> rdfs:label "Japanese encephalitis valence, live attenuated virus, strain 14-14-2"@en .
 
-<http://ivci.org/NUVA/VAL101> rdfs:label "COVID-19 valence, non-replicating Newcastle disease virus vector encoding the SARS-CoV-2 spike protein"@en ;
-    skos:altLabel "COVID-VVnr-S-Nv"@en .
+<http://ivci.org/NUVA/VAL101> rdfs:label "COVID-19 valence, non-replicating Newcastle disease virus vector encoding the SARS-CoV-2 spike protein"@en .
 
-<http://ivci.org/NUVA/VAL102> rdfs:label "Hepatitis E valence, recombinant peptide"@en ;
-    skos:altLabel "HepE"@en .
+<http://ivci.org/NUVA/VAL102> rdfs:label "Hepatitis E valence, recombinant peptide"@en .
 
-<http://ivci.org/NUVA/VAL103> rdfs:label "Haemophilus influenzae type b valence, PRP-conjugated, unspecified"@en ;
-    skos:altLabel "Hib-C"@en .
+<http://ivci.org/NUVA/VAL103> rdfs:label "Haemophilus influenzae type b valence, PRP-conjugated, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL104> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein"@en ;
-    skos:altLabel "COVID-PS-rS"@en .
+<http://ivci.org/NUVA/VAL104> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein"@en .
 
-<http://ivci.org/NUVA/VAL105> rdfs:label "Pneumococcal valence, unspecified"@en ;
-    skos:altLabel "Pneumo"@en .
+<http://ivci.org/NUVA/VAL105> rdfs:label "Pneumococcal valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL106> rdfs:label "Rotavirus valence, live attenuated, unspecified"@en ;
-    skos:altLabel "ROTA-LA"@en .
+<http://ivci.org/NUVA/VAL106> rdfs:label "Rotavirus valence, live attenuated, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL107> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein nanoparticles"@en ;
-    skos:altLabel "COVID-PS-rSnp"@en .
+<http://ivci.org/NUVA/VAL107> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein nanoparticles"@en .
 
-<http://ivci.org/NUVA/VAL108> rdfs:label "Ebola valence, non-replicating viral vector, Ad26.ZEBOV"@en ;
-    skos:altLabel "ZebovVRnrAd26"@en .
+<http://ivci.org/NUVA/VAL108> rdfs:label "Ebola valence, non-replicating viral vector, Ad26.ZEBOV"@en .
 
-<http://ivci.org/NUVA/VAL109> rdfs:label "Ebola valence, non-replicating viral vector, Modified Ankara vaccine "@en ;
-    skos:altLabel "Ebola-MVA-BN-Filo"@en .
+<http://ivci.org/NUVA/VAL109> rdfs:label "Ebola valence, non-replicating viral vector, Modified Ankara vaccine "@en .
 
-<http://ivci.org/NUVA/VAL110> rdfs:label "Tetanus valence, immunoglobulin"@en ;
-    skos:altLabel "T-Ig"@en .
+<http://ivci.org/NUVA/VAL110> rdfs:label "Tetanus valence, immunoglobulin"@en .
 
-<http://ivci.org/NUVA/VAL111> rdfs:label "Anthrax valence, acellular"@en ;
-    skos:altLabel "Bant"@en .
+<http://ivci.org/NUVA/VAL111> rdfs:label "Anthrax valence, acellular"@en .
 
-<http://ivci.org/NUVA/VAL112> rdfs:label "Influenza valence, quadrivalent, inactivated, obtained from cell culture, split or subunit, standard dose"@en ;
-    skos:altLabel "INF-CC4"@en .
+<http://ivci.org/NUVA/VAL112> rdfs:label "Influenza valence, quadrivalent, inactivated, obtained from cell culture, split or subunit, standard dose"@en .
 
-<http://ivci.org/NUVA/VAL113> rdfs:label "Human Papillomavirus valence, VLP bivalent, types 16 and 18"@en ;
-    skos:altLabel "HPV-02-valent"@en .
+<http://ivci.org/NUVA/VAL113> rdfs:label "Human Papillomavirus valence, VLP bivalent, types 16 and 18"@en .
 
-<http://ivci.org/NUVA/VAL114> rdfs:label "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 10 micrograms"@en ;
-    skos:altLabel "rHBsAg-10"@en .
+<http://ivci.org/NUVA/VAL114> rdfs:label "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 10 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL115> rdfs:label "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 20 micrograms"@en ;
-    skos:altLabel "rHBsAg-20"@en .
+<http://ivci.org/NUVA/VAL115> rdfs:label "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 20 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL116> rdfs:label "RSV valence, monoclonal antibody, palivizumab"@en ;
-    skos:altLabel "RSV-mAb-pal"@en .
+<http://ivci.org/NUVA/VAL116> rdfs:label "RSV valence, monoclonal antibody, palivizumab"@en .
 
-<http://ivci.org/NUVA/VAL117> rdfs:label "Pertussis valence, acellular, dose unspecified"@en ;
-    skos:altLabel "Acel"@en .
+<http://ivci.org/NUVA/VAL117> rdfs:label "Pertussis valence, acellular, dose unspecified"@en .
 
-<http://ivci.org/NUVA/VAL118> rdfs:label "Meningococcal B valence, unspecified"@en ;
-    skos:altLabel "MenB"@en .
+<http://ivci.org/NUVA/VAL118> rdfs:label "Meningococcal B valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL119> rdfs:label "COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms"@en ;
-    skos:altLabel "Covid-ARNm-S-OMI-XFG-50"@en .
+<http://ivci.org/NUVA/VAL119> rdfs:label "COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL120> rdfs:label "Meningococcal valence, polyvalent, unconjugated polysaccharide"@en ;
-    skos:altLabel "MPV-poly"@en .
+<http://ivci.org/NUVA/VAL120> rdfs:label "Meningococcal valence, polyvalent, unconjugated polysaccharide"@en .
 
-<http://ivci.org/NUVA/VAL121> rdfs:label "Polio valence, trivalent, inactivated, whole-virus, oral"@en ;
-    skos:altLabel "IPV-O"@en .
+<http://ivci.org/NUVA/VAL121> rdfs:label "Polio valence, trivalent, inactivated, whole-virus, oral"@en .
 
-<http://ivci.org/NUVA/VAL122> rdfs:label "Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted"@en ;
-    skos:altLabel "INF-SUNA3"@en .
+<http://ivci.org/NUVA/VAL122> rdfs:label "Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted"@en .
 
-<http://ivci.org/NUVA/VAL123> rdfs:label "Rotavirus valence, pentavalent, live attenuated virus"@en ;
-    skos:altLabel "Rota5-L"@en .
+<http://ivci.org/NUVA/VAL123> rdfs:label "Rotavirus valence, pentavalent, live attenuated virus"@en .
 
-<http://ivci.org/NUVA/VAL124> rdfs:label "Cholera valence, live attenuated, unspecified"@en ;
-    skos:altLabel "CHOL-LA"@en .
+<http://ivci.org/NUVA/VAL124> rdfs:label "Cholera valence, live attenuated, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL125> rdfs:label "Hepatitis A valence, inactivated, whole-virus, unspecified"@en ;
-    skos:altLabel "HepA-I"@en .
+<http://ivci.org/NUVA/VAL125> rdfs:label "Hepatitis A valence, inactivated, whole-virus, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL126> rdfs:label "Ebola valence, unspecified"@en ;
-    skos:altLabel "Ebola"@en .
+<http://ivci.org/NUVA/VAL126> rdfs:label "Ebola valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL127> rdfs:label "Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route"@en ;
-    skos:altLabel "INF-SUimsc4"@en .
+<http://ivci.org/NUVA/VAL127> rdfs:label "Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route"@en .
 
-<http://ivci.org/NUVA/VAL128> rdfs:label "Influenza valence, unspecified"@en ;
-    skos:altLabel "INF"@en .
+<http://ivci.org/NUVA/VAL128> rdfs:label "Influenza valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL129> rdfs:label "Herpes simplex valence, unspecified"@en ;
-    skos:altLabel "HSV"@en .
+<http://ivci.org/NUVA/VAL129> rdfs:label "Herpes simplex valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL130> rdfs:label "Hepatitis A valence, virosome"@en ;
-    skos:altLabel "HepA-VLP"@en .
+<http://ivci.org/NUVA/VAL130> rdfs:label "Hepatitis A valence, virosome"@en .
 
-<http://ivci.org/NUVA/VAL131> rdfs:label "Plague valence, inactivated, whole-cell"@en ;
-    skos:altLabel "Yp-I"@en .
+<http://ivci.org/NUVA/VAL131> rdfs:label "Plague valence, inactivated, whole-cell"@en .
 
-<http://ivci.org/NUVA/VAL132> rdfs:label "Polio type 1 valence, monovalent, live attenuated, oral"@en ;
-    skos:altLabel "mOPV1"@en .
+<http://ivci.org/NUVA/VAL132> rdfs:label "Polio type 1 valence, monovalent, live attenuated, oral"@en .
 
-<http://ivci.org/NUVA/VAL133> rdfs:label "Polio valence, monovalent, live attenuated, oral, unspecified"@en ;
-    skos:altLabel "mOPV"@en .
+<http://ivci.org/NUVA/VAL133> rdfs:label "Polio valence, monovalent, live attenuated, oral, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL134> rdfs:label "Influenza valence, quadrivalent, inactivated, split or subunit, intradermal route, unspecified"@en ;
-    skos:altLabel "INF-SUid4"@en .
+<http://ivci.org/NUVA/VAL134> rdfs:label "Influenza valence, quadrivalent, inactivated, split or subunit, intradermal route, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL135> rdfs:label "COVID-19 valence, mRNA encoding the SARS-CoV-2 spike protein, in clinical trials "@en ;
-    skos:altLabel "COVID-mRNA-S-CT"@en .
+<http://ivci.org/NUVA/VAL135> rdfs:label "COVID-19 valence, mRNA encoding the SARS-CoV-2 spike protein, in clinical trials "@en .
 
-<http://ivci.org/NUVA/VAL136> rdfs:label "Meningococcal W valence, polysaccharide conjugate"@en ;
-    skos:altLabel "MCV-W"@en .
+<http://ivci.org/NUVA/VAL136> rdfs:label "Meningococcal W valence, polysaccharide conjugate"@en .
 
-<http://ivci.org/NUVA/VAL137> rdfs:label "Meningococcal C valence, unconjugated"@en ;
-    skos:altLabel "MPV-C"@en .
+<http://ivci.org/NUVA/VAL137> rdfs:label "Meningococcal C valence, unconjugated"@en .
 
-<http://ivci.org/NUVA/VAL138> rdfs:label "Meningococcal W valence, unconjugated"@en ;
-    skos:altLabel "MPV-W"@en .
+<http://ivci.org/NUVA/VAL138> rdfs:label "Meningococcal W valence, unconjugated"@en .
 
-<http://ivci.org/NUVA/VAL139> rdfs:label "Meningococcal Y valence, unconjugated polysaccharide"@en ;
-    skos:altLabel "MPV-Y"@en .
+<http://ivci.org/NUVA/VAL139> rdfs:label "Meningococcal Y valence, unconjugated polysaccharide"@en .
 
-<http://ivci.org/NUVA/VAL140> rdfs:label "Influenza valence, live attenuated, unspecified"@en ;
-    skos:altLabel "INF-L"@en .
+<http://ivci.org/NUVA/VAL140> rdfs:label "Influenza valence, live attenuated, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL141> rdfs:label "Rotavirus valence, live attenuated, RIX4414 monovalent"@en ;
-    skos:altLabel "ROTA-LA-mv-RIX4414"@en .
+<http://ivci.org/NUVA/VAL141> rdfs:label "Rotavirus valence, live attenuated, RIX4414 monovalent"@en .
 
-<http://ivci.org/NUVA/VAL142> rdfs:label "Hepatitis A valence, monovalent, inactivated, whole-virus, paediatric dose"@en ;
-    skos:altLabel "HepA-mv-PED"@en .
+<http://ivci.org/NUVA/VAL142> rdfs:label "Hepatitis A valence, monovalent, inactivated, whole-virus, paediatric dose"@en .
 
-<http://ivci.org/NUVA/VAL143> rdfs:label "Hepatitis A valence, bivalent (hepatitis A and B), inactivated, whole-virus, paediatric dose"@en ;
-    skos:altLabel "HepA-bv-PED"@en .
+<http://ivci.org/NUVA/VAL143> rdfs:label "Hepatitis A valence, bivalent (hepatitis A and B), inactivated, whole-virus, paediatric dose"@en .
 
-<http://ivci.org/NUVA/VAL144> rdfs:label "Hepatitis A valence, monovalent, inactivated, whole-virus, adult dose"@en ;
-    skos:altLabel "HepA-mv-ADU"@en .
+<http://ivci.org/NUVA/VAL144> rdfs:label "Hepatitis A valence, monovalent, inactivated, whole-virus, adult dose"@en .
 
-<http://ivci.org/NUVA/VAL145> rdfs:label "Hepatitis A valence, bivalent (hepatitis A and B), inactivated, whole-virus, adult dose"@en ;
-    skos:altLabel "HepA-bv-ADU"@en .
+<http://ivci.org/NUVA/VAL145> rdfs:label "Hepatitis A valence, bivalent (hepatitis A and B), inactivated, whole-virus, adult dose"@en .
 
-<http://ivci.org/NUVA/VAL146> rdfs:label "Brucella valence, inactivated, whole-cell"@en ;
-    skos:altLabel "Bruc-I"@en .
+<http://ivci.org/NUVA/VAL146> rdfs:label "Brucella valence, inactivated, whole-cell"@en .
 
-<http://ivci.org/NUVA/VAL147> rdfs:label "Brucella valence, protein subunit, antigen P.I. (phenol-insoluble)"@en ;
-    skos:altLabel "Bruc-IP"@en .
+<http://ivci.org/NUVA/VAL147> rdfs:label "Brucella valence, protein subunit, antigen P.I. (phenol-insoluble)"@en .
 
-<http://ivci.org/NUVA/VAL148> rdfs:label "RSV valence, immunoglobulin"@en ;
-    skos:altLabel "RSV-IG"@en .
+<http://ivci.org/NUVA/VAL148> rdfs:label "RSV valence, immunoglobulin"@en .
 
-<http://ivci.org/NUVA/VAL149> rdfs:label "COVID-19 valence, Omicron variant, mRNA encoding the SARS-CoV-2 spike protein"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI"@en .
+<http://ivci.org/NUVA/VAL149> rdfs:label "COVID-19 valence, Omicron variant, mRNA encoding the SARS-CoV-2 spike protein"@en .
 
-<http://ivci.org/NUVA/VAL150> rdfs:label "Dengue valence, unspecified"@en ;
-    skos:altLabel "Den"@en .
+<http://ivci.org/NUVA/VAL150> rdfs:label "Dengue valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL151> rdfs:label "Tularemia valence, unspecified"@en ;
-    skos:altLabel "Tular"@en .
+<http://ivci.org/NUVA/VAL151> rdfs:label "Tularemia valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL152> rdfs:label "Influenza valence, obtained from egg culture, inactivated, whole-virus, unspecified"@en ;
-    skos:altLabel "INF-EI"@en .
+<http://ivci.org/NUVA/VAL152> rdfs:label "Influenza valence, obtained from egg culture, inactivated, whole-virus, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL153> rdfs:label "Haemophilus influenzae type b valence, PRP conjugated to diphtheria toxoid"@en ;
-    skos:altLabel "PRP-D"@en .
+<http://ivci.org/NUVA/VAL153> rdfs:label "Haemophilus influenzae type b valence, PRP conjugated to diphtheria toxoid"@en .
 
-<http://ivci.org/NUVA/VAL154> rdfs:label "Haemophilus influenzae type b valence, PRP conjugated to mutant diphtheria toxin CRM197"@en ;
-    skos:altLabel "HbOC"@en .
+<http://ivci.org/NUVA/VAL154> rdfs:label "Haemophilus influenzae type b valence, PRP conjugated to mutant diphtheria toxin CRM197"@en .
 
-<http://ivci.org/NUVA/VAL155> rdfs:label "Haemophilus influenzae type b valence, PRP conjugated to outer membrane protein of Neisseria meningitidis serogroup B"@en ;
-    skos:altLabel "PRP-OMP"@en .
+<http://ivci.org/NUVA/VAL155> rdfs:label "Haemophilus influenzae type b valence, PRP conjugated to outer membrane protein of Neisseria meningitidis serogroup B"@en .
 
-<http://ivci.org/NUVA/VAL156> rdfs:label "Haemophilus influenzae type b valence, PRP conjugated to tetanus toxoid"@en ;
-    skos:altLabel "PRP-T"@en .
+<http://ivci.org/NUVA/VAL156> rdfs:label "Haemophilus influenzae type b valence, PRP conjugated to tetanus toxoid"@en .
 
-<http://ivci.org/NUVA/VAL157> rdfs:label "COVID-19 valence, unspecified"@en ;
-    skos:altLabel "COVID"@en .
+<http://ivci.org/NUVA/VAL157> rdfs:label "COVID-19 valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL158> rdfs:label "Hepatitis B valence, plasma derived"@en ;
-    skos:altLabel "pHBsAg"@en .
+<http://ivci.org/NUVA/VAL158> rdfs:label "Hepatitis B valence, plasma derived"@en .
 
-<http://ivci.org/NUVA/VAL159> rdfs:label "Shingles valence, subunit"@en ;
-    skos:altLabel "Shingles-SU"@en .
+<http://ivci.org/NUVA/VAL159> rdfs:label "Shingles valence, subunit"@en .
 
-<http://ivci.org/NUVA/VAL160> rdfs:label "Shingles valence, unspecified"@en ;
-    skos:altLabel "Shingles"@en .
+<http://ivci.org/NUVA/VAL160> rdfs:label "Shingles valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL161> rdfs:label "Meningococcus B valence, multicomponent, unspecified"@en ;
-    skos:altLabel "MenB-mc"@en .
+<http://ivci.org/NUVA/VAL161> rdfs:label "Meningococcus B valence, multicomponent, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL162> rdfs:label "COVID-19 valence, replicating virus vector, unspecified"@en ;
-    skos:altLabel "COVID-VVr"@en .
+<http://ivci.org/NUVA/VAL162> rdfs:label "COVID-19 valence, replicating virus vector, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL163> rdfs:label "COVID-19 valence, non-replicating viral vector, unspecified"@en ;
-    skos:altLabel "COVID-VVnr"@en .
+<http://ivci.org/NUVA/VAL163> rdfs:label "COVID-19 valence, non-replicating viral vector, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL164> rdfs:label "COVID-19 valence, non live, unspecified"@en ;
-    skos:altLabel "COVID-non-live"@en .
+<http://ivci.org/NUVA/VAL164> rdfs:label "COVID-19 valence, non live, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL165> rdfs:label "COVID-19 valence, live, unspecified"@en ;
-    skos:altLabel "COVID-live"@en .
+<http://ivci.org/NUVA/VAL165> rdfs:label "COVID-19 valence, live, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL166> rdfs:label "Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, pediatric dose"@en ;
-    skos:altLabel "INF-SUped3"@en .
+<http://ivci.org/NUVA/VAL166> rdfs:label "Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, pediatric dose"@en .
 
-<http://ivci.org/NUVA/VAL167> rdfs:label "COVID-19 valence, non-replicating viral vector, antigen presenting cells"@en ;
-    skos:altLabel "COVID-VVnr+APC"@en .
+<http://ivci.org/NUVA/VAL167> rdfs:label "COVID-19 valence, non-replicating viral vector, antigen presenting cells"@en .
 
-<http://ivci.org/NUVA/VAL168> rdfs:label "COVID-19 valence, mRNA, unspecified"@en ;
-    skos:altLabel "COVID-mRNA"@en .
+<http://ivci.org/NUVA/VAL168> rdfs:label "COVID-19 valence, mRNA, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL169> rdfs:label "COVID-19 valence, self-amplifying mRNA (SAM)"@en ;
-    skos:altLabel "COVID-mRNA-SAM"@en .
+<http://ivci.org/NUVA/VAL169> rdfs:label "COVID-19 valence, self-amplifying mRNA (SAM)"@en .
 
-<http://ivci.org/NUVA/VAL170> rdfs:label "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 5 micrograms"@en ;
-    skos:altLabel "rHepB-05"@en .
+<http://ivci.org/NUVA/VAL170> rdfs:label "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 5 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL171> rdfs:label "Venezuelan equine encephalitis valence, unspecified"@en ;
-    skos:altLabel "VEE"@en .
+<http://ivci.org/NUVA/VAL171> rdfs:label "Venezuelan equine encephalitis valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL172> rdfs:label "Q fever (Coxiella burnetii) valence, unspecified"@en ;
-    skos:altLabel "Cbur"@en .
+<http://ivci.org/NUVA/VAL172> rdfs:label "Q fever (Coxiella burnetii) valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL173> rdfs:label "Argentine hemorrhagic fever valence, Junin virus, live attenuated"@en ;
-    skos:altLabel "Junin-LA"@en .
+<http://ivci.org/NUVA/VAL173> rdfs:label "Argentine hemorrhagic fever valence, Junin virus, live attenuated"@en .
 
-<http://ivci.org/NUVA/VAL174> rdfs:label "Hantavirus valence, unspecified"@en ;
-    skos:altLabel "HAN"@en .
+<http://ivci.org/NUVA/VAL174> rdfs:label "Hantavirus valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL175> rdfs:label "Leishmaniasis valence, unspecified"@en ;
-    skos:altLabel "Leish"@en .
+<http://ivci.org/NUVA/VAL175> rdfs:label "Leishmaniasis valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL176> rdfs:label "Human parainfluenza viruses valence, unspecified"@en ;
-    skos:altLabel "HPIVs"@en .
+<http://ivci.org/NUVA/VAL176> rdfs:label "Human parainfluenza viruses valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL177> rdfs:label "Haemophilus influenzae type b valence, unspecified"@en ;
-    skos:altLabel "Hib"@en .
+<http://ivci.org/NUVA/VAL177> rdfs:label "Haemophilus influenzae type b valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL178> rdfs:label "COVID-19 valence, Omicron variant BA.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-BA.1-25"@en .
+<http://ivci.org/NUVA/VAL178> rdfs:label "COVID-19 valence, Omicron variant BA.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL179> rdfs:label "COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms"@en ;
-    skos:altLabel "Covid-ARNm-S-OMI-XFG-25"@en .
+<http://ivci.org/NUVA/VAL179> rdfs:label "COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL180> rdfs:label "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 100 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-ORI-100"@en .
+<http://ivci.org/NUVA/VAL180> rdfs:label "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 100 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL181> rdfs:label "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-ORI-25"@en .
+<http://ivci.org/NUVA/VAL181> rdfs:label "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL182> rdfs:label "Measles valence, unspecified"@en ;
-    skos:altLabel "MEAS"@en .
+<http://ivci.org/NUVA/VAL182> rdfs:label "Measles valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL183> rdfs:label "Mumps valence, unspecified"@en ;
-    skos:altLabel "MUMPS"@en .
+<http://ivci.org/NUVA/VAL183> rdfs:label "Mumps valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL184> rdfs:label "Pneumococcus valence, conjugated polysaccharide, monovalent"@en ;
-    skos:altLabel "PCV"@en .
+<http://ivci.org/NUVA/VAL184> rdfs:label "Pneumococcus valence, conjugated polysaccharide, monovalent"@en .
 
-<http://ivci.org/NUVA/VAL185> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, unspecified"@en ;
-    skos:altLabel "PPSV"@en .
+<http://ivci.org/NUVA/VAL185> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL186> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 1"@en ;
-    skos:altLabel "PCV-01"@en .
+<http://ivci.org/NUVA/VAL186> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 1"@en .
 
-<http://ivci.org/NUVA/VAL187> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 3"@en ;
-    skos:altLabel "PCV-03"@en .
+<http://ivci.org/NUVA/VAL187> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 3"@en .
 
-<http://ivci.org/NUVA/VAL188> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 4"@en ;
-    skos:altLabel "PCV-04"@en .
+<http://ivci.org/NUVA/VAL188> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 4"@en .
 
-<http://ivci.org/NUVA/VAL189> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 5"@en ;
-    skos:altLabel "PCV-05"@en .
+<http://ivci.org/NUVA/VAL189> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 5"@en .
 
-<http://ivci.org/NUVA/VAL190> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 6A"@en ;
-    skos:altLabel "PCV-06A"@en .
+<http://ivci.org/NUVA/VAL190> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 6A"@en .
 
-<http://ivci.org/NUVA/VAL191> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 6B"@en ;
-    skos:altLabel "PCV-06B"@en .
+<http://ivci.org/NUVA/VAL191> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 6B"@en .
 
-<http://ivci.org/NUVA/VAL192> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 7F"@en ;
-    skos:altLabel "PCV-07F"@en .
+<http://ivci.org/NUVA/VAL192> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 7F"@en .
 
-<http://ivci.org/NUVA/VAL193> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 8"@en ;
-    skos:altLabel "PCV-08"@en .
+<http://ivci.org/NUVA/VAL193> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 8"@en .
 
-<http://ivci.org/NUVA/VAL194> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 9V"@en ;
-    skos:altLabel "PCV-09V"@en .
+<http://ivci.org/NUVA/VAL194> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 9V"@en .
 
-<http://ivci.org/NUVA/VAL195> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 10A"@en ;
-    skos:altLabel "PCV-10A"@en .
+<http://ivci.org/NUVA/VAL195> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 10A"@en .
 
-<http://ivci.org/NUVA/VAL196> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 11A"@en ;
-    skos:altLabel "PCV-11A"@en .
+<http://ivci.org/NUVA/VAL196> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 11A"@en .
 
-<http://ivci.org/NUVA/VAL197> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 12F"@en ;
-    skos:altLabel "PCV-12F"@en .
+<http://ivci.org/NUVA/VAL197> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 12F"@en .
 
-<http://ivci.org/NUVA/VAL198> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 14"@en ;
-    skos:altLabel "PCV-14"@en .
+<http://ivci.org/NUVA/VAL198> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 14"@en .
 
-<http://ivci.org/NUVA/VAL199> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 15B"@en ;
-    skos:altLabel "PCV-15B"@en .
+<http://ivci.org/NUVA/VAL199> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 15B"@en .
 
-<http://ivci.org/NUVA/VAL200> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 18C"@en ;
-    skos:altLabel "PCV-18C"@en .
+<http://ivci.org/NUVA/VAL200> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 18C"@en .
 
-<http://ivci.org/NUVA/VAL201> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 19A"@en ;
-    skos:altLabel "PCV-19A"@en .
+<http://ivci.org/NUVA/VAL201> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 19A"@en .
 
-<http://ivci.org/NUVA/VAL202> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 19F"@en ;
-    skos:altLabel "PCV-19F"@en .
+<http://ivci.org/NUVA/VAL202> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 19F"@en .
 
-<http://ivci.org/NUVA/VAL203> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 22F"@en ;
-    skos:altLabel "PCV-22F"@en .
+<http://ivci.org/NUVA/VAL203> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 22F"@en .
 
-<http://ivci.org/NUVA/VAL204> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 23F"@en ;
-    skos:altLabel "PCV-23F"@en .
+<http://ivci.org/NUVA/VAL204> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 23F"@en .
 
-<http://ivci.org/NUVA/VAL205> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 33F"@en ;
-    skos:altLabel "PCV-33F"@en .
+<http://ivci.org/NUVA/VAL205> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 33F"@en .
 
-<http://ivci.org/NUVA/VAL206> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 1"@en ;
-    skos:altLabel "PPSV-01"@en .
+<http://ivci.org/NUVA/VAL206> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 1"@en .
 
-<http://ivci.org/NUVA/VAL207> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 2"@en ;
-    skos:altLabel "PPSV-02"@en .
+<http://ivci.org/NUVA/VAL207> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 2"@en .
 
-<http://ivci.org/NUVA/VAL208> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 3"@en ;
-    skos:altLabel "PPSV-03"@en .
+<http://ivci.org/NUVA/VAL208> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 3"@en .
 
-<http://ivci.org/NUVA/VAL209> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 4"@en ;
-    skos:altLabel "PPSV-04"@en .
+<http://ivci.org/NUVA/VAL209> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 4"@en .
 
-<http://ivci.org/NUVA/VAL210> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 5"@en ;
-    skos:altLabel "PPSV-05"@en .
+<http://ivci.org/NUVA/VAL210> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 5"@en .
 
-<http://ivci.org/NUVA/VAL211> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 6B"@en ;
-    skos:altLabel "PPSV-06B"@en .
+<http://ivci.org/NUVA/VAL211> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 6B"@en .
 
-<http://ivci.org/NUVA/VAL212> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 7F"@en ;
-    skos:altLabel "PPSV-07F"@en .
+<http://ivci.org/NUVA/VAL212> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 7F"@en .
 
-<http://ivci.org/NUVA/VAL213> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 8"@en ;
-    skos:altLabel "PPSV-08"@en .
+<http://ivci.org/NUVA/VAL213> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 8"@en .
 
-<http://ivci.org/NUVA/VAL214> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 9N"@en ;
-    skos:altLabel "PPSV-09N"@en .
+<http://ivci.org/NUVA/VAL214> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 9N"@en .
 
-<http://ivci.org/NUVA/VAL215> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 9V"@en ;
-    skos:altLabel "PPSV-09V"@en .
+<http://ivci.org/NUVA/VAL215> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 9V"@en .
 
-<http://ivci.org/NUVA/VAL216> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 10A"@en ;
-    skos:altLabel "PPSV-10A"@en .
+<http://ivci.org/NUVA/VAL216> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 10A"@en .
 
-<http://ivci.org/NUVA/VAL217> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 11A"@en ;
-    skos:altLabel "PPSV-11A"@en .
+<http://ivci.org/NUVA/VAL217> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 11A"@en .
 
-<http://ivci.org/NUVA/VAL218> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 12F"@en ;
-    skos:altLabel "PPSV-12F"@en .
+<http://ivci.org/NUVA/VAL218> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 12F"@en .
 
-<http://ivci.org/NUVA/VAL219> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 14"@en ;
-    skos:altLabel "PPSV-14"@en .
+<http://ivci.org/NUVA/VAL219> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 14"@en .
 
-<http://ivci.org/NUVA/VAL220> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 15B"@en ;
-    skos:altLabel "PPSV-15B"@en .
+<http://ivci.org/NUVA/VAL220> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 15B"@en .
 
-<http://ivci.org/NUVA/VAL221> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 15F"@en ;
-    skos:altLabel "PPSV-15F"@en .
+<http://ivci.org/NUVA/VAL221> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 15F"@en .
 
-<http://ivci.org/NUVA/VAL222> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 17F"@en ;
-    skos:altLabel "PPSV-17F"@en .
+<http://ivci.org/NUVA/VAL222> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 17F"@en .
 
-<http://ivci.org/NUVA/VAL223> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 18C"@en ;
-    skos:altLabel "PPSV-18C"@en .
+<http://ivci.org/NUVA/VAL223> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 18C"@en .
 
-<http://ivci.org/NUVA/VAL224> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 19A"@en ;
-    skos:altLabel "PPSV-19A"@en .
+<http://ivci.org/NUVA/VAL224> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 19A"@en .
 
-<http://ivci.org/NUVA/VAL225> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 19F"@en ;
-    skos:altLabel "PPSV-19F"@en .
+<http://ivci.org/NUVA/VAL225> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 19F"@en .
 
-<http://ivci.org/NUVA/VAL226> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 20"@en ;
-    skos:altLabel "PPSV-20"@en .
+<http://ivci.org/NUVA/VAL226> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 20"@en .
 
-<http://ivci.org/NUVA/VAL227> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 22F"@en ;
-    skos:altLabel "PPSV-22F"@en .
+<http://ivci.org/NUVA/VAL227> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 22F"@en .
 
-<http://ivci.org/NUVA/VAL228> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 23F"@en ;
-    skos:altLabel "PPSV-23F"@en .
+<http://ivci.org/NUVA/VAL228> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 23F"@en .
 
-<http://ivci.org/NUVA/VAL229> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 33F"@en ;
-    skos:altLabel "PPSV-33F"@en .
+<http://ivci.org/NUVA/VAL229> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 33F"@en .
 
-<http://ivci.org/NUVA/VAL230> rdfs:label "Influenza valence, quadrivalent, inactivated, split or subunit, unspecified"@en ;
-    skos:altLabel "INF-SU4"@en .
+<http://ivci.org/NUVA/VAL230> rdfs:label "Influenza valence, quadrivalent, inactivated, split or subunit, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL231> rdfs:label "Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route"@en ;
-    skos:altLabel "INF-SUimsc3"@en .
+<http://ivci.org/NUVA/VAL231> rdfs:label "Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route"@en .
 
-<http://ivci.org/NUVA/VAL232> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 6A"@en ;
-    skos:altLabel "PPSV-06A"@en .
+<http://ivci.org/NUVA/VAL232> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 6A"@en .
 
-<http://ivci.org/NUVA/VAL233> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 25"@en ;
-    skos:altLabel "PPSV-25"@en .
+<http://ivci.org/NUVA/VAL233> rdfs:label "Pneumococcal valence, polysaccharide unconjugated, serotype 25"@en .
 
-<http://ivci.org/NUVA/VAL234> rdfs:label "Meningococcal valence, unspecified"@en ;
-    skos:altLabel "Men"@en .
+<http://ivci.org/NUVA/VAL234> rdfs:label "Meningococcal valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL235> rdfs:label "Meningococcal valence, polyvalent, conjugate polysaccharide"@en ;
-    skos:altLabel "MCV-poly"@en .
+<http://ivci.org/NUVA/VAL235> rdfs:label "Meningococcal valence, polyvalent, conjugate polysaccharide"@en .
 
-<http://ivci.org/NUVA/VAL236> rdfs:label "Human Papillomavirus valence, VLP monovalent"@en ;
-    skos:altLabel "HPV-mono"@en .
+<http://ivci.org/NUVA/VAL236> rdfs:label "Human Papillomavirus valence, VLP monovalent"@en .
 
-<http://ivci.org/NUVA/VAL237> rdfs:label "Human Papillomavirus valence, VLP polyvalent"@en ;
-    skos:altLabel "HPV-poly"@en .
+<http://ivci.org/NUVA/VAL237> rdfs:label "Human Papillomavirus valence, VLP polyvalent"@en .
 
-<http://ivci.org/NUVA/VAL238> rdfs:label "Human Papillomavirus valence, VLP, type 6"@en ;
-    skos:altLabel "HPV-06"@en .
+<http://ivci.org/NUVA/VAL238> rdfs:label "Human Papillomavirus valence, VLP, type 6"@en .
 
-<http://ivci.org/NUVA/VAL239> rdfs:label "Human Papillomavirus valence, VLP , type 11"@en ;
-    skos:altLabel "HPV-11"@en .
+<http://ivci.org/NUVA/VAL239> rdfs:label "Human Papillomavirus valence, VLP , type 11"@en .
 
-<http://ivci.org/NUVA/VAL240> rdfs:label "Human Papillomavirus valence, VLP, type 16"@en ;
-    skos:altLabel "HPV-16"@en .
+<http://ivci.org/NUVA/VAL240> rdfs:label "Human Papillomavirus valence, VLP, type 16"@en .
 
-<http://ivci.org/NUVA/VAL241> rdfs:label "Human Papillomavirus valence, VLP, type 18"@en ;
-    skos:altLabel "HPV-18"@en .
+<http://ivci.org/NUVA/VAL241> rdfs:label "Human Papillomavirus valence, VLP, type 18"@en .
 
-<http://ivci.org/NUVA/VAL242> rdfs:label "Human Papillomavirus valence, VLP, type 31"@en ;
-    skos:altLabel "HPV-31"@en .
+<http://ivci.org/NUVA/VAL242> rdfs:label "Human Papillomavirus valence, VLP, type 31"@en .
 
-<http://ivci.org/NUVA/VAL243> rdfs:label "Human Papillomavirus valence, VLP, type 33"@en ;
-    skos:altLabel "HPV-33"@en .
+<http://ivci.org/NUVA/VAL243> rdfs:label "Human Papillomavirus valence, VLP, type 33"@en .
 
-<http://ivci.org/NUVA/VAL244> rdfs:label "Human Papillomavirus valence, VLP, type 58"@en ;
-    skos:altLabel "HPV-58"@en .
+<http://ivci.org/NUVA/VAL244> rdfs:label "Human Papillomavirus valence, VLP, type 58"@en .
 
-<http://ivci.org/NUVA/VAL245> rdfs:label "Human Papillomavirus valence, VLP, type 52"@en ;
-    skos:altLabel "HPV-52"@en .
+<http://ivci.org/NUVA/VAL245> rdfs:label "Human Papillomavirus valence, VLP, type 52"@en .
 
-<http://ivci.org/NUVA/VAL246> rdfs:label "Human Papillomavirus valence, VLP, type 45"@en ;
-    skos:altLabel "HPV-45"@en .
+<http://ivci.org/NUVA/VAL246> rdfs:label "Human Papillomavirus valence, VLP, type 45"@en .
 
-<http://ivci.org/NUVA/VAL247> rdfs:label "Japanese encephalitis valence, live attenuated chimeric virus"@en ;
-    skos:altLabel "JE-LAR"@en .
+<http://ivci.org/NUVA/VAL247> rdfs:label "Japanese encephalitis valence, live attenuated chimeric virus"@en .
 
-<http://ivci.org/NUVA/VAL248> rdfs:label "Japanese encephalitis valence, live attenuated virus, unspecified"@en ;
-    skos:altLabel "JE-LA"@en .
+<http://ivci.org/NUVA/VAL248> rdfs:label "Japanese encephalitis valence, live attenuated virus, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL249> rdfs:label "Japanese encephalitis valence, unspecified"@en ;
-    skos:altLabel "JE"@en .
+<http://ivci.org/NUVA/VAL249> rdfs:label "Japanese encephalitis valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL250> rdfs:label "Japanese encephalitis valence, inactivated, whole-virus, prepared on murine brain tissue"@en ;
-    skos:altLabel "JE-I-mb"@en .
+<http://ivci.org/NUVA/VAL250> rdfs:label "Japanese encephalitis valence, inactivated, whole-virus, prepared on murine brain tissue"@en .
 
-<http://ivci.org/NUVA/VAL251> rdfs:label "Japanese encephalitis valence, inactivated, whole-virus, derived from Vero cells"@en ;
-    skos:altLabel "JE-I-Vero"@en .
+<http://ivci.org/NUVA/VAL251> rdfs:label "Japanese encephalitis valence, inactivated, whole-virus, derived from Vero cells"@en .
 
-<http://ivci.org/NUVA/VAL252> rdfs:label "Rabies immunoglobulin, human origin"@en ;
-    skos:altLabel "RIG-hu"@en .
+<http://ivci.org/NUVA/VAL252> rdfs:label "Rabies immunoglobulin, human origin"@en .
 
-<http://ivci.org/NUVA/VAL253> rdfs:label "Rabies immunoglobulin valence, equine origin"@en ;
-    skos:altLabel "eRIG"@en .
+<http://ivci.org/NUVA/VAL253> rdfs:label "Rabies immunoglobulin valence, equine origin"@en .
 
-<http://ivci.org/NUVA/VAL254> rdfs:label "Rabies valence, inactivated, whole virion, semple type, prepared from goat or sheep brain tissue infected with rabies virus, contains myelin"@en ;
-    skos:altLabel "Rab-I-Semple"@en .
+<http://ivci.org/NUVA/VAL254> rdfs:label "Rabies valence, inactivated, whole virion, semple type, prepared from goat or sheep brain tissue infected with rabies virus, contains myelin"@en .
 
-<http://ivci.org/NUVA/VAL255> rdfs:label "Rabies valence, inactivated, whole virion, Fuenzalida type, prepared from suckling mouse brain tissue infected with rabies virus, decreased myelin content"@en ;
-    skos:altLabel "Rab-I-Fuenzalida"@en .
+<http://ivci.org/NUVA/VAL255> rdfs:label "Rabies valence, inactivated, whole virion, Fuenzalida type, prepared from suckling mouse brain tissue infected with rabies virus, decreased myelin content"@en .
 
-<http://ivci.org/NUVA/VAL256> rdfs:label "Rabies valence, inactivated, whole virion, prepared from animal brain tissue infected with rabies virus, unspecified"@en ;
-    skos:altLabel "Rab-I-NervousTissue"@en .
+<http://ivci.org/NUVA/VAL256> rdfs:label "Rabies valence, inactivated, whole virion, prepared from animal brain tissue infected with rabies virus, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL257> rdfs:label "Rabies valence, inactivated, whole virion, cell culture-based, unspecified"@en ;
-    skos:altLabel "Rab-I-CC"@en .
+<http://ivci.org/NUVA/VAL257> rdfs:label "Rabies valence, inactivated, whole virion, cell culture-based, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL258> rdfs:label "Rabies valence, inactivated, whole virion, cell culture-based, human diploid cell vaccine (HDCV) MRC-5, inactivation with ß-propiolactone"@en ;
-    skos:altLabel "Rab-I-HDCV"@en .
+<http://ivci.org/NUVA/VAL258> rdfs:label "Rabies valence, inactivated, whole virion, cell culture-based, human diploid cell vaccine (HDCV) MRC-5, inactivation with ß-propiolactone"@en .
 
-<http://ivci.org/NUVA/VAL259> rdfs:label "Rabies valence, inactivated, whole virion, purified chick embryo cell vaccine (PCECV), obtained by growing the fixed rabies virus strain Flury LEP-25 in primary cultures of chick fibroblasts, virus inactivated with ß-propiolactone"@en ;
-    skos:altLabel "Rab-I-PCEC"@en .
+<http://ivci.org/NUVA/VAL259> rdfs:label "Rabies valence, inactivated, whole virion, purified chick embryo cell vaccine (PCECV), obtained by growing the fixed rabies virus strain Flury LEP-25 in primary cultures of chick fibroblasts, virus inactivated with ß-propiolactone"@en .
 
-<http://ivci.org/NUVA/VAL260> rdfs:label "Rabies valence, inactivated, whole virion, cell culture-based, purified Vero cell rabies vaccine (PVRV), Wistar strain, inactivation with ß-propiolactone"@en ;
-    skos:altLabel "Rab-I-PVRV"@en .
+<http://ivci.org/NUVA/VAL260> rdfs:label "Rabies valence, inactivated, whole virion, cell culture-based, purified Vero cell rabies vaccine (PVRV), Wistar strain, inactivation with ß-propiolactone"@en .
 
-<http://ivci.org/NUVA/VAL261> rdfs:label "Rabies valence, inactivated, whole virion, cell culture-based, primary hamster kidney cell vaccine (PHKCV), Beijing strain, inactivation with formalin"@en ;
-    skos:altLabel "Rab-I-PHKCV"@en .
+<http://ivci.org/NUVA/VAL261> rdfs:label "Rabies valence, inactivated, whole virion, cell culture-based, primary hamster kidney cell vaccine (PHKCV), Beijing strain, inactivation with formalin"@en .
 
-<http://ivci.org/NUVA/VAL262> rdfs:label "Rabies valence, inactivated, whole virion, embryonated egg-based vaccine (EEV), unspecified"@en ;
-    skos:altLabel "Rab-I-EEV"@en .
+<http://ivci.org/NUVA/VAL262> rdfs:label "Rabies valence, inactivated, whole virion, embryonated egg-based vaccine (EEV), unspecified"@en .
 
-<http://ivci.org/NUVA/VAL263> rdfs:label "Rabies valence, inactivated, whole virion, purified duck embryo vaccine (PDEV), inactivation by ß-propiolactone"@en ;
-    skos:altLabel "Rab-I-PDEV"@en .
+<http://ivci.org/NUVA/VAL263> rdfs:label "Rabies valence, inactivated, whole virion, purified duck embryo vaccine (PDEV), inactivation by ß-propiolactone"@en .
 
-<http://ivci.org/NUVA/VAL264> rdfs:label "COVID-19 valence, inactivated, whole-virion, authorized"@en ;
-    skos:altLabel "COVID-IV-Auth"@en .
+<http://ivci.org/NUVA/VAL264> rdfs:label "COVID-19 valence, inactivated, whole-virion, authorized"@en .
 
-<http://ivci.org/NUVA/VAL265> rdfs:label "COVID-19 valence, inactivated, whole-virion, clinical trial"@en ;
-    skos:altLabel "COVID-IV-CT"@en .
+<http://ivci.org/NUVA/VAL265> rdfs:label "COVID-19 valence, inactivated, whole-virion, clinical trial"@en .
 
-<http://ivci.org/NUVA/VAL266> rdfs:label "Meningococcal C valence, polysaccharide tetanus toxoid conjugated"@en ;
-    skos:altLabel "MCV-C-T"@en .
+<http://ivci.org/NUVA/VAL266> rdfs:label "Meningococcal C valence, polysaccharide tetanus toxoid conjugated"@en .
 
-<http://ivci.org/NUVA/VAL267> rdfs:label "Meningococcal C valence, polysaccharide diphtheria toxoid conjugated"@en ;
-    skos:altLabel "MCV-C-D"@en .
+<http://ivci.org/NUVA/VAL267> rdfs:label "Meningococcal C valence, polysaccharide diphtheria toxoid conjugated"@en .
 
-<http://ivci.org/NUVA/VAL268> rdfs:label "Meningococcal C valence, polysaccharide conjugated to CRM197 protein"@en ;
-    skos:altLabel "MCV-C-CRM"@en .
+<http://ivci.org/NUVA/VAL268> rdfs:label "Meningococcal C valence, polysaccharide conjugated to CRM197 protein"@en .
 
-<http://ivci.org/NUVA/VAL269> rdfs:label "Meningococcal A valence, polysaccharide conjugated to CRM197 Protein"@en ;
-    skos:altLabel "MCV-A-CRM"@en .
+<http://ivci.org/NUVA/VAL269> rdfs:label "Meningococcal A valence, polysaccharide conjugated to CRM197 Protein"@en .
 
-<http://ivci.org/NUVA/VAL270> rdfs:label "Meningococcal A valence, polysaccharide diphtheria toxoid conjugated"@en ;
-    skos:altLabel "MCV-A-D"@en .
+<http://ivci.org/NUVA/VAL270> rdfs:label "Meningococcal A valence, polysaccharide diphtheria toxoid conjugated"@en .
 
-<http://ivci.org/NUVA/VAL271> rdfs:label "Meningococcal A valence, polysaccharide conjugate valence to tetanus toxoid"@en ;
-    skos:altLabel "MCV-A-T"@en .
+<http://ivci.org/NUVA/VAL271> rdfs:label "Meningococcal A valence, polysaccharide conjugate valence to tetanus toxoid"@en .
 
-<http://ivci.org/NUVA/VAL272> rdfs:label "Meningococcal W valence, polysaccharide tetanus toxoid conjugated"@en ;
-    skos:altLabel "MCV-W-T"@en .
+<http://ivci.org/NUVA/VAL272> rdfs:label "Meningococcal W valence, polysaccharide tetanus toxoid conjugated"@en .
 
-<http://ivci.org/NUVA/VAL273> rdfs:label "Meningococcal W valence, polysaccharide diphtheria toxoid conjugated"@en ;
-    skos:altLabel "MCV-W-D"@en .
+<http://ivci.org/NUVA/VAL273> rdfs:label "Meningococcal W valence, polysaccharide diphtheria toxoid conjugated"@en .
 
-<http://ivci.org/NUVA/VAL274> rdfs:label "Meningococcal W valence, polysaccharide conjugated to CRM197 protein"@en ;
-    skos:altLabel "MCV-W-CRM"@en .
+<http://ivci.org/NUVA/VAL274> rdfs:label "Meningococcal W valence, polysaccharide conjugated to CRM197 protein"@en .
 
-<http://ivci.org/NUVA/VAL275> rdfs:label "Meningococcal Y valence, polysaccharide conjugated to CRM197 protein"@en ;
-    skos:altLabel "MCV-Y-CRM"@en .
+<http://ivci.org/NUVA/VAL275> rdfs:label "Meningococcal Y valence, polysaccharide conjugated to CRM197 protein"@en .
 
-<http://ivci.org/NUVA/VAL276> rdfs:label "Meningococcal Y valence, polysaccharide tetanus toxoid conjugated"@en ;
-    skos:altLabel "MCV-Y-T"@en .
+<http://ivci.org/NUVA/VAL276> rdfs:label "Meningococcal Y valence, polysaccharide tetanus toxoid conjugated"@en .
 
-<http://ivci.org/NUVA/VAL277> rdfs:label "Meningococcal Y valence, polysaccharide diphtheria toxoid conjugated"@en ;
-    skos:altLabel "MCV-Y-D"@en .
+<http://ivci.org/NUVA/VAL277> rdfs:label "Meningococcal Y valence, polysaccharide diphtheria toxoid conjugated"@en .
 
-<http://ivci.org/NUVA/VAL278> rdfs:label "Adenovirus valence, live attenuated, oral route, unspecified"@en ;
-    skos:altLabel "AD-LA"@en .
+<http://ivci.org/NUVA/VAL278> rdfs:label "Adenovirus valence, live attenuated, oral route, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL279> rdfs:label "Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, pediatric dose"@en ;
-    skos:altLabel "INF-SUped4"@en .
+<http://ivci.org/NUVA/VAL279> rdfs:label "Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, pediatric dose"@en .
 
-<http://ivci.org/NUVA/VAL280> rdfs:label "Botulism valence, toxoid"@en ;
-    skos:altLabel "BT"@en .
+<http://ivci.org/NUVA/VAL280> rdfs:label "Botulism valence, toxoid"@en .
 
-<http://ivci.org/NUVA/VAL281> rdfs:label "Adenovirus type 7 valence, live attenuated, oral route"@en ;
-    skos:altLabel "AD7-LA"@en .
+<http://ivci.org/NUVA/VAL281> rdfs:label "Adenovirus type 7 valence, live attenuated, oral route"@en .
 
-<http://ivci.org/NUVA/VAL282> rdfs:label "Adenovirus type 4 valence, live attenuated, oral route"@en ;
-    skos:altLabel "AD4-LA"@en .
+<http://ivci.org/NUVA/VAL282> rdfs:label "Adenovirus type 4 valence, live attenuated, oral route"@en .
 
-<http://ivci.org/NUVA/VAL283> rdfs:label "Hepatitis A valence, inactivated, whole-virus, paediatric dose, unspecified"@en ;
-    skos:altLabel "HepA-PED"@en .
+<http://ivci.org/NUVA/VAL283> rdfs:label "Hepatitis A valence, inactivated, whole-virus, paediatric dose, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL284> rdfs:label "Hepatitis A valence, inactivated, whole-virus, adult dose, unspecified"@en ;
-    skos:altLabel "HepA-ADU"@en .
+<http://ivci.org/NUVA/VAL284> rdfs:label "Hepatitis A valence, inactivated, whole-virus, adult dose, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL285> rdfs:label "Influenza valence, trivalent, inactivated, obtained from cell culture, split or subunit, standard dose"@en ;
-    skos:altLabel "INF-CC3"@en .
+<http://ivci.org/NUVA/VAL285> rdfs:label "Influenza valence, trivalent, inactivated, obtained from cell culture, split or subunit, standard dose"@en .
 
-<http://ivci.org/NUVA/VAL286> rdfs:label "Hepatitis A valence, live attenuated, unspecified"@en ;
-    skos:altLabel "HepA-LA"@en .
+<http://ivci.org/NUVA/VAL286> rdfs:label "Hepatitis A valence, live attenuated, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL287> rdfs:label "Influenza valence, quadrivalent, recombinant"@en ;
-    skos:altLabel "INF-R4"@en .
+<http://ivci.org/NUVA/VAL287> rdfs:label "Influenza valence, quadrivalent, recombinant"@en .
 
-<http://ivci.org/NUVA/VAL288> rdfs:label "Hepatitis A valence, unspecified"@en ;
-    skos:altLabel "HepA"@en .
+<http://ivci.org/NUVA/VAL288> rdfs:label "Hepatitis A valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL289> rdfs:label "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms"@en ;
-    skos:altLabel " COVID-mRNA-S-ORI-10"@en .
+<http://ivci.org/NUVA/VAL289> rdfs:label "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL290> rdfs:label "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-ORI-30"@en .
+<http://ivci.org/NUVA/VAL290> rdfs:label "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL291> rdfs:label "Hepatitis B valence, Recombinant, three antigens (HbS Ag, pre-S1, and pre-S2)"@en ;
-    skos:altLabel "HBs-r-3Ag"@en .
+<http://ivci.org/NUVA/VAL291> rdfs:label "Hepatitis B valence, Recombinant, three antigens (HbS Ag, pre-S1, and pre-S2)"@en .
 
-<http://ivci.org/NUVA/VAL292> rdfs:label "COVID-19 valence, non-replicating adenovirus 26 vector encoding the SARS-CoV-2 spike protein, in clinical trials"@en ;
-    skos:altLabel "COVID-VVnr-S-Ad26-CT"@en .
+<http://ivci.org/NUVA/VAL292> rdfs:label "COVID-19 valence, non-replicating adenovirus 26 vector encoding the SARS-CoV-2 spike protein, in clinical trials"@en .
 
-<http://ivci.org/NUVA/VAL293> rdfs:label "Anthrax immunoglobulin valence"@en ;
-    skos:altLabel "Anthrax-Ig"@en .
+<http://ivci.org/NUVA/VAL293> rdfs:label "Anthrax immunoglobulin valence"@en .
 
-<http://ivci.org/NUVA/VAL294> rdfs:label "Smallpox valence, first-generation, live attenuated"@en ;
-    skos:altLabel "POX-1G"@en .
+<http://ivci.org/NUVA/VAL294> rdfs:label "Smallpox valence, first-generation, live attenuated"@en .
 
-<http://ivci.org/NUVA/VAL295> rdfs:label "Smallpox valence, second-generation, live attenuated"@en ;
-    skos:altLabel "POX-2G"@en .
+<http://ivci.org/NUVA/VAL295> rdfs:label "Smallpox valence, second-generation, live attenuated"@en .
 
-<http://ivci.org/NUVA/VAL296> rdfs:label "Smallpox valence, non-replicating, third-generation, Modified Ankara vaccine"@en ;
-    skos:altLabel "POX-3G-MVA"@en .
+<http://ivci.org/NUVA/VAL296> rdfs:label "Smallpox valence, non-replicating, third-generation, Modified Ankara vaccine"@en .
 
-<http://ivci.org/NUVA/VAL297> rdfs:label "Meningococcal A valence, unspecified"@en ;
-    skos:altLabel "MenA"@en .
+<http://ivci.org/NUVA/VAL297> rdfs:label "Meningococcal A valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL298> rdfs:label "Meningococcal C valence, unspecified"@en ;
-    skos:altLabel "MenC"@en .
+<http://ivci.org/NUVA/VAL298> rdfs:label "Meningococcal C valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL299> rdfs:label "Meningococcal Y valence, unspecified"@en ;
-    skos:altLabel "MenY"@en .
+<http://ivci.org/NUVA/VAL299> rdfs:label "Meningococcal Y valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL300> rdfs:label "Meningococcal W valence, unspecified"@en ;
-    skos:altLabel "MenW"@en .
+<http://ivci.org/NUVA/VAL300> rdfs:label "Meningococcal W valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL301> rdfs:label "Influenza valence, trivalent, recombinant"@en ;
-    skos:altLabel "INF-R3"@en .
+<http://ivci.org/NUVA/VAL301> rdfs:label "Influenza valence, trivalent, recombinant"@en .
 
-<http://ivci.org/NUVA/VAL302> rdfs:label "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-ORI-50"@en .
+<http://ivci.org/NUVA/VAL302> rdfs:label "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL303> rdfs:label "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein"@en ;
-    skos:altLabel "COVID-mRNA-S-ORI"@en .
+<http://ivci.org/NUVA/VAL303> rdfs:label "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein"@en .
 
-<http://ivci.org/NUVA/VAL304> rdfs:label "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 15 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-ORI-15"@en .
+<http://ivci.org/NUVA/VAL304> rdfs:label "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 15 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL305> rdfs:label "COVID-19 valence, Omicron variant BA.1, mRNA encoding the SARS-CoV-2 spike protein, 15 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-BA.1-15"@en .
+<http://ivci.org/NUVA/VAL305> rdfs:label "COVID-19 valence, Omicron variant BA.1, mRNA encoding the SARS-CoV-2 spike protein, 15 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL306> rdfs:label "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-ORI-3"@en .
+<http://ivci.org/NUVA/VAL306> rdfs:label "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL307> rdfs:label "COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2 spike protein,15 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-BA.4/5-15"@en .
+<http://ivci.org/NUVA/VAL307> rdfs:label "COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2 spike protein,15 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL308> rdfs:label "COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-BA.4/5-25"@en .
+<http://ivci.org/NUVA/VAL308> rdfs:label "COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL309> rdfs:label "COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2 spike protein, 5 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-BA.4/5-5"@en .
+<http://ivci.org/NUVA/VAL309> rdfs:label "COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2 spike protein, 5 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL310> rdfs:label "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 5 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-ORI-5"@en .
+<http://ivci.org/NUVA/VAL310> rdfs:label "COVID-19 valence, original virus, mRNA encoding the SARS-CoV-2 spike protein, 5 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL311> rdfs:label "Malaria valence, R21/Matrix-M pre-erythrocytic"@en ;
-    skos:altLabel "R21/Matrix-M"@en .
+<http://ivci.org/NUVA/VAL311> rdfs:label "Malaria valence, R21/Matrix-M pre-erythrocytic"@en .
 
-<http://ivci.org/NUVA/VAL312> rdfs:label "Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain"@en ;
-    skos:altLabel "TBE-K23"@en .
+<http://ivci.org/NUVA/VAL312> rdfs:label "Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain"@en .
 
-<http://ivci.org/NUVA/VAL313> rdfs:label "Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl strain, dose not specified"@en ;
-    skos:altLabel "TBE-Neudorfl"@en .
+<http://ivci.org/NUVA/VAL313> rdfs:label "Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl strain, dose not specified"@en .
 
-<http://ivci.org/NUVA/VAL314> rdfs:label "Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl strain, adult dose"@en ;
-    skos:altLabel "TBE-Neudorfl-ADU"@en .
+<http://ivci.org/NUVA/VAL314> rdfs:label "Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl strain, adult dose"@en .
 
-<http://ivci.org/NUVA/VAL315> rdfs:label "Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl strain, paediatric dose"@en ;
-    skos:altLabel "TBE-Neudorfl-PED"@en .
+<http://ivci.org/NUVA/VAL315> rdfs:label "Tick-borne encephalitis valence, inactivated, whole-virus, Neudörfl strain, paediatric dose"@en .
 
-<http://ivci.org/NUVA/VAL316> rdfs:label "RSV valence, protein subunit, recombinant, RSVPreF3 antigen derived from F protein"@en ;
-    skos:altLabel "RSV-PreF3"@en .
+<http://ivci.org/NUVA/VAL316> rdfs:label "RSV valence, protein subunit, recombinant, RSVPreF3 antigen derived from F protein"@en .
 
-<http://ivci.org/NUVA/VAL317> rdfs:label "RSV valence, antibody, unspecified"@en ;
-    skos:altLabel "RSV-Ab"@en .
+<http://ivci.org/NUVA/VAL317> rdfs:label "RSV valence, antibody, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL318> rdfs:label "RSV valence, vaccine, unspecified"@en ;
-    skos:altLabel "RSV-V"@en .
+<http://ivci.org/NUVA/VAL318> rdfs:label "RSV valence, vaccine, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL319> rdfs:label "COVID-19 valence, non-replicating adenoviral vector encoding the SARS-CoV-2 spike protein, inhalation vaccine, unspecified"@en ;
-    skos:altLabel "COVID-VVnr-S-INH"@en .
+<http://ivci.org/NUVA/VAL319> rdfs:label "COVID-19 valence, non-replicating adenoviral vector encoding the SARS-CoV-2 spike protein, inhalation vaccine, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL320> rdfs:label "RSV valence, monoclonal antibody, unspecified"@en ;
-    skos:altLabel "RSV-mAb"@en .
+<http://ivci.org/NUVA/VAL320> rdfs:label "RSV valence, monoclonal antibody, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL321> rdfs:label "RSV valence, monoclonal antibody, nirsevimab"@en ;
-    skos:altLabel "VRS-mAb-nir"@en .
+<http://ivci.org/NUVA/VAL321> rdfs:label "RSV valence, monoclonal antibody, nirsevimab"@en .
 
-<http://ivci.org/NUVA/VAL322> rdfs:label "RSV valence, protein subunit, recombinant, glycoprotein F subtypes A and B"@en ;
-    skos:altLabel "RSV-PreFAB"@en .
+<http://ivci.org/NUVA/VAL322> rdfs:label "RSV valence, protein subunit, recombinant, glycoprotein F subtypes A and B"@en .
 
-<http://ivci.org/NUVA/VAL323> rdfs:label "COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-XBB.1.5-30"@en .
+<http://ivci.org/NUVA/VAL323> rdfs:label "COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL324> rdfs:label "COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-XBB.1.5-10"@en .
+<http://ivci.org/NUVA/VAL324> rdfs:label "COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL325> rdfs:label "COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-XBB.1.5-3"@en .
+<http://ivci.org/NUVA/VAL325> rdfs:label "COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL326> rdfs:label "COVID-19 valence, Omicron BA.4/BA.5 variant, SARS-CoV-2 spike protein mRNA 19, 1.5 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-BA.4/5-1.5"@en .
+<http://ivci.org/NUVA/VAL326> rdfs:label "COVID-19 valence, Omicron BA.4/BA.5 variant, SARS-CoV-2 spike protein mRNA 19, 1.5 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL327> rdfs:label "COVID-19 valence, original virus, SARS-CoV-2 peak protein-encoding mRNA, 1.5 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-ORI-1.5"@en .
+<http://ivci.org/NUVA/VAL327> rdfs:label "COVID-19 valence, original virus, SARS-CoV-2 peak protein-encoding mRNA, 1.5 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL328> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein nanoparticles, Omicron XBB.1.5 subvariant"@en ;
-    skos:altLabel "COVID-PS-rSnp-XBB"@en .
+<http://ivci.org/NUVA/VAL328> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein nanoparticles, Omicron XBB.1.5 subvariant"@en .
 
-<http://ivci.org/NUVA/VAL329> rdfs:label "COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-XBB.1.5-50"@en .
+<http://ivci.org/NUVA/VAL329> rdfs:label "COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL330> rdfs:label "COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-XBB.1.5-25"@en .
+<http://ivci.org/NUVA/VAL330> rdfs:label "COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL331> rdfs:label "CMV valence, immunoglobulin"@en ;
-    skos:altLabel "CMV-Ig"@en .
+<http://ivci.org/NUVA/VAL331> rdfs:label "CMV valence, immunoglobulin"@en .
 
-<http://ivci.org/NUVA/VAL332> rdfs:label "Hepatitis C valence, unspecified"@en ;
-    skos:altLabel "HepC"@en .
+<http://ivci.org/NUVA/VAL332> rdfs:label "Hepatitis C valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL333> rdfs:label "HIV valence, unspecified"@en ;
-    skos:altLabel "HIV"@en .
+<http://ivci.org/NUVA/VAL333> rdfs:label "HIV valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL334> rdfs:label "Melanoma valence, unspecified"@en ;
-    skos:altLabel "MEL"@en .
+<http://ivci.org/NUVA/VAL334> rdfs:label "Melanoma valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL335> rdfs:label "Streptococcus pyogenes valence, unspecified"@en ;
-    skos:altLabel "SPYO"@en .
+<http://ivci.org/NUVA/VAL335> rdfs:label "Streptococcus pyogenes valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL336> rdfs:label "Rift Valley Fever valence, unspecified"@en ;
-    skos:altLabel "RVF"@en .
+<http://ivci.org/NUVA/VAL336> rdfs:label "Rift Valley Fever valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL337> rdfs:label "Smallpox valence, immunoglobulin"@en ;
-    skos:altLabel "POX-Ig"@en .
+<http://ivci.org/NUVA/VAL337> rdfs:label "Smallpox valence, immunoglobulin"@en .
 
-<http://ivci.org/NUVA/VAL338> rdfs:label "RSV valence, unspecified"@en ;
-    skos:altLabel "RSV"@en .
+<http://ivci.org/NUVA/VAL338> rdfs:label "RSV valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL339> rdfs:label "Borrelia burgdorferi valence, unspecified"@en ;
-    skos:altLabel "Lyme"@en .
+<http://ivci.org/NUVA/VAL339> rdfs:label "Borrelia burgdorferi valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL340> rdfs:label "Anthrax valence, unspecified"@en ;
-    skos:altLabel "Anthrax"@en .
+<http://ivci.org/NUVA/VAL340> rdfs:label "Anthrax valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL341> rdfs:label "Escherichia coli valence, unspecified"@en ;
-    skos:altLabel "Eco"@en .
+<http://ivci.org/NUVA/VAL341> rdfs:label "Escherichia coli valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL342> rdfs:label "Klebsiella pneumoniæ valence, unspecified"@en ;
-    skos:altLabel "Kpn"@en .
+<http://ivci.org/NUVA/VAL342> rdfs:label "Klebsiella pneumoniæ valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL343> rdfs:label "Enterococcus faecalis valence, unspecified"@en ;
-    skos:altLabel "Efa"@en .
+<http://ivci.org/NUVA/VAL343> rdfs:label "Enterococcus faecalis valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL344> rdfs:label "Proteus vulgaris valence, unspecified"@en ;
-    skos:altLabel "Pvu"@en .
+<http://ivci.org/NUVA/VAL344> rdfs:label "Proteus vulgaris valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL345> rdfs:label "Urinary tract infections valence, unspecified"@en ;
-    skos:altLabel "UTI"@en .
+<http://ivci.org/NUVA/VAL345> rdfs:label "Urinary tract infections valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL346> rdfs:label "Enterovirus A71 valence"@en ;
-    skos:altLabel "EV71"@en .
+<http://ivci.org/NUVA/VAL346> rdfs:label "Enterovirus A71 valence"@en .
 
-<http://ivci.org/NUVA/VAL347> rdfs:label "Leptospira canicola valence, inactivated, whole-cell"@en ;
-    skos:altLabel "Lepto-ca"@en .
+<http://ivci.org/NUVA/VAL347> rdfs:label "Leptospira canicola valence, inactivated, whole-cell"@en .
 
-<http://ivci.org/NUVA/VAL348> rdfs:label "Leptospira pomona valence, inactivated whole-cell"@en ;
-    skos:altLabel "Lepto-po"@en .
+<http://ivci.org/NUVA/VAL348> rdfs:label "Leptospira pomona valence, inactivated whole-cell"@en .
 
-<http://ivci.org/NUVA/VAL349> rdfs:label "Influenza valence, trivalent, inactivated, fractionated or subunit, adjuvanted"@en ;
-    skos:altLabel "INF-SUAnd3"@en .
+<http://ivci.org/NUVA/VAL349> rdfs:label "Influenza valence, trivalent, inactivated, fractionated or subunit, adjuvanted"@en .
 
-<http://ivci.org/NUVA/VAL350> rdfs:label "Influenza valence, quadrivalent, inactivated, fractionated or subunit, adjuvanted, normal dose"@en ;
-    skos:altLabel "INF-SUAnd4"@en .
+<http://ivci.org/NUVA/VAL350> rdfs:label "Influenza valence, quadrivalent, inactivated, fractionated or subunit, adjuvanted, normal dose"@en .
 
-<http://ivci.org/NUVA/VAL351> rdfs:label "Influenza valence, trivalent, virosomal, unspecified"@en ;
-    skos:altLabel "INF-V3"@en .
+<http://ivci.org/NUVA/VAL351> rdfs:label "Influenza valence, trivalent, virosomal, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL352> rdfs:label "Influenza valence, quadrivalent, virosomal, unspecified"@en ;
-    skos:altLabel "INF-V4"@en .
+<http://ivci.org/NUVA/VAL352> rdfs:label "Influenza valence, quadrivalent, virosomal, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL353> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 2"@en ;
-    skos:altLabel "PCV-02"@en .
+<http://ivci.org/NUVA/VAL353> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 2"@en .
 
-<http://ivci.org/NUVA/VAL354> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 9N"@en ;
-    skos:altLabel "PCV-9N"@en .
+<http://ivci.org/NUVA/VAL354> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 9N"@en .
 
-<http://ivci.org/NUVA/VAL355> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 17F"@en ;
-    skos:altLabel "PCV-17F"@en .
+<http://ivci.org/NUVA/VAL355> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 17F"@en .
 
-<http://ivci.org/NUVA/VAL356> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 20"@en ;
-    skos:altLabel "PCV-20"@en .
+<http://ivci.org/NUVA/VAL356> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 20"@en .
 
-<http://ivci.org/NUVA/VAL357> rdfs:label "Cholera valence, live attenuated, oral"@en ;
-    skos:altLabel "CHOL-LA-O"@en .
+<http://ivci.org/NUVA/VAL357> rdfs:label "Cholera valence, live attenuated, oral"@en .
 
-<http://ivci.org/NUVA/VAL358> rdfs:label "Botulism valence, immunoglobulin"@en ;
-    skos:altLabel "BIG"@en .
+<http://ivci.org/NUVA/VAL358> rdfs:label "Botulism valence, immunoglobulin"@en .
 
-<http://ivci.org/NUVA/VAL359> rdfs:label "Cholera valence, inactivated, whole-cell, unspecified"@en ;
-    skos:altLabel "CHOL-I"@en .
+<http://ivci.org/NUVA/VAL359> rdfs:label "Cholera valence, inactivated, whole-cell, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL360> rdfs:label "Influenza valence, inactivated, obtained from cell culture, split or subunit, standard dose, unspecified"@en ;
-    skos:altLabel "INF-CC"@en .
+<http://ivci.org/NUVA/VAL360> rdfs:label "Influenza valence, inactivated, obtained from cell culture, split or subunit, standard dose, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL361> rdfs:label "Influenza valence, recombinant, unspecified"@en ;
-    skos:altLabel "INF-R"@en .
+<http://ivci.org/NUVA/VAL361> rdfs:label "Influenza valence, recombinant, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL362> rdfs:label "Influenza valence, virosomal, unspecified"@en ;
-    skos:altLabel "INF-V"@en .
+<http://ivci.org/NUVA/VAL362> rdfs:label "Influenza valence, virosomal, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL363> rdfs:label "Influenza valence, trivalent, VLP, unspecified"@en ;
-    skos:altLabel "INF-VLP3"@en .
+<http://ivci.org/NUVA/VAL363> rdfs:label "Influenza valence, trivalent, VLP, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL364> rdfs:label "Influenza valence, non-live, unspecified"@en ;
-    skos:altLabel "INF-NL"@en .
+<http://ivci.org/NUVA/VAL364> rdfs:label "Influenza valence, non-live, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL365> rdfs:label "Influenza valence, non-live, obtained from egg culture, unspecified"@en ;
-    skos:altLabel "INF-E"@en .
+<http://ivci.org/NUVA/VAL365> rdfs:label "Influenza valence, non-live, obtained from egg culture, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL366> rdfs:label "Influenza valence, RNA-based, unspecified"@en ;
-    skos:altLabel "INF-RNA"@en .
+<http://ivci.org/NUVA/VAL366> rdfs:label "Influenza valence, RNA-based, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL367> rdfs:label "Cholera valence, V. cholerae O1, inactivated, whole-cell, oral"@en ;
-    skos:altLabel "CHOL-I-O1-O"@en .
+<http://ivci.org/NUVA/VAL367> rdfs:label "Cholera valence, V. cholerae O1, inactivated, whole-cell, oral"@en .
 
-<http://ivci.org/NUVA/VAL368> rdfs:label "Cholera valence, V. cholerae O139, inactivated, whole-cell, oral"@en ;
-    skos:altLabel "CHOL-I-O139-O"@en .
+<http://ivci.org/NUVA/VAL368> rdfs:label "Cholera valence, V. cholerae O139, inactivated, whole-cell, oral"@en .
 
-<http://ivci.org/NUVA/VAL369> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 15A"@en ;
-    skos:altLabel "PCV-15A"@en .
+<http://ivci.org/NUVA/VAL369> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 15A"@en .
 
-<http://ivci.org/NUVA/VAL370> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 15C"@en ;
-    skos:altLabel "PCV-15C"@en .
+<http://ivci.org/NUVA/VAL370> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 15C"@en .
 
-<http://ivci.org/NUVA/VAL371> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 16C"@en ;
-    skos:altLabel "PCV-16F"@en .
+<http://ivci.org/NUVA/VAL371> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 16C"@en .
 
-<http://ivci.org/NUVA/VAL372> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 20A"@en ;
-    skos:altLabel "PCV-20A"@en .
+<http://ivci.org/NUVA/VAL372> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 20A"@en .
 
-<http://ivci.org/NUVA/VAL373> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 23A"@en ;
-    skos:altLabel "PCV-23A"@en .
+<http://ivci.org/NUVA/VAL373> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 23A"@en .
 
-<http://ivci.org/NUVA/VAL374> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 23B"@en ;
-    skos:altLabel "PCV-23B"@en .
+<http://ivci.org/NUVA/VAL374> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 23B"@en .
 
-<http://ivci.org/NUVA/VAL375> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 24F"@en ;
-    skos:altLabel "PCV-24F"@en .
+<http://ivci.org/NUVA/VAL375> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 24F"@en .
 
-<http://ivci.org/NUVA/VAL376> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 31"@en ;
-    skos:altLabel "PCV-31"@en .
+<http://ivci.org/NUVA/VAL376> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 31"@en .
 
-<http://ivci.org/NUVA/VAL377> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 35B"@en ;
-    skos:altLabel "PCV-35B"@en .
+<http://ivci.org/NUVA/VAL377> rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 35B"@en .
 
-<http://ivci.org/NUVA/VAL378> rdfs:label "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 15 micrograms"@en ;
-    skos:altLabel "rHBsAg-15"@en .
+<http://ivci.org/NUVA/VAL378> rdfs:label "Hepatitis B valence, recombinant Hepatitis B virus surface antigen (HBsAg), 15 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL379> rdfs:label "COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-JN.1-30"@en .
+<http://ivci.org/NUVA/VAL379> rdfs:label "COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL380> rdfs:label "COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-JN.1-10"@en .
+<http://ivci.org/NUVA/VAL380> rdfs:label "COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL381> rdfs:label "COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-JN.1-3"@en .
+<http://ivci.org/NUVA/VAL381> rdfs:label "COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL382> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein in nanoparticles, sub-variant Omicron JN.1"@en ;
-    skos:altLabel "COVID-PS-rSnp-JN.1"@en .
+<http://ivci.org/NUVA/VAL382> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein in nanoparticles, sub-variant Omicron JN.1"@en .
 
-<http://ivci.org/NUVA/VAL383> rdfs:label "RSV valence, Single-stranded 5' capped mRNA encoding the RSV glycoprotein F stabilized in the prefusion conformation"@en ;
-    skos:altLabel "mRSV"@en .
+<http://ivci.org/NUVA/VAL383> rdfs:label "RSV valence, Single-stranded 5' capped mRNA encoding the RSV glycoprotein F stabilized in the prefusion conformation"@en .
 
-<http://ivci.org/NUVA/VAL384> rdfs:label "Leprosy valence, unspecified"@en ;
-    skos:altLabel "LEP"@en .
+<http://ivci.org/NUVA/VAL384> rdfs:label "Leprosy valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL385> rdfs:label "Avian influenza A(H5N8) valence"@en ;
-    skos:altLabel "AH5N8"@en .
+<http://ivci.org/NUVA/VAL385> rdfs:label "Avian influenza A(H5N8) valence"@en .
 
-<http://ivci.org/NUVA/VAL386> rdfs:label "Avian influenza A(H5) valence, unspecified"@en ;
-    skos:altLabel "AH5"@en .
+<http://ivci.org/NUVA/VAL386> rdfs:label "Avian influenza A(H5) valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL387> rdfs:label "COVID-19 valence,  Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-JN.1-25"@en .
+<http://ivci.org/NUVA/VAL387> rdfs:label "COVID-19 valence,  Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL388> rdfs:label "COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-JN.1-50"@en .
+<http://ivci.org/NUVA/VAL388> rdfs:label "COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL389> rdfs:label "Pseudomonas aeruginosa valence, 7 immunotypes"@en ;
-    skos:altLabel "PAER7"@en .
+<http://ivci.org/NUVA/VAL389> rdfs:label "Pseudomonas aeruginosa valence, 7 immunotypes"@en .
 
-<http://ivci.org/NUVA/VAL390> rdfs:label "Chikungunya virus valence, unspecified"@en ;
-    skos:altLabel "CHIK"@en .
+<http://ivci.org/NUVA/VAL390> rdfs:label "Chikungunya virus valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL391> rdfs:label "Chikungunya virus valence, VLP"@en ;
-    skos:altLabel "Chik-VLP"@en .
+<http://ivci.org/NUVA/VAL391> rdfs:label "Chikungunya virus valence, VLP"@en .
 
-<http://ivci.org/NUVA/VAL392> rdfs:label "Avian influenza valence, mRNA"@en ;
-    skos:altLabel "AH5N1-RNA"@en .
+<http://ivci.org/NUVA/VAL392> rdfs:label "Avian influenza valence, mRNA"@en .
 
-<http://ivci.org/NUVA/VAL393> rdfs:label "COVID-19 valence, Omicron BA.1 variant, mRNA encoding the SARS-CoV-2 spike protein"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-BA.1"@en .
+<http://ivci.org/NUVA/VAL393> rdfs:label "COVID-19 valence, Omicron BA.1 variant, mRNA encoding the SARS-CoV-2 spike protein"@en .
 
-<http://ivci.org/NUVA/VAL394> rdfs:label "COVID-19 valence, Omicron variant BA.4/BA.5, mRNA encoding the SARS-CoV-2 spike protein"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-BA.4/5"@en .
+<http://ivci.org/NUVA/VAL394> rdfs:label "COVID-19 valence, Omicron variant BA.4/BA.5, mRNA encoding the SARS-CoV-2 spike protein"@en .
 
-<http://ivci.org/NUVA/VAL395> rdfs:label "COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-JN.1"@en .
+<http://ivci.org/NUVA/VAL395> rdfs:label "COVID-19 valence, Omicron variant JN.1, mRNA encoding the SARS-CoV-2 spike protein"@en .
 
-<http://ivci.org/NUVA/VAL396> rdfs:label "COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-XBB.1.5"@en .
+<http://ivci.org/NUVA/VAL396> rdfs:label "COVID-19 valence, Omicron variant XBB.1.5, mRNA encoding the SARS-CoV-2 spike protein"@en .
 
-<http://ivci.org/NUVA/VAL397> rdfs:label "COVID-19 valence, non-replicating viral vector encoding the peak protein of SARS-CoV-2, unspecified"@en ;
-    skos:altLabel "COVID-VVnr-S"@en .
+<http://ivci.org/NUVA/VAL397> rdfs:label "COVID-19 valence, non-replicating viral vector encoding the peak protein of SARS-CoV-2, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL398> rdfs:label "COVID-19 valence, replicating viral vector, virus encoding the spike protein of SARS-CoV-2"@en ;
-    skos:altLabel "COVID-VVr-S"@en .
+<http://ivci.org/NUVA/VAL398> rdfs:label "COVID-19 valence, replicating viral vector, virus encoding the spike protein of SARS-CoV-2"@en .
 
-<http://ivci.org/NUVA/VAL399> rdfs:label "Typhoid valence, Vi antigen conjugated to tetanus toxoid"@en ;
-    skos:altLabel "Ty-ViC-T"@en .
+<http://ivci.org/NUVA/VAL399> rdfs:label "Typhoid valence, Vi antigen conjugated to tetanus toxoid"@en .
 
-<http://ivci.org/NUVA/VAL400> rdfs:label "Typhoid valence, Vi antigen conjugated to CRM197 protein"@en ;
-    skos:altLabel "Ty-ViC-CRM"@en .
+<http://ivci.org/NUVA/VAL400> rdfs:label "Typhoid valence, Vi antigen conjugated to CRM197 protein"@en .
 
-<http://ivci.org/NUVA/VAL401> rdfs:label "Japanese encephalitis valence, inactivated, whole-virus, derived from Vero cells, 3 micrograms"@en ;
-    skos:altLabel "EJ-I-Vero-3"@en .
+<http://ivci.org/NUVA/VAL401> rdfs:label "Japanese encephalitis valence, inactivated, whole-virus, derived from Vero cells, 3 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL402> rdfs:label "Japanese encephalitis valence, inactivated, whole-virus, derived from Vero cells, 6 micrograms"@en ;
-    skos:altLabel "EJ-I-Vero-6"@en .
+<http://ivci.org/NUVA/VAL402> rdfs:label "Japanese encephalitis valence, inactivated, whole-virus, derived from Vero cells, 6 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL403> rdfs:label "Meningococcal X valence, unspecified"@en ;
-    skos:altLabel "MenX"@en .
+<http://ivci.org/NUVA/VAL403> rdfs:label "Meningococcal X valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL404> rdfs:label "Meningococcal X valence, polysaccharide conjugate"@en ;
-    skos:altLabel "MCV-X"@en .
+<http://ivci.org/NUVA/VAL404> rdfs:label "Meningococcal X valence, polysaccharide conjugate"@en .
 
-<http://ivci.org/NUVA/VAL405> rdfs:label "Influenza valence, live attenuated, pandemic influenza H1N1 2009"@en ;
-    skos:altLabel "INF-pdm09-V"@en .
+<http://ivci.org/NUVA/VAL405> rdfs:label "Influenza valence, live attenuated, pandemic influenza H1N1 2009"@en .
 
-<http://ivci.org/NUVA/VAL406> rdfs:label "COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-KP.2"@en .
+<http://ivci.org/NUVA/VAL406> rdfs:label "COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein"@en .
 
-<http://ivci.org/NUVA/VAL407> rdfs:label "COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-KP.2-3"@en .
+<http://ivci.org/NUVA/VAL407> rdfs:label "COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL408> rdfs:label "COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-KP.2-10"@en .
+<http://ivci.org/NUVA/VAL408> rdfs:label "COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL409> rdfs:label "COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-KP.2-30"@en .
+<http://ivci.org/NUVA/VAL409> rdfs:label "COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL410> rdfs:label "COVID-19 valence, protein subunit, recombinant N protein"@en ;
-    skos:altLabel "COVID-PS-rN"@en .
+<http://ivci.org/NUVA/VAL410> rdfs:label "COVID-19 valence, protein subunit, recombinant N protein"@en .
 
-<http://ivci.org/NUVA/VAL411> rdfs:label "COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-BA.4/5-50"@en .
+<http://ivci.org/NUVA/VAL411> rdfs:label "COVID-19 valence, Omicron variant BA.4/5, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL412> rdfs:label "COVID-19 valence, Omicron variant BA.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-BA.1-50"@en .
+<http://ivci.org/NUVA/VAL412> rdfs:label "COVID-19 valence, Omicron variant BA.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL413> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron XBB.1.16 subvariant"@en ;
-    skos:altLabel "COVID-PS-rRBD-XBB.1.16"@en .
+<http://ivci.org/NUVA/VAL413> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron XBB.1.16 subvariant"@en .
 
-<http://ivci.org/NUVA/VAL414> rdfs:label "Diphtheria valence, unspecified"@en ;
-    skos:altLabel "DIPH"@en .
+<http://ivci.org/NUVA/VAL414> rdfs:label "Diphtheria valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL415> rdfs:label "Anthrax valence, acellular, adjuvanted"@en ;
-    skos:altLabel "BantAdj"@en .
+<http://ivci.org/NUVA/VAL415> rdfs:label "Anthrax valence, acellular, adjuvanted"@en .
 
-<http://ivci.org/NUVA/VAL416> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein, adjuvanted"@en ;
-    skos:altLabel "COVID-PS-rS-A"@en .
+<http://ivci.org/NUVA/VAL416> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein, adjuvanted"@en .
 
-<http://ivci.org/NUVA/VAL417> rdfs:label "COVID-19 valence, Omicron BA.2 variant, mRNA encoding the SARS-CoV-2 spike protein"@en ;
-    skos:altLabel "COVID-mRNA-S-OMI-BA.2"@en .
+<http://ivci.org/NUVA/VAL417> rdfs:label "COVID-19 valence, Omicron BA.2 variant, mRNA encoding the SARS-CoV-2 spike protein"@en .
 
-<http://ivci.org/NUVA/VAL418> rdfs:label "Smallpox valence, unspecified"@en ;
-    skos:altLabel "POX"@en .
+<http://ivci.org/NUVA/VAL418> rdfs:label "Smallpox valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL419> rdfs:label "Botulism valence, unspecified"@en ;
-    skos:altLabel "BOT"@en .
+<http://ivci.org/NUVA/VAL419> rdfs:label "Botulism valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL420> rdfs:label "Botulism valence, passive immunization products"@en ;
-    skos:altLabel "BOT-passive"@en .
+<http://ivci.org/NUVA/VAL420> rdfs:label "Botulism valence, passive immunization products"@en .
 
-<http://ivci.org/NUVA/VAL421> rdfs:label "Argentine hemorrhagic fever valence, Junin virus, unspecified"@en ;
-    skos:altLabel "Junin"@en .
+<http://ivci.org/NUVA/VAL421> rdfs:label "Argentine hemorrhagic fever valence, Junin virus, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL422> rdfs:label "Plague valence, unspecified"@en ;
-    skos:altLabel "Yp"@en .
+<http://ivci.org/NUVA/VAL422> rdfs:label "Plague valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL423> rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein"@en ;
-    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1"@en .
+<http://ivci.org/NUVA/VAL423> rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein"@en .
 
-<http://ivci.org/NUVA/VAL424> rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms"@en ;
-    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1-30"@en .
+<http://ivci.org/NUVA/VAL424> rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL425> rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms"@en ;
-    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1-10"@en .
+<http://ivci.org/NUVA/VAL425> rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL426> rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms"@en ;
-    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1-3"@en .
+<http://ivci.org/NUVA/VAL426> rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL427> rdfs:label "COVID-19 valence, mRNA encoding a fragment of the SARS-CoV-2 spike protein"@en ;
-    skos:altLabel "Covid-ARNm-S-frag"@en .
+<http://ivci.org/NUVA/VAL427> rdfs:label "COVID-19 valence, mRNA encoding a fragment of the SARS-CoV-2 spike protein"@en .
 
-<http://ivci.org/NUVA/VAL428> rdfs:label "Valence COVID-19, mRNA encoding the NTD and RBD fragments of the spike protein, Omicron LP.8.1 variant"@en ;
-    skos:altLabel "Covid-ARNm-S-frag-OMI-LP.8.1"@en .
+<http://ivci.org/NUVA/VAL428> rdfs:label "Valence COVID-19, mRNA encoding the NTD and RBD fragments of the spike protein, Omicron LP.8.1 variant"@en .
 
-<http://ivci.org/NUVA/VAL429> rdfs:label "RSV valence, monoclonal antibody, clesrovimab"@en ;
-    skos:altLabel "VRS-mAb-cle"@en .
+<http://ivci.org/NUVA/VAL429> rdfs:label "RSV valence, monoclonal antibody, clesrovimab"@en .
 
-<http://ivci.org/NUVA/VAL430> rdfs:label "Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain, 0,25 mL"@en ;
-    skos:altLabel "TBE-K23-25"@en .
+<http://ivci.org/NUVA/VAL430> rdfs:label "Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain, 0,25 mL"@en .
 
-<http://ivci.org/NUVA/VAL431> rdfs:label "Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain, 0,50 mL"@en ;
-    skos:altLabel "TBE-K23-50"@en .
+<http://ivci.org/NUVA/VAL431> rdfs:label "Tick-borne encephalitis valence, inactivated, whole-virus, K23 strain, 0,50 mL"@en .
 
-<http://ivci.org/NUVA/VAL432> rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms"@en ;
-    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1-25"@en .
+<http://ivci.org/NUVA/VAL432> rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL433> rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms."@en ;
-    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1-50"@en .
+<http://ivci.org/NUVA/VAL433> rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms."@en .
 
-<http://ivci.org/NUVA/VAL434> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant"@en ;
-    skos:altLabel "Covid-SP-rRBD-LP.8.1"@en .
+<http://ivci.org/NUVA/VAL434> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron LP.8.1 subvariant"@en .
 
-<http://ivci.org/NUVA/VAL435> rdfs:label "Dengue valence, native attenuated strain"@en ;
-    skos:altLabel "DENV2LAV"@en .
+<http://ivci.org/NUVA/VAL435> rdfs:label "Dengue valence, native attenuated strain"@en .
 
-<http://ivci.org/NUVA/VAL436> rdfs:label "Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-1"@en ;
-    skos:altLabel "DENV1rCH"@en .
+<http://ivci.org/NUVA/VAL436> rdfs:label "Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-1"@en .
 
-<http://ivci.org/NUVA/VAL437> rdfs:label "Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-3"@en ;
-    skos:altLabel "DENV3rCH"@en .
+<http://ivci.org/NUVA/VAL437> rdfs:label "Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-3"@en .
 
-<http://ivci.org/NUVA/VAL438> rdfs:label "Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-4"@en ;
-    skos:altLabel "DENV4rCH"@en .
+<http://ivci.org/NUVA/VAL438> rdfs:label "Dengue valence, live, recombinant, DENV-2 chimera with prM/E from DENV-4"@en .
 
-<http://ivci.org/NUVA/VAL439> rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein"@en ;
-    skos:altLabel "Covid-ARNm-S-OMI-XFG"@en .
+<http://ivci.org/NUVA/VAL439> rdfs:label "COVID-19 valence, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein"@en .
 
-<http://ivci.org/NUVA/VAL440> rdfs:label "COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms"@en ;
-    skos:altLabel "Covid-ARNm-S-OMI-XFG-10"@en .
+<http://ivci.org/NUVA/VAL440> rdfs:label "COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL441> rdfs:label "COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms"@en ;
-    skos:altLabel "Covid-ARNm-S-OMI-XFG-30"@en .
+<http://ivci.org/NUVA/VAL441> rdfs:label "COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 30 micrograms"@en .
 
-<http://ivci.org/NUVA/VAL442> rdfs:label "Melanoma valence, messenger RNA, individualized neoantigens"@en ;
-    skos:altLabel "MEL-ARNI"@en .
+<http://ivci.org/NUVA/VAL442> rdfs:label "Melanoma valence, messenger RNA, individualized neoantigens"@en .
 
-<http://ivci.org/NUVA/VAL443> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein in nanoparticles, sub-variant Omicron XFG"@en ;
-    skos:altLabel "Covid-SP-rSnp-XFG"@en .
+<http://ivci.org/NUVA/VAL443> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein in nanoparticles, sub-variant Omicron XFG"@en .
 
-<http://ivci.org/NUVA/VAL444> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron XFG subvariant"@en ;
-    skos:altLabel "Covid-SP-rRBD-XFG"@en .
+<http://ivci.org/NUVA/VAL444> rdfs:label "COVID-19 valence, protein subunit, recombinant spike protein (RBD), Omicron XFG subvariant"@en .
 
-<http://ivci.org/NUVA/VAL445> rdfs:label "Typhoid valence, Vi antigen conjugated to diphtheria toxoid"@en ;
-    skos:altLabel "Ty-ViC-D"@en .
+<http://ivci.org/NUVA/VAL445> rdfs:label "Typhoid valence, Vi antigen conjugated to diphtheria toxoid"@en .
 
-<http://ivci.org/NUVA/VAL446> rdfs:label "Morganella morganii valence, unspecified"@en ;
-    skos:altLabel "Mmo"@en .
+<http://ivci.org/NUVA/VAL446> rdfs:label "Morganella morganii valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL447> rdfs:label "Proteus mirabilis valence, unspecified"@en ;
-    skos:altLabel "Pmi"@en .
+<http://ivci.org/NUVA/VAL447> rdfs:label "Proteus mirabilis valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL448> rdfs:label "Leptospira valence, unspecified"@en ;
-    skos:altLabel "Lepto"@en .
+<http://ivci.org/NUVA/VAL448> rdfs:label "Leptospira valence, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL449> rdfs:label "Influenza valence, RNA-based, trivalent, unspecified"@en ;
-    skos:altLabel "Inf-RNA3"@en .
+<http://ivci.org/NUVA/VAL449> rdfs:label "Influenza valence, RNA-based, trivalent, unspecified"@en .
 
-<http://ivci.org/NUVA/VAL450> rdfs:label "Non-HPV-related squamous cell carcinomas of the head and neck valence, unspecified"@en ;
-    skos:altLabel "HNSCC-HPVneg"@en .
+<http://ivci.org/NUVA/VAL450> rdfs:label "Non-HPV-related squamous cell carcinomas of the head and neck valence, unspecified"@en .
 
