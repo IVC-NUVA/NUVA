@@ -1,9 +1,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://ivci.org/NUVA/VAC0000> rdfs:label "#Orphelins"@fr ;
-    rdfs:comment "Vaccin abstrait pour les vaccins orphelins"@fr .
-
 <http://ivci.org/NUVA/VAC0001> rdfs:comment "Vaccin conjugué anti-Hemophilus influenzae de type b composé du PRP (polyribosylribitol phosphate) conjugué à l'anatoxine tétanique"@fr .
 
 <http://ivci.org/NUVA/VAC0002> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, cultivé sur oeuf, à antigène de surface"@fr .
@@ -142,8 +139,8 @@
 
 <http://ivci.org/NUVA/VAC0071> rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine) et contre la rubéole (vivant atténué)"@fr .
 
-<http://ivci.org/NUVA/VAC0072> rdfs:comment """Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur tissu cérébral murin, souche Nakayama, voie injectable 
-Autres noms : JEVAX, BIKEN"""@fr .
+<http://ivci.org/NUVA/VAC0072> rdfs:comment """Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur tissu cérébral murin, souche Nakayama, voie injectable \r
+Autres noms : JEVAX, BIKEN"""@fr .
 
 <http://ivci.org/NUVA/VAC0073> rdfs:comment "Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur cellules Vero, adsorbé"@fr .
 
@@ -995,8 +992,8 @@ Autres noms : JEVAX, BIKEN"""@fr .
 
 <http://ivci.org/NUVA/VAC0508> rdfs:comment "Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur cellules Vero, 3 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAC0509> rdfs:comment """Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur tissu cérébral murin, souche Nakayama, voie injectable 
-Autre nom : JEVAX"""@fr .
+<http://ivci.org/NUVA/VAC0509> rdfs:comment """Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur tissu cérébral murin, souche Nakayama, voie injectable \r
+Autre nom : JEVAX"""@fr .
 
 <http://ivci.org/NUVA/VAC0510> rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard, 2 composants), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique), poliomyélitique (entier inactivé, trivalent) et de l’hépatite B (recombinant), adsorbé"@fr .
 
@@ -1158,7 +1155,7 @@ Autre nom : JEVAX"""@fr .
 <http://ivci.org/NUVA/VAC0610> rdfs:label "Vaccin dTca - Diphtérie-Tétanos-Coqueluche, dose réduite, sans précision"@fr ;
     rdfs:comment "Vaccin diphtérique (anatoxine, dose réduite), tétanique (anatoxine) et coquelucheux (acellulaire multicomposé, dose réduite)"@fr .
 
-<http://ivci.org/NUVA/VAC0611> rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique) et de l’hépatite B (recombinant) - Autre nom : Vaccin liquide DTCe-Hep B-Hib"@fr .
+<http://ivci.org/NUVA/VAC0611> rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique) et de l’hépatite B (recombinant) - Autre nom : Vaccin liquide DTCe-Hep B-Hib"@fr .
 
 <http://ivci.org/NUVA/VAC0612> rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine) et coquelucheux (entier inactivé)"@fr .
 
@@ -1168,7 +1165,7 @@ Autre nom : JEVAX"""@fr .
 
 <http://ivci.org/NUVA/VAC0615> rdfs:comment "Vaccin tétanique (anatoxine) et poliomyélitique (entier inactivé, trivalent)"@fr .
 
-<http://ivci.org/NUVA/VAC0620> rdfs:comment "Vaccin vivant atténué contre le chikungunya. Autre nom : VLA1553."@fr .
+<http://ivci.org/NUVA/VAC0620> rdfs:comment "Vaccin vivant atténué contre le chikungunya. Autre nom : VLA1553."@fr .
 
 <http://ivci.org/NUVA/VAC0621> rdfs:comment "Vaccin méningococcique polyosidique conjugué à l'anatoxine tétanique contre le sérogroupe C (Produit par la \"Ezequiel Dias Foundation\")"@fr .
 
@@ -1214,8 +1211,8 @@ Autre nom : JEVAX"""@fr .
 <http://ivci.org/NUVA/VAC0643> rdfs:label "Vaccin Méningocoques ACWY conjugué, sans précision"@fr ;
     rdfs:comment "Vaccin méningococcique polyosidique conjugué quadrivalent contre les sérogroupes A, C, W et Y"@fr .
 
-<http://ivci.org/NUVA/VAC0644> rdfs:comment """Vaccin vivant atténué, chimérique recombinant, quadrivalent contre les quatre sérotypes (1, 2, 3 et 4) du virus de la dengue 
-Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) TAKEDA"""@fr .
+<http://ivci.org/NUVA/VAC0644> rdfs:comment """Vaccin vivant atténué, chimérique recombinant, quadrivalent contre les quatre sérotypes (1, 2, 3 et 4) du virus de la dengue \r
+Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) TAKEDA"""@fr .
 
 <http://ivci.org/NUVA/VAC0645> rdfs:comment "Vaccin vivant atténué contre la rougeole, les oreillons et la rubéole"@fr .
 
@@ -1230,7 +1227,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 
 <http://ivci.org/NUVA/VAC0650> rdfs:comment "Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus de chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2"@fr .
 
-<http://ivci.org/NUVA/VAC0651> rdfs:comment "Vaccin anti-covid 19 à virus entier inactivé, adjuvé (adjuvant : hydroxyde d'aluminium)"@fr .
+<http://ivci.org/NUVA/VAC0651> rdfs:comment "Vaccin anti-covid 19 à virus entier inactivé, adjuvé (adjuvant : hydroxyde d'aluminium)"@fr .
 
 <http://ivci.org/NUVA/VAC0652> rdfs:comment "Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus 5 codant la protéine de pointe du SARS-CoV-2"@fr .
 
@@ -1261,11 +1258,11 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 
 <http://ivci.org/NUVA/VAC0664> rdfs:comment "Vaccin anti-covid 19 à ADN plasmidique"@fr .
 
-<http://ivci.org/NUVA/VAC0665> rdfs:comment "Vaccin anti-covid 19 à virus entier inactivé, adjuvé (adjuvant : molécule de la classe des imidazoquinoléines agoniste des TLR 7 et 8 adsorbée sur hydroxyde d’aluminium). Autres noms : BBV152, Bharat Inactivated Covid Vaccine"@fr .
+<http://ivci.org/NUVA/VAC0665> rdfs:comment "Vaccin anti-covid 19 à virus entier inactivé, adjuvé (adjuvant : molécule de la classe des imidazoquinoléines agoniste des TLR 7 et 8 adsorbée sur hydroxyde d’aluminium). Autres noms : BBV152, Bharat Inactivated Covid Vaccine"@fr .
 
 <http://ivci.org/NUVA/VAC0666> rdfs:comment "Vaccin anti-covid 19 à vecteur viral non réplicatif (adénovirus)"@fr .
 
-<http://ivci.org/NUVA/VAC0667> rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, avec adjuvant (Matrix M). Autre nom : NOVAVAX NVX-CoV2373 COVID-19 Vaccine"@fr .
+<http://ivci.org/NUVA/VAC0667> rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, avec adjuvant (Matrix M). Autre nom : NOVAVAX NVX-CoV2373 COVID-19 Vaccine"@fr .
 
 <http://ivci.org/NUVA/VAC0668> rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique"@fr .
 
@@ -1291,7 +1288,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 
 <http://ivci.org/NUVA/VAC0679> rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe du SARS-CoV-2 recombinante, S-2P et CpG1018"@fr .
 
-<http://ivci.org/NUVA/VAC0680> rdfs:comment "Vaccin anti-covid 19 à virus entier inactivé, cultivé sur cellules Vero - Autres noms : SINOPHARM BBIBP-CorV COVID-19 ; COVID-19 Vaccine BIBP ; Hayat-vax"@fr .
+<http://ivci.org/NUVA/VAC0680> rdfs:comment "Vaccin anti-covid 19 à virus entier inactivé, cultivé sur cellules Vero - Autres noms : SINOPHARM BBIBP-CorV COVID-19 ; COVID-19 Vaccine BIBP ; Hayat-vax"@fr .
 
 <http://ivci.org/NUVA/VAC0681> rdfs:comment "Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus codant la protéine de pointe du SARS-CoV-2"@fr .
 
@@ -1301,7 +1298,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 
 <http://ivci.org/NUVA/VAC0684> rdfs:comment "Vaccin anti-covid 19 à virus entier inactivé, adjuvé (adjuvant: hydroxyde d’aluminium)"@fr .
 
-<http://ivci.org/NUVA/VAC0685> rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe du SARS-CoV-2 recombinante, avec adjuvant ASO3. Autre nom : Sanofi-GSK Recombinant COVID-19 Vaccine."@fr .
+<http://ivci.org/NUVA/VAC0685> rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe du SARS-CoV-2 recombinante, avec adjuvant ASO3. Autre nom : Sanofi-GSK Recombinant COVID-19 Vaccine."@fr .
 
 <http://ivci.org/NUVA/VAC0686> rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe du SARS-CoV-2 recombinante, adaptés aux molécules du complexe majeur d'histocompatibilité II humain"@fr .
 
@@ -1358,7 +1355,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 <http://ivci.org/NUVA/VAC0713> rdfs:label "Vaccin Typhoïde polyosidique, sans précision"@fr ;
     rdfs:comment "Vaccin typhoïdique polyosidique non conjugué (antigène capsulaire Vi)"@fr .
 
-<http://ivci.org/NUVA/VAC0714> rdfs:comment "Vaccin entier inactivé cultivé sur cellules Vero, adjuvé avec CpG 1018 (cytosine phospho-guanine) en combinaison avec de l'hydroxyde d'aluminium - Autre nom : Valneva VLA2001"@fr .
+<http://ivci.org/NUVA/VAC0714> rdfs:comment "Vaccin entier inactivé cultivé sur cellules Vero, adjuvé avec CpG 1018 (cytosine phospho-guanine) en combinaison avec de l'hydroxyde d'aluminium - Autre nom : Valneva VLA2001"@fr .
 
 <http://ivci.org/NUVA/VAC0715> rdfs:comment "Vaccin anti-covid 19 à virus entier inactivé"@fr .
 
@@ -1426,13 +1423,13 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 
 <http://ivci.org/NUVA/VAC0754> rdfs:comment "Vaccin anti-covid 19 à virus entier inactivé, adjuvé (adjuvant non précisé)"@fr .
 
-<http://ivci.org/NUVA/VAC0755> rdfs:comment "Vaccin anti-covid 19 à virus entier inactivé, adjuvé (adjuvant : hydroxyde d'aluminium + agoniste du TLR9 (CpG ODN)"@fr .
+<http://ivci.org/NUVA/VAC0755> rdfs:comment "Vaccin anti-covid 19 à virus entier inactivé, adjuvé (adjuvant : hydroxyde d'aluminium + agoniste du TLR9 (CpG ODN)"@fr .
 
 <http://ivci.org/NUVA/VAC0756> rdfs:comment "Vaccin anti-covid 19 vivant atténué, exprimant la protéine de pointe du SARS-CoV-2"@fr .
 
 <http://ivci.org/NUVA/VAC0757> rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante, avec adjuvant (hydroxyde d'aluminium)"@fr .
 
-<http://ivci.org/NUVA/VAC0758> rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante, avec adjuvant (AFKQ : liposomal contenant de la saponine QS21)"@fr .
+<http://ivci.org/NUVA/VAC0758> rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante, avec adjuvant (AFKQ : liposomal contenant de la saponine QS21)"@fr .
 
 <http://ivci.org/NUVA/VAC0759> rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante, avec adjuvant sans précision"@fr .
 
@@ -1448,7 +1445,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 
 <http://ivci.org/NUVA/VAC0766> rdfs:comment "Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, en cours d'essai clinique (encapsulé dans une nanoparticule lipidique)"@fr .
 
-<http://ivci.org/NUVA/VAC0767> rdfs:comment """Vaccins anti-covid 19 à adénovirus de chimpanzé et à ARNm auto-amplifiant : 
+<http://ivci.org/NUVA/VAC0767> rdfs:comment """Vaccins anti-covid 19 à adénovirus de chimpanzé et à ARNm auto-amplifiant : \r
 1. A vecteur viral non réplicatif, adénovirus de chimpanzé, sérotype 68 (ChAdV68), codant la protéine de pointe du SARS-CoV-2 (ChAdV68-S) et/ou la protéine de pointe plus des épitopes supplémentaires du SARS-CoV-2 reconnus par les cellules T (ChAdV68-S-TCE) et 2. A ARNm auto-amplifiant (SAM) dans des nanoparticules lipidiques (SAM-LNP) codant la protéine de pointe du SARS-CoV-2 (SAM-S) et/ou la protéine de pointe plus des épitopes supplémentaires du SARS-CoV-2 reconnus par les cellules T (SAM-S-TCE), vecteur SAM basé sur le virus de l'encéphalite équine du Venezuela (VEEV)"""@fr .
 
 <http://ivci.org/NUVA/VAC0768> rdfs:comment "Vaccin anti-covid 19 à vecteur non réplicatif, virus de la maladie de Newcastle codant la protéine de pointe du SARS-CoV-2, avec ou sans adjuvant CpG 1018"@fr .
@@ -1553,11 +1550,9 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 <http://ivci.org/NUVA/VAC0808> rdfs:label "Vaccin Haemophilus influenzae b et Ménigocoque CY, sans précision"@fr ;
     rdfs:comment "Vaccin anti-Haemophilus influenzae type b (conjugué, sans précision) et contre les méningocoques des sérogroupes C et Y"@fr .
 
-<http://ivci.org/NUVA/VAC0809> rdfs:label "Vaccin Méningocoque polyosidique monovalent, sans précision"@fr ;
-    rdfs:comment "Vaccin monovalent contre les méningocoques, polyosidique conjugué ou non conjugué"@fr .
+<http://ivci.org/NUVA/VAC0809> rdfs:comment "Vaccin monovalent contre les méningocoques, polyosidique conjugué ou non conjugué"@fr .
 
-<http://ivci.org/NUVA/VAC0810> rdfs:label "Vaccin Méningocoque polyosidique polyvalent, sans précision"@fr ;
-    rdfs:comment "Vaccin polyvalent polyosidique non conjugué contre les méningocoques"@fr .
+<http://ivci.org/NUVA/VAC0810> rdfs:comment "Vaccin polyvalent polyosidique non conjugué contre les méningocoques"@fr .
 
 <http://ivci.org/NUVA/VAC0811> rdfs:label "Vaccin Méningocoque B, sans précision"@fr ;
     rdfs:comment "Vaccin contre les méningocoques du sérogroupe B, type de vaccin non précisé"@fr .
@@ -1595,7 +1590,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
     rdfs:comment "Vaccin contre la grippe saisonnière, à virus vivant atténué, par voie nasale"@fr .
 
 <http://ivci.org/NUVA/VAC0823> rdfs:label "Vaccin Grippe VLP, sans précision"@fr ;
-    rdfs:comment "Vaccin contre la grippe saisonnière à pseudo-particules virales (VLP : \"Virus-Like Particle\")"@fr .
+    rdfs:comment "Vaccin contre la grippe saisonnière à pseudo-particules virales (VLP : \"Virus-Like Particle\")"@fr .
 
 <http://ivci.org/NUVA/VAC0824> rdfs:label "Vaccin Hépatite A virosomal, sans précision"@fr ;
     rdfs:comment "Vaccin entier inactivé contre l'hépatite A, virosomal, dose pédiatrique ou adulte"@fr .
@@ -1629,9 +1624,9 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 
 <http://ivci.org/NUVA/VAC0836> rdfs:comment "Vaccin contre la grippe saisonnière inactivé quadrivalent, à antigène de surface"@fr .
 
-<http://ivci.org/NUVA/VAC0837> rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, avec adjuvant (Matrix M). Autre nom : NOVAVAX NVX-CoV2373 COVID-19 Vaccine"@fr .
+<http://ivci.org/NUVA/VAC0837> rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, avec adjuvant (Matrix M). Autre nom : NOVAVAX NVX-CoV2373 COVID-19 Vaccine"@fr .
 
-<http://ivci.org/NUVA/VAC0838> rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, avec adjuvant (Matrix M). Autre nom : NOVAVAX NVX-CoV2373 COVID-19 Vaccine"@fr .
+<http://ivci.org/NUVA/VAC0838> rdfs:comment "Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, avec adjuvant (Matrix M). Autre nom : NOVAVAX NVX-CoV2373 COVID-19 Vaccine"@fr .
 
 <http://ivci.org/NUVA/VAC0839> rdfs:label "Vaccin Brucellose entier inactivé, sans précision"@fr ;
     rdfs:comment "Vaccin entier inactivé contre la brucellose"@fr .
@@ -1779,7 +1774,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 <http://ivci.org/NUVA/VAC0899> rdfs:label "Vaccin Virus Parainfluenza humains, sans précision"@fr ;
     rdfs:comment "Vaccin contre les virus Parainfluenza humains"@fr .
 
-<http://ivci.org/NUVA/VAC0900> rdfs:comment "Vaccin pneumococcique polyosidique conjugué, 20-valent, adsorbé, sérotypes 1, 3, 4, 5, 6A, 6B, 7F, 8, 9V, 10A, 11A, 12F, 14, 15B, 18C, 19A, 19F, 22F, 23F et 33F - Nouveau nom depuis le 12/03/2024 (auparavant : APEXXNAR)"@fr .
+<http://ivci.org/NUVA/VAC0900> rdfs:comment "Vaccin pneumococcique polyosidique conjugué, 20-valent, adsorbé, sérotypes 1, 3, 4, 5, 6A, 6B, 7F, 8, 9V, 10A, 11A, 12F, 14, 15B, 18C, 19A, 19F, 22F, 23F et 33F - Nouveau nom depuis le 12/03/2024 (auparavant : APEXXNAR)"@fr .
 
 <http://ivci.org/NUVA/VAC0901> rdfs:comment "Vaccin polyosidique non conjugué contre les méningocoques des sérogroupes A, C et W"@fr .
 
@@ -2055,11 +2050,11 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 
 <http://ivci.org/NUVA/VAC1024> rdfs:comment "Vaccin à ARNm bivalent contre la covid 19, virus originel + variant Omicron BA.4/5, 50 microgrammes chacun"@fr .
 
-<http://ivci.org/NUVA/VAC1025> rdfs:comment "Vaccin protéique sous-unitaire contre la covid 19 ; autre nom : BECOV2A"@fr .
+<http://ivci.org/NUVA/VAC1025> rdfs:comment "Vaccin protéique sous-unitaire contre la covid 19 ; autre nom : BECOV2A"@fr .
 
 <http://ivci.org/NUVA/VAC1026> rdfs:comment "Vaccin sous-unitaire à protéine recombinante (domaine RBD conjugué à l'anatoxine tétanique + adjuvant)"@fr .
 
-<http://ivci.org/NUVA/VAC1027> rdfs:comment "Vaccin entier inactivé contre la covid 19 ; autre nom : Kovivac"@fr .
+<http://ivci.org/NUVA/VAC1027> rdfs:comment "Vaccin entier inactivé contre la covid 19 ; autre nom : Kovivac"@fr .
 
 <http://ivci.org/NUVA/VAC1028> rdfs:comment "Vaccin recombinant contre l'hépatite B, dose pour patient dialysé"@fr .
 
@@ -2486,7 +2481,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
     rdfs:comment "Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur tissu cérébral murin, souche Nakayama, voie injectable"@fr .
 
 <http://ivci.org/NUVA/VAC1197> rdfs:label "Vaccin Covid 19 à adénovirus de chimpanzé et à ARNm auto-amplifiant, sans précision"@fr ;
-    rdfs:comment "Vaccin anti-covid 19 à adénovirus de chimpanzé et à ARNm auto-amplifiant : 1. A vecteur viral non réplicatif, adénovirus de chimpanzé, sérotype 68 (ChAdV68), codant la protéine de pointe du SARS-CoV-2 (ChAdV68-S) et/ou la protéine de pointe plus des épitopes supplémentaires du SARS-CoV-2 reconnus par les cellules T (ChAdV68-S-TCE) et 2. A ARNm auto-amplifiant (SAM) dans des nanoparticules lipidiques (SAM-LNP) codant la protéine de pointe du SARS-CoV-2 (SAM-S) et/ou la protéine de pointe plus des épitopes supplémentaires du SARS-CoV-2 reconnus par les cellules T (SAM-S-TCE), vecteur SAM basé sur le virus de l'encéphalite équine du Venezuela (VEEV)"@fr .
+    rdfs:comment "Vaccin anti-covid 19 à adénovirus de chimpanzé et à ARNm auto-amplifiant : 1. A vecteur viral non réplicatif, adénovirus de chimpanzé, sérotype 68 (ChAdV68), codant la protéine de pointe du SARS-CoV-2 (ChAdV68-S) et/ou la protéine de pointe plus des épitopes supplémentaires du SARS-CoV-2 reconnus par les cellules T (ChAdV68-S-TCE) et 2. A ARNm auto-amplifiant (SAM) dans des nanoparticules lipidiques (SAM-LNP) codant la protéine de pointe du SARS-CoV-2 (SAM-S) et/ou la protéine de pointe plus des épitopes supplémentaires du SARS-CoV-2 reconnus par les cellules T (SAM-S-TCE), vecteur SAM basé sur le virus de l'encéphalite équine du Venezuela (VEEV)"@fr .
 
 <http://ivci.org/NUVA/VAC1198> rdfs:label "Vaccin Chinkungunya, vivant atténué, sans précision"@fr ;
     rdfs:comment "Vaccin vivant atténué contre le chikungunya"@fr .
@@ -2587,7 +2582,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 
 <http://ivci.org/NUVA/VAC1237> rdfs:label "Vaccin Paludisme pré-érythrocytaire, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAC1238> rdfs:label "Vaccin Hépatite B et Paludisme, sans précision"@fr .
+<http://ivci.org/NUVA/VAC1238> rdfs:label "Vaccin contre l'hépatite B et le paludisme (protéine de surface du sporozoïte), sans précision"@fr .
 
 <http://ivci.org/NUVA/VAC1239> rdfs:label "Vaccin Pneumocoque conjugué 15-valent, sans précision"@fr .
 
@@ -2949,11 +2944,11 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 
 <http://ivci.org/NUVA/VAC1436> rdfs:label "Vaccin rage, inactivé, entier, préparé sur tissu cérébral animal infecté par le virus de la rage, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAC1437> rdfs:label "Vaccin méningocoque, monovalent, polyosidique conjugué"@fr .
+<http://ivci.org/NUVA/VAC1437> rdfs:comment "Vaccin méningocoque, monovalent, polyosidique conjugué"@fr .
 
 <http://ivci.org/NUVA/VAC1438> rdfs:label "Vaccin grippe, trivalent, inactivé, fractionné ou sous-unité, adjuvant"@fr .
 
-<http://ivci.org/NUVA/VAC1439> rdfs:label "Vaccin méningocoque, polyvalent, polyosidique conjugué"@fr .
+<http://ivci.org/NUVA/VAC1439> rdfs:comment "Vaccin méningocoque, polyvalent, polyosidique conjugué"@fr .
 
 <http://ivci.org/NUVA/VAC1440> rdfs:label "Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, adjuvant, dose normale"@fr ;
     rdfs:comment "Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, adjuvant, dose normale"@fr .
@@ -3129,10 +3124,33 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 
 <http://ivci.org/NUVA/VAC1542> rdfs:label "Vaccin conjugué contre la typhoïde et l'anatoxine diphtérique"@fr .
 
-<http://ivci.org/NUVA/VAC1543> rdfs:label "Vaccin contre le paludisme"@fr .
+<http://ivci.org/NUVA/VAC1543> rdfs:label "Vaccin contre le paludisme protéine de surface du sporozoïte, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL000> rdfs:label "Parent pour les valences dépréciées"@fr ;
-    skos:altLabel "ZZZ"@fr .
+<http://ivci.org/NUVA/VAC1544> rdfs:label "Vaccin vivant atténué, chimérique recombinant, quadrivalent contre les quatre sérotypes (DEN-1, DEN-2, DEN-3 et DEN-4) du virus de la dengue"@fr .
+
+<http://ivci.org/NUVA/VAC1545> rdfs:label "Vaccin covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes"@fr .
+
+<http://ivci.org/NUVA/VAC1546> rdfs:label "Vaccin covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes"@fr .
+
+<http://ivci.org/NUVA/VAC1547> rdfs:label "Vaccin diphtérie (dose standard), tétanique (anatoxine), coquelucheux (entier inactivé), Haemophilus influenzae type b (conjugué à l'anatoxine tétanique), poliomyélitique (entier inactivé, trivalent) et de l’hépatite B (recombinant), adsorbé, pédiatrique"@fr .
+
+<http://ivci.org/NUVA/VAC1548> rdfs:label "Vaccin grippe, ARN, trivalent, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1549> rdfs:label "Vaccin pédiatrique diphtérique (anatoxine, dose standard) et coquelucheux (entier inactivé)"@fr .
+
+<http://ivci.org/NUVA/VAC1550> rdfs:label "Vaccin entier inactivé contre l'encéphalite à tiques, souche K23, 0,25 mL"@fr .
+
+<http://ivci.org/NUVA/VAC1551> rdfs:label "Vaccin pneumococcique polyosidique non conjugué, 23-valent, sérotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F et 33F"@fr .
+
+<http://ivci.org/NUVA/VAC1552> rdfs:label "Vaccin diphtérique (anatoxine, dose standard), tétanique (anatoxine) et hépatite B"@fr .
+
+<http://ivci.org/NUVA/VAC1553> rdfs:label "Vaccin contre Escherichia coli, Klebsiella pneumoniæ, Enterococcus fæcalis, Morganella morganii, Proteus mirabilis"@fr .
+
+<http://ivci.org/NUVA/VAC1554> rdfs:comment "Vaccin rabique entier inactivé, préparé sur culture de cellules Vero (PVRV), souche Wistar, inactivation par la ß-propiolactone"@fr .
+
+<http://ivci.org/NUVA/VAC1555> rdfs:label "Vaccin cancers épidermoïdes de la tête et du cou non liés au papillomavirus, non précisé"@fr .
+
+<http://ivci.org/NUVA/VAC1557> rdfs:label "Vaccin grippe, trivalent, inactivé, fractionné ou sous-unité, sans précision"@fr .
 
 <http://ivci.org/NUVA/VAL001> rdfs:label "Valence grippe, trivalente, vivante atténuée, dose normale"@fr ;
     skos:altLabel "Inf-L3"@fr .
@@ -3176,8 +3194,8 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 <http://ivci.org/NUVA/VAL014> rdfs:label "Valence typhoïde, sans précision"@fr ;
     skos:altLabel "Ty"@fr .
 
-<http://ivci.org/NUVA/VAL015> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant, dose normale"@fr ;
-    skos:altLabel "Inf-SUnd3"@fr .
+<http://ivci.org/NUVA/VAL015> rdfs:label "Valence grippe, trivalent, non vivant, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant, dose normale"@fr ;
+    skos:altLabel "Inf-ESUnd3"@fr .
 
 <http://ivci.org/NUVA/VAL016> rdfs:label "Valence rage, immunoglobuline, sans précision"@fr ;
     skos:altLabel "RIG"@fr .
@@ -3200,11 +3218,11 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 <http://ivci.org/NUVA/VAL022> rdfs:label "Valence variole, vivant atténué, sans précision"@fr ;
     skos:altLabel "POX-V"@fr .
 
-<http://ivci.org/NUVA/VAL023> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intradermique, sans précision"@fr ;
-    skos:altLabel "Inf-SUid3"@fr .
+<http://ivci.org/NUVA/VAL023> rdfs:label "Valence grippe, trivalente, non vivant, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intradermique, sans précision"@fr ;
+    skos:altLabel "Inf-ESUid3"@fr .
 
-<http://ivci.org/NUVA/VAL024> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, sans précision"@fr ;
-    skos:altLabel "Inf-SU3"@fr .
+<http://ivci.org/NUVA/VAL024> rdfs:label "Valence grippe, trivalente, non vivant, obtenu sur culture d'œufs, fractionné ou sous-unité, sans précision"@fr ;
+    skos:altLabel "Inf-ESU3"@fr .
 
 <http://ivci.org/NUVA/VAL025> rdfs:label "Valence paludisme, sans précision"@fr ;
     skos:altLabel "Palu"@fr .
@@ -3251,8 +3269,8 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 <http://ivci.org/NUVA/VAL039> rdfs:label "Valence covid 19, VLP, protéine de pointe recombinante"@fr ;
     skos:altLabel "Covid-VLP-rS"@fr .
 
-<http://ivci.org/NUVA/VAL040> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant, dose normale"@fr ;
-    skos:altLabel "Inf-SUnd4"@fr .
+<http://ivci.org/NUVA/VAL040> rdfs:label "Valence grippe, quadrivalente, non vivant, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant, dose normale"@fr ;
+    skos:altLabel "Inf-ESUnd4"@fr .
 
 <http://ivci.org/NUVA/VAL041> rdfs:label "Valence méningocoque A, polyoside conjugué"@fr ;
     skos:altLabel "MCV-A"@fr .
@@ -3305,8 +3323,8 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 <http://ivci.org/NUVA/VAL057> rdfs:label "Valence méningocoque C, polyoside conjugué"@fr ;
     skos:altLabel "MCV-C"@fr .
 
-<http://ivci.org/NUVA/VAL058> rdfs:label "Valence grippe, inactivée, fractionnée ou sous-unité, sans précision"@fr ;
-    skos:altLabel "Inf-SU"@fr .
+<http://ivci.org/NUVA/VAL058> rdfs:label "Valence grippe, non vivant, obtenu sur culture d'œufs, fractionnée ou sous-unité, sans précision"@fr ;
+    skos:altLabel "Inf-ESU"@fr .
 
 <http://ivci.org/NUVA/VAL059> rdfs:label "Valence grippe, quadrivalente, vivante atténuée, dose normale"@fr ;
     skos:altLabel "Inf-L4"@fr .
@@ -3323,10 +3341,10 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 <http://ivci.org/NUVA/VAL063> rdfs:label "Valence botulisme, antitoxine"@fr ;
     skos:altLabel "BAT"@fr .
 
-<http://ivci.org/NUVA/VAL064> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant"@fr ;
-    skos:altLabel "Inf-SUNA4"@fr .
+<http://ivci.org/NUVA/VAL064> rdfs:label "Valence grippe, quadrivalente, non vivant, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant"@fr ;
+    skos:altLabel "Inf-ESUNA4"@fr .
 
-<http://ivci.org/NUVA/VAL065> rdfs:label "Valence dengue, vivante atténuée, tétravalente, chimérique recombinante "@fr ;
+<http://ivci.org/NUVA/VAL065> rdfs:label "Valence dengue, vivante atténuée, tétravalente, chimérique recombinante"@fr ;
     skos:altLabel "RC-TDV"@fr .
 
 <http://ivci.org/NUVA/VAL066> rdfs:label "Valence covid 19, vecteur viral réplicatif, virus influenza codant la protéine de pointe du SARS-CoV-2"@fr ;
@@ -3353,8 +3371,8 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 <http://ivci.org/NUVA/VAL073> rdfs:label "Valence covid 19, vecteur viral replicatif avec cellules présentant l'antigène"@fr ;
     skos:altLabel "Covid-VVr+APC"@fr .
 
-<http://ivci.org/NUVA/VAL074> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, haute dose"@fr ;
-    skos:altLabel "Inf-SUhd4"@fr .
+<http://ivci.org/NUVA/VAL074> rdfs:label "Valence grippe, quadrivalente, non vivant, obtenu sur culture d'oeufs, fractionnée ou sous-unité, haute dose"@fr ;
+    skos:altLabel "Inf-ESUhd4"@fr .
 
 <http://ivci.org/NUVA/VAL075> rdfs:label "Valence Leptospira icterohaemorrhagiae, inactivée, entière"@fr ;
     skos:altLabel "Lepto-eI"@fr .
@@ -3413,8 +3431,8 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 <http://ivci.org/NUVA/VAL093> rdfs:label "Valence rougeole, inactivée, entière"@fr ;
     skos:altLabel "Roug-I"@fr .
 
-<http://ivci.org/NUVA/VAL094> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant, haute dose"@fr ;
-    skos:altLabel "Inf-SUhd3"@fr .
+<http://ivci.org/NUVA/VAL094> rdfs:label "Valence grippe, trivalent, non vivant, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant, haute dose"@fr ;
+    skos:altLabel "Inf-ESUhd3"@fr .
 
 <http://ivci.org/NUVA/VAL095> rdfs:label "Valence covid 19, vecteur viral réplicatif, virus de la maladie de Newcastle codant la protéine de pointe du SARS-CoV-2"@fr ;
     skos:altLabel "Covid-VVr-S-Nv"@fr .
@@ -3428,8 +3446,8 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 <http://ivci.org/NUVA/VAL098> rdfs:label "Valence méningocoque B, 4 composants"@fr ;
     skos:altLabel "4CMenB"@fr .
 
-<http://ivci.org/NUVA/VAL099> rdfs:label "Valence grippe pandémique H1N1 2009, inactivée "@fr ;
-    skos:altLabel "Inf-pdm09"@fr .
+<http://ivci.org/NUVA/VAL099> rdfs:label "Valence grippe pandémique H1N1 2009, non vivant, obtenu sur culture d'oeufs, sans précision"@fr ;
+    skos:altLabel "Inf-Epdm09"@fr .
 
 <http://ivci.org/NUVA/VAL100> rdfs:label "Valence encéphalite japonaise, vivant atténué, souche 14-14-2"@fr ;
     skos:altLabel "EJ-VVA-14-14-2"@fr .
@@ -3458,7 +3476,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 <http://ivci.org/NUVA/VAL108> rdfs:label "Valence Ebola, vecteur viral vivant non réplicatif recombinant Ad26.ZEBOV"@fr ;
     skos:altLabel "ZebovVRnrAd26"@fr .
 
-<http://ivci.org/NUVA/VAL109> rdfs:label "Valence Ebola, vecteur viral non réplicatif, Vaccine Ankara modifiée "@fr ;
+<http://ivci.org/NUVA/VAL109> rdfs:label "Valence Ebola, vecteur viral non réplicatif, Vaccine Ankara modifiée"@fr ;
     skos:altLabel "Ebola-MVA-BN-Filo"@fr .
 
 <http://ivci.org/NUVA/VAL110> rdfs:label "Valence tétanos, immunoglobuline"@fr ;
@@ -3500,7 +3518,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 <http://ivci.org/NUVA/VAL122> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant"@fr ;
     skos:altLabel "Inf-SUNA3"@fr .
 
-<http://ivci.org/NUVA/VAL123> rdfs:label "Valence rotavirus, vivant atténué, pentavalent"@fr ;
+<http://ivci.org/NUVA/VAL123> rdfs:label "Valence rotavirus, vivant atténué, pentavalent "@fr ;
     skos:altLabel "Rota5-V"@fr .
 
 <http://ivci.org/NUVA/VAL124> rdfs:label "Valence choléra, vivante atténuée, sans précision"@fr ;
@@ -3587,8 +3605,8 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 <http://ivci.org/NUVA/VAL151> rdfs:label "Valence tularémie, sans précision"@fr ;
     skos:altLabel "Tular"@fr .
 
-<http://ivci.org/NUVA/VAL152> rdfs:label "Valence grippe, inactivée, entière, sans précision"@fr ;
-    skos:altLabel "Inf-I"@fr .
+<http://ivci.org/NUVA/VAL152> rdfs:label "Valence grippe, obtenu sur culture d'oeufs, inactivée, entière, sans précision"@fr ;
+    skos:altLabel "Inf-EI"@fr .
 
 <http://ivci.org/NUVA/VAL153> rdfs:label "Valence Haemophilus influenzae type b, polyoside de PRP conjugué à l'anatoxine diphtérique"@fr ;
     skos:altLabel "PRP-D"@fr .
@@ -3608,7 +3626,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 <http://ivci.org/NUVA/VAL158> rdfs:label "Valence hépatite B, plasmatique"@fr ;
     skos:altLabel "pAgHBs"@fr .
 
-<http://ivci.org/NUVA/VAL159> rdfs:label "Valence zona, sous-unitaire"@fr ;
+<http://ivci.org/NUVA/VAL159> rdfs:label "Valence zona, sous-unitaire "@fr ;
     skos:altLabel "Zona-SU"@fr .
 
 <http://ivci.org/NUVA/VAL160> rdfs:label "Valence zona, sans précision"@fr ;
@@ -3999,7 +4017,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
     skos:altLabel "HepA"@fr .
 
 <http://ivci.org/NUVA/VAL289> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes"@fr ;
-    skos:altLabel " Covid-ARNm-S-ORI-10"@fr .
+    skos:altLabel "Covid-ARNm-S-ORI-10"@fr .
 
 <http://ivci.org/NUVA/VAL290> rdfs:label "Valence covid 19, virus originel,  ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes"@fr ;
     skos:altLabel "Covid-ARNm-S-ORI-30"@fr .
@@ -4145,7 +4163,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 <http://ivci.org/NUVA/VAL337> rdfs:label "Valence variole, immunoglobuline"@fr ;
     skos:altLabel "POX-Ig"@fr .
 
-<http://ivci.org/NUVA/VAL338> rdfs:label "Valence VRS, anticorps ou vaccin, sans précision"@fr ;
+<http://ivci.org/NUVA/VAL338> rdfs:label "Valence VRS, sans précision"@fr ;
     skos:altLabel "VRS"@fr .
 
 <http://ivci.org/NUVA/VAL339> rdfs:label "Valence Borrelia burgdorferi, sans précision"@fr ;
@@ -4226,7 +4244,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 <http://ivci.org/NUVA/VAL364> rdfs:label "Valence grippe, non vivante, sans précision"@fr ;
     skos:altLabel "Inf-NL"@fr .
 
-<http://ivci.org/NUVA/VAL365> rdfs:label "Valence grippe, non vivante, obtenue sur culture d'œufs, sans précision"@fr ;
+<http://ivci.org/NUVA/VAL365> rdfs:label "Valence grippe, non vivant, obtenue sur culture d'œufs, sans précision"@fr ;
     skos:altLabel "Inf-E"@fr .
 
 <http://ivci.org/NUVA/VAL366> rdfs:label "Valence grippe, ARN, sans précision"@fr ;
@@ -4385,10 +4403,10 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 <http://ivci.org/NUVA/VAL417> rdfs:label "Valence covid 19, variant Omicron BA.2, ARNm codant la protéine de pointe du SARS-CoV-2"@fr ;
     skos:altLabel "Covid-ARNm-S-OMI-BA.2"@fr .
 
-<http://ivci.org/NUVA/VAL418> rdfs:label "Valence variole, produits d'immunisation active ou passive"@fr ;
+<http://ivci.org/NUVA/VAL418> rdfs:label "Valence variole, non précisé"@fr ;
     skos:altLabel "POX"@fr .
 
-<http://ivci.org/NUVA/VAL419> rdfs:label "Valence botulisme, produits d'immunisation active ou passive"@fr ;
+<http://ivci.org/NUVA/VAL419> rdfs:label "Valence botulisme, non précisé"@fr ;
     skos:altLabel "BOT"@fr .
 
 <http://ivci.org/NUVA/VAL420> rdfs:label "Valence botulisme, produits d'immunisation passive"@fr ;
@@ -4468,4 +4486,19 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUAT
 
 <http://ivci.org/NUVA/VAL445> rdfs:label "Valence typhoïde, antigène Vi conjugué à l’anatoxine diphtérique"@fr ;
     skos:altLabel "Ty-ViC-D"@fr .
+
+<http://ivci.org/NUVA/VAL446> rdfs:label "Valence Morganella morganii, non précisé"@fr ;
+    skos:altLabel "Mmo"@fr .
+
+<http://ivci.org/NUVA/VAL447> rdfs:label "Valence Proteus mirabilis, sans précision"@fr ;
+    skos:altLabel "Pmi"@fr .
+
+<http://ivci.org/NUVA/VAL448> rdfs:label "Valence leptospirose, non précisé"@fr ;
+    skos:altLabel "Lepto"@fr .
+
+<http://ivci.org/NUVA/VAL449> rdfs:label "Valence grippe, ARN, trivalente, sans précision"@fr ;
+    skos:altLabel "Inf-ARN3"@fr .
+
+<http://ivci.org/NUVA/VAL450> rdfs:label "Valence Cancers épidermoïdes de la tête et du cou non liés au papillomavirus, non précisé"@fr ;
+    skos:altLabel "HNSCC-VPHneg"@fr .
 

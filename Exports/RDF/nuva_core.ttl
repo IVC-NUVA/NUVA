@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "2026-10-04" .
+    owl:versionInfo "2026-10-12" .
 
 nuva:NUVACode a owl:Class ;
     rdfs:label "NUVA Code" ;
@@ -8630,8 +8630,8 @@ nuva:VAC1380 a owl:Class ;
 nuva:VAC1381 a owl:Class ;
     rdfs:label "MEASLES AND RUBELLA VACCINE ZYDUS" ;
     dcterms:created "2025-04-07"^^xsd:date ;
-    dcterms:modified "2026-09-18"^^xsd:date ;
-    rdfs:subClassOf nuva:VAC0623 ;
+    dcterms:modified "2026-10-12"^^xsd:date ;
+    rdfs:subClassOf nuva:VAC0550 ;
     skos:notation "1381"^^nuva:NUVACode,
         "VAC1381"^^xsd:string .
 
@@ -11464,8 +11464,8 @@ nuva:VAL054 a owl:Class ;
 nuva:VAL055 a owl:Class ;
     rdfs:label "Measles valence, immunoglobulin"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2026-09-24"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL447 ;
+    dcterms:modified "2026-10-12"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL182 ;
     skos:altLabel "MEAS-Ig"@en ;
     skos:notation "VAL055"^^xsd:string .
 
@@ -11820,14 +11820,6 @@ nuva:VAL147 a owl:Class ;
     rdfs:subClassOf nuva:VAL006 ;
     skos:altLabel "Bruc-IP"@en ;
     skos:notation "VAL147"^^xsd:string .
-
-nuva:VAL148 a owl:Class ;
-    rdfs:label "RSV valence, immunoglobulin"@en ;
-    dcterms:created "2022-02-23"^^xsd:date ;
-    dcterms:modified "2026-09-24"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL338 ;
-    skos:altLabel "RSV-IG"@en ;
-    skos:notation "VAL148"^^xsd:string .
 
 nuva:VAL151 a owl:Class ;
     rdfs:label "Tularemia valence, unspecified"@en ;
@@ -12400,8 +12392,8 @@ nuva:VAL316 a owl:Class ;
 nuva:VAL317 a owl:Class ;
     rdfs:label "RSV valence, antibody, unspecified"@en ;
     dcterms:created "2023-05-14"^^xsd:date ;
-    dcterms:modified "2026-09-24"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL447 ;
+    dcterms:modified "2026-10-12"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL148 ;
     skos:altLabel "RSV-Ab"@en ;
     skos:notation "VAL317"^^xsd:string .
 
@@ -13133,6 +13125,14 @@ nuva:VAL446 a owl:Class ;
     skos:altLabel "Mmo"@en ;
     skos:notation "VAL446"^^xsd:string .
 
+nuva:VAL447 a owl:Class ;
+    rdfs:label "Proteus mirabilis valence, unspecified"@en ;
+    dcterms:created "2026-09-15"^^xsd:date ;
+    dcterms:modified "2026-09-24"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL345 ;
+    skos:altLabel "Pmi"@en ;
+    skos:notation "VAL447"^^xsd:string .
+
 nuva:VAL449 a owl:Class ;
     rdfs:label "Influenza valence, RNA-based, trivalent, unspecified"@en ;
     dcterms:created "2026-09-22"^^xsd:date ;
@@ -13806,6 +13806,14 @@ nuva:VAL143 a owl:Class ;
     rdfs:subClassOf nuva:VAL283 ;
     skos:altLabel "HepA-bv-PED"@en ;
     skos:notation "VAL143"^^xsd:string .
+
+nuva:VAL148 a owl:Class ;
+    rdfs:label "RSV valence, immunoglobulin"@en ;
+    dcterms:created "2022-02-23"^^xsd:date ;
+    dcterms:modified "2026-09-24"^^xsd:date ;
+    rdfs:subClassOf nuva:VAL338 ;
+    skos:altLabel "RSV-IG"@en ;
+    skos:notation "VAL148"^^xsd:string .
 
 nuva:VAL159 a owl:Class ;
     rdfs:label "Shingles valence, subunit"@en ;
@@ -14600,14 +14608,6 @@ nuva:VAL181 a owl:Class ;
     skos:altLabel "COVID-mRNA-S-ORI-25"@en ;
     skos:notation "VAL181"^^xsd:string .
 
-nuva:VAL182 a owl:Class ;
-    rdfs:label "Measles valence, unspecified"@en ;
-    dcterms:created "2022-03-27"^^xsd:date ;
-    dcterms:modified "2026-09-12"^^xsd:date ;
-    rdfs:subClassOf nuva:Valence ;
-    skos:altLabel "MEAS"@en ;
-    skos:notation "VAL182"^^xsd:string .
-
 nuva:VAL193 a owl:Class ;
     rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 8"@en ;
     dcterms:created "2022-03-28"^^xsd:date ;
@@ -14823,14 +14823,6 @@ nuva:VAL406 a owl:Class ;
     rdfs:subClassOf nuva:VAL395 ;
     skos:altLabel "COVID-mRNA-S-OMI-KP.2"@en ;
     skos:notation "VAL406"^^xsd:string .
-
-nuva:VAL447 a owl:Class ;
-    rdfs:label "Proteus mirabilis valence, unspecified"@en ;
-    dcterms:created "2026-09-15"^^xsd:date ;
-    dcterms:modified "2026-09-24"^^xsd:date ;
-    rdfs:subClassOf nuva:VAL345 ;
-    skos:altLabel "Pmi"@en ;
-    skos:notation "VAL447"^^xsd:string .
 
 nuva:VAL448 a owl:Class ;
     rdfs:label "Leptospira valence, unspecified"@en ;
@@ -15148,6 +15140,14 @@ nuva:VAL133 a owl:Class ;
     rdfs:subClassOf nuva:VAL042 ;
     skos:altLabel "mOPV"@en ;
     skos:notation "VAL133"^^xsd:string .
+
+nuva:VAL182 a owl:Class ;
+    rdfs:label "Measles valence, unspecified"@en ;
+    dcterms:created "2022-03-27"^^xsd:date ;
+    dcterms:modified "2026-09-12"^^xsd:date ;
+    rdfs:subClassOf nuva:Valence ;
+    skos:altLabel "MEAS"@en ;
+    skos:notation "VAL182"^^xsd:string .
 
 nuva:VAL203 a owl:Class ;
     rdfs:label "Pneumococcal valence, polysaccharide conjugate, serotype 22F"@en ;
@@ -15762,6 +15762,16 @@ nuva:VAL396 a owl:Class ;
     skos:altLabel "COVID-mRNA-S-OMI-XBB.1.5"@en ;
     skos:notation "VAL396"^^xsd:string .
 
+nuva:VAC0623 a owl:Class ;
+    rdfs:label "Measles-mumps vaccine, unspecified"@en ;
+    nuvs:containsValence nuva:VAL005,
+        nuva:VAL077 ;
+    dcterms:created "2021-07-19"^^xsd:date ;
+    dcterms:modified "2025-07-16"^^xsd:date ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "0623"^^nuva:NUVACode,
+        "VAC0623"^^xsd:string .
+
 nuva:VAC1143 a owl:Class ;
     rdfs:label "COVID-19 vaccine with non-replicating viral vector, adenovirus encoding the spike protein of SARS-CoV-2, unspecified"@en ;
     nuvs:containsValence nuva:VAL070 ;
@@ -15890,16 +15900,6 @@ nuva:VAC0610 a owl:Class ;
     skos:notation "0610"^^nuva:NUVACode,
         "VAC0610"^^xsd:string .
 
-nuva:VAC0623 a owl:Class ;
-    rdfs:label "Measles-mumps vaccine, unspecified"@en ;
-    nuvs:containsValence nuva:VAL005,
-        nuva:VAL077 ;
-    dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-07-16"^^xsd:date ;
-    rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "0623"^^nuva:NUVACode,
-        "VAC0623"^^xsd:string .
-
 nuva:VAL014 a owl:Class ;
     rdfs:label "Typhoid valence, unspecified"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
@@ -16015,16 +16015,6 @@ nuva:VAC0153 a owl:Class ;
     skos:notation "0153"^^nuva:NUVACode,
         "VAC0153"^^xsd:string .
 
-nuva:VAC0550 a owl:Class ;
-    rdfs:label "Measles and rubella live attenuated vaccine, unspecified"@en ;
-    nuvs:containsValence nuva:VAL005,
-        nuva:VAL079 ;
-    dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2026-09-10"^^xsd:date ;
-    rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "0550"^^nuva:NUVACode,
-        "VAC0550"^^xsd:string .
-
 nuva:VAC0551 a owl:Class ;
     rdfs:label "DTaPIPV vaccine, standard dose, unspecified"@en ;
     nuvs:containsValence nuva:VAL008,
@@ -16108,6 +16098,16 @@ nuva:VAC0320 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "0320"^^nuva:NUVACode,
         "VAC0320"^^xsd:string .
+
+nuva:VAC0550 a owl:Class ;
+    rdfs:label "Measles and rubella live attenuated vaccine, unspecified"@en ;
+    nuvs:containsValence nuva:VAL005,
+        nuva:VAL079 ;
+    dcterms:created "2021-07-19"^^xsd:date ;
+    dcterms:modified "2026-09-10"^^xsd:date ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "0550"^^nuva:NUVACode,
+        "VAC0550"^^xsd:string .
 
 nuva:VAC1116 a owl:Class ;
     rdfs:label "Rabies vaccine, whole inactivated, prepared in Vero cell culture, unspecified"@en ;

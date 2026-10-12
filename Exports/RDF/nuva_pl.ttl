@@ -281,11 +281,9 @@
 <http://ivci.org/NUVA/VAC0808> rdfs:label "Hib-MenCY, unspecified"@pl ;
     rdfs:comment "Haemophilus influenzae typu b oraz szczepionka skoniugowana przeciwko meningokokom C i Y"@pl .
 
-<http://ivci.org/NUVA/VAC0809> rdfs:label "Meningococcal monovalent polysaccharide vaccine, unspecified"@pl ;
-    rdfs:comment "Monowalentna szczepionka meningokokowa, skoniugowana lub nieskoniugowana polisacharydowa"@pl .
+<http://ivci.org/NUVA/VAC0809> rdfs:comment "Monowalentna szczepionka meningokokowa, skoniugowana lub nieskoniugowana polisacharydowa"@pl .
 
-<http://ivci.org/NUVA/VAC0810> rdfs:label "Meningococcal polyvalent polysaccharide vaccine, unspecified"@pl ;
-    rdfs:comment "Poliwalentna, nieskoniugowana szczepionka polisacharydowa przeciwko meningokokom"@pl .
+<http://ivci.org/NUVA/VAC0810> rdfs:comment "Poliwalentna, nieskoniugowana szczepionka polisacharydowa przeciwko meningokokom"@pl .
 
 <http://ivci.org/NUVA/VAC0811> rdfs:label "Meningococcal B vaccine, unspecified"@pl ;
     rdfs:comment "Szczepionka meningokokowa typu B, rodzaj szczepionki nieokreślony"@pl .

@@ -1,5 +1,5 @@
 ﻿NUVA,label,comment,type,instanceOf,valences
-VAC0000,#Orphelins,Vaccin abstrait pour les vaccins orphelins,abstract,,
+VAC0000,#Orphans,Abstract for orphan vaccines,abstract,,
 VAC0001,ACT-HIB,Vaccin conjugué anti-Hemophilus influenzae de type b composé du PRP (polyribosylribitol phosphate) conjugué à l'anatoxine tétanique,real,VAC0345,
 VAC0002,AGRIPPAL,"Vaccin contre la grippe saisonnière inactivé trivalent, cultivé sur oeuf, à antigène de surface",real,VAC0925,
 VAC0003,AVAXIM 160 U,"Vaccin entier inactivé contre l'hépatite A, dose adulte",real,VAC0910,
@@ -70,7 +70,7 @@ VAC0069,MENOMUNE,"Vaccin polyosidique non conjugué contre les méningocoques de
 VAC0070,DT BIS,"Vaccin pédiatrique diphtérique (anatoxine, dose standard) et tétanique (anatoxine)",real,VAC0137,
 VAC0071,D.T. BIS - RUDIVAX,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine) et contre la rubéole (vivant atténué)",real,VAC1221,
 VAC0072,JE-VAX,"Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur tissu cérébral murin, souche Nakayama, voie injectable 
-Autres noms : JEVAX, BIKEN",real,VAC1196,
+Autres noms : JEVAX, BIKEN",real,VAC1196,
 VAC0073,IXIARO,"Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur cellules Vero, adsorbé",real,VAC1111,
 VAC0074,D.T. COQ MERIEUX,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine) et coquelucheux (entier inactivé)",real,VAC0136,
 VAC0076,DTVax,"Vaccin pédiatrique diphtérique (anatoxine, dose standard) et tétanique (anatoxine)",real,VAC0137,
@@ -136,7 +136,7 @@ VAC0143,"Vaccin Haemophilus influenzae B, sans précision","Vaccin anti-Haemophi
 VAC0144,"Vaccin Choléra, sans précision","Cholera vaccine, unspecified",abstract,,Chol
 VAC0145,"Vaccin Encéphalite à tiques, sans précision","Vaccin entier inactivé contre l'encéphalite à tiques, souche non précisée",abstract,,TBE
 VAC0146,"Vaccin Encéphalite Japonaise vivant atténué 14-14-2, sans précision","Vaccin vivant atténué contre l'encéphalite japonaise, souche 14-14-2",abstract,,EJ-VVA-14-14-2
-VAC0147,"Vaccin Grippe A(H1N1)2009, sans précision",Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé,abstract,,Inf-pdm09
+VAC0147,"Vaccin Grippe A(H1N1)2009, sans précision",Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé,abstract,,Inf-Epdm09
 VAC0148,"Vaccin Leptospirose, sans précision",Vaccin entier inactivé contre la leptospirose,abstract,,Lepto-eI
 VAC0149,"Vaccin Méningocoque B:14:P1.7,16, sans précision","Vaccin contre les méningocoques du sérogroupe B (à protéines de vésicules de membrane externe B:14:P1.7,16)",abstract,,MenB-OMP
 VAC0150,"Vaccin Méningocoque C conjugué, sans précision",Vaccin polyosidique conjugué contre les méningocoques du sérogroupe C,abstract,,MCV-C
@@ -476,7 +476,7 @@ VAC0506,"Vaccin pentavalent DTCaHibP - Diphtérie-Tétanos-Coqueluche-Hib-Polio,
 VAC0507,HEXACIMA,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique), poliomyélitique (entier inactivé, trivalent) et de l’hépatite B (recombinant), adsorbé",real,VAC1121,
 VAC0508,JEEV 3 µg,"Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur cellules Vero, 3 microgrammes",real,VAC1111,
 VAC0509,BIKEN,"Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur tissu cérébral murin, souche Nakayama, voie injectable 
-Autre nom : JEVAX",real,VAC1196,
+Autre nom : JEVAX",real,VAC1196,
 VAC0510,HEXYON,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard, 2 composants), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique), poliomyélitique (entier inactivé, trivalent) et de l’hépatite B (recombinant), adsorbé",real,VAC1121,
 VAC0511,SILGARD,"Vaccin contre les papillomavirus humains à base de VLP (Virus Like Particles ou pseudo particules virales), quadrivalent (types 6, 11, 16 et 18), recombinant, adsorbé",real,VAC0859,
 VAC0512,"Vaccin Typhus, sans précision",Vaccin contre le typhus exanthématique (typhus épidémique à poux),abstract,,Typhus
@@ -551,12 +551,12 @@ VAC0601,"Vaccin DTC - Diphtérie-Tétanos-Coqueluche, sans précision","Vaccin p
 VAC0602,"Vaccin DTCa - Diphtérie-Tétanos-Coqueluche, dose standard, sans précision","Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine) et coquelucheux (acellulaire multicomposé, dose standard)",abstract,,Ca|T|D
 VAC0603,ComVac3,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine) et coquelucheux (entier inactivé)",real,VAC0136,
 VAC0610,"Vaccin dTca - Diphtérie-Tétanos-Coqueluche, dose réduite, sans précision","Vaccin diphtérique (anatoxine, dose réduite), tétanique (anatoxine) et coquelucheux (acellulaire multicomposé, dose réduite)",abstract,,ca|d|T
-VAC0611,SHAN-5,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique) et de l’hépatite B (recombinant) - Autre nom : Vaccin liquide DTCe-Hep B-Hib",real,VAC1181,
+VAC0611,SHAN-5,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique) et de l’hépatite B (recombinant) - Autre nom : Vaccin liquide DTCe-Hep B-Hib",real,VAC1181,
 VAC0612,DTP-vax FINLAY,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine) et coquelucheux (entier inactivé)",real,VAC0136,
 VAC0613,BORYUNG DTap VACCINE,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine) et coquelucheux (acellulaire multicomposé, dose standard)",real,VAC0602,
 VAC0614,TDAPBOOSTER AJ VACCINES,"Vaccin diphtérique (anatoxine, dose réduite), tétanique (anatoxine) et coquelucheux (acellulaire multicomposé, dose réduite)",real,VAC0610,
 VAC0615,VACCIN T.P. PASTEUR,"Vaccin tétanique (anatoxine) et poliomyélitique (entier inactivé, trivalent)",real,VAC0380,
-VAC0620,IXCHIQ,Vaccin vivant atténué contre le chikungunya. Autre nom : VLA1553.,real,VAC1198,
+VAC0620,IXCHIQ,Vaccin vivant atténué contre le chikungunya. Autre nom : VLA1553.,real,VAC1198,
 VAC0621,"MenC, unspecified","Vaccin méningococcique polyosidique conjugué à l'anatoxine tétanique contre le sérogroupe C (Produit par la ""Ezequiel Dias Foundation"")",real,VAC1184,
 VAC0622,EOLARIX,Vaccin vivant atténué contre la rougeole et la rubéole,real,VAC0550,
 VAC0623,"Vaccin Rougeole et Oreillons, sans précision",Vaccin vivant atténué contre la rougeole et les oreillons,abstract,,Roug-VVA|Or-VVA
@@ -579,14 +579,14 @@ VAC0641,GLOBORIX,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), t
 VAC0642,Fluzone High-Dose Quadrivalent,"Vaccin contre la grippe saisonnière inactivé quadrivalent, à virion fragmenté, haute dose",real,VAC1146,
 VAC0643,"Vaccin Méningocoques ACWY conjugué, sans précision","Vaccin méningococcique polyosidique conjugué quadrivalent contre les sérogroupes A, C, W et Y",abstract,,MCV-A|MCV-C|MCV-Y|MCV-W
 VAC0644,QDENGA,"Vaccin vivant atténué, chimérique recombinant, quadrivalent contre les quatre sérotypes (1, 2, 3 et 4) du virus de la dengue 
-Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) TAKEDA",real,VAC1178,
+Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) TAKEDA",real,VAC1178,
 VAC0645,IMMU ORR,"Vaccin vivant atténué contre la rougeole, les oreillons et la rubéole",real,VAC0130,
 VAC0646,CECOLIN,"Vaccin contre les papillomavirus humains à base de VLP (Virus Like Particles ou pseudo particules virales ), bivalent (types 16 et 18), recombinant (exprimé par Escherichia coli)",real,VAC0858,
 VAC0647,ROTASIIL,Vaccin contre les rotavirus,real,VAC0158,
 VAC0648,"Vaccin Covid 19, sans précision",Vaccin anti-covid 19,abstract,,Covid
 VAC0649,EFLUELDA TETRA,"Vaccin contre la grippe saisonnière inactivé quadrivalent, à virion fragmenté, haute dose",real,VAC1146,
 VAC0650,VAXZEVRIA ASTRAZENECA,"Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus de chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2",real,VAC1170,
-VAC0651,CORONAVAC SINOVAC COVID-19 VACCINE,"Vaccin anti-covid 19 à virus entier inactivé, adjuvé (adjuvant : hydroxyde d'aluminium)",real,VAC1119,
+VAC0651,CORONAVAC SINOVAC COVID-19 VACCINE,"Vaccin anti-covid 19 à virus entier inactivé, adjuvé (adjuvant : hydroxyde d'aluminium)",real,VAC1119,
 VAC0652,CONVIDECIA,"Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus 5 codant la protéine de pointe du SARS-CoV-2",real,VAC1176,
 VAC0653,"Vaccin Hépatite A et B enfant, sans précision","Vaccin combiné contre les hépatites A et B, dose pédiatrique",abstract,,rAgHBs-10|HepA-bv-PED
 VAC0654,"Vaccin Hépatite A et B adulte, sans précision","Vaccin combiné contre les hépatites A et B, dose adulte",abstract,,rAgHBs-20|HepA-bv-ADU
@@ -600,9 +600,9 @@ VAC0661,Inovio-DNA-Covid,Vaccin anti-covid 19 à ADN plasmidique,real,VAC1128,
 VAC0662,Osaka-DNA-covid / AG0301-COVID19,Vaccin anti-covid 19 à ADN plasmidique,real,VAC1128,
 VAC0663,Cadila-DNA-covid,Vaccin anti-covid 19 à ADN plasmidique,real,VAC1128,
 VAC0664,GX-19-DNA-Covid,Vaccin anti-covid 19 à ADN plasmidique,real,VAC1128,
-VAC0665,COVAXIN BHARAT BIOTECH COVID-19 VACCINE,"Vaccin anti-covid 19 à virus entier inactivé, adjuvé (adjuvant : molécule de la classe des imidazoquinoléines agoniste des TLR 7 et 8 adsorbée sur hydroxyde d’aluminium). Autres noms : BBV152, Bharat Inactivated Covid Vaccine",real,VAC1119,
+VAC0665,COVAXIN BHARAT BIOTECH COVID-19 VACCINE,"Vaccin anti-covid 19 à virus entier inactivé, adjuvé (adjuvant : molécule de la classe des imidazoquinoléines agoniste des TLR 7 et 8 adsorbée sur hydroxyde d’aluminium). Autres noms : BBV152, Bharat Inactivated Covid Vaccine",real,VAC1119,
 VAC0666,JCOVDEN (former name: JANSSEN COVID-19 VACCINE),Vaccin anti-covid 19 à vecteur viral non réplicatif (adénovirus),real,VAC1185,
-VAC0667,NUVAXOVID,"Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, avec adjuvant (Matrix M). Autre nom : NOVAVAX NVX-CoV2373 COVID-19 Vaccine",real,VAC1129,
+VAC0667,NUVAXOVID,"Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, avec adjuvant (Matrix M). Autre nom : NOVAVAX NVX-CoV2373 COVID-19 Vaccine",real,VAC1129,
 VAC0668,Kentucky-RBD-Covid,Vaccin anti-covid 19 à sous-unité protéique,real,VAC1138,
 VAC0669,Arcturus-RNA-Covid,"Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, en cours d'essai clinique",real,VAC1166,
 VAC0670,SPOUTNIK V,"Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus codant la protéine de pointe du SARS-CoV-2",real,VAC1143,
@@ -615,12 +615,12 @@ VAC0676,Curevac-RNA-Covid,"Vaccin anti-covid 19 à ARNm codant la protéine de p
 VAC0677,Chinese-PLA-ARN-Covid,"Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, en cours d'essai clinique",real,VAC1166,
 VAC0678,COVIFENZ,"Vaccin anti-covid 19 à VLP, protéine de pointe recombinante, avec adjuvant",real,VAC1106,
 VAC0679,MEDIGEN-S-2P-CpH1018-COVID,"Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe du SARS-CoV-2 recombinante, S-2P et CpG1018",real,VAC1144,
-VAC0680,COVILO SINOPHARM COVID-19 VACCINE,"Vaccin anti-covid 19 à virus entier inactivé, cultivé sur cellules Vero - Autres noms : SINOPHARM BBIBP-CorV COVID-19 ; COVID-19 Vaccine BIBP ; Hayat-vax",real,VAC1119,
+VAC0680,COVILO SINOPHARM COVID-19 VACCINE,"Vaccin anti-covid 19 à virus entier inactivé, cultivé sur cellules Vero - Autres noms : SINOPHARM BBIBP-CorV COVID-19 ; COVID-19 Vaccine BIBP ; Hayat-vax",real,VAC1119,
 VAC0681,GRAd-COV2 COVID-19 Vaccine ReiThera,"Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus codant la protéine de pointe du SARS-CoV-2",real,VAC1143,
 VAC0682,FLUQUADRI,"Vaccin contre la grippe saisonnière inactivé quadrivalent, à antigène de surface",real,VAC0938,
 VAC0683,EPIVACCORONA,"Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe du SARS-CoV-2 recombinante",real,VAC1043,
 VAC0684,QazVac,"Vaccin anti-covid 19 à virus entier inactivé, adjuvé (adjuvant: hydroxyde d’aluminium)",real,VAC1124,
-VAC0685,VIDPREVTYN BETA,"Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe du SARS-CoV-2 recombinante, avec adjuvant ASO3. Autre nom : Sanofi-GSK Recombinant COVID-19 Vaccine.",real,VAC1043,
+VAC0685,VIDPREVTYN BETA,"Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe du SARS-CoV-2 recombinante, avec adjuvant ASO3. Autre nom : Sanofi-GSK Recombinant COVID-19 Vaccine.",real,VAC1043,
 VAC0686,MULTI-PEPTIDE-pVAC-COVID,"Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe du SARS-CoV-2 recombinante, adaptés aux molécules du complexe majeur d'histocompatibilité II humain",real,VAC1043,
 VAC0687,UB-612 COVID-19 Vaccine,"Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe du SARS-CoV-2 recombinante (S1 et S2 de la protéine Spike et protéines M et N du SARS-CoV-2)",real,VAC1043,
 VAC0688,Chinese-Influenza-intranasal-covid,"Vaccin anti-covid 19 à vecteur viral réplicatif (virus influenza), protéine recombinante RBD, par spray intranasal",real,VAC1173,
@@ -647,7 +647,7 @@ VAC0710,COVID-19 mRNA Vaccine BNT162b2,"Vaccin anti-covid 19 à ARNm, nom commer
 VAC0711,"Vaccin Typhoïde conjugué, sans précision","Vaccin typhoïdique, antigène Vi conjugué à l'anatoxine tétanique",abstract,,Ty-ViC-T
 VAC0712,"Vaccin Typhoïde et Hépatite A, sans précision",Vaccin typhoïdique combiné au vaccin contre l'hépatite A (entier inactivé),abstract,,Ty|HepA-I
 VAC0713,"Vaccin Typhoïde polyosidique, sans précision",Vaccin typhoïdique polyosidique non conjugué (antigène capsulaire Vi),abstract,,Ty-ViPS
-VAC0714,"COVID-19 VACCINE (INACTIVATED, ADJUVANTED) VALNEVA","Vaccin entier inactivé cultivé sur cellules Vero, adjuvé avec CpG 1018 (cytosine phospho-guanine) en combinaison avec de l'hydroxyde d'aluminium - Autre nom : Valneva VLA2001",real,VAC1119,
+VAC0714,"COVID-19 VACCINE (INACTIVATED, ADJUVANTED) VALNEVA","Vaccin entier inactivé cultivé sur cellules Vero, adjuvé avec CpG 1018 (cytosine phospho-guanine) en combinaison avec de l'hydroxyde d'aluminium - Autre nom : Valneva VLA2001",real,VAC1119,
 VAC0715,ERUCOV-VAC,Vaccin anti-covid 19 à virus entier inactivé,real,VAC1124,
 VAC0716,SARS-CoV-2-RBD-Fc fusion protein,Vaccin anti-covid 19 à sous-unité protéique,real,VAC1138,
 VAC0717,CIGB-669,Vaccin anti-covid 19 à sous-unité protéique (RBD + antigène de nucléocapside du virus de l'hépatite B),real,VAC1138,
@@ -681,10 +681,10 @@ VAC0745,MF59 adjuvanted SARS-CoV-2 Sclamp vaccine,"Vaccin anti-covid 19 à sous-
 VAC0752,COVISHIELD,"Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus de chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2",real,VAC1170,
 VAC0753,Inactivated SARS-CoV-2 vaccine FAKHRAVAC (MIVAC),Vaccin anti-covid 19 à virus entier inactivé,real,VAC1124,
 VAC0754,Inactivated Koçak-19 Inaktif Adjuvant COVID-19 Vaccine,"Vaccin anti-covid 19 à virus entier inactivé, adjuvé (adjuvant non précisé)",real,VAC1124,
-VAC0755,Adjuvanted inactivated vaccine against SARS-CoV-2,"Vaccin anti-covid 19 à virus entier inactivé, adjuvé (adjuvant : hydroxyde d'aluminium + agoniste du TLR9 (CpG ODN)",real,VAC1124,
+VAC0755,Adjuvanted inactivated vaccine against SARS-CoV-2,"Vaccin anti-covid 19 à virus entier inactivé, adjuvé (adjuvant : hydroxyde d'aluminium + agoniste du TLR9 (CpG ODN)",real,VAC1124,
 VAC0756,MV-014-212,"Vaccin anti-covid 19 vivant atténué, exprimant la protéine de pointe du SARS-CoV-2",real,VAC1202,
 VAC0757,NBP 2001,"Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante, avec adjuvant (hydroxyde d'aluminium)",real,VAC1113,
-VAC0758,SpFN COVID 19 vaccine + AFLQ,"Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante, avec adjuvant (AFKQ : liposomal contenant de la saponine QS21)",real,VAC1113,
+VAC0758,SpFN COVID 19 vaccine + AFLQ,"Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante, avec adjuvant (AFKQ : liposomal contenant de la saponine QS21)",real,VAC1113,
 VAC0759,EuCorVac-19,"Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante, avec adjuvant sans précision",real,VAC1113,
 VAC0760,ReCOV,"COVID-19 vaccine, protein subunit, recombinant spike protein, with adjuvant unspecified",real,VAC1535,
 VAC0761,V-01,"Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante, protéine de fusion",real,VAC1113,
@@ -693,7 +693,7 @@ VAC0763,mRNA-1273.351,"Vaccin anti-covid 19 à ARNm codant la protéine de point
 VAC0764,MRT5500,"Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, en cours d'essai clinique",real,VAC1166,
 VAC0765,DS-5670a,"Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, en cours d'essai clinique",real,VAC1166,
 VAC0766,HDT-301,"Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, en cours d'essai clinique (encapsulé dans une nanoparticule lipidique)",real,VAC1166,
-VAC0767,ChAdV68 SAM-LNP rS-TCE GRITSTONE ONCOLOGY COVID-19 VACCINE,"Vaccins anti-covid 19 à adénovirus de chimpanzé et à ARNm auto-amplifiant : 
+VAC0767,ChAdV68 SAM-LNP rS-TCE GRITSTONE ONCOLOGY COVID-19 VACCINE,"Vaccins anti-covid 19 à adénovirus de chimpanzé et à ARNm auto-amplifiant : 
 1. A vecteur viral non réplicatif, adénovirus de chimpanzé, sérotype 68 (ChAdV68), codant la protéine de pointe du SARS-CoV-2 (ChAdV68-S) et/ou la protéine de pointe plus des épitopes supplémentaires du SARS-CoV-2 reconnus par les cellules T (ChAdV68-S-TCE) et 2. A ARNm auto-amplifiant (SAM) dans des nanoparticules lipidiques (SAM-LNP) codant la protéine de pointe du SARS-CoV-2 (SAM-S) et/ou la protéine de pointe plus des épitopes supplémentaires du SARS-CoV-2 reconnus par les cellules T (SAM-S-TCE), vecteur SAM basé sur le virus de l'encéphalite équine du Venezuela (VEEV)",real,VAC1197,
 VAC0768,COVIVAC,"Vaccin anti-covid 19 à vecteur non réplicatif, virus de la maladie de Newcastle codant la protéine de pointe du SARS-CoV-2, avec ou sans adjuvant CpG 1018",real,VAC1139,
 VAC0769,SC-Ad6-1,"Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus 6 codant la protéine de pointe du SARS-CoV-2",real,VAC1143,
@@ -736,8 +736,8 @@ VAC0805,"Vaccin Choléra, entier inactivé, injectable, sans précision","Vaccin
 VAC0806,"Vaccin Choléra, vivant atténué, sans précision",Vaccin cholérique vivant atténué (souche atténuée CVD 103-HgR de V. cholerae produite par une technologie d’ADN recombiné),abstract,,Chol-V
 VAC0807,"Vaccin Choléra et Typhoïde inactivé, sans précision","Vaccin cholérique (entier inactivé) et typhoïdique (entier inactivé), injectable",abstract,,I-Chol-I|Ty-I
 VAC0808,"Vaccin Haemophilus influenzae b et Ménigocoque CY, sans précision","Vaccin anti-Haemophilus influenzae type b (conjugué, sans précision) et contre les méningocoques des sérogroupes C et Y",abstract,,MCV-C|MCV-Y|Hib-C
-VAC0809,"Vaccin Méningocoque polyosidique monovalent, sans précision","Vaccin monovalent contre les méningocoques, polyosidique conjugué ou non conjugué",deprecated,VAC0945,
-VAC0810,"Vaccin Méningocoque polyosidique polyvalent, sans précision",Vaccin polyvalent polyosidique non conjugué contre les méningocoques,deprecated,VAC0945,
+VAC0809,"Meningococcal monovalent polysaccharide vaccine, unspecified","Vaccin monovalent contre les méningocoques, polyosidique conjugué ou non conjugué",deprecated,VAC0945,
+VAC0810,"Meningococcal polyvalent polysaccharide vaccine, unspecified",Vaccin polyvalent polyosidique non conjugué contre les méningocoques,deprecated,VAC0945,
 VAC0811,"Vaccin Méningocoque B, sans précision","Vaccin contre les méningocoques du sérogroupe B, type de vaccin non précisé",abstract,,MenB
 VAC0812,"Vaccin Peste entier inactivé, sans précision",Vaccin contre la peste (entier inactivé),abstract,,Yp-I
 VAC0813,"Vaccin Pneumocoque non conjugué, sans précision","Vaccin pneumococcique polyosidique non conjugué, sérotypes non précisés",abstract,,VPP
@@ -747,10 +747,10 @@ VAC0816,PEDATYPH,"Vaccin typhoïdique, antigène Vi conjugué à l'anatoxine té
 VAC0817,"Vaccin Typhoïde entier inactivé, sans précision",Vaccin typhoïdique entier inactivé,abstract,,Ty-I
 VAC0818,"Vaccin Typhoïde et Paratyphoïde, sans précision","Vaccin typhoïdique et paratyphoïdique A et B, entier inactivé",abstract,,pTy-I|Ty-I
 VAC0819,"Vaccin Encéphalite Japonaise entier inactivé, sans précision",Vaccin entier inactivé contre l'encéphalite japonaise,abstract,,EJ-I
-VAC0820,"Vaccin Grippe entier inactivé, sans précision",Vaccin contre la grippe saisonnière à virus entier inactivé,abstract,,Inf-I
-VAC0821,"Vaccin Grippe inactivé, fractionné ou sous-unité, sans précision",Vaccin contre la grippe saisonnière inactivé,abstract,,Inf-SU
+VAC0820,"Vaccin Grippe entier inactivé, sans précision",Vaccin contre la grippe saisonnière à virus entier inactivé,abstract,,Inf-EI
+VAC0821,"Vaccin Grippe inactivé, fractionné ou sous-unité, sans précision",Vaccin contre la grippe saisonnière inactivé,abstract,,Inf-ESU
 VAC0822,"Vaccin Grippe vivant atténué, sans précision","Vaccin contre la grippe saisonnière, à virus vivant atténué, par voie nasale",abstract,,Inf-L
-VAC0823,"Vaccin Grippe VLP, sans précision","Vaccin contre la grippe saisonnière à pseudo-particules virales (VLP : ""Virus-Like Particle"")",abstract,,Inf-VLP
+VAC0823,"Vaccin Grippe VLP, sans précision","Vaccin contre la grippe saisonnière à pseudo-particules virales (VLP : ""Virus-Like Particle"")",abstract,,Inf-VLP
 VAC0824,"Vaccin Hépatite A virosomal, sans précision","Vaccin entier inactivé contre l'hépatite A, virosomal, dose pédiatrique ou adulte",abstract,,HepA-VLP
 VAC0825,"Vaccin Hépatites A et B combiné, sans précision",Vaccin combiné contre l'hépatite A (entier inactivé) et l'hépatite B,abstract,,HepB|HepA-I
 VAC0826,MEASLES AND RUBELLA VACCINE SII,Vaccin vivant atténué contre la rougeole et la rubéole,real,VAC0550,
@@ -763,8 +763,8 @@ VAC0832,"Vaccin Herpes Simplex, sans précision",Vaccin contre l'herpès simplex
 VAC0833,COMIRNATY 10 µg  BIONTECH-PFIZER,"Vaccin à ARNm contre la covid 19, 10 microgrammes, dose pédiatrique 5-11 ans",real,VAC0927,
 VAC0835,FIOCRUZ COVID-19 VACCINE,"Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus de chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2",real,VAC1170,
 VAC0836,FLUAD TETRA,"Vaccin contre la grippe saisonnière inactivé quadrivalent, à antigène de surface",real,VAC0938,
-VAC0837,COVOVAX SII,"Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, avec adjuvant (Matrix M). Autre nom : NOVAVAX NVX-CoV2373 COVID-19 Vaccine",real,VAC1129,
-VAC0838,COVOVAX NOVAVAX,"Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, avec adjuvant (Matrix M). Autre nom : NOVAVAX NVX-CoV2373 COVID-19 Vaccine",real,VAC1129,
+VAC0837,COVOVAX SII,"Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, avec adjuvant (Matrix M). Autre nom : NOVAVAX NVX-CoV2373 COVID-19 Vaccine",real,VAC1129,
+VAC0838,COVOVAX NOVAVAX,"Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, avec adjuvant (Matrix M). Autre nom : NOVAVAX NVX-CoV2373 COVID-19 Vaccine",real,VAC1129,
 VAC0839,"Vaccin Brucellose entier inactivé, sans précision",Vaccin entier inactivé contre la brucellose,abstract,,Bruc-I
 VAC0840,ADDIGRIP,"Vaccin contre la grippe saisonnière inactivé trivalent, à antigène de surface",real,VAC0925,
 VAC0841,"INFLUVAC 0,25 mL","Vaccin contre la grippe saisonnière inactivé trivalent, à antigène de surface, dose pédiatrique",real,VAC0925,
@@ -826,7 +826,7 @@ VAC0896,"Vaccin Fièvre Q, sans précision",Vaccin inactivé contre la fièvre Q
 VAC0897,"Vaccin Hantavirus, sans précision","Vaccin entier inactivé contre les fièvres hémorragiques avec syndrome rénal (FHSR) causées par un hantavirus, sans précision",abstract,,HAN
 VAC0898,"Vaccin Leishmaniose, sans précision",Vaccin contre la leishmaniose,abstract,,Leish
 VAC0899,"Vaccin Virus Parainfluenza humains, sans précision",Vaccin contre les virus Parainfluenza humains,abstract,,VPIH
-VAC0900,PREVENAR 20 (previously APEXXNAR),"Vaccin pneumococcique polyosidique conjugué, 20-valent, adsorbé, sérotypes 1, 3, 4, 5, 6A, 6B, 7F, 8, 9V, 10A, 11A, 12F, 14, 15B, 18C, 19A, 19F, 22F, 23F et 33F - Nouveau nom depuis le 12/03/2024 (auparavant : APEXXNAR)",real,VAC1163,
+VAC0900,PREVENAR 20 (previously APEXXNAR),"Vaccin pneumococcique polyosidique conjugué, 20-valent, adsorbé, sérotypes 1, 3, 4, 5, 6A, 6B, 7F, 8, 9V, 10A, 11A, 12F, 14, 15B, 18C, 19A, 19F, 22F, 23F et 33F - Nouveau nom depuis le 12/03/2024 (auparavant : APEXXNAR)",real,VAC1163,
 VAC0901,MENCEVAX ACW,"Vaccin polyosidique non conjugué contre les méningocoques des sérogroupes A, C et W",real,VAC1109,
 VAC0902,"Vaccin Rage type Semple, sans précision","Vaccin rabique entier inactivé, préparé sur tissu cérébral de chèvre ou de mouton infecté par le virus de la rage, inactivé par du phénol ou de la ß-propiolactone, contient de la myéline",abstract,,Rab-I-Semple
 VAC0903,"Vaccin Rage type Fuenzalida, sans précision","Vaccin rabique entier inactivé, préparé sur tissu cérébral de souriceau à la mamelle infecté par le virus de la rage, teneur réduite en myéline",abstract,,Rab-I-Fuenzalida
@@ -851,9 +851,9 @@ VAC0921,"Vaccin Encéphalite Japonaise, sans précision",Vaccin contre l'encéph
 VAC0922,"Vaccin Adénovirus, type 4 et type 7, vivant atténué, voie orale, sans précision",Vaccin contre les adénovirus de type 7 et 4,abstract,,Adeno-7|Adeno-4
 VAC0923,"Anticorps monoclonal VRS, sans précision",Anticorps monoclonal contre le virus respiratoire syncytial (VRS),abstract,,VRS-mAb
 VAC0924,FLUZONE INTRADERMAL,"Vaccin contre la grippe saisonnière inactivé trivalent, haute dose, intradermal",real,VAC1249,
-VAC0925,"Vaccin Grippe trivalent inactivé, sans précision","Vaccin contre la grippe saisonnière trivalent inactivé, fractionné ou sous-unité, dose normale",abstract,,Inf-SUnd3
+VAC0925,"Vaccin Grippe trivalent inactivé, sans précision","Vaccin contre la grippe saisonnière trivalent inactivé, fractionné ou sous-unité, dose normale",abstract,,Inf-ESUnd3
 VAC0926,FLUCELVAX,"Vaccin contre la grippe saisonnière inactivé trivalent, produit sur culture cellulaire",real,VAC1175,
-VAC0927,"Vaccin Covid 19 à ARNm, dose pédiatrique, sans précision","Vaccin anti-covid 19 à ARNm, dose pédiatrique",abstract,, Covid-ARNm-S-ORI-10
+VAC0927,"Vaccin Covid 19 à ARNm, dose pédiatrique, sans précision","Vaccin anti-covid 19 à ARNm, dose pédiatrique",abstract,,Covid-ARNm-S-ORI-10
 VAC0928,"Vaccin Hépatite A vivant atténué, sans précision",Vaccin vivant atténué contre l'hépatite A,abstract,,HepA-VVA
 VAC0929,"Vaccin Grippe quadrivalent inactivé, dose pédiatrique, sans précision","Vaccin contre la grippe saisonnière inactivé, quadrivalent, dose pédiatrique",abstract,,Inf-SUped4
 VAC0930,Ad5-nCoV COVID-19 INHALATION VACCINE,"Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus de type 5, pour inhalation",real,VAC1135,
@@ -864,7 +864,7 @@ VAC0934,VACCIN OREILLONS AVENTIS PASTEUR MSD,Vaccin vivant atténué contre les 
 VAC0935,VACCIN RABIQUE INACTIVE MERIEUX,"Vaccin rabique entier inactivé, souche WISTAR PM/WI 38-1503-3M, cultivé sur cellules Vero, inactivé par la bêta-propiolactone",real,VAC1116,
 VAC0936,VACCIN PNEUMOCOCCIQUE POLYOSIDIQUE AVENTIS PASTEUR MSD,"Vaccin pneumococcique polyosidique non conjugué, 23-valent, sérotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F et 33F",real,VAC0339,
 VAC0937,"Vaccin Botulisme, sans précision",Vaccin contre le botulisme,abstract,,BT
-VAC0938,"Vaccin Grippe quadrivalent, sans précision","Vaccin contre la grippe saisonnière inactivé quadrivalent, à virion fractionné ou à antigène de surface",abstract,,Inf-SUnd4
+VAC0938,"Vaccin Grippe quadrivalent, sans précision","Vaccin contre la grippe saisonnière inactivé quadrivalent, à virion fractionné ou à antigène de surface",abstract,,Inf-ESUnd4
 VAC0939,PREHEVBRIO,"Vaccin recombinant contre l'hépatite B, trois antigènes (HbS, pré-S1 et pré-S2)",real,VAC1145,
 VAC0940,SPUTNIK-LIGHT,"Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus codant la protéine de pointe du SARS-CoV-2",real,VAC1195,
 VAC0941,"Immunoglobuline Charbon, sans précision",Immunoglobuline contre le charbon,abstract,,Charbon-Ig
@@ -951,9 +951,9 @@ VAC1021,COMIRNATY ORIGINAL/OMICRON BA.1 (15/15 µg) BIONTECH-PFIZER,"Vaccin à A
 VAC1022,COMIRNATY 3 µg INFANTS AND CHILDREN BIONTECH-PFIZER,"Vaccin à ARNm contre la covid 19, usage pédiatrique (6 mois à 4 ans), 3 microgrammes",real,VAC1188,
 VAC1023,COMIRNATY ORIGINAL/OMICRON BA.4-5 (15/15 µg) BIONTECH-PFIZER,"Vaccin à ARNm bivalent contre la covid 19, virus originel + variant Omicron BA.4/5, 15 microgrammes chacun",real,VAC1169,
 VAC1024,SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.4-5 (50 µg/50 µg)/mL MODERNA,"Vaccin à ARNm bivalent contre la covid 19, virus originel + variant Omicron BA.4/5, 50 microgrammes chacun",real,VAC1430,
-VAC1025,CORBEVAX,Vaccin protéique sous-unitaire contre la covid 19 ; autre nom : BECOV2A,real,VAC1113,
+VAC1025,CORBEVAX,Vaccin protéique sous-unitaire contre la covid 19 ; autre nom : BECOV2A,real,VAC1113,
 VAC1026,SOBERANA 02 FINLAY-FR-2 COVID-19 VACCINE,Vaccin sous-unitaire à protéine recombinante (domaine RBD conjugué à l'anatoxine tétanique + adjuvant),real,VAC1138,
-VAC1027,COVIVAC CHUMAKOV COVID-19 VACCINE,Vaccin entier inactivé contre la covid 19 ; autre nom : Kovivac,real,VAC1044,
+VAC1027,COVIVAC CHUMAKOV COVID-19 VACCINE,Vaccin entier inactivé contre la covid 19 ; autre nom : Kovivac,real,VAC1044,
 VAC1028,RECOMBIVAX HB DIALYSIS,"Vaccin recombinant contre l'hépatite B, dose pour patient dialysé",real,VAC0916,
 VAC1029,QUINTANRIX,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier intactivé), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique) et de l'hépatite B (recombinant)",real,VAC1181,
 VAC1030,GEMCOVAC-19,"Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, en cours d'essai clinique",real,VAC1166,
@@ -1056,7 +1056,7 @@ VAC1126,"Vaccin pentavalent DTCeHibP - Diphtérie-Tétanos-Coqueluche-Hib PRP-Po
 VAC1127,"Immunoglobuline Hépatite A, Rougeole, Varicelle et Rubéole, sans précision","Immunoglobuline contre l'hépatite A, rougeole, varicelle et rubéole, sans précision",abstract,,VZV-VVA|Rub-VVA|Roug|HepA
 VAC1128,"Vaccin Covid 19 à ADN plasmidique, sans précision","Vaccin anti-covid 19 à ADN plasmidique, sans précision",abstract,,Covid-ADN-S
 VAC1129,"Vaccin Covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, sans précision","Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, sans précision",abstract,,Covid-SP-rSnp
-VAC1130,"Vaccin Grippe saisonnière trivalent inactivé et anatoxine tétanique, sans précision","Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté et tétanique (anatoxine)",abstract,,Inf-SUnd3|T
+VAC1130,"Vaccin Grippe saisonnière trivalent inactivé et anatoxine tétanique, sans précision","Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté et tétanique (anatoxine)",abstract,,Inf-ESUnd3|T
 VAC1131,"Vaccin Pneumocoque non conjugué 17-valent, sans précision","Vaccin pneumococcique polyosidique non conjugué, 17-valent, sérotypes 1, 2, 3, 4, 6A, 7F, 8, 9N, 11A, 12F, 14, 15F, 17F, 18C, 19F, 23F et 25",abstract,,VPP-01|VPP-02|VPP-03|VPP-04|VPP-07F|VPP-08|VPP-09N|VPP-11A|VPP-12F|VPP-14|VPP-15F|VPP-17F|VPP-18C|VPP-19F|VPP-23F|VPP-06A|VPP-25
 VAC1132,"Vaccin Covid 19 bivalent à ARNm contre le virus originel et le variant Omicron BA.4/5, 1,5 microgrammes, sans précision","Vaccin bivalent anti-covid 19 à ARNm contre le virus originel et le variant Omicron BA.4/5, 1,5 microgrammes, sans précision",abstract,,"Covid-ARNm-S-OMI-BA.4/5-1,5|Covid-ARNm-S-ORI-1,5"
 VAC1133,"Vaccin Méningocoque ACWY polyosidique conjugué, sans précision","Vaccin méningococcique polyosidique conjugué quadrivalent contre les sérogroupes A, C, W et Y (conjugué à la protéine CRM 197)",abstract,,MCV-C-CRM|MCV-A-CRM|MCV-W-CRM|MCV-Y-CRM
@@ -1072,7 +1072,7 @@ VAC1142,"Vaccin Covid 19 à vecteur viral non replicatif avec cellules présenta
 VAC1143,"Vaccin Covid 19 à vecteur viral non réplicatif, adénovirus codant la protéine de pointe du SARS-CoV-2, sans précision","Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus codant la protéine de pointe du SARS-CoV-2, sans précision",abstract,,Covid-VVnr-S-Ad
 VAC1144,"Vaccin Covid 19 à sous-unité protéique, protéine de pointe du SARS-CoV-2 recombinante, S-2P et CpG1018, sans précision","Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe du SARS-CoV-2 recombinante, S-2P et CpG1018, sans précision",abstract,,Covid-SP-CpG1018
 VAC1145,"Vaccin Hépatite B recombinant, trois antigènes, sans précision","Vaccin recombinant contre l'hépatite B, trois antigènes (HbS, pré-S1 et pré-S2)",abstract,,HBs-r-3Ag
-VAC1146,"Vaccin Grippe quadrivalent, inactivé, haute dose, sans précision","Vaccin quadrivalent inactivé contre l’influenza, fractionné ou sous-unité, haute dose",abstract,,Inf-SUhd4
+VAC1146,"Vaccin Grippe quadrivalent, inactivé, haute dose, sans précision","Vaccin quadrivalent inactivé contre l’influenza, fractionné ou sous-unité, haute dose",abstract,,Inf-ESUhd4
 VAC1147,"Anticorps monoclonal humain VRS, nirsevimab, sans précision","Anticorps monoclonal humain contre le virus respiratoire syncytial (VRS), nirsevimab, sans précision",abstract,,VRS-mAb-nir
 VAC1148,"Vaccin Haemophilus influenzae type b, polyosidique non conjugué, sans précision","Haemophilus influenzae type b vaccine, unconjugated polysaccharide, unspecified",abstract,,Hib-PS
 VAC1149,"Vaccin Choléra vivant atténué oral, sans précision","Vaccin cholérique vivant atténué oral, sans précision",abstract,,O-Chol-V
@@ -1097,7 +1097,7 @@ VAC1167,"Vaccin Coqueluche acellulaire, dose standard, sans précision","Vaccin 
 VAC1168,"Vaccin quadrivalent DTCeHib- Diphtérie-Tétanos-Coqueluche-Hib OC, sans précision","Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé) et anti-Haemophilus influenzae type b (conjugué à l'anatoxine diphtérique)",abstract,,Ce|T|D|HbOC
 VAC1169,"Vaccin Covid 19 bivalent à ARNm contre le virus originel et le variant Omicron BA.4/5, 15 microgrammes, sans précision","Vaccin bivalent anti-covid 19 à ARNm contre le virus originel et le variant Omicron BA.4/5, 15 microgrammes, sans précision",abstract,,Covid-ARNm-S-ORI-15|Covid-ARNm-S-OMI-BA.4/5-15
 VAC1170,"Vaccin Covid 19 à vecteur viral non réplicatif, adénovirus de chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2, sans précision","Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus de chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2",abstract,,Covid-VVnr-S-ChAdOx1
-VAC1171,"Vaccin Grippe trivalent, inactivé, haute dose, sans précision","Vaccin trivalent inactivé contre la grippe, fractionné ou sous-unité, haute dose",abstract,,Inf-SUhd3
+VAC1171,"Vaccin Grippe trivalent, inactivé, haute dose, sans précision","Vaccin trivalent inactivé contre la grippe, fractionné ou sous-unité, haute dose",abstract,,Inf-ESUhd3
 VAC1172,"Anatoxine Diphtérie, dose réduite, sans précision","Vaccin diphtérique (anatoxine, dose réduite)",abstract,,d
 VAC1173,"Vaccin Covid 19 à vecteur viral réplicatif, virus influenza codant la protéine de pointe du SARS-CoV-2, sans précision","Vaccin anti-covid 19 à vecteur viral réplicatif, virus influenza codant la protéine de pointe du SARS-CoV-2, sans précision",abstract,,Covid-VVr-S-Influ
 VAC1174,"Vaccin pentavalent DTCaPHepB - Diphtérie-Tétanos-Coqueluche-Polio-Hépatite B 10µg, sans précision","Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard), poliomyélitique (entier inactivé, trivalent) et de l’hépatite B (recombinant)",abstract,,Ca|VPI|T|D|rAgHBs-10
@@ -1123,7 +1123,7 @@ VAC1193,"Vaccin Encéphalite japonaise, vivant recombinant atténué, sans préc
 VAC1194,"Vaccin Tétanos, Typhoïde et Paratyphoïde A et B, sans précision","Vaccin tétanique (anatoxine), typhoïdique (entier inactivé) et paratyphoïdique A et B (entier inactivé)",abstract,,pTy-I|T|Ty-I
 VAC1195,"Vaccin Covid 19 à vecteur viral non réplicatif, adénovirus 26 codant la protéine de pointe du SARS-CoV-2, en essai clinique, sans précision","Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus 26 codant la protéine de pointe du SARS-CoV-2, en essai clinique, sans précision",abstract,,Covid-VVnr-S-Ad26-CT
 VAC1196,"Vaccin Encéphalite japonaise, entier inactivé préparé sur tissu cérébral murin, sans précision","Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur tissu cérébral murin, souche Nakayama, voie injectable",abstract,,EJ-I-cm
-VAC1197,"Vaccin Covid 19 à adénovirus de chimpanzé et à ARNm auto-amplifiant, sans précision","Vaccin anti-covid 19 à adénovirus de chimpanzé et à ARNm auto-amplifiant : 1. A vecteur viral non réplicatif, adénovirus de chimpanzé, sérotype 68 (ChAdV68), codant la protéine de pointe du SARS-CoV-2 (ChAdV68-S) et/ou la protéine de pointe plus des épitopes supplémentaires du SARS-CoV-2 reconnus par les cellules T (ChAdV68-S-TCE) et 2. A ARNm auto-amplifiant (SAM) dans des nanoparticules lipidiques (SAM-LNP) codant la protéine de pointe du SARS-CoV-2 (SAM-S) et/ou la protéine de pointe plus des épitopes supplémentaires du SARS-CoV-2 reconnus par les cellules T (SAM-S-TCE), vecteur SAM basé sur le virus de l'encéphalite équine du Venezuela (VEEV)",abstract,,Covid-VVnr-S-Ad|Covid-ARNm-AAA
+VAC1197,"Vaccin Covid 19 à adénovirus de chimpanzé et à ARNm auto-amplifiant, sans précision","Vaccin anti-covid 19 à adénovirus de chimpanzé et à ARNm auto-amplifiant : 1. A vecteur viral non réplicatif, adénovirus de chimpanzé, sérotype 68 (ChAdV68), codant la protéine de pointe du SARS-CoV-2 (ChAdV68-S) et/ou la protéine de pointe plus des épitopes supplémentaires du SARS-CoV-2 reconnus par les cellules T (ChAdV68-S-TCE) et 2. A ARNm auto-amplifiant (SAM) dans des nanoparticules lipidiques (SAM-LNP) codant la protéine de pointe du SARS-CoV-2 (SAM-S) et/ou la protéine de pointe plus des épitopes supplémentaires du SARS-CoV-2 reconnus par les cellules T (SAM-S-TCE), vecteur SAM basé sur le virus de l'encéphalite équine du Venezuela (VEEV)",abstract,,Covid-VVnr-S-Ad|Covid-ARNm-AAA
 VAC1198,"Vaccin Chinkungunya, vivant atténué, sans précision",Vaccin vivant atténué contre le chikungunya,abstract,,CHIK-LA
 VAC1199,"Vaccin Ebola à vecteur viral réplicatif de la stomatite vésiculaire recombinant (rVSV) - glycoprotéine GP d'EBOV, sans précision","Ebola, recombinant vesicular stomatitis replicative viral vector vaccine (rVSV) - EBOV GP glycoprotein, unspecified",abstract,,rVSVdG-ZEBOV-GP
 VAC1200,"Vaccin Grippe quadrivalent, sur culture cellulaire, sans précision","Influenza quadrivalent vaccine, inactivated cell culture, split or subunit, normal dose",abstract,,Inf-CC4
@@ -1164,7 +1164,7 @@ VAC1234,"Vaccin Pneumocoque non conjugué 15-valent, sans précision","Pneumococ
 VAC1235,"Vaccin Rotavirus monovalent RIX4414, sans précision","Rotavirus RIX4414 monovalent vaccine, unspecified",abstract,,Rota-mv-RIX4414
 VAC1236,"Vaccin Covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, sous-variant Omicron XBB.1.5, sans précision","Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, sous-variant Omicron XBB.1.5",abstract,,Covid-SP-rSnp-XBB
 VAC1237,"Vaccin Paludisme pré-érythrocytaire, sans précision",Malaria vaccine pre-erythrocytic R21/Matrix-M,abstract,,R21/Matrix-M
-VAC1238,"Vaccin Hépatite B et Paludisme, sans précision","Hepatitis B and malaria (sporozoite surface protein) vaccine, unspecified",abstract,,Palu-SPO|rAgHBs-10
+VAC1238,"Vaccin contre l'hépatite B et le paludisme (protéine de surface du sporozoïte), sans précision","Hepatitis B and malaria (sporozoite surface protein) vaccine, unspecified",abstract,,Palu-SPO|rAgHBs-10
 VAC1239,"Vaccin Pneumocoque conjugué 15-valent, sans précision","Pneumococcal 15-valent polysaccharide conjugate vaccine, adsorbed, serotypes 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F and 33F",abstract,,VPC-01|VPC-03|VPC-04|VPC-05|VPC-06A|VPC-06B|VPC-07F|VPC-09V|VPC-14|VPC-18C|VPC-19A|VPC-19F|VPC-22F|VPC-23F|VPC-33F
 VAC1240,"Vaccin Méningocoque B à 4 composants, sans précision","Meningococcal B vaccine, 4-component, unspecified",abstract,,4CMenB
 VAC1241,"Vaccin Zona, glycoprotéine E (gE) de surface du virus varicelle-zona (VZV), sans précision","Shingles vaccine, varicella-zoster virus (VZV) surface glycoprotein E (gE), unspecified",abstract,,Zona-gE
@@ -1175,7 +1175,7 @@ VAC1245,"Vaccin Méningocoque ABCWY, sans précision","Meningococcal vaccine aga
 VAC1246,MCOMBRIAX,"Vaccin combiné Grippe/Covid 19 à ARNm, en essai clinique",real,VAC1248,
 VAC1247,"Vaccin Hépatite A, sans précision","Hepatitis A vaccine, unspecified",abstract,,HepA
 VAC1248,"Vaccin Grippe/Covid 19, à ARNm, sans précision","Vaccin combiné contre la grippe et la Covid 19, à ARNm, sans précision",abstract,,Covid-ARN|INF-ARN
-VAC1249,"Vaccin Grippe, inactivé trivalent, haute dose, voie intradermique, sans précision","Influenza vaccine, trivalent inactivated, split or subunit, intradermal route, unspecified",abstract,,Inf-SUid3
+VAC1249,"Vaccin Grippe, inactivé trivalent, haute dose, voie intradermique, sans précision","Influenza vaccine, trivalent inactivated, split or subunit, intradermal route, unspecified",abstract,,Inf-ESUid3
 VAC1250,EUVICHOL-S,"Cholera vaccine, oral, containing formalin-inactivated whole V. cholerae O1 bacteria",real,VAC1537,
 VAC1251,EUVICHOL-PLUS,"Vaccin cholérique, oral, bivalent constitué de cellules entières tuées de Vibrio cholerae O1 (classique et El Tor) et O139",real,VAC1257,
 VAC1252,JE-CV,"Vaccin vivant atténué contre l'encéphalite japonaise, recombinant chimérique",real,VAC1193,
@@ -1307,7 +1307,7 @@ VAC1377,VAXIFLU-4,"Influenza quadrivalent inactivated vaccine, split or subunit,
 VAC1378,VACTYPH,Vaccin typhoïdique polyosidique non conjugué (antigène capsulaire Vi),real,VAC0713,
 VAC1379,ZYVAC MMR,"Vaccin vivant atténué contre la rougeole, les oreillons et la rubéole",real,VAC0130,
 VAC1380,ZYVAC TCV,"Vaccin typhoïdique, antigène Vi conjugué à l'anatoxine tétanique",real,VAC0711,
-VAC1381,MEASLES AND RUBELLA VACCINE ZYDUS,Vaccin vivant atténué contre la rougeole et la rubéole,real,VAC0623,
+VAC1381,MEASLES AND RUBELLA VACCINE ZYDUS,Vaccin vivant atténué contre la rougeole et la rubéole,real,VAC0550,
 VAC1382,SKYTYPHOID,"Vaccin conjugué contre la typhoïde, antigène capsulaire polyosidique Vi lié à une protéine porteuse (toxine diphtérique)",real,VAC1542,
 VAC1383,CYVAC,"Malaria vaccine sporozoite surface protein, unspecified",real,VAC1543,
 VAC1384,BARYCELA,Vaccin vivant atténué contre la varicelle,real,VAC0159,
@@ -1363,9 +1363,9 @@ VAC1433,"Vaccin peste, sans précision","Plague vaccine, unspecified",abstract,,
 VAC1434,"Vaccin méningocoque A, sans précision","Meningococcal A vaccine, unspecified",abstract,,MenA
 VAC1435,"Vaccin rage, inactivé, entier, préparé sur culture cellulaire, sans précision","Vaccin rage, inactivé, entier, préparé sur culture cellulaire, sans précision",abstract,,Rab-I-CC
 VAC1436,"Vaccin rage, inactivé, entier, préparé sur tissu cérébral animal infecté par le virus de la rage, sans précision","Rabies vaccine, inactivated, whole virion, prepared from animal brain tissue infected with rabies virus, unspecified",abstract,,Rab-I-TissuNerveux
-VAC1437,"Vaccin méningocoque, monovalent, polyosidique conjugué","Meningococcal vaccine, monovalent, conjugate",deprecated,VAC0945,
+VAC1437,"Meningococcal vaccine, monovalent, conjugate","Vaccin méningocoque, monovalent, polyosidique conjugué",deprecated,VAC0945,
 VAC1438,"Vaccin grippe, trivalent, inactivé, fractionné ou sous-unité, adjuvant","Influenza vaccine, trivalent, inactivated, fractionated or subunit, adjuvanted",abstract,,Inf-SUAnd3
-VAC1439,"Vaccin méningocoque, polyvalent, polyosidique conjugué","Meningococcal vaccine, polyvalent, conjugate polysaccharide",deprecated,VAC0945,
+VAC1439,"Meningococcal vaccine, polyvalent, conjugate polysaccharide","Vaccin méningocoque, polyvalent, polyosidique conjugué",deprecated,VAC0945,
 VAC1440,"Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, adjuvant, dose normale","Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, adjuvant, dose normale",abstract,,Inf-SUAnd4
 VAC1441,"Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, voie intradermique, sans précision","Influenza vaccine, quadrivalent, inactivated, split or subunit, intradermal route, unspecified",abstract,,Inf-SUid4
 VAC1442,"Vaccin grippe, quadrivalent, virosomale, sans précision","Influenza vaccine, quadrivalent, virosomal, unspecified",abstract,,Inf-V4
@@ -1469,18 +1469,18 @@ VAC1539,"Vaccin méningococcique à large spectre contre les sérogroupes A, B, 
 VAC1540,"Vaccin contre la typhoïde et le tétanos, suspension injectable","Typhoid and tetanus vaccine, injectable suspension",abstract,,Ty|T
 VAC1541,"Vaccin contre la grippe saisonnière inactivé quadrivalent de la grippe, fractionnée ou sous-unité, sans précision","Influenza quadrivalent inactivated vaccine, split or subunit, unspecified",abstract,,Inf-SU4
 VAC1542,Vaccin conjugué contre la typhoïde et l'anatoxine diphtérique,"Typhoid conjugate to diphtheria toxoid vaccine, unspecified",abstract,,Ty-ViC-D
-VAC1543,Vaccin contre le paludisme,"Malaria vaccine sporozoite surface protein, unspecified",abstract,,Palu-SPO
-VAC1544,"Dengue vaccine, live-attenuated, recombinant chimeric, quadrivalent against the four serotypes (DEN-1, DEN-2, DEN-3 and DEN-4)","Dengue vaccine, live-attenuated, recombinant chimeric, quadrivalent against the four serotypes (DEN-1, DEN-2, DEN-3 and DEN-4)",abstract,,DENV2-VVA|DENV1rCH|DENV3rCH|DENV4rCH
-VAC1545,"COVID-19 vaccine, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms","COVID-19 vaccine, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms",abstract,,Covid-ARNm-S-OMI-LP.8.1-25
-VAC1546,"COVID-19 vaccine, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms.","COVID-19 vaccine, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms.",abstract,,Covid-ARNm-S-OMI-LP.8.1-50
-VAC1547,"Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole cell), Haemophilus influenzae type b (conjugated to tetanus toxoid), inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed","Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole cell), Haemophilus influenzae type b (conjugated to tetanus toxoid), inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed",abstract,,Ce|VPI|T|D|rAgHBs-10|PRP-T
-VAC1548,"Influenza vaccine, RNA-based, trivalent, unspecified","Influenza vaccine, RNA-based, trivalent, unspecified",abstract,,Inf-RNA3
-VAC1549,"Diphtheria vaccine (toxoid, standard dose) and pertussis (whole-cell inactivated), paediatric","Diphtheria vaccine (toxoid, standard dose) and pertussis (whole-cell inactivated), paediatric",abstract,,Ce|T
-VAC1550,"Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain, 0,25 mL","Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain, 0,25 mL",abstract,,TBE-K23-25
-VAC1551,"Pneumococcal unconjugated polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F","Pneumococcal unconjugated polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F",abstract,,VPP-01|VPP-02|VPP-03|VPP-04|VPP-05|VPP-06B|VPP-07F|VPP-08|VPP-09N|VPP-12F|VPP-14|VPP-18C|VPP-19F|VPP-06A
-VAC1552,"Diphtheria vaccine (anatoxin, standard dose), tetanus vaccine (anatoxin) and hepatitis B vaccine","Diphtheria vaccine (anatoxin, standard dose), tetanus vaccine (anatoxin) and hepatitis B vaccine",abstract,,T|rAgHBs|D
-VAC1553,"Urinary tract infections vaccine, Escherichia coli, Klebsiella pneumoniæ, Enterococcus fæcalis, Morganella morganii, Proteus mirabilis","Urinary tract infections vaccine, Escherichia coli, Klebsiella pneumoniæ, Enterococcus fæcalis, Morganella morganii, Proteus mirabilis",abstract,,Eco|Kpn|Efa|Mmo|Pmi
-VAC1554,VAXRABEO,"Whole inactivated rabies vaccine, prepared in Vero cell culture (PVRV), Wistar strain, inactivation by ß-propiolactone",real,VAC1116,
-VAC1555,"Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified","Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified",abstract,,HNSCC-HPVneg
+VAC1543,"Vaccin contre le paludisme protéine de surface du sporozoïte, sans précision","Malaria vaccine sporozoite surface protein, unspecified",abstract,,Palu-SPO
+VAC1544,"Vaccin vivant atténué, chimérique recombinant, quadrivalent contre les quatre sérotypes (DEN-1, DEN-2, DEN-3 et DEN-4) du virus de la dengue","Dengue vaccine, live-attenuated, recombinant chimeric, quadrivalent against the four serotypes (DEN-1, DEN-2, DEN-3 and DEN-4)",abstract,,DENV2-VVA|DENV1rCH|DENV3rCH|DENV4rCH
+VAC1545,"Vaccin covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes","COVID-19 vaccine, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 25 micrograms",abstract,,Covid-ARNm-S-OMI-LP.8.1-25
+VAC1546,"Vaccin covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes","COVID-19 vaccine, Omicron variant LP.8.1, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms.",abstract,,Covid-ARNm-S-OMI-LP.8.1-50
+VAC1547,"Vaccin diphtérie (dose standard), tétanique (anatoxine), coquelucheux (entier inactivé), Haemophilus influenzae type b (conjugué à l'anatoxine tétanique), poliomyélitique (entier inactivé, trivalent) et de l’hépatite B (recombinant), adsorbé, pédiatrique","Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole cell), Haemophilus influenzae type b (conjugated to tetanus toxoid), inactivated polio (trivalent) and hepatitis B (recombinant) pediatric vaccine, adsorbed",abstract,,Ce|VPI|T|D|rAgHBs-10|PRP-T
+VAC1548,"Vaccin grippe, ARN, trivalent, sans précision","Influenza vaccine, RNA-based, trivalent, unspecified",abstract,,Inf-ARN3
+VAC1549,"Vaccin pédiatrique diphtérique (anatoxine, dose standard) et coquelucheux (entier inactivé)","Diphtheria vaccine (toxoid, standard dose) and pertussis (whole-cell inactivated), paediatric",abstract,,Ce|T
+VAC1550,"Vaccin entier inactivé contre l'encéphalite à tiques, souche K23, 0,25 mL","Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain, 0,25 mL",abstract,,TBE-K23-25
+VAC1551,"Vaccin pneumococcique polyosidique non conjugué, 23-valent, sérotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F et 33F","Pneumococcal unconjugated polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F",abstract,,VPP-01|VPP-02|VPP-03|VPP-04|VPP-05|VPP-06B|VPP-07F|VPP-08|VPP-09N|VPP-12F|VPP-14|VPP-18C|VPP-19F|VPP-06A
+VAC1552,"Vaccin diphtérique (anatoxine, dose standard), tétanique (anatoxine) et hépatite B","Diphtheria vaccine (anatoxin, standard dose), tetanus vaccine (anatoxin) and hepatitis B vaccine",abstract,,T|rAgHBs|D
+VAC1553,"Vaccin contre Escherichia coli, Klebsiella pneumoniæ, Enterococcus fæcalis, Morganella morganii, Proteus mirabilis","Urinary tract infections vaccine, Escherichia coli, Klebsiella pneumoniæ, Enterococcus fæcalis, Morganella morganii, Proteus mirabilis",abstract,,Eco|Kpn|Efa|Mmo|Pmi
+VAC1554,VAXRABEO,"Vaccin rabique entier inactivé, préparé sur culture de cellules Vero (PVRV), souche Wistar, inactivation par la ß-propiolactone",real,VAC1116,
+VAC1555,"Vaccin cancers épidermoïdes de la tête et du cou non liés au papillomavirus, non précisé","Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified",abstract,,HNSCC-VPHneg
 VAC1556,TG4050,"Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified",real,VAC1555,
-VAC1557,"Influenza vaccine, trivalent, inactivated, split or subunit, unspecified","Influenza vaccine, trivalent, inactivated, split or subunit, unspecified",abstract,,Inf-SU3
+VAC1557,"Vaccin grippe, trivalent, inactivé, fractionné ou sous-unité, sans précision","Influenza vaccine, trivalent, inactivated, split or subunit, unspecified",abstract,,Inf-ESU3
