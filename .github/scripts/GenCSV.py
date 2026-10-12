@@ -57,19 +57,17 @@ for lang in Langs:
             if data['type'] == 'abstract':
                 for idval in data['valences']:
                     if (idval != 'VAL000'):
-                        valnotations.append(getTerm(f'{idval}S',lang,Valences[idval]['shorthand']))
+                        valnotations.append(Valences[idval]['shorthand'])
 
             writer.writerow({'NUVA':code,'label': label,'comment': comment,'type':data['type'],
-                             'instanceOf': data.get('instanceOf',""), 'valences': '|'.join(valnotations)})
+                             'instanceOf': data.get('instanceOf',""), 'valences': ' '.join(valnotations)})
 
     with open(f'Exports/CSV/nuva_valences_{lang}.csv','w',encoding='utf-8-sig',newline ='') as csvfile:
         writer = csv.DictWriter(csvfile,fieldnames=['NUVA','label','comment','shorthand', 'parent'],delimiter=',')
         writer.writeheader()
         for code,data in Valences.items():
             label = getTerm(f'{code}L',lang,data['label'])
-            shorthand = getTerm (f'{code}S',lang,data['shorthand'])
-            writer.writerow({'NUVA':code,'label':label,'shorthand': shorthand,'parent': data['parent']})
-
+            writer.writerow({'NUVA':code,'label':label,'shorthand': data['shorthand'],'parent': data['parent']})
 
 print("Done")
 

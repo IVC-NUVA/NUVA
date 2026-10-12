@@ -64,7 +64,6 @@ for code,data in Valences.items():
         'label': data['label'],
         'vtype': data['vtype'],
         'parent': data['parent']}
-    Terms['en']['valence'][code+'S'] = data['shorthand']
     Terms['en']['valence'][code+'L'] = data['label']
 
 jsonData['version'] = version
