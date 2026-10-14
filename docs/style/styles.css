@@ -66,6 +66,12 @@ body {
   width: calc(100% - 250px);
 }
 
+.content .title {
+	font-size:32px; 
+	font-weight: bold; 
+	margin-right:20px
+}
+
 .content li span:hover {
   background-color: #E0E0E0;
 }
