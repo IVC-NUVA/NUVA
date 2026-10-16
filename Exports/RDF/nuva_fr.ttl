@@ -1,5 +1,4 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <http://ivci.org/NUVA/VAC0001> rdfs:comment "Vaccin conjugué anti-Hemophilus influenzae de type b composé du PRP (polyribosylribitol phosphate) conjugué à l'anatoxine tétanique"@fr .
 
@@ -3152,1353 +3151,903 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAC1557> rdfs:label "Vaccin grippe, trivalent, inactivé, fractionné ou sous-unité, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL001> rdfs:label "Valence grippe, trivalente, vivante atténuée, dose normale"@fr ;
-    skos:altLabel "Inf-L3"@fr .
+<http://ivci.org/NUVA/VAL001> rdfs:label "Valence grippe, trivalente, vivante atténuée, dose normale"@fr .
 
-<http://ivci.org/NUVA/VAL002> rdfs:label "Valence typhoïde, conjuguée, antigène capsulaire polyosidique Vi lié à une protéine porteuse"@fr ;
-    skos:altLabel "Ty-ViC"@fr .
+<http://ivci.org/NUVA/VAL002> rdfs:label "Valence typhoïde, conjuguée, antigène capsulaire polyosidique Vi lié à une protéine porteuse"@fr .
 
-<http://ivci.org/NUVA/VAL003> rdfs:label "Valence coqueluche, sans précision"@fr ;
-    skos:altLabel "Coq"@fr .
+<http://ivci.org/NUVA/VAL003> rdfs:label "Valence coqueluche, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL004> rdfs:label "Valence choléra, inactivée, entière, injectable"@fr ;
-    skos:altLabel "I-Chol-I"@fr .
+<http://ivci.org/NUVA/VAL004> rdfs:label "Valence choléra, inactivée, entière, injectable"@fr .
 
-<http://ivci.org/NUVA/VAL005> rdfs:label "Valence rougeole, vivante atténuée"@fr ;
-    skos:altLabel "Roug-VVA"@fr .
+<http://ivci.org/NUVA/VAL005> rdfs:label "Valence rougeole, vivante atténuée"@fr .
 
-<http://ivci.org/NUVA/VAL006> rdfs:label "Valence brucellose, sans précision"@fr ;
-    skos:altLabel "Bruc"@fr .
+<http://ivci.org/NUVA/VAL006> rdfs:label "Valence brucellose, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL007> rdfs:label "Valence Ebola, vecteur réplicatif virus de la stomatite vésiculaire recombinant (rVSV) - glycoprotéine GP d'EBOV"@fr ;
-    skos:altLabel "rVSVdG-ZEBOV-GP"@fr .
+<http://ivci.org/NUVA/VAL007> rdfs:label "Valence Ebola, vecteur réplicatif virus de la stomatite vésiculaire recombinant (rVSV) - glycoprotéine GP d'EBOV"@fr .
 
-<http://ivci.org/NUVA/VAL008> rdfs:label "Valence coqueluche, acellulaire, dose standard"@fr ;
-    skos:altLabel "Ca"@fr .
+<http://ivci.org/NUVA/VAL008> rdfs:label "Valence coqueluche, acellulaire, dose standard"@fr .
 
-<http://ivci.org/NUVA/VAL009> rdfs:label "Valence paludisme, protéine de surface du sporozoïte"@fr ;
-    skos:altLabel "Palu-SPO"@fr .
+<http://ivci.org/NUVA/VAL009> rdfs:label "Valence paludisme, protéine de surface du sporozoïte"@fr .
 
-<http://ivci.org/NUVA/VAL010> rdfs:label "Valence coqueluche, inactivée, entière"@fr ;
-    skos:altLabel "Ce"@fr .
+<http://ivci.org/NUVA/VAL010> rdfs:label "Valence coqueluche, inactivée, entière"@fr .
 
-<http://ivci.org/NUVA/VAL011> rdfs:label "Valence covid 19, sous-unité protéique, protéine de pointe recombinante (domaine RBD)"@fr ;
-    skos:altLabel "Covid-SP-rRBD"@fr .
+<http://ivci.org/NUVA/VAL011> rdfs:label "Valence covid 19, sous-unité protéique, protéine de pointe recombinante (domaine RBD)"@fr .
 
-<http://ivci.org/NUVA/VAL012> rdfs:label "Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), 40 microgrammes (dose pour patient dialysé)"@fr ;
-    skos:altLabel "rAgHBs-40"@fr .
+<http://ivci.org/NUVA/VAL012> rdfs:label "Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), 40 microgrammes (dose pour patient dialysé)"@fr .
 
-<http://ivci.org/NUVA/VAL013> rdfs:label "Valence zona, glycoprotéine E (gE) de surface du virus varicelle-zona (VZV)"@fr ;
-    skos:altLabel "Zona-gE"@fr .
+<http://ivci.org/NUVA/VAL013> rdfs:label "Valence zona, glycoprotéine E (gE) de surface du virus varicelle-zona (VZV)"@fr .
 
-<http://ivci.org/NUVA/VAL014> rdfs:label "Valence typhoïde, sans précision"@fr ;
-    skos:altLabel "Ty"@fr .
+<http://ivci.org/NUVA/VAL014> rdfs:label "Valence typhoïde, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL015> rdfs:label "Valence grippe, trivalent, non vivant, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant, dose normale"@fr ;
-    skos:altLabel "Inf-ESUnd3"@fr .
+<http://ivci.org/NUVA/VAL015> rdfs:label "Valence grippe, trivalent, non vivant, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant, dose normale"@fr .
 
-<http://ivci.org/NUVA/VAL016> rdfs:label "Valence rage, immunoglobuline, sans précision"@fr ;
-    skos:altLabel "RIG"@fr .
+<http://ivci.org/NUVA/VAL016> rdfs:label "Valence rage, immunoglobuline, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL017> rdfs:label "Valence coqueluche, acellulaire, dose réduite"@fr ;
-    skos:altLabel "ca"@fr .
+<http://ivci.org/NUVA/VAL017> rdfs:label "Valence coqueluche, acellulaire, dose réduite"@fr .
 
-<http://ivci.org/NUVA/VAL018> rdfs:label "Valence variole, troisième génération, virus de la vaccine à réplication minimale"@fr ;
-    skos:altLabel "POX-3G-LC16"@fr .
+<http://ivci.org/NUVA/VAL018> rdfs:label "Valence variole, troisième génération, virus de la vaccine à réplication minimale"@fr .
 
-<http://ivci.org/NUVA/VAL019> rdfs:label "Valence diphtérique, antitoxine"@fr ;
-    skos:altLabel "DATx"@fr .
+<http://ivci.org/NUVA/VAL019> rdfs:label "Valence diphtérique, antitoxine"@fr .
 
-<http://ivci.org/NUVA/VAL020> rdfs:label "Valence zona, vivant atténué"@fr ;
-    skos:altLabel "Zona-V"@fr .
+<http://ivci.org/NUVA/VAL020> rdfs:label "Valence zona, vivant atténué"@fr .
 
-<http://ivci.org/NUVA/VAL021> rdfs:label "Valence choléra, inactivée, entière, orale"@fr ;
-    skos:altLabel "O-Chol-I"@fr .
+<http://ivci.org/NUVA/VAL021> rdfs:label "Valence choléra, inactivée, entière, orale"@fr .
 
-<http://ivci.org/NUVA/VAL022> rdfs:label "Valence variole, vivant atténué, sans précision"@fr ;
-    skos:altLabel "POX-V"@fr .
+<http://ivci.org/NUVA/VAL022> rdfs:label "Valence variole, vivant atténué, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL023> rdfs:label "Valence grippe, trivalente, non vivant, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intradermique, sans précision"@fr ;
-    skos:altLabel "Inf-ESUid3"@fr .
+<http://ivci.org/NUVA/VAL023> rdfs:label "Valence grippe, trivalente, non vivant, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intradermique, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL024> rdfs:label "Valence grippe, trivalente, non vivant, obtenu sur culture d'œufs, fractionné ou sous-unité, sans précision"@fr ;
-    skos:altLabel "Inf-ESU3"@fr .
+<http://ivci.org/NUVA/VAL024> rdfs:label "Valence grippe, trivalente, non vivant, obtenu sur culture d'œufs, fractionné ou sous-unité, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL025> rdfs:label "Valence paludisme, sans précision"@fr ;
-    skos:altLabel "Palu"@fr .
+<http://ivci.org/NUVA/VAL025> rdfs:label "Valence paludisme, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL026> rdfs:label "Valence méningocoque B, protéines de vésicules de membrane externe"@fr ;
-    skos:altLabel "MenB-OMP"@fr .
+<http://ivci.org/NUVA/VAL026> rdfs:label "Valence méningocoque B, protéines de vésicules de membrane externe"@fr .
 
-<http://ivci.org/NUVA/VAL027> rdfs:label "Valence covid 19, vecteur viral non réplicatif, adénovirus 26 codant la protéine de pointe du SARS-CoV-2"@fr ;
-    skos:altLabel "Covid-VVnr-S-Ad26"@fr .
+<http://ivci.org/NUVA/VAL027> rdfs:label "Valence covid 19, vecteur viral non réplicatif, adénovirus 26 codant la protéine de pointe du SARS-CoV-2"@fr .
 
-<http://ivci.org/NUVA/VAL028> rdfs:label "Valence variole, troisième génération, vivant atténué"@fr ;
-    skos:altLabel "POX-3G"@fr .
+<http://ivci.org/NUVA/VAL028> rdfs:label "Valence variole, troisième génération, vivant atténué"@fr .
 
-<http://ivci.org/NUVA/VAL029> rdfs:label "Valence grippe, VLP, sans précision"@fr ;
-    skos:altLabel "Inf-VLP"@fr .
+<http://ivci.org/NUVA/VAL029> rdfs:label "Valence grippe, VLP, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL030> rdfs:label "Valence Borrelia burgdorferi, recombinante, protéine de surface externe A (OspA)"@fr ;
-    skos:altLabel "Lyme-OspA"@fr .
+<http://ivci.org/NUVA/VAL030> rdfs:label "Valence Borrelia burgdorferi, recombinante, protéine de surface externe A (OspA)"@fr .
 
-<http://ivci.org/NUVA/VAL031> rdfs:label "Valence encéphalite à tiques, sans précision"@fr ;
-    skos:altLabel "TBE"@fr .
+<http://ivci.org/NUVA/VAL031> rdfs:label "Valence encéphalite à tiques, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL032> rdfs:label "Valence typhoïde, non conjuguée, antigène capsulaire polyosidique Vi"@fr ;
-    skos:altLabel "Ty-ViPS"@fr .
+<http://ivci.org/NUVA/VAL032> rdfs:label "Valence typhoïde, non conjuguée, antigène capsulaire polyosidique Vi"@fr .
 
-<http://ivci.org/NUVA/VAL033> rdfs:label "Valence poliomyélite, vivante atténuée, orale, monovalente type 2"@fr ;
-    skos:altLabel "mVPO2"@fr .
+<http://ivci.org/NUVA/VAL033> rdfs:label "Valence poliomyélite, vivante atténuée, orale, monovalente type 2"@fr .
 
-<http://ivci.org/NUVA/VAL034> rdfs:label "Valence diphtérique, anatoxine, dose réduite"@fr ;
-    skos:altLabel "d"@fr .
+<http://ivci.org/NUVA/VAL034> rdfs:label "Valence diphtérique, anatoxine, dose réduite"@fr .
 
-<http://ivci.org/NUVA/VAL035> rdfs:label "Valence covid 19, ADN plasmidique codant la protéine de pointe du SARS-CoV-2"@fr ;
-    skos:altLabel "Covid-ADN-S"@fr .
+<http://ivci.org/NUVA/VAL035> rdfs:label "Valence covid 19, ADN plasmidique codant la protéine de pointe du SARS-CoV-2"@fr .
 
-<http://ivci.org/NUVA/VAL036> rdfs:label "Valence papillomavirus, VLP, nonavalent, types 6, 11, 16, 18, 31, 33, 45, 52 et 58"@fr ;
-    skos:altLabel "VPH-09-valent"@fr .
+<http://ivci.org/NUVA/VAL036> rdfs:label "Valence papillomavirus, VLP, nonavalent, types 6, 11, 16, 18, 31, 33, 45, 52 et 58"@fr .
 
-<http://ivci.org/NUVA/VAL037> rdfs:label "Valence méningocoque A, polyoside non conjugué"@fr ;
-    skos:altLabel "MPV-A"@fr .
+<http://ivci.org/NUVA/VAL037> rdfs:label "Valence méningocoque A, polyoside non conjugué"@fr .
 
-<http://ivci.org/NUVA/VAL038> rdfs:label "Valence covid 19, vecteur viral réplicatif, virus de la rougeole codant la protéine de pointe du SARS-CoV-2"@fr ;
-    skos:altLabel "Covid-VVr-S-Roug"@fr .
+<http://ivci.org/NUVA/VAL038> rdfs:label "Valence covid 19, vecteur viral réplicatif, virus de la rougeole codant la protéine de pointe du SARS-CoV-2"@fr .
 
-<http://ivci.org/NUVA/VAL039> rdfs:label "Valence covid 19, VLP, protéine de pointe recombinante"@fr ;
-    skos:altLabel "Covid-VLP-rS"@fr .
+<http://ivci.org/NUVA/VAL039> rdfs:label "Valence covid 19, VLP, protéine de pointe recombinante"@fr .
 
-<http://ivci.org/NUVA/VAL040> rdfs:label "Valence grippe, quadrivalente, non vivant, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant, dose normale"@fr ;
-    skos:altLabel "Inf-ESUnd4"@fr .
+<http://ivci.org/NUVA/VAL040> rdfs:label "Valence grippe, quadrivalente, non vivant, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant, dose normale"@fr .
 
-<http://ivci.org/NUVA/VAL041> rdfs:label "Valence méningocoque A, polyoside conjugué"@fr ;
-    skos:altLabel "MCV-A"@fr .
+<http://ivci.org/NUVA/VAL041> rdfs:label "Valence méningocoque A, polyoside conjugué"@fr .
 
-<http://ivci.org/NUVA/VAL042> rdfs:label "Valence poliomyélite, sans précision"@fr ;
-    skos:altLabel "POLIO"@fr .
+<http://ivci.org/NUVA/VAL042> rdfs:label "Valence poliomyélite, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL043> rdfs:label "Valence covid 19, ARNm codant la protéine de pointe du SARS-CoV-2, autorisé"@fr ;
-    skos:altLabel "Covid-ARNm-S"@fr .
+<http://ivci.org/NUVA/VAL043> rdfs:label "Valence covid 19, ARNm codant la protéine de pointe du SARS-CoV-2, autorisé"@fr .
 
-<http://ivci.org/NUVA/VAL044> rdfs:label "Valence varicelle, sans précision"@fr ;
-    skos:altLabel "VZV-VVA"@fr .
+<http://ivci.org/NUVA/VAL044> rdfs:label "Valence varicelle, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL045> rdfs:label "Valence paratyphoïde, inactivée, entière"@fr ;
-    skos:altLabel "pTy-I"@fr .
+<http://ivci.org/NUVA/VAL045> rdfs:label "Valence paratyphoïde, inactivée, entière"@fr .
 
-<http://ivci.org/NUVA/VAL046> rdfs:label "Valence Typhus"@fr ;
-    skos:altLabel "Typhus"@fr .
+<http://ivci.org/NUVA/VAL046> rdfs:label "Valence Typhus"@fr .
 
-<http://ivci.org/NUVA/VAL047> rdfs:label "Valence hépatite B, immunoglobuline"@fr ;
-    skos:altLabel "IgHepB"@fr .
+<http://ivci.org/NUVA/VAL047> rdfs:label "Valence hépatite B, immunoglobuline"@fr .
 
-<http://ivci.org/NUVA/VAL048> rdfs:label "Valence oreillons, inactivée, entière"@fr ;
-    skos:altLabel "Or-I"@fr .
+<http://ivci.org/NUVA/VAL048> rdfs:label "Valence oreillons, inactivée, entière"@fr .
 
-<http://ivci.org/NUVA/VAL049> rdfs:label "Valence Haemophilus influenzae type b, polyoside non conjuguée"@fr ;
-    skos:altLabel "Hib-PS"@fr .
+<http://ivci.org/NUVA/VAL049> rdfs:label "Valence Haemophilus influenzae type b, polyoside non conjuguée"@fr .
 
-<http://ivci.org/NUVA/VAL050> rdfs:label "Valence covid 19, vecteur viral non réplicatif, adénovirus 5 codant la protéine de pointe du SARS-CoV-2, sans précision"@fr ;
-    skos:altLabel "Covid-VVnr-S-Ad5"@fr .
+<http://ivci.org/NUVA/VAL050> rdfs:label "Valence covid 19, vecteur viral non réplicatif, adénovirus 5 codant la protéine de pointe du SARS-CoV-2, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL051> rdfs:label "Valence grippe aviaire, A(H5N1)"@fr ;
-    skos:altLabel "AH5N1"@fr .
+<http://ivci.org/NUVA/VAL051> rdfs:label "Valence grippe aviaire, A(H5N1)"@fr .
 
-<http://ivci.org/NUVA/VAL052> rdfs:label "Valence papillomavirus, VLP, quadrivalente, types 6, 11, 16 et 18"@fr ;
-    skos:altLabel "VPH-04-valent"@fr .
+<http://ivci.org/NUVA/VAL052> rdfs:label "Valence papillomavirus, VLP, quadrivalente, types 6, 11, 16 et 18"@fr .
 
-<http://ivci.org/NUVA/VAL053> rdfs:label "Valence covid 19, sous-unité protéique, sans précision"@fr ;
-    skos:altLabel "Covid-SP"@fr .
+<http://ivci.org/NUVA/VAL053> rdfs:label "Valence covid 19, sous-unité protéique, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL054> rdfs:label "Valence covid 19, vecteur non réplicatif, vaccine Ankara modifiée codant la protéine de pointe du SARS-CoV-2"@fr ;
-    skos:altLabel "Covid-VVnr-S-MVA"@fr .
+<http://ivci.org/NUVA/VAL054> rdfs:label "Valence covid 19, vecteur non réplicatif, vaccine Ankara modifiée codant la protéine de pointe du SARS-CoV-2"@fr .
 
-<http://ivci.org/NUVA/VAL055> rdfs:label "Valence rougeole, immunoglobuline"@fr ;
-    skos:altLabel "Ig-Rougeole"@fr .
+<http://ivci.org/NUVA/VAL055> rdfs:label "Valence rougeole, immunoglobuline"@fr .
 
-<http://ivci.org/NUVA/VAL056> rdfs:label "Valence poliomyélite, trivalente, inactivée, entière, injectable"@fr ;
-    skos:altLabel "VPI"@fr .
+<http://ivci.org/NUVA/VAL056> rdfs:label "Valence poliomyélite, trivalente, inactivée, entière, injectable"@fr .
 
-<http://ivci.org/NUVA/VAL057> rdfs:label "Valence méningocoque C, polyoside conjugué"@fr ;
-    skos:altLabel "MCV-C"@fr .
+<http://ivci.org/NUVA/VAL057> rdfs:label "Valence méningocoque C, polyoside conjugué"@fr .
 
-<http://ivci.org/NUVA/VAL058> rdfs:label "Valence grippe, non vivant, obtenu sur culture d'œufs, fractionnée ou sous-unité, sans précision"@fr ;
-    skos:altLabel "Inf-ESU"@fr .
+<http://ivci.org/NUVA/VAL058> rdfs:label "Valence grippe, non vivant, obtenu sur culture d'œufs, fractionnée ou sous-unité, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL059> rdfs:label "Valence grippe, quadrivalente, vivante atténuée, dose normale"@fr ;
-    skos:altLabel "Inf-L4"@fr .
+<http://ivci.org/NUVA/VAL059> rdfs:label "Valence grippe, quadrivalente, vivante atténuée, dose normale"@fr .
 
-<http://ivci.org/NUVA/VAL060> rdfs:label "Valence chikungunya, vivant atténué"@fr ;
-    skos:altLabel "CHIK-LA"@fr .
+<http://ivci.org/NUVA/VAL060> rdfs:label "Valence chikungunya, vivant atténué"@fr .
 
-<http://ivci.org/NUVA/VAL061> rdfs:label "Valence covid 19, sous-unité protéique, protéine de pointe du SARS-CoV-2 recombinante, S-2P et CpG1018"@fr ;
-    skos:altLabel "Covid-SP-CpG1018"@fr .
+<http://ivci.org/NUVA/VAL061> rdfs:label "Valence covid 19, sous-unité protéique, protéine de pointe du SARS-CoV-2 recombinante, S-2P et CpG1018"@fr .
 
-<http://ivci.org/NUVA/VAL062> rdfs:label "Valence choléra, sous-unité, recombinante de la toxine cholérique B (rCTB)"@fr ;
-    skos:altLabel "O-Chol-rTCB-I"@fr .
+<http://ivci.org/NUVA/VAL062> rdfs:label "Valence choléra, sous-unité, recombinante de la toxine cholérique B (rCTB)"@fr .
 
-<http://ivci.org/NUVA/VAL063> rdfs:label "Valence botulisme, antitoxine"@fr ;
-    skos:altLabel "BAT"@fr .
+<http://ivci.org/NUVA/VAL063> rdfs:label "Valence botulisme, antitoxine"@fr .
 
-<http://ivci.org/NUVA/VAL064> rdfs:label "Valence grippe, quadrivalente, non vivant, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant"@fr ;
-    skos:altLabel "Inf-ESUNA4"@fr .
+<http://ivci.org/NUVA/VAL064> rdfs:label "Valence grippe, quadrivalente, non vivant, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant"@fr .
 
-<http://ivci.org/NUVA/VAL065> rdfs:label "Valence dengue, vivante atténuée, tétravalente, chimérique recombinante"@fr ;
-    skos:altLabel "RC-TDV"@fr .
+<http://ivci.org/NUVA/VAL065> rdfs:label "Valence dengue, vivante atténuée, tétravalente, chimérique recombinante"@fr .
 
-<http://ivci.org/NUVA/VAL066> rdfs:label "Valence covid 19, vecteur viral réplicatif, virus influenza codant la protéine de pointe du SARS-CoV-2"@fr ;
-    skos:altLabel "Covid-VVr-S-Influ"@fr .
+<http://ivci.org/NUVA/VAL066> rdfs:label "Valence covid 19, vecteur viral réplicatif, virus influenza codant la protéine de pointe du SARS-CoV-2"@fr .
 
-<http://ivci.org/NUVA/VAL067> rdfs:label "Valence tétanos, anatoxine"@fr ;
-    skos:altLabel "T"@fr .
+<http://ivci.org/NUVA/VAL067> rdfs:label "Valence tétanos, anatoxine"@fr .
 
-<http://ivci.org/NUVA/VAL068> rdfs:label "Valence hépatite B, sans précision"@fr ;
-    skos:altLabel "HepB"@fr .
+<http://ivci.org/NUVA/VAL068> rdfs:label "Valence hépatite B, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL069> rdfs:label "Valence covid 19, vecteur viral non réplicatif, adénovirus de chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2"@fr ;
-    skos:altLabel "Covid-VVnr-S-ChAdOx1"@fr .
+<http://ivci.org/NUVA/VAL069> rdfs:label "Valence covid 19, vecteur viral non réplicatif, adénovirus de chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2"@fr .
 
-<http://ivci.org/NUVA/VAL070> rdfs:label "Valence covid 19, vecteur viral non réplicatif, adénovirus codant la protéine de pointe du SARS-CoV-2, sans précision"@fr ;
-    skos:altLabel "Covid-VVnr-S-Ad"@fr .
+<http://ivci.org/NUVA/VAL070> rdfs:label "Valence covid 19, vecteur viral non réplicatif, adénovirus codant la protéine de pointe du SARS-CoV-2, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL071> rdfs:label "Valence typhoïde, inactivée, entière"@fr ;
-    skos:altLabel "Ty-I"@fr .
+<http://ivci.org/NUVA/VAL071> rdfs:label "Valence typhoïde, inactivée, entière"@fr .
 
-<http://ivci.org/NUVA/VAL072> rdfs:label "Valence méningocoque B, contenant la fHbp des sous-familles A et B"@fr ;
-    skos:altLabel "MenB-fHbpAB"@fr .
+<http://ivci.org/NUVA/VAL072> rdfs:label "Valence méningocoque B, contenant la fHbp des sous-familles A et B"@fr .
 
-<http://ivci.org/NUVA/VAL073> rdfs:label "Valence covid 19, vecteur viral replicatif avec cellules présentant l'antigène"@fr ;
-    skos:altLabel "Covid-VVr+APC"@fr .
+<http://ivci.org/NUVA/VAL073> rdfs:label "Valence covid 19, vecteur viral replicatif avec cellules présentant l'antigène"@fr .
 
-<http://ivci.org/NUVA/VAL074> rdfs:label "Valence grippe, quadrivalente, non vivant, obtenu sur culture d'oeufs, fractionnée ou sous-unité, haute dose"@fr ;
-    skos:altLabel "Inf-ESUhd4"@fr .
+<http://ivci.org/NUVA/VAL074> rdfs:label "Valence grippe, quadrivalente, non vivant, obtenu sur culture d'oeufs, fractionnée ou sous-unité, haute dose"@fr .
 
-<http://ivci.org/NUVA/VAL075> rdfs:label "Valence Leptospira icterohaemorrhagiae, inactivée, entière"@fr ;
-    skos:altLabel "Lepto-eI"@fr .
+<http://ivci.org/NUVA/VAL075> rdfs:label "Valence Leptospira icterohaemorrhagiae, inactivée, entière"@fr .
 
-<http://ivci.org/NUVA/VAL076> rdfs:label "Valence covid 19, entier inactivé, sans précision"@fr ;
-    skos:altLabel "Covid-VI"@fr .
+<http://ivci.org/NUVA/VAL076> rdfs:label "Valence covid 19, entier inactivé, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL077> rdfs:label "Valence oreillons, vivant atténué"@fr ;
-    skos:altLabel "Or-VVA"@fr .
+<http://ivci.org/NUVA/VAL077> rdfs:label "Valence oreillons, vivant atténué"@fr .
 
-<http://ivci.org/NUVA/VAL078> rdfs:label "Valence méningocoque Y, polyoside conjugué"@fr ;
-    skos:altLabel "MCV-Y"@fr .
+<http://ivci.org/NUVA/VAL078> rdfs:label "Valence méningocoque Y, polyoside conjugué"@fr .
 
-<http://ivci.org/NUVA/VAL079> rdfs:label "Valence rubéole, vivante atténuée"@fr ;
-    skos:altLabel "Rub-VVA"@fr .
+<http://ivci.org/NUVA/VAL079> rdfs:label "Valence rubéole, vivante atténuée"@fr .
 
-<http://ivci.org/NUVA/VAL080> rdfs:label "Valence rage, inactivée, entière, sans précision"@fr ;
-    skos:altLabel "Rab-I"@fr .
+<http://ivci.org/NUVA/VAL080> rdfs:label "Valence rage, inactivée, entière, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL081> rdfs:label "Valence choléra, sans précision"@fr ;
-    skos:altLabel "Chol"@fr .
+<http://ivci.org/NUVA/VAL081> rdfs:label "Valence choléra, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL082> rdfs:label "Valence papillomavirus, types non précisés"@fr ;
-    skos:altLabel "VPH"@fr .
+<http://ivci.org/NUVA/VAL082> rdfs:label "Valence papillomavirus, types non précisés"@fr .
 
-<http://ivci.org/NUVA/VAL083> rdfs:label "Valence diphtérique, anatoxine, dose non précisée"@fr ;
-    skos:altLabel "D-d"@fr .
+<http://ivci.org/NUVA/VAL083> rdfs:label "Valence diphtérique, anatoxine, dose non précisée"@fr .
 
-<http://ivci.org/NUVA/VAL084> rdfs:label "Valence covid 19, vecteur viral réplicatif, virus de la stomatite vésiculaire codant la protéine de pointe du SARS-CoV-2"@fr ;
-    skos:altLabel "Covid-VVr-S-VSV"@fr .
+<http://ivci.org/NUVA/VAL084> rdfs:label "Valence covid 19, vecteur viral réplicatif, virus de la stomatite vésiculaire codant la protéine de pointe du SARS-CoV-2"@fr .
 
-<http://ivci.org/NUVA/VAL085> rdfs:label "Valence poliomyélite, vivante atténuée, orale, monovalente type 3"@fr ;
-    skos:altLabel "mVPO3"@fr .
+<http://ivci.org/NUVA/VAL085> rdfs:label "Valence poliomyélite, vivante atténuée, orale, monovalente type 3"@fr .
 
-<http://ivci.org/NUVA/VAL086> rdfs:label "Valence covid 19, vivant atténué, sans précision"@fr ;
-    skos:altLabel "Covid-VA"@fr .
+<http://ivci.org/NUVA/VAL086> rdfs:label "Valence covid 19, vivant atténué, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL087> rdfs:label "Valence dengue, vivante atténuée, tétravalente, chimérique recombinante basée sur le vaccin contre la fièvre jaune 17D"@fr ;
-    skos:altLabel "CYD-TDV"@fr .
+<http://ivci.org/NUVA/VAL087> rdfs:label "Valence dengue, vivante atténuée, tétravalente, chimérique recombinante basée sur le vaccin contre la fièvre jaune 17D"@fr .
 
-<http://ivci.org/NUVA/VAL088> rdfs:label "Valence varicelle, immunoglobuline"@fr ;
-    skos:altLabel "VZV-Ig"@fr .
+<http://ivci.org/NUVA/VAL088> rdfs:label "Valence varicelle, immunoglobuline"@fr .
 
-<http://ivci.org/NUVA/VAL089> rdfs:label "Valence encéphalite japonaise, inactivée, sans précision"@fr ;
-    skos:altLabel "EJ-I"@fr .
+<http://ivci.org/NUVA/VAL089> rdfs:label "Valence encéphalite japonaise, inactivée, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL090> rdfs:label "Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), sans précision"@fr ;
-    skos:altLabel "rAgHBs"@fr .
+<http://ivci.org/NUVA/VAL090> rdfs:label "Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL091> rdfs:label "Valence typhoïde, vivante atténuée, souche Ty21a, orale"@fr ;
-    skos:altLabel "Ty-VA"@fr .
+<http://ivci.org/NUVA/VAL091> rdfs:label "Valence typhoïde, vivante atténuée, souche Ty21a, orale"@fr .
 
-<http://ivci.org/NUVA/VAL092> rdfs:label "Valence fièvre jaune"@fr ;
-    skos:altLabel "YF"@fr .
+<http://ivci.org/NUVA/VAL092> rdfs:label "Valence fièvre jaune"@fr .
 
-<http://ivci.org/NUVA/VAL093> rdfs:label "Valence rougeole, inactivée, entière"@fr ;
-    skos:altLabel "Roug-I"@fr .
+<http://ivci.org/NUVA/VAL093> rdfs:label "Valence rougeole, inactivée, entière"@fr .
 
-<http://ivci.org/NUVA/VAL094> rdfs:label "Valence grippe, trivalent, non vivant, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant, haute dose"@fr ;
-    skos:altLabel "Inf-ESUhd3"@fr .
+<http://ivci.org/NUVA/VAL094> rdfs:label "Valence grippe, trivalent, non vivant, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant, haute dose"@fr .
 
-<http://ivci.org/NUVA/VAL095> rdfs:label "Valence covid 19, vecteur viral réplicatif, virus de la maladie de Newcastle codant la protéine de pointe du SARS-CoV-2"@fr ;
-    skos:altLabel "Covid-VVr-S-Nv"@fr .
+<http://ivci.org/NUVA/VAL095> rdfs:label "Valence covid 19, vecteur viral réplicatif, virus de la maladie de Newcastle codant la protéine de pointe du SARS-CoV-2"@fr .
 
-<http://ivci.org/NUVA/VAL096> rdfs:label "Valence BCG"@fr ;
-    skos:altLabel "BCG"@fr .
+<http://ivci.org/NUVA/VAL096> rdfs:label "Valence BCG"@fr .
 
-<http://ivci.org/NUVA/VAL097> rdfs:label "Valence diphtérique, anatoxine, dose standard"@fr ;
-    skos:altLabel "D"@fr .
+<http://ivci.org/NUVA/VAL097> rdfs:label "Valence diphtérique, anatoxine, dose standard"@fr .
 
-<http://ivci.org/NUVA/VAL098> rdfs:label "Valence méningocoque B, 4 composants"@fr ;
-    skos:altLabel "4CMenB"@fr .
+<http://ivci.org/NUVA/VAL098> rdfs:label "Valence méningocoque B, 4 composants"@fr .
 
-<http://ivci.org/NUVA/VAL099> rdfs:label "Valence grippe pandémique H1N1 2009, non vivant, obtenu sur culture d'oeufs, sans précision"@fr ;
-    skos:altLabel "Inf-Epdm09"@fr .
+<http://ivci.org/NUVA/VAL099> rdfs:label "Valence grippe pandémique H1N1 2009, non vivant, obtenu sur culture d'oeufs, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL100> rdfs:label "Valence encéphalite japonaise, vivant atténué, souche 14-14-2"@fr ;
-    skos:altLabel "EJ-VVA-14-14-2"@fr .
+<http://ivci.org/NUVA/VAL100> rdfs:label "Valence encéphalite japonaise, vivant atténué, souche 14-14-2"@fr .
 
-<http://ivci.org/NUVA/VAL101> rdfs:label "Valence covid 19, vecteur non réplicatif, virus de la maladie de Newcastle codant la protéine de pointe du SARS-CoV-2"@fr ;
-    skos:altLabel "Covid-VVnr-S-Nv"@fr .
+<http://ivci.org/NUVA/VAL101> rdfs:label "Valence covid 19, vecteur non réplicatif, virus de la maladie de Newcastle codant la protéine de pointe du SARS-CoV-2"@fr .
 
-<http://ivci.org/NUVA/VAL102> rdfs:label "Valence hépatite E, recombinante, peptidique"@fr ;
-    skos:altLabel "HepE"@fr .
+<http://ivci.org/NUVA/VAL102> rdfs:label "Valence hépatite E, recombinante, peptidique"@fr .
 
-<http://ivci.org/NUVA/VAL103> rdfs:label "Valence Haemophilus influenzae type b, conjuguée, sans précision"@fr ;
-    skos:altLabel "Hib-C"@fr .
+<http://ivci.org/NUVA/VAL103> rdfs:label "Valence Haemophilus influenzae type b, conjuguée, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL104> rdfs:label "Valence covid 19, sous-unité protéique, protéine de pointe recombinante"@fr ;
-    skos:altLabel "Covid-SP-rS"@fr .
+<http://ivci.org/NUVA/VAL104> rdfs:label "Valence covid 19, sous-unité protéique, protéine de pointe recombinante"@fr .
 
-<http://ivci.org/NUVA/VAL105> rdfs:label "Valence pneumocoque, sans précision"@fr ;
-    skos:altLabel "Pneumo"@fr .
+<http://ivci.org/NUVA/VAL105> rdfs:label "Valence pneumocoque, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL106> rdfs:label "Valence rotavirus, vivant atténué, sans précision"@fr ;
-    skos:altLabel "Rota"@fr .
+<http://ivci.org/NUVA/VAL106> rdfs:label "Valence rotavirus, vivant atténué, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL107> rdfs:label "Valence covid 19, sous-unité protéique, protéine de pointe recombinante dans des nanoparticules"@fr ;
-    skos:altLabel "Covid-SP-rSnp"@fr .
+<http://ivci.org/NUVA/VAL107> rdfs:label "Valence covid 19, sous-unité protéique, protéine de pointe recombinante dans des nanoparticules"@fr .
 
-<http://ivci.org/NUVA/VAL108> rdfs:label "Valence Ebola, vecteur viral vivant non réplicatif recombinant Ad26.ZEBOV"@fr ;
-    skos:altLabel "ZebovVRnrAd26"@fr .
+<http://ivci.org/NUVA/VAL108> rdfs:label "Valence Ebola, vecteur viral vivant non réplicatif recombinant Ad26.ZEBOV"@fr .
 
-<http://ivci.org/NUVA/VAL109> rdfs:label "Valence Ebola, vecteur viral non réplicatif, Vaccine Ankara modifiée"@fr ;
-    skos:altLabel "Ebola-MVA-BN-Filo"@fr .
+<http://ivci.org/NUVA/VAL109> rdfs:label "Valence Ebola, vecteur viral non réplicatif, Vaccine Ankara modifiée"@fr .
 
-<http://ivci.org/NUVA/VAL110> rdfs:label "Valence tétanos, immunoglobuline"@fr ;
-    skos:altLabel "T-Ig"@fr .
+<http://ivci.org/NUVA/VAL110> rdfs:label "Valence tétanos, immunoglobuline"@fr .
 
-<http://ivci.org/NUVA/VAL111> rdfs:label "Valence charbon, acellulaire"@fr ;
-    skos:altLabel "Bant"@fr .
+<http://ivci.org/NUVA/VAL111> rdfs:label "Valence charbon, acellulaire"@fr .
 
-<http://ivci.org/NUVA/VAL112> rdfs:label "Valence grippe, quadrivalente, inactivée, obtenue sur culture cellulaire, fractionnée ou sous-unité, dose normale"@fr ;
-    skos:altLabel "Inf-CC4"@fr .
+<http://ivci.org/NUVA/VAL112> rdfs:label "Valence grippe, quadrivalente, inactivée, obtenue sur culture cellulaire, fractionnée ou sous-unité, dose normale"@fr .
 
-<http://ivci.org/NUVA/VAL113> rdfs:label "Valence papillomavirus, VLP, bivalent, types 16 et 18"@fr ;
-    skos:altLabel "VPH-02-valent"@fr .
+<http://ivci.org/NUVA/VAL113> rdfs:label "Valence papillomavirus, VLP, bivalent, types 16 et 18"@fr .
 
-<http://ivci.org/NUVA/VAL114> rdfs:label "Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), 10 microgrammes"@fr ;
-    skos:altLabel "rAgHBs-10"@fr .
+<http://ivci.org/NUVA/VAL114> rdfs:label "Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), 10 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL115> rdfs:label "Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), 20 microgrammes"@fr ;
-    skos:altLabel "rAgHBs-20"@fr .
+<http://ivci.org/NUVA/VAL115> rdfs:label "Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), 20 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL116> rdfs:label "Valence VRS, anticorps monoclonal, palivizumab"@fr ;
-    skos:altLabel "VRS-mAb-pal"@fr .
+<http://ivci.org/NUVA/VAL116> rdfs:label "Valence VRS, anticorps monoclonal, palivizumab"@fr .
 
-<http://ivci.org/NUVA/VAL117> rdfs:label "Valence coqueluche, acellulaire, dose non précisée"@fr ;
-    skos:altLabel "Acel"@fr .
+<http://ivci.org/NUVA/VAL117> rdfs:label "Valence coqueluche, acellulaire, dose non précisée"@fr .
 
-<http://ivci.org/NUVA/VAL118> rdfs:label "Valence méningocoque B, sans précision"@fr ;
-    skos:altLabel "MenB"@fr .
+<http://ivci.org/NUVA/VAL118> rdfs:label "Valence méningocoque B, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL119> rdfs:label "Valence covid 19, variant Omicron XFG, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-XFG-50"@fr .
+<http://ivci.org/NUVA/VAL119> rdfs:label "Valence covid 19, variant Omicron XFG, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL120> rdfs:label "Valence méningocoque, polyvalent, polyoside non conjugué"@fr ;
-    skos:altLabel "MPV-poly"@fr .
+<http://ivci.org/NUVA/VAL120> rdfs:label "Valence méningocoque, polyvalent, polyoside non conjugué"@fr .
 
-<http://ivci.org/NUVA/VAL121> rdfs:label "Valence poliomyélite, trivalente, inactivée, entière, orale"@fr ;
-    skos:altLabel "VPI-0"@fr .
+<http://ivci.org/NUVA/VAL121> rdfs:label "Valence poliomyélite, trivalente, inactivée, entière, orale"@fr .
 
-<http://ivci.org/NUVA/VAL122> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant"@fr ;
-    skos:altLabel "Inf-SUNA3"@fr .
+<http://ivci.org/NUVA/VAL122> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant"@fr .
 
-<http://ivci.org/NUVA/VAL123> rdfs:label "Valence rotavirus, vivant atténué, pentavalent "@fr ;
-    skos:altLabel "Rota5-V"@fr .
+<http://ivci.org/NUVA/VAL123> rdfs:label "Valence rotavirus, vivant atténué, pentavalent "@fr .
 
-<http://ivci.org/NUVA/VAL124> rdfs:label "Valence choléra, vivante atténuée, sans précision"@fr ;
-    skos:altLabel "Chol-V"@fr .
+<http://ivci.org/NUVA/VAL124> rdfs:label "Valence choléra, vivante atténuée, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL125> rdfs:label "Valence hépatite A, inactivée, entière, sans précision"@fr ;
-    skos:altLabel "HepA-I"@fr .
+<http://ivci.org/NUVA/VAL125> rdfs:label "Valence hépatite A, inactivée, entière, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL126> rdfs:label "Valence Ebola, sans précision"@fr ;
-    skos:altLabel "Ebola"@fr .
+<http://ivci.org/NUVA/VAL126> rdfs:label "Valence Ebola, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL127> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée"@fr ;
-    skos:altLabel "Inf-SUimsc4"@fr .
+<http://ivci.org/NUVA/VAL127> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée"@fr .
 
-<http://ivci.org/NUVA/VAL128> rdfs:label "Valence grippe, sans précision"@fr ;
-    skos:altLabel "Inf"@fr .
+<http://ivci.org/NUVA/VAL128> rdfs:label "Valence grippe, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL129> rdfs:label "Valence herpes simplex, sans précision"@fr ;
-    skos:altLabel "HSV"@fr .
+<http://ivci.org/NUVA/VAL129> rdfs:label "Valence herpes simplex, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL130> rdfs:label "Valence hépatite A, virosome"@fr ;
-    skos:altLabel "HepA-VLP"@fr .
+<http://ivci.org/NUVA/VAL130> rdfs:label "Valence hépatite A, virosome"@fr .
 
-<http://ivci.org/NUVA/VAL131> rdfs:label "Valence peste, inactivée, entière"@fr ;
-    skos:altLabel "Yp-I"@fr .
+<http://ivci.org/NUVA/VAL131> rdfs:label "Valence peste, inactivée, entière"@fr .
 
-<http://ivci.org/NUVA/VAL132> rdfs:label "Valence poliomyélite, vivante atténuée, orale, monovalente type 1"@fr ;
-    skos:altLabel "mVPO1"@fr .
+<http://ivci.org/NUVA/VAL132> rdfs:label "Valence poliomyélite, vivante atténuée, orale, monovalente type 1"@fr .
 
-<http://ivci.org/NUVA/VAL133> rdfs:label "Valence poliomyélite, vivante atténuée, orale, monovalente, sans précision"@fr ;
-    skos:altLabel "mVPO"@fr .
+<http://ivci.org/NUVA/VAL133> rdfs:label "Valence poliomyélite, vivante atténuée, orale, monovalente, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL134> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intradermique, sans précision"@fr ;
-    skos:altLabel "Inf-SUid4"@fr .
+<http://ivci.org/NUVA/VAL134> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intradermique, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL135> rdfs:label "Valence covid 19, ARNm codant la protéine de pointe du SARS-CoV-2, en essai clinique "@fr ;
-    skos:altLabel "Covid-ARNm-S-CT"@fr .
+<http://ivci.org/NUVA/VAL135> rdfs:label "Valence covid 19, ARNm codant la protéine de pointe du SARS-CoV-2, en essai clinique "@fr .
 
-<http://ivci.org/NUVA/VAL136> rdfs:label "Valence méningocoque W, polyoside conjugué"@fr ;
-    skos:altLabel "MCV-W"@fr .
+<http://ivci.org/NUVA/VAL136> rdfs:label "Valence méningocoque W, polyoside conjugué"@fr .
 
-<http://ivci.org/NUVA/VAL137> rdfs:label "Valence méningocoque C, polyoside non conjugué"@fr ;
-    skos:altLabel "MPV-C"@fr .
+<http://ivci.org/NUVA/VAL137> rdfs:label "Valence méningocoque C, polyoside non conjugué"@fr .
 
-<http://ivci.org/NUVA/VAL138> rdfs:label "Valence méningocoque W, polyoside non conjugué"@fr ;
-    skos:altLabel "MPV-W"@fr .
+<http://ivci.org/NUVA/VAL138> rdfs:label "Valence méningocoque W, polyoside non conjugué"@fr .
 
-<http://ivci.org/NUVA/VAL139> rdfs:label "Valence méningocoque Y, polyoside non conjugué"@fr ;
-    skos:altLabel "MPV-Y"@fr .
+<http://ivci.org/NUVA/VAL139> rdfs:label "Valence méningocoque Y, polyoside non conjugué"@fr .
 
-<http://ivci.org/NUVA/VAL140> rdfs:label "Valence grippe, vivant atténué, sans précision"@fr ;
-    skos:altLabel "Inf-L"@fr .
+<http://ivci.org/NUVA/VAL140> rdfs:label "Valence grippe, vivant atténué, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL141> rdfs:label "Valence rotavirus, vivant atténué, monovalent RIX4414"@fr ;
-    skos:altLabel "Rota-mv-RIX4414"@fr .
+<http://ivci.org/NUVA/VAL141> rdfs:label "Valence rotavirus, vivant atténué, monovalent RIX4414"@fr .
 
-<http://ivci.org/NUVA/VAL142> rdfs:label "Valence hépatite A, inactivée, entière, monovalente, dose pédiatrique"@fr ;
-    skos:altLabel "HepA-mv-PED"@fr .
+<http://ivci.org/NUVA/VAL142> rdfs:label "Valence hépatite A, inactivée, entière, monovalente, dose pédiatrique"@fr .
 
-<http://ivci.org/NUVA/VAL143> rdfs:label "Valence hépatite A, inactivée, entière, bivalent (hépatites A et B), dose pédiatrique"@fr ;
-    skos:altLabel "HepA-bv-PED"@fr .
+<http://ivci.org/NUVA/VAL143> rdfs:label "Valence hépatite A, inactivée, entière, bivalent (hépatites A et B), dose pédiatrique"@fr .
 
-<http://ivci.org/NUVA/VAL144> rdfs:label "Valence hépatite A, inactivée, entière, monovalente, dose adulte"@fr ;
-    skos:altLabel "HepA-mv-ADU"@fr .
+<http://ivci.org/NUVA/VAL144> rdfs:label "Valence hépatite A, inactivée, entière, monovalente, dose adulte"@fr .
 
-<http://ivci.org/NUVA/VAL145> rdfs:label "Valence hépatite A, inactivée, entière, bivalent (hépatites A et B), dose adulte"@fr ;
-    skos:altLabel "HepA-bv-ADU"@fr .
+<http://ivci.org/NUVA/VAL145> rdfs:label "Valence hépatite A, inactivée, entière, bivalent (hépatites A et B), dose adulte"@fr .
 
-<http://ivci.org/NUVA/VAL146> rdfs:label "Valence brucellose, inactivée, entière"@fr ;
-    skos:altLabel "Bruc-I"@fr .
+<http://ivci.org/NUVA/VAL146> rdfs:label "Valence brucellose, inactivée, entière"@fr .
 
-<http://ivci.org/NUVA/VAL147> rdfs:label "Valence brucellose, antigène protéique P.I. (phénol-insoluble)"@fr ;
-    skos:altLabel "Bruc-PI"@fr .
+<http://ivci.org/NUVA/VAL147> rdfs:label "Valence brucellose, antigène protéique P.I. (phénol-insoluble)"@fr .
 
-<http://ivci.org/NUVA/VAL148> rdfs:label "Valence VRS, immunoglobuline"@fr ;
-    skos:altLabel "VRS-Ig"@fr .
+<http://ivci.org/NUVA/VAL148> rdfs:label "Valence VRS, immunoglobuline"@fr .
 
-<http://ivci.org/NUVA/VAL149> rdfs:label "Valence covid 19, variant omicron, ARNm codant la protéine de pointe du SARS-CoV-2"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI"@fr .
+<http://ivci.org/NUVA/VAL149> rdfs:label "Valence covid 19, variant omicron, ARNm codant la protéine de pointe du SARS-CoV-2"@fr .
 
-<http://ivci.org/NUVA/VAL150> rdfs:label "Valence dengue, sans précision"@fr ;
-    skos:altLabel "Den"@fr .
+<http://ivci.org/NUVA/VAL150> rdfs:label "Valence dengue, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL151> rdfs:label "Valence tularémie, sans précision"@fr ;
-    skos:altLabel "Tular"@fr .
+<http://ivci.org/NUVA/VAL151> rdfs:label "Valence tularémie, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL152> rdfs:label "Valence grippe, obtenu sur culture d'oeufs, inactivée, entière, sans précision"@fr ;
-    skos:altLabel "Inf-EI"@fr .
+<http://ivci.org/NUVA/VAL152> rdfs:label "Valence grippe, obtenu sur culture d'oeufs, inactivée, entière, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL153> rdfs:label "Valence Haemophilus influenzae type b, polyoside de PRP conjugué à l'anatoxine diphtérique"@fr ;
-    skos:altLabel "PRP-D"@fr .
+<http://ivci.org/NUVA/VAL153> rdfs:label "Valence Haemophilus influenzae type b, polyoside de PRP conjugué à l'anatoxine diphtérique"@fr .
 
-<http://ivci.org/NUVA/VAL154> rdfs:label "Valence Haemophilus influenzae type b, oligosides de PRP conjugués à la toxine diphtérique mutante CRM197"@fr ;
-    skos:altLabel "HbOC"@fr .
+<http://ivci.org/NUVA/VAL154> rdfs:label "Valence Haemophilus influenzae type b, oligosides de PRP conjugués à la toxine diphtérique mutante CRM197"@fr .
 
-<http://ivci.org/NUVA/VAL155> rdfs:label "Valence Haemophilus influenzae type b, polyoside de PRP conjugué à la protéine de membrane externe de Neisseria meningitidis sérogroupe B"@fr ;
-    skos:altLabel "PRP-OMP"@fr .
+<http://ivci.org/NUVA/VAL155> rdfs:label "Valence Haemophilus influenzae type b, polyoside de PRP conjugué à la protéine de membrane externe de Neisseria meningitidis sérogroupe B"@fr .
 
-<http://ivci.org/NUVA/VAL156> rdfs:label "Valence Haemophilus influenzae type b, polyoside de PRP conjugué à l’anatoxine tétanique"@fr ;
-    skos:altLabel "PRP-T"@fr .
+<http://ivci.org/NUVA/VAL156> rdfs:label "Valence Haemophilus influenzae type b, polyoside de PRP conjugué à l’anatoxine tétanique"@fr .
 
-<http://ivci.org/NUVA/VAL157> rdfs:label "Valence covid 19, sans précision"@fr ;
-    skos:altLabel "Covid"@fr .
+<http://ivci.org/NUVA/VAL157> rdfs:label "Valence covid 19, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL158> rdfs:label "Valence hépatite B, plasmatique"@fr ;
-    skos:altLabel "pAgHBs"@fr .
+<http://ivci.org/NUVA/VAL158> rdfs:label "Valence hépatite B, plasmatique"@fr .
 
-<http://ivci.org/NUVA/VAL159> rdfs:label "Valence zona, sous-unitaire "@fr ;
-    skos:altLabel "Zona-SU"@fr .
+<http://ivci.org/NUVA/VAL159> rdfs:label "Valence zona, sous-unitaire "@fr .
 
-<http://ivci.org/NUVA/VAL160> rdfs:label "Valence zona, sans précision"@fr ;
-    skos:altLabel "Zona"@fr .
+<http://ivci.org/NUVA/VAL160> rdfs:label "Valence zona, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL161> rdfs:label "Valence méningocoque B, multicomposée, sans précision"@fr ;
-    skos:altLabel "MenB-mc"@fr .
+<http://ivci.org/NUVA/VAL161> rdfs:label "Valence méningocoque B, multicomposée, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL162> rdfs:label "Valence covid 19, vecteur viral réplicatif, sans précision"@fr ;
-    skos:altLabel "Covid-VVr"@fr .
+<http://ivci.org/NUVA/VAL162> rdfs:label "Valence covid 19, vecteur viral réplicatif, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL163> rdfs:label "Valence covid 19, vecteur viral non replicatif, sans précision"@fr ;
-    skos:altLabel "Covid-VVnr"@fr .
+<http://ivci.org/NUVA/VAL163> rdfs:label "Valence covid 19, vecteur viral non replicatif, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL164> rdfs:label "Valence covid 19, non vivant, sans précision"@fr ;
-    skos:altLabel "Covid-non-vivant"@fr .
+<http://ivci.org/NUVA/VAL164> rdfs:label "Valence covid 19, non vivant, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL165> rdfs:label "Valence covid 19, vivant, sans précision"@fr ;
-    skos:altLabel "Covid-vivant"@fr .
+<http://ivci.org/NUVA/VAL165> rdfs:label "Valence covid 19, vivant, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL166> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, dose pédiatrique"@fr ;
-    skos:altLabel "Inf-SUped3"@fr .
+<http://ivci.org/NUVA/VAL166> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, dose pédiatrique"@fr .
 
-<http://ivci.org/NUVA/VAL167> rdfs:label "Valence covid 19, vecteur viral non replicatif avec cellules présentant l'antigène"@fr ;
-    skos:altLabel "Covid-VVnr+APC"@fr .
+<http://ivci.org/NUVA/VAL167> rdfs:label "Valence covid 19, vecteur viral non replicatif avec cellules présentant l'antigène"@fr .
 
-<http://ivci.org/NUVA/VAL168> rdfs:label "Valence covid 19, ARN, sans précision"@fr ;
-    skos:altLabel "Covid-ARN"@fr .
+<http://ivci.org/NUVA/VAL168> rdfs:label "Valence covid 19, ARN, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL169> rdfs:label "Valence covid 19, ARNm auto-amplifiant (AAA)"@fr ;
-    skos:altLabel "Covid-ARNm-AAA"@fr .
+<http://ivci.org/NUVA/VAL169> rdfs:label "Valence covid 19, ARNm auto-amplifiant (AAA)"@fr .
 
-<http://ivci.org/NUVA/VAL170> rdfs:label "Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), 5 microgrammes"@fr ;
-    skos:altLabel "rAgHBs-05"@fr .
+<http://ivci.org/NUVA/VAL170> rdfs:label "Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), 5 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL171> rdfs:label "Valence encéphalite équine vénézuélienne, sans précision"@fr ;
-    skos:altLabel "VEE"@fr .
+<http://ivci.org/NUVA/VAL171> rdfs:label "Valence encéphalite équine vénézuélienne, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL172> rdfs:label "Valence fièvre Q (Coxiella burnetii), sans précision"@fr ;
-    skos:altLabel "Cbur"@fr .
+<http://ivci.org/NUVA/VAL172> rdfs:label "Valence fièvre Q (Coxiella burnetii), sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL173> rdfs:label "Valence fièvre hémorragique d'Argentine, vivant atténué, virus Junin"@fr ;
-    skos:altLabel "Junin-VVA"@fr .
+<http://ivci.org/NUVA/VAL173> rdfs:label "Valence fièvre hémorragique d'Argentine, vivant atténué, virus Junin"@fr .
 
-<http://ivci.org/NUVA/VAL174> rdfs:label "Valence Hantavirus, sans précision"@fr ;
-    skos:altLabel "HAN"@fr .
+<http://ivci.org/NUVA/VAL174> rdfs:label "Valence Hantavirus, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL175> rdfs:label "Valence leishmaniose, sans précision"@fr ;
-    skos:altLabel "Leish"@fr .
+<http://ivci.org/NUVA/VAL175> rdfs:label "Valence leishmaniose, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL176> rdfs:label "Valence virus parainfluenza humains, sans précision"@fr ;
-    skos:altLabel "VPIH"@fr .
+<http://ivci.org/NUVA/VAL176> rdfs:label "Valence virus parainfluenza humains, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL177> rdfs:label "Valence Haemophilus influenzae type b, sans précision"@fr ;
-    skos:altLabel "Hib"@fr .
+<http://ivci.org/NUVA/VAL177> rdfs:label "Valence Haemophilus influenzae type b, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL178> rdfs:label "Valence covid 19, variant Omicron BA.1, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-BA.1-25"@fr .
+<http://ivci.org/NUVA/VAL178> rdfs:label "Valence covid 19, variant Omicron BA.1, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL179> rdfs:label "Valence covid 19, variant Omicron XFG, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-XFG-25"@fr .
+<http://ivci.org/NUVA/VAL179> rdfs:label "Valence covid 19, variant Omicron XFG, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL180> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 100 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-ORI-100"@fr .
+<http://ivci.org/NUVA/VAL180> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 100 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL181> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-ORI-25"@fr .
+<http://ivci.org/NUVA/VAL181> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL182> rdfs:label "Valence rougeole, sans précision"@fr ;
-    skos:altLabel "Roug"@fr .
+<http://ivci.org/NUVA/VAL182> rdfs:label "Valence rougeole, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL183> rdfs:label "Valence oreillons, sans précision"@fr ;
-    skos:altLabel "Oreillons"@fr .
+<http://ivci.org/NUVA/VAL183> rdfs:label "Valence oreillons, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL184> rdfs:label "Valence pneumocoque, polyosidique conjugué, sans précision"@fr ;
-    skos:altLabel "VPC"@fr .
+<http://ivci.org/NUVA/VAL184> rdfs:label "Valence pneumocoque, polyosidique conjugué, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL185> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sans précision"@fr ;
-    skos:altLabel "VPP"@fr .
+<http://ivci.org/NUVA/VAL185> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL186> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 1"@fr ;
-    skos:altLabel "VPC-01"@fr .
+<http://ivci.org/NUVA/VAL186> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 1"@fr .
 
-<http://ivci.org/NUVA/VAL187> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 3"@fr ;
-    skos:altLabel "VPC-03"@fr .
+<http://ivci.org/NUVA/VAL187> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 3"@fr .
 
-<http://ivci.org/NUVA/VAL188> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 4"@fr ;
-    skos:altLabel "VPC-04"@fr .
+<http://ivci.org/NUVA/VAL188> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 4"@fr .
 
-<http://ivci.org/NUVA/VAL189> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 5"@fr ;
-    skos:altLabel "VPC-05"@fr .
+<http://ivci.org/NUVA/VAL189> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 5"@fr .
 
-<http://ivci.org/NUVA/VAL190> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 6A"@fr ;
-    skos:altLabel "VPC-06A"@fr .
+<http://ivci.org/NUVA/VAL190> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 6A"@fr .
 
-<http://ivci.org/NUVA/VAL191> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 6B"@fr ;
-    skos:altLabel "VPC-06B"@fr .
+<http://ivci.org/NUVA/VAL191> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 6B"@fr .
 
-<http://ivci.org/NUVA/VAL192> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 7F"@fr ;
-    skos:altLabel "VPC-07F"@fr .
+<http://ivci.org/NUVA/VAL192> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 7F"@fr .
 
-<http://ivci.org/NUVA/VAL193> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 8"@fr ;
-    skos:altLabel "VPC-08"@fr .
+<http://ivci.org/NUVA/VAL193> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 8"@fr .
 
-<http://ivci.org/NUVA/VAL194> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 9V"@fr ;
-    skos:altLabel "VPC-09V"@fr .
+<http://ivci.org/NUVA/VAL194> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 9V"@fr .
 
-<http://ivci.org/NUVA/VAL195> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 10A"@fr ;
-    skos:altLabel "VPC-10A"@fr .
+<http://ivci.org/NUVA/VAL195> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 10A"@fr .
 
-<http://ivci.org/NUVA/VAL196> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 11A"@fr ;
-    skos:altLabel "VPC-11A"@fr .
+<http://ivci.org/NUVA/VAL196> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 11A"@fr .
 
-<http://ivci.org/NUVA/VAL197> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 12F"@fr ;
-    skos:altLabel "VPC-12F"@fr .
+<http://ivci.org/NUVA/VAL197> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 12F"@fr .
 
-<http://ivci.org/NUVA/VAL198> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 14"@fr ;
-    skos:altLabel "VPC-14"@fr .
+<http://ivci.org/NUVA/VAL198> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 14"@fr .
 
-<http://ivci.org/NUVA/VAL199> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 15B"@fr ;
-    skos:altLabel "VPC-15B"@fr .
+<http://ivci.org/NUVA/VAL199> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 15B"@fr .
 
-<http://ivci.org/NUVA/VAL200> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 18C"@fr ;
-    skos:altLabel "VPC-18C"@fr .
+<http://ivci.org/NUVA/VAL200> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 18C"@fr .
 
-<http://ivci.org/NUVA/VAL201> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 19A"@fr ;
-    skos:altLabel "VPC-19A"@fr .
+<http://ivci.org/NUVA/VAL201> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 19A"@fr .
 
-<http://ivci.org/NUVA/VAL202> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 19F"@fr ;
-    skos:altLabel "VPC-19F"@fr .
+<http://ivci.org/NUVA/VAL202> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 19F"@fr .
 
-<http://ivci.org/NUVA/VAL203> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 22F"@fr ;
-    skos:altLabel "VPC-22F"@fr .
+<http://ivci.org/NUVA/VAL203> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 22F"@fr .
 
-<http://ivci.org/NUVA/VAL204> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 23F"@fr ;
-    skos:altLabel "VPC-23F"@fr .
+<http://ivci.org/NUVA/VAL204> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 23F"@fr .
 
-<http://ivci.org/NUVA/VAL205> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 33F"@fr ;
-    skos:altLabel "VPC-33F"@fr .
+<http://ivci.org/NUVA/VAL205> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 33F"@fr .
 
-<http://ivci.org/NUVA/VAL206> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 1"@fr ;
-    skos:altLabel "VPP-01"@fr .
+<http://ivci.org/NUVA/VAL206> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 1"@fr .
 
-<http://ivci.org/NUVA/VAL207> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 2"@fr ;
-    skos:altLabel "VPP-02"@fr .
+<http://ivci.org/NUVA/VAL207> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 2"@fr .
 
-<http://ivci.org/NUVA/VAL208> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 3"@fr ;
-    skos:altLabel "VPP-03"@fr .
+<http://ivci.org/NUVA/VAL208> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 3"@fr .
 
-<http://ivci.org/NUVA/VAL209> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 4"@fr ;
-    skos:altLabel "VPP-04"@fr .
+<http://ivci.org/NUVA/VAL209> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 4"@fr .
 
-<http://ivci.org/NUVA/VAL210> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 5"@fr ;
-    skos:altLabel "VPP-05"@fr .
+<http://ivci.org/NUVA/VAL210> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 5"@fr .
 
-<http://ivci.org/NUVA/VAL211> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 6B"@fr ;
-    skos:altLabel "VPP-06B"@fr .
+<http://ivci.org/NUVA/VAL211> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 6B"@fr .
 
-<http://ivci.org/NUVA/VAL212> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 7F"@fr ;
-    skos:altLabel "VPP-07F"@fr .
+<http://ivci.org/NUVA/VAL212> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 7F"@fr .
 
-<http://ivci.org/NUVA/VAL213> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 8"@fr ;
-    skos:altLabel "VPP-08"@fr .
+<http://ivci.org/NUVA/VAL213> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 8"@fr .
 
-<http://ivci.org/NUVA/VAL214> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 9N"@fr ;
-    skos:altLabel "VPP-09N"@fr .
+<http://ivci.org/NUVA/VAL214> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 9N"@fr .
 
-<http://ivci.org/NUVA/VAL215> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 9V"@fr ;
-    skos:altLabel "VPP-09V"@fr .
+<http://ivci.org/NUVA/VAL215> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 9V"@fr .
 
-<http://ivci.org/NUVA/VAL216> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 10A"@fr ;
-    skos:altLabel "VPP-10A"@fr .
+<http://ivci.org/NUVA/VAL216> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 10A"@fr .
 
-<http://ivci.org/NUVA/VAL217> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 11A"@fr ;
-    skos:altLabel "VPP-11A"@fr .
+<http://ivci.org/NUVA/VAL217> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 11A"@fr .
 
-<http://ivci.org/NUVA/VAL218> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 12F"@fr ;
-    skos:altLabel "VPP-12F"@fr .
+<http://ivci.org/NUVA/VAL218> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 12F"@fr .
 
-<http://ivci.org/NUVA/VAL219> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 14"@fr ;
-    skos:altLabel "VPP-14"@fr .
+<http://ivci.org/NUVA/VAL219> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 14"@fr .
 
-<http://ivci.org/NUVA/VAL220> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 15B"@fr ;
-    skos:altLabel "VPP-15B"@fr .
+<http://ivci.org/NUVA/VAL220> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 15B"@fr .
 
-<http://ivci.org/NUVA/VAL221> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 15F"@fr ;
-    skos:altLabel "VPP-15F"@fr .
+<http://ivci.org/NUVA/VAL221> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 15F"@fr .
 
-<http://ivci.org/NUVA/VAL222> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 17F"@fr ;
-    skos:altLabel "VPP-17F"@fr .
+<http://ivci.org/NUVA/VAL222> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 17F"@fr .
 
-<http://ivci.org/NUVA/VAL223> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 18C"@fr ;
-    skos:altLabel "VPP-18C"@fr .
+<http://ivci.org/NUVA/VAL223> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 18C"@fr .
 
-<http://ivci.org/NUVA/VAL224> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 19A"@fr ;
-    skos:altLabel "VPP-19A"@fr .
+<http://ivci.org/NUVA/VAL224> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 19A"@fr .
 
-<http://ivci.org/NUVA/VAL225> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 19F"@fr ;
-    skos:altLabel "VPP-19F"@fr .
+<http://ivci.org/NUVA/VAL225> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 19F"@fr .
 
-<http://ivci.org/NUVA/VAL226> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 20"@fr ;
-    skos:altLabel "VPP-20"@fr .
+<http://ivci.org/NUVA/VAL226> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 20"@fr .
 
-<http://ivci.org/NUVA/VAL227> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 22F"@fr ;
-    skos:altLabel "VPP-22F"@fr .
+<http://ivci.org/NUVA/VAL227> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 22F"@fr .
 
-<http://ivci.org/NUVA/VAL228> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 23F"@fr ;
-    skos:altLabel "VPP-23F"@fr .
+<http://ivci.org/NUVA/VAL228> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 23F"@fr .
 
-<http://ivci.org/NUVA/VAL229> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 33F"@fr ;
-    skos:altLabel "VPP-33F"@fr .
+<http://ivci.org/NUVA/VAL229> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 33F"@fr .
 
-<http://ivci.org/NUVA/VAL230> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, sans précision"@fr ;
-    skos:altLabel "Inf-SU4"@fr .
+<http://ivci.org/NUVA/VAL230> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL231> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée"@fr ;
-    skos:altLabel "Inf-SUimsc3"@fr .
+<http://ivci.org/NUVA/VAL231> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée"@fr .
 
-<http://ivci.org/NUVA/VAL232> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 6A"@fr ;
-    skos:altLabel "VPP-06A"@fr .
+<http://ivci.org/NUVA/VAL232> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 6A"@fr .
 
-<http://ivci.org/NUVA/VAL233> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 25"@fr ;
-    skos:altLabel "VPP-25"@fr .
+<http://ivci.org/NUVA/VAL233> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 25"@fr .
 
-<http://ivci.org/NUVA/VAL234> rdfs:label "Valence méningocoque, sans précision"@fr ;
-    skos:altLabel "Men"@fr .
+<http://ivci.org/NUVA/VAL234> rdfs:label "Valence méningocoque, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL235> rdfs:label "Valence méningocoque, polyvalent, polyosidique conjugué"@fr ;
-    skos:altLabel "MCV-poly"@fr .
+<http://ivci.org/NUVA/VAL235> rdfs:label "Valence méningocoque, polyvalent, polyosidique conjugué"@fr .
 
-<http://ivci.org/NUVA/VAL236> rdfs:label "Valence papillomavirus, VLP, monovalent"@fr ;
-    skos:altLabel "VPH-mono"@fr .
+<http://ivci.org/NUVA/VAL236> rdfs:label "Valence papillomavirus, VLP, monovalent"@fr .
 
-<http://ivci.org/NUVA/VAL237> rdfs:label "Valence papillomavirus, VLP, polyvalent"@fr ;
-    skos:altLabel "VPH-poly"@fr .
+<http://ivci.org/NUVA/VAL237> rdfs:label "Valence papillomavirus, VLP, polyvalent"@fr .
 
-<http://ivci.org/NUVA/VAL238> rdfs:label "Valence papillomavirus, VLP, type 6"@fr ;
-    skos:altLabel "VPH-06"@fr .
+<http://ivci.org/NUVA/VAL238> rdfs:label "Valence papillomavirus, VLP, type 6"@fr .
 
-<http://ivci.org/NUVA/VAL239> rdfs:label "Valence papillomavirus, VLP, type 11"@fr ;
-    skos:altLabel "VPH-11"@fr .
+<http://ivci.org/NUVA/VAL239> rdfs:label "Valence papillomavirus, VLP, type 11"@fr .
 
-<http://ivci.org/NUVA/VAL240> rdfs:label "Valence papillomavirus, VLP, type 16"@fr ;
-    skos:altLabel "VPH-16"@fr .
+<http://ivci.org/NUVA/VAL240> rdfs:label "Valence papillomavirus, VLP, type 16"@fr .
 
-<http://ivci.org/NUVA/VAL241> rdfs:label "Valence papillomavirus, VLP, type 18"@fr ;
-    skos:altLabel "VPH-18"@fr .
+<http://ivci.org/NUVA/VAL241> rdfs:label "Valence papillomavirus, VLP, type 18"@fr .
 
-<http://ivci.org/NUVA/VAL242> rdfs:label "Valence papillomavirus, VLP, type 31"@fr ;
-    skos:altLabel "VPH-31"@fr .
+<http://ivci.org/NUVA/VAL242> rdfs:label "Valence papillomavirus, VLP, type 31"@fr .
 
-<http://ivci.org/NUVA/VAL243> rdfs:label "Valence papillomavirus, VLP, type 33"@fr ;
-    skos:altLabel "VPH-33"@fr .
+<http://ivci.org/NUVA/VAL243> rdfs:label "Valence papillomavirus, VLP, type 33"@fr .
 
-<http://ivci.org/NUVA/VAL244> rdfs:label "Valence papillomavirus, VLP, type 58"@fr ;
-    skos:altLabel "VPH-58"@fr .
+<http://ivci.org/NUVA/VAL244> rdfs:label "Valence papillomavirus, VLP, type 58"@fr .
 
-<http://ivci.org/NUVA/VAL245> rdfs:label "Valence papillomavirus, VLP, type 52"@fr ;
-    skos:altLabel "VPH-52"@fr .
+<http://ivci.org/NUVA/VAL245> rdfs:label "Valence papillomavirus, VLP, type 52"@fr .
 
-<http://ivci.org/NUVA/VAL246> rdfs:label "Valence papillomavirus, VLP, type 45"@fr ;
-    skos:altLabel "VPH-45"@fr .
+<http://ivci.org/NUVA/VAL246> rdfs:label "Valence papillomavirus, VLP, type 45"@fr .
 
-<http://ivci.org/NUVA/VAL247> rdfs:label "Valence encéphalite japonaise, virus chimérique vivant atténué"@fr ;
-    skos:altLabel "EJ-VRA"@fr .
+<http://ivci.org/NUVA/VAL247> rdfs:label "Valence encéphalite japonaise, virus chimérique vivant atténué"@fr .
 
-<http://ivci.org/NUVA/VAL248> rdfs:label "Valence encéphalite japonaise, vivant atténué, sans précision"@fr ;
-    skos:altLabel "EJ-VVA"@fr .
+<http://ivci.org/NUVA/VAL248> rdfs:label "Valence encéphalite japonaise, vivant atténué, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL249> rdfs:label "Valence encéphalite japonaise, sans précision"@fr ;
-    skos:altLabel "EJ"@fr .
+<http://ivci.org/NUVA/VAL249> rdfs:label "Valence encéphalite japonaise, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL250> rdfs:label "Valence encéphalite japonaise, inactivée, entière, préparée sur tissu cérébral murin"@fr ;
-    skos:altLabel "EJ-I-cm"@fr .
+<http://ivci.org/NUVA/VAL250> rdfs:label "Valence encéphalite japonaise, inactivée, entière, préparée sur tissu cérébral murin"@fr .
 
-<http://ivci.org/NUVA/VAL251> rdfs:label "Valence encéphalite japonaise, inactivée, dérivée de cellules Vero"@fr ;
-    skos:altLabel "EJ-I-Vero"@fr .
+<http://ivci.org/NUVA/VAL251> rdfs:label "Valence encéphalite japonaise, inactivée, dérivée de cellules Vero"@fr .
 
-<http://ivci.org/NUVA/VAL252> rdfs:label "Valence rage, immunoglobuline, origine humaine"@fr ;
-    skos:altLabel "hRIG"@fr .
+<http://ivci.org/NUVA/VAL252> rdfs:label "Valence rage, immunoglobuline, origine humaine"@fr .
 
-<http://ivci.org/NUVA/VAL253> rdfs:label "Valence rage, immunoglobuline, origine équine"@fr ;
-    skos:altLabel "eRIG"@fr .
+<http://ivci.org/NUVA/VAL253> rdfs:label "Valence rage, immunoglobuline, origine équine"@fr .
 
-<http://ivci.org/NUVA/VAL254> rdfs:label "Valence rage, inactivée, entière, type Semple, préparée sur tissu cérébral de chèvre ou de mouton infecté par le virus de la rage, inactivé par du phénol ou de la ß-propiolactone, contient de la myéline"@fr ;
-    skos:altLabel "Rab-I-Semple"@fr .
+<http://ivci.org/NUVA/VAL254> rdfs:label "Valence rage, inactivée, entière, type Semple, préparée sur tissu cérébral de chèvre ou de mouton infecté par le virus de la rage, inactivé par du phénol ou de la ß-propiolactone, contient de la myéline"@fr .
 
-<http://ivci.org/NUVA/VAL255> rdfs:label "Valence rage, inactivée, entière, type Fuenzalida, préparée sur tissu cérébral de souriceau à la mamelle infecté par le virus de la rage, teneur moindre en myéline"@fr ;
-    skos:altLabel "Rab-I-Fuenzalida"@fr .
+<http://ivci.org/NUVA/VAL255> rdfs:label "Valence rage, inactivée, entière, type Fuenzalida, préparée sur tissu cérébral de souriceau à la mamelle infecté par le virus de la rage, teneur moindre en myéline"@fr .
 
-<http://ivci.org/NUVA/VAL256> rdfs:label "Valence rage, inactivée, entière, préparée sur tissu cérébral animal infecté par le virus de la rage, sans précision"@fr ;
-    skos:altLabel "Rab-I-TissuNerveux"@fr .
+<http://ivci.org/NUVA/VAL256> rdfs:label "Valence rage, inactivée, entière, préparée sur tissu cérébral animal infecté par le virus de la rage, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL257> rdfs:label "Valence rage, inactivée, entière, préparée sur culture cellulaire, sans précision"@fr ;
-    skos:altLabel "Rab-I-CC"@fr .
+<http://ivci.org/NUVA/VAL257> rdfs:label "Valence rage, inactivée, entière, préparée sur culture cellulaire, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL258> rdfs:label "Valence rage, inactivée, entière, préparée sur culture de cellules diploïdes humaines (HDCV) MRC-5, inactivation par la ß-propiolactone"@fr ;
-    skos:altLabel "Rab-I-HDCV"@fr .
+<http://ivci.org/NUVA/VAL258> rdfs:label "Valence rage, inactivée, entière, préparée sur culture de cellules diploïdes humaines (HDCV) MRC-5, inactivation par la ß-propiolactone"@fr .
 
-<http://ivci.org/NUVA/VAL259> rdfs:label "Valence rage, inactivée, entière, purifiée et préparée sur culture de cellules d’embryon de poulet (PCECV), souche fixe du virus de la rage Flury LEP-25 multipliée sur cultures primaires de fibroblastes de poulet, virus inactivé par la ß-propiolactone"@fr ;
-    skos:altLabel "Rab-I-PCEC"@fr .
+<http://ivci.org/NUVA/VAL259> rdfs:label "Valence rage, inactivée, entière, purifiée et préparée sur culture de cellules d’embryon de poulet (PCECV), souche fixe du virus de la rage Flury LEP-25 multipliée sur cultures primaires de fibroblastes de poulet, virus inactivé par la ß-propiolactone"@fr .
 
-<http://ivci.org/NUVA/VAL260> rdfs:label "Valence rage, inactivée, entière, préparée sur culture de cellules Vero (PVRV), souche Wistar, inactivation par la ß-propiolactone"@fr ;
-    skos:altLabel "Rab-I-PVRV"@fr .
+<http://ivci.org/NUVA/VAL260> rdfs:label "Valence rage, inactivée, entière, préparée sur culture de cellules Vero (PVRV), souche Wistar, inactivation par la ß-propiolactone"@fr .
 
-<http://ivci.org/NUVA/VAL261> rdfs:label "Valence rage, inactivée, entière, préparée en culture primaire de cellules rénales de hamster (PHKCV), souche Beijing, inactivation par le formol"@fr ;
-    skos:altLabel "Rab-I-PHKCV"@fr .
+<http://ivci.org/NUVA/VAL261> rdfs:label "Valence rage, inactivée, entière, préparée en culture primaire de cellules rénales de hamster (PHKCV), souche Beijing, inactivation par le formol"@fr .
 
-<http://ivci.org/NUVA/VAL262> rdfs:label "Valence rage, inactivée, entière, préparée sur oeufs embryonnés (VOE), sans précision"@fr ;
-    skos:altLabel "Rab-I-VOE"@fr .
+<http://ivci.org/NUVA/VAL262> rdfs:label "Valence rage, inactivée, entière, préparée sur oeufs embryonnés (VOE), sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL263> rdfs:label "Valence rage, inactivée, entière, préparée sur cellules d’embryon de canard, inactivation par la ß-propiolactone"@fr ;
-    skos:altLabel "Rab-I-PDEV"@fr .
+<http://ivci.org/NUVA/VAL263> rdfs:label "Valence rage, inactivée, entière, préparée sur cellules d’embryon de canard, inactivation par la ß-propiolactone"@fr .
 
-<http://ivci.org/NUVA/VAL264> rdfs:label "Valence covid 19, entier inactivé, autorisé"@fr ;
-    skos:altLabel "Covid-VI-Aut"@fr .
+<http://ivci.org/NUVA/VAL264> rdfs:label "Valence covid 19, entier inactivé, autorisé"@fr .
 
-<http://ivci.org/NUVA/VAL265> rdfs:label "Valence covid 19, entier inactivé, en essai clinique"@fr ;
-    skos:altLabel "Covid-VI-CT"@fr .
+<http://ivci.org/NUVA/VAL265> rdfs:label "Valence covid 19, entier inactivé, en essai clinique"@fr .
 
-<http://ivci.org/NUVA/VAL266> rdfs:label "Valence méningocoque C, polyoside conjugué à l'anatoxine tétanique"@fr ;
-    skos:altLabel "MCV-C-T"@fr .
+<http://ivci.org/NUVA/VAL266> rdfs:label "Valence méningocoque C, polyoside conjugué à l'anatoxine tétanique"@fr .
 
-<http://ivci.org/NUVA/VAL267> rdfs:label "Valence méningocoque C, polyoside conjugué à l'anatoxine diphtérique"@fr ;
-    skos:altLabel "MCV-C-D"@fr .
+<http://ivci.org/NUVA/VAL267> rdfs:label "Valence méningocoque C, polyoside conjugué à l'anatoxine diphtérique"@fr .
 
-<http://ivci.org/NUVA/VAL268> rdfs:label "Valence méningocoque C, polyoside conjugué à la protéine CRM197"@fr ;
-    skos:altLabel "MCV-C-CRM"@fr .
+<http://ivci.org/NUVA/VAL268> rdfs:label "Valence méningocoque C, polyoside conjugué à la protéine CRM197"@fr .
 
-<http://ivci.org/NUVA/VAL269> rdfs:label "Valence méningocoque A, polyoside conjugué à la protéine CRM197"@fr ;
-    skos:altLabel "MCV-A-CRM"@fr .
+<http://ivci.org/NUVA/VAL269> rdfs:label "Valence méningocoque A, polyoside conjugué à la protéine CRM197"@fr .
 
-<http://ivci.org/NUVA/VAL270> rdfs:label "Valence méningocoque A, polyoside conjugué à l'anatoxine diphtérique"@fr ;
-    skos:altLabel "MCV-A-D"@fr .
+<http://ivci.org/NUVA/VAL270> rdfs:label "Valence méningocoque A, polyoside conjugué à l'anatoxine diphtérique"@fr .
 
-<http://ivci.org/NUVA/VAL271> rdfs:label "Valence méningocoque A, polyoside conjugué à l'anatoxine tétanique"@fr ;
-    skos:altLabel "MCV-A-T"@fr .
+<http://ivci.org/NUVA/VAL271> rdfs:label "Valence méningocoque A, polyoside conjugué à l'anatoxine tétanique"@fr .
 
-<http://ivci.org/NUVA/VAL272> rdfs:label "Valence méningocoque W, polyoside conjugué à l'anatoxine tétanique"@fr ;
-    skos:altLabel "MCV-W-T"@fr .
+<http://ivci.org/NUVA/VAL272> rdfs:label "Valence méningocoque W, polyoside conjugué à l'anatoxine tétanique"@fr .
 
-<http://ivci.org/NUVA/VAL273> rdfs:label "Valence méningocoque W, polyoside conjugué à l'anatoxine diphtérique"@fr ;
-    skos:altLabel "MCV-W-D"@fr .
+<http://ivci.org/NUVA/VAL273> rdfs:label "Valence méningocoque W, polyoside conjugué à l'anatoxine diphtérique"@fr .
 
-<http://ivci.org/NUVA/VAL274> rdfs:label "Valence méningocoque W, polyoside conjugué à la protéine CRM197"@fr ;
-    skos:altLabel "MCV-W-CRM"@fr .
+<http://ivci.org/NUVA/VAL274> rdfs:label "Valence méningocoque W, polyoside conjugué à la protéine CRM197"@fr .
 
-<http://ivci.org/NUVA/VAL275> rdfs:label "Valence méningocoque Y, polyoside conjugué à la protéine CRM197"@fr ;
-    skos:altLabel "MCV-Y-CRM"@fr .
+<http://ivci.org/NUVA/VAL275> rdfs:label "Valence méningocoque Y, polyoside conjugué à la protéine CRM197"@fr .
 
-<http://ivci.org/NUVA/VAL276> rdfs:label "Valence méningocoque Y, polyoside conjugué à l'anatoxine tétanique"@fr ;
-    skos:altLabel "MCV-Y-T"@fr .
+<http://ivci.org/NUVA/VAL276> rdfs:label "Valence méningocoque Y, polyoside conjugué à l'anatoxine tétanique"@fr .
 
-<http://ivci.org/NUVA/VAL277> rdfs:label "Valence méningocoque Y, polyoside conjugué à l'anatoxine diphtérique"@fr ;
-    skos:altLabel "MCV-Y-D"@fr .
+<http://ivci.org/NUVA/VAL277> rdfs:label "Valence méningocoque Y, polyoside conjugué à l'anatoxine diphtérique"@fr .
 
-<http://ivci.org/NUVA/VAL278> rdfs:label "Valence Adénovirus, vivant atténué, voie orale, sans précision"@fr ;
-    skos:altLabel "Adeno-VVA"@fr .
+<http://ivci.org/NUVA/VAL278> rdfs:label "Valence Adénovirus, vivant atténué, voie orale, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL279> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, dose pédiatrique"@fr ;
-    skos:altLabel "Inf-SUped4"@fr .
+<http://ivci.org/NUVA/VAL279> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, dose pédiatrique"@fr .
 
-<http://ivci.org/NUVA/VAL280> rdfs:label "Valence botulisme, anatoxine"@fr ;
-    skos:altLabel "BT"@fr .
+<http://ivci.org/NUVA/VAL280> rdfs:label "Valence botulisme, anatoxine"@fr .
 
-<http://ivci.org/NUVA/VAL281> rdfs:label "Valence Adénovirus de type 7, vivant atténué, voie orale, sans précision"@fr ;
-    skos:altLabel "Adeno-7"@fr .
+<http://ivci.org/NUVA/VAL281> rdfs:label "Valence Adénovirus de type 7, vivant atténué, voie orale, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL282> rdfs:label "Valence Adénovirus de type 4, vivant atténué, voie orale, sans précision"@fr ;
-    skos:altLabel "Adeno-4"@fr .
+<http://ivci.org/NUVA/VAL282> rdfs:label "Valence Adénovirus de type 4, vivant atténué, voie orale, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL283> rdfs:label "Valence hépatite A, inactivée, entière, dose pédiatrique, sans précision"@fr ;
-    skos:altLabel "HepA-PED"@fr .
+<http://ivci.org/NUVA/VAL283> rdfs:label "Valence hépatite A, inactivée, entière, dose pédiatrique, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL284> rdfs:label "Valence hépatite A, inactivée, entière, dose adulte, sans précision"@fr ;
-    skos:altLabel "HepA-ADU"@fr .
+<http://ivci.org/NUVA/VAL284> rdfs:label "Valence hépatite A, inactivée, entière, dose adulte, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL285> rdfs:label "Valence grippe, trivalente, inactivée, obtenue sur culture cellulaire, fractionnée ou sous-unité, dose normale"@fr ;
-    skos:altLabel "Inf-CC3"@fr .
+<http://ivci.org/NUVA/VAL285> rdfs:label "Valence grippe, trivalente, inactivée, obtenue sur culture cellulaire, fractionnée ou sous-unité, dose normale"@fr .
 
-<http://ivci.org/NUVA/VAL286> rdfs:label "Valence hépatite A, vivant atténué, sans précision"@fr ;
-    skos:altLabel "HepA-VVA"@fr .
+<http://ivci.org/NUVA/VAL286> rdfs:label "Valence hépatite A, vivant atténué, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL287> rdfs:label "Valence grippe, quadrivalente, recombinante"@fr ;
-    skos:altLabel "Inf-R4"@fr .
+<http://ivci.org/NUVA/VAL287> rdfs:label "Valence grippe, quadrivalente, recombinante"@fr .
 
-<http://ivci.org/NUVA/VAL288> rdfs:label "Valence hépatite A, sans précision"@fr ;
-    skos:altLabel "HepA"@fr .
+<http://ivci.org/NUVA/VAL288> rdfs:label "Valence hépatite A, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL289> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-ORI-10"@fr .
+<http://ivci.org/NUVA/VAL289> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL290> rdfs:label "Valence covid 19, virus originel,  ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-ORI-30"@fr .
+<http://ivci.org/NUVA/VAL290> rdfs:label "Valence covid 19, virus originel,  ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL291> rdfs:label "Valence hépatite B, ant!gène de surface recombinant, trois antigènes (Ag HbS, pré-S1 et pré-S2)"@fr ;
-    skos:altLabel "HBs-r-3Ag"@fr .
+<http://ivci.org/NUVA/VAL291> rdfs:label "Valence hépatite B, ant!gène de surface recombinant, trois antigènes (Ag HbS, pré-S1 et pré-S2)"@fr .
 
-<http://ivci.org/NUVA/VAL292> rdfs:label "Valence covid 19, vecteur viral non réplicatif, adénovirus 26 codant la protéine de pointe du SARS-CoV-2, en essai clinique"@fr ;
-    skos:altLabel "Covid-VVnr-S-Ad26-CT"@fr .
+<http://ivci.org/NUVA/VAL292> rdfs:label "Valence covid 19, vecteur viral non réplicatif, adénovirus 26 codant la protéine de pointe du SARS-CoV-2, en essai clinique"@fr .
 
-<http://ivci.org/NUVA/VAL293> rdfs:label "Valence charbon, immunoglobuline"@fr ;
-    skos:altLabel "Charbon-Ig"@fr .
+<http://ivci.org/NUVA/VAL293> rdfs:label "Valence charbon, immunoglobuline"@fr .
 
-<http://ivci.org/NUVA/VAL294> rdfs:label "Valence variole, première génération, vivant atténué"@fr ;
-    skos:altLabel "POX-1G"@fr .
+<http://ivci.org/NUVA/VAL294> rdfs:label "Valence variole, première génération, vivant atténué"@fr .
 
-<http://ivci.org/NUVA/VAL295> rdfs:label "Valence variole, deuxième génération, vivant atténué"@fr ;
-    skos:altLabel "POX-2G"@fr .
+<http://ivci.org/NUVA/VAL295> rdfs:label "Valence variole, deuxième génération, vivant atténué"@fr .
 
-<http://ivci.org/NUVA/VAL296> rdfs:label "Valence variole, troisième génération, non réplicatif, Virus modifié de la vaccine d'Ankara,"@fr ;
-    skos:altLabel "POX-3G-MVA"@fr .
+<http://ivci.org/NUVA/VAL296> rdfs:label "Valence variole, troisième génération, non réplicatif, Virus modifié de la vaccine d'Ankara,"@fr .
 
-<http://ivci.org/NUVA/VAL297> rdfs:label "Valence méningocoque A, sans précision"@fr ;
-    skos:altLabel "MenA"@fr .
+<http://ivci.org/NUVA/VAL297> rdfs:label "Valence méningocoque A, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL298> rdfs:label "Valence méningocoque C, sans précision"@fr ;
-    skos:altLabel "MenC"@fr .
+<http://ivci.org/NUVA/VAL298> rdfs:label "Valence méningocoque C, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL299> rdfs:label "Valence méningocoque Y, sans précision"@fr ;
-    skos:altLabel "MenY"@fr .
+<http://ivci.org/NUVA/VAL299> rdfs:label "Valence méningocoque Y, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL300> rdfs:label "Valence méningocoque W, sans précision"@fr ;
-    skos:altLabel "MenW"@fr .
+<http://ivci.org/NUVA/VAL300> rdfs:label "Valence méningocoque W, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL301> rdfs:label "Valence grippe, trivalente, recombinante"@fr ;
-    skos:altLabel "Inf-R3"@fr .
+<http://ivci.org/NUVA/VAL301> rdfs:label "Valence grippe, trivalente, recombinante"@fr .
 
-<http://ivci.org/NUVA/VAL302> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-ORI-50"@fr .
+<http://ivci.org/NUVA/VAL302> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL303> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2"@fr ;
-    skos:altLabel "Covid-ARNm-S-ORI"@fr .
+<http://ivci.org/NUVA/VAL303> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2"@fr .
 
-<http://ivci.org/NUVA/VAL304> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 15 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-ORI-15"@fr .
+<http://ivci.org/NUVA/VAL304> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 15 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL305> rdfs:label "Valence covid 19, variant Omicron BA.1, ARNm codant la protéine de pointe du SARS-CoV-2, 15 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-BA.1-15"@fr .
+<http://ivci.org/NUVA/VAL305> rdfs:label "Valence covid 19, variant Omicron BA.1, ARNm codant la protéine de pointe du SARS-CoV-2, 15 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL306> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 3 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-ORI-3"@fr .
+<http://ivci.org/NUVA/VAL306> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 3 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL307> rdfs:label "Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2, 15 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-BA.4/5-15"@fr .
+<http://ivci.org/NUVA/VAL307> rdfs:label "Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2, 15 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL308> rdfs:label "Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-BA.4/5-25"@fr .
+<http://ivci.org/NUVA/VAL308> rdfs:label "Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL309> rdfs:label "Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2, 5 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-BA.4/5-5"@fr .
+<http://ivci.org/NUVA/VAL309> rdfs:label "Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2, 5 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL310> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 5 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-ORI-5"@fr .
+<http://ivci.org/NUVA/VAL310> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 5 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL311> rdfs:label "Valence paludisme, pré-érythrocytaire R21/Matrix-M"@fr ;
-    skos:altLabel "R21/Matrix-M"@fr .
+<http://ivci.org/NUVA/VAL311> rdfs:label "Valence paludisme, pré-érythrocytaire R21/Matrix-M"@fr .
 
-<http://ivci.org/NUVA/VAL312> rdfs:label "Valence encéphalite à tiques, inactivée, entière, souche K23"@fr ;
-    skos:altLabel "TBE-K23"@fr .
+<http://ivci.org/NUVA/VAL312> rdfs:label "Valence encéphalite à tiques, inactivée, entière, souche K23"@fr .
 
-<http://ivci.org/NUVA/VAL313> rdfs:label "Valence encéphalite à tiques, inactivée, entière, souche Neudörfl, dose non précisée"@fr ;
-    skos:altLabel "TBE-Neudorfl"@fr .
+<http://ivci.org/NUVA/VAL313> rdfs:label "Valence encéphalite à tiques, inactivée, entière, souche Neudörfl, dose non précisée"@fr .
 
-<http://ivci.org/NUVA/VAL314> rdfs:label "Valence encéphalite à tiques, inactivée, entière, souche Neudörfl, dose adulte"@fr ;
-    skos:altLabel "TBE-Neudorfl-ADU"@fr .
+<http://ivci.org/NUVA/VAL314> rdfs:label "Valence encéphalite à tiques, inactivée, entière, souche Neudörfl, dose adulte"@fr .
 
-<http://ivci.org/NUVA/VAL315> rdfs:label "Valence encéphalite à tiques, entière inactivée, souche Neudörfl, dose pédiatrique"@fr ;
-    skos:altLabel "TBE-Neudorfl-PED"@fr .
+<http://ivci.org/NUVA/VAL315> rdfs:label "Valence encéphalite à tiques, entière inactivée, souche Neudörfl, dose pédiatrique"@fr .
 
-<http://ivci.org/NUVA/VAL316> rdfs:label "Valence VRS, recombinante, antigène RSVPreF3 dérivé de la protéine F"@fr ;
-    skos:altLabel "VRS-PreF3"@fr .
+<http://ivci.org/NUVA/VAL316> rdfs:label "Valence VRS, recombinante, antigène RSVPreF3 dérivé de la protéine F"@fr .
 
-<http://ivci.org/NUVA/VAL317> rdfs:label "Valence VRS, anticorps, sans précision"@fr ;
-    skos:altLabel "VRS-Ab"@fr .
+<http://ivci.org/NUVA/VAL317> rdfs:label "Valence VRS, anticorps, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL318> rdfs:label "Valence VRS, vaccin, sans précision"@fr ;
-    skos:altLabel "VRS-V"@fr .
+<http://ivci.org/NUVA/VAL318> rdfs:label "Valence VRS, vaccin, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL319> rdfs:label "Valence covid 19, vecteur viral non réplicatif, adénovirus codant la protéine de pointe du SARS-CoV-2, par inhalation"@fr ;
-    skos:altLabel "Covid-VVnr-S-INH"@fr .
+<http://ivci.org/NUVA/VAL319> rdfs:label "Valence covid 19, vecteur viral non réplicatif, adénovirus codant la protéine de pointe du SARS-CoV-2, par inhalation"@fr .
 
-<http://ivci.org/NUVA/VAL320> rdfs:label "Valence VRS, anticorps monoclonal, sans précision"@fr ;
-    skos:altLabel "VRS-mAb"@fr .
+<http://ivci.org/NUVA/VAL320> rdfs:label "Valence VRS, anticorps monoclonal, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL321> rdfs:label "Valence VRS, anticorps monoclonal, nirsévimab"@fr ;
-    skos:altLabel "VRS-mAb-nir"@fr .
+<http://ivci.org/NUVA/VAL321> rdfs:label "Valence VRS, anticorps monoclonal, nirsévimab"@fr .
 
-<http://ivci.org/NUVA/VAL322> rdfs:label "Valence VRS, recombinante, glycoprotéines F des sous-types A et B"@fr ;
-    skos:altLabel "VRS-PreFAB"@fr .
+<http://ivci.org/NUVA/VAL322> rdfs:label "Valence VRS, recombinante, glycoprotéines F des sous-types A et B"@fr .
 
-<http://ivci.org/NUVA/VAL323> rdfs:label "Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-XBB.1.5-30"@fr .
+<http://ivci.org/NUVA/VAL323> rdfs:label "Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL324> rdfs:label "Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-XBB.1.5-10"@fr .
+<http://ivci.org/NUVA/VAL324> rdfs:label "Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL325> rdfs:label "Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2, 3 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-XBB.1.5-3"@fr .
+<http://ivci.org/NUVA/VAL325> rdfs:label "Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2, 3 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL326> rdfs:label "Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2, 1,5 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-BA.4/5-1,5"@fr .
+<http://ivci.org/NUVA/VAL326> rdfs:label "Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2, 1,5 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL327> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 1,5 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-ORI-1,5"@fr .
+<http://ivci.org/NUVA/VAL327> rdfs:label "Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 1,5 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL328> rdfs:label "Valence covid 19, sous-variant Omicron XBB.1.5, sous-unité protéique, protéine de pointe recombinante dans des nanoparticules"@fr ;
-    skos:altLabel "Covid-SP-rSnp-XBB"@fr .
+<http://ivci.org/NUVA/VAL328> rdfs:label "Valence covid 19, sous-variant Omicron XBB.1.5, sous-unité protéique, protéine de pointe recombinante dans des nanoparticules"@fr .
 
-<http://ivci.org/NUVA/VAL329> rdfs:label "Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-XBB.1.5-50"@fr .
+<http://ivci.org/NUVA/VAL329> rdfs:label "Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL330> rdfs:label "Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-XBB.1.5-25"@fr .
+<http://ivci.org/NUVA/VAL330> rdfs:label "Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL331> rdfs:label "Valence CMV, immunoglobulines"@fr ;
-    skos:altLabel "CMV-Ig"@fr .
+<http://ivci.org/NUVA/VAL331> rdfs:label "Valence CMV, immunoglobulines"@fr .
 
-<http://ivci.org/NUVA/VAL332> rdfs:label "Valence hépatite C, sans précision"@fr ;
-    skos:altLabel "HepC"@fr .
+<http://ivci.org/NUVA/VAL332> rdfs:label "Valence hépatite C, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL333> rdfs:label "Valence VIH, sans précision"@fr ;
-    skos:altLabel "VIH"@fr .
+<http://ivci.org/NUVA/VAL333> rdfs:label "Valence VIH, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL334> rdfs:label "Valence mélanome, sans précision"@fr ;
-    skos:altLabel "MEL"@fr .
+<http://ivci.org/NUVA/VAL334> rdfs:label "Valence mélanome, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL335> rdfs:label "Valence Streptococcus pyogenes, sans précision"@fr ;
-    skos:altLabel "SPYO"@fr .
+<http://ivci.org/NUVA/VAL335> rdfs:label "Valence Streptococcus pyogenes, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL336> rdfs:label "Valence fièvre de la vallée du Rift, sans précision"@fr ;
-    skos:altLabel "FVR"@fr .
+<http://ivci.org/NUVA/VAL336> rdfs:label "Valence fièvre de la vallée du Rift, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL337> rdfs:label "Valence variole, immunoglobuline"@fr ;
-    skos:altLabel "POX-Ig"@fr .
+<http://ivci.org/NUVA/VAL337> rdfs:label "Valence variole, immunoglobuline"@fr .
 
-<http://ivci.org/NUVA/VAL338> rdfs:label "Valence VRS, sans précision"@fr ;
-    skos:altLabel "VRS"@fr .
+<http://ivci.org/NUVA/VAL338> rdfs:label "Valence VRS, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL339> rdfs:label "Valence Borrelia burgdorferi, sans précision"@fr ;
-    skos:altLabel "Lyme"@fr .
+<http://ivci.org/NUVA/VAL339> rdfs:label "Valence Borrelia burgdorferi, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL340> rdfs:label "Valence charbon, sans précision"@fr ;
-    skos:altLabel "Charbon"@fr .
+<http://ivci.org/NUVA/VAL340> rdfs:label "Valence charbon, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL341> rdfs:label "Valence Escherichia coli, sans précision"@fr ;
-    skos:altLabel "Eco"@fr .
+<http://ivci.org/NUVA/VAL341> rdfs:label "Valence Escherichia coli, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL342> rdfs:label "Valence Klebsiella pneumoniæ, sans précision"@fr ;
-    skos:altLabel "Kpn"@fr .
+<http://ivci.org/NUVA/VAL342> rdfs:label "Valence Klebsiella pneumoniæ, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL343> rdfs:label "Valence Enterococcus fæcalis, sans précision"@fr ;
-    skos:altLabel "Efa"@fr .
+<http://ivci.org/NUVA/VAL343> rdfs:label "Valence Enterococcus fæcalis, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL344> rdfs:label "Valence Proteus vulgaris, sans précision"@fr ;
-    skos:altLabel "Pvu"@fr .
+<http://ivci.org/NUVA/VAL344> rdfs:label "Valence Proteus vulgaris, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL345> rdfs:label "Valence infections urinaires, sans précision"@fr ;
-    skos:altLabel "UTI"@fr .
+<http://ivci.org/NUVA/VAL345> rdfs:label "Valence infections urinaires, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL346> rdfs:label "Valence entérovirus A71"@fr ;
-    skos:altLabel "EV71"@fr .
+<http://ivci.org/NUVA/VAL346> rdfs:label "Valence entérovirus A71"@fr .
 
-<http://ivci.org/NUVA/VAL347> rdfs:label "Valence Leptospira canicola, inactivée, entière"@fr ;
-    skos:altLabel "Lepto-ca"@fr .
+<http://ivci.org/NUVA/VAL347> rdfs:label "Valence Leptospira canicola, inactivée, entière"@fr .
 
-<http://ivci.org/NUVA/VAL348> rdfs:label "Valence Leptospira pomona, inactivée, entière"@fr ;
-    skos:altLabel "Lepto-po"@fr .
+<http://ivci.org/NUVA/VAL348> rdfs:label "Valence Leptospira pomona, inactivée, entière"@fr .
 
-<http://ivci.org/NUVA/VAL349> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, adjuvant"@fr ;
-    skos:altLabel "Inf-SUAnd3"@fr .
+<http://ivci.org/NUVA/VAL349> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, adjuvant"@fr .
 
-<http://ivci.org/NUVA/VAL350> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, adjuvant, dose normale"@fr ;
-    skos:altLabel "Inf-SUAnd4"@fr .
+<http://ivci.org/NUVA/VAL350> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, adjuvant, dose normale"@fr .
 
-<http://ivci.org/NUVA/VAL351> rdfs:label "Valence grippe, trivalente, virosomale, sans précision"@fr ;
-    skos:altLabel "Inf-V3"@fr .
+<http://ivci.org/NUVA/VAL351> rdfs:label "Valence grippe, trivalente, virosomale, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL352> rdfs:label "Valence grippe, quadrivalente, virosomale, sans précision"@fr ;
-    skos:altLabel "Inf-V4"@fr .
+<http://ivci.org/NUVA/VAL352> rdfs:label "Valence grippe, quadrivalente, virosomale, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL353> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 2"@fr ;
-    skos:altLabel "VPC-02"@fr .
+<http://ivci.org/NUVA/VAL353> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 2"@fr .
 
-<http://ivci.org/NUVA/VAL354> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 9N"@fr ;
-    skos:altLabel "VPC-09N"@fr .
+<http://ivci.org/NUVA/VAL354> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 9N"@fr .
 
-<http://ivci.org/NUVA/VAL355> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 17F"@fr ;
-    skos:altLabel "VPC-17F"@fr .
+<http://ivci.org/NUVA/VAL355> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 17F"@fr .
 
-<http://ivci.org/NUVA/VAL356> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 20"@fr ;
-    skos:altLabel "VPC-20"@fr .
+<http://ivci.org/NUVA/VAL356> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 20"@fr .
 
-<http://ivci.org/NUVA/VAL357> rdfs:label "Valence choléra, vivante atténuée, orale"@fr ;
-    skos:altLabel "O-Chol-V"@fr .
+<http://ivci.org/NUVA/VAL357> rdfs:label "Valence choléra, vivante atténuée, orale"@fr .
 
-<http://ivci.org/NUVA/VAL358> rdfs:label "Valence botulisme, immunoglobuline"@fr ;
-    skos:altLabel "BIG"@fr .
+<http://ivci.org/NUVA/VAL358> rdfs:label "Valence botulisme, immunoglobuline"@fr .
 
-<http://ivci.org/NUVA/VAL359> rdfs:label "Valence choléra, inactivée, entière, sans précision"@fr ;
-    skos:altLabel "Chol-I"@fr .
+<http://ivci.org/NUVA/VAL359> rdfs:label "Valence choléra, inactivée, entière, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL360> rdfs:label "Valence grippe, inactivée, obtenue sur culture cellulaire, fractionnée ou sous-unité, dose normale, sans précision"@fr ;
-    skos:altLabel "Inf-CC"@fr .
+<http://ivci.org/NUVA/VAL360> rdfs:label "Valence grippe, inactivée, obtenue sur culture cellulaire, fractionnée ou sous-unité, dose normale, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL361> rdfs:label "Valence grippe, recombinante, sans précision"@fr ;
-    skos:altLabel "Inf-R"@fr .
+<http://ivci.org/NUVA/VAL361> rdfs:label "Valence grippe, recombinante, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL362> rdfs:label "Valence grippe, virosomal, sans précision"@fr ;
-    skos:altLabel "Inf-V"@fr .
+<http://ivci.org/NUVA/VAL362> rdfs:label "Valence grippe, virosomal, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL363> rdfs:label "Valence grippe, trivalente, VLP, sans précision"@fr ;
-    skos:altLabel "Inf-VLP3"@fr .
+<http://ivci.org/NUVA/VAL363> rdfs:label "Valence grippe, trivalente, VLP, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL364> rdfs:label "Valence grippe, non vivante, sans précision"@fr ;
-    skos:altLabel "Inf-NL"@fr .
+<http://ivci.org/NUVA/VAL364> rdfs:label "Valence grippe, non vivante, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL365> rdfs:label "Valence grippe, non vivant, obtenue sur culture d'œufs, sans précision"@fr ;
-    skos:altLabel "Inf-E"@fr .
+<http://ivci.org/NUVA/VAL365> rdfs:label "Valence grippe, non vivant, obtenue sur culture d'œufs, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL366> rdfs:label "Valence grippe, ARN, sans précision"@fr ;
-    skos:altLabel "INF-ARN"@fr .
+<http://ivci.org/NUVA/VAL366> rdfs:label "Valence grippe, ARN, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL367> rdfs:label "Valence choléra, V. cholerae O1, entière inactivée, orale"@fr ;
-    skos:altLabel "O-Chol-O1-I"@fr .
+<http://ivci.org/NUVA/VAL367> rdfs:label "Valence choléra, V. cholerae O1, entière inactivée, orale"@fr .
 
-<http://ivci.org/NUVA/VAL368> rdfs:label "Valence choléra, V. cholerae O139, inactivée, entière, orale"@fr ;
-    skos:altLabel "O-Chol-O139-I"@fr .
+<http://ivci.org/NUVA/VAL368> rdfs:label "Valence choléra, V. cholerae O139, inactivée, entière, orale"@fr .
 
-<http://ivci.org/NUVA/VAL369> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 15A"@fr ;
-    skos:altLabel "VPC-15A"@fr .
+<http://ivci.org/NUVA/VAL369> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 15A"@fr .
 
-<http://ivci.org/NUVA/VAL370> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 15C"@fr ;
-    skos:altLabel "VPC-15C"@fr .
+<http://ivci.org/NUVA/VAL370> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 15C"@fr .
 
-<http://ivci.org/NUVA/VAL371> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 16F"@fr ;
-    skos:altLabel "VPC-16F"@fr .
+<http://ivci.org/NUVA/VAL371> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 16F"@fr .
 
-<http://ivci.org/NUVA/VAL372> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 20A"@fr ;
-    skos:altLabel "VPC-20A"@fr .
+<http://ivci.org/NUVA/VAL372> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 20A"@fr .
 
-<http://ivci.org/NUVA/VAL373> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 23A"@fr ;
-    skos:altLabel "VPC-23A"@fr .
+<http://ivci.org/NUVA/VAL373> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 23A"@fr .
 
-<http://ivci.org/NUVA/VAL374> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 23B"@fr ;
-    skos:altLabel "VPC-23B"@fr .
+<http://ivci.org/NUVA/VAL374> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 23B"@fr .
 
-<http://ivci.org/NUVA/VAL375> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 24F"@fr ;
-    skos:altLabel "VPC-24F"@fr .
+<http://ivci.org/NUVA/VAL375> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 24F"@fr .
 
-<http://ivci.org/NUVA/VAL376> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 31"@fr ;
-    skos:altLabel "VPC-31"@fr .
+<http://ivci.org/NUVA/VAL376> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 31"@fr .
 
-<http://ivci.org/NUVA/VAL377> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 35B"@fr ;
-    skos:altLabel "VPC-35B"@fr .
+<http://ivci.org/NUVA/VAL377> rdfs:label "Valence pneumocoque, polyosidique conjuguée, sérotype 35B"@fr .
 
-<http://ivci.org/NUVA/VAL378> rdfs:label "Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), 15 microgrammes"@fr ;
-    skos:altLabel "rAgHBs-15"@fr .
+<http://ivci.org/NUVA/VAL378> rdfs:label "Valence hépatite B, antigène de surface recombinant du virus de l'hépatite B (Ag HBs), 15 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL379> rdfs:label "Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-JN.1-30"@fr .
+<http://ivci.org/NUVA/VAL379> rdfs:label "Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL380> rdfs:label "Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-JN.1-10"@fr .
+<http://ivci.org/NUVA/VAL380> rdfs:label "Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL381> rdfs:label "Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2, 3 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-JN.1-3"@fr .
+<http://ivci.org/NUVA/VAL381> rdfs:label "Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2, 3 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL382> rdfs:label "Valence covid 19, sous-variant Omicron JN.1, sous-unité protéique, protéine de pointe recombinante dans des nanoparticules"@fr ;
-    skos:altLabel "Covid-SP-rSnp-JN.1"@fr .
+<http://ivci.org/NUVA/VAL382> rdfs:label "Valence covid 19, sous-variant Omicron JN.1, sous-unité protéique, protéine de pointe recombinante dans des nanoparticules"@fr .
 
-<http://ivci.org/NUVA/VAL383> rdfs:label "Valence VRS, ARNm simple brin coiffé en 5' codant pour la glycoprotéine F, stabilisé dans la conformation de préfusion"@fr ;
-    skos:altLabel "mVRS"@fr .
+<http://ivci.org/NUVA/VAL383> rdfs:label "Valence VRS, ARNm simple brin coiffé en 5' codant pour la glycoprotéine F, stabilisé dans la conformation de préfusion"@fr .
 
-<http://ivci.org/NUVA/VAL384> rdfs:label "Valence lèpre, sans précision"@fr ;
-    skos:altLabel "Lep"@fr .
+<http://ivci.org/NUVA/VAL384> rdfs:label "Valence lèpre, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL385> rdfs:label "Valence grippe aviaire, A(H5N8)"@fr ;
-    skos:altLabel "AH5N8"@fr .
+<http://ivci.org/NUVA/VAL385> rdfs:label "Valence grippe aviaire, A(H5N8)"@fr .
 
-<http://ivci.org/NUVA/VAL386> rdfs:label "Valence grippe aviaire, A(H5), sans précision"@fr ;
-    skos:altLabel "AH5"@fr .
+<http://ivci.org/NUVA/VAL386> rdfs:label "Valence grippe aviaire, A(H5), sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL387> rdfs:label "Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-JN.1-25"@fr .
+<http://ivci.org/NUVA/VAL387> rdfs:label "Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL388> rdfs:label "Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-JN.1-50"@fr .
+<http://ivci.org/NUVA/VAL388> rdfs:label "Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL389> rdfs:label "Valence Pseudomonas aeruginosa, 7 immunotypes"@fr ;
-    skos:altLabel "PAER7"@fr .
+<http://ivci.org/NUVA/VAL389> rdfs:label "Valence Pseudomonas aeruginosa, 7 immunotypes"@fr .
 
-<http://ivci.org/NUVA/VAL390> rdfs:label "Valence chikungunya, sans précision"@fr ;
-    skos:altLabel "CHIK"@fr .
+<http://ivci.org/NUVA/VAL390> rdfs:label "Valence chikungunya, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL391> rdfs:label "Valence chikungunya, VLP"@fr ;
-    skos:altLabel "Chik-VLP"@fr .
+<http://ivci.org/NUVA/VAL391> rdfs:label "Valence chikungunya, VLP"@fr .
 
-<http://ivci.org/NUVA/VAL392> rdfs:label "Valence grippe aviaire, A(H5N1), ARNm"@fr ;
-    skos:altLabel "AH5N1-ARN"@fr .
+<http://ivci.org/NUVA/VAL392> rdfs:label "Valence grippe aviaire, A(H5N1), ARNm"@fr .
 
-<http://ivci.org/NUVA/VAL393> rdfs:label "Valence covid 19, variant Omicron BA.1, ARNm codant la protéine de pointe du SARS-CoV-2"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-BA.1"@fr .
+<http://ivci.org/NUVA/VAL393> rdfs:label "Valence covid 19, variant Omicron BA.1, ARNm codant la protéine de pointe du SARS-CoV-2"@fr .
 
-<http://ivci.org/NUVA/VAL394> rdfs:label "Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-BA.4/5"@fr .
+<http://ivci.org/NUVA/VAL394> rdfs:label "Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2"@fr .
 
-<http://ivci.org/NUVA/VAL395> rdfs:label "Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-JN.1"@fr .
+<http://ivci.org/NUVA/VAL395> rdfs:label "Valence covid 19, variant Omicron JN.1, ARNm codant la protéine de pointe du SARS-CoV-2"@fr .
 
-<http://ivci.org/NUVA/VAL396> rdfs:label "Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-XBB.1.5"@fr .
+<http://ivci.org/NUVA/VAL396> rdfs:label "Valence covid 19, variant Omicron XBB.1.5, ARNm codant la protéine de pointe du SARS-CoV-2"@fr .
 
-<http://ivci.org/NUVA/VAL397> rdfs:label "Valence covid 19, vecteur viral non réplicatif codant la protéine de pointe du SARS-CoV-2, sans précision"@fr ;
-    skos:altLabel "Covid-VVnr-S"@fr .
+<http://ivci.org/NUVA/VAL397> rdfs:label "Valence covid 19, vecteur viral non réplicatif codant la protéine de pointe du SARS-CoV-2, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL398> rdfs:label "Valence covid 19, vecteur viral réplicatif, virus codant la protéine de pointe du SARS-CoV-2"@fr ;
-    skos:altLabel "Covid-VVr-S"@fr .
+<http://ivci.org/NUVA/VAL398> rdfs:label "Valence covid 19, vecteur viral réplicatif, virus codant la protéine de pointe du SARS-CoV-2"@fr .
 
-<http://ivci.org/NUVA/VAL399> rdfs:label "Valence typhoïde, antigène Vi conjugué à l’anatoxine tétanique"@fr ;
-    skos:altLabel "Ty-ViC-T"@fr .
+<http://ivci.org/NUVA/VAL399> rdfs:label "Valence typhoïde, antigène Vi conjugué à l’anatoxine tétanique"@fr .
 
-<http://ivci.org/NUVA/VAL400> rdfs:label "Valence typhoïde, antigène Vi conjugué à la protéine CRM197"@fr ;
-    skos:altLabel "Ty-ViC-CRM"@fr .
+<http://ivci.org/NUVA/VAL400> rdfs:label "Valence typhoïde, antigène Vi conjugué à la protéine CRM197"@fr .
 
-<http://ivci.org/NUVA/VAL401> rdfs:label "Valence encéphalite japonaise, inactivée, dérivée de cellules Vero, 3 microgrammes"@fr ;
-    skos:altLabel "EJ-I-Vero-3"@fr .
+<http://ivci.org/NUVA/VAL401> rdfs:label "Valence encéphalite japonaise, inactivée, dérivée de cellules Vero, 3 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL402> rdfs:label "Valence encéphalite japonaise, inactivée, dérivée de cellules Vero, 6 microgrammes"@fr ;
-    skos:altLabel "EJ-I-Vero-6"@fr .
+<http://ivci.org/NUVA/VAL402> rdfs:label "Valence encéphalite japonaise, inactivée, dérivée de cellules Vero, 6 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL403> rdfs:label "Valence méningocoque X, sans précision"@fr ;
-    skos:altLabel "MenX"@fr .
+<http://ivci.org/NUVA/VAL403> rdfs:label "Valence méningocoque X, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL404> rdfs:label "Valence méningocoque X, polyoside conjugué"@fr ;
-    skos:altLabel "MCV-X"@fr .
+<http://ivci.org/NUVA/VAL404> rdfs:label "Valence méningocoque X, polyoside conjugué"@fr .
 
-<http://ivci.org/NUVA/VAL405> rdfs:label "Valence grippe pandémique H1N1 2009, vivante atténuée"@fr ;
-    skos:altLabel "Inf-pdm09-V"@fr .
+<http://ivci.org/NUVA/VAL405> rdfs:label "Valence grippe pandémique H1N1 2009, vivante atténuée"@fr .
 
-<http://ivci.org/NUVA/VAL406> rdfs:label "Valence covid 19, variant Omicron KP.2, ARNm codant la protéine de pointe du SARS-CoV-2"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-KP.2"@fr .
+<http://ivci.org/NUVA/VAL406> rdfs:label "Valence covid 19, variant Omicron KP.2, ARNm codant la protéine de pointe du SARS-CoV-2"@fr .
 
-<http://ivci.org/NUVA/VAL407> rdfs:label "Valence covid 19, variant Omicron KP.2, ARNm codant la protéine de pointe du SARS-CoV-2, 3 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-KP.2-3"@fr .
+<http://ivci.org/NUVA/VAL407> rdfs:label "Valence covid 19, variant Omicron KP.2, ARNm codant la protéine de pointe du SARS-CoV-2, 3 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL408> rdfs:label "Valence covid 19, variant Omicron KP.2, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-KP.2-10"@fr .
+<http://ivci.org/NUVA/VAL408> rdfs:label "Valence covid 19, variant Omicron KP.2, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL409> rdfs:label "Valence covid 19, variant Omicron KP.2, ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-KP.2-30"@fr .
+<http://ivci.org/NUVA/VAL409> rdfs:label "Valence covid 19, variant Omicron KP.2, ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL410> rdfs:label "Valence covid 19, sous-unité protéique, protéine N recombinante"@fr ;
-    skos:altLabel "Covid-SP-rN"@fr .
+<http://ivci.org/NUVA/VAL410> rdfs:label "Valence covid 19, sous-unité protéique, protéine N recombinante"@fr .
 
-<http://ivci.org/NUVA/VAL411> rdfs:label "Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-BA.4/5-50"@fr .
+<http://ivci.org/NUVA/VAL411> rdfs:label "Valence covid 19, variant Omicron BA.4/BA.5, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL412> rdfs:label "Valence covid 19, variant Omicron BA.1, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-BA.1-50"@fr .
+<http://ivci.org/NUVA/VAL412> rdfs:label "Valence covid 19, variant Omicron BA.1, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL413> rdfs:label "Valence covid 19, sous-variant Omicron XBB.1.16 , sous-unité protéique, protéine de pointe recombinante (domaine RBD)"@fr ;
-    skos:altLabel "Covid-SP-rRBD-XBB.1.16"@fr .
+<http://ivci.org/NUVA/VAL413> rdfs:label "Valence covid 19, sous-variant Omicron XBB.1.16 , sous-unité protéique, protéine de pointe recombinante (domaine RBD)"@fr .
 
-<http://ivci.org/NUVA/VAL414> rdfs:label "Valence diphtérique, sans précision"@fr ;
-    skos:altLabel "DIPH"@fr .
+<http://ivci.org/NUVA/VAL414> rdfs:label "Valence diphtérique, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL415> rdfs:label "Valence charbon, acellulaire, absorbé, adjuvant"@fr ;
-    skos:altLabel "BantAdj"@fr .
+<http://ivci.org/NUVA/VAL415> rdfs:label "Valence charbon, acellulaire, absorbé, adjuvant"@fr .
 
-<http://ivci.org/NUVA/VAL416> rdfs:label "Valence covid 19, sous-unité protéique, adjuvant, protéine de pointe recombinante"@fr ;
-    skos:altLabel "Covid-SP-rS-A"@fr .
+<http://ivci.org/NUVA/VAL416> rdfs:label "Valence covid 19, sous-unité protéique, adjuvant, protéine de pointe recombinante"@fr .
 
-<http://ivci.org/NUVA/VAL417> rdfs:label "Valence covid 19, variant Omicron BA.2, ARNm codant la protéine de pointe du SARS-CoV-2"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-BA.2"@fr .
+<http://ivci.org/NUVA/VAL417> rdfs:label "Valence covid 19, variant Omicron BA.2, ARNm codant la protéine de pointe du SARS-CoV-2"@fr .
 
-<http://ivci.org/NUVA/VAL418> rdfs:label "Valence variole, non précisé"@fr ;
-    skos:altLabel "POX"@fr .
+<http://ivci.org/NUVA/VAL418> rdfs:label "Valence variole, non précisé"@fr .
 
-<http://ivci.org/NUVA/VAL419> rdfs:label "Valence botulisme, non précisé"@fr ;
-    skos:altLabel "BOT"@fr .
+<http://ivci.org/NUVA/VAL419> rdfs:label "Valence botulisme, non précisé"@fr .
 
-<http://ivci.org/NUVA/VAL420> rdfs:label "Valence botulisme, produits d'immunisation passive"@fr ;
-    skos:altLabel "BOT-passive"@fr .
+<http://ivci.org/NUVA/VAL420> rdfs:label "Valence botulisme, produits d'immunisation passive"@fr .
 
-<http://ivci.org/NUVA/VAL421> rdfs:label "Valence fièvre hémorragique d'Argentine, virus Junin, sans précision"@fr ;
-    skos:altLabel "Junin"@fr .
+<http://ivci.org/NUVA/VAL421> rdfs:label "Valence fièvre hémorragique d'Argentine, virus Junin, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL422> rdfs:label "Valence peste, sans précision"@fr ;
-    skos:altLabel "Yp"@fr .
+<http://ivci.org/NUVA/VAL422> rdfs:label "Valence peste, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL423> rdfs:label "Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1"@fr .
+<http://ivci.org/NUVA/VAL423> rdfs:label "Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2"@fr .
 
-<http://ivci.org/NUVA/VAL424> rdfs:label "Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1-30"@fr .
+<http://ivci.org/NUVA/VAL424> rdfs:label "Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL425> rdfs:label "Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1-10"@fr .
+<http://ivci.org/NUVA/VAL425> rdfs:label "Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL426> rdfs:label "Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 3 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1-3"@fr .
+<http://ivci.org/NUVA/VAL426> rdfs:label "Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 3 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL427> rdfs:label "Valence covid 19, ARNm codant un fragment de la protéine Spike du SARS-CoV-2"@fr ;
-    skos:altLabel "Covid-ARNm-S-frag"@fr .
+<http://ivci.org/NUVA/VAL427> rdfs:label "Valence covid 19, ARNm codant un fragment de la protéine Spike du SARS-CoV-2"@fr .
 
-<http://ivci.org/NUVA/VAL428> rdfs:label "Valence covid 19, ARNm codant les fragments NTD et RBD de la protéine Spike, variant Omicron LP.8.1"@fr ;
-    skos:altLabel "Covid-ARNm-S-frag-OMI-LP.8.1"@fr .
+<http://ivci.org/NUVA/VAL428> rdfs:label "Valence covid 19, ARNm codant les fragments NTD et RBD de la protéine Spike, variant Omicron LP.8.1"@fr .
 
-<http://ivci.org/NUVA/VAL429> rdfs:label "Valence VRS, anticorps monoclonal, clesrovimab"@fr ;
-    skos:altLabel "VRS-mAb-cle"@fr .
+<http://ivci.org/NUVA/VAL429> rdfs:label "Valence VRS, anticorps monoclonal, clesrovimab"@fr .
 
-<http://ivci.org/NUVA/VAL430> rdfs:label "Valence encéphalite à tiques, inactivée, entière, souche K23, 0,25 mL"@fr ;
-    skos:altLabel "TBE-K23-25"@fr .
+<http://ivci.org/NUVA/VAL430> rdfs:label "Valence encéphalite à tiques, inactivée, entière, souche K23, 0,25 mL"@fr .
 
-<http://ivci.org/NUVA/VAL431> rdfs:label "Valence encéphalite à tiques, inactivée, entière, souche K23, 0,50 mL"@fr ;
-    skos:altLabel "TBE-K23-50"@fr .
+<http://ivci.org/NUVA/VAL431> rdfs:label "Valence encéphalite à tiques, inactivée, entière, souche K23, 0,50 mL"@fr .
 
-<http://ivci.org/NUVA/VAL432> rdfs:label "Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1-25"@fr .
+<http://ivci.org/NUVA/VAL432> rdfs:label "Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 25 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL433> rdfs:label "Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-LP.8.1-50"@fr .
+<http://ivci.org/NUVA/VAL433> rdfs:label "Valence covid 19, variant Omicron LP.8.1, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL434> rdfs:label "Valence covid 19, sous-variant Omicron LP.8.1, sous-unité protéique, protéine de pointe recombinante (domaine RBD)"@fr ;
-    skos:altLabel "Covid-SP-rRBD-LP.8.1"@fr .
+<http://ivci.org/NUVA/VAL434> rdfs:label "Valence covid 19, sous-variant Omicron LP.8.1, sous-unité protéique, protéine de pointe recombinante (domaine RBD)"@fr .
 
-<http://ivci.org/NUVA/VAL435> rdfs:label "Valence dengue, souche atténuée native"@fr ;
-    skos:altLabel "DENV2-VVA"@fr .
+<http://ivci.org/NUVA/VAL435> rdfs:label "Valence dengue, souche atténuée native"@fr .
 
-<http://ivci.org/NUVA/VAL436> rdfs:label "Valence dengue, vivant, recombinant, chimère DENV-2 + prM/E de DENV-1"@fr ;
-    skos:altLabel "DENV1rCH"@fr .
+<http://ivci.org/NUVA/VAL436> rdfs:label "Valence dengue, vivant, recombinant, chimère DENV-2 + prM/E de DENV-1"@fr .
 
-<http://ivci.org/NUVA/VAL437> rdfs:label "Valence dengue, vivant, recombinant, chimère DENV-2 + prM/E de DENV-3"@fr ;
-    skos:altLabel "DENV3rCH"@fr .
+<http://ivci.org/NUVA/VAL437> rdfs:label "Valence dengue, vivant, recombinant, chimère DENV-2 + prM/E de DENV-3"@fr .
 
-<http://ivci.org/NUVA/VAL438> rdfs:label "Valence dengue, vivant, recombinant, chimère DENV-2 + prM/E de DENV-4"@fr ;
-    skos:altLabel "DENV4rCH"@fr .
+<http://ivci.org/NUVA/VAL438> rdfs:label "Valence dengue, vivant, recombinant, chimère DENV-2 + prM/E de DENV-4"@fr .
 
-<http://ivci.org/NUVA/VAL439> rdfs:label "Valence covid 19, variant Omicron XFG, ARNm codant la protéine de pointe du SARS-CoV-2"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-XFG"@fr .
+<http://ivci.org/NUVA/VAL439> rdfs:label "Valence covid 19, variant Omicron XFG, ARNm codant la protéine de pointe du SARS-CoV-2"@fr .
 
-<http://ivci.org/NUVA/VAL440> rdfs:label "Valence covid 19, variant Omicron XFG, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-XFG-10"@fr .
+<http://ivci.org/NUVA/VAL440> rdfs:label "Valence covid 19, variant Omicron XFG, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL441> rdfs:label "Valence covid 19, variant Omicron XFG, ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes"@fr ;
-    skos:altLabel "Covid-ARNm-S-OMI-XFG-30"@fr .
+<http://ivci.org/NUVA/VAL441> rdfs:label "Valence covid 19, variant Omicron XFG, ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL442> rdfs:label "Valence mélanome, ARN messager, néoantigènes individualisés"@fr ;
-    skos:altLabel "MEL-ARNI"@fr .
+<http://ivci.org/NUVA/VAL442> rdfs:label "Valence mélanome, ARN messager, néoantigènes individualisés"@fr .
 
-<http://ivci.org/NUVA/VAL443> rdfs:label "Valence covid 19, sous-variant Omicron XFG, sous-unité protéique, protéine de pointe recombinante dans des nanoparticules"@fr ;
-    skos:altLabel "Covid-SP-rSnp-XFG"@fr .
+<http://ivci.org/NUVA/VAL443> rdfs:label "Valence covid 19, sous-variant Omicron XFG, sous-unité protéique, protéine de pointe recombinante dans des nanoparticules"@fr .
 
-<http://ivci.org/NUVA/VAL444> rdfs:label "Valence covid 19, sous-variant Omicron XFG, sous-unité protéique, protéine de pointe recombinante (domaine RBD)"@fr ;
-    skos:altLabel "Covid-SP-rRBD-XFG"@fr .
+<http://ivci.org/NUVA/VAL444> rdfs:label "Valence covid 19, sous-variant Omicron XFG, sous-unité protéique, protéine de pointe recombinante (domaine RBD)"@fr .
 
-<http://ivci.org/NUVA/VAL445> rdfs:label "Valence typhoïde, antigène Vi conjugué à l’anatoxine diphtérique"@fr ;
-    skos:altLabel "Ty-ViC-D"@fr .
+<http://ivci.org/NUVA/VAL445> rdfs:label "Valence typhoïde, antigène Vi conjugué à l’anatoxine diphtérique"@fr .
 
-<http://ivci.org/NUVA/VAL446> rdfs:label "Valence Morganella morganii, non précisé"@fr ;
-    skos:altLabel "Mmo"@fr .
+<http://ivci.org/NUVA/VAL446> rdfs:label "Valence Morganella morganii, non précisé"@fr .
 
-<http://ivci.org/NUVA/VAL447> rdfs:label "Valence Proteus mirabilis, sans précision"@fr ;
-    skos:altLabel "Pmi"@fr .
+<http://ivci.org/NUVA/VAL447> rdfs:label "Valence Proteus mirabilis, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL448> rdfs:label "Valence leptospirose, non précisé"@fr ;
-    skos:altLabel "Lepto"@fr .
+<http://ivci.org/NUVA/VAL448> rdfs:label "Valence leptospirose, non précisé"@fr .
 
-<http://ivci.org/NUVA/VAL449> rdfs:label "Valence grippe, ARN, trivalente, sans précision"@fr ;
-    skos:altLabel "Inf-ARN3"@fr .
+<http://ivci.org/NUVA/VAL449> rdfs:label "Valence grippe, ARN, trivalente, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL450> rdfs:label "Valence Cancers épidermoïdes de la tête et du cou non liés au papillomavirus, non précisé"@fr ;
-    skos:altLabel "HNSCC-VPHneg"@fr .
+<http://ivci.org/NUVA/VAL450> rdfs:label "Valence Cancers épidermoïdes de la tête et du cou non liés au papillomavirus, non précisé"@fr .
 

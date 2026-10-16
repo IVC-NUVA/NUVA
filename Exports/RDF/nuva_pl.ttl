@@ -1,5 +1,4 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <http://ivci.org/NUVA/VAC0084> rdfs:label "H5N1 pre-pandemic influenza vaccine, unspecified"@pl ;
     rdfs:comment "Szczepionka przeciwko grypie A(H5N1)"@pl .
@@ -592,927 +591,579 @@
 
 <http://ivci.org/NUVA/VAC1341> rdfs:label "SPIKEVAX BA.4-5 0,1 mg/mL dose 50 µg"@pl .
 
-<http://ivci.org/NUVA/VAL001> rdfs:label "Trójwalentna żywa atenuowana wartość przeciwko grypie, normalna dawka"@pl ;
-    skos:altLabel "Inf-L3"@pl .
+<http://ivci.org/NUVA/VAL001> rdfs:label "Trójwalentna żywa atenuowana wartość przeciwko grypie, normalna dawka"@pl .
 
-<http://ivci.org/NUVA/VAL002> rdfs:label "Skoniugowana szczepionka przeciwko durowi brzusznemu, antygen polisacharydowy Vi połączony z białkiem nośnikowym"@pl ;
-    skos:altLabel "Ty-ViC"@pl .
+<http://ivci.org/NUVA/VAL002> rdfs:label "Skoniugowana szczepionka przeciwko durowi brzusznemu, antygen polisacharydowy Vi połączony z białkiem nośnikowym"@pl .
 
-<http://ivci.org/NUVA/VAL003> rdfs:label "Wartość przeciwko krztuścowi, bez określenia"@pl ;
-    skos:altLabel "Per"@pl .
+<http://ivci.org/NUVA/VAL003> rdfs:label "Wartość przeciwko krztuścowi, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL004> rdfs:label "Całkowicie inaktywowana wartość przeciwko cholerze, do wstrzykiwania"@pl ;
-    skos:altLabel "I-Chol-I"@pl .
+<http://ivci.org/NUVA/VAL004> rdfs:label "Całkowicie inaktywowana wartość przeciwko cholerze, do wstrzykiwania"@pl .
 
-<http://ivci.org/NUVA/VAL005> skos:altLabel "Meas-LAV"@pl .
+<http://ivci.org/NUVA/VAL006> rdfs:label "Wartość przeciwko Brucella, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL006> rdfs:label "Wartość przeciwko Brucella, bez określenia"@pl ;
-    skos:altLabel "Bruc"@pl .
+<http://ivci.org/NUVA/VAL007> rdfs:label "Rekombinowany wirus pęcherzykowego zapalenia jamy ustnej (rVSV) wektor replikacyjny Szczepionka przeciwko Ebola - glikoproteina GP EBOV"@pl .
 
-<http://ivci.org/NUVA/VAL007> rdfs:label "Rekombinowany wirus pęcherzykowego zapalenia jamy ustnej (rVSV) wektor replikacyjny Szczepionka przeciwko Ebola - glikoproteina GP EBOV"@pl ;
-    skos:altLabel "rVSVdG-ZEBOV-GP"@pl .
+<http://ivci.org/NUVA/VAL008> rdfs:label "Wartość bezkomórkowej krztuścowej, standardowa dawka"@pl .
 
-<http://ivci.org/NUVA/VAL008> rdfs:label "Wartość bezkomórkowej krztuścowej, standardowa dawka"@pl ;
-    skos:altLabel "aP"@pl .
+<http://ivci.org/NUVA/VAL009> rdfs:label "Szczepionki przeciwko białkom powierzchniowym sporozoitów"@pl .
 
-<http://ivci.org/NUVA/VAL009> rdfs:label "Szczepionki przeciwko białkom powierzchniowym sporozoitów"@pl ;
-    skos:altLabel "Mala-SPO"@pl .
+<http://ivci.org/NUVA/VAL010> rdfs:label "Wartość przeciwko całej inaktywowanej krztuścowej bakterii"@pl .
 
-<http://ivci.org/NUVA/VAL010> rdfs:label "Wartość przeciwko całej inaktywowanej krztuścowej bakterii"@pl ;
-    skos:altLabel "wP"@pl .
+<http://ivci.org/NUVA/VAL011> rdfs:label "Szczepionka COVID-19, podjednostka białkowa, rekombinowane białko szpiku (RBD)"@pl .
 
-<http://ivci.org/NUVA/VAL011> rdfs:label "Szczepionka COVID-19, podjednostka białkowa, rekombinowane białko szpiku (RBD)"@pl ;
-    skos:altLabel "COVID-PS-rRBD"@pl .
+<http://ivci.org/NUVA/VAL012> rdfs:label "Szczepionka przeciwko zapaleniu wątroby typu B, rekombinowany antygen powierzchniowy wirusa zapalenia wątroby typu B (HBsAg), 40 mikrogramów (dawka dla pacjentów dializowanych)"@pl .
 
-<http://ivci.org/NUVA/VAL012> rdfs:label "Szczepionka przeciwko zapaleniu wątroby typu B, rekombinowany antygen powierzchniowy wirusa zapalenia wątroby typu B (HBsAg), 40 mikrogramów (dawka dla pacjentów dializowanych)"@pl ;
-    skos:altLabel "rHBsAg-40"@pl .
+<http://ivci.org/NUVA/VAL013> rdfs:label "Glikoproteina powierzchniowa E (gE) wirusa Varicella zoster (VZV)"@pl .
 
-<http://ivci.org/NUVA/VAL013> rdfs:label "Glikoproteina powierzchniowa E (gE) wirusa Varicella zoster (VZV)"@pl ;
-    skos:altLabel "Shingles-gE"@pl .
+<http://ivci.org/NUVA/VAL014> rdfs:label "Szczepionka przeciw tyfusowi plamistemu, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL014> rdfs:label "Szczepionka przeciw tyfusowi plamistemu, nieokreślona"@pl ;
-    skos:altLabel "Ty"@pl .
+<http://ivci.org/NUVA/VAL016> rdfs:label "Immunoglobulina przeciwko wściekliźnie, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL016> rdfs:label "Immunoglobulina przeciwko wściekliźnie, nieokreślona"@pl ;
-    skos:altLabel "RIG"@pl .
+<http://ivci.org/NUVA/VAL017> rdfs:label "Wartość bezkomórkowej krztuścowej, zmniejszona dawka"@pl .
 
-<http://ivci.org/NUVA/VAL017> rdfs:label "Wartość bezkomórkowej krztuścowej, zmniejszona dawka"@pl ;
-    skos:altLabel "ap"@pl .
+<http://ivci.org/NUVA/VAL018> rdfs:label "Szczepionka przeciwko ospie wietrznej trzeciej generacji, minimalnie replikująca żywy wirus vaccinia"@pl .
 
-<http://ivci.org/NUVA/VAL018> rdfs:label "Szczepionka przeciwko ospie wietrznej trzeciej generacji, minimalnie replikująca żywy wirus vaccinia"@pl ;
-    skos:altLabel "Pox-3G-LC16"@pl .
+<http://ivci.org/NUVA/VAL019> rdfs:label "Antytoksyna błonicza"@pl .
 
-<http://ivci.org/NUVA/VAL019> rdfs:label "Antytoksyna błonicza"@pl ;
-    skos:altLabel "DATx"@pl .
-
-<http://ivci.org/NUVA/VAL020> skos:altLabel "Shingles-L"@pl .
-
-<http://ivci.org/NUVA/VAL021> rdfs:label "Doustna inaktywowana szczepionka przeciwko całej cholerze"@pl ;
-    skos:altLabel "O-Chol-I"@pl .
-
-<http://ivci.org/NUVA/VAL022> skos:altLabel "Smallpox-L"@pl .
+<http://ivci.org/NUVA/VAL021> rdfs:label "Doustna inaktywowana szczepionka przeciwko całej cholerze"@pl .
 
 <http://ivci.org/NUVA/VAL024> rdfs:label "Trójwalentna inaktywowana wartość przeciwko grypie, dzielona lub podjednostkowa, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL025> rdfs:label "Szczepionka przeciwko malarii, niespecyfikowana"@pl ;
-    skos:altLabel "Mala"@pl .
+<http://ivci.org/NUVA/VAL025> rdfs:label "Szczepionka przeciwko malarii, niespecyfikowana"@pl .
 
-<http://ivci.org/NUVA/VAL026> rdfs:label "Szczepionka meningokokowa B:14:P1.7,16 z białkami pęcherzyków błony zewnętrznej"@pl ;
-    skos:altLabel "MenB-OMP"@pl .
+<http://ivci.org/NUVA/VAL026> rdfs:label "Szczepionka meningokokowa B:14:P1.7,16 z białkami pęcherzyków błony zewnętrznej"@pl .
 
-<http://ivci.org/NUVA/VAL027> rdfs:label "Szczepionka COVID-19, niereplikujący się wektor adenowirusa 26 kodujący białko szczytowe SARS-CoV-2"@pl ;
-    skos:altLabel "COVID-VVnr-S-Ad26"@pl .
+<http://ivci.org/NUVA/VAL027> rdfs:label "Szczepionka COVID-19, niereplikujący się wektor adenowirusa 26 kodujący białko szczytowe SARS-CoV-2"@pl .
 
-<http://ivci.org/NUVA/VAL028> skos:altLabel "POX-3G"@pl .
+<http://ivci.org/NUVA/VAL029> rdfs:label "Szczepionka VLP przeciwko grypie sezonowej, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL029> rdfs:label "Szczepionka VLP przeciwko grypie sezonowej, nieokreślona"@pl ;
-    skos:altLabel "Inf-VLP"@pl .
+<http://ivci.org/NUVA/VAL030> rdfs:label "Rekombinowana szczepionka przeciwko Borrelia burgdorferi - białko powierzchni zewnętrznej A (OspA)"@pl .
 
-<http://ivci.org/NUVA/VAL030> rdfs:label "Rekombinowana szczepionka przeciwko Borrelia burgdorferi - białko powierzchni zewnętrznej A (OspA)"@pl ;
-    skos:altLabel "Lyme-OspA"@pl .
+<http://ivci.org/NUVA/VAL031> rdfs:label "Kleszczowe zapalenie mózgu"@pl .
 
-<http://ivci.org/NUVA/VAL031> rdfs:label "Kleszczowe zapalenie mózgu"@pl ;
-    skos:altLabel "TBE"@pl .
+<http://ivci.org/NUVA/VAL032> rdfs:label "Szczepionka polisacharydowa przeciwko durowi brzusznemu, nieskoniugowany antygen polisacharydowy Vi"@pl .
 
-<http://ivci.org/NUVA/VAL032> rdfs:label "Szczepionka polisacharydowa przeciwko durowi brzusznemu, nieskoniugowany antygen polisacharydowy Vi"@pl ;
-    skos:altLabel "Ty-ViPS"@pl .
+<http://ivci.org/NUVA/VAL033> rdfs:label "Monowalentna żywa atenuowana doustna szczepionka przeciw polio typu 2"@pl .
 
-<http://ivci.org/NUVA/VAL033> rdfs:label "Monowalentna żywa atenuowana doustna szczepionka przeciw polio typu 2"@pl ;
-    skos:altLabel "mOPV2"@pl .
+<http://ivci.org/NUVA/VAL034> rdfs:label "Toksyna błonicza, mała dawka"@pl .
 
-<http://ivci.org/NUVA/VAL034> rdfs:label "Toksyna błonicza, mała dawka"@pl ;
-    skos:altLabel "d"@pl .
+<http://ivci.org/NUVA/VAL035> rdfs:label "Szczepionka COVID-19, plazmid DNA kodujący białko kolca SARS-CoV-2"@pl .
 
-<http://ivci.org/NUVA/VAL035> rdfs:label "Szczepionka COVID-19, plazmid DNA kodujący białko kolca SARS-CoV-2"@pl ;
-    skos:altLabel "COVID-DNA-S"@pl .
+<http://ivci.org/NUVA/VAL036> rdfs:label "Szczepionka niewalentna VLP przeciwko wirusowi brodawczaka ludzkiego, typy 6, 11, 16, 18, 31, 33, 45, 52, 58"@pl .
 
-<http://ivci.org/NUVA/VAL036> rdfs:label "Szczepionka niewalentna VLP przeciwko wirusowi brodawczaka ludzkiego, typy 6, 11, 16, 18, 31, 33, 45, 52, 58"@pl ;
-    skos:altLabel "HPV-09-valent"@pl .
+<http://ivci.org/NUVA/VAL037> rdfs:label "Szczepionka meningokokowa A, nieskoniugowana polisacharydowa"@pl .
 
-<http://ivci.org/NUVA/VAL037> rdfs:label "Szczepionka meningokokowa A, nieskoniugowana polisacharydowa"@pl ;
-    skos:altLabel "MPV-A"@pl .
+<http://ivci.org/NUVA/VAL038> rdfs:label "Szczepionka COVID-19, replikujący wektor wirusa odry kodujący białko kolca SARS-CoV-2"@pl .
 
-<http://ivci.org/NUVA/VAL038> rdfs:label "Szczepionka COVID-19, replikujący wektor wirusa odry kodujący białko kolca SARS-CoV-2"@pl ;
-    skos:altLabel "COVID-VVr-S-Meas"@pl .
+<http://ivci.org/NUVA/VAL039> rdfs:label "Szczepionka COVID-19, VLP, rekombinowane białko kolca"@pl .
 
-<http://ivci.org/NUVA/VAL039> rdfs:label "Szczepionka COVID-19, VLP, rekombinowane białko kolca"@pl ;
-    skos:altLabel "COVID-VLP-rS"@pl .
+<http://ivci.org/NUVA/VAL041> rdfs:label "Meningokok A, polisacharydowa szczepionka skoniugowana"@pl .
 
-<http://ivci.org/NUVA/VAL041> rdfs:label "Meningokok A, polisacharydowa szczepionka skoniugowana"@pl ;
-    skos:altLabel "MCV-A"@pl .
+<http://ivci.org/NUVA/VAL042> rdfs:label "Szczepionka przeciwko polio, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL042> rdfs:label "Szczepionka przeciwko polio, nieokreślona"@pl ;
-    skos:altLabel "POLIO"@pl .
+<http://ivci.org/NUVA/VAL043> rdfs:label "Szczepionka SARS-CoV-2 spike protein mRNA 19"@pl .
 
-<http://ivci.org/NUVA/VAL043> rdfs:label "Szczepionka SARS-CoV-2 spike protein mRNA 19"@pl ;
-    skos:altLabel "COVID-mRNA-S"@pl .
+<http://ivci.org/NUVA/VAL044> rdfs:label "Varicella"@pl .
 
-<http://ivci.org/NUVA/VAL044> rdfs:label "Varicella"@pl ;
-    skos:altLabel "VZV-LAV"@pl .
+<http://ivci.org/NUVA/VAL045> rdfs:label "Inaktywowana cała szczepionka przeciwko paratyfusowi"@pl .
 
-<http://ivci.org/NUVA/VAL045> rdfs:label "Inaktywowana cała szczepionka przeciwko paratyfusowi"@pl ;
-    skos:altLabel "pTy-I"@pl .
+<http://ivci.org/NUVA/VAL046> rdfs:label "Tyfus"@pl .
 
-<http://ivci.org/NUVA/VAL046> rdfs:label "Tyfus"@pl ;
-    skos:altLabel "Typhus"@pl .
+<http://ivci.org/NUVA/VAL047> rdfs:label "Immunoglobulina zapalenia wątroby typu B"@pl .
 
-<http://ivci.org/NUVA/VAL047> rdfs:label "Immunoglobulina zapalenia wątroby typu B"@pl ;
-    skos:altLabel "IgHepB"@pl .
+<http://ivci.org/NUVA/VAL048> rdfs:label "Inaktywowana cała szczepionka przeciwko śwince"@pl .
 
-<http://ivci.org/NUVA/VAL048> rdfs:label "Inaktywowana cała szczepionka przeciwko śwince"@pl ;
-    skos:altLabel "Or-I"@pl .
+<http://ivci.org/NUVA/VAL049> rdfs:label "Polisacharydowa wartość przeciwko Haemophilus influenzae typu b, niesprzężona"@pl .
 
-<http://ivci.org/NUVA/VAL049> rdfs:label "Polisacharydowa wartość przeciwko Haemophilus influenzae typu b, niesprzężona"@pl ;
-    skos:altLabel "Hib-PS"@pl .
+<http://ivci.org/NUVA/VAL050> rdfs:label "Szczepionka COVID-19, niereplikujący się wektor adenowirusowy 5 kodujący białko kolca SARS-CoV-2, niespecyfikowany"@pl .
 
-<http://ivci.org/NUVA/VAL050> rdfs:label "Szczepionka COVID-19, niereplikujący się wektor adenowirusowy 5 kodujący białko kolca SARS-CoV-2, niespecyfikowany"@pl ;
-    skos:altLabel "COVID-VVnr-S-Ad5"@pl .
+<http://ivci.org/NUVA/VAL051> rdfs:label "Szczepionka przedpandemiczna przeciwko grypie A(H5N1)"@pl .
 
-<http://ivci.org/NUVA/VAL051> rdfs:label "Szczepionka przedpandemiczna przeciwko grypie A(H5N1)"@pl ;
-    skos:altLabel "AH5N1"@pl .
+<http://ivci.org/NUVA/VAL052> rdfs:label "Czterowalentna szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typy 6, 11, 16 i 18"@pl .
 
-<http://ivci.org/NUVA/VAL052> rdfs:label "Czterowalentna szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typy 6, 11, 16 i 18"@pl ;
-    skos:altLabel "HPV-04-valent"@pl .
+<http://ivci.org/NUVA/VAL053> rdfs:label "Szczepionka COVID-19, podjednostka białkowa, rekombinowane białko kolczaste, niespecyfikowana"@pl .
 
-<http://ivci.org/NUVA/VAL053> rdfs:label "Szczepionka COVID-19, podjednostka białkowa, rekombinowane białko kolczaste, niespecyfikowana"@pl ;
-    skos:altLabel "COVID-PS"@pl .
+<http://ivci.org/NUVA/VAL054> rdfs:label "Szczepionka COVID-19, niereplikujący się zmodyfikowany wektor Vaccinia Virus Ankara kodujący białko kolca SARS-CoV-2"@pl .
 
-<http://ivci.org/NUVA/VAL054> rdfs:label "Szczepionka COVID-19, niereplikujący się zmodyfikowany wektor Vaccinia Virus Ankara kodujący białko kolca SARS-CoV-2"@pl ;
-    skos:altLabel "COVID-VVnr-S-MVA"@pl .
+<http://ivci.org/NUVA/VAL055> rdfs:label "Immunoglobulina przeciwko gorączce"@pl .
 
-<http://ivci.org/NUVA/VAL055> rdfs:label "Immunoglobulina przeciwko gorączce"@pl ;
-    skos:altLabel "Ig-Measles"@pl .
+<http://ivci.org/NUVA/VAL056> rdfs:label "Cała inaktywowana trójwalentna szczepionka przeciwko polio do wstrzykiwań"@pl .
 
-<http://ivci.org/NUVA/VAL056> rdfs:label "Cała inaktywowana trójwalentna szczepionka przeciwko polio do wstrzykiwań"@pl ;
-    skos:altLabel "POLIO-I"@pl .
-
-<http://ivci.org/NUVA/VAL057> rdfs:label "Szczepionka meningokokowa C, polisacharydowa skoniugowana"@pl ;
-    skos:altLabel "MCV-C"@pl .
+<http://ivci.org/NUVA/VAL057> rdfs:label "Szczepionka meningokokowa C, polisacharydowa skoniugowana"@pl .
 
 <http://ivci.org/NUVA/VAL058> rdfs:label "Inaktywowana wartość przeciwko grypie, dzielona lub podjednostkowa, bez określenia"@pl .
 
 <http://ivci.org/NUVA/VAL059> rdfs:label "Czterowalentna żywa atenuowana wartość przeciwko grypie, normalna dawka"@pl .
 
-<http://ivci.org/NUVA/VAL060> skos:altLabel "CHIK-LA"@pl .
+<http://ivci.org/NUVA/VAL061> rdfs:label "Szczepionka COVID-19, podjednostka białkowa, rekombinowane białko kolca, S-2P i CpG1018"@pl .
 
-<http://ivci.org/NUVA/VAL061> rdfs:label "Szczepionka COVID-19, podjednostka białkowa, rekombinowane białko kolca, S-2P i CpG1018"@pl ;
-    skos:altLabel "COVID-PS-CpG1018"@pl .
+<http://ivci.org/NUVA/VAL063> rdfs:label "Antytoksyna botulinowa"@pl .
 
-<http://ivci.org/NUVA/VAL062> skos:altLabel "O-Chol-rCTB-I"@pl .
+<http://ivci.org/NUVA/VAL065> rdfs:label "Żywa atenuowana rekombinowana chimeryczna tetrawalentna szczepionka przeciwko dendze "@pl .
 
-<http://ivci.org/NUVA/VAL063> rdfs:label "Antytoksyna botulinowa"@pl ;
-    skos:altLabel "BAT"@pl .
+<http://ivci.org/NUVA/VAL066> rdfs:label "Szczepionka przeciwko wirusowi replikującemu SARS-CoV-2, wirusowi grypy kodującemu białko szczytowe SARS-CoV-2"@pl .
 
-<http://ivci.org/NUVA/VAL065> rdfs:label "Żywa atenuowana rekombinowana chimeryczna tetrawalentna szczepionka przeciwko dendze "@pl ;
-    skos:altLabel "RC-TDV"@pl .
+<http://ivci.org/NUVA/VAL067> rdfs:label "Toksyna tężcowa"@pl .
 
-<http://ivci.org/NUVA/VAL066> rdfs:label "Szczepionka przeciwko wirusowi replikującemu SARS-CoV-2, wirusowi grypy kodującemu białko szczytowe SARS-CoV-2"@pl ;
-    skos:altLabel "COVID-VVr-S-Influ"@pl .
+<http://ivci.org/NUVA/VAL068> rdfs:label "Wartość przeciwko wirusowemu zapaleniu wątroby typu B, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL067> rdfs:label "Toksyna tężcowa"@pl ;
-    skos:altLabel "T"@pl .
+<http://ivci.org/NUVA/VAL069> rdfs:label "Szczepionka COVID-19, niereplikujący się szympansi wektor adenowirusowy ChAdOx1 kodujący białko kolca SARS-CoV-2"@pl .
 
-<http://ivci.org/NUVA/VAL068> rdfs:label "Wartość przeciwko wirusowemu zapaleniu wątroby typu B, bez określenia"@pl ;
-    skos:altLabel "HepB"@pl .
+<http://ivci.org/NUVA/VAL070> rdfs:label "Szczepionka COVID-19, niereplikujący się wektor adenowirusowy kodujący białko kolczaste SARS-CoV-2, niespecyfikowana"@pl .
 
-<http://ivci.org/NUVA/VAL069> rdfs:label "Szczepionka COVID-19, niereplikujący się szympansi wektor adenowirusowy ChAdOx1 kodujący białko kolca SARS-CoV-2"@pl ;
-    skos:altLabel "COVID-VVnr-S-ChAdOx1"@pl .
+<http://ivci.org/NUVA/VAL071> rdfs:label "Inaktywowana cała szczepionka przeciwko durowi brzusznemu"@pl .
 
-<http://ivci.org/NUVA/VAL070> rdfs:label "Szczepionka COVID-19, niereplikujący się wektor adenowirusowy kodujący białko kolczaste SARS-CoV-2, niespecyfikowana"@pl ;
-    skos:altLabel "COVID-VVnr-S-Ad"@pl .
+<http://ivci.org/NUVA/VAL072> rdfs:label "Szczepionka przeciwko meningokokom B zawierająca fHbp z podrodzin A i B"@pl .
 
-<http://ivci.org/NUVA/VAL071> rdfs:label "Inaktywowana cała szczepionka przeciwko durowi brzusznemu"@pl ;
-    skos:altLabel "Ty-I"@pl .
-
-<http://ivci.org/NUVA/VAL072> rdfs:label "Szczepionka przeciwko meningokokom B zawierająca fHbp z podrodzin A i B"@pl ;
-    skos:altLabel "MenB-fHbpAB"@pl .
-
-<http://ivci.org/NUVA/VAL073> rdfs:label "Szczepionka COVID-19, replikujący wektor wirusowy, z komórkami prezentującymi antygen"@pl ;
-    skos:altLabel "COVID-VVr+APC"@pl .
+<http://ivci.org/NUVA/VAL073> rdfs:label "Szczepionka COVID-19, replikujący wektor wirusowy, z komórkami prezentującymi antygen"@pl .
 
 <http://ivci.org/NUVA/VAL074> rdfs:label "Inaktywowana czterowalentna szczepionka przeciwko grypie, podzielona lub podjednostkowa, wysokodawkowa"@pl .
 
-<http://ivci.org/NUVA/VAL075> rdfs:label "Inaktywowana cała szczepionka przeciwko Leptospira icterohaemorrhagiae"@pl ;
-    skos:altLabel "Lepto-wI"@pl .
+<http://ivci.org/NUVA/VAL075> rdfs:label "Inaktywowana cała szczepionka przeciwko Leptospira icterohaemorrhagiae"@pl .
 
 <http://ivci.org/NUVA/VAL076> rdfs:label "Szczepionka COVID-19, inaktywowana całymi wirusami, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL077> skos:altLabel "Mumps-LAV"@pl .
+<http://ivci.org/NUVA/VAL078> rdfs:label "Szczepionka przeciwko meningokokom Y, polisacharydowa skoniugowana"@pl .
 
-<http://ivci.org/NUVA/VAL078> rdfs:label "Szczepionka przeciwko meningokokom Y, polisacharydowa skoniugowana"@pl ;
-    skos:altLabel "MCV-Y"@pl .
+<http://ivci.org/NUVA/VAL080> rdfs:label "Inaktywowana w całości szczepionka przeciwko wściekliźnie, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL079> skos:altLabel "Rub-LAV"@pl .
+<http://ivci.org/NUVA/VAL081> rdfs:label "Wartość przeciwko cholerze, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL080> rdfs:label "Inaktywowana w całości szczepionka przeciwko wściekliźnie, nieokreślona"@pl ;
-    skos:altLabel "Rab-I"@pl .
+<http://ivci.org/NUVA/VAL082> rdfs:label "Szczepionka przeciwko wirusowi brodawczaka ludzkiego, typy nieokreślone"@pl .
 
-<http://ivci.org/NUVA/VAL081> rdfs:label "Wartość przeciwko cholerze, bez określenia"@pl ;
-    skos:altLabel "Chol"@pl .
+<http://ivci.org/NUVA/VAL083> rdfs:label "Toksoid błoniczy, dawka nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL082> rdfs:label "Szczepionka przeciwko wirusowi brodawczaka ludzkiego, typy nieokreślone"@pl ;
-    skos:altLabel "HPV"@pl .
+<http://ivci.org/NUVA/VAL084> rdfs:label "Szczepionka COVID-19, replikujący wektor wirusa pęcherzykowego zapalenia jamy ustnej kodujący białko kolca SARS-CoV-2"@pl .
 
-<http://ivci.org/NUVA/VAL083> rdfs:label "Toksoid błoniczy, dawka nieokreślona"@pl ;
-    skos:altLabel "D-d"@pl .
+<http://ivci.org/NUVA/VAL085> rdfs:label "Monowalentna żywa atenuowana doustna szczepionka przeciwko polio typu 3"@pl .
 
-<http://ivci.org/NUVA/VAL084> rdfs:label "Szczepionka COVID-19, replikujący wektor wirusa pęcherzykowego zapalenia jamy ustnej kodujący białko kolca SARS-CoV-2"@pl ;
-    skos:altLabel "COVID-VVr-S-VSV"@pl .
+<http://ivci.org/NUVA/VAL086> rdfs:label "Szczepionka COVID-19, żywa, atenuowana, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL085> rdfs:label "Monowalentna żywa atenuowana doustna szczepionka przeciwko polio typu 3"@pl ;
-    skos:altLabel "mOPV3"@pl .
+<http://ivci.org/NUVA/VAL087> rdfs:label "Wartość dengi, żywa atenuowana tetrwalentna chimeryczna rekombinowana oparta na szczepionce przeciw żółtej febrze 17D"@pl .
 
-<http://ivci.org/NUVA/VAL086> rdfs:label "Szczepionka COVID-19, żywa, atenuowana, nieokreślona"@pl ;
-    skos:altLabel "COVID-LA"@pl .
+<http://ivci.org/NUVA/VAL088> rdfs:label "Immunoglobulina Varicella"@pl .
 
-<http://ivci.org/NUVA/VAL087> rdfs:label "Wartość dengi, żywa atenuowana tetrwalentna chimeryczna rekombinowana oparta na szczepionce przeciw żółtej febrze 17D"@pl ;
-    skos:altLabel "CYD-TDV"@pl .
+<http://ivci.org/NUVA/VAL089> rdfs:label "Wartość inaktywowana przeciwko japońskiemu zapaleniu mózgu, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL088> rdfs:label "Immunoglobulina Varicella"@pl ;
-    skos:altLabel "VZV-Ig"@pl .
+<http://ivci.org/NUVA/VAL090> rdfs:label "Szczepionka przeciwko zapaleniu wątroby typu B, rekombinowany antygen powierzchniowy wirusa zapalenia wątroby typu B (HBsAg), dawka nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL089> rdfs:label "Wartość inaktywowana przeciwko japońskiemu zapaleniu mózgu, bez określenia"@pl ;
-    skos:altLabel "JE-I"@pl .
+<http://ivci.org/NUVA/VAL091> rdfs:label "Żywa atenuowana szczepionka przeciwko durowi brzusznemu, szczep Ty21a, doustna"@pl .
 
-<http://ivci.org/NUVA/VAL090> rdfs:label "Szczepionka przeciwko zapaleniu wątroby typu B, rekombinowany antygen powierzchniowy wirusa zapalenia wątroby typu B (HBsAg), dawka nieokreślona"@pl ;
-    skos:altLabel "rHBsAg"@pl .
+<http://ivci.org/NUVA/VAL092> rdfs:label "Żółta gorączka"@pl .
 
-<http://ivci.org/NUVA/VAL091> rdfs:label "Żywa atenuowana szczepionka przeciwko durowi brzusznemu, szczep Ty21a, doustna"@pl ;
-    skos:altLabel "Ty-LA"@pl .
+<http://ivci.org/NUVA/VAL093> rdfs:label "Inaktywowana cała szczepionka przeciwko odrze"@pl .
 
-<http://ivci.org/NUVA/VAL092> rdfs:label "Żółta gorączka"@pl ;
-    skos:altLabel "YF"@pl .
+<http://ivci.org/NUVA/VAL095> rdfs:label "Szczepionka COVID-19, replikujący wektor wirusa rzekomego pomoru drobiu kodujący białko kolczaste SARS-CoV-2"@pl .
 
-<http://ivci.org/NUVA/VAL093> rdfs:label "Inaktywowana cała szczepionka przeciwko odrze"@pl ;
-    skos:altLabel "Meas-I"@pl .
+<http://ivci.org/NUVA/VAL096> rdfs:label "Wartość BCG"@pl .
 
-<http://ivci.org/NUVA/VAL095> rdfs:label "Szczepionka COVID-19, replikujący wektor wirusa rzekomego pomoru drobiu kodujący białko kolczaste SARS-CoV-2"@pl ;
-    skos:altLabel "COVID-VVr-S-Nv"@pl .
+<http://ivci.org/NUVA/VAL097> rdfs:label "Toksoid błoniczy, dawka standardowa"@pl .
 
-<http://ivci.org/NUVA/VAL096> rdfs:label "Wartość BCG"@pl ;
-    skos:altLabel "BCG"@pl .
+<http://ivci.org/NUVA/VAL098> rdfs:label "4-komponentowa szczepionka przeciwko meningokokom typu B"@pl .
 
-<http://ivci.org/NUVA/VAL097> rdfs:label "Toksoid błoniczy, dawka standardowa"@pl ;
-    skos:altLabel "D"@pl .
+<http://ivci.org/NUVA/VAL099> rdfs:label "Wartość inaktywowana przeciwko pandemicznej grypie H1N1 2009 "@pl .
 
-<http://ivci.org/NUVA/VAL098> rdfs:label "4-komponentowa szczepionka przeciwko meningokokom typu B"@pl ;
-    skos:altLabel "4CMenB"@pl .
+<http://ivci.org/NUVA/VAL101> rdfs:label "Szczepionka COVID-19, niereplikujący się wektor wirusa rzekomego pomoru drobiu kodujący białko kolca SARS-CoV-2"@pl .
 
-<http://ivci.org/NUVA/VAL099> rdfs:label "Wartość inaktywowana przeciwko pandemicznej grypie H1N1 2009 "@pl ;
-    skos:altLabel "Inf-pdm09"@pl .
+<http://ivci.org/NUVA/VAL102> rdfs:label "Rekombinowana peptydowa wartość przeciwko wirusowemu zapaleniu wątroby typu E"@pl .
 
-<http://ivci.org/NUVA/VAL100> skos:altLabel "JE-LAV-14-14-2"@pl .
+<http://ivci.org/NUVA/VAL103> rdfs:label "Sprzężona wartość przeciwko Haemophilus influenzae typu b, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL101> rdfs:label "Szczepionka COVID-19, niereplikujący się wektor wirusa rzekomego pomoru drobiu kodujący białko kolca SARS-CoV-2"@pl ;
-    skos:altLabel "COVID-VVnr-S-Nv"@pl .
+<http://ivci.org/NUVA/VAL104> rdfs:label "Szczepionka COVID-19, podjednostka białkowa, rekombinowane białko kolca"@pl .
 
-<http://ivci.org/NUVA/VAL102> rdfs:label "Rekombinowana peptydowa wartość przeciwko wirusowemu zapaleniu wątroby typu E"@pl ;
-    skos:altLabel "HepE"@pl .
+<http://ivci.org/NUVA/VAL105> rdfs:label "Szczepionka przeciw pneumokokom, niespecyfikowana"@pl .
 
-<http://ivci.org/NUVA/VAL103> rdfs:label "Sprzężona wartość przeciwko Haemophilus influenzae typu b, bez określenia"@pl ;
-    skos:altLabel "Hib-C"@pl .
-
-<http://ivci.org/NUVA/VAL104> rdfs:label "Szczepionka COVID-19, podjednostka białkowa, rekombinowane białko kolca"@pl ;
-    skos:altLabel "COVID-PS-rS"@pl .
-
-<http://ivci.org/NUVA/VAL105> rdfs:label "Szczepionka przeciw pneumokokom, niespecyfikowana"@pl ;
-    skos:altLabel "Pneumo"@pl .
-
-<http://ivci.org/NUVA/VAL106> rdfs:label "Szczepionka przeciwko rotawirusom, nieokreślona"@pl ;
-    skos:altLabel "Rota"@pl .
+<http://ivci.org/NUVA/VAL106> rdfs:label "Szczepionka przeciwko rotawirusom, nieokreślona"@pl .
 
 <http://ivci.org/NUVA/VAL107> rdfs:label "Szczepionka COVID-19, podjednostka białkowa, rekombinowane nanocząstki białka kolczastego"@pl .
 
-<http://ivci.org/NUVA/VAL108> rdfs:label "Żywa niereplikująca się rekombinowana szczepionka wektorowa Ad26.ZEBOV"@pl ;
-    skos:altLabel "ZebovVRnrAd26"@pl .
+<http://ivci.org/NUVA/VAL108> rdfs:label "Żywa niereplikująca się rekombinowana szczepionka wektorowa Ad26.ZEBOV"@pl .
 
-<http://ivci.org/NUVA/VAL109> rdfs:label "Wartość przeciwko eboli z niereplikującym się wektorem wirusowym, zmodyfikowana szczepionka Ankara "@pl ;
-    skos:altLabel "Ebola-MVA-BN-Filo"@pl .
+<http://ivci.org/NUVA/VAL109> rdfs:label "Wartość przeciwko eboli z niereplikującym się wektorem wirusowym, zmodyfikowana szczepionka Ankara "@pl .
 
-<http://ivci.org/NUVA/VAL110> rdfs:label "Immunoglobulina tężcowa"@pl ;
-    skos:altLabel "T-Ig"@pl .
+<http://ivci.org/NUVA/VAL110> rdfs:label "Immunoglobulina tężcowa"@pl .
 
-<http://ivci.org/NUVA/VAL111> rdfs:label "Bezkomórkowa szczepionka przeciw wąglikowi"@pl ;
-    skos:altLabel "Bant"@pl .
+<http://ivci.org/NUVA/VAL111> rdfs:label "Bezkomórkowa szczepionka przeciw wąglikowi"@pl .
 
 <http://ivci.org/NUVA/VAL112> rdfs:label "Czterowalentna inaktywowana wartość przeciwko grypie uzyskana z hodowli komórkowej, dzielona lub podjednostkowa, normalna dawka"@pl .
 
-<http://ivci.org/NUVA/VAL113> rdfs:label "Dwuwalentna szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typy 16 i 18"@pl ;
-    skos:altLabel "HPV-02-valent"@pl .
+<http://ivci.org/NUVA/VAL113> rdfs:label "Dwuwalentna szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typy 16 i 18"@pl .
 
-<http://ivci.org/NUVA/VAL114> rdfs:label "Szczepionka przeciwko wirusowemu zapaleniu wątroby typu B, rekombinowany antygen powierzchniowy zapalenia wątroby typu B (HBsAg), 10 mikrogramów"@pl ;
-    skos:altLabel "rHBsAg-10"@pl .
+<http://ivci.org/NUVA/VAL114> rdfs:label "Szczepionka przeciwko wirusowemu zapaleniu wątroby typu B, rekombinowany antygen powierzchniowy zapalenia wątroby typu B (HBsAg), 10 mikrogramów"@pl .
 
 <http://ivci.org/NUVA/VAL115> rdfs:label "Szczepionka przeciwko wirusowemu zapaleniu wątroby typu B, rekombinowany antygen powierzchniowy wirusa zapalenia wątroby typu B (HBsAg), 20 mikrogramów"@pl .
 
-<http://ivci.org/NUVA/VAL116> rdfs:label "Przeciwciało monoklonalne przeciwko RSV, palivizumab"@pl ;
-    skos:altLabel "RSV-mAb-pal"@pl .
+<http://ivci.org/NUVA/VAL116> rdfs:label "Przeciwciało monoklonalne przeciwko RSV, palivizumab"@pl .
 
-<http://ivci.org/NUVA/VAL117> rdfs:label "Szczepionka acelularna przeciwko krztuścowi, dawka nieokreślona"@pl ;
-    skos:altLabel "Acel"@pl .
+<http://ivci.org/NUVA/VAL117> rdfs:label "Szczepionka acelularna przeciwko krztuścowi, dawka nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL118> rdfs:label "Szczepionka meningokokowa typu B, niespecyfikowana"@pl ;
-    skos:altLabel "MenB"@pl .
+<http://ivci.org/NUVA/VAL118> rdfs:label "Szczepionka meningokokowa typu B, niespecyfikowana"@pl .
 
-<http://ivci.org/NUVA/VAL119> rdfs:label "Meningokokowa monowalentna nieskoniugowana szczepionka polisacharydowa"@pl ;
-    skos:altLabel "MPV-mono"@pl .
+<http://ivci.org/NUVA/VAL119> rdfs:label "Meningokokowa monowalentna nieskoniugowana szczepionka polisacharydowa"@pl .
 
-<http://ivci.org/NUVA/VAL120> rdfs:label "Nieskoniugowany polisacharyd meningokokowy, poliwalentny"@pl ;
-    skos:altLabel "MPV-poly"@pl .
+<http://ivci.org/NUVA/VAL120> rdfs:label "Nieskoniugowany polisacharyd meningokokowy, poliwalentny"@pl .
 
-<http://ivci.org/NUVA/VAL121> rdfs:label "Doustna trójwalentna inaktywowana całkowita szczepionka przeciw polio"@pl ;
-    skos:altLabel "POLIO-I-O"@pl .
+<http://ivci.org/NUVA/VAL121> rdfs:label "Doustna trójwalentna inaktywowana całkowita szczepionka przeciw polio"@pl .
 
-<http://ivci.org/NUVA/VAL123> skos:altLabel "Rota5-L"@pl .
+<http://ivci.org/NUVA/VAL124> rdfs:label "Wartość żywa atenuowana przeciwko cholerze, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL124> rdfs:label "Wartość żywa atenuowana przeciwko cholerze, bez określenia"@pl ;
-    skos:altLabel "Chol-L"@pl .
+<http://ivci.org/NUVA/VAL125> rdfs:label "Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu wątroby typu A, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL125> rdfs:label "Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu wątroby typu A, bez określenia"@pl ;
-    skos:altLabel "HepA-I"@pl .
+<http://ivci.org/NUVA/VAL126> rdfs:label "Wartość przeciwko eboli, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL126> rdfs:label "Wartość przeciwko eboli, bez określenia"@pl ;
-    skos:altLabel "Ebola"@pl .
+<http://ivci.org/NUVA/VAL128> rdfs:label "Wartość przeciwko grypie, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL128> rdfs:label "Wartość przeciwko grypie, bez określenia"@pl ;
-    skos:altLabel "Inf"@pl .
+<http://ivci.org/NUVA/VAL129> rdfs:label "Wartość przeciwko wirusowi opryszczki pospolitej, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL129> rdfs:label "Wartość przeciwko wirusowi opryszczki pospolitej, bez określenia"@pl ;
-    skos:altLabel "HSV"@pl .
+<http://ivci.org/NUVA/VAL130> rdfs:label "Wartość wirusomowa przeciwko wirusowemu zapaleniu wątroby typu A"@pl .
 
-<http://ivci.org/NUVA/VAL130> rdfs:label "Wartość wirusomowa przeciwko wirusowemu zapaleniu wątroby typu A"@pl ;
-    skos:altLabel "HepA-VLP"@pl .
+<http://ivci.org/NUVA/VAL131> rdfs:label "Cała inaktywowana szczepionka przeciwko dżumie"@pl .
 
-<http://ivci.org/NUVA/VAL131> rdfs:label "Cała inaktywowana szczepionka przeciwko dżumie"@pl ;
-    skos:altLabel "Yp-I"@pl .
+<http://ivci.org/NUVA/VAL132> rdfs:label "Monowalentna żywa atenuowana doustna szczepionka przeciw polio typu 1"@pl .
 
-<http://ivci.org/NUVA/VAL132> rdfs:label "Monowalentna żywa atenuowana doustna szczepionka przeciw polio typu 1"@pl ;
-    skos:altLabel "mOPV1"@pl .
+<http://ivci.org/NUVA/VAL133> rdfs:label "Żywa atenuowana monowalentna doustna szczepionka przeciwko polio, typ nieokreślony"@pl .
 
-<http://ivci.org/NUVA/VAL133> rdfs:label "Żywa atenuowana monowalentna doustna szczepionka przeciwko polio, typ nieokreślony"@pl ;
-    skos:altLabel "mOPV"@pl .
+<http://ivci.org/NUVA/VAL136> rdfs:label "Szczepionka meningokokowa W, polisacharydowa skoniugowana"@pl .
 
-<http://ivci.org/NUVA/VAL135> skos:altLabel "Covid-ARNm-S-CT"@pl .
+<http://ivci.org/NUVA/VAL137> rdfs:label "Szczepionka meningokokowa C, nieskoniugowana polisacharydowa"@pl .
 
-<http://ivci.org/NUVA/VAL136> rdfs:label "Szczepionka meningokokowa W, polisacharydowa skoniugowana"@pl ;
-    skos:altLabel "MCV-W"@pl .
+<http://ivci.org/NUVA/VAL138> rdfs:label "Szczepionka meningokokowa W, nieskoniugowana polisacharydowa"@pl .
 
-<http://ivci.org/NUVA/VAL137> rdfs:label "Szczepionka meningokokowa C, nieskoniugowana polisacharydowa"@pl ;
-    skos:altLabel "MPV-C"@pl .
+<http://ivci.org/NUVA/VAL139> rdfs:label "Szczepionka przeciwko meningokokom Y, nieskoniugowana polisacharydowa"@pl .
 
-<http://ivci.org/NUVA/VAL138> rdfs:label "Szczepionka meningokokowa W, nieskoniugowana polisacharydowa"@pl ;
-    skos:altLabel "MPV-W"@pl .
+<http://ivci.org/NUVA/VAL141> rdfs:label "RIX4414 monowalentna szczepionka przeciw rotawirusom"@pl .
 
-<http://ivci.org/NUVA/VAL139> rdfs:label "Szczepionka przeciwko meningokokom Y, nieskoniugowana polisacharydowa"@pl ;
-    skos:altLabel "MPV-Y"@pl .
+<http://ivci.org/NUVA/VAL142> rdfs:label "Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu wątroby typu A, monowalentna, dawka pediatryczna"@pl .
 
-<http://ivci.org/NUVA/VAL140> skos:altLabel "Inf-L"@pl .
+<http://ivci.org/NUVA/VAL143> rdfs:label "Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu wątroby typu A, bivalentna (zapalenie wątroby typu A i B), dawka pediatryczna"@pl .
 
-<http://ivci.org/NUVA/VAL141> rdfs:label "RIX4414 monowalentna szczepionka przeciw rotawirusom"@pl ;
-    skos:altLabel "Rota-mv-RIX4414"@pl .
+<http://ivci.org/NUVA/VAL144> rdfs:label "Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu wątroby typu A, monowalentna, dawka dla dorosłych"@pl .
 
-<http://ivci.org/NUVA/VAL142> rdfs:label "Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu wątroby typu A, monowalentna, dawka pediatryczna"@pl ;
-    skos:altLabel "HepA-mv-PED"@pl .
+<http://ivci.org/NUVA/VAL145> rdfs:label "Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu wątroby typu A, bivalentna (zapalenie wątroby typu A i B), dawka dla dorosłych"@pl .
 
-<http://ivci.org/NUVA/VAL143> rdfs:label "Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu wątroby typu A, bivalentna (zapalenie wątroby typu A i B), dawka pediatryczna"@pl ;
-    skos:altLabel "HepA-bv-PED"@pl .
+<http://ivci.org/NUVA/VAL146> rdfs:label "Wartość przeciwko całej inaktywowanej Brucella"@pl .
 
-<http://ivci.org/NUVA/VAL144> rdfs:label "Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu wątroby typu A, monowalentna, dawka dla dorosłych"@pl ;
-    skos:altLabel "HepA-mv-ADU"@pl .
+<http://ivci.org/NUVA/VAL147> rdfs:label "Wartość z antygenem białkowym P.I. (fenol-nierozpuszczalny) przeciwko brucelozie"@pl .
 
-<http://ivci.org/NUVA/VAL145> rdfs:label "Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu wątroby typu A, bivalentna (zapalenie wątroby typu A i B), dawka dla dorosłych"@pl ;
-    skos:altLabel "HepA-bv-ADU"@pl .
+<http://ivci.org/NUVA/VAL148> rdfs:label "Przeciwciało monoklonalne przeciwko wirusowi syncytialnemu układu oddechowego"@pl .
 
-<http://ivci.org/NUVA/VAL146> rdfs:label "Wartość przeciwko całej inaktywowanej Brucella"@pl ;
-    skos:altLabel "Bruc-I"@pl .
+<http://ivci.org/NUVA/VAL149> rdfs:label "Szczepionka COVID-19, mRNA kodujący białko kolca SARS-CoV-2, 25 mikrogramów"@pl .
 
-<http://ivci.org/NUVA/VAL147> rdfs:label "Wartość z antygenem białkowym P.I. (fenol-nierozpuszczalny) przeciwko brucelozie"@pl ;
-    skos:altLabel "Bruc-IP"@pl .
+<http://ivci.org/NUVA/VAL150> rdfs:label "Wartość przeciwko dendze, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL148> rdfs:label "Przeciwciało monoklonalne przeciwko wirusowi syncytialnemu układu oddechowego"@pl ;
-    skos:altLabel "RSV-IG"@pl .
+<http://ivci.org/NUVA/VAL151> rdfs:label "Szczepionka przeciwko tularemii, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL149> rdfs:label "Szczepionka COVID-19, mRNA kodujący białko kolca SARS-CoV-2, 25 mikrogramów"@pl ;
-    skos:altLabel "Covid-mRNA-S-25"@pl .
+<http://ivci.org/NUVA/VAL152> rdfs:label "Valência vacinal inteira inativada contra a gripe, sem especificação"@pl .
 
-<http://ivci.org/NUVA/VAL150> rdfs:label "Wartość przeciwko dendze, bez określenia"@pl ;
-    skos:altLabel "Den"@pl .
+<http://ivci.org/NUVA/VAL153> rdfs:label "Szczepionka przeciwko Haemophilus influenzae typu b, polisacharyd PRP skoniugowany z toksoidem błoniczym"@pl .
 
-<http://ivci.org/NUVA/VAL151> rdfs:label "Szczepionka przeciwko tularemii, nieokreślona"@pl ;
-    skos:altLabel "Tular"@pl .
+<http://ivci.org/NUVA/VAL154> rdfs:label "Wartość Haemophilus influenzae typu b, oligosacharydy PRP sprzężone z mutantem toksyny błoniczej CRM197"@pl .
 
-<http://ivci.org/NUVA/VAL152> rdfs:label "Valência vacinal inteira inativada contra a gripe, sem especificação"@pl ;
-    skos:altLabel "Inf-I"@pl .
+<http://ivci.org/NUVA/VAL155> rdfs:label "Szczepionka przeciwko Haemophilus influenzae typu b, polisacharyd skoniugowany z białkiem błony zewnętrznej Neisseria meningitidis serogrupy B"@pl .
 
-<http://ivci.org/NUVA/VAL153> rdfs:label "Szczepionka przeciwko Haemophilus influenzae typu b, polisacharyd PRP skoniugowany z toksoidem błoniczym"@pl ;
-    skos:altLabel "PRP-D"@pl .
+<http://ivci.org/NUVA/VAL156> rdfs:label "PRP-T Szczepionka Haemophilus influenzae typu b, polisacharyd PRP sprzężony z toksoidem tężcowym"@pl .
 
-<http://ivci.org/NUVA/VAL154> rdfs:label "Wartość Haemophilus influenzae typu b, oligosacharydy PRP sprzężone z mutantem toksyny błoniczej CRM197"@pl ;
-    skos:altLabel "HbOC"@pl .
+<http://ivci.org/NUVA/VAL157> rdfs:label "Szczepionka COVID-19, niespecyfikowana"@pl .
 
-<http://ivci.org/NUVA/VAL155> rdfs:label "Szczepionka przeciwko Haemophilus influenzae typu b, polisacharyd skoniugowany z białkiem błony zewnętrznej Neisseria meningitidis serogrupy B"@pl ;
-    skos:altLabel "PRP-OMP"@pl .
+<http://ivci.org/NUVA/VAL158> rdfs:label "Szczepionka plazmowa przeciwko wirusowemu zapaleniu wątroby typu B"@pl .
 
-<http://ivci.org/NUVA/VAL156> rdfs:label "PRP-T Szczepionka Haemophilus influenzae typu b, polisacharyd PRP sprzężony z toksoidem tężcowym"@pl ;
-    skos:altLabel "PRP-T"@pl .
+<http://ivci.org/NUVA/VAL159> rdfs:label "Podjednostkowa szczepionka przeciwko półpaścowi, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL157> rdfs:label "Szczepionka COVID-19, niespecyfikowana"@pl ;
-    skos:altLabel "COVID"@pl .
+<http://ivci.org/NUVA/VAL160> rdfs:label "Szczepionka przeciwko półpaścowi, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL158> rdfs:label "Szczepionka plazmowa przeciwko wirusowemu zapaleniu wątroby typu B"@pl ;
-    skos:altLabel "pHBsAg"@pl .
+<http://ivci.org/NUVA/VAL161> rdfs:label "Szczepionka wieloskładnikowa meningokokowa B, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL159> rdfs:label "Podjednostkowa szczepionka przeciwko półpaścowi, nieokreślona"@pl ;
-    skos:altLabel "Shingles-SU"@pl .
+<http://ivci.org/NUVA/VAL162> rdfs:label "Szczepionka COVID-19, wektor replikujący wirusa, nieokreślony"@pl .
 
-<http://ivci.org/NUVA/VAL160> rdfs:label "Szczepionka przeciwko półpaścowi, nieokreślona"@pl ;
-    skos:altLabel "Shingles"@pl .
+<http://ivci.org/NUVA/VAL163> rdfs:label "Szczepionka COVID-19, niereplikujący się wektor wirusowy, niespecyfikowana"@pl .
 
-<http://ivci.org/NUVA/VAL161> rdfs:label "Szczepionka wieloskładnikowa meningokokowa B, nieokreślona"@pl ;
-    skos:altLabel "MenB-mc"@pl .
+<http://ivci.org/NUVA/VAL164> rdfs:label "Szczepionka COVID-19, nieżywa, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL162> rdfs:label "Szczepionka COVID-19, wektor replikujący wirusa, nieokreślony"@pl ;
-    skos:altLabel "COVID-VVr"@pl .
+<http://ivci.org/NUVA/VAL165> rdfs:label "Żywa szczepionka przeciw krowom 19, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL163> rdfs:label "Szczepionka COVID-19, niereplikujący się wektor wirusowy, niespecyfikowana"@pl ;
-    skos:altLabel "COVID-VVnr"@pl .
+<http://ivci.org/NUVA/VAL167> rdfs:label "Szczepionka COVID-19, niereplikujący się wektor wirusowy, z komórkami prezentującymi antygen"@pl .
 
-<http://ivci.org/NUVA/VAL164> rdfs:label "Szczepionka COVID-19, nieżywa, nieokreślona"@pl ;
-    skos:altLabel "COVID-non-live"@pl .
+<http://ivci.org/NUVA/VAL168> rdfs:label "Szczepionka COVID-19, RNA, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL165> rdfs:label "Żywa szczepionka przeciw krowom 19, nieokreślona"@pl ;
-    skos:altLabel "COVID-live"@pl .
+<http://ivci.org/NUVA/VAL169> rdfs:label "Samodzielnie amplifikujące się mRNA (AAA) szczepionka dla Szczepionka 19"@pl .
 
-<http://ivci.org/NUVA/VAL167> rdfs:label "Szczepionka COVID-19, niereplikujący się wektor wirusowy, z komórkami prezentującymi antygen"@pl ;
-    skos:altLabel "COVID-VVnr+APC"@pl .
+<http://ivci.org/NUVA/VAL170> rdfs:label "Szczepionka przeciwko zapaleniu wątroby typu B, rekombinowany antygen powierzchniowy wirusa zapalenia wątroby typu B (HBsAg), 5 mikrogramów"@pl .
 
-<http://ivci.org/NUVA/VAL168> rdfs:label "Szczepionka COVID-19, RNA, nieokreślona"@pl ;
-    skos:altLabel "COVID-RNA"@pl .
+<http://ivci.org/NUVA/VAL171> rdfs:label "Szczepionka przeciwko wenezuelskiemu zapaleniu mózgu koni, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL169> rdfs:label "Samodzielnie amplifikujące się mRNA (AAA) szczepionka dla Szczepionka 19"@pl ;
-    skos:altLabel "COVID-mRNA-SAM"@pl .
+<http://ivci.org/NUVA/VAL172> rdfs:label "Wartość przeciwko gorączce Q (Coxiella burnetii), bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL170> rdfs:label "Szczepionka przeciwko zapaleniu wątroby typu B, rekombinowany antygen powierzchniowy wirusa zapalenia wątroby typu B (HBsAg), 5 mikrogramów"@pl ;
-    skos:altLabel "rHepB-05"@pl .
+<http://ivci.org/NUVA/VAL174> rdfs:label "Wartość hantawirusowa, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL171> rdfs:label "Szczepionka przeciwko wenezuelskiemu zapaleniu mózgu koni, nieokreślona"@pl ;
-    skos:altLabel "VEE"@pl .
+<http://ivci.org/NUVA/VAL175> rdfs:label "Szczepionka przeciwko leiszmaniozie, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL172> rdfs:label "Wartość przeciwko gorączce Q (Coxiella burnetii), bez określenia"@pl ;
-    skos:altLabel "Cbur"@pl .
+<http://ivci.org/NUVA/VAL176> rdfs:label "Szczepionka przeciwko ludzkim wirusom parainfluenzy, niespecyfikowana"@pl .
 
-<http://ivci.org/NUVA/VAL173> skos:altLabel "Junin-LAV"@pl .
+<http://ivci.org/NUVA/VAL177> rdfs:label "Wartość przeciwko Haemophilus influenzae typu b, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL174> rdfs:label "Wartość hantawirusowa, bez określenia"@pl ;
-    skos:altLabel "HAN"@pl .
+<http://ivci.org/NUVA/VAL178> rdfs:label "COVID-19 vaccine, mRNA coding for SARS-CoV-2 spike protein, Omicron variant BA.1, 25 micrograms"@pl .
 
-<http://ivci.org/NUVA/VAL175> rdfs:label "Szczepionka przeciwko leiszmaniozie, nieokreślona"@pl ;
-    skos:altLabel "Leish"@pl .
+<http://ivci.org/NUVA/VAL179> rdfs:label "Skoniugowana szczepionka meningokokowa, monowalentna"@pl .
 
-<http://ivci.org/NUVA/VAL176> rdfs:label "Szczepionka przeciwko ludzkim wirusom parainfluenzy, niespecyfikowana"@pl ;
-    skos:altLabel "HPIVs"@pl .
+<http://ivci.org/NUVA/VAL180> rdfs:label "Szczepionka COVID-19, mRNA kodujący białko kolca SARS-CoV-2, 100 mikrogramów"@pl .
 
-<http://ivci.org/NUVA/VAL177> rdfs:label "Wartość przeciwko Haemophilus influenzae typu b, bez określenia"@pl ;
-    skos:altLabel "Hib"@pl .
+<http://ivci.org/NUVA/VAL181> rdfs:label "Szczepionka COVID-19, mRNA kodujący białko kolca SARS-CoV-2, oryginalny wirus SARS-CoV-2, 25 mikrogramów"@pl .
 
-<http://ivci.org/NUVA/VAL178> rdfs:label "COVID-19 vaccine, mRNA coding for SARS-CoV-2 spike protein, Omicron variant BA.1, 25 micrograms"@pl ;
-    skos:altLabel "COVID-mRNA-S-OMI-BA.1-25"@pl .
+<http://ivci.org/NUVA/VAL182> rdfs:label "Szczepionka przeciwko boreliozie, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL179> rdfs:label "Skoniugowana szczepionka meningokokowa, monowalentna"@pl ;
-    skos:altLabel "MCV-mono"@pl .
+<http://ivci.org/NUVA/VAL183> rdfs:label "Szczepionka przeciwko śwince, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL180> rdfs:label "Szczepionka COVID-19, mRNA kodujący białko kolca SARS-CoV-2, 100 mikrogramów"@pl ;
-    skos:altLabel "COVID-mRNA-S-ORI-100"@pl .
+<http://ivci.org/NUVA/VAL184> rdfs:label "Polisacharydowa szczepionka skoniugowana przeciwko pneumokokom, monowalentna"@pl .
 
-<http://ivci.org/NUVA/VAL181> rdfs:label "Szczepionka COVID-19, mRNA kodujący białko kolca SARS-CoV-2, oryginalny wirus SARS-CoV-2, 25 mikrogramów"@pl ;
-    skos:altLabel "Covid-mRNA-S-ORI-25"@pl .
+<http://ivci.org/NUVA/VAL185> rdfs:label "Szczepionka pneumokokowa polisacharydowa nieskoniugowana, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL182> rdfs:label "Szczepionka przeciwko boreliozie, nieokreślona"@pl ;
-    skos:altLabel "Meas"@pl .
+<http://ivci.org/NUVA/VAL186> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 1"@pl .
 
-<http://ivci.org/NUVA/VAL183> rdfs:label "Szczepionka przeciwko śwince, nieokreślona"@pl ;
-    skos:altLabel "Mumps"@pl .
+<http://ivci.org/NUVA/VAL187> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 3"@pl .
 
-<http://ivci.org/NUVA/VAL184> rdfs:label "Polisacharydowa szczepionka skoniugowana przeciwko pneumokokom, monowalentna"@pl ;
-    skos:altLabel "PCV"@pl .
+<http://ivci.org/NUVA/VAL188> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 4"@pl .
 
-<http://ivci.org/NUVA/VAL185> rdfs:label "Szczepionka pneumokokowa polisacharydowa nieskoniugowana, nieokreślona"@pl ;
-    skos:altLabel "PPSV"@pl .
+<http://ivci.org/NUVA/VAL189> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 5"@pl .
 
-<http://ivci.org/NUVA/VAL186> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 1"@pl ;
-    skos:altLabel "PCV-01"@pl .
+<http://ivci.org/NUVA/VAL190> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 6A"@pl .
 
-<http://ivci.org/NUVA/VAL187> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 3"@pl ;
-    skos:altLabel "PCV-03"@pl .
+<http://ivci.org/NUVA/VAL191> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 6B"@pl .
 
-<http://ivci.org/NUVA/VAL188> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 4"@pl ;
-    skos:altLabel "PCV-04"@pl .
+<http://ivci.org/NUVA/VAL192> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 7F"@pl .
 
-<http://ivci.org/NUVA/VAL189> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 5"@pl ;
-    skos:altLabel "PCV-05"@pl .
+<http://ivci.org/NUVA/VAL193> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 8"@pl .
 
-<http://ivci.org/NUVA/VAL190> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 6A"@pl ;
-    skos:altLabel "PCV-06A"@pl .
+<http://ivci.org/NUVA/VAL194> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 9V"@pl .
 
-<http://ivci.org/NUVA/VAL191> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 6B"@pl ;
-    skos:altLabel "PCV-06B"@pl .
+<http://ivci.org/NUVA/VAL195> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 10A"@pl .
 
-<http://ivci.org/NUVA/VAL192> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 7F"@pl ;
-    skos:altLabel "PCV-07F"@pl .
+<http://ivci.org/NUVA/VAL196> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 11A"@pl .
 
-<http://ivci.org/NUVA/VAL193> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 8"@pl ;
-    skos:altLabel "PCV-08"@pl .
+<http://ivci.org/NUVA/VAL197> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 12F"@pl .
 
-<http://ivci.org/NUVA/VAL194> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 9V"@pl ;
-    skos:altLabel "PCV-09V"@pl .
+<http://ivci.org/NUVA/VAL198> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 14"@pl .
 
-<http://ivci.org/NUVA/VAL195> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 10A"@pl ;
-    skos:altLabel "PCV-10A"@pl .
+<http://ivci.org/NUVA/VAL199> rdfs:label "Pneumokokowa szczepionka polisacharydowa skoniugowana, serotyp 15B"@pl .
 
-<http://ivci.org/NUVA/VAL196> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 11A"@pl ;
-    skos:altLabel "PCV-11A"@pl .
+<http://ivci.org/NUVA/VAL200> rdfs:label "Szczepionka pneumokokowa polisacharydowa skoniugowana, serotyp 18C"@pl .
 
-<http://ivci.org/NUVA/VAL197> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 12F"@pl ;
-    skos:altLabel "PCV-12F"@pl .
+<http://ivci.org/NUVA/VAL201> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 19A"@pl .
 
-<http://ivci.org/NUVA/VAL198> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 14"@pl ;
-    skos:altLabel "PCV-14"@pl .
+<http://ivci.org/NUVA/VAL202> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 19F"@pl .
 
-<http://ivci.org/NUVA/VAL199> rdfs:label "Pneumokokowa szczepionka polisacharydowa skoniugowana, serotyp 15B"@pl ;
-    skos:altLabel "PCV-15B"@pl .
+<http://ivci.org/NUVA/VAL203> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 22F"@pl .
 
-<http://ivci.org/NUVA/VAL200> rdfs:label "Szczepionka pneumokokowa polisacharydowa skoniugowana, serotyp 18C"@pl ;
-    skos:altLabel "PCV-18C"@pl .
+<http://ivci.org/NUVA/VAL204> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 23F"@pl .
 
-<http://ivci.org/NUVA/VAL201> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 19A"@pl ;
-    skos:altLabel "PCV-19A"@pl .
+<http://ivci.org/NUVA/VAL205> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 33F"@pl .
 
-<http://ivci.org/NUVA/VAL202> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 19F"@pl ;
-    skos:altLabel "PCV-19F"@pl .
+<http://ivci.org/NUVA/VAL206> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 1"@pl .
 
-<http://ivci.org/NUVA/VAL203> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 22F"@pl ;
-    skos:altLabel "PCV-22F"@pl .
+<http://ivci.org/NUVA/VAL207> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 2"@pl .
 
-<http://ivci.org/NUVA/VAL204> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 23F"@pl ;
-    skos:altLabel "PCV-23F"@pl .
+<http://ivci.org/NUVA/VAL208> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 3"@pl .
 
-<http://ivci.org/NUVA/VAL205> rdfs:label "Pneumokokowa polisacharydowa szczepionka skoniugowana, serotyp 33F"@pl ;
-    skos:altLabel "PCV-33F"@pl .
+<http://ivci.org/NUVA/VAL209> rdfs:label "Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, serotyp 4"@pl .
 
-<http://ivci.org/NUVA/VAL206> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 1"@pl ;
-    skos:altLabel "PPSV-01"@pl .
+<http://ivci.org/NUVA/VAL210> rdfs:label "Pneumokokowa polisacharydowa szczepionka nieskoniugowana, serotyp 5"@pl .
 
-<http://ivci.org/NUVA/VAL207> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 2"@pl ;
-    skos:altLabel "PPSV-02"@pl .
+<http://ivci.org/NUVA/VAL211> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 6B"@pl .
 
-<http://ivci.org/NUVA/VAL208> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 3"@pl ;
-    skos:altLabel "PPSV-03"@pl .
+<http://ivci.org/NUVA/VAL212> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 7F"@pl .
 
-<http://ivci.org/NUVA/VAL209> rdfs:label "Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, serotyp 4"@pl ;
-    skos:altLabel "PPSV-04"@pl .
+<http://ivci.org/NUVA/VAL213> rdfs:label "Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, serotyp 8"@pl .
 
-<http://ivci.org/NUVA/VAL210> rdfs:label "Pneumokokowa polisacharydowa szczepionka nieskoniugowana, serotyp 5"@pl ;
-    skos:altLabel "PPSV-05"@pl .
+<http://ivci.org/NUVA/VAL214> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 9N"@pl .
 
-<http://ivci.org/NUVA/VAL211> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 6B"@pl ;
-    skos:altLabel "PPSV-06B"@pl .
+<http://ivci.org/NUVA/VAL215> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 9V"@pl .
 
-<http://ivci.org/NUVA/VAL212> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 7F"@pl ;
-    skos:altLabel "PPSV-07F"@pl .
+<http://ivci.org/NUVA/VAL216> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 10A"@pl .
 
-<http://ivci.org/NUVA/VAL213> rdfs:label "Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, serotyp 8"@pl ;
-    skos:altLabel "PPSV-08"@pl .
+<http://ivci.org/NUVA/VAL217> rdfs:label "Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, serotyp 11A"@pl .
 
-<http://ivci.org/NUVA/VAL214> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 9N"@pl ;
-    skos:altLabel "PPSV-09N"@pl .
+<http://ivci.org/NUVA/VAL218> rdfs:label "Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, serotyp 12F"@pl .
 
-<http://ivci.org/NUVA/VAL215> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 9V"@pl ;
-    skos:altLabel "PPSV-09V"@pl .
+<http://ivci.org/NUVA/VAL219> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 14"@pl .
 
-<http://ivci.org/NUVA/VAL216> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 10A"@pl ;
-    skos:altLabel "PPSV-10A"@pl .
+<http://ivci.org/NUVA/VAL220> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 15B"@pl .
 
-<http://ivci.org/NUVA/VAL217> rdfs:label "Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, serotyp 11A"@pl ;
-    skos:altLabel "PPSV-11A"@pl .
+<http://ivci.org/NUVA/VAL221> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 15F"@pl .
 
-<http://ivci.org/NUVA/VAL218> rdfs:label "Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, serotyp 12F"@pl ;
-    skos:altLabel "PPSV-12F"@pl .
+<http://ivci.org/NUVA/VAL222> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 17F"@pl .
 
-<http://ivci.org/NUVA/VAL219> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 14"@pl ;
-    skos:altLabel "PPSV-14"@pl .
+<http://ivci.org/NUVA/VAL223> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 18C"@pl .
 
-<http://ivci.org/NUVA/VAL220> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 15B"@pl ;
-    skos:altLabel "PPSV-15B"@pl .
+<http://ivci.org/NUVA/VAL224> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 19A"@pl .
 
-<http://ivci.org/NUVA/VAL221> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 15F"@pl ;
-    skos:altLabel "PPSV-15F"@pl .
+<http://ivci.org/NUVA/VAL225> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 19F"@pl .
 
-<http://ivci.org/NUVA/VAL222> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 17F"@pl ;
-    skos:altLabel "PPSV-17F"@pl .
+<http://ivci.org/NUVA/VAL226> rdfs:label "Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, serotyp 20"@pl .
 
-<http://ivci.org/NUVA/VAL223> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 18C"@pl ;
-    skos:altLabel "PPSV-18C"@pl .
+<http://ivci.org/NUVA/VAL227> rdfs:label "Nieskoniugowana szczepionka zawierająca polisacharyd pneumokokowy, serotyp 22F"@pl .
 
-<http://ivci.org/NUVA/VAL224> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 19A"@pl ;
-    skos:altLabel "PPSV-19A"@pl .
+<http://ivci.org/NUVA/VAL228> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 23F"@pl .
 
-<http://ivci.org/NUVA/VAL225> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 19F"@pl ;
-    skos:altLabel "PPSV-19F"@pl .
-
-<http://ivci.org/NUVA/VAL226> rdfs:label "Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, serotyp 20"@pl ;
-    skos:altLabel "PPSV-20"@pl .
-
-<http://ivci.org/NUVA/VAL227> rdfs:label "Nieskoniugowana szczepionka zawierająca polisacharyd pneumokokowy, serotyp 22F"@pl ;
-    skos:altLabel "PPSV-22F"@pl .
-
-<http://ivci.org/NUVA/VAL228> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 23F"@pl ;
-    skos:altLabel "PPSV-23F"@pl .
-
-<http://ivci.org/NUVA/VAL229> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 33F"@pl ;
-    skos:altLabel "PPSV-33F"@pl .
+<http://ivci.org/NUVA/VAL229> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 33F"@pl .
 
 <http://ivci.org/NUVA/VAL230> rdfs:label "Czterowalentna inaktywowana wartość przeciwko grypie, dzielona lub podjednostkowa, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL232> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 6A"@pl ;
-    skos:altLabel "PPSV-06A"@pl .
+<http://ivci.org/NUVA/VAL232> rdfs:label "Polisacharydowa szczepionka pneumokokowa nieskoniugowana, serotyp 6A"@pl .
 
-<http://ivci.org/NUVA/VAL233> rdfs:label "Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, serotyp 25"@pl ;
-    skos:altLabel "PPSV-25"@pl .
+<http://ivci.org/NUVA/VAL233> rdfs:label "Nieskoniugowana szczepionka polisacharydowa przeciwko pneumokokom, serotyp 25"@pl .
 
-<http://ivci.org/NUVA/VAL234> rdfs:label "Szczepionka meningokokowa, nieokreślona"@pl ;
-    skos:altLabel "Men"@pl .
+<http://ivci.org/NUVA/VAL234> rdfs:label "Szczepionka meningokokowa, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL235> rdfs:label "Polisacharydowa szczepionka skoniugowana przeciwko meningokokom, poliwalentna"@pl ;
-    skos:altLabel "MCV-poly"@pl .
+<http://ivci.org/NUVA/VAL235> rdfs:label "Polisacharydowa szczepionka skoniugowana przeciwko meningokokom, poliwalentna"@pl .
 
-<http://ivci.org/NUVA/VAL236> rdfs:label "Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, monowalentna"@pl ;
-    skos:altLabel "HPV-mono"@pl .
+<http://ivci.org/NUVA/VAL236> rdfs:label "Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, monowalentna"@pl .
 
-<http://ivci.org/NUVA/VAL237> rdfs:label "Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, poliwalentna"@pl ;
-    skos:altLabel "HPV-poly"@pl .
+<http://ivci.org/NUVA/VAL237> rdfs:label "Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, poliwalentna"@pl .
 
-<http://ivci.org/NUVA/VAL238> rdfs:label "Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 6"@pl ;
-    skos:altLabel "HPV-06"@pl .
+<http://ivci.org/NUVA/VAL238> rdfs:label "Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 6"@pl .
 
-<http://ivci.org/NUVA/VAL239> rdfs:label "Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 11"@pl ;
-    skos:altLabel "HVP-11"@pl .
+<http://ivci.org/NUVA/VAL239> rdfs:label "Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 11"@pl .
 
-<http://ivci.org/NUVA/VAL240> rdfs:label "Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 16"@pl ;
-    skos:altLabel "HVP-16"@pl .
+<http://ivci.org/NUVA/VAL240> rdfs:label "Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 16"@pl .
 
-<http://ivci.org/NUVA/VAL241> rdfs:label "Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 18"@pl ;
-    skos:altLabel "HVP-18"@pl .
+<http://ivci.org/NUVA/VAL241> rdfs:label "Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 18"@pl .
 
-<http://ivci.org/NUVA/VAL242> rdfs:label "Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 31"@pl ;
-    skos:altLabel "HVP-31"@pl .
+<http://ivci.org/NUVA/VAL242> rdfs:label "Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 31"@pl .
 
-<http://ivci.org/NUVA/VAL243> rdfs:label "Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 33"@pl ;
-    skos:altLabel "HPV-33"@pl .
+<http://ivci.org/NUVA/VAL243> rdfs:label "Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 33"@pl .
 
-<http://ivci.org/NUVA/VAL244> rdfs:label "Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 58"@pl ;
-    skos:altLabel "HVP-58"@pl .
+<http://ivci.org/NUVA/VAL244> rdfs:label "Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 58"@pl .
 
-<http://ivci.org/NUVA/VAL245> rdfs:label "Szczepionka VLP wirusa brodawczaka ludzkiego, typ 52"@pl ;
-    skos:altLabel "HVP-52"@pl .
+<http://ivci.org/NUVA/VAL245> rdfs:label "Szczepionka VLP wirusa brodawczaka ludzkiego, typ 52"@pl .
 
-<http://ivci.org/NUVA/VAL246> rdfs:label "Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 45"@pl ;
-    skos:altLabel "HVP-45"@pl .
+<http://ivci.org/NUVA/VAL246> rdfs:label "Szczepionka VLP przeciwko wirusowi brodawczaka ludzkiego, typ 45"@pl .
 
-<http://ivci.org/NUVA/VAL247> skos:altLabel "JE-LAR"@pl .
+<http://ivci.org/NUVA/VAL249> rdfs:label "Wartość przeciwko japońskiemu zapaleniu mózgu, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL248> skos:altLabel "JE-LAV"@pl .
+<http://ivci.org/NUVA/VAL250> rdfs:label "Wartość przeciwko japońskiemu zapaleniu mózgu, całkowicie inaktywowana, przygotowana na tkance mózgowej myszy"@pl .
 
-<http://ivci.org/NUVA/VAL249> rdfs:label "Wartość przeciwko japońskiemu zapaleniu mózgu, bez określenia"@pl ;
-    skos:altLabel "JE"@pl .
+<http://ivci.org/NUVA/VAL251> rdfs:label "Wartość japońskiego zapalenia mózgu, inaktywowana, pochodząca z komórek Vero"@pl .
 
-<http://ivci.org/NUVA/VAL250> rdfs:label "Wartość przeciwko japońskiemu zapaleniu mózgu, całkowicie inaktywowana, przygotowana na tkance mózgowej myszy"@pl ;
-    skos:altLabel "JE-I-mb"@pl .
+<http://ivci.org/NUVA/VAL252> rdfs:label "Immunoglobulina wścieklizny, pochodzenia ludzkiego"@pl .
 
-<http://ivci.org/NUVA/VAL251> rdfs:label "Wartość japońskiego zapalenia mózgu, inaktywowana, pochodząca z komórek Vero"@pl ;
-    skos:altLabel "JE-I-Vero"@pl .
+<http://ivci.org/NUVA/VAL253> rdfs:label "Immunoglobulina przeciwko wściekliźnie, pochodzenia końskiego"@pl .
 
-<http://ivci.org/NUVA/VAL252> rdfs:label "Immunoglobulina wścieklizny, pochodzenia ludzkiego"@pl ;
-    skos:altLabel "RIG-hu"@pl .
+<http://ivci.org/NUVA/VAL254> rdfs:label "Inaktywowana w całości szczepionka przeciwko wściekliźnie, typu Semple, przygotowana z koziej lub owczej tkanki mózgowej zakażonej wirusem wścieklizny, zawierająca mielinę"@pl .
 
-<http://ivci.org/NUVA/VAL253> rdfs:label "Immunoglobulina przeciwko wściekliźnie, pochodzenia końskiego"@pl ;
-    skos:altLabel "eRIG"@pl .
+<http://ivci.org/NUVA/VAL255> rdfs:label "Szczepionka przeciwko wściekliźnie, inaktywowana w całości, typu Fuenzalida, przygotowana z tkanki mózgowej myszy zakażonej wirusem wścieklizny, o zmniejszonej zawartości mieliny"@pl .
 
-<http://ivci.org/NUVA/VAL254> rdfs:label "Inaktywowana w całości szczepionka przeciwko wściekliźnie, typu Semple, przygotowana z koziej lub owczej tkanki mózgowej zakażonej wirusem wścieklizny, zawierająca mielinę"@pl ;
-    skos:altLabel "Rab-I-Semple"@pl .
+<http://ivci.org/NUVA/VAL256> rdfs:label "Inaktywowana całymi wirusami szczepionka przeciwko wściekliźnie, przygotowana ze zwierzęcej tkanki mózgowej zakażonej wirusem wścieklizny, niespecyfikowana"@pl .
 
-<http://ivci.org/NUVA/VAL255> rdfs:label "Szczepionka przeciwko wściekliźnie, inaktywowana w całości, typu Fuenzalida, przygotowana z tkanki mózgowej myszy zakażonej wirusem wścieklizny, o zmniejszonej zawartości mieliny"@pl ;
-    skos:altLabel "Rab-I-Fuenzalida"@pl .
+<http://ivci.org/NUVA/VAL257> rdfs:label "Szczepionka inaktywowana w całości przeciwko wściekliźnie, oparta na kulturach komórkowych, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL256> rdfs:label "Inaktywowana całymi wirusami szczepionka przeciwko wściekliźnie, przygotowana ze zwierzęcej tkanki mózgowej zakażonej wirusem wścieklizny, niespecyfikowana"@pl ;
-    skos:altLabel "Rab-I-NervousTissue"@pl .
+<http://ivci.org/NUVA/VAL258> rdfs:label "Inaktywowana całymi wirusami szczepionka przeciwko wściekliźnie, oparta na kulturach komórkowych, szczepionka z ludzkich komórek diploidalnych (HDCV) MRC-5, inaktywacja ß-propiolaktonem"@pl .
 
-<http://ivci.org/NUVA/VAL257> rdfs:label "Szczepionka inaktywowana w całości przeciwko wściekliźnie, oparta na kulturach komórkowych, nieokreślona"@pl ;
-    skos:altLabel "Rab-I-CC"@pl .
+<http://ivci.org/NUVA/VAL259> rdfs:label "Szczepionka zawierająca całe wirusy wścieklizny, oczyszczona szczepionka z komórek zarodkowych kurcząt (PCECV), otrzymana przez hodowlę utrwalonego szczepu wirusa wścieklizny Flury LEP-25 w pierwotnych hodowlach fibroblastów kurcząt, wirus inaktywowany ß-propiolaktonem"@pl .
 
-<http://ivci.org/NUVA/VAL258> rdfs:label "Inaktywowana całymi wirusami szczepionka przeciwko wściekliźnie, oparta na kulturach komórkowych, szczepionka z ludzkich komórek diploidalnych (HDCV) MRC-5, inaktywacja ß-propiolaktonem"@pl ;
-    skos:altLabel "Rab-I-HDCV"@pl .
+<http://ivci.org/NUVA/VAL260> rdfs:label "Inaktywowana cała wirionowa szczepionka przeciwko wściekliźnie, oparta na hodowli komórkowej, oczyszczona szczepionka przeciwko wściekliźnie z komórek Vero (PVRV), szczep Wistar, inaktywacja ß-propiolaktonem"@pl .
 
-<http://ivci.org/NUVA/VAL259> rdfs:label "Szczepionka zawierająca całe wirusy wścieklizny, oczyszczona szczepionka z komórek zarodkowych kurcząt (PCECV), otrzymana przez hodowlę utrwalonego szczepu wirusa wścieklizny Flury LEP-25 w pierwotnych hodowlach fibroblastów kurcząt, wirus inaktywowany ß-propiolaktonem"@pl ;
-    skos:altLabel "Rab-I-PCEC"@pl .
+<http://ivci.org/NUVA/VAL261> rdfs:label "Inaktywowana cała wirionowa szczepionka przeciwko wściekliźnie, oparta na kulturach komórkowych, szczep z pierwotnych komórek nerkowych chomika (PHKCV), szczep pekiński, inaktywacja formaliną"@pl .
 
-<http://ivci.org/NUVA/VAL260> rdfs:label "Inaktywowana cała wirionowa szczepionka przeciwko wściekliźnie, oparta na hodowli komórkowej, oczyszczona szczepionka przeciwko wściekliźnie z komórek Vero (PVRV), szczep Wistar, inaktywacja ß-propiolaktonem"@pl ;
-    skos:altLabel "Rab-I-PVRV"@pl .
+<http://ivci.org/NUVA/VAL262> rdfs:label "Inaktywowana całymi wirusami szczepionka przeciwko wściekliźnie, oparta na jajach zarodkowych (EEV), nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL261> rdfs:label "Inaktywowana cała wirionowa szczepionka przeciwko wściekliźnie, oparta na kulturach komórkowych, szczep z pierwotnych komórek nerkowych chomika (PHKCV), szczep pekiński, inaktywacja formaliną"@pl ;
-    skos:altLabel "Rab-I-PHKCV"@pl .
+<http://ivci.org/NUVA/VAL263> rdfs:label "Szczepionka przeciwko wściekliźnie inaktywowana całym wirusem, oczyszczona szczepionka z zarodka kaczki (PDEV), inaktywacja ß-propiolaktonem"@pl .
 
-<http://ivci.org/NUVA/VAL262> rdfs:label "Inaktywowana całymi wirusami szczepionka przeciwko wściekliźnie, oparta na jajach zarodkowych (EEV), nieokreślona"@pl ;
-    skos:altLabel "Rab-I-EEV"@pl .
+<http://ivci.org/NUVA/VAL264> rdfs:label "Szczepionka COVID-19, inaktywowany cały wirus"@pl .
 
-<http://ivci.org/NUVA/VAL263> rdfs:label "Szczepionka przeciwko wściekliźnie inaktywowana całym wirusem, oczyszczona szczepionka z zarodka kaczki (PDEV), inaktywacja ß-propiolaktonem"@pl ;
-    skos:altLabel "Rab-I-PDEV"@pl .
+<http://ivci.org/NUVA/VAL265> rdfs:label "Szczepionka COVID-19, inaktywowany cały wirion, w badaniach klinicznych"@pl .
 
-<http://ivci.org/NUVA/VAL264> rdfs:label "Szczepionka COVID-19, inaktywowany cały wirus"@pl ;
-    skos:altLabel "COVID-IV-Auth"@pl .
+<http://ivci.org/NUVA/VAL266> rdfs:label "Szczepionka meningokokowa C, skoniugowana z toksoidem tężcowym"@pl .
 
-<http://ivci.org/NUVA/VAL265> rdfs:label "Szczepionka COVID-19, inaktywowany cały wirion, w badaniach klinicznych"@pl ;
-    skos:altLabel "COVID-IV-CT"@pl .
+<http://ivci.org/NUVA/VAL267> rdfs:label "Szczepionka przeciwko meningokokom C, polisacharydowa, skoniugowana z toksoidem błoniczym"@pl .
 
-<http://ivci.org/NUVA/VAL266> rdfs:label "Szczepionka meningokokowa C, skoniugowana z toksoidem tężcowym"@pl ;
-    skos:altLabel "MCV-C-T"@pl .
+<http://ivci.org/NUVA/VAL268> rdfs:label "Szczepionka meningokokowa C, polisacharydowa skoniugowana z CRM197"@pl .
 
-<http://ivci.org/NUVA/VAL267> rdfs:label "Szczepionka przeciwko meningokokom C, polisacharydowa, skoniugowana z toksoidem błoniczym"@pl ;
-    skos:altLabel "MCV-C-D"@pl .
+<http://ivci.org/NUVA/VAL269> rdfs:label "Szczepionka meningokokowa A, polisacharydowa skoniugowana z CRM197"@pl .
 
-<http://ivci.org/NUVA/VAL268> rdfs:label "Szczepionka meningokokowa C, polisacharydowa skoniugowana z CRM197"@pl ;
-    skos:altLabel "MCV-C-CRM"@pl .
+<http://ivci.org/NUVA/VAL270> rdfs:label "Szczepionka przeciwko meningokokom A, polisacharydowa, skoniugowana z toksoidem błoniczym"@pl .
 
-<http://ivci.org/NUVA/VAL269> rdfs:label "Szczepionka meningokokowa A, polisacharydowa skoniugowana z CRM197"@pl ;
-    skos:altLabel "MCV-A-CRM"@pl .
+<http://ivci.org/NUVA/VAL271> rdfs:label "Szczepionka meningokokowa A, polisacharydowa skoniugowana z toksoidem tężcowym"@pl .
 
-<http://ivci.org/NUVA/VAL270> rdfs:label "Szczepionka przeciwko meningokokom A, polisacharydowa, skoniugowana z toksoidem błoniczym"@pl ;
-    skos:altLabel "MCV-A-D"@pl .
+<http://ivci.org/NUVA/VAL272> rdfs:label "Szczepionka meningokokowa W, skoniugowana z toksoidem tężcowym"@pl .
 
-<http://ivci.org/NUVA/VAL271> rdfs:label "Szczepionka meningokokowa A, polisacharydowa skoniugowana z toksoidem tężcowym"@pl ;
-    skos:altLabel "MCV-A-T"@pl .
+<http://ivci.org/NUVA/VAL273> rdfs:label "Szczepionka meningokokowa W, polisacharydowa skoniugowana z toksoidem błoniczym"@pl .
 
-<http://ivci.org/NUVA/VAL272> rdfs:label "Szczepionka meningokokowa W, skoniugowana z toksoidem tężcowym"@pl ;
-    skos:altLabel "MCV-W-T"@pl .
+<http://ivci.org/NUVA/VAL274> rdfs:label "Szczepionka meningokokowa W, polisacharydowa skoniugowana z CRM197"@pl .
 
-<http://ivci.org/NUVA/VAL273> rdfs:label "Szczepionka meningokokowa W, polisacharydowa skoniugowana z toksoidem błoniczym"@pl ;
-    skos:altLabel "MCV-W-D"@pl .
+<http://ivci.org/NUVA/VAL275> rdfs:label "Szczepionka meningokokowa Y, polisacharydowa skoniugowana z CRM197"@pl .
 
-<http://ivci.org/NUVA/VAL274> rdfs:label "Szczepionka meningokokowa W, polisacharydowa skoniugowana z CRM197"@pl ;
-    skos:altLabel "MCV-W-CRM"@pl .
+<http://ivci.org/NUVA/VAL276> rdfs:label "Szczepionka przeciwko meningokokom Y, skoniugowana z toksoidem tężcowym"@pl .
 
-<http://ivci.org/NUVA/VAL275> rdfs:label "Szczepionka meningokokowa Y, polisacharydowa skoniugowana z CRM197"@pl ;
-    skos:altLabel "MCV-Y-CRM"@pl .
+<http://ivci.org/NUVA/VAL277> rdfs:label "Szczepionka przeciwko meningokokom Y, polisacharydowa, skoniugowana z toksoidem błoniczym"@pl .
 
-<http://ivci.org/NUVA/VAL276> rdfs:label "Szczepionka przeciwko meningokokom Y, skoniugowana z toksoidem tężcowym"@pl ;
-    skos:altLabel "MCV-Y-T"@pl .
+<http://ivci.org/NUVA/VAL280> rdfs:label "Toksyna botulinowa"@pl .
 
-<http://ivci.org/NUVA/VAL277> rdfs:label "Szczepionka przeciwko meningokokom Y, polisacharydowa, skoniugowana z toksoidem błoniczym"@pl ;
-    skos:altLabel "MCV-Y-D"@pl .
+<http://ivci.org/NUVA/VAL283> rdfs:label "Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu wątroby typu A, dawka pediatryczna, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL278> skos:altLabel "Adeno-LAV"@pl .
-
-<http://ivci.org/NUVA/VAL280> rdfs:label "Toksyna botulinowa"@pl ;
-    skos:altLabel "BT"@pl .
-
-<http://ivci.org/NUVA/VAL281> skos:altLabel "Adeno-7"@pl .
-
-<http://ivci.org/NUVA/VAL282> skos:altLabel "Adeno-4"@pl .
-
-<http://ivci.org/NUVA/VAL283> rdfs:label "Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu wątroby typu A, dawka pediatryczna, bez określenia"@pl ;
-    skos:altLabel "HepA-PED"@pl .
-
-<http://ivci.org/NUVA/VAL284> rdfs:label "Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu wątroby typu A, dawka dla dorosłych, bez określenia"@pl ;
-    skos:altLabel "HepA-ADU"@pl .
+<http://ivci.org/NUVA/VAL284> rdfs:label "Wartość całkowicie inaktywowana przeciwko wirusowemu zapaleniu wątroby typu A, dawka dla dorosłych, bez określenia"@pl .
 
 <http://ivci.org/NUVA/VAL285> rdfs:label "Trójwalentna inaktywowana wartość przeciwko grypie uzyskana z hodowli komórkowej, dzielona lub podjednostkowa, normalna dawka"@pl .
 
-<http://ivci.org/NUVA/VAL286> skos:altLabel "HepA-LAV"@pl .
-
 <http://ivci.org/NUVA/VAL287> rdfs:label "Czterowalentna rekombinowana wartość przeciwko grypie"@pl .
 
-<http://ivci.org/NUVA/VAL288> rdfs:label "Wartość przeciwko wirusowemu zapaleniu wątroby typu A, bez określenia"@pl ;
-    skos:altLabel "HepA"@pl .
+<http://ivci.org/NUVA/VAL288> rdfs:label "Wartość przeciwko wirusowemu zapaleniu wątroby typu A, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL289> rdfs:label "Szczepionka COVID-19, mRNA kodujący białko kolca SARS-CoV-2, 10 mikrogramów"@pl ;
-    skos:altLabel " COVID-mRNA-S-ORI-10"@pl .
+<http://ivci.org/NUVA/VAL289> rdfs:label "Szczepionka COVID-19, mRNA kodujący białko kolca SARS-CoV-2, 10 mikrogramów"@pl .
 
-<http://ivci.org/NUVA/VAL290> rdfs:label "Szczepionka COVID-19, mRNA kodujący białko kolca SARS-CoV-2, 30 mikrogramów"@pl ;
-    skos:altLabel "COVID-mRNA-S-ORI-30"@pl .
+<http://ivci.org/NUVA/VAL290> rdfs:label "Szczepionka COVID-19, mRNA kodujący białko kolca SARS-CoV-2, 30 mikrogramów"@pl .
 
-<http://ivci.org/NUVA/VAL291> rdfs:label "Rekombinowana wartość przeciwko wirusowemu zapaleniu wątroby typu B, trzy antygeny (HbS, pre-S1 i pre-S2)"@pl ;
-    skos:altLabel "HepB-r-3Ag"@pl .
+<http://ivci.org/NUVA/VAL291> rdfs:label "Rekombinowana wartość przeciwko wirusowemu zapaleniu wątroby typu B, trzy antygeny (HbS, pre-S1 i pre-S2)"@pl .
 
-<http://ivci.org/NUVA/VAL292> rdfs:label "Szczepionka COVID-19, niereplikujący się wektor adenowirusowy 26 kodujący białko kolca SARS-CoV-2, w badaniach klinicznych"@pl ;
-    skos:altLabel "Covid-VVnr-S-Ad26-CT"@pl .
+<http://ivci.org/NUVA/VAL292> rdfs:label "Szczepionka COVID-19, niereplikujący się wektor adenowirusowy 26 kodujący białko kolca SARS-CoV-2, w badaniach klinicznych"@pl .
 
-<http://ivci.org/NUVA/VAL293> rdfs:label "Immunoglobulina wąglika"@pl ;
-    skos:altLabel "Anthrax-Ig"@pl .
+<http://ivci.org/NUVA/VAL293> rdfs:label "Immunoglobulina wąglika"@pl .
 
-<http://ivci.org/NUVA/VAL294> rdfs:label "Żywy wirus szczepionki, szczepionka pierwszej generacji"@pl ;
-    skos:altLabel "Pox-1G"@pl .
+<http://ivci.org/NUVA/VAL294> rdfs:label "Żywy wirus szczepionki, szczepionka pierwszej generacji"@pl .
 
-<http://ivci.org/NUVA/VAL295> skos:altLabel "Pox-2G"@pl .
+<http://ivci.org/NUVA/VAL296> rdfs:label "Zmodyfikowana szczepionka vaccinia Ankara, niereplikująca, szczepionka trzeciej generacji"@pl .
 
-<http://ivci.org/NUVA/VAL296> rdfs:label "Zmodyfikowana szczepionka vaccinia Ankara, niereplikująca, szczepionka trzeciej generacji"@pl ;
-    skos:altLabel "Pox-3G-MVA"@pl .
+<http://ivci.org/NUVA/VAL297> rdfs:label "Szczepionka meningokokowa A, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL297> rdfs:label "Szczepionka meningokokowa A, nieokreślona"@pl ;
-    skos:altLabel "MenA"@pl .
+<http://ivci.org/NUVA/VAL298> rdfs:label "Szczepionka meningokokowa C, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL298> rdfs:label "Szczepionka meningokokowa C, nieokreślona"@pl ;
-    skos:altLabel "MenC"@pl .
+<http://ivci.org/NUVA/VAL299> rdfs:label "Szczepionka meningokokowa Y, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL299> rdfs:label "Szczepionka meningokokowa Y, nieokreślona"@pl ;
-    skos:altLabel "MenY"@pl .
-
-<http://ivci.org/NUVA/VAL300> rdfs:label "Szczepionka meningokokowa W, nieokreślona"@pl ;
-    skos:altLabel "MenW"@pl .
+<http://ivci.org/NUVA/VAL300> rdfs:label "Szczepionka meningokokowa W, nieokreślona"@pl .
 
 <http://ivci.org/NUVA/VAL301> rdfs:label "Rekombinowana trójwartościowa szczepionka przeciw grypie"@pl .
 
-<http://ivci.org/NUVA/VAL302> rdfs:label "Szczepionka COVID-19, mRNA kodujący białko kolcowe SARS-CoV-2, 50 mikrogramów"@pl ;
-    skos:altLabel "Covid-mRNA-S-50"@pl .
+<http://ivci.org/NUVA/VAL302> rdfs:label "Szczepionka COVID-19, mRNA kodujący białko kolcowe SARS-CoV-2, 50 mikrogramów"@pl .
 
-<http://ivci.org/NUVA/VAL303> rdfs:label "Szczepionka przeciw kowdowi 19 mRNA kodujący białko kolca wirusa SARS-CoV-2, pierwotnego wirusa"@pl ;
-    skos:altLabel "COVID-mRNA-S-ORI"@pl .
+<http://ivci.org/NUVA/VAL303> rdfs:label "Szczepionka przeciw kowdowi 19 mRNA kodujący białko kolca wirusa SARS-CoV-2, pierwotnego wirusa"@pl .
 
-<http://ivci.org/NUVA/VAL304> rdfs:label "Szczepionka SARS-CoV-2 spike protein mRNA 19, oryginalny wirus, 15 mikrogramów"@pl ;
-    skos:altLabel "Covid-ARNm-S-ORI-15"@pl .
+<http://ivci.org/NUVA/VAL304> rdfs:label "Szczepionka SARS-CoV-2 spike protein mRNA 19, oryginalny wirus, 15 mikrogramów"@pl .
 
-<http://ivci.org/NUVA/VAL305> rdfs:label "Szczepionka SARS-CoV-2 peak protein mRNA 19, wariant Omicron BA.1, 15 mikrogramów"@pl ;
-    skos:altLabel "Covid-ARNm-S-OMI-BA.1-15"@pl .
+<http://ivci.org/NUVA/VAL305> rdfs:label "Szczepionka SARS-CoV-2 peak protein mRNA 19, wariant Omicron BA.1, 15 mikrogramów"@pl .
 
-<http://ivci.org/NUVA/VAL306> rdfs:label "Szczepionka SARS-CoV-2 peak protein mRNA 19, oryginalny wirus, 3 mikrogramy"@pl ;
-    skos:altLabel "COVID-mRNA-S-ORI-3"@pl .
+<http://ivci.org/NUVA/VAL306> rdfs:label "Szczepionka SARS-CoV-2 peak protein mRNA 19, oryginalny wirus, 3 mikrogramy"@pl .
 
-<http://ivci.org/NUVA/VAL307> rdfs:label "Szczepionka SARS-CoV-2 peak protein mRNA 19, wariant Omicron BA.4/BA.5, 15 mikrogramów"@pl ;
-    skos:altLabel "COVID-mRNA-S-OMI-BA.4/5-15"@pl .
+<http://ivci.org/NUVA/VAL307> rdfs:label "Szczepionka SARS-CoV-2 peak protein mRNA 19, wariant Omicron BA.4/BA.5, 15 mikrogramów"@pl .
 
-<http://ivci.org/NUVA/VAL308> rdfs:label "Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, variant Omicron BA.4/BA.5, 25 microgrammes"@pl ;
-    skos:altLabel "COVID-mRNA-S-OMI-BA.4/5-25"@pl .
+<http://ivci.org/NUVA/VAL308> rdfs:label "Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, variant Omicron BA.4/BA.5, 25 microgrammes"@pl .
 
-<http://ivci.org/NUVA/VAL309> rdfs:label "Szczepionka SARS-CoV-2 peak protein mRNA 19, wariant Omicron BA.4/BA.5, 5 mikrogramów"@pl ;
-    skos:altLabel "Covid-ARNm-S-OMI-BA.4/5-5"@pl .
+<http://ivci.org/NUVA/VAL309> rdfs:label "Szczepionka SARS-CoV-2 peak protein mRNA 19, wariant Omicron BA.4/BA.5, 5 mikrogramów"@pl .
 
-<http://ivci.org/NUVA/VAL310> rdfs:label "Szczepionka COVID-19, mRNA kodujący białko szczytowe SARS-CoV-2, oryginalny wirus, 5 mikrogramów"@pl ;
-    skos:altLabel "Covid-mRNA-S-ORI-5"@pl .
+<http://ivci.org/NUVA/VAL310> rdfs:label "Szczepionka COVID-19, mRNA kodujący białko szczytowe SARS-CoV-2, oryginalny wirus, 5 mikrogramów"@pl .
 
-<http://ivci.org/NUVA/VAL311> skos:altLabel "R21/Matrix-M"@pl .
+<http://ivci.org/NUVA/VAL330> rdfs:label "Anty-covid 19 mRNA kodujący białko kolca SARS-CoV-2, wariant Omicron XBB.1.5-25 mikrogramów"@pl .
 
-<http://ivci.org/NUVA/VAL312> skos:altLabel "TBE-K23"@pl .
-
-<http://ivci.org/NUVA/VAL313> skos:altLabel "TBE-Neudorfl"@pl .
-
-<http://ivci.org/NUVA/VAL314> skos:altLabel "TBE-Neudorfl-ADU"@pl .
-
-<http://ivci.org/NUVA/VAL315> skos:altLabel "TBE-Neudorfl-PED"@pl .
-
-<http://ivci.org/NUVA/VAL316> skos:altLabel "RSV-PreF3"@pl .
-
-<http://ivci.org/NUVA/VAL317> skos:altLabel "RSV-Ab"@pl .
-
-<http://ivci.org/NUVA/VAL318> skos:altLabel "RSV-V"@pl .
-
-<http://ivci.org/NUVA/VAL321> skos:altLabel "VRS-mAb-nir"@pl .
-
-<http://ivci.org/NUVA/VAL322> skos:altLabel "RSV-PreFAB"@pl .
-
-<http://ivci.org/NUVA/VAL326> skos:altLabel "COVID-mRNA-S-OMI-BA.4/5-1.5"@pl .
-
-<http://ivci.org/NUVA/VAL327> skos:altLabel "COVID-mRNA-S-ORI-1.5"@pl .
-
-<http://ivci.org/NUVA/VAL329> skos:altLabel "Covid-ARNm-S-OMI-XBB.1.5-50"@pl .
-
-<http://ivci.org/NUVA/VAL330> rdfs:label "Anty-covid 19 mRNA kodujący białko kolca SARS-CoV-2, wariant Omicron XBB.1.5-25 mikrogramów"@pl ;
-    skos:altLabel "COVID-mRNA-S-OMI-XBB.1.5-25"@pl .
-
-<http://ivci.org/NUVA/VAL331> rdfs:label "CMV immune globulin"@pl ;
-    skos:altLabel "CMV-Ig"@pl .
+<http://ivci.org/NUVA/VAL331> rdfs:label "CMV immune globulin"@pl .
 
 <http://ivci.org/NUVA/VAL332> rdfs:label "Wartość przeciwko wirusowemu zapaleniu wątroby typu C, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL336> rdfs:label "Wartość przeciwko gorączce Doliny Ryftowej, bez określenia"@pl ;
-    skos:altLabel "RVF"@pl .
+<http://ivci.org/NUVA/VAL336> rdfs:label "Wartość przeciwko gorączce Doliny Ryftowej, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL337> skos:altLabel "Ospa-Ig"@pl .
+<http://ivci.org/NUVA/VAL338> rdfs:label "Przeciwciało lub szczepionka przeciwko wirusowi RSV, nieokreślone"@pl .
 
-<http://ivci.org/NUVA/VAL338> rdfs:label "Przeciwciało lub szczepionka przeciwko wirusowi RSV, nieokreślone"@pl ;
-    skos:altLabel "RSV"@pl .
+<http://ivci.org/NUVA/VAL340> rdfs:label "Wartość przeciwko wąglikowi, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL340> rdfs:label "Wartość przeciwko wąglikowi, bez określenia"@pl ;
-    skos:altLabel "Wąglik"@pl .
+<http://ivci.org/NUVA/VAL341> rdfs:label "Wartość przeciwko Escherichia coli, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL341> rdfs:label "Wartość przeciwko Escherichia coli, bez określenia"@pl ;
-    skos:altLabel "Eco"@pl .
-
-<http://ivci.org/NUVA/VAL342> skos:altLabel "Kpn"@pl .
-
-<http://ivci.org/NUVA/VAL343> rdfs:label "Wartość przeciwko Enterococcus faecalis, bez określenia"@pl ;
-    skos:altLabel "Efa"@pl .
-
-<http://ivci.org/NUVA/VAL344> skos:altLabel "Pvu"@pl .
-
-<http://ivci.org/NUVA/VAL345> skos:altLabel "UTI"@pl .
+<http://ivci.org/NUVA/VAL343> rdfs:label "Wartość przeciwko Enterococcus faecalis, bez określenia"@pl .
 
 <http://ivci.org/NUVA/VAL359> rdfs:label "Wartość całkowicie inaktywowana przeciwko cholerze, bez określenia"@pl .
 
@@ -1526,38 +1177,17 @@
 
 <http://ivci.org/NUVA/VAL366> rdfs:label "Wartość przeciwko grypie oparta na RNA, bez określenia"@pl .
 
-<http://ivci.org/NUVA/VAL383> rdfs:label "Single-stranded 5' capped mRNA encoding the Respiratory syncytial virus glycoprotein F stabilized in the prefusion conformation"@pl ;
-    skos:altLabel "mRSV"@pl .
+<http://ivci.org/NUVA/VAL383> rdfs:label "Single-stranded 5' capped mRNA encoding the Respiratory syncytial virus glycoprotein F stabilized in the prefusion conformation"@pl .
 
-<http://ivci.org/NUVA/VAL384> skos:altLabel "LEP"@pl .
+<http://ivci.org/NUVA/VAL387> rdfs:label "Anty-covid valence 19 mRNA kodujący białko kolca SARS-CoV-2, wariant Omicron JN.1-25 mikrogramów"@pl .
 
-<http://ivci.org/NUVA/VAL386> skos:altLabel "AH5"@pl .
+<http://ivci.org/NUVA/VAL388> rdfs:label "Anty-covid 19 mRNA kodujący białko kolca SARS-CoV-2, wariant Omicron JN.1-50 mikrogramów"@pl .
 
-<http://ivci.org/NUVA/VAL387> rdfs:label "Anty-covid valence 19 mRNA kodujący białko kolca SARS-CoV-2, wariant Omicron JN.1-25 mikrogramów"@pl ;
-    skos:altLabel "Covid-ARNm-S-OMI-JN.1-25"@pl .
+<http://ivci.org/NUVA/VAL389> rdfs:label "Walencja przeciwko Pseudomonas aeruginosa, 7 immunotypów"@pl .
 
-<http://ivci.org/NUVA/VAL388> rdfs:label "Anty-covid 19 mRNA kodujący białko kolca SARS-CoV-2, wariant Omicron JN.1-50 mikrogramów"@pl ;
-    skos:altLabel "Covid-ARNm-S-OMI-JN.1-50"@pl .
+<http://ivci.org/NUVA/VAL390> rdfs:label "Chikungunya walencja, nieokreślona"@pl .
 
-<http://ivci.org/NUVA/VAL389> rdfs:label "Walencja przeciwko Pseudomonas aeruginosa, 7 immunotypów"@pl ;
-    skos:altLabel "PAER7"@pl .
+<http://ivci.org/NUVA/VAL391> rdfs:label "Walencja VLP Chikungunya"@pl .
 
-<http://ivci.org/NUVA/VAL390> rdfs:label "Chikungunya walencja, nieokreślona"@pl ;
-    skos:altLabel "CHIK"@pl .
-
-<http://ivci.org/NUVA/VAL391> rdfs:label "Walencja VLP Chikungunya"@pl ;
-    skos:altLabel "Chik-VLP"@pl .
-
-<http://ivci.org/NUVA/VAL392> skos:altLabel "AH5N1-RNA"@pl .
-
-<http://ivci.org/NUVA/VAL411> skos:altLabel "COVID-mRNA-S-OMI-BA.4/5-50"@pl .
-
-<http://ivci.org/NUVA/VAL412> skos:altLabel "Covid-ARNm-S-OMI-BA.1-50"@pl .
-
-<http://ivci.org/NUVA/VAL413> skos:altLabel "Covid-SP-rRBD-XBB.1.16"@pl .
-
-<http://ivci.org/NUVA/VAL414> rdfs:label "Walencja błonicza"@pl ;
-    skos:altLabel "DIPH"@pl .
-
-<http://ivci.org/NUVA/VAL415> skos:altLabel "BantAdj"@pl .
+<http://ivci.org/NUVA/VAL414> rdfs:label "Walencja błonicza"@pl .
 

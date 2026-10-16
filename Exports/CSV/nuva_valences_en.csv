@@ -121,19 +121,19 @@ VAL118,"Meningococcal B valence, unspecified",,MenB,VAL234
 VAL119,"COVID-19 valence, Omicron variant XFG, mRNA encoding the SARS-CoV-2 spike protein, 50 micrograms",,Covid-ARNm-S-OMI-XFG-50,VAL439
 VAL120,"Meningococcal valence, polyvalent, unconjugated polysaccharide",,MPV-poly,VAL234
 VAL121,"Polio valence, trivalent, inactivated, whole-virus, oral",,IPV-O,VAL042
-VAL122,"Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, non-adjuvanted",,INF-SUNA3,VAL231
+VAL122,"Influenza valence, trivalent, inactivated, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted",,INF-ESUNA3,VAL231
 VAL123,"Rotavirus valence, pentavalent, live attenuated virus",,Rota5-L,VAL106
 VAL124,"Cholera valence, live attenuated, unspecified",,CHOL-LA,VAL081
 VAL125,"Hepatitis A valence, inactivated, whole-virus, unspecified",,HepA-I,VAL288
 VAL126,"Ebola valence, unspecified",,Ebola,Valence
-VAL127,"Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route",,INF-SUimsc4,VAL230
+VAL127,"Influenza valence, quadrivalent, inactivated, obtained from egg culture, split or subunit, intramuscular or subcutaneous route",,INF-ESUimsc4,VAL230
 VAL128,"Influenza valence, unspecified",,INF,Valence
 VAL129,"Herpes simplex valence, unspecified",,HSV,Valence
 VAL130,"Hepatitis A valence, virosome",,HepA-VLP,VAL125
 VAL131,"Plague valence, inactivated, whole-cell",,Yp-I,VAL422
 VAL132,"Polio type 1 valence, monovalent, live attenuated, oral",,mOPV1,VAL133
 VAL133,"Polio valence, monovalent, live attenuated, oral, unspecified",,mOPV,VAL042
-VAL134,"Influenza valence, quadrivalent, inactivated, split or subunit, intradermal route, unspecified",,INF-SUid4,VAL230
+VAL134,"Influenza valence, quadrivalent, inactivated, obtained from egg culture, split or subunit, intradermal route, unspecified",,INF-ESUid4,VAL230
 VAL135,"COVID-19 valence, mRNA encoding the SARS-CoV-2 spike protein, in clinical trials ",,COVID-mRNA-S-CT,VAL303
 VAL136,"Meningococcal W valence, polysaccharide conjugate",,MCV-W,VAL300
 VAL137,"Meningococcal C valence, unconjugated",,MPV-C,VAL298
@@ -165,7 +165,7 @@ VAL162,"COVID-19 valence, replicating virus vector, unspecified",,COVID-VVr,VAL1
 VAL163,"COVID-19 valence, non-replicating viral vector, unspecified",,COVID-VVnr,VAL165
 VAL164,"COVID-19 valence, non live, unspecified",,COVID-non-live,VAL157
 VAL165,"COVID-19 valence, live, unspecified",,COVID-live,VAL157
-VAL166,"Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route, pediatric dose",,INF-SUped3,VAL122
+VAL166,"Influenza valence, trivalent, inactivated, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, pediatric dose",,INF-ESUped3,VAL122
 VAL167,"COVID-19 valence, non-replicating viral vector, antigen presenting cells",,COVID-VVnr+APC,VAL163
 VAL168,"COVID-19 valence, mRNA, unspecified",,COVID-mRNA,VAL164
 VAL169,"COVID-19 valence, self-amplifying mRNA (SAM)",,COVID-mRNA-SAM,VAL303
@@ -229,8 +229,8 @@ VAL226,"Pneumococcal valence, polysaccharide unconjugated, serotype 20",,PPSV-20
 VAL227,"Pneumococcal valence, polysaccharide unconjugated, serotype 22F",,PPSV-22F,VAL185
 VAL228,"Pneumococcal valence, polysaccharide unconjugated, serotype 23F",,PPSV-23F,VAL185
 VAL229,"Pneumococcal valence, polysaccharide unconjugated, serotype 33F",,PPSV-33F,VAL185
-VAL230,"Influenza valence, quadrivalent, inactivated, split or subunit, unspecified",,INF-SU4,VAL058
-VAL231,"Influenza valence, trivalent, inactivated, split or subunit, intramuscular or subcutaneous route",,INF-SUimsc3,VAL024
+VAL230,"Influenza valence, quadrivalent, inactivated, split or subunit, unspecified",,INF-ESU4,VAL058
+VAL231,"Influenza valence, trivalent, inactivated, obtained from egg culture, split or subunit, intramuscular or subcutaneous route",,INF-ESUimsc3,VAL024
 VAL232,"Pneumococcal valence, polysaccharide unconjugated, serotype 6A",,PPSV-06A,VAL185
 VAL233,"Pneumococcal valence, polysaccharide unconjugated, serotype 25",,PPSV-25,VAL185
 VAL234,"Meningococcal valence, unspecified",,Men,Valence
@@ -278,7 +278,7 @@ VAL275,"Meningococcal Y valence, polysaccharide conjugated to CRM197 protein",,M
 VAL276,"Meningococcal Y valence, polysaccharide tetanus toxoid conjugated",,MCV-Y-T,VAL078
 VAL277,"Meningococcal Y valence, polysaccharide diphtheria toxoid conjugated",,MCV-Y-D,VAL078
 VAL278,"Adenovirus valence, live attenuated, oral route, unspecified",,AD-LA,Valence
-VAL279,"Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular or subcutaneous route, pediatric dose",,INF-SUped4,VAL064
+VAL279,"Influenza valence, quadrivalent, inactivated, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, pediatric dose",,INF-ESUped4,VAL064
 VAL280,"Botulism valence, toxoid",,BT,VAL419
 VAL281,"Adenovirus type 7 valence, live attenuated, oral route",,AD7-LA,VAL278
 VAL282,"Adenovirus type 4 valence, live attenuated, oral route",,AD4-LA,VAL278
@@ -348,8 +348,8 @@ VAL345,"Urinary tract infections valence, unspecified",,UTI,Valence
 VAL346,Enterovirus A71 valence,,EV71,Valence
 VAL347,"Leptospira canicola valence, inactivated, whole-cell",,Lepto-ca,VAL448
 VAL348,"Leptospira pomona valence, inactivated whole-cell",,Lepto-po,VAL448
-VAL349,"Influenza valence, trivalent, inactivated, fractionated or subunit, adjuvanted",,INF-SUAnd3,VAL231
-VAL350,"Influenza valence, quadrivalent, inactivated, fractionated or subunit, adjuvanted, normal dose",,INF-SUAnd4,VAL127
+VAL349,"Influenza valence, trivalent, inactivated, obtained from egg culture, fractionated or subunit, adjuvanted",,INF-ESUAnd3,VAL231
+VAL350,"Influenza valence, quadrivalent, inactivated, obtained from egg culture, fractionated or subunit, adjuvanted, normal dose",,INF-ESUAnd4,VAL127
 VAL351,"Influenza valence, trivalent, virosomal, unspecified",,INF-V3,VAL362
 VAL352,"Influenza valence, quadrivalent, virosomal, unspecified",,INF-V4,VAL362
 VAL353,"Pneumococcal valence, polysaccharide conjugate, serotype 2",,PCV-02,VAL184
@@ -404,7 +404,7 @@ VAL401,"Japanese encephalitis valence, inactivated, whole-virus, derived from Ve
 VAL402,"Japanese encephalitis valence, inactivated, whole-virus, derived from Vero cells, 6 micrograms",,EJ-I-Vero-6,VAL251
 VAL403,"Meningococcal X valence, unspecified",,MenX,VAL234
 VAL404,"Meningococcal X valence, polysaccharide conjugate",,MCV-X,VAL403
-VAL405,"Influenza valence, live attenuated, pandemic influenza H1N1 2009",,INF-pdm09-V,VAL058
+VAL405,"Influenza valence, live attenuated, pandemic influenza H1N1 2009, obtained from egg culture",,INF-Epdm09-V,VAL365
 VAL406,"COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein",,COVID-mRNA-S-OMI-KP.2,VAL395
 VAL407,"COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein, 3 micrograms",,COVID-mRNA-S-OMI-KP.2-3,VAL406
 VAL408,"COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2 spike protein, 10 micrograms",,COVID-mRNA-S-OMI-KP.2-10,VAL406

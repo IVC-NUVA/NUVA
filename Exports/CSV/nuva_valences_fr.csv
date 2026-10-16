@@ -121,19 +121,19 @@ VAL118,"Valence méningocoque B, sans précision",,MenB,VAL234
 VAL119,"Valence covid 19, variant Omicron XFG, ARNm codant la protéine de pointe du SARS-CoV-2, 50 microgrammes",,Covid-ARNm-S-OMI-XFG-50,VAL439
 VAL120,"Valence méningocoque, polyvalent, polyoside non conjugué",,MPV-poly,VAL234
 VAL121,"Valence poliomyélite, trivalente, inactivée, entière, orale",,IPV-O,VAL042
-VAL122,"Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant",,INF-SUNA3,VAL231
+VAL122,"Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant",,INF-ESUNA3,VAL231
 VAL123,"Valence rotavirus, vivant atténué, pentavalent ",,Rota5-L,VAL106
 VAL124,"Valence choléra, vivante atténuée, sans précision",,CHOL-LA,VAL081
 VAL125,"Valence hépatite A, inactivée, entière, sans précision",,HepA-I,VAL288
 VAL126,"Valence Ebola, sans précision",,Ebola,Valence
-VAL127,"Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée",,INF-SUimsc4,VAL230
+VAL127,"Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée",,INF-ESUimsc4,VAL230
 VAL128,"Valence grippe, sans précision",,INF,Valence
 VAL129,"Valence herpes simplex, sans précision",,HSV,Valence
 VAL130,"Valence hépatite A, virosome",,HepA-VLP,VAL125
 VAL131,"Valence peste, inactivée, entière",,Yp-I,VAL422
 VAL132,"Valence poliomyélite, vivante atténuée, orale, monovalente type 1",,mOPV1,VAL133
 VAL133,"Valence poliomyélite, vivante atténuée, orale, monovalente, sans précision",,mOPV,VAL042
-VAL134,"Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intradermique, sans précision",,INF-SUid4,VAL230
+VAL134,"Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intradermique, sans précision",,INF-ESUid4,VAL230
 VAL135,"Valence covid 19, ARNm codant la protéine de pointe du SARS-CoV-2, en essai clinique ",,COVID-mRNA-S-CT,VAL303
 VAL136,"Valence méningocoque W, polyoside conjugué",,MCV-W,VAL300
 VAL137,"Valence méningocoque C, polyoside non conjugué",,MPV-C,VAL298
@@ -165,7 +165,7 @@ VAL162,"Valence covid 19, vecteur viral réplicatif, sans précision",,COVID-VVr
 VAL163,"Valence covid 19, vecteur viral non replicatif, sans précision",,COVID-VVnr,VAL165
 VAL164,"Valence covid 19, non vivant, sans précision",,COVID-non-live,VAL157
 VAL165,"Valence covid 19, vivant, sans précision",,COVID-live,VAL157
-VAL166,"Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, dose pédiatrique",,INF-SUped3,VAL122
+VAL166,"Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, dose pédiatrique",,INF-ESUped3,VAL122
 VAL167,"Valence covid 19, vecteur viral non replicatif avec cellules présentant l'antigène",,COVID-VVnr+APC,VAL163
 VAL168,"Valence covid 19, ARN, sans précision",,COVID-mRNA,VAL164
 VAL169,"Valence covid 19, ARNm auto-amplifiant (AAA)",,COVID-mRNA-SAM,VAL303
@@ -229,8 +229,8 @@ VAL226,"Valence pneumocoque, polyosidique non conjuguée, sérotype 20",,PPSV-20
 VAL227,"Valence pneumocoque, polyosidique non conjuguée, sérotype 22F",,PPSV-22F,VAL185
 VAL228,"Valence pneumocoque, polyosidique non conjuguée, sérotype 23F",,PPSV-23F,VAL185
 VAL229,"Valence pneumocoque, polyosidique non conjuguée, sérotype 33F",,PPSV-33F,VAL185
-VAL230,"Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, sans précision",,INF-SU4,VAL058
-VAL231,"Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée",,INF-SUimsc3,VAL024
+VAL230,"Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, sans précision",,INF-ESU4,VAL058
+VAL231,"Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée",,INF-ESUimsc3,VAL024
 VAL232,"Valence pneumocoque, polyosidique non conjuguée, sérotype 6A",,PPSV-06A,VAL185
 VAL233,"Valence pneumocoque, polyosidique non conjuguée, sérotype 25",,PPSV-25,VAL185
 VAL234,"Valence méningocoque, sans précision",,Men,Valence
@@ -278,7 +278,7 @@ VAL275,"Valence méningocoque Y, polyoside conjugué à la protéine CRM197",,MC
 VAL276,"Valence méningocoque Y, polyoside conjugué à l'anatoxine tétanique",,MCV-Y-T,VAL078
 VAL277,"Valence méningocoque Y, polyoside conjugué à l'anatoxine diphtérique",,MCV-Y-D,VAL078
 VAL278,"Valence Adénovirus, vivant atténué, voie orale, sans précision",,AD-LA,Valence
-VAL279,"Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, dose pédiatrique",,INF-SUped4,VAL064
+VAL279,"Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, dose pédiatrique",,INF-ESUped4,VAL064
 VAL280,"Valence botulisme, anatoxine",,BT,VAL419
 VAL281,"Valence Adénovirus de type 7, vivant atténué, voie orale, sans précision",,AD7-LA,VAL278
 VAL282,"Valence Adénovirus de type 4, vivant atténué, voie orale, sans précision",,AD4-LA,VAL278
@@ -348,8 +348,8 @@ VAL345,"Valence infections urinaires, sans précision",,UTI,Valence
 VAL346,Valence entérovirus A71,,EV71,Valence
 VAL347,"Valence Leptospira canicola, inactivée, entière",,Lepto-ca,VAL448
 VAL348,"Valence Leptospira pomona, inactivée, entière",,Lepto-po,VAL448
-VAL349,"Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, adjuvant",,INF-SUAnd3,VAL231
-VAL350,"Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, adjuvant, dose normale",,INF-SUAnd4,VAL127
+VAL349,"Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, adjuvant",,INF-ESUAnd3,VAL231
+VAL350,"Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, adjuvant, dose normale",,INF-ESUAnd4,VAL127
 VAL351,"Valence grippe, trivalente, virosomale, sans précision",,INF-V3,VAL362
 VAL352,"Valence grippe, quadrivalente, virosomale, sans précision",,INF-V4,VAL362
 VAL353,"Valence pneumocoque, polyosidique conjuguée, sérotype 2",,PCV-02,VAL184
@@ -404,7 +404,7 @@ VAL401,"Valence encéphalite japonaise, inactivée, dérivée de cellules Vero, 
 VAL402,"Valence encéphalite japonaise, inactivée, dérivée de cellules Vero, 6 microgrammes",,EJ-I-Vero-6,VAL251
 VAL403,"Valence méningocoque X, sans précision",,MenX,VAL234
 VAL404,"Valence méningocoque X, polyoside conjugué",,MCV-X,VAL403
-VAL405,"Valence grippe pandémique H1N1 2009, vivante atténuée",,INF-pdm09-V,VAL058
+VAL405,"Valence grippe pandémique H1N1 2009, vivante atténuée",,INF-Epdm09-V,VAL365
 VAL406,"Valence covid 19, variant Omicron KP.2, ARNm codant la protéine de pointe du SARS-CoV-2",,COVID-mRNA-S-OMI-KP.2,VAL395
 VAL407,"Valence covid 19, variant Omicron KP.2, ARNm codant la protéine de pointe du SARS-CoV-2, 3 microgrammes",,COVID-mRNA-S-OMI-KP.2-3,VAL406
 VAL408,"Valence covid 19, variant Omicron KP.2, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes",,COVID-mRNA-S-OMI-KP.2-10,VAL406

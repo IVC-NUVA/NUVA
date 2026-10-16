@@ -28,14 +28,15 @@
     VAC0015C: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
       acellular, 3 components, standard dose), Haemophilus influenzae type b (conjugated
       to tetanus toxoid) and inactivated polio (trivalent) pediatric vaccine, adsorbed
-    VAC0016C: Trivalent inactivated seasonal influenza vaccine, surface antigen, adult
-      dose
+    VAC0016C: Seasonal influenza trivalent inactivated vaccine, obtained from egg
+      culture surface antigen, adult dose
     VAC0017C: Live attenuated measles, mumps and rubella vaccine
     VAC0018C: Unconjugated meningococcal polysaccharide vaccine, serogroups A, C,
       W and Y
     VAC0019C: Meningococcal conjugate vaccine, serogroup C (conjugated to CRM197 Protein)
     VAC0020C: Meningococcal conjugate vaccine, serogroup C (conjugated to CRM197 Protein)
-    VAC0021C: Trivalent inactivated seasonal influenza vaccine, split virion
+    VAC0021C: Seasonal influenza trivalent inactivated vaccine, obtained from egg
+      culture, split virion
     VAC0022C: Meningococcal conjugate vaccine, serogroup C (conjugated to tetanus
       toxoid)
     VAC0023C: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
@@ -46,7 +47,8 @@
       20, 22F, 23F and 33F
     VAC0025C: Pneumococcal conjugate vaccine, 7-valent, adsorbed, serotypes 4, 6B,
       9V, 14, 18C, 19F and 23F
-    VAC0026C: Trivalent inactivated seasonal influenza vaccine, surface antigen
+    VAC0026C: Seasonal influenza trivalent inactivated vaccine, obtained from egg
+      culture, surface antigen
     VAC0027C: Live attenuated measles, mumps and rubella vaccine
     VAC0028C: "Whole virion inactivated rabies vaccine, Flury LEP strain, purified\
       \ chick embryo cell vaccine (PCECV), inactivated with \xDF-propiolactone"
@@ -60,8 +62,8 @@
     VAC0033C: Live attenuated rubella vaccine
     VAC0034C: Inactivated whole-cell leptospirosis vaccine
     VAC0035C: Live attenuated yellow fever vaccine
-    VAC0036C: Trivalent inactivated seasonal influenza, split virion and tetanus toxoid
-      vaccine
+    VAC0036C: Seasonal influenza trivalent inactivated vaccine, obtained from egg
+      culture, split virion and tetanus toxoid vaccine
     VAC0037C: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
       acellular, standard dose) and inactivated polio (trivalent) pediatric vaccine
     VAC0038C: "Tick-borne encephalitis vaccine, whole-virus inactivated, Neud\xF6\
@@ -78,7 +80,8 @@
       (types 16 and 18), recombinant, adsorbed
     VAC0045C: Hepatitis B recombinant vaccine, pediatric dose
     VAC0046C: Recombinant hepatitis B vaccine, adult dose
-    VAC0047C: Trivalent inactivated seasonal influenza vaccine, split virion
+    VAC0047C: Seasonal influenza trivalent inactivated vaccine, obtained from egg
+      culture, split virion
     VAC0048C: "Recombinant hepatitis B vaccine, HBsAg 20 \xB5g, children and adult\
       \ dose"
     VAC0049C: Inactivated hepatitis A vaccine, adult dose
@@ -96,7 +99,8 @@
     VAC0059C: Polysaccharide typhoid vaccine (Vi capsular antigen)
     VAC0060C: Live attenuated chickenpox vaccine
     VAC0061C: Live attenuated chickenpox vaccine
-    VAC0062C: Trivalent inactivated seasonal influenza vaccine, split virion
+    VAC0062C: Seasonal influenza trivalent inactivated vaccine, obtained from egg
+      culture, split virion
     VAC0063C: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell
       inactivated) and inactivated polio (trivalent) pediatric vaccine
     VAC0064C: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell
@@ -141,7 +145,8 @@
     VAC0094C: Polio vaccine (live attenuated, trivalent) against polioviruses 1, 2
       and 3, oral
     VAC0095C: Typhoid and paratyphoid A and B vaccine, whole-cell inactivated
-    VAC0096C: Trivalent inactivated seasonal influenza vaccine, split virion
+    VAC0096C: Seasonal influenza trivalent inactivated vaccine, obtained from egg
+      culture, split virion
     VAC0097C: Inactivated whole-cell leptospirosis vaccine
     VAC0098C: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
       acellular, standard dose), Haemophilus influenzae type b (conjugated to tetanus
@@ -154,11 +159,16 @@
     VAC0102L: Hepatitis A inactivated vaccine, unspecified
     VAC0103C: Quadrivalent meningococcal polysaccharide conjugate vaccine, serogroups
       A, C, W and Y (conjugated to diphteria toxoid)
-    VAC0104C: Pandemic influenza A(H1N1)pdm09 vaccine, inactivated
-    VAC0105C: Pandemic influenza A(H1N1)pdm09 vaccine, inactivated
-    VAC0106C: Pandemic influenza A(H1N1)pdm09 vaccine, inactivated
-    VAC0107C: Whole-virion inactivated influenza A(H1N1)pdm09 pandemic vaccine
-    VAC0108C: Pandemic influenza A(H1N1)pdm09 vaccine, inactivated
+    VAC0104C: Influenza A(H1N1)pdm09 pandemic vaccine, whole-virion inactivated, obtained
+      from egg culture
+    VAC0105C: Influenza A(H1N1)pdm09 pandemic vaccine, inactivated, obtained from
+      egg culture
+    VAC0106C: Influenza A(H1N1)pdm09 pandemic vaccine, inactivated, obtained from
+      egg culture
+    VAC0107C: Influenza A(H1N1)pdm09 pandemic vaccine, whole-virion inactivated, obtained
+      from egg culture
+    VAC0108C: Influenza A(H1N1)pdm09 pandemic vaccine, inactivated, obtained from
+      egg culture
     VAC0109C: Pandemic influenza A(H1N1)pdm09 vaccine, inactivated, egg-based, surface
       antigen, with adjuvant
     VAC0110C: Seasonal influenza vaccine
@@ -178,7 +188,8 @@
       serotypes 1, 3, 4 , 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F and 23F
     VAC0124C: Pandemic influenza A(H1N1)pdm09 vaccine, inactivated, egg-based, surface
       antigen, with adjuvant
-    VAC0125C: Pandemic influenza A(H1N1)pdm09 vaccine, inactivated
+    VAC0125C: Influenza A(H1N1)pdm09 pandemic vaccine, inactivated, obtained from
+      egg culture, split virion
     VAC0126C: Plasma vaccine against hepatitis B (first French vaccine)
     VAC0127C: Recombinant hepatitis B vaccine, pediatric dose
     VAC0128C: "Recombinant hepatitis B vaccine with 10 micrograms of HBs antigen (although\
@@ -208,7 +219,8 @@
     VAC0139C: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell
       inactivated), Haemophilus influenzae type b (conjugated to tetanus toxoid) and
       inactivated polio (trivalent) pediatric vaccine, adsorbed
-    VAC0140C: Trivalent inactivated seasonal influenza vaccine, split virion, intradermal
+    VAC0140C: Seasonal influenza trivalent inactivated vaccine, obtained from egg
+      culture, split virion, intradermal
     VAC0141C: Quadrivalent meningococcal polysaccharide conjugate vaccine, serogroups
       A, C, W and Y (conjugated to CRM197 Protein)
     VAC0143C: Haemophilus influenzae type b conjugate vaccine
@@ -218,7 +230,8 @@
     VAC0145L: Tick-borne encephalitis vaccine, unspecified
     VAC0146C: Live attenuated Japanese encephalitis vaccine, 14-14-2 strain
     VAC0146L: Japanese Encephalitis live attenuated vaccine 14-14-2 strain, unspecified
-    VAC0147C: Pandemic influenza A(H1N1)pdm09 vaccine, inactivated
+    VAC0147C: Influenza A(H1N1)pdm09 pandemic vaccine, inactivated, obtained from
+      egg culture
     VAC0147L: Influenza A(H1N1)2009 vaccine, unspecified
     VAC0148C: Inactivated whole-cell leptospirosis vaccine
     VAC0148L: Leptospirosis vaccine, unspecified
@@ -291,7 +304,8 @@
     VAC0192C: Live attenuated measles vaccine
     VAC0193C: Adsorbed acellular anthrax vaccine with adjuvant
     VAC0194C: Haemophilus influenzae type b non-conjugated polysaccharide vaccine
-    VAC0195C: Trivalent inactivated seasonal influenza vaccine, split virion
+    VAC0195C: Seasonal influenza trivalent inactivated vaccine, obtained from egg
+      culture, split virion
     VAC0196C: Live attenuated rubella and mumps vaccine
     VAC0197C: Live attenuated rubella and mumps vaccine
     VAC0198C: Recombinant hepatitis B vaccine
@@ -332,14 +346,18 @@
       acellular, standard dose) pediatric vaccine
     VAC0227C: Inactivated hepatitis A vaccine, virosome, pediatric or adult
     VAC0228C: Live attenuated rubella vaccine
-    VAC0229C: Trivalent inactivated seasonal influenza vaccine
+    VAC0229C: Seasonal influenza trivalent inactivated vaccine, obtained from egg
+      culture
     VAC0230C: Trivalent inactivated seasonal influenza vaccine, surface antigen, adjuvanted
     VAC0231C: Trivalent inactivated seasonal influenza vaccine
-    VAC0232C: Trivalent inactivated seasonal influenza vaccine
+    VAC0232C: Seasonal influenza trivalent inactivated vaccine, obtained from egg
+      culture
     VAC0233C: Seasonal influenza vaccine, trivalent, live attenuated, nasal
-    VAC0234C: Trivalent whole virion inactivated seasonal influenza vaccine
+    VAC0234C: Seasonal influenza vaccine, trivalent, whole virion inactivated, obtained
+      from egg culture
     VAC0235C: Trivalent inactivated seasonal influenza vaccine
-    VAC0236C: Trivalent inactivated seasonal influenza vaccine, high dose
+    VAC0236C: Seasonal influenza trivalent inactivated vaccine, obtained from egg
+      culture, high dose
     VAC0238C: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (whole-cell
       inactivated) pediatric vaccine
     VAC0240C: Live attenuated rubella vaccine
@@ -373,13 +391,16 @@
     VAC0263C: Live attenuated measles vaccine
     VAC0264C: Diphtheria toxoid (standard dose), tetanus toxoid and pertussis (multicomponent
       acellular, standard dose) pediatric vaccine
-    VAC0265C: Trivalent inactivated seasonal influenza vaccine
-    VAC0266C: Trivalent inactivated seasonal influenza vaccine
+    VAC0265C: Seasonal influenza trivalent inactivated vaccine, obtained from egg
+      culture
+    VAC0266C: Seasonal influenza trivalent inactivated vaccine, obtained from egg
+      culture
     VAC0267C: Tetanus toxoid and inactivated polio (trivalent) vaccine
     VAC0268C: Inactivated polio (trivalent) vaccine
     VAC0270C: Inactivated polio (trivalent) vaccine
     VAC0270L: Poliomyelitis inactivated vaccine, unspecified
-    VAC0271C: Trivalent inactivated seasonal influenza vaccine
+    VAC0271C: Seasonal influenza trivalent inactivated vaccine, obtained from egg
+      culture
     VAC0272C: Diphtheria toxoid (standard dose) and tetanus toxoid pediatric vaccine
     VAC0273C: Pertussis (whole-cell inactivated) vaccine
     VAC0274C: Smallpox vaccine, first-generation, live vaccinia virus
@@ -525,7 +546,8 @@
     VAC0372C: Polio vaccine (live attenuated, trivalent) against polioviruses 1, 2
       and 3, oral
     VAC0373C: Inactivated polio (trivalent) vaccine
-    VAC0374C: Trivalent inactivated seasonal influenza vaccine
+    VAC0374C: Seasonal influenza  trivalent inactivated vaccine, obtained from egg
+      culture
     VAC0375C: Inactivated whole-cell cholera vaccine for injection combined with polysaccharide
       typhoid vaccine
     VAC0376C: Oral Inactivated whole-cell cholera vaccine
@@ -684,7 +706,8 @@
     VAC0490C: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
       acellular, standard dose) and inactivated polio (trivalent) pediatric vaccine
     VAC0491C: Diphtheria toxoid (low dose) and tetanus toxoid vaccine
-    VAC0492C: Trivalent inactivated seasonal influenza vaccine, split virion
+    VAC0492C: Seasonal influenza trivalent inactivated vaccine, obtained from egg
+      culture, split virion
     VAC0494C: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell
       inactivated) and hepatitis B (recombinant) pediatric vaccine
     VAC0495C: 4-component meningococcal vaccine, serogroup B
@@ -810,7 +833,8 @@
     VAC0569C: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (multicomponent
       acellular, standard dose) and inactivated polio (trivalent) pediatric vaccine
     VAC0570C: Haemophilus influenzae type b conjugate vaccine (tetanus protein conjugate)
-    VAC0573C: Trivalent inactivated seasonal influenza vaccine, surface antigen
+    VAC0573C: Seasonal influenza trivalent inactivated vaccine, obtained from egg
+      culture, surface antigen
     VAC0574C: Diphtheria toxoid (low dose), tetanus toxoid and inactivated polio (trivalent)
       vaccine, adsorbed
     VAC0575C: "Tick-borne encephalitis vaccine, whole-virus inactivated, Neud\xF6\
@@ -904,7 +928,8 @@
     VAC0641C: Diphtheria toxoid (standard dose), tetanus toxoid, pertussis (whole-cell
       inactivated), Haemophilus influenzae type b (conjugated to tetanus toxoid) and
       meningococcal pediatric vaccine, serogroup A and C
-    VAC0642C: High-dose, quadrivalent inactivated seasonal influenza vaccine, split-virion
+    VAC0642C: Seasonal influenza vaccine, quadrivalent inactivated, obtained from
+      egg culture, split-virion, high dose
     VAC0643C: Quadrivalent meningococcal polysaccharide conjugate vaccine, serogroups
       A, C, W and Y
     VAC0643L: Meningococcal ACWY conjugate vaccine, unspecified
@@ -917,7 +942,8 @@
     VAC0647C: Rotavirus vaccine
     VAC0648C: COVID-19 vaccine
     VAC0648L: COVID-19 vaccine, unspecified
-    VAC0649C: High-dose, quadrivalent inactivated seasonal influenza vaccine, split-virion
+    VAC0649C: Seasonal influenza vaccine, quadrivalent inactivated, obtained from
+      egg culture, split-virion, high dose
     VAC0650C: COVID-19 vaccine, non-replicating chimpanzee adenoviral vector ChAdOx1
       encoding the SARS-CoV-2 spike protein
     VAC0651C: 'COVID-19 vaccine, whole virion inactivated, adjuvanted (adjuvant: aluminium
@@ -1232,8 +1258,7 @@
     VAC0818L: Typhoid-Paratyphoid vaccine, unspecified
     VAC0819C: Whole virion inactivated japanese encephalitis vaccine
     VAC0819L: Japanese Encephalitis inactivated vaccine, unspecified
-    VAC0820C: Whole virion inactivated seasonal influenza vaccine
-    VAC0820L: Influenza inactivated whole vaccine, unspecified
+    VAC0820L: Influenza inactivated whole vaccine, obtained from egg culture, unspecified
     VAC0821C: Inactivated seasonal influenza vaccine
     VAC0821L: Influenza inactivated vaccine, split or subunit, unspecified
     VAC0822C: Seasonal influenza vaccine, live attenuated
@@ -1269,8 +1294,8 @@
     VAC0839C: Whole-cell inactivated brucellosis vaccine
     VAC0839L: Brucella inactivated whole-cell vaccine, unspecified
     VAC0840C: Trivalent inactivated seasonal influenza vaccine, surface antigen
-    VAC0841C: Trivalent inactivated seasonal influenza vaccine, surface antigen, paediatric
-      dose
+    VAC0841C: Seasonal influenza trivalent inactivated vaccine, obtained from egg
+      culture, surface antigen, paediatric dose
     VAC0842C: Whole virion inactivated rabies vaccine, Wistar virus strain PM1503-3M,
       cultured on Vero cells
     VAC0843C: "Whole virion inactivated rabies vaccine, WISTAR PM/WI 38-1503-3M strain,\
@@ -1462,8 +1487,8 @@
     VAC0927L: COVID-19 mRNA vaccine, paediatric dose, unspecified
     VAC0928C: Live attenuated hepatitis A vaccine
     VAC0928L: Hepatitis A live attenuated vaccine, unspecified
-    VAC0929C: Quadrivalent inactivated seasonal influenza vaccine, pediatric dose
-    VAC0929L: Influenza quadrivalent inactivated vaccine, pediatric dose, unspecified
+    VAC0929L: Seasonal influenza vaccine, quadrivalent, inactivated, obtained from
+      egg culture, pediatric dose
     VAC0930C: COVID-19 vaccine, non-replicating viral vector, adenovirus type 5, for
       inhalation
     VAC0931C: Quadrivalent recombinant seasonal influenza vaccine
@@ -1531,11 +1556,13 @@
     VAC0966C: Smallpox vaccine, third generation, modified vaccinia virus Ankara,
       non-replicative
     VAC0967C: Inactivated whole-cell hepatitis A vaccine, virosome, pediatric or adult
-    VAC0968C: Trivalent inactivated seasonal influenza vaccine, virosome
+    VAC0968C: Seasonal influenza trivalent inactivated vaccine, obtained from egg
+      culture, virosome
     VAC0969C: Whole virion inactivated rabies vaccine, cultured on Vero cells
     VAC0970C: Tetanus toxoid vaccine
     VAC0971C: Smallpox vaccine, first-generation, live vaccinia virus
-    VAC0972C: Trivalent inactivated seasonal influenza vaccine, surface antigen
+    VAC0972C: Seasonal influenza trivalent inactivated vaccine, obtained from egg
+      culture, surface antigen
     VAC0973C: Trivalent inactivated seasonal influenza vaccine, virosome
     VAC0974C: Unconjugated meningococcal polysaccharide vaccine, serogroups A and
       C
@@ -1676,7 +1703,8 @@
     VAC1067L: Streptococcus pyogenes vaccine, unspecified
     VAC1068L: Rift Valley fever vaccine, unspecified
     VAC1069L: Vaccinia immune globulin
-    VAC1070C: Quadrivalent inactivated influenza vaccine, split or subunit, high-dose
+    VAC1070C: Influenza quadrivalent inactivated vaccine, obtained from egg culture,
+      split or subunit, high-dose
     VAC1071L: RSV antibody or vaccine, unspecified
     VAC1072C: COVID-19 mRNA vaccine, original virus, 25 micrograms
     VAC1072L: "COVID-19 mRNA vaccine, original virus, 25 \xB5g, unspecified"
@@ -1836,8 +1864,10 @@
       S-2P and CpG1018, unspecified
     VAC1145C: Recombinant hepatitis B vaccine, three antigens (HbS, pre-S1 and pre-S2)
     VAC1145L: Hepatitis B recombinant vaccine, three antigens, unspecified
-    VAC1146C: Inactivated quadrivalent influenza vaccine, split or subunit, high dose
-    VAC1146L: Influenza inactivated quadrivalent vaccine, high dose, unspecified
+    VAC1146C: Inactivated quadrivalent influenza vaccine, obtained from egg culture,
+      split or subunit, high dose
+    VAC1146L: Influenza inactivated quadrivalent vaccine, obtained from egg culture,
+      high dose, unspecified
     VAC1147C: Human monoclonal antibody against respiratory syncytial virus (RSV),
       nirsevimab, unspecified
     VAC1147L: Respiratory syncytial virus (RSV) human monoclonal antibody, nirsevimab,
@@ -1915,9 +1945,10 @@
       ChadOx1 encoding the SARS-CoV-2 spike protein
     VAC1170L: COVID-19 non-replicating viral vector vaccine, chimpanzee adenovirus
       ChadOx1 encoding the SARS-CoV-2 spike protein
-    VAC1171C: Trivalent inactivated influenza vaccine, split or subunit, high dose
-    VAC1171L: Influenza trivalent vaccine, inactivated, split or subunit, high dose,
-      unspecified
+    VAC1171C: Influenza trivalent inactivated vaccine, obtained from egg culture,
+      split or subunit, high dose
+    VAC1171L: Influenza trivalent vaccine, inactivated, obtained from egg culture,
+      split or subunit, high dose, unspecified
     VAC1172C: Diphtheria vaccine (anatoxin, reduced dose)
     VAC1172L: Diphtheria toxoid, reduced dose, unspecified
     VAC1173C: Anti-covid 19 vaccine with replicative viral vector, influenza virus
@@ -2251,7 +2282,8 @@
       1, 5, 6A, 6B, 7F, 9V, 14, 19A, 19F and 23F
     VAC1323C: Quadrivalent meningococcal polysaccharide conjugate vaccine, serogroups
       A, C, W, X and Y
-    VAC1324C: Live attenuated influenza A(H1N1)pdm09 pandemic vaccine
+    VAC1324C: Influenza A(H1N1)pdm09 pandemic vaccine, live attenuated, obtained from
+      egg culture
     VAC1325C: Recombinant hepatitis B vaccine with thiomersal, pediatric dose
     VAC1326C: Recombinant hepatitis B vaccine with thiomersal, adult dose
     VAC1327C: Recombinant hepatitis B vaccine without thiomersal, adult and paediatric
@@ -2273,7 +2305,8 @@
       brain tissue, Nakayama strain, injectable
     VAC1345C: Polysaccharide typhoid vaccine (Vi capsular antigen)
     VAC1346C: Quadrivalent inactivated seasonal influenza vaccine, split virion
-    VAC1347C: High-dose, trivalent inactivated seasonal influenza vaccine, split-virion
+    VAC1347C: Seasonal influenza vaccine, trivalent inactivated, obtained from egg
+      culture, split-virion, high-dose
     VAC1348C: Tetanus toxoid vaccine
     VAC1349C: Whole-cell inactivated typhoid vaccine
     VAC1350C: Tetanus toxoid vaccine
@@ -2299,7 +2332,8 @@
     VAC1365C: Paediatric vaccine for diphtheria (toxoid, standard dose), tetanus (toxoid),
       whooping cough (whole, standard dose), hepatitis B and Haemophilus influenzae
       type b (conjugated with tetanus toxoid).
-    VAC1367C: Pandemic influenza A(H1N1)pdm09 vaccine, inactivated
+    VAC1367C: Influenza A(H1N1)pdm09 pandemic vaccine, inactivated, obtained from
+      egg culture
     VAC1368C: COVID-19 vaccine, non-replicating chimpanzee adenoviral vector ChAdOx1
       encoding the SARS-CoV-2 spike protein
     VAC1369C: Whole virion inactivated rabies vaccine, cultured on Vero cells
@@ -2318,9 +2352,6 @@
     VAC1382C: Typhoid conjugate vaccine, Vi polysaccharide capsular antigen linked
       to a carrier protein (diphtheria toxin)
     VAC1384C: Live attenuated chickenpox vaccine
-    VAC1385C: Quadrivalent inactivated seasonal influenza vaccine, split or subunit,
-      unspecified
-    VAC1386C: Quadrivalent inactivated seasonal influenza vaccine, pediatric dose
     VAC1387C: Live attenuated yellow fever vaccine
     VAC1388C: Polio vaccine (live attenuated, bivalent) against poliovirus types 1
       and 3, oral
@@ -2335,7 +2366,8 @@
     VAC1395C: Live attenuated mumps vaccine
     VAC1396C: Trivalent inactivated seasonal influenza vaccine, split virion
     VAC1397C: Influenza A(H5N1) vaccine (fragmented virion, inactivated, adjuvanted)
-    VAC1398C: Pandemic influenza A(H1N1)pdm09 vaccine, inactivated
+    VAC1398C: Influenza A(H1N1)pdm09 pandemic vaccine, inactivated, obtained from
+      egg culture
     VAC1399C: Quadrivalent inactivated seasonal influenza vaccine, split virion
     VAC1400C: Inactivated polio (trivalent) vaccine
     VAC1401C: Human Papillomavirus vaccine, nonavalent (types 6, 11, 16, 18, 31, 33,
@@ -2379,6 +2411,8 @@
     VAC1421L: COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, original
       virus
     VAC1422L: COVID-19 protein subunit vaccine, recombinant N protein
+    VAC1423C: Influenza A(H1N1)pdm09 pandemic vaccine, live attenuated, obtained from
+      egg culture
     VAC1423L: Influenza vaccine A(H1N1)pdm09 pandemic, live attenuated
     VAC1424L: Pneumococcal 10-valent polysaccharide conjugate vaccine, serotypes 1,
       5, 6A, 6B, 7F, 9V, 14, 19A, 19F and 23F
@@ -2401,15 +2435,13 @@
     VAC1436L: Rabies vaccine, inactivated, whole virion, prepared from animal brain
       tissue infected with rabies virus, unspecified
     VAC1437C: Meningococcal vaccine, monovalent, conjugate
-    VAC1438L: Influenza vaccine, trivalent, inactivated, fractionated or subunit,
-      adjuvanted
+    VAC1438L: Influenza vaccine, trivalent, inactivated, obtained from egg culture,
+      fractionated or subunit, adjuvanted
     VAC1439C: Meningococcal vaccine, polyvalent, conjugate polysaccharide
-    VAC1440C: Influenza valence, quadrivalent, inactivated, fractionated or subunit,
-      adjuvanted, normal dose
-    VAC1440L: Influenza vaccine, quadrivalent, inactivated, fractionated or subunit,
-      adjuvanted, normal dose
-    VAC1441L: Influenza vaccine, quadrivalent, inactivated, split or subunit, intradermal
-      route, unspecified
+    VAC1440L: Influenza vaccine, quadrivalent, inactivated, obtained from egg culture,
+      fractionated or subunit, adjuvanted, normal dose
+    VAC1441L: Influenza vaccine, quadrivalent, inactivated, obtained from egg culture,
+      split or subunit, intradermal route, unspecified
     VAC1442L: Influenza vaccine, quadrivalent, virosomal, unspecified
     VAC1443L: Influenza vaccine, trivalent, virosomal, unspecified
     VAC1444L: Influenza vaccine, trivalent, VLP, unspecified
@@ -2437,7 +2469,8 @@
     VAC1461C: Paediatric diphtheria vaccine (toxoid, standard dose) and tetanus vaccine
       (toxoid)
     VAC1463C: Tuberculosis vaccine
-    VAC1464C: Seasonal influenza vaccine, whole inactivated
+    VAC1464C: Seasonal influenza vaccine, trivalent, whole virion inactivated, obtained
+      from egg culture
     VAC1465C: Paediatric diphtheria vaccine (toxoid, standard dose) and pertussis
       (whole-cell inactivated)
     VAC1469C: COVID-19 mRNA vaccine, encoding fragments (NTD and RBD) of the SARS-CoV-2
@@ -2470,7 +2503,8 @@
     VAC1487C: Pneumococcal conjugate vaccine, 7-valent, adsorbed, serotypes 4, 6B,
       9V, 14, 18C, 19F and 23F
     VAC1488C: Inactivated polio (trivalent) vaccine
-    VAC1489C: Pandemic influenza A(H1N1)pdm09 vaccine, inactivated
+    VAC1489C: Influenza A(H1N1)pdm09 pandemic vaccine, inactivated, obtained from
+      egg culture
     VAC1490C: Live attenuated rubella vaccine
     VAC1491C: Live attenuated rubella vaccine
     VAC1492C: Inactivated polio (trivalent) vaccine
@@ -2523,8 +2557,8 @@
     VAC1531L: COVID-19 mRNA vaccine, subvariant Omicron XFG, 50 micrograms
     VAC1532L: COVID-19 mRNA vaccine, subvariant Omicron XFG, 25 micrograms
     VAC1533L: Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain
-    VAC1534L: Trivalent inactivated seasonal influenza vaccine, split virion, pediatric
-      form
+    VAC1534L: Seasonal influenza vaccine, trivalent inactivated, obtained from egg
+      culture, split virion, pediatric form
     VAC1535L: COVID-19 vaccine, protein subunit, recombinant spike protein, with adjuvant
       unspecified
     VAC1536L: COVID-19 mRNA vaccine, bivalent, original virus + Omicron variant, 50
@@ -2536,7 +2570,8 @@
     VAC1539L: Meningococcal broad-spectrum vaccine against serogroups A, B, C, W and
       Y
     VAC1540L: Typhoid and tetanus vaccine, injectable suspension
-    VAC1541L: Influenza quadrivalent inactivated vaccine, split or subunit, unspecified
+    VAC1541L: Influenza quadrivalent inactivated vaccine, obtained from egg culture,
+      split or subunit, unspecified
     VAC1542L: Typhoid conjugate to diphtheria toxoid vaccine, unspecified
     VAC1543L: Malaria vaccine sporozoite surface protein, unspecified
     VAC1544L: Dengue vaccine, live-attenuated, recombinant chimeric, quadrivalent
@@ -2722,22 +2757,22 @@
       protein, 50 micrograms
     VAL120L: Meningococcal valence, polyvalent, unconjugated polysaccharide
     VAL121L: Polio valence, trivalent, inactivated, whole-virus, oral
-    VAL122L: Influenza valence, trivalent, inactivated, split or subunit, intramuscular
-      or subcutaneous route, non-adjuvanted
+    VAL122L: Influenza valence, trivalent, inactivated, obtained from egg culture,
+      split or subunit, intramuscular or subcutaneous route, non-adjuvanted
     VAL123L: Rotavirus valence, pentavalent, live attenuated virus
     VAL124L: Cholera valence, live attenuated, unspecified
     VAL125L: Hepatitis A valence, inactivated, whole-virus, unspecified
     VAL126L: Ebola valence, unspecified
-    VAL127L: Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular
-      or subcutaneous route
+    VAL127L: Influenza valence, quadrivalent, inactivated, obtained from egg culture,
+      split or subunit, intramuscular or subcutaneous route
     VAL128L: Influenza valence, unspecified
     VAL129L: Herpes simplex valence, unspecified
     VAL130L: Hepatitis A valence, virosome
     VAL131L: Plague valence, inactivated, whole-cell
     VAL132L: Polio type 1 valence, monovalent, live attenuated, oral
     VAL133L: Polio valence, monovalent, live attenuated, oral, unspecified
-    VAL134L: Influenza valence, quadrivalent, inactivated, split or subunit, intradermal
-      route, unspecified
+    VAL134L: Influenza valence, quadrivalent, inactivated, obtained from egg culture,
+      split or subunit, intradermal route, unspecified
     VAL135L: 'COVID-19 valence, mRNA encoding the SARS-CoV-2 spike protein, in clinical
       trials '
     VAL136L: Meningococcal W valence, polysaccharide conjugate
@@ -2777,8 +2812,8 @@
     VAL163L: COVID-19 valence, non-replicating viral vector, unspecified
     VAL164L: COVID-19 valence, non live, unspecified
     VAL165L: COVID-19 valence, live, unspecified
-    VAL166L: Influenza valence, trivalent, inactivated, split or subunit, intramuscular
-      or subcutaneous route, pediatric dose
+    VAL166L: Influenza valence, trivalent, inactivated, obtained from egg culture,
+      split or subunit, intramuscular or subcutaneous route, pediatric dose
     VAL167L: COVID-19 valence, non-replicating viral vector, antigen presenting cells
     VAL168L: COVID-19 valence, mRNA, unspecified
     VAL169L: COVID-19 valence, self-amplifying mRNA (SAM)
@@ -2848,8 +2883,8 @@
     VAL228L: Pneumococcal valence, polysaccharide unconjugated, serotype 23F
     VAL229L: Pneumococcal valence, polysaccharide unconjugated, serotype 33F
     VAL230L: Influenza valence, quadrivalent, inactivated, split or subunit, unspecified
-    VAL231L: Influenza valence, trivalent, inactivated, split or subunit, intramuscular
-      or subcutaneous route
+    VAL231L: Influenza valence, trivalent, inactivated, obtained from egg culture,
+      split or subunit, intramuscular or subcutaneous route
     VAL232L: Pneumococcal valence, polysaccharide unconjugated, serotype 6A
     VAL233L: Pneumococcal valence, polysaccharide unconjugated, serotype 25
     VAL234L: Meningococcal valence, unspecified
@@ -2911,8 +2946,8 @@
     VAL276L: Meningococcal Y valence, polysaccharide tetanus toxoid conjugated
     VAL277L: Meningococcal Y valence, polysaccharide diphtheria toxoid conjugated
     VAL278L: Adenovirus valence, live attenuated, oral route, unspecified
-    VAL279L: Influenza valence, quadrivalent, inactivated, split or subunit, intramuscular
-      or subcutaneous route, pediatric dose
+    VAL279L: Influenza valence, quadrivalent, inactivated, obtained from egg culture,
+      split or subunit, intramuscular or subcutaneous route, pediatric dose
     VAL280L: Botulism valence, toxoid
     VAL281L: Adenovirus type 7 valence, live attenuated, oral route
     VAL282L: Adenovirus type 4 valence, live attenuated, oral route
@@ -3011,9 +3046,10 @@
     VAL346L: Enterovirus A71 valence
     VAL347L: Leptospira canicola valence, inactivated, whole-cell
     VAL348L: Leptospira pomona valence, inactivated whole-cell
-    VAL349L: Influenza valence, trivalent, inactivated, fractionated or subunit, adjuvanted
-    VAL350L: Influenza valence, quadrivalent, inactivated, fractionated or subunit,
-      adjuvanted, normal dose
+    VAL349L: Influenza valence, trivalent, inactivated, obtained from egg culture,
+      fractionated or subunit, adjuvanted
+    VAL350L: Influenza valence, quadrivalent, inactivated, obtained from egg culture,
+      fractionated or subunit, adjuvanted, normal dose
     VAL351L: Influenza valence, trivalent, virosomal, unspecified
     VAL352L: Influenza valence, quadrivalent, virosomal, unspecified
     VAL353L: Pneumococcal valence, polysaccharide conjugate, serotype 2
@@ -3085,7 +3121,8 @@
       Vero cells, 6 micrograms
     VAL403L: Meningococcal X valence, unspecified
     VAL404L: Meningococcal X valence, polysaccharide conjugate
-    VAL405L: Influenza valence, live attenuated, pandemic influenza H1N1 2009
+    VAL405L: Influenza valence, live attenuated, pandemic influenza H1N1 2009, obtained
+      from egg culture
     VAL406L: COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2
       spike protein
     VAL407L: COVID-19 valence, Omicron variant KP.2, mRNA encoding the SARS-CoV-2

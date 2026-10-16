@@ -1,5 +1,4 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <http://ivci.org/NUVA/VAC0084> rdfs:label "H5N1 pre-pandemic influenza vaccine, unspecified"@lv ;
     rdfs:comment "A(H5N1) gripas vakcīna"@lv .
@@ -592,924 +591,577 @@
 
 <http://ivci.org/NUVA/VAC1341> rdfs:label "SPIKEVAX BA.4-5 0,1 mg/mL dose 50 µg"@lv .
 
-<http://ivci.org/NUVA/VAL001> rdfs:label "Trivalenta dzīva novājināta gripas valence, normāla deva"@lv ;
-    skos:altLabel "Inf-L3"@lv .
+<http://ivci.org/NUVA/VAL001> rdfs:label "Trivalenta dzīva novājināta gripas valence, normāla deva"@lv .
 
-<http://ivci.org/NUVA/VAL002> rdfs:label "Konjugētā vakcīna pret vēdertīfu, Vi polisaharīda antigēns, kas saistīts ar nesējbaltumu"@lv ;
-    skos:altLabel "Ty-ViC"@lv .
+<http://ivci.org/NUVA/VAL002> rdfs:label "Konjugētā vakcīna pret vēdertīfu, Vi polisaharīda antigēns, kas saistīts ar nesējbaltumu"@lv .
 
-<http://ivci.org/NUVA/VAL003> rdfs:label "Garā klepus valence, bez precizējuma"@lv ;
-    skos:altLabel "Per"@lv .
+<http://ivci.org/NUVA/VAL003> rdfs:label "Garā klepus valence, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL004> rdfs:label "Visa inaktivēta holēras valence, injicējama"@lv ;
-    skos:altLabel "I-Chol-I"@lv .
+<http://ivci.org/NUVA/VAL004> rdfs:label "Visa inaktivēta holēras valence, injicējama"@lv .
 
-<http://ivci.org/NUVA/VAL005> skos:altLabel "Meas-LAV"@lv .
+<http://ivci.org/NUVA/VAL006> rdfs:label "Anti-Brucella valence, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL006> rdfs:label "Anti-Brucella valence, bez precizējuma"@lv ;
-    skos:altLabel "Bruc"@lv .
+<http://ivci.org/NUVA/VAL007> rdfs:label "Rekombinants vezikulārā stomatīta vīrusa (rVSV) replikatīvais vektors Ebolas vakcīna - EBOV GP glikoproteīns"@lv .
 
-<http://ivci.org/NUVA/VAL007> rdfs:label "Rekombinants vezikulārā stomatīta vīrusa (rVSV) replikatīvais vektors Ebolas vakcīna - EBOV GP glikoproteīns"@lv ;
-    skos:altLabel "rVSVdG-ZEBOV-GP"@lv .
+<http://ivci.org/NUVA/VAL008> rdfs:label "Bezšūnu garā klepus valence, standarta deva"@lv .
 
-<http://ivci.org/NUVA/VAL008> rdfs:label "Bezšūnu garā klepus valence, standarta deva"@lv ;
-    skos:altLabel "aP"@lv .
+<http://ivci.org/NUVA/VAL009> rdfs:label "Vakcīnas pret sporozoītu virsmas olbaltumvielām"@lv .
 
-<http://ivci.org/NUVA/VAL009> rdfs:label "Vakcīnas pret sporozoītu virsmas olbaltumvielām"@lv ;
-    skos:altLabel "Mala-SPO"@lv .
+<http://ivci.org/NUVA/VAL010> rdfs:label "Inaktivētas visas garā klepus baktērijas valence"@lv .
 
-<http://ivci.org/NUVA/VAL010> rdfs:label "Inaktivētas visas garā klepus baktērijas valence"@lv ;
-    skos:altLabel "wP"@lv .
+<http://ivci.org/NUVA/VAL011> rdfs:label "COVID-19 vakcīna, proteīna apakšvienība, rekombinantais smailes proteīns (RBD)"@lv .
 
-<http://ivci.org/NUVA/VAL011> rdfs:label "COVID-19 vakcīna, proteīna apakšvienība, rekombinantais smailes proteīns (RBD)"@lv ;
-    skos:altLabel "COVID-PS-rRBD"@lv .
+<http://ivci.org/NUVA/VAL012> rdfs:label "Hepatīta B vakcīna, rekombinantā Hepatīta B vīrusa virsmas antigēns (HBsAg), 40 mikrogrami (dializējamo pacientu devas)"@lv .
 
-<http://ivci.org/NUVA/VAL012> rdfs:label "Hepatīta B vakcīna, rekombinantā Hepatīta B vīrusa virsmas antigēns (HBsAg), 40 mikrogrami (dializējamo pacientu devas)"@lv ;
-    skos:altLabel "rHBsAg-40"@lv .
+<http://ivci.org/NUVA/VAL013> rdfs:label "Varicella zoster vīrusa (VZV) virsmas glikoproteīns E (gE)"@lv .
 
-<http://ivci.org/NUVA/VAL013> rdfs:label "Varicella zoster vīrusa (VZV) virsmas glikoproteīns E (gE)"@lv ;
-    skos:altLabel "Shingles-gE"@lv .
+<http://ivci.org/NUVA/VAL014> rdfs:label "Vakcīna pret vēdertīfu, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL014> rdfs:label "Vakcīna pret vēdertīfu, neprecizēta"@lv ;
-    skos:altLabel "Ty"@lv .
+<http://ivci.org/NUVA/VAL016> rdfs:label "Trakumsērgas imūnglobulīns, neprecizēts"@lv .
 
-<http://ivci.org/NUVA/VAL016> rdfs:label "Trakumsērgas imūnglobulīns, neprecizēts"@lv ;
-    skos:altLabel "RIG"@lv .
+<http://ivci.org/NUVA/VAL017> rdfs:label "Bezšūnu garā klepus valence, samazināta deva"@lv .
 
-<http://ivci.org/NUVA/VAL017> rdfs:label "Bezšūnu garā klepus valence, samazināta deva"@lv ;
-    skos:altLabel "ap"@lv .
+<http://ivci.org/NUVA/VAL018> rdfs:label "Trešās paaudzes vakcīna pret bakām, minimāli replicējošs dzīvs vakcinācijas vīruss"@lv .
 
-<http://ivci.org/NUVA/VAL018> rdfs:label "Trešās paaudzes vakcīna pret bakām, minimāli replicējošs dzīvs vakcinācijas vīruss"@lv ;
-    skos:altLabel "Pox-3G-LC16"@lv .
+<http://ivci.org/NUVA/VAL019> rdfs:label "Difterijas antitoksīns"@lv .
 
-<http://ivci.org/NUVA/VAL019> rdfs:label "Difterijas antitoksīns"@lv ;
-    skos:altLabel "DATx"@lv .
-
-<http://ivci.org/NUVA/VAL020> skos:altLabel "Shingles-L"@lv .
-
-<http://ivci.org/NUVA/VAL021> rdfs:label "Perorāla inaktivēta vesela holēras vakcīna"@lv ;
-    skos:altLabel "O-Chol-I"@lv .
-
-<http://ivci.org/NUVA/VAL022> skos:altLabel "Smallpox-L"@lv .
+<http://ivci.org/NUVA/VAL021> rdfs:label "Perorāla inaktivēta vesela holēras vakcīna"@lv .
 
 <http://ivci.org/NUVA/VAL024> rdfs:label "Trivalenta inaktivēta gripas valence, frakcionēta vai apakšvienība, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL025> rdfs:label "Vakcīna pret malāriju, neprecizēta"@lv ;
-    skos:altLabel "Mala"@lv .
+<http://ivci.org/NUVA/VAL025> rdfs:label "Vakcīna pret malāriju, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL026> rdfs:label "Meningokoku vakcīna B:14:P1.7,16 ar ārējās membrānas vezikulu olbaltumvielām"@lv ;
-    skos:altLabel "MenB-OMP"@lv .
+<http://ivci.org/NUVA/VAL026> rdfs:label "Meningokoku vakcīna B:14:P1.7,16 ar ārējās membrānas vezikulu olbaltumvielām"@lv .
 
-<http://ivci.org/NUVA/VAL027> rdfs:label "COVID-19 vakcīna, neatjaunojošs adenovīrusa 26 vektors, kas kodē SARS-CoV-2 smailes proteīnu."@lv ;
-    skos:altLabel "COVID-VVnr-S-Ad26"@lv .
+<http://ivci.org/NUVA/VAL027> rdfs:label "COVID-19 vakcīna, neatjaunojošs adenovīrusa 26 vektors, kas kodē SARS-CoV-2 smailes proteīnu."@lv .
 
-<http://ivci.org/NUVA/VAL028> skos:altLabel "POX-3G"@lv .
+<http://ivci.org/NUVA/VAL029> rdfs:label "Sezonas gripas VLP vakcīna, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL029> rdfs:label "Sezonas gripas VLP vakcīna, neprecizēta"@lv ;
-    skos:altLabel "Inf-VLP"@lv .
+<http://ivci.org/NUVA/VAL030> rdfs:label "Vakcīna pret Borrelia burgdorferi - ārējās virsmas proteīns A (OspA)"@lv .
 
-<http://ivci.org/NUVA/VAL030> rdfs:label "Vakcīna pret Borrelia burgdorferi - ārējās virsmas proteīns A (OspA)"@lv ;
-    skos:altLabel "Lyme-OspA"@lv .
+<http://ivci.org/NUVA/VAL031> rdfs:label "Ērču encefalīts"@lv .
 
-<http://ivci.org/NUVA/VAL031> rdfs:label "Ērču encefalīts"@lv ;
-    skos:altLabel "TBE"@lv .
+<http://ivci.org/NUVA/VAL032> rdfs:label "Tifusa polisaharīdu vakcīna, nekonjugēta Vi polisaharīdu antigēns"@lv .
 
-<http://ivci.org/NUVA/VAL032> rdfs:label "Tifusa polisaharīdu vakcīna, nekonjugēta Vi polisaharīdu antigēns"@lv ;
-    skos:altLabel "Ty-ViPS"@lv .
+<http://ivci.org/NUVA/VAL033> rdfs:label "Monovalentā dzīvā novājinātā 2. tipa perorālā poliomielīta vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL033> rdfs:label "Monovalentā dzīvā novājinātā 2. tipa perorālā poliomielīta vakcīna"@lv ;
-    skos:altLabel "mOPV2"@lv .
+<http://ivci.org/NUVA/VAL034> rdfs:label "Difterijas toksoīds, neliela deva"@lv .
 
-<http://ivci.org/NUVA/VAL034> rdfs:label "Difterijas toksoīds, neliela deva"@lv ;
-    skos:altLabel "d"@lv .
+<http://ivci.org/NUVA/VAL035> rdfs:label "COVID-19 vakcīna, plazmīdu DNS, kas kodē SARS-CoV-2 smailes proteīnu"@lv .
 
-<http://ivci.org/NUVA/VAL035> rdfs:label "COVID-19 vakcīna, plazmīdu DNS, kas kodē SARS-CoV-2 smailes proteīnu"@lv ;
-    skos:altLabel "COVID-DNA-S"@lv .
+<http://ivci.org/NUVA/VAL036> rdfs:label "Cilvēka papilomas vīrusa VLP neavalentā vakcīna, 6., 11., 16., 18., 31., 33., 45., 52., 58. tips"@lv .
 
-<http://ivci.org/NUVA/VAL036> rdfs:label "Cilvēka papilomas vīrusa VLP neavalentā vakcīna, 6., 11., 16., 18., 31., 33., 45., 52., 58. tips"@lv ;
-    skos:altLabel "HPV-09-valent"@lv .
+<http://ivci.org/NUVA/VAL037> rdfs:label "Meningokoka A nekonjugēta polisaharīda vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL037> rdfs:label "Meningokoka A nekonjugēta polisaharīda vakcīna"@lv ;
-    skos:altLabel "MPV-A"@lv .
+<http://ivci.org/NUVA/VAL038> rdfs:label "COVID-19 vakcīna, replicējošs masalu vīrusa vektors, kas kodē SARS-CoV-2 smailes proteīnu"@lv .
 
-<http://ivci.org/NUVA/VAL038> rdfs:label "COVID-19 vakcīna, replicējošs masalu vīrusa vektors, kas kodē SARS-CoV-2 smailes proteīnu"@lv ;
-    skos:altLabel "COVID-VVr-S-Meas"@lv .
+<http://ivci.org/NUVA/VAL039> rdfs:label "COVID-19 vakcīna, VLP, rekombinants smailes proteīns"@lv .
 
-<http://ivci.org/NUVA/VAL039> rdfs:label "COVID-19 vakcīna, VLP, rekombinants smailes proteīns"@lv ;
-    skos:altLabel "COVID-VLP-rS"@lv .
+<http://ivci.org/NUVA/VAL041> rdfs:label "Meningokoka A polisaharīdu konjugētā vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL041> rdfs:label "Meningokoka A polisaharīdu konjugētā vakcīna"@lv ;
-    skos:altLabel "MCV-A"@lv .
+<http://ivci.org/NUVA/VAL042> rdfs:label "Poliomielīta vakcīna, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL042> rdfs:label "Poliomielīta vakcīna, neprecizēta"@lv ;
-    skos:altLabel "POLIO"@lv .
+<http://ivci.org/NUVA/VAL043> rdfs:label "SARS-CoV-2 smaila proteīna mRNS 19 vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL043> rdfs:label "SARS-CoV-2 smaila proteīna mRNS 19 vakcīna"@lv ;
-    skos:altLabel "COVID-mRNA-S"@lv .
+<http://ivci.org/NUVA/VAL044> rdfs:label "Varicella"@lv .
 
-<http://ivci.org/NUVA/VAL044> rdfs:label "Varicella"@lv ;
-    skos:altLabel "VZV-LAV"@lv .
+<http://ivci.org/NUVA/VAL045> rdfs:label "Inaktivēta visa paratifa vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL045> rdfs:label "Inaktivēta visa paratifa vakcīna"@lv ;
-    skos:altLabel "pTy-I"@lv .
+<http://ivci.org/NUVA/VAL046> rdfs:label "Tifuss"@lv .
 
-<http://ivci.org/NUVA/VAL046> rdfs:label "Tifuss"@lv ;
-    skos:altLabel "Typhus"@lv .
+<http://ivci.org/NUVA/VAL047> rdfs:label "Hepatīta B imūnglobulīns"@lv .
 
-<http://ivci.org/NUVA/VAL047> rdfs:label "Hepatīta B imūnglobulīns"@lv ;
-    skos:altLabel "IgHepB"@lv .
+<http://ivci.org/NUVA/VAL048> rdfs:label "Inaktivēta vesela vakcīna pret parotītu"@lv .
 
-<http://ivci.org/NUVA/VAL048> rdfs:label "Inaktivēta vesela vakcīna pret parotītu"@lv ;
-    skos:altLabel "Or-I"@lv .
+<http://ivci.org/NUVA/VAL049> rdfs:label "Polisaharīdu Haemophilus influenzae b tipa valence, nekonjugēta"@lv .
 
-<http://ivci.org/NUVA/VAL049> rdfs:label "Polisaharīdu Haemophilus influenzae b tipa valence, nekonjugēta"@lv ;
-    skos:altLabel "Hib-PS"@lv .
+<http://ivci.org/NUVA/VAL050> rdfs:label "COVID-19 vakcīna, neatjaunojošs adenovīrusa 5 vektors, kas kodē SARS-CoV-2 smailes proteīnu, neprecizēts"@lv .
 
-<http://ivci.org/NUVA/VAL050> rdfs:label "COVID-19 vakcīna, neatjaunojošs adenovīrusa 5 vektors, kas kodē SARS-CoV-2 smailes proteīnu, neprecizēts"@lv ;
-    skos:altLabel "COVID-VVnr-S-Ad5"@lv .
+<http://ivci.org/NUVA/VAL051> rdfs:label "Pirmspandēmiskā vakcīna pret A(H5N1) gripu"@lv .
 
-<http://ivci.org/NUVA/VAL051> rdfs:label "Pirmspandēmiskā vakcīna pret A(H5N1) gripu"@lv ;
-    skos:altLabel "AH5N1"@lv .
+<http://ivci.org/NUVA/VAL052> rdfs:label "Cilvēka papilomas vīrusa VLP četrvalenta vakcīna, 6., 11., 16. un 18. tips"@lv .
 
-<http://ivci.org/NUVA/VAL052> rdfs:label "Cilvēka papilomas vīrusa VLP četrvalenta vakcīna, 6., 11., 16. un 18. tips"@lv ;
-    skos:altLabel "HPV-04-valent"@lv .
+<http://ivci.org/NUVA/VAL053> rdfs:label "COVID-19 vakcīna, proteīna apakšvienība, rekombinantais smailes proteīns, neprecizēts"@lv .
 
-<http://ivci.org/NUVA/VAL053> rdfs:label "COVID-19 vakcīna, proteīna apakšvienība, rekombinantais smailes proteīns, neprecizēts"@lv ;
-    skos:altLabel "COVID-PS"@lv .
+<http://ivci.org/NUVA/VAL054> rdfs:label "COVID-19 vakcīna, neatjaunojošs modificēts Vaccinia Virus Ankara vektors, kas kodē SARS-CoV-2 smailes proteīnu."@lv .
 
-<http://ivci.org/NUVA/VAL054> rdfs:label "COVID-19 vakcīna, neatjaunojošs modificēts Vaccinia Virus Ankara vektors, kas kodē SARS-CoV-2 smailes proteīnu."@lv ;
-    skos:altLabel "COVID-VVnr-S-MVA"@lv .
+<http://ivci.org/NUVA/VAL055> rdfs:label "Masalu imūnglobulīns"@lv .
 
-<http://ivci.org/NUVA/VAL055> rdfs:label "Masalu imūnglobulīns"@lv ;
-    skos:altLabel "Ig-Measles"@lv .
+<http://ivci.org/NUVA/VAL056> rdfs:label "Visa inaktivēta trivalenta poliomielīta vakcīna injekcijām"@lv .
 
-<http://ivci.org/NUVA/VAL056> rdfs:label "Visa inaktivēta trivalenta poliomielīta vakcīna injekcijām"@lv ;
-    skos:altLabel "POLIO-I"@lv .
-
-<http://ivci.org/NUVA/VAL057> rdfs:label "Meningokoka C polisaharīdu konjugāta vakcīna"@lv ;
-    skos:altLabel "MCV-C"@lv .
+<http://ivci.org/NUVA/VAL057> rdfs:label "Meningokoka C polisaharīdu konjugāta vakcīna"@lv .
 
 <http://ivci.org/NUVA/VAL058> rdfs:label "Inaktivēta gripas valence, frakcionēta vai apakšvienība, bez precizējuma"@lv .
 
 <http://ivci.org/NUVA/VAL059> rdfs:label "Četrvalenta dzīva novājināta gripas valence, normāla deva"@lv .
 
-<http://ivci.org/NUVA/VAL060> skos:altLabel "CHIK-LA"@lv .
+<http://ivci.org/NUVA/VAL061> rdfs:label "COVID-19 vakcīna, proteīna apakšvienība, rekombinants smailes proteīns, S-2P un CpG1018"@lv .
 
-<http://ivci.org/NUVA/VAL061> rdfs:label "COVID-19 vakcīna, proteīna apakšvienība, rekombinants smailes proteīns, S-2P un CpG1018"@lv ;
-    skos:altLabel "COVID-PS-CpG1018"@lv .
+<http://ivci.org/NUVA/VAL063> rdfs:label "Botulīna antitoksīns"@lv .
 
-<http://ivci.org/NUVA/VAL062> skos:altLabel "O-Chol-rCTB-I"@lv .
+<http://ivci.org/NUVA/VAL065> rdfs:label "Dzīva novājināta rekombinētā himēriskā tetravalentā denges vakcīna "@lv .
 
-<http://ivci.org/NUVA/VAL063> rdfs:label "Botulīna antitoksīns"@lv ;
-    skos:altLabel "BAT"@lv .
+<http://ivci.org/NUVA/VAL066> rdfs:label "Pretcovid 19 replicatīvā vīrusa vektora vakcīna, gripas vīruss, kas kodē SARS-CoV-2 maksimālo proteīnu"@lv .
 
-<http://ivci.org/NUVA/VAL065> rdfs:label "Dzīva novājināta rekombinētā himēriskā tetravalentā denges vakcīna "@lv ;
-    skos:altLabel "RC-TDV"@lv .
+<http://ivci.org/NUVA/VAL067> rdfs:label "Stingumkrampju toksoīds"@lv .
 
-<http://ivci.org/NUVA/VAL066> rdfs:label "Pretcovid 19 replicatīvā vīrusa vektora vakcīna, gripas vīruss, kas kodē SARS-CoV-2 maksimālo proteīnu"@lv ;
-    skos:altLabel "COVID-VVr-S-Influ"@lv .
+<http://ivci.org/NUVA/VAL068> rdfs:label "B hepatīta valence, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL067> rdfs:label "Stingumkrampju toksoīds"@lv ;
-    skos:altLabel "T"@lv .
+<http://ivci.org/NUVA/VAL069> rdfs:label "COVID-19 vakcīna, neatjaunojošs šimpanzes adenovīrusu vektors ChAdOx1, kas kodē SARS-CoV-2 smailes proteīnu"@lv .
 
-<http://ivci.org/NUVA/VAL068> rdfs:label "B hepatīta valence, bez precizējuma"@lv ;
-    skos:altLabel "HepB"@lv .
+<http://ivci.org/NUVA/VAL070> rdfs:label "COVID-19 vakcīna, neatjaunojošs adenovīrusu vektors, kas kodē SARS-CoV-2 smailes proteīnu, neprecizēts"@lv .
 
-<http://ivci.org/NUVA/VAL069> rdfs:label "COVID-19 vakcīna, neatjaunojošs šimpanzes adenovīrusu vektors ChAdOx1, kas kodē SARS-CoV-2 smailes proteīnu"@lv ;
-    skos:altLabel "COVID-VVnr-S-ChAdOx1"@lv .
+<http://ivci.org/NUVA/VAL071> rdfs:label "Inaktivēta visa vakcīna pret vēdertīfu"@lv .
 
-<http://ivci.org/NUVA/VAL070> rdfs:label "COVID-19 vakcīna, neatjaunojošs adenovīrusu vektors, kas kodē SARS-CoV-2 smailes proteīnu, neprecizēts"@lv ;
-    skos:altLabel "COVID-VVnr-S-Ad"@lv .
+<http://ivci.org/NUVA/VAL072> rdfs:label "Meningokoka B vakcīna, kas satur A un B apakšģimenes fHbp"@lv .
 
-<http://ivci.org/NUVA/VAL071> rdfs:label "Inaktivēta visa vakcīna pret vēdertīfu"@lv ;
-    skos:altLabel "Ty-I"@lv .
-
-<http://ivci.org/NUVA/VAL072> rdfs:label "Meningokoka B vakcīna, kas satur A un B apakšģimenes fHbp"@lv ;
-    skos:altLabel "MenB-fHbpAB"@lv .
-
-<http://ivci.org/NUVA/VAL073> rdfs:label "COVID-19 vakcīna, replicējošs vīrusa vektors, ar antigēnu prezentējošām šūnām"@lv ;
-    skos:altLabel "COVID-VVr+APC"@lv .
+<http://ivci.org/NUVA/VAL073> rdfs:label "COVID-19 vakcīna, replicējošs vīrusa vektors, ar antigēnu prezentējošām šūnām"@lv .
 
 <http://ivci.org/NUVA/VAL074> rdfs:label "Četrivalenta inaktivēta gripas vakcīna, sadalīta vai subvienota, lielas devas"@lv .
 
-<http://ivci.org/NUVA/VAL075> rdfs:label "Inaktivēta visa vakcīna pret Leptospira icterohaemorrhagiae"@lv ;
-    skos:altLabel "Lepto-wI"@lv .
+<http://ivci.org/NUVA/VAL075> rdfs:label "Inaktivēta visa vakcīna pret Leptospira icterohaemorrhagiae"@lv .
 
 <http://ivci.org/NUVA/VAL076> rdfs:label "COVID-19 vakcīna, inaktivēta ar veselu vīrionu, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL077> skos:altLabel "Mumps-LAV"@lv .
+<http://ivci.org/NUVA/VAL078> rdfs:label "Meningokoka Y polisaharīdu konjugāta vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL078> rdfs:label "Meningokoka Y polisaharīdu konjugāta vakcīna"@lv ;
-    skos:altLabel "MCV-Y"@lv .
+<http://ivci.org/NUVA/VAL080> rdfs:label "Visa viriona inaktivēta trakumsērgas vakcīna, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL079> skos:altLabel "Rub-LAV"@lv .
+<http://ivci.org/NUVA/VAL081> rdfs:label "Holēras valence, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL080> rdfs:label "Visa viriona inaktivēta trakumsērgas vakcīna, neprecizēta"@lv ;
-    skos:altLabel "Rab-I"@lv .
+<http://ivci.org/NUVA/VAL082> rdfs:label "Vakcīna pret cilvēka papilomas vīrusu, veidi nav norādīti"@lv .
 
-<http://ivci.org/NUVA/VAL081> rdfs:label "Holēras valence, bez precizējuma"@lv ;
-    skos:altLabel "Chol"@lv .
+<http://ivci.org/NUVA/VAL083> rdfs:label "Difterijas toksoīds, deva nav precizēta"@lv .
 
-<http://ivci.org/NUVA/VAL082> rdfs:label "Vakcīna pret cilvēka papilomas vīrusu, veidi nav norādīti"@lv ;
-    skos:altLabel "HPV"@lv .
+<http://ivci.org/NUVA/VAL084> rdfs:label "COVID-19 vakcīna, replicējošs vezikulārā stomatīta vīrusa vektors, kas kodē SARS-CoV-2 smailes proteīnu"@lv .
 
-<http://ivci.org/NUVA/VAL083> rdfs:label "Difterijas toksoīds, deva nav precizēta"@lv ;
-    skos:altLabel "D-d"@lv .
+<http://ivci.org/NUVA/VAL085> rdfs:label "Monovalentā dzīvā novājinātā 3. tipa perorālā poliomielīta vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL084> rdfs:label "COVID-19 vakcīna, replicējošs vezikulārā stomatīta vīrusa vektors, kas kodē SARS-CoV-2 smailes proteīnu"@lv ;
-    skos:altLabel "COVID-VVr-S-VSV"@lv .
+<http://ivci.org/NUVA/VAL086> rdfs:label "COVID-19 vakcīna, dzīvā novājinātā, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL085> rdfs:label "Monovalentā dzīvā novājinātā 3. tipa perorālā poliomielīta vakcīna"@lv ;
-    skos:altLabel "mOPV3"@lv .
+<http://ivci.org/NUVA/VAL087> rdfs:label "Denges valence, dzīva novājināta tetravalenta himēriskā rekombinantā, balstīta uz dzeltenā drudža 17D vakcīnu"@lv .
 
-<http://ivci.org/NUVA/VAL086> rdfs:label "COVID-19 vakcīna, dzīvā novājinātā, neprecizēta"@lv ;
-    skos:altLabel "COVID-LA"@lv .
+<http://ivci.org/NUVA/VAL088> rdfs:label "Varicella imūnglobulīns"@lv .
 
-<http://ivci.org/NUVA/VAL087> rdfs:label "Denges valence, dzīva novājināta tetravalenta himēriskā rekombinantā, balstīta uz dzeltenā drudža 17D vakcīnu"@lv ;
-    skos:altLabel "CYD-TDV"@lv .
+<http://ivci.org/NUVA/VAL089> rdfs:label "Inaktivēta valence pret Japānas encefalītu, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL088> rdfs:label "Varicella imūnglobulīns"@lv ;
-    skos:altLabel "VZV-Ig"@lv .
+<http://ivci.org/NUVA/VAL090> rdfs:label "Hepatīta B vakcīna, rekombinantais hepatīta B vīrusa virsmas antigēns (HBsAg), deva nav precizēta."@lv .
 
-<http://ivci.org/NUVA/VAL089> rdfs:label "Inaktivēta valence pret Japānas encefalītu, bez precizējuma"@lv ;
-    skos:altLabel "JE-I"@lv .
+<http://ivci.org/NUVA/VAL091> rdfs:label "Dzīva novājināta tīfa vakcīna, Ty21a celms, perorāla"@lv .
 
-<http://ivci.org/NUVA/VAL090> rdfs:label "Hepatīta B vakcīna, rekombinantais hepatīta B vīrusa virsmas antigēns (HBsAg), deva nav precizēta."@lv ;
-    skos:altLabel "rHBsAg"@lv .
+<http://ivci.org/NUVA/VAL092> rdfs:label "Dzeltenais drudzis"@lv .
 
-<http://ivci.org/NUVA/VAL091> rdfs:label "Dzīva novājināta tīfa vakcīna, Ty21a celms, perorāla"@lv ;
-    skos:altLabel "Ty-LA"@lv .
+<http://ivci.org/NUVA/VAL093> rdfs:label "Inaktivēta vesela masalu vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL092> rdfs:label "Dzeltenais drudzis"@lv ;
-    skos:altLabel "YF"@lv .
+<http://ivci.org/NUVA/VAL095> rdfs:label "COVID-19 vakcīna, replicējošs Ņūkāslas slimības vīrusa vektors, kas kodē SARS-CoV-2 smailes proteīnu"@lv .
 
-<http://ivci.org/NUVA/VAL093> rdfs:label "Inaktivēta vesela masalu vakcīna"@lv ;
-    skos:altLabel "Meas-I"@lv .
+<http://ivci.org/NUVA/VAL096> rdfs:label "BCG valence"@lv .
 
-<http://ivci.org/NUVA/VAL095> rdfs:label "COVID-19 vakcīna, replicējošs Ņūkāslas slimības vīrusa vektors, kas kodē SARS-CoV-2 smailes proteīnu"@lv ;
-    skos:altLabel "COVID-VVr-S-Nv"@lv .
+<http://ivci.org/NUVA/VAL097> rdfs:label "Difterijas toksoīds, standarta deva"@lv .
 
-<http://ivci.org/NUVA/VAL096> rdfs:label "BCG valence"@lv ;
-    skos:altLabel "BCG"@lv .
+<http://ivci.org/NUVA/VAL098> rdfs:label "4 komponentu meningokoka B vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL097> rdfs:label "Difterijas toksoīds, standarta deva"@lv ;
-    skos:altLabel "D"@lv .
+<http://ivci.org/NUVA/VAL099> rdfs:label "Inaktivēta pandēmiskās gripas H1N1 2009 valence "@lv .
 
-<http://ivci.org/NUVA/VAL098> rdfs:label "4 komponentu meningokoka B vakcīna"@lv ;
-    skos:altLabel "4CMenB"@lv .
+<http://ivci.org/NUVA/VAL101> rdfs:label "COVID-19 vakcīna, nereplikācijas Ņūkāslas slimības vīrusa vektors, kas kodē SARS-CoV-2 smailes proteīnu"@lv .
 
-<http://ivci.org/NUVA/VAL099> rdfs:label "Inaktivēta pandēmiskās gripas H1N1 2009 valence "@lv ;
-    skos:altLabel "Inf-pdm09"@lv .
+<http://ivci.org/NUVA/VAL102> rdfs:label "Rekombinanta peptīdu E hepatīta valence"@lv .
 
-<http://ivci.org/NUVA/VAL100> skos:altLabel "JE-LAV-14-14-2"@lv .
+<http://ivci.org/NUVA/VAL103> rdfs:label "Konjugēta Haemophilus influenzae b tipa valence, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL101> rdfs:label "COVID-19 vakcīna, nereplikācijas Ņūkāslas slimības vīrusa vektors, kas kodē SARS-CoV-2 smailes proteīnu"@lv ;
-    skos:altLabel "COVID-VVnr-S-Nv"@lv .
+<http://ivci.org/NUVA/VAL104> rdfs:label "COVID-19 vakcīna, proteīna apakšvienība, rekombinants smailes proteīns"@lv .
 
-<http://ivci.org/NUVA/VAL102> rdfs:label "Rekombinanta peptīdu E hepatīta valence"@lv ;
-    skos:altLabel "HepE"@lv .
+<http://ivci.org/NUVA/VAL105> rdfs:label "Pneimokoku vakcīna, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL103> rdfs:label "Konjugēta Haemophilus influenzae b tipa valence, bez precizējuma"@lv ;
-    skos:altLabel "Hib-C"@lv .
-
-<http://ivci.org/NUVA/VAL104> rdfs:label "COVID-19 vakcīna, proteīna apakšvienība, rekombinants smailes proteīns"@lv ;
-    skos:altLabel "COVID-PS-rS"@lv .
-
-<http://ivci.org/NUVA/VAL105> rdfs:label "Pneimokoku vakcīna, neprecizēta"@lv ;
-    skos:altLabel "Pneumo"@lv .
-
-<http://ivci.org/NUVA/VAL106> rdfs:label "Rotavīrusa vakcīna, neprecizēta"@lv ;
-    skos:altLabel "Rota"@lv .
+<http://ivci.org/NUVA/VAL106> rdfs:label "Rotavīrusa vakcīna, neprecizēta"@lv .
 
 <http://ivci.org/NUVA/VAL107> rdfs:label "COVID-19 vakcīna, proteīna apakšvienība, rekombinantās smaiļveida proteīna nanodaļiņas"@lv .
 
-<http://ivci.org/NUVA/VAL108> rdfs:label "Dzīva nereplicējoša rekombinantā vīrusu vektora vakcīna Ad26.ZEBOV"@lv ;
-    skos:altLabel "ZebovVRnrAd26"@lv .
+<http://ivci.org/NUVA/VAL108> rdfs:label "Dzīva nereplicējoša rekombinantā vīrusu vektora vakcīna Ad26.ZEBOV"@lv .
 
-<http://ivci.org/NUVA/VAL109> rdfs:label "Valence pret ebolu ar nereplicējošu vīrusa vektoru, modificētā Ankaras vakcīna "@lv ;
-    skos:altLabel "Ebola-MVA-BN-Filo"@lv .
+<http://ivci.org/NUVA/VAL109> rdfs:label "Valence pret ebolu ar nereplicējošu vīrusa vektoru, modificētā Ankaras vakcīna "@lv .
 
-<http://ivci.org/NUVA/VAL110> rdfs:label "Stingumkrampju imūnglobulīns"@lv ;
-    skos:altLabel "T-Ig"@lv .
+<http://ivci.org/NUVA/VAL110> rdfs:label "Stingumkrampju imūnglobulīns"@lv .
 
-<http://ivci.org/NUVA/VAL111> rdfs:label "Acelulārā Sibīrijas mēra vakcīna"@lv ;
-    skos:altLabel "Bant"@lv .
+<http://ivci.org/NUVA/VAL111> rdfs:label "Acelulārā Sibīrijas mēra vakcīna"@lv .
 
 <http://ivci.org/NUVA/VAL112> rdfs:label "Četrvalenta inaktivēta gripas valence, iegūta no šūnu kultūras, frakcionēta vai apakšvienība, normāla deva"@lv .
 
-<http://ivci.org/NUVA/VAL113> rdfs:label "Cilvēka papilomas vīrusa VLP divvērtīgā vakcīna, 16. un 18. tips"@lv ;
-    skos:altLabel "HPV-02-valent"@lv .
+<http://ivci.org/NUVA/VAL113> rdfs:label "Cilvēka papilomas vīrusa VLP divvērtīgā vakcīna, 16. un 18. tips"@lv .
 
-<http://ivci.org/NUVA/VAL114> rdfs:label "Hepatīta B vakcīna, rekombinantais hepatīta B virsmas antigēns (HBsAg), 10 mikrogrami"@lv ;
-    skos:altLabel "rHBsAg-10"@lv .
+<http://ivci.org/NUVA/VAL114> rdfs:label "Hepatīta B vakcīna, rekombinantais hepatīta B virsmas antigēns (HBsAg), 10 mikrogrami"@lv .
 
 <http://ivci.org/NUVA/VAL115> rdfs:label "Hepatīta B vakcīna, rekombinants hepatīta B vīrusa virsmas antigēns (HBsAg), 20 mikrogrami"@lv .
 
-<http://ivci.org/NUVA/VAL116> rdfs:label "Monoklonālā antiviela pret RSV, palivizumab"@lv ;
-    skos:altLabel "RSV-mAb-pal"@lv .
+<http://ivci.org/NUVA/VAL116> rdfs:label "Monoklonālā antiviela pret RSV, palivizumab"@lv .
 
-<http://ivci.org/NUVA/VAL117> rdfs:label "Acelulārā garo klepus klepus vakcīna, deva nav norādīta"@lv ;
-    skos:altLabel "Acel"@lv .
+<http://ivci.org/NUVA/VAL117> rdfs:label "Acelulārā garo klepus klepus vakcīna, deva nav norādīta"@lv .
 
-<http://ivci.org/NUVA/VAL118> rdfs:label "Meningokoka B tipa vakcīna, neprecizēta"@lv ;
-    skos:altLabel "MenB"@lv .
+<http://ivci.org/NUVA/VAL118> rdfs:label "Meningokoka B tipa vakcīna, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL119> rdfs:label "Meningokoku monovalentā nekonjugētā polisaharīdu vakcīna"@lv ;
-    skos:altLabel "MPV-mono"@lv .
+<http://ivci.org/NUVA/VAL119> rdfs:label "Meningokoku monovalentā nekonjugētā polisaharīdu vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL120> rdfs:label "Meningokoka nekonjugēts polisaharīds, polivalents"@lv ;
-    skos:altLabel "MPV-poly"@lv .
+<http://ivci.org/NUVA/VAL120> rdfs:label "Meningokoka nekonjugēts polisaharīds, polivalents"@lv .
 
-<http://ivci.org/NUVA/VAL121> rdfs:label "Perorāla trivalenta inaktivēta poliomielīta vakcīna"@lv ;
-    skos:altLabel "POLIO-I-O"@lv .
+<http://ivci.org/NUVA/VAL121> rdfs:label "Perorāla trivalenta inaktivēta poliomielīta vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL123> skos:altLabel "Rota5-L"@lv .
+<http://ivci.org/NUVA/VAL124> rdfs:label "Dzīva novājināta holēras valence, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL124> rdfs:label "Dzīva novājināta holēras valence, bez precizējuma"@lv ;
-    skos:altLabel "Chol-L"@lv .
+<http://ivci.org/NUVA/VAL125> rdfs:label "Visa inaktivēta A hepatīta valence, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL125> rdfs:label "Visa inaktivēta A hepatīta valence, bez precizējuma"@lv ;
-    skos:altLabel "HepA-I"@lv .
+<http://ivci.org/NUVA/VAL126> rdfs:label "Valence pret ebolu, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL126> rdfs:label "Valence pret ebolu, bez precizējuma"@lv ;
-    skos:altLabel "Ebola"@lv .
+<http://ivci.org/NUVA/VAL128> rdfs:label "Gripas valence, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL128> rdfs:label "Gripas valence, bez precizējuma"@lv ;
-    skos:altLabel "Inf"@lv .
+<http://ivci.org/NUVA/VAL129> rdfs:label "Herpes simplex valence, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL129> rdfs:label "Herpes simplex valence, bez precizējuma"@lv ;
-    skos:altLabel "HSV"@lv .
+<http://ivci.org/NUVA/VAL130> rdfs:label "A hepatīta virosomu valence"@lv .
 
-<http://ivci.org/NUVA/VAL130> rdfs:label "A hepatīta virosomu valence"@lv ;
-    skos:altLabel "HepA-VLP"@lv .
+<http://ivci.org/NUVA/VAL131> rdfs:label "Visa inaktivētā mēra vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL131> rdfs:label "Visa inaktivētā mēra vakcīna"@lv ;
-    skos:altLabel "Yp-I"@lv .
+<http://ivci.org/NUVA/VAL132> rdfs:label "Monovalentā dzīvā novājinātā 1. tipa perorālā poliomielīta vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL132> rdfs:label "Monovalentā dzīvā novājinātā 1. tipa perorālā poliomielīta vakcīna"@lv ;
-    skos:altLabel "mOPV1"@lv .
+<http://ivci.org/NUVA/VAL133> rdfs:label "Dzīva novājināta monovalentā perorālā poliomielīta vakcīna, neprecizēts tips"@lv .
 
-<http://ivci.org/NUVA/VAL133> rdfs:label "Dzīva novājināta monovalentā perorālā poliomielīta vakcīna, neprecizēts tips"@lv ;
-    skos:altLabel "mOPV"@lv .
+<http://ivci.org/NUVA/VAL136> rdfs:label "Meningokoka W vakcīna, polisaharīda konjugāts"@lv .
 
-<http://ivci.org/NUVA/VAL135> skos:altLabel "Covid-ARNm-S-CT"@lv .
+<http://ivci.org/NUVA/VAL137> rdfs:label "Meningokoka C nekonjugēta polisaharīda vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL136> rdfs:label "Meningokoka W vakcīna, polisaharīda konjugāts"@lv ;
-    skos:altLabel "MCV-W"@lv .
+<http://ivci.org/NUVA/VAL138> rdfs:label "Meningokoka W nekonjugēta polisaharīda vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL137> rdfs:label "Meningokoka C nekonjugēta polisaharīda vakcīna"@lv ;
-    skos:altLabel "MPV-C"@lv .
+<http://ivci.org/NUVA/VAL139> rdfs:label "Meningokoka Y nekonjugēta polisaharīda vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL138> rdfs:label "Meningokoka W nekonjugēta polisaharīda vakcīna"@lv ;
-    skos:altLabel "MPV-W"@lv .
+<http://ivci.org/NUVA/VAL141> rdfs:label "RIX4414 monovalentā rotavīrusa vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL139> rdfs:label "Meningokoka Y nekonjugēta polisaharīda vakcīna"@lv ;
-    skos:altLabel "MPV-Y"@lv .
+<http://ivci.org/NUVA/VAL142> rdfs:label "Visa inaktivēta A hepatīta valence, monovalenta, pediatriskā deva"@lv .
 
-<http://ivci.org/NUVA/VAL140> skos:altLabel "Inf-L"@lv .
+<http://ivci.org/NUVA/VAL143> rdfs:label "Visa inaktivēta A hepatīta valence, bivalenta (A un B hepatīts), pediatriskā deva"@lv .
 
-<http://ivci.org/NUVA/VAL141> rdfs:label "RIX4414 monovalentā rotavīrusa vakcīna"@lv ;
-    skos:altLabel "Rota-mv-RIX4414"@lv .
+<http://ivci.org/NUVA/VAL144> rdfs:label "Visa inaktivēta A hepatīta valence, monovalenta, pieaugušo deva"@lv .
 
-<http://ivci.org/NUVA/VAL142> rdfs:label "Visa inaktivēta A hepatīta valence, monovalenta, pediatriskā deva"@lv ;
-    skos:altLabel "HepA-mv-PED"@lv .
+<http://ivci.org/NUVA/VAL145> rdfs:label "Visa inaktivēta A hepatīta valence, bivalenta (A un B hepatīts), pieaugušo deva"@lv .
 
-<http://ivci.org/NUVA/VAL143> rdfs:label "Visa inaktivēta A hepatīta valence, bivalenta (A un B hepatīts), pediatriskā deva"@lv ;
-    skos:altLabel "HepA-bv-PED"@lv .
+<http://ivci.org/NUVA/VAL146> rdfs:label "Valence pret visu inaktivēto Brucella"@lv .
 
-<http://ivci.org/NUVA/VAL144> rdfs:label "Visa inaktivēta A hepatīta valence, monovalenta, pieaugušo deva"@lv ;
-    skos:altLabel "HepA-mv-ADU"@lv .
+<http://ivci.org/NUVA/VAL147> rdfs:label "Valence ar proteīna antigēnu P.I. (fenolā nešķīstošs) pret brucelozi"@lv .
 
-<http://ivci.org/NUVA/VAL145> rdfs:label "Visa inaktivēta A hepatīta valence, bivalenta (A un B hepatīts), pieaugušo deva"@lv ;
-    skos:altLabel "HepA-bv-ADU"@lv .
+<http://ivci.org/NUVA/VAL148> rdfs:label "Elpošanas ceļu sincitiālā vīrusa monoklonālā antiviela"@lv .
 
-<http://ivci.org/NUVA/VAL146> rdfs:label "Valence pret visu inaktivēto Brucella"@lv ;
-    skos:altLabel "Bruc-I"@lv .
+<http://ivci.org/NUVA/VAL149> rdfs:label "COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, 25 mikrogrami"@lv .
 
-<http://ivci.org/NUVA/VAL147> rdfs:label "Valence ar proteīna antigēnu P.I. (fenolā nešķīstošs) pret brucelozi"@lv ;
-    skos:altLabel "Bruc-IP"@lv .
+<http://ivci.org/NUVA/VAL150> rdfs:label "Valence pret denges drudzi, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL148> rdfs:label "Elpošanas ceļu sincitiālā vīrusa monoklonālā antiviela"@lv ;
-    skos:altLabel "RSV-IG"@lv .
+<http://ivci.org/NUVA/VAL151> rdfs:label "Tularēmijas vakcīna, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL149> rdfs:label "COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, 25 mikrogrami"@lv ;
-    skos:altLabel "Covid-mRNA-S-25"@lv .
+<http://ivci.org/NUVA/VAL152> rdfs:label "Visa inaktivēta gripas valence, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL150> rdfs:label "Valence pret denges drudzi, bez precizējuma"@lv ;
-    skos:altLabel "Den"@lv .
+<http://ivci.org/NUVA/VAL153> rdfs:label "Haemophilus influenzae b tipa polisaharīda PRP vakcīna, konjugēta ar difterijas toksoīdu"@lv .
 
-<http://ivci.org/NUVA/VAL151> rdfs:label "Tularēmijas vakcīna, neprecizēta"@lv ;
-    skos:altLabel "Tular"@lv .
+<http://ivci.org/NUVA/VAL154> rdfs:label "Haemophilus influenzae b tipa valence, PRP oligosaharīdi konjugēti ar mutantu difterijas toksīnu CRM197"@lv .
 
-<http://ivci.org/NUVA/VAL152> rdfs:label "Visa inaktivēta gripas valence, bez precizējuma"@lv ;
-    skos:altLabel "Inf-I"@lv .
+<http://ivci.org/NUVA/VAL155> rdfs:label "Haemophilus influenzae b tipa vakcīna, polisaharīda konjugēta ar Neisseria meningitidis B serogrupas ārējās membrānas proteīnu."@lv .
 
-<http://ivci.org/NUVA/VAL153> rdfs:label "Haemophilus influenzae b tipa polisaharīda PRP vakcīna, konjugēta ar difterijas toksoīdu"@lv ;
-    skos:altLabel "PRP-D"@lv .
+<http://ivci.org/NUVA/VAL156> rdfs:label "PRP-T Haemophilus influenzae b tipa vakcīna, polisaharīda PRP, konjugēta ar stingumkrampju toksoīdu"@lv .
 
-<http://ivci.org/NUVA/VAL154> rdfs:label "Haemophilus influenzae b tipa valence, PRP oligosaharīdi konjugēti ar mutantu difterijas toksīnu CRM197"@lv ;
-    skos:altLabel "HbOC"@lv .
+<http://ivci.org/NUVA/VAL157> rdfs:label "COVID-19 vakcīna, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL155> rdfs:label "Haemophilus influenzae b tipa vakcīna, polisaharīda konjugēta ar Neisseria meningitidis B serogrupas ārējās membrānas proteīnu."@lv ;
-    skos:altLabel "PRP-OMP"@lv .
+<http://ivci.org/NUVA/VAL158> rdfs:label "Hepatīta B plazmas vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL156> rdfs:label "PRP-T Haemophilus influenzae b tipa vakcīna, polisaharīda PRP, konjugēta ar stingumkrampju toksoīdu"@lv ;
-    skos:altLabel "PRP-T"@lv .
+<http://ivci.org/NUVA/VAL159> rdfs:label "Vakcīna pret šinšļiem, apakšvienība, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL157> rdfs:label "COVID-19 vakcīna, neprecizēta"@lv ;
-    skos:altLabel "COVID"@lv .
+<http://ivci.org/NUVA/VAL160> rdfs:label "Vakcīna pret šinšļiem, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL158> rdfs:label "Hepatīta B plazmas vakcīna"@lv ;
-    skos:altLabel "pHBsAg"@lv .
+<http://ivci.org/NUVA/VAL161> rdfs:label "Meningokoka B daudzkomponentu vakcīna, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL159> rdfs:label "Vakcīna pret šinšļiem, apakšvienība, neprecizēta"@lv ;
-    skos:altLabel "Shingles-SU"@lv .
+<http://ivci.org/NUVA/VAL162> rdfs:label "COVID-19 vakcīna, replicējošs vīrusa vektors, neprecizēts"@lv .
 
-<http://ivci.org/NUVA/VAL160> rdfs:label "Vakcīna pret šinšļiem, neprecizēta"@lv ;
-    skos:altLabel "Shingles"@lv .
+<http://ivci.org/NUVA/VAL163> rdfs:label "COVID-19 vakcīna, neatjaunojošs vīrusu vektors, neprecizēts"@lv .
 
-<http://ivci.org/NUVA/VAL161> rdfs:label "Meningokoka B daudzkomponentu vakcīna, neprecizēta"@lv ;
-    skos:altLabel "MenB-mc"@lv .
+<http://ivci.org/NUVA/VAL164> rdfs:label "COVID-19 vakcīna, nedzīva, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL162> rdfs:label "COVID-19 vakcīna, replicējošs vīrusa vektors, neprecizēts"@lv ;
-    skos:altLabel "COVID-VVr"@lv .
+<http://ivci.org/NUVA/VAL165> rdfs:label "COVID-19 vakcīna, dzīva, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL163> rdfs:label "COVID-19 vakcīna, neatjaunojošs vīrusu vektors, neprecizēts"@lv ;
-    skos:altLabel "COVID-VVnr"@lv .
+<http://ivci.org/NUVA/VAL167> rdfs:label "COVID-19 vakcīna, neatjaunojošs vīrusa vektors, ar antigēnu prezentējošām šūnām"@lv .
 
-<http://ivci.org/NUVA/VAL164> rdfs:label "COVID-19 vakcīna, nedzīva, neprecizēta"@lv ;
-    skos:altLabel "COVID-non-live"@lv .
+<http://ivci.org/NUVA/VAL168> rdfs:label "RNS vakcīna pret kovīdiem 19, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL165> rdfs:label "COVID-19 vakcīna, dzīva, neprecizēta"@lv ;
-    skos:altLabel "COVID-live"@lv .
+<http://ivci.org/NUVA/VAL169> rdfs:label "Pašpastiprinoša mRNA (AAA) vakcīna vakcīnai 19"@lv .
 
-<http://ivci.org/NUVA/VAL167> rdfs:label "COVID-19 vakcīna, neatjaunojošs vīrusa vektors, ar antigēnu prezentējošām šūnām"@lv ;
-    skos:altLabel "COVID-VVnr+APC"@lv .
+<http://ivci.org/NUVA/VAL170> rdfs:label "Hepatīta B vakcīna, rekombinantais hepatīta B vīrusa virsmas antigēns (HBsAg), 5 mikrogrami."@lv .
 
-<http://ivci.org/NUVA/VAL168> rdfs:label "RNS vakcīna pret kovīdiem 19, neprecizēta"@lv ;
-    skos:altLabel "COVID-RNA"@lv .
+<http://ivci.org/NUVA/VAL171> rdfs:label "Venecuēlas zirgu encefalīta vakcīna, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL169> rdfs:label "Pašpastiprinoša mRNA (AAA) vakcīna vakcīnai 19"@lv ;
-    skos:altLabel "COVID-mRNA-SAM"@lv .
+<http://ivci.org/NUVA/VAL172> rdfs:label "Valence pret Q drudzi (Coxiella burnetii), bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL170> rdfs:label "Hepatīta B vakcīna, rekombinantais hepatīta B vīrusa virsmas antigēns (HBsAg), 5 mikrogrami."@lv ;
-    skos:altLabel "rHepB-05"@lv .
+<http://ivci.org/NUVA/VAL174> rdfs:label "Hantavīrusu valence, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL171> rdfs:label "Venecuēlas zirgu encefalīta vakcīna, neprecizēta"@lv ;
-    skos:altLabel "VEE"@lv .
+<http://ivci.org/NUVA/VAL175> rdfs:label "Vakcīna pret leišmaniozi, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL172> rdfs:label "Valence pret Q drudzi (Coxiella burnetii), bez precizējuma"@lv ;
-    skos:altLabel "Cbur"@lv .
+<http://ivci.org/NUVA/VAL176> rdfs:label "Vakcīna pret cilvēka paragripas vīrusiem, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL173> skos:altLabel "Junin-LAV"@lv .
+<http://ivci.org/NUVA/VAL177> rdfs:label "Haemophilus influenzae b tipa valence, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL174> rdfs:label "Hantavīrusu valence, bez precizējuma"@lv ;
-    skos:altLabel "HAN"@lv .
+<http://ivci.org/NUVA/VAL178> rdfs:label "COVID-19 vaccine, mRNA coding for SARS-CoV-2 spike protein, Omicron variant BA.1, 25 micrograms"@lv .
 
-<http://ivci.org/NUVA/VAL175> rdfs:label "Vakcīna pret leišmaniozi, neprecizēta"@lv ;
-    skos:altLabel "Leish"@lv .
+<http://ivci.org/NUVA/VAL179> rdfs:label "Meningokoka konjugētā vakcīna, monovalenta"@lv .
 
-<http://ivci.org/NUVA/VAL176> rdfs:label "Vakcīna pret cilvēka paragripas vīrusiem, neprecizēta"@lv ;
-    skos:altLabel "HPIVs"@lv .
+<http://ivci.org/NUVA/VAL180> rdfs:label "COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, 100 mikrogrami"@lv .
 
-<http://ivci.org/NUVA/VAL177> rdfs:label "Haemophilus influenzae b tipa valence, bez precizējuma"@lv ;
-    skos:altLabel "Hib"@lv .
+<http://ivci.org/NUVA/VAL181> rdfs:label "COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, oriģinālais SARS-CoV-2 vīruss, 25 mikrogrami."@lv .
 
-<http://ivci.org/NUVA/VAL178> rdfs:label "COVID-19 vaccine, mRNA coding for SARS-CoV-2 spike protein, Omicron variant BA.1, 25 micrograms"@lv ;
-    skos:altLabel "COVID-mRNA-S-OMI-BA.1-25"@lv .
+<http://ivci.org/NUVA/VAL182> rdfs:label "Vakcīna pret masalām, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL179> rdfs:label "Meningokoka konjugētā vakcīna, monovalenta"@lv ;
-    skos:altLabel "MCV-mono"@lv .
+<http://ivci.org/NUVA/VAL183> rdfs:label "Vakcīna pret cūciņām, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL180> rdfs:label "COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, 100 mikrogrami"@lv ;
-    skos:altLabel "COVID-mRNA-S-ORI-100"@lv .
+<http://ivci.org/NUVA/VAL184> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, monovalentā vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL181> rdfs:label "COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, oriģinālais SARS-CoV-2 vīruss, 25 mikrogrami."@lv ;
-    skos:altLabel "Covid-mRNA-S-ORI-25"@lv .
+<http://ivci.org/NUVA/VAL185> rdfs:label "Pneimokoku polisaharīdu nekonjugēta vakcīna, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL182> rdfs:label "Vakcīna pret masalām, neprecizēta"@lv ;
-    skos:altLabel "Meas"@lv .
+<http://ivci.org/NUVA/VAL186> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 1. serotips"@lv .
 
-<http://ivci.org/NUVA/VAL183> rdfs:label "Vakcīna pret cūciņām, neprecizēta"@lv ;
-    skos:altLabel "Mumps"@lv .
+<http://ivci.org/NUVA/VAL187> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 3. serotips"@lv .
 
-<http://ivci.org/NUVA/VAL184> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, monovalentā vakcīna"@lv ;
-    skos:altLabel "PCV"@lv .
+<http://ivci.org/NUVA/VAL188> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 4. serotips"@lv .
 
-<http://ivci.org/NUVA/VAL185> rdfs:label "Pneimokoku polisaharīdu nekonjugēta vakcīna, neprecizēta"@lv ;
-    skos:altLabel "PPSV"@lv .
+<http://ivci.org/NUVA/VAL189> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 5. serotips"@lv .
 
-<http://ivci.org/NUVA/VAL186> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 1. serotips"@lv ;
-    skos:altLabel "PCV-01"@lv .
+<http://ivci.org/NUVA/VAL190> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 6A serotips"@lv .
 
-<http://ivci.org/NUVA/VAL187> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 3. serotips"@lv ;
-    skos:altLabel "PCV-03"@lv .
+<http://ivci.org/NUVA/VAL191> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 6B serotips"@lv .
 
-<http://ivci.org/NUVA/VAL188> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 4. serotips"@lv ;
-    skos:altLabel "PCV-04"@lv .
+<http://ivci.org/NUVA/VAL192> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 7F serotips"@lv .
 
-<http://ivci.org/NUVA/VAL189> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 5. serotips"@lv ;
-    skos:altLabel "PCV-05"@lv .
+<http://ivci.org/NUVA/VAL193> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 8. serotips"@lv .
 
-<http://ivci.org/NUVA/VAL190> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 6A serotips"@lv ;
-    skos:altLabel "PCV-06A"@lv .
+<http://ivci.org/NUVA/VAL194> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 9V serotips"@lv .
 
-<http://ivci.org/NUVA/VAL191> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 6B serotips"@lv ;
-    skos:altLabel "PCV-06B"@lv .
+<http://ivci.org/NUVA/VAL195> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 10A serotips"@lv .
 
-<http://ivci.org/NUVA/VAL192> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 7F serotips"@lv ;
-    skos:altLabel "PCV-07F"@lv .
+<http://ivci.org/NUVA/VAL196> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 11A serotips"@lv .
 
-<http://ivci.org/NUVA/VAL193> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 8. serotips"@lv ;
-    skos:altLabel "PCV-08"@lv .
+<http://ivci.org/NUVA/VAL197> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, serotips 12F"@lv .
 
-<http://ivci.org/NUVA/VAL194> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 9V serotips"@lv ;
-    skos:altLabel "PCV-09V"@lv .
+<http://ivci.org/NUVA/VAL198> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 14. serotips"@lv .
 
-<http://ivci.org/NUVA/VAL195> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 10A serotips"@lv ;
-    skos:altLabel "PCV-10A"@lv .
+<http://ivci.org/NUVA/VAL199> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, serotips 15B"@lv .
 
-<http://ivci.org/NUVA/VAL196> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 11A serotips"@lv ;
-    skos:altLabel "PCV-11A"@lv .
+<http://ivci.org/NUVA/VAL200> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 18C serotips"@lv .
 
-<http://ivci.org/NUVA/VAL197> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, serotips 12F"@lv ;
-    skos:altLabel "PCV-12F"@lv .
+<http://ivci.org/NUVA/VAL201> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 19A serotips"@lv .
 
-<http://ivci.org/NUVA/VAL198> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 14. serotips"@lv ;
-    skos:altLabel "PCV-14"@lv .
+<http://ivci.org/NUVA/VAL202> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 19F serotips"@lv .
 
-<http://ivci.org/NUVA/VAL199> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, serotips 15B"@lv ;
-    skos:altLabel "PCV-15B"@lv .
+<http://ivci.org/NUVA/VAL203> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 22F serotips"@lv .
 
-<http://ivci.org/NUVA/VAL200> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 18C serotips"@lv ;
-    skos:altLabel "PCV-18C"@lv .
+<http://ivci.org/NUVA/VAL204> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, serotips 23F"@lv .
 
-<http://ivci.org/NUVA/VAL201> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 19A serotips"@lv ;
-    skos:altLabel "PCV-19A"@lv .
+<http://ivci.org/NUVA/VAL205> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, serotips 33F"@lv .
 
-<http://ivci.org/NUVA/VAL202> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 19F serotips"@lv ;
-    skos:altLabel "PCV-19F"@lv .
+<http://ivci.org/NUVA/VAL206> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 1. serotips"@lv .
 
-<http://ivci.org/NUVA/VAL203> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, 22F serotips"@lv ;
-    skos:altLabel "PCV-22F"@lv .
+<http://ivci.org/NUVA/VAL207> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 2. serotips"@lv .
 
-<http://ivci.org/NUVA/VAL204> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, serotips 23F"@lv ;
-    skos:altLabel "PCV-23F"@lv .
+<http://ivci.org/NUVA/VAL208> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 3. serotips"@lv .
 
-<http://ivci.org/NUVA/VAL205> rdfs:label "Pneimokoku polisaharīdu konjugētā vakcīna, serotips 33F"@lv ;
-    skos:altLabel "PCV-33F"@lv .
+<http://ivci.org/NUVA/VAL209> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 4. serotips"@lv .
 
-<http://ivci.org/NUVA/VAL206> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 1. serotips"@lv ;
-    skos:altLabel "PPSV-01"@lv .
+<http://ivci.org/NUVA/VAL210> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 5. serotips"@lv .
 
-<http://ivci.org/NUVA/VAL207> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 2. serotips"@lv ;
-    skos:altLabel "PPSV-02"@lv .
+<http://ivci.org/NUVA/VAL211> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 6B"@lv .
 
-<http://ivci.org/NUVA/VAL208> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 3. serotips"@lv ;
-    skos:altLabel "PPSV-03"@lv .
+<http://ivci.org/NUVA/VAL212> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 7F"@lv .
 
-<http://ivci.org/NUVA/VAL209> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 4. serotips"@lv ;
-    skos:altLabel "PPSV-04"@lv .
+<http://ivci.org/NUVA/VAL213> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 8. serotips"@lv .
 
-<http://ivci.org/NUVA/VAL210> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 5. serotips"@lv ;
-    skos:altLabel "PPSV-05"@lv .
+<http://ivci.org/NUVA/VAL214> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 9N"@lv .
 
-<http://ivci.org/NUVA/VAL211> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 6B"@lv ;
-    skos:altLabel "PPSV-06B"@lv .
+<http://ivci.org/NUVA/VAL215> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 9V serotips"@lv .
 
-<http://ivci.org/NUVA/VAL212> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 7F"@lv ;
-    skos:altLabel "PPSV-07F"@lv .
+<http://ivci.org/NUVA/VAL216> rdfs:label "Pneimokoku polisaharīdu nekonjugēta vakcīna, 10A serotips"@lv .
 
-<http://ivci.org/NUVA/VAL213> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 8. serotips"@lv ;
-    skos:altLabel "PPSV-08"@lv .
+<http://ivci.org/NUVA/VAL217> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 11A"@lv .
 
-<http://ivci.org/NUVA/VAL214> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 9N"@lv ;
-    skos:altLabel "PPSV-09N"@lv .
+<http://ivci.org/NUVA/VAL218> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 12F"@lv .
 
-<http://ivci.org/NUVA/VAL215> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 9V serotips"@lv ;
-    skos:altLabel "PPSV-09V"@lv .
+<http://ivci.org/NUVA/VAL219> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 14. serotips"@lv .
 
-<http://ivci.org/NUVA/VAL216> rdfs:label "Pneimokoku polisaharīdu nekonjugēta vakcīna, 10A serotips"@lv ;
-    skos:altLabel "PPSV-10A"@lv .
+<http://ivci.org/NUVA/VAL220> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 15B serotips"@lv .
 
-<http://ivci.org/NUVA/VAL217> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 11A"@lv ;
-    skos:altLabel "PPSV-11A"@lv .
+<http://ivci.org/NUVA/VAL221> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 15F"@lv .
 
-<http://ivci.org/NUVA/VAL218> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 12F"@lv ;
-    skos:altLabel "PPSV-12F"@lv .
+<http://ivci.org/NUVA/VAL222> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 17F"@lv .
 
-<http://ivci.org/NUVA/VAL219> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 14. serotips"@lv ;
-    skos:altLabel "PPSV-14"@lv .
+<http://ivci.org/NUVA/VAL223> rdfs:label "Pneimokoku polisaharīdu nekonjugēta vakcīna, 18C serotips"@lv .
 
-<http://ivci.org/NUVA/VAL220> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 15B serotips"@lv ;
-    skos:altLabel "PPSV-15B"@lv .
+<http://ivci.org/NUVA/VAL224> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 19A serotips"@lv .
 
-<http://ivci.org/NUVA/VAL221> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 15F"@lv ;
-    skos:altLabel "PPSV-15F"@lv .
+<http://ivci.org/NUVA/VAL225> rdfs:label "Pneimokoku polikonjugētā nekonjugētā vakcīna, 19F serotips"@lv .
 
-<http://ivci.org/NUVA/VAL222> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 17F"@lv ;
-    skos:altLabel "PPSV-17F"@lv .
+<http://ivci.org/NUVA/VAL226> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 20. serotips"@lv .
 
-<http://ivci.org/NUVA/VAL223> rdfs:label "Pneimokoku polisaharīdu nekonjugēta vakcīna, 18C serotips"@lv ;
-    skos:altLabel "PPSV-18C"@lv .
+<http://ivci.org/NUVA/VAL227> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 22F serotips"@lv .
 
-<http://ivci.org/NUVA/VAL224> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 19A serotips"@lv ;
-    skos:altLabel "PPSV-19A"@lv .
+<http://ivci.org/NUVA/VAL228> rdfs:label "Pneimokoku polisaharīdu nekonjugēta vakcīna, serotips 23F"@lv .
 
-<http://ivci.org/NUVA/VAL225> rdfs:label "Pneimokoku polikonjugētā nekonjugētā vakcīna, 19F serotips"@lv ;
-    skos:altLabel "PPSV-19F"@lv .
-
-<http://ivci.org/NUVA/VAL226> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 20. serotips"@lv ;
-    skos:altLabel "PPSV-20"@lv .
-
-<http://ivci.org/NUVA/VAL227> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 22F serotips"@lv ;
-    skos:altLabel "PPSV-22F"@lv .
-
-<http://ivci.org/NUVA/VAL228> rdfs:label "Pneimokoku polisaharīdu nekonjugēta vakcīna, serotips 23F"@lv ;
-    skos:altLabel "PPSV-23F"@lv .
-
-<http://ivci.org/NUVA/VAL229> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 33F"@lv ;
-    skos:altLabel "PPSV-33F"@lv .
+<http://ivci.org/NUVA/VAL229> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, serotips 33F"@lv .
 
 <http://ivci.org/NUVA/VAL230> rdfs:label "Četrvalenta inaktivēta gripas valence, frakcionēta vai apakšvienība, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL232> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 6A serotips"@lv ;
-    skos:altLabel "PPSV-06A"@lv .
+<http://ivci.org/NUVA/VAL232> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 6A serotips"@lv .
 
-<http://ivci.org/NUVA/VAL233> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 25. serotips"@lv ;
-    skos:altLabel "PPSV-25"@lv .
+<http://ivci.org/NUVA/VAL233> rdfs:label "Pneimokoku polisaharīdu nekonjugētā vakcīna, 25. serotips"@lv .
 
-<http://ivci.org/NUVA/VAL234> rdfs:label "Meningokoka vakcīna, neprecizēta"@lv ;
-    skos:altLabel "Men"@lv .
+<http://ivci.org/NUVA/VAL234> rdfs:label "Meningokoka vakcīna, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL235> rdfs:label "Meningokoku konjugētā polisaharīdu polisaharīdu vakcīna, polivalenta"@lv ;
-    skos:altLabel "MCV-poly"@lv .
+<http://ivci.org/NUVA/VAL235> rdfs:label "Meningokoku konjugētā polisaharīdu polisaharīdu vakcīna, polivalenta"@lv .
 
-<http://ivci.org/NUVA/VAL236> rdfs:label "Cilvēka papilomas vīrusa VLP vakcīna, monovalenta"@lv ;
-    skos:altLabel "HPV-mono"@lv .
+<http://ivci.org/NUVA/VAL236> rdfs:label "Cilvēka papilomas vīrusa VLP vakcīna, monovalenta"@lv .
 
-<http://ivci.org/NUVA/VAL237> rdfs:label "Cilvēka papilomas vīrusa VLP vakcīna, polivalenta"@lv ;
-    skos:altLabel "HPV-poly"@lv .
+<http://ivci.org/NUVA/VAL237> rdfs:label "Cilvēka papilomas vīrusa VLP vakcīna, polivalenta"@lv .
 
-<http://ivci.org/NUVA/VAL238> rdfs:label "Cilvēka papilomas vīrusa VLP vakcīna, 6. tips"@lv ;
-    skos:altLabel "HPV-06"@lv .
+<http://ivci.org/NUVA/VAL238> rdfs:label "Cilvēka papilomas vīrusa VLP vakcīna, 6. tips"@lv .
 
-<http://ivci.org/NUVA/VAL239> rdfs:label "Cilvēka papilomas vīrusa VLP vakcīna, 11. tips"@lv ;
-    skos:altLabel "HVP-11"@lv .
+<http://ivci.org/NUVA/VAL239> rdfs:label "Cilvēka papilomas vīrusa VLP vakcīna, 11. tips"@lv .
 
-<http://ivci.org/NUVA/VAL240> rdfs:label "16. tipa cilvēka papilomas vīrusa VLP vakcīna"@lv ;
-    skos:altLabel "HVP-16"@lv .
+<http://ivci.org/NUVA/VAL240> rdfs:label "16. tipa cilvēka papilomas vīrusa VLP vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL241> rdfs:label "Cilvēka papilomas vīrusa VLP vakcīna, 18. tips"@lv ;
-    skos:altLabel "HVP-18"@lv .
+<http://ivci.org/NUVA/VAL241> rdfs:label "Cilvēka papilomas vīrusa VLP vakcīna, 18. tips"@lv .
 
-<http://ivci.org/NUVA/VAL242> rdfs:label "31. tipa cilvēka papilomas vīrusa VLP vakcīna"@lv ;
-    skos:altLabel "HVP-31"@lv .
+<http://ivci.org/NUVA/VAL242> rdfs:label "31. tipa cilvēka papilomas vīrusa VLP vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL243> rdfs:label "33. tipa cilvēka papilomas vīrusa VLP vakcīna"@lv ;
-    skos:altLabel "HPV-33"@lv .
+<http://ivci.org/NUVA/VAL243> rdfs:label "33. tipa cilvēka papilomas vīrusa VLP vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL244> rdfs:label "Cilvēka papilomas vīrusa VLP vakcīna, 58. tips"@lv ;
-    skos:altLabel "HVP-58"@lv .
+<http://ivci.org/NUVA/VAL244> rdfs:label "Cilvēka papilomas vīrusa VLP vakcīna, 58. tips"@lv .
 
-<http://ivci.org/NUVA/VAL245> rdfs:label "52. tipa cilvēka papilomas vīrusa VLP vakcīna"@lv ;
-    skos:altLabel "HVP-52"@lv .
+<http://ivci.org/NUVA/VAL245> rdfs:label "52. tipa cilvēka papilomas vīrusa VLP vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL246> rdfs:label "45. tipa cilvēka papilomas vīrusa VLP vakcīna"@lv ;
-    skos:altLabel "HVP-45"@lv .
+<http://ivci.org/NUVA/VAL246> rdfs:label "45. tipa cilvēka papilomas vīrusa VLP vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL247> skos:altLabel "JE-LAR"@lv .
+<http://ivci.org/NUVA/VAL249> rdfs:label "Valence pret Japānas encefalītu, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL248> skos:altLabel "JE-LAV"@lv .
+<http://ivci.org/NUVA/VAL250> rdfs:label "Valence pret Japānas encefalītu, visa inaktivēta, sagatavota uz peļu smadzeņu audiem"@lv .
 
-<http://ivci.org/NUVA/VAL249> rdfs:label "Valence pret Japānas encefalītu, bez precizējuma"@lv ;
-    skos:altLabel "JE"@lv .
+<http://ivci.org/NUVA/VAL251> rdfs:label "Japānas encefalīta valence, inaktivēta, iegūta no Vero šūnām"@lv .
 
-<http://ivci.org/NUVA/VAL250> rdfs:label "Valence pret Japānas encefalītu, visa inaktivēta, sagatavota uz peļu smadzeņu audiem"@lv ;
-    skos:altLabel "JE-I-mb"@lv .
+<http://ivci.org/NUVA/VAL252> rdfs:label "cilvēka izcelsmes imūnglobulīns pret trakumsērgu"@lv .
 
-<http://ivci.org/NUVA/VAL251> rdfs:label "Japānas encefalīta valence, inaktivēta, iegūta no Vero šūnām"@lv ;
-    skos:altLabel "JE-I-Vero"@lv .
+<http://ivci.org/NUVA/VAL253> rdfs:label "Trakumsērgas imūnglobulīns, zirgu izcelsmes"@lv .
 
-<http://ivci.org/NUVA/VAL252> rdfs:label "cilvēka izcelsmes imūnglobulīns pret trakumsērgu"@lv ;
-    skos:altLabel "RIG-hu"@lv .
+<http://ivci.org/NUVA/VAL254> rdfs:label "Visa vīriona inaktivēta trakumsērgas vakcīna, Semple tipa, sagatavota no kazas vai aitas smadzeņu audiem, kas inficēti ar trakumsērgas vīrusu, satur mielīnu"@lv .
 
-<http://ivci.org/NUVA/VAL253> rdfs:label "Trakumsērgas imūnglobulīns, zirgu izcelsmes"@lv ;
-    skos:altLabel "eRIG"@lv .
+<http://ivci.org/NUVA/VAL255> rdfs:label "Fuenzalida tipa vakcīna pret trakumsērgu, sagatavota no zīdītājpeļu smadzeņu audiem, kas inficēti ar trakumsērgas vīrusu, ar samazinātu mielīna saturu."@lv .
 
-<http://ivci.org/NUVA/VAL254> rdfs:label "Visa vīriona inaktivēta trakumsērgas vakcīna, Semple tipa, sagatavota no kazas vai aitas smadzeņu audiem, kas inficēti ar trakumsērgas vīrusu, satur mielīnu"@lv ;
-    skos:altLabel "Rab-I-Semple"@lv .
+<http://ivci.org/NUVA/VAL256> rdfs:label "Visa vīriona inaktivēta trakumsērgas vakcīna, sagatavota no dzīvnieku smadzeņu audiem, kas inficēti ar trakumsērgas vīrusu, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL255> rdfs:label "Fuenzalida tipa vakcīna pret trakumsērgu, sagatavota no zīdītājpeļu smadzeņu audiem, kas inficēti ar trakumsērgas vīrusu, ar samazinātu mielīna saturu."@lv ;
-    skos:altLabel "Rab-I-Fuenzalida"@lv .
+<http://ivci.org/NUVA/VAL257> rdfs:label "Visa viriona inaktivēta trakumsērgas vakcīna, uz šūnu kultūru bāzes, nespecificēta"@lv .
 
-<http://ivci.org/NUVA/VAL256> rdfs:label "Visa vīriona inaktivēta trakumsērgas vakcīna, sagatavota no dzīvnieku smadzeņu audiem, kas inficēti ar trakumsērgas vīrusu, neprecizēta"@lv ;
-    skos:altLabel "Rab-I-NervousTissue"@lv .
+<http://ivci.org/NUVA/VAL258> rdfs:label "Visa viriona inaktivēta trakumsērgas vakcīna, šūnu kultūras, cilvēka diploīdo šūnu vakcīna (HDCV) MRC-5, inaktivācija ar ß-propiolaktonu"@lv .
 
-<http://ivci.org/NUVA/VAL257> rdfs:label "Visa viriona inaktivēta trakumsērgas vakcīna, uz šūnu kultūru bāzes, nespecificēta"@lv ;
-    skos:altLabel "Rab-I-CC"@lv .
+<http://ivci.org/NUVA/VAL259> rdfs:label "Visa vīriona inaktivēta trakumsērgas vakcīna, attīrīta cāļu embriju šūnu vakcīna (PCECV), iegūta, audzējot fiksētu trakumsērgas vīrusa celmu Flury LEP-25 primārajās cāļu fibroblastu kultūrās, vīruss inaktivēts ar ß-propiolaktonu"@lv .
 
-<http://ivci.org/NUVA/VAL258> rdfs:label "Visa viriona inaktivēta trakumsērgas vakcīna, šūnu kultūras, cilvēka diploīdo šūnu vakcīna (HDCV) MRC-5, inaktivācija ar ß-propiolaktonu"@lv ;
-    skos:altLabel "Rab-I-HDCV"@lv .
+<http://ivci.org/NUVA/VAL260> rdfs:label "Visa viriona trakumsērgas inaktivēta vakcīna, šūnu kultūras, attīrīta Vero šūnu trakumsērgas vakcīna (PVRV), Wistar celms, inaktivācija ar ß-propiolaktonu"@lv .
 
-<http://ivci.org/NUVA/VAL259> rdfs:label "Visa vīriona inaktivēta trakumsērgas vakcīna, attīrīta cāļu embriju šūnu vakcīna (PCECV), iegūta, audzējot fiksētu trakumsērgas vīrusa celmu Flury LEP-25 primārajās cāļu fibroblastu kultūrās, vīruss inaktivēts ar ß-propiolaktonu"@lv ;
-    skos:altLabel "Rab-I-PCEC"@lv .
+<http://ivci.org/NUVA/VAL261> rdfs:label "Visa viriona inaktivēta trakumsērgas vakcīna, uz šūnu kultūru bāzes, primārā kāmja nieru šūnu vakcīna (PHKCV), Pekinas celms, inaktivācija ar formalīnu"@lv .
 
-<http://ivci.org/NUVA/VAL260> rdfs:label "Visa viriona trakumsērgas inaktivēta vakcīna, šūnu kultūras, attīrīta Vero šūnu trakumsērgas vakcīna (PVRV), Wistar celms, inaktivācija ar ß-propiolaktonu"@lv ;
-    skos:altLabel "Rab-I-PVRV"@lv .
+<http://ivci.org/NUVA/VAL262> rdfs:label "Visa viriona inaktivēta trakumsērgas vakcīna, embrionētu olu bāzes vakcīna (EEV), neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL261> rdfs:label "Visa viriona inaktivēta trakumsērgas vakcīna, uz šūnu kultūru bāzes, primārā kāmja nieru šūnu vakcīna (PHKCV), Pekinas celms, inaktivācija ar formalīnu"@lv ;
-    skos:altLabel "Rab-I-PHKCV"@lv .
+<http://ivci.org/NUVA/VAL263> rdfs:label "Visa viriona inaktivēta trakumsērgas vakcīna, attīrīta pīļu embriju vakcīna (PDEV), inaktivācija ar ß-propiolaktonu"@lv .
 
-<http://ivci.org/NUVA/VAL262> rdfs:label "Visa viriona inaktivēta trakumsērgas vakcīna, embrionētu olu bāzes vakcīna (EEV), neprecizēta"@lv ;
-    skos:altLabel "Rab-I-EEV"@lv .
+<http://ivci.org/NUVA/VAL264> rdfs:label "COVID-19 vakcīna, inaktivēta ar veselu virionu"@lv .
 
-<http://ivci.org/NUVA/VAL263> rdfs:label "Visa viriona inaktivēta trakumsērgas vakcīna, attīrīta pīļu embriju vakcīna (PDEV), inaktivācija ar ß-propiolaktonu"@lv ;
-    skos:altLabel "Rab-I-PDEV"@lv .
+<http://ivci.org/NUVA/VAL265> rdfs:label "COVID-19 vakcīna, inaktivēta ar veselu virionu, klīniskajos pētījumos"@lv .
 
-<http://ivci.org/NUVA/VAL264> rdfs:label "COVID-19 vakcīna, inaktivēta ar veselu virionu"@lv ;
-    skos:altLabel "COVID-IV-Auth"@lv .
+<http://ivci.org/NUVA/VAL266> rdfs:label "Meningokoka C vakcīna, tetanusa toksoīda konjugāta vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL265> rdfs:label "COVID-19 vakcīna, inaktivēta ar veselu virionu, klīniskajos pētījumos"@lv ;
-    skos:altLabel "COVID-IV-CT"@lv .
+<http://ivci.org/NUVA/VAL267> rdfs:label "Meningokoka C polisaharīda vakcīna, konjugēta ar difterijas toksoīdu"@lv .
 
-<http://ivci.org/NUVA/VAL266> rdfs:label "Meningokoka C vakcīna, tetanusa toksoīda konjugāta vakcīna"@lv ;
-    skos:altLabel "MCV-C-T"@lv .
+<http://ivci.org/NUVA/VAL268> rdfs:label "Meningokoka C polisaharīda vakcīna, konjugēta ar CRM197"@lv .
 
-<http://ivci.org/NUVA/VAL267> rdfs:label "Meningokoka C polisaharīda vakcīna, konjugēta ar difterijas toksoīdu"@lv ;
-    skos:altLabel "MCV-C-D"@lv .
+<http://ivci.org/NUVA/VAL269> rdfs:label "Meningokoka A polisaharīda vakcīna, konjugēta ar CRM197"@lv .
 
-<http://ivci.org/NUVA/VAL268> rdfs:label "Meningokoka C polisaharīda vakcīna, konjugēta ar CRM197"@lv ;
-    skos:altLabel "MCV-C-CRM"@lv .
+<http://ivci.org/NUVA/VAL270> rdfs:label "Meningokoka A vakcīna, polisaharīda, konjugēta ar difterijas toksoīdu"@lv .
 
-<http://ivci.org/NUVA/VAL269> rdfs:label "Meningokoka A polisaharīda vakcīna, konjugēta ar CRM197"@lv ;
-    skos:altLabel "MCV-A-CRM"@lv .
+<http://ivci.org/NUVA/VAL271> rdfs:label "Meningokoka A polisaharīda vakcīna, konjugēta ar stingumkrampju toksoīdu"@lv .
 
-<http://ivci.org/NUVA/VAL270> rdfs:label "Meningokoka A vakcīna, polisaharīda, konjugēta ar difterijas toksoīdu"@lv ;
-    skos:altLabel "MCV-A-D"@lv .
+<http://ivci.org/NUVA/VAL272> rdfs:label "Meningokoka W vakcīna, tetanusa toksoīda konjugāts"@lv .
 
-<http://ivci.org/NUVA/VAL271> rdfs:label "Meningokoka A polisaharīda vakcīna, konjugēta ar stingumkrampju toksoīdu"@lv ;
-    skos:altLabel "MCV-A-T"@lv .
+<http://ivci.org/NUVA/VAL273> rdfs:label "Meningokoka W vakcīna, polisaharīda, konjugēta ar difterijas toksoīdu"@lv .
 
-<http://ivci.org/NUVA/VAL272> rdfs:label "Meningokoka W vakcīna, tetanusa toksoīda konjugāts"@lv ;
-    skos:altLabel "MCV-W-T"@lv .
+<http://ivci.org/NUVA/VAL274> rdfs:label "Meningokoka W vakcīna, polisaharīda konjugēta ar CRM197"@lv .
 
-<http://ivci.org/NUVA/VAL273> rdfs:label "Meningokoka W vakcīna, polisaharīda, konjugēta ar difterijas toksoīdu"@lv ;
-    skos:altLabel "MCV-W-D"@lv .
+<http://ivci.org/NUVA/VAL275> rdfs:label "Meningokoka valence Y, poliosīds, konjugēts ar proteīnu CRM197"@lv .
 
-<http://ivci.org/NUVA/VAL274> rdfs:label "Meningokoka W vakcīna, polisaharīda konjugēta ar CRM197"@lv ;
-    skos:altLabel "MCV-W-CRM"@lv .
+<http://ivci.org/NUVA/VAL276> rdfs:label "Vaccin méningococcique W, polysaccharide conjugué au CRM197"@lv .
 
-<http://ivci.org/NUVA/VAL275> rdfs:label "Meningokoka valence Y, poliosīds, konjugēts ar proteīnu CRM197"@lv ;
-    skos:altLabel "MCV-Y-CRM"@lv .
+<http://ivci.org/NUVA/VAL277> rdfs:label "Meningokoka Y vakcīna, polisaharīda, konjugēta ar difterijas toksoīdu"@lv .
 
-<http://ivci.org/NUVA/VAL276> rdfs:label "Vaccin méningococcique W, polysaccharide conjugué au CRM197"@lv ;
-    skos:altLabel "MCV-Y-T"@lv .
+<http://ivci.org/NUVA/VAL280> rdfs:label "Botulīna toksoīds"@lv .
 
-<http://ivci.org/NUVA/VAL277> rdfs:label "Meningokoka Y vakcīna, polisaharīda, konjugēta ar difterijas toksoīdu"@lv ;
-    skos:altLabel "MCV-Y-D"@lv .
+<http://ivci.org/NUVA/VAL283> rdfs:label "Visa inaktivēta A hepatīta valence, pediatriskā deva, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL278> skos:altLabel "Adeno-LAV"@lv .
-
-<http://ivci.org/NUVA/VAL280> rdfs:label "Botulīna toksoīds"@lv ;
-    skos:altLabel "BT"@lv .
-
-<http://ivci.org/NUVA/VAL281> skos:altLabel "Adeno-7"@lv .
-
-<http://ivci.org/NUVA/VAL282> skos:altLabel "Adeno-4"@lv .
-
-<http://ivci.org/NUVA/VAL283> rdfs:label "Visa inaktivēta A hepatīta valence, pediatriskā deva, bez precizējuma"@lv ;
-    skos:altLabel "HepA-PED"@lv .
-
-<http://ivci.org/NUVA/VAL284> rdfs:label "Visa inaktivēta A hepatīta valence, pieaugušo deva, bez precizējuma"@lv ;
-    skos:altLabel "HepA-ADU"@lv .
+<http://ivci.org/NUVA/VAL284> rdfs:label "Visa inaktivēta A hepatīta valence, pieaugušo deva, bez precizējuma"@lv .
 
 <http://ivci.org/NUVA/VAL285> rdfs:label "Trivalenta inaktivēta gripas valence, iegūta no šūnu kultūras, frakcionēta vai apakšvienība, normāla deva"@lv .
 
-<http://ivci.org/NUVA/VAL286> skos:altLabel "HepA-LAV"@lv .
-
 <http://ivci.org/NUVA/VAL287> rdfs:label "Četrvalenta rekombinanta gripas valence"@lv .
 
-<http://ivci.org/NUVA/VAL288> rdfs:label "A hepatīta valence, bez precizējuma"@lv ;
-    skos:altLabel "HepA"@lv .
+<http://ivci.org/NUVA/VAL288> rdfs:label "A hepatīta valence, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL289> rdfs:label "COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, 10 mikrogrami"@lv ;
-    skos:altLabel " COVID-mRNA-S-ORI-10"@lv .
+<http://ivci.org/NUVA/VAL289> rdfs:label "COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, 10 mikrogrami"@lv .
 
-<http://ivci.org/NUVA/VAL290> rdfs:label "COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, 30 mikrogrami"@lv ;
-    skos:altLabel "COVID-mRNA-S-ORI-30"@lv .
+<http://ivci.org/NUVA/VAL290> rdfs:label "COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, 30 mikrogrami"@lv .
 
-<http://ivci.org/NUVA/VAL291> rdfs:label "Rekombinanta B hepatīta valence, trīs antigēni (HbS, pre-S1 un pre-S2)"@lv ;
-    skos:altLabel "HepB-r-3Ag"@lv .
+<http://ivci.org/NUVA/VAL291> rdfs:label "Rekombinanta B hepatīta valence, trīs antigēni (HbS, pre-S1 un pre-S2)"@lv .
 
-<http://ivci.org/NUVA/VAL292> rdfs:label "COVID-19 vakcīna, neatjaunojošs adenovīrusa 26 vektors, kas kodē SARS-CoV-2 smailes proteīnu, klīniskos izmēģinājumos"@lv ;
-    skos:altLabel "Covid-VVnr-S-Ad26-CT"@lv .
+<http://ivci.org/NUVA/VAL292> rdfs:label "COVID-19 vakcīna, neatjaunojošs adenovīrusa 26 vektors, kas kodē SARS-CoV-2 smailes proteīnu, klīniskos izmēģinājumos"@lv .
 
-<http://ivci.org/NUVA/VAL293> rdfs:label "Sibīrijas mēra imūnglobulīns"@lv ;
-    skos:altLabel "Anthrax-Ig"@lv .
+<http://ivci.org/NUVA/VAL293> rdfs:label "Sibīrijas mēra imūnglobulīns"@lv .
 
-<http://ivci.org/NUVA/VAL294> rdfs:label "Dzīvs vakcinācijas vīruss, pirmās paaudzes vakcīna"@lv ;
-    skos:altLabel "Pox-1G"@lv .
+<http://ivci.org/NUVA/VAL294> rdfs:label "Dzīvs vakcinācijas vīruss, pirmās paaudzes vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL295> skos:altLabel "Pox-2G"@lv .
+<http://ivci.org/NUVA/VAL296> rdfs:label "Modificēta vakcīna Ankara, neatkārtojama, trešās paaudzes vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL296> rdfs:label "Modificēta vakcīna Ankara, neatkārtojama, trešās paaudzes vakcīna"@lv ;
-    skos:altLabel "Pox-3G-MVA"@lv .
+<http://ivci.org/NUVA/VAL297> rdfs:label "Meningokoka A vakcīna, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL297> rdfs:label "Meningokoka A vakcīna, neprecizēta"@lv ;
-    skos:altLabel "MenA"@lv .
+<http://ivci.org/NUVA/VAL298> rdfs:label "Meningokoka C vakcīna, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL298> rdfs:label "Meningokoka C vakcīna, neprecizēta"@lv ;
-    skos:altLabel "MenC"@lv .
+<http://ivci.org/NUVA/VAL299> rdfs:label "Meningokoka Y vakcīna, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL299> rdfs:label "Meningokoka Y vakcīna, neprecizēta"@lv ;
-    skos:altLabel "MenY"@lv .
-
-<http://ivci.org/NUVA/VAL300> rdfs:label "Meningokoka W vakcīna, neprecizēta"@lv ;
-    skos:altLabel "MenW"@lv .
+<http://ivci.org/NUVA/VAL300> rdfs:label "Meningokoka W vakcīna, neprecizēta"@lv .
 
 <http://ivci.org/NUVA/VAL301> rdfs:label "Rekombinantā trivalentā gripas vakcīna"@lv .
 
-<http://ivci.org/NUVA/VAL302> rdfs:label "COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, 50 mikrogrami, 50 mikrogrami."@lv ;
-    skos:altLabel "Covid-mRNA-S-50"@lv .
+<http://ivci.org/NUVA/VAL302> rdfs:label "COVID-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smailes proteīnu, 50 mikrogrami, 50 mikrogrami."@lv .
 
-<http://ivci.org/NUVA/VAL303> rdfs:label "Anti-covid 19 mRNS vakcīna, kas kodē sākotnējā vīrusa SARS-CoV-2 smailes proteīnu"@lv ;
-    skos:altLabel "COVID-mRNA-S-ORI"@lv .
+<http://ivci.org/NUVA/VAL303> rdfs:label "Anti-covid 19 mRNS vakcīna, kas kodē sākotnējā vīrusa SARS-CoV-2 smailes proteīnu"@lv .
 
-<http://ivci.org/NUVA/VAL304> rdfs:label "SARS-CoV-2 smaila proteīna mRNS 19 vakcīna, oriģinālais vīruss, 15 mikrogrami"@lv ;
-    skos:altLabel "Covid-ARNm-S-ORI-15"@lv .
+<http://ivci.org/NUVA/VAL304> rdfs:label "SARS-CoV-2 smaila proteīna mRNS 19 vakcīna, oriģinālais vīruss, 15 mikrogrami"@lv .
 
-<http://ivci.org/NUVA/VAL305> rdfs:label "SARS-CoV-2 maksimālā proteīna mRNS 19 vakcīna, Omicron BA.1 variants, 15 mikrogrami"@lv ;
-    skos:altLabel "COVID-mRNA-S-OMI-BA.1-15"@lv .
+<http://ivci.org/NUVA/VAL305> rdfs:label "SARS-CoV-2 maksimālā proteīna mRNS 19 vakcīna, Omicron BA.1 variants, 15 mikrogrami"@lv .
 
-<http://ivci.org/NUVA/VAL306> rdfs:label "SARS-CoV-2 maksimālā proteīna mRNS 19 vakcīna, oriģinālais vīruss, 3 mikrogrami"@lv ;
-    skos:altLabel "COVID-mRNA-S-ORI-3"@lv .
+<http://ivci.org/NUVA/VAL306> rdfs:label "SARS-CoV-2 maksimālā proteīna mRNS 19 vakcīna, oriģinālais vīruss, 3 mikrogrami"@lv .
 
-<http://ivci.org/NUVA/VAL307> rdfs:label "SARS-CoV-2 maksimālā proteīna mRNS 19 vakcīna, Omicron BA.4/BA.5 variants, 15 mikrogrami"@lv ;
-    skos:altLabel "COVID-mRNA-S-OMI-BA.4/5-15"@lv .
+<http://ivci.org/NUVA/VAL307> rdfs:label "SARS-CoV-2 maksimālā proteīna mRNS 19 vakcīna, Omicron BA.4/BA.5 variants, 15 mikrogrami"@lv .
 
-<http://ivci.org/NUVA/VAL308> rdfs:label "SARS-CoV-2 smaiļveida proteīna mRNS 19 vakcīna, Omicron BA.4/BA.5 variants, 25 mikrogrami"@lv ;
-    skos:altLabel "COVID-mRNA-S-OMI-BA.4/5-25"@lv .
+<http://ivci.org/NUVA/VAL308> rdfs:label "SARS-CoV-2 smaiļveida proteīna mRNS 19 vakcīna, Omicron BA.4/BA.5 variants, 25 mikrogrami"@lv .
 
-<http://ivci.org/NUVA/VAL309> rdfs:label "SARS-CoV-2 maksimālā proteīna mRNS 19 vakcīna, Omicron BA.4/BA.5 variants, 5 mikrogrami"@lv ;
-    skos:altLabel "Covid-ARNm-S-OMI-BA.4/5-5"@lv .
+<http://ivci.org/NUVA/VAL309> rdfs:label "SARS-CoV-2 maksimālā proteīna mRNS 19 vakcīna, Omicron BA.4/BA.5 variants, 5 mikrogrami"@lv .
 
-<http://ivci.org/NUVA/VAL310> rdfs:label "Covid-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smaile proteīnu, oriģināls vīruss, 5 mikrogrami"@lv ;
-    skos:altLabel "Covid-mRNA-S-ORI-5"@lv .
+<http://ivci.org/NUVA/VAL310> rdfs:label "Covid-19 vakcīna, mRNS, kas kodē SARS-CoV-2 smaile proteīnu, oriģināls vīruss, 5 mikrogrami"@lv .
 
-<http://ivci.org/NUVA/VAL311> skos:altLabel "R21/Matrix-M"@lv .
-
-<http://ivci.org/NUVA/VAL312> skos:altLabel "TBE-K23"@lv .
-
-<http://ivci.org/NUVA/VAL313> skos:altLabel "TBE-Neudorfl"@lv .
-
-<http://ivci.org/NUVA/VAL314> skos:altLabel "TBE-Neudorfl-ADU"@lv .
-
-<http://ivci.org/NUVA/VAL315> skos:altLabel "TBE-Neudorfl-PED"@lv .
-
-<http://ivci.org/NUVA/VAL316> skos:altLabel "RSV-PreF3"@lv .
-
-<http://ivci.org/NUVA/VAL317> skos:altLabel "RSV-Ab"@lv .
-
-<http://ivci.org/NUVA/VAL318> skos:altLabel "RSV-V"@lv .
-
-<http://ivci.org/NUVA/VAL321> skos:altLabel "VRS-mAb-nir"@lv .
-
-<http://ivci.org/NUVA/VAL322> skos:altLabel "RSV-PreFAB"@lv .
-
-<http://ivci.org/NUVA/VAL326> skos:altLabel "COVID-mRNA-S-OMI-BA.4/5-1.5"@lv .
-
-<http://ivci.org/NUVA/VAL327> skos:altLabel "COVID-mRNA-S-ORI-1.5"@lv .
-
-<http://ivci.org/NUVA/VAL329> skos:altLabel "Covid-ARNm-S-OMI-XBB.1.5-50"@lv .
-
-<http://ivci.org/NUVA/VAL331> rdfs:label "CMV immune globulin"@lv ;
-    skos:altLabel "CMV-Ig"@lv .
+<http://ivci.org/NUVA/VAL331> rdfs:label "CMV immune globulin"@lv .
 
 <http://ivci.org/NUVA/VAL332> rdfs:label "C hepatīta valence, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL336> rdfs:label "Rifta ielejas drudža valence, bez precizējuma"@lv ;
-    skos:altLabel "RVF"@lv .
+<http://ivci.org/NUVA/VAL336> rdfs:label "Rifta ielejas drudža valence, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL337> skos:altLabel "Bakas-Ig"@lv .
+<http://ivci.org/NUVA/VAL338> rdfs:label "RSV antiviela vai vakcīna, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL338> rdfs:label "RSV antiviela vai vakcīna, neprecizēta"@lv ;
-    skos:altLabel "RSV"@lv .
+<http://ivci.org/NUVA/VAL340> rdfs:label "Valence pret Sibīrijas mēri, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL340> rdfs:label "Valence pret Sibīrijas mēri, bez precizējuma"@lv ;
-    skos:altLabel "Sibīrijas mēris"@lv .
+<http://ivci.org/NUVA/VAL341> rdfs:label "Valence pret Escherichia coli, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL341> rdfs:label "Valence pret Escherichia coli, bez precizējuma"@lv ;
-    skos:altLabel "Eco"@lv .
-
-<http://ivci.org/NUVA/VAL342> skos:altLabel "Kpn"@lv .
-
-<http://ivci.org/NUVA/VAL343> rdfs:label "Valence pret Enterococcus faecalis, bez precizējuma"@lv ;
-    skos:altLabel "Efa"@lv .
-
-<http://ivci.org/NUVA/VAL344> skos:altLabel "Pvu"@lv .
-
-<http://ivci.org/NUVA/VAL345> skos:altLabel "UTI"@lv .
+<http://ivci.org/NUVA/VAL343> rdfs:label "Valence pret Enterococcus faecalis, bez precizējuma"@lv .
 
 <http://ivci.org/NUVA/VAL359> rdfs:label "Inaktivēta visa holēras valence, bez precizējuma"@lv .
 
@@ -1523,31 +1175,11 @@
 
 <http://ivci.org/NUVA/VAL366> rdfs:label "RNS bāzes gripas valence, bez precizējuma"@lv .
 
-<http://ivci.org/NUVA/VAL383> rdfs:label "Single-stranded 5' capped mRNA encoding the Respiratory syncytial virus glycoprotein F stabilized in the prefusion conformation"@lv ;
-    skos:altLabel "mRSV"@lv .
+<http://ivci.org/NUVA/VAL383> rdfs:label "Single-stranded 5' capped mRNA encoding the Respiratory syncytial virus glycoprotein F stabilized in the prefusion conformation"@lv .
 
-<http://ivci.org/NUVA/VAL384> skos:altLabel "LEP"@lv .
+<http://ivci.org/NUVA/VAL389> rdfs:label "Valence pret Pseudomonas aeruginosa, 7 imunotipi"@lv .
 
-<http://ivci.org/NUVA/VAL386> skos:altLabel "AH5"@lv .
+<http://ivci.org/NUVA/VAL390> rdfs:label "Čikungunja valence, neprecizēta"@lv .
 
-<http://ivci.org/NUVA/VAL389> rdfs:label "Valence pret Pseudomonas aeruginosa, 7 imunotipi"@lv ;
-    skos:altLabel "PAER7"@lv .
-
-<http://ivci.org/NUVA/VAL390> rdfs:label "Čikungunja valence, neprecizēta"@lv ;
-    skos:altLabel "CHIK"@lv .
-
-<http://ivci.org/NUVA/VAL391> rdfs:label "Chikungunya VLP valence"@lv ;
-    skos:altLabel "Chik-VLP"@lv .
-
-<http://ivci.org/NUVA/VAL392> skos:altLabel "AH5N1-RNA"@lv .
-
-<http://ivci.org/NUVA/VAL411> skos:altLabel "COVID-mRNA-S-OMI-BA.4/5-50"@lv .
-
-<http://ivci.org/NUVA/VAL412> skos:altLabel "Covid-ARNm-S-OMI-BA.1-50"@lv .
-
-<http://ivci.org/NUVA/VAL413> skos:altLabel "Covid-SP-rRBD-XBB.1.16"@lv .
-
-<http://ivci.org/NUVA/VAL414> skos:altLabel "DIPH"@lv .
-
-<http://ivci.org/NUVA/VAL415> skos:altLabel "BantAdj"@lv .
+<http://ivci.org/NUVA/VAL391> rdfs:label "Chikungunya VLP valence"@lv .
 
