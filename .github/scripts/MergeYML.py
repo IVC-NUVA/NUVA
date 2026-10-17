@@ -23,7 +23,7 @@ def getbaseVaccine(idvac):
         with open(f'Units/Vaccines/{idvac}.yml', 'r', encoding='utf-8') as ymlfile:
             baseVaccine = yaml.safe_load(ymlfile)
     else:
-        baseVaccine = {'label': 'new', 'status': 'active', 'comment':'', 'modified': '1900-01-01', 'valences':[]}
+        baseVaccine = {'type': 'abstract', 'label': 'new', 'status': 'active', 'comment':'', 'modified': '1900-01-01', 'valences':[]}
     return baseVaccine
 
 def getbaseValence(idval):
