@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "2026-10-16" .
+    owl:versionInfo "2026-10-17" .
 
 nuva:NUVACode a owl:Class ;
     rdfs:label "NUVA Code" ;
@@ -9597,6 +9597,22 @@ nuva:VAC1557 a owl:Class ;
     skos:notation "1557"^^nuva:NUVACode,
         "VAC1557"^^xsd:string .
 
+nuva:VAC1558 a owl:Class ;
+    rdfs:label "EUTYPH-C" ;
+    dcterms:created "2026-10-16"^^xsd:date ;
+    dcterms:modified "2026-10-17"^^xsd:date ;
+    rdfs:subClassOf nuva:VAC1425 ;
+    skos:notation "1558"^^nuva:NUVACode,
+        "VAC1558"^^xsd:string .
+
+nuva:VAC1559 a owl:Class ;
+    rdfs:label "EUVICHOL" ;
+    dcterms:created "2026-10-16"^^xsd:date ;
+    dcterms:modified "2026-10-17"^^xsd:date ;
+    rdfs:subClassOf nuva:VAC1257 ;
+    skos:notation "1559"^^nuva:NUVACode,
+        "VAC1559"^^xsd:string .
+
 nuva:VAL120 a owl:Class ;
     rdfs:label "Meningococcal valence, polyvalent, unconjugated polysaccharide"@en ;
     dcterms:created "2021-10-26"^^xsd:date ;
@@ -10906,15 +10922,6 @@ nuva:VAC1424 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "1424"^^nuva:NUVACode,
         "VAC1424"^^xsd:string .
-
-nuva:VAC1425 a owl:Class ;
-    rdfs:label "Typhoid vaccine, Vi antigen conjugated to CRM197 protein"@en ;
-    nuvs:containsValence nuva:VAL400 ;
-    dcterms:created "2025-04-14"^^xsd:date ;
-    dcterms:modified "2025-04-14"^^xsd:date ;
-    rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "1425"^^nuva:NUVACode,
-        "VAC1425"^^xsd:string .
 
 nuva:VAC1426 a owl:Class ;
     rdfs:label "Human papillomavirus vaccine, bivalent recombinant (types 16 and 18) (Pichia pastoris)"@en ;
@@ -13614,16 +13621,6 @@ nuva:VAC1243 a owl:Class ;
     skos:notation "1243"^^nuva:NUVACode,
         "VAC1243"^^xsd:string .
 
-nuva:VAC1257 a owl:Class ;
-    rdfs:label "Cholera vaccine, whole inactivated oral, bivalent containing the whole inactivated V. cholerae O1 and O139 bacteria, unspecified"@en ;
-    nuvs:containsValence nuva:VAL367,
-        nuva:VAL368 ;
-    dcterms:created "2024-08-14"^^xsd:date ;
-    dcterms:modified "2024-08-14"^^xsd:date ;
-    rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "1257"^^nuva:NUVACode,
-        "VAC1257"^^xsd:string .
-
 nuva:VAC1409 a owl:Class ;
     rdfs:label "COVID-19 mRNA vaccine, Omicron JN.1 subvariant, 50 micrograms per dose, multidose vial"@en ;
     nuvs:containsValence nuva:VAL388 ;
@@ -13632,6 +13629,15 @@ nuva:VAC1409 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "1409"^^nuva:NUVACode,
         "VAC1409"^^xsd:string .
+
+nuva:VAC1425 a owl:Class ;
+    rdfs:label "Typhoid vaccine, Vi antigen conjugated to CRM197 protein"@en ;
+    nuvs:containsValence nuva:VAL400 ;
+    dcterms:created "2025-04-14"^^xsd:date ;
+    dcterms:modified "2025-04-14"^^xsd:date ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "1425"^^nuva:NUVACode,
+        "VAC1425"^^xsd:string .
 
 nuva:VAC1427 a owl:Class ;
     rdfs:label "Japanese encephalitis vaccine, whole inactivated, prepared in Vero cells, 6 micrograms"@en ;
@@ -14335,6 +14341,16 @@ nuva:VAC1208 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "1208"^^nuva:NUVACode,
         "VAC1208"^^xsd:string .
+
+nuva:VAC1257 a owl:Class ;
+    rdfs:label "Cholera vaccine, whole inactivated oral, bivalent containing the whole inactivated V. cholerae O1 and O139 bacteria, unspecified"@en ;
+    nuvs:containsValence nuva:VAL367,
+        nuva:VAL368 ;
+    dcterms:created "2024-08-14"^^xsd:date ;
+    dcterms:modified "2024-08-14"^^xsd:date ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "1257"^^nuva:NUVACode,
+        "VAC1257"^^xsd:string .
 
 nuva:VAL002 a owl:Class ;
     rdfs:label "Typhoid valence, conjugated, Vi polysaccharide antigen linked to a carrier protein"@en ;

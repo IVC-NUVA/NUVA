@@ -744,7 +744,7 @@ VAC0816,PEDATYPH,"Typhoid conjugate vaccine, Vi polysaccharide linked to tetanus
 VAC0817,"Inactivated Typhoid vaccine, unspecified",Pilnšūnu inaktivēta vakcīna pret vēdertīfu,abstract,,Ty-I
 VAC0818,"Typhoid-Paratyphoid vaccine, unspecified","Inaktivēta vakcīna pret vēdertīfu un paratifu, pilnībā inaktivēta",abstract,,pTy-I Ty-I
 VAC0819,"Inactivated Japanese Encephalitis vaccine, unspecified",Visa viriona inaktivēta japāņu encefalīta vakcīna,abstract,,JE-I
-VAC0820,"Inactivated whole influenza vaccine, unspecified",Visa viriona inaktivēta sezonālās gripas vakcīna,abstract,,INF-EI
+VAC0820,"Inactivated whole influenza vaccine, unspecified","Influenza inactivated whole vaccine, obtained from egg culture, unspecified",abstract,,INF-EI
 VAC0821,"Inactivated influenza vaccine, split or subunit, unspecified",Inaktivēta sezonālās gripas vakcīna,abstract,,INF-ESU
 VAC0822,"Influenza vaccine, live attenuated, unspecified","Sezonas gripas vakcīna, dzīvā novājināta vakcīna",abstract,,INF-L
 VAC0823,"VLP influenza vaccine, unspecified",Virusiem līdzīgo daļiņu (VLP) sezonālās gripas vakcīna,abstract,,INF-VLP
@@ -852,7 +852,7 @@ VAC0925,"Trīsvērtīgā inaktivēta gripas vakcīna, neprecizēta","Trivalenta 
 VAC0926,FLUCELVAX,"Trivalent inactivated seasonal influenza vaccine, produced in cell culture",real,VAC1175,
 VAC0927,"Covid-19 mRNS vakcīna, pediatriskā deva, nav precizēta","COVID-19 mRNS vakcīna, pediatriskā deva",abstract,, COVID-mRNA-S-ORI-10
 VAC0928,"Dzīva novājināta A hepatīta vakcīna, neprecizēta",Dzīva novājināta A hepatīta vakcīna,abstract,,HepA-LA
-VAC0929,"Gripas četrvērtīgā inaktivētā vakcīna, pediatriskā deva, neprecizēta","Sezonas gripas vakcīna, inaktivēta, četrvērtīga, pediatriskā deva",abstract,,INF-ESUped4
+VAC0929,"Gripas četrvērtīgā inaktivētā vakcīna, pediatriskā deva, neprecizēta","Seasonal influenza vaccine, quadrivalent, inactivated, obtained from egg culture, pediatric dose",abstract,,INF-ESUped4
 VAC0930,Ad5-nCoV COVID-19 INHALATION VACCINE,"COVID-19 vaccine, non-replicating viral vector, adenovirus type 5, for inhalation",real,VAC1135,
 VAC0931,FLUBLOK QUADRIVALENT,Quadrivalent recombinant seasonal influenza vaccine,real,VAC0932,
 VAC0932,"Kvadrivalentā rekombinantā gripas vakcīna, neprecizēta",Četrivalentā rekombinētā sezonālās gripas vakcīna,abstract,,INF-R4
@@ -1481,3 +1481,5 @@ VAC1554,VAXRABEO,"Whole inactivated rabies vaccine, prepared in Vero cell cultur
 VAC1555,"Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified","Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified",abstract,,HNSCC-HPVneg
 VAC1556,TG4050,"Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified",real,VAC1555,
 VAC1557,"Influenza vaccine, trivalent, inactivated, split or subunit, unspecified","Influenza vaccine, trivalent, inactivated, split or subunit, unspecified",abstract,,INF-ESU3
+VAC1558,EUTYPH-C,"Typhoid vaccine, Vi antigen conjugated to CRM197 protein",real,VAC1425,
+VAC1559,EUVICHOL,"Cholera vaccine, oral, bivalent consisting of killed whole cells of Vibrio cholerae O1 (classical and El Tor) and O139",real,VAC1257,

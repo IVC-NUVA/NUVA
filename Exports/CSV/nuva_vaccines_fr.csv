@@ -747,7 +747,7 @@ VAC0816,PEDATYPH,"Vaccin typhoïdique, antigène Vi conjugué à l'anatoxine té
 VAC0817,"Vaccin Typhoïde entier inactivé, sans précision",Vaccin typhoïdique entier inactivé,abstract,,Ty-I
 VAC0818,"Vaccin Typhoïde et Paratyphoïde, sans précision","Vaccin typhoïdique et paratyphoïdique A et B, entier inactivé",abstract,,pTy-I Ty-I
 VAC0819,"Vaccin Encéphalite Japonaise entier inactivé, sans précision",Vaccin entier inactivé contre l'encéphalite japonaise,abstract,,JE-I
-VAC0820,"Vaccin Grippe entier inactivé, sans précision",Vaccin contre la grippe saisonnière à virus entier inactivé,abstract,,INF-EI
+VAC0820,"Vaccin Grippe entier inactivé, sans précision","Influenza inactivated whole vaccine, obtained from egg culture, unspecified",abstract,,INF-EI
 VAC0821,"Vaccin Grippe inactivé, fractionné ou sous-unité, sans précision",Vaccin contre la grippe saisonnière inactivé,abstract,,INF-ESU
 VAC0822,"Vaccin Grippe vivant atténué, sans précision","Vaccin contre la grippe saisonnière, à virus vivant atténué, par voie nasale",abstract,,INF-L
 VAC0823,"Vaccin Grippe VLP, sans précision","Vaccin contre la grippe saisonnière à pseudo-particules virales (VLP : ""Virus-Like Particle"")",abstract,,INF-VLP
@@ -855,7 +855,7 @@ VAC0925,"Vaccin Grippe trivalent inactivé, sans précision","Vaccin contre la g
 VAC0926,FLUCELVAX,"Vaccin contre la grippe saisonnière inactivé trivalent, produit sur culture cellulaire",real,VAC1175,
 VAC0927,"Vaccin Covid 19 à ARNm, dose pédiatrique, sans précision","Vaccin anti-covid 19 à ARNm, dose pédiatrique",abstract,, COVID-mRNA-S-ORI-10
 VAC0928,"Vaccin Hépatite A vivant atténué, sans précision",Vaccin vivant atténué contre l'hépatite A,abstract,,HepA-LA
-VAC0929,"Vaccin Grippe quadrivalent inactivé, dose pédiatrique, sans précision","Vaccin contre la grippe saisonnière inactivé, quadrivalent, dose pédiatrique",abstract,,INF-ESUped4
+VAC0929,"Vaccin Grippe quadrivalent inactivé, dose pédiatrique, sans précision","Seasonal influenza vaccine, quadrivalent, inactivated, obtained from egg culture, pediatric dose",abstract,,INF-ESUped4
 VAC0930,Ad5-nCoV COVID-19 INHALATION VACCINE,"Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus de type 5, pour inhalation",real,VAC1135,
 VAC0931,FLUBLOK QUADRIVALENT,Vaccin contre la grippe saisonnière recombinant quadrivalent,real,VAC0932,
 VAC0932,"Vaccin Grippe quadrivalent recombinant, sans précision",Vaccin contre la grippe saisonnière recombinant quadrivalent,abstract,,INF-R4
@@ -1311,8 +1311,8 @@ VAC1381,MEASLES AND RUBELLA VACCINE ZYDUS,Vaccin vivant atténué contre la roug
 VAC1382,SKYTYPHOID,"Vaccin conjugué contre la typhoïde, antigène capsulaire polyosidique Vi lié à une protéine porteuse (toxine diphtérique)",real,VAC1542,
 VAC1383,CYVAC,"Malaria vaccine sporozoite surface protein, unspecified",real,VAC1543,
 VAC1384,BARYCELA,Vaccin vivant atténué contre la varicelle,real,VAC0159,
-VAC1385,GC FLU QUADRIVALENT,"Vaccin contre la grippe saisonnière inactivé quadrivalent de la grippe, fractionnée ou sous-unité, sans précision",real,VAC1541,
-VAC1386,GCFLU,"Vaccin contre la grippe saisonnière inactivé, quadrivalent, dose pédiatrique",real,VAC0929,
+VAC1385,GC FLU QUADRIVALENT,"Influenza quadrivalent inactivated vaccine, obtained from egg culture, split or subunit, unspecified",real,VAC1541,
+VAC1386,GCFLU,"Seasonal influenza vaccine, quadrivalent, inactivated, obtained from egg culture, pediatric dose",real,VAC0929,
 VAC1387,SINSAVAC,Vaccin vivant atténué contre la fièvre jaune,real,VAC0111,
 VAC1388,BIVAC POLIO,"Vaccin poliomyélitique (vivant atténué, bivalent) contre les poliovirus 1 et 3, par voie orale",real,VAC0600,
 VAC1389,INLIVE,Vaccin entier inactivé contre l'entérovirus A71,real,VAC1118,
@@ -1366,7 +1366,7 @@ VAC1436,"Vaccin rage, inactivé, entier, préparé sur tissu cérébral animal i
 VAC1437,"Meningococcal vaccine, monovalent, conjugate","Vaccin méningocoque, monovalent, polyosidique conjugué",deprecated,VAC0945,
 VAC1438,"Vaccin grippe, trivalent, inactivé, fractionné ou sous-unité, adjuvant","Influenza vaccine, trivalent, inactivated, obtained from egg culture, fractionated or subunit, adjuvanted",abstract,,INF-ESUAnd3
 VAC1439,"Meningococcal vaccine, polyvalent, conjugate polysaccharide","Vaccin méningocoque, polyvalent, polyosidique conjugué",deprecated,VAC0945,
-VAC1440,"Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, adjuvant, dose normale","Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, adjuvant, dose normale",abstract,,INF-ESUAnd4
+VAC1440,"Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, adjuvant, dose normale","Influenza vaccine, quadrivalent, inactivated, obtained from egg culture, fractionated or subunit, adjuvanted, normal dose",abstract,,INF-ESUAnd4
 VAC1441,"Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, voie intradermique, sans précision","Influenza vaccine, quadrivalent, inactivated, obtained from egg culture, split or subunit, intradermal route, unspecified",abstract,,INF-ESUid4
 VAC1442,"Vaccin grippe, quadrivalent, virosomale, sans précision","Influenza vaccine, quadrivalent, virosomal, unspecified",abstract,,INF-V4
 VAC1443,"Vaccin grippe, trivalent, virosomal, sans précision","Influenza vaccine, trivalent, virosomal, unspecified",abstract,,INF-V3
@@ -1484,3 +1484,5 @@ VAC1554,VAXRABEO,"Vaccin rabique entier inactivé, préparé sur culture de cell
 VAC1555,"Vaccin cancers épidermoïdes de la tête et du cou non liés au papillomavirus, non précisé","Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified",abstract,,HNSCC-HPVneg
 VAC1556,TG4050,"Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified",real,VAC1555,
 VAC1557,"Vaccin grippe, trivalent, inactivé, fractionné ou sous-unité, sans précision","Influenza vaccine, trivalent, inactivated, split or subunit, unspecified",abstract,,INF-ESU3
+VAC1558,EUTYPH-C,"Typhoid vaccine, Vi antigen conjugated to CRM197 protein",real,VAC1425,
+VAC1559,EUVICHOL,"Cholera vaccine, oral, bivalent consisting of killed whole cells of Vibrio cholerae O1 (classical and El Tor) and O139",real,VAC1257,

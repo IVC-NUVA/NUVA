@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "2026-10-16"^^xsd:string .
+    owl:versionInfo "2026-10-17"^^xsd:string .
 
 <http://ivci.org/NUVA/#MISS> skos:notation "07"^^<http://ivci.org/NUVA/﻿ATC>,
         "07A"^^<http://ivci.org/NUVA/﻿ATC>,
@@ -19509,7 +19509,6 @@ nuva:VAC1385 a owl:Class ;
     rdfs:label "GC FLU QUADRIVALENT"^^xsd:string ;
     dcterms:created "2025-04-07"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
-    rdfs:comment "Vaccin contre la grippe saisonnière inactivé quadrivalent de la grippe, fractionnée ou sous-unité, sans précision"@fr ;
     rdfs:subClassOf nuva:VAC1541 ;
     skos:notation "1385"^^nuva:NUVACode,
         "6801002000102"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
@@ -19519,7 +19518,6 @@ nuva:VAC1386 a owl:Class ;
     rdfs:label "GCFLU"^^xsd:string ;
     dcterms:created "2025-04-07"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
-    rdfs:comment "Vaccin contre la grippe saisonnière inactivé, quadrivalent, dose pédiatrique"@fr ;
     rdfs:subClassOf nuva:VAC0929 ;
     skos:notation "1386"^^nuva:NUVACode,
         "6811002000104"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
@@ -19874,7 +19872,6 @@ nuva:VAC1440 a owl:Class ;
     nuvs:containsValence nuva:VAL350 ;
     dcterms:created "2025-05-22"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
-    rdfs:comment "Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, adjuvant, dose normale"@fr ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "1440"^^nuva:NUVACode,
         "VAC1440"^^xsd:string .
@@ -20732,6 +20729,23 @@ nuva:VAC1557 a owl:Class ;
         "41"^^<http://ivci.org/NUVA/﻿CVX>,
         "VAC1557"^^xsd:string .
 
+nuva:VAC1558 a owl:Class ;
+    rdfs:label "EUTYPH-C"^^xsd:string ;
+    dcterms:created "2026-10-16"^^xsd:date ;
+    dcterms:modified "2026-10-17"^^xsd:date ;
+    rdfs:subClassOf nuva:VAC1425 ;
+    skos:notation "1558"^^nuva:NUVACode,
+        "VAC1558"^^xsd:string .
+
+nuva:VAC1559 a owl:Class ;
+    rdfs:label "EUVICHOL"^^xsd:string ;
+    dcterms:created "2026-10-16"^^xsd:date ;
+    dcterms:modified "2026-10-17"^^xsd:date ;
+    rdfs:comment "Cholera vaccine, oral, bivalent consisting of killed whole cells of Vibrio cholerae O1 (classical and El Tor) and O139"@en ;
+    rdfs:subClassOf nuva:VAC1257 ;
+    skos:notation "1559"^^nuva:NUVACode,
+        "VAC1559"^^xsd:string .
+
 nuva:VAL120 a owl:Class ;
     rdfs:label "Meningokokken, nicht konjugiertes Polysaccharid, polyvalent"@de,
         "Μηνιγγιτιδοκοκκικός μη συζευγμένος πολυσακχαρίτης, πολυδύναμο"@el,
@@ -21402,12 +21416,6 @@ nuva:VAC0929 a owl:Class ;
     nuvs:containsValence nuva:VAL279 ;
     dcterms:created "2022-05-06"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
-    rdfs:comment "Impfstoff gegen saisonale Grippe, inaktiviert, vierwertig, pädiatrische Dosis"@de,
-        "Εμβόλιο εποχικής γρίπης, αδρανοποιημένο, τετραδύναμο, παιδιατρική δόση"@el,
-        "Vaccin contre la grippe saisonnière inactivé, quadrivalent, dose pédiatrique"@fr,
-        "Sezonas gripas vakcīna, inaktivēta, četrvērtīga, pediatriskā deva"@lv,
-        "Szczepionka przeciwko grypie sezonowej, inaktywowana, czterowalentna, dawka pediatryczna"@pl,
-        "Vacina contra a gripe sazonal, inactivada, quadrivalente, dose pediátrica"@pt ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "0929"^^nuva:NUVACode,
         "0685"^^<http://ivci.org/NUVA/﻿CPT>,
@@ -22944,17 +22952,6 @@ nuva:VAC1424 a owl:Class ;
     skos:notation "1424"^^nuva:NUVACode,
         "7191002000101"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
         "VAC1424"^^xsd:string .
-
-nuva:VAC1425 a owl:Class ;
-    rdfs:label "Typhoid vaccine, Vi antigen conjugated to CRM197 protein"@en,
-        "Vaccin typhoïdique, antigène Vi conjugué à la protéine CRM197"@fr ;
-    nuvs:containsValence nuva:VAL400 ;
-    dcterms:created "2025-04-14"^^xsd:date ;
-    dcterms:modified "2025-04-14"^^xsd:date ;
-    rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "1425"^^nuva:NUVACode,
-        "7201002000103"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
-        "VAC1425"^^xsd:string .
 
 nuva:VAC1426 a owl:Class ;
     rdfs:label "Human papillomavirus vaccine, bivalent recombinant (types 16 and 18) (Pichia pastoris)"@en,
@@ -26336,12 +26333,6 @@ nuva:VAC0820 a owl:Class ;
     nuvs:containsValence nuva:VAL152 ;
     dcterms:created "2021-10-26"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
-    rdfs:comment "Inaktivierter saisonaler Grippeimpfstoff mit ganzen Virionen"@de,
-        "Αδρανοποιημένο εμβόλιο εποχικής γρίπης με ολόκληρο τον ιό"@el,
-        "Vaccin contre la grippe saisonnière à virus entier inactivé"@fr,
-        "Visa viriona inaktivēta sezonālās gripas vakcīna"@lv,
-        "Inaktywowana w całości szczepionka przeciwko grypie sezonowej"@pl,
-        "Vacina contra a gripe sazonal inactivada de viriões inteiros"@pt ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "0820"^^nuva:NUVACode,
         "07BB01"^^<http://ivci.org/NUVA/﻿ATC>,
@@ -27038,20 +27029,6 @@ nuva:VAC1243 a owl:Class ;
         "5031002000106"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
         "VAC1243"^^xsd:string .
 
-nuva:VAC1257 a owl:Class ;
-    rdfs:label "Cholera vaccine, whole inactivated oral, bivalent containing the whole inactivated V. cholerae O1 and O139 bacteria, unspecified"@en,
-        "Vaccin Choléra, entier inactivé oral, bivalent contenant les bactéries V. cholerae O1 et O139 entières inactivées, sans précision"@fr ;
-    nuvs:containsValence nuva:VAL367,
-        nuva:VAL368 ;
-    dcterms:created "2024-08-14"^^xsd:date ;
-    dcterms:modified "2024-08-14"^^xsd:date ;
-    rdfs:comment "Cholera vaccine, oral, bivalent consisting of killed whole cells of Vibrio cholerae O1 (classical and El Tor) and O139"@en,
-        "Vaccin cholérique, oral, bivalent constitué de cellules entières tuées de Vibrio cholerae O1 (classique et El Tor) et O139"@fr ;
-    rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "1257"^^nuva:NUVACode,
-        "5281002000102"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
-        "VAC1257"^^xsd:string .
-
 nuva:VAC1409 a owl:Class ;
     rdfs:label "COVID-19 mRNA vaccine, Omicron JN.1 subvariant, 50 micrograms per dose, multidose vial"@en,
         "Vaccin à ARNm contre la covid 19 , subvariant Omicron JN.1, 50 microgrammes par dose, flacon multidose"@fr ;
@@ -27062,6 +27039,17 @@ nuva:VAC1409 a owl:Class ;
     skos:notation "1409"^^nuva:NUVACode,
         "7041002000109"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
         "VAC1409"^^xsd:string .
+
+nuva:VAC1425 a owl:Class ;
+    rdfs:label "Typhoid vaccine, Vi antigen conjugated to CRM197 protein"@en,
+        "Vaccin typhoïdique, antigène Vi conjugué à la protéine CRM197"@fr ;
+    nuvs:containsValence nuva:VAL400 ;
+    dcterms:created "2025-04-14"^^xsd:date ;
+    dcterms:modified "2025-04-14"^^xsd:date ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "1425"^^nuva:NUVACode,
+        "7201002000103"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
+        "VAC1425"^^xsd:string .
 
 nuva:VAC1427 a owl:Class ;
     rdfs:label "Japanese encephalitis vaccine, whole inactivated, prepared in Vero cells, 6 micrograms"@en,
@@ -28221,6 +28209,20 @@ nuva:VAC1208 a owl:Class ;
     skos:notation "1208"^^nuva:NUVACode,
         "4681002000101"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
         "VAC1208"^^xsd:string .
+
+nuva:VAC1257 a owl:Class ;
+    rdfs:label "Cholera vaccine, whole inactivated oral, bivalent containing the whole inactivated V. cholerae O1 and O139 bacteria, unspecified"@en,
+        "Vaccin Choléra, entier inactivé oral, bivalent contenant les bactéries V. cholerae O1 et O139 entières inactivées, sans précision"@fr ;
+    nuvs:containsValence nuva:VAL367,
+        nuva:VAL368 ;
+    dcterms:created "2024-08-14"^^xsd:date ;
+    dcterms:modified "2024-08-14"^^xsd:date ;
+    rdfs:comment "Cholera vaccine, oral, bivalent consisting of killed whole cells of Vibrio cholerae O1 (classical and El Tor) and O139"@en,
+        "Vaccin cholérique, oral, bivalent constitué de cellules entières tuées de Vibrio cholerae O1 (classique et El Tor) et O139"@fr ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "1257"^^nuva:NUVACode,
+        "5281002000102"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
+        "VAC1257"^^xsd:string .
 
 nuva:VAL002 a owl:Class ;
     rdfs:label "Konjugierter Typhus-Impfstoff, Vi-Polysaccharid-Antigen, gebunden an ein Trägerprotein"@de,
