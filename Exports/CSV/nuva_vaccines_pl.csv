@@ -744,7 +744,7 @@ VAC0816,PEDATYPH,"Typhoid conjugate vaccine, Vi polysaccharide linked to tetanus
 VAC0817,"Inactivated Typhoid vaccine, unspecified",Inaktywowana szczepionka przeciw durowi brzusznemu w całości,abstract,,Ty-I
 VAC0818,"Typhoid-Paratyphoid vaccine, unspecified","Szczepionka przeciwko durowi brzusznemu i paratyfusowi, cała inaktywowana",abstract,,pTy-I Ty-I
 VAC0819,"Inactivated Japanese Encephalitis vaccine, unspecified",Inaktywowana w całości szczepionka przeciwko japońskiemu zapaleniu mózgu,abstract,,JE-I
-VAC0820,"Inactivated whole influenza vaccine, unspecified",Inaktywowana w całości szczepionka przeciwko grypie sezonowej,abstract,,INF-EI
+VAC0820,"Inactivated whole influenza vaccine, unspecified","Influenza inactivated whole vaccine, obtained from egg culture, unspecified",abstract,,INF-EI
 VAC0821,"Inactivated influenza vaccine, split or subunit, unspecified",Inaktywowana szczepionka przeciwko grypie sezonowej,abstract,,INF-ESU
 VAC0822,"Influenza vaccine, live attenuated, unspecified","Szczepionka przeciwko grypie sezonowej, żywa, atenuowana",abstract,,INF-L
 VAC0823,"VLP influenza vaccine, unspecified",Szczepionka przeciwko grypie sezonowej zawierająca cząsteczki wirusopodobne (VLP),abstract,,INF-VLP
@@ -852,7 +852,7 @@ VAC0925,"Trójwalentna inaktywowana szczepionka przeciw grypie, nieokreślona","
 VAC0926,FLUCELVAX,"Trivalent inactivated seasonal influenza vaccine, produced in cell culture",real,VAC1175,
 VAC0927,"Szczepionka mRNA przeciwko COVID-19, dawka pediatryczna, nieokreślona","Szczepionka COVID-19 mRNA, dawka pediatryczna",abstract,, COVID-mRNA-S-ORI-10
 VAC0928,"Żywa, atenuowana szczepionka przeciwko wirusowemu zapaleniu wątroby typu A, nieokreślona",Żywa atenuowana szczepionka przeciwko wirusowemu zapaleniu wątroby typu A,abstract,,HepA-LA
-VAC0929,"Czterowalentna inaktywowana szczepionka przeciw grypie, dawka pediatryczna, nieokreślona","Szczepionka przeciwko grypie sezonowej, inaktywowana, czterowalentna, dawka pediatryczna",abstract,,INF-ESUped4
+VAC0929,"Czterowalentna inaktywowana szczepionka przeciw grypie, dawka pediatryczna, nieokreślona","Seasonal influenza vaccine, quadrivalent, inactivated, obtained from egg culture, pediatric dose",abstract,,INF-ESUped4
 VAC0930,Ad5-nCoV COVID-19 INHALATION VACCINE,"COVID-19 vaccine, non-replicating viral vector, adenovirus type 5, for inhalation",real,VAC1135,
 VAC0931,FLUBLOK QUADRIVALENT,Quadrivalent recombinant seasonal influenza vaccine,real,VAC0932,
 VAC0932,"Czterowalentna rekombinowana szczepionka przeciw grypie, nieokreślona",Czterowalentna rekombinowana szczepionka przeciwko grypie sezonowej,abstract,,INF-R4
@@ -1481,3 +1481,5 @@ VAC1554,VAXRABEO,"Whole inactivated rabies vaccine, prepared in Vero cell cultur
 VAC1555,"Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified","Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified",abstract,,HNSCC-HPVneg
 VAC1556,TG4050,"Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified",real,VAC1555,
 VAC1557,"Influenza vaccine, trivalent, inactivated, split or subunit, unspecified","Influenza vaccine, trivalent, inactivated, split or subunit, unspecified",abstract,,INF-ESU3
+VAC1558,EUTYPH-C,"Typhoid vaccine, Vi antigen conjugated to CRM197 protein",real,VAC1425,
+VAC1559,EUVICHOL,"Cholera vaccine, oral, bivalent consisting of killed whole cells of Vibrio cholerae O1 (classical and El Tor) and O139",real,VAC1257,
