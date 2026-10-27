@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "2026-10-17"^^xsd:string .
+    owl:versionInfo "2026-10-27"^^xsd:string .
 
 <http://ivci.org/NUVA/#MISS> skos:notation "07"^^<http://ivci.org/NUVA/﻿ATC>,
         "07A"^^<http://ivci.org/NUVA/﻿ATC>,
@@ -540,11 +540,13 @@ nuva:NUVACode a owl:Class ;
     rdfs:subClassOf nuva:Code .
 
 nuva:VAC0000 a owl:Class ;
-    rdfs:label "#Orphans"@en ;
+    rdfs:label "#Orphans"@en,
+        "#Orphelins"@fr ;
     nuvs:containsValence nuva:VAL000 ;
     dcterms:created "2026-09-10"^^xsd:date ;
     dcterms:modified "2026-09-10"^^xsd:date ;
-    rdfs:comment "Abstract for orphan vaccines"@en ;
+    rdfs:comment "Abstract for orphan vaccines"@en,
+        "Classe abstraite pour les vaccins orphelins"@fr ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "0000"^^nuva:NUVACode,
         "VAC0000"^^xsd:string .
@@ -1141,7 +1143,7 @@ nuva:VAC0016 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza trivalent inactivated vaccine, obtained from egg culture surface antigen, adult dose"@en,
-        "Vaccin contre la grippe saisonnière inactivé trivalent, à antigène de surface"@fr ;
+        "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à antigène de surface"@fr ;
     rdfs:subClassOf nuva:VAC0925 ;
     skos:notation "0016"^^nuva:NUVACode,
         "28851"^^<http://ivci.org/NUVA/﻿AIC>,
@@ -1382,7 +1384,7 @@ nuva:VAC0021 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza trivalent inactivated vaccine, obtained from egg culture, split virion"@en,
-        "Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté"@fr ;
+        "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté"@fr ;
     rdfs:subClassOf nuva:VAC0925 ;
     skos:notation "0021"^^nuva:NUVACode,
         "27278"^^<http://ivci.org/NUVA/﻿AIC>,
@@ -1547,7 +1549,7 @@ nuva:VAC0026 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza trivalent inactivated vaccine, obtained from egg culture, surface antigen"@en,
-        "Vaccin contre la grippe saisonnière inactivé trivalent, à antigène de surface"@fr ;
+        "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à antigène de surface"@fr ;
     rdfs:subClassOf nuva:VAC0925 ;
     skos:notation "0026"^^nuva:NUVACode,
         "400933387228"^^<http://ivci.org/NUVA/﻿CIP>,
@@ -1872,7 +1874,7 @@ nuva:VAC0036 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza trivalent inactivated vaccine, obtained from egg culture, split virion and tetanus toxoid vaccine"@en,
-        "Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté et tétanique (anatoxine)"@fr ;
+        "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté et tétanique (anatoxine)"@fr ;
     rdfs:subClassOf nuva:VAC1130 ;
     skos:notation "0036"^^nuva:NUVACode,
         "400932936175"^^<http://ivci.org/NUVA/﻿CIP>,
@@ -2303,7 +2305,7 @@ nuva:VAC0047 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza trivalent inactivated vaccine, obtained from egg culture, split virion"@en,
-        "Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté"@fr ;
+        "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu sur culture d’œufs, à virion fragmenté"@fr ;
     rdfs:subClassOf nuva:VAC0925 ;
     skos:notation "0047"^^nuva:NUVACode,
         "29245"^^<http://ivci.org/NUVA/﻿AIC>,
@@ -2846,7 +2848,7 @@ nuva:VAC0062 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza trivalent inactivated vaccine, obtained from egg culture, split virion"@en,
-        "Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté"@fr ;
+        "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté"@fr ;
     rdfs:subClassOf nuva:VAC0925 ;
     skos:notation "0062"^^nuva:NUVACode,
         "26032"^^<http://ivci.org/NUVA/﻿AIC>,
@@ -3449,7 +3451,7 @@ nuva:VAC0096 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza trivalent inactivated vaccine, obtained from egg culture, split virion"@en,
-        "Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté"@fr ;
+        "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté"@fr ;
     rdfs:subClassOf nuva:VAC0925 ;
     skos:notation "0096"^^nuva:NUVACode,
         "851002000107"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
@@ -3563,7 +3565,7 @@ nuva:VAC0104 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Influenza A(H1N1)pdm09 pandemic vaccine, whole-virion inactivated, obtained from egg culture"@en,
-        "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé"@fr ;
+        "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09, à virion entier inactivé, obtenu par culture d’œufs"@fr ;
     rdfs:subClassOf nuva:VAC0147 ;
     skos:notation "0104"^^nuva:NUVACode,
         "U-1-10-629-001"^^<http://ivci.org/NUVA/﻿EU-NUMBER>,
@@ -3575,7 +3577,7 @@ nuva:VAC0105 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Influenza A(H1N1)pdm09 pandemic vaccine, inactivated, obtained from egg culture"@en,
-        "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé"@fr ;
+        "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs"@fr ;
     rdfs:subClassOf nuva:VAC0147 ;
     skos:notation "0105"^^nuva:NUVACode,
         "39464"^^<http://ivci.org/NUVA/﻿AIC>,
@@ -3592,7 +3594,7 @@ nuva:VAC0106 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Influenza A(H1N1)pdm09 pandemic vaccine, inactivated, obtained from egg culture"@en,
-        "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé"@fr ;
+        "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs"@fr ;
     rdfs:subClassOf nuva:VAC0147 ;
     skos:notation "0106"^^nuva:NUVACode,
         "001002000106"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
@@ -3603,7 +3605,7 @@ nuva:VAC0107 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Influenza A(H1N1)pdm09 pandemic vaccine, whole-virion inactivated, obtained from egg culture"@en,
-        "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09, à virion entier inactivé"@fr ;
+        "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09, à virion entier inactivé, obtenu par culture d’œufs"@fr ;
     rdfs:subClassOf nuva:VAC0147 ;
     skos:notation "0107"^^nuva:NUVACode,
         "400939468648"^^<http://ivci.org/NUVA/﻿CIP>,
@@ -3617,7 +3619,7 @@ nuva:VAC0108 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Influenza A(H1N1)pdm09 pandemic vaccine, inactivated, obtained from egg culture"@en,
-        "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé"@fr ;
+        "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs"@fr ;
     rdfs:subClassOf nuva:VAC0147 ;
     skos:notation "0108"^^nuva:NUVACode,
         "39228"^^<http://ivci.org/NUVA/﻿AIC>,
@@ -3895,7 +3897,7 @@ nuva:VAC0125 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Influenza A(H1N1)pdm09 pandemic vaccine, inactivated, obtained from egg culture, split virion"@en,
-        "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, virion fragmenté"@fr ;
+        "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs, virion fragmenté"@fr ;
     rdfs:subClassOf nuva:VAC0147 ;
     skos:notation "0125"^^nuva:NUVACode,
         "841000087102"^^<http://ivci.org/NUVA/﻿CVC>,
@@ -3908,10 +3910,10 @@ nuva:VAC0125 a owl:Class ;
 nuva:VAC0126 a owl:Class ;
     rdfs:label "HEVAC B"^^xsd:string ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2026-09-18"^^xsd:date ;
+    dcterms:modified "2026-10-27"^^xsd:date ;
     rdfs:comment "Plasma vaccine against hepatitis B (first French vaccine)"@en,
         "Vaccin plasmatique contre l'hépatite B (premier vaccin français)"@fr ;
-    rdfs:subClassOf nuva:VAC1125 ;
+    rdfs:subClassOf nuva:VAC1155 ;
     skos:notation "0126"^^nuva:NUVACode,
         "24987"^^<http://ivci.org/NUVA/﻿AIC>,
         "400932444878"^^<http://ivci.org/NUVA/﻿CIP>,
@@ -4091,7 +4093,7 @@ nuva:VAC0140 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza trivalent inactivated vaccine, obtained from egg culture, split virion, intradermal"@en,
-        "Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté, par voie intradermique"@fr ;
+        "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté, par voie intradermique"@fr ;
     rdfs:subClassOf nuva:VAC0925 ;
     skos:notation "0140"^^nuva:NUVACode,
         "39425"^^<http://ivci.org/NUVA/﻿AIC>,
@@ -5057,7 +5059,7 @@ nuva:VAC0195 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza trivalent inactivated vaccine, obtained from egg culture, split virion"@en,
-        "Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté"@fr ;
+        "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté"@fr ;
     rdfs:subClassOf nuva:VAC0925 ;
     skos:notation "0195"^^nuva:NUVACode,
         "22143"^^<http://ivci.org/NUVA/﻿AIC>,
@@ -5091,10 +5093,10 @@ nuva:VAC0197 a owl:Class ;
 nuva:VAC0198 a owl:Class ;
     rdfs:label "BIKEN-HB"^^xsd:string ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2026-09-18"^^xsd:date ;
+    dcterms:modified "2026-10-27"^^xsd:date ;
     rdfs:comment "Recombinant hepatitis B vaccine"@en,
         "Vaccin recombinant contre l'hépatite B"@fr ;
-    rdfs:subClassOf nuva:VAC1125 ;
+    rdfs:subClassOf nuva:VAC0101 ;
     skos:notation "0198"^^nuva:NUVACode,
         "131002000108"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
         "VAC0198"^^xsd:string .
@@ -5449,7 +5451,7 @@ nuva:VAC0229 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza trivalent inactivated vaccine, obtained from egg culture"@en,
-        "Vaccin contre la grippe saisonnière inactivé trivalent"@fr ;
+        "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs"@fr ;
     rdfs:subClassOf nuva:VAC0925 ;
     skos:notation "0229"^^nuva:NUVACode,
         "461002000107"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
@@ -5527,7 +5529,7 @@ nuva:VAC0232 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza trivalent inactivated vaccine, obtained from egg culture"@en,
-        "Vaccin contre la grippe saisonnière inactivé trivalent"@fr ;
+        "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs"@fr ;
     rdfs:subClassOf nuva:VAC0925 ;
     skos:notation "0232"^^nuva:NUVACode,
         "9515-0845"^^<http://ivci.org/NUVA/﻿NDC>,
@@ -5564,7 +5566,7 @@ nuva:VAC0234 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza vaccine, trivalent, whole virion inactivated, obtained from egg culture"@en,
-        "Vaccin contre la grippe saisonnière à virus entier inactivé"@fr ;
+        "Vaccin contre la grippe saisonnière à virus entier inactivé, obtenu par culture d’œufs"@fr ;
     rdfs:subClassOf nuva:VAC0820 ;
     skos:notation "0234"^^nuva:NUVACode,
         "521002000104"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
@@ -5610,7 +5612,7 @@ nuva:VAC0236 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza trivalent inactivated vaccine, obtained from egg culture, high dose"@en,
-        "Vaccin contre la grippe saisonnière inactivé trivalent, haute dose"@fr ;
+        "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, haute dose"@fr ;
     rdfs:subClassOf nuva:VAC1171 ;
     skos:notation "0236"^^nuva:NUVACode,
         "400928099860"^^<http://ivci.org/NUVA/﻿CIP>,
@@ -5698,12 +5700,12 @@ nuva:VAC0242 a owl:Class ;
         "VAC0242"^^xsd:string .
 
 nuva:VAC0243 a owl:Class ;
-    rdfs:label "HEPA-B INJECTION"^^xsd:string ;
+    rdfs:label "HEPA-B INJECTION ADULT"^^xsd:string ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2026-09-18"^^xsd:date ;
-    rdfs:comment "Hepatitis B vaccine (Paediatric dose 10 µg/mL and adult dose 20 µg/mL)"@en,
+    dcterms:modified "2026-10-27"^^xsd:date ;
+    rdfs:comment "Recombinant hepatitis B vaccine, adult dose"@en,
         "Vaccin contre l'hépatite B (Dosage pédiatrique à 10 µg/mL et dosage adulte à 20 µg/mL)"@fr ;
-    rdfs:subClassOf nuva:VAC1125 ;
+    rdfs:subClassOf nuva:VAC0915 ;
     skos:notation "0243"^^nuva:NUVACode,
         "601002000108"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
         "VAC0243"^^xsd:string .
@@ -5980,7 +5982,7 @@ nuva:VAC0265 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza trivalent inactivated vaccine, obtained from egg culture"@en,
-        "Vaccin contre la grippe saisonnière inactivé trivalent"@fr ;
+        "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs"@fr ;
     rdfs:subClassOf nuva:VAC0925 ;
     skos:notation "0265"^^nuva:NUVACode,
         "851002000108"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
@@ -5991,7 +5993,7 @@ nuva:VAC0266 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza trivalent inactivated vaccine, obtained from egg culture"@en,
-        "Vaccin contre la grippe saisonnière inactivé trivalent"@fr ;
+        "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs"@fr ;
     rdfs:subClassOf nuva:VAC0925 ;
     skos:notation "0266"^^nuva:NUVACode,
         "861002000105"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
@@ -6029,7 +6031,7 @@ nuva:VAC0271 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza trivalent inactivated vaccine, obtained from egg culture"@en,
-        "Vaccin contre la grippe saisonnière inactivé trivalent"@fr ;
+        "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs"@fr ;
     rdfs:subClassOf nuva:VAC0925 ;
     skos:notation "0271"^^nuva:NUVACode,
         "316980"^^<http://ivci.org/NUVA/﻿INFARMED>,
@@ -6964,12 +6966,12 @@ nuva:VAC0355 a owl:Class ;
         "VAC0355"^^xsd:string .
 
 nuva:VAC0356 a owl:Class ;
-    rdfs:label "RECOMBIVAX HB"^^xsd:string ;
+    rdfs:label "RECOMBIVAX HB PEDIATRIC"^^xsd:string ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2026-09-18"^^xsd:date ;
-    rdfs:comment "Hepatitis B vaccine (Paediatric and adult dosage at 10 µg and dosage for dialysis patients at 40 µg)"@en,
+    dcterms:modified "2026-10-27"^^xsd:date ;
+    rdfs:comment "Hepatitis B vaccine, pediatric dose"@en,
         "Vaccin contre l'hépatite B , dosage pédiatrique à 10 µg"@fr ;
-    rdfs:subClassOf nuva:VAC1125 ;
+    rdfs:subClassOf nuva:VAC1227 ;
     skos:notation "0356"^^nuva:NUVACode,
         "26710"^^<http://ivci.org/NUVA/﻿AIC>,
         "941000087103"^^<http://ivci.org/NUVA/﻿CVC>,
@@ -7210,7 +7212,7 @@ nuva:VAC0374 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza  trivalent inactivated vaccine, obtained from egg culture"@en,
-        "Vaccin contre la grippe saisonnière inactivé trivalent"@fr ;
+        "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs"@fr ;
     rdfs:subClassOf nuva:VAC0925 ;
     skos:notation "0374"^^nuva:NUVACode,
         "079021"^^<http://ivci.org/NUVA/﻿ELGA>,
@@ -10258,7 +10260,7 @@ nuva:VAC0573 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza trivalent inactivated vaccine, obtained from egg culture, surface antigen"@en,
-        "Vaccin contre la grippe saisonnière inactivé trivalent, à antigène de surface"@fr ;
+        "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à antigène de surface"@fr ;
     rdfs:subClassOf nuva:VAC0925 ;
     skos:notation "0573"^^nuva:NUVACode,
         "2971000087103"^^<http://ivci.org/NUVA/﻿CVC>,
@@ -11084,7 +11086,7 @@ nuva:VAC0642 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza vaccine, quadrivalent inactivated, obtained from egg culture, split-virion, high dose"@en,
-        "Vaccin contre la grippe saisonnière inactivé quadrivalent, à virion fragmenté, haute dose"@fr ;
+        "Vaccin contre la grippe saisonnière inactivé quadrivalent, obtenu par culture d’œufs, à virion fragmenté, haute dose"@fr ;
     rdfs:subClassOf nuva:VAC1146 ;
     skos:notation "0642"^^nuva:NUVACode,
         "1571000087102"^^<http://ivci.org/NUVA/﻿CVC>,
@@ -11258,7 +11260,7 @@ nuva:VAC0649 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza vaccine, quadrivalent inactivated, obtained from egg culture, split-virion, high dose"@en,
-        "Vaccin contre la grippe saisonnière inactivé quadrivalent, à virion fragmenté, haute dose"@fr ;
+        "Vaccin contre la grippe saisonnière inactivé quadrivalent, obtenu par culture d’œufs, à virion fragmenté, haute dose"@fr ;
     rdfs:subClassOf nuva:VAC1146 ;
     skos:notation "0649"^^nuva:NUVACode,
         "48644"^^<http://ivci.org/NUVA/﻿AIC>,
@@ -14063,7 +14065,7 @@ nuva:VAC0841 a owl:Class ;
     dcterms:created "2022-02-26"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza trivalent inactivated vaccine, obtained from egg culture, surface antigen, paediatric dose"@en,
-        "Vaccin contre la grippe saisonnière inactivé trivalent, à antigène de surface, dose pédiatrique"@fr ;
+        "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à antigène de surface, dose pédiatrique"@fr ;
     rdfs:subClassOf nuva:VAC0925 ;
     skos:notation "0841"^^nuva:NUVACode,
         "400927561856"^^<http://ivci.org/NUVA/﻿CIP>,
@@ -14564,7 +14566,7 @@ nuva:VAC0880 a owl:Class ;
     rdfs:label "Pentavalenter Diphtherie-Tetanus-Pertussis-Hib-Polio-Impfstoff (DTPerHibIPV), nicht spezifiziert"@de,
         "Πενταδύναμο εμβόλιο διφθερίτιδας-τετάνου-κοκκύτη-Hib-πολυομυελίτιδας (DTPerHibIPV), μη καθορισμένο"@el,
         "Diphtheria (standard dose), tetanus, pertussis, Haemophilus influenzae type b (conjugated) and inactivated polio (trivalent) pentavalent DTPerHibIPV vaccine, adsorbed, pediatric"@en,
-        "Vaccin pentavalent DTCoqHibP - Diphtérie-Tétanos-Coqueluche-Hib-Polio, sans précision"@fr,
+        "Vaccin pentavalent DTCPHib - Diphtérie-Tétanos-Coqueluche-Polio-Hib, sans précision"@fr,
         "Pentavalentā difterijas-stingumkrampju-garā klepus-Hib-polio (DTPerHibIPV) vakcīna, neprecizēta"@lv,
         "Pentawalentna szczepionka przeciwko błonicy, tężcowi, krztuścowi, Hib-Polio (DTPerHibIPV), nieokreślona"@pl,
         "Vacina pentavalente contra difteria-tétano-coqueluche-Hib-poliomielite (DTPerHibIPV), não especificada"@pt ;
@@ -15737,7 +15739,7 @@ nuva:VAC0968 a owl:Class ;
     dcterms:created "2022-06-13"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza trivalent inactivated vaccine, obtained from egg culture, virosome"@en,
-        "Vaccin contre la grippe saisonnière inactivé trivalent, à virosome"@fr ;
+        "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virosome"@fr ;
     rdfs:subClassOf nuva:VAC0925 ;
     skos:notation "0968"^^nuva:NUVACode,
         "040474"^^<http://ivci.org/NUVA/﻿CNK>,
@@ -17306,7 +17308,7 @@ nuva:VAC1070 a owl:Class ;
     dcterms:created "2024-03-18"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Influenza quadrivalent inactivated vaccine, obtained from egg culture, split or subunit, high-dose"@en,
-        "Vaccin quadrivalent inactivé contre l’influenza, fractionné ou sous-unité, haute dose"@fr ;
+        "Vaccin quadrivalent inactivé contre l’influenza, obtenu sur culture d’œufs, fractionné ou sous-unité, haute dose"@fr ;
     rdfs:subClassOf nuva:VAC1146 ;
     skos:notation "1070"^^nuva:NUVACode,
         "9281-935"^^<http://ivci.org/NUVA/﻿NDC>,
@@ -17794,6 +17796,21 @@ nuva:VAC1108 a owl:Class ;
     skos:notation "1108"^^nuva:NUVACode,
         "3661002000107"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
         "VAC1108"^^xsd:string .
+
+nuva:VAC1125 a owl:Class ;
+    rdfs:label "Hepatitis B vaccine, unspecified"@en,
+        "Vaccin Hépatite B, sans précision"@fr ;
+    nuvs:containsValence nuva:VAL068 ;
+    dcterms:created "2024-06-05"^^xsd:date ;
+    dcterms:modified "2026-01-09"^^xsd:date ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "1125"^^nuva:NUVACode,
+        "M9V38"^^<http://ivci.org/NUVA/﻿ICD11>,
+        "3831002000101"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
+        "36374004"^^<http://ivci.org/NUVA/﻿SNOMED-CT>,
+        "71822003"^^<http://ivci.org/NUVA/﻿SNOMED-CT>,
+        "71925000"^^<http://ivci.org/NUVA/﻿SNOMED-CT>,
+        "VAC1125"^^xsd:string .
 
 nuva:VAC1137 a owl:Class ;
     rdfs:label "Tick-borne encephalitis whole inactivated vaccine, strain K23, unspecified"@en,
@@ -18762,7 +18779,7 @@ nuva:VAC1324 a owl:Class ;
     dcterms:created "2025-03-13"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Influenza A(H1N1)pdm09 pandemic vaccine, live attenuated, obtained from egg culture"@en,
-        "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 vivant atténué"@fr ;
+        "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09, vivant atténué, obtenu sur culture d'oeufs"@fr ;
     rdfs:subClassOf nuva:VAC1423 ;
     skos:notation "1324"^^nuva:NUVACode,
         "6111002000107"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
@@ -19072,7 +19089,7 @@ nuva:VAC1347 a owl:Class ;
     dcterms:created "2025-04-02"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza vaccine, trivalent inactivated, obtained from egg culture, split-virion, high-dose"@en,
-        "Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté, haute dose"@fr ;
+        "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté, haute dose"@fr ;
     rdfs:subClassOf nuva:VAC1171 ;
     skos:notation "1347"^^nuva:NUVACode,
         "51634"^^<http://ivci.org/NUVA/﻿AIC>,
@@ -19316,7 +19333,7 @@ nuva:VAC1367 a owl:Class ;
     dcterms:created "2025-04-04"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Influenza A(H1N1)pdm09 pandemic vaccine, inactivated, obtained from egg culture"@en,
-        "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé"@fr ;
+        "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs"@fr ;
     rdfs:subClassOf nuva:VAC0147 ;
     skos:notation "1367"^^nuva:NUVACode,
         "6601002000103"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
@@ -19649,7 +19666,7 @@ nuva:VAC1398 a owl:Class ;
     dcterms:created "2025-04-08"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Influenza A(H1N1)pdm09 pandemic vaccine, inactivated, obtained from egg culture"@en,
-        "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé"@fr ;
+        "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs"@fr ;
     rdfs:subClassOf nuva:VAC0147 ;
     skos:notation "1398"^^nuva:NUVACode,
         "6931002000100"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
@@ -19868,7 +19885,7 @@ nuva:VAC1439 a owl:Class ;
 
 nuva:VAC1440 a owl:Class ;
     rdfs:label "Influenza vaccine, quadrivalent, inactivated, obtained from egg culture, fractionated or subunit, adjuvanted, normal dose"@en,
-        "Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, adjuvant, dose normale"@fr ;
+        "Vaccin grippe, quadrivalent, inactivé, obtenu sur culture d'oeufs, fractionné ou sous-unité, adjuvant, dose normale"@fr ;
     nuvs:containsValence nuva:VAL350 ;
     dcterms:created "2025-05-22"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
@@ -19878,7 +19895,7 @@ nuva:VAC1440 a owl:Class ;
 
 nuva:VAC1441 a owl:Class ;
     rdfs:label "Influenza vaccine, quadrivalent, inactivated, obtained from egg culture, split or subunit, intradermal route, unspecified"@en,
-        "Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, voie intradermique, sans précision"@fr ;
+        "Vaccin grippe, quadrivalent, inactivé, obtenu par culture d'œufs, fractionné ou sous-unité, voie intradermique, sans précision"@fr ;
     nuvs:containsValence nuva:VAL134 ;
     dcterms:created "2025-05-22"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
@@ -20098,7 +20115,7 @@ nuva:VAC1464 a owl:Class ;
     dcterms:created "2025-07-30"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Seasonal influenza vaccine, trivalent, whole virion inactivated, obtained from egg culture"@en,
-        "Vaccin contre la grippe saisonnière à virus entier inactivé"@fr ;
+        "Vaccin contre la grippe saisonnière à virus entier inactivé, obtenu par culture d’œufs"@fr ;
     rdfs:subClassOf nuva:VAC0820 ;
     skos:notation "1464"^^nuva:NUVACode,
         "VAC1464"^^xsd:string .
@@ -20339,7 +20356,7 @@ nuva:VAC1489 a owl:Class ;
     dcterms:created "2026-01-07"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Influenza A(H1N1)pdm09 pandemic vaccine, inactivated, obtained from egg culture"@en,
-        "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé"@fr ;
+        "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs"@fr ;
     rdfs:subClassOf nuva:VAC0147 ;
     skos:notation "1489"^^nuva:NUVACode,
         "36"^^<http://ivci.org/NUVA/﻿SWISSLEGACY>,
@@ -20741,10 +20758,29 @@ nuva:VAC1559 a owl:Class ;
     rdfs:label "EUVICHOL"^^xsd:string ;
     dcterms:created "2026-10-16"^^xsd:date ;
     dcterms:modified "2026-10-17"^^xsd:date ;
-    rdfs:comment "Cholera vaccine, oral, bivalent consisting of killed whole cells of Vibrio cholerae O1 (classical and El Tor) and O139"@en ;
+    rdfs:comment "Cholera vaccine, oral, bivalent consisting of killed whole cells of Vibrio cholerae O1 (classical and El Tor) and O139"@en,
+        "Vaccin cholérique, oral, bivalent constitué de cellules entières tuées de Vibrio cholerae O1 (classique et El Tor) et O139"@fr ;
     rdfs:subClassOf nuva:VAC1257 ;
     skos:notation "1559"^^nuva:NUVACode,
         "VAC1559"^^xsd:string .
+
+nuva:VAC1560 a owl:Class ;
+    rdfs:label "RECOMBIVAX HB ADULT"^^xsd:string ;
+    dcterms:created "2026-10-19"^^xsd:date ;
+    dcterms:modified "2026-10-27"^^xsd:date ;
+    rdfs:comment "Recombinant hepatitis B vaccine, adult dose"@en ;
+    rdfs:subClassOf nuva:VAC0914 ;
+    skos:notation "1560"^^nuva:NUVACode,
+        "VAC1560"^^xsd:string .
+
+nuva:VAC1561 a owl:Class ;
+    rdfs:label "HEPA-B INJECTION PEDIATRIC"^^xsd:string ;
+    dcterms:created "2026-10-20"^^xsd:date ;
+    dcterms:modified "2026-10-27"^^xsd:date ;
+    rdfs:comment "Recombinant hepatitis B vaccine, paediatric dose"@en ;
+    rdfs:subClassOf nuva:VAC0914 ;
+    skos:notation "1561"^^nuva:NUVACode,
+        "VAC1561"^^xsd:string .
 
 nuva:VAL120 a owl:Class ;
     rdfs:label "Meningokokken, nicht konjugiertes Polysaccharid, polyvalent"@de,
@@ -21178,7 +21214,7 @@ nuva:VAC0821 a owl:Class ;
     rdfs:label "Inactivated influenza vaccine, split or subunit, unspecified"@de,
         "Inactivated influenza vaccine, split or subunit, unspecified"@el,
         "Influenza inactivated vaccine, split or subunit, unspecified"@en,
-        "Vaccin Grippe inactivé, fractionné ou sous-unité, sans précision"@fr,
+        "Vaccin Grippe inactivé, obtenu sur culture d'œufs, fractionné ou sous-unité, sans précision"@fr,
         "Inactivated influenza vaccine, split or subunit, unspecified"@lv,
         "Inactivated influenza vaccine, split or subunit, unspecified"@pl,
         "Inactivated influenza vaccine, split or subunit, unspecified"@pt ;
@@ -21188,7 +21224,7 @@ nuva:VAC0821 a owl:Class ;
     rdfs:comment "Inaktivierter saisonaler Grippeimpfstoff"@de,
         "Αδρανοποιημένο εμβόλιο εποχικής γρίπης"@el,
         "Inactivated seasonal influenza vaccine"@en,
-        "Vaccin contre la grippe saisonnière inactivé"@fr,
+        "Vaccin contre la grippe saisonnière inactivé, obtenu sur culture d’œufs, fractionné ou sous-unité"@fr,
         "Inaktivēta sezonālās gripas vakcīna"@lv,
         "Inaktywowana szczepionka przeciwko grypie sezonowej"@pl,
         "Vacina contra a gripe sazonal inactivada"@pt ;
@@ -21409,7 +21445,7 @@ nuva:VAC0929 a owl:Class ;
     rdfs:label "Quadrivalenter inaktivierter Influenza-Impfstoff, pädiatrische Dosis, nicht spezifiziert"@de,
         "Τετραδύναμο αδρανοποιημένο εμβόλιο κατά της γρίπης, παιδιατρική δόση, απροσδιόριστη"@el,
         "Seasonal influenza vaccine, quadrivalent, inactivated, obtained from egg culture, pediatric dose"@en,
-        "Vaccin Grippe quadrivalent inactivé, dose pédiatrique, sans précision"@fr,
+        "Vaccin Grippe quadrivalent inactivé, obtenu sur culture d’œufs, dose pédiatrique, sans précision"@fr,
         "Gripas četrvērtīgā inaktivētā vakcīna, pediatriskā deva, neprecizēta"@lv,
         "Czterowalentna inaktywowana szczepionka przeciw grypie, dawka pediatryczna, nieokreślona"@pl,
         "Vacina influenza quadrivalente inativada, dose pediátrica, não especificada"@pt ;
@@ -21876,19 +21912,6 @@ nuva:VAC1154 a owl:Class ;
     skos:notation "1154"^^nuva:NUVACode,
         "4131002000108"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
         "VAC1154"^^xsd:string .
-
-nuva:VAC1155 a owl:Class ;
-    rdfs:label "Hepatitis B plasma vaccine, unspecified"@en,
-        "Vaccin Hépatite B plasmatique, sans précision"@fr ;
-    nuvs:containsValence nuva:VAL158 ;
-    dcterms:created "2024-06-05"^^xsd:date ;
-    dcterms:modified "2026-09-10"^^xsd:date ;
-    rdfs:comment "Plasma hepatitis B vaccine, unspecified"@en,
-        "Vaccin plasmatique contre l'hépatite B, sans précision"@fr ;
-    rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "1155"^^nuva:NUVACode,
-        "4141002000100"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
-        "VAC1155"^^xsd:string .
 
 nuva:VAC1156 a owl:Class ;
     rdfs:label "Botulism immunoglobulin, unspecified"@en,
@@ -22927,7 +22950,8 @@ nuva:VAC1423 a owl:Class ;
     nuvs:containsValence nuva:VAL405 ;
     dcterms:created "2025-04-14"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
-    rdfs:comment "Influenza A(H1N1)pdm09 pandemic vaccine, live attenuated, obtained from egg culture"@en ;
+    rdfs:comment "Influenza A(H1N1)pdm09 pandemic vaccine, live attenuated, obtained from egg culture"@en,
+        "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09, vivant atténué, obtenu sur culture d'oeufs"@fr ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "1423"^^nuva:NUVACode,
         "7181002000104"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
@@ -22989,7 +23013,7 @@ nuva:VAC1430 a owl:Class ;
 
 nuva:VAC1438 a owl:Class ;
     rdfs:label "Influenza vaccine, trivalent, inactivated, obtained from egg culture, fractionated or subunit, adjuvanted"@en,
-        "Vaccin grippe, trivalent, inactivé, fractionné ou sous-unité, adjuvant"@fr ;
+        "Vaccin grippe, trivalent, inactivé, obtenu sur culture d'oeufs, fractionné ou sous-unité, adjuvant"@fr ;
     nuvs:containsValence nuva:VAL349 ;
     dcterms:created "2025-05-22"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
@@ -23141,7 +23165,7 @@ nuva:VAC1532 a owl:Class ;
 
 nuva:VAC1534 a owl:Class ;
     rdfs:label "Seasonal influenza vaccine, trivalent inactivated, obtained from egg culture, split virion, pediatric form"@en,
-        "Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté, dose pédiatrique"@fr ;
+        "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté, dose pédiatrique"@fr ;
     nuvs:containsValence nuva:VAL166 ;
     dcterms:created "2026-09-10"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
@@ -23355,7 +23379,8 @@ nuva:VAC1555 a owl:Class ;
         "VAC1555"^^xsd:string .
 
 nuva:VAL000 a owl:Class ;
-    rdfs:label "Parent for deprecated valences"@en ;
+    rdfs:label "Parent for deprecated valences"@en,
+        "Parent pour les valences dépréciées"@fr ;
     dcterms:created "2026-09-10"^^xsd:date ;
     dcterms:modified "2026-09-10"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
@@ -24136,7 +24161,7 @@ nuva:VAL131 a owl:Class ;
 
 nuva:VAL134 a owl:Class ;
     rdfs:label "Influenza valence, quadrivalent, inactivated, obtained from egg culture, split or subunit, intradermal route, unspecified"@en,
-        "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intradermique, sans précision"@fr ;
+        "Valence grippe, quadrivalente, inactivée, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intradermique, sans précision"@fr ;
     dcterms:created "2021-10-26"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:subClassOf nuva:VAL230 ;
@@ -24308,7 +24333,7 @@ nuva:VAL158 a owl:Class ;
 
 nuva:VAL166 a owl:Class ;
     rdfs:label "Influenza valence, trivalent, inactivated, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, pediatric dose"@en,
-        "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, dose pédiatrique"@fr ;
+        "Valence grippe, trivalente, inactivée, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, dose pédiatrique"@fr ;
     dcterms:created "2022-03-13"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:subClassOf nuva:VAL122 ;
@@ -24895,7 +24920,7 @@ nuva:VAL277 a owl:Class ;
 
 nuva:VAL279 a owl:Class ;
     rdfs:label "Influenza valence, quadrivalent, inactivated, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, pediatric dose"@en,
-        "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, dose pédiatrique"@fr ;
+        "Valence grippe, quadrivalente, inactivée, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, dose pédiatrique"@fr ;
     dcterms:created "2022-04-18"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:subClassOf nuva:VAL064 ;
@@ -25418,7 +25443,7 @@ nuva:VAL348 a owl:Class ;
 
 nuva:VAL349 a owl:Class ;
     rdfs:label "Influenza valence, trivalent, inactivated, obtained from egg culture, fractionated or subunit, adjuvanted"@en,
-        "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, adjuvant"@fr ;
+        "Valence grippe, trivalente, inactivée, obtenu sur culture d'oeufs, fractionnée ou sous-unité, adjuvant"@fr ;
     dcterms:created "2024-05-14"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:subClassOf nuva:VAL231 ;
@@ -25427,7 +25452,7 @@ nuva:VAL349 a owl:Class ;
 
 nuva:VAL350 a owl:Class ;
     rdfs:label "Influenza valence, quadrivalent, inactivated, obtained from egg culture, fractionated or subunit, adjuvanted, normal dose"@en,
-        "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, adjuvant, dose normale"@fr ;
+        "Valence grippe, quadrivalente, inactivée, obtenu sur culture d'oeufs, fractionnée ou sous-unité, adjuvant, dose normale"@fr ;
     dcterms:created "2024-05-14"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:subClassOf nuva:VAL127 ;
@@ -25777,7 +25802,7 @@ nuva:VAL404 a owl:Class ;
 
 nuva:VAL405 a owl:Class ;
     rdfs:label "Influenza valence, live attenuated, pandemic influenza H1N1 2009, obtained from egg culture"@en,
-        "Valence grippe pandémique H1N1 2009, vivante atténuée"@fr ;
+        "Valence grippe pandémique H1N1 2009, vivante atténuée, obtenu sur culture d'oeufs"@fr ;
     dcterms:created "2025-03-13"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:subClassOf nuva:VAL365 ;
@@ -26326,7 +26351,7 @@ nuva:VAC0820 a owl:Class ;
     rdfs:label "Inactivated whole influenza vaccine, unspecified"@de,
         "Inactivated whole influenza vaccine, unspecified"@el,
         "Influenza inactivated whole vaccine, obtained from egg culture, unspecified"@en,
-        "Vaccin Grippe entier inactivé, sans précision"@fr,
+        "Vaccin Grippe entier inactivé, obtenu sur culture d’œufs, sans précision"@fr,
         "Inactivated whole influenza vaccine, unspecified"@lv,
         "Inactivated whole influenza vaccine, unspecified"@pl,
         "Inactivated whole influenza vaccine, unspecified"@pt ;
@@ -26763,6 +26788,19 @@ nuva:VAC1150 a owl:Class ;
         "4091002000106"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
         "VAC1150"^^xsd:string .
 
+nuva:VAC1155 a owl:Class ;
+    rdfs:label "Hepatitis B plasma vaccine, unspecified"@en,
+        "Vaccin Hépatite B plasmatique, sans précision"@fr ;
+    nuvs:containsValence nuva:VAL158 ;
+    dcterms:created "2024-06-05"^^xsd:date ;
+    dcterms:modified "2026-09-10"^^xsd:date ;
+    rdfs:comment "Plasma hepatitis B vaccine, unspecified"@en,
+        "Vaccin plasmatique contre l'hépatite B, sans précision"@fr ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "1155"^^nuva:NUVACode,
+        "4141002000100"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
+        "VAC1155"^^xsd:string .
+
 nuva:VAC1163 a owl:Class ;
     rdfs:label "20-valenter konjugierter Pneumokokken-Impfstoff, nicht näher bezeichnet"@de,
         "20-δύναμο πνευμονιοκοκκικό συζευγμένο εμβόλιο, απροσδιόριστο"@el,
@@ -26809,12 +26847,12 @@ nuva:VAC1163 a owl:Class ;
 
 nuva:VAC1171 a owl:Class ;
     rdfs:label "Influenza trivalent vaccine, inactivated, obtained from egg culture, split or subunit, high dose, unspecified"@en,
-        "Vaccin Grippe trivalent, inactivé, haute dose, sans précision"@fr ;
+        "Vaccin Grippe trivalent, inactivé, obtenu par culture d'œufs haute dose, sans précision"@fr ;
     nuvs:containsValence nuva:VAL094 ;
     dcterms:created "2024-06-05"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Influenza trivalent inactivated vaccine, obtained from egg culture, split or subunit, high dose"@en,
-        "Vaccin trivalent inactivé contre la grippe, fractionné ou sous-unité, haute dose"@fr ;
+        "Vaccin trivalent inactivé contre la grippe, obtenu par culture d’œufs, fractionné ou sous-unité, haute dose"@fr ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "1171"^^nuva:NUVACode,
         "35"^^<http://ivci.org/NUVA/﻿CVX>,
@@ -27095,7 +27133,7 @@ nuva:VAC1537 a owl:Class ;
 
 nuva:VAC1541 a owl:Class ;
     rdfs:label "Influenza quadrivalent inactivated vaccine, obtained from egg culture, split or subunit, unspecified"@en,
-        "Vaccin contre la grippe saisonnière inactivé quadrivalent de la grippe, fractionnée ou sous-unité, sans précision"@fr ;
+        "Vaccin contre la grippe saisonnière, inactivé, quadrivalent, obtenu sur culture d'oeufs, fractionnée ou sous-unité, sans précision"@fr ;
     nuvs:containsValence nuva:VAL230 ;
     dcterms:created "2026-09-10"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
@@ -27277,7 +27315,7 @@ nuva:VAL124 a owl:Class ;
 
 nuva:VAL127 a owl:Class ;
     rdfs:label "Influenza valence, quadrivalent, inactivated, obtained from egg culture, split or subunit, intramuscular or subcutaneous route"@en,
-        "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée"@fr ;
+        "Valence grippe, quadrivalente, inactivée, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée"@fr ;
     dcterms:created "2021-10-26"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:subClassOf nuva:VAL230 ;
@@ -27440,7 +27478,7 @@ nuva:VAL222 a owl:Class ;
 
 nuva:VAL231 a owl:Class ;
     rdfs:label "Influenza valence, trivalent, inactivated, obtained from egg culture, split or subunit, intramuscular or subcutaneous route"@en,
-        "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée"@fr ;
+        "Valence grippe, trivalente, inactivée, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée"@fr ;
     dcterms:created "2022-03-29"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:subClassOf nuva:VAL024 ;
@@ -27832,37 +27870,6 @@ nuva:VAL422 a owl:Class ;
     skos:altLabel "Yp"@en ;
     skos:notation "VAL422"^^xsd:string .
 
-nuva:VAC0101 a owl:Class ;
-    rdfs:label "Hepatitis-B-Impfstoff, rekombinant, ohne nähere Angaben"@de,
-        "Εμβόλιο ανασυνδυασμένης ηπατίτιδας Β, απροσδιόριστο"@el,
-        "Hepatitis B vaccine, recombinant, unspecified"@en,
-        "Vaccin Hépatite B, recombinant, sans précision"@fr,
-        "Rekombinantā B hepatīta vakcīna, neprecizēta"@lv,
-        "Rekombinowana szczepionka przeciw wirusowemu zapaleniu wątroby typu B, nieokreślona"@pl,
-        "Vacina recombinante contra a hepatite B, não especificada"@pt ;
-    nuvs:containsValence nuva:VAL090 ;
-    dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2026-01-09"^^xsd:date ;
-    rdfs:comment "Rekombinanter Hepatitis-B-Impfstoff, Dosis nicht spezifiziert"@de,
-        "Εμβόλιο ανασυνδυασμένης ηπατίτιδας Β, δόση απροσδιόριστη"@el,
-        "Recombinant Hepatitis B vaccine, unspecified dose"@en,
-        "Vaccin recombinant contre le virus de l'hépatite B, dose non précisée"@fr,
-        "rekombinantā B hepatīta vakcīna, deva nav precizēta"@lv,
-        "Rekombinowana szczepionka przeciwko wirusowemu zapaleniu wątroby typu B, dawka nieokreślona"@pl,
-        "Vacina Recombinante contra a Hepatite B, dose não especificada"@pt ;
-    rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "0101"^^nuva:NUVACode,
-        "26653"^^<http://ivci.org/NUVA/﻿AIC>,
-        "35262"^^<http://ivci.org/NUVA/﻿AIC>,
-        "07BC01"^^<http://ivci.org/NUVA/﻿ATC>,
-        "0731"^^<http://ivci.org/NUVA/﻿CPT>,
-        "4689006"^^<http://ivci.org/NUVA/﻿CVC>,
-        "5"^^<http://ivci.org/NUVA/﻿CVX>,
-        "901002000104"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
-        "296676008"^^<http://ivci.org/NUVA/﻿SNOMED-CT>,
-        "304283008"^^<http://ivci.org/NUVA/﻿SNOMED-CT>,
-        "VAC0101"^^xsd:string .
-
 nuva:VAC0324 a owl:Class ;
     rdfs:label "Pneumococcal conjugate vaccine, 7 valent, unspecified"@de,
         "Pneumococcal conjugate vaccine, 7 valent, unspecified"@el,
@@ -28116,12 +28123,12 @@ nuva:VAC1129 a owl:Class ;
 
 nuva:VAC1146 a owl:Class ;
     rdfs:label "Influenza inactivated quadrivalent vaccine, obtained from egg culture, high dose, unspecified"@en,
-        "Vaccin Grippe quadrivalent, inactivé, haute dose, sans précision"@fr ;
+        "Vaccin Grippe quadrivalent, inactivé, obtenu sur culture d'oeufs, haute dose, sans précision"@fr ;
     nuvs:containsValence nuva:VAL074 ;
     dcterms:created "2024-06-05"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:comment "Inactivated quadrivalent influenza vaccine, obtained from egg culture, split or subunit, high dose"@en,
-        "Vaccin quadrivalent inactivé contre l’influenza, fractionné ou sous-unité, haute dose"@fr ;
+        "Vaccin quadrivalent inactivé contre l’influenza, obtenu sur culture d’œufs, fractionné ou sous-unité, haute dose"@fr ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "1146"^^nuva:NUVACode,
         "97"^^<http://ivci.org/NUVA/﻿CVX>,
@@ -28501,7 +28508,7 @@ nuva:VAL115 a owl:Class ;
 
 nuva:VAL122 a owl:Class ;
     rdfs:label "Influenza valence, trivalent, inactivated, obtained from egg culture, split or subunit, intramuscular or subcutaneous route, non-adjuvanted"@en,
-        "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant"@fr ;
+        "Valence grippe, trivalente, inactivée, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant"@fr ;
     dcterms:created "2021-10-26"^^xsd:date ;
     dcterms:modified "2026-10-16"^^xsd:date ;
     rdfs:subClassOf nuva:VAL231 ;
@@ -28787,7 +28794,7 @@ nuva:VAL230 a owl:Class ;
     rdfs:label "Quadrivalente inaktivierte Influenza-Valenz, Spalt- oder Untereinheit, ohne Spezifikation"@de,
         "Τετρασθενής αδρανοποιημένη βαλεντία της γρίπης, κλασματοποιημένη ή υπομονάδα, χωρίς διευκρίνιση"@el,
         "Influenza valence, quadrivalent, inactivated, split or subunit, unspecified"@en,
-        "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, sans précision"@fr,
+        "Valence grippe, quadrivalente, inactivée, obtenu sur culture d'oeufs, fractionnée ou sous-unité, sans précision"@fr,
         "Četrvalenta inaktivēta gripas valence, frakcionēta vai apakšvienība, bez precizējuma"@lv,
         "Czterowalentna inaktywowana wartość przeciwko grypie, dzielona lub podjednostkowa, bez określenia"@pl,
         "Valência vacinal tetravalente inativada da gripe, fracionada ou de subunidade, sem especificação"@pt ;
@@ -29047,6 +29054,37 @@ nuva:VAL448 a owl:Class ;
     rdfs:subClassOf nuva:Valence ;
     skos:altLabel "Lepto"@en ;
     skos:notation "VAL448"^^xsd:string .
+
+nuva:VAC0101 a owl:Class ;
+    rdfs:label "Hepatitis-B-Impfstoff, rekombinant, ohne nähere Angaben"@de,
+        "Εμβόλιο ανασυνδυασμένης ηπατίτιδας Β, απροσδιόριστο"@el,
+        "Hepatitis B vaccine, recombinant, unspecified"@en,
+        "Vaccin Hépatite B, recombinant, sans précision"@fr,
+        "Rekombinantā B hepatīta vakcīna, neprecizēta"@lv,
+        "Rekombinowana szczepionka przeciw wirusowemu zapaleniu wątroby typu B, nieokreślona"@pl,
+        "Vacina recombinante contra a hepatite B, não especificada"@pt ;
+    nuvs:containsValence nuva:VAL090 ;
+    dcterms:created "2021-07-19"^^xsd:date ;
+    dcterms:modified "2026-01-09"^^xsd:date ;
+    rdfs:comment "Rekombinanter Hepatitis-B-Impfstoff, Dosis nicht spezifiziert"@de,
+        "Εμβόλιο ανασυνδυασμένης ηπατίτιδας Β, δόση απροσδιόριστη"@el,
+        "Recombinant Hepatitis B vaccine, unspecified dose"@en,
+        "Vaccin recombinant contre le virus de l'hépatite B, dose non précisée"@fr,
+        "rekombinantā B hepatīta vakcīna, deva nav precizēta"@lv,
+        "Rekombinowana szczepionka przeciwko wirusowemu zapaleniu wątroby typu B, dawka nieokreślona"@pl,
+        "Vacina Recombinante contra a Hepatite B, dose não especificada"@pt ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "0101"^^nuva:NUVACode,
+        "26653"^^<http://ivci.org/NUVA/﻿AIC>,
+        "35262"^^<http://ivci.org/NUVA/﻿AIC>,
+        "07BC01"^^<http://ivci.org/NUVA/﻿ATC>,
+        "0731"^^<http://ivci.org/NUVA/﻿CPT>,
+        "4689006"^^<http://ivci.org/NUVA/﻿CVC>,
+        "5"^^<http://ivci.org/NUVA/﻿CVX>,
+        "901002000104"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
+        "296676008"^^<http://ivci.org/NUVA/﻿SNOMED-CT>,
+        "304283008"^^<http://ivci.org/NUVA/﻿SNOMED-CT>,
+        "VAC0101"^^xsd:string .
 
 nuva:VAC0102 a owl:Class ;
     rdfs:label "Inaktivierter Hepatitis-A-Impfstoff, nicht näher bezeichnet"@de,
@@ -29409,21 +29447,6 @@ nuva:VAC1119 a owl:Class ;
         "3771002000105"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
         "VAC1119"^^xsd:string .
 
-nuva:VAC1125 a owl:Class ;
-    rdfs:label "Hepatitis B vaccine, unspecified"@en,
-        "Vaccin Hépatite B, sans précision"@fr ;
-    nuvs:containsValence nuva:VAL068 ;
-    dcterms:created "2024-06-05"^^xsd:date ;
-    dcterms:modified "2026-01-09"^^xsd:date ;
-    rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "1125"^^nuva:NUVACode,
-        "M9V38"^^<http://ivci.org/NUVA/﻿ICD11>,
-        "3831002000101"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
-        "36374004"^^<http://ivci.org/NUVA/﻿SNOMED-CT>,
-        "71822003"^^<http://ivci.org/NUVA/﻿SNOMED-CT>,
-        "71925000"^^<http://ivci.org/NUVA/﻿SNOMED-CT>,
-        "VAC1125"^^xsd:string .
-
 nuva:VAC1164 a owl:Class ;
     rdfs:label "Diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis (acellular multicomponent, standard dose) and Haemophilus influenzae type b (tetanus toxoid conjugate) quadrivalent vaccine DTPaHib, pediatric"@en,
         "Vaccin quadrivalent DTCaHib- Diphtérie-Tétanos-Coqueluche-Hib PRP, sans précision"@fr ;
@@ -29489,17 +29512,6 @@ nuva:VAC1200 a owl:Class ;
     skos:notation "1200"^^nuva:NUVACode,
         "4591002000102"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
         "VAC1200"^^xsd:string .
-
-nuva:VAC1227 a owl:Class ;
-    rdfs:label "Hepatitis B recombinant vaccine, pediatric dose, unspecified"@en,
-        "Vaccin Hépatite B, dose pédiatrique, sans précision"@fr ;
-    nuvs:containsValence nuva:VAL170 ;
-    dcterms:created "2024-06-05"^^xsd:date ;
-    dcterms:modified "2026-09-08"^^xsd:date ;
-    rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "1227"^^nuva:NUVACode,
-        "4871002000100"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
-        "VAC1227"^^xsd:string .
 
 nuva:VAC1279 a owl:Class ;
     rdfs:label "Anthrax vaccine, adjuvanted adsorbed"@en,
@@ -30315,6 +30327,17 @@ nuva:VAC1211 a owl:Class ;
     skos:notation "1211"^^nuva:NUVACode,
         "4711002000100"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
         "VAC1211"^^xsd:string .
+
+nuva:VAC1227 a owl:Class ;
+    rdfs:label "Hepatitis B recombinant vaccine, pediatric dose, unspecified"@en,
+        "Vaccin Hépatite B, dose pédiatrique, sans précision"@fr ;
+    nuvs:containsValence nuva:VAL170 ;
+    dcterms:created "2024-06-05"^^xsd:date ;
+    dcterms:modified "2026-09-08"^^xsd:date ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "1227"^^nuva:NUVACode,
+        "4871002000100"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
+        "VAC1227"^^xsd:string .
 
 nuva:VAL005 a owl:Class ;
     rdfs:label "Measles valence, live attenuated"@en,
@@ -31296,7 +31319,7 @@ nuva:VAC0147 a owl:Class ;
     rdfs:comment "Impfstoff gegen pandemische Influenza A(H1N1)pdm09, inaktiviert"@de,
         "Εμβόλιο πανδημικής γρίπης A(H1N1)pdm09, αδρανοποιημένο"@el,
         "Influenza A(H1N1)pdm09 pandemic vaccine, inactivated, obtained from egg culture"@en,
-        "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé"@fr,
+        "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs"@fr,
         "Inaktivēta pandēmiskās gripas A(H1N1)pdm09 vakcīna."@lv,
         "Szczepionka przeciwko grypie pandemicznej A(H1N1)pdm09, inaktywowana"@pl,
         "Vacina contra a gripe pandémica A(H1N1)pdm09, inactivada"@pt ;
@@ -31599,35 +31622,6 @@ nuva:VAL303 a owl:Class ;
     skos:altLabel "COVID-mRNA-S-ORI"@en ;
     skos:notation "VAL303"^^xsd:string .
 
-nuva:VAC0915 a owl:Class ;
-    rdfs:label "Hepatitis-B-Impfstoff, monovalent, Dosierung für Erwachsene, nicht spezifiziert"@de,
-        "Εμβόλιο ηπατίτιδας Β, μονοσθενές, δόση για ενήλικες, απροσδιόριστο"@el,
-        "Hepatitis B vaccine, monovalent, adult dose, unspecified"@en,
-        "Vaccin Hépatite B, monovalent, dose adulte, sans précision"@fr,
-        "B hepatīta vakcīna, monovalenta, pieaugušo deva, nav precizēta"@lv,
-        "Szczepionka przeciwko wirusowemu zapaleniu wątroby typu B, monowalentna, dawka dla dorosłych, nieokreślona"@pl,
-        "Vacina contra hepatite B, monovalente, dosagem para adultos, não especificada"@pt ;
-    nuvs:containsValence nuva:VAL115 ;
-    dcterms:created "2022-05-02"^^xsd:date ;
-    dcterms:modified "2025-05-06"^^xsd:date ;
-    rdfs:comment "Rekombinanter Hepatitis-B-Impfstoff, monovalent, Erwachsenendosis"@de,
-        "Ανασυνδυασμένο εμβόλιο ηπατίτιδας Β, μονοδύναμο, δόση για ενήλικες"@el,
-        "Recombinant hepatitis B vaccine, monovalent, adult dose"@en,
-        "Vaccin recombinant contre l'hépatite B, monovalent, dose adulte"@fr,
-        "Hepatīta B rekombinantā vakcīna, monovalenta, pieaugušo deva"@lv,
-        "Rekombinowana szczepionka przeciw wirusowemu zapaleniu wątroby typu B, monowalentna, dawka dla dorosłych"@pl,
-        "Vacina recombinante contra a hepatite B, monovalente, dose para adultos"@pt ;
-    rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "0915"^^nuva:NUVACode,
-        "0743"^^<http://ivci.org/NUVA/﻿CPT>,
-        "0746"^^<http://ivci.org/NUVA/﻿CPT>,
-        "771000087109"^^<http://ivci.org/NUVA/﻿CVC>,
-        "3"^^<http://ivci.org/NUVA/﻿CVX>,
-        "89"^^<http://ivci.org/NUVA/﻿CVX>,
-        "1001002000103"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
-        "296677004"^^<http://ivci.org/NUVA/﻿SNOMED-CT>,
-        "VAC0915"^^xsd:string .
-
 nuva:VAC0938 a owl:Class ;
     rdfs:label "Quadrivalenter Grippeimpfstoff, nicht näher bezeichnet"@de,
         "Τετραδύναμο εμβόλιο γρίπης, απροσδιόριστο"@el,
@@ -31717,33 +31711,34 @@ nuva:VAC0084 a owl:Class ;
         "162629006"^^<http://ivci.org/NUVA/﻿SNOMED-CT>,
         "VAC0084"^^xsd:string .
 
-nuva:VAC0914 a owl:Class ;
-    rdfs:label "Hepatitis-B-Impfstoff, monovalent, pädiatrische Dosis, nicht spezifiziert"@de,
-        "Εμβόλιο ηπατίτιδας Β, μονοσθενές, παιδιατρική δόση, απροσδιόριστο"@el,
-        "Hepatitis B vaccine, monovalent, pediatric dose, unspecified"@en,
-        "Vaccin Hépatite B, monovalent, dose pédiatrique, sans précision"@fr,
-        "B hepatīta vakcīna, monovalenta, pediatriskā deva, neprecizēta"@lv,
-        "Szczepionka przeciwko wirusowemu zapaleniu wątroby typu B, monowalentna, dawka pediatryczna, nieokreślona"@pl,
-        "Vacina contra hepatite B, monovalente, dose pediátrica, não especificada"@pt ;
-    nuvs:containsValence nuva:VAL114 ;
+nuva:VAC0915 a owl:Class ;
+    rdfs:label "Hepatitis-B-Impfstoff, monovalent, Dosierung für Erwachsene, nicht spezifiziert"@de,
+        "Εμβόλιο ηπατίτιδας Β, μονοσθενές, δόση για ενήλικες, απροσδιόριστο"@el,
+        "Hepatitis B vaccine, monovalent, adult dose, unspecified"@en,
+        "Vaccin Hépatite B, monovalent, dose adulte, sans précision"@fr,
+        "B hepatīta vakcīna, monovalenta, pieaugušo deva, nav precizēta"@lv,
+        "Szczepionka przeciwko wirusowemu zapaleniu wątroby typu B, monowalentna, dawka dla dorosłych, nieokreślona"@pl,
+        "Vacina contra hepatite B, monovalente, dosagem para adultos, não especificada"@pt ;
+    nuvs:containsValence nuva:VAL115 ;
     dcterms:created "2022-05-02"^^xsd:date ;
-    dcterms:modified "2024-04-19"^^xsd:date ;
-    rdfs:comment "Rekombinanter Hepatitis-B-Impfstoff, monovalent, pädiatrische Dosis"@de,
-        "Ανασυνδυασμένο εμβόλιο ηπατίτιδας Β, μονοδύναμο, παιδιατρική δόση"@el,
-        "Hepatitis B recombinant vaccine, monovalent, pediatric dose"@en,
-        "Vaccin recombinant contre l'hépatite B, monovalent, dose pédiatrique"@fr,
-        "Hepatīta B rekombinantā vakcīna, monovalenta, pediatriskā deva"@lv,
-        "Rekombinowana szczepionka przeciw wirusowemu zapaleniu wątroby typu B, monowalentna, dawka pediatryczna"@pl,
-        "Vacina recombinante contra a hepatite B, monovalente, dose pediátrica"@pt ;
+    dcterms:modified "2025-05-06"^^xsd:date ;
+    rdfs:comment "Rekombinanter Hepatitis-B-Impfstoff, monovalent, Erwachsenendosis"@de,
+        "Ανασυνδυασμένο εμβόλιο ηπατίτιδας Β, μονοδύναμο, δόση για ενήλικες"@el,
+        "Recombinant hepatitis B vaccine, monovalent, adult dose"@en,
+        "Vaccin recombinant contre l'hépatite B, monovalent, dose adulte"@fr,
+        "Hepatīta B rekombinantā vakcīna, monovalenta, pieaugušo deva"@lv,
+        "Rekombinowana szczepionka przeciw wirusowemu zapaleniu wątroby typu B, monowalentna, dawka dla dorosłych"@pl,
+        "Vacina recombinante contra a hepatite B, monovalente, dose para adultos"@pt ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "0914"^^nuva:NUVACode,
-        "0744"^^<http://ivci.org/NUVA/﻿CPT>,
-        "831000087108"^^<http://ivci.org/NUVA/﻿CVC>,
-        "2"^^<http://ivci.org/NUVA/﻿CVX>,
-        "8"^^<http://ivci.org/NUVA/﻿CVX>,
-        "0991002000104"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
-        "296864005"^^<http://ivci.org/NUVA/﻿SNOMED-CT>,
-        "VAC0914"^^xsd:string .
+    skos:notation "0915"^^nuva:NUVACode,
+        "0743"^^<http://ivci.org/NUVA/﻿CPT>,
+        "0746"^^<http://ivci.org/NUVA/﻿CPT>,
+        "771000087109"^^<http://ivci.org/NUVA/﻿CVC>,
+        "3"^^<http://ivci.org/NUVA/﻿CVX>,
+        "89"^^<http://ivci.org/NUVA/﻿CVX>,
+        "1001002000103"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
+        "296677004"^^<http://ivci.org/NUVA/﻿SNOMED-CT>,
+        "VAC0915"^^xsd:string .
 
 nuva:VAC1113 a owl:Class ;
     rdfs:label "COVID-19 protein subunit vaccine, recombinant spike protein, unspecified"@en,
@@ -31802,6 +31797,34 @@ nuva:VAC0270 a owl:Class ;
         "891002000104"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
         "71740006"^^<http://ivci.org/NUVA/﻿SNOMED-CT>,
         "VAC0270"^^xsd:string .
+
+nuva:VAC0914 a owl:Class ;
+    rdfs:label "Hepatitis-B-Impfstoff, monovalent, pädiatrische Dosis, nicht spezifiziert"@de,
+        "Εμβόλιο ηπατίτιδας Β, μονοσθενές, παιδιατρική δόση, απροσδιόριστο"@el,
+        "Hepatitis B vaccine, monovalent, pediatric dose, unspecified"@en,
+        "Vaccin Hépatite B, monovalent, dose pédiatrique, sans précision"@fr,
+        "B hepatīta vakcīna, monovalenta, pediatriskā deva, neprecizēta"@lv,
+        "Szczepionka przeciwko wirusowemu zapaleniu wątroby typu B, monowalentna, dawka pediatryczna, nieokreślona"@pl,
+        "Vacina contra hepatite B, monovalente, dose pediátrica, não especificada"@pt ;
+    nuvs:containsValence nuva:VAL114 ;
+    dcterms:created "2022-05-02"^^xsd:date ;
+    dcterms:modified "2024-04-19"^^xsd:date ;
+    rdfs:comment "Rekombinanter Hepatitis-B-Impfstoff, monovalent, pädiatrische Dosis"@de,
+        "Ανασυνδυασμένο εμβόλιο ηπατίτιδας Β, μονοδύναμο, παιδιατρική δόση"@el,
+        "Hepatitis B recombinant vaccine, monovalent, pediatric dose"@en,
+        "Vaccin recombinant contre l'hépatite B, monovalent, dose pédiatrique"@fr,
+        "Hepatīta B rekombinantā vakcīna, monovalenta, pediatriskā deva"@lv,
+        "Rekombinowana szczepionka przeciw wirusowemu zapaleniu wątroby typu B, monowalentna, dawka pediatryczna"@pl,
+        "Vacina recombinante contra a hepatite B, monovalente, dose pediátrica"@pt ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "0914"^^nuva:NUVACode,
+        "0744"^^<http://ivci.org/NUVA/﻿CPT>,
+        "831000087108"^^<http://ivci.org/NUVA/﻿CVC>,
+        "2"^^<http://ivci.org/NUVA/﻿CVX>,
+        "8"^^<http://ivci.org/NUVA/﻿CVX>,
+        "0991002000104"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
+        "296864005"^^<http://ivci.org/NUVA/﻿SNOMED-CT>,
+        "VAC0914"^^xsd:string .
 
 nuva:VAC0920 a owl:Class ;
     rdfs:label "Diphtherie-Tetanus-Td-Impfstoff, nicht näher bezeichnet"@de,

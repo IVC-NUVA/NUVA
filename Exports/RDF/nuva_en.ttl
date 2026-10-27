@@ -485,7 +485,7 @@
 
 <http://ivci.org/NUVA/VAC0242> rdfs:comment "Recombinant hepatitis B vaccine, adult dose"@en .
 
-<http://ivci.org/NUVA/VAC0243> rdfs:comment "Hepatitis B vaccine (Paediatric dose 10 µg/mL and adult dose 20 µg/mL)"@en .
+<http://ivci.org/NUVA/VAC0243> rdfs:comment "Recombinant hepatitis B vaccine, adult dose"@en .
 
 <http://ivci.org/NUVA/VAC0244> rdfs:comment "Recombinant hepatitis B vaccine with 10 micrograms of HBs antigen for use from the age of 11 years"@en .
 
@@ -693,7 +693,7 @@
 
 <http://ivci.org/NUVA/VAC0355> rdfs:comment "Whole virion inactivated rabies vaccine, Flury LEP strain, purified chick embryo cell vaccine (PCECV), inactivated with ß-propiolactone"@en .
 
-<http://ivci.org/NUVA/VAC0356> rdfs:comment "Hepatitis B vaccine (Paediatric and adult dosage at 10 µg and dosage for dialysis patients at 40 µg)"@en .
+<http://ivci.org/NUVA/VAC0356> rdfs:comment "Hepatitis B vaccine, pediatric dose"@en .
 
 <http://ivci.org/NUVA/VAC0357> rdfs:comment "Immunoglobulin anti-RSV"@en .
 
@@ -3146,6 +3146,10 @@ Other names: TAK-003; DENVAX"""@en .
 <http://ivci.org/NUVA/VAC1557> rdfs:label "Influenza vaccine, trivalent, inactivated, split or subunit, unspecified"@en .
 
 <http://ivci.org/NUVA/VAC1559> rdfs:comment "Cholera vaccine, oral, bivalent consisting of killed whole cells of Vibrio cholerae O1 (classical and El Tor) and O139"@en .
+
+<http://ivci.org/NUVA/VAC1560> rdfs:comment "Recombinant hepatitis B vaccine, adult dose"@en .
+
+<http://ivci.org/NUVA/VAC1561> rdfs:comment "Recombinant hepatitis B vaccine, paediatric dose"@en .
 
 <http://ivci.org/NUVA/VAL000> rdfs:label "Parent for deprecated valences"@en .
 

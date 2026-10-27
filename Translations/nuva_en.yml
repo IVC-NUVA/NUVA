@@ -364,8 +364,7 @@
     VAC0241C: Haemophilus influenzae type b vaccine, capsular polysaccharide (polyribosylribitol
       phosphate, PRP) conjugated to tetanus toxoid
     VAC0242C: Recombinant hepatitis B vaccine, adult dose
-    VAC0243C: "Hepatitis B vaccine (Paediatric dose 10 \xB5g/mL and adult dose 20\
-      \ \xB5g/mL)"
+    VAC0243C: Recombinant hepatitis B vaccine, adult dose
     VAC0244C: Recombinant hepatitis B vaccine with 10 micrograms of HBs antigen for
       use from the age of 11 years
     VAC0245C: Plasma hepatitis B vaccine, used in the USA from 1981 to 1990
@@ -523,8 +522,7 @@
     VAC0354C: Live attenuated rubella vaccine
     VAC0355C: "Whole virion inactivated rabies vaccine, Flury LEP strain, purified\
       \ chick embryo cell vaccine (PCECV), inactivated with \xDF-propiolactone"
-    VAC0356C: "Hepatitis B vaccine (Paediatric and adult dosage at 10 \xB5g and dosage\
-      \ for dialysis patients at 40 \xB5g)"
+    VAC0356C: Hepatitis B vaccine, pediatric dose
     VAC0357C: Immunoglobulin anti-RSV
     VAC0358C: Rabies immunoglobulin, human origin
     VAC0358L: Rabies immunoglobulin human origin, unspecified
@@ -2602,6 +2600,8 @@
     VAC1557L: Influenza vaccine, trivalent, inactivated, split or subunit, unspecified
     VAC1559C: Cholera vaccine, oral, bivalent consisting of killed whole cells of
       Vibrio cholerae O1 (classical and El Tor) and O139
+    VAC1560C: Recombinant hepatitis B vaccine, adult dose
+    VAC1561C: Recombinant hepatitis B vaccine, paediatric dose
   valence:
     VAL000L: Parent for deprecated valences
     VAL001L: Influenza valence, trivalent, live attenuated, standard dose

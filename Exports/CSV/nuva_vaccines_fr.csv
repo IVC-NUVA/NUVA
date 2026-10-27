@@ -1,5 +1,5 @@
 ﻿NUVA,label,comment,type,instanceOf,valences
-VAC0000,#Orphans,Abstract for orphan vaccines,abstract,,
+VAC0000,#Orphelins,Classe abstraite pour les vaccins orphelins,abstract,,
 VAC0001,ACT-HIB,Vaccin conjugué anti-Hemophilus influenzae de type b composé du PRP (polyribosylribitol phosphate) conjugué à l'anatoxine tétanique,real,VAC0345,
 VAC0002,AGRIPPAL,"Vaccin contre la grippe saisonnière inactivé trivalent, cultivé sur oeuf, à antigène de surface",real,VAC0925,
 VAC0003,AVAXIM 160 U,"Vaccin entier inactivé contre l'hépatite A, dose adulte",real,VAC0910,
@@ -15,17 +15,17 @@ VAC0012,IMMUGRIP,"Vaccin contre la grippe saisonnière inactivé trivalent, à v
 VAC0013,IMOVAX POLIO,"Vaccin poliomyélitique (entier inactivé, trivalent)",real,VAC0270,
 VAC0014,INFANRIX HEXA,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard, 3 composants), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique), poliomyélitique (entier inactivé, trivalent) et de l’hépatite B (recombinant), adsorbé",real,VAC1121,
 VAC0015,INFANRIXQUINTA,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard, 3 composants), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique) et poliomyélitique (entier inactivé, trivalent), adsorbé",real,VAC1115,
-VAC0016,"INFLUVAC 0,5 mL","Vaccin contre la grippe saisonnière inactivé trivalent, à antigène de surface",real,VAC0925,
+VAC0016,"INFLUVAC 0,5 mL","Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à antigène de surface",real,VAC0925,
 VAC0017,M-M-RVAXPRO,"Vaccin vivant atténué contre la rougeole, les oreillons et la rubéole",real,VAC0130,
 VAC0018,MENCEVAX,"Vaccin polyosidique non conjugué contre les méningocoques des sérogroupes A, C, W et Y",real,VAC0152,
 VAC0019,MENINGITEC,Vaccin méningococcique polyosidique conjugué contre le sérogroupe C,real,VAC1211,
 VAC0020,MENJUGATEKIT 10 µg,Vaccin méningococcique polyosidique conjugué contre le sérogroupe C,real,VAC1211,
-VAC0021,MUTAGRIP,"Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté",real,VAC0925,
+VAC0021,MUTAGRIP,"Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté",real,VAC0925,
 VAC0022,NEISVAC,Vaccin méningococcique polyosidique conjugué à l'anatoxine tétanique contre le sérogroupe C,real,VAC1184,
 VAC0023,PENTAVAC,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard, 5 composants), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique) et poliomyélitique (entier inactivé, trivalent), adsorbé",real,VAC1115,
 VAC0024,PNEUMO 23,"Vaccin pneumococcique polyosidique non conjugué, 23-valent, sérotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F et 33F",real,VAC0339,
 VAC0025,PREVENAR,"Vaccin pneumococcique polyosidique conjugué, 7-valent, adsorbé, sérotypes 4, 6B, 9V, 14, 18C, 19F et 23F",real,VAC0324,
-VAC0026,PREVIGRIP,"Vaccin contre la grippe saisonnière inactivé trivalent, à antigène de surface",real,VAC0925,
+VAC0026,PREVIGRIP,"Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à antigène de surface",real,VAC0925,
 VAC0027,R.O.R. VAX,"Vaccin vivant atténué contre la rougeole, les oreillons et la rubéole",real,VAC0130,
 VAC0028,RABIPUR,"Vaccin rabique entier inactivé, cultivé sur cellules d’embryon de poulet (PCEC), inactivation par la ß-propiolactone",real,VAC0942,
 VAC0029,REPEVAX,"Vaccin diphtérique (anatoxine, dose réduite), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, 5 composants, dose réduite) et poliomyélitique (entier inactivé, trivalent), adsorbé",real,VAC0585,
@@ -35,7 +35,7 @@ VAC0032,ROUVAX,Vaccin vivant atténué contre la rougeole,real,VAC0114,
 VAC0033,RUDIVAX,Vaccin vivant atténué contre la rubéole,real,VAC0113,
 VAC0034,SPIROLEPT,Vaccin entier inactivé contre la leptospirose,real,VAC0148,
 VAC0035,STAMARIL,Vaccin vivant atténué contre la fièvre jaune,real,VAC0111,
-VAC0036,TETAGRIP,"Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté et tétanique (anatoxine)",real,VAC1130,
+VAC0036,TETAGRIP,"Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté et tétanique (anatoxine)",real,VAC1130,
 VAC0037,TETRAVAC-ACELLULAIRE,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard) et poliomyélitique (entier inactivé, trivalent)",real,VAC0551,
 VAC0038,"TICOVAC 0,5 mL","Vaccin entier inactivé contre l'encéphalite à tiques, souche Neudörfl, dose adulte",real,VAC1038,
 VAC0039,"TICOVAC 0,25 mL","Vaccin entier inactivé contre l'encéphalite à tiques, souche Neudörfl, dose pédiatrique",real,VAC1037,
@@ -46,7 +46,7 @@ VAC0043,BOOSTRIXTETRA,"Vaccin diphtérique (anatoxine, dose réduite), tétaniqu
 VAC0044,CERVARIX,"Vaccin contre les papillomavirus humains à base de VLP (Virus Like Particles ou pseudo particules virales), bivalent (types 16 et 18), recombinant, adsorbé",real,VAC0858,
 VAC0045,ENGERIX B 10 µg,"Vaccin recombinant contre l'hépatite B, dose pédiatrique",real,VAC0914,
 VAC0046,ENGERIX B 20 µg,"Vaccin recombinant contre l'hépatite B, dose adulte",real,VAC0915,
-VAC0047,FLUARIX,"Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté",real,VAC0925,
+VAC0047,FLUARIX,"Vaccin contre la grippe saisonnière inactivé trivalent, obtenu sur culture d’œufs, à virion fragmenté",real,VAC0925,
 VAC0048,GENHEVAC B PASTEUR,"Vaccin recombinant contre l'hépatite B, 20 µg d'antigène HBs, dose pédiatrique et adulte",real,VAC0915,
 VAC0049,HAVRIX 1440 U/1mL,"Vaccin entier inactivé contre l'hépatite A, dose adulte",real,VAC0910,
 VAC0050,"HAVRIX 720 U/0,5 mL","Vaccin entier inactivé contre l'hépatite A, dose pédiatrique",real,VAC0911,
@@ -60,7 +60,7 @@ VAC0058,TWINRIX 10 µg,"Vaccin combiné contre les hépatites A et B, dose pédi
 VAC0059,TYPHERIX,Vaccin typhoïdique polyosidique non conjugué (antigène capsulaire Vi),real,VAC0713,
 VAC0060,VARILRIX,Vaccin vivant atténué contre la varicelle,real,VAC0159,
 VAC0061,VARIVAX,Vaccin vivant atténué contre la varicelle,real,VAC0159,
-VAC0062,VAXIGRIP,"Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté",real,VAC0925,
+VAC0062,VAXIGRIP,"Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté",real,VAC0925,
 VAC0063,TETRACOQ,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé) et poliomyélitique (entier inactivé, trivalent)",real,VAC1151,
 VAC0064,PENTACOQ,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique) et poliomyélitique (entier inactivé, trivalent), adsorbé",real,VAC1126,
 VAC0066,DTCP PASTEUR,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard) et poliomyélitique (entier inactivé, trivalent)",real,VAC0551,
@@ -91,18 +91,18 @@ VAC0092,VACCIN CHOLERIQUE PASTEUR,"Vaccin cholérique entier inactivé, injectab
 VAC0093,VACCIN DT TAB PASTEUR,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), typhoïdique (entier inactivé) et paratyphoïdique A et B (entier inactivé)",real,VAC1225,
 VAC0094,VACCIN SABIN POLIO ORAL,"Vaccin poliomyélitique (vivant atténué, trivalent) contre les poliovirus 1, 2 et 3, par voie orale",real,VAC0320,
 VAC0095,VACCIN TAB PASTEUR,"Vaccin typhoïdique et paratyphoïdique A et B, entier inactivé",real,VAC0818,
-VAC0096,VACCIN GRIPPAL RONCHESE (VGR),"Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté",real,VAC0925,
+VAC0096,VACCIN GRIPPAL RONCHESE (VGR),"Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté",real,VAC0925,
 VAC0097,VACCIN LEPTOSPIRES ICTEROHEMORRAGIAE PASTEUR,Vaccin entier inactivé contre la leptospirose,real,VAC0148,
 VAC0098,HEXAVAC,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique), poliomyélitique (entier inactivé, trivalent) et de l’hépatite B (recombinant), adsorbé",real,VAC1121,
 VAC0099,MENINVACT,Vaccin méningococcique polyosidique conjugué contre le sérogroupe C,real,VAC1211,
 VAC0101,"Vaccin Hépatite B, recombinant, sans précision","Vaccin recombinant contre le virus de l'hépatite B, dose non précisée",abstract,,rHBsAg
 VAC0102,"Vaccin Hépatite A inactivé, sans précision",Vaccin entier inactivé contre l'hépatite A,abstract,,HepA-I
 VAC0103,MENACTRA,"Vaccin méningococcique polyosidique conjugué quadrivalent contre les sérogroupes A, C, W et Y (conjugué à l'anatoxine diphtérique)",real,VAC1153,
-VAC0104,HUMENZA,Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé,real,VAC0147,
-VAC0105,PANENZA,Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé,real,VAC0147,
-VAC0106,Q-Pan H1N1,Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé,real,VAC0147,
-VAC0107,CELVAPAN,"Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09, à virion entier inactivé",real,VAC0147,
-VAC0108,PANDEMRIX,Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé,real,VAC0147,
+VAC0104,HUMENZA,"Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09, à virion entier inactivé, obtenu par culture d’œufs",real,VAC0147,
+VAC0105,PANENZA,"Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs",real,VAC0147,
+VAC0106,Q-Pan H1N1,"Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs",real,VAC0147,
+VAC0107,CELVAPAN,"Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09, à virion entier inactivé, obtenu par culture d’œufs",real,VAC0147,
+VAC0108,PANDEMRIX,"Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs",real,VAC0147,
 VAC0109,FOCETRIA (unidose),"Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, cultivé sur oeuf, à antigènes de surface, avec adjuvant",real,VAC0147,
 VAC0110,"Vaccin Grippe, sans précision",Vaccin contre la grippe saisonnière,abstract,,INF
 VAC0111,"Vaccin Fièvre jaune, sans précision",Vaccin vivant atténué contre la fièvre jaune,abstract,,YF
@@ -115,8 +115,8 @@ VAC0120,VACCIN VARICELLE MERIEUX,Vaccin vivant atténué contre la varicelle,rea
 VAC0121,PRIORIX-TETRA,"Vaccin vivant atténué contre la rougeole, la rubéole, les oreillons et la varicelle",real,VAC0827,
 VAC0123,PREVENAR 13,"Vaccin pneumococcique polyosidique conjugué, 13-valent, adsorbé, sérotypes 1, 3, 4 , 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F et 23F",real,VAC0997,
 VAC0124,FOCETRIA (multidose),"Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, cultivé sur oeuf, à antigène de surface, avec adjuvant",real,VAC0147,
-VAC0125,AREPANRIX,"Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, virion fragmenté",real,VAC0147,
-VAC0126,HEVAC B,Vaccin plasmatique contre l'hépatite B (premier vaccin français),real,VAC1125,
+VAC0125,AREPANRIX,"Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs, virion fragmenté",real,VAC0147,
+VAC0126,HEVAC B,Vaccin plasmatique contre l'hépatite B (premier vaccin français),real,VAC1155,
 VAC0127,HB VAX DNA 5 µg,"Vaccin recombinant contre l'hépatite B, dose pédiatrique",real,VAC1227,
 VAC0128,HB VAX DNA 10 µg,"Vaccin recombinant contre l'hépatite B, dosé à 10 microgrammes d'antigène HBs (bien que dosé à 10 µg, ce vaccin est indiqué à partir de l'âge de 16 ans)",real,VAC0914,
 VAC0129,HB VAX DNA 40 µg,"Vaccin recombinant contre l'hépatite B, dose pour patient dyalisé",real,VAC0916,
@@ -130,13 +130,13 @@ VAC0136,"Vaccin DTCe - Diphtérie-Tétanos-Coqueluche, sans précision","Vaccin 
 VAC0137,"Vaccin Diphtérie et Tétanos, sans précision","Vaccin pédiatrique diphtérique (anatoxine, dose standard) et tétanique (anatoxine)",abstract,,T D
 VAC0138,"Vaccin DiphTPCoq - Diphtérie-Tétanos-Coqueluche-Polio, sans précision","Vaccin diphtérique (anatoxine, dose non précisée), tétanique (anatoxine), coquelucheux (acellulaire ou entier inactivé, dose non précisée) et poliomyélitique (entier inactivé, trivalent)",abstract,,Per IPV T D-d
 VAC0139,PENT-HIBEST,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique) et poliomyélitique (entier inactivé, trivalent), adsorbé",real,VAC1126,
-VAC0140,INTANZA,"Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté, par voie intradermique",real,VAC0925,
+VAC0140,INTANZA,"Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté, par voie intradermique",real,VAC0925,
 VAC0141,MENVEO,"Vaccin méningococcique polyosidique conjugué quadrivalent contre les sérogroupes A, C, W et Y (conjugué à la protéine CRM 197)",real,VAC1133,
 VAC0143,"Vaccin Haemophilus influenzae B, sans précision","Vaccin anti-Haemophilus influenzae type b (conjugué, sans précision)",abstract,,Hib-C
 VAC0144,"Vaccin Choléra, sans précision","Cholera vaccine, unspecified",abstract,,CHOL
 VAC0145,"Vaccin Encéphalite à tiques, sans précision","Vaccin entier inactivé contre l'encéphalite à tiques, souche non précisée",abstract,,TBE
 VAC0146,"Vaccin Encéphalite Japonaise vivant atténué 14-14-2, sans précision","Vaccin vivant atténué contre l'encéphalite japonaise, souche 14-14-2",abstract,,JE-LA-14-14-2
-VAC0147,"Vaccin Grippe A(H1N1)2009, sans précision",Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé,abstract,,INF-Epdm09
+VAC0147,"Vaccin Grippe A(H1N1)2009, sans précision","Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs",abstract,,INF-Epdm09
 VAC0148,"Vaccin Leptospirose, sans précision",Vaccin entier inactivé contre la leptospirose,abstract,,Lepto-wI
 VAC0149,"Vaccin Méningocoque B:14:P1.7,16, sans précision","Vaccin contre les méningocoques du sérogroupe B (à protéines de vésicules de membrane externe B:14:P1.7,16)",abstract,,MenB-OMP
 VAC0150,"Vaccin Méningocoque C conjugué, sans précision",Vaccin polyosidique conjugué contre les méningocoques du sérogroupe C,abstract,,MCV-C
@@ -182,10 +182,10 @@ VAC0191,ARILVAX,Vaccin vivant atténué contre la fièvre jaune,real,VAC0111,
 VAC0192,ATTENUVAX,Vaccin vivant atténué contre la rougeole,real,VAC0114,
 VAC0193,"AVAC-1, AVA","Vaccin acellulaire contre le charbon absorbé, avec adjuvant",real,VAC1279,
 VAC0194,B-CAPSA,"Vaccin anti-Haemophilus influenzae type b, polyosidique non conjugué",real,VAC1148,
-VAC0195,BEGRIVAC,"Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté",real,VAC0925,
+VAC0195,BEGRIVAC,"Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté",real,VAC0925,
 VAC0196,BIAVAX,Vaccin vivant atténué contre la rubéole et les oreillons,real,VAC0829,
 VAC0197,BIAVAX II,Vaccin vivant atténué contre la rubéole et les oreillons,real,VAC0829,
-VAC0198,BIKEN-HB,Vaccin recombinant contre l'hépatite B,real,VAC1125,
+VAC0198,BIKEN-HB,Vaccin recombinant contre l'hépatite B,real,VAC0101,
 VAC0199,BIMMUGEN,"Vaccin recombinant contre l'hépatite B, dosé à 10 microgrammes d'antigène HBs pour 0,5 mL (il existe une formulation de 0,25 mL)",real,VAC0914,
 VAC0200,BIOTHRAX,"Vaccin acellulaire contre le charbon absorbé, avec adjuvant",real,VAC1279,
 VAC0201,BIVIRATEN BERNA,Vaccin vivant atténué contre la rougeole et les oreillons,real,VAC0623,
@@ -214,19 +214,19 @@ VAC0225,EIPV,"Vaccin poliomyélitique (entier inactivé, trivalent)",real,VAC027
 VAC0226,"Diptheria, Tetanus and Acellular Pertussis Combined Walvax vaccine","Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine) et coquelucheux (acellulaire multicomposé, dose standard)",real,VAC0602,
 VAC0227,EPAXAL,"Vaccin entier inactivé contre l'hépatite A, virosomal, dose pédiatrique ou adulte",real,VAC0824,
 VAC0228,ERVEVAX RA 27/3,Vaccin vivant atténué contre la rubéole,real,VAC0113,
-VAC0229,FLU SHIELD,Vaccin contre la grippe saisonnière inactivé trivalent,real,VAC0925,
+VAC0229,FLU SHIELD,"Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs",real,VAC0925,
 VAC0230,FLUAD,"Vaccin contre la grippe saisonnière inactivé trivalent, à antigène de surface, avec adjuvant",real,VAC0925,
 VAC0231,FLUKOVAX,Vaccin contre la grippe saisonnière inactivé trivalent,real,VAC0925,
-VAC0232,FLULAVAL,Vaccin contre la grippe saisonnière inactivé trivalent,real,VAC0925,
+VAC0232,FLULAVAL,"Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs",real,VAC0925,
 VAC0233,FLUMIST,"Vaccin contre la grippe saisonnière trivalent, vivant atténué, par voie nasale",real,VAC1123,
-VAC0234,FLUOGEN,Vaccin contre la grippe saisonnière à virus entier inactivé,real,VAC0820,
+VAC0234,FLUOGEN,"Vaccin contre la grippe saisonnière à virus entier inactivé, obtenu par culture d’œufs",real,VAC0820,
 VAC0235,FLUVIRIN,Vaccin contre la grippe saisonnière inactivé trivalent,real,VAC0925,
-VAC0236,FLUZONE HIGH-DOSE,"Vaccin contre la grippe saisonnière inactivé trivalent, haute dose",real,VAC1171,
+VAC0236,FLUZONE HIGH-DOSE,"Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, haute dose",real,VAC1171,
 VAC0238,FUNED-CEME,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine) et coquelucheux (entier inactivé)",real,VAC0136,
 VAC0240,GUNEVAX,Vaccin vivant atténué contre la rubéole,real,VAC0113,
 VAC0241,HAEMOPHILUS INFLUENZAE B CONJUGATE VACCINE - SERUM INSTITUTE OF INDIA,"Vaccin anti-Haemophilus influenzae type b, polyoside capsulaire (phosphate de polyribosylribitol, PRP) conjugué à l'anatoxine tétanique",real,VAC0345,
 VAC0242,HBY,"Vaccin recombinant contre l'hépatite B, dose adulte",real,VAC0915,
-VAC0243,HEPA-B INJECTION,Vaccin contre l'hépatite B (Dosage pédiatrique à 10 µg/mL et dosage adulte à 20 µg/mL),real,VAC1125,
+VAC0243,HEPA-B INJECTION ADULT,Vaccin contre l'hépatite B (Dosage pédiatrique à 10 µg/mL et dosage adulte à 20 µg/mL),real,VAC0915,
 VAC0244,HEPRECOMB,"Vaccin recombinant contre l'hépatite B, dosé à 10 microgrammes d'antigène HBs, utilisable dès l'âge de 11 ans",real,VAC0914,
 VAC0245,HEPTAVAX B,"Vaccin plasmatique contre l'hépatite B, utilisé aux Etats-Unis de 1981 à 1990",real,VAC1155,
 VAC0246,HIBERNA PRODUCTSIX,Vaccin tétanique (anatoxine) et contre la grippe saisonnière (trivalent),real,VAC1130,
@@ -247,12 +247,12 @@ VAC0261,IMOVAX Rabies I.M.,"Vaccin rabique entier inactivé, par voie intramuscu
 VAC0262,IMOVAX RUBEOLA,Vaccin vivant atténué contre la rubéole,real,VAC0113,
 VAC0263,IMOVAX SARAMPION,Vaccin vivant atténué contre la rougeole,real,VAC0114,
 VAC0264,INFANRIX,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine) et coquelucheux (acellulaire multicomposé, dose standard)",real,VAC0602,
-VAC0265,INFLU-KOVAX,Vaccin contre la grippe saisonnière inactivé trivalent,real,VAC0925,
-VAC0266,INFLUENZA HA VACCINE KOVAX,Vaccin contre la grippe saisonnière inactivé trivalent,real,VAC0925,
+VAC0265,INFLU-KOVAX,"Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs",real,VAC0925,
+VAC0266,INFLUENZA HA VACCINE KOVAX,"Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs",real,VAC0925,
 VAC0267,IPAD TP,"Vaccin tétanique (anatoxine) et poliomyélitique (entier inactivé, trivalent)",real,VAC0380,
 VAC0268,IPOL,"Vaccin poliomyélitique (entier inactivé, trivalent)",real,VAC0270,
 VAC0270,"Vaccin Poliomyélite inactivé, sans précision","Vaccin poliomyélitique (entier inactivé, trivalent)",abstract,,IPV
-VAC0271,ISTIVAC,Vaccin contre la grippe saisonnière inactivé trivalent,real,VAC0925,
+VAC0271,ISTIVAC,"Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs",real,VAC0925,
 VAC0272,KAKSOISROKOTE DUBBELVACCIN,"Vaccin pédiatrique diphtérique (anatoxine, dose standard) et tétanique (anatoxine)",real,VAC0137,
 VAC0273,KIKHOSTE-VAKSINE,Vaccin coquelucheux (entier inactivé),real,VAC0163,
 VAC0274,LANCY VAXINA,"Vaccin contre la variole de première génération, virus vivant de la vaccine",real,VAC1122,
@@ -329,7 +329,7 @@ VAC0352,R-HB VACCINE,"Vaccin recombinant contre l'hépatite B, dose adulte",real
 VAC0353,R-VAC,Vaccin vivant atténué contre la rubéole,real,VAC0113,
 VAC0354,RA27/3,Vaccin vivant atténué contre la rubéole,real,VAC0113,
 VAC0355,RABAVERT,"Vaccin rabique entier inactivé, cultivé sur cellules d’embryon de poulet (PCEC), inactivation par la ß-propiolactone",real,VAC0942,
-VAC0356,RECOMBIVAX HB,"Vaccin contre l'hépatite B , dosage pédiatrique à 10 µg",real,VAC1125,
+VAC0356,RECOMBIVAX HB PEDIATRIC,"Vaccin contre l'hépatite B , dosage pédiatrique à 10 µg",real,VAC1227,
 VAC0357,"RESPIGAM, RSV-IVIG",Immunoglobuline contre le virus respiratoire syncytial (VRS),real,VAC1223,
 VAC0358,"Immunoglobuline Rage origine humaine, sans précision","Immunoglobuline anti-rabique, origine humaine",abstract,,RIG-hu
 VAC0359,RIMEVAX,Vaccin vivant atténué contre la rougeole,real,VAC0114,
@@ -347,7 +347,7 @@ VAC0370,RVA RABIES VACCINE ABSORBED BIOPORT,"Vaccin rabique entier inactivé, ad
 VAC0371,SABIN,"Vaccin poliomyélitique (vivant atténué, trivalent) contre les poliovirus 1, 2 et 3, par voie orale",real,VAC0320,
 VAC0372,SAHIA,"Vaccin poliomyélitique (vivant atténué, trivalent) contre les poliovirus 1, 2 et 3, par voie orale",real,VAC0320,
 VAC0373,SALK,"Vaccin poliomyélitique (entier inactivé, trivalent)",real,VAC0270,
-VAC0374,SANDOVAC,Vaccin contre la grippe saisonnière inactivé trivalent,real,VAC0925,
+VAC0374,SANDOVAC,"Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs",real,VAC0925,
 VAC0375,SEROBACTERIN,"Vaccin cholérique (entier inactivé) et typhoïdique (non conjugué, antigène polyosidique Vi purifié), injectable",real,VAC1179,
 VAC0376,SHANCOL,"Vaccin cholérique entier inactivé, par voie orale",real,VAC1257,
 VAC0377,TRIPLE ANTIGEN SII,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine) et coquelucheux (entier inactivé)",real,VAC0136,
@@ -526,7 +526,7 @@ VAC0567,SHINGRIX,"Vaccin contre le zona (recombinant, avec adjuvant)",real,VAC12
 VAC0568,BOOSTRIX-POLIO,"Vaccin diphtérique (anatoxine, dose réduite), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, 5 composants, dose réduite) et poliomyélitique (entier inactivé, trivalent), adsorbé",real,VAC0585,
 VAC0569,INFANRIX-IPV,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard) et poliomyélitique (entier inactivé, trivalent)",real,VAC0551,
 VAC0570,HIBERIX,Vaccin conjugué anti-Hemophilus influenzae de type b composé du PRP (polyribosylribitol phosphate) conjugué à l'anatoxine tétanique,real,VAC0345,
-VAC0573,AGRIFLU,"Vaccin contre la grippe saisonnière inactivé trivalent, à antigène de surface",real,VAC0925,
+VAC0573,AGRIFLU,"Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à antigène de surface",real,VAC0925,
 VAC0574,Td POLIO ADSORBED,"Vaccin diphtérique (anatoxine, dose réduite), tétanique (anatoxine) et poliomyélitique (entier inactivé, trivalent), adsorbé",real,VAC0549,
 VAC0575,FSME-IMMUN,"Vaccin entier inactivé contre l'encéphalite à tiques, souche Neudörfl, dose adulte",real,VAC1038,
 VAC0576,FLUVIRAL,Vaccin contre la grippe saisonnière inactivé trivalent,real,VAC0925,
@@ -576,7 +576,7 @@ VAC0638,IPAD POLIO,"Vaccin poliomyélitique (entier inactivé, trivalent)",real,
 VAC0639,ADACEL POLIO,"Vaccin diphtérique (anatoxine, dose réduite), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, 5 composants, dose réduite) et poliomyélitique (entier inactivé, trivalent), adsorbé",real,VAC0585,
 VAC0640,TRITANRIX HepB+Hib,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique) et de l’hépatite B (recombinant)",real,VAC1181,
 VAC0641,GLOBORIX,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique) et contre les méningocoques des sérogroupes A et C (conjugué à l'anatoxine tétanique)",real,VAC1219,
-VAC0642,FLUZONE HIGH-DOSE QUADRIVALENT,"Vaccin contre la grippe saisonnière inactivé quadrivalent, à virion fragmenté, haute dose",real,VAC1146,
+VAC0642,FLUZONE HIGH-DOSE QUADRIVALENT,"Vaccin contre la grippe saisonnière inactivé quadrivalent, obtenu par culture d’œufs, à virion fragmenté, haute dose",real,VAC1146,
 VAC0643,"Vaccin Méningocoques ACWY conjugué, sans précision","Vaccin méningococcique polyosidique conjugué quadrivalent contre les sérogroupes A, C, W et Y",abstract,,MCV-A MCV-C MCV-Y MCV-W
 VAC0644,QDENGA,"Vaccin vivant atténué, chimérique recombinant, quadrivalent contre les quatre sérotypes (1, 2, 3 et 4) du virus de la dengue 
 Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) TAKEDA",real,VAC1178,
@@ -584,7 +584,7 @@ VAC0645,IMMU ORR,"Vaccin vivant atténué contre la rougeole, les oreillons et l
 VAC0646,CECOLIN,"Vaccin contre les papillomavirus humains à base de VLP (Virus Like Particles ou pseudo particules virales ), bivalent (types 16 et 18), recombinant (exprimé par Escherichia coli)",real,VAC0858,
 VAC0647,ROTASIIL,Vaccin contre les rotavirus,real,VAC0158,
 VAC0648,"Vaccin Covid 19, sans précision",Vaccin anti-covid 19,abstract,,COVID
-VAC0649,EFLUELDA TETRA,"Vaccin contre la grippe saisonnière inactivé quadrivalent, à virion fragmenté, haute dose",real,VAC1146,
+VAC0649,EFLUELDA TETRA,"Vaccin contre la grippe saisonnière inactivé quadrivalent, obtenu par culture d’œufs, à virion fragmenté, haute dose",real,VAC1146,
 VAC0650,VAXZEVRIA ASTRAZENECA,"Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus de chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2",real,VAC1170,
 VAC0651,CORONAVAC SINOVAC COVID-19 VACCINE,"Vaccin anti-covid 19 à virus entier inactivé, adjuvé (adjuvant : hydroxyde d'aluminium)",real,VAC1119,
 VAC0652,CONVIDECIA,"Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus 5 codant la protéine de pointe du SARS-CoV-2",real,VAC1176,
@@ -747,8 +747,8 @@ VAC0816,PEDATYPH,"Vaccin typhoïdique, antigène Vi conjugué à l'anatoxine té
 VAC0817,"Vaccin Typhoïde entier inactivé, sans précision",Vaccin typhoïdique entier inactivé,abstract,,Ty-I
 VAC0818,"Vaccin Typhoïde et Paratyphoïde, sans précision","Vaccin typhoïdique et paratyphoïdique A et B, entier inactivé",abstract,,pTy-I Ty-I
 VAC0819,"Vaccin Encéphalite Japonaise entier inactivé, sans précision",Vaccin entier inactivé contre l'encéphalite japonaise,abstract,,JE-I
-VAC0820,"Vaccin Grippe entier inactivé, sans précision","Influenza inactivated whole vaccine, obtained from egg culture, unspecified",abstract,,INF-EI
-VAC0821,"Vaccin Grippe inactivé, fractionné ou sous-unité, sans précision",Vaccin contre la grippe saisonnière inactivé,abstract,,INF-ESU
+VAC0820,"Vaccin Grippe entier inactivé, obtenu sur culture d’œufs, sans précision","Influenza inactivated whole vaccine, obtained from egg culture, unspecified",abstract,,INF-EI
+VAC0821,"Vaccin Grippe inactivé, obtenu sur culture d'œufs, fractionné ou sous-unité, sans précision","Vaccin contre la grippe saisonnière inactivé, obtenu sur culture d’œufs, fractionné ou sous-unité",abstract,,INF-ESU
 VAC0822,"Vaccin Grippe vivant atténué, sans précision","Vaccin contre la grippe saisonnière, à virus vivant atténué, par voie nasale",abstract,,INF-L
 VAC0823,"Vaccin Grippe VLP, sans précision","Vaccin contre la grippe saisonnière à pseudo-particules virales (VLP : ""Virus-Like Particle"")",abstract,,INF-VLP
 VAC0824,"Vaccin Hépatite A virosomal, sans précision","Vaccin entier inactivé contre l'hépatite A, virosomal, dose pédiatrique ou adulte",abstract,,HepA-VLP
@@ -767,7 +767,7 @@ VAC0837,COVOVAX SII,"Vaccin anti-covid 19 à sous-unité protéique, protéine d
 VAC0838,COVOVAX NOVAVAX,"Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante dans des nanoparticules, avec adjuvant (Matrix M). Autre nom : NOVAVAX NVX-CoV2373 COVID-19 Vaccine",real,VAC1129,
 VAC0839,"Vaccin Brucellose entier inactivé, sans précision",Vaccin entier inactivé contre la brucellose,abstract,,Bruc-I
 VAC0840,ADDIGRIP,"Vaccin contre la grippe saisonnière inactivé trivalent, à antigène de surface",real,VAC0925,
-VAC0841,"INFLUVAC 0,25 mL","Vaccin contre la grippe saisonnière inactivé trivalent, à antigène de surface, dose pédiatrique",real,VAC0925,
+VAC0841,"INFLUVAC 0,25 mL","Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à antigène de surface, dose pédiatrique",real,VAC0925,
 VAC0842,NEORABIS,"Vaccin rabique entier inactivé, souche virale Wistar PM1503-3M, cultivé sur cellules Vero, inactivé par la bêta-propiolactone",real,VAC1116,
 VAC0843,NOVIRAB,"Vaccin rabique entier inactivé, souche WISTAR PM/WI 38-1503-3M, cultivé sur cellules Vero, inactivé par la bêta-propiolactone",real,VAC1116,
 VAC0844,VERORABVAX,"Vaccin rabique entier inactivé, souche WISTAR PM/WI 38-1503-3M, cultivé sur cellules Vero, inactivé par la bêta-propiolactone",real,VAC1116,
@@ -806,7 +806,7 @@ VAC0876,CINQUERIX,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), 
 VAC0877,INFANRIX HEPB,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard) et de l’hépatite B (recombinant)",real,VAC1216,
 VAC0878,TRITANRIX,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine) et coquelucheux (entier inactivé)",real,VAC0136,
 VAC0879,ACELLUVAX,"Vaccin coquelucheux (acellulaire multicomposé, 3 composants, dose standard)",real,VAC1167,
-VAC0880,"Vaccin pentavalent DTCoqHibP - Diphtérie-Tétanos-Coqueluche-Hib-Polio, sans précision","Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire ou entier inactivé, dose non précisée), anti-Haemophilus influenzae type b (conjugué, sans précision) et poliomyélitique (entier inactivé, trivalent)",abstract,,Per IPV T D Hib-C
+VAC0880,"Vaccin pentavalent DTCPHib - Diphtérie-Tétanos-Coqueluche-Polio-Hib, sans précision","Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire ou entier inactivé, dose non précisée), anti-Haemophilus influenzae type b (conjugué, sans précision) et poliomyélitique (entier inactivé, trivalent)",abstract,,Per IPV T D Hib-C
 VAC0881,"Vaccin Encéphalite Japonaise vivant atténué, sans précision","Vaccin vivant atténué contre l'encéphalite japonaise, souche et plate-forme de production non précisées",abstract,,JE-LA
 VAC0882,CANDID 1,"Vaccin vivant atténué contre la fièvre hémorragique d'Argentine, virus Junin",real,VAC1134,
 VAC0883,ENTEROVACCINO TIFICO SCLAVO,"Vaccin typhoïdique entier inactivé, par voie orale",real,VAC0817,
@@ -855,7 +855,7 @@ VAC0925,"Vaccin Grippe trivalent inactivé, sans précision","Vaccin contre la g
 VAC0926,FLUCELVAX,"Vaccin contre la grippe saisonnière inactivé trivalent, produit sur culture cellulaire",real,VAC1175,
 VAC0927,"Vaccin Covid 19 à ARNm, dose pédiatrique, sans précision","Vaccin anti-covid 19 à ARNm, dose pédiatrique",abstract,, COVID-mRNA-S-ORI-10
 VAC0928,"Vaccin Hépatite A vivant atténué, sans précision",Vaccin vivant atténué contre l'hépatite A,abstract,,HepA-LA
-VAC0929,"Vaccin Grippe quadrivalent inactivé, dose pédiatrique, sans précision","Seasonal influenza vaccine, quadrivalent, inactivated, obtained from egg culture, pediatric dose",abstract,,INF-ESUped4
+VAC0929,"Vaccin Grippe quadrivalent inactivé, obtenu sur culture d’œufs, dose pédiatrique, sans précision","Seasonal influenza vaccine, quadrivalent, inactivated, obtained from egg culture, pediatric dose",abstract,,INF-ESUped4
 VAC0930,Ad5-nCoV COVID-19 INHALATION VACCINE,"Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus de type 5, pour inhalation",real,VAC1135,
 VAC0931,FLUBLOK QUADRIVALENT,Vaccin contre la grippe saisonnière recombinant quadrivalent,real,VAC0932,
 VAC0932,"Vaccin Grippe quadrivalent recombinant, sans précision",Vaccin contre la grippe saisonnière recombinant quadrivalent,abstract,,INF-R4
@@ -894,7 +894,7 @@ VAC0964,ANATOXAL DI,"Vaccin diphtérique (anatoxine, dose réduite)",real,VAC117
 VAC0965,ANATOXAL TE TAB,"Vaccin tétanique (anatoxine), typhoïdique (entier inactivé) et paratyphoïdique A et B (entier inactivé)",real,VAC1194,
 VAC0966,JYNNEOS,"Vaccin contre la variole de troisième génération, virus modifié de la vaccine d'Ankara, non réplicatif",real,VAC1157,
 VAC0967,HEPASOMA,"Vaccin entier inactivé contre l'hépatite A, virosomal, dose pédiatrique ou adulte",real,VAC0824,
-VAC0968,INFLEXAL V,"Vaccin contre la grippe saisonnière inactivé trivalent, à virosome",real,VAC0925,
+VAC0968,INFLEXAL V,"Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virosome",real,VAC0925,
 VAC0969,LYSSAVAC N BERNA,"Vaccin rabique entier inactivé, préparé sur culture de cellules Vero,  inactivé par la bêta-propiolactone",real,VAC1116,
 VAC0970,TETATOX,Vaccin tétanique (anatoxine),real,VAC0132,
 VAC0971,VACCINO ANTIVAIOLOSO LANCY,"Vaccin contre la variole de première génération, virus vivant de la vaccine",real,VAC1122,
@@ -996,7 +996,7 @@ VAC1066,"Vaccin Mélanome, sans précision","Melanoma vaccine, unspecified",abst
 VAC1067,"Vaccin Streptococcus pyogenes, sans précision","Streptococcus pyogenes vaccine, unspecified",abstract,,SPYO
 VAC1068,"Vaccin Fièvre de la vallée du Rift, sans précision","Rift Valley fever vaccine, unspecified",abstract,,RVF
 VAC1069,"Immunoglobuline Vaccine, sans précision",Vaccinia immune globulin,abstract,,POX-Ig
-VAC1070,Fluzone High-Dose Quadrivalent Southern Hemisphere,"Vaccin quadrivalent inactivé contre l’influenza, fractionné ou sous-unité, haute dose",real,VAC1146,
+VAC1070,Fluzone High-Dose Quadrivalent Southern Hemisphere,"Vaccin quadrivalent inactivé contre l’influenza, obtenu sur culture d’œufs, fractionné ou sous-unité, haute dose",real,VAC1146,
 VAC1071,"Anticorps ou vaccin VRS, sans précision","RSV antibody or vaccine, unspecified",abstract,,RSV
 VAC1072,"Vaccin Covid 19 à ARNm, virus originel, 25 µg, sans précision","Vaccin anti-covid 19 à ARNm, virus originel, dosage à 25 microgrammes",abstract,,COVID-mRNA-S-ORI-25
 VAC1073,"Vaccin Maladie de Lyme (anti-Borrelia burgdorferi), sans précision","Lyme disease vaccine, unspecified",abstract,,Lyme
@@ -1072,7 +1072,7 @@ VAC1142,"Vaccin Covid 19 à vecteur viral non replicatif avec cellules présenta
 VAC1143,"Vaccin Covid 19 à vecteur viral non réplicatif, adénovirus codant la protéine de pointe du SARS-CoV-2, sans précision","Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus codant la protéine de pointe du SARS-CoV-2, sans précision",abstract,,COVID-VVnr-S-Ad
 VAC1144,"Vaccin Covid 19 à sous-unité protéique, protéine de pointe du SARS-CoV-2 recombinante, S-2P et CpG1018, sans précision","Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe du SARS-CoV-2 recombinante, S-2P et CpG1018, sans précision",abstract,,COVID-PS-CpG1018
 VAC1145,"Vaccin Hépatite B recombinant, trois antigènes, sans précision","Vaccin recombinant contre l'hépatite B, trois antigènes (HbS, pré-S1 et pré-S2)",abstract,,HBs-r-3Ag
-VAC1146,"Vaccin Grippe quadrivalent, inactivé, haute dose, sans précision","Vaccin quadrivalent inactivé contre l’influenza, fractionné ou sous-unité, haute dose",abstract,,INF-ESUhd4
+VAC1146,"Vaccin Grippe quadrivalent, inactivé, obtenu sur culture d'oeufs, haute dose, sans précision","Vaccin quadrivalent inactivé contre l’influenza, obtenu sur culture d’œufs, fractionné ou sous-unité, haute dose",abstract,,INF-ESUhd4
 VAC1147,"Anticorps monoclonal humain VRS, nirsevimab, sans précision","Anticorps monoclonal humain contre le virus respiratoire syncytial (VRS), nirsevimab, sans précision",abstract,,VRS-mAb-nir
 VAC1148,"Vaccin Haemophilus influenzae type b, polyosidique non conjugué, sans précision","Haemophilus influenzae type b vaccine, unconjugated polysaccharide, unspecified",abstract,,Hib-PS
 VAC1149,"Vaccin Choléra vivant atténué oral, sans précision","Vaccin cholérique vivant atténué oral, sans précision",abstract,,CHOL-LA-O
@@ -1097,7 +1097,7 @@ VAC1167,"Vaccin Coqueluche acellulaire, dose standard, sans précision","Vaccin 
 VAC1168,"Vaccin quadrivalent DTCeHib- Diphtérie-Tétanos-Coqueluche-Hib OC, sans précision","Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé) et anti-Haemophilus influenzae type b (conjugué à l'anatoxine diphtérique)",abstract,,wP T D HbOC
 VAC1169,"Vaccin Covid 19 bivalent à ARNm contre le virus originel et le variant Omicron BA.4/5, 15 microgrammes, sans précision","Vaccin bivalent anti-covid 19 à ARNm contre le virus originel et le variant Omicron BA.4/5, 15 microgrammes, sans précision",abstract,,COVID-mRNA-S-ORI-15 COVID-mRNA-S-OMI-BA.4/5-15
 VAC1170,"Vaccin Covid 19 à vecteur viral non réplicatif, adénovirus de chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2, sans précision","Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus de chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2",abstract,,COVID-VVnr-S-ChAdOx1
-VAC1171,"Vaccin Grippe trivalent, inactivé, haute dose, sans précision","Vaccin trivalent inactivé contre la grippe, fractionné ou sous-unité, haute dose",abstract,,INF-ESUhd3
+VAC1171,"Vaccin Grippe trivalent, inactivé, obtenu par culture d'œufs haute dose, sans précision","Vaccin trivalent inactivé contre la grippe, obtenu par culture d’œufs, fractionné ou sous-unité, haute dose",abstract,,INF-ESUhd3
 VAC1172,"Anatoxine Diphtérie, dose réduite, sans précision","Vaccin diphtérique (anatoxine, dose réduite)",abstract,,d
 VAC1173,"Vaccin Covid 19 à vecteur viral réplicatif, virus influenza codant la protéine de pointe du SARS-CoV-2, sans précision","Vaccin anti-covid 19 à vecteur viral réplicatif, virus influenza codant la protéine de pointe du SARS-CoV-2, sans précision",abstract,,COVID-VVr-S-Influ
 VAC1174,"Vaccin pentavalent DTCaPHepB - Diphtérie-Tétanos-Coqueluche-Polio-Hépatite B 10µg, sans précision","Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard), poliomyélitique (entier inactivé, trivalent) et de l’hépatite B (recombinant)",abstract,,aP IPV T D rHBsAg-10
@@ -1250,7 +1250,7 @@ VAC1320,"DIPHTHERIA, TETANUS, PERTUSSIS, HEPATITIS B AND HAEMOPHILUS INFLUENZAE 
 VAC1321,HAEMOPHILUS INFLUENZAE B SII,"Vaccin anti-Haemophilus influenzae type b, polyoside capsulaire (phosphate de polyribosylribitol, PRP) conjugué à l'anatoxine tétanique",real,VAC0345,
 VAC1322,PNEUMOSIL,"Vaccin pneumococcique polyosidique conjugué, 10-valent, séroptypes 1, 5, 6A, 6B, 7F, 9V, 14, 19A, 19F et 23F",real,VAC1424,
 VAC1323,MENFIVE,"Vaccin méningococcique polyosidique conjugué quadrivalent contre les sérogroupes A, C, W, X et Y",real,VAC1311,
-VAC1324,NASOVAC-S,Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 vivant atténué,real,VAC1423,
+VAC1324,NASOVAC-S,"Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09, vivant atténué, obtenu sur culture d'oeufs",real,VAC1423,
 VAC1325,GENEVAC-B 10 µg,"Vaccin recombinant contre l'hépatite B avec thiomersal, dose pédiatrique",real,VAC0914,
 VAC1326,GENEVAC-B 20 µg,"Vaccin recombinant contre l'hépatite B avec thiomersal, dose adulte",real,VAC0915,
 VAC1327,HEPATITIS B SII,"Vaccin recombinant contre l'hépatite B sans thiomersal, dose adulte et pédiatrique",real,VAC0101,
@@ -1273,7 +1273,7 @@ VAC1343,BORYUNG CELL CULTURE-DERIVED JAPANESE ENCEPHALITIS VACCINE,"Vaccin entie
 VAC1344,BORYUNG JAPANESE ENCEPHALITIS VACCINE,"Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur tissu cérébral murin, souche Nakayama, voie injectable",real,VAC1196,
 VAC1345,ZEROTYPH,Vaccin typhoïdique polyosidique non conjugué (antigène capsulaire Vi),real,VAC0713,
 VAC1346,FLU QUADRIVALENT MCV,"Vaccin contre la grippe saisonnière inactivé quadrivalent, à virion fragmenté",real,VAC0938,
-VAC1347,EFLUELDA,"Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté, haute dose",real,VAC1171,
+VAC1347,EFLUELDA,"Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté, haute dose",real,VAC1171,
 VAC1348,TETANA,Vaccin tétanique (anatoxine),real,VAC0132,
 VAC1349,TY BIOMED,Vaccin typhoïdique entier inactivé,real,VAC0817,
 VAC1350,T SIS BIOMED,Vaccin tétanique (anatoxine),real,VAC0132,
@@ -1293,7 +1293,7 @@ VAC1363,HEPAVAX-GENE B 10 µg,"Vaccin recombinant contre l'hépatite B, dose pé
 VAC1364,BIOHIB,Vaccin conjugué anti-Hemophilus influenzae de type b composé du PRP (polyribosylribitol phosphate) conjugué à l'anatoxine tétanique,real,VAC0345,
 VAC1365,COMVAC5,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier, dose standard), hépatite B et anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique)",real,VAC1181,
 VAC1366,HILLCHOL,"Cholera vaccine, oral, containing formalin-inactivated whole V. cholerae O1 bacteria",real,VAC1537,
-VAC1367,HNVAC,Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé,real,VAC0147,
+VAC1367,HNVAC,"Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs",real,VAC0147,
 VAC1368,INCOVACC,"Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus de chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2",real,VAC1170,
 VAC1369,INDIRAB,"Vaccin rabique entier inactivé, préparé sur culture de cellules Vero,  inactivé par la bêta-propiolactone",real,VAC1116,
 VAC1370,JENVAC,"Vaccin entier inactivé contre l'encéphalite japonaise, préparé sur cellules Vero",real,VAC1111,
@@ -1324,7 +1324,7 @@ VAC1394,POLIO SINOVAC VACCINE,"Vaccin poliomyélitique (entier inactivé, trival
 VAC1395,MUMPS SINOVAC VACCINE,Vaccin vivant atténué contre les oreillons,real,VAC0153,
 VAC1396,ANFLU,"Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté",real,VAC0925,
 VAC1397,PANFLU,"Vaccin contre la grippe A(H5N1) (virion fragmenté, inactivé, avec adjuvant)",real,VAC0084,
-VAC1398,PANFLU.1,Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé,real,VAC0147,
+VAC1398,PANFLU.1,"Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs",real,VAC0147,
 VAC1399,TERTRANFLU,"Vaccin contre la grippe saisonnière inactivé quadrivalent, à virion fragmenté",real,VAC0938,
 VAC1400,SHANIPV,"Vaccin poliomyélitique (entier inactivé, trivalent)",real,VAC0270,
 VAC1401,9-VALENT HPV VACCINE INNOVAX,"Vaccin contre les papillomavirus humains à base de VLP (Virus Like Particles ou pseudo particules virales), nonavalent (types 6, 11, 16, 18, 31, 33, 45, 52 et 58), recombinant, adsorbé",real,VAC0860,
@@ -1349,7 +1349,7 @@ VAC1419,"Vaccin Chikungunya à base de VLP (recombinant, adsorbé)","Chikungunya
 VAC1420,ARNm simple brin coiffé en 5' codant la glycoprotéine F du virus respiratoire syncytial stabilisé dans la conformation de préfusion,"Respiratory syncytial virus glycoprotein F, stabilized in the prefusion conformation, encoded by a single-stranded 5' capped mRNA",abstract,,mRSV
 VAC1421,"Vaccin anti-covid 19 à ARNm codant la protéine de pointe du SARS-CoV-2, virus originel","COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, original virus",abstract,,COVID-mRNA-S-ORI
 VAC1422,"Vaccin anti-covid 19 à sous-unité protéique, protéine N recombinante","COVID-19 protein subunit vaccine, recombinant N protein",abstract,,COVID-PS-rN
-VAC1423,Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 vivant atténué,"Influenza A(H1N1)pdm09 pandemic vaccine, live attenuated, obtained from egg culture",abstract,,INF-Epdm09-V
+VAC1423,Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 vivant atténué,"Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09, vivant atténué, obtenu sur culture d'oeufs",abstract,,INF-Epdm09-V
 VAC1424,"Vaccin pneumococcique polyosidique conjugué, 10-valent, séroptypes 1, 5, 6A, 6B, 7F, 9V, 14, 19A, 19F et 23F","Pneumococcal 10-valent polysaccharide conjugate vaccine, serotypes 1, 5, 6A, 6B, 7F, 9V, 14, 19A, 19F and 23F",abstract,,PCV-01 PCV-05 PCV-06A PCV-06B PCV-07F PCV-09V PCV-14 PCV-19A PCV-19F PCV-23F
 VAC1425,"Vaccin typhoïdique, antigène Vi conjugué à la protéine CRM197","Typhoid vaccine, Vi antigen conjugated to CRM197 protein",abstract,,Ty-ViC-CRM
 VAC1426,Vaccin bivalent recombinant contre le papillomavirus humain (types 16 et 18) (Pichia pastoris),"Human papillomavirus vaccine, bivalent recombinant (types 16 and 18) (Pichia pastoris)",abstract,,HPV-16 HPV-18
@@ -1364,10 +1364,10 @@ VAC1434,"Vaccin méningocoque A, sans précision","Meningococcal A vaccine, unsp
 VAC1435,"Vaccin rage, inactivé, entier, préparé sur culture cellulaire, sans précision","Vaccin rage, inactivé, entier, préparé sur culture cellulaire, sans précision",abstract,,Rab-I-CC
 VAC1436,"Vaccin rage, inactivé, entier, préparé sur tissu cérébral animal infecté par le virus de la rage, sans précision","Rabies vaccine, inactivated, whole virion, prepared from animal brain tissue infected with rabies virus, unspecified",abstract,,Rab-I-NervousTissue
 VAC1437,"Meningococcal vaccine, monovalent, conjugate","Vaccin méningocoque, monovalent, polyosidique conjugué",deprecated,VAC0945,
-VAC1438,"Vaccin grippe, trivalent, inactivé, fractionné ou sous-unité, adjuvant","Influenza vaccine, trivalent, inactivated, obtained from egg culture, fractionated or subunit, adjuvanted",abstract,,INF-ESUAnd3
+VAC1438,"Vaccin grippe, trivalent, inactivé, obtenu sur culture d'oeufs, fractionné ou sous-unité, adjuvant","Influenza vaccine, trivalent, inactivated, obtained from egg culture, fractionated or subunit, adjuvanted",abstract,,INF-ESUAnd3
 VAC1439,"Meningococcal vaccine, polyvalent, conjugate polysaccharide","Vaccin méningocoque, polyvalent, polyosidique conjugué",deprecated,VAC0945,
-VAC1440,"Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, adjuvant, dose normale","Influenza vaccine, quadrivalent, inactivated, obtained from egg culture, fractionated or subunit, adjuvanted, normal dose",abstract,,INF-ESUAnd4
-VAC1441,"Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, voie intradermique, sans précision","Influenza vaccine, quadrivalent, inactivated, obtained from egg culture, split or subunit, intradermal route, unspecified",abstract,,INF-ESUid4
+VAC1440,"Vaccin grippe, quadrivalent, inactivé, obtenu sur culture d'oeufs, fractionné ou sous-unité, adjuvant, dose normale","Influenza vaccine, quadrivalent, inactivated, obtained from egg culture, fractionated or subunit, adjuvanted, normal dose",abstract,,INF-ESUAnd4
+VAC1441,"Vaccin grippe, quadrivalent, inactivé, obtenu par culture d'œufs, fractionné ou sous-unité, voie intradermique, sans précision","Influenza vaccine, quadrivalent, inactivated, obtained from egg culture, split or subunit, intradermal route, unspecified",abstract,,INF-ESUid4
 VAC1442,"Vaccin grippe, quadrivalent, virosomale, sans précision","Influenza vaccine, quadrivalent, virosomal, unspecified",abstract,,INF-V4
 VAC1443,"Vaccin grippe, trivalent, virosomal, sans précision","Influenza vaccine, trivalent, virosomal, unspecified",abstract,,INF-V3
 VAC1444,"Vaccin grippe, trivalent, VLP, sans précision","Influenza vaccine, trivalent, VLP, unspecified",abstract,,INF-VLP3
@@ -1390,7 +1390,7 @@ VAC1460,SOLGEN,"Vaccin pédiatrique diphtérique (anatoxine, dose standard), té
 VAC1461,DIFTET,"Vaccin pédiatrique diphtérique (anatoxine, dose standard) et tétanique (anatoxine)",real,VAC0137,
 VAC1462,PNU-IMUNE 14,"Pneumococcal unconjugated polysaccharide vaccine, 23-valent, serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F and 33F",real,VAC1551,
 VAC1463,FREEZE-DRIED BCG VACCINE JAPAN,Vaccin contre la tuberculose (vivant atténué),real,VAC0134,
-VAC1464,FLUBRON VACCINE,Vaccin contre la grippe saisonnière à virus entier inactivé,real,VAC0820,
+VAC1464,FLUBRON VACCINE,"Vaccin contre la grippe saisonnière à virus entier inactivé, obtenu par culture d’œufs",real,VAC0820,
 VAC1465,PERDIPIGEN,"Vaccin pédiatrique diphtérique (anatoxine, dose standard) et coquelucheux (entier inactivé)",real,VAC1549,
 VAC1466,COMIRNATY LP.8.1 30 µg,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 30 micrograms, adult (+ 12 years)",real,VAC1471,
 VAC1467,COMIRNATY LP.8.1 3 µg,"COVID-19 mRNA vaccine, subvariant Omicron LP.8.1, 3 micrograms, paediatric dose (6 months-4 years)",real,VAC1470,
@@ -1415,7 +1415,7 @@ VAC1485,GEN H-B-Vax 5,"Vaccin recombinant contre l'hépatite B, dose pédiatriqu
 VAC1486,GEN H-B-Vax 10,"Vaccin recombinant contre l'hépatite B, dosé à 10 microgrammes d'antigène HBs, utilisable dès l'âge de 11 ans",real,VAC0914,
 VAC1487,PREVENAR-7,"Vaccin pneumococcique polyosidique conjugué, 7-valent, adsorbé, sérotypes 4, 6B, 9V, 14, 18C, 19F et 23F",real,VAC0324,
 VAC1488,POLIORIX,"Vaccin poliomyélitique (entier inactivé, trivalent)",real,VAC0270,
-VAC1489,CELTURA,Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé,real,VAC0147,
+VAC1489,CELTURA,"Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs",real,VAC0147,
 VAC1490,ALMEVAX,Vaccin vivant atténué contre la rubéole,real,VAC0113,
 VAC1491,RUBEVAC,Vaccin vivant atténué contre la rubéole,real,VAC0113,
 VAC1492,POLYOMYELITIS IMPFSTOFF BERNA,"Vaccin poliomyélitique (entier inactivé, trivalent)",real,VAC0270,
@@ -1460,14 +1460,14 @@ VAC1530,SPIKEVAX XFG 50 µg,"COVID-19 mRNA vaccine, subvariant Omicron XFG, 50 m
 VAC1531,"Vaccin à ARNm contre la covid 19, subvariant Omicron XFG, 50 microgrammes","COVID-19 mRNA vaccine, subvariant Omicron XFG, 50 micrograms",abstract,,Covid-ARNm-S-OMI-XFG-50
 VAC1532,"Vaccin à ARNm contre la covid 19, subvariant Omicron XFG, 25 microgrammes","COVID-19 mRNA vaccine, subvariant Omicron XFG, 25 micrograms",abstract,,Covid-ARNm-S-OMI-XFG-25
 VAC1533,"Vaccin entier inactivé contre l'encéphalite à tiques, souche K23","Tick-borne encephalitis vaccine, whole-virus inactivated, K23 strain",abstract,,TBE-K23-50
-VAC1534,"Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté, dose pédiatrique","Seasonal influenza vaccine, trivalent inactivated, obtained from egg culture, split virion, pediatric form",abstract,,INF-ESUped3
+VAC1534,"Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté, dose pédiatrique","Seasonal influenza vaccine, trivalent inactivated, obtained from egg culture, split virion, pediatric form",abstract,,INF-ESUped3
 VAC1535,"Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante, avec adjuvant sans précision","COVID-19 vaccine, protein subunit, recombinant spike protein, with adjuvant unspecified",abstract,,COVID-PS-rRBD COVID-PS-rS
 VAC1536,"Vaccin à ARNm bivalent contre la covid 19, virus originel + variant Omicron BA.1, 50 microgrammes chacun","COVID-19 mRNA vaccine, bivalent, original virus + Omicron variant, 50 micrograms each",abstract,,COVID-mRNA-S-ORI-50 COVID-mRNA-S-OMI-BA.1-50
 VAC1537,"Vaccin cholérique, oral, contenant des bactéries V. cholerae O1 entières inactivées par formaline","Cholera vaccine, oral, containing formalin-inactivated whole V. cholerae O1 bacteria",abstract,,CHOL-I-O1-O
 VAC1538,"Vaccin à ARNm bivalent contre la covid 19, virus originel + variant Omicron BA.1, 25 microgrammes chacun","COVID-19 bivalent mRNA vaccine, original virus + Omicron BA.1 variant, 25 micrograms each",abstract,,COVID-mRNA-S-OMI-BA.1-25 COVID-mRNA-S-ORI-25
 VAC1539,"Vaccin méningococcique à large spectre contre les sérogroupes A, B, C, W et Y","Meningococcal broad-spectrum vaccine against serogroups A, B, C, W and Y",abstract,,4CMenB MCV-C-CRM MCV-A-CRM MCV-W-CRM MCV-Y-CRM
 VAC1540,"Vaccin contre la typhoïde et le tétanos, suspension injectable","Typhoid and tetanus vaccine, injectable suspension",abstract,,Ty T
-VAC1541,"Vaccin contre la grippe saisonnière inactivé quadrivalent de la grippe, fractionnée ou sous-unité, sans précision","Influenza quadrivalent inactivated vaccine, obtained from egg culture, split or subunit, unspecified",abstract,,INF-ESU4
+VAC1541,"Vaccin contre la grippe saisonnière, inactivé, quadrivalent, obtenu sur culture d'oeufs, fractionnée ou sous-unité, sans précision","Influenza quadrivalent inactivated vaccine, obtained from egg culture, split or subunit, unspecified",abstract,,INF-ESU4
 VAC1542,Vaccin conjugué contre la typhoïde et l'anatoxine diphtérique,"Typhoid conjugate to diphtheria toxoid vaccine, unspecified",abstract,,Ty-ViC-D
 VAC1543,"Vaccin contre le paludisme protéine de surface du sporozoïte, sans précision","Malaria vaccine sporozoite surface protein, unspecified",abstract,,Mala-SPO
 VAC1544,"Vaccin vivant atténué, chimérique recombinant, quadrivalent contre les quatre sérotypes (DEN-1, DEN-2, DEN-3 et DEN-4) du virus de la dengue","Dengue vaccine, live-attenuated, recombinant chimeric, quadrivalent against the four serotypes (DEN-1, DEN-2, DEN-3 and DEN-4)",abstract,,DENV2LAV DENV1rCH DENV3rCH DENV4rCH
@@ -1485,4 +1485,6 @@ VAC1555,"Vaccin cancers épidermoïdes de la tête et du cou non liés au papill
 VAC1556,TG4050,"Non-HPV-related squamous cell carcinomas of the head and neck vaccine, unspecified",real,VAC1555,
 VAC1557,"Vaccin grippe, trivalent, inactivé, fractionné ou sous-unité, sans précision","Influenza vaccine, trivalent, inactivated, split or subunit, unspecified",abstract,,INF-ESU3
 VAC1558,EUTYPH-C,"Typhoid vaccine, Vi antigen conjugated to CRM197 protein",real,VAC1425,
-VAC1559,EUVICHOL,"Cholera vaccine, oral, bivalent consisting of killed whole cells of Vibrio cholerae O1 (classical and El Tor) and O139",real,VAC1257,
+VAC1559,EUVICHOL,"Vaccin cholérique, oral, bivalent constitué de cellules entières tuées de Vibrio cholerae O1 (classique et El Tor) et O139",real,VAC1257,
+VAC1560,RECOMBIVAX HB ADULT,"Recombinant hepatitis B vaccine, adult dose",real,VAC0914,
+VAC1561,HEPA-B INJECTION PEDIATRIC,"Recombinant hepatitis B vaccine, paediatric dose",real,VAC0914,

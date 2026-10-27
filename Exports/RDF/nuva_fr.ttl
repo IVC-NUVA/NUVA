@@ -1,5 +1,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
+<http://ivci.org/NUVA/VAC0000> rdfs:label "#Orphelins"@fr ;
+    rdfs:comment "Classe abstraite pour les vaccins orphelins"@fr .
+
 <http://ivci.org/NUVA/VAC0001> rdfs:comment "Vaccin conjugué anti-Hemophilus influenzae de type b composé du PRP (polyribosylribitol phosphate) conjugué à l'anatoxine tétanique"@fr .
 
 <http://ivci.org/NUVA/VAC0002> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, cultivé sur oeuf, à antigène de surface"@fr .
@@ -30,7 +33,7 @@
 
 <http://ivci.org/NUVA/VAC0015> rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard, 3 composants), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique) et poliomyélitique (entier inactivé, trivalent), adsorbé"@fr .
 
-<http://ivci.org/NUVA/VAC0016> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, à antigène de surface"@fr .
+<http://ivci.org/NUVA/VAC0016> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à antigène de surface"@fr .
 
 <http://ivci.org/NUVA/VAC0017> rdfs:comment "Vaccin vivant atténué contre la rougeole, les oreillons et la rubéole"@fr .
 
@@ -40,7 +43,7 @@
 
 <http://ivci.org/NUVA/VAC0020> rdfs:comment "Vaccin méningococcique polyosidique conjugué contre le sérogroupe C"@fr .
 
-<http://ivci.org/NUVA/VAC0021> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté"@fr .
+<http://ivci.org/NUVA/VAC0021> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté"@fr .
 
 <http://ivci.org/NUVA/VAC0022> rdfs:comment "Vaccin méningococcique polyosidique conjugué à l'anatoxine tétanique contre le sérogroupe C"@fr .
 
@@ -50,7 +53,7 @@
 
 <http://ivci.org/NUVA/VAC0025> rdfs:comment "Vaccin pneumococcique polyosidique conjugué, 7-valent, adsorbé, sérotypes 4, 6B, 9V, 14, 18C, 19F et 23F"@fr .
 
-<http://ivci.org/NUVA/VAC0026> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, à antigène de surface"@fr .
+<http://ivci.org/NUVA/VAC0026> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à antigène de surface"@fr .
 
 <http://ivci.org/NUVA/VAC0027> rdfs:comment "Vaccin vivant atténué contre la rougeole, les oreillons et la rubéole"@fr .
 
@@ -70,7 +73,7 @@
 
 <http://ivci.org/NUVA/VAC0035> rdfs:comment "Vaccin vivant atténué contre la fièvre jaune"@fr .
 
-<http://ivci.org/NUVA/VAC0036> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté et tétanique (anatoxine)"@fr .
+<http://ivci.org/NUVA/VAC0036> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté et tétanique (anatoxine)"@fr .
 
 <http://ivci.org/NUVA/VAC0037> rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire multicomposé, dose standard) et poliomyélitique (entier inactivé, trivalent)"@fr .
 
@@ -92,7 +95,7 @@
 
 <http://ivci.org/NUVA/VAC0046> rdfs:comment "Vaccin recombinant contre l'hépatite B, dose adulte"@fr .
 
-<http://ivci.org/NUVA/VAC0047> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté"@fr .
+<http://ivci.org/NUVA/VAC0047> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu sur culture d’œufs, à virion fragmenté"@fr .
 
 <http://ivci.org/NUVA/VAC0048> rdfs:comment "Vaccin recombinant contre l'hépatite B, 20 µg d'antigène HBs, dose pédiatrique et adulte"@fr .
 
@@ -120,7 +123,7 @@
 
 <http://ivci.org/NUVA/VAC0061> rdfs:comment "Vaccin vivant atténué contre la varicelle"@fr .
 
-<http://ivci.org/NUVA/VAC0062> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté"@fr .
+<http://ivci.org/NUVA/VAC0062> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté"@fr .
 
 <http://ivci.org/NUVA/VAC0063> rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé) et poliomyélitique (entier inactivé, trivalent)"@fr .
 
@@ -181,7 +184,7 @@ Autres noms : JEVAX, BIKEN"""@fr .
 
 <http://ivci.org/NUVA/VAC0095> rdfs:comment "Vaccin typhoïdique et paratyphoïdique A et B, entier inactivé"@fr .
 
-<http://ivci.org/NUVA/VAC0096> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté"@fr .
+<http://ivci.org/NUVA/VAC0096> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté"@fr .
 
 <http://ivci.org/NUVA/VAC0097> rdfs:comment "Vaccin entier inactivé contre la leptospirose"@fr .
 
@@ -197,15 +200,15 @@ Autres noms : JEVAX, BIKEN"""@fr .
 
 <http://ivci.org/NUVA/VAC0103> rdfs:comment "Vaccin méningococcique polyosidique conjugué quadrivalent contre les sérogroupes A, C, W et Y (conjugué à l'anatoxine diphtérique)"@fr .
 
-<http://ivci.org/NUVA/VAC0104> rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé"@fr .
+<http://ivci.org/NUVA/VAC0104> rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09, à virion entier inactivé, obtenu par culture d’œufs"@fr .
 
-<http://ivci.org/NUVA/VAC0105> rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé"@fr .
+<http://ivci.org/NUVA/VAC0105> rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs"@fr .
 
-<http://ivci.org/NUVA/VAC0106> rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé"@fr .
+<http://ivci.org/NUVA/VAC0106> rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs"@fr .
 
-<http://ivci.org/NUVA/VAC0107> rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09, à virion entier inactivé"@fr .
+<http://ivci.org/NUVA/VAC0107> rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09, à virion entier inactivé, obtenu par culture d’œufs"@fr .
 
-<http://ivci.org/NUVA/VAC0108> rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé"@fr .
+<http://ivci.org/NUVA/VAC0108> rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs"@fr .
 
 <http://ivci.org/NUVA/VAC0109> rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, cultivé sur oeuf, à antigènes de surface, avec adjuvant"@fr .
 
@@ -235,7 +238,7 @@ Autres noms : JEVAX, BIKEN"""@fr .
 
 <http://ivci.org/NUVA/VAC0124> rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, cultivé sur oeuf, à antigène de surface, avec adjuvant"@fr .
 
-<http://ivci.org/NUVA/VAC0125> rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, virion fragmenté"@fr .
+<http://ivci.org/NUVA/VAC0125> rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs, virion fragmenté"@fr .
 
 <http://ivci.org/NUVA/VAC0126> rdfs:comment "Vaccin plasmatique contre l'hépatite B (premier vaccin français)"@fr .
 
@@ -274,7 +277,7 @@ Autres noms : JEVAX, BIKEN"""@fr .
 
 <http://ivci.org/NUVA/VAC0139> rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique) et poliomyélitique (entier inactivé, trivalent), adsorbé"@fr .
 
-<http://ivci.org/NUVA/VAC0140> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté, par voie intradermique"@fr .
+<http://ivci.org/NUVA/VAC0140> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté, par voie intradermique"@fr .
 
 <http://ivci.org/NUVA/VAC0141> rdfs:comment "Vaccin méningococcique polyosidique conjugué quadrivalent contre les sérogroupes A, C, W et Y (conjugué à la protéine CRM 197)"@fr .
 
@@ -290,7 +293,7 @@ Autres noms : JEVAX, BIKEN"""@fr .
     rdfs:comment "Vaccin vivant atténué contre l'encéphalite japonaise, souche 14-14-2"@fr .
 
 <http://ivci.org/NUVA/VAC0147> rdfs:label "Vaccin Grippe A(H1N1)2009, sans précision"@fr ;
-    rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé"@fr .
+    rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs"@fr .
 
 <http://ivci.org/NUVA/VAC0148> rdfs:label "Vaccin Leptospirose, sans précision"@fr ;
     rdfs:comment "Vaccin entier inactivé contre la leptospirose"@fr .
@@ -395,7 +398,7 @@ Autres noms : JEVAX, BIKEN"""@fr .
 
 <http://ivci.org/NUVA/VAC0194> rdfs:comment "Vaccin anti-Haemophilus influenzae type b, polyosidique non conjugué"@fr .
 
-<http://ivci.org/NUVA/VAC0195> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté"@fr .
+<http://ivci.org/NUVA/VAC0195> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté"@fr .
 
 <http://ivci.org/NUVA/VAC0196> rdfs:comment "Vaccin vivant atténué contre la rubéole et les oreillons"@fr .
 
@@ -459,21 +462,21 @@ Autres noms : JEVAX, BIKEN"""@fr .
 
 <http://ivci.org/NUVA/VAC0228> rdfs:comment "Vaccin vivant atténué contre la rubéole"@fr .
 
-<http://ivci.org/NUVA/VAC0229> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent"@fr .
+<http://ivci.org/NUVA/VAC0229> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs"@fr .
 
 <http://ivci.org/NUVA/VAC0230> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, à antigène de surface, avec adjuvant"@fr .
 
 <http://ivci.org/NUVA/VAC0231> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent"@fr .
 
-<http://ivci.org/NUVA/VAC0232> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent"@fr .
+<http://ivci.org/NUVA/VAC0232> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs"@fr .
 
 <http://ivci.org/NUVA/VAC0233> rdfs:comment "Vaccin contre la grippe saisonnière trivalent, vivant atténué, par voie nasale"@fr .
 
-<http://ivci.org/NUVA/VAC0234> rdfs:comment "Vaccin contre la grippe saisonnière à virus entier inactivé"@fr .
+<http://ivci.org/NUVA/VAC0234> rdfs:comment "Vaccin contre la grippe saisonnière à virus entier inactivé, obtenu par culture d’œufs"@fr .
 
 <http://ivci.org/NUVA/VAC0235> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent"@fr .
 
-<http://ivci.org/NUVA/VAC0236> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, haute dose"@fr .
+<http://ivci.org/NUVA/VAC0236> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, haute dose"@fr .
 
 <http://ivci.org/NUVA/VAC0238> rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine) et coquelucheux (entier inactivé)"@fr .
 
@@ -523,9 +526,9 @@ Autres noms : JEVAX, BIKEN"""@fr .
 
 <http://ivci.org/NUVA/VAC0264> rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine) et coquelucheux (acellulaire multicomposé, dose standard)"@fr .
 
-<http://ivci.org/NUVA/VAC0265> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent"@fr .
+<http://ivci.org/NUVA/VAC0265> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs"@fr .
 
-<http://ivci.org/NUVA/VAC0266> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent"@fr .
+<http://ivci.org/NUVA/VAC0266> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs"@fr .
 
 <http://ivci.org/NUVA/VAC0267> rdfs:comment "Vaccin tétanique (anatoxine) et poliomyélitique (entier inactivé, trivalent)"@fr .
 
@@ -534,7 +537,7 @@ Autres noms : JEVAX, BIKEN"""@fr .
 <http://ivci.org/NUVA/VAC0270> rdfs:label "Vaccin Poliomyélite inactivé, sans précision"@fr ;
     rdfs:comment "Vaccin poliomyélitique (entier inactivé, trivalent)"@fr .
 
-<http://ivci.org/NUVA/VAC0271> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent"@fr .
+<http://ivci.org/NUVA/VAC0271> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs"@fr .
 
 <http://ivci.org/NUVA/VAC0272> rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard) et tétanique (anatoxine)"@fr .
 
@@ -728,7 +731,7 @@ Autres noms : JEVAX, BIKEN"""@fr .
 
 <http://ivci.org/NUVA/VAC0373> rdfs:comment "Vaccin poliomyélitique (entier inactivé, trivalent)"@fr .
 
-<http://ivci.org/NUVA/VAC0374> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent"@fr .
+<http://ivci.org/NUVA/VAC0374> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs"@fr .
 
 <http://ivci.org/NUVA/VAC0375> rdfs:comment "Vaccin cholérique (entier inactivé) et typhoïdique (non conjugué, antigène polyosidique Vi purifié), injectable"@fr .
 
@@ -1096,7 +1099,7 @@ Autre nom : JEVAX"""@fr .
 
 <http://ivci.org/NUVA/VAC0570> rdfs:comment "Vaccin conjugué anti-Hemophilus influenzae de type b composé du PRP (polyribosylribitol phosphate) conjugué à l'anatoxine tétanique"@fr .
 
-<http://ivci.org/NUVA/VAC0573> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, à antigène de surface"@fr .
+<http://ivci.org/NUVA/VAC0573> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à antigène de surface"@fr .
 
 <http://ivci.org/NUVA/VAC0574> rdfs:comment "Vaccin diphtérique (anatoxine, dose réduite), tétanique (anatoxine) et poliomyélitique (entier inactivé, trivalent), adsorbé"@fr .
 
@@ -1205,7 +1208,7 @@ Autre nom : JEVAX"""@fr .
 
 <http://ivci.org/NUVA/VAC0641> rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier inactivé), anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique) et contre les méningocoques des sérogroupes A et C (conjugué à l'anatoxine tétanique)"@fr .
 
-<http://ivci.org/NUVA/VAC0642> rdfs:comment "Vaccin contre la grippe saisonnière inactivé quadrivalent, à virion fragmenté, haute dose"@fr .
+<http://ivci.org/NUVA/VAC0642> rdfs:comment "Vaccin contre la grippe saisonnière inactivé quadrivalent, obtenu par culture d’œufs, à virion fragmenté, haute dose"@fr .
 
 <http://ivci.org/NUVA/VAC0643> rdfs:label "Vaccin Méningocoques ACWY conjugué, sans précision"@fr ;
     rdfs:comment "Vaccin méningococcique polyosidique conjugué quadrivalent contre les sérogroupes A, C, W et Y"@fr .
@@ -1222,7 +1225,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 <http://ivci.org/NUVA/VAC0648> rdfs:label "Vaccin Covid 19, sans précision"@fr ;
     rdfs:comment "Vaccin anti-covid 19"@fr .
 
-<http://ivci.org/NUVA/VAC0649> rdfs:comment "Vaccin contre la grippe saisonnière inactivé quadrivalent, à virion fragmenté, haute dose"@fr .
+<http://ivci.org/NUVA/VAC0649> rdfs:comment "Vaccin contre la grippe saisonnière inactivé quadrivalent, obtenu par culture d’œufs, à virion fragmenté, haute dose"@fr .
 
 <http://ivci.org/NUVA/VAC0650> rdfs:comment "Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus de chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2"@fr .
 
@@ -1579,10 +1582,10 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 <http://ivci.org/NUVA/VAC0819> rdfs:label "Vaccin Encéphalite Japonaise entier inactivé, sans précision"@fr ;
     rdfs:comment "Vaccin entier inactivé contre l'encéphalite japonaise"@fr .
 
-<http://ivci.org/NUVA/VAC0820> rdfs:label "Vaccin Grippe entier inactivé, sans précision"@fr .
+<http://ivci.org/NUVA/VAC0820> rdfs:label "Vaccin Grippe entier inactivé, obtenu sur culture d’œufs, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAC0821> rdfs:label "Vaccin Grippe inactivé, fractionné ou sous-unité, sans précision"@fr ;
-    rdfs:comment "Vaccin contre la grippe saisonnière inactivé"@fr .
+<http://ivci.org/NUVA/VAC0821> rdfs:label "Vaccin Grippe inactivé, obtenu sur culture d'œufs, fractionné ou sous-unité, sans précision"@fr ;
+    rdfs:comment "Vaccin contre la grippe saisonnière inactivé, obtenu sur culture d’œufs, fractionné ou sous-unité"@fr .
 
 <http://ivci.org/NUVA/VAC0822> rdfs:label "Vaccin Grippe vivant atténué, sans précision"@fr ;
     rdfs:comment "Vaccin contre la grippe saisonnière, à virus vivant atténué, par voie nasale"@fr .
@@ -1631,7 +1634,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAC0840> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, à antigène de surface"@fr .
 
-<http://ivci.org/NUVA/VAC0841> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, à antigène de surface, dose pédiatrique"@fr .
+<http://ivci.org/NUVA/VAC0841> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à antigène de surface, dose pédiatrique"@fr .
 
 <http://ivci.org/NUVA/VAC0842> rdfs:comment "Vaccin rabique entier inactivé, souche virale Wistar PM1503-3M, cultivé sur cellules Vero, inactivé par la bêta-propiolactone"@fr .
 
@@ -1726,7 +1729,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAC0879> rdfs:comment "Vaccin coquelucheux (acellulaire multicomposé, 3 composants, dose standard)"@fr .
 
-<http://ivci.org/NUVA/VAC0880> rdfs:label "Vaccin pentavalent DTCoqHibP - Diphtérie-Tétanos-Coqueluche-Hib-Polio, sans précision"@fr ;
+<http://ivci.org/NUVA/VAC0880> rdfs:label "Vaccin pentavalent DTCPHib - Diphtérie-Tétanos-Coqueluche-Polio-Hib, sans précision"@fr ;
     rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (acellulaire ou entier inactivé, dose non précisée), anti-Haemophilus influenzae type b (conjugué, sans précision) et poliomyélitique (entier inactivé, trivalent)"@fr .
 
 <http://ivci.org/NUVA/VAC0881> rdfs:label "Vaccin Encéphalite Japonaise vivant atténué, sans précision"@fr ;
@@ -1854,7 +1857,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 <http://ivci.org/NUVA/VAC0928> rdfs:label "Vaccin Hépatite A vivant atténué, sans précision"@fr ;
     rdfs:comment "Vaccin vivant atténué contre l'hépatite A"@fr .
 
-<http://ivci.org/NUVA/VAC0929> rdfs:label "Vaccin Grippe quadrivalent inactivé, dose pédiatrique, sans précision"@fr .
+<http://ivci.org/NUVA/VAC0929> rdfs:label "Vaccin Grippe quadrivalent inactivé, obtenu sur culture d’œufs, dose pédiatrique, sans précision"@fr .
 
 <http://ivci.org/NUVA/VAC0930> rdfs:comment "Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus de type 5, pour inhalation"@fr .
 
@@ -1940,7 +1943,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAC0967> rdfs:comment "Vaccin entier inactivé contre l'hépatite A, virosomal, dose pédiatrique ou adulte"@fr .
 
-<http://ivci.org/NUVA/VAC0968> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, à virosome"@fr .
+<http://ivci.org/NUVA/VAC0968> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virosome"@fr .
 
 <http://ivci.org/NUVA/VAC0969> rdfs:comment "Vaccin rabique entier inactivé, préparé sur culture de cellules Vero,  inactivé par la bêta-propiolactone"@fr .
 
@@ -2144,7 +2147,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAC1069> rdfs:label "Immunoglobuline Vaccine, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAC1070> rdfs:comment "Vaccin quadrivalent inactivé contre l’influenza, fractionné ou sous-unité, haute dose"@fr .
+<http://ivci.org/NUVA/VAC1070> rdfs:comment "Vaccin quadrivalent inactivé contre l’influenza, obtenu sur culture d’œufs, fractionné ou sous-unité, haute dose"@fr .
 
 <http://ivci.org/NUVA/VAC1071> rdfs:label "Anticorps ou vaccin VRS, sans précision"@fr .
 
@@ -2330,8 +2333,8 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 <http://ivci.org/NUVA/VAC1145> rdfs:label "Vaccin Hépatite B recombinant, trois antigènes, sans précision"@fr ;
     rdfs:comment "Vaccin recombinant contre l'hépatite B, trois antigènes (HbS, pré-S1 et pré-S2)"@fr .
 
-<http://ivci.org/NUVA/VAC1146> rdfs:label "Vaccin Grippe quadrivalent, inactivé, haute dose, sans précision"@fr ;
-    rdfs:comment "Vaccin quadrivalent inactivé contre l’influenza, fractionné ou sous-unité, haute dose"@fr .
+<http://ivci.org/NUVA/VAC1146> rdfs:label "Vaccin Grippe quadrivalent, inactivé, obtenu sur culture d'oeufs, haute dose, sans précision"@fr ;
+    rdfs:comment "Vaccin quadrivalent inactivé contre l’influenza, obtenu sur culture d’œufs, fractionné ou sous-unité, haute dose"@fr .
 
 <http://ivci.org/NUVA/VAC1147> rdfs:label "Anticorps monoclonal humain VRS, nirsevimab, sans précision"@fr ;
     rdfs:comment "Anticorps monoclonal humain contre le virus respiratoire syncytial (VRS), nirsevimab, sans précision"@fr .
@@ -2402,8 +2405,8 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 <http://ivci.org/NUVA/VAC1170> rdfs:label "Vaccin Covid 19 à vecteur viral non réplicatif, adénovirus de chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2, sans précision"@fr ;
     rdfs:comment "Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus de chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2"@fr .
 
-<http://ivci.org/NUVA/VAC1171> rdfs:label "Vaccin Grippe trivalent, inactivé, haute dose, sans précision"@fr ;
-    rdfs:comment "Vaccin trivalent inactivé contre la grippe, fractionné ou sous-unité, haute dose"@fr .
+<http://ivci.org/NUVA/VAC1171> rdfs:label "Vaccin Grippe trivalent, inactivé, obtenu par culture d'œufs haute dose, sans précision"@fr ;
+    rdfs:comment "Vaccin trivalent inactivé contre la grippe, obtenu par culture d’œufs, fractionné ou sous-unité, haute dose"@fr .
 
 <http://ivci.org/NUVA/VAC1172> rdfs:label "Anatoxine Diphtérie, dose réduite, sans précision"@fr ;
     rdfs:comment "Vaccin diphtérique (anatoxine, dose réduite)"@fr .
@@ -2736,7 +2739,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAC1323> rdfs:comment "Vaccin méningococcique polyosidique conjugué quadrivalent contre les sérogroupes A, C, W, X et Y"@fr .
 
-<http://ivci.org/NUVA/VAC1324> rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 vivant atténué"@fr .
+<http://ivci.org/NUVA/VAC1324> rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09, vivant atténué, obtenu sur culture d'oeufs"@fr .
 
 <http://ivci.org/NUVA/VAC1325> rdfs:comment "Vaccin recombinant contre l'hépatite B avec thiomersal, dose pédiatrique"@fr .
 
@@ -2770,7 +2773,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAC1346> rdfs:comment "Vaccin contre la grippe saisonnière inactivé quadrivalent, à virion fragmenté"@fr .
 
-<http://ivci.org/NUVA/VAC1347> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté, haute dose"@fr .
+<http://ivci.org/NUVA/VAC1347> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté, haute dose"@fr .
 
 <http://ivci.org/NUVA/VAC1348> rdfs:comment "Vaccin tétanique (anatoxine)"@fr .
 
@@ -2808,7 +2811,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAC1365> rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard), tétanique (anatoxine), coquelucheux (entier, dose standard), hépatite B et anti-Haemophilus influenzae type b (conjugué à l'anatoxine tétanique)"@fr .
 
-<http://ivci.org/NUVA/VAC1367> rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé"@fr .
+<http://ivci.org/NUVA/VAC1367> rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs"@fr .
 
 <http://ivci.org/NUVA/VAC1368> rdfs:comment "Vaccin anti-covid 19 à vecteur viral non réplicatif, adénovirus de chimpanzé ChadOx1 codant la protéine de pointe du SARS-CoV-2"@fr .
 
@@ -2860,7 +2863,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAC1397> rdfs:comment "Vaccin contre la grippe A(H5N1) (virion fragmenté, inactivé, avec adjuvant)"@fr .
 
-<http://ivci.org/NUVA/VAC1398> rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé"@fr .
+<http://ivci.org/NUVA/VAC1398> rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs"@fr .
 
 <http://ivci.org/NUVA/VAC1399> rdfs:comment "Vaccin contre la grippe saisonnière inactivé quadrivalent, à virion fragmenté"@fr .
 
@@ -2908,7 +2911,8 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAC1422> rdfs:label "Vaccin anti-covid 19 à sous-unité protéique, protéine N recombinante"@fr .
 
-<http://ivci.org/NUVA/VAC1423> rdfs:label "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 vivant atténué"@fr .
+<http://ivci.org/NUVA/VAC1423> rdfs:label "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 vivant atténué"@fr ;
+    rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09, vivant atténué, obtenu sur culture d'oeufs"@fr .
 
 <http://ivci.org/NUVA/VAC1424> rdfs:label "Vaccin pneumococcique polyosidique conjugué, 10-valent, séroptypes 1, 5, 6A, 6B, 7F, 9V, 14, 19A, 19F et 23F"@fr .
 
@@ -2939,13 +2943,13 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAC1437> rdfs:comment "Vaccin méningocoque, monovalent, polyosidique conjugué"@fr .
 
-<http://ivci.org/NUVA/VAC1438> rdfs:label "Vaccin grippe, trivalent, inactivé, fractionné ou sous-unité, adjuvant"@fr .
+<http://ivci.org/NUVA/VAC1438> rdfs:label "Vaccin grippe, trivalent, inactivé, obtenu sur culture d'oeufs, fractionné ou sous-unité, adjuvant"@fr .
 
 <http://ivci.org/NUVA/VAC1439> rdfs:comment "Vaccin méningocoque, polyvalent, polyosidique conjugué"@fr .
 
-<http://ivci.org/NUVA/VAC1440> rdfs:label "Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, adjuvant, dose normale"@fr .
+<http://ivci.org/NUVA/VAC1440> rdfs:label "Vaccin grippe, quadrivalent, inactivé, obtenu sur culture d'oeufs, fractionné ou sous-unité, adjuvant, dose normale"@fr .
 
-<http://ivci.org/NUVA/VAC1441> rdfs:label "Vaccin grippe, quadrivalent, inactivé, fractionné ou sous-unité, voie intradermique, sans précision"@fr .
+<http://ivci.org/NUVA/VAC1441> rdfs:label "Vaccin grippe, quadrivalent, inactivé, obtenu par culture d'œufs, fractionné ou sous-unité, voie intradermique, sans précision"@fr .
 
 <http://ivci.org/NUVA/VAC1442> rdfs:label "Vaccin grippe, quadrivalent, virosomale, sans précision"@fr .
 
@@ -2985,7 +2989,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAC1463> rdfs:comment "Vaccin contre la tuberculose (vivant atténué)"@fr .
 
-<http://ivci.org/NUVA/VAC1464> rdfs:comment "Vaccin contre la grippe saisonnière à virus entier inactivé"@fr .
+<http://ivci.org/NUVA/VAC1464> rdfs:comment "Vaccin contre la grippe saisonnière à virus entier inactivé, obtenu par culture d’œufs"@fr .
 
 <http://ivci.org/NUVA/VAC1465> rdfs:comment "Vaccin pédiatrique diphtérique (anatoxine, dose standard) et coquelucheux (entier inactivé)"@fr .
 
@@ -3025,7 +3029,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAC1488> rdfs:comment "Vaccin poliomyélitique (entier inactivé, trivalent)"@fr .
 
-<http://ivci.org/NUVA/VAC1489> rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé"@fr .
+<http://ivci.org/NUVA/VAC1489> rdfs:comment "Vaccin contre la grippe pandémique à virus influenza A(H1N1)pdm09 inactivé, obtenu par culture d’œufs"@fr .
 
 <http://ivci.org/NUVA/VAC1490> rdfs:comment "Vaccin vivant atténué contre la rubéole"@fr .
 
@@ -3098,7 +3102,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAC1533> rdfs:label "Vaccin entier inactivé contre l'encéphalite à tiques, souche K23"@fr .
 
-<http://ivci.org/NUVA/VAC1534> rdfs:label "Vaccin contre la grippe saisonnière inactivé trivalent, à virion fragmenté, dose pédiatrique"@fr .
+<http://ivci.org/NUVA/VAC1534> rdfs:label "Vaccin contre la grippe saisonnière inactivé trivalent, obtenu par culture d’œufs, à virion fragmenté, dose pédiatrique"@fr .
 
 <http://ivci.org/NUVA/VAC1535> rdfs:label "Vaccin anti-covid 19 à sous-unité protéique, protéine de pointe recombinante, avec adjuvant sans précision"@fr .
 
@@ -3112,7 +3116,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAC1540> rdfs:label "Vaccin contre la typhoïde et le tétanos, suspension injectable"@fr .
 
-<http://ivci.org/NUVA/VAC1541> rdfs:label "Vaccin contre la grippe saisonnière inactivé quadrivalent de la grippe, fractionnée ou sous-unité, sans précision"@fr .
+<http://ivci.org/NUVA/VAC1541> rdfs:label "Vaccin contre la grippe saisonnière, inactivé, quadrivalent, obtenu sur culture d'oeufs, fractionnée ou sous-unité, sans précision"@fr .
 
 <http://ivci.org/NUVA/VAC1542> rdfs:label "Vaccin conjugué contre la typhoïde et l'anatoxine diphtérique"@fr .
 
@@ -3143,6 +3147,10 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 <http://ivci.org/NUVA/VAC1555> rdfs:label "Vaccin cancers épidermoïdes de la tête et du cou non liés au papillomavirus, non précisé"@fr .
 
 <http://ivci.org/NUVA/VAC1557> rdfs:label "Vaccin grippe, trivalent, inactivé, fractionné ou sous-unité, sans précision"@fr .
+
+<http://ivci.org/NUVA/VAC1559> rdfs:comment "Vaccin cholérique, oral, bivalent constitué de cellules entières tuées de Vibrio cholerae O1 (classique et El Tor) et O139"@fr .
+
+<http://ivci.org/NUVA/VAL000> rdfs:label "Parent pour les valences dépréciées"@fr .
 
 <http://ivci.org/NUVA/VAL001> rdfs:label "Valence grippe, trivalente, vivante atténuée, dose normale"@fr .
 
@@ -3386,7 +3394,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAL121> rdfs:label "Valence poliomyélite, trivalente, inactivée, entière, orale"@fr .
 
-<http://ivci.org/NUVA/VAL122> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant"@fr .
+<http://ivci.org/NUVA/VAL122> rdfs:label "Valence grippe, trivalente, inactivée, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, sans adjuvant"@fr .
 
 <http://ivci.org/NUVA/VAL123> rdfs:label "Valence rotavirus, vivant atténué, pentavalent "@fr .
 
@@ -3396,7 +3404,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAL126> rdfs:label "Valence Ebola, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL127> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée"@fr .
+<http://ivci.org/NUVA/VAL127> rdfs:label "Valence grippe, quadrivalente, inactivée, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée"@fr .
 
 <http://ivci.org/NUVA/VAL128> rdfs:label "Valence grippe, sans précision"@fr .
 
@@ -3410,7 +3418,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAL133> rdfs:label "Valence poliomyélite, vivante atténuée, orale, monovalente, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL134> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intradermique, sans précision"@fr .
+<http://ivci.org/NUVA/VAL134> rdfs:label "Valence grippe, quadrivalente, inactivée, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intradermique, sans précision"@fr .
 
 <http://ivci.org/NUVA/VAL135> rdfs:label "Valence covid 19, ARNm codant la protéine de pointe du SARS-CoV-2, en essai clinique "@fr .
 
@@ -3474,7 +3482,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAL165> rdfs:label "Valence covid 19, vivant, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL166> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, dose pédiatrique"@fr .
+<http://ivci.org/NUVA/VAL166> rdfs:label "Valence grippe, trivalente, inactivée, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, dose pédiatrique"@fr .
 
 <http://ivci.org/NUVA/VAL167> rdfs:label "Valence covid 19, vecteur viral non replicatif avec cellules présentant l'antigène"@fr .
 
@@ -3602,9 +3610,9 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAL229> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 33F"@fr .
 
-<http://ivci.org/NUVA/VAL230> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, sans précision"@fr .
+<http://ivci.org/NUVA/VAL230> rdfs:label "Valence grippe, quadrivalente, inactivée, obtenu sur culture d'oeufs, fractionnée ou sous-unité, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL231> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée"@fr .
+<http://ivci.org/NUVA/VAL231> rdfs:label "Valence grippe, trivalente, inactivée, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée"@fr .
 
 <http://ivci.org/NUVA/VAL232> rdfs:label "Valence pneumocoque, polyosidique non conjuguée, sérotype 6A"@fr .
 
@@ -3700,7 +3708,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAL278> rdfs:label "Valence Adénovirus, vivant atténué, voie orale, sans précision"@fr .
 
-<http://ivci.org/NUVA/VAL279> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, dose pédiatrique"@fr .
+<http://ivci.org/NUVA/VAL279> rdfs:label "Valence grippe, quadrivalente, inactivée, obtenu sur culture d'oeufs, fractionnée ou sous-unité, voie intramusculaire ou sous-cutanée, dose pédiatrique"@fr .
 
 <http://ivci.org/NUVA/VAL280> rdfs:label "Valence botulisme, anatoxine"@fr .
 
@@ -3840,9 +3848,9 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAL348> rdfs:label "Valence Leptospira pomona, inactivée, entière"@fr .
 
-<http://ivci.org/NUVA/VAL349> rdfs:label "Valence grippe, trivalente, inactivée, fractionnée ou sous-unité, adjuvant"@fr .
+<http://ivci.org/NUVA/VAL349> rdfs:label "Valence grippe, trivalente, inactivée, obtenu sur culture d'oeufs, fractionnée ou sous-unité, adjuvant"@fr .
 
-<http://ivci.org/NUVA/VAL350> rdfs:label "Valence grippe, quadrivalente, inactivée, fractionnée ou sous-unité, adjuvant, dose normale"@fr .
+<http://ivci.org/NUVA/VAL350> rdfs:label "Valence grippe, quadrivalente, inactivée, obtenu sur culture d'oeufs, fractionnée ou sous-unité, adjuvant, dose normale"@fr .
 
 <http://ivci.org/NUVA/VAL351> rdfs:label "Valence grippe, trivalente, virosomale, sans précision"@fr .
 
@@ -3952,7 +3960,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAL404> rdfs:label "Valence méningocoque X, polyoside conjugué"@fr .
 
-<http://ivci.org/NUVA/VAL405> rdfs:label "Valence grippe pandémique H1N1 2009, vivante atténuée"@fr .
+<http://ivci.org/NUVA/VAL405> rdfs:label "Valence grippe pandémique H1N1 2009, vivante atténuée, obtenu sur culture d'oeufs"@fr .
 
 <http://ivci.org/NUVA/VAL406> rdfs:label "Valence covid 19, variant Omicron KP.2, ARNm codant la protéine de pointe du SARS-CoV-2"@fr .
 

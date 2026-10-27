@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "2026-10-17" .
+    owl:versionInfo "2026-10-27" .
 
 nuva:NUVACode a owl:Class ;
     rdfs:label "NUVA Code" ;
@@ -883,8 +883,8 @@ nuva:VAC0125 a owl:Class ;
 nuva:VAC0126 a owl:Class ;
     rdfs:label "HEVAC B" ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2026-09-18"^^xsd:date ;
-    rdfs:subClassOf nuva:VAC1125 ;
+    dcterms:modified "2026-10-27"^^xsd:date ;
+    rdfs:subClassOf nuva:VAC1155 ;
     skos:notation "0126"^^nuva:NUVACode,
         "VAC0126"^^xsd:string .
 
@@ -1296,8 +1296,8 @@ nuva:VAC0197 a owl:Class ;
 nuva:VAC0198 a owl:Class ;
     rdfs:label "BIKEN-HB" ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2026-09-18"^^xsd:date ;
-    rdfs:subClassOf nuva:VAC1125 ;
+    dcterms:modified "2026-10-27"^^xsd:date ;
+    rdfs:subClassOf nuva:VAC0101 ;
     skos:notation "0198"^^nuva:NUVACode,
         "VAC0198"^^xsd:string .
 
@@ -1622,10 +1622,10 @@ nuva:VAC0242 a owl:Class ;
         "VAC0242"^^xsd:string .
 
 nuva:VAC0243 a owl:Class ;
-    rdfs:label "HEPA-B INJECTION" ;
+    rdfs:label "HEPA-B INJECTION ADULT" ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2026-09-18"^^xsd:date ;
-    rdfs:subClassOf nuva:VAC1125 ;
+    dcterms:modified "2026-10-27"^^xsd:date ;
+    rdfs:subClassOf nuva:VAC0915 ;
     skos:notation "0243"^^nuva:NUVACode,
         "VAC0243"^^xsd:string .
 
@@ -2398,10 +2398,10 @@ nuva:VAC0355 a owl:Class ;
         "VAC0355"^^xsd:string .
 
 nuva:VAC0356 a owl:Class ;
-    rdfs:label "RECOMBIVAX HB" ;
+    rdfs:label "RECOMBIVAX HB PEDIATRIC" ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2026-09-18"^^xsd:date ;
-    rdfs:subClassOf nuva:VAC1125 ;
+    dcterms:modified "2026-10-27"^^xsd:date ;
+    rdfs:subClassOf nuva:VAC1227 ;
     skos:notation "0356"^^nuva:NUVACode,
         "VAC0356"^^xsd:string .
 
@@ -7571,6 +7571,15 @@ nuva:VAC1108 a owl:Class ;
     skos:notation "1108"^^nuva:NUVACode,
         "VAC1108"^^xsd:string .
 
+nuva:VAC1125 a owl:Class ;
+    rdfs:label "Hepatitis B vaccine, unspecified"@en ;
+    nuvs:containsValence nuva:VAL068 ;
+    dcterms:created "2024-06-05"^^xsd:date ;
+    dcterms:modified "2026-01-09"^^xsd:date ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "1125"^^nuva:NUVACode,
+        "VAC1125"^^xsd:string .
+
 nuva:VAC1137 a owl:Class ;
     rdfs:label "Tick-borne encephalitis whole inactivated vaccine, strain K23, unspecified"@en ;
     nuvs:containsValence nuva:VAL312 ;
@@ -9613,6 +9622,22 @@ nuva:VAC1559 a owl:Class ;
     skos:notation "1559"^^nuva:NUVACode,
         "VAC1559"^^xsd:string .
 
+nuva:VAC1560 a owl:Class ;
+    rdfs:label "RECOMBIVAX HB ADULT" ;
+    dcterms:created "2026-10-19"^^xsd:date ;
+    dcterms:modified "2026-10-27"^^xsd:date ;
+    rdfs:subClassOf nuva:VAC0914 ;
+    skos:notation "1560"^^nuva:NUVACode,
+        "VAC1560"^^xsd:string .
+
+nuva:VAC1561 a owl:Class ;
+    rdfs:label "HEPA-B INJECTION PEDIATRIC" ;
+    dcterms:created "2026-10-20"^^xsd:date ;
+    dcterms:modified "2026-10-27"^^xsd:date ;
+    rdfs:subClassOf nuva:VAC0914 ;
+    skos:notation "1561"^^nuva:NUVACode,
+        "VAC1561"^^xsd:string .
+
 nuva:VAL120 a owl:Class ;
     rdfs:label "Meningococcal valence, polyvalent, unconjugated polysaccharide"@en ;
     dcterms:created "2021-10-26"^^xsd:date ;
@@ -10110,15 +10135,6 @@ nuva:VAC1154 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "1154"^^nuva:NUVACode,
         "VAC1154"^^xsd:string .
-
-nuva:VAC1155 a owl:Class ;
-    rdfs:label "Hepatitis B plasma vaccine, unspecified"@en ;
-    nuvs:containsValence nuva:VAL158 ;
-    dcterms:created "2024-06-05"^^xsd:date ;
-    dcterms:modified "2026-09-10"^^xsd:date ;
-    rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "1155"^^nuva:NUVACode,
-        "VAC1155"^^xsd:string .
 
 nuva:VAC1156 a owl:Class ;
     rdfs:label "Botulism immunoglobulin, unspecified"@en ;
@@ -13435,6 +13451,15 @@ nuva:VAC1150 a owl:Class ;
     skos:notation "1150"^^nuva:NUVACode,
         "VAC1150"^^xsd:string .
 
+nuva:VAC1155 a owl:Class ;
+    rdfs:label "Hepatitis B plasma vaccine, unspecified"@en ;
+    nuvs:containsValence nuva:VAL158 ;
+    dcterms:created "2024-06-05"^^xsd:date ;
+    dcterms:modified "2026-09-10"^^xsd:date ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "1155"^^nuva:NUVACode,
+        "VAC1155"^^xsd:string .
+
 nuva:VAC1163 a owl:Class ;
     rdfs:label "Pneumococcus 20-valent conjugate vaccine, unspecified"@en ;
     nuvs:containsValence nuva:VAL186,
@@ -14157,15 +14182,6 @@ nuva:VAL422 a owl:Class ;
     skos:altLabel "Yp"@en ;
     skos:notation "VAL422"^^xsd:string .
 
-nuva:VAC0101 a owl:Class ;
-    rdfs:label "Hepatitis B vaccine, recombinant, unspecified"@en ;
-    nuvs:containsValence nuva:VAL090 ;
-    dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2026-01-09"^^xsd:date ;
-    rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "0101"^^nuva:NUVACode,
-        "VAC0101"^^xsd:string .
-
 nuva:VAC0324 a owl:Class ;
     rdfs:label "Pneumococcal conjugate vaccine, 7 valent, unspecified"@en ;
     nuvs:containsValence nuva:VAL188,
@@ -14848,6 +14864,15 @@ nuva:VAL448 a owl:Class ;
     skos:altLabel "Lepto"@en ;
     skos:notation "VAL448"^^xsd:string .
 
+nuva:VAC0101 a owl:Class ;
+    rdfs:label "Hepatitis B vaccine, recombinant, unspecified"@en ;
+    nuvs:containsValence nuva:VAL090 ;
+    dcterms:created "2021-07-19"^^xsd:date ;
+    dcterms:modified "2026-01-09"^^xsd:date ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "0101"^^nuva:NUVACode,
+        "VAC0101"^^xsd:string .
+
 nuva:VAC0102 a owl:Class ;
     rdfs:label "Hepatitis A inactivated vaccine, unspecified"@en ;
     nuvs:containsValence nuva:VAL125 ;
@@ -14978,15 +15003,6 @@ nuva:VAC1119 a owl:Class ;
     skos:notation "1119"^^nuva:NUVACode,
         "VAC1119"^^xsd:string .
 
-nuva:VAC1125 a owl:Class ;
-    rdfs:label "Hepatitis B vaccine, unspecified"@en ;
-    nuvs:containsValence nuva:VAL068 ;
-    dcterms:created "2024-06-05"^^xsd:date ;
-    dcterms:modified "2026-01-09"^^xsd:date ;
-    rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "1125"^^nuva:NUVACode,
-        "VAC1125"^^xsd:string .
-
 nuva:VAC1164 a owl:Class ;
     rdfs:label "Diphtheria (toxoid, standard dose), tetanus (toxoid), pertussis (acellular multicomponent, standard dose) and Haemophilus influenzae type b (tetanus toxoid conjugate) quadrivalent vaccine DTPaHib, pediatric"@en ;
     nuvs:containsValence nuva:VAL008,
@@ -15034,15 +15050,6 @@ nuva:VAC1200 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "1200"^^nuva:NUVACode,
         "VAC1200"^^xsd:string .
-
-nuva:VAC1227 a owl:Class ;
-    rdfs:label "Hepatitis B recombinant vaccine, pediatric dose, unspecified"@en ;
-    nuvs:containsValence nuva:VAL170 ;
-    dcterms:created "2024-06-05"^^xsd:date ;
-    dcterms:modified "2026-09-08"^^xsd:date ;
-    rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "1227"^^nuva:NUVACode,
-        "VAC1227"^^xsd:string .
 
 nuva:VAC1279 a owl:Class ;
     rdfs:label "Anthrax vaccine, adjuvanted adsorbed"@en ;
@@ -15503,6 +15510,15 @@ nuva:VAC1211 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "1211"^^nuva:NUVACode,
         "VAC1211"^^xsd:string .
+
+nuva:VAC1227 a owl:Class ;
+    rdfs:label "Hepatitis B recombinant vaccine, pediatric dose, unspecified"@en ;
+    nuvs:containsValence nuva:VAL170 ;
+    dcterms:created "2024-06-05"^^xsd:date ;
+    dcterms:modified "2026-09-08"^^xsd:date ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "1227"^^nuva:NUVACode,
+        "VAC1227"^^xsd:string .
 
 nuva:VAL005 a owl:Class ;
     rdfs:label "Measles valence, live attenuated"@en ;
@@ -16161,15 +16177,6 @@ nuva:VAL303 a owl:Class ;
     skos:altLabel "COVID-mRNA-S-ORI"@en ;
     skos:notation "VAL303"^^xsd:string .
 
-nuva:VAC0915 a owl:Class ;
-    rdfs:label "Hepatitis B vaccine, monovalent, adult dose, unspecified"@en ;
-    nuvs:containsValence nuva:VAL115 ;
-    dcterms:created "2022-05-02"^^xsd:date ;
-    dcterms:modified "2025-05-06"^^xsd:date ;
-    rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "0915"^^nuva:NUVACode,
-        "VAC0915"^^xsd:string .
-
 nuva:VAC0938 a owl:Class ;
     rdfs:label "Influenza quadrivalent vaccine, unspecified"@en ;
     nuvs:containsValence nuva:VAL040 ;
@@ -16205,14 +16212,14 @@ nuva:VAC0084 a owl:Class ;
     skos:notation "0084"^^nuva:NUVACode,
         "VAC0084"^^xsd:string .
 
-nuva:VAC0914 a owl:Class ;
-    rdfs:label "Hepatitis B vaccine, monovalent, pediatric dose, unspecified"@en ;
-    nuvs:containsValence nuva:VAL114 ;
+nuva:VAC0915 a owl:Class ;
+    rdfs:label "Hepatitis B vaccine, monovalent, adult dose, unspecified"@en ;
+    nuvs:containsValence nuva:VAL115 ;
     dcterms:created "2022-05-02"^^xsd:date ;
-    dcterms:modified "2024-04-19"^^xsd:date ;
+    dcterms:modified "2025-05-06"^^xsd:date ;
     rdfs:subClassOf nuva:Vaccine ;
-    skos:notation "0914"^^nuva:NUVACode,
-        "VAC0914"^^xsd:string .
+    skos:notation "0915"^^nuva:NUVACode,
+        "VAC0915"^^xsd:string .
 
 nuva:VAC1113 a owl:Class ;
     rdfs:label "COVID-19 protein subunit vaccine, recombinant spike protein, unspecified"@en ;
@@ -16239,6 +16246,15 @@ nuva:VAC0270 a owl:Class ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "0270"^^nuva:NUVACode,
         "VAC0270"^^xsd:string .
+
+nuva:VAC0914 a owl:Class ;
+    rdfs:label "Hepatitis B vaccine, monovalent, pediatric dose, unspecified"@en ;
+    nuvs:containsValence nuva:VAL114 ;
+    dcterms:created "2022-05-02"^^xsd:date ;
+    dcterms:modified "2024-04-19"^^xsd:date ;
+    rdfs:subClassOf nuva:Vaccine ;
+    skos:notation "0914"^^nuva:NUVACode,
+        "VAC0914"^^xsd:string .
 
 nuva:VAC0920 a owl:Class ;
     rdfs:label "Diphtheria-tetanus Td vaccine, unspecified"@en ;
