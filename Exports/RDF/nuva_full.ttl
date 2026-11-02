@@ -23916,7 +23916,7 @@ nuva:VAL093 a owl:Class ;
         "Inaktywowana cała szczepionka przeciwko odrze"@pl,
         "Vacina inactivada contra o sarampo inteiro"@pt ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-11-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL182 ;
     skos:altLabel "MEAS-I"@en ;
     skos:notation "VAL093"^^xsd:string .
@@ -25435,7 +25435,7 @@ nuva:VAL348 a owl:Class ;
     rdfs:label "Leptospira pomona valence, inactivated whole-cell"@en,
         "Valence Leptospira pomona, inactivée, entière"@fr ;
     dcterms:created "2024-04-26"^^xsd:date ;
-    dcterms:modified "2026-09-24"^^xsd:date ;
+    dcterms:modified "2026-11-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL448 ;
     skos:altLabel "Lepto-po"@en ;
     skos:notation "VAL348"^^xsd:string .
@@ -27864,7 +27864,7 @@ nuva:VAL422 a owl:Class ;
     rdfs:label "Plague valence, unspecified"@en,
         "Valence peste, sans précision"@fr ;
     dcterms:created "2025-05-21"^^xsd:date ;
-    dcterms:modified "2025-05-21"^^xsd:date ;
+    dcterms:modified "2026-11-02"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
     skos:altLabel "Yp"@en ;
     skos:notation "VAL422"^^xsd:string .
@@ -28365,7 +28365,7 @@ nuva:VAL044 a owl:Class ;
         "Varicella"@pl,
         "Varicella"@pt ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-11-02"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
     skos:altLabel "VZV-LA"@en ;
     skos:notation "VAL044"^^xsd:string .
@@ -28486,7 +28486,7 @@ nuva:VAL106 a owl:Class ;
         "Szczepionka przeciwko rotawirusom, nieokreślona"@pl,
         "Vacina contra rotavírus, não especificada"@pt ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2026-09-12"^^xsd:date ;
+    dcterms:modified "2026-11-02"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
     skos:altLabel "ROTA-LA"@en ;
     skos:notation "VAL106"^^xsd:string .
@@ -28980,7 +28980,7 @@ nuva:VAL340 a owl:Class ;
         "Wartość przeciwko wąglikowi, bez określenia"@pl,
         "Valência contra o antraz, sem especificação"@pt ;
     dcterms:created "2024-03-26"^^xsd:date ;
-    dcterms:modified "2026-09-12"^^xsd:date ;
+    dcterms:modified "2026-11-02"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
     skos:altLabel "Anthrax"@en ;
     skos:notation "VAL340"^^xsd:string .
@@ -29725,7 +29725,7 @@ nuva:VAL182 a owl:Class ;
         "Szczepionka przeciwko boreliozie, nieokreślona"@pl,
         "Vacina contra o sarampo, não especificada"@pt ;
     dcterms:created "2022-03-27"^^xsd:date ;
-    dcterms:modified "2026-09-12"^^xsd:date ;
+    dcterms:modified "2026-11-02"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
     skos:altLabel "MEAS"@en ;
     skos:notation "VAL182"^^xsd:string .
@@ -30342,7 +30342,7 @@ nuva:VAL005 a owl:Class ;
     rdfs:label "Measles valence, live attenuated"@en,
         "Valence rougeole, vivante atténuée"@fr ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-11-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL182 ;
     skos:altLabel "MEAS-LA"@en ;
     skos:notation "VAL005"^^xsd:string .
