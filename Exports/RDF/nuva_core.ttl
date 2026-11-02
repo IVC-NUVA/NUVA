@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "2026-10-27" .
+    owl:versionInfo "2026-11-02" .
 
 nuva:NUVACode a owl:Class ;
     rdfs:label "NUVA Code" ;
@@ -11351,7 +11351,7 @@ nuva:VAL018 a owl:Class ;
 nuva:VAL019 a owl:Class ;
     rdfs:label "Diphtheria valence, antitoxin"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-11-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL414 ;
     skos:altLabel "DATx"@en ;
     skos:notation "VAL019"^^xsd:string .
@@ -14137,7 +14137,7 @@ nuva:VAL367 a owl:Class ;
 nuva:VAL414 a owl:Class ;
     rdfs:label "Diphtheria valence, unspecified"@en ;
     dcterms:created "2025-04-04"^^xsd:date ;
-    dcterms:modified "2026-09-12"^^xsd:date ;
+    dcterms:modified "2026-11-02"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
     skos:altLabel "DIPH"@en ;
     skos:notation "VAL414"^^xsd:string .
@@ -15977,7 +15977,7 @@ nuva:VAL057 a owl:Class ;
 nuva:VAL083 a owl:Class ;
     rdfs:label "Diphtheria valence, toxoid, dose unspecified"@en ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-11-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL414 ;
     skos:altLabel "D-d"@en ;
     skos:notation "VAL083"^^xsd:string .

@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ivci.org/NUVA> a owl:Ontology ;
-    owl:versionInfo "2026-10-27"^^xsd:string .
+    owl:versionInfo "2026-11-02"^^xsd:string .
 
 <http://ivci.org/NUVA/#MISS> skos:notation "07"^^<http://ivci.org/NUVA/﻿ATC>,
         "07A"^^<http://ivci.org/NUVA/﻿ATC>,
@@ -540,13 +540,11 @@ nuva:NUVACode a owl:Class ;
     rdfs:subClassOf nuva:Code .
 
 nuva:VAC0000 a owl:Class ;
-    rdfs:label "#Orphans"@en,
-        "#Orphelins"@fr ;
+    rdfs:label "#Orphans"@en ;
     nuvs:containsValence nuva:VAL000 ;
     dcterms:created "2026-09-10"^^xsd:date ;
     dcterms:modified "2026-09-10"^^xsd:date ;
-    rdfs:comment "Abstract for orphan vaccines"@en,
-        "Classe abstraite pour les vaccins orphelins"@fr ;
+    rdfs:comment "Abstract for orphan vaccines"@en ;
     rdfs:subClassOf nuva:Vaccine ;
     skos:notation "0000"^^nuva:NUVACode,
         "VAC0000"^^xsd:string .
@@ -5704,7 +5702,7 @@ nuva:VAC0243 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-27"^^xsd:date ;
     rdfs:comment "Recombinant hepatitis B vaccine, adult dose"@en,
-        "Vaccin contre l'hépatite B (Dosage pédiatrique à 10 µg/mL et dosage adulte à 20 µg/mL)"@fr ;
+        "Vaccin recombinant contre l'hépatite B, dose adulte"@fr ;
     rdfs:subClassOf nuva:VAC0915 ;
     skos:notation "0243"^^nuva:NUVACode,
         "601002000108"^^<http://ivci.org/NUVA/﻿SCT_NUVA>,
@@ -6970,7 +6968,7 @@ nuva:VAC0356 a owl:Class ;
     dcterms:created "2021-07-19"^^xsd:date ;
     dcterms:modified "2026-10-27"^^xsd:date ;
     rdfs:comment "Hepatitis B vaccine, pediatric dose"@en,
-        "Vaccin contre l'hépatite B , dosage pédiatrique à 10 µg"@fr ;
+        "Vaccin contre l'hépatite B, dose pédiatrique"@fr ;
     rdfs:subClassOf nuva:VAC1227 ;
     skos:notation "0356"^^nuva:NUVACode,
         "26710"^^<http://ivci.org/NUVA/﻿AIC>,
@@ -20768,7 +20766,8 @@ nuva:VAC1560 a owl:Class ;
     rdfs:label "RECOMBIVAX HB ADULT"^^xsd:string ;
     dcterms:created "2026-10-19"^^xsd:date ;
     dcterms:modified "2026-10-27"^^xsd:date ;
-    rdfs:comment "Recombinant hepatitis B vaccine, adult dose"@en ;
+    rdfs:comment "Recombinant hepatitis B vaccine, adult dose"@en,
+        "Vaccin recombinant contre l'hépatite B, dose adulte"@fr ;
     rdfs:subClassOf nuva:VAC0914 ;
     skos:notation "1560"^^nuva:NUVACode,
         "VAC1560"^^xsd:string .
@@ -20777,7 +20776,8 @@ nuva:VAC1561 a owl:Class ;
     rdfs:label "HEPA-B INJECTION PEDIATRIC"^^xsd:string ;
     dcterms:created "2026-10-20"^^xsd:date ;
     dcterms:modified "2026-10-27"^^xsd:date ;
-    rdfs:comment "Recombinant hepatitis B vaccine, paediatric dose"@en ;
+    rdfs:comment "Recombinant hepatitis B vaccine, paediatric dose"@en,
+        "Vaccin recombinant contre l'hépatite B, dose pédiatrique"@fr ;
     rdfs:subClassOf nuva:VAC0914 ;
     skos:notation "1561"^^nuva:NUVACode,
         "VAC1561"^^xsd:string .
@@ -23379,8 +23379,7 @@ nuva:VAC1555 a owl:Class ;
         "VAC1555"^^xsd:string .
 
 nuva:VAL000 a owl:Class ;
-    rdfs:label "Parent for deprecated valences"@en,
-        "Parent pour les valences dépréciées"@fr ;
+    rdfs:label "Parent for deprecated valences"@en ;
     dcterms:created "2026-09-10"^^xsd:date ;
     dcterms:modified "2026-09-10"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
@@ -23466,7 +23465,7 @@ nuva:VAL019 a owl:Class ;
         "Antytoksyna błonicza"@pl,
         "Difteria antitoxina"@pt ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-11-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL414 ;
     skos:altLabel "DATx"@en ;
     skos:notation "VAL019"^^xsd:string .
@@ -25010,7 +25009,7 @@ nuva:VAL291 a owl:Class ;
     rdfs:label "Rekombinante Hepatitis-B-Valenz, drei Antigene (HbS, Prä-S1 und Prä-S2)"@de,
         "Ανασυνδυασμένη βαλεντία της ηπατίτιδας Β, τρία αντιγόνα (HbS, προ-S1 και προ-S2)"@el,
         "Hepatitis B valence, Recombinant, three antigens (HbS Ag, pre-S1, and pre-S2)"@en,
-        "Valence hépatite B, ant!gène de surface recombinant, trois antigènes (Ag HbS, pré-S1 et pré-S2)"@fr,
+        "Valence hépatite B, antigène de surface recombinant, trois antigènes (Ag HbS, pré-S1 et pré-S2)"@fr,
         "Rekombinanta B hepatīta valence, trīs antigēni (HbS, pre-S1 un pre-S2)"@lv,
         "Rekombinowana wartość przeciwko wirusowemu zapaleniu wątroby typu B, trzy antygeny (HbS, pre-S1 i pre-S2)"@pl,
         "Valência vacinal recombinante da hepatite B, três antígenos (HbS, pre-S1 e pre-S2)"@pt ;
@@ -27820,7 +27819,7 @@ nuva:VAL414 a owl:Class ;
         "Walencja błonicza"@pl,
         "Valência diftérica"@pt ;
     dcterms:created "2025-04-04"^^xsd:date ;
-    dcterms:modified "2026-09-12"^^xsd:date ;
+    dcterms:modified "2026-11-02"^^xsd:date ;
     rdfs:subClassOf nuva:Valence ;
     skos:altLabel "DIPH"@en ;
     skos:notation "VAL414"^^xsd:string .
@@ -31222,7 +31221,7 @@ nuva:VAL083 a owl:Class ;
         "Toksoid błoniczy, dawka nieokreślona"@pl,
         "Difteria toxoídica, dose não especificada"@pt ;
     dcterms:created "2021-07-19"^^xsd:date ;
-    dcterms:modified "2025-04-29"^^xsd:date ;
+    dcterms:modified "2026-11-02"^^xsd:date ;
     rdfs:subClassOf nuva:VAL414 ;
     skos:altLabel "D-d"@en ;
     skos:notation "VAL083"^^xsd:string .

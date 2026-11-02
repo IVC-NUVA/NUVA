@@ -1,5 +1,5 @@
 ﻿NUVA,label,comment,type,instanceOf,valences
-VAC0000,#Orphelins,Classe abstraite pour les vaccins orphelins,abstract,,
+VAC0000,#Orphans,Abstract for orphan vaccines,abstract,,
 VAC0001,ACT-HIB,Vaccin conjugué anti-Hemophilus influenzae de type b composé du PRP (polyribosylribitol phosphate) conjugué à l'anatoxine tétanique,real,VAC0345,
 VAC0002,AGRIPPAL,"Vaccin contre la grippe saisonnière inactivé trivalent, cultivé sur oeuf, à antigène de surface",real,VAC0925,
 VAC0003,AVAXIM 160 U,"Vaccin entier inactivé contre l'hépatite A, dose adulte",real,VAC0910,
@@ -226,7 +226,7 @@ VAC0238,FUNED-CEME,"Vaccin pédiatrique diphtérique (anatoxine, dose standard),
 VAC0240,GUNEVAX,Vaccin vivant atténué contre la rubéole,real,VAC0113,
 VAC0241,HAEMOPHILUS INFLUENZAE B CONJUGATE VACCINE - SERUM INSTITUTE OF INDIA,"Vaccin anti-Haemophilus influenzae type b, polyoside capsulaire (phosphate de polyribosylribitol, PRP) conjugué à l'anatoxine tétanique",real,VAC0345,
 VAC0242,HBY,"Vaccin recombinant contre l'hépatite B, dose adulte",real,VAC0915,
-VAC0243,HEPA-B INJECTION ADULT,Vaccin contre l'hépatite B (Dosage pédiatrique à 10 µg/mL et dosage adulte à 20 µg/mL),real,VAC0915,
+VAC0243,HEPA-B INJECTION ADULT,"Vaccin recombinant contre l'hépatite B, dose adulte",real,VAC0915,
 VAC0244,HEPRECOMB,"Vaccin recombinant contre l'hépatite B, dosé à 10 microgrammes d'antigène HBs, utilisable dès l'âge de 11 ans",real,VAC0914,
 VAC0245,HEPTAVAX B,"Vaccin plasmatique contre l'hépatite B, utilisé aux Etats-Unis de 1981 à 1990",real,VAC1155,
 VAC0246,HIBERNA PRODUCTSIX,Vaccin tétanique (anatoxine) et contre la grippe saisonnière (trivalent),real,VAC1130,
@@ -329,7 +329,7 @@ VAC0352,R-HB VACCINE,"Vaccin recombinant contre l'hépatite B, dose adulte",real
 VAC0353,R-VAC,Vaccin vivant atténué contre la rubéole,real,VAC0113,
 VAC0354,RA27/3,Vaccin vivant atténué contre la rubéole,real,VAC0113,
 VAC0355,RABAVERT,"Vaccin rabique entier inactivé, cultivé sur cellules d’embryon de poulet (PCEC), inactivation par la ß-propiolactone",real,VAC0942,
-VAC0356,RECOMBIVAX HB PEDIATRIC,"Vaccin contre l'hépatite B , dosage pédiatrique à 10 µg",real,VAC1227,
+VAC0356,RECOMBIVAX HB PEDIATRIC,"Vaccin contre l'hépatite B, dose pédiatrique",real,VAC1227,
 VAC0357,"RESPIGAM, RSV-IVIG",Immunoglobuline contre le virus respiratoire syncytial (VRS),real,VAC1223,
 VAC0358,"Immunoglobuline Rage origine humaine, sans précision","Immunoglobuline anti-rabique, origine humaine",abstract,,RIG-hu
 VAC0359,RIMEVAX,Vaccin vivant atténué contre la rougeole,real,VAC0114,
@@ -1486,5 +1486,5 @@ VAC1556,TG4050,"Non-HPV-related squamous cell carcinomas of the head and neck va
 VAC1557,"Vaccin grippe, trivalent, inactivé, fractionné ou sous-unité, sans précision","Influenza vaccine, trivalent, inactivated, split or subunit, unspecified",abstract,,INF-ESU3
 VAC1558,EUTYPH-C,"Typhoid vaccine, Vi antigen conjugated to CRM197 protein",real,VAC1425,
 VAC1559,EUVICHOL,"Vaccin cholérique, oral, bivalent constitué de cellules entières tuées de Vibrio cholerae O1 (classique et El Tor) et O139",real,VAC1257,
-VAC1560,RECOMBIVAX HB ADULT,"Recombinant hepatitis B vaccine, adult dose",real,VAC0914,
-VAC1561,HEPA-B INJECTION PEDIATRIC,"Recombinant hepatitis B vaccine, paediatric dose",real,VAC0914,
+VAC1560,RECOMBIVAX HB ADULT,"Vaccin recombinant contre l'hépatite B, dose adulte",real,VAC0914,
+VAC1561,HEPA-B INJECTION PEDIATRIC,"Vaccin recombinant contre l'hépatite B, dose pédiatrique",real,VAC0914,

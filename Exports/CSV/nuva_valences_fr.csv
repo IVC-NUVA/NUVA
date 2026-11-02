@@ -1,5 +1,5 @@
 ﻿NUVA,label,comment,shorthand,parent
-VAL000,Parent pour les valences dépréciées,,ZZZ,Valence
+VAL000,Parent for deprecated valences,,ZZZ,Valence
 VAL001,"Valence grippe, trivalente, vivante atténuée, dose normale",,INF-L3,VAL140
 VAL002,"Valence typhoïde, conjuguée, antigène capsulaire polyosidique Vi lié à une protéine porteuse",,Ty-ViC,VAL014
 VAL003,"Valence coqueluche, sans précision",,Per,Valence
@@ -290,7 +290,7 @@ VAL287,"Valence grippe, quadrivalente, recombinante",,INF-R4,VAL361
 VAL288,"Valence hépatite A, sans précision",,HepA,Valence
 VAL289,"Valence covid 19, virus originel, ARNm codant la protéine de pointe du SARS-CoV-2, 10 microgrammes",, COVID-mRNA-S-ORI-10,VAL303
 VAL290,"Valence covid 19, virus originel,  ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes",,COVID-mRNA-S-ORI-30,VAL303
-VAL291,"Valence hépatite B, ant!gène de surface recombinant, trois antigènes (Ag HbS, pré-S1 et pré-S2)",,HBs-r-3Ag,VAL068
+VAL291,"Valence hépatite B, antigène de surface recombinant, trois antigènes (Ag HbS, pré-S1 et pré-S2)",,HBs-r-3Ag,VAL068
 VAL292,"Valence covid 19, vecteur viral non réplicatif, adénovirus 26 codant la protéine de pointe du SARS-CoV-2, en essai clinique",,COVID-VVnr-S-Ad26-CT,VAL070
 VAL293,"Valence charbon, immunoglobuline",,Anthrax-Ig,VAL340
 VAL294,"Valence variole, première génération, vivant atténué",,POX-1G,VAL022

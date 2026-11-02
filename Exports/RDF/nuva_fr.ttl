@@ -1,8 +1,5 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://ivci.org/NUVA/VAC0000> rdfs:label "#Orphelins"@fr ;
-    rdfs:comment "Classe abstraite pour les vaccins orphelins"@fr .
-
 <http://ivci.org/NUVA/VAC0001> rdfs:comment "Vaccin conjugué anti-Hemophilus influenzae de type b composé du PRP (polyribosylribitol phosphate) conjugué à l'anatoxine tétanique"@fr .
 
 <http://ivci.org/NUVA/VAC0002> rdfs:comment "Vaccin contre la grippe saisonnière inactivé trivalent, cultivé sur oeuf, à antigène de surface"@fr .
@@ -486,7 +483,7 @@ Autres noms : JEVAX, BIKEN"""@fr .
 
 <http://ivci.org/NUVA/VAC0242> rdfs:comment "Vaccin recombinant contre l'hépatite B, dose adulte"@fr .
 
-<http://ivci.org/NUVA/VAC0243> rdfs:comment "Vaccin contre l'hépatite B (Dosage pédiatrique à 10 µg/mL et dosage adulte à 20 µg/mL)"@fr .
+<http://ivci.org/NUVA/VAC0243> rdfs:comment "Vaccin recombinant contre l'hépatite B, dose adulte"@fr .
 
 <http://ivci.org/NUVA/VAC0244> rdfs:comment "Vaccin recombinant contre l'hépatite B, dosé à 10 microgrammes d'antigène HBs, utilisable dès l'âge de 11 ans"@fr .
 
@@ -694,7 +691,7 @@ Autres noms : JEVAX, BIKEN"""@fr .
 
 <http://ivci.org/NUVA/VAC0355> rdfs:comment "Vaccin rabique entier inactivé, cultivé sur cellules d’embryon de poulet (PCEC), inactivation par la ß-propiolactone"@fr .
 
-<http://ivci.org/NUVA/VAC0356> rdfs:comment "Vaccin contre l'hépatite B , dosage pédiatrique à 10 µg"@fr .
+<http://ivci.org/NUVA/VAC0356> rdfs:comment "Vaccin contre l'hépatite B, dose pédiatrique"@fr .
 
 <http://ivci.org/NUVA/VAC0357> rdfs:comment "Immunoglobuline contre le virus respiratoire syncytial (VRS)"@fr .
 
@@ -3150,7 +3147,9 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAC1559> rdfs:comment "Vaccin cholérique, oral, bivalent constitué de cellules entières tuées de Vibrio cholerae O1 (classique et El Tor) et O139"@fr .
 
-<http://ivci.org/NUVA/VAL000> rdfs:label "Parent pour les valences dépréciées"@fr .
+<http://ivci.org/NUVA/VAC1560> rdfs:comment "Vaccin recombinant contre l'hépatite B, dose adulte"@fr .
+
+<http://ivci.org/NUVA/VAC1561> rdfs:comment "Vaccin recombinant contre l'hépatite B, dose pédiatrique"@fr .
 
 <http://ivci.org/NUVA/VAL001> rdfs:label "Valence grippe, trivalente, vivante atténuée, dose normale"@fr .
 
@@ -3732,7 +3731,7 @@ Autres noms : TAK-003 ; DENVAX ; DENGUE TETRAVALENT VACCINE (LIVE, ATTENUATED) T
 
 <http://ivci.org/NUVA/VAL290> rdfs:label "Valence covid 19, virus originel,  ARNm codant la protéine de pointe du SARS-CoV-2, 30 microgrammes"@fr .
 
-<http://ivci.org/NUVA/VAL291> rdfs:label "Valence hépatite B, ant!gène de surface recombinant, trois antigènes (Ag HbS, pré-S1 et pré-S2)"@fr .
+<http://ivci.org/NUVA/VAL291> rdfs:label "Valence hépatite B, antigène de surface recombinant, trois antigènes (Ag HbS, pré-S1 et pré-S2)"@fr .
 
 <http://ivci.org/NUVA/VAL292> rdfs:label "Valence covid 19, vecteur viral non réplicatif, adénovirus 26 codant la protéine de pointe du SARS-CoV-2, en essai clinique"@fr .
 
