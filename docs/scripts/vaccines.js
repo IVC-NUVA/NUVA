@@ -264,7 +264,7 @@ function setVaccineValences() {
 		return
 	}
 	
-	vlist = Array.from(selectedValences)
+	vlist = Array.from(context.selectedValences)
 	vkey = vlist.sort(sortByValShortHand).join("-")
 	if (vkey in abstractVaccines) {
 		showAlert (`An abstract vaccine with these valences already exists : ${abstractVaccines[vkey]}`)
