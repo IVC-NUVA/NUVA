@@ -3065,6 +3065,8 @@ fr:
       tuées de Vibrio cholerae O1 (classique et El Tor) et O139
     VAC1560C: Vaccin recombinant contre l'hépatite B, dose adulte
     VAC1561C: Vaccin recombinant contre l'hépatite B, dose pédiatrique
+    VAC0000C: Classe abstraite pour les vaccins orphelins
+    VAC0000L: '#Orphelins'
   valence:
     VAL001L: Valence grippe, trivalente, vivante atténuée, dose normale
     VAL002L: Valence typhoïde, conjuguée, antigène capsulaire polyosidique Vi 
@@ -3694,3 +3696,4 @@ fr:
     VAL449L: Valence grippe, ARN, trivalente, sans précision
     VAL450L: Valence Cancers épidermoïdes de la tête et du cou non liés au 
       papillomavirus, non précisé
+    VAL000L: Parent pour les valences dépréciées
