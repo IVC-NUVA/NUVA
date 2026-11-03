@@ -287,7 +287,7 @@ function viewEditValence() {
 	else
 	{
 		codeField.readOnly = false
-		codeField.value = "VALxxx"
+		codeField.value = 'VAL'+(maxValence+1).toString().padStart(3,'0')		
 		codeField.style.backgroundColor = ""			
         valence = {
             'shorthand': 'to be completed',

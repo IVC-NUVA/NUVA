@@ -172,7 +172,7 @@ function viewEditVaccine(isAbstract, vclass) {
 		resetButton.style.display = (extvaccines[idvac].changed?'inline':'none')
     } else {          // New vaccine
 		codeField.readOnly = false
-		codeField.value = 'VACxxxx'
+		codeField.value = 'VAC'+(maxVaccine+1).toString().padStart(4,'0')
 		codeField.style.backgroundColor = ""		
 		vaccine = (isAbstract? voidAbstract: voidReal)
 		assignButton.style.display = 'none'

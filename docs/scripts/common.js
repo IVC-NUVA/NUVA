@@ -9,6 +9,8 @@ var valences
 var extvaccines = {}
 var extvalences = {}
 var abstractVaccines = {}
+var maxVaccine
+var maxValence
 var context = voidContext
 var loglines = []
 var logTimer = null
@@ -312,7 +314,10 @@ function realVaccineChanged(idvac) {
 function rebuildValences() {
 	var idval
 	extvalences = {}
+	maxValence = 0
 	for (idval in valences) {
+		index = parseInt(idval.substring(3))
+		if (index > maxValence) { maxValence = index }
 		extvalences[idval] = {
 			'changed': valenceChanged(idval),
 			'lineage': [], 
@@ -366,8 +371,12 @@ function rebuildValences() {
 function rebuildVaccines() {
 	abstractVaccines = {}
 	extvaccines = {'VAC0000': {'changed': false}}
+	maxVaccine = 0
 	
 	for (idvac in vaccines) {
+		index = parseInt(idvac.substring(3))
+		if (index > maxVaccine) { maxVaccine = index}
+		
 		vaccine = vaccines[idvac]		
 		if (vaccine.type == 'abstract') {
 			vkey = valencesKey(vaccine)
